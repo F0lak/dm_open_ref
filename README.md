@@ -11,7 +11,7 @@ View the live web reference [here](http://www.byond.com/docs/ref).
 
 ------------------------------------------------------------------------
 
-#/DM
+{#/DM}
 
 ## DM language details
 

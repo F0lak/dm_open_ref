@@ -9,7 +9,7 @@ The multi-line comment begins with `/*` and runs until `*/`.
 Multi-line comments may be nested.
 ### Example:
 ```
-// single line comment /
+// single line comment
 \*
   multi-line
   comment

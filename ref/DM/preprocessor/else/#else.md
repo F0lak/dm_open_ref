@@ -1,4 +1,4 @@
 []{#/DM/preprocessor/else}
-## #else directive
-**See:**
-:   [#if directive](#/DM/preprocessor/if)
+  ## #else directive
+  **See:**
+  :   [#if directive](ref/DM/preprocessor/if)

@@ -1,4 +1,4 @@
 []{#/DM/preprocessor/elif}
-## #elif directive
-**See:**
-:   [#if directive](#/DM/preprocessor/if)
+  ## #elif directive
+  **See:**
+  :   [#if directive](ref/DM/preprocessor/if)

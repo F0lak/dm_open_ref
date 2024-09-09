@@ -1,16 +1,16 @@
 []{#/operator/&=}
-## &= operator
-**See also:**
-:   [& operator](#/operator/&)
-:   [operators](#/operator)
-:   [\|= operator](#/operator/%7C=)
-<!-- -->
-**Format:**
-:   A &= B
-Set A equal to A & B. It is shorthand for A = A & B.
-This is commonly used to turn off certain bitfields in a word.
-### Example:
-usr.sight &= \~BLIND // turn off the blind bit
-If A and B are lists, items in A that are not in B are removed.
-If A is an /icon or /matrix datum, the datum will be changed rather than
-creating a new one and re-assigning it to A.
+  ## &= operator
+  **See also:**
+  :   [& operator](ref/operator/&)
+  :   [operators](ref/operator)
+  :   [\|= operator](ref/operator/%7C=)
+  <!-- -->
+  **Format:**
+  :   A &= B
+  Set A equal to A & B. It is shorthand for A = A & B.
+  This is commonly used to turn off certain bitfields in a word.
+  ### Example:
+  usr.sight &= \~BLIND // turn off the blind bit
+  If A and B are lists, items in A that are not in B are removed.
+  If A is an /icon or /matrix datum, the datum will be changed rather than
+  creating a new one and re-assigning it to A.

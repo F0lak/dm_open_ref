@@ -1,13 +1,13 @@
 []{#/database/proc}
-## procs (database) {#procs-database byondver="506"}
-**See also:**
-:   [database datum](#/database)
-:   [database query datum](#/database/query)
-:   [procs (database query)](#/database/query/proc)
-Built-in database procs:
-database/proc
-:   [Close](#/database/proc/Close)
-:   [Error](#/database/proc/Error)
-:   [ErrorMsg](#/database/proc/ErrorMsg)
-:   [New](#/database/proc/New)
-:   [Open](#/database/proc/Open)
+  ## procs (database) {#procs-database byondver="506"}
+  **See also:**
+  :   [database datum](ref/database)
+  :   [database query datum](ref/database/query)
+  :   [procs (database query)](ref/database/query/proc)
+  Built-in database procs:
+  database/proc
+  :   [Close](ref/database/proc/Close)
+  :   [Error](ref/database/proc/Error)
+  :   [ErrorMsg](ref/database/proc/ErrorMsg)
+  :   [New](ref/database/proc/New)
+  :   [Open](ref/database/proc/Open)

@@ -1,16 +1,16 @@
 []{#/operator/%3c%3e}
-## \<\> operator
-**See also:**
-:   [!= operator](#/operator/!=)
-:   [\> operator](#/operator/%3e)
-:   [\< operator](#/operator/%3c)
-:   [== operator](#/operator/==)
-:   [operators](#/operator)
-:   [sorttextEx proc](#/proc/sorttextEx)
-<!-- -->
-**Format:**
-:   A \<\> B
-<!-- -->
-**Returns:**
-:   1 if A is not equal to B; 0 otherwise
-This is identical to the != operator.
+  ## \<\> operator
+  **See also:**
+  :   [!= operator](ref/operator/!=)
+  :   [\> operator](ref/operator/%3e)
+  :   [\< operator](ref/operator/%3c)
+  :   [== operator](ref/operator/==)
+  :   [operators](ref/operator)
+  :   [sorttextEx proc](ref/proc/sorttextEx)
+  <!-- -->
+  **Format:**
+  :   A \<\> B
+  <!-- -->
+  **Returns:**
+  :   1 if A is not equal to B; 0 otherwise
+  This is identical to the != operator.

@@ -1,9 +1,9 @@
 []{#/savefile/operator/%3c%3c}    
 ## \<\< operator (savefile)    
 **See also:**    
-:   [\>\> operator (savefile)](ref/savefile/operator/%3e%3e)    
-:   [\<\< output operator](ref/operator/%3c%3c/output)    
-:   [Write proc (datum)](ref/datum/proc/Write)    
+:   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e)    
+:   [\<\< output operator](/ref/operator/%3c%3c/output)    
+:   [Write proc (datum)](/ref/datum/proc/Write)    
 <!-- -->    
 **Format:**    
 :   F \<\< Val    

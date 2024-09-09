@@ -1,7 +1,7 @@
 []{#/{skin}/param/max-lines}    
 ## max-lines parameter (skin)    
 **Applies to:**    
-:   [Output](ref/%7Bskin%7D/control/output)    
+:   [Output](/ref/%7Bskin%7D/control/output)    
 <!-- -->    
 **Format:**    
 :   number    

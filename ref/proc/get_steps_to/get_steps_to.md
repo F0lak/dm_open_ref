@@ -1,10 +1,10 @@
 []{#/proc/get_steps_to}    
 ## get_steps_to proc {#get_steps_to-proc byondver="515"}    
 **See also:**    
-:   [step proc](ref/proc/step)    
-:   [step_to proc](ref/proc/step_to)    
-:   [walk_to proc](ref/proc/walk_to)    
-:   [get_step_to proc](ref/proc/get_step_to)    
+:   [step proc](/ref/proc/step)    
+:   [step_to proc](/ref/proc/step_to)    
+:   [walk_to proc](/ref/proc/walk_to)    
+:   [get_step_to proc](/ref/proc/get_step_to)    
 <!-- -->    
 **Format:**    
 :   get_steps_to(Ref, Trg, Min=0)    

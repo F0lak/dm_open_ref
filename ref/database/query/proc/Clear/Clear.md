@@ -1,8 +1,8 @@
 []{#/database/query/proc/Clear}    
 ## Clear proc (database query) {#clear-proc-database-query byondver="506"}    
 **See also:**    
-:   [database query datum](ref/database/query)    
-:   [Add proc (database query)](ref/database/query/proc/Add)    
+:   [database query datum](/ref/database/query)    
+:   [Add proc (database query)](/ref/database/query/proc/Add)    
 <!-- -->    
 **Format:**    
 :   Clear()    

@@ -1,7 +1,7 @@
 []{#/proc/html_decode}    
 ## html_decode proc    
 **See also:**    
-:   [html_encode proc](ref/proc/html_encode)    
+:   [html_encode proc](/ref/proc/html_encode)    
 <!-- -->    
 **Format:**    
 :   html_decode(HtmlText)    

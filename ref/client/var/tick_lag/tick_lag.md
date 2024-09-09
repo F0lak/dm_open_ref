@@ -1,9 +1,9 @@
 []{#/client/var/tick_lag}    
 ## tick_lag var (client) {#tick_lag-var-client byondver="511"}    
 **See also:**    
-:   [tick_lag var (world)](ref/world/var/tick_lag)    
-:   [fps var (client)](ref/client/var/fps)    
-:   [Pixel movement](ref/%7Bnotes%7D/pixel-movement)    
+:   [tick_lag var (world)](/ref/world/var/tick_lag)    
+:   [fps var (client)](/ref/client/var/fps)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement)    
 <!-- -->    
 **Default value:**    
 :   0 (uses world.tick_lag value)    

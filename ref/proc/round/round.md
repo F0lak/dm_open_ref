@@ -1,10 +1,10 @@
 []{#/proc/round}    
 ## round proc    
 **See also:**    
-:   [floor proc](ref/proc/floor)    
-:   [ceil proc](ref/proc/ceil)    
-:   [trunc proc](ref/proc/trunc)    
-:   [fract proc](ref/proc/fract)    
+:   [floor proc](/ref/proc/floor)    
+:   [ceil proc](/ref/proc/ceil)    
+:   [trunc proc](/ref/proc/trunc)    
+:   [fract proc](/ref/proc/fract)    
 <!-- -->    
 **Format:**    
 :   round(A)    

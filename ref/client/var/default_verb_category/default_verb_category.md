@@ -1,8 +1,8 @@
 []{#/client/var/default_verb_category}    
 ## default_verb_category var (client)    
 **See also:**    
-:   [category setting (verb)](ref/verb/set/category)    
-:   [show_verb_panel var (client)](ref/client/var/show_verb_panel)    
+:   [category setting (verb)](/ref/verb/set/category)    
+:   [show_verb_panel var (client)](/ref/client/var/show_verb_panel)    
 <!-- -->    
 **Default value:**    
 :   \"Commands\"    

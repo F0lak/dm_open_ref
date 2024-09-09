@@ -1,9 +1,9 @@
 []{#/proc/walk}    
 ## walk proc    
 **See also:**    
-:   [get_step proc](ref/proc/get_step)    
-:   [step proc](ref/proc/step)    
-:   [step_size var (movable atom)](ref/atom/movable/var/step_size)    
+:   [get_step proc](/ref/proc/get_step)    
+:   [step proc](/ref/proc/step)    
+:   [step_size var (movable atom)](/ref/atom/movable/var/step_size)    
 <!-- -->    
 **Format:**    
 :   walk(Ref,Dir,Lag=0,Speed=0)    

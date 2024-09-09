@@ -1,9 +1,9 @@
 []{#/proc/initial}    
 ## initial proc    
 **See also:**    
-:   [:: operator](ref/operator/::)    
-:   [issaved proc](ref/proc/issaved)    
-:   [vars list var (datum)](ref/datum/var/vars)    
+:   [:: operator](/ref/operator/::)    
+:   [issaved proc](/ref/proc/issaved)    
+:   [vars list var (datum)](/ref/datum/var/vars)    
 <!-- -->    
 **Format:**    
 :   initial(Var)    

@@ -1,9 +1,9 @@
 []{#/regex/proc/New}    
 ## New proc (regex) {#new-proc-regex byondver="510"}    
 **See also:**    
-:   [Regular expressions](ref/%7Bnotes%7D/regex)    
-:   [regex datum](ref/regex)    
-:   [regex proc](ref/proc/regex)    
+:   [Regular expressions](/ref/%7Bnotes%7D/regex)    
+:   [regex datum](/ref/regex)    
+:   [regex proc](/ref/proc/regex)    
 <!-- -->    
 **Format:**    
 :   regex(pattern, flags)    

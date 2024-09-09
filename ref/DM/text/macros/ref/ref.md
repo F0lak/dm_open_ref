@@ -1,11 +1,11 @@
 []{#/DM/text/macros/ref}    
 ## ref text macro {#ref-text-macro byondver="513"}    
 **See also:**    
-:   [Topic proc (client)](ref/client/proc/Topic)    
-:   [icon text macro](ref/DM/text/macros/icon)    
-:   [locate proc](ref/proc/locate)    
-:   [macros (text)](ref/DM/text/macros)    
-:   [tag var (datum)](ref/datum/var/tag)    
+:   [Topic proc (client)](/ref/client/proc/Topic)    
+:   [icon text macro](/ref/DM/text/macros/icon)    
+:   [locate proc](/ref/proc/locate)    
+:   [macros (text)](/ref/DM/text/macros)    
+:   [tag var (datum)](/ref/datum/var/tag)    
 The `\ref` text macro inserts a unique identification number or text    
 string for the following embedded object (inside \[\]\'s).    
 In older versions of BYOND, if an object had a tag, that was used    
@@ -18,7 +18,7 @@ The primary use for object references embedded in text is in topic
 links. This allows you to encode a reference to an object in the href    
 value of a hyperlink. (Just make sure the object does not get deleted    
 before the user executes the link. See [garbage    
-collection](ref/DM/garbage).)    
+collection](/ref/DM/garbage).)    
 Topic links that contain a parameter \"src\" assigned to an object    
 reference are treated somewhat specially. Unless you override    
 client.Topic() to do otherwise, the default behavior is to call the    
@@ -38,7 +38,7 @@ yourself using the locate() instruction.
 ### Browser images    
 In output for browser controls, you can use `\ref[object]` as the src    
 parameter for an \<img\> tag. The object can be an    
-[appearance](ref/atom/var/appearance), an icon, or an atom or image.    
+[appearance](/ref/atom/var/appearance), an icon, or an atom or image.    
 If the ref string is for an icon, you can add an HTML query string after    
 the icon reference.    
 ### Example:    
@@ -52,7 +52,7 @@ sheet
     matching frame is used    
 state=*ICON_STATE*    
 :   Use a specific icon state; be sure to    
-    [url_encode](ref/proc/url_encode){.code} it)    
+    [url_encode](/ref/proc/url_encode){.code} it)    
 moving=*M*    
 :   Specify whether to choose only moving (M=1) or non-moving (M=0)    
     states    

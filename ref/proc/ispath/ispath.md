@@ -1,7 +1,7 @@
 []{#/proc/ispath}    
 ## ispath proc    
 **See also:**    
-:   [typesof proc](ref/proc/typesof)    
+:   [typesof proc](/ref/proc/typesof)    
 <!-- -->    
 **Format:**    
 :   ispath(Val)    

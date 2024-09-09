@@ -1,10 +1,10 @@
 []{#/proc/range}    
 ## range proc    
 **See also:**    
-:   [\<\< output operator](ref/operator/%3c%3c/output)    
-:   [block](ref/proc/block)    
-:   [view proc](ref/proc/view)    
-:   [orange proc](ref/proc/orange)    
+:   [\<\< output operator](/ref/operator/%3c%3c/output)    
+:   [block](/ref/proc/block)    
+:   [view proc](/ref/proc/view)    
+:   [orange proc](/ref/proc/orange)    
 <!-- -->    
 **Format:**    
 :   range(Dist,Center=usr)    

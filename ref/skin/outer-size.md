@@ -1,11 +1,11 @@
 []{#/{skin}/param/outer-size}    
 ## outer-size parameter (skin) {#outer-size-parameter-skin byondver="513"}    
 **See also:**    
-:   [size parameter](ref/%7Bskin%7D/param/size)    
-:   [inner-size parameter](ref/%7Bskin%7D/param/inner-size)    
+:   [size parameter](/ref/%7Bskin%7D/param/size)    
+:   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size)    
 <!-- -->    
 **Applies to:**    
-:   [Main](ref/%7Bskin%7D/control/main)    
+:   [Main](/ref/%7Bskin%7D/control/main)    
 <!-- -->    
 **Format:**    
 :   *width*x*height*    
@@ -14,5 +14,5 @@ If the control is a window, this refers to its current exterior size
 *including* titlebar, statusbar, borders, etc. If the window is    
 maximized, this is the maximized size.    
 If this control is a pane and    
-[can-scroll](ref/%7Bskin%7D/param/can-scroll){.code} is true, this is the    
+[can-scroll](/ref/%7Bskin%7D/param/can-scroll){.code} is true, this is the    
 size of the display area including the scrollbars.  

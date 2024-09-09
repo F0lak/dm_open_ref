@@ -1,10 +1,10 @@
 []{#/world/var/cpu}    
 ## cpu var (world)    
 **See also:**    
-:   [map_cpu var (world)](ref/world/var/map_cpu)    
-:   [tick_lag var (world)](ref/world/var/tick_lag)    
-:   [tick_usage var (world)](ref/world/var/tick_usage)    
-:   [Tick proc (world)](ref/world/proc/Tick)    
+:   [map_cpu var (world)](/ref/world/var/map_cpu)    
+:   [tick_lag var (world)](/ref/world/var/tick_lag)    
+:   [tick_usage var (world)](/ref/world/var/tick_usage)    
+:   [Tick proc (world)](/ref/world/proc/Tick)    
 This is the percentage of a server tick that the server spends    
 processing running procs and the work of sending map information to    
 players. A value of 0 would indicate very little cpu usage. A value of    

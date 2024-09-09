@@ -1,10 +1,10 @@
 []{#/proc/arcsin}    
 ## arcsin proc    
 **See also:**    
-:   [arccos proc](ref/proc/arccos)    
-:   [arctan proc](ref/proc/arctan)    
-:   [sin proc](ref/proc/sin)    
-:   [turn proc](ref/proc/turn)    
+:   [arccos proc](/ref/proc/arccos)    
+:   [arctan proc](/ref/proc/arctan)    
+:   [sin proc](/ref/proc/sin)    
+:   [turn proc](/ref/proc/turn)    
 <!-- -->    
 **Format:**    
 :   arcsin(X)    

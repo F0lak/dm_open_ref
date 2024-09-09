@@ -15,7 +15,7 @@ simpler alternative to `client.CheckPassport()`, which is deprecated,
 and also allows you to check even when the player has gone offline.    
 This proc will return null if contacting the hub was required, but there    
 was no way to reach the hub. Contacting the hub may take a few moments,    
-so it is a good idea to use [spawn()](ref/proc/spawn){.code} to avoid    
+so it is a good idea to use [spawn()](/ref/proc/spawn){.code} to avoid    
 holding up the rest of the game.    
 ### Example:    
 mob/verb/JoinClub() if(!world.IsSubscribed(src)) src \<\< \"Sorry, the    

@@ -1,8 +1,8 @@
 []{#/world/var/log}    
 ## log var (world)    
 **See also:**    
-:   [file proc](ref/proc/file)    
-:   [startup proc](ref/proc/startup)    
+:   [file proc](/ref/proc/file)    
+:   [startup proc](/ref/proc/startup)    
 Sending output to world.log may be useful for debugging purposes. The    
 output goes to the same place run-time proc errors are displayed.    
 ### Example:    

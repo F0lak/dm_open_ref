@@ -1,13 +1,13 @@
 []{#/world/var/movement_mode}    
 ## movement_mode var (world)    
 **See also:**    
-:   [appearance_flags var (atom)](ref/atom/var/appearance_flags)    
-:   [Enter proc (atom)](ref/atom/proc/Enter)    
-:   [Exit proc (atom)](ref/atom/proc/Exit)    
-:   [Cross proc (atom)](ref/atom/proc/Cross)    
-:   [Uncross proc (atom)](ref/atom/proc/Uncross)    
-:   [Pixel movement](ref/%7Bnotes%7D/pixel-movement)    
-:   [Gliding](ref/%7Bnotes%7D/gliding)    
+:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags)    
+:   [Enter proc (atom)](/ref/atom/proc/Enter)    
+:   [Exit proc (atom)](/ref/atom/proc/Exit)    
+:   [Cross proc (atom)](/ref/atom/proc/Cross)    
+:   [Uncross proc (atom)](/ref/atom/proc/Uncross)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement)    
+:   [Gliding](/ref/%7Bnotes%7D/gliding)    
 <!-- -->    
 **Possible values:**    
 :   `LEGACY_MOVEMENT_MODE`: Old BYOND behavior regarding pixel movement    
@@ -24,7 +24,7 @@ Controls how movement works on the map.
 movement, so if step_x or step_y coordinates or unexpected atom bounds    
 were loaded from a savefile, for instance, they would be eliminated. If    
 you use any other movement mode, you can give an atom the    
-[TILE_MOVER](ref/atom/var/appearance_flags){.code} flag and it will behave    
+[TILE_MOVER](/ref/atom/var/appearance_flags){.code} flag and it will behave    
 as if it were in this mode, while other atoms are free to do their own    
 thing.    
 `LEGACY_MOVEMENT_MODE` exists to distinguish between old and new    

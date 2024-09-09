@@ -1,9 +1,9 @@
 []{#/operator/%25%25}    
 ## %% operator {#operator byondver="515"}    
 **See also:**    
-:   [% operator](ref/operator/%)    
-:   [%%= operator](ref/operator/%25%25=)    
-:   [operators](ref/operator)    
+:   [% operator](/ref/operator/%)    
+:   [%%= operator](/ref/operator/%25%25=)    
+:   [operators](/ref/operator)    
 <!-- -->    
 **Format:**    
 :   A %% B    

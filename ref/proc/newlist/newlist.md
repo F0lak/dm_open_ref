@@ -1,8 +1,8 @@
 []{#/proc/newlist}    
 ## newlist proc    
 **See also:**    
-:   [list proc](ref/proc/list)    
-:   [new proc](ref/proc/new)    
+:   [list proc](/ref/proc/list)    
+:   [new proc](/ref/proc/new)    
 <!-- -->    
 **Format:**    
 :   newlist(A,B,C,\...)    

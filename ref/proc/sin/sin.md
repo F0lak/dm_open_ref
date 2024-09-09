@@ -1,10 +1,10 @@
 []{#/proc/sin}    
 ## sin proc    
 **See also:**    
-:   [arcsin proc](ref/proc/arcsin)    
-:   [cos proc](ref/proc/cos)    
-:   [tan proc](ref/proc/tan)    
-:   [turn proc](ref/proc/turn)    
+:   [arcsin proc](/ref/proc/arcsin)    
+:   [cos proc](/ref/proc/cos)    
+:   [tan proc](/ref/proc/tan)    
+:   [turn proc](/ref/proc/turn)    
 <!-- -->    
 **Format:**    
 :   sin(X)    

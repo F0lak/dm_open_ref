@@ -1,8 +1,8 @@
 []{#/savefile/proc/Unlock}    
 ## Unlock proc (savefile)    
 **See also:**    
-:   [Lock proc (savefile)](ref/savefile/proc/Lock)    
-:   [New proc (savefile)](ref/savefile/proc/New)    
+:   [Lock proc (savefile)](/ref/savefile/proc/Lock)    
+:   [New proc (savefile)](/ref/savefile/proc/New)    
 <!-- -->    
 **Format:**    
 :   Unlock()    

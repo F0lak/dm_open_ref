@@ -1,9 +1,9 @@
 []{#/client/proc/MeasureText}    
 ## MeasureText proc (client) {#measuretext-proc-client byondver="513"}    
 **See also:**    
-:   [maptext var (atom)](ref/atom/var/maptext)    
-:   [maptext_width var (atom)](ref/atom/var/maptext_width)    
-:   [maptext_height var (atom)](ref/atom/var/maptext_height)    
+:   [maptext var (atom)](/ref/atom/var/maptext)    
+:   [maptext_width var (atom)](/ref/atom/var/maptext_width)    
+:   [maptext_height var (atom)](/ref/atom/var/maptext_height)    
 <!-- -->    
 **Format:**    
 :   MeasureText(text, style, width=0)    

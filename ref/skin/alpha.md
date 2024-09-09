@@ -1,10 +1,10 @@
 []{#/{skin}/param/alpha}    
 ## alpha parameter (skin)    
 **See also:**    
-:   [transparent-color parameter](ref/%7Bskin%7D/param/transparent-color)    
+:   [transparent-color parameter](/ref/%7Bskin%7D/param/transparent-color)    
 <!-- -->    
 **Applies to:**    
-:   [Main](ref/%7Bskin%7D/control/main) (window only)    
+:   [Main](/ref/%7Bskin%7D/control/main) (window only)    
 <!-- -->    
 **Format:**    
 :   number    

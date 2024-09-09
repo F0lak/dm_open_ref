@@ -1,14 +1,14 @@
 []{#/atom/var/icon}    
 ## icon var (atom)    
 **See also:**    
-:   [icon proc](ref/proc/icon)    
-:   [icon_state var (atom)](ref/atom/var/icon_state)    
-:   [icons](ref/DM/icon)    
-:   [overlays var (atom)](ref/atom/var/overlays)    
-:   [underlays var (atom)](ref/atom/var/underlays)    
-:   [load_resource proc](ref/proc/load_resource)    
-:   [icon_w var (atom)](ref/atom/var/icon_w)    
-:   [icon_z var (atom)](ref/atom/var/icon_z)    
+:   [icon proc](/ref/proc/icon)    
+:   [icon_state var (atom)](/ref/atom/var/icon_state)    
+:   [icons](/ref/DM/icon)    
+:   [overlays var (atom)](/ref/atom/var/overlays)    
+:   [underlays var (atom)](/ref/atom/var/underlays)    
+:   [load_resource proc](/ref/proc/load_resource)    
+:   [icon_w var (atom)](/ref/atom/var/icon_w)    
+:   [icon_z var (atom)](/ref/atom/var/icon_z)    
 <!-- -->    
 **Default value:**    
 :   null    

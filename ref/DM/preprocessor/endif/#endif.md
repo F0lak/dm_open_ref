@@ -1,4 +1,4 @@
 []{#/DM/preprocessor/endif}    
 ## #endif directive    
 **See:**    
-:   [#if directive](ref/DM/preprocessor/if)  
+:   [#if directive](/ref/DM/preprocessor/if)  

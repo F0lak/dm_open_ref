@@ -1,8 +1,8 @@
 []{#/proc/md5}    
 ## md5 proc    
 **See also:**    
-:   [sha1 proc](ref/proc/sha1)    
-:   [file proc](ref/proc/file)    
+:   [sha1 proc](/ref/proc/sha1)    
+:   [file proc](/ref/proc/file)    
 <!-- -->    
 **Format:**    
 :   md5(T)    
@@ -41,7 +41,7 @@ Check that the cached default icon is still the same if
 modified!\" // Or check that the entire game resource file is pristine    
 if (md5(file(\"mygame.rsc\")) != hash) world \<\< \"The game resources    
 have been modified!\"    
-Note that you must pass the result of [file()](ref/proc/file){.code} in    
+Note that you must pass the result of [file()](/ref/proc/file){.code} in    
 order to compute the hash of an external file\'s contents at runtime.    
 Otherwise `md5()` will treat the filename as text and return the hash of    
 the name only.    

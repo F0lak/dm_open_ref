@@ -1,10 +1,10 @@
 []{#/proc/fcopy_rsc}    
 ## fcopy_rsc proc    
 **See also:**    
-:   [cache](ref/DM/cache)    
-:   [fcopy proc](ref/proc/fcopy)    
-:   [file proc](ref/proc/file)    
-:   [load_resource proc](ref/proc/load_resource)    
+:   [cache](/ref/DM/cache)    
+:   [fcopy proc](/ref/proc/fcopy)    
+:   [file proc](/ref/proc/file)    
+:   [load_resource proc](/ref/proc/load_resource)    
 <!-- -->    
 **Format:**    
 :   fcopy_rsc(File)    

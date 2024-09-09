@@ -1,9 +1,9 @@
 []{#/sound/var/echo}    
 ## echo var (sound)    
 **See also:**    
-:   [vars (sound)](ref/sound/var)    
-:   [x, y, z vars (sound)](ref/sound/var/xyz)    
-:   [environment var (sound)](ref/sound/var/environment)    
+:   [vars (sound)](/ref/sound/var)    
+:   [x, y, z vars (sound)](/ref/sound/var/xyz)    
+:   [environment var (sound)](/ref/sound/var/environment)    
 <!-- -->    
 **Default value:**    
 :   null    

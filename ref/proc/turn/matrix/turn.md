@@ -1,8 +1,8 @@
 []{#/proc/turn/matrix}    
 ## turn proc (applied to a matrix)    
 **See also:**    
-:   [turn proc](ref/proc/turn)    
-:   [matrix](ref/matrix)    
+:   [turn proc](/ref/proc/turn)    
+:   [matrix](/ref/matrix)    
 <!-- -->    
 **Format:**    
 :   turn(Matrix, Angle)    

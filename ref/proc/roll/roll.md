@@ -1,7 +1,7 @@
 []{#/proc/roll}    
 ## roll proc    
 **See also:**    
-:   [rand proc](ref/proc/rand)    
+:   [rand proc](/ref/proc/rand)    
 <!-- -->    
 **Format:**    
 :   roll(ndice=1,sides)    

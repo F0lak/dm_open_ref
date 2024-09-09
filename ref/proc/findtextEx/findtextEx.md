@@ -1,9 +1,9 @@
 []{#/proc/findtextEx}    
 ## findtextEx proc    
 **See also:**    
-:   [findtext proc](ref/proc/findtext)    
-:   [replacetextEx proc](ref/proc/replacetextEx)    
-:   [Regular expressions](ref/%7Bnotes%7D/regex)    
+:   [findtext proc](/ref/proc/findtext)    
+:   [replacetextEx proc](/ref/proc/replacetextEx)    
+:   [Regular expressions](/ref/%7Bnotes%7D/regex)    
 <!-- -->    
 **Format:**    
 :   findtextEx(Haystack,Needle,Start=1,End=0)    
@@ -33,7 +33,7 @@ final \"ana\".
 Note: In strings containing non-ASCII characters, byte position and    
 character position are not the same thing. Use `findtextEx_char()` to    
 work with character counts instead of bytes, at a performance cost. See    
-the [Unicode](ref/%7Bnotes%7D/Unicode) section for more information.    
+the [Unicode](/ref/%7Bnotes%7D/Unicode) section for more information.    
 Note: This proc used to be named `findText`, like `findtext` but with a    
 capital T. To avoid confusion it has been renamed, but old code will    
 still compile.  

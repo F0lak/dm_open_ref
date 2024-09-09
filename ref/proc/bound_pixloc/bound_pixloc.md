@@ -1,11 +1,11 @@
 []{#/proc/bound_pixloc}    
 ## bound_pixloc proc {#bound_pixloc-proc byondver="516"}    
 **See also:**    
-:   [pixloc](ref/pixloc)    
-:   [pixloc var (atom)](ref/atom/var/pixloc)    
-:   [pixloc proc](ref/proc/pixloc)    
-:   [bound_width var (movable atom)](ref/atom/movable/var/bound_width)    
-:   [bound_height var (movable atom)](ref/atom/movable/var/bound_height)    
+:   [pixloc](/ref/pixloc)    
+:   [pixloc var (atom)](/ref/atom/var/pixloc)    
+:   [pixloc proc](/ref/proc/pixloc)    
+:   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width)    
+:   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height)    
 <!-- -->    
 **Format:**    
 :   bound_pixloc(Atom, Dir)    

@@ -1,9 +1,9 @@
 []{#/operator/&/pointer toc="& operator (pointers)"}    
 ## & pointer operator {#pointer-operator byondver="515"}    
 **See also:**    
-:   [\* operator (pointers)](ref/operator/*/prefix)    
-:   [operators](ref/operator)    
-:   [ispointer proc](ref/proc/ispointer)    
+:   [\* operator (pointers)](/ref/operator/*/prefix)    
+:   [operators](/ref/operator)    
+:   [ispointer proc](/ref/proc/ispointer)    
 <!-- -->    
 **Format:**    
 :   &A    
@@ -34,10 +34,10 @@ Pointers can be made for any of these kinds of vars:
 -   Arguments in a proc    
 -   Global vars    
 -   An item in a list, including values in [associative    
-    lists](ref/list/associations)    
+    lists](/ref/list/associations)    
 One advantage of pointers is that you can use them to alter a value in a    
 suspended (sleeping) proc.    
-Note: When [spawn()](ref/proc/spawn){.code} is used, the current proc is    
+Note: When [spawn()](/ref/proc/spawn){.code} is used, the current proc is    
 forked, where one keeps running and a copy is scheduled to run later. If    
 any pointers to proc vars were created, they belong to the original proc    
 (the one that keeps running), not to the fork.  

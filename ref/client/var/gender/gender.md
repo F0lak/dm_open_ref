@@ -1,10 +1,10 @@
 []{#/client/var/gender}    
 ## gender var (client)    
 **See also:**    
-:   [New proc (client)](ref/client/proc/New)    
-:   [gender var (atom)](ref/atom/var/gender)    
-:   [key var (client)](ref/client/var/key)    
-:   [macros (text)](ref/DM/text/macros)    
+:   [New proc (client)](/ref/client/proc/New)    
+:   [gender var (atom)](/ref/atom/var/gender)    
+:   [key var (client)](/ref/client/var/key)    
+:   [macros (text)](/ref/DM/text/macros)    
 This is the client\'s gender, which is an attribute of the player\'s    
 key. By default, when a new mob is made for a player (in client.New()),    
 the new mob gets the same name and gender as the player\'s key. This    

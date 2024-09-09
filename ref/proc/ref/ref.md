@@ -1,8 +1,8 @@
 []{#/proc/ref}    
 ## ref proc    
 **See also:**    
-:   [\\ref text macro](ref/DM/text/macros/ref)    
-:   [locate proc](ref/proc/locate)    
+:   [\\ref text macro](/ref/DM/text/macros/ref)    
+:   [locate proc](/ref/proc/locate)    
 <!-- -->    
 **Format:**    
 :   ref(Object)    

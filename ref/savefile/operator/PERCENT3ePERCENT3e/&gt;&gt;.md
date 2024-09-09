@@ -1,9 +1,9 @@
 []{#/savefile/operator/%3e%3e}    
 ## \>\> operator (savefile)    
 **See also:**    
-:   [\>\> input operator](ref/operator/%3e%3e/input)    
-:   [\<\< operator (savefile)](ref/savefile/operator/%3c%3c)    
-:   [Read proc (datum)](ref/datum/proc/Read)    
+:   [\>\> input operator](/ref/operator/%3e%3e/input)    
+:   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c)    
+:   [Read proc (datum)](/ref/datum/proc/Read)    
 <!-- -->    
 **Format:**    
 :   F \>\> Var    

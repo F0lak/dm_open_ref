@@ -1,8 +1,8 @@
 []{#/DM/preprocessor/error}    
 ## #error directive    
 **See also:**    
-:   [preprocessor](ref/DM/preprocessor)    
-:   [#warn directive](ref/DM/preprocessor/warn)    
+:   [preprocessor](/ref/DM/preprocessor)    
+:   [#warn directive](/ref/DM/preprocessor/warn)    
 <!-- -->    
 **Format:**    
 :   #error Text    

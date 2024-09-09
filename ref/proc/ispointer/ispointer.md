@@ -1,8 +1,8 @@
 []{#/proc/ispointer}    
 ## ispointer proc {#ispointer-proc byondver="515"}    
 **See also:**    
-:   [\* operator (pointers)](ref/operator/*)    
-:   [& operator (pointers)](ref/operator/&)    
+:   [\* operator (pointers)](/ref/operator/*)    
+:   [& operator (pointers)](/ref/operator/&)    
 <!-- -->    
 **Format:**    
 :   ispointer(Value)    

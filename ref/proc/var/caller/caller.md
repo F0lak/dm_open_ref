@@ -1,9 +1,9 @@
 []{#/proc/var/caller}    
 ## caller var (proc) {#caller-var-proc byondver="516"}    
 **See also:**    
-:   [callee](ref/callee)    
-:   [callee var (proc)](ref/proc/var/callee)    
-Returns a [callee object](ref/callee) representing the current proc\'s    
+:   [callee](/ref/callee)    
+:   [callee var (proc)](/ref/proc/var/callee)    
+Returns a [callee object](/ref/callee) representing the current proc\'s    
 caller, which can be used to access information like the proc name, line    
 number (if compiled with debug information), arguments, and more.    
 The main purpose of this is to make it possible to trace the call stack    

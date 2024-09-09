@@ -1,19 +1,19 @@
 []{#/client/proc/Click}    
 ## Click proc (client)    
 **See also:**    
-:   [Click proc (atom)](ref/atom/proc/Click)    
-:   [DblClick proc (client)](ref/client/proc/DblClick)    
-:   [MouseDown proc (client)](ref/client/proc/MouseDown)    
-:   [MouseDrag proc (client)](ref/client/proc/MouseDrag)    
-:   [MouseDrop proc (client)](ref/client/proc/MouseDrop)    
-:   [MouseEntered proc (client)](ref/client/proc/MouseEntered)    
-:   [MouseExited proc (client)](ref/client/proc/MouseExited)    
-:   [MouseMove proc (client)](ref/client/proc/MouseMove)    
-:   [MouseUp proc (client)](ref/client/proc/MouseUp)    
-:   [MouseWheel proc (client)](ref/client/proc/MouseWheel)    
-:   [mouse_opacity var (atom)](ref/atom/var/mouse_opacity)    
-:   [mouse_over_pointer var (atom)](ref/atom/var/mouse_over_pointer)    
-:   [show_popup_menus var (client)](ref/client/var/show_popup_menus)    
+:   [Click proc (atom)](/ref/atom/proc/Click)    
+:   [DblClick proc (client)](/ref/client/proc/DblClick)    
+:   [MouseDown proc (client)](/ref/client/proc/MouseDown)    
+:   [MouseDrag proc (client)](/ref/client/proc/MouseDrag)    
+:   [MouseDrop proc (client)](/ref/client/proc/MouseDrop)    
+:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered)    
+:   [MouseExited proc (client)](/ref/client/proc/MouseExited)    
+:   [MouseMove proc (client)](/ref/client/proc/MouseMove)    
+:   [MouseUp proc (client)](/ref/client/proc/MouseUp)    
+:   [MouseWheel proc (client)](/ref/client/proc/MouseWheel)    
+:   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity)    
+:   [mouse_over_pointer var (atom)](/ref/atom/var/mouse_over_pointer)    
+:   [show_popup_menus var (client)](/ref/client/var/show_popup_menus)    
 <!-- -->    
 **Format:**    
 :   Click(object,location,control,params)    
@@ -27,7 +27,7 @@
     grid cell, or other control-specific info    
 :   control: the name of the skin control involved    
 :   params: other parameters including mouse/keyboard flags, icon    
-    offsets, etc.; see [mouse handling](ref/DM/mouse)    
+    offsets, etc.; see [mouse handling](/ref/DM/mouse)    
 <!-- -->    
 **Default action:**    
 :   Call object.Click(location,control,params).    

@@ -1,8 +1,8 @@
 []{#/proc/jointext}    
 ## jointext proc {#jointext-proc byondver="510"}    
 **See also:**    
-:   [splittext proc](ref/proc/splittext)    
-:   [Join proc (list)](ref/list/proc/Join)    
+:   [splittext proc](/ref/proc/splittext)    
+:   [Join proc (list)](/ref/list/proc/Join)    
 <!-- -->    
 **Format:**    
 :   jointext(List,Glue,Start=1,End=0)    

@@ -1,13 +1,13 @@
 []{#/{skin}/param/can-resize}    
 ## can-resize parameter (skin)    
 **See also:**    
-:   [on-size parameter](ref/%7Bskin%7D/param/on-size)    
-:   [can-minimize parameter](ref/%7Bskin%7D/param/can-minimize)    
-:   [titlebar parameter](ref/%7Bskin%7D/param/titlebar)    
-:   [is-fullscreen parameter](ref/%7Bskin%7D/param/is-fullscreen)    
+:   [on-size parameter](/ref/%7Bskin%7D/param/on-size)    
+:   [can-minimize parameter](/ref/%7Bskin%7D/param/can-minimize)    
+:   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar)    
+:   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen)    
 <!-- -->    
 **Applies to:**    
-:   [Main](ref/%7Bskin%7D/control/main) (window only)    
+:   [Main](/ref/%7Bskin%7D/control/main) (window only)    
 <!-- -->    
 **Format:**    
 :   true/false    

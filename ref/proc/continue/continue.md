@@ -1,10 +1,10 @@
 []{#/proc/continue}    
 ## continue statement    
 **See also:**    
-:   [break statement](ref/proc/break)    
-:   [do proc](ref/proc/do)    
-:   [for loop proc](ref/proc/for/loop)    
-:   [while proc](ref/proc/while)    
+:   [break statement](/ref/proc/break)    
+:   [do proc](/ref/proc/do)    
+:   [for loop proc](/ref/proc/for/loop)    
+:   [while proc](/ref/proc/while)    
 <!-- -->    
 **Format:**    
 :   continue    

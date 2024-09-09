@@ -1,9 +1,9 @@
 []{#/mob/var/key}    
 ## key var (mob)    
 **See also:**    
-:   [ckey var (mob)](ref/mob/var/ckey)    
-:   [client](ref/client)    
-:   [key var (client)](ref/client/var/key)    
+:   [ckey var (mob)](/ref/mob/var/ckey)    
+:   [client](/ref/client)    
+:   [key var (client)](/ref/client/var/key)    
 <!-- -->    
 **Default value:**    
 :   null    

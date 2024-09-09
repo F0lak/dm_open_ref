@@ -1,12 +1,12 @@
 []{#/proc}    
 ## procs    
 **See also:**    
-:   [vars (procs)](ref/proc/var)    
-:   [arguments (proc)](ref/proc/arguments)    
-:   [procs (area)](ref/area/proc)    
-:   [procs (mob)](ref/mob/proc)    
-:   [procs (obj)](ref/obj/proc)    
-:   [procs (turf)](ref/turf/proc)    
+:   [vars (procs)](/ref/proc/var)    
+:   [arguments (proc)](/ref/proc/arguments)    
+:   [procs (area)](/ref/area/proc)    
+:   [procs (mob)](/ref/mob/proc)    
+:   [procs (obj)](/ref/obj/proc)    
+:   [procs (turf)](/ref/turf/proc)    
 Procs may be derived from /proc. These procs are \"global\", in that    
 they can be called anywhere in the code.    
 ### Example:    
@@ -15,7 +15,7 @@ The proc `poof()` may now be called anywhere in the code.
 Procs may also be attached to objects by defining them under the    
 appropriate `object/proc` subnode. Currently DM allows procs to be    
 defined or overridden for `/mob`, `/obj`, `/turf`, `/area`, `world`, and    
-`/client`, as well as for [datum objects](ref/datum) derived from `/`.    
+`/client`, as well as for [datum objects](/ref/datum) derived from `/`.    
 Predefined procs are discussed under the \"procs\" entry for the object    
 type.    
 ### Example:    
@@ -32,8 +32,8 @@ if(!target) // find a /mob/player in view target = locate() in view(src)
 return target    
 Currently the only purpose for using the `as` clause is for situations    
 where the compiler needs to infer the type of an expression. Mainly this    
-applies to the [.](ref/operator/%2e){.code} and    
-[?.](ref/operator/%3f%2e){.code} operators in an expression such as    
+applies to the [.](/ref/operator/%2e){.code} and    
+[?.](/ref/operator/%3f%2e){.code} operators in an expression such as    
 `GetTarget()?.Attack(src)`. Giving `GetTarget()` a return type allows    
 the compiler to check if `Attack()` is a valid proc for `/mob/player`.    
 Otherwise, the `.` and `?.` operators act like `:` and `?:`,    

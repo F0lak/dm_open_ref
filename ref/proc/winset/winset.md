@@ -1,12 +1,12 @@
 []{#/proc/winset}    
 ## winset proc    
 **See also:**    
-:   [winclone proc](ref/proc/winclone)    
-:   [winexists proc](ref/proc/winexists)    
-:   [winget proc](ref/proc/winget)    
-:   [winshow proc](ref/proc/winshow)    
-:   [User interface skins](ref/%7Bskin%7D)    
-:   [parameters (skin)](ref/%7Bskin%7D/param)    
+:   [winclone proc](/ref/proc/winclone)    
+:   [winexists proc](/ref/proc/winexists)    
+:   [winget proc](/ref/proc/winget)    
+:   [winshow proc](/ref/proc/winshow)    
+:   [User interface skins](/ref/%7Bskin%7D)    
+:   [parameters (skin)](/ref/%7Bskin%7D/param)    
 <!-- -->    
 **Format:**    
 :   winset(player, control_id, params)    
@@ -60,7 +60,7 @@ Because many characters need to be specially encoded for winsets, it\'s
 best to either use the list format of `winset()` which handles that    
 encoding for you. If you want to use the string form, like    
 `winset(usr, null, "command=XYZ")`, then you should use    
-[url_encode()](ref/proc/url_encode){.code} to encode your command.    
+[url_encode()](/ref/proc/url_encode){.code} to encode your command.    
 #### browser-options {#browser-options byondver="516"}    
 The \"browser-options\" global parameter lets you enable or disable    
 certain browser functionality. This can be a comma-separated list, or    
@@ -83,11 +83,11 @@ zoom
 Ctrl with the + or - keys can zoom the browser, and Ctrl+0 can reset it.    
 byondstorage    
 ❌    
-Enables [byondStorage](ref/%7Bskin%7D/control/browser/byondStorage){.code}    
+Enables [byondStorage](/ref/%7Bskin%7D/control/browser/byondStorage){.code}    
 access.    
 ### Example:    
 mob/Login() ..() winset(usr, null, \"browser-options=devtools,find\")    
 If you plan to use the `+` or `-` modifiers, you should either use the    
 list format of `winset()` or use    
-[url_encode()](ref/proc/url_encode){.code} to encode the list of options.    
+[url_encode()](/ref/proc/url_encode){.code} to encode the list of options.    
 Browser options are shared across all browser controls.  

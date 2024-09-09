@@ -1,9 +1,9 @@
 []{#/matrix/proc/Interpolate}    
 ## Interpolate proc (matrix)    
 **See also:**    
-:   [matrix](ref/matrix)    
-:   [matrix operators](ref/matrix/operators)    
-:   [matrix procs](ref/matrix/proc)    
+:   [matrix](/ref/matrix)    
+:   [matrix operators](/ref/matrix/operators)    
+:   [matrix procs](/ref/matrix/proc)    
 <!-- -->    
 **Format:**    
 :   Interpolate(Matrix2, t)    

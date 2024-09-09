@@ -1,8 +1,8 @@
 []{#/proc/get_step_away}    
 ## get_step_away proc    
 **See also:**    
-:   [step_away proc](ref/proc/step_away)    
-:   [walk_away proc](ref/proc/walk_away)    
+:   [step_away proc](/ref/proc/step_away)    
+:   [walk_away proc](/ref/proc/walk_away)    
 <!-- -->    
 **Format:**    
 :   get_step_away(Ref, Trg, Max=5)    

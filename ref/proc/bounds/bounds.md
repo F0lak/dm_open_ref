@@ -1,19 +1,19 @@
 []{#/proc/bounds}    
 ## bounds proc    
 **See also:**    
-:   [obounds proc](ref/proc/obounds)    
-:   [pixloc](ref/pixloc)    
-:   [bound_x var (movable atom)](ref/atom/movable/var/bound_x)    
-:   [bound_y var (movable atom)](ref/atom/movable/var/bound_y)    
-:   [bound_width var (movable atom)](ref/atom/movable/var/bound_width)    
-:   [bound_height var (movable atom)](ref/atom/movable/var/bound_height)    
-:   [icon_w var (atom)](ref/atom/var/icon_w)    
-:   [icon_z var (atom)](ref/atom/var/icon_z)    
-:   [step_x var (movable atom)](ref/atom/movable/var/step_x)    
-:   [step_y var (movable atom)](ref/atom/movable/var/step_y)    
-:   [locs list var (movable atom)](ref/atom/movable/var/locs)    
-:   [Pixel movement](ref/%7Bnotes%7D/pixel-movement)    
-:   [bounds var (client)](ref/client/var/bounds)    
+:   [obounds proc](/ref/proc/obounds)    
+:   [pixloc](/ref/pixloc)    
+:   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x)    
+:   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y)    
+:   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width)    
+:   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height)    
+:   [icon_w var (atom)](/ref/atom/var/icon_w)    
+:   [icon_z var (atom)](/ref/atom/var/icon_z)    
+:   [step_x var (movable atom)](/ref/atom/movable/var/step_x)    
+:   [step_y var (movable atom)](/ref/atom/movable/var/step_y)    
+:   [locs list var (movable atom)](/ref/atom/movable/var/locs)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement)    
+:   [bounds var (client)](/ref/client/var/bounds)    
 <!-- -->    
 **Format:**    
 :   bounds(Ref=src, Dist=0)    
@@ -47,5 +47,5 @@ bounds(turf,-12,-12,24,24) is equivalent to bounds(turf,12).
 In the final form, bounds() can use absolute coordinates and does not    
 need an object to be Ref. Absolute coordinates start at 1,1 at the lower    
 left corner of the map, by tradition.    
-Note: A [vector](ref/vector) may be used in place of any x/y or    
+Note: A [vector](/ref/vector) may be used in place of any x/y or    
 width/height pair.  

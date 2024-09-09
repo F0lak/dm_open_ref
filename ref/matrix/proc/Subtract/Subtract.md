@@ -1,10 +1,10 @@
 []{#/matrix/proc/Subtract}    
 ## Subtract proc (matrix)    
 **See also:**    
-:   [matrix](ref/matrix)    
-:   [matrix operators](ref/matrix/operators)    
-:   [matrix procs](ref/matrix/proc)    
-:   [-= operator](ref/operator/+=)    
+:   [matrix](/ref/matrix)    
+:   [matrix operators](/ref/matrix/operators)    
+:   [matrix procs](/ref/matrix/proc)    
+:   [-= operator](/ref/operator/+=)    
 <!-- -->    
 **Format:**    
 :   Subtract(Matrix2)    

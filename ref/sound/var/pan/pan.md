@@ -1,7 +1,7 @@
 []{#/sound/var/pan}    
 ## pan var (sound)    
 **See also:**    
-:   [vars (sound)](ref/sound/var)    
+:   [vars (sound)](/ref/sound/var)    
 <!-- -->    
 **Default value:**    
 :   0    

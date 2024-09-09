@@ -1,15 +1,15 @@
 []{#/atom/proc/Exit}    
 ## Exit proc (atom)    
 **See also:**    
-:   [Enter proc (atom)](ref/atom/proc/Enter)    
-:   [Entered proc (atom)](ref/atom/proc/Entered)    
-:   [Exited proc (atom)](ref/atom/proc/Exited)    
-:   [Cross proc (atom)](ref/atom/proc/Cross)    
-:   [Crossed proc (atom)](ref/atom/proc/Crossed)    
-:   [Uncross proc (atom)](ref/atom/proc/Uncross)    
-:   [Uncrossed proc (atom)](ref/atom/proc/Uncrossed)    
-:   [Move proc (movable atom)](ref/atom/movable/proc/Move)    
-:   [movement_mode var (world)](ref/world/var/movement_mode)    
+:   [Enter proc (atom)](/ref/atom/proc/Enter)    
+:   [Entered proc (atom)](/ref/atom/proc/Entered)    
+:   [Exited proc (atom)](/ref/atom/proc/Exited)    
+:   [Cross proc (atom)](/ref/atom/proc/Cross)    
+:   [Crossed proc (atom)](/ref/atom/proc/Crossed)    
+:   [Uncross proc (atom)](/ref/atom/proc/Uncross)    
+:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move)    
+:   [movement_mode var (world)](/ref/world/var/movement_mode)    
 <!-- -->    
 **Format:**    
 :   Exit(atom/movable/O, atom/newloc)    
@@ -30,7 +30,7 @@
 By default, every atom returns 1 to allow exit, except for turfs which    
 call Uncross() to handle it for them.    
 The following behavior only applies to    
-[LEGACY_MOVEMENT_MODE](ref/world/var/movement_mode){.code}. In all other    
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode){.code}. In all other    
 movement modes, the turf\'s contents are not taken into account. Only    
 the result of turf.Uncross() matters.    
 In the default Exit handler for turfs, Uncross() is called for the turf    

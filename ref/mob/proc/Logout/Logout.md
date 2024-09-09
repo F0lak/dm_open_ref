@@ -1,9 +1,9 @@
 []{#/mob/proc/Logout}    
 ## Logout proc (mob)    
 **See also:**    
-:   [Login proc (mob)](ref/mob/proc/Login)    
-:   [client var (mob)](ref/mob/var/client)    
-:   [key var (mob)](ref/mob/var/key)    
+:   [Login proc (mob)](/ref/mob/proc/Login)    
+:   [client var (mob)](/ref/mob/var/client)    
+:   [key var (mob)](/ref/mob/var/key)    
 <!-- -->    
 **Format:**    
 :   Logout()    

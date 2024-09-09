@@ -1,9 +1,9 @@
 []{#/world/var/game_state}    
 ## game_state var (world)    
 **See also:**    
-:   [name var (world)](ref/world/var/name)    
-:   [status var (world)](ref/world/var/status)    
-:   [visibility var (world)](ref/world/var/visibility)    
+:   [name var (world)](/ref/world/var/name)    
+:   [status var (world)](/ref/world/var/status)    
+:   [visibility var (world)](/ref/world/var/visibility)    
 <!-- -->    
 **Default value:**    
 :   0    

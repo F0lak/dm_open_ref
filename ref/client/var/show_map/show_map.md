@@ -1,9 +1,9 @@
 []{#/client/var/show_map}    
 ## show_map var (client)    
 **See also:**    
-:   [show_verb_panel var (client)](ref/client/var/show_verb_panel)    
-:   [view var (client)](ref/client/var/view)    
-:   [view var (world)](ref/world/var/view)    
+:   [show_verb_panel var (client)](/ref/client/var/show_verb_panel)    
+:   [view var (client)](/ref/client/var/view)    
+:   [view var (world)](/ref/world/var/view)    
 <!-- -->    
 **Default value:**    
 :   1    

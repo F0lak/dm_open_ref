@@ -1,12 +1,12 @@
 []{#/proc/new}    
 ## new proc    
 **See also:**    
-:   [New proc (atom)](ref/atom/proc/New)    
-:   [New proc (datum)](ref/datum/proc/New)    
-:   [New proc (icon)](ref/icon/proc/New)    
-:   [newlist proc](ref/proc/newlist)    
-:   [path operators](ref/operator/path)    
-:   [\_\_IMPLIED_TYPE\_\_ macro](ref/DM/preprocessor/__IMPLIED_TYPE__)    
+:   [New proc (atom)](/ref/atom/proc/New)    
+:   [New proc (datum)](/ref/datum/proc/New)    
+:   [New proc (icon)](/ref/icon/proc/New)    
+:   [newlist proc](/ref/proc/newlist)    
+:   [path operators](/ref/operator/path)    
+:   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__)    
 <!-- -->    
 **Format:**    
 :   new Type(Args)    

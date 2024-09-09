@@ -1,12 +1,12 @@
 []{#/{skin}/param/can-close}    
 ## can-close parameter (skin)    
 **See also:**    
-:   [on-close parameter](ref/%7Bskin%7D/param/on-close)    
-:   [can-resize parameter](ref/%7Bskin%7D/param/can-resize)    
-:   [titlebar parameter](ref/%7Bskin%7D/param/titlebar)    
+:   [on-close parameter](/ref/%7Bskin%7D/param/on-close)    
+:   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize)    
+:   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar)    
 <!-- -->    
 **Applies to:**    
-:   [Main](ref/%7Bskin%7D/control/main) (window only)    
+:   [Main](/ref/%7Bskin%7D/control/main) (window only)    
 <!-- -->    
 **Format:**    
 :   true/false    

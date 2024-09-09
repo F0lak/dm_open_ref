@@ -2,13 +2,13 @@
 ## pixel_z var (atom)    
 **See also:**    
 :   [animate_movement var (movable    
-    atoms)](ref/atom/movable/var/animate_movement)    
-:   [glide_size var (movable atoms)](ref/atom/movable/var/glide_size)    
-:   [pixel_x var (atom)](ref/atom/var/pixel_x)    
-:   [pixel_y var (atom)](ref/atom/var/pixel_y)    
-:   [pixel_w var (atom)](ref/atom/var/pixel_w)    
-:   [icon_size var (world)](ref/world/var/icon_size)    
-:   [map_format var (world)](ref/world/var/map_format)    
+    atoms)](/ref/atom/movable/var/animate_movement)    
+:   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size)    
+:   [pixel_x var (atom)](/ref/atom/var/pixel_x)    
+:   [pixel_y var (atom)](/ref/atom/var/pixel_y)    
+:   [pixel_w var (atom)](/ref/atom/var/pixel_w)    
+:   [icon_size var (world)](/ref/world/var/icon_size)    
+:   [map_format var (world)](/ref/world/var/map_format)    
 <!-- -->    
 **Default value:**    
 :   0    

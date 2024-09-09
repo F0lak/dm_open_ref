@@ -1,11 +1,11 @@
 []{#/proc/winclone}    
 ## winclone proc    
 **See also:**    
-:   [winexists proc](ref/proc/winexists)    
-:   [winget proc](ref/proc/winget)    
-:   [winset proc](ref/proc/winset)    
-:   [winshow proc](ref/proc/winshow)    
-:   [User interface skins](ref/%7Bskin%7D)    
+:   [winexists proc](/ref/proc/winexists)    
+:   [winget proc](/ref/proc/winget)    
+:   [winset proc](/ref/proc/winset)    
+:   [winshow proc](/ref/proc/winshow)    
+:   [User interface skins](/ref/%7Bskin%7D)    
 <!-- -->    
 **Format:**    
 :   winclone(player, window_name, clone_name)    

@@ -1,12 +1,12 @@
 []{#/icon/proc/Scale}    
 ## Scale proc (icon)    
 **See also:**    
-:   [icon](ref/icon)    
-:   [procs (icon)](ref/icon/proc)    
-:   [icon_size var (world)](ref/world/var/icon_size)    
-:   [map_format var (world)](ref/world/var/map_format)    
-:   [Big icons](ref/%7Bnotes%7D/big-icons)    
-:   [Tiled icons](ref/%7Bnotes%7D/tiled-icons)    
+:   [icon](/ref/icon)    
+:   [procs (icon)](/ref/icon/proc)    
+:   [icon_size var (world)](/ref/world/var/icon_size)    
+:   [map_format var (world)](/ref/world/var/map_format)    
+:   [Big icons](/ref/%7Bnotes%7D/big-icons)    
+:   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons)    
 <!-- -->    
 **Format:**    
 :   Scale(width, height)    

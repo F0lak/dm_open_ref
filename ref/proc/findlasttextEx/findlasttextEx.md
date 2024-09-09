@@ -1,9 +1,9 @@
 []{#/proc/findlasttextEx}    
 ## findlasttextEx proc {#findlasttextex-proc byondver="510"}    
 **See also:**    
-:   [findtext proc](ref/proc/findtext)    
-:   [findtextEx proc](ref/proc/findtextEx)    
-:   [findlasttext proc](ref/proc/findlasttext)    
+:   [findtext proc](/ref/proc/findtext)    
+:   [findtextEx proc](/ref/proc/findtextEx)    
+:   [findlasttext proc](/ref/proc/findlasttext)    
 <!-- -->    
 **Format:**    
 :   findlasttextEx(Haystack,Needle,Start=0,End=1)    
@@ -29,4 +29,4 @@ expression engine.
 Note: In strings containing non-ASCII characters, byte position and    
 character position are not the same thing. Use `findlasttextEx_char()`    
 to work with character counts instead of bytes, at a performance cost.    
-See the [Unicode](ref/%7Bnotes%7D/Unicode) section for more information.  
+See the [Unicode](/ref/%7Bnotes%7D/Unicode) section for more information.  

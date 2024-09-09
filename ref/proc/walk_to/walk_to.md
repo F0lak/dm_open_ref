@@ -1,9 +1,9 @@
 []{#/proc/walk_to}    
 ## walk_to proc    
 **See also:**    
-:   [get_step_to proc](ref/proc/get_step_to)    
-:   [step_to proc](ref/proc/step_to)    
-:   [step_size var (movable atom)](ref/atom/movable/var/step_size)    
+:   [get_step_to proc](/ref/proc/get_step_to)    
+:   [step_to proc](/ref/proc/step_to)    
+:   [step_size var (movable atom)](/ref/atom/movable/var/step_size)    
 <!-- -->    
 **Format:**    
 :   walk_to(Ref,Trg,Min=0,Lag=0,Speed=0)    

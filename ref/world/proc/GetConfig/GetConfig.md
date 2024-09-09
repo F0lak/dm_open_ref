@@ -1,8 +1,8 @@
 []{#/world/proc/GetConfig}    
 ## GetConfig proc (world)    
 **See also:**    
-:   [IsBanned proc (world)](ref/world/proc/IsBanned)    
-:   [SetConfig proc (world)](ref/world/proc/SetConfig)    
+:   [IsBanned proc (world)](/ref/world/proc/IsBanned)    
+:   [SetConfig proc (world)](/ref/world/proc/SetConfig)    
 <!-- -->    
 **Format:**    
 :   GetConfig(config_set,param)    

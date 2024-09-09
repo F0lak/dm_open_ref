@@ -1,8 +1,8 @@
 []{#/{notes}/filters/drop_shadow toc="Drop shadow (filters)"}    
 ## Drop shadow filter {#drop-shadow-filter byondver="512"}    
 **See also:**    
-:   [Gaussian blur (filters)](ref/%7Bnotes%7D/filters/blur)    
-:   [Outline (filters)](ref/%7Bnotes%7D/filters/outline)    
+:   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur)    
+:   [Outline (filters)](/ref/%7Bnotes%7D/filters/outline)    
 <!-- -->    
 Format:    
 :   filter(type=\"drop_shadow\", \...)    

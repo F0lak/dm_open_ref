@@ -1,8 +1,8 @@
 []{#/atom/var/verbs}    
 ## verbs list var (atom)    
 **See also:**    
-:   [list](ref/list)    
-:   [typesof proc](ref/proc/typesof)    
+:   [list](/ref/list)    
+:   [typesof proc](/ref/proc/typesof)    
 <!-- -->    
 **Default value:**    
 :   The list of verbs defined for the object\'s prototype.    

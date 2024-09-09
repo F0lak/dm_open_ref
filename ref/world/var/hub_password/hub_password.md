@@ -1,8 +1,8 @@
 []{#/world/var/hub_password}    
 ## hub_password var (world)    
 **See also:**    
-:   [hub var (world)](ref/world/var/hub)    
-:   [visibility var (world)](ref/world/var/visibility)    
+:   [hub var (world)](/ref/world/var/hub)    
+:   [visibility var (world)](/ref/world/var/visibility)    
 <!-- -->    
 **Default value:**    
 :   null    

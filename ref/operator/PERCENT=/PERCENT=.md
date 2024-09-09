@@ -1,8 +1,8 @@
 []{#/operator/%=}    
 ## %= operator    
 **See also:**    
-:   [% operator](ref/operator/%)    
-:   [operators](ref/operator)    
+:   [% operator](/ref/operator/%)    
+:   [operators](/ref/operator)    
 <!-- -->    
 **Format:**    
 :   A %= B    

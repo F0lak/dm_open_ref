@@ -1,12 +1,12 @@
 []{#/client/proc/Stat}    
 ## Stat proc (client)    
 **See also:**    
-:   [Stat proc (atom)](ref/atom/proc/Stat)    
-:   [stat proc](ref/proc/stat)    
-:   [statobj var (client)](ref/client/var/statobj)    
-:   [statpanel proc](ref/proc/statpanel)    
-:   [statpanel var (client)](ref/client/var/statpanel)    
-:   [Info control (skin)](ref/%7Bskin%7D/control/info)    
+:   [Stat proc (atom)](/ref/atom/proc/Stat)    
+:   [stat proc](/ref/proc/stat)    
+:   [statobj var (client)](/ref/client/var/statobj)    
+:   [statpanel proc](/ref/proc/statpanel)    
+:   [statpanel var (client)](/ref/client/var/statpanel)    
+:   [Info control (skin)](/ref/%7Bskin%7D/control/info)    
 <!-- -->    
 **Format:**    
 :   Stat()    

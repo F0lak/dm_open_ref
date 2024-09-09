@@ -1,12 +1,12 @@
 []{#/world/var/hub}    
 ## hub var (world)    
 **See also:**    
-:   [hub_password var (world)](ref/world/var/hub_password)    
-:   [name var (world)](ref/world/var/name)    
-:   [status var (world)](ref/world/var/status)    
-:   [game_state var (world)](ref/world/var/game_state)    
-:   [version var (world)](ref/world/var/version)    
-:   [visibility var (world)](ref/world/var/visibility)    
+:   [hub_password var (world)](/ref/world/var/hub_password)    
+:   [name var (world)](/ref/world/var/name)    
+:   [status var (world)](/ref/world/var/status)    
+:   [game_state var (world)](/ref/world/var/game_state)    
+:   [version var (world)](/ref/world/var/version)    
+:   [visibility var (world)](/ref/world/var/visibility)    
 <!-- -->    
 **Default value:**    
 :   null    

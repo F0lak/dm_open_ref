@@ -1,10 +1,10 @@
 []{#/{skin}/param/is-visible}    
 ## is-visible parameter (skin)    
 **See also:**    
-:   [is-disabled parameter](ref/%7Bskin%7D/param/is-disabled)    
+:   [is-disabled parameter](/ref/%7Bskin%7D/param/is-disabled)    
 <!-- -->    
 **Applies to:**    
-:   [All](ref/%7Bskin%7D/control)    
+:   [All](/ref/%7Bskin%7D/control)    
 <!-- -->    
 **Format:**    
 :   true/false    

@@ -1,12 +1,12 @@
 []{#/{skin}/param/name}    
 ## name parameter (skin)    
 **See also:**    
-:   [macros (skin)](ref/%7Bskin%7D/macros)    
-:   [id parameter](ref/%7Bskin%7D/param/id)    
+:   [macros (skin)](/ref/%7Bskin%7D/macros)    
+:   [id parameter](/ref/%7Bskin%7D/param/id)    
 <!-- -->    
 **Applies to:**    
-:   [Macro](ref/%7Bskin%7D/control/macro)    
-:   [Menu](ref/%7Bskin%7D/control/menu)    
+:   [Macro](/ref/%7Bskin%7D/control/macro)    
+:   [Menu](/ref/%7Bskin%7D/control/menu)    
 <!-- -->    
 **Format:**    
 :   string    

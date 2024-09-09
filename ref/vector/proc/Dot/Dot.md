@@ -1,9 +1,9 @@
 []{#/vector/proc/Dot}    
 ## Dot proc (vector) {#dot-proc-vector byondver="516"}    
 **See also:**    
-:   [vector](ref/vector)    
-:   [vector proc](ref/proc/vector)    
-:   [vars (vector)](ref/vector/var)    
+:   [vector](/ref/vector)    
+:   [vector proc](/ref/proc/vector)    
+:   [vars (vector)](/ref/vector/var)    
 <!-- -->    
 **Format:**    
 :   A.Dot(B)    

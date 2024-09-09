@@ -1,8 +1,8 @@
 []{#/datum/proc/Topic}    
 ## Topic proc (datum)    
 **See also:**    
-:   [Topic proc (client)](ref/client/proc/Topic)    
-:   [ref text macro](ref/DM/text/macros/ref)    
+:   [Topic proc (client)](/ref/client/proc/Topic)    
+:   [ref text macro](/ref/DM/text/macros/ref)    
 <!-- -->    
 **Format:**    
 :   Topic(href,href_list\[\])    

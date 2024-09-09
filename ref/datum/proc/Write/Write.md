@@ -1,11 +1,11 @@
 []{#/datum/proc/Write}    
 ## Write proc (datum)    
 **See also:**    
-:   [\<\< operator (savefile)](ref/savefile/operator/%3c%3c)    
-:   [Read proc (datum)](ref/datum/proc/Read)    
-:   [initial proc](ref/proc/initial)    
-:   [issaved proc](ref/proc/issaved)    
-:   [tmp vars](ref/var/tmp)    
+:   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c)    
+:   [Read proc (datum)](/ref/datum/proc/Read)    
+:   [initial proc](/ref/proc/initial)    
+:   [issaved proc](/ref/proc/issaved)    
+:   [tmp vars](/ref/var/tmp)    
 <!-- -->    
 **Format:**    
 :   Write(savefile/F)    

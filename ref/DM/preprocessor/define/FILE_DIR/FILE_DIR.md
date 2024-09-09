@@ -1,8 +1,8 @@
 []{#/DM/preprocessor/define/FILE_DIR}    
 ## FILE_DIR definition    
 **See also:**    
-:   [cache](ref/DM/cache)    
-:   [icons](ref/DM/icon)    
+:   [cache](/ref/DM/cache)    
+:   [icons](/ref/DM/icon)    
 <!-- -->    
 **Format:**    
 :   #define FILE_DIR Path    

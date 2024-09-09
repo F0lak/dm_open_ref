@@ -1,7 +1,7 @@
 []{#/proc/vector}    
 ## vector proc {#vector-proc byondver="516"}    
 **See also:**    
-:   [vector](ref/vector)    
+:   [vector](/ref/vector)    
 <!-- -->    
 **Format:**    
 :   vector(x,y)    

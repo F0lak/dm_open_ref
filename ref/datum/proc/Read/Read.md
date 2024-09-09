@@ -1,9 +1,9 @@
 []{#/datum/proc/Read}    
 ## Read proc (datum)    
 **See also:**    
-:   [\>\> operator (savefile)](ref/savefile/operator/%3e%3e)    
-:   [Write proc (datum)](ref/datum/proc/Write)    
-:   [tmp vars](ref/var/tmp)    
+:   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e)    
+:   [Write proc (datum)](/ref/datum/proc/Write)    
+:   [tmp vars](/ref/var/tmp)    
 <!-- -->    
 **Format:**    
 :   Read(savefile/F)    

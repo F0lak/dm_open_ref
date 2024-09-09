@@ -1,8 +1,8 @@
 []{#/proc/startup}    
 ## startup proc    
 **See also:**    
-:   [params var (world)](ref/world/var/params)    
-:   [shutdown proc](ref/proc/shutdown)    
+:   [params var (world)](/ref/world/var/params)    
+:   [shutdown proc](/ref/proc/shutdown)    
 <!-- -->    
 **Format:**    
 :   startup(File,Port=0,Options,\...)    
@@ -63,7 +63,7 @@
     /client object is automatically created for the user and any output    
     sent to the associated mob gets returned to the user\'s web browser.    
     This option is normally specified in the compile-time setting:    
-    [world.executor](ref/world/var/executor), which is automatically    
+    [world.executor](/ref/world/var/executor), which is automatically    
     initialized for you if you include `html/CGI.dm` from the html    
     library.    
 -suid \<path\>    

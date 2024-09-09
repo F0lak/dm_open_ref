@@ -1,9 +1,9 @@
 []{#/DM/garbage}    
 ## garbage collection    
 **See also:**    
-:   [del proc](ref/proc/del)    
-:   [world](ref/world)    
-:   [refcount proc](ref/proc/refcount)    
+:   [del proc](/ref/proc/del)    
+:   [world](/ref/world)    
+:   [refcount proc](/ref/proc/refcount)    
 At runtime, data objects are garbage collected. That means data which is    
 no longer in use gets automatically deleted to free up system memory.    
 This applies to text strings, lists, savefiles, datum objects, and so    
@@ -23,15 +23,15 @@ should forcibly destroy each object with the `del` instruction.
 ::: {.sidebar .underhood}    
 This is a quick list of things that count as references to an object:    
 -   Stored in a var    
--   An item in a [list](ref/list), or [associated](ref/list/associations)    
+-   An item in a [list](/ref/list), or [associated](/ref/list/associations)    
     with a list item    
--   Has a [tag](ref/datum/var/tag){.code}    
--   Is on the map (always true for [turfs](ref/turf))    
--   Inside another atom\'s [contents](ref/atom/var/contents){.code}    
--   Inside an atom\'s [vis_contents](ref/atom/var/vis_contents){.code}    
+-   Has a [tag](/ref/datum/var/tag){.code}    
+-   Is on the map (always true for [turfs](/ref/turf))    
+-   Inside another atom\'s [contents](/ref/atom/var/contents){.code}    
+-   Inside an atom\'s [vis_contents](/ref/atom/var/vis_contents){.code}    
 -   A temporary value in a still-running proc    
--   Is a [mob](ref/mob) with a [key](ref/mob/var/key){.code}    
--   Is an [image object](ref/image) attached to an atom    
+-   Is a [mob](/ref/mob) with a [key](/ref/mob/var/key){.code}    
+-   Is an [image object](/ref/image) attached to an atom    
 `del()` will try to clear out the most obvious possible references    
 first, and bail out when it\'s done, but if there are still references    
 it will search everywhere for any references that remain.    

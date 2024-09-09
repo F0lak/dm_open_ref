@@ -1,10 +1,10 @@
 []{#/world/proc/GetMedal}    
 ## GetMedal proc (world)    
 **See also:**    
-:   [SetMedal proc (world)](ref/world/proc/SetMedal)    
-:   [ClearMedal proc (world)](ref/world/proc/ClearMedal)    
-:   [GetScores proc (world)](ref/world/proc/GetScores)    
-:   [SetScores proc (world)](ref/world/proc/SetScores)    
+:   [SetMedal proc (world)](/ref/world/proc/SetMedal)    
+:   [ClearMedal proc (world)](/ref/world/proc/ClearMedal)    
+:   [GetScores proc (world)](/ref/world/proc/GetScores)    
+:   [SetScores proc (world)](/ref/world/proc/SetScores)    
 <!-- -->    
 **Format:**    
 :   GetMedal(medal, player)    

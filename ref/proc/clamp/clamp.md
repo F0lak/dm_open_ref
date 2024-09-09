@@ -1,8 +1,8 @@
 []{#/proc/clamp}    
 ## clamp proc {#clamp-proc byondver="513"}    
 **See also:**    
-:   [min proc](ref/proc/min)    
-:   [max proc](ref/proc/max)    
+:   [min proc](/ref/proc/min)    
+:   [max proc](/ref/proc/max)    
 <!-- -->    
 **Format:**    
 :   clamp(Value, Low, High)    
@@ -34,4 +34,4 @@ The list format will accept a list in place of a value as the first
 argument, and it behaves as if you looped through the entire list and    
 ran `clamp()` on each value. Please note the original list will be    
 modified. If you want to leave the original list alone, use the    
-[`Copy()` proc](ref/list/proc/Copy) to pass a copy to `clamp()` instead.  
+[`Copy()` proc](/ref/list/proc/Copy) to pass a copy to `clamp()` instead.  

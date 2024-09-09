@@ -1,16 +1,16 @@
 []{#/atom/proc/Entered}    
 ## Entered proc (atom)    
 **See also:**    
-:   [Enter proc (atom)](ref/atom/proc/Enter)    
-:   [Exit proc (atom)](ref/atom/proc/Exit)    
-:   [Exited proc (atom)](ref/atom/proc/Exited)    
-:   [Cross proc (atom)](ref/atom/proc/Cross)    
-:   [Crossed proc (atom)](ref/atom/proc/Crossed)    
-:   [Uncross proc (atom)](ref/atom/proc/Uncross)    
-:   [Uncrossed proc (atom)](ref/atom/proc/Uncrossed)    
-:   [Move proc (movable atom)](ref/atom/movable/proc/Move)    
-:   [step_x var (movable atom)](ref/atom/movable/var/step_x)    
-:   [step_y var (movable atom)](ref/atom/movable/var/step_y)    
+:   [Enter proc (atom)](/ref/atom/proc/Enter)    
+:   [Exit proc (atom)](/ref/atom/proc/Exit)    
+:   [Exited proc (atom)](/ref/atom/proc/Exited)    
+:   [Cross proc (atom)](/ref/atom/proc/Cross)    
+:   [Crossed proc (atom)](/ref/atom/proc/Crossed)    
+:   [Uncross proc (atom)](/ref/atom/proc/Uncross)    
+:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move)    
+:   [step_x var (movable atom)](/ref/atom/movable/var/step_x)    
+:   [step_y var (movable atom)](/ref/atom/movable/var/step_y)    
 <!-- -->    
 **Format:**    
 :   Entered(atom/movable/Obj,atom/OldLoc)    

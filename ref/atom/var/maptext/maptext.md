@@ -1,16 +1,16 @@
 []{#/atom/var/maptext}    
 ## maptext var (atom) {#maptext-var-atom byondver="494"}    
 **See also:**    
-:   [maptext_width var (atom)](ref/atom/var/maptext_width)    
-:   [maptext_height var (atom)](ref/atom/var/maptext_height)    
-:   [maptext_x var (atom)](ref/atom/var/maptext_x)    
-:   [maptext_y var (atom)](ref/atom/var/maptext_y)    
-:   [overlays var (atom)](ref/atom/var/overlays)    
-:   [image objects](ref/image)    
-:   [pixel_x var (atom)](ref/atom/var/pixel_x)    
-:   [pixel_y var (atom)](ref/atom/var/pixel_y)    
-:   [pixel_w var (atom)](ref/atom/var/pixel_w)    
-:   [pixel_z var (atom)](ref/atom/var/pixel_z)    
+:   [maptext_width var (atom)](/ref/atom/var/maptext_width)    
+:   [maptext_height var (atom)](/ref/atom/var/maptext_height)    
+:   [maptext_x var (atom)](/ref/atom/var/maptext_x)    
+:   [maptext_y var (atom)](/ref/atom/var/maptext_y)    
+:   [overlays var (atom)](/ref/atom/var/overlays)    
+:   [image objects](/ref/image)    
+:   [pixel_x var (atom)](/ref/atom/var/pixel_x)    
+:   [pixel_y var (atom)](/ref/atom/var/pixel_y)    
+:   [pixel_w var (atom)](/ref/atom/var/pixel_w)    
+:   [pixel_z var (atom)](/ref/atom/var/pixel_z)    
 <!-- -->    
 **Default value:**    
 :   null    

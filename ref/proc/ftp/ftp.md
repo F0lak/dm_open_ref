@@ -1,12 +1,12 @@
 []{#/proc/ftp}    
 ## ftp proc    
 **See also:**    
-:   [\<\< output operator](ref/operator/%3c%3c/output)    
-:   [browse proc](ref/proc/browse)    
-:   [file proc](ref/proc/file)    
-:   [link proc](ref/proc/link)    
-:   [run proc](ref/proc/run)    
-:   [sound proc](ref/proc/sound)    
+:   [\<\< output operator](/ref/operator/%3c%3c/output)    
+:   [browse proc](/ref/proc/browse)    
+:   [file proc](/ref/proc/file)    
+:   [link proc](/ref/proc/link)    
+:   [run proc](/ref/proc/run)    
+:   [sound proc](/ref/proc/sound)    
 <!-- -->    
 **Format:**    
 :   target \<\< ftp(File, Name)    

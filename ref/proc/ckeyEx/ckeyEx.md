@@ -1,7 +1,7 @@
 []{#/proc/ckeyEx}    
 ## ckeyEx proc    
 **See also:**    
-:   [ckey proc](ref/proc/ckey)    
+:   [ckey proc](/ref/proc/ckey)    
 <!-- -->    
 **Format:**    
 :   ckeyEx(Text)    

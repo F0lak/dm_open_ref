@@ -1,7 +1,7 @@
 []{#/savefile/var/name}    
 ## name var (savefile)    
 **See also:**    
-:   [savefile](ref/savefile)    
+:   [savefile](/ref/savefile)    
 The external \"real\" filename is stored in file.name. It is initialized    
 when creating a new file. If none is specified, a temporary file with a    
 random name will be created.    

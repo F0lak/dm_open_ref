@@ -1,9 +1,9 @@
 []{#/proc/list}    
 ## list proc    
 **See also:**    
-:   [arglist proc](ref/proc/arglist)    
-:   [list](ref/list)    
-:   [list associations](ref/list/associations)    
+:   [arglist proc](/ref/proc/arglist)    
+:   [list](/ref/list)    
+:   [list associations](/ref/list/associations)    
 <!-- -->    
 **Format:**    
 :   list(A,B,C,\...)    
@@ -32,4 +32,4 @@ satisfy all the requirements for variable names, this may also be
 written in a convenient short-hand without the double quotes:    
 var/list/lst = list(player = \"James Byond\", score = 2000)    
 In other words, this is exactly the same syntax as for [named    
-arguments](ref/proc/arguments/named).  
+arguments](/ref/proc/arguments/named).  

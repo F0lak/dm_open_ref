@@ -1,10 +1,10 @@
 []{#/atom/var/vis_contents}    
 ## vis_contents var (atom) {#vis_contents-var-atom byondver="512"}    
 **See also:**    
-:   [vis_locs var (atom)](ref/atom/var/vis_locs)    
-:   [vis_flags var (atom)](ref/atom/var/vis_flags)    
-:   [image objects](ref/image)    
-:   [HUD / screen objects](ref/%7Bnotes%7D/HUD)    
+:   [vis_locs var (atom)](/ref/atom/var/vis_locs)    
+:   [vis_flags var (atom)](/ref/atom/var/vis_flags)    
+:   [image objects](/ref/image)    
+:   [HUD / screen objects](/ref/%7Bnotes%7D/HUD)    
 <!-- -->    
 **Default value:**    
 :   Empty list.    
@@ -38,7 +38,7 @@ automatically, so if you add an entire block to visual contents (be
 aware this will impact performance), you don\'t have to do anything else    
 to make the block appear normal.    
 You can alter some aspects of how an object behaves when in visual    
-contents by changing its [vis_flags](ref/atom/var/vis_flags){.code} var.    
+contents by changing its [vis_flags](/ref/atom/var/vis_flags){.code} var.    
 In particular this is useful if you want an object to behave more like    
 an overlay, inheriting aspects of its parent object or even acting like    
 a part of that object instead of an independent one. Also this can make    
@@ -46,6 +46,6 @@ an object act like an underlay instead of an overlay when using a
 floating layer.    
 Visual contents do not impact the results of `view()` or `range()`, or    
 verb availability, in any way. This is strictly a visual effect.    
-Being in a visual contents list counts as a [reference](ref/DM/garbage)    
+Being in a visual contents list counts as a [reference](/ref/DM/garbage)    
 for anything in the list, the same way that being on the map or inside    
 of a movable counts as a reference.  

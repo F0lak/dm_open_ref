@@ -1,9 +1,9 @@
 []{#/{notes}/filters/radial_blur toc="Radial blur (filters)"}    
 ## Radial blur filter {#radial-blur-filter byondver="513"}    
 **See also:**    
-:   [Gaussian blur (filters)](ref/%7Bnotes%7D/filters/blur)    
-:   [Angular blur (filters)](ref/%7Bnotes%7D/filters/angular_blur)    
-:   [Motion blur (filters)](ref/%7Bnotes%7D/filters/motion_blur)    
+:   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur)    
+:   [Angular blur (filters)](/ref/%7Bnotes%7D/filters/angular_blur)    
+:   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur)    
 <!-- -->    
 Format:    
 :   filter(type=\"radial_blur\", \...)    

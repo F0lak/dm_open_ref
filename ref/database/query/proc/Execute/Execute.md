@@ -1,16 +1,16 @@
 []{#/database/query/proc/Execute}    
 ## Execute proc (database query) {#execute-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum](ref/database)    
-:   [database query datum](ref/database/query)    
-:   [Add proc (database query)](ref/database/query/proc/Add)    
-:   [Close proc (database query)](ref/database/query/proc/Close)    
-:   [GetColumn proc (database query)](ref/database/query/proc/GetColumn)    
-:   [GetRowData proc (database query)](ref/database/query/proc/GetRowData)    
-:   [NextRow proc (database query)](ref/database/query/proc/NextRow)    
-:   [Reset proc (database query)](ref/database/query/proc/Reset)    
+:   [database datum](/ref/database)    
+:   [database query datum](/ref/database/query)    
+:   [Add proc (database query)](/ref/database/query/proc/Add)    
+:   [Close proc (database query)](/ref/database/query/proc/Close)    
+:   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn)    
+:   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData)    
+:   [NextRow proc (database query)](/ref/database/query/proc/NextRow)    
+:   [Reset proc (database query)](/ref/database/query/proc/Reset)    
 :   [RowsAffected proc (database    
-    query)](ref/database/query/proc/RowsAffected)    
+    query)](/ref/database/query/proc/RowsAffected)    
 <!-- -->    
 **Format:**    
 :   Execute(database)    

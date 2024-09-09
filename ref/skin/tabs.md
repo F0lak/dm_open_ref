@@ -1,21 +1,21 @@
 []{#/{skin}/param/tabs}    
 ## tabs parameter (skin)    
 **See also:**    
-:   [current-tab parameter](ref/%7Bskin%7D/param/current-tab)    
-:   [id parameter](ref/%7Bskin%7D/param/id)    
-:   [multi-line parameter](ref/%7Bskin%7D/param/multi-line)    
+:   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab)    
+:   [id parameter](/ref/%7Bskin%7D/param/id)    
+:   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line)    
 <!-- -->    
 **Applies to:**    
-:   [Tab](ref/%7Bskin%7D/control/tab)    
+:   [Tab](/ref/%7Bskin%7D/control/tab)    
 <!-- -->    
 **Format:**    
 :   string    
-A comma-separated list of [id](ref/%7Bskin%7D/param/id){.code} values for    
+A comma-separated list of [id](/ref/%7Bskin%7D/param/id){.code} values for    
 the panes included as tabs in this control.    
 When setting this value, you can put `+` in front of the list to add    
 tabs to the existing control, without affecting current tabs. You can    
 likewise use `-` in front of the list to remove tabs.    
-Note: When using this with [winset()](ref/proc/winset){.code}, remember    
+Note: When using this with [winset()](/ref/proc/winset){.code}, remember    
 you will need to escape `+` as `%2B` via    
-[url_encode()](ref/proc/url_encode){.code} or    
-[list2params()](ref/proc/list2params){.code}.  
+[url_encode()](/ref/proc/url_encode){.code} or    
+[list2params()](/ref/proc/list2params){.code}.  

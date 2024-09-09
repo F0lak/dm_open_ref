@@ -1,9 +1,9 @@
 []{#/{notes}/filters/color toc="Color matrix (filters)"}    
 ## Color matrix filter {#color-matrix-filter byondver="513"}    
 **See also:**    
-:   [color var (atom)](ref/atom/var/color)    
-:   [Color matrix](ref/%7Bnotes%7D/color-matrix)    
-:   [Color space](ref/%7B%7Bappendix%7D%7D/color-space)    
+:   [color var (atom)](/ref/atom/var/color)    
+:   [Color matrix](/ref/%7Bnotes%7D/color-matrix)    
+:   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space)    
 <!-- -->    
 Format:    
 :   filter(type=\"color\", \...)    
@@ -14,4 +14,4 @@ Args:
 Applies a color matrix to this image. Unlike with the atom.color var,    
 you can apply color conversions other than the regular RGBA color space,    
 depending on the value of `space`. See [Color    
-space](ref/%7B%7Bappendix%7D%7D/color-space) for more information.  
+space](/ref/%7B%7Bappendix%7D%7D/color-space) for more information.  

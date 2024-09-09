@@ -1,7 +1,7 @@
 []{#/proc/fdel}    
 ## fdel proc    
 **See also:**    
-:   [shell proc](ref/proc/shell)    
+:   [shell proc](/ref/proc/shell)    
 <!-- -->    
 **Format:**    
 :   fdel(File)    

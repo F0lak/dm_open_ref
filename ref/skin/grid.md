@@ -3,19 +3,19 @@
 A grid that contains multiple cells that can show various kinds of    
 output data.    
 **Grid-specific parameters:**    
-:   [cell-span](ref/%7Bskin%7D/param/cell-span)    
-:   [cells](ref/%7Bskin%7D/param/cells)    
-:   [current-cell](ref/%7Bskin%7D/param/current-cell)    
-:   [enable-http-images](ref/%7Bskin%7D/param/enable-http-images)    
-:   [highlight-color](ref/%7Bskin%7D/param/highlight-color)    
-:   [is-list](ref/%7Bskin%7D/param/is-list)    
-:   [line-color](ref/%7Bskin%7D/param/line-color)    
-:   [link-color](ref/%7Bskin%7D/param/link-color)    
-:   [show-lines](ref/%7Bskin%7D/param/show-lines)    
-:   [show-names](ref/%7Bskin%7D/param/show-names)    
-:   [small-icons](ref/%7Bskin%7D/param/small-icons)    
-:   [style](ref/%7Bskin%7D/param/style)    
-:   [visited-color](ref/%7Bskin%7D/param/visited-color)    
+:   [cell-span](/ref/%7Bskin%7D/param/cell-span)    
+:   [cells](/ref/%7Bskin%7D/param/cells)    
+:   [current-cell](/ref/%7Bskin%7D/param/current-cell)    
+:   [enable-http-images](/ref/%7Bskin%7D/param/enable-http-images)    
+:   [highlight-color](/ref/%7Bskin%7D/param/highlight-color)    
+:   [is-list](/ref/%7Bskin%7D/param/is-list)    
+:   [line-color](/ref/%7Bskin%7D/param/line-color)    
+:   [link-color](/ref/%7Bskin%7D/param/link-color)    
+:   [show-lines](/ref/%7Bskin%7D/param/show-lines)    
+:   [show-names](/ref/%7Bskin%7D/param/show-names)    
+:   [small-icons](/ref/%7Bskin%7D/param/small-icons)    
+:   [style](/ref/%7Bskin%7D/param/style)    
+:   [visited-color](/ref/%7Bskin%7D/param/visited-color)    
 Sending output to a grid looks like this:    
 ### Example:    
 // output to column 3, row 2 winset(usr, \"thegrid\",    
@@ -33,7 +33,7 @@ There are some limitations to output in grid controls:
 -   A cell is either a link, or not.    
 -   One image is allowed per cell.    
 -   A cell can hold an object (atom), sent to it via the [`output()`    
-    proc](ref/proc/output), which can be clicked, dragged, etc.; it will    
+    proc](/ref/proc/output), which can be clicked, dragged, etc.; it will    
     not act as a link.    
 -   The same margin is used all around the cell, not different margins    
     for left, right, top, bottom.    

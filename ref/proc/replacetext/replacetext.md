@@ -1,10 +1,10 @@
 []{#/proc/replacetext}    
 ## replacetext proc {#replacetext-proc byondver="510"}    
 **See also:**    
-:   [findtext proc](ref/proc/findtext)    
-:   [replacetextEx proc](ref/proc/replacetextEx)    
-:   [Regular expressions](ref/%7Bnotes%7D/regex)    
-:   [Replace proc (regex)](ref/regex/proc/Replace)    
+:   [findtext proc](/ref/proc/findtext)    
+:   [replacetextEx proc](/ref/proc/replacetextEx)    
+:   [Regular expressions](/ref/%7Bnotes%7D/regex)    
+:   [Replace proc (regex)](/ref/regex/proc/Replace)    
 <!-- -->    
 **Format:**    
 :   replacetext(Haystack,Needle,Replacement,Start=1,End=0)    
@@ -34,10 +34,10 @@ be called with the found text as an argument, and its return value will
 be the replacement. There will be no automatic correction to uppercase    
 or all caps in this case.    
 When the Needle value is a regular expression, this proc behaves    
-identically to the [regex Replace()](ref/regex/proc/Replace) proc.    
+identically to the [regex Replace()](/ref/regex/proc/Replace) proc.    
 Case-sensitivity, and whether one match or all are replaced, depend on    
 the regular expression.    
 Note: In strings containing non-ASCII characters, byte position and    
 character position are not the same thing. Use `replacetext_char()` to    
 work with character counts instead of bytes, at a performance cost. See    
-the [Unicode](ref/%7Bnotes%7D/Unicode) section for more information.  
+the [Unicode](/ref/%7Bnotes%7D/Unicode) section for more information.  

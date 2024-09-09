@@ -1,7 +1,7 @@
 []{#/sound/var/priority}    
 ## priority var (sound)    
 **See also:**    
-:   [vars (sound)](ref/sound/var)    
+:   [vars (sound)](/ref/sound/var)    
 <!-- -->    
 **Default value:**    
 :   0    

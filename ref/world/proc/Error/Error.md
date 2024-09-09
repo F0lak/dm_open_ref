@@ -1,9 +1,9 @@
 []{#/world/proc/Error}    
 ## Error proc (world) {#error-proc-world byondver="508"}    
 **See also:**    
-:   [try and catch statements](ref/proc/try)    
-:   [throw statement](ref/proc/throw)    
-:   [exception](ref/exception)    
+:   [try and catch statements](/ref/proc/try)    
+:   [throw statement](/ref/proc/throw)    
+:   [exception](/ref/exception)    
 <!-- -->    
 **Format:**    
 :   Error(exception)    

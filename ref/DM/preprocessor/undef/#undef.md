@@ -1,8 +1,8 @@
 []{#/DM/preprocessor/undef}    
 ## #undef directive    
 **See also:**    
-:   [#define directive](ref/DM/preprocessor/define)    
-:   [preprocessor](ref/DM/preprocessor)    
+:   [#define directive](/ref/DM/preprocessor/define)    
+:   [preprocessor](/ref/DM/preprocessor)    
 <!-- -->    
 **Format:**    
 :   #undef Name    

@@ -1,23 +1,23 @@
-[]{#/{skin}/param/is-default}
-  ## is-default parameter (skin)
-  **See also:**
-  :   [id parameter](ref/%7Bskin%7D/param/id)
-  :   [parent parameter](ref/%7Bskin%7D/param/parent)
-  :   [type parameter](ref/%7Bskin%7D/param/type)
-  <!-- -->
-  **Applies to:**
-  :   [All](ref/%7Bskin%7D/control)
-  <!-- -->
-  **Format:**
-  :   true/false
-  <!-- -->
-  **Default value:**
-  :   false
-  Specifies that this is a default control. This should be true for your
-  main window, and for your primary map, info, output, input, and browser
-  controls.
-  The default control of a given type can be referenced in
-  [winset()](ref/proc/winset){.code} and other skin-related procs by the
-  name `":`*`type`*`"`, e.g. `":map"`.
-  Changing this value at runtime should be avoided, especially for
-  windows. Results may be unpredictable.
+[]{#/{skin}/param/is-default}    
+## is-default parameter (skin)    
+**See also:**    
+:   [id parameter](ref/%7Bskin%7D/param/id)    
+:   [parent parameter](ref/%7Bskin%7D/param/parent)    
+:   [type parameter](ref/%7Bskin%7D/param/type)    
+<!-- -->    
+**Applies to:**    
+:   [All](ref/%7Bskin%7D/control)    
+<!-- -->    
+**Format:**    
+:   true/false    
+<!-- -->    
+**Default value:**    
+:   false    
+Specifies that this is a default control. This should be true for your    
+main window, and for your primary map, info, output, input, and browser    
+controls.    
+The default control of a given type can be referenced in    
+[winset()](ref/proc/winset){.code} and other skin-related procs by the    
+name `":`*`type`*`"`, e.g. `":map"`.    
+Changing this value at runtime should be avoided, especially for    
+windows. Results may be unpredictable.  

@@ -1,4 +1,4 @@
-[]{#/verb/var}
-  ## vars (verbs)
-  **See:**
-  :   [vars (procs)](ref/proc/var)
+[]{#/verb/var}    
+## vars (verbs)    
+**See:**    
+:   [vars (procs)](ref/proc/var)  

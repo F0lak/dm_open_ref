@@ -4,4 +4,4 @@ The reference is currently built with the documentation for BYOND version 516.16
 
 At this time it's a very early-stages work in progress!
 
-This repo is maintained by F0lak.  If you have any questions, comments or concerns, hit me up on Discord in the BYONDiscord server.
+This repo is maintained by F0lak.  You can join the BYONDiscord server to discuss this project [here](https://discord.gg/pTFccGgnAr)

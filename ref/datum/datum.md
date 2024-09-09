@@ -1,9 +1,9 @@
 []{#/datum}    
 ## datum    
 **See also:**    
-:   [atom](/ref/atom)    
-:   [procs (datum)](/ref/datum/proc)    
-:   [vars (datum)](/ref/datum/var)    
+:   [atom](/ref/atom.md)    
+:   [procs (datum)](/ref/datum/proc.md)    
+:   [vars (datum)](/ref/datum/var.md)    
 The datum object is the ancestor of all other data types in DM, with    
 only a few exception called primitives. That means that the variables    
 and procedures of /datum are inherited by almost all other types of    
@@ -23,17 +23,17 @@ may or may not be able to allow var and proc overrides.
   -------------------------------------------------------------------------------------------------------------------------------------    
   Type                             User-defined      Can override                                            Notes    
   -------------------------------- ----------------- ------------------------------------------------------- --------------------------    
-  [/world](/ref/world){.code}         procs only        vars and procs                                              
-  [/client](/ref/client){.code}       vars and procs    vars and procs                                          can manually set    
+  [/world](/ref/world.md){.code}         procs only        vars and procs                                              
+  [/client](/ref/client.md){.code}       vars and procs    vars and procs                                          can manually set    
                                                                                                              `parent_type=/datum`\    
                                                                                                              can\'t be created in    
-                                                                                                             [new](/ref/proc/new){.code}    
-  [/list](/ref/list){.code}           \-                \-                                                          
-  [/savefile](/ref/savefile){.code}   \-                [byond_version](/ref/savefile/var/byond_version){.code}\       
-                                                     [byond_build](/ref/savefile/var/byond_build){.code}            
-  [/alist](/ref/alist){.code}         \-                \-                                                          
-  [/pixloc](/ref/pixloc){.code}       \-                \-                                                          
-  [/vector](/ref/vector){.code}       \-                \-                                                          
-  [/callee](/ref/pixloc){.code}       \-                \-                                                      can\'t be created in    
-                                                                                                             [new](/ref/proc/new){.code}    
+                                                                                                             [new](/ref/proc/new.md){.code}    
+  [/list](/ref/list.md){.code}           \-                \-                                                          
+  [/savefile](/ref/savefile.md){.code}   \-                [byond_version](/ref/savefile/var/byond_version.md){.code}\       
+                                                     [byond_build](/ref/savefile/var/byond_build.md){.code}            
+  [/alist](/ref/alist.md){.code}         \-                \-                                                          
+  [/pixloc](/ref/pixloc.md){.code}       \-                \-                                                          
+  [/vector](/ref/vector.md){.code}       \-                \-                                                          
+  [/callee](/ref/pixloc.md){.code}       \-                \-                                                      can\'t be created in    
+                                                                                                             [new](/ref/proc/new.md){.code}    
   -------------------------------------------------------------------------------------------------------------------------------------  

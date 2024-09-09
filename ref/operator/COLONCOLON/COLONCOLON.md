@@ -1,14 +1,14 @@
 []{#/operator/::}    
 ## :: operator {#operator byondver="515"}    
 **See also:**    
-:   [. path operator](/ref/operator/path/%2e)    
-:   [/ path operator](/ref/operator/path//)    
-:   [: path operator](/ref/operator/path/:)    
-:   [operators](/ref/operator)    
-:   [call proc](/ref/proc/call)    
-:   [initial proc](/ref/proc/initial)    
-:   [nameof proc](/ref/proc/nameof)    
-:   [istype proc](/ref/proc/istype)    
+:   [. path operator](/ref/operator/path/%2e.md)    
+:   [/ path operator](/ref/operator/path//.md)    
+:   [: path operator](/ref/operator/path/:.md)    
+:   [operators](/ref/operator.md)    
+:   [call proc](/ref/proc/call.md)    
+:   [initial proc](/ref/proc/initial.md)    
+:   [nameof proc](/ref/proc/nameof.md)    
+:   [istype proc](/ref/proc/istype.md)    
 <!-- -->    
 **Format:**    
 :   ::A    

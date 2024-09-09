@@ -1,9 +1,9 @@
 []{#/icon/proc/DrawBox}    
 ## DrawBox proc (icon)    
 **See also:**    
-:   [icon](/ref/icon)    
-:   [procs (icon)](/ref/icon/proc)    
-:   [rgb proc](/ref/proc/rgb)    
+:   [icon](/ref/icon.md)    
+:   [procs (icon)](/ref/icon/proc.md)    
+:   [rgb proc](/ref/proc/rgb.md)    
 <!-- -->    
 **Format:**    
 :   DrawBox(rgb,x1,y1,x2=x1,y2=y1)    

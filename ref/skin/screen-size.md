@@ -1,11 +1,11 @@
 []{#/{skin}/param/screen-size}    
 ## screen-size parameter (skin) {#screen-size-parameter-skin byondver="515"}    
 **See also:**    
-:   [size parameter](/ref/%7Bskin%7D/param/size)    
-:   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size)    
+:   [size parameter](/ref/%7Bskin%7D/param/size.md)    
+:   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md)    
 <!-- -->    
 **Applies to:**    
-:   [Main](/ref/%7Bskin%7D/control/main)    
+:   [Main](/ref/%7Bskin%7D/control/main.md)    
 <!-- -->    
 **Format:**    
 :   *width*x*height*    

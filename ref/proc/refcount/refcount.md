@@ -1,7 +1,7 @@
 []{#/proc/refcount}    
 ## refcount proc {#refcount-proc byondver="515"}    
 **See also:**    
-:   [garbage collection](/ref/DM/garbage)    
+:   [garbage collection](/ref/DM/garbage.md)    
 <!-- -->    
 **Format:**    
 :   refcount(Object)    

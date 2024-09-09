@@ -1,9 +1,9 @@
 []{#/database/query/proc/Error}    
 ## Error proc (database query) {#error-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum](/ref/database)    
-:   [database query datum](/ref/database/query)    
-:   [ErrorMsg proc (database query)](/ref/database/query/proc/ErrorMsg)    
+:   [database datum](/ref/database.md)    
+:   [database query datum](/ref/database/query.md)    
+:   [ErrorMsg proc (database query)](/ref/database/query/proc/ErrorMsg.md)    
 <!-- -->    
 **Format:**    
 :   Error()    

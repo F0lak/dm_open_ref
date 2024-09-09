@@ -2,20 +2,20 @@
 ## glide_size var (movable atoms) {#glide_size-var-movable-atoms byondver="490"}    
 **See also:**    
 :   [animate_movement var (movable    
-    atoms)](/ref/atom/movable/var/animate_movement)    
-:   [glide_size var (client)](/ref/client/var/glide_size)    
-:   [pixel_x var (atom)](/ref/atom/var/pixel_x)    
-:   [pixel_y var (atom)](/ref/atom/var/pixel_y)    
-:   [icon_size var (world)](/ref/world/var/icon_size)    
-:   [movement_mode var (world)](/ref/world/var/movement_mode)    
-:   [fps var (client)](/ref/client/var/fps)    
-:   [Gliding](/ref/%7Bnotes%7D/gliding)    
+    atoms)](/ref/atom/movable/var/animate_movement.md)    
+:   [glide_size var (client)](/ref/client/var/glide_size.md)    
+:   [pixel_x var (atom)](/ref/atom/var/pixel_x.md)    
+:   [pixel_y var (atom)](/ref/atom/var/pixel_y.md)    
+:   [icon_size var (world)](/ref/world/var/icon_size.md)    
+:   [movement_mode var (world)](/ref/world/var/movement_mode.md)    
+:   [fps var (client)](/ref/client/var/fps.md)    
+:   [Gliding](/ref/%7Bnotes%7D/gliding.md)    
 <!-- -->    
 **Default value:**    
 :   0    
 Note: The way this setting is used depends on    
-[world.movement_mode](/ref/world/var/movement_mode). See    
-[Gliding](/ref/%7Bnotes%7D/gliding) for more details.    
+[world.movement_mode](/ref/world/var/movement_mode.md). See    
+[Gliding](/ref/%7Bnotes%7D/gliding.md) for more details.    
 This controls the number of pixels an object is moved in each footstep    
 during animated movement. The default value of 0 chooses automated    
 control over this value, which generally results in a minimum footstep    

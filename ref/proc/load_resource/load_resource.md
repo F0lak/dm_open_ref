@@ -1,7 +1,7 @@
 []{#/proc/load_resource}    
 ## load_resource proc    
 **See also:**    
-:   [\<\< output operator](/ref/operator/%3c%3c/output)    
+:   [\<\< output operator](/ref/operator/%3c%3c/output.md)    
 <!-- -->    
 **Format:**    
 :   Player \<\< load_resource(File)    

@@ -1,13 +1,13 @@
 []{#/vector/var}    
 ## vars (vector) {#vars-vector byondver="516"}    
 **See also:**    
-:   [vector](/ref/vector)    
-:   [vector proc](/ref/proc/vector)    
-:   [procs (vector)](/ref/vector/proc)    
+:   [vector](/ref/vector.md)    
+:   [vector proc](/ref/proc/vector.md)    
+:   [procs (vector)](/ref/vector/proc.md)    
 Built-in vector vars:    
 vector/var    
-:   [len](/ref/vector/var/len)    
-:   [size](/ref/vector/var/size)    
-:   [x](/ref/vector/var/x)    
-:   [y](/ref/vector/var/y)    
-:   [z](/ref/vector/var/z)  
+:   [len](/ref/vector/var/len.md)    
+:   [size](/ref/vector/var/size.md)    
+:   [x](/ref/vector/var/x.md)    
+:   [y](/ref/vector/var/y.md)    
+:   [z](/ref/vector/var/z.md)  

@@ -1,9 +1,9 @@
 []{#/{notes}/filters/displace toc="Displacement map (filters)"}    
 ## Displacement map filter {#displacement-map-filter byondver="513"}    
 **See also:**    
-:   [Alpha mask (filters)](/ref/%7Bnotes%7D/filters/alpha)    
-:   [icon var (atom)](/ref/atom/var/icon)    
-:   [render_target var (atom)](/ref/atom/var/render_target)    
+:   [Alpha mask (filters)](/ref/%7Bnotes%7D/filters/alpha.md)    
+:   [icon var (atom)](/ref/atom/var/icon.md)    
+:   [render_target var (atom)](/ref/atom/var/render_target.md)    
 <!-- -->    
 Format:    
 :   filter(type=\"displace\", \...)    

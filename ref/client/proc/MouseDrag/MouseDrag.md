@@ -1,18 +1,18 @@
 []{#/client/proc/MouseDrag}    
 ## MouseDrag proc (client)    
 **See also:**    
-:   [Click proc (client)](/ref/client/proc/Click)    
-:   [DblClick proc (client)](/ref/client/proc/DblClick)    
-:   [MouseDown proc (client)](/ref/client/proc/MouseDown)    
-:   [MouseDrag proc (atom)](/ref/atom/proc/MouseDrag)    
-:   [MouseDrop proc (client)](/ref/client/proc/MouseDrop)    
-:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered)    
-:   [MouseExited proc (client)](/ref/client/proc/MouseExited)    
-:   [MouseMove proc (client)](/ref/client/proc/MouseMove)    
-:   [MouseUp proc (client)](/ref/client/proc/MouseUp)    
-:   [MouseWheel proc (client)](/ref/client/proc/MouseWheel)    
-:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon)    
-:   [show_popup_menus var (client)](/ref/client/var/show_popup_menus)    
+:   [Click proc (client)](/ref/client/proc/Click.md)    
+:   [DblClick proc (client)](/ref/client/proc/DblClick.md)    
+:   [MouseDown proc (client)](/ref/client/proc/MouseDown.md)    
+:   [MouseDrag proc (atom)](/ref/atom/proc/MouseDrag.md)    
+:   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md)    
+:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md)    
+:   [MouseExited proc (client)](/ref/client/proc/MouseExited.md)    
+:   [MouseMove proc (client)](/ref/client/proc/MouseMove.md)    
+:   [MouseUp proc (client)](/ref/client/proc/MouseUp.md)    
+:   [MouseWheel proc (client)](/ref/client/proc/MouseWheel.md)    
+:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md)    
+:   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md)    
 <!-- -->    
 **Format:**    
 :   MouseDrag(src_object,over_object,src_location,over_location,src_control,over_control,params)    
@@ -27,7 +27,7 @@
 :   src_control: The id of the skin control the object was dragged from    
 :   over_control: The id of the skin control the object was dragged over    
 :   params: other parameters including mouse/keyboard flags, icon    
-    offsets, etc.; see [mouse handling](/ref/DM/mouse)    
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)    
 <!-- -->    
 **Default action:**    
 :   Call    

@@ -1,9 +1,9 @@
 []{#/vector/proc/Cross}    
 ## Cross proc (vector) {#cross-proc-vector byondver="516"}    
 **See also:**    
-:   [vector](/ref/vector)    
-:   [vector proc](/ref/proc/vector)    
-:   [vars (vector)](/ref/vector/var)    
+:   [vector](/ref/vector.md)    
+:   [vector proc](/ref/proc/vector.md)    
+:   [vars (vector)](/ref/vector/var.md)    
 <!-- -->    
 **Format:**    
 :   A.Cross(vector/B)    

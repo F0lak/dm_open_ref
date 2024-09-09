@@ -1,9 +1,9 @@
 []{#/operator/|}    
 ## \| operator    
 **See also:**    
-:   [& operator](/ref/operator/&)    
-:   [operators](/ref/operator)    
-:   [\|= operator](/ref/operator/%7C=)    
+:   [& operator](/ref/operator/&.md)    
+:   [operators](/ref/operator.md)    
+:   [\|= operator](/ref/operator/%7C=.md)    
 <!-- -->    
 **Format:**    
 :   A \| B    

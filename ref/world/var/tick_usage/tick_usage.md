@@ -1,9 +1,9 @@
 []{#/world/var/tick_usage}    
 ## tick_usage var (world) {#tick_usage-var-world byondver="510"}    
 **See also:**    
-:   [cpu var (world)](/ref/world/var/cpu)    
-:   [tick_lag var (world)](/ref/world/var/tick_lag)    
-:   [Tick proc (world)](/ref/world/proc/Tick)    
+:   [cpu var (world)](/ref/world/var/cpu.md)    
+:   [tick_lag var (world)](/ref/world/var/tick_lag.md)    
+:   [Tick proc (world)](/ref/world/proc/Tick.md)    
 This is the approximate percentage of the server tick that has been used    
 already. A value under 100 means there\'s time to do more calculations,    
 which can include any pending procs that are still waiting to run on    

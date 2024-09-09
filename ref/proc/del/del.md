@@ -1,9 +1,9 @@
 []{#/proc/del}    
 ## del proc    
 **See also:**    
-:   [Del proc (datum)](/ref/datum/proc/Del)    
-:   [garbage collection](/ref/DM/garbage)    
-:   [refcount proc](/ref/proc/refcount)    
+:   [Del proc (datum)](/ref/datum/proc/Del.md)    
+:   [garbage collection](/ref/DM/garbage.md)    
+:   [refcount proc](/ref/proc/refcount.md)    
 <!-- -->    
 **Format:**    
 :   del Object    
@@ -30,4 +30,4 @@ become significant. In these cases, as a best practice, manual deletion
 should be avoided by ensuring that all references to an object are taken    
 care of when the need for object destruction arises. Objects that have    
 no references are deleted automatically without the need for a search.    
-See [garbage collection](/ref/DM/garbage) for more details.  
+See [garbage collection](/ref/DM/garbage.md) for more details.  

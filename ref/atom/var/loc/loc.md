@@ -1,10 +1,10 @@
 []{#/atom/var/loc}    
 ## loc var (atom)    
 **See also:**    
-:   [contents list var (atom)](/ref/atom/var/contents)    
-:   [x var (atom)](/ref/atom/var/x)    
-:   [y var (atom)](/ref/atom/var/y)    
-:   [z var (atom)](/ref/atom/var/z)    
+:   [contents list var (atom)](/ref/atom/var/contents.md)    
+:   [x var (atom)](/ref/atom/var/x.md)    
+:   [y var (atom)](/ref/atom/var/y.md)    
+:   [z var (atom)](/ref/atom/var/z.md)    
 <!-- -->    
 **Default value:**    
 :   The location of the object or null if there is none.    

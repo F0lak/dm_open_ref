@@ -1,11 +1,11 @@
 []{#/{skin}/param/button-type}    
 ## button-type parameter (skin)    
 **See also:**    
-:   [group parameter](/ref/%7Bskin%7D/param/group)    
-:   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked)    
+:   [group parameter](/ref/%7Bskin%7D/param/group.md)    
+:   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md)    
 <!-- -->    
 **Applies to:**    
-:   [Button](/ref/%7Bskin%7D/control/button)    
+:   [Button](/ref/%7Bskin%7D/control/button.md)    
 <!-- -->    
 **Possible values:**    
 :   pushbutton: press once    

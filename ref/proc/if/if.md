@@ -1,7 +1,7 @@
 []{#/proc/if}    
 ## if proc    
 **See also:**    
-:   [goto proc](/ref/proc/goto)    
+:   [goto proc](/ref/proc/goto.md)    
 <!-- -->    
 **Format:**    
 :   if( E ) Statement1    

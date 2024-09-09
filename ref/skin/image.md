@@ -1,14 +1,14 @@
 []{#/{skin}/param/image}    
 ## image parameter (skin)    
 **See also:**    
-:   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode)    
-:   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect)    
+:   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md)    
+:   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md)    
 <!-- -->    
 **Applies to:**    
-:   [Button](/ref/%7Bskin%7D/control/button)    
-:   [Label](/ref/%7Bskin%7D/control/label)    
-:   [Main](/ref/%7Bskin%7D/control/main)    
-:   [Output](/ref/%7Bskin%7D/control/output)    
+:   [Button](/ref/%7Bskin%7D/control/button.md)    
+:   [Label](/ref/%7Bskin%7D/control/label.md)    
+:   [Main](/ref/%7Bskin%7D/control/main.md)    
+:   [Output](/ref/%7Bskin%7D/control/output.md)    
 <!-- -->    
 **Format:**    
 :   \'*file*\'    
@@ -18,5 +18,5 @@ Note: Icons displayed in the output control will not show the background
 image underneath their transparent parts, but will instead show the    
 background color.    
 For Label and Main, use    
-[image-mode](/ref/%7Bskin%7D/param/image-mode){.code} to control how the    
+[image-mode](/ref/%7Bskin%7D/param/image-mode.md){.code} to control how the    
 image is displayed.  

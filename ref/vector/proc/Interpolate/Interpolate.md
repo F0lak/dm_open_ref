@@ -1,8 +1,8 @@
 []{#/vector/proc/Interpolate}    
 ## Interpolate proc (vector) {#interpolate-proc-vector byondver="516"}    
 **See also:**    
-:   [vector](/ref/vector)    
-:   [vector proc](/ref/proc/vector)    
+:   [vector](/ref/vector.md)    
+:   [vector proc](/ref/proc/vector.md)    
 <!-- -->    
 **Format:**    
 :   A.Interpolate(B, t)    

@@ -1,8 +1,8 @@
 []{#/proc/turn/icon}    
 ## turn proc (applied to an icon)    
 **See also:**    
-:   [turn proc](/ref/proc/turn)    
-:   [icon](/ref/icon)    
+:   [turn proc](/ref/proc/turn.md)    
+:   [icon](/ref/icon.md)    
 <!-- -->    
 **Format:**    
 :   turn(Icon, Angle)    

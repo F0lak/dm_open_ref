@@ -2,7 +2,7 @@
 ## vars (datum)    
 Built-in datum vars:    
 datum/var    
-:   [type](/ref/datum/var/type)    
-:   [parent_type](/ref/datum/var/parent_type)    
-:   [tag](/ref/datum/var/tag)    
-:   [vars](/ref/datum/var/vars)  
+:   [type](/ref/datum/var/type.md)    
+:   [parent_type](/ref/datum/var/parent_type.md)    
+:   [tag](/ref/datum/var/tag.md)    
+:   [vars](/ref/datum/var/vars.md)  

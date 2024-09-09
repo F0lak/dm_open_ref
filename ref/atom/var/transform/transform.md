@@ -1,8 +1,8 @@
 []{#/atom/var/transform}    
 ## transform var (atom) {#transform-var-atom byondver="500"}    
 **See also:**    
-:   [vars (atom)](/ref/atom/var)    
-:   [matrix](/ref/matrix)    
+:   [vars (atom)](/ref/atom/var.md)    
+:   [matrix](/ref/matrix.md)    
 An atom can be made to appear rotated, scaled, and/or translated (moved)    
 by using affine transforms. This takes a matrix and multiplies the x and    
 y positions of the icon\'s corners like so:    
@@ -13,7 +13,7 @@ This is equivalent to:
     x' = a*x + b*y + c    
     y' = d*x + e*y + f    
 You do not need to understand matrix math to use transforms, because you    
-can use the [matrix datum](/ref/matrix) to do this for you.    
+can use the [matrix datum](/ref/matrix.md) to do this for you.    
 Transformations are relative to the center of the icon. They do not    
 apply to maptext.    
 ### Examples:    

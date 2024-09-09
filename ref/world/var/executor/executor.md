@@ -1,7 +1,7 @@
 []{#/world/var/executor}    
 ## executor var (world)    
 **See also:**    
-:   [startup proc](/ref/proc/startup)    
+:   [startup proc](/ref/proc/startup.md)    
 <!-- -->    
 **Format:**    
 :   executor = \"/usr/local/byond/bin/DreamDaemon \[params\]\"    

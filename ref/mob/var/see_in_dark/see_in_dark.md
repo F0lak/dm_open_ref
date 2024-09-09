@@ -1,11 +1,11 @@
 []{#/mob/var/see_in_dark}    
 ## see_in_dark var (mob)    
 **See also:**    
-:   [luminosity var (atom)](/ref/atom/var/luminosity)    
-:   [see_infrared var (mob)](/ref/mob/var/see_infrared)    
-:   [see_invisible var (mob)](/ref/mob/var/see_invisible)    
-:   [sight var (mob)](/ref/mob/var/sight)    
-:   [view proc](/ref/proc/view)    
+:   [luminosity var (atom)](/ref/atom/var/luminosity.md)    
+:   [see_infrared var (mob)](/ref/mob/var/see_infrared.md)    
+:   [see_invisible var (mob)](/ref/mob/var/see_invisible.md)    
+:   [sight var (mob)](/ref/mob/var/sight.md)    
+:   [view proc](/ref/proc/view.md)    
 <!-- -->    
 **Default value:**    
 :   2    

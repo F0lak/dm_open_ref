@@ -1,8 +1,8 @@
 []{#/proc/min}    
 ## min proc    
 **See also:**    
-:   [max proc](/ref/proc/max)    
-:   [clamp proc](/ref/proc/clamp)    
+:   [max proc](/ref/proc/max.md)    
+:   [clamp proc](/ref/proc/clamp.md)    
 <!-- -->    
 **Format:**    
 :   min(A,B,C,\...)    

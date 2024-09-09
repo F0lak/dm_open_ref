@@ -1,7 +1,7 @@
 []{#/proc/nameof}    
 ## nameof proc {#nameof-proc byondver="515"}    
 **See also:**    
-:   [:: operator](/ref/operator/::)    
+:   [:: operator](/ref/operator/::.md)    
 <!-- -->    
 **Format:**    
 :   nameof(Var)    

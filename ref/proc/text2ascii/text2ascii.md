@@ -1,9 +1,9 @@
 []{#/proc/text2ascii}    
 ## text2ascii proc    
 **See also:**    
-:   [ascii2text proc](/ref/proc/ascii2text)    
-:   [entities (text)](/ref/DM/text/entities)    
-:   [Unicode](/ref/%7Bnotes%7D/Unicode)    
+:   [ascii2text proc](/ref/proc/ascii2text.md)    
+:   [entities (text)](/ref/DM/text/entities.md)    
+:   [Unicode](/ref/%7Bnotes%7D/Unicode.md)    
 <!-- -->    
 **Format:**    
 :   text2ascii(T,pos=1)    
@@ -21,7 +21,7 @@ representation.
 ### Example:    
 world \<\< text2ascii(\"A\") // = 65 world \<\< text2ascii(\"HAPPY\",2)    
 // = 65    
-With [Unicode](/ref/%7Bnotes%7D/Unicode), things may get more complicated.    
+With [Unicode](/ref/%7Bnotes%7D/Unicode.md), things may get more complicated.    
 DM stores text with UTF-8 encoding, so at this position there might be    
 several bytes strung together to make a single character. The value of    
 `pos` is in bytes, not characters. When the return value is 128 (0x80)    

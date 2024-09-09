@@ -1,7 +1,7 @@
 []{#/proc/json_decode}    
 ## json_decode proc {#json_decode-proc byondver="510"}    
 **See also:**    
-:   [json_encode proc](/ref/proc/json_encode)    
+:   [json_encode proc](/ref/proc/json_encode.md)    
 <!-- -->    
 **Format:**    
 :   json_decode(JSON)    

@@ -1,9 +1,9 @@
 []{#/database/query/proc/Close}    
 ## Close proc (database query) {#close-proc-database-query byondver="506"}    
 **See also:**    
-:   [database query datum](/ref/database/query)    
-:   [Clear proc (database query)](/ref/database/query/proc/Clear)    
-:   [Reset proc (database query)](/ref/database/query/proc/Reset)    
+:   [database query datum](/ref/database/query.md)    
+:   [Clear proc (database query)](/ref/database/query/proc/Clear.md)    
+:   [Reset proc (database query)](/ref/database/query/proc/Reset.md)    
 <!-- -->    
 **Format:**    
 :   Close()    

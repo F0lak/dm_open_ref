@@ -1,13 +1,13 @@
 []{#/{skin}/param/type}    
 ## type parameter (skin)    
 **See also:**    
-:   [id parameter](/ref/%7Bskin%7D/param/id)    
-:   [parent parameter](/ref/%7Bskin%7D/param/parent)    
+:   [id parameter](/ref/%7Bskin%7D/param/id.md)    
+:   [parent parameter](/ref/%7Bskin%7D/param/parent.md)    
 <!-- -->    
 **Applies to:**    
-:   [All](/ref/%7Bskin%7D/control)    
-:   [Macro](/ref/%7Bskin%7D/control/macro)    
-:   [Menu](/ref/%7Bskin%7D/control/menu)    
+:   [All](/ref/%7Bskin%7D/control.md)    
+:   [Macro](/ref/%7Bskin%7D/control/macro.md)    
+:   [Menu](/ref/%7Bskin%7D/control/menu.md)    
 <!-- -->    
 **Format:**    
 :   string    

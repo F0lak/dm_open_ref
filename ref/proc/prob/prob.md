@@ -1,10 +1,10 @@
 []{#/proc/prob}    
 ## prob proc    
 **See also:**    
-:   [pick proc](/ref/proc/pick)    
-:   [rand proc](/ref/proc/rand)    
-:   [rand_seed proc](/ref/proc/rand_seed)    
-:   [roll proc](/ref/proc/roll)    
+:   [pick proc](/ref/proc/pick.md)    
+:   [rand proc](/ref/proc/rand.md)    
+:   [rand_seed proc](/ref/proc/rand_seed.md)    
+:   [roll proc](/ref/proc/roll.md)    
 <!-- -->    
 **Format:**    
 :   prob(P)    

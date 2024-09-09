@@ -1,7 +1,7 @@
 []{#/{skin}/param/border}    
 ## border parameter (skin)    
 **Applies to:**    
-:   [All](/ref/%7Bskin%7D/control)    
+:   [All](/ref/%7Bskin%7D/control.md)    
 <!-- -->    
 **Possible values:**    
 :   none    

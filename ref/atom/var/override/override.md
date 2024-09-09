@@ -2,7 +2,7 @@
 ## override var (atom)    
 **Default value:**    
 :   0    
-**Currently this only applies to [images](/ref/image).**    
+**Currently this only applies to [images](/ref/image.md).**    
 If you attach an image to an atom, normally it is seen only in addition    
 to the atom\'s regular icon. If the image\'s override var is 1, it will    
 be seen *in place of* the original atom (and its overlays). It will    

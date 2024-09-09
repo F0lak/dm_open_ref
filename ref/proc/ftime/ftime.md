@@ -1,10 +1,10 @@
 []{#/proc/ftime}    
 ## ftime proc    
 **See also:**    
-:   [time2text proc](/ref/proc/time2text)    
-:   [flist proc](/ref/proc/flist)    
-:   [fexists proc](/ref/proc/fexists)    
-:   [length proc](/ref/proc/length)    
+:   [time2text proc](/ref/proc/time2text.md)    
+:   [flist proc](/ref/proc/flist.md)    
+:   [fexists proc](/ref/proc/fexists.md)    
+:   [length proc](/ref/proc/length.md)    
 <!-- -->    
 **Format:**    
 :   ftime(File, IsCreationTime)    

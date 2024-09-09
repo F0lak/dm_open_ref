@@ -1,7 +1,7 @@
 []{#/{skin}/param/auto-format}    
 ## auto-format parameter (skin) {#auto-format-parameter-skin deprecated="508"}    
 **Applies to:**    
-:   [Browser](/ref/%7Bskin%7D/control/browser)    
+:   [Browser](/ref/%7Bskin%7D/control/browser.md)    
 <!-- -->    
 **Format:**    
 :   true/false    

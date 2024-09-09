@@ -1,9 +1,9 @@
 []{#/world/var/internet_address}    
 ## internet_address var (world)    
 **See also:**    
-:   [port var (world)](/ref/world/var/port)    
-:   [url var (world)](/ref/world/var/url)    
-:   [address var (world)](/ref/world/var/address)    
+:   [port var (world)](/ref/world/var/port.md)    
+:   [url var (world)](/ref/world/var/url.md)    
+:   [address var (world)](/ref/world/var/address.md)    
 This is the network address of the machine hosting the world, as it is    
 seen by the outside network (from the Internet) and the hub. If it    
 cannot be determined, it will be null.    

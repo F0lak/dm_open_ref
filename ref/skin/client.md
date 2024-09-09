@@ -3,10 +3,10 @@
 Several commands can be executed on the client that are not verbs, but    
 instructions for Dream Seeker. Some of these commands have detailed    
 syntax described in their own reference entries.    
-[.winset](/ref/%7Bskin%7D/commands/.winset)    
+[.winset](/ref/%7Bskin%7D/commands/.winset.md)    
 :   Sets skin parameters, and includes special syntax for conditional    
     actions.    
-[.output](/ref/%7Bskin%7D/commands/.output)    
+[.output](/ref/%7Bskin%7D/commands/.output.md)    
 :   Sends output to a control.    
 .options    
 :   Shows the Options & Messages box.    
@@ -34,7 +34,7 @@ syntax described in their own reference entries.
 .command    
 :   Prompts the user to enter a command, which can be one of these    
     commands as well.    
-[.sound](/ref/%7Bskin%7D/commands/sound)    
+[.sound](/ref/%7Bskin%7D/commands/sound.md)    
 :   Play, stop, or update sound.    
 .configure *option* *value*    
 :   Toggle certain Dream Seeker config options, such as    
@@ -60,7 +60,7 @@ Several commands already support some special cases like `[[*]]` or
 `[[width]]` or such, where the special-case values are relevant to the    
 command. An example is that in `on-size` the value of `[[*]]` is a size    
 value. The Any macro, gamepad macros, and mouse macros, also support    
-this syntax; see [macros](/ref/%7Bskin%7D/macros) for more info.    
+this syntax; see [macros](/ref/%7Bskin%7D/macros.md) for more info.    
 You can choose how embedded wingets get formatted by following the value    
 with `as` and a type, such as `[[window.size as string]]`. There are    
 several types you can use, and different types of parameters get    
@@ -78,7 +78,7 @@ string
 :   Value is formatted as a DM-escaped string with surrounding quotes.    
 params    
 :   Format value for a URL-encoded parameter list (see    
-    [list2params](/ref/proc/list2params){.code}), escaping characters as    
+    [list2params](/ref/proc/list2params.md){.code}), escaping characters as    
     needed.    
 json    
 :   JSON formatting. Numbers are left unchanged; size or position values    

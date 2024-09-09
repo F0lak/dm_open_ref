@@ -1,8 +1,8 @@
 []{#/atom/var/z}    
 ## z var (atom)    
 **See also:**    
-:   [layer var (atom)](/ref/atom/var/layer)    
-:   [loc var (atom)](/ref/atom/var/loc)    
+:   [layer var (atom)](/ref/atom/var/layer.md)    
+:   [loc var (atom)](/ref/atom/var/loc.md)    
 <!-- -->    
 **Default value:**    
 :   The z coordinate of the object on the map.    

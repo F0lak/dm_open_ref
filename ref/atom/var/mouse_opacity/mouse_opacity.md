@@ -1,11 +1,11 @@
 []{#/atom/var/mouse_opacity}    
 ## mouse_opacity var (atom)    
 **See also:**    
-:   [mouse handling](/ref/DM/mouse)    
-:   [overlays var (atom)](/ref/atom/var/overlays)    
-:   [underlays var (atom)](/ref/atom/var/underlays)    
-:   [vis_contents var (atom)](/ref/atom/var/vis_contents)    
-:   [render_source var (atom)](/ref/atom/var/render_source)    
+:   [mouse handling](/ref/DM/mouse.md)    
+:   [overlays var (atom)](/ref/atom/var/overlays.md)    
+:   [underlays var (atom)](/ref/atom/var/underlays.md)    
+:   [vis_contents var (atom)](/ref/atom/var/vis_contents.md)    
+:   [render_source var (atom)](/ref/atom/var/render_source.md)    
 <!-- -->    
 **Default value:**    
 :   1    
@@ -23,13 +23,13 @@ causes it to always be chosen over any lower-level objects, regardless
 of the transparency of its icon.    
 Note that overlays and underlays are not distinct objects, so their    
 `mouse_opacity` is completely ignored in favor of the object they\'re    
-attached to. The same applies to [image objects](/ref/image), which act    
+attached to. The same applies to [image objects](/ref/image.md), which act    
 like special overlays as well. [Visual    
-contents](/ref/atom/var/vis_contents), on the other hand, are separate    
+contents](/ref/atom/var/vis_contents.md), on the other hand, are separate    
 objects that can act like overlays in some ways, but because they\'re    
 separate their `mouse_opacity` *is* taken into account.    
 When this is applied to a `PLANE_MASTER` object (see    
-[appearance_flags](/ref/atom/var/appearance_flags)), a value of 0 means    
+[appearance_flags](/ref/atom/var/appearance_flags.md)), a value of 0 means    
 everything on the plane is mouse-transparent. 1 means everything on the    
 plane is mouse-visible (using the objects\' normal mouse_opacity), but    
 the plane master itself is not. 2 means everything on the plane is    

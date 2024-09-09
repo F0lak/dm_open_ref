@@ -1,10 +1,10 @@
 []{#/proc/statpanel}    
 ## statpanel proc    
 **See also:**    
-:   [Stat proc (atom)](/ref/atom/proc/Stat)    
-:   [Stat proc (client)](/ref/client/proc/Stat)    
-:   [stat proc](/ref/proc/stat)    
-:   [Info control (skin)](/ref/%7Bskin%7D/control/info)    
+:   [Stat proc (atom)](/ref/atom/proc/Stat.md)    
+:   [Stat proc (client)](/ref/client/proc/Stat.md)    
+:   [stat proc](/ref/proc/stat.md)    
+:   [Info control (skin)](/ref/%7Bskin%7D/control/info.md)    
 <!-- -->    
 **Format:**    
 :   statpanel(Panel,Name,Value)    

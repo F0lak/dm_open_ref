@@ -1,10 +1,10 @@
 []{#/proc/while}    
 ## while proc    
 **See also:**    
-:   [break statement](/ref/proc/break)    
-:   [continue statement](/ref/proc/continue)    
-:   [do proc](/ref/proc/do)    
-:   [for loop proc](/ref/proc/for/loop)    
+:   [break statement](/ref/proc/break.md)    
+:   [continue statement](/ref/proc/continue.md)    
+:   [do proc](/ref/proc/do.md)    
+:   [for loop proc](/ref/proc/for/loop.md)    
 <!-- -->    
 **Format:**    
 :   while(E) Statement    

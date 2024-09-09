@@ -1,17 +1,17 @@
 []{#/atom/movable/var/screen_loc}    
 ## screen_loc var (movable atoms)    
 **See also:**    
-:   [HUD / screen objects](/ref/%7Bnotes%7D/HUD)    
-:   [layer var (atom)](/ref/atom/var/layer)    
-:   [screen var (client)](/ref/client/var/screen)    
-:   [view var (client)](/ref/client/var/view)    
-:   [map_format var (world)](/ref/world/var/map_format)    
+:   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md)    
+:   [layer var (atom)](/ref/atom/var/layer.md)    
+:   [screen var (client)](/ref/client/var/screen.md)    
+:   [view var (client)](/ref/client/var/view.md)    
+:   [map_format var (world)](/ref/world/var/map_format.md)    
 This is a text string that controls where an object that is listed in    
 `client.screen`{.variable} will appear on the user\'s screen. The format    
 is: \"x,y\" \"x:px,y:py\" \"x1,y1 to x2,y2\"    
 The bottom left corner of the map viewport (southwest) is `"1,1"`. If    
 the view is 11x11, then the top-right corner (northeast) is `"11,11"`.    
-(Changing [world.map_format](/ref/world/var/map_format) may change the    
+(Changing [world.map_format](/ref/world/var/map_format.md) may change the    
 range for screen_loc.)    
 A range of coordinates (the second format above) causes a square region    
 to be filled with the object at each position. The southwest and    
@@ -37,7 +37,7 @@ icon size *is* taken into account, and the alignment of the icon changes
 to fit whichever edge you use. Because these keywords do not conform to    
 the normal tile-based structure of the HUD, they can\'t be used for a    
 range of tiles with the `"to"` format.    
-Note: [Letterboxing](/ref/%7Bskin%7D/param/letterbox), the blank space to    
+Note: [Letterboxing](/ref/%7Bskin%7D/param/letterbox.md), the blank space to    
 either side of the map if it doesn\'t take up the whole map control, is    
 not considered usable space. HUD objects aligned to the control edge    
 appear inside any letterboxing, not on top of it.    
@@ -51,7 +51,7 @@ viewport bounds and not any extra borders.)
 A big icon placed towards the northeast end of the map, if it spills    
 over the edge, will create a border big enough for the whole icon to be    
 shown. You can avoid this by using the [`TILE_BOUND` appearance    
-flag](/ref/atom/var/appearance_flags). Transforms on this atom are not    
+flag](/ref/atom/var/appearance_flags.md). Transforms on this atom are not    
 taken into account when determining whether to add a border.    
 ### Offsets    
 Offsets may be applied to screen_loc coordinates. For example,    
@@ -78,11 +78,11 @@ same plane regardless of layer, except that `BACKGROUND_LAYER` or
 `EFFECTS_LAYER` may be used to move the objects forward or back.    
 ### Secondary map controls    
 You can use HUD objects in any additional [map    
-controls](/ref/%7Bskin%7D/control/map) that might appear in game\'s skin    
+controls](/ref/%7Bskin%7D/control/map.md) that might appear in game\'s skin    
 file. If you have a second map named `map2` for instance, then you can    
 use `"map2:1,1"` or something similar as a `screen_loc`. If the map    
 control is set to automatically scale to fit its contents, it will try    
 to show every object you put there.    
 Note: For secondary-map HUD items, you should not use the full    
-`window.control` ID, just the [id](/ref/%7Bskin%7D/param/id){.code} of the    
+`window.control` ID, just the [id](/ref/%7Bskin%7D/param/id.md){.code} of the    
 control itself. Map controls should always have a unique `id`.  

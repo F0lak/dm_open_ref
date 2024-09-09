@@ -1,17 +1,17 @@
 []{#/client/var/script}    
 ## script var (client)    
 **See also:**    
-:   [#include directive](/ref/DM/preprocessor/include)    
+:   [#include directive](/ref/DM/preprocessor/include.md)    
 :   [PASSWORD_TRIGGER (client    
-    script)](/ref/client/var/script/PASSWORD_TRIGGER)    
-:   [URL (client script)](/ref/client/var/script/URL)    
-:   [aliases (client script)](/ref/client/var/script/alias)    
-:   [browser configuration](/ref/client/var/script/URL/browser)    
-:   [command_text (client)](/ref/client/var/command_text)    
-:   [macros (client script)](/ref/client/var/script/macro)    
-:   [macros (skin)](/ref/%7Bskin%7D/macros)    
-:   [style sheets](/ref/DM/text/style)    
-:   [style sheets (in scripts)](/ref/client/var/script/style)    
+    script)](/ref/client/var/script/PASSWORD_TRIGGER.md)    
+:   [URL (client script)](/ref/client/var/script/URL.md)    
+:   [aliases (client script)](/ref/client/var/script/alias.md)    
+:   [browser configuration](/ref/client/var/script/URL/browser.md)    
+:   [command_text (client)](/ref/client/var/command_text.md)    
+:   [macros (client script)](/ref/client/var/script/macro.md)    
+:   [macros (skin)](/ref/%7Bskin%7D/macros.md)    
+:   [style sheets](/ref/DM/text/style.md)    
+:   [style sheets (in scripts)](/ref/client/var/script/style.md)    
 <!-- -->    
 **Default value:**    
 :   none    

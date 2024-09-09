@@ -1,14 +1,14 @@
 []{#/icon/proc/New}    
 ## New proc (icon)    
 **See also:**    
-:   [icon](/ref/icon)    
-:   [procs (icon)](/ref/icon/proc)    
-:   [image proc](/ref/proc/image)    
-:   [new proc](/ref/proc/new)    
+:   [icon](/ref/icon.md)    
+:   [procs (icon)](/ref/icon/proc.md)    
+:   [image proc](/ref/proc/image.md)    
+:   [new proc](/ref/proc/new.md)    
 <!-- -->    
 **Format:**    
 :   New(icon,icon_state,dir,frame,moving)    
-:   [(supports [named arguments](/ref/proc/arguments/named))]{.small}    
+:   [(supports [named arguments](/ref/proc/arguments/named.md))]{.small}    
 <!-- -->    
 **Args:**    
 :   icon: an icon file or /icon object    

@@ -1,11 +1,11 @@
 []{#/{skin}/param/screen-pos}    
 ## screen-pos parameter (skin) {#screen-pos-parameter-skin byondver="515"}    
 **See also:**    
-:   [pos parameter](/ref/%7Bskin%7D/param/pos)    
-:   [outer-pos parameter](/ref/%7Bskin%7D/param/outer-pos)    
+:   [pos parameter](/ref/%7Bskin%7D/param/pos.md)    
+:   [outer-pos parameter](/ref/%7Bskin%7D/param/outer-pos.md)    
 <!-- -->    
 **Applies to:**    
-:   [Main](/ref/%7Bskin%7D/control/main)    
+:   [Main](/ref/%7Bskin%7D/control/main.md)    
 <!-- -->    
 **Format:**    
 :   *x*,*y*    

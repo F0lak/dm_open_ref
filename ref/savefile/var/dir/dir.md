@@ -1,8 +1,8 @@
 []{#/savefile/var/dir}    
 ## dir list var (savefile)    
 **See also:**    
-:   [list](/ref/list)    
-:   [savefile](/ref/savefile)    
+:   [list](/ref/list.md)    
+:   [savefile](/ref/savefile.md)    
 The name of each child directory of the current data directory is stored    
 in the list savefile.dir. New directories may be created with    
 savefile.dir.Add() and removed with savefile.dir.Remove(). To test for    

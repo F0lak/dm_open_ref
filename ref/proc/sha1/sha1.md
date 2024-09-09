@@ -1,8 +1,8 @@
 []{#/proc/sha1}    
 ## sha1 proc {#sha1-proc byondver="513"}    
 **See also:**    
-:   [md5 proc](/ref/proc/md5)    
-:   [file proc](/ref/proc/file)    
+:   [md5 proc](/ref/proc/md5.md)    
+:   [file proc](/ref/proc/file.md)    
 <!-- -->    
 **Format:**    
 :   sha1(T)    
@@ -41,7 +41,7 @@ Check that the cached default icon is still the same if
 modified!\" // Or check that the entire game resource file is pristine    
 if (sha1(file(\"mygame.rsc\")) != hash) world \<\< \"The game resources    
 have been modified!\"    
-Note that you must pass the result of [file()](/ref/proc/file){.code} in    
+Note that you must pass the result of [file()](/ref/proc/file.md){.code} in    
 order to compute the hash of an external file\'s contents at runtime.    
 Otherwise `sha1()` will treat the filename as text and return the hash    
 of the name only.    

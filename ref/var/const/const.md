@@ -1,7 +1,7 @@
 []{#/var/const}    
 ## const vars    
 **See also:**    
-:   [vars](/ref/var)    
+:   [vars](/ref/var.md)    
 The const type modifier defines a constant value. This may be useful for    
 centralizing the location of a value that is used repeatedly so that it    
 can be easily configured. It has the advantage over #define macros of    

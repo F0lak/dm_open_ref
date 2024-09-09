@@ -2,4 +2,4 @@
 ## vars (list)    
 Built-in list vars:    
 list/var    
-:   [len](/ref/list/var/len)  
+:   [len](/ref/list/var/len.md)  

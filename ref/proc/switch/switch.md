@@ -1,8 +1,8 @@
 []{#/proc/switch}    
 ## switch proc    
 **See also:**    
-:   [if proc](/ref/proc/if)    
-:   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax)    
+:   [if proc](/ref/proc/if.md)    
+:   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md)    
 **Format:**    
 switch(E)    
 :   if(A1,A2,\...) Statement1    
@@ -30,11 +30,11 @@ you define `if(1 to 10)` and `if(5 to 20)` which overlap from 5 to 10.
 If two different blocks could handle a given value, the choice of which    
 block takes over is not defined.    
 ### C-like syntax    
-Using the [`#pragma syntax` directive](/ref/DM/preprocessor/pragma/syntax)    
+Using the [`#pragma syntax` directive](/ref/DM/preprocessor/pragma/syntax.md)    
 you can change `switch()` to be more like other languages such as C.    
 This replaces the if/else instructions with `case `*`value`* and    
 `default` with a trailing colon. If you don\'t use the [`break`    
-statement](/ref/proc/break) at the end of a block, it will fall through to    
+statement](/ref/proc/break.md) at the end of a block, it will fall through to    
 the next block.    
 ### Example:    
 // make this syntax change temporary #pragma push #pragma syntax C    

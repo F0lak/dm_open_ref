@@ -1,7 +1,7 @@
 []{#/world/var/mob}    
 ## mob var (world)    
 **See also:**    
-:   [New proc (client)](/ref/client/proc/New)    
+:   [New proc (client)](/ref/client/proc/New.md)    
 <!-- -->    
 **Default value:**    
 :   /mob.    

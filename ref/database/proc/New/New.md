@@ -1,8 +1,8 @@
 []{#/database/proc/New}    
 ## New proc (database) {#new-proc-database byondver="506"}    
 **See also:**    
-:   [database datum](/ref/database)    
-:   [Open proc (database)](/ref/database/proc/Open)    
+:   [database datum](/ref/database.md)    
+:   [Open proc (database)](/ref/database/proc/Open.md)    
 <!-- -->    
 **Format:**    
 :   New(filename)    

@@ -1,7 +1,7 @@
 []{#/{notes}/Unicode}    
 ## Unicode {#unicode byondver="513"}    
 **See also:**    
-:   [text](/ref/DM/text)    
+:   [text](/ref/DM/text.md)    
 BYOND was originally written to handle 8-bit (\"ANSI\") characters only.    
 However as time has marched on, Unicode has become ubiquitous for    
 supporting multiple languages, special characters, and emojis. To adapt    
@@ -31,7 +31,7 @@ detrimental to performance in most cases.
 For the most part, this distinction should be fairly invisible to you.    
 Most code isn\'t going to encounter problems, but if you do a lot of    
 text processing you should be aware of it.    
-In particular, [text2ascii()](/ref/proc/text2ascii){.code} returns the    
+In particular, [text2ascii()](/ref/proc/text2ascii.md){.code} returns the    
 Unicode value at a specific position, which may cover several bytes. If    
 you loop through a string calling this proc for each character, you\'ll    
 have to make adjustments for cases when multiple bytes have been read.    

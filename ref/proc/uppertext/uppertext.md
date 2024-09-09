@@ -1,7 +1,7 @@
 []{#/proc/uppertext}    
 ## uppertext proc    
 **See also:**    
-:   [lowertext proc](/ref/proc/lowertext)    
+:   [lowertext proc](/ref/proc/lowertext.md)    
 <!-- -->    
 **Format:**    
 :   uppertext(T)    

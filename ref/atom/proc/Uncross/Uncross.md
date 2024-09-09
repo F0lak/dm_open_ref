@@ -1,16 +1,16 @@
 []{#/atom/proc/Uncross}    
 ## Uncross proc (atom) {#uncross-proc-atom byondver="490"}    
 **See also:**    
-:   [Enter proc (atom)](/ref/atom/proc/Enter)    
-:   [Entered proc (atom)](/ref/atom/proc/Entered)    
-:   [Exit proc (atom)](/ref/atom/proc/Exit)    
-:   [Exited proc (atom)](/ref/atom/proc/Exited)    
-:   [Cross proc (atom)](/ref/atom/proc/Cross)    
-:   [Crossed proc (atom)](/ref/atom/proc/Crossed)    
-:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)    
-:   [Move proc (movable atom)](/ref/atom/movable/proc/Move)    
-:   [group var (mob)](/ref/mob/var/group)    
-:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement)    
+:   [Enter proc (atom)](/ref/atom/proc/Enter.md)    
+:   [Entered proc (atom)](/ref/atom/proc/Entered.md)    
+:   [Exit proc (atom)](/ref/atom/proc/Exit.md)    
+:   [Exited proc (atom)](/ref/atom/proc/Exited.md)    
+:   [Cross proc (atom)](/ref/atom/proc/Cross.md)    
+:   [Crossed proc (atom)](/ref/atom/proc/Crossed.md)    
+:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md)    
+:   [group var (mob)](/ref/mob/var/group.md)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md)    
 <!-- -->    
 **Format:**    
 :   Uncross(atom/movable/O)    

@@ -1,8 +1,8 @@
 []{#/proc/ismob}    
 ## ismob proc    
 **See also:**    
-:   [isloc proc](/ref/proc/isloc)    
-:   [ismovable proc](/ref/proc/ismovable)    
+:   [isloc proc](/ref/proc/isloc.md)    
+:   [ismovable proc](/ref/proc/ismovable.md)    
 <!-- -->    
 **Format:**    
 :   ismob(Loc1, Loc2 \...)    

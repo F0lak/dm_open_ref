@@ -1,13 +1,13 @@
 []{#/client/proc/New}    
 ## New proc (client)    
 **See also:**    
-:   [Export proc (client)](/ref/client/proc/Export)    
-:   [Import proc (client)](/ref/client/proc/Import)    
-:   [Login proc (mob)](/ref/mob/proc/Login)    
-:   [New proc (datum)](/ref/datum/proc/New)    
-:   [Topic proc (client)](/ref/client/proc/Topic)    
-:   [mob var (world)](/ref/world/var/mob)    
-:   [savefile](/ref/savefile)    
+:   [Export proc (client)](/ref/client/proc/Export.md)    
+:   [Import proc (client)](/ref/client/proc/Import.md)    
+:   [Login proc (mob)](/ref/mob/proc/Login.md)    
+:   [New proc (datum)](/ref/datum/proc/New.md)    
+:   [Topic proc (client)](/ref/client/proc/Topic.md)    
+:   [mob var (world)](/ref/world/var/mob.md)    
+:   [savefile](/ref/savefile.md)    
 <!-- -->    
 **Format:**    
 :   New(TopicData)    
@@ -51,6 +51,6 @@ will have to create a temporary mob first in order to interact with the
 player. In that case, you are better off doing things in `mob/Login()`,    
 rather than `client/New()`.    
 Note that for the above example to work, you **must** make proper use of    
-the [tmp](/ref/var/tmp) flag when defining new object variables. Otherwise,    
+the [tmp](/ref/var/tmp.md) flag when defining new object variables. Otherwise,    
 this can end up sucking large portions of your world into each player    
 savefile, which can have all sorts of unexpected consequences!  

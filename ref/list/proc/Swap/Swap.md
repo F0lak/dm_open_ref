@@ -1,9 +1,9 @@
 []{#/list/proc/Swap}    
 ## Swap proc (list)    
 **See also:**    
-:   [Cut proc (list)](/ref/list/proc/Cut)    
-:   [Copy proc (list)](/ref/list/proc/Copy)    
-:   [Insert proc (list)](/ref/list/proc/Insert)    
+:   [Cut proc (list)](/ref/list/proc/Cut.md)    
+:   [Copy proc (list)](/ref/list/proc/Copy.md)    
+:   [Insert proc (list)](/ref/list/proc/Insert.md)    
 <!-- -->    
 **Format:**    
 :   list.Swap(Index1,Index2)    

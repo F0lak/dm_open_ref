@@ -1,16 +1,16 @@
 []{#/atom/proc/Enter}    
 ## Enter proc (atom)    
 **See also:**    
-:   [Entered proc (atom)](/ref/atom/proc/Entered)    
-:   [Exit proc (atom)](/ref/atom/proc/Exit)    
-:   [Exited proc (atom)](/ref/atom/proc/Exited)    
-:   [Cross proc (atom)](/ref/atom/proc/Cross)    
-:   [Crossed proc (atom)](/ref/atom/proc/Crossed)    
-:   [Uncross proc (atom)](/ref/atom/proc/Uncross)    
-:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)    
-:   [Move proc (movable atom)](/ref/atom/movable/proc/Move)    
-:   [movement_mode var (world)](/ref/world/var/movement_mode)    
-:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement)    
+:   [Entered proc (atom)](/ref/atom/proc/Entered.md)    
+:   [Exit proc (atom)](/ref/atom/proc/Exit.md)    
+:   [Exited proc (atom)](/ref/atom/proc/Exited.md)    
+:   [Cross proc (atom)](/ref/atom/proc/Cross.md)    
+:   [Crossed proc (atom)](/ref/atom/proc/Crossed.md)    
+:   [Uncross proc (atom)](/ref/atom/proc/Uncross.md)    
+:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md)    
+:   [movement_mode var (world)](/ref/world/var/movement_mode.md)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md)    
 <!-- -->    
 **Format:**    
 :   Enter(atom/movable/O, atom/oldloc)    
@@ -29,7 +29,7 @@
 :   Explained below.    
 Areas, objs, and mobs will always permit anything to enter by default.    
 The following behavior only applies to    
-[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode){.code}. In all other    
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md){.code}. In all other    
 movement modes, the turf\'s contents are not taken into account. Only    
 the result of turf.Cross() matters.    
 Turfs will return 1 (permit) or 0 (deny) based on density. In simple    

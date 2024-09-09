@@ -1,8 +1,8 @@
 []{#/client/var/screen}    
 ## screen var (client)    
 **See also:**    
-:   [HUD / screen objects](/ref/%7Bnotes%7D/HUD)    
-:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc)    
+:   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md)    
+:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md)    
 This is a list of objects that are displayed on the user\'s screen. The    
 object\'s screen_loc variable controls where it appears (if it appears    
 at all). This allows one to create the elements of a graphical user    

@@ -1,10 +1,10 @@
 []{#/atom/var/blend_mode}    
 ## blend_mode var (atom) {#blend_mode-var-atom byondver="501"}    
 **See also:**    
-:   [vars (atom)](/ref/atom/var)    
-:   [alpha var (atom)](/ref/atom/var/alpha)    
-:   [color var (atom)](/ref/atom/var/color)    
-:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags)    
+:   [vars (atom)](/ref/atom/var.md)    
+:   [alpha var (atom)](/ref/atom/var/alpha.md)    
+:   [color var (atom)](/ref/atom/var/color.md)    
+:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md)    
 <!-- -->    
 **Default value:**    
 :   0 (none/overlay)    
@@ -37,5 +37,5 @@ blending is a better option.
 `BLEND_INSET_OVERLAY` overlays the icon, but masks it by the image being    
 drawn on. This is pretty much not at all useful directly on the map, but    
 can be very useful for an overlay for an atom that uses `KEEP_TOGETHER`    
-(see [appearance_flags](/ref/atom/var/appearance_flags){.code}), or for the    
-[layering filter](/ref/%7Bnotes%7D/filters/layer).  
+(see [appearance_flags](/ref/atom/var/appearance_flags.md){.code}), or for the    
+[layering filter](/ref/%7Bnotes%7D/filters/layer.md).  

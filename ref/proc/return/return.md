@@ -1,7 +1,7 @@
 []{#/proc/return}    
 ## return statement    
 **See also:**    
-:   [. var (proc)](/ref/proc/var/%2e)    
+:   [. var (proc)](/ref/proc/var/%2e.md)    
 <!-- -->    
 **Format:**    
 :   return E    

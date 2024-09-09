@@ -1,10 +1,10 @@
 []{#/world/proc/Import}    
 ## Import proc (world)    
 **See also:**    
-:   [Export proc (world)](/ref/world/proc/Export)    
-:   [Import proc (client)](/ref/client/proc/Import)    
-:   [Topic proc (world)](/ref/world/proc/Topic)    
-:   [fcopy proc](/ref/proc/fcopy)    
+:   [Export proc (world)](/ref/world/proc/Export.md)    
+:   [Import proc (client)](/ref/client/proc/Import.md)    
+:   [Topic proc (world)](/ref/world/proc/Topic.md)    
+:   [fcopy proc](/ref/proc/fcopy.md)    
 <!-- -->    
 **Format:**    
 :   Import()    

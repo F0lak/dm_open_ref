@@ -1,17 +1,17 @@
 []{#/atom/proc/Cross}    
 ## Cross proc (atom) {#cross-proc-atom byondver="490"}    
 **See also:**    
-:   [Enter proc (atom)](/ref/atom/proc/Enter)    
-:   [Entered proc (atom)](/ref/atom/proc/Entered)    
-:   [Exit proc (atom)](/ref/atom/proc/Exit)    
-:   [Exited proc (atom)](/ref/atom/proc/Exited)    
-:   [Crossed proc (atom)](/ref/atom/proc/Crossed)    
-:   [Uncross proc (atom)](/ref/atom/proc/Uncross)    
-:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)    
-:   [Move proc (movable atom)](/ref/atom/movable/proc/Move)    
-:   [group var (mob)](/ref/mob/var/group)    
-:   [movement_mode var (world)](/ref/world/var/movement_mode)    
-:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement)    
+:   [Enter proc (atom)](/ref/atom/proc/Enter.md)    
+:   [Entered proc (atom)](/ref/atom/proc/Entered.md)    
+:   [Exit proc (atom)](/ref/atom/proc/Exit.md)    
+:   [Exited proc (atom)](/ref/atom/proc/Exited.md)    
+:   [Crossed proc (atom)](/ref/atom/proc/Crossed.md)    
+:   [Uncross proc (atom)](/ref/atom/proc/Uncross.md)    
+:   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md)    
+:   [group var (mob)](/ref/mob/var/group.md)    
+:   [movement_mode var (world)](/ref/world/var/movement_mode.md)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md)    
 <!-- -->    
 **Format:**    
 :   Cross(atom/movable/O)    
@@ -29,7 +29,7 @@
 :   Allow overlap unless both atoms are dense. If both atoms are mobs,    
     the behavior depends partly on whether they are in the same group.    
 The following behavior only applies to    
-[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode){.code}. In other    
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md){.code}. In other    
 movement modes, src.Cross(O) returns 0 by default if src and O are both    
 mobs in the same group.    
 If src completely covers the turf it is standing on, Cross() is called    

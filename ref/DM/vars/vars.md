@@ -1,7 +1,7 @@
 []{#/DM/vars}    
 ## vars list var (global) {#vars-list-var-global byondver="512"}    
 **See also:**    
-:   [vars list var (datum)](/ref/datum/var/vars)    
+:   [vars list var (datum)](/ref/datum/var/vars.md)    
 This is a list of all global variables. The items in the list are the    
 variable names. If the variable name is used as an index into the list,    
 the value of that variable is accessed.    

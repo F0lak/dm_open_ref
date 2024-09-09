@@ -1,8 +1,8 @@
 []{#/client/proc/GetAPI}    
 ## GetAPI proc (client) {#getapi-proc-client byondver="514"}    
 **See also:**    
-:   [SetAPI proc (client)](/ref/client/proc/SetAPI)    
-:   [CheckPassport proc (client)](/ref/client/proc/CheckPassport)    
+:   [SetAPI proc (client)](/ref/client/proc/SetAPI.md)    
+:   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md)    
 <!-- -->    
 **Format:**    
 :   GetAPI(Api, Name)    
@@ -35,7 +35,7 @@ into Steam.
   stat:*Name*               num               Returns the value of the stat called        
                                               `Name`.                                     
   achievement:*Name*        num               Returns the date (for use with              
-                                              [time2text](/ref/proc/time2text){.code})       
+                                              [time2text](/ref/proc/time2text.md){.code})       
                                               the achievement called `Name`, or 0 if      
                                               it hasn\'t been earned.                     
   achievement-data:*Name*   list              Returns information about the               

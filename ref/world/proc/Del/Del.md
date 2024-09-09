@@ -1,8 +1,8 @@
 []{#/world/proc/Del}    
 ## Del proc (world)    
 **See also:**    
-:   [Del proc (datum)](/ref/datum/proc/Del)    
-:   [shutdown proc](/ref/proc/shutdown)    
+:   [Del proc (datum)](/ref/datum/proc/Del.md)    
+:   [shutdown proc](/ref/proc/shutdown.md)    
 <!-- -->    
 **Format:**    
 :   Del()    

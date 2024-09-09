@@ -1,9 +1,9 @@
 []{#/sound/var/wait}    
 ## wait var (sound)    
 **See also:**    
-:   [sound proc](/ref/proc/sound)    
-:   [vars (sound)](/ref/sound/var)    
-:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery)    
+:   [sound proc](/ref/proc/sound.md)    
+:   [vars (sound)](/ref/sound/var.md)    
+:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md)    
 <!-- -->    
 **Default value:**    
 :   0 (do not wait)    

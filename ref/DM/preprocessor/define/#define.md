@@ -1,7 +1,7 @@
 []{#/DM/preprocessor/define}    
 ## #define directive    
 **See also:**    
-:   [preprocessor](/ref/DM/preprocessor)    
+:   [preprocessor](/ref/DM/preprocessor.md)    
 <!-- -->    
 **Format:**    
 :   #define Name Value    

@@ -1,10 +1,10 @@
 []{#/proc/call}    
 ## call proc    
 **See also:**    
-:   [arglist proc](/ref/proc/arglist)    
-:   [call_ext proc](/ref/proc/call_ext)    
-:   [hascall proc](/ref/proc/hascall)    
-:   [path operators](/ref/operator/path)    
+:   [arglist proc](/ref/proc/arglist.md)    
+:   [call_ext proc](/ref/proc/call_ext.md)    
+:   [hascall proc](/ref/proc/hascall.md)    
+:   [path operators](/ref/operator/path.md)    
 <!-- -->    
 **Format:**    
 :   call(ProcRef)(Arguments)    
@@ -38,4 +38,4 @@ mob proc Proc1(Arg) usr \<\< \"Proc1(\[Arg\])\" Proc2(Arg) usr \<\<
 call(src,Proc)(\"Hello, world!\")    
 Note: In prior versions, `call()` was also used to access third-party    
 libraries (.DLL files on Windows, .SO files on Unix), but this has been    
-moved to [call_ext()](/ref/proc/call_ext){.code} for clarity.  
+moved to [call_ext()](/ref/proc/call_ext.md){.code} for clarity.  

@@ -1,9 +1,9 @@
 []{#/operator/*/pointer toc="* operator (pointers)"}    
 ## \* pointer operator {#pointer-operator byondver="515"}    
 **See also:**    
-:   [& pointer operator](/ref/operator/&/pointer)    
-:   [operators](/ref/operator)    
-:   [ispointer proc](/ref/proc/ispointer)    
+:   [& pointer operator](/ref/operator/&/pointer.md)    
+:   [operators](/ref/operator.md)    
+:   [ispointer proc](/ref/proc/ispointer.md)    
 <!-- -->    
 **Format:**    
 :   \*A    

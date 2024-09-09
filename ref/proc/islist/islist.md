@@ -1,8 +1,8 @@
 []{#/proc/islist}    
 ## islist proc {#islist-proc byondver="513"}    
 **See also:**    
-:   [list](/ref/list)    
-:   [list proc](/ref/proc/list)    
+:   [list](/ref/list.md)    
+:   [list proc](/ref/proc/list.md)    
 <!-- -->    
 **Format:**    
 :   islist(Object)    

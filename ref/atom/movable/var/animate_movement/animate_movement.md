@@ -1,9 +1,9 @@
 []{#/atom/movable/var/animate_movement}    
 ## animate_movement var (movable atoms)    
 **See also:**    
-:   [Move proc (movable atom)](/ref/atom/movable/proc/Move)    
-:   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size)    
-:   [Gliding](/ref/%7Bnotes%7D/gliding)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md)    
+:   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md)    
+:   [Gliding](/ref/%7Bnotes%7D/gliding.md)    
 <!-- -->    
 **Default value:**    
 :   FORWARD_STEPS (1)    
@@ -32,4 +32,4 @@ out of sync during motion, causing the object to visually break up.
 Because of the advent of features like big icons, this value is no    
 longer of much use.    
 Note: This setting has no impact when used with pixel movement, except    
-in special cases. See [Gliding](/ref/%7Bnotes%7D/gliding) for more details.  
+in special cases. See [Gliding](/ref/%7Bnotes%7D/gliding.md) for more details.  

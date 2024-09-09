@@ -1,11 +1,11 @@
 []{#/regex/proc}    
 ## regex procs {#regex-procs byondver="510"}    
 **See also:**    
-:   [regex datum](/ref/regex)    
-:   [regex vars](/ref/regex/var)    
-:   [regex proc](/ref/proc/regex)    
+:   [regex datum](/ref/regex.md)    
+:   [regex vars](/ref/regex/var.md)    
+:   [regex proc](/ref/proc/regex.md)    
 <!-- -->    
 regex/proc    
-:   [New](/ref/proc/regex)    
-:   [Find](/ref/regex/proc/Find)    
-:   [Replace](/ref/regex/proc/Replace)  
+:   [New](/ref/proc/regex.md)    
+:   [Find](/ref/regex/proc/Find.md)    
+:   [Replace](/ref/regex/proc/Replace.md)  

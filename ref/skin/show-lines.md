@@ -1,10 +1,10 @@
 []{#/{skin}/param/show-lines}    
 ## show-lines parameter (skin)    
 **See also:**    
-:   [line-color parameter](/ref/%7Bskin%7D/param/line-color)    
+:   [line-color parameter](/ref/%7Bskin%7D/param/line-color.md)    
 <!-- -->    
 **Applies to:**    
-:   [Grid](/ref/%7Bskin%7D/control/grid)    
+:   [Grid](/ref/%7Bskin%7D/control/grid.md)    
 <!-- -->    
 **Possible values:**    
 :   none    

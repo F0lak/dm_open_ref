@@ -1,10 +1,10 @@
 []{#/matrix/proc/Multiply}    
 ## Multiply proc (matrix)    
 **See also:**    
-:   [matrix](/ref/matrix)    
-:   [matrix operators](/ref/matrix/operators)    
-:   [matrix procs](/ref/matrix/proc)    
-:   [\*= operator](/ref/operator/*)    
+:   [matrix](/ref/matrix.md)    
+:   [matrix operators](/ref/matrix/operators.md)    
+:   [matrix procs](/ref/matrix/proc.md)    
+:   [\*= operator](/ref/operator/*.md)    
 <!-- -->    
 **Format:**    
 :   Multiply(Matrix2)\    

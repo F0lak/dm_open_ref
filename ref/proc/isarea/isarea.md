@@ -1,7 +1,7 @@
 []{#/proc/isarea}    
 ## isarea proc    
 **See also:**    
-:   [isloc proc](/ref/proc/isloc.md)    
+:   [isloc proc](/ref/proc/isloc/isloc.md)    
 <!-- -->    
 **Format:**    
 :   isarea(Loc1, Loc2 \...)    

@@ -1,12 +1,12 @@
 []{#/DM/cache}    
 ## cache    
 **See also:**    
-:   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md)    
-:   [cache_lifespan var (world)](/ref/world/var/cache_lifespan.md)    
-:   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md)    
-:   [file proc](/ref/proc/file.md)    
-:   [icons](/ref/DM/icon.md)    
-:   [sounds](/ref/DM/sound.md)    
+:   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR/FILE_DIR.md)    
+:   [cache_lifespan var (world)](/ref/world/var/cache_lifespan/cache_lifespan.md)    
+:   [fcopy_rsc proc](/ref/proc/fcopy_rsc/fcopy_rsc.md)    
+:   [file proc](/ref/proc/file/file.md)    
+:   [icons](/ref/DM/icon/icon.md)    
+:   [sounds](/ref/DM/sound/sound.md)    
 Files specified in single quotes are loaded (at compile time) into the    
 world cache file (ending in `.rsc`). These are referred to as resource    
 files. At runtime these files are downloaded by players into their    

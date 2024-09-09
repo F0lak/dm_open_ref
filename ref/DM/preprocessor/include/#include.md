@@ -1,9 +1,9 @@
 []{#/DM/preprocessor/include}    
 ## #include directive    
 **See also:**    
-:   [#define directive](/ref/DM/preprocessor/define.md)    
-:   [#pragma directive](/ref/DM/preprocessor/pragma.md)    
-:   [preprocessor](/ref/DM/preprocessor.md)    
+:   [#define directive](/ref/DM/preprocessor/define/define.md)    
+:   [#pragma directive](/ref/DM/preprocessor/pragma/pragma.md)    
+:   [preprocessor](/ref/DM/preprocessor/preprocessor.md)    
 <!-- -->    
 **Format:**    
 :   #include \"Filename\"    

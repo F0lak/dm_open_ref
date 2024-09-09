@@ -1,9 +1,9 @@
 []{#/proc/turn}    
 ## turn proc    
 **See also:**    
-:   [Turn proc (icon)](/ref/icon/proc/Turn.md)    
-:   [dir var (atom)](/ref/atom/var/dir.md)    
-:   [Turn proc (vector)](/ref/vector/proc/Turn.md)    
+:   [Turn proc (icon)](/ref/icon/proc/Turn/Turn.md)    
+:   [dir var (atom)](/ref/atom/var/dir/dir.md)    
+:   [Turn proc (vector)](/ref/vector/proc/Turn/Turn.md)    
 <!-- -->    
 **Format:**    
 :   turn(Dir, Angle)    
@@ -15,8 +15,8 @@
 <!-- -->    
 **Returns:**    
 :   The rotated direction.    
-This proc can also be applied to an [icon](/ref/proc/turn/icon.md), a    
-[matrix](/ref/proc/turn/matrix.md), or a [vector](/ref/proc/turn/vector.md).    
+This proc can also be applied to an [icon](/ref/proc/turn/icon/icon.md), a    
+[matrix](/ref/proc/turn/matrix/matrix.md), or a [vector](/ref/proc/turn/vector/vector.md).    
 ### Example:    
 var/dir dir = turn(NORTH, 90) // dir = west dir = turn(dir, -90) // dir    
 = north dir = turn(dir, 45) // dir = northwest    

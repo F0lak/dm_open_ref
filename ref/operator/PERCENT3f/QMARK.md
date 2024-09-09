@@ -1,7 +1,7 @@
 []{#/operator/%3f toc="?"}    
 ## ? operator    
 **See also:**    
-:   [operators](/ref/operator.md)    
+:   [operators](/ref/operator/operator.md)    
 <!-- -->    
 **Format:**    
 :   Expr ? TrueExpr : FalseExpr    

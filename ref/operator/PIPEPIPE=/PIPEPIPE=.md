@@ -1,10 +1,10 @@
 []{#/operator/||=}    
 ## \|\|= operator {#operator byondver="514"}    
 **See also:**    
-:   [\|\| operator](/ref/operator/%7C%7C.md)    
-:   [&& operator](/ref/operator/&&.md)    
-:   [&&= operator](/ref/operator/&&=.md)    
-:   [operators](/ref/operator.md)    
+:   [\|\| operator](/ref/operator/%7C%7C/%7C%7C.md)    
+:   [&& operator](/ref/operator/&&/&&.md)    
+:   [&&= operator](/ref/operator/&&=/&&=.md)    
+:   [operators](/ref/operator/operator.md)    
 <!-- -->    
 **Format:**    
 :   A \|\|= B    

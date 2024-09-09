@@ -1,15 +1,15 @@
 []{#/proc/rgb}    
 ## rgb proc    
 **See also:**    
-:   [rgb2num proc](/ref/proc/rgb2num.md)    
-:   [gradient proc](/ref/proc/gradient.md)    
-:   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md)    
-:   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md)    
-:   [color var (atom)](/ref/atom/var/color.md)    
-:   [Blend proc (icon)](/ref/icon/proc/Blend.md)    
-:   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md)    
-:   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md)    
-:   [Particle effects](/ref/%7Bnotes%7D/particles.md)    
+:   [rgb2num proc](/ref/proc/rgb2num/rgb2num.md)    
+:   [gradient proc](/ref/proc/gradient/gradient.md)    
+:   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space/color-space.md)    
+:   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors/html-colors.md)    
+:   [color var (atom)](/ref/atom/var/color/color.md)    
+:   [Blend proc (icon)](/ref/icon/proc/Blend/Blend.md)    
+:   [Color matrix](/ref/%7Bnotes%7D/color-matrix/color-matrix.md)    
+:   [Color matrix filter](/ref/%7Bnotes%7D/filters/color/color.md)    
+:   [Particle effects](/ref/%7Bnotes%7D/particles/particles.md)    
 <!-- -->    
 **Format:**    
 :   rgb(R,G,B)    
@@ -22,7 +22,7 @@
     components of a color.    
 :   A: Optional alpha component; 0 is transparent, 255 is opaque.    
 :   x,y,z: Color components for a different color space    
-:   space: [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md); defaults    
+:   space: [Color space](/ref/%7B%7Bappendix%7D%7D/color-space/color-space.md); defaults    
     to `COLORSPACE_RGB`    
 <!-- -->    
 **Returns:**    
@@ -42,8 +42,8 @@ also use the short form #RGB or #RGBA. So if you know in advance that
 you want to use the color white, you can simply use\"#fff\" instead of    
 rgb(255,255,255).    
 You can create colors other ways by specifying a different [color    
-space](/ref/%7B%7Bappendix%7D%7D/color-space.md). A color space can be    
-specified by using a [named](/ref/proc/arguments/named.md) \"space\" argument,    
+space](/ref/%7B%7Bappendix%7D%7D/color-space/color-space.md). A color space can be    
+specified by using a [named](/ref/proc/arguments/named/named.md) \"space\" argument,    
 or by using a 5-argument format (you can leave the alpha value blank or    
 null to skip it), or by using named arguments for the other components.    
 ### Example:    

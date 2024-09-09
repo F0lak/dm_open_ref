@@ -1,13 +1,13 @@
 []{#/atom/var/mouse_drop_zone}    
 ## mouse_drop_zone var (atom)    
 **See also:**    
-:   [MouseDrag proc (atom)](/ref/atom/proc/MouseDrag.md)    
-:   [MouseDrop proc (atom)](/ref/atom/proc/MouseDrop.md)    
-:   [mouse_drag_pointer var (atom)](/ref/atom/var/mouse_drag_pointer.md)    
-:   [mouse_drop_pointer var (atom)](/ref/atom/var/mouse_drop_pointer.md)    
-:   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md)    
-:   [mouse_over_pointer var (atom)](/ref/atom/var/mouse_over_pointer.md)    
-:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md)    
+:   [MouseDrag proc (atom)](/ref/atom/proc/MouseDrag/MouseDrag.md)    
+:   [MouseDrop proc (atom)](/ref/atom/proc/MouseDrop/MouseDrop.md)    
+:   [mouse_drag_pointer var (atom)](/ref/atom/var/mouse_drag_pointer/mouse_drag_pointer.md)    
+:   [mouse_drop_pointer var (atom)](/ref/atom/var/mouse_drop_pointer/mouse_drop_pointer.md)    
+:   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity/mouse_opacity.md)    
+:   [mouse_over_pointer var (atom)](/ref/atom/var/mouse_over_pointer/mouse_over_pointer.md)    
+:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon/mouse_pointer_icon.md)    
 <!-- -->    
 **Default value:**    
 :   0    

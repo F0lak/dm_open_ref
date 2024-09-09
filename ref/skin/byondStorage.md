@@ -1,15 +1,15 @@
 []{#/{skin}/control/browser/byondStorage}    
 ## byondStorage (browser control)    
 **See also:**    
-:   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md)    
-:   [winset proc](/ref/proc/winset.md)    
+:   [browser control (skin)](/ref/%7Bskin%7D/control/browser/browser.md)    
+:   [winset proc](/ref/proc/winset/winset.md)    
 A replacement for `localStorage` that can be used to hold information    
 that can be used in later sessions of the same game. (This must be    
 enabled via `browser-options` with the [`winset()`    
-proc](/ref/proc/winset.md).)    
+proc](/ref/proc/winset/winset.md).)    
 There are three actual storage objects you can use:    
   --------------- ----------------------------------------------------------------------------------------------------    
-  hubStorage      Stores info that can be shared for all games falling under this same [hub entry](/ref/world/var/hub.md).    
+  hubStorage      Stores info that can be shared for all games falling under this same [hub entry](/ref/world/var/hub/hub.md).    
   serverStorage   Stores info that can be shared for all games using this same server address.    
   domainStorage   Same as serverStorage, but ignores the connection port.    
   --------------- ----------------------------------------------------------------------------------------------------    

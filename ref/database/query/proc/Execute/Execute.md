@@ -1,16 +1,16 @@
 []{#/database/query/proc/Execute}    
 ## Execute proc (database query) {#execute-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum](/ref/database.md)    
-:   [database query datum](/ref/database/query.md)    
-:   [Add proc (database query)](/ref/database/query/proc/Add.md)    
-:   [Close proc (database query)](/ref/database/query/proc/Close.md)    
-:   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md)    
-:   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md)    
-:   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md)    
-:   [Reset proc (database query)](/ref/database/query/proc/Reset.md)    
+:   [database datum](/ref/database/database.md)    
+:   [database query datum](/ref/database/query/query.md)    
+:   [Add proc (database query)](/ref/database/query/proc/Add/Add.md)    
+:   [Close proc (database query)](/ref/database/query/proc/Close/Close.md)    
+:   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn/GetColumn.md)    
+:   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData/GetRowData.md)    
+:   [NextRow proc (database query)](/ref/database/query/proc/NextRow/NextRow.md)    
+:   [Reset proc (database query)](/ref/database/query/proc/Reset/Reset.md)    
 :   [RowsAffected proc (database    
-    query)](/ref/database/query/proc/RowsAffected.md)    
+    query)](/ref/database/query/proc/RowsAffected/RowsAffected.md)    
 <!-- -->    
 **Format:**    
 :   Execute(database)    

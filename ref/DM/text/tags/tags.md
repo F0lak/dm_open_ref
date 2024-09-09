@@ -1,10 +1,10 @@
 []{#/DM/text/tags}    
 ## tags (text)    
 **See also:**    
-:   [entities (text)](/ref/DM/text/entities.md)    
-:   [macros (text)](/ref/DM/text/macros.md)    
-:   [style sheets](/ref/DM/text/style.md)    
-:   [text](/ref/DM/text.md)    
+:   [entities (text)](/ref/DM/text/entities/entities.md)    
+:   [macros (text)](/ref/DM/text/macros/macros.md)    
+:   [style sheets](/ref/DM/text/style/style.md)    
+:   [text](/ref/DM/text/text.md)    
 Text tags (also known as *elements* by snooty HTML purists) control how    
 the text is formatted. HTML syntax is used, so all tags start with `<`    
 and end with `>`. The tags which are currently supported by Dream    
@@ -55,9 +55,9 @@ As many attributes may be specified as desired. The attribute value may
 have quotes around it, but this is only necessary if the value contains    
 spaces. It is usually more convenient to use single quotes so you don\'t    
 have to escape the double quotes, but you can also embed the HTML in a    
-[text document](/ref/DM/text.md) to avoid the need for escaping quotes.    
+[text document](/ref/DM/text/text.md) to avoid the need for escaping quotes.    
 When applying color to text, you can use hexadecimal RGB or you can use    
-one of the named [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md).    
+one of the named [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors/html-colors.md).    
 Text sizes range from 1 to 7, 1 being the smallest and 7 being the    
 largest. In addition to absolute sizes, relative sizes may be specified    
 (like +1 for one size bigger or -1 for one size smaller).  

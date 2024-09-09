@@ -1,10 +1,10 @@
 []{#/world/var/host}    
 ## host var (world)    
 **See also:**    
-:   [game_state var (world)](/ref/world/var/game_state.md)    
-:   [name var (world)](/ref/world/var/name.md)    
-:   [status var (world)](/ref/world/var/status.md)    
-:   [visibility var (world)](/ref/world/var/visibility.md)    
+:   [game_state var (world)](/ref/world/var/game_state/game_state.md)    
+:   [name var (world)](/ref/world/var/name/name.md)    
+:   [status var (world)](/ref/world/var/status/status.md)    
+:   [visibility var (world)](/ref/world/var/visibility/visibility.md)    
 <!-- -->    
 **Default value:**    
 :   null    

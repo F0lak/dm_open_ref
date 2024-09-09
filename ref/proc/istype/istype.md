@@ -1,10 +1,10 @@
 []{#/proc/istype}    
 ## istype proc    
 **See also:**    
-:   [ispath proc](/ref/proc/ispath.md)    
-:   [locate proc](/ref/proc/locate.md)    
-:   [typesof proc](/ref/proc/typesof.md)    
-:   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md)    
+:   [ispath proc](/ref/proc/ispath/ispath.md)    
+:   [locate proc](/ref/proc/locate/locate.md)    
+:   [typesof proc](/ref/proc/typesof/typesof.md)    
+:   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__/__IMPLIED_TYPE__.md)    
 <!-- -->    
 **Format:**    
 :   istype(Val,Type)    
@@ -19,7 +19,7 @@
     variable was passed in as the first argument, it will default to the    
     declared type of the variable.    
 If you don\'t have an object instance to test, but just want to see if    
-one prototype derives from another one, use [ispath()](/ref/proc/ispath.md)    
+one prototype derives from another one, use [ispath()](/ref/proc/ispath/ispath.md)    
 instead.    
 ### Example:    
 var/M M = new/mob/ugly/duckling() if(istype(M,/mob/ugly)) //this will be    

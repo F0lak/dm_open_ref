@@ -16,7 +16,7 @@ any changes from there. The previous sequences are superseded, and will
 eventually be discarded.    
 :::    
 **See also:**    
-:   [vars (atom)](/ref/atom/var.md)    
+:   [vars (atom)](/ref/atom/var/var.md)    
 <!-- -->    
 **Format:**    
 :   animate(Object, var1=new_value1, var2=new_value2, \..., time, loop,    
@@ -32,19 +32,19 @@ eventually be discarded.
     animation step    
 :   var_list: An associative list of vars to change    
 :   appearance: New appearance to use instead of multiple var changes    
-    (must be a [named argument](/ref/proc/arguments/named.md))    
+    (must be a [named argument](/ref/proc/arguments/named/named.md))    
 :   time: Time of this step, in 1/10s (may be a [named    
-    argument](/ref/proc/arguments/named.md))    
+    argument](/ref/proc/arguments/named/named.md))    
 :   loop: Number of times to run this sequence, or -1 to loop forever    
     (may be a named argument)    
 :   easing: The \"curve\" followed by this animation step (may be a    
-    [named argument](/ref/proc/arguments/named.md))    
+    [named argument](/ref/proc/arguments/named/named.md))    
 :   flags: Flags that impact how the animation acts (may be a [named    
-    argument](/ref/proc/arguments/named.md))    
+    argument](/ref/proc/arguments/named/named.md))    
 :   delay: Delay time for starting the first step in a sequence (may be    
-    negative; may be a [named argument](/ref/proc/arguments/named.md))    
+    negative; may be a [named argument](/ref/proc/arguments/named/named.md))    
 :   tag: Optional name for a new animation sequence (must be a [named    
-    argument](/ref/proc/arguments/named.md))    
+    argument](/ref/proc/arguments/named/named.md))    
 This proc creates an **animation step**, which may be the start of a    
 **sequence** of multiple steps, that will be displayed to players.    
 Starting with an atom or image, you can change one or more vars that    
@@ -82,10 +82,10 @@ rather than smoothly:
 -   suffix    
 Other vars may apply:    
 -   space: A named var for the [color    
-    space](/ref/%7B%7Bappendix%7D%7D/color-space.md), if animating color; only    
+    space](/ref/%7B%7Bappendix%7D%7D/color-space/color-space.md), if animating color; only    
     applies to non-matrix color values.    
-For convenience, you can use an [associative list](/ref/list/associations.md),    
-appearance, or [mutable appearance](/ref/mutable_appearance.md) in place of    
+For convenience, you can use an [associative list](/ref/list/associations/associations.md),    
+appearance, or [mutable appearance](/ref/mutable_appearance/mutable_appearance.md) in place of    
 the appearance vars. You can use `appearance` itself as a name for this    
 argument, or leave the argument unnamed.    
 ### Easing    
@@ -205,7 +205,7 @@ to combine them):
 `ANIMATION_CONTINUE`    
 :   This flag is equivalent to leaving out the `Object` argument. It    
     exists to make it easier to define an animation using a [for    
-    loop](/ref/proc/for.md). If `Object` differs from the previous sequence,    
+    loop](/ref/proc/for/for.md). If `Object` differs from the previous sequence,    
     this flag will be ignored and a new sequence will start.    
 `ANIMATION_SLICE`    
 :   Following a series of `animate()` calls, you can view just a portion    
@@ -224,7 +224,7 @@ to combine them):
     based on that. If using the `tag` argument, only a previous sequence    
     with the same matching tag is told to stop looping.    
 ### Filters {#filters byondver="512"}    
-[Filters](/ref/%7Bnotes%7D/filters.md) can be animated too. If you want to    
+[Filters](/ref/%7Bnotes%7D/filters/filters.md) can be animated too. If you want to    
 animate a filter, you need to specify the filter to be animated. If the    
 last call to `animate()` used the same object as this filter, or a    
 different filter for that object, then this will be treated as a new    

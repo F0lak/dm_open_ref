@@ -1,7 +1,7 @@
 []{#/proc/cmptext}    
 ## cmptext proc    
 **See also:**    
-:   [cmptextEx proc](/ref/proc/cmptextEx.md)    
+:   [cmptextEx proc](/ref/proc/cmptextEx/cmptextEx.md)    
 <!-- -->    
 **Format:**    
 :   cmptext(T1,T2,\...)    

@@ -1,18 +1,18 @@
 []{#/client/proc/MouseDrop}    
 ## MouseDrop proc (client)    
 **See also:**    
-:   [Click proc (client)](/ref/client/proc/Click.md)    
-:   [DblClick proc (client)](/ref/client/proc/DblClick.md)    
-:   [MouseDown proc (client)](/ref/client/proc/MouseDown.md)    
-:   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md)    
-:   [MouseDrop proc (atom)](/ref/atom/proc/MouseDrop.md)    
-:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md)    
-:   [MouseExited proc (client)](/ref/client/proc/MouseExited.md)    
-:   [MouseMove proc (client)](/ref/client/proc/MouseMove.md)    
-:   [MouseUp proc (client)](/ref/client/proc/MouseUp.md)    
-:   [MouseWheel proc (client)](/ref/client/proc/MouseWheel.md)    
-:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md)    
-:   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md)    
+:   [Click proc (client)](/ref/client/proc/Click/Click.md)    
+:   [DblClick proc (client)](/ref/client/proc/DblClick/DblClick.md)    
+:   [MouseDown proc (client)](/ref/client/proc/MouseDown/MouseDown.md)    
+:   [MouseDrag proc (client)](/ref/client/proc/MouseDrag/MouseDrag.md)    
+:   [MouseDrop proc (atom)](/ref/atom/proc/MouseDrop/MouseDrop.md)    
+:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered/MouseEntered.md)    
+:   [MouseExited proc (client)](/ref/client/proc/MouseExited/MouseExited.md)    
+:   [MouseMove proc (client)](/ref/client/proc/MouseMove/MouseMove.md)    
+:   [MouseUp proc (client)](/ref/client/proc/MouseUp/MouseUp.md)    
+:   [MouseWheel proc (client)](/ref/client/proc/MouseWheel/MouseWheel.md)    
+:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon/mouse_pointer_icon.md)    
+:   [show_popup_menus var (client)](/ref/client/var/show_popup_menus/show_popup_menus.md)    
 <!-- -->    
 **Format:**    
 :   MouseDrop(src_object,over_object,src_location,over_location,src_control,over_control,params)    
@@ -27,7 +27,7 @@
 :   src_control: The id of the skin control the object was dragged from    
 :   over_control: The id of the skin control the object was dropped onto    
 :   params: other parameters including mouse/keyboard flags, icon    
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)    
+    offsets, etc.; see [mouse handling](/ref/DM/mouse/mouse.md)    
 <!-- -->    
 **Default action:**    
 :   Call    

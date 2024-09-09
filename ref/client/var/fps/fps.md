@@ -1,9 +1,9 @@
 []{#/client/var/fps}    
 ## fps var (client) {#fps-var-client byondver="511"}    
 **See also:**    
-:   [fps var (world)](/ref/world/var/fps.md)    
-:   [tick_lag var (client)](/ref/client/var/tick_lag.md)    
-:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md)    
+:   [fps var (world)](/ref/world/var/fps/fps.md)    
+:   [tick_lag var (client)](/ref/client/var/tick_lag/tick_lag.md)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement/pixel-movement.md)    
 <!-- -->    
 **Default value:**    
 :   0 (uses world.fps value)    

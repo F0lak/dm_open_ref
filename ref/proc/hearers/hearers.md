@@ -1,9 +1,9 @@
 []{#/proc/hearers}    
 ## hearers    
 **See also:**    
-:   [ohearers](/ref/proc/ohearers.md)    
-:   [view proc](/ref/proc/view.md)    
-:   [viewers](/ref/proc/viewers.md)    
+:   [ohearers](/ref/proc/ohearers/ohearers.md)    
+:   [view proc](/ref/proc/view/view.md)    
+:   [viewers](/ref/proc/viewers/viewers.md)    
 <!-- -->    
 **Format:**    
 :   hearers(Depth=world.view,Center=usr)    

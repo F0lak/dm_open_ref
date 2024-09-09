@@ -1,11 +1,11 @@
 []{#/list}    
 ## list    
 **See also:**    
-:   [list associations](/ref/list/associations.md)    
-:   [list proc](/ref/proc/list.md)    
-:   [islist proc](/ref/proc/islist.md)    
-:   [procs (list)](/ref/list/proc.md)    
-:   [vars (list)](/ref/list/var.md)    
+:   [list associations](/ref/list/associations/associations.md)    
+:   [list proc](/ref/proc/list/list.md)    
+:   [islist proc](/ref/proc/islist/islist.md)    
+:   [procs (list)](/ref/list/proc/proc.md)    
+:   [vars (list)](/ref/list/var/var.md)    
 Lists are used to represent groups of objects. Like objects, they have    
 vars and procs associated with them. In order to access these    
 attributes, list vars must be declared of type /list. These may then be    

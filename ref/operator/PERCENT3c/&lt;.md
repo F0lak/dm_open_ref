@@ -1,12 +1,12 @@
 []{#/operator/%3c}    
 ## \< operator    
 **See also:**    
-:   [\<= operator](/ref/operator/%3c=.md)    
-:   [\> operator](/ref/operator/%3e.md)    
-:   [== operator](/ref/operator/==.md)    
-:   [\<=\> operator](/ref/operator/%3c=%3e.md)    
-:   [operators](/ref/operator.md)    
-:   [sorttextEx proc](/ref/proc/sorttextEx.md)    
+:   [\<= operator](/ref/operator/%3c=/%3c=.md)    
+:   [\> operator](/ref/operator/%3e/%3e.md)    
+:   [== operator](/ref/operator/==/==.md)    
+:   [\<=\> operator](/ref/operator/%3c=%3e/%3c=%3e.md)    
+:   [operators](/ref/operator/operator.md)    
+:   [sorttextEx proc](/ref/proc/sorttextEx/sorttextEx.md)    
 <!-- -->    
 **Format:**    
 :   A \< B    

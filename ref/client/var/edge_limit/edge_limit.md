@@ -1,11 +1,11 @@
 []{#/client/var/edge_limit}    
 ## edge_limit var (client)    
 **See also:**    
-:   [eye var (client)](/ref/client/var/eye.md)    
-:   [lazy_eye var (client)](/ref/client/var/lazy_eye.md)    
-:   [perspective var (client)](/ref/client/var/perspective.md)    
-:   [view var (client)](/ref/client/var/view.md)    
-:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md)    
+:   [eye var (client)](/ref/client/var/eye/eye.md)    
+:   [lazy_eye var (client)](/ref/client/var/lazy_eye/lazy_eye.md)    
+:   [perspective var (client)](/ref/client/var/perspective/perspective.md)    
+:   [view var (client)](/ref/client/var/view/view.md)    
+:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc/screen_loc.md)    
 <!-- -->    
 **Default value:**    
 :   null    

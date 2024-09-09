@@ -1,11 +1,11 @@
 []{#/operator/%3f[]}    
 ## ?\[\] operator {#operator byondver="514"}    
 **See also:**    
-:   [list](/ref/list.md)    
-:   [operators](/ref/operator.md)    
-:   [\[\] operator](/ref/operator/%5B%5D.md)    
-:   [?. operator](/ref/operator/%3f%2e.md)    
-:   [?: operator](/ref/operator/%3f:.md)    
+:   [list](/ref/list/list.md)    
+:   [operators](/ref/operator/operator.md)    
+:   [\[\] operator](/ref/operator/%5B%5D/%5B%5D.md)    
+:   [?. operator](/ref/operator/%3f%2e/%3f%2e.md)    
+:   [?: operator](/ref/operator/%3f:/%3f:.md)    
 This is the null-conditional list index operator. It is used to access    
 an element of a list, IF that list is not null. If the list is null,    
 then the access will not happen and the index expression inside the    

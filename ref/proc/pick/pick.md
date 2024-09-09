@@ -1,7 +1,7 @@
 []{#/proc/pick}    
 ## pick proc    
 **See also:**    
-:   [prob proc](/ref/proc/prob.md)    
+:   [prob proc](/ref/proc/prob/prob.md)    
 <!-- -->    
 **Format:**    
 :   pick(Val1,Val2,\...)    

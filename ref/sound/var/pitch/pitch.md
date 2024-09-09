@@ -1,8 +1,8 @@
 []{#/sound/var/pitch}    
 ## pitch var (sound) {#pitch-var-sound byondver="515"}    
 **See also:**    
-:   [vars (sound)](/ref/sound/var.md)    
-:   [frequency var (sound)](/ref/sound/var/frequency.md)    
+:   [vars (sound)](/ref/sound/var/var.md)    
+:   [frequency var (sound)](/ref/sound/var/frequency/frequency.md)    
 <!-- -->    
 **Default value:**    
 :   0    

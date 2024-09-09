@@ -1,10 +1,10 @@
 []{#/proc/trunc}    
 ## trunc proc {#trunc-proc byondver="515"}    
 **See also:**    
-:   [fract proc](/ref/proc/fract.md)    
-:   [floor proc](/ref/proc/floor.md)    
-:   [ceil proc](/ref/proc/ceil.md)    
-:   [round proc](/ref/proc/round.md)    
+:   [fract proc](/ref/proc/fract/fract.md)    
+:   [floor proc](/ref/proc/floor/floor.md)    
+:   [ceil proc](/ref/proc/ceil/ceil.md)    
+:   [round proc](/ref/proc/round/round.md)    
 <!-- -->    
 **Format:**    
 :   trunc(A)    

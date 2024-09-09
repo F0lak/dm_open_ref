@@ -1,10 +1,10 @@
 []{#/atom/var/filters}    
 ## filters var (atom) {#filters-var-atom byondver="512"}    
 **See also:**    
-:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md)    
-:   [filter proc](/ref/proc/filter.md)    
-:   [animate proc](/ref/proc/animate.md)    
-:   [Filter effects](/ref/%7Bnotes%7D/filters.md)    
+:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags/appearance_flags.md)    
+:   [filter proc](/ref/proc/filter/filter.md)    
+:   [animate proc](/ref/proc/animate/animate.md)    
+:   [Filter effects](/ref/%7Bnotes%7D/filters/filters.md)    
 <!-- -->    
 **Default value:**    
 :   empty list    
@@ -16,7 +16,7 @@ obj/blurry filters = filter(type=\"blur\", size=1)
 Atoms with the `KEEP_TOGETHER` flag will apply their filters after the    
 composite image has been drawn. Filters will also apply to any maptext    
 the atom has.    
-See the [filters](/ref/%7Bnotes%7D/filters.md) section for more information on    
+See the [filters](/ref/%7Bnotes%7D/filters/filters.md) section for more information on    
 individual filters.    
 ### Named Filters {#named-filters byondver="516"}    
 Filters can be created with a `name` argument. That name can be used to    

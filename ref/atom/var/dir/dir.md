@@ -1,10 +1,10 @@
 []{#/atom/var/dir}    
 ## dir var (atom)    
 **See also:**    
-:   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md)    
-:   [icon var (atom)](/ref/atom/var/icon.md)    
-:   [turn proc](/ref/proc/turn.md)    
-:   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move/Move.md)    
+:   [icon var (atom)](/ref/atom/var/icon/icon.md)    
+:   [turn proc](/ref/proc/turn/turn.md)    
+:   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm/stddef%2edm.md)    
 <!-- -->    
 **Default value:**    
 :   SOUTH    

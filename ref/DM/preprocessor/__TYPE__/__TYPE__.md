@@ -1,10 +1,10 @@
 []{#/DM/preprocessor/__TYPE__}    
 ## \_\_TYPE\_\_ macro {#type__-macro byondver="515"}    
 **See also:**    
-:   [\_\_FILE\_\_ macro](/ref/DM/preprocessor/__FILE__.md)    
-:   [\_\_LINE\_\_ macro](/ref/DM/preprocessor/__LINE__.md)    
-:   [\_\_PROC\_\_ macro](/ref/DM/preprocessor/__PROC__.md)    
-:   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md)    
+:   [\_\_FILE\_\_ macro](/ref/DM/preprocessor/__FILE__/__FILE__.md)    
+:   [\_\_LINE\_\_ macro](/ref/DM/preprocessor/__LINE__/__LINE__.md)    
+:   [\_\_PROC\_\_ macro](/ref/DM/preprocessor/__PROC__/__PROC__.md)    
+:   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__/__IMPLIED_TYPE__.md)    
 The `__TYPE__` macro is replaced by a reference to the type path    
 currently being compiled. This may be useful when generating debugging    
 error messages. If used in a global proc, the value will be null.    

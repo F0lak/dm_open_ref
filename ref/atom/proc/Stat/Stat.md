@@ -1,9 +1,9 @@
 []{#/atom/proc/Stat}    
 ## Stat proc (atom)    
 **See also:**    
-:   [Stat proc (client)](/ref/client/proc/Stat.md)    
-:   [stat proc](/ref/proc/stat.md)    
-:   [Info control (skin)](/ref/%7Bskin%7D/control/info.md)    
+:   [Stat proc (client)](/ref/client/proc/Stat/Stat.md)    
+:   [stat proc](/ref/proc/stat/stat.md)    
+:   [Info control (skin)](/ref/%7Bskin%7D/control/info/info.md)    
 <!-- -->    
 **Format:**    
 :   Stat()    

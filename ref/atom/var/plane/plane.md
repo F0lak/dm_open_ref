@@ -1,11 +1,11 @@
 []{#/atom/var/plane}    
 ## plane var (atom) {#plane-var-atom byondver="509"}    
 **See also:**    
-:   [layer var (atom)](/ref/atom/var/layer.md)    
-:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md)    
-:   [vis_contents var (atom)](/ref/atom/var/vis_contents.md)    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
-:   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md)    
+:   [layer var (atom)](/ref/atom/var/layer/layer.md)    
+:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags/appearance_flags.md)    
+:   [vis_contents var (atom)](/ref/atom/var/vis_contents/vis_contents.md)    
+:   [map_format var (world)](/ref/world/var/map_format/map_format.md)    
+:   [Understanding the renderer](/ref/%7Bnotes%7D/renderer/renderer.md)    
 <!-- -->    
 **Default value:**    
 :   `FLOAT_PLANE`    
@@ -17,7 +17,7 @@ map formats like isometric. Positive values are drawn on top, and
 negative values are drawn below. This mostly deprecates `EFFECTS_LAYER`    
 and `BACKGROUND_LAYER`, but they can still be useful when using    
 `PLANE_MASTER` for effects (see    
-[appearance_flags](/ref/atom/var/appearance_flags.md){.code}).    
+[appearance_flags](/ref/atom/var/appearance_flags/appearance_flags.md){.code}).    
 The special value `FLOAT_PLANE` can be used for images and overlays, to    
 take on the plane of the parent atom. Whenever an icon or icon_state is    
 used directly as an overlay, this is its plane. If there is no parent    

@@ -1,7 +1,7 @@
 []{#/world/var/contents}    
 ## contents list var (world)    
 **See also:**    
-:   [list](/ref/list.md)    
+:   [list](/ref/list/list.md)    
 <!-- -->    
 **Default value:**    
 :   List of all areas, turfs, mobs, and objs initially in the world.    

@@ -1,10 +1,10 @@
 []{#/client/var/show_verb_panel}    
 ## show_verb_panel var (client)    
 **See also:**    
-:   [category setting (verb)](/ref/verb/set/category.md)    
+:   [category setting (verb)](/ref/verb/set/category/category.md)    
 :   [default_verb_category var    
-    (client)](/ref/client/var/default_verb_category.md)    
-:   [show_map var (client)](/ref/client/var/show_map.md)    
+    (client)](/ref/client/var/default_verb_category/default_verb_category.md)    
+:   [show_map var (client)](/ref/client/var/show_map/show_map.md)    
 <!-- -->    
 **Default value:**    
 :   1    

@@ -1,14 +1,14 @@
 []{#/atom/var/layer}    
 ## layer var (atom)    
 **See also:**    
-:   [overlays var (atom)](/ref/atom/var/overlays.md)    
-:   [plane var (atom)](/ref/atom/var/plane.md)    
-:   [z var (atom)](/ref/atom/var/z.md)    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
-:   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md)    
-:   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md)    
-:   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md)    
-:   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md)    
+:   [overlays var (atom)](/ref/atom/var/overlays/overlays.md)    
+:   [plane var (atom)](/ref/atom/var/plane/plane.md)    
+:   [z var (atom)](/ref/atom/var/z/z.md)    
+:   [map_format var (world)](/ref/world/var/map_format/map_format.md)    
+:   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER/BACKGROUND_LAYER.md)    
+:   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER/EFFECTS_LAYER.md)    
+:   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER/TOPDOWN_LAYER.md)    
+:   [Understanding the renderer](/ref/%7Bnotes%7D/renderer/renderer.md)    
 <!-- -->    
 **Default value:**    
 :   1 (AREA_LAYER)    

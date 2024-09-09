@@ -1,8 +1,8 @@
 []{#/savefile/proc/New}    
 ## New proc (savefile)    
 **See also:**    
-:   [Lock proc (savefile)](/ref/savefile/proc/Lock.md)    
-:   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md)    
+:   [Lock proc (savefile)](/ref/savefile/proc/Lock/Lock.md)    
+:   [Unlock proc (savefile)](/ref/savefile/proc/Unlock/Unlock.md)    
 <!-- -->    
 **Format:**    
 :   New(filename,timeout)    

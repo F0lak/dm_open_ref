@@ -1,14 +1,14 @@
 []{#/atom/movable/var/locs}    
 ## locs list var (movable atom) {#locs-list-var-movable-atom byondver="490"}    
 **See also:**    
-:   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md)    
-:   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md)    
-:   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md)    
-:   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md)    
-:   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md)    
-:   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md)    
-:   [loc var (atom)](/ref/atom/var/loc.md)    
-:   [contents list var (atom)](/ref/atom/var/contents.md)    
+:   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x/bound_x.md)    
+:   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y/bound_y.md)    
+:   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width/bound_width.md)    
+:   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height/bound_height.md)    
+:   [step_x var (movable atom)](/ref/atom/movable/var/step_x/step_x.md)    
+:   [step_y var (movable atom)](/ref/atom/movable/var/step_y/step_y.md)    
+:   [loc var (atom)](/ref/atom/var/loc/loc.md)    
+:   [contents list var (atom)](/ref/atom/var/contents/contents.md)    
 <!-- -->    
 **Default value:**    
 :   list(src.loc)    

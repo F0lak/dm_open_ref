@@ -1,12 +1,12 @@
 []{#/proc/browse}    
 ## browse proc    
 **See also:**    
-:   [\<\< output operator](/ref/operator/%3c%3c/output.md)    
-:   [browse_rsc proc](/ref/proc/browse_rsc.md)    
-:   [file proc](/ref/proc/file.md)    
-:   [link proc](/ref/proc/link.md)    
-:   [run proc](/ref/proc/run.md)    
-:   [output proc](/ref/proc/output.md)    
+:   [\<\< output operator](/ref/operator/%3c%3c/output/output.md)    
+:   [browse_rsc proc](/ref/proc/browse_rsc/browse_rsc.md)    
+:   [file proc](/ref/proc/file/file.md)    
+:   [link proc](/ref/proc/link/link.md)    
+:   [run proc](/ref/proc/run/run.md)    
+:   [output proc](/ref/proc/output/output.md)    
 <!-- -->    
 **Format:**    
 :   usr \<\< browse(Body,Options)    
@@ -51,7 +51,7 @@ display
     browse(\'monster.png\',\"display=0\") usr \<\<    
     browse(\"![](monster.png)A scary monster appears from the mist!\")    
     Note that this performs the same function as the    
-    [browse_rsc](/ref/proc/browse_rsc.md) proc (preserved for legacy reasons).    
+    [browse_rsc](/ref/proc/browse_rsc/browse_rsc.md) proc (preserved for legacy reasons).    
     It is a little more powerful because you can use it to send html    
     text as well as files. In that case, you\'ll have to also supply the    
     file=name argument so that you can reference the html text from    
@@ -89,7 +89,7 @@ The following example displays a help page in a popup window.
 var/const/help = {\"    
 You are beyond help!    
 \"} client/verb/help() usr \<\< browse(help,\"window=help\") You can use    
-commands like [output()](/ref/proc/output.md) and [winset()](/ref/proc/winset.md) to    
+commands like [output()](/ref/proc/output/output.md) and [winset()](/ref/proc/winset/winset.md) to    
 interact with popups. The name of the window is the same name you gave    
 the popup, and the browser is \"\[windowname\].browser\".    
 ### Example:    

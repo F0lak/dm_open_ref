@@ -1,8 +1,8 @@
 []{#/operator/%3e%3e/input}    
 ## \>\> input operator    
 **See also:**    
-:   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md)    
-:   [file proc](/ref/proc/file.md)    
+:   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e/%3e%3e.md)    
+:   [file proc](/ref/proc/file/file.md)    
 <!-- -->    
 **Format:**    
 :   F \>\> Var    

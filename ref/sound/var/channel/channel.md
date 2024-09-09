@@ -1,10 +1,10 @@
 []{#/sound/var/channel}    
 ## channel var (sound)    
 **See also:**    
-:   [sound proc](/ref/proc/sound.md)    
-:   [status var (sound)](/ref/sound/var/status.md)    
-:   [vars (sound)](/ref/sound/var.md)    
-:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md)    
+:   [sound proc](/ref/proc/sound/sound.md)    
+:   [status var (sound)](/ref/sound/var/status/status.md)    
+:   [vars (sound)](/ref/sound/var/var.md)    
+:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery/SoundQuery.md)    
 <!-- -->    
 **Default value:**    
 :   0 (any channel)    

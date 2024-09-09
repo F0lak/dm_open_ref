@@ -1,12 +1,12 @@
 []{#/database/query/proc/NextRow}    
 ## NextRow proc (database query) {#nextrow-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum](/ref/database.md)    
-:   [database query datum](/ref/database/query.md)    
-:   [Execute proc (database query)](/ref/database/query/proc/Execute.md)    
-:   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md)    
-:   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md)    
-:   [Reset proc (database query)](/ref/database/query/proc/Reset.md)    
+:   [database datum](/ref/database/database.md)    
+:   [database query datum](/ref/database/query/query.md)    
+:   [Execute proc (database query)](/ref/database/query/proc/Execute/Execute.md)    
+:   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn/GetColumn.md)    
+:   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData/GetRowData.md)    
+:   [Reset proc (database query)](/ref/database/query/proc/Reset/Reset.md)    
 <!-- -->    
 **Format:**    
 :   NextRow()    

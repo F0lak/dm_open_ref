@@ -1,10 +1,10 @@
 []{#/{skin}/param/align}    
 ## align parameter (skin)    
 **See also:**    
-:   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md)    
+:   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html/allow-html.md)    
 <!-- -->    
 **Applies to:**    
-:   [Label](/ref/%7Bskin%7D/control/label.md)    
+:   [Label](/ref/%7Bskin%7D/control/label/label.md)    
 <!-- -->    
 **Possible values:**    
 :   center    

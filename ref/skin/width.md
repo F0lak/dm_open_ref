@@ -1,11 +1,11 @@
 []{#/{skin}/param/width}    
 ## width parameter (skin)    
 **See also:**    
-:   [dir parameter](/ref/%7Bskin%7D/param/dir.md)    
-:   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider.md)    
+:   [dir parameter](/ref/%7Bskin%7D/param/dir/dir.md)    
+:   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider/is-slider.md)    
 <!-- -->    
 **Applies to:**    
-:   [Bar](/ref/%7Bskin%7D/control/bar.md)    
+:   [Bar](/ref/%7Bskin%7D/control/bar/bar.md)    
 <!-- -->    
 **Format:**    
 :   number    

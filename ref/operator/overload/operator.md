@@ -1,8 +1,8 @@
 []{#/operator/overload}    
 ## operator overloading {#operator-overloading byondver="512" short="overloading"}    
 **See also:**    
-:   [datum](/ref/datum.md)    
-:   [operators](/ref/operator.md)    
+:   [datum](/ref/datum/datum.md)    
+:   [operators](/ref/operator/operator.md)    
 DM allows you to overload most of the operators it uses when working    
 with datums and other objects. This means that A + B can call a proc    
 defined under A instead, with B as an argument, and the return value of    

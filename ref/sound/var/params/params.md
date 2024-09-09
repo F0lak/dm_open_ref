@@ -1,13 +1,13 @@
 []{#/sound/var/params}    
 ## params var (sound) {#params-var-sound byondver="515"}    
 **See also:**    
-:   [vars (sound)](/ref/sound/var.md)    
+:   [vars (sound)](/ref/sound/var/var.md)    
 <!-- -->    
 **Default value:**    
 :   null    
 Used to set client skin information related to this sound. This can be    
-set to an [associative list](/ref/list/associations.md) or a parameter string    
-such as you would get from [list2params()](/ref/proc/list2params.md){.code}.    
+set to an [associative list](/ref/list/associations/associations.md) or a parameter string    
+such as you would get from [list2params()](/ref/proc/list2params/list2params.md){.code}.    
 These are the parameters currently defined:    
 on-end    
 :   Plays when the sound ends or is stopped.    

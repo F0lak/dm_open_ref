@@ -1,19 +1,19 @@
 []{#/{notes}/isometric toc="Isometric maps"}    
 ## Isometric maps    
 **See also:**    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
-:   [icon_size var (world)](/ref/world/var/icon_size.md)    
-:   [dir var (client)](/ref/client/var/dir.md)    
-:   [pixel_w var (atom)](/ref/atom/var/pixel_w.md)    
-:   [pixel_z var (atom)](/ref/atom/var/pixel_z.md)    
-:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md)    
-:   [Big icons](/ref/%7Bnotes%7D/big-icons.md)    
-:   [Side-view maps](/ref/%7Bnotes%7D/side.md)    
-:   [Topdown maps](/ref/%7Bnotes%7D/topdown.md)    
-:   [HUD](/ref/%7Bnotes%7D/HUD.md)    
-:   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md)    
-:   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md)    
-:   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md)    
+:   [map_format var (world)](/ref/world/var/map_format/map_format.md)    
+:   [icon_size var (world)](/ref/world/var/icon_size/icon_size.md)    
+:   [dir var (client)](/ref/client/var/dir/dir.md)    
+:   [pixel_w var (atom)](/ref/atom/var/pixel_w/pixel_w.md)    
+:   [pixel_z var (atom)](/ref/atom/var/pixel_z/pixel_z.md)    
+:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc/screen_loc.md)    
+:   [Big icons](/ref/%7Bnotes%7D/big-icons/big-icons.md)    
+:   [Side-view maps](/ref/%7Bnotes%7D/side/side.md)    
+:   [Topdown maps](/ref/%7Bnotes%7D/topdown/topdown.md)    
+:   [HUD](/ref/%7Bnotes%7D/HUD/HUD.md)    
+:   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER/BACKGROUND_LAYER.md)    
+:   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER/EFFECTS_LAYER.md)    
+:   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer/topdown_layer.md)    
 ::: {.sidebar .embed-image .image-only}    
 ![](data:image/png;charset=utf-8;base64,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)    
 :::    
@@ -54,7 +54,7 @@ When pixel or step offsets, or gliding, place an object on multiple
 turfs, it is drawn on top of the nearer turf (assuming its layer is    
 higher).    
 Using icons wider than the regular tile size can have an impact on    
-layering as well. See [Big icons](/ref/%7Bnotes%7D/big-icons.md) for more    
+layering as well. See [Big icons](/ref/%7Bnotes%7D/big-icons/big-icons.md) for more    
 information.    
 Because of the order in which icons are drawn, you may want to limit the    
 ability of an atom to cut diagonally around corners. While moving    

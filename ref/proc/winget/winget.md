@@ -1,10 +1,10 @@
 []{#/proc/winget}    
 ## winget proc    
 **See also:**    
-:   [winexists proc](/ref/proc/winexists.md)    
-:   [winset proc](/ref/proc/winset.md)    
-:   [User interface skins](/ref/%7Bskin%7D.md)    
-:   [parameters (skin)](/ref/%7Bskin%7D/param.md)    
+:   [winexists proc](/ref/proc/winexists/winexists.md)    
+:   [winset proc](/ref/proc/winset/winset.md)    
+:   [User interface skins](/ref/%7Bskin%7D/%7Bskin%7D.md)    
+:   [parameters (skin)](/ref/%7Bskin%7D/param/param.md)    
 <!-- -->    
 **Format:**    
 :   winget(player, control_id, params)    
@@ -48,7 +48,7 @@ Note: Because the client must be contacted to get this information,
 ### Special wingets    
 Calling `winget()` with a blank or null `control_id` can return some    
 values that belong to the client as a whole, not to specific controls.    
-They can also be used for [embedded wingets](/ref/%7Bskin%7D/commands.md).    
+They can also be used for [embedded wingets](/ref/%7Bskin%7D/commands/commands.md).    
 focus    
 :   The full ID of the control, if any, that currently has keyboard    
     focus.    

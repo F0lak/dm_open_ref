@@ -1,11 +1,11 @@
 []{#/proc/for/loop}    
 ## for loop proc    
 **See also:**    
-:   [break statement](/ref/proc/break.md)    
-:   [continue statement](/ref/proc/continue.md)    
-:   [do proc](/ref/proc/do.md)    
-:   [for list proc](/ref/proc/for/list.md)    
-:   [while proc](/ref/proc/while.md)    
+:   [break statement](/ref/proc/break/break.md)    
+:   [continue statement](/ref/proc/continue/continue.md)    
+:   [do proc](/ref/proc/do/do.md)    
+:   [for list proc](/ref/proc/for/list/list.md)    
+:   [while proc](/ref/proc/while/while.md)    
 <!-- -->    
 **Format:**    
 :   for(Init, Test, Inc) Statement    
@@ -23,9 +23,9 @@ var/i for(i=0, i\<3, i++) world \<\< i
 This outputs: 0 1 2    
 Note: An Inc statement like `i += 0.1` is perfectly valid, but you    
 should keep in mind that numerical accuracy is not exact. See    
-[Numbers](/ref/%7Bnotes%7D/numbers.md) for more information.    
+[Numbers](/ref/%7Bnotes%7D/numbers/numbers.md) for more information.    
 ### C-like syntax    
-Using the [`#pragma syntax` directive](/ref/DM/preprocessor/pragma/syntax.md)    
+Using the [`#pragma syntax` directive](/ref/DM/preprocessor/pragma/syntax/syntax.md)    
 you can change `for()` to be more like other languages such as C. This    
 uses a semicolon `;` in place of commas to separate Init, Test, and Inc.    
 Instead the comma is treated as a way of stringing multiple statements    

@@ -1,9 +1,9 @@
 []{#/world/proc/Tick}    
 ## Tick proc (world) {#tick-proc-world byondver="515"}    
 **See also:**    
-:   [cpu var (world)](/ref/world/var/cpu.md)    
-:   [map_cpu var (world)](/ref/world/var/map_cpu.md)    
-:   [tick_usage var (world)](/ref/world/var/tick_usage.md)    
+:   [cpu var (world)](/ref/world/var/cpu/cpu.md)    
+:   [map_cpu var (world)](/ref/world/var/map_cpu/map_cpu.md)    
+:   [tick_usage var (world)](/ref/world/var/tick_usage/tick_usage.md)    
 <!-- -->    
 **Format:**    
 :   Tick()    
@@ -22,6 +22,6 @@ world/Tick() for(var/client/C) if(C.mob?.move_dir) try step(C.mob,
 move_dir) catch // empty catch, just so a failed step won\'t break the    
 loop    
 Note: The tick will not wait if this proc sleeps. It effectively has    
-[set waitfor=0](/ref/proc/set/waitfor.md){.code} already built in. It\'s a    
+[set waitfor=0](/ref/proc/set/waitfor/waitfor.md){.code} already built in. It\'s a    
 good idea not to sleep in this proc or any of its callees at all, since    
 it will keep getting called every tick.  

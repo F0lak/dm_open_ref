@@ -1,7 +1,7 @@
 []{#/client/var/verbs}    
 ## verbs list var (client)    
 **See also:**    
-:   [list](/ref/list.md)    
+:   [list](/ref/list/list.md)    
 <!-- -->    
 **Default value:**    
 :   The list of verbs defined for the client.    

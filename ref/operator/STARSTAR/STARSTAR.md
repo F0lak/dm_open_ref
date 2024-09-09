@@ -1,8 +1,8 @@
 []{#/operator/**}    
 ## \*\* operator    
 **See also:**    
-:   [log proc](/ref/proc/log.md)    
-:   [operators](/ref/operator.md)    
+:   [log proc](/ref/proc/log/log.md)    
+:   [operators](/ref/operator/operator.md)    
 <!-- -->    
 **Format:**    
 :   A \*\* B    

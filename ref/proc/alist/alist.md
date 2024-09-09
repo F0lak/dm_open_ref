@@ -1,9 +1,9 @@
 []{#/proc/alist}    
 ## alist proc {#alist-proc byondver="516"}    
 **See also:**    
-:   [list associations](/ref/list/associations.md)    
-:   [list](/ref/list.md)    
-:   [list proc](/ref/proc/list.md)    
+:   [list associations](/ref/list/associations/associations.md)    
+:   [list](/ref/list/list.md)    
+:   [list proc](/ref/proc/list/list.md)    
 <!-- -->    
 **Format:**    
 :   alist(A=a,B=b,C=c,\...)    
@@ -16,7 +16,7 @@
 :   Arbitrary number of elements to be inserted into the associative    
     list.    
 Creates a strictly associative list with key,value pairs. This is    
-different from an [ordinary list](/ref/list.md) in several respects.    
+different from an [ordinary list](/ref/list/list.md) in several respects.    
 -   \"Keys\" can be numbers. This means list items can\'t be accessed by    
     a numerical index.    
 -   Keys can\'t be repeated in the list, and always have an associated    
@@ -31,4 +31,4 @@ that satisfy all the requirements for variable names, this may also be
 written in a convenient short-hand without the double quotes:    
 var/alist/lst = alist(player = \"James Byond\", score = 2000)    
 In other words, this is exactly the same syntax as for [named    
-arguments](/ref/proc/arguments/named.md).  
+arguments](/ref/proc/arguments/named/named.md).  

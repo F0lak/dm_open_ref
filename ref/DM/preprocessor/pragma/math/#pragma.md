@@ -1,10 +1,10 @@
 []{#/DM/preprocessor/pragma/math}    
 ## #pragma math directive {#pragma-math-directive byondver="516"}    
 **See also:**    
-:   [#pragma directive](/ref/DM/preprocessor/pragma.md)    
-:   [sin proc](/ref/proc/sin.md)    
-:   [cos proc](/ref/proc/cos.md)    
-:   [tan proc](/ref/proc/tan.md)    
+:   [#pragma directive](/ref/DM/preprocessor/pragma/pragma.md)    
+:   [sin proc](/ref/proc/sin/sin.md)    
+:   [cos proc](/ref/proc/cos/cos.md)    
+:   [tan proc](/ref/proc/tan/tan.md)    
 <!-- -->    
 **Format:**    
 :   #pragma math [\<]{.faded}fast[\|]{.faded}accurate[\>]{.faded}    

@@ -1,7 +1,7 @@
 []{#/proc/get_dist}    
 ## get_dist proc    
 **See also:**    
-:   [bounds_dist proc](/ref/proc/bounds_dist.md)    
+:   [bounds_dist proc](/ref/proc/bounds_dist/bounds_dist.md)    
 <!-- -->    
 **Format:**    
 :   get_dist(Loc1, Loc2)    

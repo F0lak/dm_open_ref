@@ -1,8 +1,8 @@
 []{#/{notes}/filters/motion_blur toc="Motion blur (filters)"}    
 ## Motion blur filter {#motion-blur-filter byondver="512"}    
 **See also:**    
-:   [filters var (atom)](/ref/atom/var/filters.md)    
-:   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md)    
+:   [filters var (atom)](/ref/atom/var/filters/filters.md)    
+:   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur/blur.md)    
 <!-- -->    
 Format:    
 :   filter(type=\"motion_blur\", \...)    
@@ -13,4 +13,4 @@ Args:
 Applies Gaussian blur in one direction only. The amount and direction    
 are both specified by `x` and `y`. The size of the blur is equal to    
 `sqrt(x*x + y*y)`.    
-See [Gaussian blur](/ref/%7Bnotes%7D/filters/blur.md) for more information.  
+See [Gaussian blur](/ref/%7Bnotes%7D/filters/blur/blur.md) for more information.  

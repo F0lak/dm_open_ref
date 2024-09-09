@@ -1,10 +1,10 @@
 []{#/atom/var/vis_locs}    
 ## vis_locs var (atom) {#vis_locs-var-atom byondver="512"}    
 **See also:**    
-:   [vis_contents var (atom)](/ref/atom/var/vis_contents.md)    
-:   [vis_flags var (atom)](/ref/atom/var/vis_flags.md)    
-:   [image objects](/ref/image.md)    
-:   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md)    
+:   [vis_contents var (atom)](/ref/atom/var/vis_contents/vis_contents.md)    
+:   [vis_flags var (atom)](/ref/atom/var/vis_flags/vis_flags.md)    
+:   [image objects](/ref/image/image.md)    
+:   [HUD / screen objects](/ref/%7Bnotes%7D/HUD/HUD.md)    
 <!-- -->    
 **Default value:**    
 :   Empty list.    
@@ -14,7 +14,7 @@ this list.
 Because only turfs, objs, and mobs can be in visual contents, this var    
 belongs only to those types.    
 Being in a visual locs list does not count as a    
-[reference](/ref/DM/garbage.md), the same way that being a movable\'s loc does    
+[reference](/ref/DM/garbage/garbage.md), the same way that being a movable\'s loc does    
 not count as a reference. If an object in this list otherwise runs out    
 of references, it will be garbage collected and therefore removed from    
 this list.  

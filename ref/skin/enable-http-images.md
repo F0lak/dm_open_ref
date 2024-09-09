@@ -1,12 +1,12 @@
 []{#/{skin}/param/enable-http-images}    
 ## enable-http-images parameter (skin)    
 **See also:**    
-:   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md)    
-:   [style parameter](/ref/%7Bskin%7D/param/style.md)    
+:   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons/small-icons.md)    
+:   [style parameter](/ref/%7Bskin%7D/param/style/style.md)    
 <!-- -->    
 **Applies to:**    
-:   [Grid](/ref/%7Bskin%7D/control/grid.md)    
-:   [Output](/ref/%7Bskin%7D/control/output.md)    
+:   [Grid](/ref/%7Bskin%7D/control/grid/grid.md)    
+:   [Output](/ref/%7Bskin%7D/control/output/output.md)    
 <!-- -->    
 **Format:**    
 :   true/false    

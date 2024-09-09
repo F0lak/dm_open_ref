@@ -1,10 +1,10 @@
 []{#/icon/proc/Blend}    
 ## Blend proc (icon)    
 **See also:**    
-:   [icon](/ref/icon.md)    
-:   [procs (icon)](/ref/icon/proc.md)    
-:   [overlays var (atom)](/ref/atom/var/overlays.md)    
-:   [rgb proc](/ref/proc/rgb.md)    
+:   [icon](/ref/icon/icon.md)    
+:   [procs (icon)](/ref/icon/proc/proc.md)    
+:   [overlays var (atom)](/ref/atom/var/overlays/overlays.md)    
+:   [rgb proc](/ref/proc/rgb/rgb.md)    
 <!-- -->    
 **Format:**    
 :   Blend(icon,function=ICON_ADD,x=1,y=1)    

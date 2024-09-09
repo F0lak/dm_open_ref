@@ -1,8 +1,8 @@
 []{#/client/proc/SetAPI}    
 ## SetAPI proc (client) {#setapi-proc-client byondver="514"}    
 **See also:**    
-:   [GetAPI proc (client)](/ref/client/proc/GetAPI.md)    
-:   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md)    
+:   [GetAPI proc (client)](/ref/client/proc/GetAPI/GetAPI.md)    
+:   [CheckPassport proc (client)](/ref/client/proc/CheckPassport/CheckPassport.md)    
 <!-- -->    
 **Format:**    
 :   SetAPI(Api, Key, Value)    

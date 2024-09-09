@@ -1,10 +1,10 @@
 []{#/atom/var/infra_luminosity}    
 ## infra_luminosity var (atom)    
 **See also:**    
-:   [luminosity var (atom)](/ref/atom/var/luminosity.md)    
-:   [see_infrared var (mob)](/ref/mob/var/see_infrared.md)    
-:   [sight var (mob)](/ref/mob/var/sight.md)    
-:   [view proc](/ref/proc/view.md)    
+:   [luminosity var (atom)](/ref/atom/var/luminosity/luminosity.md)    
+:   [see_infrared var (mob)](/ref/mob/var/see_infrared/see_infrared.md)    
+:   [sight var (mob)](/ref/mob/var/sight/sight.md)    
+:   [view proc](/ref/proc/view/view.md)    
 <!-- -->    
 **Default value:**    
 :   0    

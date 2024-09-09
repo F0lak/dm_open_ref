@@ -1,8 +1,8 @@
 []{#/proc/shutdown}    
 ## shutdown proc    
 **See also:**    
-:   [Export proc (world)](/ref/world/proc/Export.md)    
-:   [startup proc](/ref/proc/startup.md)    
+:   [Export proc (world)](/ref/world/proc/Export/Export.md)    
+:   [startup proc](/ref/proc/startup/startup.md)    
 <!-- -->    
 **Format:**    
 :   shutdown(Addr,Natural=0)    

@@ -1,18 +1,18 @@
 []{#/client/proc/MouseExited}    
 ## MouseExited proc (client)    
 **See also:**    
-:   [Click proc (client)](/ref/client/proc/Click.md)    
-:   [DblClick proc (client)](/ref/client/proc/DblClick.md)    
-:   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md)    
-:   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md)    
-:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md)    
-:   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md)    
-:   [MouseMove proc (client)](/ref/client/proc/MouseMove.md)    
-:   [MouseUp proc (client)](/ref/client/proc/MouseUp.md)    
-:   [MouseWheel proc (client)](/ref/client/proc/MouseWheel.md)    
-:   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md)    
-:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md)    
-:   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md)    
+:   [Click proc (client)](/ref/client/proc/Click/Click.md)    
+:   [DblClick proc (client)](/ref/client/proc/DblClick/DblClick.md)    
+:   [MouseDrag proc (client)](/ref/client/proc/MouseDrag/MouseDrag.md)    
+:   [MouseDrop proc (client)](/ref/client/proc/MouseDrop/MouseDrop.md)    
+:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered/MouseEntered.md)    
+:   [MouseExited proc (atom)](/ref/atom/proc/MouseExited/MouseExited.md)    
+:   [MouseMove proc (client)](/ref/client/proc/MouseMove/MouseMove.md)    
+:   [MouseUp proc (client)](/ref/client/proc/MouseUp/MouseUp.md)    
+:   [MouseWheel proc (client)](/ref/client/proc/MouseWheel/MouseWheel.md)    
+:   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity/mouse_opacity.md)    
+:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon/mouse_pointer_icon.md)    
+:   [show_popup_menus var (client)](/ref/client/var/show_popup_menus/show_popup_menus.md)    
 <!-- -->    
 **Format:**    
 :   MouseExited(object,location,control,params)    
@@ -23,7 +23,7 @@
     object where it was clicked    
 :   control: the name of the skin control involved    
 :   params: other parameters including mouse/keyboard flags, icon    
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)    
+    offsets, etc.; see [mouse handling](/ref/DM/mouse/mouse.md)    
 <!-- -->    
 **Default action:**    
 :   Call object.MouseExited(location,control,params).    

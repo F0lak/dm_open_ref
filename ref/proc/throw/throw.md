@@ -1,10 +1,10 @@
 []{#/proc/throw}    
 ## throw statement    
 **See also:**    
-:   [try statement](/ref/proc/try.md)    
-:   [Error proc (world)](/ref/world/proc/Error.md)    
-:   [EXCEPTION proc](/ref/proc/EXCEPTION.md)    
-:   [exception](/ref/exception.md)    
+:   [try statement](/ref/proc/try/try.md)    
+:   [Error proc (world)](/ref/world/proc/Error/Error.md)    
+:   [EXCEPTION proc](/ref/proc/EXCEPTION/EXCEPTION.md)    
+:   [exception](/ref/exception/exception.md)    
 <!-- -->    
 **Format:**    
 :   throw Value    

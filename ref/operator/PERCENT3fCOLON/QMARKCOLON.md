@@ -1,10 +1,10 @@
 []{#/operator/%3f: toc="?:"}    
 ## ?: operator {#operator byondver="512"}    
 **See also:**    
-:   [. operator](/ref/operator/%2e.md)    
-:   [: operator](/ref/operator/:.md)    
-:   [?. operator](/ref/operator/%3f%2e.md)    
-:   [operators](/ref/operator.md)    
+:   [. operator](/ref/operator/%2e/%2e.md)    
+:   [: operator](/ref/operator/:/:.md)    
+:   [?. operator](/ref/operator/%3f%2e/%3f%2e.md)    
+:   [operators](/ref/operator/operator.md)    
 This is used to access the procs and vars of an object. It is just like    
 the : operator, but if the object is null, the access does not happen    
 and there will be no runtime error. (A runtime error can still happen if    

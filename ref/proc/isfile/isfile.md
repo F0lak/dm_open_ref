@@ -1,9 +1,9 @@
 []{#/proc/isfile}    
 ## isfile proc    
 **See also:**    
-:   [cache](/ref/DM/cache.md)    
-:   [file proc](/ref/proc/file.md)    
-:   [isicon proc](/ref/proc/isicon.md)    
+:   [cache](/ref/DM/cache/cache.md)    
+:   [file proc](/ref/proc/file/file.md)    
+:   [isicon proc](/ref/proc/isicon/isicon.md)    
 <!-- -->    
 **Format:**    
 :   isfile(File)    

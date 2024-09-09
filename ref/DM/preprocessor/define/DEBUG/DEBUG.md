@@ -1,7 +1,7 @@
 []{#/DM/preprocessor/define/DEBUG}    
 ## DEBUG definition    
 **See also:**    
-:   [#define directive](/ref/DM/preprocessor/define.md)    
+:   [#define directive](/ref/DM/preprocessor/define/define.md)    
 <!-- -->    
 **Format:**    
 :   #define DEBUG    

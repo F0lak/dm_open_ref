@@ -1,9 +1,9 @@
 []{#/proc/ismovable}    
 ## ismovable proc {#ismovable-proc byondver="513"}    
 **See also:**    
-:   [isloc proc](/ref/proc/isloc.md)    
-:   [isobj proc](/ref/proc/isobj.md)    
-:   [ismob proc](/ref/proc/ismob.md)    
+:   [isloc proc](/ref/proc/isloc/isloc.md)    
+:   [isobj proc](/ref/proc/isobj/isobj.md)    
+:   [ismob proc](/ref/proc/ismob/ismob.md)    
 <!-- -->    
 **Format:**    
 :   ismovable(Loc1, Loc2 \...)    

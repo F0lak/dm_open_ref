@@ -1,8 +1,8 @@
 []{#/proc/set/background}    
 ## background setting (proc)    
 **See also:**    
-:   [sleep proc](/ref/proc/sleep.md)    
-:   [spawn proc](/ref/proc/spawn.md)    
+:   [sleep proc](/ref/proc/sleep/sleep.md)    
+:   [spawn proc](/ref/proc/spawn/spawn.md)    
 To avoid lag from procedures that hog the CPU for too long, you can turn    
 on background processing. This will cause it to periodically sleep for    
 long enough to allow other events to be processed.    

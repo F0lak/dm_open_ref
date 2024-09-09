@@ -1,8 +1,8 @@
 []{#/proc/text2num}    
 ## text2num proc    
 **See also:**    
-:   [istext proc](/ref/proc/istext.md)    
-:   [num2text proc](/ref/proc/num2text.md)    
+:   [istext proc](/ref/proc/istext/istext.md)    
+:   [num2text proc](/ref/proc/num2text/num2text.md)    
 <!-- -->    
 **Format:**    
 :   text2num(T)    

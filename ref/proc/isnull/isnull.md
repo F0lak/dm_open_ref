@@ -1,7 +1,7 @@
 []{#/proc/isnull}    
 ## isnull proc    
 **See also:**    
-:   [null](/ref/DM/null.md)    
+:   [null](/ref/DM/null/null.md)    
 <!-- -->    
 **Format:**    
 :   isnull(Val)    

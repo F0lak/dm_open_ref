@@ -1,8 +1,8 @@
 []{#/{notes}/filters/bloom toc="Bloom (filters)"}    
 ## Bloom filter {#bloom-filter byondver="514"}    
 **See also:**    
-:   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md)    
-:   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md)    
+:   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur/blur.md)    
+:   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow/drop_shadow.md)    
 <!-- -->    
 Format:    
 :   filter(type=\"bloom\", \...)    

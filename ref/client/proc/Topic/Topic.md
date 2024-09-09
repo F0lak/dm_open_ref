@@ -1,10 +1,10 @@
 []{#/client/proc/Topic}    
 ## Topic proc (client)    
 **See also:**    
-:   [New proc (client)](/ref/client/proc/New.md)    
-:   [Topic proc (datum)](/ref/datum/proc/Topic.md)    
-:   [link proc](/ref/proc/link.md)    
-:   [ref text macro](/ref/DM/text/macros/ref.md)    
+:   [New proc (client)](/ref/client/proc/New/New.md)    
+:   [Topic proc (datum)](/ref/datum/proc/Topic/Topic.md)    
+:   [link proc](/ref/proc/link/link.md)    
+:   [ref text macro](/ref/DM/text/macros/ref/ref.md)    
 <!-- -->    
 **Format:**    
 :   Topic(href,href_list\[\],hsrc)    

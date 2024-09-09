@@ -1,8 +1,8 @@
 []{#/sound/var/frequency}    
 ## frequency var (sound)    
 **See also:**    
-:   [vars (sound)](/ref/sound/var.md)    
-:   [pitch var (sound)](/ref/sound/var/pitch.md)    
+:   [vars (sound)](/ref/sound/var/var.md)    
+:   [pitch var (sound)](/ref/sound/var/pitch/pitch.md)    
 <!-- -->    
 **Default value:**    
 :   0    

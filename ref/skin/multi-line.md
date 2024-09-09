@@ -1,9 +1,9 @@
 []{#/{skin}/param/multi-line}    
 ## multi-line parameter (skin)    
 **Applies to:**    
-:   [Info](/ref/%7Bskin%7D/control/info.md)    
-:   [Input](/ref/%7Bskin%7D/control/input.md)    
-:   [Tab](/ref/%7Bskin%7D/control/tab.md)    
+:   [Info](/ref/%7Bskin%7D/control/info/info.md)    
+:   [Input](/ref/%7Bskin%7D/control/input/input.md)    
+:   [Tab](/ref/%7Bskin%7D/control/tab/tab.md)    
 <!-- -->    
 **Format:**    
 :   true/false    

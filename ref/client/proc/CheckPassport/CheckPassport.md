@@ -1,10 +1,10 @@
 []{#/client/proc/CheckPassport}    
 ## CheckPassport proc (client)    
 **See also:**    
-:   [IsSubscribed proc (world)](/ref/world/proc/IsSubscribed.md)    
-:   [IsByondMember proc (client)](/ref/client/proc/IsByondMember.md)    
-:   [GetAPI proc (client)](/ref/client/proc/GetAPI.md)    
-:   [SetAPI proc (client)](/ref/client/proc/SetAPI.md)    
+:   [IsSubscribed proc (world)](/ref/world/proc/IsSubscribed/IsSubscribed.md)    
+:   [IsByondMember proc (client)](/ref/client/proc/IsByondMember/IsByondMember.md)    
+:   [GetAPI proc (client)](/ref/client/proc/GetAPI/GetAPI.md)    
+:   [SetAPI proc (client)](/ref/client/proc/SetAPI/SetAPI.md)    
 <!-- -->    
 **Format:**    
 :   CheckPassport(passport_identifier)    

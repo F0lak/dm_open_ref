@@ -1,8 +1,8 @@
 []{#/client/var/perspective}    
 ## perspective var (client)    
 **See also:**    
-:   [eye var (client)](/ref/client/var/eye.md)    
-:   [mob var (client)](/ref/client/var/mob.md)    
+:   [eye var (client)](/ref/client/var/eye/eye.md)    
+:   [mob var (client)](/ref/client/var/mob/mob.md)    
 <!-- -->    
 **Default value:**    
 :   MOB_PERSPECTIVE    

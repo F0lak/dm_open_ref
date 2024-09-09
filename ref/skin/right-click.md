@@ -1,12 +1,12 @@
 []{#/{skin}/param/right-click}    
 ## right-click parameter (skin)    
 **See also:**    
-:   [mouse handling](/ref/DM/mose.md)    
-:   [popup_menu setting (verb)](/ref/set/popup_menu.md)    
-:   [drop-zone parameter](/ref/%7Bskin%7D/param/drop-zone.md)    
+:   [mouse handling](/ref/DM/mose/mose.md)    
+:   [popup_menu setting (verb)](/ref/set/popup_menu/popup_menu.md)    
+:   [drop-zone parameter](/ref/%7Bskin%7D/param/drop-zone/drop-zone.md)    
 <!-- -->    
 **Applies to:**    
-:   [All](/ref/%7Bskin%7D/control.md)    
+:   [All](/ref/%7Bskin%7D/control/control.md)    
 <!-- -->    
 **Format:**    
 :   true/false    

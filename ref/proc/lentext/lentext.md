@@ -1,7 +1,7 @@
 []{#/proc/lentext}    
 ## lentext proc {#lentext-proc deprecated="1"}    
 **See also:**    
-:   [length proc](/ref/proc/length.md)    
+:   [length proc](/ref/proc/length/length.md)    
 <!-- -->    
 **Format:**    
 :   lentext(T)    
@@ -11,4 +11,4 @@
 <!-- -->    
 **Args:**    
 :   T: A text string.    
-Use [length()](/ref/proc/length.md){.code} instead.  
+Use [length()](/ref/proc/length/length.md){.code} instead.  

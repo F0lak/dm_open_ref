@@ -1,9 +1,9 @@
 []{#/proc/isicon}    
 ## isicon proc    
 **See also:**    
-:   [cache](/ref/DM/cache.md)    
-:   [icon](/ref/icon.md)    
-:   [isfile proc](/ref/proc/isfile.md)    
+:   [cache](/ref/DM/cache/cache.md)    
+:   [icon](/ref/icon/icon.md)    
+:   [isfile proc](/ref/proc/isfile/isfile.md)    
 <!-- -->    
 **Format:**    
 :   isicon(Icon)    

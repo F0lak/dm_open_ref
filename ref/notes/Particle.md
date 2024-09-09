@@ -1,11 +1,11 @@
 []{#/{notes}/particles toc="Particle effects"}    
 ## Particle effects {#particle-effects byondver="514"}    
 **See also:**    
-:   [particles (movable atom var)](/ref/atom/movable/var/particles.md)    
-:   [Generators](/ref/%7Bnotes%7D/generators.md)    
-:   [generator proc](/ref/proc/generator.md)    
-:   [Projection matrix](/ref/%7Bnotes%7D/projection-matrix.md)    
-:   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md)    
+:   [particles (movable atom var)](/ref/atom/movable/var/particles/particles.md)    
+:   [Generators](/ref/%7Bnotes%7D/generators/generators.md)    
+:   [generator proc](/ref/proc/generator/generator.md)    
+:   [Projection matrix](/ref/%7Bnotes%7D/projection-matrix/projection-matrix.md)    
+:   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm/stddef%2edm.md)    
 A particle set is a special effect, whose computations are handled    
 entirely on the client, that spawns and tracks multiple pixels or icons    
 with a temporary lifespan. Examples of this might be confetti, sparks,    
@@ -14,7 +14,7 @@ surface and that gets attached to an obj or a mob like an overlay.
 Particles can exist in 3 dimensions instead of the usual 2, so a    
 particle\'s position, velocity, and other values may have a z    
 coordinate. To make use of this z coordinate, you can use a [projection    
-matrix](/ref/%7Bnotes%7D/projection-matrix.md). (The value of the z coordinate    
+matrix](/ref/%7Bnotes%7D/projection-matrix/projection-matrix.md). (The value of the z coordinate    
 must be between -100 and 100 after projection. Otherwise it\'s not    
 guaranteed the particle will be displayed.)    
 To create a particle set, use `new` to create a new `/particles` datum,    
@@ -65,8 +65,8 @@ to a BYOND standard tick of 0.1s.
                                                                       in this set (pixels per    
                                                                       squared tick)    
   gradient                [color                                      Color gradient used, if    
-                          gradient](/ref/%7Bnotes%7D/color-gradient.md)     any    
-  transform               [matrix](/ref/%7Bnotes%7D/projection-matrix.md)   Transform done to all    
+                          gradient](/ref/%7Bnotes%7D/color-gradient/color-gradient.md)     any    
+  transform               [matrix](/ref/%7Bnotes%7D/projection-matrix/projection-matrix.md)   Transform done to all    
                                                                       particles, if any (can be    
                                                                       higher than 2D)    
   Vars that apply when a                                                  

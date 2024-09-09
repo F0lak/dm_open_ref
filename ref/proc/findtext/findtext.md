@@ -1,10 +1,10 @@
 []{#/proc/findtext}    
 ## findtext proc    
 **See also:**    
-:   [findlasttext proc](/ref/proc/findlasttext.md)    
-:   [findtextEx proc](/ref/proc/findtextEx.md)    
-:   [replacetext proc](/ref/proc/replacetext.md)    
-:   [Regular expressions](/ref/%7Bnotes%7D/regex.md)    
+:   [findlasttext proc](/ref/proc/findlasttext/findlasttext.md)    
+:   [findtextEx proc](/ref/proc/findtextEx/findtextEx.md)    
+:   [replacetext proc](/ref/proc/replacetext/replacetext.md)    
+:   [Regular expressions](/ref/%7Bnotes%7D/regex/regex.md)    
 <!-- -->    
 **Format:**    
 :   findtext(Haystack,Needle,Start=1,End=0)    
@@ -34,4 +34,4 @@ backwards from the end of the string. E.g., findtext(\"Banana\", \"na\",
 Note: In strings containing non-ASCII characters, byte position and    
 character position are not the same thing. Use `findtext_char()` to work    
 with character counts instead of bytes, at a performance cost. See the    
-[Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.  
+[Unicode](/ref/%7Bnotes%7D/Unicode/Unicode.md) section for more information.  

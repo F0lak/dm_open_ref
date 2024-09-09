@@ -1,10 +1,10 @@
 []{#/proc/cos}    
 ## cos proc    
 **See also:**    
-:   [arccos proc](/ref/proc/arccos.md)    
-:   [sin proc](/ref/proc/sin.md)    
-:   [tan proc](/ref/proc/tan.md)    
-:   [turn proc](/ref/proc/turn.md)    
+:   [arccos proc](/ref/proc/arccos/arccos.md)    
+:   [sin proc](/ref/proc/sin/sin.md)    
+:   [tan proc](/ref/proc/tan/tan.md)    
+:   [turn proc](/ref/proc/turn/turn.md)    
 <!-- -->    
 **Format:**    
 :   cos(X)    

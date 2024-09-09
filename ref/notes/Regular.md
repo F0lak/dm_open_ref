@@ -1,12 +1,12 @@
 []{#/{notes}/regex toc="Regular expressions"}    
 ## Regular expressions    
 **See also:**    
-:   [regex datum](/ref/regex.md)    
-:   [regex proc](/ref/proc/regex.md)    
-:   [findtext proc](/ref/proc/findtext.md)    
-:   [replacetext proc](/ref/proc/replacetext.md)    
-:   [splittext proc](/ref/proc/splittext.md)    
-:   [REGEX_QUOTE proc](/ref/proc/REGEX_QUOTE.md)    
+:   [regex datum](/ref/regex/regex.md)    
+:   [regex proc](/ref/proc/regex/regex.md)    
+:   [findtext proc](/ref/proc/findtext/findtext.md)    
+:   [replacetext proc](/ref/proc/replacetext/replacetext.md)    
+:   [splittext proc](/ref/proc/splittext/splittext.md)    
+:   [REGEX_QUOTE proc](/ref/proc/REGEX_QUOTE/REGEX_QUOTE.md)    
 Regular expressions are patterns that can be searched for within a text    
 string, instead of searching for an exact match to a known piece of    
 text. They are much more versatile for find and replace operations, and    
@@ -21,7 +21,7 @@ Some example regular expressions are:
 These are some of the patterns you can use. If you want to use any of    
 the operators as an actual character, it must be escaped with a    
 backslash.    
-It is highly recommended that you use [raw strings](/ref/DM/text.md) like    
+It is highly recommended that you use [raw strings](/ref/DM/text/text.md) like    
 `@"..."` for your regular expression patterns, because with a regular DM    
 string you have to escape all backslash `\` and open bracket `[`    
 characters, which will make your regular expression much harder for you    
@@ -78,4 +78,4 @@ will contain a list---if applicable---of any sub-patterns found with the
 `()` parentheses operator. For instance, searching the string `"123"`    
 for `1(\d)(\d)` will match `"123"`, and the `group` var will be    
 `list("2","3")`. Groups can also be used in replacement expressions; see    
-the [Replace() proc](/ref/regex/proc/Replace.md){.code} for more details.  
+the [Replace() proc](/ref/regex/proc/Replace/Replace.md){.code} for more details.  

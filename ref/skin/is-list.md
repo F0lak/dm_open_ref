@@ -1,11 +1,11 @@
 []{#/{skin}/param/is-list}    
 ## is-list parameter (skin)    
 **See also:**    
-:   [cells parameter](/ref/%7Bskin%7D/param/cells.md)    
-:   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell.md)    
+:   [cells parameter](/ref/%7Bskin%7D/param/cells/cells.md)    
+:   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell/current-cell.md)    
 <!-- -->    
 **Applies to:**    
-:   [Grid](/ref/%7Bskin%7D/control/grid.md)    
+:   [Grid](/ref/%7Bskin%7D/control/grid/grid.md)    
 <!-- -->    
 **Format:**    
 :   true/false    

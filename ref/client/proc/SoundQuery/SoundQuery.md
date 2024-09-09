@@ -1,8 +1,8 @@
 []{#/client/proc/SoundQuery}    
 ## SoundQuery proc (client) {#soundquery-proc-client byondver="513"}    
 **See also:**    
-:   [/sound datum](/ref/sound.md)    
-:   [sound proc](/ref/proc/sound.md)    
+:   [/sound datum](/ref/sound/sound.md)    
+:   [sound proc](/ref/proc/sound/sound.md)    
 <!-- -->    
 **Format:**    
 :   SoundQuery()    

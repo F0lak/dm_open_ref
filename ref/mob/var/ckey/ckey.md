@@ -1,8 +1,8 @@
 []{#/mob/var/ckey}    
 ## ckey var (mob)    
 **See also:**    
-:   [ckey proc](/ref/proc/ckey.md)    
-:   [key var (mob)](/ref/mob/var/key.md)    
+:   [ckey proc](/ref/proc/ckey/ckey.md)    
+:   [key var (mob)](/ref/mob/var/key/key.md)    
 <!-- -->    
 **Default value:**    
 :   null    

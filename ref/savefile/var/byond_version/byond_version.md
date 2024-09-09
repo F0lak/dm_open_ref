@@ -1,10 +1,10 @@
 []{#/savefile/var/byond_version}    
 ## byond_version var (savefile) {#byond_version-var-savefile byondver="515"}    
 **See also:**    
-:   [savefile](/ref/savefile.md)    
-:   [byond_build var (savefile)](/ref/savefile/var/byond_build.md)    
-:   [byond_version var (world)](/ref/world/var/byond_version.md)    
-:   [byond_build var (world)](/ref/world/var/byond_build.md)    
+:   [savefile](/ref/savefile/savefile.md)    
+:   [byond_build var (savefile)](/ref/savefile/var/byond_build/byond_build.md)    
+:   [byond_version var (world)](/ref/world/var/byond_version/byond_version.md)    
+:   [byond_build var (world)](/ref/world/var/byond_build/byond_build.md)    
 <!-- -->    
 **Default value:**    
 :   0    

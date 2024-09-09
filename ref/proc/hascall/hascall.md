@@ -1,7 +1,7 @@
 []{#/proc/hascall}    
 ## hascall proc    
 **See also:**    
-:   [call proc](/ref/proc/call.md)    
+:   [call proc](/ref/proc/call/call.md)    
 <!-- -->    
 **Format:**    
 :   hascall(Object,ProcName)    

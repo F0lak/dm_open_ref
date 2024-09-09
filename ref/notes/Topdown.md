@@ -1,17 +1,17 @@
 []{#/{notes}/topdown toc="Topdown maps"}    
 ## Topdown maps    
 **See also:**    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
-:   [icon_size var (world)](/ref/world/var/icon_size.md)    
-:   [dir var (client)](/ref/client/var/dir.md)    
-:   [layer var (atom)](/ref/atom/var/layer.md)    
-:   [plane var (atom)](/ref/atom/var/plane.md)    
-:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md)    
-:   [Big icons](/ref/%7Bnotes%7D/big-icons.md)    
-:   [HUD](/ref/%7Bnotes%7D/HUD.md)    
-:   [Isometric maps](/ref/%7Bnotes%7D/isometric.md)    
-:   [Side-view maps](/ref/%7Bnotes%7D/side.md)    
-:   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md)    
+:   [map_format var (world)](/ref/world/var/map_format/map_format.md)    
+:   [icon_size var (world)](/ref/world/var/icon_size/icon_size.md)    
+:   [dir var (client)](/ref/client/var/dir/dir.md)    
+:   [layer var (atom)](/ref/atom/var/layer/layer.md)    
+:   [plane var (atom)](/ref/atom/var/plane/plane.md)    
+:   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc/screen_loc.md)    
+:   [Big icons](/ref/%7Bnotes%7D/big-icons/big-icons.md)    
+:   [HUD](/ref/%7Bnotes%7D/HUD/HUD.md)    
+:   [Isometric maps](/ref/%7Bnotes%7D/isometric/isometric.md)    
+:   [Side-view maps](/ref/%7Bnotes%7D/side/side.md)    
+:   [Understanding the renderer](/ref/%7Bnotes%7D/renderer/renderer.md)    
 By default, BYOND displays all maps in top-down format, so    
 `world.map_format` is set to `TOPDOWN_MAP` unless you say otherwise.    
 This view means players are looking down on the map, and \"north\"    
@@ -21,7 +21,7 @@ A related map_format, used by older games, is `TILED_ICON_MAP`. This is
 also topdown but it handles icons differently.    
 In this form, the `layer` var behaves exactly as you would expect: Icons    
 with a lower layer are drawn beneath icons with a higher layer. The only    
-exception is when you use [big icons](/ref/%7Bnotes%7D/big-icons.md), which    
+exception is when you use [big icons](/ref/%7Bnotes%7D/big-icons/big-icons.md), which    
 will be drawn above any other icons on the same layer. Also an atom\'s    
 underlays will be drawn behind it unless their layer is changed, and its    
 overlays will draw in front of it unless otherwise stated.    

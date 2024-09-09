@@ -1,7 +1,7 @@
 []{#/verb/set/instant}    
 ## instant setting (verb)    
 **See also:**    
-:   [settings (verb)](/ref/verb/set.md)    
+:   [settings (verb)](/ref/verb/set/set.md)    
 <!-- -->    
 **Format:**    
 :   set instant = Setting    

@@ -1,14 +1,14 @@
 []{#/client/var/glide_size}    
 ## glide_size var (client) {#glide_size-var-client byondver="490"}    
 **See also:**    
-:   [eye var (client)](/ref/client/var/eye.md)    
-:   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md)    
+:   [eye var (client)](/ref/client/var/eye/eye.md)    
+:   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size/glide_size.md)    
 <!-- -->    
 **Default value:**    
 :   0    
 Note: The way this setting is used depends on    
-[world.movement_mode](/ref/world/var/movement_mode.md). See    
-[Gliding](/ref/%7Bnotes%7D/gliding.md) for more details.    
+[world.movement_mode](/ref/world/var/movement_mode/movement_mode.md). See    
+[Gliding](/ref/%7Bnotes%7D/gliding/gliding.md) for more details.    
 This controls the number of pixels the map is moved in each step during    
 scrolling of the map. The default value of 0 chooses automated control    
 over this value, which generally results in a minimum step of 4 pixels    

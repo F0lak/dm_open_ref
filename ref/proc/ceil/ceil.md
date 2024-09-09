@@ -1,10 +1,10 @@
 []{#/proc/ceil}    
 ## ceil proc {#ceil-proc byondver="515"}    
 **See also:**    
-:   [floor proc](/ref/proc/floor.md)    
-:   [round proc](/ref/proc/round.md)    
-:   [trunc proc](/ref/proc/trunc.md)    
-:   [fract proc](/ref/proc/fract.md)    
+:   [floor proc](/ref/proc/floor/floor.md)    
+:   [round proc](/ref/proc/round/round.md)    
+:   [trunc proc](/ref/proc/trunc/trunc.md)    
+:   [fract proc](/ref/proc/fract/fract.md)    
 <!-- -->    
 **Format:**    
 :   ceil(A)    

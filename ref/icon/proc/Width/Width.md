@@ -1,9 +1,9 @@
 []{#/icon/proc/Width}    
 ## Width proc (icon)    
 **See also:**    
-:   [icon](/ref/icon.md)    
-:   [procs (icon)](/ref/icon/proc.md)    
-:   [Height proc](/ref/icon/proc/Height.md)    
+:   [icon](/ref/icon/icon.md)    
+:   [procs (icon)](/ref/icon/proc/proc.md)    
+:   [Height proc](/ref/icon/proc/Height/Height.md)    
 <!-- -->    
 **Format:**    
 :   Width()    

@@ -1,7 +1,7 @@
 []{#/proc/text2path}    
 ## text2path proc    
 **See also:**    
-:   [ispath proc](/ref/proc/ispath.md)    
+:   [ispath proc](/ref/proc/ispath/ispath.md)    
 <!-- -->    
 **Format:**    
 :   text2path(T)    

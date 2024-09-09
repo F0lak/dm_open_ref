@@ -1,7 +1,7 @@
 []{#/{notes}/filters/ripple toc="Ripple (filters)"}    
 ## Ripple filter {#ripple-filter byondver="513"}    
 **See also:**    
-:   [Wave (filters)](/ref/%7Bnotes%7D/filters/wave.md)    
+:   [Wave (filters)](/ref/%7Bnotes%7D/filters/wave/wave.md)    
 <!-- -->    
 Format:    
 :   filter(type=\"ripple\", \...)    

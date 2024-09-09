@@ -1,12 +1,12 @@
 []{#/atom/var/maptext_height}    
 ## maptext_height var (atom) {#maptext_height-var-atom byondver="494"}    
 **See also:**    
-:   [maptext var (atom)](/ref/atom/var/maptext.md)    
-:   [maptext_width var (atom)](/ref/atom/var/maptext_width.md)    
-:   [maptext_x var (atom)](/ref/atom/var/maptext_x.md)    
-:   [maptext_y var (atom)](/ref/atom/var/maptext_y.md)    
-:   [icon_size var (world)](/ref/world/var/icon_size.md)    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
+:   [maptext var (atom)](/ref/atom/var/maptext/maptext.md)    
+:   [maptext_width var (atom)](/ref/atom/var/maptext_width/maptext_width.md)    
+:   [maptext_x var (atom)](/ref/atom/var/maptext_x/maptext_x.md)    
+:   [maptext_y var (atom)](/ref/atom/var/maptext_y/maptext_y.md)    
+:   [icon_size var (world)](/ref/world/var/icon_size/icon_size.md)    
+:   [map_format var (world)](/ref/world/var/map_format/map_format.md)    
 <!-- -->    
 **Default value:**    
 :   32 (depends on world.icon_size)    

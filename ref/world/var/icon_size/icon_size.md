@@ -1,10 +1,10 @@
 []{#/world/var/icon_size}    
 ## icon_size var (world)    
 **See also:**    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
-:   [step_size var (movable atoms)](/ref/atom/movable/var/step_size.md)    
-:   [Gliding](/ref/%7Bnotes%7D/gliding.md)    
-:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md)    
+:   [map_format var (world)](/ref/world/var/map_format/map_format.md)    
+:   [step_size var (movable atoms)](/ref/atom/movable/var/step_size/step_size.md)    
+:   [Gliding](/ref/%7Bnotes%7D/gliding/gliding.md)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement/pixel-movement.md)    
 <!-- -->    
 **Default value:**    
 :   32    

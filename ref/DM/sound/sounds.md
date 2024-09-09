@@ -1,11 +1,11 @@
 []{#/DM/sound}    
 ## sounds    
 **See also:**    
-:   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md)    
-:   [cache](/ref/DM/cache.md)    
-:   [sound proc](/ref/proc/sound.md)    
-:   [/sound datum](/ref/sound.md)    
-:   [load_resource proc](/ref/proc/load_resource.md)    
+:   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR/FILE_DIR.md)    
+:   [cache](/ref/DM/cache/cache.md)    
+:   [sound proc](/ref/proc/sound/sound.md)    
+:   [/sound datum](/ref/sound/sound.md)    
+:   [load_resource proc](/ref/proc/load_resource/load_resource.md)    
 A sound stored in a file may be referenced by putting single quotes    
 around the filename. The file extension determines the type of sound.    
 Currently supported music types include MIDI (.mid or .midi), and module    

@@ -1,18 +1,18 @@
 []{#/client/proc/MouseWheel}    
 ## MouseWheel proc (client) {#mousewheel-proc-client byondver="508"}    
 **See also:**    
-:   [Click proc (client)](/ref/client/proc/Click.md)    
-:   [DblClick proc (client)](/ref/client/proc/DblClick.md)    
-:   [MouseDown proc (client)](/ref/client/proc/MouseDown.md)    
-:   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md)    
-:   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md)    
-:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md)    
-:   [MouseExited proc (client)](/ref/client/proc/MouseExited.md)    
-:   [MouseMove proc (client)](/ref/client/proc/MouseMove.md)    
-:   [MouseUp proc (client)](/ref/client/proc/MouseUp.md)    
-:   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel.md)    
-:   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md)    
-:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md)    
+:   [Click proc (client)](/ref/client/proc/Click/Click.md)    
+:   [DblClick proc (client)](/ref/client/proc/DblClick/DblClick.md)    
+:   [MouseDown proc (client)](/ref/client/proc/MouseDown/MouseDown.md)    
+:   [MouseDrag proc (client)](/ref/client/proc/MouseDrag/MouseDrag.md)    
+:   [MouseDrop proc (client)](/ref/client/proc/MouseDrop/MouseDrop.md)    
+:   [MouseEntered proc (client)](/ref/client/proc/MouseEntered/MouseEntered.md)    
+:   [MouseExited proc (client)](/ref/client/proc/MouseExited/MouseExited.md)    
+:   [MouseMove proc (client)](/ref/client/proc/MouseMove/MouseMove.md)    
+:   [MouseUp proc (client)](/ref/client/proc/MouseUp/MouseUp.md)    
+:   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel/MouseWheel.md)    
+:   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity/mouse_opacity.md)    
+:   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon/mouse_pointer_icon.md)    
 <!-- -->    
 **Format:**    
 :   MouseWheel(object,delta_x,delta_y,location,control,params)    
@@ -24,7 +24,7 @@
     object    
 :   control: the name of the skin control involved    
 :   params: other parameters including mouse/keyboard flags, icon    
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)    
+    offsets, etc.; see [mouse handling](/ref/DM/mouse/mouse.md)    
 <!-- -->    
 **Default action:**    
 :   Call object.MouseWheel(delta_x,delta_y,location,control,params).    

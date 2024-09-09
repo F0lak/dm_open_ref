@@ -1,10 +1,10 @@
 []{#/DM/text/macros/icon}    
 ## icon text macro    
 **See also:**    
-:   [icon_state var (atom)](/ref/atom/var/icon_state.md)    
-:   [macros (text)](/ref/DM/text/macros.md)    
-:   [style sheets](/ref/DM/text/style.md)    
-:   [tags (text)](/ref/DM/text/tags.md)    
+:   [icon_state var (atom)](/ref/atom/var/icon_state/icon_state.md)    
+:   [macros (text)](/ref/DM/text/macros/macros.md)    
+:   [style sheets](/ref/DM/text/style/style.md)    
+:   [tags (text)](/ref/DM/text/tags/tags.md)    
 The \\icon macro is used to treat the following embedded expression (in    
 \[\]\'s) as an icon rather than as text. An object, for example, would    
 be replaced by its icon rather than by its name.    
@@ -42,5 +42,5 @@ usr \<\< \"You look like this: \\ ![](\ref%5Busr.icon%5D){.icon
 iconstate="glowing" icondir="NORTH" iconframe="2"}!\"    
 Note that the \\icon macro does not work in the mini-browser; it is only    
 for text output. To make icons appear in an HTML document, use    
-[browse_rsc()](/ref/proc/browse_rsc.md) to send an icon to the client before    
-using [browse()](/ref/proc/browse.md) to display it.  
+[browse_rsc()](/ref/proc/browse_rsc/browse_rsc.md) to send an icon to the client before    
+using [browse()](/ref/proc/browse/browse.md) to display it.  

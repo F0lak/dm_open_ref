@@ -1,14 +1,14 @@
 []{#/atom/movable/var/step_size}    
 ## step_size var (movable atom) {#step_size-var-movable-atom byondver="490"}    
 **See also:**    
-:   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md)    
-:   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md)    
-:   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md)    
-:   [locs list var (movable atom)](/ref/atom/movable/var/locs.md)    
-:   [fps var (world)](/ref/world/var/fps.md)    
-:   [icon_size var (world)](/ref/world/var/icon_size.md)    
-:   [Gliding](/ref/%7Bnotes%7D/gliding.md)    
-:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md)    
+:   [step_x var (movable atom)](/ref/atom/movable/var/step_x/step_x.md)    
+:   [step_y var (movable atom)](/ref/atom/movable/var/step_y/step_y.md)    
+:   [Move proc (movable atom)](/ref/atom/movable/proc/Move/Move.md)    
+:   [locs list var (movable atom)](/ref/atom/movable/var/locs/locs.md)    
+:   [fps var (world)](/ref/world/var/fps/fps.md)    
+:   [icon_size var (world)](/ref/world/var/icon_size/icon_size.md)    
+:   [Gliding](/ref/%7Bnotes%7D/gliding/gliding.md)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement/pixel-movement.md)    
 <!-- -->    
 **Default value:**    
 :   32 (width of default icon; depends on world.icon_size)    

@@ -1,12 +1,12 @@
 []{#/{skin}/param/is-pane}    
 ## is-pane parameter (skin)    
 **See also:**    
-:   [id parameter](/ref/%7Bskin%7D/param/id.md)    
-:   [Child control](/ref/%7Bskin%7D/control/child.md)    
-:   [Tab control](/ref/%7Bskin%7D/control/tab.md)    
+:   [id parameter](/ref/%7Bskin%7D/param/id/id.md)    
+:   [Child control](/ref/%7Bskin%7D/control/child/child.md)    
+:   [Tab control](/ref/%7Bskin%7D/control/tab/tab.md)    
 <!-- -->    
 **Applies to:**    
-:   [Main](/ref/%7Bskin%7D/control/main.md)    
+:   [Main](/ref/%7Bskin%7D/control/main/main.md)    
 <!-- -->    
 **Format:**    
 :   true/false    

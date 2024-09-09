@@ -1,8 +1,8 @@
 []{#/list/proc/RemoveAll}    
 ## RemoveAll proc (list) {#removeall-proc-list byondver="515"}    
 **See also:**    
-:   [Add proc (list)](/ref/list/proc/Add.md)    
-:   [Remove proc (list)](/ref/list/proc/Remove.md)    
+:   [Add proc (list)](/ref/list/proc/Add/Add.md)    
+:   [Remove proc (list)](/ref/list/proc/Remove/Remove.md)    
 <!-- -->    
 **Format:**    
 :   list.RemoveAll(Item1,Item2,\...)    

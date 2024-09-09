@@ -1,10 +1,10 @@
 []{#/verb/set/hidden}    
 ## hidden setting (verb)    
 **See also:**    
-:   [category setting (verb)](/ref/verb/set/category.md)    
-:   [invisibility setting (verb)](/ref/verb/set/invisibility.md)    
-:   [name setting (verb)](/ref/verb/set/name.md)    
-:   [popup_menu setting (verb)](/ref/verb/set/popup_menu.md)    
+:   [category setting (verb)](/ref/verb/set/category/category.md)    
+:   [invisibility setting (verb)](/ref/verb/set/invisibility/invisibility.md)    
+:   [name setting (verb)](/ref/verb/set/name/name.md)    
+:   [popup_menu setting (verb)](/ref/verb/set/popup_menu/popup_menu.md)    
 <!-- -->    
 **Format:**    
 :   set hidden = Setting    
@@ -19,4 +19,4 @@ in command-expansion (ie when hitting spacebar) until the \".\" has been
 typed. This could be useful for hiding verbs that would otherwise    
 clutter up the verb list, while still making them relatively easy to    
 use. If you think this is a random quirky feature, you are right. To put    
-\".\" in front of the name, use the [name setting](/ref/verb/set/name.md).  
+\".\" in front of the name, use the [name setting](/ref/verb/set/name/name.md).  

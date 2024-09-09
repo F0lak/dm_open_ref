@@ -1,10 +1,10 @@
 []{#/database/query/proc/Reset}    
 ## Reset proc (database query) {#reset-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum](/ref/database.md)    
-:   [database query datum](/ref/database/query.md)    
-:   [Execute proc (database query)](/ref/database/query/proc/Execute.md)    
-:   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md)    
+:   [database datum](/ref/database/database.md)    
+:   [database query datum](/ref/database/query/query.md)    
+:   [Execute proc (database query)](/ref/database/query/proc/Execute/Execute.md)    
+:   [NextRow proc (database query)](/ref/database/query/proc/NextRow/NextRow.md)    
 <!-- -->    
 **Format:**    
 :   Reset()    

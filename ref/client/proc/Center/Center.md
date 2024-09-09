@@ -1,7 +1,7 @@
 []{#/client/proc/Center}    
 ## Center proc (client)    
 **See also:**    
-:   [walk proc](/ref/proc/walk.md)    
+:   [walk proc](/ref/proc/walk/walk.md)    
 <!-- -->    
 **Format:**    
 :   Center()    

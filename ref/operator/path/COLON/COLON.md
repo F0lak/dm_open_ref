@@ -1,8 +1,8 @@
 []{#/operator/path/:}    
 ## : path operator    
 **See also:**    
-:   [. path operator](/ref/operator/path/%2e.md)    
-:   [/ path operator](/ref/operator/path//.md)    
+:   [. path operator](/ref/operator/path/%2e/%2e.md)    
+:   [/ path operator](/ref/operator/path///.md)    
 The colon operator may be used as a short-cut when specifying a path in    
 the DM code tree. Instead of specifying the full path, you can insert a    
 colon and the compiler will search down in the tree with the node you    

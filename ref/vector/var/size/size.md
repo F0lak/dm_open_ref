@@ -1,8 +1,8 @@
 []{#/vector/var/size}    
 ## size var (vector) {#size-var-vector byondver="516"}    
 **See also:**    
-:   [vector](/ref/vector.md)    
-:   [vars (vector)](/ref/vector/var.md)    
+:   [vector](/ref/vector/vector.md)    
+:   [vars (vector)](/ref/vector/var/var.md)    
 The magnitude of this vector. Magnitude is the square root of the    
 summed-up squares of all its components. For instance in 3D:    
 size = x\*x + y\*y + z\*z    

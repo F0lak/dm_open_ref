@@ -1,12 +1,12 @@
 []{#/{skin}/param/outer-pos}    
 ## outer-pos parameter (skin) {#outer-pos-parameter-skin byondver="515"}    
 **See also:**    
-:   [pos parameter](/ref/%7Bskin%7D/param/pos.md)    
-:   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md)    
-:   [inner-pos parameter](/ref/%7Bskin%7D/param/inner-pos.md)    
+:   [pos parameter](/ref/%7Bskin%7D/param/pos/pos.md)    
+:   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size/outer-size.md)    
+:   [inner-pos parameter](/ref/%7Bskin%7D/param/inner-pos/inner-pos.md)    
 <!-- -->    
 **Applies to:**    
-:   [Main](/ref/%7Bskin%7D/control/main.md)    
+:   [Main](/ref/%7Bskin%7D/control/main/main.md)    
 <!-- -->    
 **Format:**    
 :   *x*,*y*    

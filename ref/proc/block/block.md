@@ -1,7 +1,7 @@
 []{#/proc/block}    
 ## block proc    
 **See also:**    
-:   [list](/ref/list.md)    
+:   [list](/ref/list/list.md)    
 <!-- -->    
 **Format:**    
 :   block(Start,End)    

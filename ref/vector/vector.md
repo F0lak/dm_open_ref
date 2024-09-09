@@ -1,12 +1,12 @@
 []{#/vector}    
 ## vector {#vector byondver="516"}    
 **See also:**    
-:   [vector proc](/ref/proc/vector.md)    
-:   [procs (vector)](/ref/vector/proc.md)    
-:   [vars (vector)](/ref/vector/var.md)    
-:   [pixloc](/ref/pixloc.md)    
-:   [operators](/ref/operator.md)    
-:   [matrix](/ref/matrix.md)    
+:   [vector proc](/ref/proc/vector/vector.md)    
+:   [procs (vector)](/ref/vector/proc/proc.md)    
+:   [vars (vector)](/ref/vector/var/var.md)    
+:   [pixloc](/ref/pixloc/pixloc.md)    
+:   [operators](/ref/operator/operator.md)    
+:   [matrix](/ref/matrix/matrix.md)    
 A primitive value representing a numeric vector in 2 or 3 dimensions.    
 That is, a 2D vector has x and y components, and a 3D vector has x, y,    
 and z components.    
@@ -21,11 +21,11 @@ When doing math on two vectors of different dimensions, the result will
 use the highest dimensionality. E.g., adding a 2D and 3D vector produces    
 a 3D vector.    
 Other supported procs for vectors include:    
-[min()](/ref/proc/min.md){.code}    
-[max()](/ref/proc/max.md){.code}    
-[clamp()](/ref/proc/clamp.md){.code}    
-[round()](/ref/proc/round.md){.code}    
-[floor()](/ref/proc/floor.md){.code}    
-[ceil()](/ref/proc/ceil.md){.code}    
-[trunc()](/ref/proc/trunc.md){.code}    
-[fract()](/ref/proc/fract.md){.code}  
+[min()](/ref/proc/min/min.md){.code}    
+[max()](/ref/proc/max/max.md){.code}    
+[clamp()](/ref/proc/clamp/clamp.md){.code}    
+[round()](/ref/proc/round/round.md){.code}    
+[floor()](/ref/proc/floor/floor.md){.code}    
+[ceil()](/ref/proc/ceil/ceil.md){.code}    
+[trunc()](/ref/proc/trunc/trunc.md){.code}    
+[fract()](/ref/proc/fract/fract.md){.code}  

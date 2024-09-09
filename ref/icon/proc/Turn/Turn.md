@@ -1,10 +1,10 @@
 []{#/icon/proc/Turn}    
 ## Turn proc (icon)    
 **See also:**    
-:   [Flip proc (icon)](/ref/icon/proc/Flip.md)    
-:   [dir var (atom)](/ref/atom/var/dir.md)    
-:   [icon](/ref/icon.md)    
-:   [procs (icon)](/ref/icon/proc.md)    
+:   [Flip proc (icon)](/ref/icon/proc/Flip/Flip.md)    
+:   [dir var (atom)](/ref/atom/var/dir/dir.md)    
+:   [icon](/ref/icon/icon.md)    
+:   [procs (icon)](/ref/icon/proc/proc.md)    
 <!-- -->    
 **Format:**    
 :   Turn(angle)    

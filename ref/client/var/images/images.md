@@ -1,8 +1,8 @@
 []{#/client/var/images}    
 ## images var (client)    
 **See also:**    
-:   [image objects](/ref/image.md)    
-:   [image proc](/ref/proc/image.md)    
+:   [image objects](/ref/image/image.md)    
+:   [image proc](/ref/proc/image/image.md)    
 This is a list of images that are displayed to the user. The output    
 operator is one way to add entries to this list. Deleting an image    
 object will automatically remove it from the display, but if you want to    

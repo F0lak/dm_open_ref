@@ -1,20 +1,20 @@
 []{#/{notes}/gliding toc="Gliding"}    
 ## Gliding    
 **See also:**    
-:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md)    
+:   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement/pixel-movement.md)    
 :   [animate_movement var (movable    
-    atom)](/ref/atom/movable/var/animate_movement.md)    
-:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md)    
-:   [glide_size var (movable atom)](/ref/atom/movable/var/glide_size.md)    
-:   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md)    
-:   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md)    
-:   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md)    
-:   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md)    
-:   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md)    
-:   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md)    
-:   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md)    
-:   [movement_mode var (world)](/ref/world/var/movement_mode.md)    
-:   [fps var (client)](/ref/client/var/fps.md)    
+    atom)](/ref/atom/movable/var/animate_movement/animate_movement.md)    
+:   [appearance_flags var (atom)](/ref/atom/var/appearance_flags/appearance_flags.md)    
+:   [glide_size var (movable atom)](/ref/atom/movable/var/glide_size/glide_size.md)    
+:   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x/bound_x.md)    
+:   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y/bound_y.md)    
+:   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width/bound_width.md)    
+:   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height/bound_height.md)    
+:   [step_size var (movable atom)](/ref/atom/movable/var/step_size/step_size.md)    
+:   [step_x var (movable atom)](/ref/atom/movable/var/step_x/step_x.md)    
+:   [step_y var (movable atom)](/ref/atom/movable/var/step_y/step_y.md)    
+:   [movement_mode var (world)](/ref/world/var/movement_mode/movement_mode.md)    
+:   [fps var (client)](/ref/client/var/fps/fps.md)    
 Gliding is a \"glitz\" effect applied by BYOND to cover up the visual    
 sins of tile-based movement, by making objects and the map appear to    
 move smoothly from one tile to another instead of immediately jumping.    
@@ -37,7 +37,7 @@ will take just as long as a cardinal-direction glide by moving a fullt
 `glide_size` pixels in the dominant X or Y direction. Otherwise, gliding    
 tries to move by that many pixels in strict Euclidean distance (a    
 straight line) and diagonal glides take longer.    
-In [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md){.code}, gliding is    
+In [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode/movement_mode.md){.code}, gliding is    
 turned off if you set any of the bound or step vars for an atom to a    
 non-default value. The only gliding that occurs in this case is when    
 client.fps is higher than world.fps. All other movement modes base    

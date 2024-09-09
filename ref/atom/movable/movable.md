@@ -1,11 +1,11 @@
 []{#/atom/movable}    
 ## movable atoms    
 **See also:**    
-:   [atom](/ref/atom.md)    
-:   [mob](/ref/mob.md)    
-:   [obj](/ref/obj.md)    
-:   [procs (movable atoms)](/ref/atom/movable/proc.md)    
-:   [vars (movable atoms)](/ref/atom/movable/var.md)    
+:   [atom](/ref/atom/atom.md)    
+:   [mob](/ref/mob/mob.md)    
+:   [obj](/ref/obj/obj.md)    
+:   [procs (movable atoms)](/ref/atom/movable/proc/proc.md)    
+:   [vars (movable atoms)](/ref/atom/movable/var/var.md)    
 The /atom/movable object type is the ancestor of all mappable objects    
 that are capable of motion. The types /obj and /mob are derived from    
 /atom/movable. You should not create instances of /atom/movable but    

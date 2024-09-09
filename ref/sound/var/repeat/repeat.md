@@ -1,9 +1,9 @@
 []{#/sound/var/repeat}    
 ## repeat var (sound)    
 **See also:**    
-:   [sound proc](/ref/proc/sound.md)    
-:   [vars (sound)](/ref/sound/var.md)    
-:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md)    
+:   [sound proc](/ref/proc/sound/sound.md)    
+:   [vars (sound)](/ref/sound/var/var.md)    
+:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery/SoundQuery.md)    
 <!-- -->    
 **Default value:**    
 :   0 (do not repeat)    

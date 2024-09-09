@@ -1,9 +1,9 @@
 []{#/list/proc/Add}    
 ## Add proc (list)    
 **See also:**    
-:   [+ operator](/ref/operator/+.md)    
-:   [Remove proc (list)](/ref/list/proc/Remove.md)    
-:   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md)    
+:   [+ operator](/ref/operator/+/+.md)    
+:   [Remove proc (list)](/ref/list/proc/Remove/Remove.md)    
+:   [RemoveAll proc (list)](/ref/list/proc/RemoveAll/RemoveAll.md)    
 <!-- -->    
 **Format:**    
 :   list.Add(Item1,Item2,\...)    

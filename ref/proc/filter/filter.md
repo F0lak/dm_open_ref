@@ -1,8 +1,8 @@
 []{#/proc/filter}    
 ## filter proc {#filter-proc byondver="512"}    
 **See also:**    
-:   [filters var (atom)](/ref/atom/var/filters.md)    
-:   [Filter effects](/ref/%7Bnotes%7D/filters.md)    
+:   [filters var (atom)](/ref/atom/var/filters/filters.md)    
+:   [Filter effects](/ref/%7Bnotes%7D/filters/filters.md)    
 <!-- -->    
 **Format:**    
 :   filter(type = Type, parameter = Value, \...)    
@@ -10,7 +10,7 @@ Creates a graphical filter that can be assigned or added to a list of
 filters on an atom or image.    
 This proc uses named arguments, and the \"type\" value must always be    
 included. To see which types of filters are available and what    
-parameters they accept, see [Filter effects](/ref/%7Bnotes%7D/filters.md).    
+parameters they accept, see [Filter effects](/ref/%7Bnotes%7D/filters/filters.md).    
 ### Example:    
 atom/proc/Highlight(apply) if(apply) filters = filter(type=\"outline\",    
 size=1, color=rgb(255,0,0)) else filters = null    

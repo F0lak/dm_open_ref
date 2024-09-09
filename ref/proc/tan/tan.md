@@ -1,10 +1,10 @@
 []{#/proc/tan}    
 ## tan proc {#tan-proc byondver="513"}    
 **See also:**    
-:   [arctan proc](/ref/proc/arctan.md)    
-:   [cos proc](/ref/proc/cos.md)    
-:   [sin proc](/ref/proc/sin.md)    
-:   [turn proc](/ref/proc/turn.md)    
+:   [arctan proc](/ref/proc/arctan/arctan.md)    
+:   [cos proc](/ref/proc/cos/cos.md)    
+:   [sin proc](/ref/proc/sin/sin.md)    
+:   [turn proc](/ref/proc/turn/turn.md)    
 <!-- -->    
 **Format:**    
 :   tan(X)    

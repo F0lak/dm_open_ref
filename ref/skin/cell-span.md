@@ -1,10 +1,10 @@
 []{#/{skin}/param/cell-span}    
 ## cell-span parameter (skin)    
 **See also:**    
-:   [cells parameter](/ref/%7Bskin%7D/param/cells.md)    
+:   [cells parameter](/ref/%7Bskin%7D/param/cells/cells.md)    
 <!-- -->    
 **Applies to:**    
-:   [Grid](/ref/%7Bskin%7D/control/grid.md)    
+:   [Grid](/ref/%7Bskin%7D/control/grid/grid.md)    
 <!-- -->    
 **Format:**    
 :   *columns*,*rows*    

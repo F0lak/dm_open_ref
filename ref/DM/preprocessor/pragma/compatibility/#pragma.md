@@ -1,9 +1,9 @@
 []{#/DM/preprocessor/pragma/compatibility}    
 ## #pragma compatibility directive {#pragma-compatibility-directive byondver="516"}    
 **See also:**    
-:   [#pragma directive](/ref/DM/preprocessor/pragma.md)    
-:   [warn/ignore/error directive](/ref/DM/preprocessor/warn.md)    
-:   [DM_VERSION macro](/ref/DM/preprocessor/DM_VERSION.md)    
+:   [#pragma directive](/ref/DM/preprocessor/pragma/pragma.md)    
+:   [warn/ignore/error directive](/ref/DM/preprocessor/warn/warn.md)    
+:   [DM_VERSION macro](/ref/DM/preprocessor/DM_VERSION/DM_VERSION.md)    
 <!-- -->    
 **Format:**    
 :   #pragma compatibility [\<]{.faded}version[\>]{.faded}    

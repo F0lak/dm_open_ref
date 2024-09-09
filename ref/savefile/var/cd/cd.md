@@ -1,7 +1,7 @@
 []{#/savefile/var/cd}    
 ## cd var (savefile)    
 **See also:**    
-:   [savefile](/ref/savefile.md)    
+:   [savefile](/ref/savefile/savefile.md)    
 This is the path name of the current directory. Setting it causes the    
 current directory to change. (We are talking about the current    
 *database* directory inside the savefile. It is not a real directory on    

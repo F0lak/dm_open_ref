@@ -1,13 +1,13 @@
 []{#/{skin}/param/transparent-color}    
 ## transparent-color parameter (skin) {#transparent-color-parameter-skin deprecated="1"}    
 **See also:**    
-:   [alpha parameter](/ref/%7Bskin%7D/param/alpha.md)    
+:   [alpha parameter](/ref/%7Bskin%7D/param/alpha/alpha.md)    
 <!-- -->    
 **Applies to:**    
-:   [Main](/ref/%7Bskin%7D/control/main.md) (window only)    
+:   [Main](/ref/%7Bskin%7D/control/main/main.md) (window only)    
 <!-- -->    
 **Format:**    
-:   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md)    
+:   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors/html-colors.md)    
 :   none    
 <!-- -->    
 **Default value:**    

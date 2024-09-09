@@ -1,8 +1,8 @@
 []{#/proc/text}    
 ## text proc    
 **See also:**    
-:   [\<\< operator](/ref/operator/%3c%3c.md)    
-:   [macros (text)](/ref/DM/text/macros.md)    
+:   [\<\< operator](/ref/operator/%3c%3c/%3c%3c.md)    
+:   [macros (text)](/ref/DM/text/macros/macros.md)    
 <!-- -->    
 **Format:**    
 :   text(FormatText,Args)    

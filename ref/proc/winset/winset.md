@@ -1,12 +1,12 @@
 []{#/proc/winset}    
 ## winset proc    
 **See also:**    
-:   [winclone proc](/ref/proc/winclone.md)    
-:   [winexists proc](/ref/proc/winexists.md)    
-:   [winget proc](/ref/proc/winget.md)    
-:   [winshow proc](/ref/proc/winshow.md)    
-:   [User interface skins](/ref/%7Bskin%7D.md)    
-:   [parameters (skin)](/ref/%7Bskin%7D/param.md)    
+:   [winclone proc](/ref/proc/winclone/winclone.md)    
+:   [winexists proc](/ref/proc/winexists/winexists.md)    
+:   [winget proc](/ref/proc/winget/winget.md)    
+:   [winshow proc](/ref/proc/winshow/winshow.md)    
+:   [User interface skins](/ref/%7Bskin%7D/%7Bskin%7D.md)    
+:   [parameters (skin)](/ref/%7Bskin%7D/param/param.md)    
 <!-- -->    
 **Format:**    
 :   winset(player, control_id, params)    
@@ -60,7 +60,7 @@ Because many characters need to be specially encoded for winsets, it\'s
 best to either use the list format of `winset()` which handles that    
 encoding for you. If you want to use the string form, like    
 `winset(usr, null, "command=XYZ")`, then you should use    
-[url_encode()](/ref/proc/url_encode.md){.code} to encode your command.    
+[url_encode()](/ref/proc/url_encode/url_encode.md){.code} to encode your command.    
 #### browser-options {#browser-options byondver="516"}    
 The \"browser-options\" global parameter lets you enable or disable    
 certain browser functionality. This can be a comma-separated list, or    
@@ -83,11 +83,11 @@ zoom
 Ctrl with the + or - keys can zoom the browser, and Ctrl+0 can reset it.    
 byondstorage    
 ❌    
-Enables [byondStorage](/ref/%7Bskin%7D/control/browser/byondStorage.md){.code}    
+Enables [byondStorage](/ref/%7Bskin%7D/control/browser/byondStorage/byondStorage.md){.code}    
 access.    
 ### Example:    
 mob/Login() ..() winset(usr, null, \"browser-options=devtools,find\")    
 If you plan to use the `+` or `-` modifiers, you should either use the    
 list format of `winset()` or use    
-[url_encode()](/ref/proc/url_encode.md){.code} to encode the list of options.    
+[url_encode()](/ref/proc/url_encode/url_encode.md){.code} to encode the list of options.    
 Browser options are shared across all browser controls.  

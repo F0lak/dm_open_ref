@@ -1,8 +1,8 @@
 []{#/proc/CRASH}    
 ## CRASH proc    
 **See also:**    
-:   [ASSERT proc](/ref/proc/ASSERT.md)    
-:   [DEBUG definition](/ref/DM/preprocessor/define/DEBUG.md)    
+:   [ASSERT proc](/ref/proc/ASSERT/ASSERT.md)    
+:   [DEBUG definition](/ref/DM/preprocessor/define/DEBUG/DEBUG.md)    
 <!-- -->    
 **Format:**    
 :   CRASH(msg)    

@@ -1,7 +1,7 @@
 []{#/client/var/key}    
 ## key var (client)    
 **See also:**    
-:   [key var (mob)](/ref/mob/var/key.md)    
+:   [key var (mob)](/ref/mob/var/key/key.md)    
 <!-- -->    
 **Default value:**    
 :   The player\'s key identity.    

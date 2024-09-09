@@ -1,7 +1,7 @@
 []{#/proc/isturf}    
 ## isturf proc    
 **See also:**    
-:   [isloc proc](/ref/proc/isloc.md)    
+:   [isloc proc](/ref/proc/isloc/isloc.md)    
 <!-- -->    
 **Format:**    
 :   isturf(Loc1, Loc2 \...)    

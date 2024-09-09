@@ -1,8 +1,8 @@
 []{#/proc/typesof}    
 ## typesof proc    
 **See also:**    
-:   [istype proc](/ref/proc/istype.md)    
-:   [locate proc](/ref/proc/locate.md)    
+:   [istype proc](/ref/proc/istype/istype.md)    
+:   [locate proc](/ref/proc/locate/locate.md)    
 <!-- -->    
 **Format:**    
 :   typesof(Type1,Type2,\...)    

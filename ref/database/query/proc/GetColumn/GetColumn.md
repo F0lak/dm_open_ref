@@ -1,13 +1,13 @@
 []{#/database/query/proc/GetColumn}    
 ## GetColumn proc (database query) {#getcolumn-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum](/ref/database.md)    
-:   [database query datum](/ref/database/query.md)    
-:   [Columns proc (database query)](/ref/database/query/proc/Columns.md)    
-:   [Execute proc (database query)](/ref/database/query/proc/Execute.md)    
-:   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md)    
-:   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md)    
-:   [Reset proc (database query)](/ref/database/query/proc/Reset.md)    
+:   [database datum](/ref/database/database.md)    
+:   [database query datum](/ref/database/query/query.md)    
+:   [Columns proc (database query)](/ref/database/query/proc/Columns/Columns.md)    
+:   [Execute proc (database query)](/ref/database/query/proc/Execute/Execute.md)    
+:   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData/GetRowData.md)    
+:   [NextRow proc (database query)](/ref/database/query/proc/NextRow/NextRow.md)    
+:   [Reset proc (database query)](/ref/database/query/proc/Reset/Reset.md)    
 <!-- -->    
 **Format:**    
 :   GetColumn(column)    

@@ -1,7 +1,7 @@
 []{#/{skin}/param/index}    
 ## index parameter (skin)    
 **Applies to:**    
-:   [Menu](/ref/%7Bskin%7D/control/menu.md)    
+:   [Menu](/ref/%7Bskin%7D/control/menu/menu.md)    
 <!-- -->    
 **Format:**    
 :   number    

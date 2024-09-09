@@ -1,8 +1,8 @@
 []{#/proc/text2file}    
 ## text2file proc    
 **See also:**    
-:   [file2text proc](/ref/proc/file2text.md)    
-:   [shell proc](/ref/proc/shell.md)    
+:   [file2text proc](/ref/proc/file2text/file2text.md)    
+:   [shell proc](/ref/proc/shell/shell.md)    
 <!-- -->    
 **Format:**    
 :   text2file(Text,File)    

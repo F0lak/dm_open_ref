@@ -1,8 +1,8 @@
 []{#/sound/var/status}    
 ## status var (sound)    
 **See also:**    
-:   [vars (sound)](/ref/sound/var.md)    
-:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md)    
+:   [vars (sound)](/ref/sound/var/var.md)    
+:   [SoundQuery proc (client)](/ref/client/proc/SoundQuery/SoundQuery.md)    
 <!-- -->    
 **Default value:**    
 :   0    

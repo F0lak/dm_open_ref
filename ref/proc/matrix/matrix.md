@@ -1,8 +1,8 @@
 []{#/proc/matrix}    
 ## matrix proc {#matrix-proc byondver="500"}    
 **See also:**    
-:   [matrix](/ref/matrix.md)    
-:   [transform var (atom)](/ref/atom/var/transform.md)    
+:   [matrix](/ref/matrix/matrix.md)    
+:   [transform var (atom)](/ref/atom/var/transform/transform.md)    
 <!-- -->    
 **Format:**    
 :   matrix()    

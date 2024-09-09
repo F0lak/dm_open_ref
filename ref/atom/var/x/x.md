@@ -1,7 +1,7 @@
 []{#/atom/var/x}    
 ## x var (atom)    
 **See also:**    
-:   [loc var (atom)](/ref/atom/var/loc.md)    
+:   [loc var (atom)](/ref/atom/var/loc/loc.md)    
 <!-- -->    
 **Default value:**    
 :   The x coordinate of the object on the map.    

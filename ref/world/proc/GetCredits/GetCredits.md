@@ -1,8 +1,8 @@
 []{#/world/proc/GetCredits}    
 ## GetCredits proc (world) {#getcredits-proc-world byondver="503"}    
 **See also:**    
-:   [AddCredits proc (world)](/ref/world/proc/AddCredits.md)    
-:   [PayCredits proc (world)](/ref/world/proc/PayCredits.md)    
+:   [AddCredits proc (world)](/ref/world/proc/AddCredits/AddCredits.md)    
+:   [PayCredits proc (world)](/ref/world/proc/PayCredits/PayCredits.md)    
 <!-- -->    
 **Format:**    
 :   GetCredits(player)    

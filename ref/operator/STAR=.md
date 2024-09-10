@@ -1,0 +1,15 @@
+[]{#/STAR= operator.md}    
+## \*= operator    
+**See also:**    
+:   [\* operator]/operator/*    
+:   [+= operator]/operator/+=    
+:   [-= operator]/operator/-=    
+:   [/= operator]/operator//=    
+:   [= operator]/operator/=    
+:   [operators]/operator    
+<!-- -->    
+**Format:**    
+:   A \*= B    
+Set A equal to A \* B. It is shorthand for A = A \* B.    
+If A is an /icon, /matrix, or vector, it will be changed rather than    
+creating a new value and re-assigning it to A.  

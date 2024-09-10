@@ -1,4 +1,4 @@
-[]{#/{notes}/numbers}    
+[]{#/Numbers.md}/numbers}    
 ## Numbers    
 In DM, all numbers are stored in floating point format. Specifically,    
 single-precision (32-bit) floating point. This is important to know if    
@@ -28,7 +28,7 @@ get may not be 0. This is counterintuitive, because you might expect
 rounding errors to reverse themselves in the same order they crept in.    
 Unfortunately it doesn\'t work that way.    
 You can correct for rounding error somewhat by using the [`round`    
-proc](/ref/proc/round.md) to adjust the loop var each time, although for    
+proc]/proc/round to adjust the loop var each time, although for    
 performance reasons it might be preferable to find another alternative.    
 for(i = 0, i \< 100, i = round(i + 0.1, 0.1)) world \<\< i    
 Only fractions whose denominators are powers of 2 are immune to this    

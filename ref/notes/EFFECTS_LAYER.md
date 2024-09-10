@@ -1,17 +1,17 @@
-[]{#/{notes}/EFFECTS_LAYER}    
+[]{#/EFFECTS_LAYER.md}/EFFECTS_LAYER}    
 ## EFFECTS_LAYER    
 **See also:**    
-:   [layer var (atom)](/ref/atom/var/layer.md)    
-:   [plane var (atom)](/ref/atom/var/plane.md)    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
-:   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md)    
-:   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md)    
-:   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md)    
-:   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md)    
+:   [layer var (atom)]/atom/var/layer    
+:   [plane var (atom)]/atom/var/plane    
+:   [map_format var (world)]/world/var/map_format    
+:   [BACKGROUND_LAYER]/%7Bnotes%7D/BACKGROUND_LAYER    
+:   [TOPDOWN_LAYER]/%7Bnotes%7D/TOPDOWN_LAYER    
+:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [Understanding the renderer]/%7Bnotes%7D/renderer    
 This is mostly no longer needed. A negative value for plane is the    
 preferred way to do show objects in the background. It can still be used    
 however when you want to rearrange objects in the same plane when using    
-[PLANE_MASTER](/ref/atom/var/appearance_flags.md){.code} for visual effects.    
+[PLANE_MASTER]/atom/var/appearance_flags{.code} for visual effects.    
 `EFFECTS_LAYER` is a special high value that can be added to the regular    
 layer of any atom.    
 The purpose of this value is to make an atom appear above any regular    

@@ -1,11 +1,11 @@
-[]{#/{notes}/TOPDOWN_LAYER}    
+[]{#/TOPDOWN_LAYER.md}/TOPDOWN_LAYER}    
 ## TOPDOWN_LAYER    
 **See also:**    
-:   [layer var (atom)](/ref/atom/var/layer.md)    
-:   [map_format var (world)](/ref/world/var/map_format.md)    
-:   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md)    
-:   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md)    
-:   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md)    
+:   [layer var (atom)]/atom/var/layer    
+:   [map_format var (world)]/world/var/map_format    
+:   [BACKGROUND_LAYER]/%7Bnotes%7D/BACKGROUND_LAYER    
+:   [EFFECTS_LAYER]/%7Bnotes%7D/EFFECTS_LAYER    
+:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
 TOPDOWN_LAYER is a special high value that can be added to the regular    
 layer of any atom. This is only available when using a non-topdown    
 world.map_format, such as isometric mapping.    

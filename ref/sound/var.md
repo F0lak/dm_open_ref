@@ -1,0 +1,21 @@
+[]{#/vars (sound).md}    
+## vars (sound)    
+Built-in sound vars:    
+vars (sound).md    
+:   [file]/vars (sound.md/file)    
+:   [repeat]/vars (sound.md/repeat)    
+:   [wait]/vars (sound.md/wait)    
+:   [channel]/vars (sound.md/channel)    
+:   [volume]/vars (sound.md/volume)    
+:   [frequency]/vars (sound.md/frequency)    
+:   [len]/vars (sound.md/len)    
+:   [offset]/vars (sound.md/offset)    
+:   [pan]/vars (sound.md/pan)    
+:   [params]/vars (sound.md/params)    
+:   [pitch]/vars (sound.md/pitch)    
+:   [priority]/vars (sound.md/priority)    
+:   [status]/vars (sound.md/status)    
+:   [x, y, z]/vars (sound.md/xyz)    
+:   [falloff]/vars (sound.md/falloff)    
+:   [environment]/vars (sound.md/environment)    
+:   [echo]/vars (sound.md/echo)  

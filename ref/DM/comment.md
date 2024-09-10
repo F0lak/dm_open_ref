@@ -1,4 +1,4 @@
-[]{#/DM/comment}    
+[]{#/comment.md}    
 ## comment    
 Comments may be used to explain code. They can also be used to turn off    
 a line or block of code. All text inside a comment is ignored by the    

@@ -1,4 +1,3 @@
-[]{#/Isometric maps.md}/isometric toc="Isometric maps"}    
 ## Isometric maps    
 **See also:**    
 :   [map_format var (world)](/world/var/map_format)    

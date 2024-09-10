@@ -1,4 +1,3 @@
-[]{#/text var (regex).md}    
 ## text var (regex) {#text-var-regex byondver="510"}    
 **See also:**    
 :   [regex datum](/regex)    

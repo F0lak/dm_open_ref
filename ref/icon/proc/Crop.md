@@ -1,4 +1,3 @@
-[]{#/Crop proc (icon).md}    
 ## Crop proc (icon)    
 **See also:**    
 :   [icon](/icon)    

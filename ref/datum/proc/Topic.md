@@ -1,4 +1,3 @@
-[]{#/Topic proc (datum).md}    
 ## Topic proc (datum)    
 **See also:**    
 :   [Topic proc (client)](/client/proc/Topic)    

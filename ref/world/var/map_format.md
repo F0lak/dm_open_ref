@@ -1,4 +1,3 @@
-[]{#/map_format var (world).md}    
 ## map_format var (world)    
 **See also:**    
 :   [icon_size var (world)](/world/var/icon_size)    

@@ -1,4 +1,3 @@
-[]{#/appearance var (atom).md}    
 ## appearance var (atom) {#appearance-var-atom byondver="508"}    
 **See also:**    
 :   [vars (atom)](/atom/var)    

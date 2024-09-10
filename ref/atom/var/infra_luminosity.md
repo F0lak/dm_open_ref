@@ -1,4 +1,3 @@
-[]{#/infra_luminosity var (atom).md}    
 ## infra_luminosity var (atom)    
 **See also:**    
 :   [luminosity var (atom)](/atom/var/luminosity)    

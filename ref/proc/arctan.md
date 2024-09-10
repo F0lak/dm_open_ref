@@ -1,4 +1,3 @@
-[]{#/arctan proc.md}    
 ## arctan proc {#arctan-proc byondver="513"}    
 **See also:**    
 :   [arcsin proc](/proc/arcsin)    

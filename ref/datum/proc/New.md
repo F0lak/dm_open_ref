@@ -1,4 +1,3 @@
-[]{#/New proc (datum).md}    
 ## New proc (datum)    
 **See also:**    
 :   [New proc (atom)](/atom/proc/New)    

@@ -1,4 +1,3 @@
-[]{#/cmptextEx proc.md}    
 ## cmptextEx proc    
 **See also:**    
 :   [cmptext proc](/proc/cmptext)    

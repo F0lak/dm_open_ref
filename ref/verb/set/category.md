@@ -1,4 +1,3 @@
-[]{#/category setting (verb).md}    
 ## category setting (verb)    
 **See also:**    
 :   [default_verb_category var    

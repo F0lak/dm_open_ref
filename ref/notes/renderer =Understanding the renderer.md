@@ -1,4 +1,3 @@
-[]{#/Understanding the renderer.md}/renderer toc="Understanding the renderer"}    
 ## Understanding the renderer    
 To get the most out of BYOND\'s visual effects, it helps to understand    
 how the map is displayed.    

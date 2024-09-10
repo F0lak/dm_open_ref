@@ -1,4 +1,3 @@
-[]{#/Invert proc (matrix).md}    
 ## Invert proc (matrix)    
 **See also:**    
 :   [matrix](/matrix)    

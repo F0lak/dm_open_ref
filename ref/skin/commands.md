@@ -1,4 +1,3 @@
-[]{#/client commands.md}/commands}    
 ## client commands    
 Several commands can be executed on the client that are not verbs, but    
 instructions for Dream Seeker. Some of these commands have detailed    

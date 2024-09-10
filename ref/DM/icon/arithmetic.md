@@ -1,4 +1,3 @@
-[]{#/icon arithmetic.md}    
 ## icon arithmetic    
 **See also:**    
 :   [icon proc](/proc/icon)    

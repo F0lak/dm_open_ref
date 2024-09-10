@@ -1,4 +1,3 @@
-[]{#/size parameter (skin).md}/param/size}    
 ## size parameter (skin)    
 **See also:**    
 :   [pos parameter](/%7Bskin%7D/param/pos)    

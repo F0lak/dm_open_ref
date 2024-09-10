@@ -1,4 +1,3 @@
-[]{#/splittext proc.md}    
 ## splittext proc {#splittext-proc byondver="510"}    
 **See also:**    
 :   [findtext proc](/proc/findtext)    

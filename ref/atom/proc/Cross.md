@@ -1,4 +1,3 @@
-[]{#/Cross proc (atom).md}    
 ## Cross proc (atom) {#cross-proc-atom byondver="490"}    
 **See also:**    
 :   [Enter proc (atom)](/atom/proc/Enter)    

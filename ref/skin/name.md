@@ -1,4 +1,3 @@
-[]{#/name parameter (skin).md}/param/name}    
 ## name parameter (skin)    
 **See also:**    
 :   [macros (skin)](/%7Bskin%7D/macros)    

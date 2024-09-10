@@ -1,4 +1,3 @@
-[]{#/#warn directive.md}    
 ## #warn directive    
 **See also:**    
 :   [preprocessor](/DM/preprocessor)    

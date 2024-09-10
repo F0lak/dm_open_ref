@@ -1,4 +1,3 @@
-[]{#/Export proc (world).md}    
 ## Export proc (world)    
 **See also:**    
 :   [Export proc (client)](/client/proc/Export)    

@@ -1,4 +1,3 @@
-[]{#/NextRow proc (database query).md}    
 ## NextRow proc (database query) {#nextrow-proc-database-query byondver="506"}    
 **See also:**    
 :   [database datum](/database)    

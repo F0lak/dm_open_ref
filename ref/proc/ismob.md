@@ -1,4 +1,3 @@
-[]{#/ismob proc.md}    
 ## ismob proc    
 **See also:**    
 :   [isloc proc](/proc/isloc)    

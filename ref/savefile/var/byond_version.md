@@ -1,4 +1,3 @@
-[]{#/byond_version var (savefile).md}    
 ## byond_version var (savefile) {#byond_version-var-savefile byondver="515"}    
 **See also:**    
 :   [savefile](/savefile)    

@@ -1,4 +1,3 @@
-[]{#/Blend proc (icon).md}    
 ## Blend proc (icon)    
 **See also:**    
 :   [icon](/icon)    

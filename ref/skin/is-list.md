@@ -1,4 +1,3 @@
-[]{#/is-list parameter (skin).md}/param/is-list}    
 ## is-list parameter (skin)    
 **See also:**    
 :   [cells parameter](/%7Bskin%7D/param/cells)    

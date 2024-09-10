@@ -1,4 +1,3 @@
-[]{#/sight var (mob).md}    
 ## sight var (mob)    
 **See also:**    
 :   [invisibility setting (verb)](/verb/set/invisibility)    

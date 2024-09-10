@@ -1,4 +1,3 @@
-[]{#/Tick proc (world).md}    
 ## Tick proc (world) {#tick-proc-world byondver="515"}    
 **See also:**    
 :   [cpu var (world)](/world/var/cpu)    

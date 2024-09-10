@@ -1,4 +1,3 @@
-[]{#/parent_type var (obj).md}    
 ## parent_type var (obj)    
 **See also:**    
 :   [parent_type var](/datum/var/parent_type)    

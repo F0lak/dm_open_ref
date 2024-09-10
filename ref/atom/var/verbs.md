@@ -1,4 +1,3 @@
-[]{#/verbs list var (atom).md}    
 ## verbs list var (atom)    
 **See also:**    
 :   [list](/list)    

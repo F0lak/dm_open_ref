@@ -1,4 +1,3 @@
-[]{#/Big icons.md}/big-icons toc="Big icons"}    
 ## Big icons    
 **See also:**    
 :   [icon](/icon)    

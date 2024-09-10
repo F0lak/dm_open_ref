@@ -1,4 +1,3 @@
-[]{#/letterbox parameter (skin).md}/param/letterbox}    
 ## letterbox parameter (skin) {#letterbox-parameter-skin byondver="500"}    
 **See also:**    
 :   [view-size parameter](/%7Bskin%7D/param/view-size)    

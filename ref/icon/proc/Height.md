@@ -1,4 +1,3 @@
-[]{#/Height proc (icon).md}    
 ## Height proc (icon)    
 **See also:**    
 :   [icon](/icon)    

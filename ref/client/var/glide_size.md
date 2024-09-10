@@ -1,4 +1,3 @@
-[]{#/glide_size var (client).md}    
 ## glide_size var (client) {#glide_size-var-client byondver="490"}    
 **See also:**    
 :   [eye var (client)](/client/var/eye)    

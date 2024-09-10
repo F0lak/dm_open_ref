@@ -1,4 +1,3 @@
-[]{#/controls (skin).md}/control}    
 ## controls (skin)    
 **Control types:**    
 :   [Bar](/%7Bskin%7D/control/bar): A progress bar or slider    

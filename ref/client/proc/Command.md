@@ -1,4 +1,3 @@
-[]{#/Command proc (client).md}    
 ## Command proc (client)    
 **Format:**    
 :   Command(command as command_text)    

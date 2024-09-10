@@ -1,4 +1,3 @@
-[]{#/zoom parameter (skin).md}/param/zoom}    
 ## zoom parameter (skin)    
 **See also:**    
 :   [letterbox parameter](/%7Bskin%7D/param/letterbox)    

@@ -1,4 +1,3 @@
-[]{#/walk_rand proc.md}    
 ## walk_rand proc    
 **See also:**    
 :   [get_step_rand proc](/proc/get_step_rand)    

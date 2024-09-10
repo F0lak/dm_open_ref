@@ -1,4 +1,3 @@
-[]{#/Particle effects.md}/particles toc="Particle effects"}    
 ## Particle effects {#particle-effects byondver="514"}    
 **See also:**    
 :   [particles (movable atom var)](/atom/movable/var/particles)    

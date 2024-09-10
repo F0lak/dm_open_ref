@@ -1,4 +1,3 @@
-[]{#/popup_menu setting (verb).md}    
 ## popup_menu setting (verb)    
 **See also:**    
 :   [category setting (verb)](/verb/set/category)    

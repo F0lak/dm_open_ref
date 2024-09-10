@@ -1,4 +1,3 @@
-[]{#/group parameter (skin).md}/param/group}    
 ## group parameter (skin)    
 **See also:**    
 :   [button-type parameter](/%7Bskin%7D/param/button-type)    

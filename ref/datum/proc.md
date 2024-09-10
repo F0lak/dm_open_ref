@@ -1,4 +1,3 @@
-[]{#/procs (datum).md}    
 ## procs (datum)    
 Built-in datum procs:    
 procs (datum).md    

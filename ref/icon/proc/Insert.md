@@ -1,4 +1,3 @@
-[]{#/Insert proc (icon).md}    
 ## Insert proc (icon)    
 **See also:**    
 :   [procs (icon)](/icon/proc)    

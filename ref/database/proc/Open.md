@@ -1,4 +1,3 @@
-[]{#/Open proc (database).md}    
 ## Open proc (database) {#open-proc-database byondver="506"}    
 **See also:**    
 :   [database datum](/database)    

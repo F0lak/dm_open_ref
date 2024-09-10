@@ -1,4 +1,3 @@
-[]{#/nameof proc.md}    
 ## nameof proc {#nameof-proc byondver="515"}    
 **See also:**    
 :   [:: operator](/operator/::)    

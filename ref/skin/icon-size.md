@@ -1,4 +1,3 @@
-[]{#/icon-size parameter (skin).md}/param/icon-size}    
 ## icon-size parameter (skin) {#icon-size-parameter-skin deprecated="1"}    
 **See also:**    
 :   [zoom parameter](/%7Bskin%7D/param/zoom)    

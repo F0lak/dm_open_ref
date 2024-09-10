@@ -1,4 +1,3 @@
-[]{#/regex datum.md}    
 ## regex datum.md datum {#regex datum.md-datum byondver="510"}    
 **See also:**    
 :   [Regular expressions](/%7Bnotes%7D/regex datum.md)    

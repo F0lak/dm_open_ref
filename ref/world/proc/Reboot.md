@@ -1,4 +1,3 @@
-[]{#/Reboot proc (world).md}    
 ## Reboot proc (world)    
 **Format:**    
 :   Reboot(reason)    

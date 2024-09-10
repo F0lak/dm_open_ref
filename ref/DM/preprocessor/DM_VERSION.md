@@ -1,4 +1,3 @@
-[]{#/DM_VERSION macro.md}    
 ## DM_VERSION macro    
 **See also:**    
 :   [byond_version var (world)](/world/var/byond_version)    

@@ -1,4 +1,3 @@
-[]{#/Normalize proc (vector).md}    
 ## Normalize proc (vector) {#normalize-proc-vector byondver="516"}    
 **See also:**    
 :   [vector](/vector)    

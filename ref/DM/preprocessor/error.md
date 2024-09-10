@@ -1,4 +1,3 @@
-[]{#/#error directive.md}    
 ## #error directive    
 **See also:**    
 :   [preprocessor](/DM/preprocessor)    

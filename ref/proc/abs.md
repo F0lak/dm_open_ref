@@ -1,4 +1,3 @@
-[]{#/abs proc.md}    
 ## abs proc    
 **Format:**    
 :   abs(A)    

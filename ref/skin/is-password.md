@@ -1,4 +1,3 @@
-[]{#/is-password parameter (skin).md}/param/is-password}    
 ## is-password parameter (skin)    
 **See also:**    
 :   [command parameter](/%7Bskin%7D/param/command)    

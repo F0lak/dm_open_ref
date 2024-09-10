@@ -1,4 +1,3 @@
-[]{#/text2path proc.md}    
 ## text2path proc    
 **See also:**    
 :   [ispath proc](/proc/ispath)    

@@ -1,4 +1,3 @@
-[]{#/Join proc (list).md}    
 ## Join proc (list) {#join-proc-list byondver="510"}    
 **See also:**    
 :   [jointext proc](/proc/jointext)    

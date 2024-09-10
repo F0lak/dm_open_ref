@@ -1,4 +1,3 @@
-[]{#/suffix-color parameter (skin).md}/param/suffix-color}    
 ## suffix-color parameter (skin)    
 **See also:**    
 :   [text-color parameter](/%7Bskin%7D/param/text-color)    

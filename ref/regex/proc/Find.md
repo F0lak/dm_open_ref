@@ -1,4 +1,3 @@
-[]{#/Find proc (regex).md}    
 ## Find proc (regex) {#find-proc-regex byondver="510"}    
 **See also:**    
 :   [Regular expressions](/%7Bnotes%7D/regex)    

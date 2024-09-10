@@ -1,4 +1,3 @@
-[]{#/operator overloading.md}    
 ## operator overloading {#operator-overloading byondver="512" short="overloading"}    
 **See also:**    
 :   [datum](/datum)    

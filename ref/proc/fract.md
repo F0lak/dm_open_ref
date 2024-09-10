@@ -1,4 +1,3 @@
-[]{#/fract proc.md}    
 ## fract proc {#fract-proc byondver="515"}    
 **See also:**    
 :   [trunc proc](/proc/trunc)    

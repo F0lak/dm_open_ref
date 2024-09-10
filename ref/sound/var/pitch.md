@@ -1,4 +1,3 @@
-[]{#/pitch var (sound).md}    
 ## pitch var (sound) {#pitch-var-sound byondver="515"}    
 **See also:**    
 :   [vars (sound)](/sound/var)    

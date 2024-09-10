@@ -1,4 +1,3 @@
-[]{#/tab control (skin).md}/control/tab}    
 ## tab control (skin)    
 A tab control, where each tab holds a different    
 [pane](/%7Bskin%7D/control/main).    

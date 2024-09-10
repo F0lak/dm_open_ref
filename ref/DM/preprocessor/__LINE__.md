@@ -1,4 +1,3 @@
-[]{#/__LINE__ macro.md}    
 ## \_\_LINE\_\_ macro    
 **See also:**    
 :   [ASSERT proc](/proc/ASSERT)    

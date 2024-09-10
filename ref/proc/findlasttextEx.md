@@ -1,4 +1,3 @@
-[]{#/findlasttextEx proc.md}    
 ## findlasttextEx proc {#findlasttextex-proc byondver="510"}    
 **See also:**    
 :   [findtext proc](/proc/findtext)    

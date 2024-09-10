@@ -1,4 +1,3 @@
-[]{#/lazy_eye var (client).md}    
 ## lazy_eye var (client)    
 **See also:**    
 :   [view var (client)](/client/var/view)    

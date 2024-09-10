@@ -1,4 +1,3 @@
-[]{#/titlebar parameter (skin).md}/param/titlebar}    
 ## titlebar parameter (skin)    
 **See also:**    
 :   [can-close parameter](/%7Bskin%7D/param/can-close)    

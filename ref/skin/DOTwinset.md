@@ -1,4 +1,3 @@
-[]{#/DOTwinset (client command).md}/commands/.winset}    
 ## .winset (client command)    
 **See also:**    
 :   [winset proc](/proc/winset)    

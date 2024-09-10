@@ -1,4 +1,3 @@
-[]{#/startup proc.md}    
 ## startup proc    
 **See also:**    
 :   [params var (world)](/world/var/params)    

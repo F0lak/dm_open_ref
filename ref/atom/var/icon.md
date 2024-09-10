@@ -1,4 +1,3 @@
-[]{#/icon var (atom).md}    
 ## icon var (atom)    
 **See also:**    
 :   [icon proc](/proc/icon)    

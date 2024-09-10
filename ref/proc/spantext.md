@@ -1,4 +1,3 @@
-[]{#/spantext proc.md}    
 ## spantext proc {#spantext-proc byondver="510"}    
 **See also:**    
 :   [findtext proc](/proc/findtext)    

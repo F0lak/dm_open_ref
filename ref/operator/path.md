@@ -1,4 +1,3 @@
-[]{#/path operators.md}    
 ## path operators    
 **See also:**    
 :   [. path operator](/path operators.md/%2e)    

@@ -1,4 +1,3 @@
-[]{#/byond_version var (client).md}    
 ## byond_version var (client)    
 **See also:**    
 :   [DM_VERSION macro](/DM/preprocessor/DM_VERSION)    

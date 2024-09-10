@@ -1,4 +1,3 @@
-[]{#/Unicode.md}/Unicode}    
 ## Unicode {#unicode byondver="513"}    
 **See also:**    
 :   [text](/DM/text)    

@@ -1,4 +1,3 @@
-[]{#/Close proc (database query).md}    
 ## Close proc (database query) {#close-proc-database-query byondver="506"}    
 **See also:**    
 :   [database query datum](/database/query)    

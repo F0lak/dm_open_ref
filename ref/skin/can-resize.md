@@ -1,4 +1,3 @@
-[]{#/can-resize parameter (skin).md}/param/can-resize}    
 ## can-resize parameter (skin)    
 **See also:**    
 :   [on-size parameter](/%7Bskin%7D/param/on-size)    

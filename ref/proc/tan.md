@@ -1,4 +1,3 @@
-[]{#/tan proc.md}    
 ## tan proc {#tan-proc byondver="513"}    
 **See also:**    
 :   [arctan proc](/proc/arctan)    

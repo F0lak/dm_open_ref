@@ -1,4 +1,3 @@
-[]{#/procs.md}    
 ## procs.mds    
 **See also:**    
 :   [vars (procs.mds)](/procs.md/var)    

@@ -1,4 +1,3 @@
-[]{#/rand_seed proc.md}    
 ## rand_seed proc    
 **See also:**    
 :   [pick proc](/proc/pick)    

@@ -1,4 +1,3 @@
-[]{#/on-tab parameter (skin).md}/param/on-tab}    
 ## on-tab parameter (skin)    
 **See also:**    
 :   [current-tab parameter](/%7Bskin%7D/param/current-tab)    

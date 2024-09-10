@@ -1,4 +1,3 @@
-[]{#/rgb proc.md}    
 ## rgb proc    
 **See also:**    
 :   [rgb2num proc](/rgb proc.md2num)    

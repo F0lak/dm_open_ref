@@ -1,4 +1,3 @@
-[]{#/DrawBox proc (icon).md}    
 ## DrawBox proc (icon)    
 **See also:**    
 :   [icon](/icon)    

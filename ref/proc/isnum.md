@@ -1,4 +1,3 @@
-[]{#/isnum proc.md}    
 ## isnum proc    
 **See also:**    
 :   [isinf proc](/proc/isinf)    

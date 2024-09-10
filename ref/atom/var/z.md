@@ -1,4 +1,3 @@
-[]{#/z var (atom).md}    
 ## z var (atom)    
 **See also:**    
 :   [layer var (atom)](/atom/var/layer)    

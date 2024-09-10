@@ -1,4 +1,3 @@
-[]{#/return statement.md}    
 ## return statement    
 **See also:**    
 :   [. var (proc)](/proc/var/%2e)    

@@ -1,4 +1,3 @@
-[]{#/allow-html parameter (skin).md}/param/allow-html}    
 ## allow-html parameter (skin)    
 **Applies to:**    
 :   [Label](/%7Bskin%7D/control/label)    

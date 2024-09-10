@@ -1,4 +1,3 @@
-[]{#/flick proc.md}    
 ## flick proc    
 **See also:**    
 :   [icon_state var (atom)](/atom/var/icon_state)    

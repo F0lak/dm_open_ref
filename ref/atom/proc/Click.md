@@ -1,4 +1,3 @@
-[]{#/Click proc (atom).md}    
 ## Click proc (atom)    
 **See also:**    
 :   [Click proc (client)](/client/proc/Click)    

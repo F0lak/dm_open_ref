@@ -1,4 +1,3 @@
-[]{#/bound_height var (movable atom).md}    
 ## bound_height var (movable atom) {#bound_height-var-movable-atom byondver="490"}    
 **See also:**    
 :   [bound_x var (movable atom)](/atom/movable/var/bound_x)    

@@ -1,4 +1,3 @@
-[]{#/keep-aspect parameter (skin).md}/param/keep-aspect}    
 ## keep-aspect parameter (skin)    
 **See also:**    
 :   [image parameter](/%7Bskin%7D/param/image)    

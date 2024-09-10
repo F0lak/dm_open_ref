@@ -1,4 +1,3 @@
-[]{#/PIPE= operator.md}    
 ## \|= operator    
 **See also:**    
 :   [&= operator](/operator/&=)    

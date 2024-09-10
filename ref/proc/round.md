@@ -1,4 +1,3 @@
-[]{#/round proc.md}    
 ## round proc    
 **See also:**    
 :   [floor proc](/proc/floor)    

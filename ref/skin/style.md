@@ -1,4 +1,3 @@
-[]{#/style parameter (skin).md}/param/style}    
 ## style parameter (skin)    
 **Applies to:**    
 :   [Grid](/%7Bskin%7D/control/grid)    

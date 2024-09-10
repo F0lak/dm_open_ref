@@ -1,4 +1,3 @@
-[]{#/current-cell parameter (skin).md}/param/current-cell}    
 ## current-cell parameter (skin)    
 **See also:**    
 :   [cell-span parameter](/%7Bskin%7D/param/cell-span)    

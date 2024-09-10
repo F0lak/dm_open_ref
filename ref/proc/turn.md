@@ -1,4 +1,3 @@
-[]{#/turn proc.md}    
 ## turn proc    
 **See also:**    
 :   [Turn proc (icon)](/icon/proc/Turn)    

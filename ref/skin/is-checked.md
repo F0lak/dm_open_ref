@@ -1,4 +1,3 @@
-[]{#/is-checked parameter (skin).md}/param/is-checked}    
 ## is-checked parameter (skin)    
 **See also:**    
 :   [button-type parameter](/%7Bskin%7D/param/button-type)    

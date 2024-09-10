@@ -1,4 +1,3 @@
-[]{#/Motion blur filter.md}/filters/motion_blur toc="Motion blur (filters)"}    
 ## Motion blur filter {#motion-blur-filter byondver="512"}    
 **See also:**    
 :   [filters var (atom)](/atom/var/filters)    

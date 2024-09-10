@@ -1,4 +1,3 @@
-[]{#/ref proc.md}    
 ## ref proc    
 **See also:**    
 :   [\\ref text macro](/DM/text/macros/ref)    

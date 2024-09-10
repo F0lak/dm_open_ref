@@ -1,4 +1,3 @@
-[]{#/show-lines parameter (skin).md}/param/show-lines}    
 ## show-lines parameter (skin)    
 **See also:**    
 :   [line-color parameter](/%7Bskin%7D/param/line-color)    

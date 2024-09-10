@@ -1,4 +1,3 @@
-[]{#/for loop proc.md}    
 ## for loop proc    
 **See also:**    
 :   [break statement](/proc/break)    

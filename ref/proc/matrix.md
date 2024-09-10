@@ -1,4 +1,3 @@
-[]{#/matrix proc.md}    
 ## matrix proc {#matrix-proc byondver="500"}    
 **See also:**    
 :   [matrix](/matrix)    

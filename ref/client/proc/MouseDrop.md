@@ -1,4 +1,3 @@
-[]{#/MouseDrop proc (client).md}    
 ## MouseDrop proc (client)    
 **See also:**    
 :   [Click proc (client)](/client/proc/Click)    

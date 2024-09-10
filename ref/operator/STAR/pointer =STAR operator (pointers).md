@@ -1,4 +1,3 @@
-[]{#/STAR pointer operator.md}    
 ## \* pointer operator {#pointer-operator byondver="515"}    
 **See also:**    
 :   [& pointer operator](/operator/&/pointer)    

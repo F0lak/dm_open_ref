@@ -1,4 +1,3 @@
-[]{#/Bump proc (movable atom).md}    
 ## Bump proc (movable atom)    
 **See also:**    
 :   [Move proc (movable atom)](/atom/movable/proc/Move)    

@@ -1,4 +1,3 @@
-[]{#/Translate proc (matrix).md}    
 ## Translate proc (matrix)    
 **See also:**    
 :   [matrix](/matrix)    

@@ -1,4 +1,3 @@
-[]{#/waitfor setting (proc).md}    
 ## waitfor setting (proc)    
 **See also:**    
 :   [sleep proc](/proc/sleep)    

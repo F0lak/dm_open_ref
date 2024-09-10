@@ -1,4 +1,3 @@
-[]{#/QMARK operator.md}    
 ## ? operator    
 **See also:**    
 :   [operators](/operator)    

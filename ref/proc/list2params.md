@@ -1,4 +1,3 @@
-[]{#/list2params proc.md}    
 ## list2params proc    
 **See also:**    
 :   [Topic proc (client)](/client/proc/Topic)    

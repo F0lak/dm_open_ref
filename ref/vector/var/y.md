@@ -1,4 +1,3 @@
-[]{#/y var (vector).md}    
 ## y var (vector) {#y-var-vector byondver="516"}    
 **See also:**    
 :   [vector](/vector)    

@@ -1,4 +1,3 @@
-[]{#/locs list var (movable atom).md}    
 ## locs list var (movable atom) {#locs-list-var-movable-atom byondver="490"}    
 **See also:**    
 :   [bound_x var (movable atom)](/atom/movable/var/bound_x)    

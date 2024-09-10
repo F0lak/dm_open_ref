@@ -1,4 +1,3 @@
-[]{#/browse_rsc proc.md}    
 ## browse_rsc proc    
 **See also:**    
 :   [browse proc](/proc/browse)    

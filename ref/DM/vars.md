@@ -1,4 +1,3 @@
-[]{#/vars list var (global).md}    
 ## vars list var (global) {#vars-list-var-global byondver="512"}    
 **See also:**    
 :   [vars list var (datum)](/datum/var/vars)    

@@ -1,4 +1,3 @@
-[]{#/contents list var (atom).md}    
 ## contents list var (atom)    
 **See also:**    
 :   [Enter proc (atom)](/atom/proc/Enter)    

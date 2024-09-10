@@ -1,4 +1,3 @@
-[]{#/log var (world).md}    
 ## log var (world)    
 **See also:**    
 :   [file proc](/proc/file)    

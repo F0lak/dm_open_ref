@@ -1,4 +1,3 @@
-[]{#/appearance_flags var (atom).md}    
 ## appearance_flags var (atom) {#appearance_flags-var-atom byondver="509"}    
 **See also:**    
 :   [vars (atom)](/atom/var)    

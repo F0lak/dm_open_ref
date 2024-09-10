@@ -1,4 +1,3 @@
-[]{#/text.md}    
 ## text    
 **See also:**    
 :   [\<\< output operator](/operator/%3c%3c/output)    

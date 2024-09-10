@@ -1,4 +1,3 @@
-[]{#/timezone var (world).md}    
 ## timezone var (world) {#timezone-var-world byondver="514"}    
 **See also:**    
 :   [realtime var (world)](/world/var/realtime)    

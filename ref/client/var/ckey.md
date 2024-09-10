@@ -1,4 +1,3 @@
-[]{#/ckey var (client).md}    
 ## ckey var (client)    
 **See also:**    
 :   [ckey proc](/proc/ckey)    

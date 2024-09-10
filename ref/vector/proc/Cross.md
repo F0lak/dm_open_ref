@@ -1,4 +1,3 @@
-[]{#/Cross proc (vector).md}    
 ## Cross proc (vector) {#cross-proc-vector byondver="516"}    
 **See also:**    
 :   [vector](/vector)    

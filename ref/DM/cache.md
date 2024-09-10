@@ -1,4 +1,3 @@
-[]{#/cache.md}    
 ## cache    
 **See also:**    
 :   [FILE_DIR definition](/DM/preprocessor/define/FILE_DIR)    

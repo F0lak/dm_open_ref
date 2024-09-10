@@ -1,4 +1,3 @@
-[]{#/typesof proc.md}    
 ## typesof proc    
 **See also:**    
 :   [istype proc](/proc/istype)    

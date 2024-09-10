@@ -1,4 +1,3 @@
-[]{#/density var (atom).md}    
 ## density var (atom)    
 **See also:**    
 :   [Enter proc (atom)](/atom/proc/Enter)    

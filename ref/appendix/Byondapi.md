@@ -1,4 +1,3 @@
-[]{#/Byondapi.md}}/Byondapi}    
 ## Byondapi {#byondapi byondver="515"}    
 **See also:**    
 :   [call_ext() proc](/proc/call_ext)    

@@ -1,4 +1,3 @@
-[]{#/hascall proc.md}    
 ## hascall proc    
 **See also:**    
 :   [call proc](/proc/call)    

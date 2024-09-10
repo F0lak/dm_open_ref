@@ -1,4 +1,3 @@
-[]{#/isinf proc.md}    
 ## isinf proc {#isinf-proc byondver="515"}    
 **See also:**    
 :   [isnum proc](/proc/isnum)    

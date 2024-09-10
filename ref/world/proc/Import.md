@@ -1,4 +1,3 @@
-[]{#/Import proc (world).md}    
 ## Import proc (world)    
 **See also:**    
 :   [Export proc (world)](/world/proc/Export)    

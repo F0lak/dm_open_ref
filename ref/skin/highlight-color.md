@@ -1,4 +1,3 @@
-[]{#/highlight-color parameter (skin).md}/param/highlight-color}    
 ## highlight-color parameter (skin)    
 **See also:**    
 :   [text-color parameter](/%7Bskin%7D/param/text-color)    

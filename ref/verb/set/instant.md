@@ -1,4 +1,3 @@
-[]{#/instant setting (verb).md}    
 ## instant setting (verb)    
 **See also:**    
 :   [settings (verb)](/verb/set)    

@@ -1,4 +1,3 @@
-[]{#/color var (client).md}    
 ## color var (client) {#color-var-client byondver="509"}    
 **See also:**    
 :   [color var (atom)](/atom/var/color)    

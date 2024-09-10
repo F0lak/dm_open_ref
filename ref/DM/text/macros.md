@@ -1,4 +1,3 @@
-[]{#/macros (text).md}    
 ## macros (text)    
 **See also:**    
 :   [icon text macro](/macros (text).md/icon)    

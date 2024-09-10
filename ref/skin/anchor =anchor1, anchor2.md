@@ -1,4 +1,3 @@
-[]{#/anchor1, anchor2 parameters (skin).md}/param/anchor toc="anchor1, anchor2"}    
 ## anchor1, anchor2 parameters (skin)    
 **See also:**    
 :   [pos parameter](/%7Bskin%7D/param/pos)    

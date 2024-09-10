@@ -1,4 +1,3 @@
-[]{#/vars (obj).md}    
 ## vars (obj)    
 Built-in obj vars:    
 vars (obj).md    

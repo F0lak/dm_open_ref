@@ -1,4 +1,3 @@
-[]{#/rooms.md}    
 ## rooms    
 Areas that are not located on the map are referred to as *rooms*. When a    
 player enters one, the map goes away and you have something like a text    

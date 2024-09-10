@@ -1,4 +1,3 @@
-[]{#/ClearMedal proc (world).md}    
 ## ClearMedal proc (world)    
 **See also:**    
 :   [GetMedal proc (world)](/world/proc/GetMedal)    

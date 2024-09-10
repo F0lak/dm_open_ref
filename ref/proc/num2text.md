@@ -1,4 +1,3 @@
-[]{#/num2text proc.md}    
 ## num2text proc    
 **See also:**    
 :   [isnum proc](/proc/isnum)    

@@ -1,4 +1,3 @@
-[]{#/arguments (verb).md}    
 ## arguments (verb)    
 **See also:**    
 :   [argument expanding](/arguments (verb).md/expanding)    

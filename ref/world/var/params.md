@@ -1,4 +1,3 @@
-[]{#/params var (world).md}    
 ## params var (world)    
 **See also:**    
 :   [list associations](/list/associations)    

@@ -1,4 +1,3 @@
-[]{#/background setting (proc).md}    
 ## background setting (proc)    
 **See also:**    
 :   [sleep proc](/proc/sleep)    

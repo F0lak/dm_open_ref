@@ -1,4 +1,3 @@
-[]{#/global vars.md}    
 ## global vars    
 **See also:**    
 :   [vars](/var)    

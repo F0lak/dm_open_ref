@@ -1,4 +1,3 @@
-[]{#/procs (mob).md}    
 ## procs (mob)    
 Built-in mob procs:    
 procs (mob).md    

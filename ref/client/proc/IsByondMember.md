@@ -1,4 +1,3 @@
-[]{#/IsByondMember proc (client).md}    
 ## IsByondMember proc (client)    
 **Format:**    
 :   IsByondMember()    

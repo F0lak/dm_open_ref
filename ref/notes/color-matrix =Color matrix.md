@@ -1,4 +1,3 @@
-[]{#/Color matrix.md}/color-matrix toc="Color matrix"}    
 ## Color matrix {#color-matrix byondver="509"}    
 **See also:**    
 :   [color var (atom)](/atom/var/color)    

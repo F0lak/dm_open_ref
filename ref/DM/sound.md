@@ -1,4 +1,3 @@
-[]{#/sounds.md}    
 ## sounds    
 **See also:**    
 :   [FILE_DIR definition](/DM/preprocessor/define/FILE_DIR)    

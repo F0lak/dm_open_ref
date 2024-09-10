@@ -1,4 +1,3 @@
-[]{#/COLON path operator.md}    
 ## : path operator    
 **See also:**    
 :   [. path operator](/operator/path/%2e)    

@@ -1,4 +1,3 @@
-[]{#/__IMPLIED_TYPE__ macro.md}    
 ## \_\_IMPLIED_TYPE\_\_ macro {#implied_type__-macro byondver="515"}    
 **See also:**    
 :   [\_\_FILE\_\_ macro](/DM/preprocessor/__FILE__)    

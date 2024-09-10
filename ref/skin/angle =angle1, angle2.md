@@ -1,4 +1,3 @@
-[]{#/angle1, angle2 parameters (skin).md}/param/angle toc="angle1, angle2"}    
 ## angle1, angle2 parameters (skin)    
 **See also:**    
 :   [dir parameter](/%7Bskin%7D/param/dir)    

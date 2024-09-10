@@ -1,4 +1,3 @@
-[]{#/Topic proc (world).md}    
 ## Topic proc (world)    
 **See also:**    
 :   [Del proc (world)](/world/proc/Del)    

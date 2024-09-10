@@ -1,4 +1,3 @@
-[]{#/type var (datum).md}    
 ## type var (datum)    
 **Default value:**    
 :   The \"type path\" of the object definition.    

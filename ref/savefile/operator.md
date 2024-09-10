@@ -1,4 +1,3 @@
-[]{#/operators (savefile).md}    
 ## operators (savefile)    
 Built-in savefile operators:    
 operators (savefile).md    

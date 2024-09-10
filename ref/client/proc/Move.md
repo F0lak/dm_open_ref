@@ -1,4 +1,3 @@
-[]{#/Move proc (client).md}    
 ## Move proc (client)    
 **See also:**    
 :   [East proc (client)](/client/proc/East)    

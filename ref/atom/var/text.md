@@ -1,4 +1,3 @@
-[]{#/text var (atom).md}    
 ## text var (atom)    
 **Default value:**    
 :   The first letter of the object\'s name.    

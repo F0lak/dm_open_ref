@@ -1,4 +1,3 @@
-[]{#/suffix var (atom).md}    
 ## suffix var (atom)    
 **Default value:**    
 :   null    

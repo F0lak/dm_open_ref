@@ -1,4 +1,3 @@
-[]{#/time2text proc.md}    
 ## time2text proc    
 **See also:**    
 :   [realtime var (world)](/world/var/realtime)    

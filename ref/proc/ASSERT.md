@@ -1,4 +1,3 @@
-[]{#/ASSERT proc.md}    
 ## ASSERT proc    
 **See also:**    
 :   [CRASH proc](/proc/CRASH)    

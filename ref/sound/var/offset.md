@@ -1,4 +1,3 @@
-[]{#/offset var (sound).md}    
 ## offset var (sound) {#offset-var-sound byondver="513"}    
 **See also:**    
 :   [vars (sound)](/sound/var)    

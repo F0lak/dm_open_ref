@@ -1,4 +1,3 @@
-[]{#/Interpolate proc (vector).md}    
 ## Interpolate proc (vector) {#interpolate-proc-vector byondver="516"}    
 **See also:**    
 :   [vector](/vector)    

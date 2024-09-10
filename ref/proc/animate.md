@@ -1,4 +1,3 @@
-[]{#/animate proc.md}    
 ## animate proc {#animate-proc byondver="500"}    
 ::: sidebar    
 ### Useful terms in this article:    

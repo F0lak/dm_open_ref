@@ -1,4 +1,3 @@
-[]{#/world.md}    
 ## world.md    
 **See also:**    
 :   [procs (world.md)](/world.md/proc)    

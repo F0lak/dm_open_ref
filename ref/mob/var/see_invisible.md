@@ -1,4 +1,3 @@
-[]{#/see_invisible var (mob).md}    
 ## see_invisible var (mob)    
 **See also:**    
 :   [invisibility var (atom)](/atom/var/invisibility)    

@@ -1,4 +1,3 @@
-[]{#/byond_version var (world).md}    
 ## byond_version var (world)    
 **See also:**    
 :   [DM_VERSION macro](/DM/preprocessor/DM_VERSION)    

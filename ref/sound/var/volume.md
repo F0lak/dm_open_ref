@@ -1,4 +1,3 @@
-[]{#/volume var (sound).md}    
 ## volume var (sound)    
 **See also:**    
 :   [sound proc](/proc/sound)    

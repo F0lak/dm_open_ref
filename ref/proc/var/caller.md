@@ -1,4 +1,3 @@
-[]{#/caller var (proc).md}    
 ## caller var (proc) {#caller-var-proc byondver="516"}    
 **See also:**    
 :   [callee](/callee)    

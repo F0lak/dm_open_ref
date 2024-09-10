@@ -1,4 +1,3 @@
-[]{#/luminosity var (atom).md}    
 ## luminosity var (atom)    
 **Default value:**    
 :   0    

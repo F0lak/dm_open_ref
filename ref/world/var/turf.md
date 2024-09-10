@@ -1,4 +1,3 @@
-[]{#/turf var (world).md}    
 ## turf var (world)    
 **Default value:**    
 :   /turf.    

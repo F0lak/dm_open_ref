@@ -1,4 +1,3 @@
-[]{#/sin proc.md}    
 ## sin proc    
 **See also:**    
 :   [arcsin proc](/proc/arcsin)    

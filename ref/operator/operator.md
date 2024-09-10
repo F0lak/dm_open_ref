@@ -1,4 +1,3 @@
-[]{#/operators.md}    
 ## operators.mds    
 **See also:**    
 :   [operators.md overloading](/operators.md/overload)    

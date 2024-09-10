@@ -1,4 +1,3 @@
-[]{#/aliases (client script).md}    
 ## aliases (client script)    
 **See also:**    
 :   [macros (client script)](/client/var/script/macro)    

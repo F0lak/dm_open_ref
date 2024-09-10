@@ -1,4 +1,3 @@
-[]{#/isturf proc.md}    
 ## isturf proc    
 **See also:**    
 :   [isloc proc](/proc/isloc)    

@@ -1,4 +1,3 @@
-[]{#/render_target var (atom).md}    
 ## render_target var (atom)    
 **See also:**    
 :   [render_source var (atom)](/atom/var/render_source)    

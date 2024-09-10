@@ -1,4 +1,3 @@
-[]{#/SetIntensity proc (icon).md}    
 ## SetIntensity proc (icon)    
 **See also:**    
 :   [icon](/icon)    

@@ -1,4 +1,3 @@
-[]{#/map control (skin).md}/control/map}    
 ## map control (skin)    
 A map that will display icons from the game.    
 **Map-specific parameters:**    

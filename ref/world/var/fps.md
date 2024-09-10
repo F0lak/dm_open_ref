@@ -1,4 +1,3 @@
-[]{#/fps var (world).md}    
 ## fps var (world) {#fps-var-world byondver="490"}    
 **See also:**    
 :   [tick_lag var (world)](/world/var/tick_lag)    

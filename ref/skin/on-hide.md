@@ -1,4 +1,3 @@
-[]{#/on-hide parameter (skin).md}/param/on-hide}    
 ## on-hide parameter (skin)    
 **See also:**    
 :   [on-show parameter](/%7Bskin%7D/param/on-show)    

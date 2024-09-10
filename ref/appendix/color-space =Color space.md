@@ -1,4 +1,3 @@
-[]{#/Color space.md}}/color-space toc="Color space"}    
 ## Color space    
 **See also:**    
 :   [rgb proc](/proc/rgb)    

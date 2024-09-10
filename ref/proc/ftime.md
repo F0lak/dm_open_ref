@@ -1,4 +1,3 @@
-[]{#/ftime proc.md}    
 ## ftime proc    
 **See also:**    
 :   [time2text proc](/proc/time2text)    

@@ -1,4 +1,3 @@
-[]{#/browser control (skin).md}/control/browser}    
 ## browser control (skin)    
 A browser panel integrated into the skin.    
 **Browser-specific parameters:**    

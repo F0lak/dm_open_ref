@@ -1,4 +1,3 @@
-[]{#/macro parameter (skin).md}/param/macro}    
 ## macro parameter (skin)    
 **See also:**    
 :   [Keyboard/gamepad macros](/%7Bskin%7D/menu)    

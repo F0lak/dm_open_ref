@@ -1,4 +1,3 @@
-[]{#/ascii2text proc.md}    
 ## ascii2text proc    
 **See also:**    
 :   [entities (text)](/DM/text/entities)    

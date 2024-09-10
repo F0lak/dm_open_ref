@@ -1,4 +1,3 @@
-[]{#/SetConfig proc (world).md}    
 ## SetConfig proc (world)    
 **See also:**    
 :   [GetConfig proc (world)](/world/proc/GetConfig)    

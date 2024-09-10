@@ -1,4 +1,3 @@
-[]{#/parent_type var (area).md}    
 ## parent_type var (area)    
 **See also:**    
 :   [parent_type var](/datum/var/parent_type)    

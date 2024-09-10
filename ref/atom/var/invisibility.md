@@ -1,4 +1,3 @@
-[]{#/invisibility var (atom).md}    
 ## invisibility var (atom)    
 **See also:**    
 :   [invisibility setting (verb)](/verb/set/invisibility)    

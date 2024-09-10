@@ -36,6 +36,7 @@ def write_file(text, file_name):
   
 def clean_empty_lines(text):
 	lines = text.splitlines()
+	lines.remove(lines[0])
 	non_empty_lines = [line for line in lines if line.strip()]
 	text = "  \n".join(line + "  " for line in non_empty_lines)
 

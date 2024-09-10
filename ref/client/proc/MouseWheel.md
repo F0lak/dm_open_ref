@@ -1,4 +1,3 @@
-[]{#/MouseWheel proc (client).md}    
 ## MouseWheel proc (client) {#mousewheel-proc-client byondver="508"}    
 **See also:**    
 :   [Click proc (client)](/client/proc/Click)    

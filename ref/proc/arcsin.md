@@ -1,4 +1,3 @@
-[]{#/arcsin proc.md}    
 ## arcsin proc    
 **See also:**    
 :   [arccos proc](/proc/arccos)    

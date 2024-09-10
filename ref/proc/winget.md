@@ -1,4 +1,3 @@
-[]{#/winget proc.md}    
 ## winget proc    
 **See also:**    
 :   [winexists proc](/proc/winexists)    

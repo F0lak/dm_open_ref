@@ -1,4 +1,3 @@
-[]{#/jointext proc.md}    
 ## jointext proc {#jointext-proc byondver="510"}    
 **See also:**    
 :   [splittext proc](/proc/splittext)    

@@ -1,4 +1,3 @@
-[]{#/Center proc (client).md}    
 ## Center proc (client)    
 **See also:**    
 :   [walk proc](/proc/walk)    

@@ -1,4 +1,3 @@
-[]{#/tag var (datum).md}    
 ## tag var (datum)    
 **See also:**    
 :   [locate proc](/proc/locate)    

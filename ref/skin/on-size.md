@@ -1,4 +1,3 @@
-[]{#/on-size parameter (skin).md}/param/on-size}    
 ## on-size parameter (skin) {#on-size-parameter-skin byondver="482"}    
 **See also:**    
 :   [size parameter](/%7Bskin%7D/param/size)    

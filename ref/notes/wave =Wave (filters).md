@@ -1,4 +1,3 @@
-[]{#/Wave filter.md}/filters/wave toc="Wave (filters)"}    
 ## Wave filter {#wave-filter byondver="512"}    
 **See also:**    
 :   [Ripple (filters)](/%7Bnotes%7D/filters/ripple)    

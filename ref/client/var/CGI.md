@@ -1,4 +1,3 @@
-[]{#/CGI var (client).md}    
 ## CGI var (client)    
 In CGI mode, DreamDaemon is normally being executed by a web server and    
 accessed by a web browser. The CGI object is an add-on to the basic    

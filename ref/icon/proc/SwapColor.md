@@ -1,4 +1,3 @@
-[]{#/SwapColor proc (icon).md}    
 ## SwapColor proc (icon)    
 **See also:**    
 :   [icon](/icon)    

@@ -1,4 +1,3 @@
-[]{#/Flip proc (icon).md}    
 ## Flip proc (icon)    
 **See also:**    
 :   [Turn proc (icon)](/icon/proc/Turn)    

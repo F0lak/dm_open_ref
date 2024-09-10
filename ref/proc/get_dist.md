@@ -1,4 +1,3 @@
-[]{#/get_dist proc.md}    
 ## get_dist proc    
 **See also:**    
 :   [bounds_dist proc](/proc/bounds_dist)    

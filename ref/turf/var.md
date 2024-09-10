@@ -1,4 +1,3 @@
-[]{#/vars (turf).md}    
 ## vars (turf)    
 Built-in turf vars:    
 vars (turf).md    

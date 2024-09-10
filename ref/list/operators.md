@@ -1,4 +1,3 @@
-[]{#/list operators.md}    
 ## list operators {#list-operators short="operators"}    
 These operators are used for accessing list items.    
 [\[\] operator](/operator/%5B%5D)    

@@ -1,4 +1,3 @@
-[]{#/copytext proc.md}    
 ## copytext proc    
 **See also:**    
 :   [splicetext proc](/proc/splicetext)    

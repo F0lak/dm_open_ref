@@ -1,4 +1,3 @@
-[]{#/Add proc (matrix).md}    
 ## Add proc (matrix)    
 **See also:**    
 :   [matrix](/matrix)    

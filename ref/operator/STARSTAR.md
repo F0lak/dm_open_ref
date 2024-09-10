@@ -1,4 +1,3 @@
-[]{#/STARSTAR operator.md}    
 ## \*\* operator    
 **See also:**    
 :   [log proc](/proc/log)    

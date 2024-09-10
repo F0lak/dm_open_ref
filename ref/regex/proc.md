@@ -1,4 +1,3 @@
-[]{#/regex procs.md}    
 ## regex procs {#regex-procs byondver="510"}    
 **See also:**    
 :   [regex datum](/regex)    

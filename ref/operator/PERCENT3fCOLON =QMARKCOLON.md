@@ -1,4 +1,3 @@
-[]{#/QMARKCOLON operator.md}    
 ## ?: operator {#operator byondver="512"}    
 **See also:**    
 :   [. operator](/operator/%2e)    

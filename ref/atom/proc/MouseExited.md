@@ -1,4 +1,3 @@
-[]{#/MouseExited proc (atom).md}    
 ## MouseExited proc (atom)    
 **See also:**    
 :   [Click proc (atom)](/atom/proc/Click)    

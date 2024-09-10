@@ -1,4 +1,3 @@
-[]{#/Reset proc (database query).md}    
 ## Reset proc (database query) {#reset-proc-database-query byondver="506"}    
 **See also:**    
 :   [database datum](/database)    

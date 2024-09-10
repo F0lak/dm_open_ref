@@ -1,4 +1,3 @@
-[]{#/HTML colors.md}}/html-colors toc="HTML colors"}    
 ## HTML colors    
 **See also:**    
 :   [rgb proc](/proc/rgb)    

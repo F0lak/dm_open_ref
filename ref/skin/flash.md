@@ -1,4 +1,3 @@
-[]{#/flash parameter (skin).md}/param/flash}    
 ## flash parameter (skin)    
 **Applies to:**    
 :   [Main](/%7Bskin%7D/control/main) (window only)    

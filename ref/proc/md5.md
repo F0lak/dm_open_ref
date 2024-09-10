@@ -1,4 +1,3 @@
-[]{#/md5 proc.md}    
 ## md5 proc    
 **See also:**    
 :   [sha1 proc](/proc/sha1)    

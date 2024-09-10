@@ -1,4 +1,3 @@
-[]{#/vars (datum).md}    
 ## vars (datum)    
 Built-in datum vars:    
 vars (datum).md    

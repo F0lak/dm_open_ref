@@ -1,4 +1,3 @@
-[]{#/winset and winget (JavaScript).md}/control/browser/winset}    
 ## winset and winget (JavaScript)    
 **See also:**    
 :   [browser control (skin)](/%7Bskin%7D/control/browser)    

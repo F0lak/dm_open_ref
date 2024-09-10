@@ -1,4 +1,3 @@
-[]{#/eof var (savefile).md}    
 ## eof var (savefile)    
 If there is more data to read in the current buffer, eof is 0; otherwise    
 it is 1. Setting eof to 1 moves to the end of the buffer and 0 moves to    

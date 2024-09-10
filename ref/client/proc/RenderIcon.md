@@ -1,4 +1,3 @@
-[]{#/RenderIcon proc (client).md}    
 ## RenderIcon proc (client) {#rendericon-proc-client byondver="515"}    
 **See also:**    
 :   [vis_contents var (atom)](/atom/var/vis_contents)    

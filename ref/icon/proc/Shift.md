@@ -1,4 +1,3 @@
-[]{#/Shift proc (icon).md}    
 ## Shift proc (icon)    
 **See also:**    
 :   [dir var (atom)](/atom/var/dir)    

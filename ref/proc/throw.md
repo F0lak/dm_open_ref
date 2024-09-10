@@ -1,4 +1,3 @@
-[]{#/throw statement.md}    
 ## throw statement    
 **See also:**    
 :   [try statement](/proc/try)    

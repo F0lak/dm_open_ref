@@ -1,4 +1,3 @@
-[]{#/style sheets.md}    
 ## style sheets    
 **See also:**    
 :   [CSS attributes](/%7B%7Bappendix%7D%7D/css)    

@@ -1,4 +1,3 @@
-[]{#/falloff var (sound).md}    
 ## falloff var (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

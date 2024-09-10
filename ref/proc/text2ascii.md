@@ -1,4 +1,3 @@
-[]{#/text2ascii proc.md}    
 ## text2ascii proc    
 **See also:**    
 :   [ascii2text proc](/proc/ascii2text)    

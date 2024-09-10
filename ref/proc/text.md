@@ -1,4 +1,3 @@
-[]{#/text proc.md}    
 ## text proc    
 **See also:**    
 :   [\<\< operator](/operator/%3c%3c)    

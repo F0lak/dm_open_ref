@@ -1,4 +1,3 @@
-[]{#/gender var (client).md}    
 ## gender var (client)    
 **See also:**    
 :   [New proc (client)](/client/proc/New)    

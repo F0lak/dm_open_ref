@@ -1,4 +1,3 @@
-[]{#/on-change parameter (skin).md}/param/on-change}    
 ## on-change parameter (skin)    
 **See also:**    
 :   [value parameter](/%7Bskin%7D/param/value)    

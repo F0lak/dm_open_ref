@@ -1,4 +1,3 @@
-[]{#/ref text macro.md}    
 ## ref text macro {#ref-text-macro byondver="513"}    
 **See also:**    
 :   [Topic proc (client)](/client/proc/Topic)    

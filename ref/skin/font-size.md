@@ -1,4 +1,3 @@
-[]{#/font-size parameter (skin).md}/param/font-size}    
 ## font-size parameter (skin)    
 **See also:**    
 :   [font-family parameter](/%7Bskin%7D/param/font-family)    

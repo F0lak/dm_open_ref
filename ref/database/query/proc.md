@@ -1,4 +1,3 @@
-[]{#/procs (database query).md}    
 ## procs (database query) {#procs-database-query byondver="506"}    
 **See also:**    
 :   [database datum](/database)    

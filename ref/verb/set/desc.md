@@ -1,4 +1,3 @@
-[]{#/desc setting (verb).md}    
 ## desc setting (verb)    
 **Format:**    
 :   set desc = \"Description\"    

@@ -1,4 +1,3 @@
-[]{#/group var (regex).md}    
 ## group var (regex) {#group-var-regex byondver="510"}    
 **See also:**    
 :   [regex datum](/regex)    

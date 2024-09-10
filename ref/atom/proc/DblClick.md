@@ -1,4 +1,3 @@
-[]{#/DblClick proc (atom).md}    
 ## DblClick proc (atom)    
 **See also:**    
 :   [Click proc (atom)](/atom/proc/Click)    

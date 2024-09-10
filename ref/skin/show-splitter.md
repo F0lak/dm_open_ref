@@ -1,4 +1,3 @@
-[]{#/show-splitter parameter (skin).md}/param/show-splitter}    
 ## show-splitter parameter (skin)    
 **See also:**    
 :   [left parameter](/%7Bskin%7D/param/left)    

@@ -1,4 +1,3 @@
-[]{#/align parameter (skin).md}/param/align}    
 ## align parameter (skin)    
 **See also:**    
 :   [allow-html parameter](/%7Bskin%7D/param/allow-html)    

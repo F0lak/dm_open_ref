@@ -1,4 +1,3 @@
-[]{#/name setting (verb).md}    
 ## name setting (verb)    
 **Format:**    
 :   set name = \"Name\"    

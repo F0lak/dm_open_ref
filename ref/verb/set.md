@@ -1,4 +1,3 @@
-[]{#/settings (verb).md}    
 ## settings (verb)    
 verb settings:    
     settings (verb).md    

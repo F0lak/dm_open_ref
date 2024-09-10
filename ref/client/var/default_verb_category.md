@@ -1,4 +1,3 @@
-[]{#/default_verb_category var (client).md}    
 ## default_verb_category var (client)    
 **See also:**    
 :   [category setting (verb)](/verb/set/category)    

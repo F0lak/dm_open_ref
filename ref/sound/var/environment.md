@@ -1,4 +1,3 @@
-[]{#/environment var (sound).md}    
 ## environment var (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

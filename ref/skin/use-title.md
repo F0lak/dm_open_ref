@@ -1,4 +1,3 @@
-[]{#/use-title parameter (skin).md}/param/use-title}    
 ## use-title parameter (skin)    
 **See also:**    
 :   [show-history parameter](/%7Bskin%7D/param/show-history)    

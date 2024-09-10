@@ -1,4 +1,3 @@
-[]{#/shutdown proc.md}    
 ## shutdown proc    
 **See also:**    
 :   [Export proc (world)](/world/proc/Export)    

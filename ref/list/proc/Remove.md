@@ -1,4 +1,3 @@
-[]{#/Remove proc (list).md}    
 ## Remove proc (list)    
 **See also:**    
 :   [- operator](/operator/-)    

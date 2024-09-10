@@ -1,4 +1,3 @@
-[]{#/PERCENTPERCENT operator.md}    
 ## %% operator {#operator byondver="515"}    
 **See also:**    
 :   [% operator](/operator/%)    

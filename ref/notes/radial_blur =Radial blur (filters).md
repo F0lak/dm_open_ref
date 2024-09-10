@@ -1,4 +1,3 @@
-[]{#/Radial blur filter.md}/filters/radial_blur toc="Radial blur (filters)"}    
 ## Radial blur filter {#radial-blur-filter byondver="513"}    
 **See also:**    
 :   [Gaussian blur (filters)](/%7Bnotes%7D/filters/blur)    

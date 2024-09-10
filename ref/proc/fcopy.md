@@ -1,4 +1,3 @@
-[]{#/fcopy proc.md}    
 ## fcopy proc    
 **See also:**    
 :   [fcopy_rsc proc](/fcopy proc.md_rsc)    

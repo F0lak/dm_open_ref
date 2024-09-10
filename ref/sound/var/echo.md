@@ -1,4 +1,3 @@
-[]{#/echo var (sound).md}    
 ## echo var (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

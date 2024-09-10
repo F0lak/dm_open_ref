@@ -1,4 +1,3 @@
-[]{#/screen-pos parameter (skin).md}/param/screen-pos}    
 ## screen-pos parameter (skin) {#screen-pos-parameter-skin byondver="515"}    
 **See also:**    
 :   [pos parameter](/%7Bskin%7D/param/pos)    

@@ -1,4 +1,3 @@
-[]{#/&gt;&gt; input operator.md}    
 ## \>\> input operator    
 **See also:**    
 :   [\>\> operator (savefile)](/savefile/operator/%3e%3e)    

@@ -1,4 +1,3 @@
-[]{#/drop-zone parameter (skin).md}/param/drop-zone}    
 ## drop-zone parameter (skin)    
 **See also:**    
 :   [mouse handling](/DM/mouse)    

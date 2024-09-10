@@ -1,4 +1,3 @@
-[]{#/stddefDOTdm file.md}}/stddef%2edm toc="stddef.dm file"}    
 ## stddef.dm file    
 This is a special file that\'s included in all projects when you    
 compile. It contains various constants, definitions of some built-in    

@@ -1,4 +1,3 @@
-[]{#/url_encode proc.md}    
 ## url_encode proc    
 **See also:**    
 :   [url_decode proc](/proc/url_decode)    

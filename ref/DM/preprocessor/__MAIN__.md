@@ -1,4 +1,3 @@
-[]{#/__MAIN__ macro.md}    
 ## \_\_MAIN\_\_ macro    
 **See also:**    
 :   [preprocessor](/DM/preprocessor)    

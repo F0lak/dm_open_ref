@@ -1,4 +1,3 @@
-[]{#/is-visible parameter (skin).md}/param/is-visible}    
 ## is-visible parameter (skin)    
 **See also:**    
 :   [is-disabled parameter](/%7Bskin%7D/param/is-disabled)    

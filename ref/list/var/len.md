@@ -1,4 +1,3 @@
-[]{#/len var (list).md}    
 ## len var (list)    
 **See also:**    
 :   [+ operator](/operator/+)    

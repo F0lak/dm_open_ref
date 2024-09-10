@@ -1,4 +1,3 @@
-[]{#/status var (world).md}    
 ## status var (world)    
 **See also:**    
 :   [hub var (world)](/world/var/hub)    

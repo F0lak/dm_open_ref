@@ -1,4 +1,3 @@
-[]{#/winset proc.md}    
 ## winset proc    
 **See also:**    
 :   [winclone proc](/proc/winclone)    

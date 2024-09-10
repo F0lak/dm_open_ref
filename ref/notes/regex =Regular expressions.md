@@ -1,4 +1,3 @@
-[]{#/Regular expressions.md}/regex toc="Regular expressions"}    
 ## Regular expressions    
 **See also:**    
 :   [regex datum](/regex)    

@@ -1,4 +1,3 @@
-[]{#/tick_lag var (client).md}    
 ## tick_lag var (client) {#tick_lag-var-client byondver="511"}    
 **See also:**    
 :   [tick_lag var (world)](/world/var/tick_lag)    

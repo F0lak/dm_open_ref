@@ -1,4 +1,3 @@
-[]{#/is-minimized parameter (skin).md}/param/is-minimized}    
 ## is-minimized parameter (skin)    
 **See also:**    
 :   [can-resize parameter](/%7Bskin%7D/param/can-resize)    

@@ -1,4 +1,3 @@
-[]{#/Gliding.md}/gliding toc="Gliding"}    
 ## Gliding    
 **See also:**    
 :   [Pixel movement](/%7Bnotes%7D/pixel-movement)    

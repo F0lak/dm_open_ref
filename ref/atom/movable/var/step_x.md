@@ -1,4 +1,3 @@
-[]{#/step_x var (movable atom).md}    
 ## step_x var (movable atom) {#step_x-var-movable-atom byondver="490"}    
 **See also:**    
 :   [step_y var (movable atom)](/atom/movable/var/step_y)    

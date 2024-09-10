@@ -1,4 +1,3 @@
-[]{#/x var (atom).md}    
 ## x var (atom)    
 **See also:**    
 :   [loc var (atom)](/atom/var/loc)    

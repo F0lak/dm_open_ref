@@ -1,4 +1,3 @@
-[]{#/lentext proc.md}    
 ## lentext proc {#lentext-proc deprecated="1"}    
 **See also:**    
 :   [length proc](/proc/length)    

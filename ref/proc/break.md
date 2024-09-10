@@ -1,4 +1,3 @@
-[]{#/break statement.md}    
 ## break statement    
 **See also:**    
 :   [continue statement](/proc/continue)    

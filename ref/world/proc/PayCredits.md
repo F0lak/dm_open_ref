@@ -1,4 +1,3 @@
-[]{#/PayCredits proc (world).md}    
 ## PayCredits proc (world) {#paycredits-proc-world byondver="503"}    
 **See also:**    
 :   [AddCredits proc (world)](/world/proc/AddCredits)    

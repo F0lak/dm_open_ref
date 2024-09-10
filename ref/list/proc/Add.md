@@ -1,4 +1,3 @@
-[]{#/Add proc (list).md}    
 ## Add proc (list)    
 **See also:**    
 :   [+ operator](/operator/+)    

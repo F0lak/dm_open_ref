@@ -1,4 +1,3 @@
-[]{#/html_decode proc.md}    
 ## html_decode proc    
 **See also:**    
 :   [html_encode proc](/proc/html_encode)    

@@ -1,4 +1,3 @@
-[]{#/url var (world).md}    
 ## url var (world)    
 **See also:**    
 :   [address var (world)](/world/var/address)    

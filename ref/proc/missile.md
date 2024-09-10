@@ -1,4 +1,3 @@
-[]{#/missile proc.md}    
 ## missile proc    
 **Format:**    
 :   missile(Type, Start, End)    

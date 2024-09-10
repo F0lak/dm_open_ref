@@ -1,4 +1,3 @@
-[]{#/screen-size parameter (skin).md}/param/screen-size}    
 ## screen-size parameter (skin) {#screen-size-parameter-skin byondver="515"}    
 **See also:**    
 :   [size parameter](/%7Bskin%7D/param/size)    

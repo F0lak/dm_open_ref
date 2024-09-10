@@ -1,4 +1,3 @@
-[]{#/can-check parameter (skin).md}/param/can-check}    
 ## can-check parameter (skin)    
 **See also:**    
 :   [group parameter](/%7Bskin%7D/param/group)    

@@ -1,4 +1,3 @@
-[]{#/vars (movable atoms).md}    
 ## vars (movable atoms)    
 Built-in movement vars:    
 vars (movable atoms).md    

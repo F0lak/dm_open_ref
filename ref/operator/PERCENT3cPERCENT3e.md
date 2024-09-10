@@ -1,4 +1,3 @@
-[]{#/&lt;&gt; operator.md}    
 ## \<\> operator    
 **See also:**    
 :   [!= operator](/operator/!=)    

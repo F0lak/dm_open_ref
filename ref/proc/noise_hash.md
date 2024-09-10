@@ -1,4 +1,3 @@
-[]{#/noise_hash proc.md}    
 ## noise_hash proc {#noise_hash-proc byondver="515"}    
 **See also:**    
 :   [rand proc](/proc/rand)    

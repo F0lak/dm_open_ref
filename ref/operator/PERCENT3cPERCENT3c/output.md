@@ -1,4 +1,3 @@
-[]{#/&lt;&lt; output operator.md}    
 ## \<\< output operator    
 **See also:**    
 :   [\<\< operator (savefile)](/savefile/operator/%3c%3c)    

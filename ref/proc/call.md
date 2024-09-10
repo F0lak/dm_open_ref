@@ -1,4 +1,3 @@
-[]{#/call proc.md}    
 ## call proc    
 **See also:**    
 :   [arglist proc](/proc/arglist)    

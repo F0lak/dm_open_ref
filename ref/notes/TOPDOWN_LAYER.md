@@ -1,4 +1,3 @@
-[]{#/TOPDOWN_LAYER.md}/TOPDOWN_LAYER}    
 ## TOPDOWN_LAYER    
 **See also:**    
 :   [layer var (atom)](/atom/var/layer)    

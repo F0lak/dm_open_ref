@@ -1,4 +1,3 @@
-[]{#/Color matrix filter.md}/filters/color toc="Color matrix (filters)"}    
 ## Color matrix filter {#color-matrix-filter byondver="513"}    
 **See also:**    
 :   [color var (atom)](/atom/var/color)    

@@ -1,4 +1,3 @@
-[]{#/DM language details.md}    
 ## DM language details.md language details    
 The DM language details.md (Dream Maker) language uses a syntax similar to C/C++ to build    
 networked multi-user worlds. This reference and the accompanying guide    

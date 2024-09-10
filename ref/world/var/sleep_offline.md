@@ -1,4 +1,3 @@
-[]{#/sleep_offline var (world).md}    
 ## sleep_offline var (world)    
 **Default value:**    
 :   0    

@@ -1,4 +1,3 @@
-[]{#/icon_states proc.md}    
 ## icon_states proc    
 **See also:**    
 :   [icons](/DM/icon)    

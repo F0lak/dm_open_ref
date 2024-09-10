@@ -1,4 +1,3 @@
-[]{#/dir list var (savefile).md}    
 ## dir list var (savefile)    
 **See also:**    
 :   [list](/list)    

@@ -1,4 +1,3 @@
-[]{#/Read proc (datum).md}    
 ## Read proc (datum)    
 **See also:**    
 :   [\>\> operator (savefile)](/savefile/operator/%3e%3e)    

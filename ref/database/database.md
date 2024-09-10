@@ -1,4 +1,3 @@
-[]{#/database datum.md}    
 ## database datum.md datum {#database datum.md-datum byondver="506"}    
 **See also:**    
 :   [database datum.md query datum](/database datum.md/query)    

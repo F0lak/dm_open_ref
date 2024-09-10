@@ -1,4 +1,3 @@
-[]{#/inner-size parameter (skin).md}/param/inner-size}    
 ## inner-size parameter (skin) {#inner-size-parameter-skin byondver="513"}    
 **See also:**    
 :   [size parameter](/%7Bskin%7D/param/size)    

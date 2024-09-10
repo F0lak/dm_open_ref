@@ -1,4 +1,3 @@
-[]{#/pixel_z var (client).md}    
 ## pixel_z var (client)    
 **See also:**    
 :   [glide_size var (client)](/client/var/glide_size)    

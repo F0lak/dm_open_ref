@@ -1,4 +1,3 @@
-[]{#/isicon proc.md}    
 ## isicon proc    
 **See also:**    
 :   [cache](/DM/cache)    

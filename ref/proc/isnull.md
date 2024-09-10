@@ -1,4 +1,3 @@
-[]{#/isnull proc.md}    
 ## isnull proc    
 **See also:**    
 :   [null](/DM/null)    

@@ -1,4 +1,3 @@
-[]{#/Rays filter.md}/filters/rays toc="Rays (filters)"}    
 ## Rays filter {#rays-filter byondver="513"}    
 Format:    
 :   filter(type=\"rays\", \...)    

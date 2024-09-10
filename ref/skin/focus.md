@@ -1,4 +1,3 @@
-[]{#/focus parameter (skin).md}/param/focus}    
 ## focus parameter (skin)    
 **See also:**    
 :   [id parameter](/%7Bskin%7D/param/id)    

@@ -1,4 +1,3 @@
-[]{#/entities (text).md}    
 ## entities (text)    
 **See also:**    
 :   [macros (text)](/DM/text/macros)    

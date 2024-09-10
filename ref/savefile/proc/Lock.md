@@ -1,4 +1,3 @@
-[]{#/Lock proc (savefile).md}    
 ## Lock proc (savefile)    
 **See also:**    
 :   [New proc (savefile)](/savefile/proc/New)    

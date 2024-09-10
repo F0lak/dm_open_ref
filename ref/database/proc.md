@@ -1,4 +1,3 @@
-[]{#/procs (database).md}    
 ## procs (database) {#procs-database byondver="506"}    
 **See also:**    
 :   [database datum](/database)    

@@ -1,4 +1,3 @@
-[]{#/executor var (world).md}    
 ## executor var (world)    
 **See also:**    
 :   [startup proc](/proc/startup)    

@@ -1,4 +1,3 @@
-[]{#/images var (client).md}    
 ## images var (client)    
 **See also:**    
 :   [image objects](/image)    

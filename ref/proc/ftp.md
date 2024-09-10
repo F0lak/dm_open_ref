@@ -1,4 +1,3 @@
-[]{#/ftp proc.md}    
 ## ftp proc    
 **See also:**    
 :   [\<\< output operator](/operator/%3c%3c/output)    

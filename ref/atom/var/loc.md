@@ -1,4 +1,3 @@
-[]{#/loc var (atom).md}    
 ## loc var (atom)    
 **See also:**    
 :   [contents list var (atom)](/atom/var/contents)    

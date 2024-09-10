@@ -1,4 +1,3 @@
-[]{#/connection var (client).md}    
 ## connection var (client) {#connection-var-client byondver="487"}    
 This is a read-only var describing the type of client that is connected.    
 **Possible values:**    

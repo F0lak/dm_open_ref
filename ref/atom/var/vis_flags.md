@@ -1,4 +1,3 @@
-[]{#/vis_flags var (atom).md}    
 ## vis_flags var (atom) {#vis_flags-var-atom byondver="513"}    
 **See also:**    
 :   [vis_contents var (atom)](/atom/var/vis_contents)    

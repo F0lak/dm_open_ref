@@ -1,4 +1,3 @@
-[]{#/New proc (world).md}    
 ## New proc (world)    
 **Format:**    
 :   New()    

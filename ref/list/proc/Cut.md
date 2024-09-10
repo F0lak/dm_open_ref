@@ -1,4 +1,3 @@
-[]{#/Cut proc (list).md}    
 ## Cut proc (list)    
 **See also:**    
 :   [Copy proc (list)](/list/proc/Copy)    

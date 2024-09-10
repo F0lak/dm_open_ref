@@ -1,4 +1,3 @@
-[]{#/image-mode parameter (skin).md}/param/image-mode}    
 ## image-mode parameter (skin)    
 **See also:**    
 :   [image parameter](/%7Bskin%7D/param/image)    

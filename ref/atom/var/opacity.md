@@ -1,4 +1,3 @@
-[]{#/opacity var (atom).md}    
 ## opacity var (atom)    
 **Default value:**    
 :   0    

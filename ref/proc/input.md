@@ -1,4 +1,3 @@
-[]{#/input proc.md}    
 ## input proc    
 **See also:**    
 :   [alert proc](/proc/alert)    

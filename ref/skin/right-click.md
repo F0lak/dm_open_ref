@@ -1,4 +1,3 @@
-[]{#/right-click parameter (skin).md}/param/right-click}    
 ## right-click parameter (skin)    
 **See also:**    
 :   [mouse handling](/DM/mose)    

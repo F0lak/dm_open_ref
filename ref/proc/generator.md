@@ -1,4 +1,3 @@
-[]{#/generator proc.md}    
 ## generator proc {#generator-proc byondver="514"}    
 **See also:**    
 :   [Generators](/%7Bnotes%7D/generators)    

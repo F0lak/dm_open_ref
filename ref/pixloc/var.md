@@ -1,4 +1,3 @@
-[]{#/vars (pixloc).md}    
 ## vars (pixloc) {#vars-pixloc byondver="516"}    
 **See also:**    
 :   [pixloc](/pixloc)    

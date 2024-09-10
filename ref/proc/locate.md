@@ -1,4 +1,3 @@
-[]{#/locate proc.md}    
 ## locate proc    
 **See also:**    
 :   [istype proc](/proc/istype)    

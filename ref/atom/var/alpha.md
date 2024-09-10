@@ -1,4 +1,3 @@
-[]{#/alpha var (atom).md}    
 ## alpha var (atom) {#alpha-var-atom byondver="500"}    
 **See also:**    
 :   [vars (atom)](/atom/var)    

@@ -1,4 +1,3 @@
-[]{#/nonspantext proc.md}    
 ## nonspantext proc {#nonspantext-proc byondver="510"}    
 **See also:**    
 :   [findtext proc](/proc/findtext)    

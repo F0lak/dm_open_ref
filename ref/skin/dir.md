@@ -1,4 +1,3 @@
-[]{#/dir parameter (skin).md}/param/dir}    
 ## dir parameter (skin)    
 **See also:**    
 :   [value parameter](/%7Bskin%7D/param/angle)    

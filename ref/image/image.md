@@ -1,4 +1,3 @@
-[]{#/image objects.md}    
 ## image objects.md objects    
 **See also:**    
 :   [icon var (atom)](/atom/var/icon)    

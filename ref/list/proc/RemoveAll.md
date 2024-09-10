@@ -1,4 +1,3 @@
-[]{#/RemoveAll proc (list).md}    
 ## RemoveAll proc (list) {#removeall-proc-list byondver="515"}    
 **See also:**    
 :   [Add proc (list)](/list/proc/Add)    

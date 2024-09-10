@@ -1,4 +1,3 @@
-[]{#/Tiled icons.md}/tiled-icons toc="Tiled icons"}    
 ## Tiled icons    
 **See also:**    
 :   [icon](/icon)    

@@ -1,4 +1,3 @@
-[]{#/named arguments (proc).md}    
 ## named arguments (proc)    
 **See also:**    
 :   [New proc (atom)](/atom/proc/New)    

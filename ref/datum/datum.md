@@ -1,4 +1,3 @@
-[]{#/datum.md}    
 ## datum.md    
 **See also:**    
 :   [atom](/atom)    

@@ -1,4 +1,3 @@
-[]{#/id parameter (skin).md}/param/id}    
 ## id parameter (skin)    
 **See also:**    
 :   [parent parameter](/%7Bskin%7D/param/parent)    

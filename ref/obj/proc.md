@@ -1,4 +1,3 @@
-[]{#/procs (obj).md}    
 ## procs (obj)    
 Built-in obj procs:    
 procs (obj).md    

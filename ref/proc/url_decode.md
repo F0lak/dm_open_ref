@@ -1,4 +1,3 @@
-[]{#/url_decode proc.md}    
 ## url_decode proc    
 **See also:**    
 :   [Topic proc (client)](/client/proc/Topic)    

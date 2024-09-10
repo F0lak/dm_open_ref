@@ -1,4 +1,3 @@
-[]{#/Scale proc (icon).md}    
 ## Scale proc (icon)    
 **See also:**    
 :   [icon](/icon)    

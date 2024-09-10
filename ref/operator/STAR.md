@@ -1,4 +1,3 @@
-[]{#/STAR operator.md}    
 ## \* operator    
 **See also:**    
 :   [\*= operator](/STAR operator.md=)    

@@ -1,4 +1,3 @@
-[]{#/reachable var (world).md}    
 ## reachable var (world) {#reachable-var-world byondver="502"}    
 **See also:**    
 :   [port var (world)](/world/var/port)    

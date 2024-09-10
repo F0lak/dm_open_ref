@@ -1,4 +1,3 @@
-[]{#/GetCredits proc (world).md}    
 ## GetCredits proc (world) {#getcredits-proc-world byondver="503"}    
 **See also:**    
 :   [AddCredits proc (world)](/world/proc/AddCredits)    

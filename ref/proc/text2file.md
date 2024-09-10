@@ -1,4 +1,3 @@
-[]{#/text2file proc.md}    
 ## text2file proc    
 **See also:**    
 :   [file2text proc](/proc/file2text)    

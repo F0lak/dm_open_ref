@@ -1,4 +1,3 @@
-[]{#/Multiply proc (matrix).md}    
 ## Multiply proc (matrix)    
 **See also:**    
 :   [matrix](/matrix)    

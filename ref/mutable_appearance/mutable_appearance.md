@@ -1,4 +1,3 @@
-[]{#/mutable appearance.md}    
 ## mutable appearance {#mutable-appearance byondver="511"}    
 **See also:**    
 :   [appearance var (atom)](/atom/var/appearance)    

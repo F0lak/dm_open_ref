@@ -1,4 +1,3 @@
-[]{#/GetMedal proc (world).md}    
 ## GetMedal proc (world)    
 **See also:**    
 :   [SetMedal proc (world)](/world/proc/SetMedal)    

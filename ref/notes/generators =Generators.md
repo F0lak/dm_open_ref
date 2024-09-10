@@ -1,4 +1,3 @@
-[]{#/Generators.md}/generators toc="Generators"}    
 ## Generators {#generators byondver="514"}    
 **See also:**    
 :   [Particle effects](/%7Bnotes%7D/particles)    

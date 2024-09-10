@@ -1,4 +1,3 @@
-[]{#/PIPEPIPE= operator.md}    
 ## \|\|= operator {#operator byondver="514"}    
 **See also:**    
 :   [\|\| operator](/operator/%7C%7C)    

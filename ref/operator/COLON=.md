@@ -1,4 +1,3 @@
-[]{#/COLON= operator.md}    
 ## := operator {#operator byondver="514"}    
 **See also:**    
 :   [= operator](/operator/=)    

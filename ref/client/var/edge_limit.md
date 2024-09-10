@@ -1,4 +1,3 @@
-[]{#/edge_limit var (client).md}    
 ## edge_limit var (client)    
 **See also:**    
 :   [eye var (client)](/client/var/eye)    

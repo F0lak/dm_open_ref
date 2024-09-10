@@ -1,4 +1,3 @@
-[]{#/__PROC__ macro.md}    
 ## \_\_PROC\_\_ macro {#proc__-macro byondver="515"}    
 **See also:**    
 :   [\_\_FILE\_\_ macro](/DM/preprocessor/__FILE__)    

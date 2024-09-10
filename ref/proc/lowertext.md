@@ -1,4 +1,3 @@
-[]{#/lowertext proc.md}    
 ## lowertext proc    
 **See also:**    
 :   [uppertext proc](/proc/uppertext)    

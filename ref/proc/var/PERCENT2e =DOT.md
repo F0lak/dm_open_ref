@@ -1,4 +1,3 @@
-[]{#/DOT var (proc).md}    
 ## . var (proc)    
 **See also:**    
 :   [return statement](/proc/return)    

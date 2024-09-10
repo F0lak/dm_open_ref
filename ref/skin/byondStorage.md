@@ -1,4 +1,3 @@
-[]{#/byondStorage (browser control).md}/control/browser/byondStorage}    
 ## byondStorage (browser control)    
 **See also:**    
 :   [browser control (skin)](/%7Bskin%7D/control/browser)    

@@ -1,4 +1,3 @@
-[]{#/can-close parameter (skin).md}/param/can-close}    
 ## can-close parameter (skin)    
 **See also:**    
 :   [on-close parameter](/%7Bskin%7D/param/on-close)    

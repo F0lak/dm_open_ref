@@ -1,4 +1,3 @@
-[]{#/IconStates proc (icon).md}    
 ## IconStates proc (icon)    
 **See also:**    
 :   [icon](/icon)    

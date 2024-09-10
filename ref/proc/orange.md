@@ -1,4 +1,3 @@
-[]{#/orange proc.md}    
 ## orange proc    
 **See also:**    
 :   [\<\< output operator](/operator/%3c%3c/output)    

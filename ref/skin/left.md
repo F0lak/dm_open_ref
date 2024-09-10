@@ -1,4 +1,3 @@
-[]{#/left, top parameters (skin).md}/param/left}    
 ## left, top parameters (skin)    
 **See also:**    
 :   [right parameter](/%7Bskin%7D/param/right)    

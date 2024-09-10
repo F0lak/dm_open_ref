@@ -1,4 +1,3 @@
-[]{#/json_decode proc.md}    
 ## json_decode proc {#json_decode-proc byondver="510"}    
 **See also:**    
 :   [json_encode proc](/proc/json_encode)    

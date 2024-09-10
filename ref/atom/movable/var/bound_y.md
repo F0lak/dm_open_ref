@@ -1,4 +1,3 @@
-[]{#/bound_y var (movable atom).md}    
 ## bound_y var (movable atom) {#bound_y-var-movable-atom byondver="490" deprecated="516"}    
 **See also:**    
 :   [icon_z var (atom)](/atom/var/icon_z)    

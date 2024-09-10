@@ -1,4 +1,3 @@
-[]{#/procs (client).md}    
 ## procs (client)    
 Built-in client procs:    
 procs (client).md    

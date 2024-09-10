@@ -1,4 +1,3 @@
-[]{#/while proc.md}    
 ## while proc    
 **See also:**    
 :   [break statement](/proc/break)    

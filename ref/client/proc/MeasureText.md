@@ -1,4 +1,3 @@
-[]{#/MeasureText proc (client).md}    
 ## MeasureText proc (client) {#measuretext-proc-client byondver="513"}    
 **See also:**    
 :   [maptext var (atom)](/atom/var/maptext)    

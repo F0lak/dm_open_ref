@@ -1,4 +1,3 @@
-[]{#/GetPixel proc (icon).md}    
 ## GetPixel proc (icon)    
 **See also:**    
 :   [icon](/icon)    

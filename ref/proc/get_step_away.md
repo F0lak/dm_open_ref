@@ -1,4 +1,3 @@
-[]{#/get_step_away proc.md}    
 ## get_step_away proc    
 **See also:**    
 :   [step_away proc](/proc/step_away)    

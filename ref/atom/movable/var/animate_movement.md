@@ -1,4 +1,3 @@
-[]{#/animate_movement var (movable atoms).md}    
 ## animate_movement var (movable atoms)    
 **See also:**    
 :   [Move proc (movable atom)](/atom/movable/proc/Move)    

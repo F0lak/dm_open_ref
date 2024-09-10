@@ -1,4 +1,3 @@
-[]{#/BACKGROUND_LAYER.md}/BACKGROUND_LAYER}    
 ## BACKGROUND_LAYER    
 **See also:**    
 :   [layer var (atom)](/atom/var/layer)    

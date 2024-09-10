@@ -1,4 +1,3 @@
-[]{#/title parameter (skin).md}/param/title}    
 ## title parameter (skin)    
 **See also:**    
 :   [name var (world)](/world/var/name)    

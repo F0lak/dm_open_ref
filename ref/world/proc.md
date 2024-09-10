@@ -1,4 +1,3 @@
-[]{#/procs (world).md}    
 ## procs (world)    
 Built-in world procs:    
 procs (world).md    

@@ -1,4 +1,3 @@
-[]{#/sqrt proc.md}    
 ## sqrt proc    
 **Format:**    
 :   sqrt(A)    

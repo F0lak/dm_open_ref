@@ -1,4 +1,3 @@
-[]{#/transform var (atom).md}    
 ## transform var (atom) {#transform-var-atom byondver="500"}    
 **See also:**    
 :   [vars (atom)](/atom/var)    

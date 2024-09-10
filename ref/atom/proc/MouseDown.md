@@ -1,4 +1,3 @@
-[]{#/MouseDown proc (atom).md}    
 ## MouseDown proc (atom)    
 **See also:**    
 :   [Click proc (atom)](/atom/proc/Click)    

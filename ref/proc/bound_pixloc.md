@@ -1,4 +1,3 @@
-[]{#/bound_pixloc proc.md}    
 ## bound_pixloc proc {#bound_pixloc-proc byondver="516"}    
 **See also:**    
 :   [pixloc](/pixloc)    

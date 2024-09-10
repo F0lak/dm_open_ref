@@ -1,4 +1,3 @@
-[]{#/vars (sound).md}    
 ## vars (sound)    
 Built-in sound vars:    
 vars (sound).md    

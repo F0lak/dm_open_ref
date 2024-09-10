@@ -1,4 +1,3 @@
-[]{#/isarea proc.md}    
 ## isarea proc    
 **See also:**    
 :   [isloc proc](/proc/isloc)    

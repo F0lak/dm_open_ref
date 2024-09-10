@@ -1,4 +1,3 @@
-[]{#/show-history parameter (skin).md}/param/show-history}    
 ## show-history parameter (skin)    
 **See also:**    
 :   [show-url parameter](/%7Bskin%7D/param/show-url)    

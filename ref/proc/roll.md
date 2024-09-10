@@ -1,4 +1,3 @@
-[]{#/roll proc.md}    
 ## roll proc    
 **See also:**    
 :   [rand proc](/proc/rand)    

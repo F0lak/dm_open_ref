@@ -1,4 +1,3 @@
-[]{#/on-blur parameter (skin).md}/param/on-blur}    
 ## on-blur parameter (skin)    
 **See also:**    
 :   [focus parameter](/%7Bskin%7D/param/focus)    

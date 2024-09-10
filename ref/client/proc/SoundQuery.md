@@ -1,4 +1,3 @@
-[]{#/SoundQuery proc (client).md}    
 ## SoundQuery proc (client) {#soundquery-proc-client byondver="513"}    
 **See also:**    
 :   [/sound datum](/sound)    

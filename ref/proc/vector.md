@@ -1,4 +1,3 @@
-[]{#/vector proc.md}    
 ## vector proc {#vector-proc byondver="516"}    
 **See also:**    
 :   [vector](/vector)    

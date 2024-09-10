@@ -1,4 +1,3 @@
-[]{#/maxz var (world).md}    
 ## maxz var (world)    
 **See also:**    
 :   [area var (world)](/world/var/area)    

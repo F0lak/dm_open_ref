@@ -1,4 +1,3 @@
-[]{#/#pragma warn_ignore_error directive.md}    
 ## #pragma warn/ignore/error directive {#pragma-warnignoreerror-directive byondver="515"}    
 **See also:**    
 :   [#pragma directive](/DM/preprocessor/pragma)    

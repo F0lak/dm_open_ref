@@ -1,4 +1,3 @@
-[]{#/vars (mutable appearance).md}    
 ## vars (mutable appearance) {#vars-mutable-appearance byondver="511"}    
 Built-in mutable appearance vars:    
 mob/var    

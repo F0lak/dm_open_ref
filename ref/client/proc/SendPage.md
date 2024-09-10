@@ -1,4 +1,3 @@
-[]{#/SendPage proc (client).md}    
 ## SendPage proc (client)    
 **Format:**    
 :   SendPage(msg,recipient,options)    

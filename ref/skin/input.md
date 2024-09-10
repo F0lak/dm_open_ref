@@ -1,4 +1,3 @@
-[]{#/input control (skin).md}/control/input}    
 ## input control (skin)    
 A text box into which the user can type. By default this is used for    
 sending [client commands](/%7Bskin%7D/commands), but it can be used for    

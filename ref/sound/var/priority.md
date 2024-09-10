@@ -1,4 +1,3 @@
-[]{#/priority var (sound).md}    
 ## priority var (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

@@ -1,4 +1,3 @@
-[]{#/MouseMove proc (client).md}    
 ## MouseMove proc (client) {#mousemove-proc-client byondver="500"}    
 **See also:**    
 :   [Click proc (client)](/client/proc/Click)    

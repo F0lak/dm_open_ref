@@ -1,4 +1,3 @@
-[]{#/bounds_dist proc.md}    
 ## bounds_dist proc    
 **See also:**    
 :   [bound_x var (movable atom)](/atom/movable/var/bound_x)    

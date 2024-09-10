@@ -1,4 +1,3 @@
-[]{#/area var (world).md}    
 ## area var (world)    
 **Default value:**    
 :   /area.    

@@ -1,4 +1,3 @@
-[]{#/Subtract proc (matrix).md}    
 ## Subtract proc (matrix)    
 **See also:**    
 :   [matrix](/matrix)    

@@ -1,4 +1,3 @@
-[]{#/ohearers.md}    
 ## ohearers    
 **See also:**    
 :   [hearers](/proc/hearers)    

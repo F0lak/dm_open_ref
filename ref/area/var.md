@@ -1,4 +1,3 @@
-[]{#/vars (area).md}    
 ## vars (area)    
 Built-in area vars:    
 vars (area).md    

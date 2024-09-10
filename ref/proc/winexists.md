@@ -1,4 +1,3 @@
-[]{#/winexists proc.md}    
 ## winexists proc    
 **See also:**    
 :   [winclone proc](/proc/winclone)    

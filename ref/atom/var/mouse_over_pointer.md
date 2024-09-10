@@ -1,4 +1,3 @@
-[]{#/mouse_over_pointer var (atom).md}    
 ## mouse_over_pointer var (atom)    
 **See also:**    
 :   [Click proc (atom)](/atom/proc/Click)    

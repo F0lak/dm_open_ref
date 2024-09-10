@@ -1,4 +1,3 @@
-[]{#/src setting (verb).md}    
 ## src setting (verb)    
 **Format:**    
 :   set src in List    

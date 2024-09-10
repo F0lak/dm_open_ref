@@ -1,4 +1,3 @@
-[]{#/fcopy_rsc proc.md}    
 ## fcopy_rsc proc    
 **See also:**    
 :   [cache](/DM/cache)    

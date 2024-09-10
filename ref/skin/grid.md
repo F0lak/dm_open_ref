@@ -1,4 +1,3 @@
-[]{#/grid control (skin).md}/control/grid}    
 ## grid control (skin)    
 A grid that contains multiple cells that can show various kinds of    
 output data.    

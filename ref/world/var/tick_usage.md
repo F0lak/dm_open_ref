@@ -1,4 +1,3 @@
-[]{#/tick_usage var (world).md}    
 ## tick_usage var (world) {#tick_usage-var-world byondver="510"}    
 **See also:**    
 :   [cpu var (world)](/world/var/cpu)    

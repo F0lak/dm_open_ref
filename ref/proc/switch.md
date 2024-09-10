@@ -1,4 +1,3 @@
-[]{#/switch proc.md}    
 ## switch proc    
 **See also:**    
 :   [if proc](/proc/if)    

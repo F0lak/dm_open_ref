@@ -1,4 +1,3 @@
-[]{#/MouseMove proc (atom).md}    
 ## MouseMove proc (atom) {#mousemove-proc-atom byondver="500"}    
 **See also:**    
 :   [Click proc (atom)](/atom/proc/Click)    

@@ -1,4 +1,3 @@
-[]{#/pan var (sound).md}    
 ## pan var (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

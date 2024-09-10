@@ -1,4 +1,3 @@
-[]{#/plane var (atom).md}    
 ## plane var (atom) {#plane-var-atom byondver="509"}    
 **See also:**    
 :   [layer var (atom)](/atom/var/layer)    

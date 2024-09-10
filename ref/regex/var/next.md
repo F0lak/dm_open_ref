@@ -1,4 +1,3 @@
-[]{#/next var (regex).md}    
 ## next var (regex) {#next-var-regex byondver="510"}    
 **See also:**    
 :   [regex datum](/regex)    

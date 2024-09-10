@@ -1,4 +1,3 @@
-[]{#/tick_lag var (world).md}    
 ## tick_lag var (world)    
 **See also:**    
 :   [fps var (world)](/world/var/fps)    

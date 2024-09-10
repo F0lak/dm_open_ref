@@ -1,4 +1,3 @@
-[]{#/Interpolate proc (matrix).md}    
 ## Interpolate proc (matrix)    
 **See also:**    
 :   [matrix](/matrix)    

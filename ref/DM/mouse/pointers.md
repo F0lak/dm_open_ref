@@ -1,4 +1,3 @@
-[]{#/mouse pointers.md}    
 ## mouse pointers    
 **See also:**    
 :   [mouse handling](/DM/mouse)    

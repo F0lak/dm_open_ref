@@ -1,4 +1,3 @@
-[]{#/URL (client script).md}    
 ## URL (client script)    
 **Format:**    
 :   #define URL \"byond://byond.com:6000\"    

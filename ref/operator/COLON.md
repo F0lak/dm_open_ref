@@ -1,4 +1,3 @@
-[]{#/COLON operator.md}    
 ## : operator    
 **See also:**    
 :   [. operator](/operator/%2e)    

@@ -1,4 +1,3 @@
-[]{#/atom.md}    
 ## atom.md    
 **See also:**    
 :   [area](/area)    

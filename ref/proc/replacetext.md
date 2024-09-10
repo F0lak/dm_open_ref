@@ -1,4 +1,3 @@
-[]{#/replacetext proc.md}    
 ## replacetext proc {#replacetext-proc byondver="510"}    
 **See also:**    
 :   [findtext proc](/proc/findtext)    

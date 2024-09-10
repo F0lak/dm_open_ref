@@ -1,4 +1,3 @@
-[]{#/is-fullscreen parameter (skin).md}/param/is-fullscreen}    
 ## is-fullscreen parameter (skin) {#is-fullscreen-parameter-skin byondver="515"}    
 **See also:**    
 :   [can-resize parameter](/%7Bskin%7D/param/can-resize)    

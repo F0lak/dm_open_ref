@@ -1,4 +1,3 @@
-[]{#/vars.md}    
 ## vars.mds    
 **See also:**    
 :   [path operators](/operator/path)    

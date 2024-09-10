@@ -1,4 +1,3 @@
-[]{#/Side-view maps.md}/side toc="Side-view maps"}    
 ## Side-view maps {#side-view-maps byondver="482"}    
 **See also:**    
 :   [map_format var (world)](/world/var/map_format)    

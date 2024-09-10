@@ -1,4 +1,3 @@
-[]{#/floor proc.md}    
 ## floor proc {#floor-proc byondver="515"}    
 **See also:**    
 :   [ceil proc](/proc/ceil)    

@@ -1,4 +1,3 @@
-[]{#/fdel proc.md}    
 ## fdel proc    
 **See also:**    
 :   [shell proc](/proc/shell)    

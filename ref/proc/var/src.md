@@ -1,4 +1,3 @@
-[]{#/src var (proc).md}    
 ## src var (proc)    
 **See also:**    
 :   [usr var (proc)](/src var (proc).md)    

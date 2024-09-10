@@ -1,4 +1,3 @@
-[]{#/is-slider parameter (skin).md}/param/is-slider}    
 ## is-slider parameter (skin)    
 **See also:**    
 :   [value parameter](/%7Bskin%7D/param/value)    

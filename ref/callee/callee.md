@@ -1,4 +1,3 @@
-[]{#/callee.md}    
 ## callee.md {#callee.md byondver="516"}    
 **See also:**    
 :   [proc](/proc)    

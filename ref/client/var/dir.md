@@ -1,4 +1,3 @@
-[]{#/dir var (client).md}    
 ## dir var (client)    
 **Default value:**    
 :   NORTH    

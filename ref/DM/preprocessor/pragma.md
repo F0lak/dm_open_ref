@@ -1,4 +1,3 @@
-[]{#/#pragma directive.md}    
 ## #pragma directive {#pragma-directive byondver="515"}    
 **See also:**    
 :   [#define directive](/DM/preprocessor/define)    

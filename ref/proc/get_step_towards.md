@@ -1,4 +1,3 @@
-[]{#/get_step_towards proc.md}    
 ## get_step_towards proc    
 **See also:**    
 :   [step_towards proc](/proc/step_towards)    

@@ -1,4 +1,3 @@
-[]{#/vars (list).md}    
 ## vars (list)    
 Built-in list vars:    
 vars (list).md    

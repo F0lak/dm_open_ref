@@ -1,4 +1,3 @@
-[]{#/COLONCOLON operator.md}    
 ## :: operator {#operator byondver="515"}    
 **See also:**    
 :   [. path operator](/operator/path/%2e)    

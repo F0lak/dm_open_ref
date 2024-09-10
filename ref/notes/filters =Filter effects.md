@@ -1,4 +1,3 @@
-[]{#/Filter effects.md}/filters toc="Filter effects"}    
 ## Filter effects {#filter-effects byondver="512"}    
 **See also:**    
 :   [filters var (atom)](/atom/var/filters)    

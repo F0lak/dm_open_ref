@@ -1,4 +1,3 @@
-[]{#/#define directive.md}    
 ## #define directive    
 **See also:**    
 :   [preprocessor](/DM/preprocessor)    

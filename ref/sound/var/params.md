@@ -1,4 +1,3 @@
-[]{#/params var (sound).md}    
 ## params var (sound) {#params-var-sound byondver="515"}    
 **See also:**    
 :   [vars (sound)](/sound/var)    

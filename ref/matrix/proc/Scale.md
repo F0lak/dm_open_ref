@@ -1,4 +1,3 @@
-[]{#/Scale proc (matrix).md}    
 ## Scale proc (matrix)    
 **See also:**    
 :   [matrix](/matrix)    

@@ -1,4 +1,3 @@
-[]{#/repeat var (sound).md}    
 ## repeat var (sound)    
 **See also:**    
 :   [sound proc](/proc/sound)    

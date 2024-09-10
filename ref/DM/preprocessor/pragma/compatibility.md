@@ -1,4 +1,3 @@
-[]{#/#pragma compatibility directive.md}    
 ## #pragma compatibility directive {#pragma-compatibility-directive byondver="516"}    
 **See also:**    
 :   [#pragma directive](/DM/preprocessor/pragma)    

@@ -1,4 +1,3 @@
-[]{#/Projection matrix.md}/projection-matrix toc="Projection matrix"}    
 ## Projection matrix {#projection-matrix byondver="514"}    
 **See also:**    
 :   [Particle effects](/%7Bnotes%7D/particles)    

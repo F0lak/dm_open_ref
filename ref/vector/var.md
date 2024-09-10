@@ -1,4 +1,3 @@
-[]{#/vars (vector).md}    
 ## vars (vector) {#vars-vector byondver="516"}    
 **See also:**    
 :   [vector](/vector)    

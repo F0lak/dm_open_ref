@@ -1,4 +1,3 @@
-[]{#/vars (image).md}    
 ## vars (image)    
 /vars (image).md    
 :   [alpha](/atom/var/alpha)    

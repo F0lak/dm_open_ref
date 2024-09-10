@@ -1,4 +1,3 @@
-[]{#/style sheets (in scripts).md}    
 ## style sheets (in scripts)    
 **See also:**    
 :   [script var (client)](/client/var/script)    

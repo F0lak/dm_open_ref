@@ -1,4 +1,3 @@
-[]{#/ErrorMsg proc (database query).md}    
 ## ErrorMsg proc (database query) {#errormsg-proc-database-query byondver="506"}    
 **See also:**    
 :   [database datum](/database)    

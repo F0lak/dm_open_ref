@@ -1,4 +1,3 @@
-[]{#/label control (skin).md}/control/label}    
 ## label control (skin)    
 A text label that appears on the skin.    
 **Label-specific parameters:**    

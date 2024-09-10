@@ -1,4 +1,3 @@
-[]{#/turn proc (applied to a matrix).md}    
 ## turn proc (applied to a matrix)    
 **See also:**    
 :   [turn proc](/proc/turn)    

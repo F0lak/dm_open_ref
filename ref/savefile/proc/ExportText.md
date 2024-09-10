@@ -1,4 +1,3 @@
-[]{#/ExportText proc (savefile).md}    
 ## ExportText proc (savefile)    
 **See also:**    
 :   [ImportText proc (savefile)](/savefile/proc/ImportText)    

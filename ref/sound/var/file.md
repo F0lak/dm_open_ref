@@ -1,4 +1,3 @@
-[]{#/file var (sound).md}    
 ## file var (sound)    
 **See also:**    
 :   [sound proc](/proc/sound)    

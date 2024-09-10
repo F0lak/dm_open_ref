@@ -1,4 +1,3 @@
-[]{#/button control (skin).md}/control/button}    
 ## button control (skin)    
 A button that can be pressed to run a [command](/%7Bskin%7D/commands),    
 or possibly toggled.    

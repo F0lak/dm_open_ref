@@ -1,4 +1,3 @@
-[]{#/alist proc.md}    
 ## alist proc {#alist-proc byondver="516"}    
 **See also:**    
 :   [list associations](/list/associations)    

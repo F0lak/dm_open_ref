@@ -1,4 +1,3 @@
-[]{#/QMARK[] operator.md}    
 ## ?\[\] operator {#operator byondver="514"}    
 **See also:**    
 :   [list](/list)    

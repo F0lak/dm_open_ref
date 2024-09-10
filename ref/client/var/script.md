@@ -1,4 +1,3 @@
-[]{#/script var (client).md}    
 ## script var (client)    
 **See also:**    
 :   [#include directive](/DM/preprocessor/include)    

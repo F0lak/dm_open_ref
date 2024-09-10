@@ -1,4 +1,3 @@
-[]{#/see_in_dark var (mob).md}    
 ## see_in_dark var (mob)    
 **See also:**    
 :   [luminosity var (atom)](/atom/var/luminosity)    

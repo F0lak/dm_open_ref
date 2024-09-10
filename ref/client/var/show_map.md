@@ -1,4 +1,3 @@
-[]{#/show_map var (client).md}    
 ## show_map var (client)    
 **See also:**    
 :   [show_verb_panel var (client)](/client/var/show_verb_panel)    

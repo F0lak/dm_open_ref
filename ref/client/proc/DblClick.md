@@ -1,4 +1,3 @@
-[]{#/DblClick proc (client).md}    
 ## DblClick proc (client)    
 **See also:**    
 :   [Click proc (client)](/client/proc/Click)    

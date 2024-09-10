@@ -1,4 +1,3 @@
-[]{#/file proc.md}    
 ## file proc    
 **See also:**    
 :   [\<\< output operator](/operator/%3c%3c/output)    

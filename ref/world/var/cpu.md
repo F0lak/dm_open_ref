@@ -1,4 +1,3 @@
-[]{#/cpu var (world).md}    
 ## cpu var (world)    
 **See also:**    
 :   [map_cpu var (world)](/world/var/map_cpu)    

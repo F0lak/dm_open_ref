@@ -1,4 +1,3 @@
-[]{#/isfile proc.md}    
 ## isfile proc    
 **See also:**    
 :   [cache](/DM/cache)    

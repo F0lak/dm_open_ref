@@ -1,4 +1,3 @@
-[]{#/screen var (client).md}    
 ## screen var (client)    
 **See also:**    
 :   [HUD / screen objects](/%7Bnotes%7D/HUD)    

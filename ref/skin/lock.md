@@ -1,4 +1,3 @@
-[]{#/lock parameter (skin).md}/param/lock}    
 ## lock parameter (skin)    
 **See also:**    
 :   [left parameter](/%7Bskin%7D/param/left)    

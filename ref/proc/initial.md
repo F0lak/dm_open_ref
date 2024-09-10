@@ -1,4 +1,3 @@
-[]{#/initial proc.md}    
 ## initial proc    
 **See also:**    
 :   [:: operator](/operator/::)    

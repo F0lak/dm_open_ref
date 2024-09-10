@@ -1,4 +1,3 @@
-[]{#/DEBUG definition.md}    
 ## DEBUG definition    
 **See also:**    
 :   [#define directive](/DM/preprocessor/define)    

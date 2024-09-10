@@ -1,4 +1,3 @@
-[]{#/exception.md}    
 ## exception.md {#exception.md byondver="508"}    
 **See also:**    
 :   [try and catch statements](/proc/try)    

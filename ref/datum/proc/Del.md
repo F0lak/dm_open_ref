@@ -1,4 +1,3 @@
-[]{#/Del proc (datum).md}    
 ## Del proc (datum)    
 **See also:**    
 :   [del proc](/proc/del)    

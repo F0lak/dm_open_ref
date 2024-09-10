@@ -1,4 +1,3 @@
-[]{#/particles var (movable atom).md}    
 ## particles var (movable atom) {#particles-var-movable-atom byondver="514"}    
 **See also:**    
 :   [Particle effects](/%7Bnotes%7D/particles)    

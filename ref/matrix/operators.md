@@ -1,4 +1,3 @@
-[]{#/matrix operators.md}    
 ## matrix operators {#matrix-operators byondver="500" short="operators"}    
 **See also:**    
 :   [matrix](/matrix)    

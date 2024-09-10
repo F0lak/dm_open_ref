@@ -1,4 +1,3 @@
-[]{#/cache_lifespan var (world).md}    
 ## cache_lifespan var (world)    
 **See also:**    
 :   [cache](/DM/cache)    

@@ -1,4 +1,3 @@
-[]{#/trimtext proc.md}    
 ## trimtext proc {#trimtext-proc byondver="515"}    
 **See also:**    
 :   [copytext proc](/proc/copytext)    

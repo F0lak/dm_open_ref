@@ -1,4 +1,3 @@
-[]{#/movement_mode var (world).md}    
 ## movement_mode var (world)    
 **See also:**    
 :   [appearance_flags var (atom)](/atom/var/appearance_flags)    

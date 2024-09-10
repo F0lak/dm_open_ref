@@ -1,4 +1,3 @@
-[]{#/hidden setting (verb).md}    
 ## hidden setting (verb)    
 **See also:**    
 :   [category setting (verb)](/verb/set/category)    

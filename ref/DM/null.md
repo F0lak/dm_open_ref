@@ -1,4 +1,3 @@
-[]{#/null.md}    
 ## null    
 Variables that are not initialized have the value null. This value is    
 distinct from 0 and \"\". If you compare it to these, using the `==`    

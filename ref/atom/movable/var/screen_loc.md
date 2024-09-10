@@ -1,4 +1,3 @@
-[]{#/screen_loc var (movable atoms).md}    
 ## screen_loc var (movable atoms)    
 **See also:**    
 :   [HUD / screen objects](/%7Bnotes%7D/HUD)    

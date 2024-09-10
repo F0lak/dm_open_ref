@@ -1,4 +1,3 @@
-[]{#/icon proc.md}    
 ## icon proc    
 **See also:**    
 :   [file proc](/proc/file)    

@@ -1,4 +1,3 @@
-[]{#/loc var (image).md}    
 ## loc var (image)    
 The location of an image specifies the object to which the image is    
 attached. Unless the image drawing layer is specified, the default will    

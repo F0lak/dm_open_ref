@@ -1,4 +1,3 @@
-[]{#/vars (client).md}    
 ## vars (client)    
 Built-in client vars:    
 vars (client).md    

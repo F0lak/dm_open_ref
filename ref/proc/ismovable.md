@@ -1,4 +1,3 @@
-[]{#/ismovable proc.md}    
 ## ismovable proc {#ismovable-proc byondver="513"}    
 **See also:**    
 :   [isloc proc](/proc/isloc)    

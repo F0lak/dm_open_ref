@@ -1,4 +1,3 @@
-[]{#/icon_w var (atom).md}    
 ## icon_w var (atom) {#icon_w-var-atom byondver="516"}    
 **See also:**    
 :   [icon_z var (atom)](/atom/var/icon_z)    

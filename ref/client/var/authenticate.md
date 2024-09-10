@@ -1,4 +1,3 @@
-[]{#/authenticate var (client).md}    
 ## authenticate var (client)    
 This value may be set to 0 at compile-time to disable BYOND hub-based    
 authentication of users. The default value is 1, which enables    

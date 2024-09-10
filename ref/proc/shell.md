@@ -1,4 +1,3 @@
-[]{#/shell proc.md}    
 ## shell proc    
 **See also:**    
 :   [fcopy proc](/proc/fcopy)    

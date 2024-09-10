@@ -1,4 +1,3 @@
-[]{#/mouse handling.md}    
 ## mouse handling    
 Various mouse actions may be handled by defining procedures either on    
 the client object or on the atomic object being manipulated. Any of the    

@@ -1,4 +1,3 @@
-[]{#/load_resource proc.md}    
 ## load_resource proc    
 **See also:**    
 :   [\<\< output operator](/operator/%3c%3c/output)    

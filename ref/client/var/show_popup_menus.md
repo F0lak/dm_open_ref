@@ -1,4 +1,3 @@
-[]{#/show_popup_menus var (client).md}    
 ## show_popup_menus var (client)    
 **See also:**    
 :   [right-click parameter (skin)](/%7Bskin%7D/param/right-click)    

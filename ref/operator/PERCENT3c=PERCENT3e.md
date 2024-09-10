@@ -1,4 +1,3 @@
-[]{#/&lt;=&gt; operator.md}    
 ## \<=\> operator {#operator byondver="516"}    
 **See also:**    
 :   [\< operator](/operator/%3c)    

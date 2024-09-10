@@ -1,4 +1,3 @@
-[]{#/name var (savefile).md}    
 ## name var (savefile)    
 **See also:**    
 :   [savefile](/savefile)    

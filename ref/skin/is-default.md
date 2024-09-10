@@ -1,4 +1,3 @@
-[]{#/is-default parameter (skin).md}/param/is-default}    
 ## is-default parameter (skin)    
 **See also:**    
 :   [id parameter](/%7Bskin%7D/param/id)    

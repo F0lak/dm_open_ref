@@ -1,4 +1,3 @@
-[]{#/output control (skin).md}/control/output}    
 ## output control (skin)    
 Displays text output.    
 **Output-specific parameters:**    

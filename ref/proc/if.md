@@ -1,4 +1,3 @@
-[]{#/if proc.md}    
 ## if proc    
 **See also:**    
 :   [goto proc](/proc/goto)    

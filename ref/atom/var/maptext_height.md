@@ -1,4 +1,3 @@
-[]{#/maptext_height var (atom).md}    
 ## maptext_height var (atom) {#maptext_height-var-atom byondver="494"}    
 **See also:**    
 :   [maptext var (atom)](/atom/var/maptext)    

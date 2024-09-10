@@ -1,4 +1,3 @@
-[]{#/is-flat parameter (skin).md}/param/is-flat}    
 ## is-flat parameter (skin)    
 **See also:**    
 :   [button-type parameter](/%7Bskin%7D/param/button-type)    

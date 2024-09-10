@@ -1,4 +1,3 @@
-[]{#/arguments (proc).md}    
 ## arguments (proc)    
 **See also:**    
 :   [named arguments (proc)](/arguments (proc).md/named)    

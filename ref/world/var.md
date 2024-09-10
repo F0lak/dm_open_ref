@@ -1,4 +1,3 @@
-[]{#/vars (world).md}    
 ## vars (world)    
 Built-in world vars:    
 vars (world).md    

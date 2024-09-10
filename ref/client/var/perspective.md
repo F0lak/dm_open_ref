@@ -1,4 +1,3 @@
-[]{#/perspective var (client).md}    
 ## perspective var (client)    
 **See also:**    
 :   [eye var (client)](/client/var/eye)    

@@ -1,4 +1,3 @@
-[]{#/maptext_x var (atom).md}    
 ## maptext_x var (atom) {#maptext_x-var-atom byondver="508"}    
 **See also:**    
 :   [maptext var (atom)](/atom/var/maptext)    

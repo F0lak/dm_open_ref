@@ -1,4 +1,3 @@
-[]{#/Layering (composite) filter.md}/filters/layer toc="Layering / composite (filters)"}    
 ## Layering (composite) filter {#layering-composite-filter byondver="513"}    
 **See also:**    
 :   [icon var (atom)](/atom/var/icon)    

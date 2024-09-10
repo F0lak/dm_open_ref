@@ -1,4 +1,3 @@
-[]{#/MouseExited proc (client).md}    
 ## MouseExited proc (client)    
 **See also:**    
 :   [Click proc (client)](/client/proc/Click)    

@@ -1,4 +1,3 @@
-[]{#/gender var (atom).md}    
 ## gender var (atom)    
 **See also:**    
 :   [macros (text)](/DM/text/macros)    

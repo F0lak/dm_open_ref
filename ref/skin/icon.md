@@ -1,4 +1,3 @@
-[]{#/icon parameter (skin).md}/param/icon}    
 ## icon parameter (skin)    
 **See also:**    
 :   [title parameter](/%7Bskin%7D/param/title)    

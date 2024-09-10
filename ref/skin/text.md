@@ -1,4 +1,3 @@
-[]{#/text parameter (skin).md}/param/text}    
 ## text parameter (skin)    
 **See also:**    
 :   [font-family parameter](/%7Bskin%7D/param/font-family)    

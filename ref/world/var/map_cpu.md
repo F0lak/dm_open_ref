@@ -1,4 +1,3 @@
-[]{#/map_cpu var (world).md}    
 ## map_cpu var (world) {#map_cpu-var-world byondver="514"}    
 **See also:**    
 :   [cpu var (world)](/world/var/cpu)    

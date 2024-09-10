@@ -1,4 +1,3 @@
-[]{#/procs (turf).md}    
 ## procs (turf)    
 Built-in turf procs:    
 procs (turf).md    

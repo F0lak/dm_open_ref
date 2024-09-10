@@ -1,4 +1,3 @@
-[]{#/wait var (sound).md}    
 ## wait var (sound)    
 **See also:**    
 :   [sound proc](/proc/sound)    

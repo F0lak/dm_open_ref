@@ -1,4 +1,3 @@
-[]{#/parent_type var.md}    
 ## parent_type var    
 **Default value:**    
 :   The path of the object definition that contains this one.    

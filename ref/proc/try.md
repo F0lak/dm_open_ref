@@ -1,4 +1,3 @@
-[]{#/try and catch statements.md}    
 ## try and catch statements {#try-and-catch-statements byondver="508"}    
 **See also:**    
 :   [Error proc (world)](/world/proc/Error)    

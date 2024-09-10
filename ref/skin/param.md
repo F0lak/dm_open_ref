@@ -1,4 +1,3 @@
-[]{#/parameters (skin).md}/param}    
 ## parameters (skin)    
 Controls can be interacted with via [winset()](/proc/winset){.code} and    
 [winget()](/proc/winset){.code} to change or read various parameters.    

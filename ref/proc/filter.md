@@ -1,4 +1,3 @@
-[]{#/filter proc.md}    
 ## filter proc {#filter-proc byondver="512"}    
 **See also:**    
 :   [filters var (atom)](/atom/var/filters)    

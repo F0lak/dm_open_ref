@@ -1,4 +1,3 @@
-[]{#/spawn proc.md}    
 ## spawn proc    
 **See also:**    
 :   [background setting (proc)](/proc/set/background)    

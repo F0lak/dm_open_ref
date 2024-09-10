@@ -1,4 +1,3 @@
-[]{#/obounds proc.md}    
 ## obounds proc    
 **See also:**    
 :   [bounds proc](/proc/bounds)    

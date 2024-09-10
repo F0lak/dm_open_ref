@@ -1,4 +1,3 @@
-[]{#/map-to parameter (skin).md}/param/map-to}    
 ## map-to parameter (skin) {#map-to-parameter-skin byondver="511"}    
 **See also:**    
 :   [macros (skin)](/%7Bskin%7D/macros)    

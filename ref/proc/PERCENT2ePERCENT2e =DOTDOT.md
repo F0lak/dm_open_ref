@@ -1,4 +1,3 @@
-[]{#/DOTDOT proc.md}    
 ## .. proc    
 **See also:**    
 :   [. proc](/proc/%2e)    

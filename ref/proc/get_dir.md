@@ -1,4 +1,3 @@
-[]{#/get_dir proc.md}    
 ## get_dir proc    
 **See also:**    
 :   [dir var (atom)](/atom/var/dir)    

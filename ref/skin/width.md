@@ -1,4 +1,3 @@
-[]{#/width parameter (skin).md}/param/width}    
 ## width parameter (skin)    
 **See also:**    
 :   [dir parameter](/%7Bskin%7D/param/dir)    

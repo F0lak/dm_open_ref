@@ -1,4 +1,3 @@
-[]{#/flist proc.md}    
 ## flist proc    
 **See also:**    
 :   [fexists proc](/proc/fexists)    

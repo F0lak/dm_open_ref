@@ -1,4 +1,3 @@
-[]{#/isloc proc.md}    
 ## isloc proc    
 **Format:**    
 :   isloc(Loc1, Loc2 \...)    

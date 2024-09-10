@@ -1,4 +1,3 @@
-[]{#/procs (list).md}    
 ## procs (list)    
 **See also:**    
 :   [list](/list)    

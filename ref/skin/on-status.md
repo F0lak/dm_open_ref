@@ -1,4 +1,3 @@
-[]{#/on-status parameter (skin).md}/param/on-status}    
 ## on-status parameter (skin)    
 **See also:**    
 :   [statusbar parameter](/%7Bskin%7D/param/statusbar)    

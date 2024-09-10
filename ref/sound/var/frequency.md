@@ -1,4 +1,3 @@
-[]{#/frequency var (sound).md}    
 ## frequency var (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

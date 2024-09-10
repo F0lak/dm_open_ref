@@ -1,4 +1,3 @@
-[]{#/Insert proc (list).md}    
 ## Insert proc (list)    
 **See also:**    
 :   [Cut proc (list)](/list/proc/Cut)    

@@ -1,4 +1,3 @@
-[]{#/no-command parameter (skin).md}/param/no-command}    
 ## no-command parameter (skin)    
 **See also:**    
 :   [command parameter](/%7Bskin%7D/param/command)    

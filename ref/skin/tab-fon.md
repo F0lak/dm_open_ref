@@ -1,4 +1,3 @@
-[]{#/tab-font-family, tab-font-size, tab-font-style parameters (skin).md}/param/tab-font    
 toc="tab-font-family, tab-font-size, tab-font-style"}    
 ## tab-font-family, tab-font-size, tab-font-style parameters (skin)    
 **See also:**    

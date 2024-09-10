@@ -1,4 +1,3 @@
-[]{#/OpenPort proc (world).md}    
 ## OpenPort proc (world)    
 **See also:**    
 :   [port var (world)](/world/var/port)    

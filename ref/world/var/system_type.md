@@ -1,4 +1,3 @@
-[]{#/system_type var (world).md}    
 ## system_type var (world)    
 **See also:**    
 :   [byond_version var (world)](/world/var/byond_version)    

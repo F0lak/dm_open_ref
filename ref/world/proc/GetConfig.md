@@ -1,4 +1,3 @@
-[]{#/GetConfig proc (world).md}    
 ## GetConfig proc (world)    
 **See also:**    
 :   [IsBanned proc (world)](/world/proc/IsBanned)    

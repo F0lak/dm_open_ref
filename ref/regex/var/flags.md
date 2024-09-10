@@ -1,4 +1,3 @@
-[]{#/flags var (regex).md}    
 ## flags var (regex) {#flags-var-regex byondver="510"}    
 **See also:**    
 :   [Regular expressions](/%7Bnotes%7D/regex)    

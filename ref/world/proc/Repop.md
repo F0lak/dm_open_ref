@@ -1,4 +1,3 @@
-[]{#/Repop proc (world).md}    
 ## Repop proc (world)    
 **Format:**    
 :   Repop()    

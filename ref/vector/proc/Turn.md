@@ -1,4 +1,3 @@
-[]{#/Turn proc (vector).md}    
 ## Turn proc (vector) {#turn-proc-vector byondver="516"}    
 **See also:**    
 :   [turn proc (applied to a vector)](/proc/turn/vector)    

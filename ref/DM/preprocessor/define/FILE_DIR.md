@@ -1,4 +1,3 @@
-[]{#/FILE_DIR definition.md}    
 ## FILE_DIR definition    
 **See also:**    
 :   [cache](/DM/cache)    

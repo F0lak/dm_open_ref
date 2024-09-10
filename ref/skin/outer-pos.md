@@ -1,4 +1,3 @@
-[]{#/outer-pos parameter (skin).md}/param/outer-pos}    
 ## outer-pos parameter (skin) {#outer-pos-parameter-skin byondver="515"}    
 **See also:**    
 :   [pos parameter](/%7Bskin%7D/param/pos)    

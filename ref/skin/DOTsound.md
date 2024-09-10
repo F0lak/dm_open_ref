@@ -1,4 +1,3 @@
-[]{#/DOTsound (client command).md}/commands/.sound}    
 ## .sound (client command) {#sound-client-command byondver="516"}    
 **See also:**    
 :   [sound proc](/proc/sound)    

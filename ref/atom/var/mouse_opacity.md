@@ -1,4 +1,3 @@
-[]{#/mouse_opacity var (atom).md}    
 ## mouse_opacity var (atom)    
 **See also:**    
 :   [mouse handling](/DM/mouse)    

@@ -1,4 +1,3 @@
-[]{#/Entered proc (atom).md}    
 ## Entered proc (atom)    
 **See also:**    
 :   [Enter proc (atom)](/atom/proc/Enter)    

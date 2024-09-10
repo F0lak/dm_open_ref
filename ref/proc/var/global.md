@@ -1,4 +1,3 @@
-[]{#/global var (proc).md}    
 ## global var (proc)    
 **See also:**    
 :   [src var (proc)](/proc/var/src)    

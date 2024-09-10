@@ -1,4 +1,3 @@
-[]{#/is-disabled parameter (skin).md}/param/is-disabled}    
 ## is-disabled parameter (skin)    
 **See also:**    
 :   [is-checked parameter](/%7Bskin%7D/param/is-checked)    

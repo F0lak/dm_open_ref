@@ -1,4 +1,3 @@
-[]{#/verbs list var (client).md}    
 ## verbs list var (client)    
 **See also:**    
 :   [list](/list)    

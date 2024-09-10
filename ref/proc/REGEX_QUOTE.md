@@ -1,4 +1,3 @@
-[]{#/REGEX_QUOTE proc.md}    
 ## REGEX_QUOTE proc {#regex_quote-proc byondver="510"}    
 **See also:**    
 :   [regex proc](/proc/regex)    

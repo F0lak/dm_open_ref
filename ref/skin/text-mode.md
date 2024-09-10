@@ -1,4 +1,3 @@
-[]{#/text-mode parameter (skin).md}/param/text-mode}    
 ## text-mode parameter (skin)    
 **See also:**    
 :   [zoom parameter](/%7Bskin%7D/param/zoom)    

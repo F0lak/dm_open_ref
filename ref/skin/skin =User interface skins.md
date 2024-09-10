@@ -1,4 +1,3 @@
-[]{#/User interface skins.md} toc="User interface skins"}    
 ## User interface skins    
 **See also:**    
 :   [winset proc](/proc/winset)    

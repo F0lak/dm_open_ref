@@ -1,4 +1,3 @@
-[]{#/splicetext proc.md}    
 ## splicetext proc {#splicetext-proc byondver="514"}    
 **See also:**    
 :   [copytext proc](/proc/copytext)    

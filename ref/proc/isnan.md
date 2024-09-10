@@ -1,4 +1,3 @@
-[]{#/isnan proc.md}    
 ## isnan proc {#isnan-proc byondver="515"}    
 **See also:**    
 :   [isnum proc](/proc/isnum)    

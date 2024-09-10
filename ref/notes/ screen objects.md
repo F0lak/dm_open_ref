@@ -1,4 +1,3 @@
-[]{#/HUD _ screen objects.md}/HUD toc="HUD / screen objects"}    
 ## HUD / screen objects    
 **See also:**    
 :   [screen_loc var (movable atoms)](/atom/movable/var/screen_loc)    

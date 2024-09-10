@@ -1,4 +1,3 @@
-[]{#/statpanel var (client).md}    
 ## statpanel var (client)    
 **See also:**    
 :   [Stat proc (client)](/client/proc/Stat)    

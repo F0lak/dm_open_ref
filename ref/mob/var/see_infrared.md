@@ -1,4 +1,3 @@
-[]{#/see_infrared var (mob).md}    
 ## see_infrared var (mob)    
 **See also:**    
 :   [infra_luminosity var (atom)](/atom/var/infra_luminosity)    

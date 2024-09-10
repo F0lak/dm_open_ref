@@ -1,4 +1,3 @@
-[]{#/movable atoms.md}    
 ## movable atoms    
 **See also:**    
 :   [atom](/atom)    

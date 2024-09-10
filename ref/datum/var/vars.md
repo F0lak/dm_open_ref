@@ -1,4 +1,3 @@
-[]{#/vars list var (datum).md}    
 ## vars list var (datum)    
 **See also:**    
 :   [initial proc](/proc/initial)    

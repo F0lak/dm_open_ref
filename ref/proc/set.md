@@ -1,4 +1,3 @@
-[]{#/settings (proc).md}    
 ## settings (proc)    
 proc settings:    
     verb/set    

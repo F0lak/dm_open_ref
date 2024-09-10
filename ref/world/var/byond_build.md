@@ -1,4 +1,3 @@
-[]{#/byond_build var (world).md}    
 ## byond_build var (world) {#byond_build-var-world byondver="512"}    
 **See also:**    
 :   [DM_VERSION macro](/DM/preprocessor/DM_VERSION)    

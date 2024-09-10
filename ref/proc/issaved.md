@@ -1,4 +1,3 @@
-[]{#/issaved proc.md}    
 ## issaved proc    
 **See also:**    
 :   [initial proc](/proc/initial)    

@@ -1,4 +1,3 @@
-[]{#/glide_size var (movable atoms).md}    
 ## glide_size var (movable atoms) {#glide_size-var-movable-atoms byondver="490"}    
 **See also:**    
 :   [animate_movement var (movable    

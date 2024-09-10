@@ -1,4 +1,3 @@
-[]{#/SetScores proc (world).md}    
 ## SetScores proc (world)    
 **See also:**    
 :   [GetScores proc (world)](/world/proc/GetScores)    

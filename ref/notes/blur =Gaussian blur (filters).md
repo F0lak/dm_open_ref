@@ -1,4 +1,3 @@
-[]{#/Gaussian blur filter.md}/filters/blur toc="Gaussian blur (filters)"}    
 ## Gaussian blur filter {#gaussian-blur-filter byondver="512"}    
 **See also:**    
 :   [Motion blur (filters)](/%7Bnotes%7D/filters/motion_blur)    

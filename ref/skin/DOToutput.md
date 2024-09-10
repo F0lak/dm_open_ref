@@ -1,4 +1,3 @@
-[]{#/DOToutput (client command).md}/commands/.output}    
 ## .output (client command) {#output-client-command byondver="514"}    
 **See also:**    
 :   [output proc](/proc/output)    

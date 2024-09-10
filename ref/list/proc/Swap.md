@@ -1,4 +1,3 @@
-[]{#/Swap proc (list).md}    
 ## Swap proc (list)    
 **See also:**    
 :   [Cut proc (list)](/list/proc/Cut)    

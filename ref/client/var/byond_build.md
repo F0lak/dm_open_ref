@@ -1,4 +1,3 @@
-[]{#/byond_build var (client).md}    
 ## byond_build var (client) {#byond_build-var-client byondver="512"}    
 **See also:**    
 :   [DM_VERSION macro](/DM/preprocessor/DM_VERSION)    

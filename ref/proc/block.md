@@ -1,4 +1,3 @@
-[]{#/block proc.md}    
 ## block proc    
 **See also:**    
 :   [list](/list)    

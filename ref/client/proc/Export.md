@@ -1,4 +1,3 @@
-[]{#/Export proc (client).md}    
 ## Export proc (client)    
 **See also:**    
 :   [Import proc (client)](/client/proc/Import)    

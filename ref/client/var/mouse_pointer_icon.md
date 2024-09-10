@@ -1,4 +1,3 @@
-[]{#/mouse_pointer_icon var (client).md}    
 ## mouse_pointer_icon var (client)    
 **See also:**    
 :   [Click proc (client)](/client/proc/Click)    

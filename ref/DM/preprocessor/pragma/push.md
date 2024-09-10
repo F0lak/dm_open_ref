@@ -1,4 +1,3 @@
-[]{#/#pragma push_pop directive.md}    
 ## #pragma push/pop directive {#pragma-pushpop-directive byondver="515"}    
 **See also:**    
 :   [#pragma directive](/DM/preprocessor/pragma)    

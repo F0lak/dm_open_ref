@@ -1,4 +1,3 @@
-[]{#/game_state var (world).md}    
 ## game_state var (world)    
 **See also:**    
 :   [name var (world)](/world/var/name)    

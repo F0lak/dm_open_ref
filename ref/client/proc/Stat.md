@@ -1,4 +1,3 @@
-[]{#/Stat proc (client).md}    
 ## Stat proc (client)    
 **See also:**    
 :   [Stat proc (atom)](/atom/proc/Stat)    

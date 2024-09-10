@@ -1,4 +1,3 @@
-[]{#/auto-format parameter (skin).md}/param/auto-format}    
 ## auto-format parameter (skin) {#auto-format-parameter-skin deprecated="508"}    
 **Applies to:**    
 :   [Browser](/%7Bskin%7D/control/browser)    

@@ -1,4 +1,3 @@
-[]{#/statobj var (client).md}    
 ## statobj var (client)    
 **See also:**    
 :   [Stat proc (client)](/client/proc/Stat)    

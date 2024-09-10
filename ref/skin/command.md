@@ -1,4 +1,3 @@
-[]{#/command parameter (skin).md}/param/command}    
 ## command parameter (skin)    
 **See also:**    
 :   [client commands](/%7Bskin%7D/commands)    

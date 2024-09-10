@@ -1,4 +1,3 @@
-[]{#/multi-line parameter (skin).md}/param/multi-line}    
 ## multi-line parameter (skin)    
 **Applies to:**    
 :   [Info](/%7Bskin%7D/control/info)    

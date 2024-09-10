@@ -1,4 +1,3 @@
-[]{#/__FILE__ macro.md}    
 ## \_\_FILE\_\_ macro    
 **See also:**    
 :   [ASSERT proc](/proc/ASSERT)    

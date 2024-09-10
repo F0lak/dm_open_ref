@@ -1,4 +1,3 @@
-[]{#/show_verb_panel var (client).md}    
 ## show_verb_panel var (client)    
 **See also:**    
 :   [category setting (verb)](/verb/set/category)    

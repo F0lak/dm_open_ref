@@ -1,4 +1,3 @@
-[]{#/timeofday var (world).md}    
 ## timeofday var (world)    
 **See also:**    
 :   [realtime var (world)](/world/var/realtime)    

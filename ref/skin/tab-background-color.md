@@ -1,4 +1,3 @@
-[]{#/tab-background-color parameter (skin).md}/param/tab-background-color}    
 ## tab-background-color parameter (skin)    
 **See also:**    
 :   [background-color parameter](/%7Bskin%7D/param/background-color)    

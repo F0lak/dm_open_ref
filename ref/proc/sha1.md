@@ -1,4 +1,3 @@
-[]{#/sha1 proc.md}    
 ## sha1 proc {#sha1-proc byondver="513"}    
 **See also:**    
 :   [md5 proc](/proc/md5)    

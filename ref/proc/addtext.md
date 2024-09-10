@@ -1,4 +1,3 @@
-[]{#/addtext proc.md}    
 ## addtext proc    
 **See also:**    
 :   [+ operator](/operator/+)    

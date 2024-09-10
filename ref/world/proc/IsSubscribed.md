@@ -1,4 +1,3 @@
-[]{#/IsSubscribed proc (world).md}    
 ## IsSubscribed proc (world) {#issubscribed-proc-world byondver="503"}    
 **Format:**    
 :   IsSubscribed(player)    

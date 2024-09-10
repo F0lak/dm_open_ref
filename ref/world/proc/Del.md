@@ -1,4 +1,3 @@
-[]{#/Del proc (world).md}    
 ## Del proc (world)    
 **See also:**    
 :   [Del proc (datum)](/datum/proc/Del)    

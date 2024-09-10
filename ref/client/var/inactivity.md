@@ -1,4 +1,3 @@
-[]{#/inactivity var (client).md}    
 ## inactivity var (client)    
 **See also:**    
 :   [tick_lag var (world)](/world/var/tick_lag)    

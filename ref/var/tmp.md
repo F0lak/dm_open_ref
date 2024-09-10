@@ -1,4 +1,3 @@
-[]{#/tmp vars.md}    
 ## tmp vars    
 **See also:**    
 :   [savefile](/savefile)    

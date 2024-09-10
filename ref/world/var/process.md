@@ -1,4 +1,3 @@
-[]{#/process var (world).md}    
 ## process var (world)    
 **See also:**    
 :   [byond_version var (world)](/world/var/byond_version)    

@@ -1,4 +1,3 @@
-[]{#/status var (sound).md}    
 ## status var (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

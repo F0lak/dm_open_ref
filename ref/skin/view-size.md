@@ -1,4 +1,3 @@
-[]{#/view-size parameter (skin).md}/param/view-size}    
 ## view-size parameter (skin)    
 **See also:**    
 :   [letterbox parameter](/%7Bskin%7D/param/letterbox)    

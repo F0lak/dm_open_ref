@@ -1,4 +1,3 @@
-[]{#/istext proc.md}    
 ## istext proc    
 **Format:**    
 :   istext(Val)    

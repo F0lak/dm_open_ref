@@ -1,4 +1,3 @@
-[]{#/#pragma syntax directive.md}    
 ## #pragma syntax directive {#pragma-syntax-directive byondver="516"}    
 **See also:**    
 :   [#pragma directive](/DM/preprocessor/pragma)    

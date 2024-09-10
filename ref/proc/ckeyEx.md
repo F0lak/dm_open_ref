@@ -1,4 +1,3 @@
-[]{#/ckeyEx proc.md}    
 ## ckeyEx proc    
 **See also:**    
 :   [ckey proc](/proc/ckey)    

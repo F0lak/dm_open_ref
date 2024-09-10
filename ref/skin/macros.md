@@ -1,4 +1,3 @@
-[]{#/macros (skin).md}/macros}    
 ## macros (skin)    
 Macros are used to convert keyboard and gamepad events into actions.    
 There are two ways this works: A macro can run a command, or in some    

@@ -1,4 +1,3 @@
-[]{#/findtextEx proc.md}    
 ## findtextEx proc    
 **See also:**    
 :   [findtext proc](/proc/findtext)    

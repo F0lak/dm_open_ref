@@ -1,4 +1,3 @@
-[]{#/prob proc.md}    
 ## prob proc    
 **See also:**    
 :   [pick proc](/proc/pick)    

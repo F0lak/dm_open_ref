@@ -1,4 +1,3 @@
-[]{#/blend_mode var (atom).md}    
 ## blend_mode var (atom) {#blend_mode-var-atom byondver="501"}    
 **See also:**    
 :   [vars (atom)](/atom/var)    

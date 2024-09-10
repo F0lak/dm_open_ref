@@ -1,4 +1,3 @@
-[]{#/tags (text).md}    
 ## tags (text)    
 **See also:**    
 :   [entities (text)](/DM/text/entities)    

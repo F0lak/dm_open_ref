@@ -1,4 +1,3 @@
-[]{#/Find proc (list).md}    
 ## Find proc (list)    
 **Format:**    
 :   list.Find(Elem,Start=1,End=0)    

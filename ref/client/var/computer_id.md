@@ -1,4 +1,3 @@
-[]{#/computer_id var (client).md}    
 ## computer_id var (client)    
 **Default value:**    
 :   A unique numerical identifier for the player\'s computer. The value    

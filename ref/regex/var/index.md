@@ -1,4 +1,3 @@
-[]{#/index var (regex).md}    
 ## index var (regex) {#index-var-regex byondver="510"}    
 **See also:**    
 :   [regex datum](/regex)    

@@ -1,4 +1,3 @@
-[]{#/&gt;&gt;= operator.md}    
 ## \>\>= operator    
 **See also:**    
 :   [\>\> shift operator](/operator/%3e%3e/shift)    

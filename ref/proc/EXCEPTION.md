@@ -1,4 +1,3 @@
-[]{#/EXCEPTION proc.md}    
 ## EXCEPTION proc    
 **See also:**    
 :   [try and catch statements](/proc/try)    

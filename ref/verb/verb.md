@@ -1,4 +1,3 @@
-[]{#/verbs.md}    
 ## verbs.mds    
 **See also:**    
 :   [arguments (verbs.md)](/verbs.md/arguments)    

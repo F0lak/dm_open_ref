@@ -1,4 +1,3 @@
-[]{#/Columns proc (database query).md}    
 ## Columns proc (database query) {#columns-proc-database-query byondver="506"}    
 **See also:**    
 :   [database query datum](/database/query)    

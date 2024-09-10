@@ -1,4 +1,3 @@
-[]{#/main control (skin).md}/control/main}    
 ## main control (skin)    
 A container for other controls. The Main control takes two forms: a    
 window or a pane.    

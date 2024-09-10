@@ -1,4 +1,3 @@
-[]{#/vars (mob).md}    
 ## vars (mob)    
 Built-in mob vars:    
 vars (mob).md    

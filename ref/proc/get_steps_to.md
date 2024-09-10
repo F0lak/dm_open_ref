@@ -1,4 +1,3 @@
-[]{#/get_steps_to proc.md}    
 ## get_steps_to proc {#get_steps_to-proc byondver="515"}    
 **See also:**    
 :   [step proc](/proc/step)    

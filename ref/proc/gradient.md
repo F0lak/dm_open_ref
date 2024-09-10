@@ -1,4 +1,3 @@
-[]{#/gradient proc.md}    
 ## gradient proc    
 **See also:**    
 :   [Color gradient](/%7Bnotes%7D/color-gradient)    

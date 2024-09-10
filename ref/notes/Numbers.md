@@ -1,4 +1,3 @@
-[]{#/Numbers.md}/numbers}    
 ## Numbers    
 In DM, all numbers are stored in floating point format. Specifically,    
 single-precision (32-bit) floating point. This is important to know if    

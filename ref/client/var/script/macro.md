@@ -1,4 +1,3 @@
-[]{#/macros (client script).md}    
 ## macros (client script)    
 **See also:**    
 :   [macros (skin)](/%7Bskin%7D/macros)    

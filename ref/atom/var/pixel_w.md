@@ -1,4 +1,3 @@
-[]{#/pixel_w var (atom).md}    
 ## pixel_w var (atom) {#pixel_w-var-atom byondver="511"}    
 **See also:**    
 :   [animate_movement var (movable    

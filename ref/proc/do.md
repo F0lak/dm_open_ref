@@ -1,4 +1,3 @@
-[]{#/do proc.md}    
 ## do proc    
 **See also:**    
 :   [break statement](/proc/break)    

@@ -1,4 +1,3 @@
-[]{#/step_y var (pixloc).md}    
 ## step_y var (pixloc) {#step_y-var-pixloc byondver="516"}    
 **See also:**    
 :   [pixloc](/pixloc)    

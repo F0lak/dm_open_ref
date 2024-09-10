@@ -1,4 +1,3 @@
-[]{#/Exit proc (atom).md}    
 ## Exit proc (atom)    
 **See also:**    
 :   [Enter proc (atom)](/atom/proc/Enter)    

@@ -1,4 +1,3 @@
-[]{#/browser configuration.md}    
 ## browser configuration    
 **See also:**    
 :   [URL (client script)](/client/var/script/URL)    

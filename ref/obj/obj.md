@@ -1,4 +1,3 @@
-[]{#/obj.md}    
 ## obj.md    
 **See also:**    
 :   [atom](/atom)    

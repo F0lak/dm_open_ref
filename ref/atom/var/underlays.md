@@ -1,4 +1,3 @@
-[]{#/underlays var (atom).md}    
 ## underlays var (atom)    
 **See also:**    
 :   [icon var (atom)](/atom/var/icon)    

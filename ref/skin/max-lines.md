@@ -1,4 +1,3 @@
-[]{#/max-lines parameter (skin).md}/param/max-lines}    
 ## max-lines parameter (skin)    
 **Applies to:**    
 :   [Output](/%7Bskin%7D/control/output)    

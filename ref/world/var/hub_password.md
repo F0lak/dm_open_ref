@@ -1,4 +1,3 @@
-[]{#/hub_password var (world).md}    
 ## hub_password var (world)    
 **See also:**    
 :   [hub var (world)](/world/var/hub)    

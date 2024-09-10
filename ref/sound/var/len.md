@@ -1,4 +1,3 @@
-[]{#/len var (sound).md}    
 ## len var (sound) {#len-var-sound byondver="513"}    
 **See also:**    
 :   [vars (sound)](/sound/var)    

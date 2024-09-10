@@ -1,4 +1,3 @@
-[]{#/Pixel movement.md}/pixel-movement toc="Pixel movement"}    
 ## Pixel movement {#pixel-movement byondver="490"}    
 **See also:**    
 :   *Bounding boxes*    

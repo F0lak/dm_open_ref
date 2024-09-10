@@ -1,4 +1,3 @@
-[]{#/preprocessor.md}    
 ## preprocessor    
 The preprocessor performs various transformations on source code as the    
 DM compiler reads the file. It may be used to define macros---that is    

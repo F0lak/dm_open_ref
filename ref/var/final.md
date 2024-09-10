@@ -1,4 +1,3 @@
-[]{#/final vars.md}    
 ## final vars {#final-vars byondver="515"}    
 **See also:**    
 :   [vars](/var)    

@@ -1,4 +1,3 @@
-[]{#/invisibility setting (verb).md}    
 ## invisibility setting (verb)    
 **See also:**    
 :   [hidden setting (verb)](/verb/set/hidden)    

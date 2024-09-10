@@ -1,4 +1,3 @@
-[]{#/Width proc (icon).md}    
 ## Width proc (icon)    
 **See also:**    
 :   [icon](/icon)    

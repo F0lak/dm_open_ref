@@ -1,4 +1,3 @@
-[]{#/istype proc.md}    
 ## istype proc    
 **See also:**    
 :   [ispath proc](/proc/ispath)    

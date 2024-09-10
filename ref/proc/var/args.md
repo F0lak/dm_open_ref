@@ -1,4 +1,3 @@
-[]{#/args list var (proc).md}    
 ## args list var (proc)    
 **See also:**    
 :   [list](/list)    

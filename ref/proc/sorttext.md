@@ -1,4 +1,3 @@
-[]{#/sorttext proc.md}    
 ## sorttext proc    
 **See also:**    
 :   [\> operator](/operator/%3e)    

@@ -1,4 +1,3 @@
-[]{#/Color gradient.md}/color-gradient toc="Color gradient"}    
 ## Color gradient {#color-gradient byondver="514"}    
 **See also:**    
 :   [gradient proc](/proc/gradient)    

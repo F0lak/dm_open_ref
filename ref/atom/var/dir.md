@@ -1,4 +1,3 @@
-[]{#/dir var (atom).md}    
 ## dir var (atom)    
 **See also:**    
 :   [Move proc (movable atom)](/atom/movable/proc/Move)    

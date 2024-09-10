@@ -1,4 +1,3 @@
-[]{#/garbage collection.md}    
 ## garbage collection    
 **See also:**    
 :   [del proc](/proc/del)    

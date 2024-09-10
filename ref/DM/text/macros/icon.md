@@ -1,4 +1,3 @@
-[]{#/icon text macro.md}    
 ## icon text macro    
 **See also:**    
 :   [icon_state var (atom)](/atom/var/icon_state)    

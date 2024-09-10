@@ -1,4 +1,3 @@
-[]{#/override var (atom).md}    
 ## override var (atom)    
 **Default value:**    
 :   0    

@@ -1,4 +1,3 @@
-[]{#/Profile proc (world).md}    
 ## Profile proc (world) {#profile-proc-world byondver="513"}    
 **Format:**    
 :   Profile(command, format)    

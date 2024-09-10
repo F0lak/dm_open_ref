@@ -1,4 +1,3 @@
-[]{#/vars (atom).md}    
 ## vars (atom)    
 Built-in atom vars:    
 vars (atom).md    

@@ -1,4 +1,3 @@
-[]{#/call_ext proc.md}    
 ## call_ext proc {#call_ext-proc byondver="515"}    
 **See also:**    
 :   [load_ext proc](/proc/load_ext)    

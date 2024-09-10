@@ -1,4 +1,3 @@
-[]{#/oview proc.md}    
 ## oview proc    
 **See also:**    
 :   [\<\< output operator](/operator/%3c%3c/output)    

@@ -1,4 +1,3 @@
-[]{#/command_text (client).md}    
 ## command_text (client) {#command_text-client deprecated="1"}    
 **See also:**    
 :   [arguments (verb)](/verb/arguments)    

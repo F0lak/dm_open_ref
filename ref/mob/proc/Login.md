@@ -1,4 +1,3 @@
-[]{#/Login proc (mob).md}    
 ## Login proc (mob)    
 **See also:**    
 :   [Logout proc (mob)](/mob/proc/Logout)    

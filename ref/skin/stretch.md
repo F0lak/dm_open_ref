@@ -1,4 +1,3 @@
-[]{#/stretch parameter (skin).md}/param/stretch}    
 ## stretch parameter (skin) {#stretch-parameter-skin deprecated="1"}    
 **See also:**    
 :   [image parameter](/%7Bskin%7D/param/image)    

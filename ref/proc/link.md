@@ -1,4 +1,3 @@
-[]{#/link proc.md}    
 ## link proc    
 **See also:**    
 :   [\<\< output operator](/operator/%3c%3c/output)    

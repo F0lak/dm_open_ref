@@ -1,4 +1,3 @@
-[]{#/contents list var (world).md}    
 ## contents list var (world)    
 **See also:**    
 :   [list](/list)    

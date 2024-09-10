@@ -1,4 +1,3 @@
-[]{#/mob var (client).md}    
 ## mob var (client)    
 **Default value:**    
 :   Determined in client.New(), by default world.mob.    

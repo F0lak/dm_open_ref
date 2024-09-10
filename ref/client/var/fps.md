@@ -1,4 +1,3 @@
-[]{#/fps var (client).md}    
 ## fps var (client) {#fps-var-client byondver="511"}    
 **See also:**    
 :   [fps var (world)](/world/var/fps)    

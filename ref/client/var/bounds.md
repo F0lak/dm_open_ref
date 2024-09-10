@@ -1,4 +1,3 @@
-[]{#/bounds var (client).md}    
 ## bounds var (client) {#bounds-var-client byondver="509"}    
 (Also `bound_x`, `bound_y`, `bound_width`, and `bound_height`.)    
 **See also:**    

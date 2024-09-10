@@ -1,4 +1,3 @@
-[]{#/refcount proc.md}    
 ## refcount proc {#refcount-proc byondver="515"}    
 **See also:**    
 :   [garbage collection](/DM/garbage)    

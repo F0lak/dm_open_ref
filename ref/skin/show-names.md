@@ -1,4 +1,3 @@
-[]{#/show-names parameter (skin).md}/param/show-names}    
 ## show-names parameter (skin)    
 **See also:**    
 :   [name var (atom)](/atom/var/name)    

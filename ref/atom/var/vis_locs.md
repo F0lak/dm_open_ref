@@ -1,4 +1,3 @@
-[]{#/vis_locs var (atom).md}    
 ## vis_locs var (atom) {#vis_locs-var-atom byondver="512"}    
 **See also:**    
 :   [vis_contents var (atom)](/atom/var/vis_contents)    

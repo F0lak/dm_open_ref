@@ -1,4 +1,3 @@
-[]{#/DM_BUILD macro.md}    
 ## DM_BUILD macro    
 **See also:**    
 :   [byond_build var (world)](/world/var/byond_build)    

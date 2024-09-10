@@ -1,4 +1,3 @@
-[]{#/pixel_y var (atom).md}    
 ## pixel_y var (atom)    
 **See also:**    
 :   [animate_movement var (movable    

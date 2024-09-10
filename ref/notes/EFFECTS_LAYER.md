@@ -1,4 +1,3 @@
-[]{#/EFFECTS_LAYER.md}/EFFECTS_LAYER}    
 ## EFFECTS_LAYER    
 **See also:**    
 :   [layer var (atom)](/atom/var/layer)    

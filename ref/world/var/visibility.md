@@ -1,4 +1,3 @@
-[]{#/visibility var (world).md}    
 ## visibility var (world)    
 **See also:**    
 :   [OpenPort proc (world)](/world/proc/OpenPort)    

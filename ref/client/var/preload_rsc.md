@@ -1,4 +1,3 @@
-[]{#/preload_rsc var (client).md}    
 ## preload_rsc var (client)    
 **Default value:**    
 :   1\.    

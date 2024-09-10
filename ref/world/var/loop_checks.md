@@ -1,4 +1,3 @@
-[]{#/loop_checks var (world).md}    
 ## loop_checks var (world)    
 **Default value:**    
 :   1    

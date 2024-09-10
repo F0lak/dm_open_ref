@@ -1,4 +1,3 @@
-[]{#/mouse_drop_zone var (atom).md}    
 ## mouse_drop_zone var (atom)    
 **See also:**    
 :   [MouseDrag proc (atom)](/atom/proc/MouseDrag)    

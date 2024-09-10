@@ -1,4 +1,3 @@
-[]{#/line-color parameter (skin).md}/param/line-color}    
 ## line-color parameter (skin)    
 **See also:**    
 :   [background-color parameter](/%7Bskin%7D/param/background-color)    

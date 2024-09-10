@@ -1,4 +1,3 @@
-[]{#/zoom-mode parameter (skin).md}/param/zoom-mode}    
 ## zoom-mode parameter (skin) {#zoom-mode-parameter-skin byondver="511"}    
 **See also:**    
 :   [letterbox parameter](/%7Bskin%7D/param/letterbox)    

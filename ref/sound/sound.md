@@ -1,4 +1,3 @@
-[]{#/sound datum.md}    
 ## sound datum.md datum    
 **See also:**    
 :   [vars (sound datum.md)](/sound datum.md/var)    

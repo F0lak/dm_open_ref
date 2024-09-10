@@ -1,4 +1,3 @@
-[]{#/clamp proc.md}    
 ## clamp proc {#clamp-proc byondver="513"}    
 **See also:**    
 :   [min proc](/proc/min)    

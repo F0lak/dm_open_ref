@@ -1,4 +1,3 @@
-[]{#/islist proc.md}    
 ## islist proc {#islist-proc byondver="513"}    
 **See also:**    
 :   [list](/list)    

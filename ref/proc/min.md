@@ -1,4 +1,3 @@
-[]{#/min proc.md}    
 ## min proc    
 **See also:**    
 :   [max proc](/proc/max)    

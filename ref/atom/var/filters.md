@@ -1,4 +1,3 @@
-[]{#/filters var (atom).md}    
 ## filters var (atom) {#filters-var-atom byondver="512"}    
 **See also:**    
 :   [appearance_flags var (atom)](/atom/var/appearance_flags)    

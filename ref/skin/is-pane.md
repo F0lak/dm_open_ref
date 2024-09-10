@@ -1,4 +1,3 @@
-[]{#/is-pane parameter (skin).md}/param/is-pane}    
 ## is-pane parameter (skin)    
 **See also:**    
 :   [id parameter](/%7Bskin%7D/param/id)    

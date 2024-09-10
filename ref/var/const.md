@@ -1,4 +1,3 @@
-[]{#/const vars.md}    
 ## const vars    
 **See also:**    
 :   [vars](/var)    

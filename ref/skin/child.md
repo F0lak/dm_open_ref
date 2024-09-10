@@ -1,4 +1,3 @@
-[]{#/child control (skin).md}/control/child}    
 ## child control (skin)    
 A container that can hold one or two [panes](/%7Bskin%7D/control/main).    
 If it holds two panes, a splitter may appear between them. This control    

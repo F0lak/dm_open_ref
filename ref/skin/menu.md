@@ -1,4 +1,3 @@
-[]{#/menu parameter (skin).md}/param/menu}    
 ## menu parameter (skin)    
 **See also:**    
 :   [macro parameter](/%7Bskin%7D/param/macro)    

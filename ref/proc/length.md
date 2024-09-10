@@ -1,4 +1,3 @@
-[]{#/length proc.md}    
 ## length proc    
 **See also:**    
 :   [vector](/vector)    

@@ -1,4 +1,3 @@
-[]{#/CheckPassport proc (client).md}    
 ## CheckPassport proc (client)    
 **See also:**    
 :   [IsSubscribed proc (world)](/world/proc/IsSubscribed)    

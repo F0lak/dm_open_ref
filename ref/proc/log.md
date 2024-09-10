@@ -1,4 +1,3 @@
-[]{#/log proc.md}    
 ## log proc    
 **See also:**    
 :   [\*\* operator](/operator/**)    

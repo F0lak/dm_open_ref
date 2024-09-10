@@ -1,4 +1,3 @@
-[]{#/sound proc.md}    
 ## sound proc    
 **See also:**    
 :   [sound datum](/sound)    

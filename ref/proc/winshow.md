@@ -1,4 +1,3 @@
-[]{#/winshow proc.md}    
 ## winshow proc    
 **See also:**    
 :   [winclone proc](/proc/winclone)    

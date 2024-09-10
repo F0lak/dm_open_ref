@@ -1,4 +1,3 @@
-[]{#/group list var (mob).md}    
 ## group list var (mob)    
 **See also:**    
 :   [Bump proc (movable atom)](/atom/movable/proc/Bump)    

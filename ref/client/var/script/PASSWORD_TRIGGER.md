@@ -1,4 +1,3 @@
-[]{#/PASSWORD_TRIGGER (client script).md}    
 ## PASSWORD_TRIGGER (client script)    
 **Format:**    
 :   #define PASSWORD_TRIGGER \"assword:\"    

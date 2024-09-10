@@ -1,4 +1,3 @@
-[]{#/MapColors proc (icon).md}    
 ## MapColors proc (icon)    
 **See also:**    
 :   [icon](/icon)    

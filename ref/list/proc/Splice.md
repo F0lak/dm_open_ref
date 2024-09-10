@@ -1,4 +1,3 @@
-[]{#/Splice proc (list).md}    
 ## Splice proc (list) {#splice-proc-list byondver="514"}    
 **See also:**    
 :   [Copy proc (list)](/list/proc/Copy)    

@@ -1,4 +1,3 @@
-[]{#/list.md}    
 ## list.md    
 **See also:**    
 :   [list.md associations](/list.md/associations)    

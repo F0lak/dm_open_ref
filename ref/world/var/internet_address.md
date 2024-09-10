@@ -1,4 +1,3 @@
-[]{#/internet_address var (world).md}    
 ## internet_address var (world)    
 **See also:**    
 :   [port var (world)](/world/var/port)    

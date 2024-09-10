@@ -1,4 +1,3 @@
-[]{#/client var (mob).md}    
 ## client var (mob)    
 **See also:**    
 :   [client](/client)    

@@ -1,4 +1,3 @@
-[]{#/Angular blur filter.md}/filters/angular_blur toc="Angular blur (filters)"}    
 ## Angular blur filter {#angular-blur-filter byondver="513"}    
 **See also:**    
 :   [Gaussian blur (filters)](/%7Bnotes%7D/filters/blur)    

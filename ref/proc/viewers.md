@@ -1,4 +1,3 @@
-[]{#/viewers.md}    
 ## viewers    
 **See also:**    
 :   [hearers](/proc/hearers)    

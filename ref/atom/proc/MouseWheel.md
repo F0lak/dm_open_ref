@@ -1,4 +1,3 @@
-[]{#/MouseWheel proc (atom).md}    
 ## MouseWheel proc (atom) {#mousewheel-proc-atom byondver="508"}    
 **See also:**    
 :   [Click proc (atom)](/atom/proc/Click)    

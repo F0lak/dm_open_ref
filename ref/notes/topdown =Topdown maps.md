@@ -1,4 +1,3 @@
-[]{#/Topdown maps.md}/topdown toc="Topdown maps"}    
 ## Topdown maps    
 **See also:**    
 :   [map_format var (world)](/world/var/map_format)    

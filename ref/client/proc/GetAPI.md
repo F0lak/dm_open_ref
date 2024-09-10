@@ -1,4 +1,3 @@
-[]{#/GetAPI proc (client).md}    
 ## GetAPI proc (client) {#getapi-proc-client byondver="514"}    
 **See also:**    
 :   [SetAPI proc (client)](/client/proc/SetAPI)    

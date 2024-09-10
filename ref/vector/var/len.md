@@ -1,4 +1,3 @@
-[]{#/len var (vector).md}    
 ## len var (vector) {#len-var-vector byondver="516"}    
 **See also:**    
 :   [length proc](/proc/length)    

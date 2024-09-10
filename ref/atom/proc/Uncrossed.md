@@ -1,4 +1,3 @@
-[]{#/Uncrossed proc (atom).md}    
 ## Uncrossed proc (atom) {#uncrossed-proc-atom byondver="490"}    
 **See also:**    
 :   [Enter proc (atom)](/atom/proc/Enter)    

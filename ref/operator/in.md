@@ -1,4 +1,3 @@
-[]{#/in operator.md}    
 ## in operator    
 **See also:**    
 :   [list](/list)    

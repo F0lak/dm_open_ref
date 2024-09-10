@@ -1,4 +1,3 @@
-[]{#/transparent-color parameter (skin).md}/param/transparent-color}    
 ## transparent-color parameter (skin) {#transparent-color-parameter-skin deprecated="1"}    
 **See also:**    
 :   [alpha parameter](/%7Bskin%7D/param/alpha)    

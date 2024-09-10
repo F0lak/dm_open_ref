@@ -1,4 +1,3 @@
-[]{#/key var (mob).md}    
 ## key var (mob)    
 **See also:**    
 :   [ckey var (mob)](/mob/var/ckey)    

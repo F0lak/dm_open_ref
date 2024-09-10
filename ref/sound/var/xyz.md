@@ -1,4 +1,3 @@
-[]{#/x, y, and z vars (sound).md}    
 ## x, y, and z vars (sound)    
 **See also:**    
 :   [vars (sound)](/sound/var)    

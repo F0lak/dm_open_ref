@@ -1,4 +1,3 @@
-[]{#/tab-text-color parameter (skin).md}/param/tab-text-color}    
 ## tab-text-color parameter (skin)    
 **See also:**    
 :   [text-color parameter](/%7Bskin%7D/param/text-color)    

@@ -1,4 +1,3 @@
-[]{#/info control (skin).md}/control/info}    
 ## info control (skin)    
 The classic BYOND statpanel, which contains both stat and verb tabs.    
 This is technically a 3-column grid with a variable number of rows.    

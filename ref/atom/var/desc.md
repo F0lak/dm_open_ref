@@ -1,4 +1,3 @@
-[]{#/desc var (atom).md}    
 ## desc var (atom)    
 **Default value:**    
 :   null    

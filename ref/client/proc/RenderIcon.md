@@ -1,8 +1,8 @@
 []{#/RenderIcon proc (client).md}    
 ## RenderIcon proc (client) {#rendericon-proc-client byondver="515"}    
 **See also:**    
-:   [vis_contents var (atom)]/atom/var/vis_contents    
-:   [Filter effects]/%7Bnotes%7D/filters    
+:   [vis_contents var (atom)](/atom/var/vis_contents)    
+:   [Filter effects](/%7Bnotes%7D/filters)    
 <!-- -->    
 **Format:**    
 :   RenderIcon(object)    
@@ -24,16 +24,16 @@ include room for any expansion due to filter effects.
 mob/proc/GetFlatIcon() return client?.RenderIcon(src)    
 Important notes regarding this proc:    
 -   The returned icon is a cache file, *not* an `/icon` datum.    
--   If `object` is an [`/image` object]/image, the image must be    
+-   If `object` is an [`/image` object](/image), the image must be    
     known to the client. Otherwise the return value is null.    
 -   If this object doesn\'t appear on the client\'s map, it will be sent    
     to them on the next map tick, along with any visual contents. The    
     server will hold a reference to the object until the map tick ends,    
     so an object you create temporarily should remain valid long enough    
     to be rendered.    
--   [render_source]/atom/var/render_source{.code} will not work    
+-   [render_source](/atom/var/render_source){.code} will not work    
     unless the corresponding    
-    [render_target]/atom/var/render_target{.code} appears in the same    
+    [render_target](/atom/var/render_target){.code} appears in the same    
     render stack. That is, this object or appearance will be rendered in    
     an isolated \"scene\" rather than as part of the map, so it won\'t    
     be able to use other objects on the map as render sources.  

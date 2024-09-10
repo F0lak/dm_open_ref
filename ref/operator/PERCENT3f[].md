@@ -1,11 +1,11 @@
 []{#/QMARK[] operator.md}    
 ## ?\[\] operator {#operator byondver="514"}    
 **See also:**    
-:   [list]/list    
-:   [operators]/operator    
-:   [\[\] operator]/operator/%5B%5D    
-:   [?. operator]/operator/%3f%2e    
-:   [?: operator]/operator/%3f:    
+:   [list](/list)    
+:   [operators](/operator)    
+:   [\[\] operator](/operator/%5B%5D)    
+:   [?. operator](/operator/%3f%2e)    
+:   [?: operator](/operator/%3f:)    
 This is the null-conditional list index operator. It is used to access    
 an element of a list, IF that list is not null. If the list is null,    
 then the access will not happen and the index expression inside the    

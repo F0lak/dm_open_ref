@@ -1,10 +1,10 @@
 []{#/map_cpu var (world).md}    
 ## map_cpu var (world) {#map_cpu-var-world byondver="514"}    
 **See also:**    
-:   [cpu var (world)]/world/var/cpu    
-:   [tick_lag var (world)]/world/var/tick_lag    
-:   [tick_usage var (world)]/world/var/tick_usage    
-:   [Tick proc (world)]/world/proc/Tick    
+:   [cpu var (world)](/world/var/cpu)    
+:   [tick_lag var (world)](/world/var/tick_lag)    
+:   [tick_usage var (world)](/world/var/tick_usage)    
+:   [Tick proc (world)](/world/proc/Tick)    
 This is the percentage of a server tick that the server spends    
 processing information about the map to send to players. A value of 0    
 would indicate very little cpu usage. A value of 100 would indicate full    

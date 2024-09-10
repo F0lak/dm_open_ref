@@ -1,8 +1,8 @@
 []{#/Bump proc (movable atom).md}    
 ## Bump proc (movable atom)    
 **See also:**    
-:   [Move proc (movable atom)]/atom/movable/proc/Move    
-:   [Pixel movement]/%7Bnotes%7D/pixel-movement    
+:   [Move proc (movable atom)](/atom/movable/proc/Move)    
+:   [Pixel movement](/%7Bnotes%7D/pixel-movement)    
 <!-- -->    
 **Format:**    
 :   Bump(atom/Obstacle)    

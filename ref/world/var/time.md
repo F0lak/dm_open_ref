@@ -1,8 +1,8 @@
 []{#/time var (world).md}    
 ## time var (world)    
 **See also:**    
-:   [realtime var (world)]/world/var/realtime    
-:   [tick_lag var (world)]/world/var/tick_lag    
+:   [realtime var (world)](/world/var/realtime)    
+:   [tick_lag var (world)](/world/var/tick_lag)    
 This gives the amount of time (in 1/10 seconds) that the world has been    
 running. In actual fact, it is the number of server ticks that have    
 passed multiplied by world.tick_lag. Therefore if the server sleeps    

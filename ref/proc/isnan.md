@@ -1,8 +1,8 @@
 []{#/isnan proc.md}    
 ## isnan proc {#isnan-proc byondver="515"}    
 **See also:**    
-:   [isnum proc]/proc/isnum    
-:   [isinf proc]/proc/isinf    
+:   [isnum proc](/proc/isnum)    
+:   [isinf proc](/proc/isinf)    
 :   [Numbers](/%7Bnotes%7D/numbers)    
 <!-- -->    
 **Format:**    

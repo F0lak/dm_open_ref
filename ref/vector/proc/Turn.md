@@ -1,10 +1,10 @@
 []{#/Turn proc (vector).md}    
 ## Turn proc (vector) {#turn-proc-vector byondver="516"}    
 **See also:**    
-:   [turn proc (applied to a vector)]/proc/turn/vector    
-:   [vector]/vector    
-:   [vector proc]/proc/vector    
-:   [vars (vector)]/vector/var    
+:   [turn proc (applied to a vector)](/proc/turn/vector)    
+:   [vector](/vector)    
+:   [vector proc](/proc/vector)    
+:   [vars (vector)](/vector/var)    
 <!-- -->    
 **Format:**    
 :   A.Turn(angle)    

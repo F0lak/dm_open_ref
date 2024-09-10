@@ -1,7 +1,7 @@
 []{#/log proc.md}    
 ## log proc    
 **See also:**    
-:   [\*\* operator]/operator/**    
+:   [\*\* operator](/operator/**)    
 <!-- -->    
 **Format:**    
 :   log(X,Y)    

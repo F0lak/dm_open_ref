@@ -1,7 +1,7 @@
 []{#/Join proc (list).md}    
 ## Join proc (list) {#join-proc-list byondver="510"}    
 **See also:**    
-:   [jointext proc]/proc/jointext    
+:   [jointext proc](/proc/jointext)    
 <!-- -->    
 **Format:**    
 :   list.Join(Glue,Start=1,End=0)    

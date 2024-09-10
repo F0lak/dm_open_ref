@@ -1,10 +1,10 @@
 []{#/floor proc.md}    
 ## floor proc {#floor-proc byondver="515"}    
 **See also:**    
-:   [ceil proc]/proc/ceil    
-:   [round proc]/proc/round    
-:   [trunc proc]/proc/trunc    
-:   [fract proc]/proc/fract    
+:   [ceil proc](/proc/ceil)    
+:   [round proc](/proc/round)    
+:   [trunc proc](/proc/trunc)    
+:   [fract proc](/proc/fract)    
 <!-- -->    
 **Format:**    
 :   floor(A)    

@@ -1,8 +1,8 @@
 []{#/PERCENT= operator.md}    
 ## %= operator    
 **See also:**    
-:   [% operator]/operator/%    
-:   [operators]/operator    
+:   [% operator](/operator/%)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A %= B    

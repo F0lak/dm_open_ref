@@ -1,7 +1,7 @@
 []{#/DOTDOT proc.md}    
 ## .. proc    
 **See also:**    
-:   [. proc]/proc/%2e    
+:   [. proc](/proc/%2e)    
 <!-- -->    
 **Format:**    
 :   ..(Args)    

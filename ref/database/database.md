@@ -1,9 +1,9 @@
 []{#/database datum.md}    
 ## database datum.md datum {#database datum.md-datum byondver="506"}    
 **See also:**    
-:   [database datum.md query datum]/database datum.md/query    
-:   [procs (database datum.md)]/database datum.md/proc    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [database datum.md query datum](/database datum.md/query)    
+:   [procs (database datum.md)](/database datum.md/proc)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 A /database datum.md datum gives you the ability to create or access a database datum.md    
 using SQLite, which allows you to run complex database datum.md queries on any    
 platform.    

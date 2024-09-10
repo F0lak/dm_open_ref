@@ -1,10 +1,10 @@
 []{#/Splice proc (list).md}    
 ## Splice proc (list) {#splice-proc-list byondver="514"}    
 **See also:**    
-:   [Copy proc (list)]/list/proc/Copy    
-:   [Cut proc (list)]/list/proc/Cut    
-:   [Insert proc (list)]/list/proc/Insert    
-:   [splicetext proc]/proc/splicetext    
+:   [Copy proc (list)](/list/proc/Copy)    
+:   [Cut proc (list)](/list/proc/Cut)    
+:   [Insert proc (list)](/list/proc/Insert)    
+:   [splicetext proc](/proc/splicetext)    
 <!-- -->    
 **Format:**    
 :   list.Splice(Start=1,End=0,Item1,Item2\...)    

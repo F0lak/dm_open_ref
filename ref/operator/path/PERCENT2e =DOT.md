@@ -1,8 +1,8 @@
 []{#/DOT path operator.md}    
 ## . path operator    
 **See also:**    
-:   [/ path operator]/operator/path//    
-:   [: path operator]/operator/path/:    
+:   [/ path operator](/operator/path//)    
+:   [: path operator](/operator/path/:)    
 The dot operator may be used as a short-cut when specifying a path in    
 the DM code tree. Instead of specifying the full path, you can start a    
 path with a dot and the compiler will search up in the code tree for the    

@@ -1,9 +1,9 @@
 []{#/ASSERT proc.md}    
 ## ASSERT proc    
 **See also:**    
-:   [CRASH proc]/proc/CRASH    
-:   [DEBUG definition]/DM/preprocessor/define/DEBUG    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [CRASH proc](/proc/CRASH)    
+:   [DEBUG definition](/DM/preprocessor/define/DEBUG)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 <!-- -->    
 **Format:**    
 :   ASSERT(expression)    

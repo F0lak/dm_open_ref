@@ -1,9 +1,9 @@
 []{#/sorttextEx proc.md}    
 ## sorttextEx proc    
 **See also:**    
-:   [\> operator]/operator/%3e    
-:   [\< operator]/operator/%3c    
-:   [sorttext proc]/proc/sorttext    
+:   [\> operator](/operator/%3e)    
+:   [\< operator](/operator/%3c)    
+:   [sorttext proc](/proc/sorttext)    
 <!-- -->    
 **Format:**    
 :   sorttextEx(T1,T2,\...)    

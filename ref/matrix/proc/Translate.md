@@ -1,9 +1,9 @@
 []{#/Translate proc (matrix).md}    
 ## Translate proc (matrix)    
 **See also:**    
-:   [matrix]/matrix    
-:   [matrix operators]/matrix/operators    
-:   [matrix procs]/matrix/proc    
+:   [matrix](/matrix)    
+:   [matrix operators](/matrix/operators)    
+:   [matrix procs](/matrix/proc)    
 <!-- -->    
 **Format:**    
 :   Translate(x,y)    

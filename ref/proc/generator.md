@@ -1,12 +1,12 @@
 []{#/generator proc.md}    
 ## generator proc {#generator-proc byondver="514"}    
 **See also:**    
-:   [Generators]/%7Bnotes%7D/generators    
-:   [Particle effects]/%7Bnotes%7D/particles    
-:   [color var (atom)]/atom/var/color    
-:   [Color matrix]/%7Bnotes%7D/color-matrix    
-:   [vector]/vector    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [Generators](/%7Bnotes%7D/generators)    
+:   [Particle effects](/%7Bnotes%7D/particles)    
+:   [color var (atom)](/atom/var/color)    
+:   [Color matrix](/%7Bnotes%7D/color-matrix)    
+:   [vector](/vector)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 <!-- -->    
 **Format:**    
 :   generator(type, A, B, rand)    
@@ -44,5 +44,5 @@ you can get a random value from it by calling its `Rand()` proc.
 var/generator/G = generator(\"num\", -1, 1) // generates a random number    
 between -1 and 1 world \<\< G.Rand() // generate a number and output it    
 to world    
-Note: Worlds compiled in older BYOND versions before [vector]/vector    
+Note: Worlds compiled in older BYOND versions before [vector](/vector)    
 will return lists from vector generators.  

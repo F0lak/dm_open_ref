@@ -1,12 +1,12 @@
 []{#/image objects.md}    
 ## image objects.md objects    
 **See also:**    
-:   [icon var (atom)]/atom/var/icon    
-:   [image objects.md proc]/proc/image objects.md    
-:   [vars (image objects.md)]/image objects.md/var    
-:   [image objects.mds var (client)]/client/var/image objects.mds    
-:   [overlays var (atom)]/atom/var/overlays    
-:   [override var (atom)]/atom/var/override    
+:   [icon var (atom)](/atom/var/icon)    
+:   [image objects.md proc](/proc/image objects.md)    
+:   [vars (image objects.md)](/image objects.md/var)    
+:   [image objects.mds var (client)](/client/var/image objects.mds)    
+:   [overlays var (atom)](/atom/var/overlays)    
+:   [override var (atom)](/atom/var/override)    
 The /image objects.md type contains data used to create a virtual image objects.md. Unlike    
 other atomic objects, this object is a purely visual effect. It always    
 appears attached to some other object and it behaves in every way as    

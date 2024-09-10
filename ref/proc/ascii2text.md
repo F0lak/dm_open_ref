@@ -1,8 +1,8 @@
 []{#/ascii2text proc.md}    
 ## ascii2text proc    
 **See also:**    
-:   [entities (text)]/DM/text/entities    
-:   [text2ascii proc]/proc/text2ascii    
+:   [entities (text)](/DM/text/entities)    
+:   [text2ascii proc](/proc/text2ascii)    
 <!-- -->    
 **Format:**    
 :   ascii2text(N)    
@@ -18,6 +18,6 @@ in HTML. This proc converts an ASCII code to its corresponding text
 representation.    
 ### Example:    
 T = ascii2text(65) // = \"A\"    
-BYOND now supports [Unicode]/%7Bnotes%7D/Unicode via UTF-8 encoding,    
+BYOND now supports [Unicode](/%7Bnotes%7D/Unicode) via UTF-8 encoding,    
 so you can use the character code for any valid Unicode character, not    
 just ASCII.  

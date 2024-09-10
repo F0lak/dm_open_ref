@@ -13,7 +13,7 @@ definition any place you want. That often means putting it at the top
 //parent type is /Armor, which in turn inherits from /obj weight = 100    
 color = \"rusty\" strength = 10    
 If you don\'t specify the parent_type for an object defined at the top    
-level, it defaults to [/datum]/datum, which (with just a couple    
+level, it defaults to [/datum](/datum), which (with just a couple    
 exceptions) is the ultimate ancestor of all object types. You could use    
 that fact to define procedures or variables that you need all of your    
 objects to share.    

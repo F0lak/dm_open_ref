@@ -1,7 +1,7 @@
 []{#/Del proc (client).md}    
 ## Del proc (client)    
 **See also:**    
-:   [Logout proc (mob)]/mob/proc/Logout    
+:   [Logout proc (mob)](/mob/proc/Logout)    
 <!-- -->    
 **Format:**    
 :   Del()    

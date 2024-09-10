@@ -1,11 +1,11 @@
 []{#/RowsAffected proc (database query).md}    
 ## RowsAffected proc (database query) {#rowsaffected-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum]/database    
-:   [database query datum]/database/query    
-:   [Execute proc (database query)]/database/query/proc/Execute    
+:   [database datum](/database)    
+:   [database query datum](/database/query)    
+:   [Execute proc (database query)](/database/query/proc/Execute)    
 :   [RowsAffected proc (database    
-    query)]/RowsAffected proc (database query.md)    
+    query)](/RowsAffected proc (database query).md)    
 <!-- -->    
 **Format:**    
 :   RowsAffected()    

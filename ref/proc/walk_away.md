@@ -1,9 +1,9 @@
 []{#/walk_away proc.md}    
 ## walk_away proc    
 **See also:**    
-:   [get_step_away proc]/proc/get_step_away    
-:   [step_away proc]/proc/step_away    
-:   [step_size var (movable atom)]/atom/movable/var/step_size    
+:   [get_step_away proc](/proc/get_step_away)    
+:   [step_away proc](/proc/step_away)    
+:   [step_size var (movable atom)](/atom/movable/var/step_size)    
 <!-- -->    
 **Format:**    
 :   walk_away(Ref,Trg,Max=5,Lag=0,Speed=0)    

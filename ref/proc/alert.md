@@ -1,7 +1,7 @@
 []{#/alert proc.md}    
 ## alert proc    
 **See also:**    
-:   [input proc]/proc/input    
+:   [input proc](/proc/input)    
 <!-- -->    
 **Format:**    
 :   alert(Usr=usr,Message,Title,Button1=\"Ok\",Button2,Button3)    

@@ -1,10 +1,10 @@
 []{#/map.md}    
 ## map.md    
 **See also:**    
-:   [#include directive]/DM/preprocessor/include    
-:   [area var (world)]/world/var/area    
-:   [maxx var (world)]/world/var/maxx    
-:   [turf var (world)]/world/var/turf    
+:   [#include directive](/DM/preprocessor/include)    
+:   [area var (world)](/world/var/area)    
+:   [maxx var (world)](/world/var/maxx)    
+:   [turf var (world)](/world/var/turf)    
 <!-- -->    
 **Format:**    
 :   #include \"map.mdname.dmm\"    

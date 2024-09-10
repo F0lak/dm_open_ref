@@ -1,11 +1,11 @@
 []{#/button-type parameter (skin).md}/param/button-type}    
 ## button-type parameter (skin)    
 **See also:**    
-:   [group parameter]/%7Bskin%7D/param/group    
-:   [is-checked parameter]/%7Bskin%7D/param/is-checked    
+:   [group parameter](/%7Bskin%7D/param/group)    
+:   [is-checked parameter](/%7Bskin%7D/param/is-checked)    
 <!-- -->    
 **Applies to:**    
-:   [Button]/%7Bskin%7D/control/button    
+:   [Button](/%7Bskin%7D/control/button)    
 <!-- -->    
 **Possible values:**    
 :   pushbutton: press once    

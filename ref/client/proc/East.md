@@ -1,7 +1,7 @@
 []{#/East proc (client).md}    
 ## East proc (client)    
 **See also:**    
-:   [Move proc (client)]/client/proc/Move    
+:   [Move proc (client)](/client/proc/Move)    
 <!-- -->    
 **Format:**    
 :   East()    

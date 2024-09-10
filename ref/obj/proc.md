@@ -2,29 +2,29 @@
 ## procs (obj)    
 Built-in obj procs:    
 procs (obj).md    
-:   [Bump]/atom/movable/proc/Bump    
-:   [Click]/atom/proc/Click    
-:   [Cross proc]/atom/proc/Cross    
-:   [Crossed proc]/atom/proc/Crossed    
-:   [DblClick]/atom/proc/DblClick    
-:   [Del]/datum/proc/Del    
-:   [Enter]/atom/proc/Enter    
-:   [Entered]/atom/proc/Entered    
-:   [Exit]/atom/proc/Exit    
-:   [Exited]/atom/proc/Exited    
-:   [MouseDown]/atom/proc/MouseDown    
-:   [MouseDrag]/atom/proc/MouseDrag    
-:   [MouseDrop]/atom/proc/MouseDrop    
-:   [MouseEntered]/atom/proc/MouseEntered    
-:   [MouseExited]/atom/proc/MouseExited    
-:   [MouseMove]/atom/proc/MouseMove    
-:   [MouseUp]/atom/proc/MouseUp    
-:   [MouseWheel]/atom/proc/MouseWheel    
-:   [Move]/atom/movable/proc/Move    
-:   [New]/atom/proc/New    
-:   [Read]/datum/proc/Read    
-:   [Stat]/atom/proc/Stat    
-:   [Topic]/datum/proc/Topic    
-:   [Uncross proc]/atom/proc/Uncross    
-:   [Uncrossed proc]/atom/proc/Uncrossed    
-:   [Write]/datum/proc/Write  
+:   [Bump](/atom/movable/proc/Bump)    
+:   [Click](/atom/proc/Click)    
+:   [Cross proc](/atom/proc/Cross)    
+:   [Crossed proc](/atom/proc/Crossed)    
+:   [DblClick](/atom/proc/DblClick)    
+:   [Del](/datum/proc/Del)    
+:   [Enter](/atom/proc/Enter)    
+:   [Entered](/atom/proc/Entered)    
+:   [Exit](/atom/proc/Exit)    
+:   [Exited](/atom/proc/Exited)    
+:   [MouseDown](/atom/proc/MouseDown)    
+:   [MouseDrag](/atom/proc/MouseDrag)    
+:   [MouseDrop](/atom/proc/MouseDrop)    
+:   [MouseEntered](/atom/proc/MouseEntered)    
+:   [MouseExited](/atom/proc/MouseExited)    
+:   [MouseMove](/atom/proc/MouseMove)    
+:   [MouseUp](/atom/proc/MouseUp)    
+:   [MouseWheel](/atom/proc/MouseWheel)    
+:   [Move](/atom/movable/proc/Move)    
+:   [New](/atom/proc/New)    
+:   [Read](/datum/proc/Read)    
+:   [Stat](/atom/proc/Stat)    
+:   [Topic](/datum/proc/Topic)    
+:   [Uncross proc](/atom/proc/Uncross)    
+:   [Uncrossed proc](/atom/proc/Uncrossed)    
+:   [Write](/datum/proc/Write)  

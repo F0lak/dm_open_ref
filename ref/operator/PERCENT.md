@@ -1,9 +1,9 @@
 []{#/PERCENT operator.md}    
 ## % operator    
 **See also:**    
-:   [%= operator]/PERCENT operator.md=    
-:   [%% operator]/PERCENT operator.md25%25    
-:   [operators]/operator    
+:   [%= operator](/PERCENT operator.md=)    
+:   [%% operator](/PERCENT operator.md25%25)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A % B    

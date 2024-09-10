@@ -1,7 +1,7 @@
 []{#/addtext proc.md}    
 ## addtext proc    
 **See also:**    
-:   [+ operator]/operator/+    
+:   [+ operator](/operator/+)    
 <!-- -->    
 **Format:**    
 :   addtext(Arg1,Arg2,\...)    

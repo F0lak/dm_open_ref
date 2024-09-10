@@ -1,13 +1,13 @@
 []{#/icon proc.md}    
 ## icon proc    
 **See also:**    
-:   [file proc]/proc/file    
-:   [icon_states proc]/icon proc.md_states    
-:   [icons]/DM/icon    
+:   [file proc](/proc/file)    
+:   [icon_states proc](/icon proc.md_states)    
+:   [icons](/DM/icon)    
 <!-- -->    
 **Format:**    
 :   icon(icon,state,dir,frame,moving)    
-:   [(supports [named arguments]/proc/arguments/named)]{.small}    
+:   [(supports [named arguments](/proc/arguments/named))]{.small}    
 <!-- -->    
 **Args:**    
 :   icon: an icon file or /icon object    

@@ -1,11 +1,11 @@
 []{#/pixel_z var (client).md}    
 ## pixel_z var (client)    
 **See also:**    
-:   [glide_size var (client)]/client/var/glide_size    
-:   [pixel_x var (client)]/client/var/pixel_x    
-:   [pixel_y var (client)]/client/var/pixel_y    
-:   [pixel_w var (client)]/client/var/pixel_w    
-:   [map_format var (world)]/world/var/map_format    
+:   [glide_size var (client)](/client/var/glide_size)    
+:   [pixel_x var (client)](/client/var/pixel_x)    
+:   [pixel_y var (client)](/client/var/pixel_y)    
+:   [pixel_w var (client)](/client/var/pixel_w)    
+:   [map_format var (world)](/world/var/map_format)    
 <!-- -->    
 **Default value:**    
 :   0    

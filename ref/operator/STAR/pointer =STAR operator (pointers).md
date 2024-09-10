@@ -1,9 +1,9 @@
 []{#/STAR pointer operator.md}    
 ## \* pointer operator {#pointer-operator byondver="515"}    
 **See also:**    
-:   [& pointer operator]/operator/&/pointer    
-:   [operators]/operator    
-:   [ispointer proc]/proc/ispointer    
+:   [& pointer operator](/operator/&/pointer)    
+:   [operators](/operator)    
+:   [ispointer proc](/proc/ispointer)    
 <!-- -->    
 **Format:**    
 :   \*A    

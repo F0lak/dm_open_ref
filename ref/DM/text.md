@@ -1,12 +1,12 @@
 []{#/text.md}    
 ## text    
 **See also:**    
-:   [\<\< output operator]/operator/%3c%3c/output    
-:   [entities (text)]/text.md/entities    
-:   [macros (text)]/text.md/macros    
-:   [tags (text)]/text.md/tags    
-:   [text proc]/proc/text    
-:   [Unicode]/%7Bnotes%7D/Unicode    
+:   [\<\< output operator](/operator/%3c%3c/output)    
+:   [entities (text)](/text.md/entities)    
+:   [macros (text)](/text.md/macros)    
+:   [tags (text)](/text.md/tags)    
+:   [text proc](/proc/text)    
+:   [Unicode](/%7Bnotes%7D/Unicode)    
 Text consists of a string of characters enclosed in double quotes. To    
 place a quote inside a string, escape it with a backslash `\` character.    
 You will also need to escape a backslash if you want to use one on    
@@ -14,7 +14,7 @@ purpose.
 ### Example:    
 usr \<\< \"He said, \\\"Hi.\\\"\"    
 This example sends some text to the usr: `He said, "Hi."`    
-Backslashes are also used for special [macros]/text.md/macros and to    
+Backslashes are also used for special [macros](/text.md/macros) and to    
 escape other characters that would normally be hard to include in a    
 string. A backslash at the end of a line will ignore the line break, and    
 continue the string on the next line after ignoring any leading spaces.    
@@ -29,7 +29,7 @@ If this example is called by a mob named \"Bill\" with the text \"hi
 everybody!\", it will display \"Bill: hi everybody!\".    
 On the other hand, if it is called by a mob named \"cat\", it would    
 display \"The cat: hi everybody!\".    
-Via [operator overloading]/operator/overload you can define an    
+Via [operator overloading](/operator/overload) you can define an    
 `operator""` proc for an object to return different text when it\'s    
 embedded in a string.    
 ### Document strings    
@@ -44,7 +44,7 @@ whimper. \--T.S. Eliot \"Hollow Men\" \"} del world //the end!
 ### Raw strings {#raw-strings byondver="512"}    
 DM also has a format for raw strings, which do not allow escape    
 characters or embedded expressions. This can be useful for many    
-situations, especially [regular expressions]/%7Bnotes%7D/regex which    
+situations, especially [regular expressions](/%7Bnotes%7D/regex) which    
 tend to use characters that need escaping. There are three ways to    
 specify a raw string. All of them begin with the `@` character.    
 Simple raw strings follow `@` with a single-character delimiter, usually    

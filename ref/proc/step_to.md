@@ -1,10 +1,10 @@
 []{#/step_to proc.md}    
 ## step_to proc    
 **See also:**    
-:   [get_step_to proc]/proc/get_step_to    
-:   [get_steps_to proc]/proc/get_steps_to    
-:   [walk_to proc]/proc/walk_to    
-:   [step_size var (movable atom)]/atom/movable/var/step_size    
+:   [get_step_to proc](/proc/get_step_to)    
+:   [get_steps_to proc](/proc/get_steps_to)    
+:   [walk_to proc](/proc/walk_to)    
+:   [step_size var (movable atom)](/atom/movable/var/step_size)    
 <!-- -->    
 **Format:**    
 :   step_to(Ref,Trg,Min=0,Speed=0)    

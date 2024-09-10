@@ -1,10 +1,10 @@
 []{#/fract proc.md}    
 ## fract proc {#fract-proc byondver="515"}    
 **See also:**    
-:   [trunc proc]/proc/trunc    
-:   [floor proc]/proc/floor    
-:   [ceil proc]/proc/ceil    
-:   [round proc]/proc/round    
+:   [trunc proc](/proc/trunc)    
+:   [floor proc](/proc/floor)    
+:   [ceil proc](/proc/ceil)    
+:   [round proc](/proc/round)    
 <!-- -->    
 **Format:**    
 :   fract(A)    

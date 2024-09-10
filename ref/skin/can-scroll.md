@@ -1,11 +1,11 @@
 []{#/can-scroll parameter (skin).md}/param/can-scroll}    
 ## can-scroll parameter (skin)    
 **See also:**    
-:   [on-size parameter]/%7Bskin%7D/param/on-size    
-:   [size parameter]/%7Bskin%7D/param/size    
+:   [on-size parameter](/%7Bskin%7D/param/on-size)    
+:   [size parameter](/%7Bskin%7D/param/size)    
 <!-- -->    
 **Applies to:**    
-:   [Main]/%7Bskin%7D/control/main (pane only)    
+:   [Main](/%7Bskin%7D/control/main) (pane only)    
 <!-- -->    
 **Possible values:**    
 :   none    

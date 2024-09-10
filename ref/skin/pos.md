@@ -1,11 +1,11 @@
 []{#/pos parameter (skin).md}/param/pos}    
 ## pos parameter (skin)    
 **See also:**    
-:   [anchor1, anchor2 parameters]/%7Bskin%7D/param/anchor    
-:   [size parameter]/%7Bskin%7D/param/size    
+:   [anchor1, anchor2 parameters](/%7Bskin%7D/param/anchor)    
+:   [size parameter](/%7Bskin%7D/param/size)    
 <!-- -->    
 **Applies to:**    
-:   [All]/%7Bskin%7D/control    
+:   [All](/%7Bskin%7D/control)    
 <!-- -->    
 **Format:**    
 :   *x*,*y*    

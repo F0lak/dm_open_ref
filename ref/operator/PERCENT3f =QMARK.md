@@ -1,7 +1,7 @@
 []{#/QMARK operator.md}    
 ## ? operator    
 **See also:**    
-:   [operators]/operator    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   Expr ? TrueExpr : FalseExpr    

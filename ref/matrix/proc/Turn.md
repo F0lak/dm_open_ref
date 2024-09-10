@@ -1,10 +1,10 @@
 []{#/Turn proc (matrix).md}    
 ## Turn proc (matrix)    
 **See also:**    
-:   [matrix]/matrix    
-:   [matrix operators]/matrix/operators    
-:   [matrix procs]/matrix/proc    
-:   [turn proc (applied to a matrix)]/proc/turn/matrix    
+:   [matrix](/matrix)    
+:   [matrix operators](/matrix/operators)    
+:   [matrix procs](/matrix/proc)    
+:   [turn proc (applied to a matrix)](/proc/turn/matrix)    
 <!-- -->    
 **Format:**    
 :   Turn(angle)    

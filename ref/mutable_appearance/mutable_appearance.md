@@ -1,9 +1,9 @@
 []{#/mutable appearance.md}    
 ## mutable appearance {#mutable-appearance byondver="511"}    
 **See also:**    
-:   [appearance var (atom)]/atom/var/appearance    
-:   [image objects]/image    
-:   [vars (mutable appearance)]/mutable appearance.md/var    
+:   [appearance var (atom)](/atom/var/appearance)    
+:   [image objects](/image)    
+:   [vars (mutable appearance)](/mutable appearance.md/var)    
 All atoms and images have an appearance, which is an immutable object    
 that can be shared by many atoms. Making changes to an object\'s    
 appearance generates new appearances, many of which may be temporary.    

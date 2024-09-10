@@ -1,16 +1,16 @@
 []{#/New proc (datum).md}    
 ## New proc (datum)    
 **See also:**    
-:   [New proc (atom)]/atom/proc/New    
-:   [New proc (client)]/client/proc/New    
-:   [new proc]/proc/new    
+:   [New proc (atom)](/atom/proc/New)    
+:   [New proc (client)](/client/proc/New)    
+:   [new proc](/proc/new)    
 <!-- -->    
 **Format:**    
 :   New()    
 <!-- -->    
 **When:**    
 :   Called when the datum is created, for example by using `new`, when    
-    reading an object that was stored in a [savefile]/savefile, or    
+    reading an object that was stored in a [savefile](/savefile), or    
     when the world is initially created.    
 <!-- -->    
 **Default action:**    
@@ -19,7 +19,7 @@ You can use the New() procedure to do more complicated initializations
 than are possible in the object definition where you assign the initial    
 value of variables to constants.    
 The following example makes use of the \"Location\" parameter that is    
-passed to objects of type [/atom]/atom. You can pass any number of    
+passed to objects of type [/atom](/atom). You can pass any number of    
 additional arguments to New() by passing them to the `new` instruction    
 which creates the object.    
 ### Example:    

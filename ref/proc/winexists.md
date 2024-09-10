@@ -1,12 +1,12 @@
 []{#/winexists proc.md}    
 ## winexists proc    
 **See also:**    
-:   [winclone proc]/proc/winclone    
-:   [winget proc]/proc/winget    
-:   [winset proc]/proc/winset    
-:   [winshow proc]/proc/winshow    
-:   [User interface skins]/%7Bskin%7D    
-:   [type parameter (skin)]/%7Bskin%7D/param/type    
+:   [winclone proc](/proc/winclone)    
+:   [winget proc](/proc/winget)    
+:   [winset proc](/proc/winset)    
+:   [winshow proc](/proc/winshow)    
+:   [User interface skins](/%7Bskin%7D)    
+:   [type parameter (skin)](/%7Bskin%7D/param/type)    
 <!-- -->    
 **Format:**    
 :   winexists(player, control_id)    

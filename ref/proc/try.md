@@ -1,10 +1,10 @@
 []{#/try and catch statements.md}    
 ## try and catch statements {#try-and-catch-statements byondver="508"}    
 **See also:**    
-:   [Error proc (world)]/world/proc/Error    
-:   [throw statement]/proc/throw    
-:   [EXCEPTION proc]/proc/EXCEPTION    
-:   [exception]/exception    
+:   [Error proc (world)](/world/proc/Error)    
+:   [throw statement](/proc/throw)    
+:   [EXCEPTION proc](/proc/EXCEPTION)    
+:   [exception](/exception)    
 The try and catch keywords are used for error handling. Any code that    
 runs inside of a try block will, if an error happens or the throw    
 keyword is used, stop executing and jump to the matching catch block.    

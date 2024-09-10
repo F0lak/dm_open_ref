@@ -1,10 +1,10 @@
 []{#/arctan proc.md}    
 ## arctan proc {#arctan-proc byondver="513"}    
 **See also:**    
-:   [arcsin proc]/proc/arcsin    
-:   [arccos proc]/proc/arccos    
-:   [tan proc]/proc/tan    
-:   [turn proc]/proc/turn    
+:   [arcsin proc](/proc/arcsin)    
+:   [arccos proc](/proc/arccos)    
+:   [tan proc](/proc/tan)    
+:   [turn proc](/proc/turn)    
 <!-- -->    
 **Format:**    
 :   arctan(Num)    

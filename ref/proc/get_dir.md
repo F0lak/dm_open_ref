@@ -1,7 +1,7 @@
 []{#/get_dir proc.md}    
 ## get_dir proc    
 **See also:**    
-:   [dir var (atom)]/atom/var/dir    
+:   [dir var (atom)](/atom/var/dir)    
 <!-- -->    
 **Format:**    
 :   get_dir(Loc1, Loc2)    

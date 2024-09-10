@@ -1,10 +1,10 @@
 []{#/legacy-size parameter (skin).md}/param/legacy-size}    
 ## legacy-size parameter (skin) {#legacy-size-parameter-skin byondver="512"}    
 **See also:**    
-:   [font-size parameter]/%7Bskin%7D/param/font-size    
+:   [font-size parameter](/%7Bskin%7D/param/font-size)    
 <!-- -->    
 **Applies to:**    
-:   [Output]/%7Bskin%7D/control/output    
+:   [Output](/%7Bskin%7D/control/output)    
 <!-- -->    
 **Format:**    
 :   true/false    

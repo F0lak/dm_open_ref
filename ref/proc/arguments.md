@@ -1,10 +1,10 @@
 []{#/arguments (proc).md}    
 ## arguments (proc)    
 **See also:**    
-:   [named arguments (proc)]/arguments (proc.md/named)    
-:   [path operators]/operator/path    
-:   [arglist proc]/proc/arglist    
-:   [args var (proc)]/proc/var/args    
+:   [named arguments (proc)](/arguments (proc).md/named)    
+:   [path operators](/operator/path)    
+:   [arglist proc](/proc/arglist)    
+:   [args var (proc)](/proc/var/args)    
 The parameters to a proc are referred to as arguments. To define    
 argument variables, place them inside the ()\'s in the proc definition.    
 A default value may be specified. Otherwise, arguments default to null.    

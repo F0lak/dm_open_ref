@@ -1,7 +1,7 @@
 []{#/tag var (datum).md}    
 ## tag var (datum)    
 **See also:**    
-:   [locate proc]/proc/locate    
+:   [locate proc](/proc/locate)    
 <!-- -->    
 **Default value:**    
 :   null    

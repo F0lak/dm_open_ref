@@ -1,9 +1,9 @@
 []{#/fps var (world).md}    
 ## fps var (world) {#fps-var-world byondver="490"}    
 **See also:**    
-:   [tick_lag var (world)]/world/var/tick_lag    
-:   [fps var (client)]/client/var/fps    
-:   [Pixel movement]/%7Bnotes%7D/pixel-movement    
+:   [tick_lag var (world)](/world/var/tick_lag)    
+:   [fps var (client)](/client/var/fps)    
+:   [Pixel movement](/%7Bnotes%7D/pixel-movement)    
 <!-- -->    
 **Default value:**    
 :   10    

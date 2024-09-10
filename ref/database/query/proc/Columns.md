@@ -1,11 +1,11 @@
 []{#/Columns proc (database query).md}    
 ## Columns proc (database query) {#columns-proc-database-query byondver="506"}    
 **See also:**    
-:   [database query datum]/database/query    
-:   [Execute proc (database query)]/database/query/proc/Execute    
-:   [GetColumn proc (database query)]/database/query/proc/GetColumn    
-:   [GetRowData proc (database query)]/database/query/proc/GetRowData    
-:   [NextRow proc (database query)]/database/query/proc/NextRow    
+:   [database query datum](/database/query)    
+:   [Execute proc (database query)](/database/query/proc/Execute)    
+:   [GetColumn proc (database query)](/database/query/proc/GetColumn)    
+:   [GetRowData proc (database query)](/database/query/proc/GetRowData)    
+:   [NextRow proc (database query)](/database/query/proc/NextRow)    
 <!-- -->    
 **Format:**    
 :   Columns()\    

@@ -1,9 +1,9 @@
 []{#/SetIntensity proc (icon).md}    
 ## SetIntensity proc (icon)    
 **See also:**    
-:   [icon]/icon    
-:   [procs (icon)]/icon/proc    
-:   [MapColors() proc (icon)]/icon/proc/MapColors    
+:   [icon](/icon)    
+:   [procs (icon)](/icon/proc)    
+:   [MapColors() proc (icon)](/icon/proc/MapColors)    
 <!-- -->    
 **Format:**    
 :   SetIntensity(r,g=r,b=r)    

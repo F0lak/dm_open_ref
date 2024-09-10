@@ -1,16 +1,16 @@
 []{#/view-size parameter (skin).md}/param/view-size}    
 ## view-size parameter (skin)    
 **See also:**    
-:   [letterbox parameter]/%7Bskin%7D/param/letterbox    
-:   [zoom parameter]/%7Bskin%7D/param/zoom    
-:   [zoom-mode parameter]/%7Bskin%7D/param/zoom-mode    
-:   [icon_size var (world)]/world/var/icon_size    
-:   [view var (world)]/world/var/view    
-:   [view var (client)]/client/var/view    
-:   [HUD / screen objects]/%7Bnotes%7D/HUD    
+:   [letterbox parameter](/%7Bskin%7D/param/letterbox)    
+:   [zoom parameter](/%7Bskin%7D/param/zoom)    
+:   [zoom-mode parameter](/%7Bskin%7D/param/zoom-mode)    
+:   [icon_size var (world)](/world/var/icon_size)    
+:   [view var (world)](/world/var/view)    
+:   [view var (client)](/client/var/view)    
+:   [HUD / screen objects](/%7Bnotes%7D/HUD)    
 <!-- -->    
 **Applies to:**    
-:   [Map]/%7Bskin%7D/control/map (window only)    
+:   [Map](/%7Bskin%7D/control/map) (window only)    
 <!-- -->    
 **Format:**    
 :   *width*x*height*    
@@ -22,4 +22,4 @@ of 2, then `view-size` will be 640x640.
 With a `zoom` value of 0, which is the default for most projects, the    
 actual zoom level is automatically determined by the size of the map    
 control, the map\'s native pixel size as explained above, and the value    
-of the [letterbox]/%7Bskin%7D/param/letterbox{.code} parameter.  
+of the [letterbox](/%7Bskin%7D/param/letterbox){.code} parameter.  

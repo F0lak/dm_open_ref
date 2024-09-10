@@ -1,9 +1,9 @@
 []{#/SwapColor proc (icon).md}    
 ## SwapColor proc (icon)    
 **See also:**    
-:   [icon]/icon    
-:   [procs (icon)]/icon/proc    
-:   [rgb proc]/proc/rgb    
+:   [icon](/icon)    
+:   [procs (icon)](/icon/proc)    
+:   [rgb proc](/proc/rgb)    
 <!-- -->    
 **Format:**    
 :   SwapColor(old_rgb,new_rgb)\    

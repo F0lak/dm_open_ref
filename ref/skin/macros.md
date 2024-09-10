@@ -6,13 +6,13 @@ cases (such as gamepad controls) it can be used to remap one control to
 another.    
 A collection of macros is called a macro set, and the window currently    
 in use defines which macro set will be used via its    
-[macro]/%7Bskin%7D/param/macro{.code} parameter.    
+[macro](/%7Bskin%7D/param/macro){.code} parameter.    
 Macros can be changed at runtime. If a macro does not have an    
-[id]/%7Bskin%7D/param/id{.code}, you can refer to it by its key    
-combination ([name]/%7Bskin%7D/param/name{.code}). If you have a    
+[id](/%7Bskin%7D/param/id){.code}, you can refer to it by its key    
+combination ([name](/%7Bskin%7D/param/name){.code}). If you have a    
 macro set named `macro1` and have a `Ctrl+E` macro for instance, you    
-could use [winset()]/proc/winset{.code} with `"macro1.Ctrl+E"`. See    
-the [Macro control]/%7Bskin%7D/control/macro for information on which    
+could use [winset()](/proc/winset){.code} with `"macro1.Ctrl+E"`. See    
+the [Macro control](/%7Bskin%7D/control/macro) for information on which    
 parameters you can change with `winset()`.    
 The `name` of the macro is actually the full key combination as it would    
 appear in the macro editor, like `CTRL+E`, `Space+REP`, or    
@@ -25,15 +25,15 @@ via the `Any` and `Any+UP` macros, which respond to any key or gamepad
 button. `UP` is the only allowed modifier for this macro, since other    
 modifier keys are handled by this same macro.    
 Typically, you will want to use [set    
-instant=1]/verb/set/instant{.code} on the verbs that will be tied to    
+instant=1](/verb/set/instant){.code} on the verbs that will be tied to    
 the Any macro, so that keyboard input doesn\'t queue up and lag behind.    
-In the [command]/%7Bskin%7D/param/command{.code} that goes with this    
+In the [command](/%7Bskin%7D/param/command){.code} that goes with this    
 macro, `[[*]]` will be replaced with the name of the key or gamepad    
 button that was pressed/released. (See \"Embedded Winget\" in [client    
-commands]/%7Bskin%7D/commands for more details on the `[[...]]`    
+commands](/%7Bskin%7D/commands) for more details on the `[[...]]`    
 format.)    
 ### Mapping {#mapping byondver="511"}    
-The [map-to]/%7Bskin%7D/param/map-to{.code} parameter is used by    
+The [map-to](/%7Bskin%7D/param/map-to){.code} parameter is used by    
 **mappings**, which are like macros but are used to convert gamepad    
 inputs easily and quickly to keyboard inputs. E.g., `GamepadLeft` can    
 map to `West` which is the left arrow key. A set of default mappings    
@@ -47,12 +47,12 @@ the following categories:
 -   **Directions:** Directions pressed on the D-pad, which act like    
     buttons. Diagonals are also included.    
 -   **D-pad:** The D-pad itself, which can be used to read a    
-    [dir]/atom/var/dir{.code} number.    
+    [dir](/atom/var/dir){.code} number.    
 -   **Analog:** The analog sticks (BYOND supports left and right).    
 See the list of available macros below for information on how to harness    
 these inputs.    
 To let a user configure their gamepad, you need to call the client-side    
-`.gamepad-mapping` [command]/%7Bskin%7D/commands. Or, if they have    
+`.gamepad-mapping` [command](/%7Bskin%7D/commands). Or, if they have    
 access to the Options & Messages window and Dream Seeker\'s default    
 menus, they can reach it from there. However it\'s a good idea to make    
 this easy for them to find. Several common gamepads are already known by    
@@ -71,7 +71,7 @@ parse the normal parameter string that provides most of the info, and
 instead want to provide data directly to the verb. You will want    
 `set instant=1` on any such verb.    
 Mouse macro commands use the `[[...]]` syntax to embed values, just like    
-[embedded wingets]/%7Bskin%7D/commands. These are the values you can    
+[embedded wingets](/%7Bskin%7D/commands). These are the values you can    
 include in a mouse macro:    
   Embedded keyword                                                                                                               Meaning    
   ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------    
@@ -105,11 +105,11 @@ And the verb to go with it looks like this: client // \"in src\" is the
 same as \"in usr.client\" here verb/my_mousedown_verb(object as anything    
 in src, button as text, params as text)    
 In the example, the `src` value is a reference such as you would get    
-with the [`ref()` proc]/proc/ref. It can be used as a verb argument    
+with the [`ref()` proc](/proc/ref). It can be used as a verb argument    
 directly and won\'t be enclosed by quotes by default. The `button` value    
 is a string and the default formatting will put quotes around it. The    
 `keys` and `drag` values were given the `as params` format specifier so    
-they would behave as part of a [parameter list]/proc/list2params.    
+they would behave as part of a [parameter list](/proc/list2params).    
 In drag/drop actions, you can precede any value with `src` or `over` if    
 there may be different information for the dragged object and the    
 mouseover object/location. This also applies to things like `keys`,    

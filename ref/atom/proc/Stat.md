@@ -1,9 +1,9 @@
 []{#/Stat proc (atom).md}    
 ## Stat proc (atom)    
 **See also:**    
-:   [Stat proc (client)]/client/proc/Stat    
-:   [stat proc]/proc/stat    
-:   [Info control (skin)]/%7Bskin%7D/control/info    
+:   [Stat proc (client)](/client/proc/Stat)    
+:   [stat proc](/proc/stat)    
+:   [Info control (skin)](/%7Bskin%7D/control/info)    
 <!-- -->    
 **Format:**    
 :   Stat()    

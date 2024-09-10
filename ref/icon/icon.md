@@ -1,10 +1,10 @@
 []{#/icon object.md}    
 ## icon object.md object    
 **See also:**    
-:   [procs (icon object.md)]/icon object.md/proc    
-:   [icon object.mds]/DM/icon object.md    
-:   [image objects]/image    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [procs (icon object.md)](/icon object.md/proc)    
+:   [icon object.mds](/DM/icon object.md)    
+:   [image objects](/image)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 An `/icon object.md` object is created by loading an icon object.md file into memory for    
 direct access and manipulation. In order to be displayed, an `/icon object.md`    
 object always gets converted back into an icon object.md file; this happens    
@@ -28,19 +28,19 @@ do so anymore, as DM has evolved new capabilities.
   ---------------------------------------------------------------------------------------------------------------------------------    
   Operation                `/icon object.md` proc                                      New method    
   ------------------------ ------------------------------------------------- ------------------------------------------------------    
-  Multiplying by color     [`Blend`]/icon object.md/proc/Blend{.code} or            [color]/atom/var/color{.code} var    
-                           [SetIntensity]/icon object.md/proc/SetIntensity{.code}       
+  Multiplying by color     [`Blend`](/icon object.md/proc/Blend){.code} or            [color](/atom/var/color){.code} var    
+                           [SetIntensity](/icon object.md/proc/SetIntensity){.code}       
                            procs                                                 
-  Adding color             [Blend]/icon object.md/proc/Blend{.code} proc            [color]/atom/var/color{.code} var (using [color    
-                                                                             matrix]/%7Bnotes%7D/color-matrix)    
-  Applying color matrix    [MapColors]/icon object.md/proc/MapColors{.code} proc        
-  Rotation                 [Turn]/icon object.md/proc/Turn{.code} proc              [transform]/atom/var/transform{.code} var    
-  Flipping                 [Flip]/icon object.md/proc/Flip{.code} proc                  
+  Adding color             [Blend](/icon object.md/proc/Blend){.code} proc            [color](/atom/var/color){.code} var (using [color    
+                                                                             matrix](/%7Bnotes%7D/color-matrix))    
+  Applying color matrix    [MapColors](/icon object.md/proc/MapColors){.code} proc        
+  Rotation                 [Turn](/icon object.md/proc/Turn){.code} proc              [transform](/atom/var/transform){.code} var    
+  Flipping                 [Flip](/icon object.md/proc/Flip){.code} proc                  
   horizontal/vertical                                                            
-  Scaling                  [Scale]/icon object.md/proc/Scale{.code} proc                
-  Overlaying/underlaying   [Blend]/icon object.md/proc/Blend{.code} proc +          Overlay/underlay +    
-  another icon object.md             `ICON_OVERLAY`                                    [KEEP_TOGETHER]/atom/var/appearance_flags{.code}\    
-                                                                             [Layering filter]/%7Bnotes%7D/filters/layer    
+  Scaling                  [Scale](/icon object.md/proc/Scale){.code} proc                
+  Overlaying/underlaying   [Blend](/icon object.md/proc/Blend){.code} proc +          Overlay/underlay +    
+  another icon object.md             `ICON_OVERLAY`                                    [KEEP_TOGETHER](/atom/var/appearance_flags){.code}\    
+                                                                             [Layering filter](/%7Bnotes%7D/filters/layer)    
   ---------------------------------------------------------------------------------------------------------------------------------    
 Note: Anything you can do with an atom var instead of using icon object.md    
 manipulation procs will usually perform much better. Games that use the    

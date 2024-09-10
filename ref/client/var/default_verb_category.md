@@ -1,8 +1,8 @@
 []{#/default_verb_category var (client).md}    
 ## default_verb_category var (client)    
 **See also:**    
-:   [category setting (verb)]/verb/set/category    
-:   [show_verb_panel var (client)]/client/var/show_verb_panel    
+:   [category setting (verb)](/verb/set/category)    
+:   [show_verb_panel var (client)](/client/var/show_verb_panel)    
 <!-- -->    
 **Default value:**    
 :   \"Commands\"    

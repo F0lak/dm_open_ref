@@ -2,66 +2,66 @@
 ## vars (mob)    
 Built-in mob vars:    
 vars (mob).md    
-:   [alpha]/atom/var/alpha    
-:   [appearance]/atom/var/appearance    
-:   [appearance_flags]/atom/var/appearance_flags    
-:   [blend_mode]/atom/var/blend_mode    
-:   [ckey]/vars (mob.md/ckey)    
-:   [client]/vars (mob.md/client)    
-:   [color]/atom/var/color    
-:   [contents]/atom/var/contents    
-:   [density]/atom/var/density    
-:   [desc]/atom/var/desc    
-:   [dir]/atom/var/dir    
-:   [filters]/atom/var/filters    
-:   [gender]/atom/var/gender    
-:   [group]/vars (mob.md/group)    
-:   [icon]/atom/var/icon    
-:   [icon_state]/atom/var/icon_state    
-:   [icon_w]/atom/var/icon_w    
-:   [icon_z]/atom/var/icon_z    
-:   [invisibility]/atom/var/invisibility    
-:   [underlays]/atom/var/underlays    
-:   [overlays]/atom/var/overlays    
-:   [key]/vars (mob.md/key)    
-:   [layer]/atom/var/layer    
-:   [luminosity]/atom/var/luminosity    
-:   [maptext]/atom/var/maptext    
-:   [maptext_width]/atom/var/maptext_width    
-:   [maptext_height]/atom/var/maptext_height    
-:   [maptext_x]/atom/var/maptext_x    
-:   [maptext_y]/atom/var/maptext_y    
-:   [animate_movement]/atom/movable/var/animate_movement    
-:   [loc]/atom/var/loc    
-:   [mouse_over_pointer]/atom/var/mouse_over_pointer    
-:   [mouse_drag_pointer]/atom/var/mouse_drag_pointer    
-:   [mouse_drop_pointer]/atom/var/mouse_drop_pointer    
-:   [mouse_drop_zone var]/atom/var/mouse_drop_zone    
-:   [mouse_opacity var]/atom/var/mouse_opacity    
-:   [name]/atom/var/name    
-:   [opacity]/atom/var/opacity    
-:   [parent_type]/vars (mob.md/parent_type)    
-:   [pixel_x]/atom/var/pixel_x    
-:   [pixel_y]/atom/var/pixel_y    
-:   [pixel_w]/atom/var/pixel_w    
-:   [pixel_z]/atom/var/pixel_z    
-:   [plane]/atom/var/plane    
-:   [render_source]/atom/var/render_source    
-:   [render_target]/atom/var/render_target    
-:   [see_infrared]/vars (mob.md/see_infrared)    
-:   [see_invisible]/vars (mob.md/see_invisible)    
-:   [see_in_dark]/vars (mob.md/see_in_dark)    
-:   [sight]/vars (mob.md/sight)    
-:   [suffix]/atom/var/suffix    
-:   [tag]/datum/var/tag    
-:   [text]/atom/var/text    
-:   [transform]/atom/var/transform    
-:   [type]/datum/var/type    
-:   [vars]/datum/var/vars    
-:   [verbs]/atom/var/verbs    
-:   [vis_contents]/atom/var/vis_contents    
-:   [vis_flags]/atom/var/vis_flags    
-:   [vis_locs]/atom/var/vis_locs    
-:   [x]/atom/var/x    
-:   [y]/atom/var/y    
-:   [z]/atom/var/z  
+:   [alpha](/atom/var/alpha)    
+:   [appearance](/atom/var/appearance)    
+:   [appearance_flags](/atom/var/appearance_flags)    
+:   [blend_mode](/atom/var/blend_mode)    
+:   [ckey](/vars (mob).md/ckey)    
+:   [client](/vars (mob).md/client)    
+:   [color](/atom/var/color)    
+:   [contents](/atom/var/contents)    
+:   [density](/atom/var/density)    
+:   [desc](/atom/var/desc)    
+:   [dir](/atom/var/dir)    
+:   [filters](/atom/var/filters)    
+:   [gender](/atom/var/gender)    
+:   [group](/vars (mob).md/group)    
+:   [icon](/atom/var/icon)    
+:   [icon_state](/atom/var/icon_state)    
+:   [icon_w](/atom/var/icon_w)    
+:   [icon_z](/atom/var/icon_z)    
+:   [invisibility](/atom/var/invisibility)    
+:   [underlays](/atom/var/underlays)    
+:   [overlays](/atom/var/overlays)    
+:   [key](/vars (mob).md/key)    
+:   [layer](/atom/var/layer)    
+:   [luminosity](/atom/var/luminosity)    
+:   [maptext](/atom/var/maptext)    
+:   [maptext_width](/atom/var/maptext_width)    
+:   [maptext_height](/atom/var/maptext_height)    
+:   [maptext_x](/atom/var/maptext_x)    
+:   [maptext_y](/atom/var/maptext_y)    
+:   [animate_movement](/atom/movable/var/animate_movement)    
+:   [loc](/atom/var/loc)    
+:   [mouse_over_pointer](/atom/var/mouse_over_pointer)    
+:   [mouse_drag_pointer](/atom/var/mouse_drag_pointer)    
+:   [mouse_drop_pointer](/atom/var/mouse_drop_pointer)    
+:   [mouse_drop_zone var](/atom/var/mouse_drop_zone)    
+:   [mouse_opacity var](/atom/var/mouse_opacity)    
+:   [name](/atom/var/name)    
+:   [opacity](/atom/var/opacity)    
+:   [parent_type](/vars (mob).md/parent_type)    
+:   [pixel_x](/atom/var/pixel_x)    
+:   [pixel_y](/atom/var/pixel_y)    
+:   [pixel_w](/atom/var/pixel_w)    
+:   [pixel_z](/atom/var/pixel_z)    
+:   [plane](/atom/var/plane)    
+:   [render_source](/atom/var/render_source)    
+:   [render_target](/atom/var/render_target)    
+:   [see_infrared](/vars (mob).md/see_infrared)    
+:   [see_invisible](/vars (mob).md/see_invisible)    
+:   [see_in_dark](/vars (mob).md/see_in_dark)    
+:   [sight](/vars (mob).md/sight)    
+:   [suffix](/atom/var/suffix)    
+:   [tag](/datum/var/tag)    
+:   [text](/atom/var/text)    
+:   [transform](/atom/var/transform)    
+:   [type](/datum/var/type)    
+:   [vars](/datum/var/vars)    
+:   [verbs](/atom/var/verbs)    
+:   [vis_contents](/atom/var/vis_contents)    
+:   [vis_flags](/atom/var/vis_flags)    
+:   [vis_locs](/atom/var/vis_locs)    
+:   [x](/atom/var/x)    
+:   [y](/atom/var/y)    
+:   [z](/atom/var/z)  

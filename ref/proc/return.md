@@ -1,7 +1,7 @@
 []{#/return statement.md}    
 ## return statement    
 **See also:**    
-:   [. var (proc)]/proc/var/%2e    
+:   [. var (proc)](/proc/var/%2e)    
 <!-- -->    
 **Format:**    
 :   return E    

@@ -1,8 +1,8 @@
 []{#/newlist proc.md}    
 ## newlist proc    
 **See also:**    
-:   [list proc]/proc/list    
-:   [new proc]/proc/new    
+:   [list proc](/proc/list)    
+:   [new proc](/proc/new)    
 <!-- -->    
 **Format:**    
 :   newlist(A,B,C,\...)    

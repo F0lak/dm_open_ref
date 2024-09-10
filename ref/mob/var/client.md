@@ -1,7 +1,7 @@
 []{#/client var (mob).md}    
 ## client var (mob)    
 **See also:**    
-:   [client]/client    
+:   [client](/client)    
 <!-- -->    
 **Default value:**    
 :   null    

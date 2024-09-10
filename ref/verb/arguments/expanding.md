@@ -1,7 +1,7 @@
 []{#/argument expanding.md}    
 ## argument expanding    
 **See also:**    
-:   [arguments (verb)]/verb/arguments    
+:   [arguments (verb)](/verb/arguments)    
 The expression used to to provide a list of possible values for a verb    
 argument may reference the value of arguments prior to the one being    
 expanded. It may even reference the value of the argument being    

@@ -1,10 +1,10 @@
 []{#/DOT operator.md}    
 ## . operator    
 **See also:**    
-:   [: operator]/operator/:    
-:   [?. operator]/operator/%3f%2e    
-:   [?: operator]/operator/%3f:    
-:   [operators]/operator    
+:   [: operator](/operator/:)    
+:   [?. operator](/operator/%3f%2e)    
+:   [?: operator](/operator/%3f:)    
+:   [operators](/operator)    
 This is used to access the procs and vars of a prototyped object. The    
 variable need not actually contain a value with the specified type, but    
 must at least be a type with the specified variable or a runtime error    

@@ -1,7 +1,7 @@
 []{#/obounds proc.md}    
 ## obounds proc    
 **See also:**    
-:   [bounds proc]/proc/bounds    
+:   [bounds proc](/proc/bounds)    
 <!-- -->    
 **Format:**    
 :   obounds(Ref, Dist=0)    

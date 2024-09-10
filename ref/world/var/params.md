@@ -1,9 +1,9 @@
 []{#/params var (world).md}    
 ## params var (world)    
 **See also:**    
-:   [list associations]/list/associations    
-:   [params2list proc]/proc/params2list    
-:   [startup proc]/proc/startup    
+:   [list associations](/list/associations)    
+:   [params2list proc](/proc/params2list)    
+:   [startup proc](/proc/startup)    
 <!-- -->    
 **Default value:**    
 :   null    

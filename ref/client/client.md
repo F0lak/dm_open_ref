@@ -1,10 +1,10 @@
 []{#/client.md}    
 ## client.md    
 **See also:**    
-:   [client.md var (mob)]/mob/var/client.md    
-:   [key var (mob)]/mob/var/key    
-:   [procs (client.md)]/client.md/proc    
-:   [vars (client.md)]/client.md/var    
+:   [client.md var (mob)](/mob/var/client.md)    
+:   [key var (mob)](/mob/var/key)    
+:   [procs (client.md)](/client.md/proc)    
+:   [vars (client.md)](/client.md/var)    
 Each connected player has a corresponding client.md object. It has    
 variables and procedures which control aspects of player input/output.    
 This object is also responsible for linking the player up to a mob.    

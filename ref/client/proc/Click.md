@@ -1,19 +1,19 @@
 []{#/Click proc (client).md}    
 ## Click proc (client)    
 **See also:**    
-:   [Click proc (atom)]/atom/proc/Click    
-:   [DblClick proc (client)]/client/proc/DblClick    
-:   [MouseDown proc (client)]/client/proc/MouseDown    
-:   [MouseDrag proc (client)]/client/proc/MouseDrag    
-:   [MouseDrop proc (client)]/client/proc/MouseDrop    
-:   [MouseEntered proc (client)]/client/proc/MouseEntered    
-:   [MouseExited proc (client)]/client/proc/MouseExited    
-:   [MouseMove proc (client)]/client/proc/MouseMove    
-:   [MouseUp proc (client)]/client/proc/MouseUp    
-:   [MouseWheel proc (client)]/client/proc/MouseWheel    
-:   [mouse_opacity var (atom)]/atom/var/mouse_opacity    
-:   [mouse_over_pointer var (atom)]/atom/var/mouse_over_pointer    
-:   [show_popup_menus var (client)]/client/var/show_popup_menus    
+:   [Click proc (atom)](/atom/proc/Click)    
+:   [DblClick proc (client)](/client/proc/DblClick)    
+:   [MouseDown proc (client)](/client/proc/MouseDown)    
+:   [MouseDrag proc (client)](/client/proc/MouseDrag)    
+:   [MouseDrop proc (client)](/client/proc/MouseDrop)    
+:   [MouseEntered proc (client)](/client/proc/MouseEntered)    
+:   [MouseExited proc (client)](/client/proc/MouseExited)    
+:   [MouseMove proc (client)](/client/proc/MouseMove)    
+:   [MouseUp proc (client)](/client/proc/MouseUp)    
+:   [MouseWheel proc (client)](/client/proc/MouseWheel)    
+:   [mouse_opacity var (atom)](/atom/var/mouse_opacity)    
+:   [mouse_over_pointer var (atom)](/atom/var/mouse_over_pointer)    
+:   [show_popup_menus var (client)](/client/var/show_popup_menus)    
 <!-- -->    
 **Format:**    
 :   Click(object,location,control,params)    
@@ -27,7 +27,7 @@
     grid cell, or other control-specific info    
 :   control: the name of the skin control involved    
 :   params: other parameters including mouse/keyboard flags, icon    
-    offsets, etc.; see [mouse handling]/DM/mouse    
+    offsets, etc.; see [mouse handling](/DM/mouse)    
 <!-- -->    
 **Default action:**    
 :   Call object.Click(location,control,params).    

@@ -1,7 +1,7 @@
 []{#/length proc.md}    
 ## length proc    
 **See also:**    
-:   [vector]/vector    
+:   [vector](/vector)    
 <!-- -->    
 **Format:**    
 :   length(E)    
@@ -23,6 +23,6 @@ This outputs the length of the file.
 Note: In strings containing non-ASCII characters, this is the length in    
 bytes, not characters; a character may span multiple bytes. Use    
 `length_char()` to work with character counts instead of bytes. See the    
-[Unicode]/%7Bnotes%7D/Unicode section for more information.    
+[Unicode](/%7Bnotes%7D/Unicode) section for more information.    
 For vectors, the length is the magnitude of the vector. See    
-[vector.len]/vector/var/len{.code}.  
+[vector.len](/vector/var/len){.code}.  

@@ -1,11 +1,11 @@
 []{#/verbs.md}    
 ## verbs.mds    
 **See also:**    
-:   [arguments (verbs.md)]/verbs.md/arguments    
-:   [settings (verbs.md)]/verbs.md/set    
-:   [vars (verbs.mds)]/verbs.md/var    
-:   [src var (proc)]/proc/var/src    
-:   [usr var (proc)]/proc/var/usr    
+:   [arguments (verbs.md)](/verbs.md/arguments)    
+:   [settings (verbs.md)](/verbs.md/set)    
+:   [vars (verbs.mds)](/verbs.md/var)    
+:   [src var (proc)](/proc/var/src)    
+:   [usr var (proc)](/proc/var/usr)    
 Verbs may be attached to mobs, objs, turfs, and areas. Players can then    
 use them as commands if they have access to the source.    
 Verbs are fundamentally the same \"type\" as procs, so their vars are    

@@ -1,7 +1,7 @@
 []{#/is-transparent parameter (skin).md}/param/is-transparent}    
 ## is-transparent parameter (skin)    
 **Applies to:**    
-:   [All]/%7Bskin%7D/control    
+:   [All](/%7Bskin%7D/control)    
 <!-- -->    
 **Format:**    
 :   true/false    

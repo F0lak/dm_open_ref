@@ -1,11 +1,11 @@
 []{#/Write proc (datum).md}    
 ## Write proc (datum)    
 **See also:**    
-:   [\<\< operator (savefile)]/savefile/operator/%3c%3c    
-:   [Read proc (datum)]/datum/proc/Read    
-:   [initial proc]/proc/initial    
-:   [issaved proc]/proc/issaved    
-:   [tmp vars]/var/tmp    
+:   [\<\< operator (savefile)](/savefile/operator/%3c%3c)    
+:   [Read proc (datum)](/datum/proc/Read)    
+:   [initial proc](/proc/initial)    
+:   [issaved proc](/proc/issaved)    
+:   [tmp vars](/var/tmp)    
 <!-- -->    
 **Format:**    
 :   Write(savefile/F)    

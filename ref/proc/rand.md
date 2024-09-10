@@ -1,10 +1,10 @@
 []{#/rand proc.md}    
 ## rand proc    
 **See also:**    
-:   [pick proc]/proc/pick    
-:   [prob proc]/proc/prob    
-:   [rand_seed proc]/rand proc.md_seed    
-:   [roll proc]/proc/roll    
+:   [pick proc](/proc/pick)    
+:   [prob proc](/proc/prob)    
+:   [rand_seed proc](/rand proc.md_seed)    
+:   [roll proc](/proc/roll)    
 <!-- -->    
 **Format:**    
 :   rand(L=0,H) or rand()    

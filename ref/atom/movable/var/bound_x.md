@@ -1,14 +1,14 @@
 []{#/bound_x var (movable atom).md}    
 ## bound_x var (movable atom) {#bound_x-var-movable-atom byondver="490" deprecated="516"}    
 **See also:**    
-:   [icon_w var (atom)]/atom/var/icon_w    
-:   [bound_y var (movable atom)]/atom/movable/var/bound_y    
-:   [bound_width var (movable atom)]/atom/movable/var/bound_width    
-:   [bound_height var (movable atom)]/atom/movable/var/bound_height    
-:   [step_x var (movable atom)]/atom/movable/var/step_x    
-:   [step_y var (movable atom)]/atom/movable/var/step_y    
-:   [locs list var (movable atom)]/atom/movable/var/locs    
-:   [Pixel movement]/%7Bnotes%7D/pixel-movement    
+:   [icon_w var (atom)](/atom/var/icon_w)    
+:   [bound_y var (movable atom)](/atom/movable/var/bound_y)    
+:   [bound_width var (movable atom)](/atom/movable/var/bound_width)    
+:   [bound_height var (movable atom)](/atom/movable/var/bound_height)    
+:   [step_x var (movable atom)](/atom/movable/var/step_x)    
+:   [step_y var (movable atom)](/atom/movable/var/step_y)    
+:   [locs list var (movable atom)](/atom/movable/var/locs)    
+:   [Pixel movement](/%7Bnotes%7D/pixel-movement)    
 <!-- -->    
 **Default value:**    
 :   0    

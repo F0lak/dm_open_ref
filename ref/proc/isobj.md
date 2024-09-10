@@ -1,8 +1,8 @@
 []{#/isobj proc.md}    
 ## isobj proc    
 **See also:**    
-:   [isloc proc]/proc/isloc    
-:   [ismovable proc]/proc/ismovable    
+:   [isloc proc](/proc/isloc)    
+:   [ismovable proc](/proc/ismovable)    
 <!-- -->    
 **Format:**    
 :   isobj(Loc1, Loc2 \...)    

@@ -1,13 +1,13 @@
 []{#/GetRowData proc (database query).md}    
 ## GetRowData proc (database query) {#getrowdata-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum]/database    
-:   [database query datum]/database/query    
-:   [Columns proc (database query)]/database/query/proc/Columns    
-:   [Execute proc (database query)]/database/query/proc/Execute    
-:   [GetColumn proc (database query)]/database/query/proc/GetColumn    
-:   [NextRow proc (database query)]/database/query/proc/NextRow    
-:   [Reset proc (database query)]/database/query/proc/Reset    
+:   [database datum](/database)    
+:   [database query datum](/database/query)    
+:   [Columns proc (database query)](/database/query/proc/Columns)    
+:   [Execute proc (database query)](/database/query/proc/Execute)    
+:   [GetColumn proc (database query)](/database/query/proc/GetColumn)    
+:   [NextRow proc (database query)](/database/query/proc/NextRow)    
+:   [Reset proc (database query)](/database/query/proc/Reset)    
 <!-- -->    
 **Format:**    
 :   GetRowData()    

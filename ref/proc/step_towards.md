@@ -1,9 +1,9 @@
 []{#/step_towards proc.md}    
 ## step_towards proc    
 **See also:**    
-:   [get_step_towards proc]/proc/get_step_towards    
-:   [walk_towards proc]/proc/walk_towards    
-:   [step_size var (movable atom)]/atom/movable/var/step_size    
+:   [get_step_towards proc](/proc/get_step_towards)    
+:   [walk_towards proc](/proc/walk_towards)    
+:   [step_size var (movable atom)](/atom/movable/var/step_size)    
 <!-- -->    
 **Format:**    
 :   step_towards(Ref,Trg,Speed)    

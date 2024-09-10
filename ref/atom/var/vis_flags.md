@@ -1,8 +1,8 @@
 []{#/vis_flags var (atom).md}    
 ## vis_flags var (atom) {#vis_flags-var-atom byondver="513"}    
 **See also:**    
-:   [vis_contents var (atom)]/atom/var/vis_contents    
-:   [vis_locs var (atom)]/atom/var/vis_locs    
+:   [vis_contents var (atom)](/atom/var/vis_contents)    
+:   [vis_locs var (atom)](/atom/var/vis_locs)    
 <!-- -->    
 **Default value:**    
 :   0    
@@ -18,7 +18,7 @@
     like part of the same object.    
 :   **VIS_UNDERLAY**: Act as if this is at the bottom of the parent\'s    
     underlays list instead of overlays (only relevant if using    
-    `VIS_INHERIT_LAYER` or a [FLOAT_LAYER]/atom/var/layer{.code}).    
+    `VIS_INHERIT_LAYER` or a [FLOAT_LAYER](/atom/var/layer){.code}).    
 :   **VIS_HIDE**: Do not show this object in visual contents at all.    
 This is a set of flags that determine how this object will behave when    
 it is in another object\'s visual contents.    
@@ -26,7 +26,7 @@ Because only turfs, objs, and mobs can be in visual contents, this var
 belongs only to those types.    
 The `VIS_INHERIT_ID` flag effectively makes this object act like an    
 ordinary overlay when in visual contents. This means its    
-[mouse_opacity]/atom/var/mouse_opacity{.code} will be meaningless,    
+[mouse_opacity](/atom/var/mouse_opacity){.code} will be meaningless,    
 for example.    
 Sometimes it\'s desirable for an object not to show up in visual    
 contents, so `VIS_HIDE` will prevent that. The flag applies even if this    

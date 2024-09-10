@@ -1,16 +1,16 @@
 []{#/image proc.md}    
 ## image proc    
 **See also:**    
-:   [\<\< operator]/operator/%3c%3c    
-:   [del proc]/proc/del    
-:   [icon]/icon    
-:   [image objects]/image    
-:   [images var (client)]/client/var/images    
-:   [overlays var (atom)]/atom/var/overlays    
+:   [\<\< operator](/operator/%3c%3c)    
+:   [del proc](/proc/del)    
+:   [icon](/icon)    
+:   [image objects](/image)    
+:   [images var (client)](/client/var/images)    
+:   [overlays var (atom)](/atom/var/overlays)    
 <!-- -->    
 **Format:**    
 :   image(icon,loc,icon_state,layer,dir)    
-:   [(supports [named arguments]/proc/arguments/named)]{.small}    
+:   [(supports [named arguments](/proc/arguments/named))]{.small}    
 <!-- -->    
 **Returns:**    
 :   An image reference on success; 0 on failure.    
@@ -54,7 +54,7 @@ This is much preferable to achieving the same effect with
 `icon('pants.dmi',"red")`, since that involves the overhead of creating    
 a new icon file, which should only be done when it is really necessary.    
 Note: The fact that `image` is essentially a wrapper for `new/image()`    
-means that the arguments in [image/New()]/datum/proc/New{.code} are    
+means that the arguments in [image/New()](/datum/proc/New){.code} are    
 always treated the same way as defined in this article. This applies    
 even to subtypes, like `/image/thing`. If you create a user-defined    
 subtype like `new/image/thing()` it will still use the arguments the    

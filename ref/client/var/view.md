@@ -1,10 +1,10 @@
 []{#/view var (client).md}    
 ## view var (client)    
 **See also:**    
-:   [lazy_eye var (client)]/client/var/lazy_eye    
-:   [show_map var (client)]/client/var/show_map    
-:   [view proc]/proc/view    
-:   [view var (world)]/world/var/view    
+:   [lazy_eye var (client)](/client/var/lazy_eye)    
+:   [show_map var (client)](/client/var/show_map)    
+:   [view proc](/proc/view)    
+:   [view var (world)](/world/var/view)    
 <!-- -->    
 **Default value:**    
 :   world.view (which is 5 by default)    

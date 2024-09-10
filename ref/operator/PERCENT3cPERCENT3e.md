@@ -1,12 +1,12 @@
 []{#/&lt;&gt; operator.md}    
 ## \<\> operator    
 **See also:**    
-:   [!= operator]/operator/!=    
-:   [\> operator]/operator/%3e    
-:   [\< operator]/operator/%3c    
-:   [== operator]/operator/==    
-:   [operators]/operator    
-:   [sorttextEx proc]/proc/sorttextEx    
+:   [!= operator](/operator/!=)    
+:   [\> operator](/operator/%3e)    
+:   [\< operator](/operator/%3c)    
+:   [== operator](/operator/==)    
+:   [operators](/operator)    
+:   [sorttextEx proc](/proc/sorttextEx)    
 <!-- -->    
 **Format:**    
 :   A \<\> B    

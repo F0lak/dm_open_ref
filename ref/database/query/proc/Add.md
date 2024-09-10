@@ -1,8 +1,8 @@
 []{#/Add proc (database query).md}    
 ## Add proc (database query) {#add-proc-database-query byondver="506"}    
 **See also:**    
-:   [database query datum]/database/query    
-:   [Clear proc (database query)]/database/query/proc/Clear    
+:   [database query datum](/database/query)    
+:   [Clear proc (database query)](/database/query/proc/Clear)    
 <!-- -->    
 **Format:**    
 :   Add(text, item1, item2, \...)    

@@ -1,11 +1,11 @@
 []{#/copytext proc.md}    
 ## copytext proc    
 **See also:**    
-:   [splicetext proc]/proc/splicetext    
-:   [findtext proc]/proc/findtext    
-:   [splittext proc]/proc/splittext    
-:   [trimtext proc]/proc/trimtext    
-:   [Copy proc (list)]/list/proc/Copy    
+:   [splicetext proc](/proc/splicetext)    
+:   [findtext proc](/proc/findtext)    
+:   [splittext proc](/proc/splittext)    
+:   [trimtext proc](/proc/trimtext)    
+:   [Copy proc (list)](/list/proc/Copy)    
 <!-- -->    
 **Format:**    
 :   copytext(T,Start=1,End=0)    
@@ -31,4 +31,4 @@ post = copytext(\"Hi there\",-5)) // = \"there\"
 Note: In strings containing non-ASCII characters, byte position and    
 character position are not the same thing. Use `copytext_char()` to work    
 with character counts instead of bytes, at a performance cost. See the    
-[Unicode]/%7Bnotes%7D/Unicode section for more information.  
+[Unicode](/%7Bnotes%7D/Unicode) section for more information.  

@@ -1,7 +1,7 @@
 []{#/name var (savefile).md}    
 ## name var (savefile)    
 **See also:**    
-:   [savefile]/savefile    
+:   [savefile](/savefile)    
 The external \"real\" filename is stored in file.name. It is initialized    
 when creating a new file. If none is specified, a temporary file with a    
 random name will be created.    

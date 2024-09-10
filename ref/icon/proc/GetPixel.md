@@ -1,9 +1,9 @@
 []{#/GetPixel proc (icon).md}    
 ## GetPixel proc (icon)    
 **See also:**    
-:   [icon]/icon    
-:   [procs (icon)]/icon/proc    
-:   [rgb proc]/proc/rgb    
+:   [icon](/icon)    
+:   [procs (icon)](/icon/proc)    
+:   [rgb proc](/proc/rgb)    
 <!-- -->    
 **Format:**    
 :   GetPixel(x, y, icon_state, dir=0, frame=0, moving=-1)    

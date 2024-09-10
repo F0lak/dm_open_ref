@@ -1,8 +1,8 @@
 []{#/Lock proc (savefile).md}    
 ## Lock proc (savefile)    
 **See also:**    
-:   [New proc (savefile)]/savefile/proc/New    
-:   [Unlock proc (savefile)]/savefile/proc/Unlock    
+:   [New proc (savefile)](/savefile/proc/New)    
+:   [Unlock proc (savefile)](/savefile/proc/Unlock)    
 <!-- -->    
 **Format:**    
 :   Lock(timeout)    

@@ -1,12 +1,12 @@
 []{#/zoom parameter (skin).md}/param/zoom}    
 ## zoom parameter (skin)    
 **See also:**    
-:   [letterbox parameter]/%7Bskin%7D/param/letterbox    
-:   [view-size parameter]/%7Bskin%7D/param/view-size    
-:   [zoom-mode parameter]/%7Bskin%7D/param/zoom-mode    
+:   [letterbox parameter](/%7Bskin%7D/param/letterbox)    
+:   [view-size parameter](/%7Bskin%7D/param/view-size)    
+:   [zoom-mode parameter](/%7Bskin%7D/param/zoom-mode)    
 <!-- -->    
 **Applies to:**    
-:   [Map]/%7Bskin%7D/control/map    
+:   [Map](/%7Bskin%7D/control/map)    
 <!-- -->    
 **Format:**    
 :   number    

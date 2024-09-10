@@ -1,14 +1,14 @@
 []{#/appearance_flags var (atom).md}    
 ## appearance_flags var (atom) {#appearance_flags-var-atom byondver="509"}    
 **See also:**    
-:   [vars (atom)]/atom/var    
-:   [alpha var (atom)]/atom/var/alpha    
-:   [color var (atom)]/atom/var/color    
-:   [transform var (atom)]/atom/var/transform    
-:   [color var (client)]/client/var/color    
-:   [Gliding]/%7Bnotes%7D/gliding    
-:   [movement_mode var (world)]/world/var/movement_mode    
-:   [Understanding the renderer]/%7Bnotes%7D/renderer    
+:   [vars (atom)](/atom/var)    
+:   [alpha var (atom)](/atom/var/alpha)    
+:   [color var (atom)](/atom/var/color)    
+:   [transform var (atom)](/atom/var/transform)    
+:   [color var (client)](/client/var/color)    
+:   [Gliding](/%7Bnotes%7D/gliding)    
+:   [movement_mode var (world)](/world/var/movement_mode)    
+:   [Understanding the renderer](/%7Bnotes%7D/renderer)    
 <!-- -->    
 **Default value:**    
 :   0    
@@ -51,7 +51,7 @@ All of these flags are ignored if `KEEP_TOGETHER` is used on the parent
 parent icon along with all of its overlays get drawn to a single surface    
 and color, transform, etc. are applied afterward.    
 ### NO_CLIENT_COLOR    
-The value of [client.color]/client/var/color{.code} is normally    
+The value of [client.color](/client/var/color){.code} is normally    
 applied to all icons. This flag says that the icon is an exception.    
 Generally `client.color` has been superseded by the use of plane masters    
 anyway.    
@@ -107,7 +107,7 @@ The example also makes a point of adding full alpha to the plane,
 because a plane is fully transparent by default. However, it\'s usually    
 a better idea not to mess with the alpha color, and instead use another    
 icon, scaled to the appropriate size, as a backdrop.    
-The [mouse_opacity]/atom/var/mouse_opacity{.code} set by the plane    
+The [mouse_opacity](/atom/var/mouse_opacity){.code} set by the plane    
 master will determine how the mouse interacts with objects on the plane.    
 A value of 0 will mean everything in the plane is invisible to the    
 mouse; 1 means the plane is mouse-invisible but the objects in it use    
@@ -133,6 +133,6 @@ the mouse still interacts with this object, not the source. The
 instead of this object.    
 ### TILE_MOVER {#tile_mover byondver="514"}    
 This flag indicates this atom is locked to the tile grid as it would be    
-in [TILE_MOVEMENT_MODE]/world/var/movement_mode{.code}, regardless of    
+in [TILE_MOVEMENT_MODE](/world/var/movement_mode){.code}, regardless of    
 the setting of `world.movement_mode`. In this way, pixel movers and tile    
 movers can coexist.  

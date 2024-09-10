@@ -1,8 +1,8 @@
 []{#/STARSTAR operator.md}    
 ## \*\* operator    
 **See also:**    
-:   [log proc]/proc/log    
-:   [operators]/operator    
+:   [log proc](/proc/log)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A \*\* B    

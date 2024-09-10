@@ -1,11 +1,11 @@
 []{#/call_ext proc.md}    
 ## call_ext proc {#call_ext-proc byondver="515"}    
 **See also:**    
-:   [load_ext proc]/proc/load_ext    
-:   [arglist proc]/proc/arglist    
-:   [call proc]/proc/call    
-:   [path operators]/operator/path    
-:   [Byondapi]/%7B%7Bappendix%7D%7D/Byondapi    
+:   [load_ext proc](/proc/load_ext)    
+:   [arglist proc](/proc/arglist)    
+:   [call proc](/proc/call)    
+:   [path operators](/operator/path)    
+:   [Byondapi](/%7B%7Bappendix%7D%7D/Byondapi)    
 <!-- -->    
 **Format:**    
 :   call_ext(LibName,FuncName)(Arguments)    
@@ -83,7 +83,7 @@ function returns and does not need it after that.
 A newer and more flexible way of calling external libraries is now    
 available, and it allows you to pass strings, numbers, and references,    
 and also get other types of valus in return. This uses    
-[Byondapi]/%7B%7Bappendix%7D%7D/Byondapi and requires your external    
+[Byondapi](/%7B%7Bappendix%7D%7D/Byondapi) and requires your external    
 library to be compiled with the `byondapi.h` header file (if using C or    
 C++). Byondapi also includes helpful C++ wrapper classes in separate    
 files.    

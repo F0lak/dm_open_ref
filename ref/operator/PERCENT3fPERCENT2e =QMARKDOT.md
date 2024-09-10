@@ -1,10 +1,10 @@
 []{#/QMARKDOT operator.md}    
 ## ?. operator {#operator byondver="512"}    
 **See also:**    
-:   [. operator]/operator/%2e    
-:   [: operator]/operator/:    
-:   [?: operator]/operator/%3f:    
-:   [operators]/operator    
+:   [. operator](/operator/%2e)    
+:   [: operator](/operator/:)    
+:   [?: operator](/operator/%3f:)    
+:   [operators](/operator)    
 This is used to access the procs and vars of a prototyped object. It is    
 just like the . operator, but if the object is null, the access does not    
 happen and there will be no runtime error. (A runtime error can still    

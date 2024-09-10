@@ -1,9 +1,9 @@
 []{#/output proc.md}    
 ## output proc    
 **See also:**    
-:   [\<\< output operator]/operator/%3c%3c/output    
-:   [winclone proc]/proc/winclone    
-:   [winset proc]/proc/winset    
+:   [\<\< output operator](/operator/%3c%3c/output)    
+:   [winclone proc](/proc/winclone)    
+:   [winset proc](/proc/winset)    
 <!-- -->    
 **Format:**    
 :   output(msg, control)    
@@ -29,7 +29,7 @@ For a browser control, the extra info is a JavaScript function. The
 format for sending a script to the browser control is    
 `output("[params]","[control]:[scriptname]")` where \"\[params\]\" is a    
 URL-encoded list of string arguments to the javascript function, as    
-formatted by [list2params()]/proc/list2params{.code}.    
+formatted by [list2params()](/proc/list2params){.code}.    
 ### Example:    
 mob/Login() . = ..() usr \<\< output(\\ {\"    
 ::: {#foo}    

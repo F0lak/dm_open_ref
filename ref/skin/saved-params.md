@@ -1,7 +1,7 @@
 []{#/saved-params parameter (skin).md}/param/saved-params}    
 ## saved-params parameter (skin)    
 **Applies to:**    
-:   [All]/%7Bskin%7D/control    
+:   [All](/%7Bskin%7D/control)    
 <!-- -->    
 **Format:**    
 :   string    

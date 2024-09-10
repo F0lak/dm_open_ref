@@ -1,10 +1,10 @@
 []{#/turf.md}    
 ## turf.md    
 **See also:**    
-:   [atom]/atom    
-:   [procs (turf.md)]/turf.md/proc    
-:   [vars (turf.md)]/turf.md/var    
-:   [Map]/map    
+:   [atom](/atom)    
+:   [procs (turf.md)](/turf.md/proc)    
+:   [vars (turf.md)](/turf.md/var)    
+:   [Map](/map)    
 Turfs cover the surface of the map. They are derived from `/turf.md` which    
 derives from `/atom`.    
 This example defines the turf.md prototype `/turf.md/floor` and `/turf.md/wall`.    

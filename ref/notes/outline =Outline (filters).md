@@ -1,7 +1,7 @@
 []{#/Outline filter.md}/filters/outline toc="Outline (filters)"}    
 ## Outline filter {#outline-filter byondver="512"}    
 **See also:**    
-:   [Drop shadow (filters)]/%7Bnotes%7D/filters/drop_shadow    
+:   [Drop shadow (filters)](/%7Bnotes%7D/filters/drop_shadow)    
 <!-- -->    
 Format:    
 :   filter(type=\"outline\", \...)    

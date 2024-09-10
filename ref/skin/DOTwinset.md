@@ -1,12 +1,12 @@
 []{#/DOTwinset (client command).md}/commands/.winset}    
 ## .winset (client command)    
 **See also:**    
-:   [winset proc]/proc/winset    
-:   [client commands]/%7Bskin%7D/commands    
+:   [winset proc](/proc/winset)    
+:   [client commands](/%7Bskin%7D/commands)    
 <!-- -->    
 **Format:**    
 :   .winset \"*\[control.param=value;\...\]*\"    
-Sets skin parameters like the [`winset()` proc]/proc/winset. You can    
+Sets skin parameters like the [`winset()` proc](/proc/winset). You can    
 set more than one parameter by separating them with semicolons.    
 This command also allows you to use conditional expressions, like so:    
     condition ? choice1 : choice2    

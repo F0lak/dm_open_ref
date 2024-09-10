@@ -1,12 +1,12 @@
 []{#/Find proc (regex).md}    
 ## Find proc (regex) {#find-proc-regex byondver="510"}    
 **See also:**    
-:   [Regular expressions]/%7Bnotes%7D/regex    
-:   [regex datum]/regex    
-:   [Replace proc (regex)]/regex/proc/Replace    
-:   [regex vars]/regex/var    
-:   [regex proc]/proc/regex    
-:   [findtext proc]/proc/findtext    
+:   [Regular expressions](/%7Bnotes%7D/regex)    
+:   [regex datum](/regex)    
+:   [Replace proc (regex)](/regex/proc/Replace)    
+:   [regex vars](/regex/var)    
+:   [regex proc](/proc/regex)    
+:   [findtext proc](/proc/findtext)    
 <!-- -->    
 **Format:**    
 :   Find(haystack, Start=1, End=0)    

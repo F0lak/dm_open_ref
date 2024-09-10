@@ -1,9 +1,9 @@
 []{#/PERCENTPERCENT operator.md}    
 ## %% operator {#operator byondver="515"}    
 **See also:**    
-:   [% operator]/operator/%    
-:   [%%= operator]/PERCENTPERCENT operator.md=    
-:   [operators]/operator    
+:   [% operator](/operator/%)    
+:   [%%= operator](/PERCENTPERCENT operator.md=)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A %% B    

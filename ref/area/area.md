@@ -1,10 +1,10 @@
 []{#/area.md}    
 ## area.md    
 **See also:**    
-:   [atom]/atom    
-:   [procs (area.md)]/area.md/proc    
-:   [rooms]/area.md/room    
-:   [vars (area.md)]/area.md/var    
+:   [atom](/atom)    
+:   [procs (area.md)](/area.md/proc)    
+:   [rooms](/area.md/room)    
+:   [vars (area.md)](/area.md/var)    
 Areas are derived from `/area.md`, which derives from `/atom`. Regions on    
 the map may be assigned to an area.md by painting it onto the map. Areas    
 off the map serve as rooms that objects may enter and exit.    

@@ -1,11 +1,11 @@
 []{#/invisibility var (atom).md}    
 ## invisibility var (atom)    
 **See also:**    
-:   [invisibility setting (verb)]/verb/set/invisibility    
-:   [opacity var (atom)]/atom/var/opacity    
-:   [see_invisible var (mob)]/mob/var/see_invisible    
-:   [sight var (mob)]/mob/var/sight    
-:   [view proc]/proc/view    
+:   [invisibility setting (verb)](/verb/set/invisibility)    
+:   [opacity var (atom)](/atom/var/opacity)    
+:   [see_invisible var (mob)](/mob/var/see_invisible)    
+:   [sight var (mob)](/mob/var/sight)    
+:   [view proc](/proc/view)    
 <!-- -->    
 **Default value:**    
 :   0    

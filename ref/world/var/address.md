@@ -1,9 +1,9 @@
 []{#/address var (world).md}    
 ## address var (world)    
 **See also:**    
-:   [port var (world)]/world/var/port    
-:   [url var (world)]/world/var/url    
-:   [internet_address var (world)]/world/var/internet_address    
+:   [port var (world)](/world/var/port)    
+:   [url var (world)](/world/var/url)    
+:   [internet_address var (world)](/world/var/internet_address)    
 This is the network address of the machine hosting the world. If it    
 cannot be determined, it will be null.    
 The full network address of the world may be formed by concatenating the    

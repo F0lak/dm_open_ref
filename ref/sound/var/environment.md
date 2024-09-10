@@ -1,9 +1,9 @@
 []{#/environment var (sound).md}    
 ## environment var (sound)    
 **See also:**    
-:   [vars (sound)]/sound/var    
-:   [x, y, z vars (sound)]/sound/var/xyz    
-:   [echo var (sound)]/sound/var/echo    
+:   [vars (sound)](/sound/var)    
+:   [x, y, z vars (sound)](/sound/var/xyz)    
+:   [echo var (sound)](/sound/var/echo)    
 <!-- -->    
 **Default value:**    
 :   -1    

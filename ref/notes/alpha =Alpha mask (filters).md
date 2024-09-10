@@ -1,8 +1,8 @@
 []{#/Alpha mask filter.md}/filters/alpha toc="Alpha mask (filters)"}    
 ## Alpha mask filter {#alpha-mask-filter byondver="513"}    
 **See also:**    
-:   [icon var (atom)]/atom/var/icon    
-:   [render_target var (atom)]/atom/var/render_target    
+:   [icon var (atom)](/atom/var/icon)    
+:   [render_target var (atom)](/atom/var/render_target)    
 <!-- -->    
 Format:    
 :   filter(type=\"alpha\", \...)    

@@ -1,16 +1,16 @@
 []{#/savefile.md}    
 ## savefile.md    
 **See also:**    
-:   [\>\> operator (savefile.md)]/savefile.md/operator/%3e%3e    
-:   [\<\< operator (savefile.md)]/savefile.md/operator/%3c%3c    
-:   [Export proc (client)]/client/proc/Export    
-:   [New proc (client)]/client/proc/New    
-:   [procs (savefile.md)]/savefile.md/proc    
-:   [vars (savefile.md)]/savefile.md/var    
-:   [tmp vars]/var/tmp    
-:   [issaved proc]/proc/issaved    
-:   [Read proc (datum)]/datum/proc/Read    
-:   [Write proc (datum)]/datum/proc/Write    
+:   [\>\> operator (savefile.md)](/savefile.md/operator/%3e%3e)    
+:   [\<\< operator (savefile.md)](/savefile.md/operator/%3c%3c)    
+:   [Export proc (client)](/client/proc/Export)    
+:   [New proc (client)](/client/proc/New)    
+:   [procs (savefile.md)](/savefile.md/proc)    
+:   [vars (savefile.md)](/savefile.md/var)    
+:   [tmp vars](/var/tmp)    
+:   [issaved proc](/proc/issaved)    
+:   [Read proc (datum)](/datum/proc/Read)    
+:   [Write proc (datum)](/datum/proc/Write)    
 ::: {.sidebar .note}    
 Savefiles are easy to use, but you should always plan what you\'re going    
 to save and what you don\'t want to save. Use `/tmp` to avoid saving    
@@ -19,12 +19,12 @@ In particular you should be careful that if you\'re saving a player\'s
 mob, you don\'t accidentally save any other mobs. If you save a turf,    
 you should avoid saving its contents unless you know there are no mobs    
 standing on it (but usually it\'s better to save x,y,z coordinates than    
-the turf itself). This is explained further in the [tmp vars]/var/tmp    
+the turf itself). This is explained further in the [tmp vars](/var/tmp)    
 entry.    
 Currently, overlays and underlays also save by combining each list into    
 a single icon that saves its full icon data in the file. This may not be    
 desired, so you can remove that data. Usually you\'ll want to rebuild    
-any overlay/underlay lists during [Read()]/datum/proc/Read{.code}.    
+any overlay/underlay lists during [Read()](/datum/proc/Read){.code}.    
 :::    
 A database file in DM is called a \"savefile.md\". All of the contents of a    
 savefile.md reside in a single file. The contents of the file are stored in    

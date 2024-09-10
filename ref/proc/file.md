@@ -1,14 +1,14 @@
 []{#/file proc.md}    
 ## file proc    
 **See also:**    
-:   [\<\< output operator]/operator/%3c%3c/output    
-:   [fcopy_rsc proc]/proc/fcopy_rsc    
-:   [ftp proc]/proc/ftp    
-:   [isfile proc]/proc/isfile    
-:   [link proc]/proc/link    
-:   [run proc]/proc/run    
-:   [savefile]/savefile    
-:   [sound proc]/proc/sound    
+:   [\<\< output operator](/operator/%3c%3c/output)    
+:   [fcopy_rsc proc](/proc/fcopy_rsc)    
+:   [ftp proc](/proc/ftp)    
+:   [isfile proc](/proc/isfile)    
+:   [link proc](/proc/link)    
+:   [run proc](/proc/run)    
+:   [savefile](/savefile)    
+:   [sound proc](/proc/sound)    
 <!-- -->    
 **Format:**    
 :   file(Path)    

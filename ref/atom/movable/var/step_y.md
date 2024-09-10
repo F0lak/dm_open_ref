@@ -1,12 +1,12 @@
 []{#/step_y var (movable atom).md}    
 ## step_y var (movable atom) {#step_y-var-movable-atom byondver="490"}    
 **See also:**    
-:   [step_x var (movable atom)]/atom/movable/var/step_x    
-:   [step_size var (movable atom)]/atom/movable/var/step_size    
-:   [bound_y var (movable atom)]/atom/movable/var/bound_x    
-:   [Move proc (movable atom)]/atom/movable/proc/Move    
-:   [locs list var (movable atom)]/atom/movable/var/locs    
-:   [Pixel movement]/%7Bnotes%7D/pixel-movement    
+:   [step_x var (movable atom)](/atom/movable/var/step_x)    
+:   [step_size var (movable atom)](/atom/movable/var/step_size)    
+:   [bound_y var (movable atom)](/atom/movable/var/bound_x)    
+:   [Move proc (movable atom)](/atom/movable/proc/Move)    
+:   [locs list var (movable atom)](/atom/movable/var/locs)    
+:   [Pixel movement](/%7Bnotes%7D/pixel-movement)    
 <!-- -->    
 **Default value:**    
 :   0    

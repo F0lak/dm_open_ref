@@ -1,10 +1,10 @@
 []{#/EXCEPTION proc.md}    
 ## EXCEPTION proc    
 **See also:**    
-:   [try and catch statements]/proc/try    
-:   [throw statement]/proc/throw    
-:   [exception]/exception    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [try and catch statements](/proc/try)    
+:   [throw statement](/proc/throw)    
+:   [exception](/exception)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 <!-- -->    
 **Format:**    
 :   EXCEPTION(value)    

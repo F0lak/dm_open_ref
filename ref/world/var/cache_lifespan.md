@@ -1,7 +1,7 @@
 []{#/cache_lifespan var (world).md}    
 ## cache_lifespan var (world)    
 **See also:**    
-:   [cache]/DM/cache    
+:   [cache](/DM/cache)    
 <!-- -->    
 **Default value:**    
 :   30 (days)    

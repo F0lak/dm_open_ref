@@ -1,8 +1,8 @@
 []{#/fcopy proc.md}    
 ## fcopy proc    
 **See also:**    
-:   [fcopy_rsc proc]/fcopy proc.md_rsc    
-:   [shell proc]/proc/shell    
+:   [fcopy_rsc proc](/fcopy proc.md_rsc)    
+:   [shell proc](/proc/shell)    
 <!-- -->    
 **Format:**    
 :   fcopy(Src,Dst)    

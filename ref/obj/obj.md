@@ -1,10 +1,10 @@
 []{#/obj.md}    
 ## obj.md    
 **See also:**    
-:   [atom]/atom    
-:   [movable atoms]/atom/movable    
-:   [procs (obj.md)]/obj.md/proc    
-:   [vars (obj.md)]/obj.md/var    
+:   [atom](/atom)    
+:   [movable atoms](/atom/movable)    
+:   [procs (obj.md)](/obj.md/proc)    
+:   [vars (obj.md)](/obj.md/var)    
 There are two types of movable atoms: obj.mds and mobs. The difference    
 between them is that a mob can be attached to a human player, and is    
 also typically used for NPCs and creatures. The obj.md type is a little bit    

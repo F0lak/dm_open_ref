@@ -1,11 +1,11 @@
 []{#/path operators.md}    
 ## path operators    
 **See also:**    
-:   [. path operator]/path operators.md/%2e    
-:   [/ path operator]/path operators.md//    
-:   [: path operator]/path operators.md/:    
-:   [procs]/proc    
-:   [vars]/var    
+:   [. path operator](/path operators.md/%2e)    
+:   [/ path operator](/path operators.md//)    
+:   [: path operator](/path operators.md/:)    
+:   [procs](/proc)    
+:   [vars](/var)    
 A \"path\" in DM is a constant value that identifies a particular    
 definition in the code tree (i.e. an object, procedure, or variable    
 definition). An example of this is the default mob type for new players    

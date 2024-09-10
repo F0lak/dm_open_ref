@@ -1,16 +1,16 @@
 []{#/Entered proc (atom).md}    
 ## Entered proc (atom)    
 **See also:**    
-:   [Enter proc (atom)]/atom/proc/Enter    
-:   [Exit proc (atom)]/atom/proc/Exit    
-:   [Exited proc (atom)]/atom/proc/Exited    
-:   [Cross proc (atom)]/atom/proc/Cross    
-:   [Crossed proc (atom)]/atom/proc/Crossed    
-:   [Uncross proc (atom)]/atom/proc/Uncross    
-:   [Uncrossed proc (atom)]/atom/proc/Uncrossed    
-:   [Move proc (movable atom)]/atom/movable/proc/Move    
-:   [step_x var (movable atom)]/atom/movable/var/step_x    
-:   [step_y var (movable atom)]/atom/movable/var/step_y    
+:   [Enter proc (atom)](/atom/proc/Enter)    
+:   [Exit proc (atom)](/atom/proc/Exit)    
+:   [Exited proc (atom)](/atom/proc/Exited)    
+:   [Cross proc (atom)](/atom/proc/Cross)    
+:   [Crossed proc (atom)](/atom/proc/Crossed)    
+:   [Uncross proc (atom)](/atom/proc/Uncross)    
+:   [Uncrossed proc (atom)](/atom/proc/Uncrossed)    
+:   [Move proc (movable atom)](/atom/movable/proc/Move)    
+:   [step_x var (movable atom)](/atom/movable/var/step_x)    
+:   [step_y var (movable atom)](/atom/movable/var/step_y)    
 <!-- -->    
 **Format:**    
 :   Entered(atom/movable/Obj,atom/OldLoc)    

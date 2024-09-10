@@ -1,9 +1,9 @@
 []{#/run proc.md}    
 ## run proc    
 **See also:**    
-:   [\<\< output operator]/operator/%3c%3c/output    
-:   [file proc]/proc/file    
-:   [link proc]/proc/link    
+:   [\<\< output operator](/operator/%3c%3c/output)    
+:   [file proc](/proc/file)    
+:   [link proc](/proc/link)    
 <!-- -->    
 **Format:**    
 :   O \<\< run(File)    

@@ -1,10 +1,10 @@
 []{#/Gaussian blur filter.md}/filters/blur toc="Gaussian blur (filters)"}    
 ## Gaussian blur filter {#gaussian-blur-filter byondver="512"}    
 **See also:**    
-:   [Motion blur (filters)]/%7Bnotes%7D/filters/motion_blur    
-:   [Radial blur (filters)]/%7Bnotes%7D/filters/radial_blur    
-:   [Angular blur (filters)]/%7Bnotes%7D/filters/angular_blur    
-:   [Drop shadow (filters)]/%7Bnotes%7D/filters/drop_shadow    
+:   [Motion blur (filters)](/%7Bnotes%7D/filters/motion_blur)    
+:   [Radial blur (filters)](/%7Bnotes%7D/filters/radial_blur)    
+:   [Angular blur (filters)](/%7Bnotes%7D/filters/angular_blur)    
+:   [Drop shadow (filters)](/%7Bnotes%7D/filters/drop_shadow)    
 <!-- -->    
 Format:    
 :   filter(type=\"blur\", \...)    

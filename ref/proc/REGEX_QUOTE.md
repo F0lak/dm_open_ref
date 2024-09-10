@@ -1,9 +1,9 @@
 []{#/REGEX_QUOTE proc.md}    
 ## REGEX_QUOTE proc {#regex_quote-proc byondver="510"}    
 **See also:**    
-:   [regex proc]/proc/regex    
-:   [regex datum]/regex    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [regex proc](/proc/regex)    
+:   [regex datum](/regex)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 <!-- -->    
 **Format:**    
 :   REGEX_QUOTE(text)    

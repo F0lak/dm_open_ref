@@ -1,10 +1,10 @@
 []{#/byond_version var (savefile).md}    
 ## byond_version var (savefile) {#byond_version-var-savefile byondver="515"}    
 **See also:**    
-:   [savefile]/savefile    
-:   [byond_build var (savefile)]/savefile/var/byond_build    
-:   [byond_version var (world)]/world/var/byond_version    
-:   [byond_build var (world)]/world/var/byond_build    
+:   [savefile](/savefile)    
+:   [byond_build var (savefile)](/savefile/var/byond_build)    
+:   [byond_version var (world)](/world/var/byond_version)    
+:   [byond_build var (world)](/world/var/byond_build)    
 <!-- -->    
 **Default value:**    
 :   0    

@@ -1,11 +1,11 @@
 []{#/statusbar parameter (skin).md}/param/statusbar}    
 ## statusbar parameter (skin)    
 **See also:**    
-:   [titlebar parameter]/%7Bskin%7D/param/titlebar    
-:   [on-status parameter]/%7Bskin%7D/param/on-status    
+:   [titlebar parameter](/%7Bskin%7D/param/titlebar)    
+:   [on-status parameter](/%7Bskin%7D/param/on-status)    
 <!-- -->    
 **Applies to:**    
-:   [Main]/%7Bskin%7D/control/main (window only)    
+:   [Main](/%7Bskin%7D/control/main) (window only)    
 <!-- -->    
 **Format:**    
 :   true/false    

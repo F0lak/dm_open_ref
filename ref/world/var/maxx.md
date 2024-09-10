@@ -1,11 +1,11 @@
 []{#/maxx var (world).md}    
 ## maxx var (world)    
 **See also:**    
-:   [area var (world)]/world/var/area    
-:   [maxy var (world)]/world/var/maxy    
-:   [maxz var (world)]/world/var/maxz    
-:   [turf var (world)]/world/var/turf    
-:   [Map]/map    
+:   [area var (world)](/world/var/area)    
+:   [maxy var (world)](/world/var/maxy)    
+:   [maxz var (world)](/world/var/maxz)    
+:   [turf var (world)](/world/var/turf)    
+:   [Map](/map)    
 <!-- -->    
 **Default value:**    
 :   0    

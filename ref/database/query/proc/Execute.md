@@ -1,16 +1,16 @@
 []{#/Execute proc (database query).md}    
 ## Execute proc (database query) {#execute-proc-database-query byondver="506"}    
 **See also:**    
-:   [database datum]/database    
-:   [database query datum]/database/query    
-:   [Add proc (database query)]/database/query/proc/Add    
-:   [Close proc (database query)]/database/query/proc/Close    
-:   [GetColumn proc (database query)]/database/query/proc/GetColumn    
-:   [GetRowData proc (database query)]/database/query/proc/GetRowData    
-:   [NextRow proc (database query)]/database/query/proc/NextRow    
-:   [Reset proc (database query)]/database/query/proc/Reset    
+:   [database datum](/database)    
+:   [database query datum](/database/query)    
+:   [Add proc (database query)](/database/query/proc/Add)    
+:   [Close proc (database query)](/database/query/proc/Close)    
+:   [GetColumn proc (database query)](/database/query/proc/GetColumn)    
+:   [GetRowData proc (database query)](/database/query/proc/GetRowData)    
+:   [NextRow proc (database query)](/database/query/proc/NextRow)    
+:   [Reset proc (database query)](/database/query/proc/Reset)    
 :   [RowsAffected proc (database    
-    query)]/database/query/proc/RowsAffected    
+    query)](/database/query/proc/RowsAffected)    
 <!-- -->    
 **Format:**    
 :   Execute(database)    

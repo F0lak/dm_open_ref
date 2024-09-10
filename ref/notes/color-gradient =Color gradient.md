@@ -1,10 +1,10 @@
 []{#/Color gradient.md}/color-gradient toc="Color gradient"}    
 ## Color gradient {#color-gradient byondver="514"}    
 **See also:**    
-:   [gradient proc]/proc/gradient    
-:   [color var (atom)]/atom/var/color    
-:   [Particle effects]/%7Bnotes%7D/particles    
-:   [Color space]/%7B%7Bappendix%7D%7D/color-space    
+:   [gradient proc](/proc/gradient)    
+:   [color var (atom)](/atom/var/color)    
+:   [Particle effects](/%7Bnotes%7D/particles)    
+:   [Color space](/%7B%7Bappendix%7D%7D/color-space)    
 A color gradient is a special list that defines a range of colors that    
 you can smoothly interpolate between. A simple example is a gradient    
 from red to white:    
@@ -41,12 +41,12 @@ You can also include \"space\" in the list, and give it an associated
 value that describes the color space this gradient uses to interpolate    
 between colors. For instance, `"space"=COLORSPACE_HSL` will use HSL    
 interpolation instead of the default RGB. See [Color    
-space]/%7B%7Bappendix%7D%7D/color-space for more information.    
+space](/%7B%7Bappendix%7D%7D/color-space) for more information.    
 ### Example:    
 // color wheel with a different color space list(0, \"#f00\", 3,    
 \"#0ff\", 6, \"#f00\", \"loop\", \"space\"=COLORSPACE_HSLA)    
 Currently, color gradients are only used by particle effects and the    
-[`gradient` proc]/proc/gradient. With particles, if you use a    
+[`gradient` proc](/proc/gradient). With particles, if you use a    
 gradient the particle\'s color is given as a number, and that number is    
 used to look up its real color from the gradient. The number can change    
 over time, thus changing the particle\'s color.  

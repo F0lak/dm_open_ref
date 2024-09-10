@@ -1,8 +1,8 @@
 []{#/group list var (mob).md}    
 ## group list var (mob)    
 **See also:**    
-:   [Bump proc (movable atom)]/atom/movable/proc/Bump    
-:   [list]/list    
+:   [Bump proc (movable atom)](/atom/movable/proc/Bump)    
+:   [list](/list)    
 <!-- -->    
 **Default value:**    
 :   (empty list)    

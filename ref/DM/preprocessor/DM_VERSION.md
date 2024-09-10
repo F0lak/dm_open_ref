@@ -1,12 +1,12 @@
 []{#/DM_VERSION macro.md}    
 ## DM_VERSION macro    
 **See also:**    
-:   [byond_version var (world)]/world/var/byond_version    
-:   [byond_version var (client)]/client/var/byond_version    
-:   [DM_BUILD macro]/DM/preprocessor/DM_BUILD    
-:   [preprocessor]/DM/preprocessor    
+:   [byond_version var (world)](/world/var/byond_version)    
+:   [byond_version var (client)](/client/var/byond_version)    
+:   [DM_BUILD macro](/DM/preprocessor/DM_BUILD)    
+:   [preprocessor](/DM/preprocessor)    
 :   [#pragma compatibility    
-    directive]/DM/preprocessor/pragma/compatibility    
+    directive](/DM/preprocessor/pragma/compatibility)    
 This macro indicates the version of the compiler. This could be useful    
 when distributing code that uses new language features that would not    
 compile in older compilers.    

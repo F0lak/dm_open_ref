@@ -1,10 +1,10 @@
 []{#/alpha var (atom).md}    
 ## alpha var (atom) {#alpha-var-atom byondver="500"}    
 **See also:**    
-:   [vars (atom)]/atom/var    
-:   [appearance_flags var (atom)]/atom/var/appearance_flags    
-:   [blend_mode var (atom)]/atom/var/blend_mode    
-:   [color var (atom)]/atom/var/color    
+:   [vars (atom)](/atom/var)    
+:   [appearance_flags var (atom)](/atom/var/appearance_flags)    
+:   [blend_mode var (atom)](/atom/var/blend_mode)    
+:   [color var (atom)](/atom/var/color)    
 <!-- -->    
 **Default value:**    
 :   255 (opaque)    

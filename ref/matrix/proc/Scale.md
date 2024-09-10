@@ -1,9 +1,9 @@
 []{#/Scale proc (matrix).md}    
 ## Scale proc (matrix)    
 **See also:**    
-:   [matrix]/matrix    
-:   [matrix operators]/matrix/operators    
-:   [matrix procs]/matrix/proc    
+:   [matrix](/matrix)    
+:   [matrix operators](/matrix/operators)    
+:   [matrix procs](/matrix/proc)    
 <!-- -->    
 **Format:**    
 :   Scale(x,y)    

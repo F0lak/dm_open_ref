@@ -1,9 +1,9 @@
 []{#/locate proc.md}    
 ## locate proc    
 **See also:**    
-:   [istype proc]/proc/istype    
-:   [tag var (datum)]/datum/var/tag    
-:   [\_\_IMPLIED_TYPE\_\_ macro]/DM/preprocessor/__IMPLIED_TYPE__    
+:   [istype proc](/proc/istype)    
+:   [tag var (datum)](/datum/var/tag)    
+:   [\_\_IMPLIED_TYPE\_\_ macro](/DM/preprocessor/__IMPLIED_TYPE__)    
 <!-- -->    
 **Format:**    
 :   locate(Type) in Container    

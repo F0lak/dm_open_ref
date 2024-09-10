@@ -1,9 +1,9 @@
 []{#/Normalize proc (vector).md}    
 ## Normalize proc (vector) {#normalize-proc-vector byondver="516"}    
 **See also:**    
-:   [vector]/vector    
-:   [vector proc]/proc/vector    
-:   [size var (vector)]/vector/var/size    
+:   [vector](/vector)    
+:   [vector proc](/proc/vector)    
+:   [size var (vector)](/vector/var/size)    
 <!-- -->    
 **Format:**    
 :   V.Normalize()    

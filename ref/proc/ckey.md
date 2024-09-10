@@ -1,9 +1,9 @@
 []{#/ckey proc.md}    
 ## ckey proc    
 **See also:**    
-:   [ckeyEx proc]/ckey proc.mdEx    
-:   [ckey var (mob)]/mob/var/ckey    
-:   [savefile]/savefile    
+:   [ckeyEx proc](/ckey proc.mdEx)    
+:   [ckey var (mob)](/mob/var/ckey)    
+:   [savefile](/savefile)    
 <!-- -->    
 **Format:**    
 :   ckey(Key)    

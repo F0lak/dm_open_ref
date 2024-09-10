@@ -1,11 +1,11 @@
 []{#/statpanel var (client).md}    
 ## statpanel var (client)    
 **See also:**    
-:   [Stat proc (client)]/client/proc/Stat    
-:   [stat proc]/proc/stat    
-:   [statobj var (client)]/client/var/statobj    
-:   [statpanel proc]/proc/statpanel    
-:   [Info control (skin)]/%7Bskin%7D/control/info    
+:   [Stat proc (client)](/client/proc/Stat)    
+:   [stat proc](/proc/stat)    
+:   [statobj var (client)](/client/var/statobj)    
+:   [statpanel proc](/proc/statpanel)    
+:   [Info control (skin)](/%7Bskin%7D/control/info)    
 <!-- -->    
 **Default value:**    
 :   null    

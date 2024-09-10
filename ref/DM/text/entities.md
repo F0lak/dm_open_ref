@@ -1,9 +1,9 @@
 []{#/entities (text).md}    
 ## entities (text)    
 **See also:**    
-:   [macros (text)]/DM/text/macros    
-:   [tags (text)]/DM/text/tags    
-:   [text]/DM/text    
+:   [macros (text)](/DM/text/macros)    
+:   [tags (text)](/DM/text/tags)    
+:   [text](/DM/text)    
 Special characters may be inserted into text using HTML syntax. Such    
 characters are known as entities. They start with an ampersand and end    
 with a semicolon. The main reason for doing this is to insert characters    

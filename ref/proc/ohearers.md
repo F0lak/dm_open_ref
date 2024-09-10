@@ -1,9 +1,9 @@
 []{#/ohearers.md}    
 ## ohearers    
 **See also:**    
-:   [hearers]/proc/hearers    
-:   [oview proc]/proc/oview    
-:   [oviewers]/proc/oviewers    
+:   [hearers](/proc/hearers)    
+:   [oview proc](/proc/oview)    
+:   [oviewers](/proc/oviewers)    
 <!-- -->    
 **Format:**    
 :   ohearers(Depth=world.view,Center=usr)    

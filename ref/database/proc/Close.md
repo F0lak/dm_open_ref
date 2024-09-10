@@ -1,8 +1,8 @@
 []{#/Close proc (database).md}    
 ## Close proc (database) {#close-proc-database byondver="506"}    
 **See also:**    
-:   [database datum]/database    
-:   [Open proc (database)]/database/proc/Open    
+:   [database datum](/database)    
+:   [Open proc (database)](/database/proc/Open)    
 <!-- -->    
 **Format:**    
 :   Close()    

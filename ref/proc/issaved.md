@@ -1,10 +1,10 @@
 []{#/issaved proc.md}    
 ## issaved proc    
 **See also:**    
-:   [initial proc]/proc/initial    
-:   [savefile]/savefile    
-:   [tmp vars]/var/tmp    
-:   [vars list var (datum)]/datum/var/vars    
+:   [initial proc](/proc/initial)    
+:   [savefile](/savefile)    
+:   [tmp vars](/var/tmp)    
+:   [vars list var (datum)](/datum/var/vars)    
 <!-- -->    
 **Format:**    
 :   issaved(Var)    

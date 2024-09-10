@@ -1,8 +1,8 @@
 []{#/get_step_rand proc.md}    
 ## get_step_rand proc    
 **See also:**    
-:   [step_rand proc]/proc/step_rand    
-:   [walk_rand proc]/proc/walk_rand    
+:   [step_rand proc](/proc/step_rand)    
+:   [walk_rand proc](/proc/walk_rand)    
 <!-- -->    
 **Format:**    
 :   get_step_rand(Ref)    

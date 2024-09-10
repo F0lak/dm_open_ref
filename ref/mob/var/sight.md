@@ -1,12 +1,12 @@
 []{#/sight var (mob).md}    
 ## sight var (mob)    
 **See also:**    
-:   [invisibility setting (verb)]/verb/set/invisibility    
-:   [invisibility var (atom)]/atom/var/invisibility    
-:   [see_in_dark var (mob)]/mob/var/see_in_dark    
-:   [see_infrared var (mob)]/mob/var/see_infrared    
-:   [see_invisible var (mob)]/mob/var/see_invisible    
-:   [view proc]/proc/view    
+:   [invisibility setting (verb)](/verb/set/invisibility)    
+:   [invisibility var (atom)](/atom/var/invisibility)    
+:   [see_in_dark var (mob)](/mob/var/see_in_dark)    
+:   [see_infrared var (mob)](/mob/var/see_infrared)    
+:   [see_invisible var (mob)](/mob/var/see_invisible)    
+:   [view proc](/proc/view)    
 <!-- -->    
 **Default value:**    
 :   0    

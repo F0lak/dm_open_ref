@@ -1,10 +1,10 @@
 []{#/Projection matrix.md}/projection-matrix toc="Projection matrix"}    
 ## Projection matrix {#projection-matrix byondver="514"}    
 **See also:**    
-:   [Particle effects]/%7Bnotes%7D/particles    
-:   [transform var (atom)]/atom/var/transform    
-:   [matrix]/matrix    
-:   [Color matrix]/%7Bnotes%7D/color-matrix    
+:   [Particle effects](/%7Bnotes%7D/particles)    
+:   [transform var (atom)](/atom/var/transform)    
+:   [matrix](/matrix)    
+:   [Color matrix](/%7Bnotes%7D/color-matrix)    
 Note: Currently this feature applies only to particle effects, using the    
 `transform` var.    
 Normally icons in BYOND can only be transformed in 2D, using a simple    

@@ -1,9 +1,9 @@
 []{#/MapColors proc (icon).md}    
 ## MapColors proc (icon)    
 **See also:**    
-:   [icon]/icon    
-:   [procs (icon)]/icon/proc    
-:   [rgb proc]/proc/rgb    
+:   [icon](/icon)    
+:   [procs (icon)](/icon/proc)    
+:   [rgb proc](/proc/rgb)    
 <!-- -->    
 **Format:**    
 :   MapColors(rr, rg, rb, gr, gg, gb, br, bg, bb, r0=0, g0=0, b0=0)\    

@@ -1,10 +1,10 @@
 []{#/get_steps_to proc.md}    
 ## get_steps_to proc {#get_steps_to-proc byondver="515"}    
 **See also:**    
-:   [step proc]/proc/step    
-:   [step_to proc]/proc/step_to    
-:   [walk_to proc]/proc/walk_to    
-:   [get_step_to proc]/proc/get_step_to    
+:   [step proc](/proc/step)    
+:   [step_to proc](/proc/step_to)    
+:   [walk_to proc](/proc/walk_to)    
+:   [get_step_to proc](/proc/get_step_to)    
 <!-- -->    
 **Format:**    
 :   get_steps_to(Ref, Trg, Min=0)    

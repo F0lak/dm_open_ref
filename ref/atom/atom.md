@@ -1,14 +1,14 @@
 []{#/atom.md}    
 ## atom.md    
 **See also:**    
-:   [area]/area    
-:   [datum]/datum    
-:   [mob]/mob    
-:   [movable atom.mds]/atom.md/movable    
-:   [obj]/obj    
-:   [procs (atom.md)]/atom.md/proc    
-:   [turf]/turf    
-:   [vars (atom.md)]/atom.md/var    
+:   [area](/area)    
+:   [datum](/datum)    
+:   [mob](/mob)    
+:   [movable atom.mds](/atom.md/movable)    
+:   [obj](/obj)    
+:   [procs (atom.md)](/atom.md/proc)    
+:   [turf](/turf)    
+:   [vars (atom.md)](/atom.md/var)    
 The /atom.md object type is the ancestor of all mappable objects in the    
 game. The types /area, /turf, /obj, and /mob are all derived from /atom.md.    
 You should not create instances of /atom.md directly but should use /area,    

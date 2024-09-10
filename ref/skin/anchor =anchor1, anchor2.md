@@ -1,12 +1,12 @@
 []{#/anchor1, anchor2 parameters (skin).md}/param/anchor toc="anchor1, anchor2"}    
 ## anchor1, anchor2 parameters (skin)    
 **See also:**    
-:   [pos parameter]/%7Bskin%7D/param/pos    
-:   [size parameter]/%7Bskin%7D/param/size    
+:   [pos parameter](/%7Bskin%7D/param/pos)    
+:   [size parameter](/%7Bskin%7D/param/size)    
 <!-- -->    
 **Applies to:**    
-:   [All]/%7Bskin%7D/control (except    
-    [Main]/%7Bskin%7D/control/main)    
+:   [All](/%7Bskin%7D/control) (except    
+    [Main](/%7Bskin%7D/control/main))    
 <!-- -->    
 **Format:**    
 :   none    

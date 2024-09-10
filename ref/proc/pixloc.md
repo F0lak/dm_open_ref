@@ -1,9 +1,9 @@
 []{#/pixloc proc.md}    
 ## pixloc proc {#pixloc-proc byondver="516"}    
 **See also:**    
-:   [pixloc]/pixloc    
-:   [pixloc var (atom)]/atom/var/pixloc    
-:   [bound_pixloc proc]/proc/bound_pixloc    
+:   [pixloc](/pixloc)    
+:   [pixloc var (atom)](/atom/var/pixloc)    
+:   [bound_pixloc proc](/proc/bound_pixloc)    
 <!-- -->    
 **Format:**    
 :   pixloc(x, y, z)    

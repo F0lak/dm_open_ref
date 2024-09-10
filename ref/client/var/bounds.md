@@ -2,7 +2,7 @@
 ## bounds var (client) {#bounds-var-client byondver="509"}    
 (Also `bound_x`, `bound_y`, `bound_width`, and `bound_height`.)    
 **See also:**    
-:   [bounds proc]/proc/bounds    
+:   [bounds proc](/proc/bounds)    
 The read-only bounds var returns the map coordinates, in pixels, covered    
 by the client\'s viewport when accounting for pixel offsets, eye, step,    
 etc. (The coordinates are only relevant to the default `client.dir`    

@@ -1,9 +1,9 @@
 []{#/show_map var (client).md}    
 ## show_map var (client)    
 **See also:**    
-:   [show_verb_panel var (client)]/client/var/show_verb_panel    
-:   [view var (client)]/client/var/view    
-:   [view var (world)]/world/var/view    
+:   [show_verb_panel var (client)](/client/var/show_verb_panel)    
+:   [view var (client)](/client/var/view)    
+:   [view var (world)](/world/var/view)    
 <!-- -->    
 **Default value:**    
 :   1    

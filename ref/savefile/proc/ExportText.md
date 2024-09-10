@@ -1,7 +1,7 @@
 []{#/ExportText proc (savefile).md}    
 ## ExportText proc (savefile)    
 **See also:**    
-:   [ImportText proc (savefile)]/savefile/proc/ImportText    
+:   [ImportText proc (savefile)](/savefile/proc/ImportText)    
 <!-- -->    
 **Format:**    
 :   savefile.ExportText(path=cd,file)    
@@ -14,7 +14,7 @@ similar in syntax to DM. If no file is specified, the savefile text is
 returned as a text string instead of being written to a file.    
 The following example shows how to export and later import a savefile.    
 The user\'s mob is written into a directory with the same name as their    
-[ckey]/mob/var/ckey and the result is written to a text file.    
+[ckey](/mob/var/ckey) and the result is written to a text file.    
 ### Example:    
 mob/verb/write() var/savefile/F = new() var/txtfile =    
 file(\"players/\[ckey\].txt\") F\[ckey\] \<\< usr fdel(txtfile)    

@@ -1,7 +1,7 @@
 []{#/verbs list var (client).md}    
 ## verbs list var (client)    
 **See also:**    
-:   [list]/list    
+:   [list](/list)    
 <!-- -->    
 **Default value:**    
 :   The list of verbs defined for the client.    

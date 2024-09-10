@@ -1,8 +1,8 @@
 []{#/COLON= operator.md}    
 ## := operator {#operator byondver="514"}    
 **See also:**    
-:   [= operator]/operator/=    
-:   [operators]/operator    
+:   [= operator](/operator/=)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A := B    

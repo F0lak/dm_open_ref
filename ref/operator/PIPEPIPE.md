@@ -1,10 +1,10 @@
 []{#/PIPEPIPE operator.md}    
 ## \|\| operator    
 **See also:**    
-:   [! operator]/operator/!    
-:   [&& operator]/operator/&&    
-:   [\|\|= operator]/operator/%7C%7C=    
-:   [operators]/operator    
+:   [! operator](/operator/!)    
+:   [&& operator](/operator/&&)    
+:   [\|\|= operator](/operator/%7C%7C=)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A \|\| B    

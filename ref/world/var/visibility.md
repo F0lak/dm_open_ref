@@ -1,8 +1,8 @@
 []{#/visibility var (world).md}    
 ## visibility var (world)    
 **See also:**    
-:   [OpenPort proc (world)]/world/proc/OpenPort    
-:   [hub var (world)]/world/var/hub    
+:   [OpenPort proc (world)](/world/proc/OpenPort)    
+:   [hub var (world)](/world/var/hub)    
 <!-- -->    
 **Default value:**    
 :   1 (visible)    

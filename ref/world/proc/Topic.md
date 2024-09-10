@@ -1,11 +1,11 @@
 []{#/Topic proc (world).md}    
 ## Topic proc (world)    
 **See also:**    
-:   [Del proc (world)]/world/proc/Del    
-:   [Export proc (world)]/world/proc/Export    
-:   [Import proc (client)]/client/proc/Import    
-:   [Import proc (world)]/world/proc/Import    
-:   [Reboot proc (world)]/world/proc/Reboot    
+:   [Del proc (world)](/world/proc/Del)    
+:   [Export proc (world)](/world/proc/Export)    
+:   [Import proc (client)](/client/proc/Import)    
+:   [Import proc (world)](/world/proc/Import)    
+:   [Reboot proc (world)](/world/proc/Reboot)    
 <!-- -->    
 **Format:**    
 :   Topic(T,Addr,Master,Keys)    

@@ -1,13 +1,13 @@
 []{#/use-title parameter (skin).md}/param/use-title}    
 ## use-title parameter (skin)    
 **See also:**    
-:   [show-history parameter]/%7Bskin%7D/param/show-history    
-:   [show-url parameter]/%7Bskin%7D/param/show-url    
-:   [title parameter]/%7Bskin%7D/param/title    
-:   [titlebar parameter]/%7Bskin%7D/param/titlebar    
+:   [show-history parameter](/%7Bskin%7D/param/show-history)    
+:   [show-url parameter](/%7Bskin%7D/param/show-url)    
+:   [title parameter](/%7Bskin%7D/param/title)    
+:   [titlebar parameter](/%7Bskin%7D/param/titlebar)    
 <!-- -->    
 **Applies to:**    
-:   [Browser]/%7Bskin%7D/control/browser    
+:   [Browser](/%7Bskin%7D/control/browser)    
 <!-- -->    
 **Format:**    
 :   true/false    

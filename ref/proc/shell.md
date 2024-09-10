@@ -1,12 +1,12 @@
 []{#/shell proc.md}    
 ## shell proc    
 **See also:**    
-:   [fcopy proc]/proc/fcopy    
-:   [fdel proc]/proc/fdel    
-:   [file2text proc]/proc/file2text    
-:   [process var (world)]/world/var/process    
-:   [system_type var (world)]/world/var/system_type    
-:   [text2file proc]/proc/text2file    
+:   [fcopy proc](/proc/fcopy)    
+:   [fdel proc](/proc/fdel)    
+:   [file2text proc](/proc/file2text)    
+:   [process var (world)](/world/var/process)    
+:   [system_type var (world)](/world/var/system_type)    
+:   [text2file proc](/proc/text2file)    
 <!-- -->    
 **Format:**    
 :   shell(Command)    

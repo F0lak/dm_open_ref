@@ -1,10 +1,10 @@
 []{#/continue statement.md}    
 ## continue statement    
 **See also:**    
-:   [break statement]/proc/break    
-:   [do proc]/proc/do    
-:   [for loop proc]/proc/for/loop    
-:   [while proc]/proc/while    
+:   [break statement](/proc/break)    
+:   [do proc](/proc/do)    
+:   [for loop proc](/proc/for/loop)    
+:   [while proc](/proc/while)    
 <!-- -->    
 **Format:**    
 :   continue    

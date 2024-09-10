@@ -1,11 +1,11 @@
 []{#/matrix.md}    
 ## matrix.md {#matrix.md byondver="500"}    
 **See also:**    
-:   [matrix.md proc]/proc/matrix.md    
-:   [matrix.md operators]/matrix.md/operators    
-:   [matrix.md procs]/matrix.md/proc    
-:   [transform var (atom)]/atom/var/transform    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [matrix.md proc](/proc/matrix.md)    
+:   [matrix.md operators](/matrix.md/operators)    
+:   [matrix.md procs](/matrix.md/proc)    
+:   [transform var (atom)](/atom/var/transform)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 To display rotation, scaling, and other transformations on atoms, DM    
 uses 2D matrices. The /matrix.md datum is a convenient way of handling the    
 numbers involved, as it can be easily manipulated. There are six vars, a    
@@ -42,4 +42,4 @@ When you\'ve built your matrix.md, you can assign it to atom.transform to
 change the way that atom is displayed.    
 The matrices supported by this datum are **not** the same kind used to    
 transform colors, as in the atom.color var and icon.MapColors() proc.    
-For color matrices, see [color matrix.md]/%7Bnotes%7D/color-matrix.md.  
+For color matrices, see [color matrix.md](/%7Bnotes%7D/color-matrix.md).  

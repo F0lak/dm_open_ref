@@ -1,16 +1,16 @@
 []{#/show_popup_menus var (client).md}    
 ## show_popup_menus var (client)    
 **See also:**    
-:   [right-click parameter (skin)]/%7Bskin%7D/param/right-click    
-:   [Click proc (client)]/client/proc/Click    
-:   [DblClick proc (client)]/client/proc/DblClick    
-:   [MouseDown proc (client)]/client/proc/MouseDown    
-:   [MouseDrag proc (client)]/client/proc/MouseDrag    
-:   [MouseDrop proc (client)]/client/proc/MouseDrop    
-:   [MouseEntered proc (client)]/client/proc/MouseEntered    
-:   [MouseExited proc (client)]/client/proc/MouseExited    
-:   [MouseMove proc (client)]/client/proc/MouseMove    
-:   [MouseUp proc (client)]/client/proc/MouseUp    
+:   [right-click parameter (skin)](/%7Bskin%7D/param/right-click)    
+:   [Click proc (client)](/client/proc/Click)    
+:   [DblClick proc (client)](/client/proc/DblClick)    
+:   [MouseDown proc (client)](/client/proc/MouseDown)    
+:   [MouseDrag proc (client)](/client/proc/MouseDrag)    
+:   [MouseDrop proc (client)](/client/proc/MouseDrop)    
+:   [MouseEntered proc (client)](/client/proc/MouseEntered)    
+:   [MouseExited proc (client)](/client/proc/MouseExited)    
+:   [MouseMove proc (client)](/client/proc/MouseMove)    
+:   [MouseUp proc (client)](/client/proc/MouseUp)    
 <!-- -->    
 **Default value:**    
 :   1    

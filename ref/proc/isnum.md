@@ -1,8 +1,8 @@
 []{#/isnum proc.md}    
 ## isnum proc    
 **See also:**    
-:   [isinf proc]/proc/isinf    
-:   [isnan proc]/proc/isnan    
+:   [isinf proc](/proc/isinf)    
+:   [isnan proc](/proc/isnan)    
 :   [Numbers](/%7Bnotes%7D/numbers)    
 <!-- -->    
 **Format:**    

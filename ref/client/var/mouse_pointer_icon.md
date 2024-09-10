@@ -1,15 +1,15 @@
 []{#/mouse_pointer_icon var (client).md}    
 ## mouse_pointer_icon var (client)    
 **See also:**    
-:   [Click proc (client)]/client/proc/Click    
-:   [MouseDown proc (client)]/client/proc/MouseDown    
-:   [MouseDrag proc (client)]/client/proc/MouseDrag    
-:   [MouseDrag proc (client)]/client/proc/MouseDrag    
-:   [MouseUp proc (client)]/client/proc/MouseUp    
-:   [mouse_drag_pointer var (atom)]/atom/var/mouse_drag_pointer    
-:   [mouse_drag_pointer var (atom)]/atom/var/mouse_drag_pointer    
-:   [mouse_drop_zone var (atom)]/atom/var/mouse_drop_zone    
-:   [mouse_over_pointer var (atom)]/atom/var/mouse_over_pointer    
+:   [Click proc (client)](/client/proc/Click)    
+:   [MouseDown proc (client)](/client/proc/MouseDown)    
+:   [MouseDrag proc (client)](/client/proc/MouseDrag)    
+:   [MouseDrag proc (client)](/client/proc/MouseDrag)    
+:   [MouseUp proc (client)](/client/proc/MouseUp)    
+:   [mouse_drag_pointer var (atom)](/atom/var/mouse_drag_pointer)    
+:   [mouse_drag_pointer var (atom)](/atom/var/mouse_drag_pointer)    
+:   [mouse_drop_zone var (atom)](/atom/var/mouse_drop_zone)    
+:   [mouse_over_pointer var (atom)](/atom/var/mouse_over_pointer)    
 <!-- -->    
 **Default value:**    
 :   null    

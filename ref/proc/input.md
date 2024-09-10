@@ -1,8 +1,8 @@
 []{#/input proc.md}    
 ## input proc    
 **See also:**    
-:   [alert proc]/proc/alert    
-:   [arguments (verb)]/verb/arguments    
+:   [alert proc](/proc/alert)    
+:   [arguments (verb)](/verb/arguments)    
 <!-- -->    
 **Format:**    
 :   input(Recipient=usr,Message,Title,Default) as Type in List    

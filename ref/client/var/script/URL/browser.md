@@ -1,7 +1,7 @@
 []{#/browser configuration.md}    
 ## browser configuration    
 **See also:**    
-:   [URL (client script)]/client/var/script/URL    
+:   [URL (client script)](/client/var/script/URL)    
 DM Script can be used to effectively make a hyperlink in a web document    
 to a BYOND world. This is done by making a DM Script file that defines    
 the desired URL. It need do nothing more than that. When a user clicks    

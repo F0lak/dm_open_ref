@@ -1,17 +1,17 @@
 []{#/view proc.md}    
 ## view proc    
 **See also:**    
-:   [\<\< output operator]/operator/%3c%3c/output    
-:   [hearers]/proc/hearers    
-:   [oview proc]/proc/oview    
-:   [range proc]/proc/range    
-:   [see_in_dark var (mob)]/mob/var/see_in_dark    
-:   [see_infrared var (mob)]/mob/var/see_infrared    
-:   [see_invisible var (mob)]/mob/var/see_invisible    
-:   [sight var (mob)]/mob/var/sight    
-:   [view var (client)]/client/var/view    
-:   [view var (world)]/world/var/view    
-:   [viewers]/view proc.mders    
+:   [\<\< output operator](/operator/%3c%3c/output)    
+:   [hearers](/proc/hearers)    
+:   [oview proc](/proc/oview)    
+:   [range proc](/proc/range)    
+:   [see_in_dark var (mob)](/mob/var/see_in_dark)    
+:   [see_infrared var (mob)](/mob/var/see_infrared)    
+:   [see_invisible var (mob)](/mob/var/see_invisible)    
+:   [sight var (mob)](/mob/var/sight)    
+:   [view var (client)](/client/var/view)    
+:   [view var (world)](/world/var/view)    
+:   [viewers](/view proc.mders)    
 <!-- -->    
 **Format:**    
 :   view(Dist=5,Center=usr)    

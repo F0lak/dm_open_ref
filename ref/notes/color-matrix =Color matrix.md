@@ -1,9 +1,9 @@
 []{#/Color matrix.md}/color-matrix toc="Color matrix"}    
 ## Color matrix {#color-matrix byondver="509"}    
 **See also:**    
-:   [color var (atom)]/atom/var/color    
-:   [color var (client)]/client/var/color    
-:   [MapColors proc (icon)]/icon/proc/MapColors    
+:   [color var (atom)](/atom/var/color)    
+:   [color var (client)](/client/var/color)    
+:   [MapColors proc (icon)](/icon/proc/MapColors)    
 A color matrix is used to transform colors, in the same way that a    
 matrix represented by the `/matrix` datum is used to transform 2D    
 coordinates. A transformation matrix is 3x3, of which only 6 values are    

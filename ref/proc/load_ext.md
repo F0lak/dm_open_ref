@@ -1,8 +1,8 @@
 []{#/load_ext proc.md}    
 ## load_ext proc {#load_ext-proc byondver="516"}    
 **See also:**    
-:   [call_ext proc]/proc/call_ext    
-:   [Byondapi]/%7B%7Bappendix%7D%7D/Byondapi    
+:   [call_ext proc](/proc/call_ext)    
+:   [Byondapi](/%7B%7Bappendix%7D%7D/Byondapi)    
 <!-- -->    
 **Format:**    
 :   load_ext(LibName,FuncName)    
@@ -18,7 +18,7 @@
     `call_ext()`.    
 Use `load_ext()` to pre-load external library functions you intend to    
 use often, when maximum performance is required. (See    
-[call_ext()]/proc/call_ext{.code} for the rules for loading    
+[call_ext()](/proc/call_ext){.code} for the rules for loading    
 libraries.)    
 The result of this proc can be passed to `call_ext()` as a single    
 argument in lieu of the normal LibName and FuncName.    

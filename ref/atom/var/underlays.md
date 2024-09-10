@@ -1,16 +1,16 @@
 []{#/underlays var (atom).md}    
 ## underlays var (atom)    
 **See also:**    
-:   [icon var (atom)]/atom/var/icon    
-:   [list]/list    
-:   [overlays var (atom)]/atom/var/overlays    
-:   [Understanding the renderer]/%7Bnotes%7D/renderer    
+:   [icon var (atom)](/atom/var/icon)    
+:   [list](/list)    
+:   [overlays var (atom)](/atom/var/overlays)    
+:   [Understanding the renderer](/%7Bnotes%7D/renderer)    
 <!-- -->    
 **Default value:**    
 :   empty list    
 This is a list of icons which are displayed underneath the object\'s    
 main icon. Since these are basically the same as overlays, see    
-[overlays]/atom/var/overlays for more detailed information.    
+[overlays](/atom/var/overlays) for more detailed information.    
 The only real differences between items in the underlays list vs. the    
 overlays list is that they\'re processed first, and if they use    
 `FLOAT_LAYER` (or any other negative layer value) they\'ll appear below    

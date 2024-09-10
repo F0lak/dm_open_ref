@@ -1,9 +1,9 @@
 []{#/Open proc (database).md}    
 ## Open proc (database) {#open-proc-database byondver="506"}    
 **See also:**    
-:   [database datum]/database    
-:   [Close proc (database)]/database/proc/Close    
-:   [New proc (database)]/database/proc/New    
+:   [database datum](/database)    
+:   [Close proc (database)](/database/proc/Close)    
+:   [New proc (database)](/database/proc/New)    
 <!-- -->    
 **Format:**    
 :   Open(filename)    

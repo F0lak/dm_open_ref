@@ -1,11 +1,11 @@
 []{#/Tiled icons.md}/tiled-icons toc="Tiled icons"}    
 ## Tiled icons    
 **See also:**    
-:   [icon]/icon    
-:   [procs (icon)]/icon/proc    
-:   [map_format var (world)]/world/var/map_format    
-:   [icon_size var (world)]/world/var/icon_size    
-:   [Big icons]/%7Bnotes%7D/big-icons    
+:   [icon](/icon)    
+:   [procs (icon)](/icon/proc)    
+:   [map_format var (world)](/world/var/map_format)    
+:   [icon_size var (world)](/world/var/icon_size)    
+:   [Big icons](/%7Bnotes%7D/big-icons)    
 In BYOND 3.0, any file like a large .bmp would be treated like a regular    
 icon that had been broken up into several tile-sized icon states. All    
 tiles then were 32x32 pixels. An image that was 100x100 would therefore    
@@ -24,7 +24,7 @@ whole image, you would have to have a separate atom or overlay for each
 individual tile.    
 In newer versions, breaking big icons into tiles is no longer done by    
 default. Instead, icons are shown and manipulated in their [native    
-size]/%7Bnotes%7D/big-icons. To use the old method of breaking icons    
+size](/%7Bnotes%7D/big-icons). To use the old method of breaking icons    
 into tiles, set `world.map_format` to `TILED_ICON_MAP`. This is the    
 default for all projects compiled before version 455.    
 When using tiled icons, there are some important things to note:    

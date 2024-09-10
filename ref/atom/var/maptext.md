@@ -1,16 +1,16 @@
 []{#/maptext var (atom).md}    
 ## maptext var (atom) {#maptext-var-atom byondver="494"}    
 **See also:**    
-:   [maptext_width var (atom)]/maptext var (atom.md_width)    
-:   [maptext_height var (atom)]/maptext var (atom.md_height)    
-:   [maptext_x var (atom)]/maptext var (atom.md_x)    
-:   [maptext_y var (atom)]/maptext var (atom.md_y)    
-:   [overlays var (atom)]/atom/var/overlays    
-:   [image objects]/image    
-:   [pixel_x var (atom)]/atom/var/pixel_x    
-:   [pixel_y var (atom)]/atom/var/pixel_y    
-:   [pixel_w var (atom)]/atom/var/pixel_w    
-:   [pixel_z var (atom)]/atom/var/pixel_z    
+:   [maptext_width var (atom)](/maptext var (atom).md_width)    
+:   [maptext_height var (atom)](/maptext var (atom).md_height)    
+:   [maptext_x var (atom)](/maptext var (atom).md_x)    
+:   [maptext_y var (atom)](/maptext var (atom).md_y)    
+:   [overlays var (atom)](/atom/var/overlays)    
+:   [image objects](/image)    
+:   [pixel_x var (atom)](/atom/var/pixel_x)    
+:   [pixel_y var (atom)](/atom/var/pixel_y)    
+:   [pixel_w var (atom)](/atom/var/pixel_w)    
+:   [pixel_z var (atom)](/atom/var/pixel_z)    
 <!-- -->    
 **Default value:**    
 :   null    

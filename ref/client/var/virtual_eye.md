@@ -1,12 +1,12 @@
 []{#/virtual_eye var (client).md}    
 ## virtual_eye var (client)    
 **See also:**    
-:   [edge_limit var (client)]/client/var/edge_limit    
-:   [eye var (client)]/client/var/eye    
-:   [lazy_eye var (client)]/client/var/lazy_eye    
-:   [mob var (client)]/client/var/mob    
-:   [perspective var (client)]/client/var/perspective    
-:   [view var (client)]/client/var/view    
+:   [edge_limit var (client)](/client/var/edge_limit)    
+:   [eye var (client)](/client/var/eye)    
+:   [lazy_eye var (client)](/client/var/lazy_eye)    
+:   [mob var (client)](/client/var/mob)    
+:   [perspective var (client)](/client/var/perspective)    
+:   [view var (client)](/client/var/view)    
 <!-- -->    
 **Default value:**    
 :   client.eye    

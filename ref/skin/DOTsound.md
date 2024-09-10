@@ -1,9 +1,9 @@
 []{#/DOTsound (client command).md}/commands/.sound}    
 ## .sound (client command) {#sound-client-command byondver="516"}    
 **See also:**    
-:   [sound proc]/proc/sound    
-:   [sound datum]/sound    
-:   [client commands]/%7Bskin%7D/commands    
+:   [sound proc](/proc/sound)    
+:   [sound datum](/sound)    
+:   [client commands](/%7Bskin%7D/commands)    
 <!-- -->    
 **Format:**    
 :   .sound *file* *options*    
@@ -19,7 +19,7 @@ format, as seen below.
 Supported options are:    
 update    
 :   This action is updating a channel rather than playing a new sound.    
-    It corresponds to the [SOUND_UPDATE]/sound/var/status{.code}    
+    It corresponds to the [SOUND_UPDATE](/sound/var/status){.code}    
     status flag.    
 channel=*N*    
 :   Specifies a channel.    

@@ -1,13 +1,13 @@
 []{#/HUD _ screen objects.md}/HUD toc="HUD / screen objects"}    
 ## HUD / screen objects    
 **See also:**    
-:   [screen_loc var (movable atoms)]/atom/movable/var/screen_loc    
-:   [screen var (client)]/client/var/screen    
-:   [view var (client)]/client/var/view    
-:   [map_format var (world)]/world/var/map_format    
-:   [icon_size var (world)]/world/var/icon_size    
-:   [layer var (atom)]/atom/var/layer    
-:   [image objects]/image    
+:   [screen_loc var (movable atoms)](/atom/movable/var/screen_loc)    
+:   [screen var (client)](/client/var/screen)    
+:   [view var (client)](/client/var/view)    
+:   [map_format var (world)](/world/var/map_format)    
+:   [icon_size var (world)](/world/var/icon_size)    
+:   [layer var (atom)](/atom/var/layer)    
+:   [image objects](/image)    
 HUD stands for Heads-Up Display, and refers to any atoms that appear on    
 the screen but don\'t move when the player moves. These are also called    
 screen objects. Any movable atom can be added to the HUD by setting its    
@@ -27,7 +27,7 @@ tile of the screen), `"4,NORTH"` (fourth tile from the west, along the
 north side of the screen), `"SOUTHEAST"`, and so on. You can also    
 include pixel offsets, percentages, and specify two corners to tile an    
 icon repeatedly from one end to the other. See    
-[screen_loc]/atom/movable/var/screen_loc{.code} for more details.    
+[screen_loc](/atom/movable/var/screen_loc){.code} for more details.    
 `screen_loc` can also be used to stretch the bounds of the HUD. A value    
 of `"0,0"` will cause the atom to appear to the southwest of the    
 southwest-most tile on the visible map, outside of the regular map    

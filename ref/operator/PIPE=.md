@@ -1,9 +1,9 @@
 []{#/PIPE= operator.md}    
 ## \|= operator    
 **See also:**    
-:   [&= operator]/operator/&=    
-:   [operators]/operator    
-:   [\| operator]/operator/%7C    
+:   [&= operator](/operator/&=)    
+:   [operators](/operator)    
+:   [\| operator](/operator/%7C)    
 <!-- -->    
 **Format:**    
 :   A \|= B    

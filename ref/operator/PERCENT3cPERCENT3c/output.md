@@ -1,17 +1,17 @@
 []{#/&lt;&lt; output operator.md}    
 ## \<\< output operator    
 **See also:**    
-:   [\<\< operator (savefile)]/savefile/operator/%3c%3c    
-:   [output proc]/proc/output    
-:   [browse proc]/proc/browse    
-:   [browse_rsc proc]/proc/browse_rsc    
-:   [file proc]/proc/file    
-:   [ftp proc]/proc/ftp    
-:   [image proc]/proc/image    
-:   [link proc]/proc/link    
-:   [load_resource proc]/proc/load_resource    
-:   [run proc]/proc/run    
-:   [sound proc]/proc/sound    
+:   [\<\< operator (savefile)](/savefile/operator/%3c%3c)    
+:   [output proc](/proc/output)    
+:   [browse proc](/proc/browse)    
+:   [browse_rsc proc](/proc/browse_rsc)    
+:   [file proc](/proc/file)    
+:   [ftp proc](/proc/ftp)    
+:   [image proc](/proc/image)    
+:   [link proc](/proc/link)    
+:   [load_resource proc](/proc/load_resource)    
+:   [run proc](/proc/run)    
+:   [sound proc](/proc/sound)    
 <!-- -->    
 **Format:**    
 :   A \<\< B    

@@ -2,13 +2,13 @@
 ## pixel_w var (atom) {#pixel_w-var-atom byondver="511"}    
 **See also:**    
 :   [animate_movement var (movable    
-    atoms)]/atom/movable/var/animate_movement    
-:   [glide_size var (movable atoms)]/atom/movable/var/glide_size    
-:   [pixel_x var (atom)]/atom/var/pixel_x    
-:   [pixel_y var (atom)]/atom/var/pixel_y    
-:   [pixel_z var (atom)]/atom/var/pixel_z    
-:   [icon_size var (world)]/world/var/icon_size    
-:   [map_format var (world)]/world/var/map_format    
+    atoms)](/atom/movable/var/animate_movement)    
+:   [glide_size var (movable atoms)](/atom/movable/var/glide_size)    
+:   [pixel_x var (atom)](/atom/var/pixel_x)    
+:   [pixel_y var (atom)](/atom/var/pixel_y)    
+:   [pixel_z var (atom)](/atom/var/pixel_z)    
+:   [icon_size var (world)](/world/var/icon_size)    
+:   [map_format var (world)](/world/var/map_format)    
 <!-- -->    
 **Default value:**    
 :   0    

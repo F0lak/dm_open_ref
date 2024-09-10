@@ -1,9 +1,9 @@
 []{#/invisibility setting (verb).md}    
 ## invisibility setting (verb)    
 **See also:**    
-:   [hidden setting (verb)]/verb/set/hidden    
-:   [invisibility var (atom)]/atom/var/invisibility    
-:   [sight var (mob)]/mob/var/sight    
+:   [hidden setting (verb)](/verb/set/hidden)    
+:   [invisibility var (atom)](/atom/var/invisibility)    
+:   [sight var (mob)](/mob/var/sight)    
 <!-- -->    
 **Format:**    
 :   set invisibility = Setting    

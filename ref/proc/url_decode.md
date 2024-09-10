@@ -1,8 +1,8 @@
 []{#/url_decode proc.md}    
 ## url_decode proc    
 **See also:**    
-:   [Topic proc (client)]/client/proc/Topic    
-:   [url_encode proc]/proc/url_encode    
+:   [Topic proc (client)](/client/proc/Topic)    
+:   [url_encode proc](/proc/url_encode)    
 <!-- -->    
 **Format:**    
 :   url_decode(UrlText)    

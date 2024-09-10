@@ -1,11 +1,11 @@
 []{#/text-mode parameter (skin).md}/param/text-mode}    
 ## text-mode parameter (skin)    
 **See also:**    
-:   [zoom parameter]/%7Bskin%7D/param/zoom    
-:   [zoom-mode parameter]/%7Bskin%7D/param/zoom-mode    
+:   [zoom parameter](/%7Bskin%7D/param/zoom)    
+:   [zoom-mode parameter](/%7Bskin%7D/param/zoom-mode)    
 <!-- -->    
 **Applies to:**    
-:   [Map]/%7Bskin%7D/control/map    
+:   [Map](/%7Bskin%7D/control/map)    
 <!-- -->    
 **Format:**    
 :   true/false    

@@ -1,11 +1,11 @@
 []{#/in operator.md}    
 ## in operator    
 **See also:**    
-:   [list]/list    
-:   [operators]/operator    
-:   [! operator]/operator/!    
-:   [locate proc]/proc/locate    
-:   [input proc]/proc/input    
+:   [list](/list)    
+:   [operators](/operator)    
+:   [! operator](/operator/!)    
+:   [locate proc](/proc/locate)    
+:   [input proc](/proc/input)    
 <!-- -->    
 **Format:**    
 :   A in List    
@@ -31,8 +31,8 @@ expect. Again the solution is to use parentheses, e.g.
 `has_thing = (thing in src)`.    
 :::    
 The `in` operator is also a modifier for some procs such as    
-[locate()]/proc/locate{.code} and [input()]/proc/input{.code}.    
-Note: For [associative lists]/list/associations there\'s a faster way    
+[locate()](/proc/locate){.code} and [input()](/proc/input){.code}.    
+Note: For [associative lists](/list/associations) there\'s a faster way    
 to see if an item is in that list. The lookup of `List[A]` in an    
 associative list is relatively fast, so if the associated value is    
 always expected to be true (not null, 0, or an empty string), you can    

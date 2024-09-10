@@ -1,9 +1,9 @@
 []{#/macros (text).md}    
 ## macros (text)    
 **See also:**    
-:   [icon text macro]/macros (text.md/icon)    
-:   [text]/DM/text    
-:   [text proc]/proc/text    
+:   [icon text macro](/macros (text).md/icon)    
+:   [text](/DM/text)    
+:   [text proc](/proc/text)    
 Text macros start with \'\\\' (a backslash) and end with a space or    
 other punctuation. \\the, \\The // insert \'the\' (if needed) \\a, \\an,    
 // insert \'a(n)\' or \'some\' (if needed) \\A, \\An \\he, \\He //    

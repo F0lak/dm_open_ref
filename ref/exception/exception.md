@@ -1,12 +1,12 @@
 []{#/exception.md}    
 ## exception.md {#exception.md byondver="508"}    
 **See also:**    
-:   [try and catch statements]/proc/try    
-:   [Error proc (world)]/world/proc/Error    
-:   [throw statement]/proc/throw    
-:   [EXCEPTION proc]/proc/EXCEPTION    
-:   [caller var (proc)]/proc/var/caller    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
+:   [try and catch statements](/proc/try)    
+:   [Error proc (world)](/world/proc/Error)    
+:   [throw statement](/proc/throw)    
+:   [EXCEPTION proc](/proc/EXCEPTION)    
+:   [caller var (proc)](/proc/var/caller)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
 <!-- -->    
 **Vars:**    
 :   name: A text string (such as an error message) or other value    

@@ -1,16 +1,16 @@
 []{#/Uncrossed proc (atom).md}    
 ## Uncrossed proc (atom) {#uncrossed-proc-atom byondver="490"}    
 **See also:**    
-:   [Enter proc (atom)]/atom/proc/Enter    
-:   [Entered proc (atom)]/atom/proc/Entered    
-:   [Exit proc (atom)]/atom/proc/Exit    
-:   [Exited proc (atom)]/atom/proc/Exited    
-:   [Cross proc (atom)]/atom/proc/Cross    
-:   [Crossed proc (atom)]/atom/proc/Crossed    
-:   [Uncross proc (atom)]/atom/proc/Uncross    
-:   [Move proc (movable atom)]/atom/movable/proc/Move    
-:   [group var (mob)]/mob/var/group    
-:   [Pixel movement]/%7Bnotes%7D/pixel-movement    
+:   [Enter proc (atom)](/atom/proc/Enter)    
+:   [Entered proc (atom)](/atom/proc/Entered)    
+:   [Exit proc (atom)](/atom/proc/Exit)    
+:   [Exited proc (atom)](/atom/proc/Exited)    
+:   [Cross proc (atom)](/atom/proc/Cross)    
+:   [Crossed proc (atom)](/atom/proc/Crossed)    
+:   [Uncross proc (atom)](/atom/proc/Uncross)    
+:   [Move proc (movable atom)](/atom/movable/proc/Move)    
+:   [group var (mob)](/mob/var/group)    
+:   [Pixel movement](/%7Bnotes%7D/pixel-movement)    
 <!-- -->    
 **Format:**    
 :   Uncrossed(atom/movable/O)    

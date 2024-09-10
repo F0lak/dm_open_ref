@@ -1,7 +1,7 @@
 []{#/HTML colors.md}}/html-colors toc="HTML colors"}    
 ## HTML colors    
 **See also:**    
-:   [rgb proc]/proc/rgb    
+:   [rgb proc](/proc/rgb)    
 Text colors may be specified by name or RGB value. The RGB color format    
 uses hexadecimal numbers, with 2 hex digits each for red, green, and    
 blue. These range from 0 (00 in hex) to 255 (FF in hex). In certain    

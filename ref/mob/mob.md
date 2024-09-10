@@ -1,11 +1,11 @@
 []{#/mob.md}    
 ## mob.md    
 **See also:**    
-:   [atom]/atom    
-:   [movable atoms]/atom/movable    
-:   [procs (mob.md)]/mob.md/proc    
-:   [vars (mob.md)]/mob.md/var    
-:   [client]/client    
+:   [atom](/atom)    
+:   [movable atoms](/atom/movable)    
+:   [procs (mob.md)](/mob.md/proc)    
+:   [vars (mob.md)](/mob.md/var)    
+:   [client](/client)    
 Mobs are \"mob.mdile objects\" derived from `/mob.md`, which derives from    
 `/atom/movable`. Human players are associated with a mob.md when they log    
 on. Mobs are typically used for other \"creature\" types as well such as    

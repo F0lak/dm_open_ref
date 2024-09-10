@@ -1,12 +1,12 @@
 []{#/STAR= operator.md}    
 ## \*= operator    
 **See also:**    
-:   [\* operator]/operator/*    
-:   [+= operator]/operator/+=    
-:   [-= operator]/operator/-=    
-:   [/= operator]/operator//=    
-:   [= operator]/operator/=    
-:   [operators]/operator    
+:   [\* operator](/operator/*)    
+:   [+= operator](/operator/+=)    
+:   [-= operator](/operator/-=)    
+:   [/= operator](/operator//=)    
+:   [= operator](/operator/=)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A \*= B    

@@ -1,11 +1,11 @@
 []{#/show-names parameter (skin).md}/param/show-names}    
 ## show-names parameter (skin)    
 **See also:**    
-:   [name var (atom)]/atom/var/name    
-:   [small-icons parameter]/%7Bskin%7D/param/small-icons    
+:   [name var (atom)](/atom/var/name)    
+:   [small-icons parameter](/%7Bskin%7D/param/small-icons)    
 <!-- -->    
 **Applies to:**    
-:   [Grid]/%7Bskin%7D/control/grid    
+:   [Grid](/%7Bskin%7D/control/grid)    
 <!-- -->    
 **Format:**    
 :   true/false    

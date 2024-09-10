@@ -1,12 +1,12 @@
 []{#/Replace proc (regex).md}    
 ## Replace proc (regex) {#replace-proc-regex byondver="510"}    
 **See also:**    
-:   [Regular expressions]/%7Bnotes%7D/regex    
-:   [regex datum]/regex    
-:   [Find proc (regex)]/regex/proc/Find    
-:   [regex vars]/regex/var    
-:   [regex proc]/proc/regex    
-:   [replacetext proc]/proc/replacetext    
+:   [Regular expressions](/%7Bnotes%7D/regex)    
+:   [regex datum](/regex)    
+:   [Find proc (regex)](/regex/proc/Find)    
+:   [regex vars](/regex/var)    
+:   [regex proc](/proc/regex)    
+:   [replacetext proc](/proc/replacetext)    
 <!-- -->    
 **Format:**    
 :   Replace(haystack, replacement, Start=1, End=0)    
@@ -31,7 +31,7 @@ the Find() proc for more info.
 Note: In strings containing non-ASCII characters, byte position and    
 character position are not the same thing. Use `Replace_char()` to work    
 with character counts instead of bytes. See the    
-[Unicode]/%7Bnotes%7D/Unicode section for more information.    
+[Unicode](/%7Bnotes%7D/Unicode) section for more information.    
 ### Replacing with text    
 If the replacement value is text, the \$ character is treated as    
 special. If you want to use the actual dollar sign, it must be escaped    

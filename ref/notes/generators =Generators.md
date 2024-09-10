@@ -1,10 +1,10 @@
 []{#/Generators.md}/generators toc="Generators"}    
 ## Generators {#generators byondver="514"}    
 **See also:**    
-:   [Particle effects]/%7Bnotes%7D/particles    
-:   [generator proc]/proc/generator    
-:   [color var (atom)]/atom/var/color    
-:   [Color matrix]/%7Bnotes%7D/color-matrix    
+:   [Particle effects](/%7Bnotes%7D/particles)    
+:   [generator proc](/proc/generator)    
+:   [color var (atom)](/atom/var/color)    
+:   [Color matrix](/%7Bnotes%7D/color-matrix)    
 A generator is an object that can produce a random number, vector (list    
 of 3 numbers), color (as a text string), or color matrix (list of 20    
 numbers) in a specified range according to rules you set down. It is    

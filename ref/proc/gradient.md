@@ -1,25 +1,25 @@
 []{#/gradient proc.md}    
 ## gradient proc    
 **See also:**    
-:   [Color gradient]/%7Bnotes%7D/color-gradient    
-:   [rgb proc]/proc/rgb    
-:   [rgb2num proc]/proc/rgb2num    
-:   [Color space]/%7B%7Bappendix%7D%7D/color-space    
+:   [Color gradient](/%7Bnotes%7D/color-gradient)    
+:   [rgb proc](/proc/rgb)    
+:   [rgb2num proc](/proc/rgb2num)    
+:   [Color space](/%7B%7Bappendix%7D%7D/color-space)    
 <!-- -->    
 **Format:**    
 :   gradient(Item1, Item2, \..., index)    
 :   gradient(Gradient, index)    
 <!-- -->    
 **Args:**    
-:   Gradient: A [color gradient]/%7Bnotes%7D/color-gradient list    
+:   Gradient: A [color gradient](/%7Bnotes%7D/color-gradient) list    
 :   Item1, Item2\...: Elements of a [color    
-    gradient]/%7Bnotes%7D/color-gradient list    
+    gradient](/%7Bnotes%7D/color-gradient) list    
 :   index: The index along the gradient where the interpolation is done.    
 <!-- -->    
 **Returns:**    
 :   A color, represented by a text string in #RRGGBB or #RRGGBBAA format    
 Interpolates between two or more colors along a [color    
-gradient]/%7Bnotes%7D/color-gradient. By default, gradients extend    
+gradient](/%7Bnotes%7D/color-gradient). By default, gradients extend    
 from an index of 0 to 1, but they are allowed to go beyond that if you    
 choose.    
 The simplest way to use this proc is to interpolate between two colors:    
@@ -30,7 +30,7 @@ Anything that applies to color gradients can be used in this proc, so
 you can have a looping gradient, or a gradient that uses a color space    
 other than RGB.    
 In the first format where you specify all the items separately, you can    
-use [named arguments]/proc/arguments/named for `index` and `space`    
+use [named arguments](/proc/arguments/named) for `index` and `space`    
 (the gradient\'s color space). If you don\'t specify an argument called    
 \"index\", the last argument is assumed to be the index.    
 ### Example:    

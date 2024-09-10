@@ -1,9 +1,9 @@
 []{#/step proc.md}    
 ## step proc    
 **See also:**    
-:   [get_step proc]/proc/get_step    
-:   [walk proc]/proc/walk    
-:   [step_size var (movable atom)]/atom/movable/var/step_size    
+:   [get_step proc](/proc/get_step)    
+:   [walk proc](/proc/walk)    
+:   [step_size var (movable atom)](/atom/movable/var/step_size)    
 <!-- -->    
 **Format:**    
 :   step(Ref,Dir,Speed=0)    

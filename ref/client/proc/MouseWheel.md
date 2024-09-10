@@ -1,18 +1,18 @@
 []{#/MouseWheel proc (client).md}    
 ## MouseWheel proc (client) {#mousewheel-proc-client byondver="508"}    
 **See also:**    
-:   [Click proc (client)]/client/proc/Click    
-:   [DblClick proc (client)]/client/proc/DblClick    
-:   [MouseDown proc (client)]/client/proc/MouseDown    
-:   [MouseDrag proc (client)]/client/proc/MouseDrag    
-:   [MouseDrop proc (client)]/client/proc/MouseDrop    
-:   [MouseEntered proc (client)]/client/proc/MouseEntered    
-:   [MouseExited proc (client)]/client/proc/MouseExited    
-:   [MouseMove proc (client)]/client/proc/MouseMove    
-:   [MouseUp proc (client)]/client/proc/MouseUp    
-:   [MouseWheel proc (atom)]/atom/proc/MouseWheel    
-:   [mouse_opacity var (atom)]/atom/var/mouse_opacity    
-:   [mouse_pointer_icon var (client)]/client/var/mouse_pointer_icon    
+:   [Click proc (client)](/client/proc/Click)    
+:   [DblClick proc (client)](/client/proc/DblClick)    
+:   [MouseDown proc (client)](/client/proc/MouseDown)    
+:   [MouseDrag proc (client)](/client/proc/MouseDrag)    
+:   [MouseDrop proc (client)](/client/proc/MouseDrop)    
+:   [MouseEntered proc (client)](/client/proc/MouseEntered)    
+:   [MouseExited proc (client)](/client/proc/MouseExited)    
+:   [MouseMove proc (client)](/client/proc/MouseMove)    
+:   [MouseUp proc (client)](/client/proc/MouseUp)    
+:   [MouseWheel proc (atom)](/atom/proc/MouseWheel)    
+:   [mouse_opacity var (atom)](/atom/var/mouse_opacity)    
+:   [mouse_pointer_icon var (client)](/client/var/mouse_pointer_icon)    
 <!-- -->    
 **Format:**    
 :   MouseWheel(object,delta_x,delta_y,location,control,params)    
@@ -24,7 +24,7 @@
     object    
 :   control: the name of the skin control involved    
 :   params: other parameters including mouse/keyboard flags, icon    
-    offsets, etc.; see [mouse handling]/DM/mouse    
+    offsets, etc.; see [mouse handling](/DM/mouse)    
 <!-- -->    
 **Default action:**    
 :   Call object.MouseWheel(delta_x,delta_y,location,control,params).    

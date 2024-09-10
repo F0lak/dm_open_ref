@@ -1,8 +1,8 @@
 []{#/num2text proc.md}    
 ## num2text proc    
 **See also:**    
-:   [isnum proc]/proc/isnum    
-:   [text2num proc]/proc/text2num    
+:   [isnum proc](/proc/isnum)    
+:   [text2num proc](/proc/text2num)    
 <!-- -->    
 **Format:**    
 :   num2text(N, SigFig=6)    

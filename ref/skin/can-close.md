@@ -1,12 +1,12 @@
 []{#/can-close parameter (skin).md}/param/can-close}    
 ## can-close parameter (skin)    
 **See also:**    
-:   [on-close parameter]/%7Bskin%7D/param/on-close    
-:   [can-resize parameter]/%7Bskin%7D/param/can-resize    
-:   [titlebar parameter]/%7Bskin%7D/param/titlebar    
+:   [on-close parameter](/%7Bskin%7D/param/on-close)    
+:   [can-resize parameter](/%7Bskin%7D/param/can-resize)    
+:   [titlebar parameter](/%7Bskin%7D/param/titlebar)    
 <!-- -->    
 **Applies to:**    
-:   [Main]/%7Bskin%7D/control/main (window only)    
+:   [Main](/%7Bskin%7D/control/main) (window only)    
 <!-- -->    
 **Format:**    
 :   true/false    

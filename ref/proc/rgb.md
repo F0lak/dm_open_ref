@@ -1,15 +1,15 @@
 []{#/rgb proc.md}    
 ## rgb proc    
 **See also:**    
-:   [rgb2num proc]/rgb proc.md2num    
-:   [gradient proc]/proc/gradient    
-:   [Color space]/%7B%7Bappendix%7D%7D/color-space    
-:   [HTML colors]/%7B%7Bappendix%7D%7D/html-colors    
-:   [color var (atom)]/atom/var/color    
-:   [Blend proc (icon)]/icon/proc/Blend    
-:   [Color matrix]/%7Bnotes%7D/color-matrix    
-:   [Color matrix filter]/%7Bnotes%7D/filters/color    
-:   [Particle effects]/%7Bnotes%7D/particles    
+:   [rgb2num proc](/rgb proc.md2num)    
+:   [gradient proc](/proc/gradient)    
+:   [Color space](/%7B%7Bappendix%7D%7D/color-space)    
+:   [HTML colors](/%7B%7Bappendix%7D%7D/html-colors)    
+:   [color var (atom)](/atom/var/color)    
+:   [Blend proc (icon)](/icon/proc/Blend)    
+:   [Color matrix](/%7Bnotes%7D/color-matrix)    
+:   [Color matrix filter](/%7Bnotes%7D/filters/color)    
+:   [Particle effects](/%7Bnotes%7D/particles)    
 <!-- -->    
 **Format:**    
 :   rgb(R,G,B)    
@@ -22,7 +22,7 @@
     components of a color.    
 :   A: Optional alpha component; 0 is transparent, 255 is opaque.    
 :   x,y,z: Color components for a different color space    
-:   space: [Color space]/%7B%7Bappendix%7D%7D/color-space; defaults    
+:   space: [Color space](/%7B%7Bappendix%7D%7D/color-space); defaults    
     to `COLORSPACE_RGB`    
 <!-- -->    
 **Returns:**    
@@ -42,8 +42,8 @@ also use the short form #RGB or #RGBA. So if you know in advance that
 you want to use the color white, you can simply use\"#fff\" instead of    
 rgb(255,255,255).    
 You can create colors other ways by specifying a different [color    
-space]/%7B%7Bappendix%7D%7D/color-space. A color space can be    
-specified by using a [named]/proc/arguments/named \"space\" argument,    
+space](/%7B%7Bappendix%7D%7D/color-space). A color space can be    
+specified by using a [named](/proc/arguments/named) \"space\" argument,    
 or by using a 5-argument format (you can leave the alpha value blank or    
 null to skip it), or by using named arguments for the other components.    
 ### Example:    

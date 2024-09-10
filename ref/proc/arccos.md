@@ -1,10 +1,10 @@
 []{#/arccos proc.md}    
 ## arccos proc    
 **See also:**    
-:   [arcsin proc]/proc/arcsin    
-:   [arctan proc]/proc/arctan    
-:   [cos proc]/proc/cos    
-:   [turn proc]/proc/turn    
+:   [arcsin proc](/proc/arcsin)    
+:   [arctan proc](/proc/arctan)    
+:   [cos proc](/proc/cos)    
+:   [turn proc](/proc/turn)    
 <!-- -->    
 **Format:**    
 :   arccos(X)    

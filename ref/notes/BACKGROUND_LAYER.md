@@ -1,17 +1,17 @@
 []{#/BACKGROUND_LAYER.md}/BACKGROUND_LAYER}    
 ## BACKGROUND_LAYER    
 **See also:**    
-:   [layer var (atom)]/atom/var/layer    
-:   [plane var (atom)]/atom/var/plane    
-:   [map_format var (world)]/world/var/map_format    
-:   [EFFECTS_LAYER]/%7Bnotes%7D/EFFECTS_LAYER    
-:   [TOPDOWN_LAYER]/%7Bnotes%7D/TOPDOWN_LAYER    
-:   [stddef.dm file]/%7B%7Bappendix%7D%7D/stddef%2edm    
-:   [Understanding the renderer]/%7Bnotes%7D/renderer    
+:   [layer var (atom)](/atom/var/layer)    
+:   [plane var (atom)](/atom/var/plane)    
+:   [map_format var (world)](/world/var/map_format)    
+:   [EFFECTS_LAYER](/%7Bnotes%7D/EFFECTS_LAYER)    
+:   [TOPDOWN_LAYER](/%7Bnotes%7D/TOPDOWN_LAYER)    
+:   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)    
+:   [Understanding the renderer](/%7Bnotes%7D/renderer)    
 This is mostly no longer needed. A negative value for plane is the    
 preferred way to do show objects in the background. It can still be used    
 however when you want to rearrange objects in the same plane when using    
-[PLANE_MASTER]/atom/var/appearance_flags{.code} for visual effects.    
+[PLANE_MASTER](/atom/var/appearance_flags){.code} for visual effects.    
 `BACKGROUND_LAYER` is a special high value that can be added to the    
 regular layer of any atom.    
 The purpose of this value is to make an atom appear below any regular    

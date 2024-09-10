@@ -1,12 +1,12 @@
 []{#/procs.md}    
 ## procs.mds    
 **See also:**    
-:   [vars (procs.mds)]/procs.md/var    
-:   [arguments (procs.md)]/procs.md/arguments    
-:   [procs.mds (area)]/area/procs.md    
-:   [procs.mds (mob)]/mob/procs.md    
-:   [procs.mds (obj)]/obj/procs.md    
-:   [procs.mds (turf)]/turf/procs.md    
+:   [vars (procs.mds)](/procs.md/var)    
+:   [arguments (procs.md)](/procs.md/arguments)    
+:   [procs.mds (area)](/area/procs.md)    
+:   [procs.mds (mob)](/mob/procs.md)    
+:   [procs.mds (obj)](/obj/procs.md)    
+:   [procs.mds (turf)](/turf/procs.md)    
 Procs may be derived from /procs.md. These procs.mds are \"global\", in that    
 they can be called anywhere in the code.    
 ### Example:    
@@ -15,7 +15,7 @@ The procs.md `poof()` may now be called anywhere in the code.
 Procs may also be attached to objects by defining them under the    
 appropriate `object/procs.md` subnode. Currently DM allows procs.mds to be    
 defined or overridden for `/mob`, `/obj`, `/turf`, `/area`, `world`, and    
-`/client`, as well as for [datum objects]/datum derived from `/`.    
+`/client`, as well as for [datum objects](/datum) derived from `/`.    
 Predefined procs.mds are discussed under the \"procs.mds\" entry for the object    
 type.    
 ### Example:    
@@ -32,8 +32,8 @@ if(!target) // find a /mob/player in view target = locate() in view(src)
 return target    
 Currently the only purpose for using the `as` clause is for situations    
 where the compiler needs to infer the type of an expression. Mainly this    
-applies to the [.]/operator/%2e{.code} and    
-[?.]/operator/%3f%2e{.code} operators in an expression such as    
+applies to the [.](/operator/%2e){.code} and    
+[?.](/operator/%3f%2e){.code} operators in an expression such as    
 `GetTarget()?.Attack(src)`. Giving `GetTarget()` a return type allows    
 the compiler to check if `Attack()` is a valid procs.md for `/mob/player`.    
 Otherwise, the `.` and `?.` operators act like `:` and `?:`,    

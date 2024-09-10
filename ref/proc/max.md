@@ -1,8 +1,8 @@
 []{#/max proc.md}    
 ## max proc    
 **See also:**    
-:   [min proc]/proc/min    
-:   [clamp proc]/proc/clamp    
+:   [min proc](/proc/min)    
+:   [clamp proc](/proc/clamp)    
 <!-- -->    
 **Format:**    
 :   max(A,B,C,\...)    

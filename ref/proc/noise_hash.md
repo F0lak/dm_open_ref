@@ -1,8 +1,8 @@
 []{#/noise_hash proc.md}    
 ## noise_hash proc {#noise_hash-proc byondver="515"}    
 **See also:**    
-:   [rand proc]/proc/rand    
-:   [rand_seed proc]/proc/rand_seed    
+:   [rand proc](/proc/rand)    
+:   [rand_seed proc](/proc/rand_seed)    
 <!-- -->    
 **Format:**    
 :   noise_hash(num1, num2, num3\...)    

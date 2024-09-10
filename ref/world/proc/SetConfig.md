@@ -1,7 +1,7 @@
 []{#/SetConfig proc (world).md}    
 ## SetConfig proc (world)    
 **See also:**    
-:   [GetConfig proc (world)]/world/proc/GetConfig    
+:   [GetConfig proc (world)](/world/proc/GetConfig)    
 <!-- -->    
 **Format:**    
 :   SetConfig(config_set,param,value)    
@@ -14,4 +14,4 @@ This command is for storing configuration information that is shared by
 applications installed on the same system. The configuration data is    
 accessed by specifying the configuration \"set\" and the parameter    
 within that set.    
-For more information, see [GetConfig]/world/proc/GetConfig.  
+For more information, see [GetConfig](/world/proc/GetConfig).  

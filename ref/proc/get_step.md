@@ -1,8 +1,8 @@
 []{#/get_step proc.md}    
 ## get_step proc    
 **See also:**    
-:   [step proc]/proc/step    
-:   [walk proc]/proc/walk    
+:   [step proc](/proc/step)    
+:   [walk proc](/proc/walk)    
 <!-- -->    
 **Format:**    
 :   get_step(Ref, Dir)    

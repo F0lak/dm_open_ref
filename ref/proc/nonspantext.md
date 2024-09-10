@@ -1,9 +1,9 @@
 []{#/nonspantext proc.md}    
 ## nonspantext proc {#nonspantext-proc byondver="510"}    
 **See also:**    
-:   [findtext proc]/proc/findtext    
-:   [spantext proc]/proc/spantext    
-:   [splittext proc]/proc/splittext    
+:   [findtext proc](/proc/findtext)    
+:   [spantext proc](/proc/spantext)    
+:   [splittext proc](/proc/splittext)    
 <!-- -->    
 **Format:**    
 :   nonspantext(Haystack,Needles,Start=1)    
@@ -26,4 +26,4 @@ from the end of the string.
 Note: In strings containing non-ASCII characters, byte position and    
 character position are not the same thing. Use `nonspantext_char()` to    
 work with character counts instead of bytes, at a performance cost. See    
-the [Unicode]/%7Bnotes%7D/Unicode section for more information.  
+the [Unicode](/%7Bnotes%7D/Unicode) section for more information.  

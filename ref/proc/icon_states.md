@@ -1,11 +1,11 @@
 []{#/icon_states proc.md}    
 ## icon_states proc    
 **See also:**    
-:   [icons]/DM/icon    
-:   [icon_size var (world)]/world/var/icon_size    
-:   [map_format var (world)]/world/var/map_format    
-:   [Big icons]/%7Bnotes%7D/big-icons    
-:   [Tiled icons]/%7Bnotes%7D/tiled-icons    
+:   [icons](/DM/icon)    
+:   [icon_size var (world)](/world/var/icon_size)    
+:   [map_format var (world)](/world/var/map_format)    
+:   [Big icons](/%7Bnotes%7D/big-icons)    
+:   [Tiled icons](/%7Bnotes%7D/tiled-icons)    
 <!-- -->    
 **Format:**    
 :   icon_states(Icon, mode=0)    

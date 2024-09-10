@@ -1,11 +1,11 @@
 []{#/icon parameter (skin).md}/param/icon}    
 ## icon parameter (skin)    
 **See also:**    
-:   [title parameter]/%7Bskin%7D/param/title    
-:   [titlebar parameter]/%7Bskin%7D/param/titlebar    
+:   [title parameter](/%7Bskin%7D/param/title)    
+:   [titlebar parameter](/%7Bskin%7D/param/titlebar)    
 <!-- -->    
 **Applies to:**    
-:   [Main]/%7Bskin%7D/control/main    
+:   [Main](/%7Bskin%7D/control/main)    
 <!-- -->    
 **Format:**    
 :   \'*file*\'    

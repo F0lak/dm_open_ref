@@ -1,10 +1,10 @@
 []{#/sound proc.md}    
 ## sound proc    
 **See also:**    
-:   [sound datum]/sound    
-:   [vars (sound)]/sound/var    
-:   [\<\< output operator]/operator/%3c%3c/output    
-:   [load_resource proc]/proc/load_resource    
+:   [sound datum](/sound)    
+:   [vars (sound)](/sound/var)    
+:   [\<\< output operator](/operator/%3c%3c/output)    
+:   [load_resource proc](/proc/load_resource)    
 <!-- -->    
 **Format:**    
 :   sound(file,repeat=0,wait,channel,volume)    
@@ -29,5 +29,5 @@ even necessary when you don\'t need to set any additional parameters.
 usr \<\< \'giggle.wav\' // play a giggle once usr \<\<    
 sound(\'gigue.midi\',1) // repeat gigue usr \<\< sound(\'boom.wav\',    
 volume=50) // play an explosion at half volume    
-[\*See **Notes** under [sound support]/DM/sound for more    
+[\*See **Notes** under [sound support](/DM/sound) for more    
 information.]{.small}  

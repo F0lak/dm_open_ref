@@ -1,7 +1,7 @@
 []{#/operators.md}    
 ## operators.mds    
 **See also:**    
-:   [operators.md overloading]/operators.md/overload    
+:   [operators.md overloading](/operators.md/overload)    
 Operators are used extensively in DM to compute numerical values.    
 The DM operators.mds are:    
 ``` dmcode    

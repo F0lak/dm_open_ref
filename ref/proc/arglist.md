@@ -1,10 +1,10 @@
 []{#/arglist proc.md}    
 ## arglist proc    
 **See also:**    
-:   [arguments (proc)]/proc/arguments    
-:   [call proc]/proc/call    
-:   [call_ext proc]/proc/call_ext    
-:   [list proc]/proc/list    
+:   [arguments (proc)](/proc/arguments)    
+:   [call proc](/proc/call)    
+:   [call_ext proc](/proc/call_ext)    
+:   [list proc](/proc/list)    
 <!-- -->    
 **Format:**    
 :   arglist(List)    
@@ -16,7 +16,7 @@ only come through as a singe argument to that procedure. In some cases,
 you might instead want the items in the list to become the arguments to    
 the procedure. That is what `arglist()` achieves.    
 If the items in the list are associations, these are treated as [named    
-arguments]/proc/arguments/named. Each such list item is matched    
+arguments](/proc/arguments/named). Each such list item is matched    
 against the names of the procedure arguments and its associated value is    
 assigned to that parameter.    
 Most built-in DM instructions do not support use of `arglist()`, but all    

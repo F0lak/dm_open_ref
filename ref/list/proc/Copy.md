@@ -1,7 +1,7 @@
 []{#/Copy proc (list).md}    
 ## Copy proc (list)    
 **See also:**    
-:   [Cut proc (list)]/list/proc/Cut    
+:   [Cut proc (list)](/list/proc/Cut)    
 <!-- -->    
 **Format:**    
 :   list.Copy(Start=1,End=0)    

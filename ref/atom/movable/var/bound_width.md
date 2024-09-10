@@ -1,16 +1,16 @@
 []{#/bound_width var (movable atom).md}    
 ## bound_width var (movable atom) {#bound_width-var-movable-atom byondver="490"}    
 **See also:**    
-:   [bound_x var (movable atom)]/atom/movable/var/bound_x    
-:   [bound_y var (movable atom)]/atom/movable/var/bound_y    
-:   [bound_height var (movable atom)]/atom/movable/var/bound_height    
-:   [icon_w var (atom)]/atom/var/icon_w    
-:   [icon_z var (atom)]/atom/var/icon_z    
-:   [step_x var (movable atom)]/atom/movable/var/step_x    
-:   [step_y var (movable atom)]/atom/movable/var/step_y    
-:   [locs list var (movable atom)]/atom/movable/var/locs    
-:   [icon_size var (world)]/world/var/icon_size    
-:   [Pixel movement]/%7Bnotes%7D/pixel-movement    
+:   [bound_x var (movable atom)](/atom/movable/var/bound_x)    
+:   [bound_y var (movable atom)](/atom/movable/var/bound_y)    
+:   [bound_height var (movable atom)](/atom/movable/var/bound_height)    
+:   [icon_w var (atom)](/atom/var/icon_w)    
+:   [icon_z var (atom)](/atom/var/icon_z)    
+:   [step_x var (movable atom)](/atom/movable/var/step_x)    
+:   [step_y var (movable atom)](/atom/movable/var/step_y)    
+:   [locs list var (movable atom)](/atom/movable/var/locs)    
+:   [icon_size var (world)](/world/var/icon_size)    
+:   [Pixel movement](/%7Bnotes%7D/pixel-movement)    
 <!-- -->    
 **Default value:**    
 :   32 (width of default icon; depends on world.icon_size)    

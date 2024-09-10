@@ -1,7 +1,7 @@
 []{#/AllowUpload proc (client).md}    
 ## AllowUpload proc (client)    
 **See also:**    
-:   [input proc]/proc/input    
+:   [input proc](/proc/input)    
 <!-- -->    
 **Format:**    
 :   AllowUpload(filename, filelength)    

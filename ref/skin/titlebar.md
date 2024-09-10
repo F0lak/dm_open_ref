@@ -1,18 +1,18 @@
 []{#/titlebar parameter (skin).md}/param/titlebar}    
 ## titlebar parameter (skin)    
 **See also:**    
-:   [can-close parameter]/%7Bskin%7D/param/can-close    
-:   [can-minimize parameter]/%7Bskin%7D/param/can-minimize    
-:   [can-resize parameter]/%7Bskin%7D/param/can-resize    
-:   [icon parameter]/%7Bskin%7D/param/icon    
-:   [title parameter]/%7Bskin%7D/param/title    
-:   [use-title parameter]/%7Bskin%7D/param/use-title    
-:   [statusbar parameter]/%7Bskin%7D/param/statusbar    
-:   [is-fullscreen parameter]/%7Bskin%7D/param/is-fullscreen    
-:   [name var (world)]/world/var/name    
+:   [can-close parameter](/%7Bskin%7D/param/can-close)    
+:   [can-minimize parameter](/%7Bskin%7D/param/can-minimize)    
+:   [can-resize parameter](/%7Bskin%7D/param/can-resize)    
+:   [icon parameter](/%7Bskin%7D/param/icon)    
+:   [title parameter](/%7Bskin%7D/param/title)    
+:   [use-title parameter](/%7Bskin%7D/param/use-title)    
+:   [statusbar parameter](/%7Bskin%7D/param/statusbar)    
+:   [is-fullscreen parameter](/%7Bskin%7D/param/is-fullscreen)    
+:   [name var (world)](/world/var/name)    
 <!-- -->    
 **Applies to:**    
-:   [Main]/%7Bskin%7D/control/main (window only)    
+:   [Main](/%7Bskin%7D/control/main) (window only)    
 <!-- -->    
 **Format:**    
 :   true/false    

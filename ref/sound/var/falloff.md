@@ -1,8 +1,8 @@
 []{#/falloff var (sound).md}    
 ## falloff var (sound)    
 **See also:**    
-:   [vars (sound)]/sound/var    
-:   [x, y, z vars (sound)]/sound/var/xyz    
+:   [vars (sound)](/sound/var)    
+:   [x, y, z vars (sound)](/sound/var/xyz)    
 <!-- -->    
 **Default value:**    
 :   1    

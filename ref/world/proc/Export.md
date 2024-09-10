@@ -1,11 +1,11 @@
 []{#/Export proc (world).md}    
 ## Export proc (world)    
 **See also:**    
-:   [Export proc (client)]/client/proc/Export    
-:   [Import proc (world)]/world/proc/Import    
-:   [Topic proc (world)]/world/proc/Topic    
-:   [link proc]/proc/link    
-:   [shutdown proc]/proc/shutdown    
+:   [Export proc (client)](/client/proc/Export)    
+:   [Import proc (world)](/world/proc/Import)    
+:   [Topic proc (world)](/world/proc/Topic)    
+:   [link proc](/proc/link)    
+:   [shutdown proc](/proc/shutdown)    
 <!-- -->    
 **Format:**    
 :   Export(Addr,File,Persist,Clients)    

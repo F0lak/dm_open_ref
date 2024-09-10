@@ -1,9 +1,9 @@
 []{#/&gt;&gt;= operator.md}    
 ## \>\>= operator    
 **See also:**    
-:   [\>\> shift operator]/operator/%3e%3e/shift    
-:   [\<\<= operator]/operator/%3c%3c=    
-:   [operators]/operator    
+:   [\>\> shift operator](/operator/%3e%3e/shift)    
+:   [\<\<= operator](/operator/%3c%3c=)    
+:   [operators](/operator)    
 <!-- -->    
 **Format:**    
 :   A \>\>= B    

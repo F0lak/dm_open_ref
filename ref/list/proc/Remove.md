@@ -1,9 +1,9 @@
 []{#/Remove proc (list).md}    
 ## Remove proc (list)    
 **See also:**    
-:   [- operator]/operator/-    
-:   [Add proc (list)]/list/proc/Add    
-:   [RemoveAll proc (list)]/Remove proc (list.mdAll)    
+:   [- operator](/operator/-)    
+:   [Add proc (list)](/list/proc/Add)    
+:   [RemoveAll proc (list)](/Remove proc (list).mdAll)    
 <!-- -->    
 **Format:**    
 :   list.Remove(Item1,Item2,\...)    

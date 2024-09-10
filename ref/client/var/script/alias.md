@@ -1,9 +1,9 @@
 []{#/aliases (client script).md}    
 ## aliases (client script)    
 **See also:**    
-:   [macros (client script)]/client/var/script/macro    
-:   [script var (client)]/client/var/script    
-:   [verbs]/verb    
+:   [macros (client script)](/client/var/script/macro)    
+:   [script var (client)](/client/var/script)    
+:   [verbs](/verb)    
 Command aliases have a syntax similar to verbs. They define a command    
 and a series of arguments which can then be used to execute a new    
 command. The most common use for this is in a telnet world like a MUD.    

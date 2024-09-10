@@ -1,9 +1,9 @@
 []{#/#pragma syntax directive.md}    
 ## #pragma syntax directive {#pragma-syntax-directive byondver="516"}    
 **See also:**    
-:   [#pragma directive]/DM/preprocessor/pragma    
-:   [for loop proc]/proc/for/loop    
-:   [switch proc]/proc/switch    
+:   [#pragma directive](/DM/preprocessor/pragma)    
+:   [for loop proc](/proc/for/loop)    
+:   [switch proc](/proc/switch)    
 <!-- -->    
 **Format:**    
 :   #pragma syntax [\<]{.faded}C[\|]{.faded}DM[\>]{.faded}    
@@ -11,13 +11,13 @@
 Changes the syntax used to parse certain statements. This can be more    
 natural for users who prefer non-DM style, and can sometimes do things    
 that regular DM syntax can\'t do.    
-Changing the [`for()` loop]/proc/for/loop syntax to C will use    
+Changing the [`for()` loop](/proc/for/loop) syntax to C will use    
 semicolons to separate the Init, Test, Inc sections instead of commas.    
 That means commas can be used to chain multiple statements together    
 instead.    
-In [switch()]/proc/switch{.code}, C syntax changes the if/else    
+In [switch()](/proc/switch){.code}, C syntax changes the if/else    
 statements to use C\'s `case` and/or `default` keywords, followed by a    
-colon, and the [`break` statement]/proc/break is required to skip to    
+colon, and the [`break` statement](/proc/break) is required to skip to    
 the end of the switch unless you want to fall through to the next case.    
 Fall-through behavior isn\'t possible in the default DM syntax.    
 ### Example:    

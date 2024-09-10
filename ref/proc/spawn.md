@@ -1,8 +1,8 @@
 []{#/spawn proc.md}    
 ## spawn proc    
 **See also:**    
-:   [background setting (proc)]/proc/set/background    
-:   [sleep proc]/proc/sleep    
+:   [background setting (proc)](/proc/set/background)    
+:   [sleep proc](/proc/sleep)    
 <!-- -->    
 **Format:**    
 :   spawn(Delay=0) Statement    
@@ -36,5 +36,5 @@ be copied between the spawned code and the code that runs right away.
 This means that if one part modifies one of those vars, the other part    
 will not see that change. Changes made to objects, lists, datums, etc.    
 however will be visible to both code blocks.    
-[Pointers]/operator/&/pointer to any vars that belong to the proc    
+[Pointers](/operator/&/pointer) to any vars that belong to the proc    
 will stay with the original proc, not the copy.  

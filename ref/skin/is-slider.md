@@ -1,10 +1,10 @@
 []{#/is-slider parameter (skin).md}/param/is-slider}    
 ## is-slider parameter (skin)    
 **See also:**    
-:   [value parameter]/%7Bskin%7D/param/value    
+:   [value parameter](/%7Bskin%7D/param/value)    
 <!-- -->    
 **Applies to:**    
-:   [Bar]/%7Bskin%7D/control/bar    
+:   [Bar](/%7Bskin%7D/control/bar)    
 <!-- -->    
 **Format:**    
 :   true/false    

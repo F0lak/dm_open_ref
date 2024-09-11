@@ -28,21 +28,21 @@ import cProfile
  (I'm a humble cook, not a programmer, so my apologies if the code isn't up to snuff!)
 """
 
-def write_file(text, file_name):
+def write_file(text, file_name) -> None:
 	output_file = os.path.join(f'{file_name}')
 	with open(output_file, 'w', encoding='utf-8') as file:
 		file.write(text)
 		print(f"New file: {output_file}")
   
-def clean_empty_lines(text):
+def clean_empty_lines(text) -> str:
 	lines = text.splitlines()
 	lines.remove(lines[0])
 	non_empty_lines = [line for line in lines if line.strip()]
-	text = "  \n".join(line + "  " for line in non_empty_lines)
+	text = "\n".join(line + "" for line in non_empty_lines)
 
 	return text
 
-def copytext(text, start_delimiter, end_delimiter, start_closer=""):
+def copytext(text, start_delimiter, end_delimiter, start_closer="") -> str:
 		start_index = text.find(start_delimiter)
 		end_index = text.find(end_delimiter, start_index)
 		start_index_close = text.find(start_closer, start_index, end_index)
@@ -53,9 +53,10 @@ def copytext(text, start_delimiter, end_delimiter, start_closer=""):
 				start_index += start_index_close - start_index + 1
 			text = text[start_index:end_index]
 			return text
+		else:
+			return ""
 
-def set_title(text, extension):
-		global stubs
+def set_title(text, extension) -> str | None:
 		if extension == "html":
 			text = copytext(text, "<h2", "</h2>", start_closer=">") or None
    
@@ -73,12 +74,61 @@ def set_title(text, extension):
 		else:
 			return None
 
-def clean_markdown_file(text):
+def clean_version(text) -> str:
+	version_index = text.find("byondver=")
+	if version_index:
+		start_index = text[0:version_index].rfind("{#")
+		end_index = text.find("\"}")
+
+		if start_index != -1 and end_index != -1:
+			version: str = text[version_index+10:end_index]
+			version = f"\n###### BYOND Version {version}"
+
+			text = text.replace(text[start_index:end_index+2], version)
+
+	return text
+
+def clean_inline_code(text) -> str:
+    
+    fixed_text = ""
+    i = 0
+    while i < len(text):
+        if text[i] == '[':
+            close_bracket_index = text.find(']', i)
+            if close_bracket_index != -1:
+                path = text[i+1:close_bracket_index]
+                if text[close_bracket_index+1:close_bracket_index+2] == '(':
+                    close_paren_index = text.find(')', close_bracket_index)
+                    code_index = close_paren_index + 1
+                    
+                    if text[code_index:code_index+7] == '{.code}':
+                        link_name = text[close_bracket_index+2:close_paren_index]
+                        fixed_text += f'[`{path}`]({link_name})'
+                        i = code_index + 7
+                        continue
+        fixed_text += text[i]
+        i += 1
+    
+    return fixed_text
+
+
+def clean_markdown_file(text) -> str:
 		text = clean_empty_lines(text)
 		text = fix_links(text)
+		text = clean_version(text)
+		text = clean_inline_code(text)
+		text = text.replace(": ", "* ")
+		text = text.replace("PARAGRAPH", "\n\n")
+		text = text.replace("CODE_TICKS", "\n```\n")
 		return text
 
-def clean_filenames(text):
+def prep_html_file(text) -> str:
+		text = text.replace("<p>", "PARAGRAPH")
+		text = text.replace("<xmp>", "CODE_TICKS")
+		text = text.replace("</xmp>", "CODE_TICKS")
+		return text
+
+def clean_filenames(text) -> str:
 		text = text.replace(".", "DOT")
 		text = text.replace(">", "RIGHT")
 		text = text.replace("<", "LEFT")
@@ -97,45 +147,34 @@ def clean_filenames(text):
 
 		return text
 
-def fix_links(text):
+def fix_links(text) -> str:
 	result = []
 	i = 0
 	while i < len(text):
-		# Find the start of a link
-		start_index = text.find('](#', i)
+		start_index = text.find("](#", i)
 		if start_index == -1:
-			# No more links found
 			result.append(text[i:])
 			break
-		
-		# Append text before the link
 		result.append(text[i:start_index + 1])
-		
-		# Find the end of the path
-		end_index = text.find(')', start_index)
+		end_index = text.find(")", start_index)
 		if end_index == -1:
 			break
-		
-		# Extract the path
-		path = text[start_index + len('](#'):end_index]
-		new_link = f'({path})'
+		path = text[start_index + len("](#"):end_index]
+		new_link = f"({path})"
 		if path in link_dict:
-			new_link = f'({link_dict[path]})'
-		
-		# Append the new link
+			new_link = f"({link_dict[path]})"
 		result.append(new_link)
 		
-		# Move the index past this link
 		i = end_index + 1
 	
 	return ''.join(result)
 	
-def clean_subdirectories(root_dir):
+def clean_subdirectories(root_dir) -> None:
 	for dir_path, dir_names, files in os.walk(root_dir, topdown = False):
 		if dir_path != root_dir:
 			clean_directory(dir_path)
 
-def clean_directory(directory):
+def clean_directory(directory) -> None:
 	items = os.listdir(directory)
 	files = [file for file in items if os.path.exists(os.path.join(directory, file))]
 	
@@ -150,56 +189,61 @@ def clean_directory(directory):
 	elif len(files) == 0:
 		os.rmdir(directory)
 
-def make_dir(directory):
+def make_dir(directory) -> None:
 	if not os.path.exists(directory):
-   		os.makedirs(directory, exist_ok=True)
+		try:
+			os.makedirs(directory, exist_ok=True)
+		except:
+			Exception(f"Invalid Path: Could not write {directory}")
 
-def build_file_tree():
-	for text in parts:
+def build_file_tree() -> None:
+	for html_text in parts:
 		
-		html_title = set_title(text, "html")
-		text = pypandoc.convert_text(text, "md", format="html")
-		md_title = set_title(text, "md")
+		html_title: str = set_title(html_text, "html")
+		md_text = pypandoc.convert_text(prep_html_file(html_text), "md", format="html")
+		md_title: str = set_title(md_text, "md")
 		if md_title != None and html_title != None:
 			
 			md_title = clean_filenames(md_title)
 			html_title = clean_filenames(html_title)
 	
-			dirty_file_path = copytext(text, "[]{#/", "}") or "stubs"
+			dirty_file_path: str = copytext(md_text, "[]{#/", "}") or "stubs"
 	
-			text = text.replace(dirty_file_path, html_title + ".md")
-			clean_file_path = clean_filenames(dirty_file_path)
-			full_dir = f"{output_directory}\\{clean_file_path}\\{html_title}"
+		#	md_text = md_text.replace(dirty_file_path, html_title + ".md")
+			clean_file_path: str = clean_filenames(dirty_file_path)
+			full_dir: str = f"{output_directory}\\{clean_file_path}\\{html_title}"
 
-			print("md: " + md_title)
-			print(clean_file_path)
-			pruned_file_path = ""
+			# print("md: " + md_title)
+			# print(clean_file_path)
+			pruned_file_path: str = ""
 			slash_index = clean_file_path.rfind("\\")
 			if slash_index != -1:
 				pruned_file_path = clean_file_path[0:slash_index]
 			else:
 				pruned_file_path = clean_file_path
-			print(pruned_file_path)
-			print("fd: " + full_dir)
+			# print(pruned_file_path)
+			# print("fd: " + full_dir)
 
-			#make_dir(full_dir)
 			link_dict[dirty_file_path] = f"{pruned_file_path}\\{md_title}.md"
-			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}.md", text))
+			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "md", md_text))
+			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "html", html_text))
 
-def make_files():
+def make_files() -> None:
 	for page in pages:
 		page.write_to_file()
   
 class Page:
-    def __init__ (self, path, title, text): 
-        self.title = title
-        self.path = path
-        self.text = text
-    
-    def write_to_file(self):
-        make_dir(self.path)
-        self.text = clean_markdown_file(self.text)
-        write_file(self.text, f"{self.path}\\{self.title}")
+	def __init__ (self, path, title, extension, text): 
+		self.title: str = title
+		self.path: str = path
+		self.text: str = text
+		self.extension = extension
+
+	def write_to_file(self) -> None:
+		make_dir(self.path)
+		if self.extension == "md":
+			self.text = clean_markdown_file(self.text)
+		write_file(self.text, f"{self.path}\\{self.title}.{self.extension}")
         
         
 if __name__ == "__main__":
@@ -213,16 +257,15 @@ if __name__ == "__main__":
 	if os.path.exists(output_directory):
 		shutil.rmtree(output_directory)
 
-	link_dict = {}
-	pages = []
+	link_dict: dict = {}
+	pages: list = []
 
-	text = ""
+	text: str = ""
 	with open(input_file, 'r', encoding='utf-8') as file:
 		text = file.read()
 
-	delimiter = "<hr>"
+	delimiter: str = "<hr>"
 	parts = text.split(delimiter)
-	stubs = 0
 
 	print("Building file tree")
 	build_file_tree()
@@ -230,10 +273,7 @@ if __name__ == "__main__":
 	print("Making Files")
 	make_files()
 
-	#print("Cleaning Subdirs")
-	#clean_subdirectories(output_directory)
-
-	input("All done, press Enter to exit...")
+	print("All done")
  
 	profiler.disable()
 	profiler.dump_stats("profile.prof")

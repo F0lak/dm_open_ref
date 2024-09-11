@@ -1,9 +1,11 @@
-## vars (savefile)    
-savefile vars:    
-vars (savefile).md    
-:   [byond_build](/vars (savefile).md/byond_build)    
-:   [byond_version](/vars (savefile).md/byond_version)    
-:   [cd](/vars (savefile).md/cd)    
-:   [dir](/vars (savefile).md/dir)    
-:   [eof](/vars (savefile).md/eof)    
-:   [name](/vars (savefile).md/name)  
+## vars (savefile)
+
+
+savefile vars:
+savefile/var
+*   [byond_build](/savefile/var/byond_build)
+*   [byond_version](/savefile/var/byond_version)
+*   [cd](/savefile/var/cd)
+*   [dir](/savefile/var/dir)
+*   [eof](/savefile/var/eof)
+*   [name](/savefile/var/name)

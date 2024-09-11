@@ -1,14 +1,15 @@
-## regex vars {#regex-vars byondver="510"}    
-**See also:**    
-:   [regex datum](/regex)    
-:   [regex procs](/regex/proc)    
-:   [regex proc](/proc/regex)    
-<!-- -->    
-regex vars.md    
-:   [flags](/regex vars.md/flags)    
-:   [group](/regex vars.md/group)    
-:   [index](/regex vars.md/index)    
-:   [match](/regex vars.md/match)    
-:   [name](/regex vars.md/name)    
-:   [next](/regex vars.md/next)    
-:   [text](/regex vars.md/text)  
+## regex vars 
+###### BYOND Version 510
+**See also:**
+*   [regex datum](/regex)
+*   [regex procs](/regex/proc)
+*   [regex proc](/proc/regex)
+<!-- -->
+regex/var
+*   [flags](/regex/var/flags)
+*   [group](/regex/var/group)
+*   [index](/regex/var/index)
+*   [match](/regex/var/match)
+*   [name](/regex/var/name)
+*   [next](/regex/var/next)
+*   [text](/regex/var/text)

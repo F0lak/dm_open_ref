@@ -1,8 +1,10 @@
-## procs (datum)    
-Built-in datum procs:    
-procs (datum).md    
-:   [New](/procs (datum).md/New)    
-:   [Del](/procs (datum).md/Del)    
-:   [Write](/procs (datum).md/Write)    
-:   [Read](/procs (datum).md/Read)    
-:   [Topic](/procs (datum).md/Topic)  
+## procs (datum)
+
+
+Built-in datum procs:
+datum/proc
+*   [New](/datum/proc/New)
+*   [Del](/datum/proc/Del)
+*   [Write](/datum/proc/Write)
+*   [Read](/datum/proc/Read)
+*   [Topic](/datum/proc/Topic)

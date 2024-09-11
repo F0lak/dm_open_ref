@@ -1,8 +1,8 @@
-## procs (savefile)    
-procs (savefile).md    
-:   [ExportText](/procs (savefile).md/ExportText)    
-:   [Flush](/procs (savefile).md/Flush)    
-:   [ImportText](/procs (savefile).md/ImportText)    
-:   [Lock](/procs (savefile).md/Lock)    
-:   [Unlock](/procs (savefile).md/Unlock)    
-:   [New](/procs (savefile).md/New)  
+## procs (savefile)
+savefile/proc
+*   [ExportText](/savefile/proc/ExportText)
+*   [Flush](/savefile/proc/Flush)
+*   [ImportText](/savefile/proc/ImportText)
+*   [Lock](/savefile/proc/Lock)
+*   [Unlock](/savefile/proc/Unlock)
+*   [New](/savefile/proc/New)

@@ -1,7 +1,9 @@
-## vars (datum)    
-Built-in datum vars:    
-vars (datum).md    
-:   [type](/vars (datum).md/type)    
-:   [parent_type](/vars (datum).md/parent_type)    
-:   [tag](/vars (datum).md/tag)    
-:   [vars](/vars (datum).md/vars)  
+## vars (datum)
+
+
+Built-in datum vars:
+datum/var
+*   [type](/datum/var/type)
+*   [parent_type](/datum/var/parent_type)
+*   [tag](/datum/var/tag)
+*   [vars](/datum/var/vars)

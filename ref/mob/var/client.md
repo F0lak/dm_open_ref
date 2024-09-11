@@ -1,9 +1,14 @@
-## client var (mob)    
-**See also:**    
-:   [client](/client)    
-<!-- -->    
-**Default value:**    
-:   null    
-This is a reference to a set of properties specific to the player.    
-Therefore non-player mobs (NPCs) do not have a client (client = null).    
-Setting a mob\'s client connects that player\'s client to the mob.  
+## client var (mob)
+**See also:**
+*   [client](/client)
+<!-- -->
+**Default value:**
+*   null
+
+
+This is a reference to a set of properties specific to the
+player. Therefore non-player mobs (NPCs) do not have a client (client =
+null). 
+
+Setting a mob\'s client connects that player\'s client
+to the mob.

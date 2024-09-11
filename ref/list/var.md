@@ -1,4 +1,6 @@
-## vars (list)    
-Built-in list vars:    
-vars (list).md    
-:   [len](/vars (list).md/len)  
+## vars (list)
+
+
+Built-in list vars:
+list/var
+*   [len](/list/var/len)

@@ -1,5 +1,5 @@
-## \>\> operator    
-**See also:**    
-:   [\>\> input operator](/&gt;&gt; operator.md/input)    
-:   [\>\> operator (savefile)](/savefile/&gt;&gt; operator.md)    
-:   [\>\> shift operator](/&gt;&gt; operator.md/shift)  
+## \>\> operator
+**See also:**
+*   [\>\> input operator](/operator/%3e%3e/input)
+*   [\>\> operator (savefile)](/savefile/operator/%3e%3e)
+*   [\>\> shift operator](/operator/%3e%3e/shift)

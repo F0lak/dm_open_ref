@@ -1,5 +1,7 @@
-## operators (savefile)    
-Built-in savefile operators:    
-operators (savefile).md    
-:   [\<\<](/operators (savefile).md/%3c%3c)    
-:   [\>\>](/operators (savefile).md/%3e%3e)  
+## operators (savefile)
+
+
+Built-in savefile operators:
+savefile/operator
+*   [\<\<](/savefile/operator/%3c%3c)
+*   [\>\>](/savefile/operator/%3e%3e)

@@ -1,9 +1,8 @@
 ## SetAPI proc (client) 
 ###### BYOND Version 514
 **See also:**
-*   [GetAPI proc (client)](/client/proc/GetAPI)
-*   [CheckPassport proc (client)](/client/proc/CheckPassport)
-<!-- -->
+*   [GetAPI proc (client)](/ref/client/proc/GetAPI.md) -m
+*   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) -m<!-- -->
 **Format:**
 *   SetAPI(Api, Key, Value)
 <!-- -->

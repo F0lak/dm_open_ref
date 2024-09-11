@@ -1,4 +1,4 @@
-## Command proc (client)
+# Command proc (client)
 **Format:**
 *   Command(command as command_text)
 <!-- -->

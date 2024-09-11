@@ -1,8 +1,8 @@
 ## sha1 proc 
 ###### BYOND Version 513
 **See also:**
-*   [md5 proc](/proc/md5)
-*   [file proc](/proc/file)
+*   [md5 proc](/ref/proc/md5.md) -m
+*   [file proc](/ref/proc/file.md) -m
 <!-- -->
 **Format:**
 *   sha1(T)
@@ -58,7 +58,7 @@ have been modified!\"
  
 
 Note that you must pass the
-result of [`file()`](/proc/file) in order to compute the hash of
+result of [file()](/ref/proc/file.md) -m.code} in order to compute the hash of
 an external file\'s contents at runtime. Otherwise `sha1()` will treat
 the filename as text and return the hash of the name only. 
 

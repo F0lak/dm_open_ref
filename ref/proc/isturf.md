@@ -1,7 +1,6 @@
 ## isturf proc
 **See also:**
-*   [isloc proc](/proc/isloc)
-<!-- -->
+*   [isloc proc](/ref/proc/isloc.md) -m<!-- -->
 **Format:**
 *   isturf(Loc1, Loc2 \...)
 <!-- -->

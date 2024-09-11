@@ -1,11 +1,11 @@
 ## stretch parameter (skin) 
 ###### BYOND Version h parameter (skin) {#stretch-parameter-skin deprecated="1
 **See also:**
-*   [image parameter](/%7Bskin%7D/param/image)
-*   [image-mode parameter](/%7Bskin%7D/param/image-mode)
+*   [image parameter](/ref/%7Bskin%7D/param/image.md) -m
+*   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) -m
 <!-- -->
 **Applies to:**
-*   [Label](/%7Bskin%7D/control/label)
+*   [Label](/ref/%7Bskin%7D/control/label.md) -m
 <!-- -->
 **Format:**
 *   true/false
@@ -15,5 +15,5 @@
 
 
 Stretch the background image.
-Deprecated; use [`image-mode`](/%7Bskin%7D/param/image-mode)
+Deprecated; use [image-mode](/ref/%7Bskin%7D/param/image-mode.md) -m.code}
 instead.

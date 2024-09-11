@@ -1,10 +1,10 @@
 ## in operator
 **See also:**
-*   [list](/list)
-*   [operators](/operator)
-*   [! operator](/operator/!)
-*   [locate proc](/proc/locate)
-*   [input proc](/proc/input)
+*   [list](/ref/list.md) -m
+*   [operators](/ref/operator.md) -m
+*   [! operator](/ref/operator/!.md) -m
+*   [locate proc](/ref/proc/locate.md) -m
+*   [input proc](/ref/proc/input.md) -m
 <!-- -->
 **Format:**
 *   A in List
@@ -39,8 +39,8 @@ Again the solution is to use parentheses, e.g.
 
 
 The `in` operator is also a modifier for some procs such as
-[`locate()`](/proc/locate) and [`input()`](/proc/input).
-Note* For [associative lists](/list/associations) there\'s a faster way
+[locate()](/ref/proc/locate.md) -m{.code} and [input()](/ref/proc/input.md) -m{.code}.
+Note* For [associative lists](/ref/list/associations.md) -mthere\'s a faster way
 to see if an item is in that list. The lookup of `List[A]` in an
 associative list is relatively fast, so if the associated value is
 always expected to be true (not null, 0, or an empty string), you can

@@ -1,7 +1,7 @@
 ## allow-html parameter (skin)
 **Applies to:**
-*   [Label](/%7Bskin%7D/control/label)
-*   [Info](/%7Bskin%7D/control/info)
+*   [Label](/ref/%7Bskin%7D/control/label.md) -m
+*   [Info](/ref/%7Bskin%7D/control/info.md) -m
 <!-- -->
 **Format:**
 *   true/false
@@ -11,8 +11,8 @@
 
 
 Info control* Allow HTML tags to be used in
-[`stat()`](/proc/stat) info. The same limitations apply as to the
-[Grid control](/%7Bskin%7D/control/grid). 
+[stat()](/ref/proc/stat.md) -m{.code} info. The same limitations apply as to the
+[Grid control](/ref/%7Bskin%7D/control/grid.md) -m 
 
 Label control:
 Currently, the label control will not actually use the HTML; it will

@@ -1,10 +1,9 @@
 ## REGEX_QUOTE proc 
 ###### BYOND Version 510
 **See also:**
-*   [regex proc](/proc/regex)
-*   [regex datum](/regex)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
-<!-- -->
+*   [regex proc](/ref/proc/regex.md) -m
+*   [regex datum](/ref/regex.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m<!-- -->
 **Format:**
 *   REGEX_QUOTE(text)
 *   REGEX_QUOTE_REPLACEMENT(text)

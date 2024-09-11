@@ -1,4 +1,4 @@
-## text var (atom)
+# text var (atom)
 **Default value:**
 *   The first letter of the object\'s name.
 

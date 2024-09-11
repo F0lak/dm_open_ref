@@ -3,46 +3,46 @@
 
 Built-in area vars:
 area/var
-*   [alpha](/atom/var/alpha)
-*   [appearance](/atom/var/appearance)
-*   [appearance_flags](/atom/var/appearance_flags)
-*   [blend_mode](/atom/var/blend_mode)
-*   [color](/atom/var/color)
-*   [contents](/atom/var/contents)
-*   [density](/atom/var/density)
-*   [desc](/atom/var/desc)
-*   [dir](/atom/var/dir)
-*   [filters](/atom/var/filters)
-*   [gender](/atom/var/gender)
-*   [icon](/atom/var/icon)
-*   [icon_state](/atom/var/icon_state)
-*   [icon_w](/atom/var/icon_w)
-*   [icon_z](/atom/var/icon_z)
-*   [invisibility](/atom/var/invisibility)
-*   [underlays](/atom/var/underlays)
-*   [overlays](/atom/var/overlays)
-*   [layer](/atom/var/layer)
-*   [luminosity](/atom/var/luminosity)
-*   [maptext](/atom/var/maptext)
-*   [maptext_width](/atom/var/maptext_width)
-*   [maptext_height](/atom/var/maptext_height)
-*   [maptext_x](/atom/var/maptext_x)
-*   [maptext_y](/atom/var/maptext_y)
-*   [mouse_over_pointer](/atom/var/mouse_over_pointer)
-*   [mouse_drag_pointer](/atom/var/mouse_drag_pointer)
-*   [mouse_drop_pointer](/atom/var/mouse_drop_pointer)
-*   [mouse_drop_zone var](/atom/var/mouse_drop_zone)
-*   [mouse_opacity var](/atom/var/mouse_opacity)
-*   [name](/atom/var/name)
-*   [opacity](/atom/var/opacity)
-*   [parent_type](/area/var/parent_type)
-*   [plane](/atom/var/plane)
-*   [render_source](/atom/var/render_source)
-*   [render_target](/atom/var/render_target)
-*   [suffix](/atom/var/suffix)
-*   [tag](/datum/var/tag)
-*   [text](/atom/var/text)
-*   [transform](/atom/var/transform)
-*   [type](/datum/var/type)
-*   [vars](/datum/var/vars)
-*   [verbs](/atom/var/verbs)
+*   [alpha](/ref/atom/var/alpha.md) -m
+*   [appearance](/ref/atom/var/appearance.md) -m
+*   [appearance_flags](/ref/atom/var/appearance_flags.md) -m
+*   [blend_mode](/ref/atom/var/blend_mode.md) -m
+*   [color](/ref/atom/var/color.md) -m
+*   [contents](/ref/atom/var/contents.md) -m
+*   [density](/ref/atom/var/density.md) -m
+*   [desc](/ref/atom/var/desc.md) -m
+*   [dir](/ref/atom/var/dir.md) -m
+*   [filters](/ref/atom/var/filters.md) -m
+*   [gender](/ref/atom/var/gender.md) -m
+*   [icon](/ref/atom/var/icon.md) -m
+*   [icon_state](/ref/atom/var/icon_state.md) -m
+*   [icon_w](/ref/atom/var/icon_w.md) -m
+*   [icon_z](/ref/atom/var/icon_z.md) -m
+*   [invisibility](/ref/atom/var/invisibility.md) -m
+*   [underlays](/ref/atom/var/underlays.md) -m
+*   [overlays](/ref/atom/var/overlays.md) -m
+*   [layer](/ref/atom/var/layer.md) -m
+*   [luminosity](/ref/atom/var/luminosity.md) -m
+*   [maptext](/ref/atom/var/maptext.md) -m
+*   [maptext_width](/ref/atom/var/maptext_width.md) -m
+*   [maptext_height](/ref/atom/var/maptext_height.md) -m
+*   [maptext_x](/ref/atom/var/maptext_x.md) -m
+*   [maptext_y](/ref/atom/var/maptext_y.md) -m
+*   [mouse_over_pointer](/ref/atom/var/mouse_over_pointer.md) -m
+*   [mouse_drag_pointer](/ref/atom/var/mouse_drag_pointer.md) -m
+*   [mouse_drop_pointer](/ref/atom/var/mouse_drop_pointer.md) -m
+*   [mouse_drop_zone var](/ref/atom/var/mouse_drop_zone.md) -m
+*   [mouse_opacity var](/ref/atom/var/mouse_opacity.md) -m
+*   [name](/ref/atom/var/name.md) -m
+*   [opacity](/ref/atom/var/opacity.md) -m
+*   [parent_type](/ref/area/var/parent_type.md) -m
+*   [plane](/ref/atom/var/plane.md) -m
+*   [render_source](/ref/atom/var/render_source.md) -m
+*   [render_target](/ref/atom/var/render_target.md) -m
+*   [suffix](/ref/atom/var/suffix.md) -m
+*   [tag](/ref/datum/var/tag.md) -m
+*   [text](/ref/atom/var/text.md) -m
+*   [transform](/ref/atom/var/transform.md) -m
+*   [type](/ref/datum/var/type.md) -m
+*   [vars](/ref/datum/var/vars.md) -m
+*   [verbs](/ref/atom/var/verbs.md) -m

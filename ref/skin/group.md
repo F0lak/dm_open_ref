@@ -1,13 +1,12 @@
 ## group parameter (skin)
 **See also:**
-*   [button-type parameter](/%7Bskin%7D/param/button-type)
-*   [can-check parameter](/%7Bskin%7D/param/can-check)
-*   [is-checked parameter](/%7Bskin%7D/param/is-checked)
+*   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) -m
+*   [can-check parameter](/ref/%7Bskin%7D/param/can-check.md) -m
+*   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) -m
 <!-- -->
 **Applies to:**
-*   [Button](/%7Bskin%7D/control/button)
-*   [Menu](/%7Bskin%7D/control/menu)
-<!-- -->
+*   [Button](/ref/%7Bskin%7D/control/button.md) -m
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m<!-- -->
 **Format:**
 *   string
 

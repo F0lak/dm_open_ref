@@ -1,7 +1,6 @@
 ## flick proc
 **See also:**
-*   [icon_state var (atom)](/atom/var/icon_state)
-<!-- -->
+*   [icon_state var (atom)](/ref/atom/var/icon_state.md) -m<!-- -->
 **Format:**
 *   flick(Icon,Object)
 <!-- -->

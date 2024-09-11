@@ -1,11 +1,10 @@
 ## value parameter (skin)
 **See also:**
-*   [is-slider parameter](/%7Bskin%7D/param/is-slider)
-*   [dir parameter](/%7Bskin%7D/param/dir)
+*   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider.md) -m
+*   [dir parameter](/ref/%7Bskin%7D/param/dir.md) -m
 <!-- -->
 **Applies to:**
-*   [Bar](/%7Bskin%7D/control/bar)
-<!-- -->
+*   [Bar](/ref/%7Bskin%7D/control/bar.md) -m<!-- -->
 **Format:**
 *   number
 <!-- -->

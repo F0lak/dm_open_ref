@@ -1,12 +1,11 @@
 ## index var (regex) 
 ###### BYOND Version 510
 **See also:**
-*   [regex datum](/regex)
-*   [Find proc (regex)](/regex/proc/Find)
-*   [Replace proc (regex)](/regex/proc/Replace)
-*   [match var (regex)](/regex/var/match)
-*   [next var (regex)](/regex/var/next)
-
+*   [regex datum](/ref/regex.md) -m
+*   [Find proc (regex)](/ref/regex/proc/Find.md) -m
+*   [Replace proc (regex)](/ref/regex/proc/Replace.md) -m
+*   [match var (regex)](/ref/regex/var/match.md) -m
+*   [next var (regex)](/ref/regex/var/next.md) -m
 
 After a call to Find(), this var contains the index where the
 match was found. 

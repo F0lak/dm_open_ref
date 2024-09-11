@@ -1,7 +1,6 @@
 ## cache_lifespan var (world)
 **See also:**
-*   [cache](/DM/cache)
-<!-- -->
+*   [cache](/ref/DM/cache.md) -m<!-- -->
 **Default value:**
 *   30 (days)
 

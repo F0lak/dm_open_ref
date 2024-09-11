@@ -3,19 +3,19 @@
 
 
 These operators are used for accessing list items.
-[\[\] operator](/operator/%5B%5D)
-[?\[\] operator](/operator/%3F%5B%5D)
+[\[\] operator](/ref/operator/%5B%5D.md) -m
+[?\[\] operator](/ref/operator/%3F%5B%5D.md) -m
 
 
 These operators all have special meaning when applied to lists.
-[+ operator](/operator/+)
-[+= operator](/operator/+=)
-[- operator](/operator/-)
-[-= operator](/operator/-=)
-[\| operator](/operator/%7C)
-[\|= operator](/operator/%7C=)
-[& operator](/operator/&)
-[&= operator](/operator/&=)
-[\^ operator](/operator/%5E)
-[\^= operator](/operator/%5E=)
-[in operator](/operator/in)
+[+ operator](/ref/operator/+.md) -m
+[+= operator](/ref/operator/+=.md) -m
+[- operator](/ref/operator/-.md) -m
+[-= operator](/ref/operator/-=.md) -m
+[\| operator](/ref/operator/%7C.md) -m
+[\|= operator](/ref/operator/%7C=.md) -m
+[& operator](/ref/operator/&.md) -m
+[&= operator](/ref/operator/&=.md) -m
+[\^ operator](/ref/operator/%5E.md) -m
+[\^= operator](/ref/operator/%5E=.md) -m
+[in operator](/ref/operator/in.md) -m

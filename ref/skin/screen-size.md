@@ -1,12 +1,11 @@
 ## screen-size parameter (skin) 
 ###### BYOND Version 515
 **See also:**
-*   [size parameter](/%7Bskin%7D/param/size)
-*   [outer-size parameter](/%7Bskin%7D/param/outer-size)
+*   [size parameter](/ref/%7Bskin%7D/param/size.md) -m
+*   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main)
-<!-- -->
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m<!-- -->
 **Format:**
 *   *width*x*height*
 

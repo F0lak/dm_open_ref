@@ -1,11 +1,10 @@
 ## Projection matrix 
 ###### BYOND Version 514
 **See also:**
-*   [Particle effects](/%7Bnotes%7D/particles)
-*   [transform var (atom)](/atom/var/transform)
-*   [matrix](/matrix)
-*   [Color matrix](/%7Bnotes%7D/color-matrix)
-
+*   [Particle effects](/ref/%7Bnotes%7D/particles.md) -m
+*   [transform var (atom)](/ref/atom/var/transform.md) -m
+*   [matrix](/ref/matrix.md) -m
+*   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) -m
 
 Note* Currently this feature applies only to particle effects,
 using the `transform` var. 

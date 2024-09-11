@@ -1,7 +1,6 @@
 ## operators
 **See also:**
-*   [operator overloading](/operator/overload)
-
+*   [operator overloading](/ref/operator/overload.md) -m
 
 Operators are used extensively in DM to compute numerical
 values. 

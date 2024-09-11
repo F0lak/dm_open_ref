@@ -1,9 +1,8 @@
 ## \>\>= operator
 **See also:**
-*   [\>\> shift operator](/operator/%3e%3e/shift)
-*   [\<\<= operator](/operator/%3c%3c=)
-*   [operators](/operator)
-<!-- -->
+*   [\>\> shift operator](/ref/operator/%3e%3e/shift.md) -m
+*   [\<\<= operator](/ref/operator/%3c%3c=.md) -m
+*   [operators](/ref/operator.md) -m<!-- -->
 **Format:**
 *   A \>\>= B
 

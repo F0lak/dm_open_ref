@@ -1,10 +1,9 @@
 ## pixloc proc 
 ###### BYOND Version 516
 **See also:**
-*   [pixloc](/pixloc)
-*   [pixloc var (atom)](/atom/var/pixloc)
-*   [bound_pixloc proc](/proc/bound_pixloc)
-<!-- -->
+*   [pixloc](/ref/pixloc.md) -m
+*   [pixloc var (atom)](/ref/atom/var/pixloc.md) -m
+*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) -m<!-- -->
 **Format:**
 *   pixloc(x, y, z)
 *   pixloc(Atom)

@@ -1,4 +1,4 @@
-## opacity var (atom)
+# opacity var (atom)
 **Default value:**
 *   0
 

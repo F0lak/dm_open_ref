@@ -1,8 +1,7 @@
 ## for proc
 **See also:**
-*   [for list proc](/proc/for/list)
-*   [for loop proc](/proc/for/loop)
-
+*   [for list proc](/ref/proc/for/list.md) -m
+*   [for loop proc](/ref/proc/for/loop.md) -m
 
 The for proc can be used to iterate values over a fixed range
 or list. Consult the appropriate entry for more information.

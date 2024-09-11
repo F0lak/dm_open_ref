@@ -1,15 +1,15 @@
 ## macro parameter (skin)
 **See also:**
-*   [Keyboard/gamepad macros](/%7Bskin%7D/menu)
-*   [menu parameter](/%7Bskin%7D/param/menu)
-*   [id parameter](/%7Bskin%7D/param/id)
+*   [Keyboard/gamepad macros](/ref/%7Bskin%7D/menu.md) -m
+*   [menu parameter](/ref/%7Bskin%7D/param/menu.md) -m
+*   [id parameter](/ref/%7Bskin%7D/param/id.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main) (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m (window only)
 <!-- -->
 **Format:**
 *   string
 
 
-The [`id`](/%7Bskin%7D/param/id) of the macro set this
+The [id](/ref/%7Bskin%7D/param/id.md) -m.code} of the macro set this
 window will use, if any, when it\'s active.

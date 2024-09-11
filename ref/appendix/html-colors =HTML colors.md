@@ -1,7 +1,6 @@
 ## HTML colors
 **See also:**
-*   [rgb proc](/proc/rgb)
-
+*   [rgb proc](/ref/proc/rgb.md) -m
 
 Text colors may be specified by name or RGB value. The RGB
 color format uses hexadecimal numbers, with 2 hex digits each for red,

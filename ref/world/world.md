@@ -1,8 +1,7 @@
 ## world
 **See also:**
-*   [procs (world)](/world/proc)
-*   [vars (world)](/world/var)
-
+*   [procs (world)](/ref/world/proc.md) -m
+*   [vars (world)](/ref/world/var.md) -m
 
 The world node is used to define some global properties for the
 world. Like the other types, the world has overridable vars and procs.

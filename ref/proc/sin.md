@@ -1,10 +1,9 @@
 ## sin proc
 **See also:**
-*   [arcsin proc](/proc/arcsin)
-*   [cos proc](/proc/cos)
-*   [tan proc](/proc/tan)
-*   [turn proc](/proc/turn)
-<!-- -->
+*   [arcsin proc](/ref/proc/arcsin.md) -m
+*   [cos proc](/ref/proc/cos.md) -m
+*   [tan proc](/ref/proc/tan.md) -m
+*   [turn proc](/ref/proc/turn.md) -m<!-- -->
 **Format:**
 *   sin(X)
 <!-- -->

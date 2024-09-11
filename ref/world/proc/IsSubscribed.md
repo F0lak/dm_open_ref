@@ -20,7 +20,7 @@ offline.
 This proc will return null if contacting the hub was
 required, but there was no way to reach the hub. Contacting the hub may
 take a few moments, so it is a good idea to use
-[`spawn()`](/proc/spawn) to avoid holding up the rest of the game.
+[spawn()](/ref/proc/spawn.md) -m.code} to avoid holding up the rest of the game.
 ### Example:
 
 ```

@@ -1,11 +1,11 @@
 ## Particle effects 
 ###### BYOND Version 514
 **See also:**
-*   [particles (movable atom var)](/atom/movable/var/particles)
-*   [Generators](/%7Bnotes%7D/generators)
-*   [generator proc](/proc/generator)
-*   [Projection matrix](/%7Bnotes%7D/projection-matrix)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
+*   [particles (movable atom var)](/ref/atom/movable/var/particles.md) -m
+*   [Generators](/ref/%7Bnotes%7D/generators.md) -m
+*   [generator proc](/ref/proc/generator.md) -m
+*   [Projection matrix](/ref/%7Bnotes%7D/projection-matrix.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m
 
 
 A particle set is a special effect, whose computations are
@@ -18,7 +18,7 @@ overlay.
 Particles can exist in 3 dimensions instead of the
 usual 2, so a particle\'s position, velocity, and other values may have
 a z coordinate. To make use of this z coordinate, you can use a
-[projection matrix](/%7Bnotes%7D/projection-matrix). (The value of the
+[projection matrix](/ref/%7Bnotes%7D/projection-matrix.md) -m. (The value of the
 z coordinate must be between -100 and 100 after projection. Otherwise
 it\'s not guaranteed the particle will be displayed.) 
 
@@ -80,8 +80,8 @@ tick of 0.1s.
                                                                       in this set (pixels per
                                                                       squared tick)
   gradient                [color                                      Color gradient used, if
-                          gradient](/%7Bnotes%7D/color-gradient)     any
-  transform               [matrix](/%7Bnotes%7D/projection-matrix)   Transform done to all
+                          gradient](/ref/%7Bnotes%7D/color-gradient.md) -m     any
+  transform               [matrix](/ref/%7Bnotes%7D/projection-matrix.md) -m  Transform done to all
                                                                       particles, if any (can be
                                                                       higher than 2D)
   Vars that apply when a                                              

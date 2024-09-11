@@ -1,11 +1,10 @@
 ## byond_version var (savefile) 
 ###### BYOND Version 515
 **See also:**
-*   [savefile](/savefile)
-*   [byond_build var (savefile)](/savefile/var/byond_build)
-*   [byond_version var (world)](/world/var/byond_version)
-*   [byond_build var (world)](/world/var/byond_build)
-<!-- -->
+*   [savefile](/ref/savefile.md) -m
+*   [byond_build var (savefile)](/ref/savefile/var/byond_build.md) -m
+*   [byond_version var (world)](/ref/world/var/byond_version.md) -m
+*   [byond_build var (world)](/ref/world/var/byond_build.md) -m<!-- -->
 **Default value:**
 *   0
 

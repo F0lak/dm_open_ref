@@ -1,10 +1,9 @@
 ## \|\| operator
 **See also:**
-*   [! operator](/operator/!)
-*   [&& operator](/operator/&&)
-*   [\|\|= operator](/operator/%7C%7C=)
-*   [operators](/operator)
-<!-- -->
+*   [! operator](/ref/operator/!.md) -m
+*   [&& operator](/ref/operator/&&.md) -m
+*   [\|\|= operator](/ref/operator/%7C%7C=.md) -m
+*   [operators](/ref/operator.md) -m<!-- -->
 **Format:**
 *   A \|\| B
 <!-- -->

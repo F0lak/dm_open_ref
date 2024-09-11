@@ -1,11 +1,11 @@
 ## dir parameter (skin)
 **See also:**
-*   [value parameter](/%7Bskin%7D/param/angle)
-*   [angle1, angle2 parameters](/%7Bskin%7D/param/angle)
-*   [width parameter](/%7Bskin%7D/param/width)
+*   [value parameter](/ref/%7Bskin%7D/param/angle.md) -m
+*   [angle1, angle2 parameters](/ref/%7Bskin%7D/param/angle.md) -m
+*   [width parameter](/ref/%7Bskin%7D/param/width.md) -m
 <!-- -->
 **Applies to:**
-*   [Bar](/%7Bskin%7D/control/bar)
+*   [Bar](/ref/%7Bskin%7D/control/bar.md) -m
 <!-- -->
 **Possible values:**
 *   north
@@ -20,7 +20,7 @@
 
 
 The direction/orientation of the bar. As the
-[`value`](/%7Bskin%7D/param/value) increases the bar will move
+[value](/ref/%7Bskin%7D/param/value.md) -m.code} increases the bar will move
 further in this direction. 
 
 Shorthand values like `cw` and `ccw`

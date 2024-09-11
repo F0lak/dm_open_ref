@@ -1,10 +1,9 @@
 ## text-wrap parameter (skin)
 **See also:**
-*   [text parameter](/%7Bskin%7D/param/text)
+*   [text parameter](/ref/%7Bskin%7D/param/text.md) -m
 <!-- -->
 **Applies to:**
-*   [Label](/%7Bskin%7D/control/label)
-<!-- -->
+*   [Label](/ref/%7Bskin%7D/control/label.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

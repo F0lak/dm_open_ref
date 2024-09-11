@@ -1,18 +1,18 @@
 ## BACKGROUND_LAYER
 **See also:**
-*   [layer var (atom)](/atom/var/layer)
-*   [plane var (atom)](/atom/var/plane)
-*   [map_format var (world)](/world/var/map_format)
-*   [EFFECTS_LAYER](/%7Bnotes%7D/EFFECTS_LAYER)
-*   [TOPDOWN_LAYER](/%7Bnotes%7D/TOPDOWN_LAYER)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
-*   [Understanding the renderer](/%7Bnotes%7D/renderer)
+*   [layer var (atom)](/ref/atom/var/layer.md) -m
+*   [plane var (atom)](/ref/atom/var/plane.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m
+*   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) -m
+*   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m
+*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) -m
 
 
 This is mostly no longer needed. A negative value for plane is
 the preferred way to do show objects in the background. It can still be
 used however when you want to rearrange objects in the same plane when
-using [`PLANE_MASTER`](/atom/var/appearance_flags) for visual
+using [PLANE_MASTER](/ref/atom/var/appearance_flags.md) -m.code} for visual
 effects. 
 
 `BACKGROUND_LAYER` is a special high value that can be

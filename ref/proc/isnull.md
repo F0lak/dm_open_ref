@@ -1,7 +1,6 @@
 ## isnull proc
 **See also:**
-*   [null](/DM/null)
-<!-- -->
+*   [null](/ref/DM/null.md) -m<!-- -->
 **Format:**
 *   isnull(Val)
 <!-- -->

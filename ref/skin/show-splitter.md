@@ -1,13 +1,12 @@
 ## show-splitter parameter (skin)
 **See also:**
-*   [left parameter](/%7Bskin%7D/param/left)
-*   [right parameter](/%7Bskin%7D/param/right)
-*   [is-vert parameter](/%7Bskin%7D/param/is-vert)
-*   [splitter parameter](/%7Bskin%7D/param/splitter)
+*   [left parameter](/ref/%7Bskin%7D/param/left.md) -m
+*   [right parameter](/ref/%7Bskin%7D/param/right.md) -m
+*   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) -m
+*   [splitter parameter](/ref/%7Bskin%7D/param/splitter.md) -m
 <!-- -->
 **Applies to:**
-*   [Child](/%7Bskin%7D/control/child)
-<!-- -->
+*   [Child](/ref/%7Bskin%7D/control/child.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

@@ -1,11 +1,10 @@
 ## trunc proc 
 ###### BYOND Version 515
 **See also:**
-*   [fract proc](/proc/fract)
-*   [floor proc](/proc/floor)
-*   [ceil proc](/proc/ceil)
-*   [round proc](/proc/round)
-<!-- -->
+*   [fract proc](/ref/proc/fract.md) -m
+*   [floor proc](/ref/proc/floor.md) -m
+*   [ceil proc](/ref/proc/ceil.md) -m
+*   [round proc](/ref/proc/round.md) -m<!-- -->
 **Format:**
 *   trunc(A)
 <!-- -->

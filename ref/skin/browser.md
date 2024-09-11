@@ -3,12 +3,12 @@
 
 A browser panel integrated into the skin.
 **Browser-specific parameters:**
-*   [auto-format](/%7Bskin%7D/param/auto-format)
-*   [on-hide](/%7Bskin%7D/param/on-hide)
-*   [on-show](/%7Bskin%7D/param/on-show)
-*   [show-history](/%7Bskin%7D/param/show-history)
-*   [show-url](/%7Bskin%7D/param/show-url)
-*   [use-title](/%7Bskin%7D/param/use-title)
+*   [auto-format](/ref/%7Bskin%7D/param/auto-format.md) -m
+*   [on-hide](/ref/%7Bskin%7D/param/on-hide.md) -m
+*   [on-show](/ref/%7Bskin%7D/param/on-show.md) -m
+*   [show-history](/ref/%7Bskin%7D/param/show-history.md) -m
+*   [show-url](/ref/%7Bskin%7D/param/show-url.md) -m
+*   [use-title](/ref/%7Bskin%7D/param/use-title.md) -m
 
 
 Browsers are capable of displaying HTML documents, and can also
@@ -18,19 +18,19 @@ interact with the skin.
 
 A longstanding behavior of BYOND is the ability to create a new
 browser window by sending an extra argument to the
-[`browse()`](/proc/browse) proc. Since the advent of skins in
+[browse()](/ref/proc/browse.md) -m{.code} proc. Since the advent of skins in
 BYOND 4.0, this behavior was kept. When you create a new browser popup,
 the window name you specify for the popup is used for the name of a new
-[window control](/%7Bskin%7D/control/main), and within that window
+[window control](/ref/%7Bskin%7D/control/main.md) -m, and within that window
 there will be a new browser control simply called `browser`. 
 
 If
 you want to interact with the new browser, its full \"decorated\"
-[`id`](/%7Bskin%7D/param/id) is *`windowname`*`.browser`.
+[id](/ref/%7Bskin%7D/param/id.md) -m{.code} is *`windowname`*`.browser`.
 ### Running JavaScript from DM
 
 
-Sending [`output()`](/proc/output) to a browser will send
+Sending [output()](/ref/proc/output.md) -m{.code} to a browser will send
 a document to display there, but if you follow the browser\'s control
 name with a colon and a function name, you can call a JavaScript
 function in the document displayed within that browser.
@@ -46,14 +46,13 @@ send {\"name\":\"fridge\",\"power\":12} to a JavaScript function usr
 
 The text that you send as output will be parsed like
 URL parameters, where mutliple arguments to the function are separated
-by `&` or `;`, which is why [`url_encode()`](/proc/url_encode) is
-wrapped around the [`json_encode()`](/proc/json_encode) call in
+by `&` or `;`, which is why [url_encode()](/ref/proc/url_encode.md) -m{.code} is
+wrapped around the [json_encode()](/ref/proc/json_encode.md) -m{.code} call in
 this example.
 ### More browser options
 
 
 These topics cover more advanced uses of the browser control.
-[winset and winget (JavaScript)](/%7Bskin%7D/control/browser/winset)
+[winset and winget (JavaScript)](/ref/%7Bskin%7D/control/browser/winset.md) -m
 *   Interact with the skin via JavaScript
-[byondStorage (browser control)](/%7Bskin%7D/control/browser/byondStorage)
-*   Provides persistent storage options for small data
+[byondStorage (browser control)](/ref/%7Bskin%7D/control/browser/byondStorage.md) -m*   Provides persistent storage options for small data

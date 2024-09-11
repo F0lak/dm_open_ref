@@ -1,10 +1,9 @@
 ## MeasureText proc (client) 
 ###### BYOND Version 513
 **See also:**
-*   [maptext var (atom)](/atom/var/maptext)
-*   [maptext_width var (atom)](/atom/var/maptext_width)
-*   [maptext_height var (atom)](/atom/var/maptext_height)
-<!-- -->
+*   [maptext var (atom)](/ref/atom/var/maptext.md) -m
+*   [maptext_width var (atom)](/ref/atom/var/maptext_width.md) -m
+*   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) -m<!-- -->
 **Format:**
 *   MeasureText(text, style, width=0)
 <!-- -->

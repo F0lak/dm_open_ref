@@ -1,10 +1,9 @@
 ## Normalize proc (vector) 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/vector)
-*   [vector proc](/proc/vector)
-*   [size var (vector)](/vector/var/size)
-<!-- -->
+*   [vector](/ref/vector.md) -m
+*   [vector proc](/ref/proc/vector.md) -m
+*   [size var (vector)](/ref/vector/var/size.md) -m<!-- -->
 **Format:**
 *   V.Normalize()
 <!-- -->

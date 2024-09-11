@@ -3,5 +3,5 @@
 
 Built-in savefile operators:
 savefile/operator
-*   [\<\<](/savefile/operator/%3c%3c)
-*   [\>\>](/savefile/operator/%3e%3e)
+*   [\<\<](/ref/savefile/operator/%3c%3c.md) -m
+*   [\>\>](/ref/savefile/operator/%3e%3e.md) -m

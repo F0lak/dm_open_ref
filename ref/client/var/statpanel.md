@@ -1,11 +1,10 @@
 ## statpanel var (client)
 **See also:**
-*   [Stat proc (client)](/client/proc/Stat)
-*   [stat proc](/proc/stat)
-*   [statobj var (client)](/client/var/statobj)
-*   [statpanel proc](/proc/statpanel)
-*   [Info control (skin)](/%7Bskin%7D/control/info)
-<!-- -->
+*   [Stat proc (client)](/ref/client/proc/Stat.md) -m
+*   [stat proc](/ref/proc/stat.md) -m
+*   [statobj var (client)](/ref/client/var/statobj.md) -m
+*   [statpanel proc](/ref/proc/statpanel.md) -m
+*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) -m<!-- -->
 **Default value:**
 *   null
 

@@ -1,4 +1,4 @@
 ## pixel_step_size var (client)
 
 
-Renamed to [glide_size](/atom/movable/var/glide_size).
+Renamed to [glide_size](/ref/atom/movable/var/glide_size.md) -m

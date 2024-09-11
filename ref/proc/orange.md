@@ -1,10 +1,9 @@
 ## orange proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [block](/proc/block)
-*   [oview proc](/proc/oview)
-*   [range proc](/proc/range)
-<!-- -->
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [block](/ref/proc/block.md) -m
+*   [oview proc](/ref/proc/oview.md) -m
+*   [range proc](/ref/proc/range.md) -m<!-- -->
 **Format:**
 *   orange(Dist,Center=usr)
 <!-- -->

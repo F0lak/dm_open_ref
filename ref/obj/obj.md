@@ -1,10 +1,9 @@
 ## obj
 **See also:**
-*   [atom](/atom)
-*   [movable atoms](/atom/movable)
-*   [procs (obj)](/obj/proc)
-*   [vars (obj)](/obj/var)
-
+*   [atom](/ref/atom.md) -m
+*   [movable atoms](/ref/atom/movable.md) -m
+*   [procs (obj)](/ref/obj/proc.md) -m
+*   [vars (obj)](/ref/obj/var.md) -m
 
 There are two types of movable atoms* objs and mobs. The
 difference between them is that a mob can be attached to a human player,

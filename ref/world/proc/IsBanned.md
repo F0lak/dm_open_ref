@@ -1,11 +1,11 @@
 ## IsBanned proc (world)
 **See also:**
-*   [GetConfig proc (world)](/world/proc/GetConfig)
-*   [params2list proc](/proc/params2list)
-*   [address var (client)](/client/var/address)
-*   [computer_id var (client)](/client/var/computer_id)
-*   [connection var (client)](/client/var/connection)
-*   [hub var (world)](/world/var/hub)
+*   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) -m
+*   [params2list proc](/ref/proc/params2list.md) -m
+*   [address var (client)](/ref/client/var/address.md) -m
+*   [computer_id var (client)](/ref/client/var/computer_id.md) -m
+*   [connection var (client)](/ref/client/var/connection.md) -m
+*   [hub var (world)](/ref/world/var/hub.md) -m
 <!-- -->
 **Format:**
 *   IsBanned(key,address,computer_id,type)
@@ -20,7 +20,7 @@
 *   address* current IP address of the user.
 *   computer_id* current computer_id of the user if known.
 *   type* type of connection if known (see
-    [client.connection](/client/var/connection))
+    [client.connection](/ref/client/var/connection.md) -m)
 
 
 By default, this procedure checks the \"ban\" configuration
@@ -72,11 +72,11 @@ message
 
 
 Since the data in the \"ban\" file is in
-[application/x-www-form-urlencoded](/proc/list2params) format, it is
+[application/x-www-form-urlencoded](/ref/proc/list2params.md) -m format, it is
 probably not desirable to edit the file by hand. No built-in facilities
 for editing the file have been provided (aside from automatic addition
 of pager bans), but an interface could be created, using
-[GetConfig](/world/proc/GetConfig) and
-[SetConfig](/world/proc/SetConfig) to read and write the data. Extra
+[GetConfig](/ref/world/proc/GetConfig.md) -m and
+[SetConfig](/ref/world/proc/SetConfig.md) -mto read and write the data. Extra
 features could also be added such as automatic inference of key
 associations by IP address.

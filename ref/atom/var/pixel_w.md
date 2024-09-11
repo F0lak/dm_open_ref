@@ -2,14 +2,13 @@
 ###### BYOND Version 511
 **See also:**
 *   [animate_movement var (movable
-    atoms)](/atom/movable/var/animate_movement)
-*   [glide_size var (movable atoms)](/atom/movable/var/glide_size)
-*   [pixel_x var (atom)](/atom/var/pixel_x)
-*   [pixel_y var (atom)](/atom/var/pixel_y)
-*   [pixel_z var (atom)](/atom/var/pixel_z)
-*   [icon_size var (world)](/world/var/icon_size)
-*   [map_format var (world)](/world/var/map_format)
-<!-- -->
+    atoms)](/ref/atom/movable/var/animate_movement.md) -m
+*   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) -m
+*   [pixel_x var (atom)](/ref/atom/var/pixel_x.md) -m
+*   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) -m
+*   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) -m
+*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m<!-- -->
 **Default value:**
 *   0
 

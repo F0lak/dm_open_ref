@@ -1,11 +1,10 @@
 ## Topic proc (world)
 **See also:**
-*   [Del proc (world)](/world/proc/Del)
-*   [Export proc (world)](/world/proc/Export)
-*   [Import proc (client)](/client/proc/Import)
-*   [Import proc (world)](/world/proc/Import)
-*   [Reboot proc (world)](/world/proc/Reboot)
-<!-- -->
+*   [Del proc (world)](/ref/world/proc/Del.md) -m
+*   [Export proc (world)](/ref/world/proc/Export.md) -m
+*   [Import proc (client)](/ref/client/proc/Import.md) -m
+*   [Import proc (world)](/ref/world/proc/Import.md) -m
+*   [Reboot proc (world)](/ref/world/proc/Reboot.md) -m<!-- -->
 **Format:**
 *   Topic(T,Addr,Master,Keys)
 <!-- -->

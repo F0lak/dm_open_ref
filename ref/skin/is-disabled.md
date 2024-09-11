@@ -1,13 +1,12 @@
 ## is-disabled parameter (skin)
 **See also:**
-*   [is-checked parameter](/%7Bskin%7D/param/is-checked)
-*   [is-visible parameter](/%7Bskin%7D/param/is-visible)
+*   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) -m
+*   [is-visible parameter](/ref/%7Bskin%7D/param/is-visible.md) -m
 <!-- -->
 **Applies to:**
-*   [All](/%7Bskin%7D/control)
-*   [Macro](/%7Bskin%7D/control/macro)
-*   [Menu](/%7Bskin%7D/control/menu)
-<!-- -->
+*   [All](/ref/%7Bskin%7D/control.md) -m
+*   [Macro](/ref/%7Bskin%7D/control/macro.md) -m
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

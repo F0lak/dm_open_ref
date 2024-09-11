@@ -1,68 +1,68 @@
 ## controls (skin)
 **Control types:**
-*   [Bar](/%7Bskin%7D/control/bar)* A progress bar or slider
-*   [Browser](/%7Bskin%7D/control/browser)* A browser
-*   [Button](/%7Bskin%7D/control/button)* A pushbutton or toggle button
-*   [Child](/%7Bskin%7D/control/child)* A container holding one or two
+*   [Bar](/ref/%7Bskin%7D/control/bar.md) -m* A progress bar or slider
+*   [Browser](/ref/%7Bskin%7D/control/browser.md) -m* A browser
+*   [Button](/ref/%7Bskin%7D/control/button.md) -m* A pushbutton or toggle button
+*   [Child](/ref/%7Bskin%7D/control/child.md) -m* A container holding one or two
     panes, with a movable splitter
-*   [Grid](/%7Bskin%7D/control/grid)* For table-like or list-like
+*   [Grid](/ref/%7Bskin%7D/control/grid.md) -m* For table-like or list-like
     output
-*   [Info](/%7Bskin%7D/control/info)* Classic BYOND statpanel
-*   [Input](/%7Bskin%7D/control/input)* Command input or other
+*   [Info](/ref/%7Bskin%7D/control/info.md) -m* Classic BYOND statpanel
+*   [Input](/ref/%7Bskin%7D/control/input.md) -m* Command input or other
     user-entered text
-*   [Label](/%7Bskin%7D/control/label)* Non-interactive text label
-*   [Main](/%7Bskin%7D/control/main)* A window or pane that holds other
+*   [Label](/ref/%7Bskin%7D/control/label.md) -m* Non-interactive text label
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m* A window or pane that holds other
     controls
-*   [Macro](/%7Bskin%7D/control/macro)* A [keyboard/gamepad/mouse
-    macro](/%7Bskin%7D/macros)
-*   [Map](/%7Bskin%7D/control/map)* The game map display
-*   [Menu](/%7Bskin%7D/control/menu)* An item in a drop-down menu
-*   [Output](/%7Bskin%7D/control/output)* Text output
-*   [Tab](/%7Bskin%7D/control/tab)* A tab control holding multiple
+*   [Macro](/ref/%7Bskin%7D/control/macro.md) -m* A [keyboard/gamepad/mouse
+    macro](/ref/%7Bskin%7D/macros.md) -m
+*   [Map](/ref/%7Bskin%7D/control/map.md) -m* The game map display
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m* An item in a drop-down menu
+*   [Output](/ref/%7Bskin%7D/control/output.md) -m* Text output
+*   [Tab](/ref/%7Bskin%7D/control/tab.md) -m* A tab control holding multiple
     panes, showing one at a time
 <!-- -->
 **Parameters common to all controls:**
-*   [id](/%7Bskin%7D/param/id)
-*   [is-disabled](/%7Bskin%7D/param/is-disabled)
-*   [parent](/%7Bskin%7D/param/parent)
-*   [saved-params](/%7Bskin%7D/param/saved-params)
-*   [type](/%7Bskin%7D/param/type)
+*   [id](/ref/%7Bskin%7D/param/id.md) -m
+*   [is-disabled](/ref/%7Bskin%7D/param/is-disabled.md) -m
+*   [parent](/ref/%7Bskin%7D/param/parent.md) -m
+*   [saved-params](/ref/%7Bskin%7D/param/saved-params.md) -m
+*   [type](/ref/%7Bskin%7D/param/type.md) -m
 **Positionable controls only (not Macro or Menu):**
-*   [anchor1, anchor2](/%7Bskin%7D/param/anchor)
-*   [background-color](/%7Bskin%7D/param/background-color)
-*   [border](/%7Bskin%7D/param/border)
-*   [drop-zone](/%7Bskin%7D/param/drop-zone)
-*   [flash](/%7Bskin%7D/param/flash)
-*   [focus](/%7Bskin%7D/param/focus)
-*   [font-family](/%7Bskin%7D/param/font-family)
-*   [font-size](/%7Bskin%7D/param/font-size)
-*   [font-style](/%7Bskin%7D/param/font-style)
-*   [is-visible](/%7Bskin%7D/param/is-visible)
-*   [is-transparent](/%7Bskin%7D/param/is-transparent)
-*   [on-size](/%7Bskin%7D/param/on-size)
-*   [pos](/%7Bskin%7D/param/pos)
-*   [right-click](/%7Bskin%7D/param/right-click)
-*   [size](/%7Bskin%7D/param/size)
-*   [text-color](/%7Bskin%7D/param/text-color)
+*   [anchor1, anchor2](/ref/%7Bskin%7D/param/anchor.md) -m
+*   [background-color](/ref/%7Bskin%7D/param/background-color.md) -m
+*   [border](/ref/%7Bskin%7D/param/border.md) -m
+*   [drop-zone](/ref/%7Bskin%7D/param/drop-zone.md) -m
+*   [flash](/ref/%7Bskin%7D/param/flash.md) -m
+*   [focus](/ref/%7Bskin%7D/param/focus.md) -m
+*   [font-family](/ref/%7Bskin%7D/param/font-family.md) -m
+*   [font-size](/ref/%7Bskin%7D/param/font-size.md) -m
+*   [font-style](/ref/%7Bskin%7D/param/font-style.md) -m
+*   [is-visible](/ref/%7Bskin%7D/param/is-visible.md) -m
+*   [is-transparent](/ref/%7Bskin%7D/param/is-transparent.md) -m
+*   [on-size](/ref/%7Bskin%7D/param/on-size.md) -m
+*   [pos](/ref/%7Bskin%7D/param/pos.md) -m
+*   [right-click](/ref/%7Bskin%7D/param/right-click.md) -m
+*   [size](/ref/%7Bskin%7D/param/size.md) -m
+*   [text-color](/ref/%7Bskin%7D/param/text-color.md) -m
 ### Creating/Destroying at runtime
 
 
 Controls can be created or deleted at runtime. (Only controls
 you created during runtime may be deleted.) To create a control, call
-[`winset()`](/proc/winset) using the
-[`id`](/%7Bskin%7D/param/id) of the new control, and the parameter
-list should include [`type`](/%7Bskin%7D/param/type),
-[`parent`](/%7Bskin%7D/param/parent), and probably also
-[`pos`](/%7Bskin%7D/param/pos),
-[`size`](/%7Bskin%7D/param/size), and any
-[anchors](/%7Bskin%7D/param/anchor). 
+[winset()](/ref/proc/winset.md) -m{.code} using the
+[id](/ref/%7Bskin%7D/param/id.md) -m{.code} of the new control, and the parameter
+list should include [type](/ref/%7Bskin%7D/param/type.md) -m{.code},
+[parent](/ref/%7Bskin%7D/param/parent.md) -m{.code}, and probably also
+[pos](/ref/%7Bskin%7D/param/pos.md) -m{.code},
+[size](/ref/%7Bskin%7D/param/size.md) -m{.code}, and any
+[anchors](/ref/%7Bskin%7D/param/anchor.md) -m. 
 
 To delete the control
 again, set its `parent` to a blank value. 
 
 Menu items and macros
 work similarly, except they have no positional info. For those, the
-[`name`](/%7Bskin%7D/param/name) parameter is important when you
+[name](/ref/%7Bskin%7D/param/name.md) -m{.code} parameter is important when you
 create them, and you will either need
-[`command`](/%7Bskin%7D/param/command) or (for macros)
-[`map-to`](/%7Bskin%7D/param/map-to) to do anything with them.
+[command](/ref/%7Bskin%7D/param/command.md) -m{.code} or (for macros)
+[map-to](/ref/%7Bskin%7D/param/map-to.md) -m.code} to do anything with them.

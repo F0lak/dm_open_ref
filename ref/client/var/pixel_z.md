@@ -1,11 +1,10 @@
 ## pixel_z var (client)
 **See also:**
-*   [glide_size var (client)](/client/var/glide_size)
-*   [pixel_x var (client)](/client/var/pixel_x)
-*   [pixel_y var (client)](/client/var/pixel_y)
-*   [pixel_w var (client)](/client/var/pixel_w)
-*   [map_format var (world)](/world/var/map_format)
-<!-- -->
+*   [glide_size var (client)](/ref/client/var/glide_size.md) -m
+*   [pixel_x var (client)](/ref/client/var/pixel_x.md) -m
+*   [pixel_y var (client)](/ref/client/var/pixel_y.md) -m
+*   [pixel_w var (client)](/ref/client/var/pixel_w.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m<!-- -->
 **Default value:**
 *   0
 

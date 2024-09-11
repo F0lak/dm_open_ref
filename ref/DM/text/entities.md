@@ -1,9 +1,8 @@
 ## entities (text)
 **See also:**
-*   [macros (text)](/DM/text/macros)
-*   [tags (text)](/DM/text/tags)
-*   [text](/DM/text)
-
+*   [macros (text)](/ref/DM/text/macros.md) -m
+*   [tags (text)](/ref/DM/text/tags.md) -m
+*   [text](/ref/DM/text.md) -m
 
 Special characters may be inserted into text using HTML syntax.
 Such characters are known as entities. They start with an ampersand and

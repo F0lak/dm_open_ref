@@ -2,9 +2,9 @@
 
 
 A tab control, where each tab holds a different
-[pane](/%7Bskin%7D/control/main).
+[pane](/ref/%7Bskin%7D/control/main.md) -m.
 **Tab-specific parameters:**
-*   [current-tab](/%7Bskin%7D/param/current-tab)
-*   [multi-line](/%7Bskin%7D/param/multi-line)
-*   [on-tab](/%7Bskin%7D/param/on-tab)
-*   [tabs](/%7Bskin%7D/param/tabs)
+*   [current-tab](/ref/%7Bskin%7D/param/current-tab.md) -m
+*   [multi-line](/ref/%7Bskin%7D/param/multi-line.md) -m
+*   [on-tab](/ref/%7Bskin%7D/param/on-tab.md) -m
+*   [tabs](/ref/%7Bskin%7D/param/tabs.md) -m

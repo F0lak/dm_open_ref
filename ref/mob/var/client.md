@@ -1,7 +1,6 @@
 ## client var (mob)
 **See also:**
-*   [client](/client)
-<!-- -->
+*   [client](/ref/client.md) -m<!-- -->
 **Default value:**
 *   null
 

@@ -1,18 +1,18 @@
 ## MouseWheel proc (client) 
 ###### BYOND Version 508
 **See also:**
-*   [Click proc (client)](/client/proc/Click)
-*   [DblClick proc (client)](/client/proc/DblClick)
-*   [MouseDown proc (client)](/client/proc/MouseDown)
-*   [MouseDrag proc (client)](/client/proc/MouseDrag)
-*   [MouseDrop proc (client)](/client/proc/MouseDrop)
-*   [MouseEntered proc (client)](/client/proc/MouseEntered)
-*   [MouseExited proc (client)](/client/proc/MouseExited)
-*   [MouseMove proc (client)](/client/proc/MouseMove)
-*   [MouseUp proc (client)](/client/proc/MouseUp)
-*   [MouseWheel proc (atom)](/atom/proc/MouseWheel)
-*   [mouse_opacity var (atom)](/atom/var/mouse_opacity)
-*   [mouse_pointer_icon var (client)](/client/var/mouse_pointer_icon)
+*   [Click proc (client)](/ref/client/proc/Click.md) -m
+*   [DblClick proc (client)](/ref/client/proc/DblClick.md) -m
+*   [MouseDown proc (client)](/ref/client/proc/MouseDown.md) -m
+*   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md) -m
+*   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md) -m
+*   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md) -m
+*   [MouseExited proc (client)](/ref/client/proc/MouseExited.md) -m
+*   [MouseMove proc (client)](/ref/client/proc/MouseMove.md) -m
+*   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) -m
+*   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel.md) -m
+*   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) -m
+*   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md) -m
 <!-- -->
 **Format:**
 *   MouseWheel(object,delta_x,delta_y,location,control,params)
@@ -24,8 +24,7 @@
     object
 *   control* the name of the skin control involved
 *   params* other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/DM/mouse)
-<!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) -m<!-- -->
 **Default action:**
 *   Call object.MouseWheel(delta_x,delta_y,location,control,params).
 

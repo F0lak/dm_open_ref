@@ -1,10 +1,10 @@
 ## list2params proc
 **See also:**
-*   [Topic proc (client)](/client/proc/Topic)
-*   [list associations](/list/associations)
-*   [params var (world)](/world/var/params)
-*   [params2list proc](/proc/params2list)
-*   [text2num proc](/proc/text2num)
+*   [Topic proc (client)](/ref/client/proc/Topic.md) -m
+*   [list associations](/ref/list/associations.md) -m
+*   [params var (world)](/ref/world/var/params.md) -m
+*   [params2list proc](/ref/proc/params2list.md) -m
+*   [text2num proc](/ref/proc/text2num.md) -m
 <!-- -->
 **Format:**
 *   list2params(List)
@@ -26,7 +26,7 @@ similar situation. The format of the resulting text string is:
 Special characters such as \'=\' and \'&\' inside the parameter
 names or values are written in the form* `%xx` where `xx` are two
 hexadecimal digits representing the ASCII value of the character. For
-[Unicode](/%7Bnotes%7D/Unicode) characters, their UTF-8 encoding will
+[Unicode](/ref/%7Bnotes%7D/Unicode.md) -mcharacters, their UTF-8 encoding will
 be processed this way, which may make up multiple `%xx` sequences. In
 addition, spaces are converted to `+`. 
 

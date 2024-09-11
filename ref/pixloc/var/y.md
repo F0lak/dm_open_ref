@@ -1,10 +1,9 @@
 ## y var (pixloc) 
 ###### BYOND Version 516
 **See also:**
-*   [pixloc](/pixloc)
-*   [x var (pixloc)](/pixloc/var/x)
-*   [z var (pixloc)](/pixloc/var/z)
-
+*   [pixloc](/ref/pixloc.md) -m
+*   [x var (pixloc)](/ref/pixloc/var/x.md) -m
+*   [z var (pixloc)](/ref/pixloc/var/z.md) -m
 
 The y value of this pixloc in world pixel coordinates, which
 start at 1. A value of y=1 means this is lined up to the southern edge

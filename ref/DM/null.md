@@ -1,4 +1,4 @@
-## null
+# null
 
 
 Variables that are not initialized have the value null. This

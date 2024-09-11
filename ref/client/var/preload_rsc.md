@@ -1,4 +1,4 @@
-## preload_rsc var (client)
+# preload_rsc var (client)
 **Default value:**
 *   1\.
 

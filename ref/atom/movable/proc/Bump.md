@@ -1,8 +1,7 @@
 ## Bump proc (movable atom)
 **See also:**
-*   [Move proc (movable atom)](/atom/movable/proc/Move)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
-<!-- -->
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
 **Format:**
 *   Bump(atom/Obstacle)
 <!-- -->

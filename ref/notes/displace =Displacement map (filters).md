@@ -1,10 +1,9 @@
 ## Displacement map filter 
 ###### BYOND Version 513
 **See also:**
-*   [Alpha mask (filters)](/%7Bnotes%7D/filters/alpha)
-*   [icon var (atom)](/atom/var/icon)
-*   [render_target var (atom)](/atom/var/render_target)
-<!-- -->
+*   [Alpha mask (filters)](/ref/%7Bnotes%7D/filters/alpha.md) -m
+*   [icon var (atom)](/ref/atom/var/icon.md) -m
+*   [render_target var (atom)](/ref/atom/var/render_target.md) -m<!-- -->
 Format:
 *   filter(type=\"displace\", \...)
 <!-- -->

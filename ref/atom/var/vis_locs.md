@@ -1,10 +1,10 @@
 ## vis_locs var (atom) 
 ###### BYOND Version 512
 **See also:**
-*   [vis_contents var (atom)](/atom/var/vis_contents)
-*   [vis_flags var (atom)](/atom/var/vis_flags)
-*   [image objects](/image)
-*   [HUD / screen objects](/%7Bnotes%7D/HUD)
+*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) -m
+*   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) -m
+*   [image objects](/ref/image.md) -m
+*   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) -m
 <!-- -->
 **Default value:**
 *   Empty list.
@@ -18,7 +18,7 @@ Because only turfs, objs, and mobs can be
 in visual contents, this var belongs only to those types. 
 
 Being
-in a visual locs list does not count as a [reference](/DM/garbage), the
+in a visual locs list does not count as a [reference](/ref/DM/garbage.md) -m the
 same way that being a movable\'s loc does not count as a reference. If
 an object in this list otherwise runs out of references, it will be
 garbage collected and therefore removed from this list.

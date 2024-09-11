@@ -1,12 +1,11 @@
 ## screen-pos parameter (skin) 
 ###### BYOND Version 515
 **See also:**
-*   [pos parameter](/%7Bskin%7D/param/pos)
-*   [outer-pos parameter](/%7Bskin%7D/param/outer-pos)
+*   [pos parameter](/ref/%7Bskin%7D/param/pos.md) -m
+*   [outer-pos parameter](/ref/%7Bskin%7D/param/outer-pos.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main)
-<!-- -->
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m<!-- -->
 **Format:**
 *   *x*,*y*
 

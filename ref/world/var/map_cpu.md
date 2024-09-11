@@ -1,11 +1,10 @@
 ## map_cpu var (world) 
 ###### BYOND Version 514
 **See also:**
-*   [cpu var (world)](/world/var/cpu)
-*   [tick_lag var (world)](/world/var/tick_lag)
-*   [tick_usage var (world)](/world/var/tick_usage)
-*   [Tick proc (world)](/world/proc/Tick)
-
+*   [cpu var (world)](/ref/world/var/cpu.md) -m
+*   [tick_lag var (world)](/ref/world/var/tick_lag.md) -m
+*   [tick_usage var (world)](/ref/world/var/tick_usage.md) -m
+*   [Tick proc (world)](/ref/world/proc/Tick.md) -m
 
 This is the percentage of a server tick that the server spends
 processing information about the map to send to players. A value of 0

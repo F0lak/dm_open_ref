@@ -1,12 +1,12 @@
 ## vector 
 ###### BYOND Version 516
 **See also:**
-*   [vector proc](/proc/vector)
-*   [procs (vector)](/vector/proc)
-*   [vars (vector)](/vector/var)
-*   [pixloc](/pixloc)
-*   [operators](/operator)
-*   [matrix](/matrix)
+*   [vector proc](/ref/proc/vector.md) -m
+*   [procs (vector)](/ref/vector/proc.md) -m
+*   [vars (vector)](/ref/vector/var.md) -m
+*   [pixloc](/ref/pixloc.md) -m
+*   [operators](/ref/operator.md) -m
+*   [matrix](/ref/matrix.md) -m
 
 
 A primitive value representing a numeric vector in 2 or 3
@@ -32,11 +32,11 @@ E.g., adding a 2D and 3D vector produces a 3D vector.
 
 Other
 supported procs for vectors include:
-[`min()`](/proc/min)
-[`max()`](/proc/max)
-[`clamp()`](/proc/clamp)
-[`round()`](/proc/round)
-[`floor()`](/proc/floor)
-[`ceil()`](/proc/ceil)
-[`trunc()`](/proc/trunc)
-[`fract()`](/proc/fract)
+[min()](/ref/proc/min.md) -m{.code}
+[max()](/ref/proc/max.md) -m{.code}
+[clamp()](/ref/proc/clamp.md) -m{.code}
+[round()](/ref/proc/round.md) -m{.code}
+[floor()](/ref/proc/floor.md) -m{.code}
+[ceil()](/ref/proc/ceil.md) -m{.code}
+[trunc()](/ref/proc/trunc.md) -m{.code}
+[fract()](/ref/proc/fract.md) -m.code}

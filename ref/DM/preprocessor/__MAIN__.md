@@ -1,7 +1,6 @@
 ## \_\_MAIN\_\_ macro
 **See also:**
-*   [preprocessor](/DM/preprocessor)
-
+*   [preprocessor](/ref/DM/preprocessor.md) -m
 
 The \_\_MAIN\_\_ macro is defined in the main `.dme` file being
 compiled. In all other files included by this file, \_\_MAIN\_\_ is not

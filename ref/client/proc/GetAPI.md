@@ -1,8 +1,8 @@
 ## GetAPI proc (client) 
 ###### BYOND Version 514
 **See also:**
-*   [SetAPI proc (client)](/client/proc/SetAPI)
-*   [CheckPassport proc (client)](/client/proc/CheckPassport)
+*   [SetAPI proc (client)](/ref/client/proc/SetAPI.md) -m
+*   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) -m
 <!-- -->
 **Format:**
 *   GetAPI(Api, Name)
@@ -38,7 +38,7 @@ stat from a user who isn\'t logged into Steam.
   stat:*Name*               num               Returns the value of the stat called    
                                               `Name`.                                 
   achievement:*Name*        num               Returns the date (for use with          
-                                              [`time2text`](/proc/time2text))   
+                                              [time2text](/ref/proc/time2text.md) -m.code})   
                                               the achievement called `Name`, or 0 if  
                                               it hasn\'t been earned.                 
   achievement-data:*Name*   list              Returns information about the           

@@ -1,9 +1,9 @@
 ## istype proc
 **See also:**
-*   [ispath proc](/proc/ispath)
-*   [locate proc](/proc/locate)
-*   [typesof proc](/proc/typesof)
-*   [\_\_IMPLIED_TYPE\_\_ macro](/DM/preprocessor/__IMPLIED_TYPE__)
+*   [ispath proc](/ref/proc/ispath.md) -m
+*   [locate proc](/ref/proc/locate.md) -m
+*   [typesof proc](/ref/proc/typesof.md) -m
+*   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) -m
 <!-- -->
 **Format:**
 *   istype(Val,Type)
@@ -21,7 +21,7 @@
 
 If you don\'t have an object instance to test, but just want to
 see if one prototype derives from another one, use
-[ispath()](/proc/ispath) instead.
+[ispath()](/ref/proc/ispath.md) -minstead.
 ### Example:
 
 ```

@@ -1,12 +1,11 @@
 ## no-command parameter (skin)
 **See also:**
-*   [command parameter](/%7Bskin%7D/param/command)
-*   [is-password parameter](/%7Bskin%7D/param/is-password)
-*   [multi-line parameter](/%7Bskin%7D/param/multi-line)
+*   [command parameter](/ref/%7Bskin%7D/param/command.md) -m
+*   [is-password parameter](/ref/%7Bskin%7D/param/is-password.md) -m
+*   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) -m
 <!-- -->
 **Applies to:**
-*   [Input](/%7Bskin%7D/control/input)
-<!-- -->
+*   [Input](/ref/%7Bskin%7D/control/input.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

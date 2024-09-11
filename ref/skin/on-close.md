@@ -1,14 +1,14 @@
 ## on-close parameter (skin)
 **See also:**
-*   [can-close parameter](/%7Bskin%7D/param/can-close)
-*   [on-size parameter](/%7Bskin%7D/param/on-size)
+*   [can-close parameter](/ref/%7Bskin%7D/param/can-close.md) -m
+*   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main) (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m (window only)
 <!-- -->
 **Format:**
 *   string
 
 
-[Command](/%7Bskin%7D/commands) executed when the window is
+[Command](/ref/%7Bskin%7D/commands.md) -mexecuted when the window is
 closed.

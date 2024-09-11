@@ -1,7 +1,6 @@
 ## log proc
 **See also:**
-*   [\*\* operator](/operator/**)
-<!-- -->
+*   [\*\* operator](/ref/operator/**.md) -m<!-- -->
 **Format:**
 *   log(X,Y)
 *   log(Y)

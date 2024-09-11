@@ -1,11 +1,10 @@
 ## \|\|= operator 
 ###### BYOND Version 514
 **See also:**
-*   [\|\| operator](/operator/%7C%7C)
-*   [&& operator](/operator/&&)
-*   [&&= operator](/operator/&&=)
-*   [operators](/operator)
-<!-- -->
+*   [\|\| operator](/ref/operator/%7C%7C.md) -m
+*   [&& operator](/ref/operator/&&.md) -m
+*   [&&= operator](/ref/operator/&&=.md) -m
+*   [operators](/ref/operator.md) -m<!-- -->
 **Format:**
 *   A \|\|= B
 <!-- -->

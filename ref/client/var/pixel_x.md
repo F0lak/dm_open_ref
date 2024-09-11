@@ -1,10 +1,9 @@
 ## pixel_x var (client)
 **See also:**
-*   [glide_size var (client)](/client/var/glide_size)
-*   [pixel_y var (client)](/client/var/pixel_y)
-*   [pixel_w var (client)](/client/var/pixel_w)
-*   [pixel_z var (client)](/client/var/pixel_z)
-<!-- -->
+*   [glide_size var (client)](/ref/client/var/glide_size.md) -m
+*   [pixel_y var (client)](/ref/client/var/pixel_y.md) -m
+*   [pixel_w var (client)](/ref/client/var/pixel_w.md) -m
+*   [pixel_z var (client)](/ref/client/var/pixel_z.md) -m<!-- -->
 **Default value:**
 *   0
 

@@ -1,9 +1,8 @@
 ## DrawBox proc (icon)
 **See also:**
-*   [icon](/icon)
-*   [procs (icon)](/icon/proc)
-*   [rgb proc](/proc/rgb)
-<!-- -->
+*   [icon](/ref/icon.md) -m
+*   [procs (icon)](/ref/icon/proc.md) -m
+*   [rgb proc](/ref/proc/rgb.md) -m<!-- -->
 **Format:**
 *   DrawBox(rgb,x1,y1,x2=x1,y2=y1)
 <!-- -->

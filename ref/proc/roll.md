@@ -1,7 +1,6 @@
 ## roll proc
 **See also:**
-*   [rand proc](/proc/rand)
-<!-- -->
+*   [rand proc](/ref/proc/rand.md) -m<!-- -->
 **Format:**
 *   roll(ndice=1,sides)
 *   roll(dice)

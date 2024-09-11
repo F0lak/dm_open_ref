@@ -1,9 +1,9 @@
 ## #pragma syntax directive 
 ###### BYOND Version 516
 **See also:**
-*   [#pragma directive](/DM/preprocessor/pragma)
-*   [for loop proc](/proc/for/loop)
-*   [switch proc](/proc/switch)
+*   [#pragma directive](/ref/DM/preprocessor/pragma.md) -m
+*   [for loop proc](/ref/proc/for/loop.md) -m
+*   [switch proc](/ref/proc/switch.md) -m
 <!-- -->
 **Format:**
 *   #pragma syntax [\<]{.faded}C[\|]{.faded}DM[\>]{.faded}
@@ -15,14 +15,14 @@ be more natural for users who prefer non-DM style, and can sometimes do
 things that regular DM syntax can\'t do. 
 
 Changing the [`for()`
-loop](/proc/for/loop) syntax to C will use semicolons to separate the
+loop](/ref/proc/for/loop.md) -m syntax to C will use semicolons to separate the
 Init, Test, Inc sections instead of commas. That means commas can be
 used to chain multiple statements together instead. 
 
 In
-[`switch()`](/proc/switch), C syntax changes the if/else
+[switch()](/ref/proc/switch.md) -m{.code}, C syntax changes the if/else
 statements to use C\'s `case` and/or `default` keywords, followed by a
-colon, and the [`break` statement](/proc/break) is required to skip to
+colon, and the [`break` statement](/ref/proc/break.md) -mis required to skip to
 the end of the switch unless you want to fall through to the next case.
 Fall-through behavior isn\'t possible in the default DM syntax.
 ### Example:

@@ -1,9 +1,8 @@
 ## step proc
 **See also:**
-*   [get_step proc](/proc/get_step)
-*   [walk proc](/proc/walk)
-*   [step_size var (movable atom)](/atom/movable/var/step_size)
-<!-- -->
+*   [get_step proc](/ref/proc/get_step.md) -m
+*   [walk proc](/ref/proc/walk.md) -m
+*   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) -m<!-- -->
 **Format:**
 *   step(Ref,Dir,Speed=0)
 <!-- -->

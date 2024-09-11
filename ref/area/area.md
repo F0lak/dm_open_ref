@@ -1,10 +1,9 @@
 ## area
 **See also:**
-*   [atom](/atom)
-*   [procs (area)](/area/proc)
-*   [rooms](/area/room)
-*   [vars (area)](/area/var)
-
+*   [atom](/ref/atom.md) -m
+*   [procs (area)](/ref/area/proc.md) -m
+*   [rooms](/ref/area/room.md) -m
+*   [vars (area)](/ref/area/var.md) -m
 
 Areas are derived from `/area`, which derives from `/atom`.
 Regions on the map may be assigned to an area by painting it onto the

@@ -1,10 +1,9 @@
 ## turn proc (applied to a vector) 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/vector)
-*   [vector proc](/proc/vector)
-*   [Turn proc (vector)](/vector/proc/Turn)
-<!-- -->
+*   [vector](/ref/vector.md) -m
+*   [vector proc](/ref/proc/vector.md) -m
+*   [Turn proc (vector)](/ref/vector/proc/Turn.md) -m<!-- -->
 **Format:**
 *   turn(vector/A, angle)
 *   turn(vector/A, vector/B)

@@ -1,12 +1,12 @@
 ## letterbox parameter (skin) 
 ###### BYOND Version 500
 **See also:**
-*   [view-size parameter](/%7Bskin%7D/param/view-size)
-*   [zoom parameter](/%7Bskin%7D/param/zoom)
-*   [zoom-mode parameter](/%7Bskin%7D/param/zoom-mode)
+*   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) -m
+*   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) -m
+*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) -m
 <!-- -->
 **Applies to:**
-*   [Map](/%7Bskin%7D/control/map)
+*   [Map](/ref/%7Bskin%7D/control/map.md) -m
 <!-- -->
 **Format:**
 *   true/false
@@ -16,7 +16,7 @@
 
 
 If map auto-scales its icons
-([`zoom`](/%7Bskin%7D/param/zoom) is 0), make sure the entire map
+([zoom](/ref/%7Bskin%7D/param/zoom.md) -m.code} is 0), make sure the entire map
 fits, and fill excess space with the background color. 
 
 If

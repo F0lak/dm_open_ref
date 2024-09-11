@@ -1,3 +1,3 @@
 ## #endif directive
 **See:**
-*   [#if directive](/DM/preprocessor/if)
+*   [#if directive](/ref/DM/preprocessor/if.md) -m

@@ -1,4 +1,4 @@
-## desc setting (verb)
+# desc setting (verb)
 **Format:**
 *   set desc = \"Description\"
 <!-- -->

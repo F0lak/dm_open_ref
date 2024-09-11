@@ -1,10 +1,10 @@
 ## Color gradient 
 ###### BYOND Version 514
 **See also:**
-*   [gradient proc](/proc/gradient)
-*   [color var (atom)](/atom/var/color)
-*   [Particle effects](/%7Bnotes%7D/particles)
-*   [Color space](/%7B%7Bappendix%7D%7D/color-space)
+*   [gradient proc](/ref/proc/gradient.md) -m
+*   [color var (atom)](/ref/atom/var/color.md) -m
+*   [Particle effects](/ref/%7Bnotes%7D/particles.md) -m
+*   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) -m
 
 
 A color gradient is a special list that defines a range of
@@ -62,7 +62,7 @@ also include \"space\" in the list, and give it an associated value that
 describes the color space this gradient uses to interpolate between
 colors. For instance, `"space"=COLORSPACE_HSL` will use HSL
 interpolation instead of the default RGB. See [Color
-space](/%7B%7Bappendix%7D%7D/color-space) for more information.
+space](/ref/%7B%7Bappendix%7D%7D/color-space.md) -m for more information.
 ### Example:
 
 ```
@@ -73,7 +73,7 @@ space](/%7B%7Bappendix%7D%7D/color-space) for more information.
  
 
 Currently, color gradients are only used by particle
-effects and the [`gradient` proc](/proc/gradient). With particles, if
+effects and the [`gradient` proc](/ref/proc/gradient.md) -m With particles, if
 you use a gradient the particle\'s color is given as a number, and that
 number is used to look up its real color from the gradient. The number
 can change over time, thus changing the particle\'s color.

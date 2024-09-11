@@ -1,4 +1,4 @@
-## DM language details
+# DM language details
 
 
 The DM (Dream Maker) language uses a syntax similar to C/C++ to

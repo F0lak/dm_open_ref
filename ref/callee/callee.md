@@ -1,12 +1,12 @@
 ## callee 
 ###### BYOND Version 516
 **See also:**
-*   [proc](/proc)
-*   [vars (proc)](/proc/var)
-*   [callee var (proc)](/proc/var/callee)
-*   [caller var (proc)](/proc/var/caller)
-*   [Error proc (world)](/world/proc/Error)
-*   [try and catch statements](/proc/try)
+*   [proc](/ref/proc.md) -m
+*   [vars (proc)](/ref/proc/var.md) -m
+*   [callee var (proc)](/ref/proc/var/callee.md) -m
+*   [caller var (proc)](/ref/proc/var/caller.md) -m
+*   [Error proc (world)](/ref/world/proc/Error.md) -m
+*   [try and catch statements](/ref/proc/try.md) -m
 
 
 A primitive type representing a running or sleeping proc. This
@@ -15,8 +15,8 @@ stack trace in situations such as writing your own custom
 `world.Error()` handler. 
 
 You can get a `/callee` for the
-current running proc with its [`callee`](/proc/var/callee) var, or
-its caller with the [`caller`](/proc/var/caller) var. You can
+current running proc with its [callee](/ref/proc/var/callee.md) -m{.code} var, or
+its caller with the [caller](/ref/proc/var/caller.md) -m{.code} var. You can
 follow callers up the call chain.
 ### Example:
 
@@ -30,18 +30,17 @@ for(var/callee/p = caller, p, p = p.caller) world.log \<\< \"
 
 Built-in callee
 vars (read-only):
-[args](/proc/var/args)
-[caller](/proc/var/caller)
-[category](/verb/set/category)[^\*^]{.small}
-[desc](/verb/set/desc)[^\*^]{.small}
+[args](/ref/proc/var/args.md) -m
+[caller](/ref/proc/var/caller.md) -m
+[category](/ref/verb/set/category.md) -m[^\*^]{.small}
+[desc](/ref/verb/set/desc.md) -m[^\*^]{.small}
 file
-[name](/verb/set/name)[^\*^]{.small}
+[name](/ref/verb/set/name.md) -m[^\*^]{.small}
 line
 proc
-[src](/proc/var/src)
+[src](/ref/proc/var/src.md) -m
 type
-[usr](/proc/var/usr)
-
+[usr](/ref/proc/var/usr.md) -m
 
 [^\*^ These vars are quick aliases for `proc.`*`varname`*.
 `proc.type` is excluded since `/callee` has its own type var.]{.small}

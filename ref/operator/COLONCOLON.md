@@ -1,15 +1,14 @@
 ## :* operator 
 ###### BYOND Version 515
 **See also:**
-*   [. path operator](/operator/path/%2e)
-*   [/ path operator](/operator/path//)
-*   [* path operator](/operator/path/:)
-*   [operators](/operator)
-*   [call proc](/proc/call)
-*   [initial proc](/proc/initial)
-*   [nameof proc](/proc/nameof)
-*   [istype proc](/proc/istype)
-<!-- -->
+*   [. path operator](/ref/operator/path/%2e.md) -m
+*   [/ path operator](/ref/operator/path//.md) -m
+*   [* path operator](/ref/operator/path/:.md) -m
+*   [operators](/ref/operator.md) -m
+*   [call proc](/ref/proc/call.md) -m
+*   [initial proc](/ref/proc/initial.md) -m
+*   [nameof proc](/ref/proc/nameof.md) -m
+*   [istype proc](/ref/proc/istype.md) -m<!-- -->
 **Format:**
 *   ::A
 *   ::A()

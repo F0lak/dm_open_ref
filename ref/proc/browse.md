@@ -1,11 +1,11 @@
 ## browse proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [browse_rsc proc](/proc/browse_rsc)
-*   [file proc](/proc/file)
-*   [link proc](/proc/link)
-*   [run proc](/proc/run)
-*   [output proc](/proc/output)
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [browse_rsc proc](/ref/proc/browse_rsc.md) -m
+*   [file proc](/ref/proc/file.md) -m
+*   [link proc](/ref/proc/link.md) -m
+*   [run proc](/ref/proc/run.md) -m
+*   [output proc](/ref/proc/output.md) -m
 <!-- -->
 **Format:**
 *   usr \<\< browse(Body,Options)
@@ -62,7 +62,7 @@ display
     
 ```
  Note that this performs the same function as the
-    [browse_rsc](/proc/browse_rsc) proc (preserved for legacy reasons).
+    [browse_rsc](/ref/proc/browse_rsc.md) -m proc (preserved for legacy reasons).
     It is a little more powerful because you can use it to send html
     text as well as files. In that case, you\'ll have to also supply the
     file=name argument so that you can reference the html text from
@@ -112,8 +112,8 @@ You are beyond help!
 \"} client/verb/help() usr \<\< browse(help,\"window=help\") 
 ```
 
-You can use commands like [output()](/proc/output) and
-[winset()](/proc/winset) to interact with popups. The name of the
+You can use commands like [output()](/ref/proc/output.md) -m and
+[winset()](/ref/proc/winset.md) -mto interact with popups. The name of the
 window is the same name you gave the popup, and the browser is
 \"\[windowname\].browser\".
 ### Example:

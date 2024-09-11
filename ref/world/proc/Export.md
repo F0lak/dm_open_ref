@@ -1,11 +1,10 @@
 ## Export proc (world)
 **See also:**
-*   [Export proc (client)](/client/proc/Export)
-*   [Import proc (world)](/world/proc/Import)
-*   [Topic proc (world)](/world/proc/Topic)
-*   [link proc](/proc/link)
-*   [shutdown proc](/proc/shutdown)
-<!-- -->
+*   [Export proc (client)](/ref/client/proc/Export.md) -m
+*   [Import proc (world)](/ref/world/proc/Import.md) -m
+*   [Topic proc (world)](/ref/world/proc/Topic.md) -m
+*   [link proc](/ref/proc/link.md) -m
+*   [shutdown proc](/ref/proc/shutdown.md) -m<!-- -->
 **Format:**
 *   Export(Addr,File,Persist,Clients)
 <!-- -->

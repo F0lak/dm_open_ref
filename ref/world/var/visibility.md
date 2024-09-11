@@ -1,8 +1,7 @@
 ## visibility var (world)
 **See also:**
-*   [OpenPort proc (world)](/world/proc/OpenPort)
-*   [hub var (world)](/world/var/hub)
-<!-- -->
+*   [OpenPort proc (world)](/ref/world/proc/OpenPort.md) -m
+*   [hub var (world)](/ref/world/var/hub.md) -m<!-- -->
 **Default value:**
 *   1 (visible)
 

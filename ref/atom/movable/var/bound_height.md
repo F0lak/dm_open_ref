@@ -1,18 +1,17 @@
 ## bound_height var (movable atom) 
 ###### BYOND Version 490
 **See also:**
-*   [bound_x var (movable atom)](/atom/movable/var/bound_x)
-*   [bound_y var (movable atom)](/atom/movable/var/bound_y)
-*   [bound_width var (movable atom)](/atom/movable/var/bound_width)
-*   [icon_w var (atom)](/atom/var/icon_w)
-*   [icon_z var (atom)](/atom/var/icon_z)
-*   [step_x var (movable atom)](/atom/movable/var/step_x)
-*   [step_y var (movable atom)](/atom/movable/var/step_y)
-*   [locs list var (movable atom)](/atom/movable/var/locs)
-*   [icon_size var (world)](/world/var/icon_size)
-*   [map_format var (world)](/world/var/map_format)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
-<!-- -->
+*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) -m
+*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) -m
+*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) -m
+*   [icon_w var (atom)](/ref/atom/var/icon_w.md) -m
+*   [icon_z var (atom)](/ref/atom/var/icon_z.md) -m
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
+*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) -m
+*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
 **Default value:**
 *   32 (depends on world.icon_size)
 

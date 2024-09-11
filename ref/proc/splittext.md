@@ -1,11 +1,11 @@
 ## splittext proc 
 ###### BYOND Version 510
 **See also:**
-*   [findtext proc](/proc/findtext)
-*   [jointext proc](/proc/jointext)
-*   [nonspantext proc](/proc/nonspantext)
-*   [spantext proc](/proc/spantext)
-*   [Regular expressions](/%7Bnotes%7D/regex)
+*   [findtext proc](/ref/proc/findtext.md) -m
+*   [jointext proc](/ref/proc/jointext.md) -m
+*   [nonspantext proc](/ref/proc/nonspantext.md) -m
+*   [spantext proc](/ref/proc/spantext.md) -m
+*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) -m
 <!-- -->
 **Format:**
 *   splittext(Text,Delimiter,Start=1,End=0,include_delimiters=0)
@@ -54,11 +54,11 @@ If the start or
 end position is negative, the position is counted backwards from the end
 of the string. Please note that the start and end positions do NOT trim
 the string; if you want to split a trimmed string, trim it with
-[`copytext()`](/proc/copytext) and send the result to
+[copytext()](/ref/proc/copytext.md) -m{.code} and send the result to
 `splittext()` instead. 
 
 Note* In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `splittext_char()` to work with character counts instead of bytes,
-at a performance cost. See the [Unicode](/%7Bnotes%7D/Unicode) section
+at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) -msection
 for more information.

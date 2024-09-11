@@ -1,7 +1,7 @@
 ## particles var (movable atom) 
 ###### BYOND Version 514
 **See also:**
-*   [Particle effects](/%7Bnotes%7D/particles)
+*   [Particle effects](/ref/%7Bnotes%7D/particles.md) -m
 <!-- -->
 **Default value:**
 *   null
@@ -9,7 +9,7 @@
 
 A datum (not derived from /atom) containing information about a
 particle set attached to this atom. See [Particle
-effects](/%7Bnotes%7D/particles) for more information.
+effects](/ref/%7Bnotes%7D/particles.md) -mfor more information.
 
 
 Resetting this var to null after it has contained a particle

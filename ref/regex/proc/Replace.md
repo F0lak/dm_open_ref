@@ -1,12 +1,12 @@
 ## Replace proc (regex) 
 ###### BYOND Version 510
 **See also:**
-*   [Regular expressions](/%7Bnotes%7D/regex)
-*   [regex datum](/regex)
-*   [Find proc (regex)](/regex/proc/Find)
-*   [regex vars](/regex/var)
-*   [regex proc](/proc/regex)
-*   [replacetext proc](/proc/replacetext)
+*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) -m
+*   [regex datum](/ref/regex.md) -m
+*   [Find proc (regex)](/ref/regex/proc/Find.md) -m
+*   [regex vars](/ref/regex/var.md) -m
+*   [regex proc](/ref/proc/regex.md) -m
+*   [replacetext proc](/ref/proc/replacetext.md) -m
 <!-- -->
 **Format:**
 *   Replace(haystack, replacement, Start=1, End=0)
@@ -36,8 +36,7 @@ Find(). See the Find() proc for more info.
 Note* In strings
 containing non-ASCII characters, byte position and character position
 are not the same thing. Use `Replace_char()` to work with character
-counts instead of bytes. See the [Unicode](/%7Bnotes%7D/Unicode)
-section for more information.
+counts instead of bytes. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) -msection for more information.
 ### Replacing with text
 
 

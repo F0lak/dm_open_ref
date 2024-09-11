@@ -1,8 +1,7 @@
 ## vector proc 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/vector)
-<!-- -->
+*   [vector](/ref/vector.md) -m<!-- -->
 **Format:**
 *   vector(x,y)
 *   vector(x,y,z)

@@ -1,12 +1,12 @@
 ## Byondapi 
 ###### BYOND Version 515
 **See also:**
-*   [call_ext() proc](/proc/call_ext)
+*   [call_ext() proc](/ref/proc/call_ext.md) -m
 
 
 Byondapi is a set of exported functions from BYOND\'s core
 library that can be used by external libraries that you call via the
-[`call_ext()` proc](/proc/call_ext). The purpose is to make interfacing
+[`call_ext()` proc](/ref/proc/call_ext.md) -m The purpose is to make interfacing
 with native code easier, and to allow external access to BYOND\'s
 functionality. Before this existed, all external calls had to use text
 strings to pass data back and forth, which was inefficient for many uses

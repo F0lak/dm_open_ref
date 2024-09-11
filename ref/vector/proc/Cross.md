@@ -1,10 +1,9 @@
 ## Cross proc (vector) 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/vector)
-*   [vector proc](/proc/vector)
-*   [vars (vector)](/vector/var)
-<!-- -->
+*   [vector](/ref/vector.md) -m
+*   [vector proc](/ref/proc/vector.md) -m
+*   [vars (vector)](/ref/vector/var.md) -m<!-- -->
 **Format:**
 *   A.Cross(vector/B)
 <!-- -->

@@ -1,4 +1,4 @@
-## eof var (savefile)
+# eof var (savefile)
 
 
 If there is more data to read in the current buffer, eof is 0;

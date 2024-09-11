@@ -1,12 +1,11 @@
 ## bound_pixloc proc 
 ###### BYOND Version 516
 **See also:**
-*   [pixloc](/pixloc)
-*   [pixloc var (atom)](/atom/var/pixloc)
-*   [pixloc proc](/proc/pixloc)
-*   [bound_width var (movable atom)](/atom/movable/var/bound_width)
-*   [bound_height var (movable atom)](/atom/movable/var/bound_height)
-<!-- -->
+*   [pixloc](/ref/pixloc.md) -m
+*   [pixloc var (atom)](/ref/atom/var/pixloc.md) -m
+*   [pixloc proc](/ref/proc/pixloc.md) -m
+*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) -m
+*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) -m<!-- -->
 **Format:**
 *   bound_pixloc(Atom, Dir)
 <!-- -->

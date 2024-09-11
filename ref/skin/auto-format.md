@@ -1,8 +1,7 @@
 ## auto-format parameter (skin) 
 ###### BYOND Version ormat parameter (skin) {#auto-format-parameter-skin deprecated="508
 **Applies to:**
-*   [Browser](/%7Bskin%7D/control/browser)
-<!-- -->
+*   [Browser](/ref/%7Bskin%7D/control/browser.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

@@ -4,16 +4,16 @@
 Various mouse actions may be handled by defining procedures
 either on the client object or on the atomic object being manipulated.
 Any of the following procedures may be defined:
--   [MouseDown()](/client/proc/MouseDown)
--   [MouseUp()](/client/proc/MouseUp)
--   [MouseDrag()](/client/proc/MouseDrag)
--   [MouseDrop()](/client/proc/MouseDrop)
--   [MouseEntered()](/client/proc/MouseEntered)
--   [MouseExited()](/client/proc/MouseExited)
--   [MouseMove](/client/proc/MouseMove)
--   [MouseWheel](/client/proc/MouseWheel)
--   [Click()](/client/proc/Click)
--   [DblClick()](/client/proc/DblClick)
+-   [MouseDown()](/ref/client/proc/MouseDown.md) -m
+-   [MouseUp()](/ref/client/proc/MouseUp.md) -m
+-   [MouseDrag()](/ref/client/proc/MouseDrag.md) -m
+-   [MouseDrop()](/ref/client/proc/MouseDrop.md) -m
+-   [MouseEntered()](/ref/client/proc/MouseEntered.md) -m
+-   [MouseExited()](/ref/client/proc/MouseExited.md) -m
+-   [MouseMove](/ref/client/proc/MouseMove.md) -m
+-   [MouseWheel](/ref/client/proc/MouseWheel.md) -m
+-   [Click()](/ref/client/proc/Click.md) -m
+-   [DblClick()](/ref/client/proc/DblClick.md) -m
 
 
 In general, define only the procedures you need, because extra
@@ -48,7 +48,7 @@ where the action happened, such as `"mappane.map"` or
 `"mainwindow.banner"`. 
 
 The `params` argument is text, and can
-be converted to a list using [`params2list()`](/proc/params2list).
+be converted to a list using [params2list()](/ref/proc/params2list.md) -m{.code}.
 It may contain any of the following properties, which will only be set
 if they are used:
 -   icon-x, icon-y* Pixel coordinates within the icon, in the icon\'s
@@ -90,16 +90,16 @@ mouse pointer may be customized as well. The following variables all
 deal with the appearance of the pointer. They do not control what
 actions may be taken by the user, but they provide hints to the user
 about what actions may work.
--   [mouse_pointer_icon](/client/var/mouse_pointer_icon)
--   [mouse_over_pointer](/atom/var/mouse_over_pointer)
--   [mouse_drag_pointer](/atom/var/mouse_drag_pointer)
--   [mouse_drop_pointer](/atom/var/mouse_drop_pointer)
--   [mouse_drop_zone](/atom/var/mouse_drop_zone)
--   [mouse_opacity](/atom/var/mouse_opacity)
+-   [mouse_pointer_icon](/ref/client/var/mouse_pointer_icon.md) -m
+-   [mouse_over_pointer](/ref/atom/var/mouse_over_pointer.md) -m
+-   [mouse_drag_pointer](/ref/atom/var/mouse_drag_pointer.md) -m
+-   [mouse_drop_pointer](/ref/atom/var/mouse_drop_pointer.md) -m
+-   [mouse_drop_zone](/ref/atom/var/mouse_drop_zone.md) -m
+-   [mouse_opacity](/ref/atom/var/mouse_opacity.md) -m
 
 
 When selecting a mouse pointer, you may provide your own custom
-icon or use one of the [built-in pointers](/DM/mouse/pointers).
+icon or use one of the [built-in pointers](/ref/DM/mouse/pointers.md) -m
 Note* Older games compiled prior to BYOND 4.0 had a different format for
 the `MouseDown()` and `MouseUp()` procs. These used `icon_x` and
 `icon_y` as arguments, but `control` and `params` have replaced them.

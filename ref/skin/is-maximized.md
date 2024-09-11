@@ -1,13 +1,13 @@
 ## is-maximized parameter (skin)
 **See also:**
-*   [can-resize parameter](/%7Bskin%7D/param/can-resize)
-*   [is-minimized parameter](/%7Bskin%7D/param/is-minimized)
-*   [is-fullscreen parameter](/%7Bskin%7D/param/is-fullscreen)
-*   [size parameter](/%7Bskin%7D/param/size)
-*   [outer-size parameter](/%7Bskin%7D/param/outer-size)
+*   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) -m
+*   [is-minimized parameter](/ref/%7Bskin%7D/param/is-minimized.md) -m
+*   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) -m
+*   [size parameter](/ref/%7Bskin%7D/param/size.md) -m
+*   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main) (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m(window only)
 <!-- -->
 **Format:**
 *   true/false

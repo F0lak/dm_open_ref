@@ -1,13 +1,13 @@
 ## vars (procs)
 **See also:**
-*   [procs](/proc)
+*   [procs](/ref/proc.md) -m
 
 
 Built-in proc vars:
 proc/var
-*   [.](/proc/var/%2e)
-*   [args](/proc/var/args)
-*   [callee](/proc/var/callee)
-*   [caller](/proc/var/caller)
-*   [src](/proc/var/src)
-*   [usr](/proc/var/usr)
+*   [.](/ref/proc/var/%2e.md) -m
+*   [args](/ref/proc/var/args.md) -m
+*   [callee](/ref/proc/var/callee.md) -m
+*   [caller](/ref/proc/var/caller.md) -m
+*   [src](/ref/proc/var/src.md) -m
+*   [usr](/ref/proc/var/usr.md) -m

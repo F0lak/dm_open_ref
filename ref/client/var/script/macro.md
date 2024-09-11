@@ -1,10 +1,10 @@
 ## macros (client script)
 **See also:**
-*   [macros (skin)](/%7Bskin%7D/macros)
-*   [aliases (client script)](/client/var/script/alias)
-*   [command_text (client)](/client/var/command_text)
-*   [script var (client)](/client/var/script)
-*   [verbs](/verb)
+*   [macros (skin)](/ref/%7Bskin%7D/macros.md) -m
+*   [aliases (client script)](/ref/client/var/script/alias.md) -m
+*   [command_text (client)](/ref/client/var/command_text.md) -m
+*   [script var (client)](/ref/client/var/script.md) -m
+*   [verbs](/ref/verb.md) -m
 
 
 Macros are just like aliases, except that they are triggered by
@@ -28,5 +28,5 @@ be pressed to trigger the macro, and did not include `"ALT+"` to do so.
 This behavior has changed, and the name of the macro is just like the
 format used in skin files. You can now use a key name, and modifiers
 like `SHIFT+`, `CTRL+`, `ALT+`, `+REP`, and `+UP`. Old .dms and
-[`client.script`](/client/var/script) files (prior to version 507)
+[client.script](/ref/client/var/script.md) -m.code} files (prior to version 507)
 should be updated accordingly when recompiling in a newer version.

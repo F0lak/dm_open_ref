@@ -1,9 +1,9 @@
 ## underlays var (atom)
 **See also:**
-*   [icon var (atom)](/atom/var/icon)
-*   [list](/list)
-*   [overlays var (atom)](/atom/var/overlays)
-*   [Understanding the renderer](/%7Bnotes%7D/renderer)
+*   [icon var (atom)](/ref/atom/var/icon.md) -m
+*   [list](/ref/list.md) -m
+*   [overlays var (atom)](/ref/atom/var/overlays.md) -m
+*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) -m
 <!-- -->
 **Default value:**
 *   empty list
@@ -11,7 +11,7 @@
 
 This is a list of icons which are displayed underneath the
 object\'s main icon. Since these are basically the same as overlays, see
-[overlays](/atom/var/overlays) for more detailed information.
+[overlays](/ref/atom/var/overlays.md) -mfor more detailed information.
 
 
 The only real differences between items in the underlays list

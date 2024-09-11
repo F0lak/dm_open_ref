@@ -1,9 +1,8 @@
 ## hearers
 **See also:**
-*   [ohearers](/proc/ohearers)
-*   [view proc](/proc/view)
-*   [viewers](/proc/viewers)
-<!-- -->
+*   [ohearers](/ref/proc/ohearers.md) -m
+*   [view proc](/ref/proc/view.md) -m
+*   [viewers](/ref/proc/viewers.md) -m<!-- -->
 **Format:**
 *   hearers(Depth=world.view,Center=usr)
 

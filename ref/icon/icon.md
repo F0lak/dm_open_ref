@@ -1,9 +1,9 @@
 ## icon object
 **See also:**
-*   [procs (icon)](/icon/proc)
-*   [icons](/DM/icon)
-*   [image objects](/image)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
+*   [procs (icon)](/ref/icon/proc.md) -m
+*   [icons](/ref/DM/icon.md) -m
+*   [image objects](/ref/image.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m
 
 
 An `/icon` object is created by loading an icon file into
@@ -38,20 +38,19 @@ capabilities.
   ---------------------------------------------------------------------------------------------------------------------------------
   Operation                `/icon` proc                                      New method
   ------------------------ ------------------------------------------------- ------------------------------------------------------
-  Multiplying by color     [``Blend``](/icon/proc/Blend) or            [`color`](/atom/var/color) var
-                           [`SetIntensity`](/icon/proc/SetIntensity)   
+  Multiplying by color     [`Blend`](/ref/icon/proc/Blend.md) -m{.code} or            [color](/ref/atom/var/color.md) -m{.code} var
+                           [SetIntensity](/ref/icon/proc/SetIntensity.md) -m{.code}   
                            procs                                             
-  Adding color             [`Blend`](/icon/proc/Blend) proc            [`color`](/atom/var/color) var (using [color
-                                                                             matrix](/%7Bnotes%7D/color-matrix))
-  Applying color matrix    [`MapColors`](/icon/proc/MapColors) proc    
-  Rotation                 [`Turn`](/icon/proc/Turn) proc              [`transform`](/atom/var/transform) var
-  Flipping                 [`Flip`](/icon/proc/Flip) proc              
+  Adding color             [Blend](/ref/icon/proc/Blend.md) -m{.code} proc            [color](/ref/atom/var/color.md) -m{.code} var (using [color
+                                                                             matrix](/ref/%7Bnotes%7D/color-matrix.md) -m)
+  Applying color matrix    [MapColors](/ref/icon/proc/MapColors.md) -m{.code} proc    
+  Rotation                 [Turn](/ref/icon/proc/Turn.md) -m{.code} proc              [transform](/ref/atom/var/transform.md) -m{.code} var
+  Flipping                 [Flip](/ref/icon/proc/Flip.md) -m{.code} proc              
   horizontal/vertical                                                        
-  Scaling                  [`Scale`](/icon/proc/Scale) proc            
-  Overlaying/underlaying   [`Blend`](/icon/proc/Blend) proc +          Overlay/underlay +
-  another icon             `ICON_OVERLAY`                                    [`KEEP_TOGETHER`](/atom/var/appearance_flags)\
-                                                                             [Layering filter](/%7Bnotes%7D/filters/layer)
-  ---------------------------------------------------------------------------------------------------------------------------------
+  Scaling                  [Scale](/ref/icon/proc/Scale.md) -m{.code} proc            
+  Overlaying/underlaying   [Blend](/ref/icon/proc/Blend.md) -m{.code} proc +          Overlay/underlay +
+  another icon             `ICON_OVERLAY`                                    [KEEP_TOGETHER](/ref/atom/var/appearance_flags.md) -m{.code}\
+                                                                             [Layering filter](/ref/%7Bnotes%7D/filters/layer.md) -m  ---------------------------------------------------------------------------------------------------------------------------------
 Note* Anything you can do with an atom var instead of using icon
 manipulation procs will usually perform much better. Games that use the
 new methods use fewer resources, use less memory, and also usually look

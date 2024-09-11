@@ -1,5 +1,5 @@
 ## \<\< operator
 **See also:**
-*   [\<\< operator (savefile)](/savefile/operator/%3c%3c)
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [\<\< shift operator](/operator/%3c%3c/shift)
+*   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) -m
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [\<\< shift operator](/ref/operator/%3c%3c/shift.md) -m

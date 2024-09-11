@@ -1,7 +1,6 @@
 ## saved-params parameter (skin)
 **Applies to:**
-*   [All](/%7Bskin%7D/control)
-<!-- -->
+*   [All](/ref/%7Bskin%7D/control.md) -m<!-- -->
 **Format:**
 *   string
 <!-- -->

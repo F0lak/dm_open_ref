@@ -1,8 +1,7 @@
 ## Wave filter 
 ###### BYOND Version 512
 **See also:**
-*   [Ripple (filters)](/%7Bnotes%7D/filters/ripple)
-<!-- -->
+*   [Ripple (filters)](/ref/%7Bnotes%7D/filters/ripple.md) -m<!-- -->
 Format:
 *   filter(type=\"wave\", \...)
 <!-- -->

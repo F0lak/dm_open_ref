@@ -1,7 +1,6 @@
 ## uppertext proc
 **See also:**
-*   [lowertext proc](/proc/lowertext)
-<!-- -->
+*   [lowertext proc](/ref/proc/lowertext.md) -m<!-- -->
 **Format:**
 *   uppertext(T)
 <!-- -->

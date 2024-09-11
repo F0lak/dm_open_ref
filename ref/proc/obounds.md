@@ -1,7 +1,6 @@
 ## obounds proc
 **See also:**
-*   [bounds proc](/proc/bounds)
-<!-- -->
+*   [bounds proc](/ref/proc/bounds.md) -m<!-- -->
 **Format:**
 *   obounds(Ref, Dist=0)
 *   obounds(Ref, x_offset, y_offset, extra_width=0, extra_height=0)

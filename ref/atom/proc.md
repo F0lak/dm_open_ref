@@ -3,27 +3,27 @@
 
 Built-in atom procs:
 atom/proc
-*   [Click](/atom/proc/Click)
-*   [Cross proc](/atom/proc/Cross)
-*   [Crossed proc](/atom/proc/Crossed)
-*   [DblClick](/atom/proc/DblClick)
-*   [Del](/datum/proc/Del)
-*   [Enter](/atom/proc/Enter)
-*   [Entered](/atom/proc/Entered)
-*   [Exit](/atom/proc/Exit)
-*   [Exited](/atom/proc/Exited)
-*   [MouseDown](/atom/proc/MouseDown)
-*   [MouseDrag](/atom/proc/MouseDrag)
-*   [MouseDrop](/atom/proc/MouseDrop)
-*   [MouseEntered](/atom/proc/MouseEntered)
-*   [MouseExited](/atom/proc/MouseExited)
-*   [MouseMove](/atom/proc/MouseMove)
-*   [MouseUp](/atom/proc/MouseUp)
-*   [MouseWheel](/atom/proc/MouseWheel)
-*   [New](/atom/proc/New)
-*   [Read](/datum/proc/Read)
-*   [Stat](/atom/proc/Stat)
-*   [Topic](/datum/proc/Topic)
-*   [Uncross proc](/atom/proc/Uncross)
-*   [Uncrossed proc](/atom/proc/Uncrossed)
-*   [Write](/datum/proc/Write)
+*   [Click](/ref/atom/proc/Click.md) -m
+*   [Cross proc](/ref/atom/proc/Cross.md) -m
+*   [Crossed proc](/ref/atom/proc/Crossed.md) -m
+*   [DblClick](/ref/atom/proc/DblClick.md) -m
+*   [Del](/ref/datum/proc/Del.md) -m
+*   [Enter](/ref/atom/proc/Enter.md) -m
+*   [Entered](/ref/atom/proc/Entered.md) -m
+*   [Exit](/ref/atom/proc/Exit.md) -m
+*   [Exited](/ref/atom/proc/Exited.md) -m
+*   [MouseDown](/ref/atom/proc/MouseDown.md) -m
+*   [MouseDrag](/ref/atom/proc/MouseDrag.md) -m
+*   [MouseDrop](/ref/atom/proc/MouseDrop.md) -m
+*   [MouseEntered](/ref/atom/proc/MouseEntered.md) -m
+*   [MouseExited](/ref/atom/proc/MouseExited.md) -m
+*   [MouseMove](/ref/atom/proc/MouseMove.md) -m
+*   [MouseUp](/ref/atom/proc/MouseUp.md) -m
+*   [MouseWheel](/ref/atom/proc/MouseWheel.md) -m
+*   [New](/ref/atom/proc/New.md) -m
+*   [Read](/ref/datum/proc/Read.md) -m
+*   [Stat](/ref/atom/proc/Stat.md) -m
+*   [Topic](/ref/datum/proc/Topic.md) -m
+*   [Uncross proc](/ref/atom/proc/Uncross.md) -m
+*   [Uncrossed proc](/ref/atom/proc/Uncrossed.md) -m
+*   [Write](/ref/datum/proc/Write.md) -m

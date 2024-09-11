@@ -1,8 +1,8 @@
 ## output proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [winclone proc](/proc/winclone)
-*   [winset proc](/proc/winset)
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [winclone proc](/ref/proc/winclone.md) -m
+*   [winset proc](/ref/proc/winset.md) -m
 <!-- -->
 **Format:**
 *   output(msg, control)
@@ -45,7 +45,7 @@ JavaScript function. The format for sending a script to the browser
 control is `output("[params]","[control]:[scriptname]")` where
 \"\[params\]\" is a URL-encoded list of string arguments to the
 javascript function, as formatted by
-[`list2params()`](/proc/list2params).
+[list2params()](/ref/proc/list2params.md) -m.code}.
 ### Example:
 
 ```
@@ -53,9 +53,9 @@ javascript function, as formatted by
 ::* 
 ###### BYOND Version  proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [winclone proc](/proc/winclone)
-*   [winset proc](/proc/winset)
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [winclone proc](/ref/proc/winclone.md) -m
+*   [winset proc](/ref/proc/winset.md) -m
 <!-- -->
 **Format:**
 *   output(msg, control)
@@ -98,7 +98,7 @@ JavaScript function. The format for sending a script to the browser
 control is `output("[params]","[control]:[scriptname]")` where
 \"\[params\]\" is a URL-encoded list of string arguments to the
 javascript function, as formatted by
-[`list2params()`](/proc/list2params).
+[list2params()](/ref/proc/list2params.md) -m.code}.
 ### Example:
 
 ```

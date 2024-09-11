@@ -1,11 +1,11 @@
 ## caller var (proc) 
 ###### BYOND Version 516
 **See also:**
-*   [callee](/callee)
-*   [callee var (proc)](/proc/var/callee)
+*   [callee](/ref/callee.md) -m
+*   [callee var (proc)](/ref/proc/var/callee.md) -m
 
 
-Returns a [callee object](/callee) representing the current
+Returns a [callee object](/ref/callee.md) -mrepresenting the current
 proc\'s caller, which can be used to access information like the proc
 name, line number (if compiled with debug information), arguments, and
 more. 

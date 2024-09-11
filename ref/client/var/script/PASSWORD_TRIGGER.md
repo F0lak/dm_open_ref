@@ -1,4 +1,4 @@
-## PASSWORD_TRIGGER (client script)
+# PASSWORD_TRIGGER (client script)
 **Format:**
 *   #define PASSWORD_TRIGGER \"assword:\"
 

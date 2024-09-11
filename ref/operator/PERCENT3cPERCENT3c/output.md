@@ -1,17 +1,16 @@
 ## \<\< output operator
 **See also:**
-*   [\<\< operator (savefile)](/savefile/operator/%3c%3c)
-*   [output proc](/proc/output)
-*   [browse proc](/proc/browse)
-*   [browse_rsc proc](/proc/browse_rsc)
-*   [file proc](/proc/file)
-*   [ftp proc](/proc/ftp)
-*   [image proc](/proc/image)
-*   [link proc](/proc/link)
-*   [load_resource proc](/proc/load_resource)
-*   [run proc](/proc/run)
-*   [sound proc](/proc/sound)
-<!-- -->
+*   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) -m
+*   [output proc](/ref/proc/output.md) -m
+*   [browse proc](/ref/proc/browse.md) -m
+*   [browse_rsc proc](/ref/proc/browse_rsc.md) -m
+*   [file proc](/ref/proc/file.md) -m
+*   [ftp proc](/ref/proc/ftp.md) -m
+*   [image proc](/ref/proc/image.md) -m
+*   [link proc](/ref/proc/link.md) -m
+*   [load_resource proc](/ref/proc/load_resource.md) -m
+*   [run proc](/ref/proc/run.md) -m
+*   [sound proc](/ref/proc/sound.md) -m<!-- -->
 **Format:**
 *   A \<\< B
 

@@ -2,8 +2,7 @@
 ###### BYOND Version 509
 (Also `bound_x`, `bound_y`, `bound_width`, and `bound_height`.)
 **See also:**
-*   [bounds proc](/proc/bounds)
-
+*   [bounds proc](/ref/proc/bounds.md) -m
 
 The read-only bounds var returns the map coordinates, in
 pixels, covered by the client\'s viewport when accounting for pixel

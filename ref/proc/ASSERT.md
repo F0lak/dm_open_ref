@@ -1,9 +1,8 @@
 ## ASSERT proc
 **See also:**
-*   [CRASH proc](/proc/CRASH)
-*   [DEBUG definition](/DM/preprocessor/define/DEBUG)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
-<!-- -->
+*   [CRASH proc](/ref/proc/CRASH.md) -m
+*   [DEBUG definition](/ref/DM/preprocessor/define/DEBUG.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m<!-- -->
 **Format:**
 *   ASSERT(expression)
 <!-- -->

@@ -1,16 +1,16 @@
 ## Click proc (atom)
 **See also:**
-*   [Click proc (client)](/client/proc/Click)
-*   [DblClick proc (atom)](/atom/proc/DblClick)
-*   [MouseDown proc (atom)](/atom/proc/MouseDown)
-*   [MouseDrag proc (atom)](/atom/proc/MouseDrag)
-*   [MouseDrop proc (atom)](/atom/proc/MouseDrop)
-*   [MouseEntered proc (atom)](/atom/proc/MouseEntered)
-*   [MouseExited proc (atom)](/atom/proc/MouseExited)
-*   [MouseMove proc (atom)](/atom/proc/MouseMove)
-*   [MouseUp proc (atom)](/atom/proc/MouseUp)
-*   [MouseWheel proc (atom)](/atom/proc/MouseWheel)
-*   [show_popup_menus var (client)](/client/var/show_popup_menus)
+*   [Click proc (client)](/ref/client/proc/Click.md) -m
+*   [DblClick proc (atom)](/ref/atom/proc/DblClick.md) -m
+*   [MouseDown proc (atom)](/ref/atom/proc/MouseDown.md) -m
+*   [MouseDrag proc (atom)](/ref/atom/proc/MouseDrag.md) -m
+*   [MouseDrop proc (atom)](/ref/atom/proc/MouseDrop.md) -m
+*   [MouseEntered proc (atom)](/ref/atom/proc/MouseEntered.md) -m
+*   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md) -m
+*   [MouseMove proc (atom)](/ref/atom/proc/MouseMove.md) -m
+*   [MouseUp proc (atom)](/ref/atom/proc/MouseUp.md) -m
+*   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel.md) -m
+*   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md) -m
 <!-- -->
 **Format:**
 *   Click(location,control,params)
@@ -23,8 +23,7 @@
     was clicked
 *   control* the name of the skin control involved
 *   params* other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/DM/mouse)
-
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) -m
 
 This proc is called by the default client.Click() procedure.
 

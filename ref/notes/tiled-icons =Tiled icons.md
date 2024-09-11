@@ -1,10 +1,10 @@
 ## Tiled icons
 **See also:**
-*   [icon](/icon)
-*   [procs (icon)](/icon/proc)
-*   [map_format var (world)](/world/var/map_format)
-*   [icon_size var (world)](/world/var/icon_size)
-*   [Big icons](/%7Bnotes%7D/big-icons)
+*   [icon](/ref/icon.md) -m
+*   [procs (icon)](/ref/icon/proc.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m
+*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
+*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) -m
 
 
 In BYOND 3.0, any file like a large .bmp would be treated like
@@ -28,7 +28,7 @@ individual tile.
 
 In newer versions, breaking big icons into
 tiles is no longer done by default. Instead, icons are shown and
-manipulated in their [native size](/%7Bnotes%7D/big-icons). To use the
+manipulated in their [native size](/ref/%7Bnotes%7D/big-icons.md) -m To use the
 old method of breaking icons into tiles, set `world.map_format` to
 `TILED_ICON_MAP`. This is the default for all projects compiled before
 version 455. 

@@ -1,7 +1,6 @@
 ## Del proc (client)
 **See also:**
-*   [Logout proc (mob)](/mob/proc/Logout)
-<!-- -->
+*   [Logout proc (mob)](/ref/mob/proc/Logout.md) -m<!-- -->
 **Format:**
 *   Del()
 <!-- -->

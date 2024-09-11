@@ -1,15 +1,15 @@
 ## regex vars 
 ###### BYOND Version 510
 **See also:**
-*   [regex datum](/regex)
-*   [regex procs](/regex/proc)
-*   [regex proc](/proc/regex)
+*   [regex datum](/ref/regex.md) -m
+*   [regex procs](/ref/regex/proc.md) -m
+*   [regex proc](/ref/proc/regex.md) -m
 <!-- -->
 regex/var
-*   [flags](/regex/var/flags)
-*   [group](/regex/var/group)
-*   [index](/regex/var/index)
-*   [match](/regex/var/match)
-*   [name](/regex/var/name)
-*   [next](/regex/var/next)
-*   [text](/regex/var/text)
+*   [flags](/ref/regex/var/flags.md) -m
+*   [group](/ref/regex/var/group.md) -m
+*   [index](/ref/regex/var/index.md) -m
+*   [match](/ref/regex/var/match.md) -m
+*   [name](/ref/regex/var/name.md) -m
+*   [next](/ref/regex/var/next.md) -m
+*   [text](/ref/regex/var/text.md) -m

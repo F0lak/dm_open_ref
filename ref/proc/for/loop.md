@@ -1,10 +1,10 @@
 ## for loop proc
 **See also:**
-*   [break statement](/proc/break)
-*   [continue statement](/proc/continue)
-*   [do proc](/proc/do)
-*   [for list proc](/proc/for/list)
-*   [while proc](/proc/while)
+*   [break statement](/ref/proc/break.md) -m
+*   [continue statement](/ref/proc/continue.md) -m
+*   [do proc](/ref/proc/do.md) -m
+*   [for list proc](/ref/proc/for/list.md) -m
+*   [while proc](/ref/proc/while.md) -m
 <!-- -->
 **Format:**
 *   for(Init, Test, Inc) Statement
@@ -39,12 +39,12 @@ This outputs*
 Note* An Inc
 statement like `i += 0.1` is perfectly valid, but you should keep in
 mind that numerical accuracy is not exact. See
-[Numbers](/%7Bnotes%7D/numbers) for more information.
+[Numbers](/ref/%7Bnotes%7D/numbers.md) -m for more information.
 ### C-like syntax
 
 
 Using the [`#pragma syntax`
-directive](/DM/preprocessor/pragma/syntax) you can change `for()` to be
+directive](/ref/DM/preprocessor/pragma/syntax.md) -myou can change `for()` to be
 more like other languages such as C. This uses a semicolon `;` in place
 of commas to separate Init, Test, and Inc. Instead the comma is treated
 as a way of stringing multiple statements together.

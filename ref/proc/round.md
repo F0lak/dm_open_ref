@@ -1,10 +1,9 @@
 ## round proc
 **See also:**
-*   [floor proc](/proc/floor)
-*   [ceil proc](/proc/ceil)
-*   [trunc proc](/proc/trunc)
-*   [fract proc](/proc/fract)
-<!-- -->
+*   [floor proc](/ref/proc/floor.md) -m
+*   [ceil proc](/ref/proc/ceil.md) -m
+*   [trunc proc](/ref/proc/trunc.md) -m
+*   [fract proc](/ref/proc/fract.md) -m<!-- -->
 **Format:**
 *   round(A)
 *   round(A,B)

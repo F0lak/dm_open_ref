@@ -1,9 +1,8 @@
 ## echo var (sound)
 **See also:**
-*   [vars (sound)](/sound/var)
-*   [x, y, z vars (sound)](/sound/var/xyz)
-*   [environment var (sound)](/sound/var/environment)
-<!-- -->
+*   [vars (sound)](/ref/sound/var.md) -m
+*   [x, y, z vars (sound)](/ref/sound/var/xyz.md) -m
+*   [environment var (sound)](/ref/sound/var/environment.md) -m<!-- -->
 **Default value:**
 *   null
 

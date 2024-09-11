@@ -1,14 +1,13 @@
 ## line-color parameter (skin)
 **See also:**
-*   [background-color parameter](/%7Bskin%7D/param/background-color)
-*   [show-lines parameter](/%7Bskin%7D/param/show-lines)
+*   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) -m
+*   [show-lines parameter](/ref/%7Bskin%7D/param/show-lines.md) -m
 <!-- -->
 **Applies to:**
-*   [Grid](/%7Bskin%7D/control/grid)
+*   [Grid](/ref/%7Bskin%7D/control/grid.md) -m
 <!-- -->
 **Format:**
-*   [#rrggbb](/%7B%7Bappendix%7D%7D/html-colors)
-*   none
+*   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m*   none
 <!-- -->
 **Default value:**
 *   #c0c0c0

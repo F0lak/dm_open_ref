@@ -1,10 +1,9 @@
 ## tick_lag var (client) 
 ###### BYOND Version 511
 **See also:**
-*   [tick_lag var (world)](/world/var/tick_lag)
-*   [fps var (client)](/client/var/fps)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
-<!-- -->
+*   [tick_lag var (world)](/ref/world/var/tick_lag.md) -m
+*   [fps var (client)](/ref/client/var/fps.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
 **Default value:**
 *   0 (uses world.tick_lag value)
 

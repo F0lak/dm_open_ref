@@ -1,10 +1,9 @@
 ## ismovable proc 
 ###### BYOND Version 513
 **See also:**
-*   [isloc proc](/proc/isloc)
-*   [isobj proc](/proc/isobj)
-*   [ismob proc](/proc/ismob)
-<!-- -->
+*   [isloc proc](/ref/proc/isloc.md) -m
+*   [isobj proc](/ref/proc/isobj.md) -m
+*   [ismob proc](/ref/proc/ismob.md) -m<!-- -->
 **Format:**
 *   ismovable(Loc1, Loc2 \...)
 <!-- -->

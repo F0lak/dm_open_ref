@@ -1,10 +1,9 @@
 ## do proc
 **See also:**
-*   [break statement](/proc/break)
-*   [continue statement](/proc/continue)
-*   [for loop proc](/proc/for/loop)
-*   [while proc](/proc/while)
-<!-- -->
+*   [break statement](/ref/proc/break.md) -m
+*   [continue statement](/ref/proc/continue.md) -m
+*   [for loop proc](/ref/proc/for/loop.md) -m
+*   [while proc](/ref/proc/while.md) -m<!-- -->
 **Format:**
 *   do Statement while( E )
 

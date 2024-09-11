@@ -1,8 +1,8 @@
 ## waitfor setting (proc)
 **See also:**
-*   [sleep proc](/proc/sleep)
-*   [spawn proc](/proc/spawn)
-*   [. var (proc)](/proc/var/%2e)
+*   [sleep proc](/ref/proc/sleep.md) -m
+*   [spawn proc](/ref/proc/spawn.md) -m
+*   [. var (proc)](/ref/proc/var/%2e.md) -m
 
 
 By default, procs that sleep usually expect their callers to
@@ -27,7 +27,7 @@ wakes up and finishes, it will wake up proc B, but now B\'s return value
 will be ignored since A is no longer waiting for it. 
 
 In older
-versions, the [`New` proc](/datum/proc/New) always had `waitfor` set to
+versions, the [`New` proc](/ref/datum/proc/New.md) -malways had `waitfor` set to
 0 by default, but this was later changed. Now 1 is always the default,
 so setting `waitfor` to 1 will result in a warning that it is no longer
 necessary.

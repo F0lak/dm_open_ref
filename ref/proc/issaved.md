@@ -1,10 +1,9 @@
 ## issaved proc
 **See also:**
-*   [initial proc](/proc/initial)
-*   [savefile](/savefile)
-*   [tmp vars](/var/tmp)
-*   [vars list var (datum)](/datum/var/vars)
-<!-- -->
+*   [initial proc](/ref/proc/initial.md) -m
+*   [savefile](/ref/savefile.md) -m
+*   [tmp vars](/ref/var/tmp.md) -m
+*   [vars list var (datum)](/ref/datum/var/vars.md) -m<!-- -->
 **Format:**
 *   issaved(Var)
 <!-- -->

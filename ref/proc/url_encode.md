@@ -1,7 +1,6 @@
 ## url_encode proc
 **See also:**
-*   [url_decode proc](/proc/url_decode)
-<!-- -->
+*   [url_decode proc](/ref/proc/url_decode.md) -m<!-- -->
 **Format:**
 *   url_encode(PlainText, format=0)
 <!-- -->

@@ -1,3 +1,3 @@
 ## usr var (verb)
 **See:**
-*   [usr var (proc)](/proc/var/usr)
+*   [usr var (proc)](/ref/proc/var/usr.md) -m

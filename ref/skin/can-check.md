@@ -1,11 +1,10 @@
 ## can-check parameter (skin)
 **See also:**
-*   [group parameter](/%7Bskin%7D/param/group)
-*   [is-checked parameter](/%7Bskin%7D/param/is-checked)
+*   [group parameter](/ref/%7Bskin%7D/param/group.md) -m
+*   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) -m
 <!-- -->
 **Applies to:**
-*   [Menu](/%7Bskin%7D/control/menu)
-<!-- -->
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

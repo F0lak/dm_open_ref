@@ -1,11 +1,11 @@
 ## icon-size parameter (skin) 
 ###### BYOND Version ize parameter (skin) {#icon-size-parameter-skin deprecated="1
 **See also:**
-*   [zoom parameter](/%7Bskin%7D/param/zoom)
-*   [zoom-mode parameter](/%7Bskin%7D/param/zoom-mode)
+*   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) -m
+*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) -m
 <!-- -->
 **Applies to:**
-*   [Map](/%7Bskin%7D/control/map)
+*   [Map](/ref/%7Bskin%7D/control/map.md) -m
 <!-- -->
 **Format:**
 *   number
@@ -17,4 +17,4 @@
 Size, in pixels, of icons on the map. A size of 0 stretches to
 fit available space.
 This parameter has been deprecated. Use
-[`zoom`](/%7Bskin%7D/param/zoom) instead.
+[zoom](/ref/%7Bskin%7D/param/zoom.md) -m.code} instead.

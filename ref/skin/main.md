@@ -6,39 +6,38 @@ forms* a window or a pane.
 
 A window exists independently and
 can be moved around on the screen. A pane has to be used within another
-container control such as a [Child](/%7Bskin%7D/control/child) or [Tab
-control](/%7Bskin%7D/control/tab).
+container control such as a [Child](/ref/%7Bskin%7D/control/child.md) -m or [Tab
+control](/ref/%7Bskin%7D/control/tab.md) -m.
 **Main-specific parameters:**
-*   [icon](/%7Bskin%7D/param/icon)
-*   [image](/%7Bskin%7D/param/image)
-*   [image-mode](/%7Bskin%7D/param/image-mode)
-*   [inner-pos](/%7Bskin%7D/param/inner-size)
-*   [inner-size](/%7Bskin%7D/param/inner-size)
-*   [is-pane](/%7Bskin%7D/param/is-pane)
-*   [keep-aspect](/%7Bskin%7D/param/keep-aspect)
-*   [outer-pos](/%7Bskin%7D/param/outer-pos)
-*   [outer-size](/%7Bskin%7D/param/outer-size)
-*   [title](/%7Bskin%7D/param/title)
-*   [on-status](/%7Bskin%7D/param/on-status)
+*   [icon](/ref/%7Bskin%7D/param/icon.md) -m
+*   [image](/ref/%7Bskin%7D/param/image.md) -m
+*   [image-mode](/ref/%7Bskin%7D/param/image-mode.md) -m
+*   [inner-pos](/ref/%7Bskin%7D/param/inner-size.md) -m
+*   [inner-size](/ref/%7Bskin%7D/param/inner-size.md) -m
+*   [is-pane](/ref/%7Bskin%7D/param/is-pane.md) -m
+*   [keep-aspect](/ref/%7Bskin%7D/param/keep-aspect.md) -m
+*   [outer-pos](/ref/%7Bskin%7D/param/outer-pos.md) -m
+*   [outer-size](/ref/%7Bskin%7D/param/outer-size.md) -m
+*   [title](/ref/%7Bskin%7D/param/title.md) -m
+*   [on-status](/ref/%7Bskin%7D/param/on-status.md) -m
 **Windows only:**
-*   [alpha](/%7Bskin%7D/param/alpha)
-*   [can-close](/%7Bskin%7D/param/can-close)
-*   [can-minimize](/%7Bskin%7D/param/can-minimize)
-*   [can-resize](/%7Bskin%7D/param/can-resize)
-*   [is-fullscreen](/%7Bskin%7D/param/is-fullscreen)
-*   [is-maximized](/%7Bskin%7D/param/is-maximized)
-*   [is-minimized](/%7Bskin%7D/param/is-minimized)
-*   [macro](/%7Bskin%7D/param/macro)
-*   [menu](/%7Bskin%7D/param/menu)
-*   [on-close](/%7Bskin%7D/param/on-close)
-*   [screen-pos](/%7Bskin%7D/param/screen-pos)
-*   [screen-size](/%7Bskin%7D/param/screen-size)
-*   [statusbar](/%7Bskin%7D/param/statusbar)
-*   [titlebar](/%7Bskin%7D/param/titlebar)
-*   [transparent-color](/%7Bskin%7D/param/transparent-color)
+*   [alpha](/ref/%7Bskin%7D/param/alpha.md) -m
+*   [can-close](/ref/%7Bskin%7D/param/can-close.md) -m
+*   [can-minimize](/ref/%7Bskin%7D/param/can-minimize.md) -m
+*   [can-resize](/ref/%7Bskin%7D/param/can-resize.md) -m
+*   [is-fullscreen](/ref/%7Bskin%7D/param/is-fullscreen.md) -m
+*   [is-maximized](/ref/%7Bskin%7D/param/is-maximized.md) -m
+*   [is-minimized](/ref/%7Bskin%7D/param/is-minimized.md) -m
+*   [macro](/ref/%7Bskin%7D/param/macro.md) -m
+*   [menu](/ref/%7Bskin%7D/param/menu.md) -m
+*   [on-close](/ref/%7Bskin%7D/param/on-close.md) -m
+*   [screen-pos](/ref/%7Bskin%7D/param/screen-pos.md) -m
+*   [screen-size](/ref/%7Bskin%7D/param/screen-size.md) -m
+*   [statusbar](/ref/%7Bskin%7D/param/statusbar.md) -m
+*   [titlebar](/ref/%7Bskin%7D/param/titlebar.md) -m
+*   [transparent-color](/ref/%7Bskin%7D/param/transparent-color.md) -m
 **Panes only:**
-*   [can-scroll](/%7Bskin%7D/param/can-scroll)
-
+*   [can-scroll](/ref/%7Bskin%7D/param/can-scroll.md) -m
 
 The font parameters have no impact on a window\'s statusbar or
 titlebar; those are drawn by the operating system.

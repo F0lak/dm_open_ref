@@ -1,10 +1,9 @@
 ## offset var (sound) 
 ###### BYOND Version 513
 **See also:**
-*   [vars (sound)](/sound/var)
-*   [status var (sound)](/sound/var/status)
-*   [SoundQuery proc (client)](/client/proc/SoundQuery)
-Can be used to set a starting time, in seconds, for a sound. It can also
+*   [vars (sound)](/ref/sound/var.md) -m
+*   [status var (sound)](/ref/sound/var/status.md) -m
+*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) -mCan be used to set a starting time, in seconds, for a sound. It can also
 alter the current time index when using the `SOUND_UPDATE` flag.
 
 

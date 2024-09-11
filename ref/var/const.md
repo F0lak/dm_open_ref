@@ -1,7 +1,6 @@
 ## const vars
 **See also:**
-*   [vars](/var)
-
+*   [vars](/ref/var.md) -m
 
 The const type modifier defines a constant value. This may be
 useful for centralizing the location of a value that is used repeatedly

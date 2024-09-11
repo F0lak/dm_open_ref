@@ -1,7 +1,6 @@
 ## get_dir proc
 **See also:**
-*   [dir var (atom)](/atom/var/dir)
-<!-- -->
+*   [dir var (atom)](/ref/atom/var/dir.md) -m<!-- -->
 **Format:**
 *   get_dir(Loc1, Loc2)
 <!-- -->

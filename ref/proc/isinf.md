@@ -1,9 +1,8 @@
 ## isinf proc 
 ###### BYOND Version 515
 **See also:**
-*   [isnum proc](/proc/isnum)
-*   [isnan proc](/proc/isnan)
-*   [Numbers](/%7Bnotes%7D/numbers)
+*   [isnum proc](/ref/proc/isnum.md) -m
+*   [isnan proc](/ref/proc/isnan.md) -m*   [Numbers](/%7Bnotes%7D/numbers)
 <!-- -->
 **Format:**
 *   isinf(n)

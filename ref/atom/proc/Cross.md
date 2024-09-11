@@ -1,17 +1,17 @@
 ## Cross proc (atom) 
 ###### BYOND Version 490
 **See also:**
-*   [Enter proc (atom)](/atom/proc/Enter)
-*   [Entered proc (atom)](/atom/proc/Entered)
-*   [Exit proc (atom)](/atom/proc/Exit)
-*   [Exited proc (atom)](/atom/proc/Exited)
-*   [Crossed proc (atom)](/atom/proc/Crossed)
-*   [Uncross proc (atom)](/atom/proc/Uncross)
-*   [Uncrossed proc (atom)](/atom/proc/Uncrossed)
-*   [Move proc (movable atom)](/atom/movable/proc/Move)
-*   [group var (mob)](/mob/var/group)
-*   [movement_mode var (world)](/world/var/movement_mode)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
+*   [Enter proc (atom)](/ref/atom/proc/Enter.md) -m
+*   [Entered proc (atom)](/ref/atom/proc/Entered.md) -m
+*   [Exit proc (atom)](/ref/atom/proc/Exit.md) -m
+*   [Exited proc (atom)](/ref/atom/proc/Exited.md) -m
+*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) -m
+*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) -m
+*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) -m
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m
+*   [group var (mob)](/ref/mob/var/group.md) -m
+*   [movement_mode var (world)](/ref/world/var/movement_mode.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m
 <!-- -->
 **Format:**
 *   Cross(atom/movable/O)
@@ -29,7 +29,7 @@
 *   Allow overlap unless both atoms are dense. If both atoms are mobs,
     the behavior depends partly on whether they are in the same group.
 The following behavior only applies to
-[`LEGACY_MOVEMENT_MODE`](/world/var/movement_mode). In other
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md) -m.code}. In other
 movement modes, src.Cross(O) returns 0 by default if src and O are both
 mobs in the same group. 
 

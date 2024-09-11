@@ -1,9 +1,8 @@
 ## icon_state var (atom)
 **See also:**
-*   [flick proc](/proc/flick)
-*   [icon var (atom)](/atom/var/icon)
-*   [icon_states proc](/proc/icon_states)
-<!-- -->
+*   [flick proc](/ref/proc/flick.md) -m
+*   [icon var (atom)](/ref/atom/var/icon.md) -m
+*   [icon_states proc](/ref/proc/icon_states.md) -m<!-- -->
 **Default value:**
 *   null
 

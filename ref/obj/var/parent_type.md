@@ -1,7 +1,7 @@
 ## parent_type var (obj)
 **See also:**
-*   [parent_type var](/datum/var/parent_type)
+*   [parent_type var](/ref/datum/var/parent_type.md) -m
 
 
-The default parent_type of [/obj](/obj) is
-[/atom/movable](/atom/movable).
+The default parent_type of [/obj](/ref/obj.md) -m is
+[/atom/movable](/ref/atom/movable.md) -m

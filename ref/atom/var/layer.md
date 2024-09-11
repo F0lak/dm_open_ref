@@ -1,14 +1,13 @@
 ## layer var (atom)
 **See also:**
-*   [overlays var (atom)](/atom/var/overlays)
-*   [plane var (atom)](/atom/var/plane)
-*   [z var (atom)](/atom/var/z)
-*   [map_format var (world)](/world/var/map_format)
-*   [BACKGROUND_LAYER](/%7Bnotes%7D/BACKGROUND_LAYER)
-*   [EFFECTS_LAYER](/%7Bnotes%7D/EFFECTS_LAYER)
-*   [TOPDOWN_LAYER](/%7Bnotes%7D/TOPDOWN_LAYER)
-*   [Understanding the renderer](/%7Bnotes%7D/renderer)
-<!-- -->
+*   [overlays var (atom)](/ref/atom/var/overlays.md) -m
+*   [plane var (atom)](/ref/atom/var/plane.md) -m
+*   [z var (atom)](/ref/atom/var/z.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m
+*   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) -m
+*   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) -m
+*   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md) -m
+*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) -m<!-- -->
 **Default value:**
 *   1 (AREA_LAYER)
 *   2 (TURF_LAYER)

@@ -1,9 +1,8 @@
 ## Interpolate proc (vector) 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/vector)
-*   [vector proc](/proc/vector)
-<!-- -->
+*   [vector](/ref/vector.md) -m
+*   [vector proc](/ref/proc/vector.md) -m<!-- -->
 **Format:**
 *   A.Interpolate(B, t)
 <!-- -->

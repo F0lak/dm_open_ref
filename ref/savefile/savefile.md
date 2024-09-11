@@ -1,15 +1,15 @@
 ## savefile
 **See also:**
-*   [\>\> operator (savefile)](/savefile/operator/%3e%3e)
-*   [\<\< operator (savefile)](/savefile/operator/%3c%3c)
-*   [Export proc (client)](/client/proc/Export)
-*   [New proc (client)](/client/proc/New)
-*   [procs (savefile)](/savefile/proc)
-*   [vars (savefile)](/savefile/var)
-*   [tmp vars](/var/tmp)
-*   [issaved proc](/proc/issaved)
-*   [Read proc (datum)](/datum/proc/Read)
-*   [Write proc (datum)](/datum/proc/Write)
+*   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) -m
+*   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) -m
+*   [Export proc (client)](/ref/client/proc/Export.md) -m
+*   [New proc (client)](/ref/client/proc/New.md) -m
+*   [procs (savefile)](/ref/savefile/proc.md) -m
+*   [vars (savefile)](/ref/savefile/var.md) -m
+*   [tmp vars](/ref/var/tmp.md) -m
+*   [issaved proc](/ref/proc/issaved.md) -m
+*   [Read proc (datum)](/ref/datum/proc/Read.md) -m
+*   [Write proc (datum)](/ref/datum/proc/Write.md) -m
 ::* {.sidebar .note}
 
 
@@ -23,13 +23,13 @@ saving a player\'s mob, you don\'t accidentally save any other mobs. If
 you save a turf, you should avoid saving its contents unless you know
 there are no mobs standing on it (but usually it\'s better to save x,y,z
 coordinates than the turf itself). This is explained further in the [tmp
-vars](/var/tmp) entry. 
+vars](/ref/var/tmp.md) -m entry. 
 
 Currently, overlays and underlays also
 save by combining each list into a single icon that saves its full icon
 data in the file. This may not be desired, so you can remove that data.
 Usually you\'ll want to rebuild any overlay/underlay lists during
-[`Read()`](/datum/proc/Read).
+[Read()](/ref/datum/proc/Read.md) -m.code}.
 :::
 
 

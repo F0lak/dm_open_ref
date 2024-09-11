@@ -1,4 +1,4 @@
-## istext proc
+# istext proc
 **Format:**
 *   istext(Val)
 <!-- -->

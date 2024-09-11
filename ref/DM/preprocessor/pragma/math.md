@@ -1,11 +1,10 @@
 ## #pragma math directive 
 ###### BYOND Version 516
 **See also:**
-*   [#pragma directive](/DM/preprocessor/pragma)
-*   [sin proc](/proc/sin)
-*   [cos proc](/proc/cos)
-*   [tan proc](/proc/tan)
-<!-- -->
+*   [#pragma directive](/ref/DM/preprocessor/pragma.md) -m
+*   [sin proc](/ref/proc/sin.md) -m
+*   [cos proc](/ref/proc/cos.md) -m
+*   [tan proc](/ref/proc/tan.md) -m<!-- -->
 **Format:**
 *   #pragma math [\<]{.faded}fast[\|]{.faded}accurate[\>]{.faded}
 

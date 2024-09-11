@@ -1,7 +1,6 @@
 ## South proc (client)
 **See also:**
-*   [Move proc (client)](/client/proc/Move)
-<!-- -->
+*   [Move proc (client)](/ref/client/proc/Move.md) -m<!-- -->
 **Format:**
 *   South()
 <!-- -->

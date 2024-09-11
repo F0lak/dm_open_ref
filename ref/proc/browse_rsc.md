@@ -1,7 +1,6 @@
 ## browse_rsc proc
 **See also:**
-*   [browse proc](/proc/browse)
-<!-- -->
+*   [browse proc](/ref/proc/browse.md) -m<!-- -->
 **Format:**
 *   usr \<\< browse_rsc(File,FileName)
 <!-- -->

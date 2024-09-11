@@ -1,9 +1,8 @@
 ## Alpha mask filter 
 ###### BYOND Version 513
 **See also:**
-*   [icon var (atom)](/atom/var/icon)
-*   [render_target var (atom)](/atom/var/render_target)
-<!-- -->
+*   [icon var (atom)](/ref/atom/var/icon.md) -m
+*   [render_target var (atom)](/ref/atom/var/render_target.md) -m<!-- -->
 Format:
 *   filter(type=\"alpha\", \...)
 <!-- -->

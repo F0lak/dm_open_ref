@@ -1,4 +1,4 @@
-## isloc proc
+# isloc proc
 **Format:**
 *   isloc(Loc1, Loc2 \...)
 <!-- -->

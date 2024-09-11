@@ -1,8 +1,7 @@
 ## status var (sound)
 **See also:**
-*   [vars (sound)](/sound/var)
-*   [SoundQuery proc (client)](/client/proc/SoundQuery)
-<!-- -->
+*   [vars (sound)](/ref/sound/var.md) -m
+*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) -m<!-- -->
 **Default value:**
 *   0
 

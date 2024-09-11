@@ -1,8 +1,7 @@
 ## nameof proc 
 ###### BYOND Version 515
 **See also:**
-*   [:* operator](/operator/::)
-<!-- -->
+*   [:* operator](/ref/operator/::.md) -m<!-- -->
 **Format:**
 *   nameof(Var)
 *   nameof(ProcRef)

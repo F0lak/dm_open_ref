@@ -1,17 +1,17 @@
 ## MouseExited proc (client)
 **See also:**
-*   [Click proc (client)](/client/proc/Click)
-*   [DblClick proc (client)](/client/proc/DblClick)
-*   [MouseDrag proc (client)](/client/proc/MouseDrag)
-*   [MouseDrop proc (client)](/client/proc/MouseDrop)
-*   [MouseEntered proc (client)](/client/proc/MouseEntered)
-*   [MouseExited proc (atom)](/atom/proc/MouseExited)
-*   [MouseMove proc (client)](/client/proc/MouseMove)
-*   [MouseUp proc (client)](/client/proc/MouseUp)
-*   [MouseWheel proc (client)](/client/proc/MouseWheel)
-*   [mouse_opacity var (atom)](/atom/var/mouse_opacity)
-*   [mouse_pointer_icon var (client)](/client/var/mouse_pointer_icon)
-*   [show_popup_menus var (client)](/client/var/show_popup_menus)
+*   [Click proc (client)](/ref/client/proc/Click.md) -m
+*   [DblClick proc (client)](/ref/client/proc/DblClick.md) -m
+*   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md) -m
+*   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md) -m
+*   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md) -m
+*   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md) -m
+*   [MouseMove proc (client)](/ref/client/proc/MouseMove.md) -m
+*   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) -m
+*   [MouseWheel proc (client)](/ref/client/proc/MouseWheel.md) -m
+*   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) -m
+*   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md) -m
+*   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md) -m
 <!-- -->
 **Format:**
 *   MouseExited(object,location,control,params)
@@ -22,8 +22,7 @@
     object where it was clicked
 *   control* the name of the skin control involved
 *   params* other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/DM/mouse)
-<!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) -m<!-- -->
 **Default action:**
 *   Call object.MouseExited(location,control,params).
 

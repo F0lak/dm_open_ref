@@ -1,4 +1,4 @@
-## luminosity var (atom)
+# luminosity var (atom)
 **Default value:**
 *   0
 *   1 (areas)

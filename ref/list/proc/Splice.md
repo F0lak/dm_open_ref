@@ -1,11 +1,10 @@
 ## Splice proc (list) 
 ###### BYOND Version 514
 **See also:**
-*   [Copy proc (list)](/list/proc/Copy)
-*   [Cut proc (list)](/list/proc/Cut)
-*   [Insert proc (list)](/list/proc/Insert)
-*   [splicetext proc](/proc/splicetext)
-<!-- -->
+*   [Copy proc (list)](/ref/list/proc/Copy.md) -m
+*   [Cut proc (list)](/ref/list/proc/Cut.md) -m
+*   [Insert proc (list)](/ref/list/proc/Insert.md) -m
+*   [splicetext proc](/ref/proc/splicetext.md) -m<!-- -->
 **Format:**
 *   list.Splice(Start=1,End=0,Item1,Item2\...)
 <!-- -->

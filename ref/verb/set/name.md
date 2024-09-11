@@ -1,4 +1,4 @@
-## name setting (verb)
+# name setting (verb)
 **Format:**
 *   set name = \"Name\"
 <!-- -->

@@ -1,11 +1,10 @@
 ## button-type parameter (skin)
 **See also:**
-*   [group parameter](/%7Bskin%7D/param/group)
-*   [is-checked parameter](/%7Bskin%7D/param/is-checked)
+*   [group parameter](/ref/%7Bskin%7D/param/group.md) -m
+*   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) -m
 <!-- -->
 **Applies to:**
-*   [Button](/%7Bskin%7D/control/button)
-<!-- -->
+*   [Button](/ref/%7Bskin%7D/control/button.md) -m<!-- -->
 **Possible values:**
 *   pushbutton* press once
 *   pushbox* press to toggle

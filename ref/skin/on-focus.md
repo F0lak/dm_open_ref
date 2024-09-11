@@ -1,14 +1,14 @@
 ## on-focus parameter (skin)
 **See also:**
-*   [focus parameter](/%7Bskin%7D/param/focus)
-*   [on-blur parameter](/%7Bskin%7D/param/on-blur)
+*   [focus parameter](/ref/%7Bskin%7D/param/focus.md) -m
+*   [on-blur parameter](/ref/%7Bskin%7D/param/on-blur.md) -m
 <!-- -->
 **Applies to:**
-*   [Input](/%7Bskin%7D/control/input)
+*   [Input](/ref/%7Bskin%7D/control/input.md) -m
 <!-- -->
 **Format:**
 *   string
 
 
-[Command](/%7Bskin%7D/commands) executed when the control
+[Command](/ref/%7Bskin%7D/commands.md) -mexecuted when the control
 gains focus.

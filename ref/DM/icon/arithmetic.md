@@ -1,17 +1,17 @@
 ## icon arithmetic
 **See also:**
-*   [icon proc](/proc/icon)
-*   [icon_states proc](/proc/icon_states)
-*   [icons](/DM/icon)
-*   [rgb proc](/proc/rgb)
-*   [turn proc (applied to an icon)](/proc/turn/icon)
-*   [icon object](/icon)
+*   [icon proc](/ref/proc/icon.md) -m
+*   [icon_states proc](/ref/proc/icon_states.md) -m
+*   [icons](/ref/DM/icon.md) -m
+*   [rgb proc](/ref/proc/rgb.md) -m
+*   [turn proc (applied to an icon)](/ref/proc/turn/icon.md) -m
+*   [icon object](/ref/icon.md) -m
 Note* The following \"arithmetical\" methods of icon manipulation are
-being phased out in favor of the [`/icon`](/icon) object, which
+being phased out in favor of the [/icon](/ref/icon.md) -m{.code} object, which
 can be directly manipulated and which provides a wider variety of
 operations. Many of those in turn have been obviated by the
-[`color`](/atom/var/color) and
-[`transform`](/atom/var/transform) vars. 
+[color](/ref/atom/var/color.md) -m{.code} and
+[transform](/ref/atom/var/transform.md) -m{.code} vars. 
 
 There are
 several ways in which icons can be manipulated at runtime. They can be
@@ -52,7 +52,7 @@ You can also specify a color value as
 \"#RGB\". The single digit is automatically repeated, so \"#F00\" is the
 same as \"#FF0000\", which is bright red. For certain pre-defined color
 values, you can also specify a name, such as \"red\". See [HTML
-colors](/%7B%7Bappendix%7D%7D/html-colors) for a list of color names.
+colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -mfor a list of color names.
 
 
 If you prefer base 10, you can create color values with the

@@ -1,4 +1,4 @@
-## mob var (client)
+# mob var (client)
 **Default value:**
 *   Determined in client.New(), by default world.mob.
 

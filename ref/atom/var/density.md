@@ -1,10 +1,9 @@
 ## density var (atom)
 **See also:**
-*   [Enter proc (atom)](/atom/proc/Enter)
-*   [Entered proc (atom)](/atom/proc/Entered)
-*   [Exit proc (atom)](/atom/proc/Exit)
-*   [Exited proc (atom)](/atom/proc/Exited)
-<!-- -->
+*   [Enter proc (atom)](/ref/atom/proc/Enter.md) -m
+*   [Entered proc (atom)](/ref/atom/proc/Entered.md) -m
+*   [Exit proc (atom)](/ref/atom/proc/Exit.md) -m
+*   [Exited proc (atom)](/ref/atom/proc/Exited.md) -m<!-- -->
 **Default value:**
 *   0 (1 for mobs)
 

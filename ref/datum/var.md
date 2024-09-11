@@ -3,7 +3,7 @@
 
 Built-in datum vars:
 datum/var
-*   [type](/datum/var/type)
-*   [parent_type](/datum/var/parent_type)
-*   [tag](/datum/var/tag)
-*   [vars](/datum/var/vars)
+*   [type](/ref/datum/var/type.md) -m
+*   [parent_type](/ref/datum/var/parent_type.md) -m
+*   [tag](/ref/datum/var/tag.md) -m
+*   [vars](/ref/datum/var/vars.md) -m

@@ -1,10 +1,9 @@
 ## arguments (proc)
 **See also:**
-*   [named arguments (proc)](/proc/arguments/named)
-*   [path operators](/operator/path)
-*   [arglist proc](/proc/arglist)
-*   [args var (proc)](/proc/var/args)
-
+*   [named arguments (proc)](/ref/proc/arguments/named.md) -m
+*   [path operators](/ref/operator/path.md) -m
+*   [arglist proc](/ref/proc/arglist.md) -m
+*   [args var (proc)](/ref/proc/var/args.md) -m
 
 The parameters to a proc are referred to as arguments. To
 define argument variables, place them inside the ()\'s in the proc

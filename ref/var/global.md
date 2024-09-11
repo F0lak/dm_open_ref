@@ -1,7 +1,6 @@
 ## global vars
 **See also:**
-*   [vars](/var)
-
+*   [vars](/ref/var.md) -m
 
 The global type modifier makes a var permanent and shared. This
 means only one copy of the var is maintained. Otherwise, separate copies

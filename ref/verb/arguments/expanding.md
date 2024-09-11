@@ -1,7 +1,6 @@
 ## argument expanding
 **See also:**
-*   [arguments (verb)](/verb/arguments)
-
+*   [arguments (verb)](/ref/verb/arguments.md) -m
 
 The expression used to to provide a list of possible values for
 a verb argument may reference the value of arguments prior to the one

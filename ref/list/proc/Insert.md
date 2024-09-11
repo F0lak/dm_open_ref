@@ -1,9 +1,8 @@
 ## Insert proc (list)
 **See also:**
-*   [Cut proc (list)](/list/proc/Cut)
-*   [Copy proc (list)](/list/proc/Copy)
-*   [Swap proc (list)](/list/proc/Swap)
-<!-- -->
+*   [Cut proc (list)](/ref/list/proc/Cut.md) -m
+*   [Copy proc (list)](/ref/list/proc/Copy.md) -m
+*   [Swap proc (list)](/ref/list/proc/Swap.md) -m<!-- -->
 **Format:**
 *   list.Insert(Index,Item1,Item2\...)
 <!-- -->

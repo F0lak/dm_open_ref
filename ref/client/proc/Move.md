@@ -1,15 +1,14 @@
 ## Move proc (client)
 **See also:**
-*   [East proc (client)](/client/proc/East)
-*   [Move proc (movable atom)](/atom/movable/proc/Move)
-*   [North proc (client)](/client/proc/North)
-*   [Northeast proc (client)](/client/proc/Northeast)
-*   [Northwest proc (client)](/client/proc/Northwest)
-*   [South proc (client)](/client/proc/South)
-*   [Southeast proc (client)](/client/proc/Southeast)
-*   [Southwest proc (client)](/client/proc/Southwest)
-*   [West proc (client)](/client/proc/West)
-<!-- -->
+*   [East proc (client)](/ref/client/proc/East.md) -m
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m
+*   [North proc (client)](/ref/client/proc/North.md) -m
+*   [Northeast proc (client)](/ref/client/proc/Northeast.md) -m
+*   [Northwest proc (client)](/ref/client/proc/Northwest.md) -m
+*   [South proc (client)](/ref/client/proc/South.md) -m
+*   [Southeast proc (client)](/ref/client/proc/Southeast.md) -m
+*   [Southwest proc (client)](/ref/client/proc/Southwest.md) -m
+*   [West proc (client)](/ref/client/proc/West.md) -m<!-- -->
 **Format:**
 *   Move(loc,dir)
 <!-- -->

@@ -1,9 +1,8 @@
 ## popup_menu setting (verb)
 **See also:**
-*   [category setting (verb)](/verb/set/category)
-*   [hidden setting (verb)](/verb/set/hidden)
-*   [invisibility setting (verb)](/verb/set/invisibility)
-<!-- -->
+*   [category setting (verb)](/ref/verb/set/category.md) -m
+*   [hidden setting (verb)](/ref/verb/set/hidden.md) -m
+*   [invisibility setting (verb)](/ref/verb/set/invisibility.md) -m<!-- -->
 **Format:**
 *   set popup_menu = Setting
 <!-- -->

@@ -1,12 +1,12 @@
 ## is-checked parameter (skin)
 **See also:**
-*   [button-type parameter](/%7Bskin%7D/param/button-type)
-*   [can-check parameter](/%7Bskin%7D/param/can-check)
-*   [group parameter](/%7Bskin%7D/param/group)
+*   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) -m
+*   [can-check parameter](/ref/%7Bskin%7D/param/can-check.md) -m
+*   [group parameter](/ref/%7Bskin%7D/param/group.md) -m
 <!-- -->
 **Applies to:**
-*   [Button](/%7Bskin%7D/control/button)
-*   [Menu](/%7Bskin%7D/control/menu)
+*   [Button](/ref/%7Bskin%7D/control/button.md) -m
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m
 <!-- -->
 **Format:**
 *   true/false
@@ -16,4 +16,4 @@
 
 
 True if the button or menu item is checked. Menu items can set
-this even if [`can-check`](/%7Bskin%7D/param/can-check) is false.
+this even if [can-check](/ref/%7Bskin%7D/param/can-check.md) -m.code} is false.

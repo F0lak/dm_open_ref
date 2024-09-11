@@ -1,4 +1,4 @@
-## sqrt proc
+# sqrt proc
 **Format:**
 *   sqrt(A)
 <!-- -->

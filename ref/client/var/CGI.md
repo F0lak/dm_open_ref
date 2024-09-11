@@ -1,4 +1,4 @@
-## CGI var (client)
+# CGI var (client)
 
 
 In CGI mode, DreamDaemon is normally being executed by a web

@@ -1,10 +1,9 @@
 ## . operator
 **See also:**
-*   [* operator](/operator/:)
-*   [?. operator](/operator/%3f%2e)
-*   [?* operator](/operator/%3f:)
-*   [operators](/operator)
-
+*   [* operator](/ref/operator/:.md) -m
+*   [?. operator](/ref/operator/%3f%2e.md) -m
+*   [?* operator](/ref/operator/%3f:.md) -m
+*   [operators](/ref/operator.md) -m
 
 This is used to access the procs and vars of a prototyped
 object. The variable need not actually contain a value with the

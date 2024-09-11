@@ -1,12 +1,11 @@
 ## next var (regex) 
 ###### BYOND Version 510
 **See also:**
-*   [regex datum](/regex)
-*   [Find proc (regex)](/regex/proc/Find)
-*   [Replace proc (regex)](/regex/proc/Replace)
-*   [index var (regex)](/regex/var/index)
-*   [match var (regex)](/regex/var/match)
-
+*   [regex datum](/ref/regex.md) -m
+*   [Find proc (regex)](/ref/regex/proc/Find.md) -m
+*   [Replace proc (regex)](/ref/regex/proc/Replace.md) -m
+*   [index var (regex)](/ref/regex/var/index.md) -m
+*   [match var (regex)](/ref/regex/var/match.md) -m
 
 If this is a global pattern (using the \"g\" flag), then after
 a call to Find() this var contains the index where next Find() should

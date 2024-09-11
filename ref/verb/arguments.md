@@ -1,10 +1,9 @@
 ## arguments (verb)
 **See also:**
-*   [argument expanding](/verb/arguments/expanding)
-*   [command_text (client)](/client/var/command_text)
-*   [arglist proc](/proc/arglist)
-*   [args var (verb)](/verb/var/args)
-
+*   [argument expanding](/ref/verb/arguments/expanding.md) -m
+*   [command_text (client)](/ref/client/var/command_text.md) -m
+*   [arglist proc](/ref/proc/arglist.md) -m
+*   [args var (verb)](/ref/verb/var/args.md) -m
 
 The parameters to a verb are referred to as arguments. For
 verbs, the input type and possible value list may also be specified.

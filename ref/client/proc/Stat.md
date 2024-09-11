@@ -1,12 +1,11 @@
 ## Stat proc (client)
 **See also:**
-*   [Stat proc (atom)](/atom/proc/Stat)
-*   [stat proc](/proc/stat)
-*   [statobj var (client)](/client/var/statobj)
-*   [statpanel proc](/proc/statpanel)
-*   [statpanel var (client)](/client/var/statpanel)
-*   [Info control (skin)](/%7Bskin%7D/control/info)
-<!-- -->
+*   [Stat proc (atom)](/ref/atom/proc/Stat.md) -m
+*   [stat proc](/ref/proc/stat.md) -m
+*   [statobj var (client)](/ref/client/var/statobj.md) -m
+*   [statpanel proc](/ref/proc/statpanel.md) -m
+*   [statpanel var (client)](/ref/client/var/statpanel.md) -m
+*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) -m<!-- -->
 **Format:**
 *   Stat()
 <!-- -->

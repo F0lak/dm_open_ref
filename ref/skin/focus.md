@@ -1,10 +1,10 @@
 ## focus parameter (skin)
 **See also:**
-*   [id parameter](/%7Bskin%7D/param/id)
-*   [winget proc](/proc/winget)
+*   [id parameter](/ref/%7Bskin%7D/param/id.md) -m
+*   [winget proc](/ref/proc/winget.md) -m
 <!-- -->
 **Applies to:**
-*   [All](/%7Bskin%7D/control)
+*   [All](/ref/%7Bskin%7D/control.md) -m
 <!-- -->
 **Format:**
 *   true/false
@@ -17,6 +17,6 @@ This parameter is true if this control currently has focus.
 
 
 This is also a special read-only global parameter. Calling
-[`winget()`](/proc/winget) with no `id` and `focus` as the
-parameter will return the [`id`](/%7Bskin%7D/param/id) of the
+[winget()](/ref/proc/winget.md) -m{.code} with no `id` and `focus` as the
+parameter will return the [id](/ref/%7Bskin%7D/param/id.md) -m.code} of the
 currently focused control, if any.

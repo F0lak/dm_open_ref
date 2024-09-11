@@ -1,7 +1,6 @@
 ## #define directive
 **See also:**
-*   [preprocessor](/DM/preprocessor)
-<!-- -->
+*   [preprocessor](/ref/DM/preprocessor.md) -m<!-- -->
 **Format:**
 *   #define Name Value
 *   #define Name(Parameters) Value

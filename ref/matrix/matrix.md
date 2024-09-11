@@ -1,11 +1,11 @@
 ## matrix 
 ###### BYOND Version 500
 **See also:**
-*   [matrix proc](/proc/matrix)
-*   [matrix operators](/matrix/operators)
-*   [matrix procs](/matrix/proc)
-*   [transform var (atom)](/atom/var/transform)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
+*   [matrix proc](/ref/proc/matrix.md) -m
+*   [matrix operators](/ref/matrix/operators.md) -m
+*   [matrix procs](/ref/matrix/proc.md) -m
+*   [transform var (atom)](/ref/atom/var/transform.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m
 
 
 To display rotation, scaling, and other transformations on
@@ -56,4 +56,4 @@ atom.transform to change the way that atom is displayed.
 The
 matrices supported by this datum are **not** the same kind used to
 transform colors, as in the atom.color var and icon.MapColors() proc.
-For color matrices, see [color matrix](/%7Bnotes%7D/color-matrix).
+For color matrices, see [color matrix](/ref/%7Bnotes%7D/color-matrix.md) -m

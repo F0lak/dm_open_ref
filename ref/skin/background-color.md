@@ -1,15 +1,14 @@
 ## background-color parameter (skin)
 **See also:**
-*   [text-color parameter](/%7Bskin%7D/param/text-color)
+*   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) -m
 *   [tab-background-color
-    parameter](/%7Bskin%7D/param/tab-background-color)
+    parameter](/ref/%7Bskin%7D/param/tab-background-color.md) -m
 <!-- -->
 **Applies to:**
-*   [All](/%7Bskin%7D/control)
+*   [All](/ref/%7Bskin%7D/control.md) -m
 <!-- -->
 **Format:**
-*   [#rrggbb](/%7B%7Bappendix%7D%7D/html-colors)
-*   none
+*   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m*   none
 
 
 The control\'s background color. The exact way this applies

@@ -1,10 +1,9 @@
 ## \* pointer operator 
 ###### BYOND Version 515
 **See also:**
-*   [& pointer operator](/operator/&/pointer)
-*   [operators](/operator)
-*   [ispointer proc](/proc/ispointer)
-<!-- -->
+*   [& pointer operator](/ref/operator/&/pointer.md) -m
+*   [operators](/ref/operator.md) -m
+*   [ispointer proc](/ref/proc/ispointer.md) -m<!-- -->
 **Format:**
 *   \*A
 <!-- -->

@@ -1,21 +1,21 @@
 ## regex datum 
 ###### BYOND Version 510
 **See also:**
-*   [Regular expressions](/%7Bnotes%7D/regex)
-*   [regex procs](/regex/proc)
-*   [regex vars](/regex/var)
-*   [regex proc](/proc/regex)
-*   [REGEX_QUOTE proc](/proc/REGEX_QUOTE)
-*   [findtext proc](/proc/findtext)
-*   [splittext proc](/proc/splittext)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
+*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) -m
+*   [regex procs](/ref/regex/proc.md) -m
+*   [regex vars](/ref/regex/var.md) -m
+*   [regex proc](/ref/proc/regex.md) -m
+*   [REGEX_QUOTE proc](/ref/proc/REGEX_QUOTE.md) -m
+*   [findtext proc](/ref/proc/findtext.md) -m
+*   [splittext proc](/ref/proc/splittext.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m
 
 
 The /regex datum holds a regular expression that can be used
 for searching and/or replacing text. Rather than searching for a
 specific piece of text, a regular expression is a *pattern* to search
 for. This can include things like wildcards. See [Regular
-expressions](/%7Bnotes%7D/regex) for more information. 
+expressions](/ref/%7Bnotes%7D/regex.md) -mfor more information. 
 
 A new
 regular expression can be created with regex() or new/regex().

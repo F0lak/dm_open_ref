@@ -3,4 +3,4 @@
 
 Built-in list vars:
 list/var
-*   [len](/list/var/len)
+*   [len](/ref/list/var/len.md) -m

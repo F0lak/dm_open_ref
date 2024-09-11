@@ -1,10 +1,9 @@
 ## Import proc (world)
 **See also:**
-*   [Export proc (world)](/world/proc/Export)
-*   [Import proc (client)](/client/proc/Import)
-*   [Topic proc (world)](/world/proc/Topic)
-*   [fcopy proc](/proc/fcopy)
-<!-- -->
+*   [Export proc (world)](/ref/world/proc/Export.md) -m
+*   [Import proc (client)](/ref/client/proc/Import.md) -m
+*   [Topic proc (world)](/ref/world/proc/Topic.md) -m
+*   [fcopy proc](/ref/proc/fcopy.md) -m<!-- -->
 **Format:**
 *   Import()
 <!-- -->

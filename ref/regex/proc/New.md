@@ -1,10 +1,9 @@
 ## New proc (regex) 
 ###### BYOND Version 510
 **See also:**
-*   [Regular expressions](/%7Bnotes%7D/regex)
-*   [regex datum](/regex)
-*   [regex proc](/proc/regex)
-<!-- -->
+*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) -m
+*   [regex datum](/ref/regex.md) -m
+*   [regex proc](/ref/proc/regex.md) -m<!-- -->
 **Format:**
 *   regex(pattern, flags)
 *   regex(Regex)

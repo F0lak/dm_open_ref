@@ -1,15 +1,15 @@
 ## on-status parameter (skin)
 **See also:**
-*   [statusbar parameter](/%7Bskin%7D/param/statusbar)
+*   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m
 <!-- -->
 **Format:**
 *   string
 
 
-[Command](/%7Bskin%7D/commands) executed when the text that
+[Command](/ref/%7Bskin%7D/commands.md) -m executed when the text that
 would go in the statusbar is changed. This applies even if this control
 is a pane and not a window, or is a window without a statusbar. It
 applies to all panes and windows that directly or indirectly contain
@@ -17,7 +17,7 @@ whatever control generated the statusbar text (e.g., a map).
 
 If
 you include `[[*]]` in the command, it will be replaced by the new text.
-(See \"Embedded Winget\" in [client commands](/%7Bskin%7D/commands) for
+(See \"Embedded Winget\" in [client commands](/ref/%7Bskin%7D/commands.md) -mfor
 more details on the `[[...]]` format.) 
 
 `[[from]]` can be used

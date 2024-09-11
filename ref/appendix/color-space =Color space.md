@@ -1,12 +1,11 @@
 ## Color space
 **See also:**
-*   [rgb proc](/proc/rgb)
-*   [rgb2num proc](/proc/rgb2num)
-*   [gradient proc](/proc/gradient)
-*   [animate proc](/proc/animate)
-*   [Color gradient](/%7Bnotes%7D/color-gradient)
-*   [Color matrix filter](/%7Bnotes%7D/filters/color)
-
+*   [rgb proc](/ref/proc/rgb.md) -m
+*   [rgb2num proc](/ref/proc/rgb2num.md) -m
+*   [gradient proc](/ref/proc/gradient.md) -m
+*   [animate proc](/ref/proc/animate.md) -m
+*   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) -m
+*   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) -m
 
 There are different ways of interpreting color besides RGB.
 Several parts of BYOND are capable of using other color spaces.

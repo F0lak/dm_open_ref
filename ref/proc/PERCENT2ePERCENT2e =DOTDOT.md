@@ -1,7 +1,6 @@
 ## .. proc
 **See also:**
-*   [. proc](/proc/%2e)
-<!-- -->
+*   [. proc](/ref/proc/%2e.md) -m<!-- -->
 **Format:**
 *   ..(Args)
 <!-- -->

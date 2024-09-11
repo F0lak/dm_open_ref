@@ -1,11 +1,10 @@
 ## step_y var (pixloc) 
 ###### BYOND Version 516
 **See also:**
-*   [pixloc](/pixloc)
-*   [loc var (pixloc)](/pixloc/var/loc)
-*   [step_x var (pixloc)](/pixloc/var/step_x)
-*   [step_y var (movable atom)](/atom/movable/var/step_y)
-
+*   [pixloc](/ref/pixloc.md) -m
+*   [loc var (pixloc)](/ref/pixloc/var/loc.md) -m
+*   [step_x var (pixloc)](/ref/pixloc/var/step_x.md) -m
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
 
 The step_y offset of this pixloc, relative to its loc. For
 instance a value of 4 means this is 4 pixels north from the southwest

@@ -1,9 +1,8 @@
 ## multi-line parameter (skin)
 **Applies to:**
-*   [Info](/%7Bskin%7D/control/info)
-*   [Input](/%7Bskin%7D/control/input)
-*   [Tab](/%7Bskin%7D/control/tab)
-<!-- -->
+*   [Info](/ref/%7Bskin%7D/control/info.md) -m
+*   [Input](/ref/%7Bskin%7D/control/input.md) -m
+*   [Tab](/ref/%7Bskin%7D/control/tab.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

@@ -42,7 +42,7 @@ themselves in the same order they crept in. Unfortunately it doesn\'t
 work that way. 
 
 You can correct for rounding error somewhat by
-using the [`round` proc](/proc/round) to adjust the loop var each time,
+using the [`round` proc](/ref/proc/round.md) -mto adjust the loop var each time,
 although for performance reasons it might be preferable to find another
 alternative. 
 ```

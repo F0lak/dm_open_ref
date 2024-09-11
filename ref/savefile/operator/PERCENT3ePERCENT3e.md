@@ -1,9 +1,8 @@
 ## \>\> operator (savefile)
 **See also:**
-*   [\>\> input operator](/operator/%3e%3e/input)
-*   [\<\< operator (savefile)](/savefile/operator/%3c%3c)
-*   [Read proc (datum)](/datum/proc/Read)
-<!-- -->
+*   [\>\> input operator](/ref/operator/%3e%3e/input.md) -m
+*   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) -m
+*   [Read proc (datum)](/ref/datum/proc/Read.md) -m<!-- -->
 **Format:**
 *   F \>\> Var
 *   F\[\"Path\"\] \>\> Var

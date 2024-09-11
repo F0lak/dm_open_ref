@@ -1,12 +1,12 @@
 ## list associations
 **See also:**
-*   [list](/list)
-*   [list proc](/proc/list)
-*   [list proc](/proc/alist)
-*   [list2params proc](/proc/list2params)
-*   [params var (world)](/world/var/params)
-*   [params2list proc](/proc/params2list)
-*   [vars list var (datum)](/datum/var/vars)
+*   [list](/ref/list.md) -m
+*   [list proc](/ref/proc/list.md) -m
+*   [list proc](/ref/proc/alist.md) -m
+*   [list2params proc](/ref/proc/list2params.md) -m
+*   [params var (world)](/ref/world/var/params.md) -m
+*   [params2list proc](/ref/proc/params2list.md) -m
+*   [vars list var (datum)](/ref/datum/var/vars.md) -m
 
 
 Each unique text string or object in a list may be associated
@@ -42,7 +42,7 @@ numeric indices are treated differently, accessing the Nth item in the
 list, you may not assign an associated value to a numeric list item.
 Associations must have a text string or object reference as the index
 item. (`alist()` is an exception to this, and can use numeric
-associations. See [`alist()`](/list/alist) for more information.)
+associations. See [alist()](/ref/list/alist.md) -m{.code} for more information.)
 
 
 Associated values default to null if none is assigned. This is
@@ -50,8 +50,8 @@ also the value returned when the supplied index item does not exist in
 the list. The list defined above, for example, would return null for
 `params["time"]`. 
 
-The [`list()`](/proc/list) or
-[`alist()`](/proc/alist) instructions may also be used to create
+The [list()](/ref/proc/list.md) -m{.code} or
+[alist()](/ref/proc/alist.md) -m{.code} instructions may also be used to create
 associative lists.
 ### Example:
 
@@ -72,9 +72,9 @@ list(player = \"James Byond\", score = 2000)
 
 In
 other words, this is exactly the same syntax as for [named
-arguments](/proc/arguments/named). 
+arguments](/ref/proc/arguments/named.md) -m. 
 
 The [`alist`
-proc](/proc/alist) creates lists that are *strictly* associative. This
+proc](/ref/proc/alist.md) -mcreates lists that are *strictly* associative. This
 means that list items are treated as \"keys\" in key,value pairs. Unlike
 a regular list, each \"key\" is unique.

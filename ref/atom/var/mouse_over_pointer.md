@@ -1,14 +1,14 @@
 ## mouse_over_pointer var (atom)
 **See also:**
-*   [Click proc (atom)](/atom/proc/Click)
-*   [MouseEntered proc (atom)](/atom/proc/MouseEntered)
-*   [MouseExited proc (atom)](/atom/proc/MouseExited)
-*   [MouseMove proc (atom)](/atom/proc/MouseMove)
-*   [mouse_drag_pointer var (atom)](/atom/var/mouse_drag_pointer)
-*   [mouse_drop_pointer var (atom)](/atom/var/mouse_drop_pointer)
-*   [mouse_drop_zone var (atom)](/atom/var/mouse_drop_zone)
-*   [mouse_opacity var (atom)](/atom/var/mouse_opacity)
-*   [mouse_pointer_icon var (client)](/client/var/mouse_pointer_icon)
+*   [Click proc (atom)](/ref/atom/proc/Click.md) -m
+*   [MouseEntered proc (atom)](/ref/atom/proc/MouseEntered.md) -m
+*   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md) -m
+*   [MouseMove proc (atom)](/ref/atom/proc/MouseMove.md) -m
+*   [mouse_drag_pointer var (atom)](/ref/atom/var/mouse_drag_pointer.md) -m
+*   [mouse_drop_pointer var (atom)](/ref/atom/var/mouse_drop_pointer.md) -m
+*   [mouse_drop_zone var (atom)](/ref/atom/var/mouse_drop_zone.md) -m
+*   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) -m
+*   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md) -m
 <!-- -->
 **Default value:**
 *   MOUSE_INACTIVE_POINTER (0)
@@ -20,7 +20,7 @@ and it is held over this object. Assigning this to MOUSE_ACTIVE_POINTER
 the mouse (crosshairs). 
 
 This variable may also be set to any of
-the other [built-in mouse pointers](/DM/mouse/pointers), or a custom
+the other [built-in mouse pointers](/ref/DM/mouse/pointers.md) -m or a custom
 icon or icon state. If an icon state is specified, this is applied
 against the object\'s main icon to find a custom pointer. 
 

@@ -1,9 +1,8 @@
 ## oview proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [orange proc](/proc/orange)
-*   [view proc](/proc/view)
-<!-- -->
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [orange proc](/ref/proc/orange.md) -m
+*   [view proc](/ref/proc/view.md) -m<!-- -->
 **Format:**
 *   oview(Dist,Center=usr)
 <!-- -->

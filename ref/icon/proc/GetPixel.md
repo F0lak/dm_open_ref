@@ -1,9 +1,8 @@
 ## GetPixel proc (icon)
 **See also:**
-*   [icon](/icon)
-*   [procs (icon)](/icon/proc)
-*   [rgb proc](/proc/rgb)
-<!-- -->
+*   [icon](/ref/icon.md) -m
+*   [procs (icon)](/ref/icon/proc.md) -m
+*   [rgb proc](/ref/proc/rgb.md) -m<!-- -->
 **Format:**
 *   GetPixel(x, y, icon_state, dir=0, frame=0, moving=-1)
 <!-- -->

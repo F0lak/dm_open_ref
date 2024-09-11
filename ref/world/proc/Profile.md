@@ -1,4 +1,4 @@
-## Profile proc (world) 
+# Profile proc (world) 
 ###### BYOND Version 513
 **Format:**
 *   Profile(command, format)

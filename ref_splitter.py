@@ -32,7 +32,7 @@ def write_file(text, file_name) -> None:
 	output_file = os.path.join(f'{file_name}')
 	with open(output_file, 'w', encoding='utf-8') as file:
 		file.write(text)
-		print(f"New file: {output_file}")
+		# print(f"New file: {output_file}")
   
 def clean_empty_lines(text) -> str:
 	lines = text.splitlines()
@@ -65,7 +65,7 @@ def set_title(text, extension) -> str | None:
 			if text != None:
 				slash_index = text.rfind("/")
 				text = text[slash_index+1:len(text)-1]
-			print(text)
+			# print(text)
    
 	#	print("=-=-=-=-=-=")
 		if text != None:
@@ -151,18 +151,21 @@ def fix_links(text) -> str:
 	result = []
 	i = 0
 	while i < len(text):
-		start_index = text.find("](#", i)
+		start_marker = "](#/"
+		start_index = text.find(start_marker, i)
 		if start_index == -1:
-			result.append(text[i:])
+			result.append(text[i+1:])
 			break
-		result.append(text[i:start_index + 1])
+		result.append(text[i:start_index])
 		end_index = text.find(")", start_index)
 		if end_index == -1:
 			break
-		path = text[start_index + len("](#"):end_index]
-		new_link = f"({path})"
-		if path in link_dict:
-			new_link = f"({link_dict[path]})"
+		path = text[start_index + len(start_marker):end_index]
+		new_link = f"{path}"
+		if f"/{path}" in link_dict:
+			new_link = f"](/ref{link_dict[path]}.md) -h"
+		else:
+			new_link = f"](/ref/{path}.md) -m"
 		result.append(new_link)
 		
 		i = end_index + 1
@@ -214,7 +217,8 @@ def build_file_tree() -> None:
 			full_dir: str = f"{output_directory}\\{clean_file_path}\\{html_title}"
 
 			# print("md: " + md_title)
-			# print(clean_file_path)
+			print(dirty_file_path)
+			print(f"{dirty_file_path}/{md_title}")
 			pruned_file_path: str = ""
 			slash_index = clean_file_path.rfind("\\")
 			if slash_index != -1:
@@ -224,7 +228,7 @@ def build_file_tree() -> None:
 			# print(pruned_file_path)
 			# print("fd: " + full_dir)
 
-			link_dict[dirty_file_path] = f"{pruned_file_path}\\{md_title}.md"
+			link_dict[f"{dirty_file_path}/{md_title}"] = f"{pruned_file_path}\\{md_title}.md"
 			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "md", md_text))
 			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "html", html_text))
 

@@ -1,7 +1,7 @@
 ## Del proc (datum)
 **See also:**
-*   [del proc](/proc/del)
-*   [garbage collection](/DM/garbage)
+*   [del proc](/ref/proc/del.md) -m
+*   [garbage collection](/ref/DM/garbage.md) -m
 <!-- -->
 **Format:**
 *   Del()
@@ -17,7 +17,7 @@
 
 When the world is destroyed, the `Del()` proc is not
 automatically called. The only object for which it is called is
-[/world](/world). If you need the `Del()` proc for a particular object
+[/world](/ref/world.md) -m If you need the `Del()` proc for a particular object
 to be called at that time, you should explicitly call it from
 `world/Del()`. 
 

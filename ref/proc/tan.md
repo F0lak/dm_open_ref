@@ -1,11 +1,10 @@
 ## tan proc 
 ###### BYOND Version 513
 **See also:**
-*   [arctan proc](/proc/arctan)
-*   [cos proc](/proc/cos)
-*   [sin proc](/proc/sin)
-*   [turn proc](/proc/turn)
-<!-- -->
+*   [arctan proc](/ref/proc/arctan.md) -m
+*   [cos proc](/ref/proc/cos.md) -m
+*   [sin proc](/ref/proc/sin.md) -m
+*   [turn proc](/ref/proc/turn.md) -m<!-- -->
 **Format:**
 *   tan(X)
 <!-- -->

@@ -1,9 +1,8 @@
 ## #ifdef directive
 **See also:**
-*   [#define directive](/DM/preprocessor/define)
-*   [#if directive](/DM/preprocessor/if)
-*   [#ifndef directive](/DM/preprocessor/ifndef)
-<!-- -->
+*   [#define directive](/ref/DM/preprocessor/define.md) -m
+*   [#if directive](/ref/DM/preprocessor/if.md) -m
+*   [#ifndef directive](/ref/DM/preprocessor/ifndef.md) -m<!-- -->
 **Format:**
 *   #ifdef Name
 <!-- -->

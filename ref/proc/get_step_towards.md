@@ -1,8 +1,7 @@
 ## get_step_towards proc
 **See also:**
-*   [step_towards proc](/proc/step_towards)
-*   [walk_towards proc](/proc/walk_towards)
-<!-- -->
+*   [step_towards proc](/ref/proc/step_towards.md) -m
+*   [walk_towards proc](/ref/proc/walk_towards.md) -m<!-- -->
 **Format:**
 *   get_step_towards(Ref, Trg)
 <!-- -->

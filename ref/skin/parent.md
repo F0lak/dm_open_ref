@@ -1,18 +1,18 @@
 ## parent parameter (skin)
 **See also:**
-*   [id parameter](/%7Bskin%7D/param/id)
-*   [type parameter](/%7Bskin%7D/param/type)
-*   [name parameter](/%7Bskin%7D/param/name)
+*   [id parameter](/ref/%7Bskin%7D/param/id.md) -m
+*   [type parameter](/ref/%7Bskin%7D/param/type.md) -m
+*   [name parameter](/ref/%7Bskin%7D/param/name.md) -m
 <!-- -->
 **Applies to:**
-*   [All](/%7Bskin%7D/control)
-*   [Macro](/%7Bskin%7D/control/macro)
-*   [Menu](/%7Bskin%7D/control/menu)
+*   [All](/ref/%7Bskin%7D/control.md) -m
+*   [Macro](/ref/%7Bskin%7D/control/macro.md) -m
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m
 <!-- -->
 **Format:**
 *   string
 
 
-The [`id`](/%7Bskin%7D/param/id) of this control\'s
+The [id](/ref/%7Bskin%7D/param/id.md) -m.code} of this control\'s
 parent. Write-only, used when creating a new control at runtime or
 deleting a control that was created this way.

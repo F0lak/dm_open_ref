@@ -1,11 +1,11 @@
 ## style sheets
 **See also:**
-*   [CSS attributes](/%7B%7Bappendix%7D%7D/css)
-*   [entities (text)](/DM/text/entities)
-*   [macros (text)](/DM/text/macros)
-*   [script var (client)](/client/var/script)
-*   [tags (text)](/DM/text/tags)
-*   [text](/DM/text)
+*   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) -m
+*   [entities (text)](/ref/DM/text/entities.md) -m
+*   [macros (text)](/ref/DM/text/macros.md) -m
+*   [script var (client)](/ref/client/var/script.md) -m
+*   [tags (text)](/ref/DM/text/tags.md) -m
+*   [text](/ref/DM/text.md) -m
 
 
 HTML tags, such as `<font>` may be used to directly format
@@ -13,13 +13,13 @@ output text. Another approach, however, is to use HTML tags to specify
 purely structural information and use a style sheet to define how
 various elements within that structure should be treated. DM uses a
 [subset of the Cascading Style Sheet (CSS)
-language](/%7B%7Bappendix%7D%7D/css), which was introduced for this
+language](/ref/%7B%7Bappendix%7D%7D/css.md) -m, which was introduced for this
 purpose in HTML documents. 
 
 This section discusses the syntax of
 style sheets as an independent element. For information on how to
 include the style sheets in your DM code, see the section on
-[`client.script`](/client/var/script). 
+[client.script](/ref/client/var/script.md) -m{.code}. 
 
 As an example of a
 style sheet, one might want combat and conversational messages to appear
@@ -51,7 +51,7 @@ class should be colored red and text in the `chat` class should be
 colored green. These classes are not pre-defined; you can create
 whatever new style classes you need. (The color names are predefined
 however. You can find a list of them in [HTML
-colors](/%7B%7Bappendix%7D%7D/html-colors). 
+colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m. 
 
 The advantage of
 using style sheets instead of direct formatting tags is that you can
@@ -307,7 +307,7 @@ match the current context.
 ### Maptext options
 
 
-The [`atom.maptext`](/atom/var/maptext) var supports some
+The [atom.maptext](/ref/atom/var/maptext.md) -m.code} var supports some
 additional CSS attributes.
 vertical-align
 top, middle, bottom

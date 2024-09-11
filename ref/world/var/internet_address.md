@@ -1,9 +1,8 @@
 ## internet_address var (world)
 **See also:**
-*   [port var (world)](/world/var/port)
-*   [url var (world)](/world/var/url)
-*   [address var (world)](/world/var/address)
-
+*   [port var (world)](/ref/world/var/port.md) -m
+*   [url var (world)](/ref/world/var/url.md) -m
+*   [address var (world)](/ref/world/var/address.md) -m
 
 This is the network address of the machine hosting the world,
 as it is seen by the outside network (from the Internet) and the hub. If

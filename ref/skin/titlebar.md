@@ -1,17 +1,17 @@
 ## titlebar parameter (skin)
 **See also:**
-*   [can-close parameter](/%7Bskin%7D/param/can-close)
-*   [can-minimize parameter](/%7Bskin%7D/param/can-minimize)
-*   [can-resize parameter](/%7Bskin%7D/param/can-resize)
-*   [icon parameter](/%7Bskin%7D/param/icon)
-*   [title parameter](/%7Bskin%7D/param/title)
-*   [use-title parameter](/%7Bskin%7D/param/use-title)
-*   [statusbar parameter](/%7Bskin%7D/param/statusbar)
-*   [is-fullscreen parameter](/%7Bskin%7D/param/is-fullscreen)
-*   [name var (world)](/world/var/name)
+*   [can-close parameter](/ref/%7Bskin%7D/param/can-close.md) -m
+*   [can-minimize parameter](/ref/%7Bskin%7D/param/can-minimize.md) -m
+*   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) -m
+*   [icon parameter](/ref/%7Bskin%7D/param/icon.md) -m
+*   [title parameter](/ref/%7Bskin%7D/param/title.md) -m
+*   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) -m
+*   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) -m
+*   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) -m
+*   [name var (world)](/ref/world/var/name.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main) (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m(window only)
 <!-- -->
 **Format:**
 *   true/false

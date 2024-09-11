@@ -1,8 +1,7 @@
 ## Cut proc (list)
 **See also:**
-*   [Copy proc (list)](/list/proc/Copy)
-*   [Insert proc (list)](/list/proc/Insert)
-<!-- -->
+*   [Copy proc (list)](/ref/list/proc/Copy.md) -m
+*   [Insert proc (list)](/ref/list/proc/Insert.md) -m<!-- -->
 **Format:**
 *   list.Cut(Start=1,End=0)
 <!-- -->

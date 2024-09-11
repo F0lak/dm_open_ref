@@ -1,9 +1,8 @@
 ## noise_hash proc 
 ###### BYOND Version 515
 **See also:**
-*   [rand proc](/proc/rand)
-*   [rand_seed proc](/proc/rand_seed)
-<!-- -->
+*   [rand proc](/ref/proc/rand.md) -m
+*   [rand_seed proc](/ref/proc/rand_seed.md) -m<!-- -->
 **Format:**
 *   noise_hash(num1, num2, num3\...)
 *   noise_hash(list_of_nums)

@@ -1,12 +1,11 @@
 ## image objects
 **See also:**
-*   [icon var (atom)](/atom/var/icon)
-*   [image proc](/proc/image)
-*   [vars (image)](/image/var)
-*   [images var (client)](/client/var/images)
-*   [overlays var (atom)](/atom/var/overlays)
-*   [override var (atom)](/atom/var/override)
-
+*   [icon var (atom)](/ref/atom/var/icon.md) -m
+*   [image proc](/ref/proc/image.md) -m
+*   [vars (image)](/ref/image/var.md) -m
+*   [images var (client)](/ref/client/var/images.md) -m
+*   [overlays var (atom)](/ref/atom/var/overlays.md) -m
+*   [override var (atom)](/ref/atom/var/override.md) -m
 
 The /image type contains data used to create a virtual image.
 Unlike other atomic objects, this object is a purely visual effect. It

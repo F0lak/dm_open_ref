@@ -1,11 +1,10 @@
 ## winshow proc
 **See also:**
-*   [winclone proc](/proc/winclone)
-*   [winget proc](/proc/winget)
-*   [winset proc](/proc/winset)
-*   [User interface skins](/%7Bskin%7D)
-*   [is-visible parameter (skin)](/%7Bskin%7D/param/is-visible)
-<!-- -->
+*   [winclone proc](/ref/proc/winclone.md) -m
+*   [winget proc](/ref/proc/winget.md) -m
+*   [winset proc](/ref/proc/winset.md) -m
+*   [User interface skins](/ref/%7Bskin%7D.md) -m
+*   [is-visible parameter (skin)](/ref/%7Bskin%7D/param/is-visible.md) -m<!-- -->
 **Format:**
 *   winshow(player, window, show=1)
 <!-- -->

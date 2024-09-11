@@ -1,9 +1,8 @@
 ## Drop shadow filter 
 ###### BYOND Version 512
 **See also:**
-*   [Gaussian blur (filters)](/%7Bnotes%7D/filters/blur)
-*   [Outline (filters)](/%7Bnotes%7D/filters/outline)
-<!-- -->
+*   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) -m
+*   [Outline (filters)](/ref/%7Bnotes%7D/filters/outline.md) -m<!-- -->
 Format:
 *   filter(type=\"drop_shadow\", \...)
 <!-- -->

@@ -1,14 +1,13 @@
 ## Big icons
 **See also:**
-*   [icon](/icon)
-*   [procs (icon)](/icon/proc)
-*   [Blend proc (icon)](/icon/proc/Blend)
-*   [map_format var (world)](/world/var/map_format)
-*   [icon_size var (world)](/world/var/icon_size)
-*   [Tiled icons](/%7Bnotes%7D/tiled-icons)
-*   [Isometric maps](/%7Bnotes%7D/isometric)
-*   [Side-view maps](/%7Bnotes%7D/side)
-
+*   [icon](/ref/icon.md) -m
+*   [procs (icon)](/ref/icon/proc.md) -m
+*   [Blend proc (icon)](/ref/icon/proc/Blend.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m
+*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
+*   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) -m
+*   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) -m
+*   [Side-view maps](/ref/%7Bnotes%7D/side.md) -m
 
 BYOND allows you to use icons that are not the same size as the
 tile size defined in world.icon_size. These icons can be manipulated

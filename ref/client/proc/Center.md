@@ -1,7 +1,6 @@
 ## Center proc (client)
 **See also:**
-*   [walk proc](/proc/walk)
-<!-- -->
+*   [walk proc](/ref/proc/walk.md) -m<!-- -->
 **Format:**
 *   Center()
 <!-- -->

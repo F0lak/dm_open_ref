@@ -1,13 +1,12 @@
 ## outer-pos parameter (skin) 
 ###### BYOND Version 515
 **See also:**
-*   [pos parameter](/%7Bskin%7D/param/pos)
-*   [outer-size parameter](/%7Bskin%7D/param/outer-size)
-*   [inner-pos parameter](/%7Bskin%7D/param/inner-pos)
+*   [pos parameter](/ref/%7Bskin%7D/param/pos.md) -m
+*   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) -m
+*   [inner-pos parameter](/ref/%7Bskin%7D/param/inner-pos.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main)
-<!-- -->
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m<!-- -->
 **Format:**
 *   *x*,*y*
 

@@ -1,10 +1,9 @@
 ## tick_lag var (world)
 **See also:**
-*   [fps var (world)](/world/var/fps)
-*   [tick_lag var (client)](/client/var/tick_lag)
-*   [tick_usage var (world)](/world/var/tick_usage)
-*   [sleep proc](/proc/sleep)
-<!-- -->
+*   [fps var (world)](/ref/world/var/fps.md) -m
+*   [tick_lag var (client)](/ref/client/var/tick_lag.md) -m
+*   [tick_usage var (world)](/ref/world/var/tick_usage.md) -m
+*   [sleep proc](/ref/proc/sleep.md) -m<!-- -->
 **Default value:**
 *   1
 

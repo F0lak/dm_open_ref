@@ -1,7 +1,6 @@
 ## hascall proc
 **See also:**
-*   [call proc](/proc/call)
-<!-- -->
+*   [call proc](/ref/proc/call.md) -m<!-- -->
 **Format:**
 *   hascall(Object,ProcName)
 <!-- -->

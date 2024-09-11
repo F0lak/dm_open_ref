@@ -1,15 +1,14 @@
 ## step_size var (movable atom) 
 ###### BYOND Version 490
 **See also:**
-*   [step_x var (movable atom)](/atom/movable/var/step_x)
-*   [step_y var (movable atom)](/atom/movable/var/step_y)
-*   [Move proc (movable atom)](/atom/movable/proc/Move)
-*   [locs list var (movable atom)](/atom/movable/var/locs)
-*   [fps var (world)](/world/var/fps)
-*   [icon_size var (world)](/world/var/icon_size)
-*   [Gliding](/%7Bnotes%7D/gliding)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
-<!-- -->
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m
+*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) -m
+*   [fps var (world)](/ref/world/var/fps.md) -m
+*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
+*   [Gliding](/ref/%7Bnotes%7D/gliding.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
 **Default value:**
 *   32 (width of default icon; depends on world.icon_size)
 

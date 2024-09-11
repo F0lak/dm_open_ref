@@ -1,8 +1,7 @@
 ## time var (world)
 **See also:**
-*   [realtime var (world)](/world/var/realtime)
-*   [tick_lag var (world)](/world/var/tick_lag)
-
+*   [realtime var (world)](/ref/world/var/realtime.md) -m
+*   [tick_lag var (world)](/ref/world/var/tick_lag.md) -m
 
 This gives the amount of time (in 1/10 seconds) that the world
 has been running. In actual fact, it is the number of server ticks that

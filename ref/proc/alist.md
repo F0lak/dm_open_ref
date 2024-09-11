@@ -1,9 +1,9 @@
 ## alist proc 
 ###### BYOND Version 516
 **See also:**
-*   [list associations](/list/associations)
-*   [list](/list)
-*   [list proc](/proc/list)
+*   [list associations](/ref/list/associations.md) -m
+*   [list](/ref/list.md) -m
+*   [list proc](/ref/proc/list.md) -m
 <!-- -->
 **Format:**
 *   alist(A=a,B=b,C=c,\...)
@@ -18,7 +18,7 @@
 
 
 Creates a strictly associative list with key,value pairs. This
-is different from an [ordinary list](/list) in several respects.
+is different from an [ordinary list](/ref/list.md) -m in several respects.
 -   \"Keys\" can be numbers. This means list items can\'t be accessed by
     a numerical index.
 -   Keys can\'t be repeated in the list, and always have an associated
@@ -43,4 +43,4 @@ var/alist/lst = alist(player = \"James Byond\", score = 2000)
 
 
 In other words, this is exactly the same syntax as for [named
-arguments](/proc/arguments/named).
+arguments](/ref/proc/arguments/named.md) -m

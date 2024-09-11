@@ -2,12 +2,12 @@
 
 
 A button that can be pressed to run a
-[command](/%7Bskin%7D/commands), or possibly toggled.
+[command](/ref/%7Bskin%7D/commands.md) -m, or possibly toggled.
 **Button-specific parameters:**
-*   [button-type](/%7Bskin%7D/param/button-type)
-*   [command](/%7Bskin%7D/param/command)
-*   [group](/%7Bskin%7D/param/group)
-*   [image](/%7Bskin%7D/param/image)
-*   [is-checked](/%7Bskin%7D/param/is-checked)
-*   [is-flat](/%7Bskin%7D/param/is-flat)
-*   [text](/%7Bskin%7D/param/text)
+*   [button-type](/ref/%7Bskin%7D/param/button-type.md) -m
+*   [command](/ref/%7Bskin%7D/param/command.md) -m
+*   [group](/ref/%7Bskin%7D/param/group.md) -m
+*   [image](/ref/%7Bskin%7D/param/image.md) -m
+*   [is-checked](/ref/%7Bskin%7D/param/is-checked.md) -m
+*   [is-flat](/ref/%7Bskin%7D/param/is-flat.md) -m
+*   [text](/ref/%7Bskin%7D/param/text.md) -m

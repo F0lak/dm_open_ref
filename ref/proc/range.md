@@ -1,10 +1,9 @@
 ## range proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [block](/proc/block)
-*   [view proc](/proc/view)
-*   [orange proc](/proc/orange)
-<!-- -->
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [block](/ref/proc/block.md) -m
+*   [view proc](/ref/proc/view.md) -m
+*   [orange proc](/ref/proc/orange.md) -m<!-- -->
 **Format:**
 *   range(Dist,Center=usr)
 <!-- -->

@@ -1,8 +1,8 @@
 ## src var (proc)
 **See also:**
-*   [usr var (proc)](/proc/var/src)
-*   [procs](/proc)
-*   [verbs](/verb)
+*   [usr var (proc)](/ref/proc/var/src.md) -m
+*   [procs](/ref/proc.md) -m
+*   [verbs](/ref/verb.md) -m
 
 
 This is a variable equal to the object containing the proc or
@@ -20,4 +20,4 @@ output will be \"Bob eats the bread.\"
 
 Note that `src` has no
 meaning for global procs, derived from `/proc`, unless they are invoked
-as verbs (by being attached to a [verb list](/atom/var/verbs)).
+as verbs (by being attached to a [verb list](/ref/atom/var/verbs.md) -m.

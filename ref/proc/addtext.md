@@ -1,7 +1,6 @@
 ## addtext proc
 **See also:**
-*   [+ operator](/operator/+)
-<!-- -->
+*   [+ operator](/ref/operator/+.md) -m<!-- -->
 **Format:**
 *   addtext(Arg1,Arg2,\...)
 <!-- -->

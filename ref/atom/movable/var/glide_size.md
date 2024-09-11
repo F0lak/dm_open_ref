@@ -2,22 +2,22 @@
 ###### BYOND Version 490
 **See also:**
 *   [animate_movement var (movable
-    atoms)](/atom/movable/var/animate_movement)
-*   [glide_size var (client)](/client/var/glide_size)
-*   [pixel_x var (atom)](/atom/var/pixel_x)
-*   [pixel_y var (atom)](/atom/var/pixel_y)
-*   [icon_size var (world)](/world/var/icon_size)
-*   [movement_mode var (world)](/world/var/movement_mode)
-*   [fps var (client)](/client/var/fps)
-*   [Gliding](/%7Bnotes%7D/gliding)
+    atoms)](/ref/atom/movable/var/animate_movement.md) -m
+*   [glide_size var (client)](/ref/client/var/glide_size.md) -m
+*   [pixel_x var (atom)](/ref/atom/var/pixel_x.md) -m
+*   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) -m
+*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
+*   [movement_mode var (world)](/ref/world/var/movement_mode.md) -m
+*   [fps var (client)](/ref/client/var/fps.md) -m
+*   [Gliding](/ref/%7Bnotes%7D/gliding.md) -m
 <!-- -->
 **Default value:**
 *   0
 
 
 Note* The way this setting is used depends on
-[world.movement_mode](/world/var/movement_mode). See
-[Gliding](/%7Bnotes%7D/gliding) for more details. 
+[world.movement_mode](/ref/world/var/movement_mode.md) -m. See
+[Gliding](/ref/%7Bnotes%7D/gliding.md) -mfor more details. 
 
 This
 controls the number of pixels an object is moved in each footstep during

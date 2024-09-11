@@ -1,8 +1,7 @@
 ## Join proc (list) 
 ###### BYOND Version 510
 **See also:**
-*   [jointext proc](/proc/jointext)
-<!-- -->
+*   [jointext proc](/ref/proc/jointext.md) -m<!-- -->
 **Format:**
 *   list.Join(Glue,Start=1,End=0)
 <!-- -->

@@ -1,4 +1,4 @@
-## Rays filter 
+# Rays filter 
 ###### BYOND Version 513
 Format:
 *   filter(type=\"rays\", \...)

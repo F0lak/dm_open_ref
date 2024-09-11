@@ -1,8 +1,7 @@
 ## num2text proc
 **See also:**
-*   [isnum proc](/proc/isnum)
-*   [text2num proc](/proc/text2num)
-<!-- -->
+*   [isnum proc](/ref/proc/isnum.md) -m
+*   [text2num proc](/ref/proc/text2num.md) -m<!-- -->
 **Format:**
 *   num2text(N, SigFig=6)
 *   num2text(N, Digits, Radix)

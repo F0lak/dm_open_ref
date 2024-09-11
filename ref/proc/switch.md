@@ -1,7 +1,7 @@
 ## switch proc
 **See also:**
-*   [if proc](/proc/if)
-*   [#pragma syntax directive](/DM/preprocessor/pragma/syntax)
+*   [if proc](/ref/proc/if.md) -m
+*   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) -m
 **Format:**
 switch(E)
 *   if(A1,A2,\...) Statement1
@@ -50,10 +50,10 @@ takes over is not defined.
 
 
 Using the [`#pragma syntax`
-directive](/DM/preprocessor/pragma/syntax) you can change `switch()` to
+directive](/ref/DM/preprocessor/pragma/syntax.md) -m you can change `switch()` to
 be more like other languages such as C. This replaces the if/else
 instructions with `case `*`value`* and `default` with a trailing colon.
-If you don\'t use the [`break` statement](/proc/break) at the end of a
+If you don\'t use the [`break` statement](/ref/proc/break.md) -mat the end of a
 block, it will fall through to the next block.
 ### Example:
 

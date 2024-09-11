@@ -1,14 +1,14 @@
 ## menu parameter (skin)
 **See also:**
-*   [macro parameter](/%7Bskin%7D/param/macro)
-*   [id parameter](/%7Bskin%7D/param/id)
+*   [macro parameter](/ref/%7Bskin%7D/param/macro.md) -m
+*   [id parameter](/ref/%7Bskin%7D/param/id.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main) (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m (window only)
 <!-- -->
 **Format:**
 *   string
 
 
-The [`id`](/%7Bskin%7D/param/id) of the menu this window
+The [id](/ref/%7Bskin%7D/param/id.md) -m.code} of the menu this window
 will use, if any, when it\'s active.

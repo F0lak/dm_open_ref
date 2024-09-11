@@ -1,8 +1,7 @@
 ## fcopy proc
 **See also:**
-*   [fcopy_rsc proc](/proc/fcopy_rsc)
-*   [shell proc](/proc/shell)
-<!-- -->
+*   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) -m
+*   [shell proc](/ref/proc/shell.md) -m<!-- -->
 **Format:**
 *   fcopy(Src,Dst)
 <!-- -->

@@ -1,9 +1,9 @@
 ## Export proc (client)
 **See also:**
-*   [Import proc (client)](/client/proc/Import)
-*   [New proc (client)](/client/proc/New)
-*   [hub var (world)](/world/var/hub)
-*   [savefile](/savefile)
+*   [Import proc (client)](/ref/client/proc/Import.md) -m
+*   [New proc (client)](/ref/client/proc/New.md) -m
+*   [hub var (world)](/ref/world/var/hub.md) -m
+*   [savefile](/ref/savefile.md) -m
 <!-- -->
 **Format:**
 *   client.Export(file)
@@ -13,7 +13,7 @@
 
 
 This stores the file on the user\'s computer in a special
-location unique to each registered [world.hub](/world/var/hub) setting.
+location unique to each registered [world.hub](/ref/world/var/hub.md) -msetting.
 This is most useful for writing a client-side savefile, but any type of
 file may be stored. The purpose of this is to exchange information
 between different worlds running under the same hub path. 

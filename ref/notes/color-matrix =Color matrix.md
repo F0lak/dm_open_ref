@@ -1,10 +1,9 @@
 ## Color matrix 
 ###### BYOND Version 509
 **See also:**
-*   [color var (atom)](/atom/var/color)
-*   [color var (client)](/client/var/color)
-*   [MapColors proc (icon)](/icon/proc/MapColors)
-
+*   [color var (atom)](/ref/atom/var/color.md) -m
+*   [color var (client)](/ref/client/var/color.md) -m
+*   [MapColors proc (icon)](/ref/icon/proc/MapColors.md) -m
 
 A color matrix is used to transform colors, in the same way
 that a matrix represented by the `/matrix` datum is used to transform 2D

@@ -1,13 +1,13 @@
 ## .winset (client command)
 **See also:**
-*   [winset proc](/proc/winset)
-*   [client commands](/%7Bskin%7D/commands)
+*   [winset proc](/ref/proc/winset.md) -m
+*   [client commands](/ref/%7Bskin%7D/commands.md) -m
 <!-- -->
 **Format:**
 *   .winset \"*\[control.param=value;\...\]*\"
 
 
-Sets skin parameters like the [`winset()` proc](/proc/winset).
+Sets skin parameters like the [`winset()` proc](/ref/proc/winset.md) -m
 You can set more than one parameter by separating them with semicolons.
 
 

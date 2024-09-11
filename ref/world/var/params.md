@@ -1,9 +1,8 @@
 ## params var (world)
 **See also:**
-*   [list associations](/list/associations)
-*   [params2list proc](/proc/params2list)
-*   [startup proc](/proc/startup)
-<!-- -->
+*   [list associations](/ref/list/associations.md) -m
+*   [params2list proc](/ref/proc/params2list.md) -m
+*   [startup proc](/ref/proc/startup.md) -m<!-- -->
 **Default value:**
 *   null
 

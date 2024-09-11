@@ -1,11 +1,10 @@
 ## arctan proc 
 ###### BYOND Version 513
 **See also:**
-*   [arcsin proc](/proc/arcsin)
-*   [arccos proc](/proc/arccos)
-*   [tan proc](/proc/tan)
-*   [turn proc](/proc/turn)
-<!-- -->
+*   [arcsin proc](/ref/proc/arcsin.md) -m
+*   [arccos proc](/ref/proc/arccos.md) -m
+*   [tan proc](/ref/proc/tan.md) -m
+*   [turn proc](/ref/proc/turn.md) -m<!-- -->
 **Format:**
 *   arctan(Num)
 *   arctan(x, y)

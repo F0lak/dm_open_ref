@@ -5,24 +5,24 @@ The classic BYOND statpanel, which contains both stat and verb
 tabs. This is technically a 3-column grid with a variable number of
 rows.
 **Info-specific parameters:**
-*   [allow-html](/%7Bskin%7D/param/allow-html)
-*   [highlight-color](/%7Bskin%7D/param/highlight-color)
-*   [multi-line](/%7Bskin%7D/param/multi-line)
-*   [on-hide](/%7Bskin%7D/param/on-hide)
-*   [on-show](/%7Bskin%7D/param/on-show)
-*   [on-tab](/%7Bskin%7D/param/on-tab)
-*   [prefix-color](/%7Bskin%7D/param/prefix-color)
-*   [suffix-color](/%7Bskin%7D/param/suffix-color)
-*   [tab-background-color](/%7Bskin%7D/param/tab-background-color)
+*   [allow-html](/ref/%7Bskin%7D/param/allow-html.md) -m
+*   [highlight-color](/ref/%7Bskin%7D/param/highlight-color.md) -m
+*   [multi-line](/ref/%7Bskin%7D/param/multi-line.md) -m
+*   [on-hide](/ref/%7Bskin%7D/param/on-hide.md) -m
+*   [on-show](/ref/%7Bskin%7D/param/on-show.md) -m
+*   [on-tab](/ref/%7Bskin%7D/param/on-tab.md) -m
+*   [prefix-color](/ref/%7Bskin%7D/param/prefix-color.md) -m
+*   [suffix-color](/ref/%7Bskin%7D/param/suffix-color.md) -m
+*   [tab-background-color](/ref/%7Bskin%7D/param/tab-background-color.md) -m
 *   [tab-font-family, tab-font-size,
-    tab-font-style](/%7Bskin%7D/param/tab-font)
-*   [tab-text-color](/%7Bskin%7D/param/tab-text-color)
+    tab-font-style](/ref/%7Bskin%7D/param/tab-font.md) -m
+*   [tab-text-color](/ref/%7Bskin%7D/param/tab-text-color.md) -m
 
 
 Output to a statpanel is done via the
-[`stat()`](/proc/stat) and [`statpanel()`](/proc/statpanel)
-procs, during [`mob/Stat()`](/atom/proc/stat). 
+[stat()](/ref/proc/stat.md) -m{.code} and [statpanel()](/ref/proc/statpanel.md) -m{.code}
+procs, during [mob/Stat()](/ref/atom/proc/stat.md) -m{.code}. 
 
 The same
-limitations that apply to [grid](/%7Bskin%7D/control/grid) output apply
+limitations that apply to [grid](/ref/%7Bskin%7D/control/grid.md) -moutput apply
 here.

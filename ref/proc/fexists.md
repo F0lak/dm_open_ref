@@ -1,9 +1,8 @@
 ## fexists proc
 **See also:**
-*   [flist proc](/proc/flist)
-*   [ftime proc](/proc/ftime)
-*   [length proc](/proc/length)
-<!-- -->
+*   [flist proc](/ref/proc/flist.md) -m
+*   [ftime proc](/ref/proc/ftime.md) -m
+*   [length proc](/ref/proc/length.md) -m<!-- -->
 **Format:**
 *   fexists(File)
 <!-- -->

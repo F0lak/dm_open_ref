@@ -1,13 +1,12 @@
 ## Find proc (regex) 
 ###### BYOND Version 510
 **See also:**
-*   [Regular expressions](/%7Bnotes%7D/regex)
-*   [regex datum](/regex)
-*   [Replace proc (regex)](/regex/proc/Replace)
-*   [regex vars](/regex/var)
-*   [regex proc](/proc/regex)
-*   [findtext proc](/proc/findtext)
-<!-- -->
+*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) -m
+*   [regex datum](/ref/regex.md) -m
+*   [Replace proc (regex)](/ref/regex/proc/Replace.md) -m
+*   [regex vars](/ref/regex/var.md) -m
+*   [regex proc](/ref/proc/regex.md) -m
+*   [findtext proc](/ref/proc/findtext.md) -m<!-- -->
 **Format:**
 *   Find(haystack, Start=1, End=0)
 <!-- -->

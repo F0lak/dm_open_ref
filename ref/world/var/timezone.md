@@ -1,11 +1,10 @@
 ## timezone var (world) 
 ###### BYOND Version 514
 **See also:**
-*   [realtime var (world)](/world/var/realtime)
-*   [timeofday var (world)](/world/var/timeofday)
-*   [timezone var (client)](/client/var/timezone)
-*   [time2text proc](/proc/time2text)
-
+*   [realtime var (world)](/ref/world/var/realtime.md) -m
+*   [timeofday var (world)](/ref/world/var/timeofday.md) -m
+*   [timezone var (client)](/ref/client/var/timezone.md) -m
+*   [time2text proc](/ref/proc/time2text.md) -m
 
 This is the time offset from UTC, in hours, for the world\'s
 time zone. It can be used in the `time2text()` proc, although it is the

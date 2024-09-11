@@ -3,7 +3,7 @@
 *   0
 
 
-**Currently this only applies to [images](/image).**
+**Currently this only applies to [images](/ref/image.md) -m**
 
 
 If you attach an image to an atom, normally it is seen only in

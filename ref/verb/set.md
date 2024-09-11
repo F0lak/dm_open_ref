@@ -1,4 +1,4 @@
-## settings (verb)
+# settings (verb)
 
 
 verb settings:

@@ -1,11 +1,10 @@
 ## vars list var (datum)
 **See also:**
-*   [initial proc](/proc/initial)
-*   [issaved proc](/proc/issaved)
-*   [list](/list)
-*   [list associations](/list/associations)
-*   [vars list var (global)](/DM/vars)
-
+*   [initial proc](/ref/proc/initial.md) -m
+*   [issaved proc](/ref/proc/issaved.md) -m
+*   [list](/ref/list.md) -m
+*   [list associations](/ref/list/associations.md) -m
+*   [vars list var (global)](/ref/DM/vars.md) -m
 
 This is a list of all the variables belonging to an object. The
 items in the list are the variable names. If the variable name is used

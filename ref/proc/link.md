@@ -1,10 +1,9 @@
 ## link proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [Topic proc (client)](/client/proc/Topic)
-*   [file proc](/proc/file)
-*   [run proc](/proc/run)
-<!-- -->
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [Topic proc (client)](/ref/client/proc/Topic.md) -m
+*   [file proc](/ref/proc/file.md) -m
+*   [run proc](/ref/proc/run.md) -m<!-- -->
 **Format:**
 *   O \<\< link(url)
 

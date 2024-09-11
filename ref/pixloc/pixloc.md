@@ -1,10 +1,10 @@
 ## pixloc 
 ###### BYOND Version 516
 **See also:**
-*   [vars (pixloc)](/pixloc/var)
-*   [pixloc var (atom)](/atom/var/pixloc)
-*   [pixloc proc](/proc/pixloc)
-*   [bound_pixloc proc](/proc/bound_pixloc)
+*   [vars (pixloc)](/ref/pixloc/var.md) -m
+*   [pixloc var (atom)](/ref/atom/var/pixloc.md) -m
+*   [pixloc proc](/ref/proc/pixloc.md) -m
+*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) -m
 
 
 A primitive type that encapsulates position information for an
@@ -14,21 +14,21 @@ coordinates.
 
 The pixloc of an atom is taken from its loc and
 step_x/y vars only. If you want the pixloc of its bounds edges or its
-center, use the [`bound_pixloc()` proc](/proc/bound_pixloc) for that.
+center, use the [`bound_pixloc()` proc](/ref/proc/bound_pixloc.md) -m for that.
 
 
-Pixlocs support some math operations. A [vector](/vector) can
+Pixlocs support some math operations. A [vector](/ref/vector.md) -m can
 be added or subtracted to a pixloc, and subtracting one pixloc from
-another will produce a vector. The [`%`](/operator/%) and
-[`%%`](/operator/%%) operators are supported, returning a vector.
+another will produce a vector. The [%](/ref/operator/%.md) -m{.code} and
+[%%](/ref/operator/%%.md) -m{.code} operators are supported, returning a vector.
 
 
 Other supported procs for pixlocs include:
-[`min()`](/proc/min)
-[`max()`](/proc/max)
-[`clamp()`](/proc/clamp)
-[`round()`](/proc/round)
-[`floor()`](/proc/floor)
-[`ceil()`](/proc/ceil)
-[`trunc()`](/proc/trunc)
-[`fract()`](/proc/fract) (returns a vector)
+[min()](/ref/proc/min.md) -m{.code}
+[max()](/ref/proc/max.md) -m{.code}
+[clamp()](/ref/proc/clamp.md) -m{.code}
+[round()](/ref/proc/round.md) -m{.code}
+[floor()](/ref/proc/floor.md) -m{.code}
+[ceil()](/ref/proc/ceil.md) -m{.code}
+[trunc()](/ref/proc/trunc.md) -m{.code}
+[fract()](/ref/proc/fract.md) -m.code} (returns a vector)

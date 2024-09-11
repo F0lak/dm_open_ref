@@ -1,9 +1,8 @@
 ## ckey proc
 **See also:**
-*   [ckeyEx proc](/proc/ckeyEx)
-*   [ckey var (mob)](/mob/var/ckey)
-*   [savefile](/savefile)
-<!-- -->
+*   [ckeyEx proc](/ref/proc/ckeyEx.md) -m
+*   [ckey var (mob)](/ref/mob/var/ckey.md) -m
+*   [savefile](/ref/savefile.md) -m<!-- -->
 **Format:**
 *   ckey(Key)
 <!-- -->

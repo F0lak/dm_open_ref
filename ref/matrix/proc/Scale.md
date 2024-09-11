@@ -1,9 +1,8 @@
 ## Scale proc (matrix)
 **See also:**
-*   [matrix](/matrix)
-*   [matrix operators](/matrix/operators)
-*   [matrix procs](/matrix/proc)
-<!-- -->
+*   [matrix](/ref/matrix.md) -m
+*   [matrix operators](/ref/matrix/operators.md) -m
+*   [matrix procs](/ref/matrix/proc.md) -m<!-- -->
 **Format:**
 *   Scale(x,y)
 <!-- -->

@@ -1,4 +1,4 @@
-## loc var (image)
+# loc var (image)
 
 
 The location of an image specifies the object to which the

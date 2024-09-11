@@ -3,10 +3,10 @@
 
 Displays text output.
 **Output-specific parameters:**
-*   [enable-http-images](/%7Bskin%7D/param/enable-http-images)
-*   [image](/%7Bskin%7D/param/image)
-*   [legacy-size](/%7Bskin%7D/param/legacy-size)
-*   [link-color](/%7Bskin%7D/param/link-color)
-*   [max-lines](/%7Bskin%7D/param/max-lines)
-*   [style](/%7Bskin%7D/param/style)
-*   [visited-color](/%7Bskin%7D/param/visited-color)
+*   [enable-http-images](/ref/%7Bskin%7D/param/enable-http-images.md) -m
+*   [image](/ref/%7Bskin%7D/param/image.md) -m
+*   [legacy-size](/ref/%7Bskin%7D/param/legacy-size.md) -m
+*   [link-color](/ref/%7Bskin%7D/param/link-color.md) -m
+*   [max-lines](/ref/%7Bskin%7D/param/max-lines.md) -m
+*   [style](/ref/%7Bskin%7D/param/style.md) -m
+*   [visited-color](/ref/%7Bskin%7D/param/visited-color.md) -m

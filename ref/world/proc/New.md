@@ -1,4 +1,4 @@
-## New proc (world)
+# New proc (world)
 **Format:**
 *   New()
 <!-- -->

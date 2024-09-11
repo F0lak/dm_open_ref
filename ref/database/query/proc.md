@@ -1,23 +1,23 @@
 ## procs (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/database)
-*   [database query datum](/database/query)
-*   [procs (database)](/database/proc)
+*   [database datum](/ref/database.md) -m
+*   [database query datum](/ref/database/query.md) -m
+*   [procs (database)](/ref/database/proc.md) -m
 
 
 Built-in database query procs:
 database/query/proc
-*   [Add](/database/query/proc/Add)
-*   [Clear](/database/query/proc/Clear)
-*   [Close](/database/query/proc/Close)
-*   [Columns](/database/query/proc/Columns)
-*   [Error](/database/query/proc/Error)
-*   [ErrorMsg](/database/query/proc/ErrorMsg)
-*   [Execute](/database/query/proc/Execute)
-*   [GetColumn](/database/query/proc/GetColumn)
-*   [GetRowData](/database/query/proc/GetRowData)
-*   [New](/database/query/proc/New)
-*   [NextRow](/database/query/proc/NextRow)
-*   [Reset](/database/query/proc/Reset)
-*   [RowsAffected](/database/query/proc/RowsAffected)
+*   [Add](/ref/database/query/proc/Add.md) -m
+*   [Clear](/ref/database/query/proc/Clear.md) -m
+*   [Close](/ref/database/query/proc/Close.md) -m
+*   [Columns](/ref/database/query/proc/Columns.md) -m
+*   [Error](/ref/database/query/proc/Error.md) -m
+*   [ErrorMsg](/ref/database/query/proc/ErrorMsg.md) -m
+*   [Execute](/ref/database/query/proc/Execute.md) -m
+*   [GetColumn](/ref/database/query/proc/GetColumn.md) -m
+*   [GetRowData](/ref/database/query/proc/GetRowData.md) -m
+*   [New](/ref/database/query/proc/New.md) -m
+*   [NextRow](/ref/database/query/proc/NextRow.md) -m
+*   [Reset](/ref/database/query/proc/Reset.md) -m
+*   [RowsAffected](/ref/database/query/proc/RowsAffected.md) -m

@@ -1,8 +1,7 @@
 ## frequency var (sound)
 **See also:**
-*   [vars (sound)](/sound/var)
-*   [pitch var (sound)](/sound/var/pitch)
-<!-- -->
+*   [vars (sound)](/ref/sound/var.md) -m
+*   [pitch var (sound)](/ref/sound/var/pitch.md) -m<!-- -->
 **Default value:**
 *   0
 

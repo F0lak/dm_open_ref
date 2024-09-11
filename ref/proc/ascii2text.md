@@ -1,7 +1,7 @@
 ## ascii2text proc
 **See also:**
-*   [entities (text)](/DM/text/entities)
-*   [text2ascii proc](/proc/text2ascii)
+*   [entities (text)](/ref/DM/text/entities.md) -m
+*   [text2ascii proc](/ref/proc/text2ascii.md) -m
 <!-- -->
 **Format:**
 *   ascii2text(N)
@@ -25,5 +25,5 @@ text representation.
  
 
 BYOND now
-supports [Unicode](/%7Bnotes%7D/Unicode) via UTF-8 encoding, so you can
+supports [Unicode](/ref/%7Bnotes%7D/Unicode.md) -mvia UTF-8 encoding, so you can
 use the character code for any valid Unicode character, not just ASCII.

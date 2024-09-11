@@ -1,7 +1,6 @@
 ## html_encode proc
 **See also:**
-*   [html_decode proc](/proc/html_decode)
-<!-- -->
+*   [html_decode proc](/ref/proc/html_decode.md) -m<!-- -->
 **Format:**
 *   html_encode(PlainText)
 <!-- -->

@@ -1,16 +1,15 @@
 ## eye var (client)
 **See also:**
-*   [edge_limit var (client)](/client/var/edge_limit)
-*   [lazy_eye var (client)](/client/var/lazy_eye)
-*   [mob var (client)](/client/var/mob)
-*   [perspective var (client)](/client/var/perspective)
-*   [glide_size var (client)](/client/var/glide_size)
-*   [view var (client)](/client/var/view)
-*   [virtual_eye var (client)](/client/var/virtual_eye)
-*   [view var (world)](/world/var/view)
-*   [step_x var (movable atom)](/atom/movable/var/step_x)
-*   [step_y var (movable atom)](/atom/movable/var/step_y)
-<!-- -->
+*   [edge_limit var (client)](/ref/client/var/edge_limit.md) -m
+*   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) -m
+*   [mob var (client)](/ref/client/var/mob.md) -m
+*   [perspective var (client)](/ref/client/var/perspective.md) -m
+*   [glide_size var (client)](/ref/client/var/glide_size.md) -m
+*   [view var (client)](/ref/client/var/view.md) -m
+*   [virtual_eye var (client)](/ref/client/var/virtual_eye.md) -m
+*   [view var (world)](/ref/world/var/view.md) -m
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m<!-- -->
 **Default value:**
 *   The connected mob, client.mob.
 

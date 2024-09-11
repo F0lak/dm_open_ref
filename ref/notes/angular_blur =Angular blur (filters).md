@@ -1,10 +1,9 @@
 ## Angular blur filter 
 ###### BYOND Version 513
 **See also:**
-*   [Gaussian blur (filters)](/%7Bnotes%7D/filters/blur)
-*   [Radial blur (filters)](/%7Bnotes%7D/filters/radial_blur)
-*   [Motion blur (filters)](/%7Bnotes%7D/filters/motion_blur)
-<!-- -->
+*   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) -m
+*   [Radial blur (filters)](/ref/%7Bnotes%7D/filters/radial_blur.md) -m
+*   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) -m<!-- -->
 Format:
 *   filter(type=\"angular_blur\", \...)
 <!-- -->

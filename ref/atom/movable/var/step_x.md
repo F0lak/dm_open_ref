@@ -1,13 +1,12 @@
 ## step_x var (movable atom) 
 ###### BYOND Version 490
 **See also:**
-*   [step_y var (movable atom)](/atom/movable/var/step_y)
-*   [step_size var (movable atom)](/atom/movable/var/step_size)
-*   [bound_x var (movable atom)](/atom/movable/var/bound_x)
-*   [Move proc (movable atom)](/atom/movable/proc/Move)
-*   [locs list var (movable atom)](/atom/movable/var/locs)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
-<!-- -->
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
+*   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) -m
+*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) -m
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m
+*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
 **Default value:**
 *   0
 

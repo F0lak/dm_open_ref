@@ -1,6 +1,6 @@
 ## flash parameter (skin)
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main) (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m(window only)
 <!-- -->
 **Format:**
 *   number

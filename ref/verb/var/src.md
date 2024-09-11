@@ -1,3 +1,3 @@
 ## src var (verb)
 **See:**
-*   [src var (proc)](/proc/var/src)
+*   [src var (proc)](/ref/proc/var/src.md) -m

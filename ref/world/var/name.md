@@ -1,4 +1,4 @@
-## name var (world)
+# name var (world)
 **Default value:**
 *   The \<world\> part of the \<world\>.dmb file.
 

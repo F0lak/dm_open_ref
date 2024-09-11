@@ -1,14 +1,13 @@
 ## \<=\> operator 
 ###### BYOND Version 516
 **See also:**
-*   [\< operator](/operator/%3c)
-*   [\> operator](/operator/%3e)
-*   [\<= operator](/operator/%3c=)
-*   [\>= operator](/operator/%3e=)
-*   [== operator](/operator/==)
-*   [operators](/operator)
-*   [sorttextEx proc](/proc/sorttextEx)
-<!-- -->
+*   [\< operator](/ref/operator/%3c.md) -m
+*   [\> operator](/ref/operator/%3e.md) -m
+*   [\<= operator](/ref/operator/%3c=.md) -m
+*   [\>= operator](/ref/operator/%3e=.md) -m
+*   [== operator](/ref/operator/==.md) -m
+*   [operators](/ref/operator.md) -m
+*   [sorttextEx proc](/ref/proc/sorttextEx.md) -m<!-- -->
 **Format:**
 *   A \<=\> B
 <!-- -->

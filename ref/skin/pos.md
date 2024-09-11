@@ -1,11 +1,10 @@
 ## pos parameter (skin)
 **See also:**
-*   [anchor1, anchor2 parameters](/%7Bskin%7D/param/anchor)
-*   [size parameter](/%7Bskin%7D/param/size)
+*   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) -m
+*   [size parameter](/ref/%7Bskin%7D/param/size.md) -m
 <!-- -->
 **Applies to:**
-*   [All](/%7Bskin%7D/control)
-<!-- -->
+*   [All](/ref/%7Bskin%7D/control.md) -m<!-- -->
 **Format:**
 *   *x*,*y*
 *   none

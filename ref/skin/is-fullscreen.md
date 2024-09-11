@@ -1,17 +1,17 @@
 ## is-fullscreen parameter (skin) 
 ###### BYOND Version 515
 **See also:**
-*   [can-resize parameter](/%7Bskin%7D/param/can-resize)
-*   [titlebar parameter](/%7Bskin%7D/param/titlebar)
-*   [is-maximized parameter](/%7Bskin%7D/param/is-maximized)
-*   [is-minimized parameter](/%7Bskin%7D/param/is-minimized)
-*   [size parameter](/%7Bskin%7D/param/size)
-*   [outer-size parameter](/%7Bskin%7D/param/outer-size)
-*   [screen-pos parameter](/%7Bskin%7D/param/screen-pos)
-*   [screen-size parameter](/%7Bskin%7D/param/screen-size)
+*   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) -m
+*   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) -m
+*   [is-maximized parameter](/ref/%7Bskin%7D/param/is-maximized.md) -m
+*   [is-minimized parameter](/ref/%7Bskin%7D/param/is-minimized.md) -m
+*   [size parameter](/ref/%7Bskin%7D/param/size.md) -m
+*   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) -m
+*   [screen-pos parameter](/ref/%7Bskin%7D/param/screen-pos.md) -m
+*   [screen-size parameter](/ref/%7Bskin%7D/param/screen-size.md) -m
 <!-- -->
 **Applies to:**
-*   [Main](/%7Bskin%7D/control/main) (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m(window only)
 <!-- -->
 **Format:**
 *   true/false

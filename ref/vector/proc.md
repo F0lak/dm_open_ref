@@ -1,15 +1,15 @@
 ## procs (vector) 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/vector)
-*   [vector proc](/proc/vector)
-*   [vars (vector)](/vector/var)
+*   [vector](/ref/vector.md) -m
+*   [vector proc](/ref/proc/vector.md) -m
+*   [vars (vector)](/ref/vector/var.md) -m
 
 
 Built-in vector procs:
 vector/proc
-*   [Cross](/vector/proc/Cross)
-*   [Dot](/vector/proc/Dot)
-*   [Interpolate](/vector/proc/Interpolate)
-*   [Normalize](/vector/proc/Normalize)
-*   [Turn](/vector/proc/Turn)
+*   [Cross](/ref/vector/proc/Cross.md) -m
+*   [Dot](/ref/vector/proc/Dot.md) -m
+*   [Interpolate](/ref/vector/proc/Interpolate.md) -m
+*   [Normalize](/ref/vector/proc/Normalize.md) -m
+*   [Turn](/ref/vector/proc/Turn.md) -m

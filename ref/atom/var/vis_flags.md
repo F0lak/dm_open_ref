@@ -1,8 +1,8 @@
 ## vis_flags var (atom) 
 ###### BYOND Version 513
 **See also:**
-*   [vis_contents var (atom)](/atom/var/vis_contents)
-*   [vis_locs var (atom)](/atom/var/vis_locs)
+*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) -m
+*   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) -m
 <!-- -->
 **Default value:**
 *   0
@@ -18,7 +18,7 @@
     like part of the same object.
 *   **VIS_UNDERLAY*** Act as if this is at the bottom of the parent\'s
     underlays list instead of overlays (only relevant if using
-    `VIS_INHERIT_LAYER` or a [`FLOAT_LAYER`](/atom/var/layer)).
+    `VIS_INHERIT_LAYER` or a [FLOAT_LAYER](/ref/atom/var/layer.md) -m{.code}).
 *   **VIS_HIDE*** Do not show this object in visual contents at all.
 
 
@@ -31,7 +31,7 @@ only to those types.
 
 The `VIS_INHERIT_ID` flag effectively
 makes this object act like an ordinary overlay when in visual contents.
-This means its [`mouse_opacity`](/atom/var/mouse_opacity) will be
+This means its [mouse_opacity](/ref/atom/var/mouse_opacity.md) -m.code} will be
 meaningless, for example. 
 
 Sometimes it\'s desirable for an

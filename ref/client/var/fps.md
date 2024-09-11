@@ -1,10 +1,9 @@
 ## fps var (client) 
 ###### BYOND Version 511
 **See also:**
-*   [fps var (world)](/world/var/fps)
-*   [tick_lag var (client)](/client/var/tick_lag)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
-<!-- -->
+*   [fps var (world)](/ref/world/var/fps.md) -m
+*   [tick_lag var (client)](/ref/client/var/tick_lag.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
 **Default value:**
 *   0 (uses world.fps value)
 

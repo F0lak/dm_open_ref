@@ -1,12 +1,11 @@
 ## new proc
 **See also:**
-*   [New proc (atom)](/atom/proc/New)
-*   [New proc (datum)](/datum/proc/New)
-*   [New proc (icon)](/icon/proc/New)
-*   [newlist proc](/proc/newlist)
-*   [path operators](/operator/path)
-*   [\_\_IMPLIED_TYPE\_\_ macro](/DM/preprocessor/__IMPLIED_TYPE__)
-<!-- -->
+*   [New proc (atom)](/ref/atom/proc/New.md) -m
+*   [New proc (datum)](/ref/datum/proc/New.md) -m
+*   [New proc (icon)](/ref/icon/proc/New.md) -m
+*   [newlist proc](/ref/proc/newlist.md) -m
+*   [path operators](/ref/operator/path.md) -m
+*   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) -m<!-- -->
 **Format:**
 *   new Type(Args)
 <!-- -->

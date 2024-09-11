@@ -1,11 +1,11 @@
 ## regex procs 
 ###### BYOND Version 510
 **See also:**
-*   [regex datum](/regex)
-*   [regex vars](/regex/var)
-*   [regex proc](/proc/regex)
+*   [regex datum](/ref/regex.md) -m
+*   [regex vars](/ref/regex/var.md) -m
+*   [regex proc](/ref/proc/regex.md) -m
 <!-- -->
 regex/proc
-*   [New](/proc/regex)
-*   [Find](/regex/proc/Find)
-*   [Replace](/regex/proc/Replace)
+*   [New](/ref/proc/regex.md) -m
+*   [Find](/ref/regex/proc/Find.md) -m
+*   [Replace](/ref/regex/proc/Replace.md) -m

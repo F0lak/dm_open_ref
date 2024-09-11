@@ -1,10 +1,9 @@
 ## time2text proc
 **See also:**
-*   [realtime var (world)](/world/var/realtime)
-*   [timeofday var (world)](/world/var/timeofday)
-*   [timezone var (world)](/world/var/timezone)
-*   [timezone var (client)](/client/var/timezone)
-<!-- -->
+*   [realtime var (world)](/ref/world/var/realtime.md) -m
+*   [timeofday var (world)](/ref/world/var/timeofday.md) -m
+*   [timezone var (world)](/ref/world/var/timezone.md) -m
+*   [timezone var (client)](/ref/client/var/timezone.md) -m<!-- -->
 **Format:**
 *   time2text(timestamp,format,timezone)
 <!-- -->

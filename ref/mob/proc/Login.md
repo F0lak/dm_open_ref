@@ -1,8 +1,7 @@
 ## Login proc (mob)
 **See also:**
-*   [Logout proc (mob)](/mob/proc/Logout)
-*   [client var (mob)](/mob/var/client)
-<!-- -->
+*   [Logout proc (mob)](/ref/mob/proc/Logout.md) -m
+*   [client var (mob)](/ref/mob/var/client.md) -m<!-- -->
 **Format:**
 *   Login()
 <!-- -->

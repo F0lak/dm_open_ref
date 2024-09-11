@@ -1,9 +1,8 @@
 ## Stat proc (atom)
 **See also:**
-*   [Stat proc (client)](/client/proc/Stat)
-*   [stat proc](/proc/stat)
-*   [Info control (skin)](/%7Bskin%7D/control/info)
-<!-- -->
+*   [Stat proc (client)](/ref/client/proc/Stat.md) -m
+*   [stat proc](/ref/proc/stat.md) -m
+*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) -m<!-- -->
 **Format:**
 *   Stat()
 <!-- -->

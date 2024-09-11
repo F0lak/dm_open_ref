@@ -1,4 +1,4 @@
-## loop_checks var (world)
+# loop_checks var (world)
 **Default value:**
 *   1
 

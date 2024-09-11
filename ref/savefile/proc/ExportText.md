@@ -1,6 +1,6 @@
 ## ExportText proc (savefile)
 **See also:**
-*   [ImportText proc (savefile)](/savefile/proc/ImportText)
+*   [ImportText proc (savefile)](/ref/savefile/proc/ImportText.md) -m
 <!-- -->
 **Format:**
 *   savefile.ExportText(path=cd,file)
@@ -17,7 +17,7 @@ text is returned as a text string instead of being written to a file.
 
 The following example shows how to export and later import a
 savefile. The user\'s mob is written into a directory with the same name
-as their [ckey](/mob/var/ckey) and the result is written to a text
+as their [ckey](/ref/mob/var/ckey.md) -mand the result is written to a text
 file.
 ### Example:
 

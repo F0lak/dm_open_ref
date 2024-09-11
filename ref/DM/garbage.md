@@ -1,8 +1,8 @@
 ## garbage collection
 **See also:**
-*   [del proc](/proc/del)
-*   [world](/world)
-*   [refcount proc](/proc/refcount)
+*   [del proc](/ref/proc/del.md) -m
+*   [world](/ref/world.md) -m
+*   [refcount proc](/ref/proc/refcount.md) -m
 
 
 At runtime, data objects are garbage collected. That means data
@@ -31,15 +31,15 @@ instruction.
 This is a quick list of things that count as references to an
 object:
 -   Stored in a var
--   An item in a [list](/list), or [associated](/list/associations)
+-   An item in a [list](/ref/list.md) -m, or [associated](/ref/list/associations.md) -m
     with a list item
--   Has a [`tag`](/datum/var/tag)
--   Is on the map (always true for [turfs](/turf))
--   Inside another atom\'s [`contents`](/atom/var/contents)
--   Inside an atom\'s [`vis_contents`](/atom/var/vis_contents)
+-   Has a [tag](/ref/datum/var/tag.md) -m{.code}
+-   Is on the map (always true for [turfs](/ref/turf.md) -m)
+-   Inside another atom\'s [contents](/ref/atom/var/contents.md) -m{.code}
+-   Inside an atom\'s [vis_contents](/ref/atom/var/vis_contents.md) -m{.code}
 -   A temporary value in a still-running proc
--   Is a [mob](/mob) with a [`key`](/mob/var/key)
--   Is an [image object](/image) attached to an atom
+-   Is a [mob](/ref/mob.md) -m with a [key](/ref/mob/var/key.md) -m{.code}
+-   Is an [image object](/ref/image.md) -mattached to an atom
 
 
 `del()` will try to clear out the most obvious possible

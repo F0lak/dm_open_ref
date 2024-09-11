@@ -1,15 +1,14 @@
 ## text parameter (skin)
 **See also:**
-*   [font-family parameter](/%7Bskin%7D/param/font-family)
-*   [font-size parameter](/%7Bskin%7D/param/font-size)
-*   [font-style parameter](/%7Bskin%7D/param/font-style)
-*   [text-wrap parameter](/%7Bskin%7D/param/text-wrap)
+*   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) -m
+*   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) -m
+*   [font-style parameter](/ref/%7Bskin%7D/param/font-style.md) -m
+*   [text-wrap parameter](/ref/%7Bskin%7D/param/text-wrap.md) -m
 <!-- -->
 **Applies to:**
-*   [Button](/%7Bskin%7D/control/button)
-*   [Input](/%7Bskin%7D/control/input)
-*   [Label](/%7Bskin%7D/control/label)
-<!-- -->
+*   [Button](/ref/%7Bskin%7D/control/button.md) -m
+*   [Input](/ref/%7Bskin%7D/control/input.md) -m
+*   [Label](/ref/%7Bskin%7D/control/label.md) -m<!-- -->
 **Format:**
 *   string
 

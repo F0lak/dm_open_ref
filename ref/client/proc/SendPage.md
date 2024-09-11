@@ -1,4 +1,4 @@
-## SendPage proc (client)
+# SendPage proc (client)
 **Format:**
 *   SendPage(msg,recipient,options)
 <!-- -->

@@ -1,10 +1,9 @@
 ## is-flat parameter (skin)
 **See also:**
-*   [button-type parameter](/%7Bskin%7D/param/button-type)
+*   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) -m
 <!-- -->
 **Applies to:**
-*   [Button](/%7Bskin%7D/control/button)
-<!-- -->
+*   [Button](/ref/%7Bskin%7D/control/button.md) -m<!-- -->
 **Format:**
 *   true/false
 <!-- -->

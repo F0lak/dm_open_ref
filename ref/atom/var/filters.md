@@ -1,10 +1,10 @@
 ## filters var (atom) 
 ###### BYOND Version 512
 **See also:**
-*   [appearance_flags var (atom)](/atom/var/appearance_flags)
-*   [filter proc](/proc/filter)
-*   [animate proc](/proc/animate)
-*   [Filter effects](/%7Bnotes%7D/filters)
+*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) -m
+*   [filter proc](/ref/proc/filter.md) -m
+*   [animate proc](/ref/proc/animate.md) -m
+*   [Filter effects](/ref/%7Bnotes%7D/filters.md) -m
 <!-- -->
 **Default value:**
 *   empty list
@@ -25,8 +25,7 @@ Atoms with the `KEEP_TOGETHER` flag will apply their filters
 after the composite image has been drawn. Filters will also apply to any
 maptext the atom has. 
 
-See the [filters](/%7Bnotes%7D/filters)
-section for more information on individual filters.
+See the [filters](/ref/%7Bnotes%7D/filters.md) -msection for more information on individual filters.
 ### Named Filters {#named-filters byondver="516"}
 
 

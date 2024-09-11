@@ -1,10 +1,9 @@
 ## Invert proc (matrix)
 **See also:**
-*   [matrix](/matrix)
-*   [matrix operators](/matrix/operators)
-*   [matrix procs](/matrix/proc)
-*   [\~ operator](/operator/~)
-<!-- -->
+*   [matrix](/ref/matrix.md) -m
+*   [matrix operators](/ref/matrix/operators.md) -m
+*   [matrix procs](/ref/matrix/proc.md) -m
+*   [\~ operator](/ref/operator/~.md) -m<!-- -->
 **Format:**
 *   Invert()
 <!-- -->

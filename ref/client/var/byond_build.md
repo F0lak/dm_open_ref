@@ -1,10 +1,9 @@
 ## byond_build var (client) 
 ###### BYOND Version 512
 **See also:**
-*   [DM_VERSION macro](/DM/preprocessor/DM_VERSION)
-*   [byond_version var (client)](/client/var/byond_version)
-*   [byond_version var (world)](/world/var/byond_version)
-
+*   [DM_VERSION macro](/ref/DM/preprocessor/DM_VERSION.md) -m
+*   [byond_version var (client)](/ref/client/var/byond_version.md) -m
+*   [byond_version var (world)](/ref/world/var/byond_version.md) -m
 
 This is the build number (minor version) of BYOND being run by
 this client. Typically this is not useful information, but it can come

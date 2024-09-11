@@ -1,9 +1,9 @@
 ## spantext proc 
 ###### BYOND Version 510
 **See also:**
-*   [findtext proc](/proc/findtext)
-*   [nonspantext proc](/proc/nonspantext)
-*   [splittext proc](/proc/splittext)
+*   [findtext proc](/ref/proc/findtext.md) -m
+*   [nonspantext proc](/ref/proc/nonspantext.md) -m
+*   [splittext proc](/ref/proc/splittext.md) -m
 <!-- -->
 **Format:**
 *   spantext(Haystack,Needles,Start=1)
@@ -31,4 +31,4 @@ Note:
 In strings containing non-ASCII characters, byte position and character
 position are not the same thing. Use `spantext_char()` to work with
 character counts instead of bytes, at a performance cost. See the
-[Unicode](/%7Bnotes%7D/Unicode) section for more information.
+[Unicode](/ref/%7Bnotes%7D/Unicode.md) -msection for more information.

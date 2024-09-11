@@ -1,10 +1,9 @@
 ## Open proc (database) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/database)
-*   [Close proc (database)](/database/proc/Close)
-*   [New proc (database)](/database/proc/New)
-<!-- -->
+*   [database datum](/ref/database.md) -m
+*   [Close proc (database)](/ref/database/proc/Close.md) -m
+*   [New proc (database)](/ref/database/proc/New.md) -m<!-- -->
 **Format:**
 *   Open(filename)
 <!-- -->

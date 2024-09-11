@@ -1,17 +1,16 @@
 ## Uncross proc (atom) 
 ###### BYOND Version 490
 **See also:**
-*   [Enter proc (atom)](/atom/proc/Enter)
-*   [Entered proc (atom)](/atom/proc/Entered)
-*   [Exit proc (atom)](/atom/proc/Exit)
-*   [Exited proc (atom)](/atom/proc/Exited)
-*   [Cross proc (atom)](/atom/proc/Cross)
-*   [Crossed proc (atom)](/atom/proc/Crossed)
-*   [Uncrossed proc (atom)](/atom/proc/Uncrossed)
-*   [Move proc (movable atom)](/atom/movable/proc/Move)
-*   [group var (mob)](/mob/var/group)
-*   [Pixel movement](/%7Bnotes%7D/pixel-movement)
-<!-- -->
+*   [Enter proc (atom)](/ref/atom/proc/Enter.md) -m
+*   [Entered proc (atom)](/ref/atom/proc/Entered.md) -m
+*   [Exit proc (atom)](/ref/atom/proc/Exit.md) -m
+*   [Exited proc (atom)](/ref/atom/proc/Exited.md) -m
+*   [Cross proc (atom)](/ref/atom/proc/Cross.md) -m
+*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) -m
+*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) -m
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m
+*   [group var (mob)](/ref/mob/var/group.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
 **Format:**
 *   Uncross(atom/movable/O)
 <!-- -->

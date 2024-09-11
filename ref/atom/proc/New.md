@@ -1,11 +1,11 @@
 ## New proc (atom)
 **See also:**
-*   [New proc (datum)](/datum/proc/New)
-*   [new proc](/proc/new)
+*   [New proc (datum)](/ref/datum/proc/New.md) -m
+*   [new proc](/ref/proc/new.md) -m
 <!-- -->
 **Format:**
 *   New(loc)
-*   [(supports [named arguments](/proc/arguments/named))]{.small}
+*   [(supports [named arguments](/ref/proc/arguments/named.md) -m]{.small}
 <!-- -->
 **When:**
 *   Called when the object is created.

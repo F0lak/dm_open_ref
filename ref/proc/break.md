@@ -1,11 +1,11 @@
 ## break statement
 **See also:**
-*   [continue statement](/proc/continue)
-*   [do proc](/proc/do)
-*   [for loop proc](/proc/for/loop)
-*   [while proc](/proc/while)
-*   [switch proc](/proc/switch)
-*   [#pragma syntax directive](/DM/preprocessor/pragma/syntax)
+*   [continue statement](/ref/proc/continue.md) -m
+*   [do proc](/ref/proc/do.md) -m
+*   [for loop proc](/ref/proc/for/loop.md) -m
+*   [while proc](/ref/proc/while.md) -m
+*   [switch proc](/ref/proc/switch.md) -m
+*   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) -m
 <!-- -->
 **Format:**
 *   break
@@ -34,7 +34,7 @@ For an example of how to use labeled loops, see the reference
 section for the `continue` statement. 
 
 The `break` statement can
-also be used inside of a [`switch()` proc](/proc/switch) when using
-[C-like syntax](/DM/preprocessor/pragma/syntax), where it breaks out of
+also be used inside of a [`switch()` proc](/ref/proc/switch.md) -m when using
+[C-like syntax](/ref/DM/preprocessor/pragma/syntax.md) -m, where it breaks out of
 a `case` block to the end of the switch. See [switch
-proc](/proc/switch) for more details.
+proc](/ref/proc/switch.md) -mfor more details.

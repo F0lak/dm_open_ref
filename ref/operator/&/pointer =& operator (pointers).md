@@ -1,9 +1,9 @@
 ## & pointer operator 
 ###### BYOND Version 515
 **See also:**
-*   [\* operator (pointers)](/operator/*/prefix)
-*   [operators](/operator)
-*   [ispointer proc](/proc/ispointer)
+*   [\* operator (pointers)](/ref/operator/*/prefix.md) -m
+*   [operators](/ref/operator.md) -m
+*   [ispointer proc](/ref/proc/ispointer.md) -m
 <!-- -->
 **Format:**
 *   &A
@@ -48,14 +48,14 @@ made for any of these kinds of vars:
 -   Arguments in a proc
 -   Global vars
 -   An item in a list, including values in [associative
-    lists](/list/associations)
+    lists](/ref/list/associations.md) -m
 
 
 One advantage of pointers is that you can use them to alter a
 value in a suspended (sleeping) proc. 
 
 Note* When
-[`spawn()`](/proc/spawn) is used, the current proc is forked,
+[spawn()](/ref/proc/spawn.md) -m.code} is used, the current proc is forked,
 where one keeps running and a copy is scheduled to run later. If any
 pointers to proc vars were created, they belong to the original proc
 (the one that keeps running), not to the fork.

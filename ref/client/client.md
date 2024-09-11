@@ -1,10 +1,9 @@
 ## client
 **See also:**
-*   [client var (mob)](/mob/var/client)
-*   [key var (mob)](/mob/var/key)
-*   [procs (client)](/client/proc)
-*   [vars (client)](/client/var)
-
+*   [client var (mob)](/ref/mob/var/client.md) -m
+*   [key var (mob)](/ref/mob/var/key.md) -m
+*   [procs (client)](/ref/client/proc.md) -m
+*   [vars (client)](/ref/client/var.md) -m
 
 Each connected player has a corresponding client object. It has
 variables and procedures which control aspects of player input/output.

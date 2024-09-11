@@ -1,4 +1,4 @@
-## authenticate var (client)
+# authenticate var (client)
 
 
 This value may be set to 0 at compile-time to disable BYOND

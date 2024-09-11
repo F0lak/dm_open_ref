@@ -1,9 +1,8 @@
 ## named arguments (proc)
 **See also:**
-*   [New proc (atom)](/atom/proc/New)
-*   [arglist proc](/proc/arglist)
-*   [arguments (proc)](/proc/arguments)
-
+*   [New proc (atom)](/ref/atom/proc/New.md) -m
+*   [arglist proc](/ref/proc/arglist.md) -m
+*   [arguments (proc)](/ref/proc/arguments.md) -m
 
 The parameters passed to a procedure are called arguments.
 These may either be passed in positional order, or they can be passed as

@@ -1,11 +1,10 @@
 ## group var (regex) 
 ###### BYOND Version 510
 **See also:**
-*   [regex datum](/regex)
-*   [Find proc (regex)](/regex/proc/Find)
-*   [index var (regex)](/regex/var/index)
-*   [match var (regex)](/regex/var/match)
-
+*   [regex datum](/ref/regex.md) -m
+*   [Find proc (regex)](/ref/regex/proc/Find.md) -m
+*   [index var (regex)](/ref/regex/var/index.md) -m
+*   [match var (regex)](/ref/regex/var/match.md) -m
 
 After a call to Find(), if this regular expression had any
 parentheses groups, whatever text was matched in those groups is stored

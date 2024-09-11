@@ -1,7 +1,6 @@
 ## flist proc
 **See also:**
-*   [fexists proc](/proc/fexists)
-<!-- -->
+*   [fexists proc](/ref/proc/fexists.md) -m<!-- -->
 **Format:**
 *   flist(Path)
 <!-- -->

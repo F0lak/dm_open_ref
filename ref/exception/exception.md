@@ -1,13 +1,12 @@
 ## exception 
 ###### BYOND Version 508
 **See also:**
-*   [try and catch statements](/proc/try)
-*   [Error proc (world)](/world/proc/Error)
-*   [throw statement](/proc/throw)
-*   [EXCEPTION proc](/proc/EXCEPTION)
-*   [caller var (proc)](/proc/var/caller)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
-<!-- -->
+*   [try and catch statements](/ref/proc/try.md) -m
+*   [Error proc (world)](/ref/world/proc/Error.md) -m
+*   [throw statement](/ref/proc/throw.md) -m
+*   [EXCEPTION proc](/ref/proc/EXCEPTION.md) -m
+*   [caller var (proc)](/ref/proc/var/caller.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m<!-- -->
 **Vars:**
 *   name* A text string (such as an error message) or other value
 *   file* The filename where the error occurred, if debugging info is

@@ -1,9 +1,8 @@
 ## AddCredits proc (world) 
 ###### BYOND Version 503
 **See also:**
-*   [GetCredits proc (world)](/world/proc/GetCredits)
-*   [PayCredits proc (world)](/world/proc/PayCredits)
-<!-- -->
+*   [GetCredits proc (world)](/ref/world/proc/GetCredits.md) -m
+*   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) -m<!-- -->
 **Format:**
 *   AddCredits(player, credits, note)
 <!-- -->

@@ -1,4 +1,4 @@
-## Flush proc (savefile) 
+# Flush proc (savefile) 
 ###### BYOND Version 510
 **Format:**
 *   savefile.Flush()

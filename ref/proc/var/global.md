@@ -1,7 +1,6 @@
 ## global var (proc)
 **See also:**
-*   [src var (proc)](/proc/var/src)
-
+*   [src var (proc)](/ref/proc/var/src.md) -m
 
 This is not really a variable but is used to force treatment of
 the following variable or proc as global. This may be necessary if a

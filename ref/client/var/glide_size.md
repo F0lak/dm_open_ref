@@ -1,16 +1,16 @@
 ## glide_size var (client) 
 ###### BYOND Version 490
 **See also:**
-*   [eye var (client)](/client/var/eye)
-*   [glide_size var (movable atoms)](/atom/movable/var/glide_size)
+*   [eye var (client)](/ref/client/var/eye.md) -m
+*   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) -m
 <!-- -->
 **Default value:**
 *   0
 
 
 Note* The way this setting is used depends on
-[world.movement_mode](/world/var/movement_mode). See
-[Gliding](/%7Bnotes%7D/gliding) for more details. 
+[world.movement_mode](/ref/world/var/movement_mode.md) -m. See
+[Gliding](/ref/%7Bnotes%7D/gliding.md) -mfor more details. 
 
 This
 controls the number of pixels the map is moved in each step during

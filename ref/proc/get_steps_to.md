@@ -1,11 +1,10 @@
 ## get_steps_to proc 
 ###### BYOND Version 515
 **See also:**
-*   [step proc](/proc/step)
-*   [step_to proc](/proc/step_to)
-*   [walk_to proc](/proc/walk_to)
-*   [get_step_to proc](/proc/get_step_to)
-<!-- -->
+*   [step proc](/ref/proc/step.md) -m
+*   [step_to proc](/ref/proc/step_to.md) -m
+*   [walk_to proc](/ref/proc/walk_to.md) -m
+*   [get_step_to proc](/ref/proc/get_step_to.md) -m<!-- -->
 **Format:**
 *   get_steps_to(Ref, Trg, Min=0)
 <!-- -->

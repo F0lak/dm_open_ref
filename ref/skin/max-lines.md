@@ -1,7 +1,6 @@
 ## max-lines parameter (skin)
 **Applies to:**
-*   [Output](/%7Bskin%7D/control/output)
-<!-- -->
+*   [Output](/ref/%7Bskin%7D/control/output.md) -m<!-- -->
 **Format:**
 *   number
 <!-- -->

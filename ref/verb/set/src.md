@@ -1,4 +1,4 @@
-## src setting (verb)
+# src setting (verb)
 **Format:**
 *   set src in List
 *   set src = List

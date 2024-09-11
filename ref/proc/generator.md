@@ -1,12 +1,12 @@
 ## generator proc 
 ###### BYOND Version 514
 **See also:**
-*   [Generators](/%7Bnotes%7D/generators)
-*   [Particle effects](/%7Bnotes%7D/particles)
-*   [color var (atom)](/atom/var/color)
-*   [Color matrix](/%7Bnotes%7D/color-matrix)
-*   [vector](/vector)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
+*   [Generators](/ref/%7Bnotes%7D/generators.md) -m
+*   [Particle effects](/ref/%7Bnotes%7D/particles.md) -m
+*   [color var (atom)](/ref/atom/var/color.md) -m
+*   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) -m
+*   [vector](/ref/vector.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m
 <!-- -->
 **Format:**
 *   generator(type, A, B, rand)
@@ -57,5 +57,4 @@ random number between -1 and 1 world \<\< G.Rand() // generate a number
 and output it to world 
 ```
 
-Note* Worlds compiled in older BYOND versions before [vector](/vector)
-will return lists from vector generators.
+Note* Worlds compiled in older BYOND versions before [vector](/ref/vector.md) -mwill return lists from vector generators.

@@ -1,10 +1,9 @@
 ## continue statement
 **See also:**
-*   [break statement](/proc/break)
-*   [do proc](/proc/do)
-*   [for loop proc](/proc/for/loop)
-*   [while proc](/proc/while)
-<!-- -->
+*   [break statement](/ref/proc/break.md) -m
+*   [do proc](/ref/proc/do.md) -m
+*   [for loop proc](/ref/proc/for/loop.md) -m
+*   [while proc](/ref/proc/while.md) -m<!-- -->
 **Format:**
 *   continue
 *   continue Label

@@ -1,9 +1,8 @@
 ## Add proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database query datum](/database/query)
-*   [Clear proc (database query)](/database/query/proc/Clear)
-<!-- -->
+*   [database query datum](/ref/database/query.md) -m
+*   [Clear proc (database query)](/ref/database/query/proc/Clear.md) -m<!-- -->
 **Format:**
 *   Add(text, item1, item2, \...)
 <!-- -->

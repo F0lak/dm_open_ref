@@ -1,4 +1,4 @@
-## type var (datum)
+# type var (datum)
 **Default value:**
 *   The \"type path\" of the object definition.
 

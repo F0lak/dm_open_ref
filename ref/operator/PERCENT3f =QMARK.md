@@ -1,7 +1,6 @@
 ## ? operator
 **See also:**
-*   [operators](/operator)
-<!-- -->
+*   [operators](/ref/operator.md) -m<!-- -->
 **Format:**
 *   Expr ? TrueExpr * FalseExpr
 

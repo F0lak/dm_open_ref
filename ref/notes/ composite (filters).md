@@ -1,8 +1,8 @@
 ## Layering (composite) filter 
 ###### BYOND Version 513
 **See also:**
-*   [icon var (atom)](/atom/var/icon)
-*   [render_target var (atom)](/atom/var/render_target)
+*   [icon var (atom)](/ref/atom/var/icon.md) -m
+*   [render_target var (atom)](/ref/atom/var/render_target.md) -m
 <!-- -->
 Format:
 *   filter(type=\"layer\", \...)
@@ -13,11 +13,11 @@ Args:
 *   icon* Icon to use as a second image
 *   render_source* `render_target` to use as a second image
 *   flags* `FILTER_OVERLAY` (default) or `FILTER_UNDERLAY`
-*   color* [Color](/atom/var/color) or color matrix to apply to second
+*   color* [Color](/ref/atom/var/color.md) -m or color matrix to apply to second
     image
-*   transform* [Transform](/atom/var/transform) to apply to second
+*   transform* [Transform](/ref/atom/var/transform.md) -m to apply to second
     image
-*   blend_mode* [Blend mode](/atom/var/blend_mode) to apply to the top
+*   blend_mode* [Blend mode](/ref/atom/var/blend_mode.md) -m to apply to the top
     image
 
 
@@ -37,7 +37,7 @@ of the other vars apply to the second image being drawn.
 
 Note:
 Transforms use default bilinear scaling, since
-[`PIXEL_SCALE`](/atom/var/appearance_flags) is not available here.
+[PIXEL_SCALE](/ref/atom/var/appearance_flags.md) -m.code} is not available here.
 
 
 Note* Like most other filters, this filter is **not** taken

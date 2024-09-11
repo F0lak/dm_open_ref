@@ -1,16 +1,15 @@
 ## Entered proc (atom)
 **See also:**
-*   [Enter proc (atom)](/atom/proc/Enter)
-*   [Exit proc (atom)](/atom/proc/Exit)
-*   [Exited proc (atom)](/atom/proc/Exited)
-*   [Cross proc (atom)](/atom/proc/Cross)
-*   [Crossed proc (atom)](/atom/proc/Crossed)
-*   [Uncross proc (atom)](/atom/proc/Uncross)
-*   [Uncrossed proc (atom)](/atom/proc/Uncrossed)
-*   [Move proc (movable atom)](/atom/movable/proc/Move)
-*   [step_x var (movable atom)](/atom/movable/var/step_x)
-*   [step_y var (movable atom)](/atom/movable/var/step_y)
-<!-- -->
+*   [Enter proc (atom)](/ref/atom/proc/Enter.md) -m
+*   [Exit proc (atom)](/ref/atom/proc/Exit.md) -m
+*   [Exited proc (atom)](/ref/atom/proc/Exited.md) -m
+*   [Cross proc (atom)](/ref/atom/proc/Cross.md) -m
+*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) -m
+*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) -m
+*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) -m
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m<!-- -->
 **Format:**
 *   Entered(atom/movable/Obj,atom/OldLoc)
 <!-- -->

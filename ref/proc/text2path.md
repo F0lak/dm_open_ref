@@ -1,7 +1,6 @@
 ## text2path proc
 **See also:**
-*   [ispath proc](/proc/ispath)
-<!-- -->
+*   [ispath proc](/ref/proc/ispath.md) -m<!-- -->
 **Format:**
 *   text2path(T)
 <!-- -->

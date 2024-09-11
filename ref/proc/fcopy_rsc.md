@@ -1,10 +1,9 @@
 ## fcopy_rsc proc
 **See also:**
-*   [cache](/DM/cache)
-*   [fcopy proc](/proc/fcopy)
-*   [file proc](/proc/file)
-*   [load_resource proc](/proc/load_resource)
-<!-- -->
+*   [cache](/ref/DM/cache.md) -m
+*   [fcopy proc](/ref/proc/fcopy.md) -m
+*   [file proc](/ref/proc/file.md) -m
+*   [load_resource proc](/ref/proc/load_resource.md) -m<!-- -->
 **Format:**
 *   fcopy_rsc(File)
 <!-- -->

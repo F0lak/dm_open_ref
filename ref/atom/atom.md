@@ -1,14 +1,13 @@
 ## atom
 **See also:**
-*   [area](/area)
-*   [datum](/datum)
-*   [mob](/mob)
-*   [movable atoms](/atom/movable)
-*   [obj](/obj)
-*   [procs (atom)](/atom/proc)
-*   [turf](/turf)
-*   [vars (atom)](/atom/var)
-
+*   [area](/ref/area.md) -m
+*   [datum](/ref/datum.md) -m
+*   [mob](/ref/mob.md) -m
+*   [movable atoms](/ref/atom/movable.md) -m
+*   [obj](/ref/obj.md) -m
+*   [procs (atom)](/ref/atom/proc.md) -m
+*   [turf](/ref/turf.md) -m
+*   [vars (atom)](/ref/atom/var.md) -m
 
 The /atom object type is the ancestor of all mappable objects
 in the game. The types /area, /turf, /obj, and /mob are all derived from

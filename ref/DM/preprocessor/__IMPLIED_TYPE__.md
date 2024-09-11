@@ -1,21 +1,21 @@
 ## \_\_IMPLIED_TYPE\_\_ macro 
 ###### BYOND Version 515
 **See also:**
-*   [\_\_FILE\_\_ macro](/DM/preprocessor/__FILE__)
-*   [\_\_LINE\_\_ macro](/DM/preprocessor/__LINE__)
-*   [\_\_PROC\_\_ macro](/DM/preprocessor/__PROC__)
-*   [\_\_TYPE\_\_ macro](/DM/preprocessor/__TYPE__)
-*   [new proc](/proc/new)
-*   [locate proc](/proc/locate)
-*   [istype proc](/proc/istype)
+*   [\_\_FILE\_\_ macro](/ref/DM/preprocessor/__FILE__.md) -m
+*   [\_\_LINE\_\_ macro](/ref/DM/preprocessor/__LINE__.md) -m
+*   [\_\_PROC\_\_ macro](/ref/DM/preprocessor/__PROC__.md) -m
+*   [\_\_TYPE\_\_ macro](/ref/DM/preprocessor/__TYPE__.md) -m
+*   [new proc](/ref/proc/new.md) -m
+*   [locate proc](/ref/proc/locate.md) -m
+*   [istype proc](/ref/proc/istype.md) -m
 
 
 The `__IMPLIED_TYPE__` macro is replaced by a reference to the
 type path implied at the current point in compilation. For instance,
-when using the [`new` proc](/proc/new) and assigning to a var, the type
+when using the [`new` proc](/ref/proc/new.md) -m and assigning to a var, the type
 path for `new()` is implied by the var\'s type. Implied types are also
-automatically used in [`locate()`](/proc/locate), and are used by
-default for the second argument in [`istype()`](/proc/istype).
+automatically used in [locate()](/ref/proc/locate.md) -m{.code}, and are used by
+default for the second argument in [istype()](/ref/proc/istype.md) -m{.code}.
 ### Example:
 
 ```
@@ -30,7 +30,7 @@ to Factory var/thing/T = Factory(\_\_IMPLIED_TYPE\_\_)
 -   In an expression on the right-hand side of an assignment operator
     (this includes operators like `+=`), where the left-hand side is a
     var that has a defined type path.
--   Within the second argument of [`istype()`](/proc/istype).
+-   Within the second argument of [istype()](/ref/proc/istype.md) -m.code}.
 
 
 This is actually a pseudo-macro; the preprocessor doesn\'t

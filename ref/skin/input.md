@@ -2,17 +2,16 @@
 
 
 A text box into which the user can type. By default this is
-used for sending [client commands](/%7Bskin%7D/commands), but it can be
+used for sending [client commands](/ref/%7Bskin%7D/commands.md) -m, but it can be
 used for other purposes as well.
 **Input-specific parameters:**
-*   [command](/%7Bskin%7D/param/command)
-*   [is-password](/%7Bskin%7D/param/is-password)
-*   [multi-line](/%7Bskin%7D/param/multi-line)
-*   [no-command](/%7Bskin%7D/param/no-command)
-*   [on-blur](/%7Bskin%7D/param/on-blur)
-*   [on-focus](/%7Bskin%7D/param/on-focus)
-*   [text](/%7Bskin%7D/param/text)
-
+*   [command](/ref/%7Bskin%7D/param/command.md) -m
+*   [is-password](/ref/%7Bskin%7D/param/is-password.md) -m
+*   [multi-line](/ref/%7Bskin%7D/param/multi-line.md) -m
+*   [no-command](/ref/%7Bskin%7D/param/no-command.md) -m
+*   [on-blur](/ref/%7Bskin%7D/param/on-blur.md) -m
+*   [on-focus](/ref/%7Bskin%7D/param/on-focus.md) -m
+*   [text](/ref/%7Bskin%7D/param/text.md) -m
 
 Note that when in \"standard\" mode of accepting user commands,
 built-in verbs like `.click`, or local commands like `.winset`, are not

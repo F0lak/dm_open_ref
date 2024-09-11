@@ -1,8 +1,8 @@
 ## text2ascii proc
 **See also:**
-*   [ascii2text proc](/proc/ascii2text)
-*   [entities (text)](/DM/text/entities)
-*   [Unicode](/%7Bnotes%7D/Unicode)
+*   [ascii2text proc](/ref/proc/ascii2text.md) -m
+*   [entities (text)](/ref/DM/text/entities.md) -m
+*   [Unicode](/ref/%7Bnotes%7D/Unicode.md) -m
 <!-- -->
 **Format:**
 *   text2ascii(T,pos=1)
@@ -28,7 +28,7 @@ text2ascii(\"HAPPY\",2) // = 65
  
 
 With
-[Unicode](/%7Bnotes%7D/Unicode), things may get more complicated. DM
+[Unicode](/ref/%7Bnotes%7D/Unicode.md) -m things may get more complicated. DM
 stores text with UTF-8 encoding, so at this position there might be
 several bytes strung together to make a single character. The value of
 `pos` is in bytes, not characters. When the return value is 128 (0x80)

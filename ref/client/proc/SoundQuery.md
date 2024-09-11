@@ -1,9 +1,8 @@
 ## SoundQuery proc (client) 
 ###### BYOND Version 513
 **See also:**
-*   [/sound datum](/sound)
-*   [sound proc](/proc/sound)
-<!-- -->
+*   [/sound datum](/ref/sound.md) -m
+*   [sound proc](/ref/proc/sound.md) -m<!-- -->
 **Format:**
 *   SoundQuery()
 <!-- -->

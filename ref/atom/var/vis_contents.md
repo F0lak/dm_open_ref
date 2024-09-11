@@ -1,10 +1,10 @@
 ## vis_contents var (atom) 
 ###### BYOND Version 512
 **See also:**
-*   [vis_locs var (atom)](/atom/var/vis_locs)
-*   [vis_flags var (atom)](/atom/var/vis_flags)
-*   [image objects](/image)
-*   [HUD / screen objects](/%7Bnotes%7D/HUD)
+*   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) -m
+*   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) -m
+*   [image objects](/ref/image.md) -m
+*   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) -m
 <!-- -->
 **Default value:**
 *   Empty list.
@@ -49,7 +49,7 @@ to do anything else to make the block appear normal.
 
 You can
 alter some aspects of how an object behaves when in visual contents by
-changing its [`vis_flags`](/atom/var/vis_flags) var. In particular
+changing its [vis_flags](/ref/atom/var/vis_flags.md) -m{.code} var. In particular
 this is useful if you want an object to behave more like an overlay,
 inheriting aspects of its parent object or even acting like a part of
 that object instead of an independent one. Also this can make an object
@@ -61,5 +61,5 @@ Visual contents do not impact the results of `view()` or
 effect. 
 
 Being in a visual contents list counts as a
-[reference](/DM/garbage) for anything in the list, the same way that
+[reference](/ref/DM/garbage.md) -mfor anything in the list, the same way that
 being on the map or inside of a movable counts as a reference.

@@ -1,14 +1,13 @@
 ## GetColumn proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/database)
-*   [database query datum](/database/query)
-*   [Columns proc (database query)](/database/query/proc/Columns)
-*   [Execute proc (database query)](/database/query/proc/Execute)
-*   [GetRowData proc (database query)](/database/query/proc/GetRowData)
-*   [NextRow proc (database query)](/database/query/proc/NextRow)
-*   [Reset proc (database query)](/database/query/proc/Reset)
-<!-- -->
+*   [database datum](/ref/database.md) -m
+*   [database query datum](/ref/database/query.md) -m
+*   [Columns proc (database query)](/ref/database/query/proc/Columns.md) -m
+*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) -m
+*   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) -m
+*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) -m
+*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) -m<!-- -->
 **Format:**
 *   GetColumn(column)
 <!-- -->

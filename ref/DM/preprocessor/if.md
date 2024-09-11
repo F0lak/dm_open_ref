@@ -1,8 +1,7 @@
 ## #if directive
 **See also:**
-*   [#define directive](/DM/preprocessor/define)
-*   [#ifdef directive](/DM/preprocessor/ifdef)
-<!-- -->
+*   [#define directive](/ref/DM/preprocessor/define.md) -m
+*   [#ifdef directive](/ref/DM/preprocessor/ifdef.md) -m<!-- -->
 **Format:**
 *   #if Val
 *   \...

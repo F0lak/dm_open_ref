@@ -1,13 +1,12 @@
 ## zoom-mode parameter (skin) 
 ###### BYOND Version 511
 **See also:**
-*   [letterbox parameter](/%7Bskin%7D/param/letterbox)
-*   [view-size parameter](/%7Bskin%7D/param/view-size)
-*   [zoom parameter](/%7Bskin%7D/param/zoom)
+*   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) -m
+*   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) -m
+*   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) -m
 <!-- -->
 **Applies to:**
-*   [Map](/%7Bskin%7D/control/map)
-<!-- -->
+*   [Map](/ref/%7Bskin%7D/control/map.md) -m<!-- -->
 **Posisble values:**
 *   normal
 *   distort

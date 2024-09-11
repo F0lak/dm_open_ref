@@ -1,12 +1,11 @@
 ## hub var (world)
 **See also:**
-*   [hub_password var (world)](/world/var/hub_password)
-*   [name var (world)](/world/var/name)
-*   [status var (world)](/world/var/status)
-*   [game_state var (world)](/world/var/game_state)
-*   [version var (world)](/world/var/version)
-*   [visibility var (world)](/world/var/visibility)
-<!-- -->
+*   [hub_password var (world)](/ref/world/var/hub_password.md) -m
+*   [name var (world)](/ref/world/var/name.md) -m
+*   [status var (world)](/ref/world/var/status.md) -m
+*   [game_state var (world)](/ref/world/var/game_state.md) -m
+*   [version var (world)](/ref/world/var/version.md) -m
+*   [visibility var (world)](/ref/world/var/visibility.md) -m<!-- -->
 **Default value:**
 *   null
 

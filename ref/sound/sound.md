@@ -1,10 +1,9 @@
 ## sound datum
 **See also:**
-*   [vars (sound)](/sound/var)
-*   [sound proc](/proc/sound)
-*   [stddef.dm file](/%7B%7Bappendix%7D%7D/stddef%2edm)
-*   [load_resource proc](/proc/load_resource)
-
+*   [vars (sound)](/ref/sound/var.md) -m
+*   [sound proc](/ref/proc/sound.md) -m
+*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) -m
+*   [load_resource proc](/ref/proc/load_resource.md) -m
 
 A `/sound` datum is created by the `sound()` proc or by
 `new/sound()`. It can be used to change the way a sound file will play.

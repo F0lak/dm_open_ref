@@ -1,8 +1,7 @@
 ## volume var (sound)
 **See also:**
-*   [sound proc](/proc/sound)
-*   [vars (sound)](/sound/var)
-<!-- -->
+*   [sound proc](/ref/proc/sound.md) -m
+*   [vars (sound)](/ref/sound/var.md) -m<!-- -->
 **Default value:**
 *   100 (full volume)
 

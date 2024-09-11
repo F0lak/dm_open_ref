@@ -1,12 +1,11 @@
 ## ?\[\] operator 
 ###### BYOND Version 514
 **See also:**
-*   [list](/list)
-*   [operators](/operator)
-*   [\[\] operator](/operator/%5B%5D)
-*   [?. operator](/operator/%3f%2e)
-*   [?* operator](/operator/%3f:)
-
+*   [list](/ref/list.md) -m
+*   [operators](/ref/operator.md) -m
+*   [\[\] operator](/ref/operator/%5B%5D.md) -m
+*   [?. operator](/ref/operator/%3f%2e.md) -m
+*   [?* operator](/ref/operator/%3f:.md) -m
 
 This is the null-conditional list index operator. It is used to
 access an element of a list, IF that list is not null. If the list is

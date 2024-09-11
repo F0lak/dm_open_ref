@@ -1,9 +1,8 @@
 ## run proc
 **See also:**
-*   [\<\< output operator](/operator/%3c%3c/output)
-*   [file proc](/proc/file)
-*   [link proc](/proc/link)
-<!-- -->
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
+*   [file proc](/ref/proc/file.md) -m
+*   [link proc](/ref/proc/link.md) -m<!-- -->
 **Format:**
 *   O \<\< run(File)
 

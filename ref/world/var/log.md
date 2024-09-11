@@ -1,8 +1,7 @@
 ## log var (world)
 **See also:**
-*   [file proc](/proc/file)
-*   [startup proc](/proc/startup)
-
+*   [file proc](/ref/proc/file.md) -m
+*   [startup proc](/ref/proc/startup.md) -m
 
 Sending output to world.log may be useful for debugging
 purposes. The output goes to the same place run-time proc errors are

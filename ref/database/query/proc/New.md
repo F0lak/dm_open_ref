@@ -1,9 +1,9 @@
 ## New proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/database)
-*   [database query datum](/database/query)
-*   [Add proc (database query)](/database/query/proc/Add)
+*   [database datum](/ref/database.md) -m
+*   [database query datum](/ref/database/query.md) -m
+*   [Add proc (database query)](/ref/database/query/proc/Add.md) -m
 <!-- -->
 **Format:**
 *   New(text, item1, item2, \...)
@@ -14,7 +14,7 @@
 
 
 Creates a new query and adds text by automatically calling
-Add(). See the [Add proc](/database/query/proc/Add) for more
+Add(). See the [Add proc](/ref/database/query/proc/Add.md) -mfor more
 information. 
 
 Call Execute() to run the query.

@@ -1,13 +1,13 @@
 ## image parameter (skin)
 **See also:**
-*   [image-mode parameter](/%7Bskin%7D/param/image-mode)
-*   [keep-aspect parameter](/%7Bskin%7D/param/keep-aspect)
+*   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) -m
+*   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) -m
 <!-- -->
 **Applies to:**
-*   [Button](/%7Bskin%7D/control/button)
-*   [Label](/%7Bskin%7D/control/label)
-*   [Main](/%7Bskin%7D/control/main)
-*   [Output](/%7Bskin%7D/control/output)
+*   [Button](/ref/%7Bskin%7D/control/button.md) -m
+*   [Label](/ref/%7Bskin%7D/control/label.md) -m
+*   [Main](/ref/%7Bskin%7D/control/main.md) -m
+*   [Output](/ref/%7Bskin%7D/control/output.md) -m
 <!-- -->
 **Format:**
 *   \'*file*\'
@@ -25,5 +25,5 @@ color.
 
 
 For Label and Main, use
-[`image-mode`](/%7Bskin%7D/param/image-mode) to control how the
+[image-mode](/ref/%7Bskin%7D/param/image-mode.md) -m.code} to control how the
 image is displayed.

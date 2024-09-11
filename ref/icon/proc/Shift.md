@@ -1,9 +1,8 @@
 ## Shift proc (icon)
 **See also:**
-*   [dir var (atom)](/atom/var/dir)
-*   [icon](/icon)
-*   [procs (icon)](/icon/proc)
-<!-- -->
+*   [dir var (atom)](/ref/atom/var/dir.md) -m
+*   [icon](/ref/icon.md) -m
+*   [procs (icon)](/ref/icon/proc.md) -m<!-- -->
 **Format:**
 *   Shift(dir,offset,wrap=0)
 <!-- -->

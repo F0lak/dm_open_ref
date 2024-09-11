@@ -1,9 +1,8 @@
 ## macros (text)
 **See also:**
-*   [icon text macro](/DM/text/macros/icon)
-*   [text](/DM/text)
-*   [text proc](/proc/text)
-
+*   [icon text macro](/ref/DM/text/macros/icon.md) -m
+*   [text](/ref/DM/text.md) -m
+*   [text proc](/ref/proc/text.md) -m
 
 Text macros start with \'\\\' (a backslash) and end with a
 space or other punctuation. 

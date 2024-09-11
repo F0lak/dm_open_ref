@@ -1,10 +1,10 @@
 ## screen_loc var (movable atoms)
 **See also:**
-*   [HUD / screen objects](/%7Bnotes%7D/HUD)
-*   [layer var (atom)](/atom/var/layer)
-*   [screen var (client)](/client/var/screen)
-*   [view var (client)](/client/var/view)
-*   [map_format var (world)](/world/var/map_format)
+*   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) -m
+*   [layer var (atom)](/ref/atom/var/layer.md) -m
+*   [screen var (client)](/ref/client/var/screen.md) -m
+*   [view var (client)](/ref/client/var/view.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) -m
 
 
 This is a text string that controls where an object that is
@@ -19,7 +19,7 @@ The format is*
 The bottom left corner of the map viewport
 (southwest) is `"1,1"`. If the view is 11x11, then the top-right corner
 (northeast) is `"11,11"`. (Changing
-[world.map_format](/world/var/map_format) may change the range for
+[world.map_format](/ref/world/var/map_format.md) -m may change the range for
 screen_loc.) 
 
 A range of coordinates (the second format above)
@@ -52,7 +52,7 @@ the normal tile-based structure of the HUD, they can\'t be used for a
 range of tiles with the `"to"` format. 
 
 Note:
-[Letterboxing](/%7Bskin%7D/param/letterbox), the blank space to either
+[Letterboxing](/ref/%7Bskin%7D/param/letterbox.md) -m, the blank space to either
 side of the map if it doesn\'t take up the whole map control, is not
 considered usable space. HUD objects aligned to the control edge appear
 inside any letterboxing, not on top of it.
@@ -70,7 +70,7 @@ A big icon placed
 towards the northeast end of the map, if it spills over the edge, will
 create a border big enough for the whole icon to be shown. You can avoid
 this by using the [`TILE_BOUND` appearance
-flag](/atom/var/appearance_flags). Transforms on this atom are not
+flag](/ref/atom/var/appearance_flags.md) -m. Transforms on this atom are not
 taken into account when determining whether to add a border.
 ### Offsets
 
@@ -105,7 +105,7 @@ on the same plane regardless of layer, except that `BACKGROUND_LAYER` or
 
 
 You can use HUD objects in any additional [map
-controls](/%7Bskin%7D/control/map) that might appear in game\'s skin
+controls](/ref/%7Bskin%7D/control/map.md) -m that might appear in game\'s skin
 file. If you have a second map named `map2` for instance, then you can
 use `"map2:1,1"` or something similar as a `screen_loc`. If the map
 control is set to automatically scale to fit its contents, it will try
@@ -113,5 +113,5 @@ to show every object you put there.
 
 Note* For secondary-map HUD
 items, you should not use the full `window.control` ID, just the
-[`id`](/%7Bskin%7D/param/id) of the control itself. Map controls
+[id](/ref/%7Bskin%7D/param/id.md) -m.code} of the control itself. Map controls
 should always have a unique `id`.

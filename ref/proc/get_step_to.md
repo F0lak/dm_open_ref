@@ -1,9 +1,8 @@
 ## get_step_to proc
 **See also:**
-*   [step_to proc](/proc/step_to)
-*   [walk_to proc](/proc/walk_to)
-*   [get_steps_to proc](/proc/get_steps_to)
-<!-- -->
+*   [step_to proc](/ref/proc/step_to.md) -m
+*   [walk_to proc](/ref/proc/walk_to.md) -m
+*   [get_steps_to proc](/ref/proc/get_steps_to.md) -m<!-- -->
 **Format:**
 *   get_step_to(Ref, Trg, Min=0)
 <!-- -->

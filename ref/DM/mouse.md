@@ -51,21 +51,21 @@ The `params` argument is text, and can
 be converted to a list using [params2list()](/ref/proc/params2list.md) {.code}.
 It may contain any of the following properties, which will only be set
 if they are used:
--   icon-x, icon-y+ Pixel coordinates within the icon, in the icon\'s
+-   icon-x, icon-y: Pixel coordinates within the icon, in the icon\'s
     coordinate space
--   screen-loc+ Pixel coordinates in screen_loc format
+-   screen-loc: Pixel coordinates in screen_loc format
     (\"\[tile_x\]:\[pixel_x\],\[tile_y\]:\[pixel_y\]\")
--   left, middle, right+ Mouse buttons pressed, held, or released in
+-   left, middle, right: Mouse buttons pressed, held, or released in
     this action (see compatibility note below)
--   button+ Mouse button pressed or released in this action (see
+-   button: Mouse button pressed or released in this action (see
     compatibility note below)
--   ctrl, shift, alt+ Keys held down during the mouse action
--   drag-cell, drop-cell+ Cells involved if using a Grid control
--   drag+ The button used for dragging (only sent for unrelated mouse
+-   ctrl, shift, alt: Keys held down during the mouse action
+-   drag-cell, drop-cell: Cells involved if using a Grid control
+-   drag: The button used for dragging (only sent for unrelated mouse
     up/down messages during a drag)
--   link+ If the mouse is over a link in maptext, or this event is
+-   link: If the mouse is over a link in maptext, or this event is
     related to clicking such a link
--   vis-x, vis-y+ Pixel coordinates relative to the icon\'s position on
+-   vis-x, vis-y: Pixel coordinates relative to the icon\'s position on
     screen
 
 
@@ -77,7 +77,7 @@ lower left pixel of the icon is 1,1. The vis-x/y parameters are
 screen-based, and their origin (1,1) is wherever the lower left corner
 of the icon is rendered. 
 
-Note+ vis-x/y will not be included in
+Note: vis-x/y will not be included in
 the parameters if they are the same as icon-x/y. 
 
 If the mouse
@@ -100,10 +100,10 @@ about what actions may work.
 
 When selecting a mouse pointer, you may provide your own custom
 icon or use one of the [built-in pointers](/ref/DM/mouse/pointers.md) 
-Note+ Older games compiled prior to BYOND 4.0 had a different format for
+Note: Older games compiled prior to BYOND 4.0 had a different format for
 the `MouseDown()` and `MouseUp()` procs. These used `icon_x` and
 `icon_y` as arguments, but `control` and `params` have replaced them.
-Note+ Games compiled before version 514 did not have the `button`
+Note: Games compiled before version 514 did not have the `button`
 parameter, so they handled the `left`, `middle`, and `right` parameters
 differently. In old versions, only the button used in the action (left,
 middle, right) was included as a parameter; now all buttons being held

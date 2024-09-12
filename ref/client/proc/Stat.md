@@ -26,7 +26,7 @@ To increase the
 frequency of stat updates, you can lower `world.tick_lag`.
 
 
-Note+ Typically only the currently viewed statpanel is updated,
+Note: Typically only the currently viewed statpanel is updated,
 which saves on some network activity and a little time. If however the
 proc sleeps, you need to be sure that any pending updates are displayed
 once the right panel is available. Therefore if you\'re resetting a var

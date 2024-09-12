@@ -2,8 +2,8 @@
 ###### BYOND Version 512
 **See also:**
 +   [. operator](/ref/operator/%2e.md) 
-+   [+ operator](/ref/operator/:.md) 
-+   [?+ operator](/ref/operator/%3f:.md) 
++   [: operator](/ref/operator/:.md) 
++   [?: operator](/ref/operator/%3f:.md) 
 +   [operators](/ref/operator.md) 
 
 This is used to access the procs and vars of a prototyped
@@ -32,13 +32,13 @@ M?.Move(loc) // call Move() mob proc for M
 When
 reading `A?.B`, it\'s roughly equivalent to `A && A.B` except that `A`
 is only evalulated once, even if it\'s a complex expression like a proc
-call. Making an assignment to `A?.B` is the same+ A is evalulated only
+call. Making an assignment to `A?.B` is the same: A is evalulated only
 once, and if it\'s not null then an assignment is made to its B var.
 
 
 For a version of this operator that doesn\'t check at compile
-time if the property is available, use the ?+ operator instead.
+time if the property is available, use the ?: operator instead.
 
 
 If ?. is used after a proc call, a list lookup, or a complex
-expression where the type can\'t be known, it will act like ?+ instead.
+expression where the type can\'t be known, it will act like ?: instead.

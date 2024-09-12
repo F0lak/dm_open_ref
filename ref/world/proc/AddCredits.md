@@ -10,9 +10,9 @@
 +   1 if the credits were added successfully, 0 or null otherwise.
 <!-- -->
 **Args:**
-+   player+ a mob, client, key, or ckey
-+   credits+ A number of credits to add to the player\'s account
-+   note+ An optional note (for author purposes) for the credit change
++   player: a mob, client, key, or ckey
++   credits: A number of credits to add to the player\'s account
++   note: An optional note (for author purposes) for the credit change
 
 
 Adds credits to a player\'s account. The proc will return 1 if
@@ -34,7 +34,7 @@ the rest of the game.
 \[name\]\") 
 ```
 
-Note+ You can specify a different hub path and hub_password by adding
+Note: You can specify a different hub path and hub_password by adding
 these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.

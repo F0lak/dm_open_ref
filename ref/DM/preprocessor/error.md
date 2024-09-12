@@ -6,7 +6,7 @@
 +   #error Text
 <!-- -->
 **Args:**
-+   Text+ an error message to display
++   Text: an error message to display
 
 
 The #error directive halts compilation and displays the

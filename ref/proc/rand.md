@@ -12,5 +12,5 @@
     0 up to 1 if L and H are omitted.
 <!-- -->
 **Args:**
-+   L+ A number for the lower-bound.
-+   H+ A number for the upper-bound.
++   L: A number for the lower-bound.
++   H: A number for the upper-bound.

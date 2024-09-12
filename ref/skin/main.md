@@ -2,7 +2,7 @@
 
 
 A container for other controls. The Main control takes two
-forms+ a window or a pane. 
+forms: a window or a pane. 
 
 A window exists independently and
 can be moved around on the screen. A pane has to be used within another

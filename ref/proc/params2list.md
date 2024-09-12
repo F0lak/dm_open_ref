@@ -10,7 +10,7 @@
 +   params2list(Params)
 <!-- -->
 **Args:**
-+   Params+ Text string of parameter values.
++   Params: Text string of parameter values.
 <!-- -->
 **Returns:**
 +   An associative list of parameter names and values.
@@ -18,7 +18,7 @@
 
 This instruction converts a parameter text string to a list of
 individual parameters and associated values. The format of the parameter
-text is+ 
+text is: 
 ```
  \"name1=value1&name2=value2&\...\" 
 ```
@@ -59,7 +59,7 @@ params2list(ptext) var/p for(p in plist) usr \<\< \"\[p\] =
  
 
 The above example defines a simple
-parameter text string containing two parameters+ `"offense"` and
+parameter text string containing two parameters: `"offense"` and
 `"time"`. These are associated with the values `"jwalk"` and `"10:00"`.
 The `for` loop illustrates how one might loop through the list and print
 out each setting. 

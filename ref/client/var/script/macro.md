@@ -23,10 +23,10 @@ typical set of macros.
 \\\...\" //command to be edited 
 ```
 
-Note+ In old versions of BYOND, character keys required the Alt key to
+Note: In old versions of BYOND, character keys required the Alt key to
 be pressed to trigger the macro, and did not include `"ALT+"` to do so.
 This behavior has changed, and the name of the macro is just like the
 format used in skin files. You can now use a key name, and modifiers
 like `SHIFT+`, `CTRL+`, `ALT+`, `+REP`, and `+UP`. Old .dms and
-[client.script](/ref/client/var/script.md) .code} files (prior to version 507)
+[client.script](/ref/client/var/script.md) files (prior to version 507)
 should be updated accordingly when recompiling in a newer version.

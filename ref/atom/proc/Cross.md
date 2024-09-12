@@ -23,13 +23,15 @@
 +   Called when another object attempts to overlap this one.
 <!-- -->
 **Args:**
-+   O+ the object attempting to overlap.
++   O: the object attempting to overlap.
 <!-- -->
 **Default action:**
 +   Allow overlap unless both atoms are dense. If both atoms are mobs,
     the behavior depends partly on whether they are in the same group.
-[!NOTE]The following behavior only applies to
-[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md) .code}. In other
+
+> [!NOTE]
+> The following behavior only applies to
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md). In other
 movement modes, src.Cross(O) returns 0 by default if src and O are both
 mobs in the same group. 
 

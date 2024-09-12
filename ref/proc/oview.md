@@ -11,8 +11,8 @@
     Center.
 <!-- -->
 **Args:**
-+   Dist+ A number.
-+   Center+ An object on the map.
++   Dist: A number.
++   Center: An object on the map.
 
 
 This instruction is just like view() except it doesn\'t include

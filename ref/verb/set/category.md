@@ -8,7 +8,7 @@
 +   set category = \"Category\"
 <!-- -->
 **Args:**
-+   Category+ A text string for the category.
++   Category: A text string for the category.
 
 
 Verbs in the same category are visually grouped together in the

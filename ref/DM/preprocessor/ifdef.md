@@ -7,7 +7,7 @@
 +   #ifdef Name
 <!-- -->
 **Args:**
-+   Name+ A macro definition.
++   Name: A macro definition.
 
 
 The `#ifdef` statement is used to conditionally compile code.

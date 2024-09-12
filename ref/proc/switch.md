@@ -17,7 +17,7 @@ found. Once a matching switch condition is found, no further conditions
 will be tested. 
 
 The values A1, A2, etc. must be constants. As a
-convenience, a range of values may be specified in the form+ A1 to An.
+convenience, a range of values may be specified in the form: A1 to An.
 
 
 The switch instruction is MUCH more efficient than a lengthy
@@ -34,13 +34,13 @@ TEN\" else world \<\< \"not ONE to TEN\"
  
 
 This
-outputs+ 
+outputs: 
 ```
  TWO or THREE 
 ```
  
 
-Note+ Currently the
+Note: Currently the
 compiler does not throw a warning or error if there is a conflict
 between two different `if` blocks in a `switch`, e.g. when you define
 `if(1 to 10)` and `if(5 to 20)` which overlap from 5 to 10. If two
@@ -59,10 +59,10 @@ block, it will fall through to the next block.
 
 ```
  // make this syntax change temporary #pragma push #pragma
-syntax C switch mob/proc/Greeting(friend) switch(roll(6)) case 4+ friend
+syntax C switch mob/proc/Greeting(friend) switch(roll(6)) case 4: friend
 \<\< \"I\'m \[name\]. \\\...\" // fall through to cases 1 and 2 case
-1,2+ friend \<\< \"Hi!\" break case 3+ friend \<\< \"Hello there!\"
-default+ friend \<\< \"Yo.\" break #pragma pop 
+1,2: friend \<\< \"Hi!\" break case 3: friend \<\< \"Hello there!\"
+default: friend \<\< \"Yo.\" break #pragma pop 
 ```
 
 

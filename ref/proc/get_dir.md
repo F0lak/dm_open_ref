@@ -10,8 +10,8 @@
     `SOUTHWEST`.
 <!-- -->
 **Args:**
-+   Loc1+ An object on the map.
-+   Loc2+ An object on the map.
++   Loc1: An object on the map.
++   Loc2: An object on the map.
 
 
 If the direction is not directly lying along one of the four

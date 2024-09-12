@@ -10,9 +10,9 @@
 +   The location of the new position, or 0 if no change.
 <!-- -->
 **Args:**
-+   Ref+ Starting point or object.
-+   Trg+ An object on the map.
-+   Min+ The minimum distance between Ref and Trg before movement halts.
++   Ref: Starting point or object.
++   Trg: An object on the map.
++   Min: The minimum distance between Ref and Trg before movement halts.
 
 
 Calculate the position of a step from `Ref` on a path to `Trg`,

@@ -19,9 +19,9 @@
 +   Called when the player first tries to connect to the world.
 <!-- -->
 **Args:**
-+   usr+ The mob in the world with the same key as the player, if it
++   usr: The mob in the world with the same key as the player, if it
     exists.
-+   TopicData+ If the player accessed the world with a \"connection
++   TopicData: If the player accessed the world with a \"connection
     topic\", this is the topic text. Otherwise it is null.
 <!-- -->
 **Default action:**

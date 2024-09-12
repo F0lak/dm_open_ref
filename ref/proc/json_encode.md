@@ -10,8 +10,8 @@
 +   A JSON-formatted text string representing Value.
 <!-- -->
 **Args:**
-+   Value+ The value to encode.
-+   flags+ A set of flags that tell the encoder how to act.
++   Value: The value to encode.
++   flags: A set of flags that tell the encoder how to act.
 
 
 If Value is a simple list or a matrix, the result will be

@@ -18,11 +18,11 @@
 +   MouseUp(object,location,control,params)
 <!-- -->
 **Args:**
-+   object+ the object under the mouse pointer
-+   location+ the turf, stat panel, grid cell, etc. containing the
++   object: the object under the mouse pointer
++   location: the turf, stat panel, grid cell, etc. containing the
     object where it was clicked
-+   control+ the name of the skin control involved
-+   params+ other parameters including mouse/keyboard flags, icon
++   control: the name of the skin control involved
++   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
 **Default action:**
 +   Call object.MouseUp(location,control,params).
@@ -37,14 +37,14 @@ can be done through `Click()`, `DblClick()`, and `MouseDrop()`. The
 other procedures are simply available for completeness. 
 
 The
-argument format for this verb is+ 
+argument format for this verb is: 
 ```
  MouseUp(object as
 null\|atom in usr.client,\\ location as null\|turf\|text in
 usr.client,\\ control as text, params as text) 
 ```
 
-Note+ In BYOND 3.5 this procedure took three different arguments:
+Note: In BYOND 3.5 this procedure took three different arguments:
 `location`, `icon_x`, and `icon_y`. Since `icon_x` and `icon_y` have
 been replaced, old code will need to be modified. Games compiled before
 this change will still work normally.

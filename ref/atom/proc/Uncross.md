@@ -21,7 +21,7 @@
 +   Called when another object attempts to stop overlapping this one.
 <!-- -->
 **Args:**
-+   O+ the object attempting to get away.
++   O: the object attempting to get away.
 <!-- -->
 **Default action:**
 +   Allow the object to get away (returning 1)

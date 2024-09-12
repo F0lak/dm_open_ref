@@ -42,7 +42,7 @@ same layer. In isometric mode this is about the same, except that the
 layer isn\'t that important\--anything in the way will just be moved
 back behind the big icon. 
 
-Note+ Big overlays will not \"pull
+Note: Big overlays will not \"pull
 forward\" on their own. If the main atom uses a single-tile icon, a big
 overlay attached to it will not try to draw in front of other icons on
 the same layer. This is so that name labels, health bar overlays, etc.

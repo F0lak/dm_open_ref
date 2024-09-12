@@ -9,10 +9,10 @@
 +   winclone(player, window_name, clone_name)
 <!-- -->
 **Args:**
-+   player+ A mob or client.
-+   window_name+ The name of a window, pane, menu, or macro set in the
++   player: A mob or client.
++   window_name: The name of a window, pane, menu, or macro set in the
     world\'s skin file.
-+   clone_name+ The name of the new window, pane, menu, or macro set to
++   clone_name: The name of the new window, pane, menu, or macro set to
     create.
 
 

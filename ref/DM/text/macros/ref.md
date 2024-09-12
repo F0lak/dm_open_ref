@@ -77,7 +77,7 @@ sheet
     matching frame is used
 state=*ICON_STATE*
 +   Use a specific icon state; be sure to
-    [url_encode](/ref/proc/url_encode.md) .code} it)
+    [url_encode](/ref/proc/url_encode.md) it)
 moving=*M*
 +   Specify whether to choose only moving (M=1) or non-moving (M=0)
     states

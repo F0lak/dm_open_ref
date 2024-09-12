@@ -2,7 +2,7 @@
 
 
 Macros are used to convert keyboard and gamepad events into
-actions. There are two ways this works+ A macro can run a command, or in
+actions. There are two ways this works: A macro can run a command, or in
 some cases (such as gamepad controls) it can be used to remap one
 control to another. 
 
@@ -104,7 +104,7 @@ a mouse macro:
   `action`                                                                                                                       Name of the mouse action (e.g. MouseDown, MouseMove, etc.).
   `src`                                                                                                                          Object the mouse is touching, or dragging/dropping.
   `loc`                                                                                                                          Turf or statpanel that `src` is over; in a drag-drop you should split this into `src.loc` and `over.loc`.
-  `button`                                                                                                                       Mouse button used for this action, if any+ `left`, `middle`, or `right`.
+  `button`                                                                                                                       Mouse button used for this action, if any: `left`, `middle`, or `right`.
   `drag`                                                                                                                         Mouse button currently used for dragging.
   `buttons`                                                                                                                      Mouse buttons currently down or involved in this action, separated by commas.
   `keys`                                                                                                                         Modifier keys currently held (`shift`, `ctrl`, `alt`), separated by commas.
@@ -131,7 +131,7 @@ An example mouse macro command might look like this:
 > my-mousedown-verb [[src]] [[button]] "keys=[[keys as params]];drag=[[drag as params]]"
 
 
-And the verb to go with it looks like this+ 
+And the verb to go with it looks like this: 
 ```
  client
 // \"in src\" is the same as \"in usr.client\" here
@@ -305,7 +305,7 @@ Start / Forward
 Left analog click
 `GamepadR3`
 Right analog click
-Directional buttons+ only one can pressed at a time, and the diagonal
+Directional buttons: only one can pressed at a time, and the diagonal
 buttons are virtual.
 `GamepadUp`
 Up button

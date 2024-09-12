@@ -9,8 +9,8 @@
 +   The location of the new position.
 <!-- -->
 **Args:**
-+   Ref+ Starting point or object.
-+   Trg+ An object on the map.
++   Ref: Starting point or object.
++   Trg: An object on the map.
 
 
 Calculate the position of a step from `Ref` in the direction of

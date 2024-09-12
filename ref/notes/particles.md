@@ -141,7 +141,7 @@ tick of 0.1s.
 The `icon` and `icon_state` values are special in that they
 can\'t be assigned a generator, but they can be assigned a constant icon
 or string, respectively, or a list of possible values to choose from
-like so+ 
+like so: 
 ```
 icon = list(\'confetti.dmi\'=5,
 \'coin.dmi\'=1)
@@ -154,7 +154,7 @@ list, or it can contain weights as shown above.
 Changing a var
 on a particle datum will make changes to future particles. For instance,
 you can set the datum\'s `spawning` var to 0 to make it stop creating
-new particles. (Note+ If you are changing a vector or color matrix, such
+new particles. (Note: If you are changing a vector or color matrix, such
 as `gravity`, you need to assign a new value. You can\'t for instance
 set `particles.gravity[2] = 0` because it won\'t do anything to update
 the particle stream.) 

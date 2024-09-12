@@ -55,7 +55,7 @@ have higher precedence by default.
 
 There are three
 post-connection client-side scripts for the three types of worlds the
-client can connect to+ `byond.dms`, `telnet.dms`, and `irc.dms`. These
+client can connect to: `byond.dms`, `telnet.dms`, and `irc.dms`. These
 are automatically executed if the player connects directly to a world
 without using a connection script to do so. The intention is to load any
 standard configurations such as style sheets and command aliases.

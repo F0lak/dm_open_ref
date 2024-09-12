@@ -7,7 +7,7 @@
 +   isfile(File)
 <!-- -->
 **Args:**
-+   File+ the value to test
++   File: the value to test
 
 
 This returns a true value when given a file. Both objects

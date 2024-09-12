@@ -1,6 +1,6 @@
 ## animate proc 
 ###### BYOND Version 500
-::+ sidebar
+::: sidebar
 ### Useful terms in this article:
 
 
@@ -33,24 +33,24 @@ and will eventually be discarded.
 +   animate(Object)
 <!-- -->
 **Args:**
-+   Object+ The atom, image, or client to animate; omit to add another
++   Object: The atom, image, or client to animate; omit to add another
     step to the same sequence as the last `animate()` call
-+   var1=new_value1, var2=new_value2, \...+ Vars to change in the
++   var1=new_value1, var2=new_value2, \...: Vars to change in the
     animation step
-+   var_list+ An associative list of vars to change
-+   appearance+ New appearance to use instead of multiple var changes
++   var_list: An associative list of vars to change
++   appearance: New appearance to use instead of multiple var changes
     (must be a [named argument](/ref/proc/arguments/named.md) )
-+   time+ Time of this step, in 1/10s (may be a [named
++   time: Time of this step, in 1/10s (may be a [named
     argument](/ref/proc/arguments/named.md) )
-+   loop+ Number of times to run this sequence, or -1 to loop forever
++   loop: Number of times to run this sequence, or -1 to loop forever
     (may be a named argument)
-+   easing+ The \"curve\" followed by this animation step (may be a
++   easing: The \"curve\" followed by this animation step (may be a
     [named argument](/ref/proc/arguments/named.md) )
-+   flags+ Flags that impact how the animation acts (may be a [named
++   flags: Flags that impact how the animation acts (may be a [named
     argument](/ref/proc/arguments/named.md) )
-+   delay+ Delay time for starting the first step in a sequence (may be
++   delay: Delay time for starting the first step in a sequence (may be
     negative; may be a [named argument](/ref/proc/arguments/named.md) )
-+   tag+ Optional name for a new animation sequence (must be a [named
++   tag: Optional name for a new animation sequence (must be a [named
     argument](/ref/proc/arguments/named.md) )
 
 
@@ -71,7 +71,7 @@ completely.
 ```
  mob/proc/GrowAndFade() // expand (scale by 2x2) and fade out
 over 1/2s animate(src, transform = matrix()\*2, alpha = 0, time = 5)
-obj/spell/proc/Spin() // cast a spell on a monster+ make the icon spin
+obj/spell/proc/Spin() // cast a spell on a monster: make the icon spin
 // this animation takes 3s total (6 ticks \* 5) animate(src, transform =
 turn(matrix(), 120), time = 2, loop = 5) animate(transform =
 turn(matrix(), 240), time = 2) animate(transform = null, time = 2)
@@ -102,7 +102,7 @@ step rather than smoothly:
 
 
 Other vars may apply:
--   space+ A named var for the [color
+-   space: A named var for the [color
     space](/ref/%7B%7Bappendix%7D%7D/color-space.md) , if animating color; only
     applies to non-matrix color values.
 For convenience, you can use an [associative list](/ref/list/associations.md) ,
@@ -120,7 +120,7 @@ transformation to make a coin appear to spin. A text bubble can jump
 into place and bounce a little before it settles. The choice of curve
 you use is called easing, and you have several good choices to pick
 from.
-::::+ {.sidebar .play}
+::::: {.sidebar .play}
 
 
 In this play area, you can test different easing functions to
@@ -131,22 +131,22 @@ represents the time of the animation from beginning to end. The vertical
 axis, from bottom to top, is how the animation will be interpolated; the
 lower green line represents the starting appearance, and the upper blue
 line is the ending appearance.
-:::+ {style="margin:10px 0; text-align+ center;"}
+:::: {style="margin:10px 0; text-align: center;"}
 +-----------------------------------+-----------------------------------+
-| :::+ {                            |                                   |
+| :::: {                            |                                   |
 | style="width:1em; height:150px;"} |                                   |
-| ::+ {.nobr style="c               |                                   |
+| ::: {.nobr style="c               |                                   |
 | olor:black; width:150px; height:1 |                                   |
 | 50px; transform:rotate(270deg);"} |                                   |
 | Progress →                        |                                   |
-| ::+                               |                                   |
-| :::+                              |                                   |
+| :::                               |                                   |
+| ::::                              |                                   |
 +-----------------------------------+-----------------------------------+
-|                                   | ::+ nobr                          |
+|                                   | ::: nobr                          |
 |                                   | Time →                            |
-|                                   | ::+                               |
+|                                   | :::                               |
 +-----------------------------------+-----------------------------------+
-::+ {style="display:inline-block; text-align+ left; vertical-align+ middle; margin+ 0 auto 0 0;"}
+::: {style="display:inline-block; text-align: left; vertical-align: middle; margin: 0 auto 0 0;"}
 LINEAR_EASING SINE_EASING CIRCULAR_EASING CUBIC_EASING BOUNCE_EASING
 ELASTIC_EASING BACK_EASING QUAD_EASING JUMP_EASING\
 EASE_IN\

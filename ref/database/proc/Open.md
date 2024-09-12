@@ -8,7 +8,7 @@
 +   Open(filename)
 <!-- -->
 **Args:**
-+   filename+ The database filename to open
++   filename: The database filename to open
 
 
 Opens a database file. If another database was already open, it

@@ -39,4 +39,4 @@ supported procs for vectors include:
 [floor()](/ref/proc/floor.md) {.code}
 [ceil()](/ref/proc/ceil.md) {.code}
 [trunc()](/ref/proc/trunc.md) {.code}
-[fract()](/ref/proc/fract.md) .code}
+[fract()](/ref/proc/fract.md)

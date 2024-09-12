@@ -8,7 +8,7 @@
 +   A lowercase text string.
 <!-- -->
 **Args:**
-+   T+ A text string.
++   T: A text string.
 
 
 Make all of the characters of T lowercase.

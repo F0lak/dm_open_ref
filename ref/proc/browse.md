@@ -11,8 +11,8 @@
 +   usr \<\< browse(Body,Options)
 <!-- -->
 **Args:**
-+   Body+ html text, file, or null to close the browser.
-+   Options+ optional parameters
++   Body: html text, file, or null to close the browser.
++   Options: optional parameters
 
 
 This sends the html text or file to the user and optionally
@@ -54,7 +54,7 @@ display
     browser or not. If it is turned off (display=0), the text or file is
     simply sent to the user and expected to be referenced later. This
     might be useful, for instance, to first send an image to a user and
-    then display a web page that uses that image+ 
+    then display a web page that uses that image: 
 ```
  usr \<\<
     browse(\'monster.png\',\"display=0\") usr \<\<

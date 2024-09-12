@@ -10,10 +10,10 @@
     Ref.
 <!-- -->
 **Args:**
-+   Ref+ A turf, obj, or mob.
-+   Dist+ A number (distance in pixels).
-+   x_offset, y_offset+ Shifts bounding box position
-+   extra_width, extra_height+ Adjusts bounding box size
++   Ref: A turf, obj, or mob.
++   Dist: A number (distance in pixels).
++   x_offset, y_offset: Shifts bounding box position
++   extra_width, extra_height: Adjusts bounding box size
 
 
 The results from obounds() are identical to bounds(), but

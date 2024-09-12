@@ -6,16 +6,16 @@ Format:
 +   filter(type=\"ripple\", \...)
 <!-- -->
 Args:
-+   x+ Horiztonal position of ripple center, relative to image center
++   x: Horiztonal position of ripple center, relative to image center
     (defaults to 0)
-+   y+ Vertical position of ripple center, relative to image center
++   y: Vertical position of ripple center, relative to image center
     (defaults to 0)
-+   size+ Maximum distortion in pixels (defaults to 1)
-+   repeat+ Wave period, in pixels (defaults to 2)
-+   radius+ Outer radius of ripple, in pixels (defaults to 0)
-+   falloff+ How quickly ripples lose strength away from the outer edge
++   size: Maximum distortion in pixels (defaults to 1)
++   repeat: Wave period, in pixels (defaults to 2)
++   radius: Outer radius of ripple, in pixels (defaults to 0)
++   falloff: How quickly ripples lose strength away from the outer edge
     (defaults to 1)
-+   flags+ Defaults to 0; use `WAVE_BOUNDED` to keep distortion within
++   flags: Defaults to 0; use `WAVE_BOUNDED` to keep distortion within
     the image
 
 

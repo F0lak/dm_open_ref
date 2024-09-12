@@ -8,8 +8,8 @@
 +   stat(Name,Value)
 <!-- -->
 **Args:**
-+   Name+ the name of the stat line
-+   Value+ the data to be displayed
++   Name: the name of the stat line
++   Value: the data to be displayed
 
 
 This is used in a Stat() proc to send a stat line to usr, the

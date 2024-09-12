@@ -15,5 +15,5 @@
 
 
 Stretch the background image.
-Deprecated; use [image-mode](/ref/%7Bskin%7D/param/image-mode.md) .code}
+Deprecated; use [image-mode](/ref/%7Bskin%7D/param/image-mode.md)
 instead.

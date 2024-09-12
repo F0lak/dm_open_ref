@@ -10,7 +10,7 @@
 +   list2params(List)
 <!-- -->
 **Args:**
-+   List+ List to encode as a text string.
++   List: List to encode as a text string.
 
 
 This instruction converts a list of parameter names and
@@ -24,7 +24,7 @@ similar situation. The format of the resulting text string is:
 
 
 Special characters such as \'=\' and \'&\' inside the parameter
-names or values are written in the form+ `%xx` where `xx` are two
+names or values are written in the form: `%xx` where `xx` are two
 hexadecimal digits representing the ASCII value of the character. For
 [Unicode](/ref/%7Bnotes%7D/Unicode.md) characters, their UTF-8 encoding will
 be processed this way, which may make up multiple `%xx` sequences. In

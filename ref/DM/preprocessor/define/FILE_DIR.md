@@ -6,7 +6,7 @@
 +   #define FILE_DIR Path
 <!-- -->
 **Args:**
-+   Path+ A search path on the current filesystem.
++   Path: A search path on the current filesystem.
 
 
 This macro defines a search path to be used in evaluating

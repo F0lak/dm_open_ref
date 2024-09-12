@@ -30,7 +30,7 @@ as well as simple 1-byte and 2-byte ints that use `1c` and `2c`
 
 The main structure used to pass data back and forth is
 `CByondValue`. This mimics an internal structure in BYOND that holds
-values of all sorts+ numbers, null, references to strings, references to
+values of all sorts: numbers, null, references to strings, references to
 objects and lists, and so on. 
 
 The exact functions used for
@@ -50,7 +50,7 @@ interacting with the server. These include the ability to read and write
 vars, call procs, create lists, read and write from lists, and so on.
 
 
-Most of these procs return boolean values+ true if they
+Most of these procs return boolean values: true if they
 succeed, false if not. In the event of a failure, you can call
 `Byond_LastError()` to get the error message. 
 
@@ -80,7 +80,7 @@ The `ByondValue` class is a wrapper around
 redefine the `argv` argument of any `call_ext()` functions as an array
 of `ByondValue` instead of `CByondValue`, but the return value should
 stay a `CByondValue`.
-### Example+ {#example .cpp}
+### Example: {#example .cpp}
 ``` cpp
 #include <string>
 #include <byondapi.h>

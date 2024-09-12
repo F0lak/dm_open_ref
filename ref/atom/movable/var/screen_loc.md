@@ -9,7 +9,7 @@
 
 This is a text string that controls where an object that is
 listed in `client.screen`{.variable} will appear on the user\'s screen.
-The format is+ 
+The format is: 
 ```
  \"x,y\" \"x:px,y:py\" \"x1,y1 to x2,y2\"
 
@@ -93,7 +93,7 @@ It is also possible to specify a pixel offset. Screen objects
 do not use `pixel_x` and `pixel_y` for this purpose, because it is
 intended that an object could exist on the map and in the screen object
 list simultaneously, so positioning must be independent. Pixel offsets
-are specified after a colon like this+ `"1:16,1:16"`. In this case the
+are specified after a colon like this: `"1:16,1:16"`. In this case the
 object is shifted to the northeast by 16 pixels.
 ### Layering
 
@@ -111,7 +111,7 @@ use `"map2:1,1"` or something similar as a `screen_loc`. If the map
 control is set to automatically scale to fit its contents, it will try
 to show every object you put there. 
 
-Note+ For secondary-map HUD
+Note: For secondary-map HUD
 items, you should not use the full `window.control` ID, just the
-[id](/ref/%7Bskin%7D/param/id.md) .code} of the control itself. Map controls
+[id](/ref/%7Bskin%7D/param/id.md) of the control itself. Map controls
 should always have a unique `id`.

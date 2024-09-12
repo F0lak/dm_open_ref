@@ -8,7 +8,7 @@
 +   A capitalized text string.
 <!-- -->
 **Args:**
-+   T+ A text string.
++   T: A text string.
 
 
 Capitalize all of the characters of T.

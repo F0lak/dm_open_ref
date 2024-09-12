@@ -9,9 +9,9 @@
 +   The location of the new position, or 0 if no change.
 <!-- -->
 **Args:**
-+   Ref+ Starting point or object.
-+   Trg+ An object on the map.
-+   Max+ The maximum distance between Ref and Targ before movement
++   Ref: Starting point or object.
++   Trg: An object on the map.
++   Max: The maximum distance between Ref and Targ before movement
     halts.
 
 

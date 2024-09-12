@@ -23,7 +23,7 @@ various ways.
 [#pragma compatibility](/ref/DM/preprocessor/pragma/compatibility.md) 
 +   Hint that the compiler should avoid using features higher than a
     given version.
-[#pragma math](/ref/DM/preprocessor/pragma/math.md) +   Choose faster (old) or more accurate (new default) trigonometry.
+[#pragma math](/ref/DM/preprocessor/pragma/math.md) :   Choose faster (old) or more accurate (new default) trigonometry.
 
 
 Pragmas will *not* be inherited by libraries included in your

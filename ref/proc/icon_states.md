@@ -12,8 +12,8 @@
 +   A list of text strings.
 <!-- -->
 **Args:**
-+   Icon+ the icon being accessed
-+   mode+ applies to icons larger than one tile when using
++   Icon: the icon being accessed
++   mode: applies to icons larger than one tile when using
     map_format=TILED_ICON_MAP; see below
 
 

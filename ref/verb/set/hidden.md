@@ -9,7 +9,7 @@
 +   set hidden = Setting
 <!-- -->
 **Args:**
-+   Setting+ 1 for hidden verbs; 0 otherwise.
++   Setting: 1 for hidden verbs; 0 otherwise.
 
 
 A hidden verb is not visible to players (in menus or in

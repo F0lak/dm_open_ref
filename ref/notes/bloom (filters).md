@@ -7,10 +7,10 @@ Format:
 +   filter(type=\"bloom\", \...)
 <!-- -->
 Args:
-+   threshold+ Color threshold for bloom
-+   size+ Blur radius of bloom effect (see Gaussian blur)
-+   offset+ Growth/outline radius of bloom effect before blur
-+   alpha+ Opacity of effect (default is 255, max opacity)
++   threshold: Color threshold for bloom
++   size: Blur radius of bloom effect (see Gaussian blur)
++   offset: Growth/outline radius of bloom effect before blur
++   alpha: Opacity of effect (default is 255, max opacity)
 
 
 Post-processing effect that makes bright colors look like
@@ -28,7 +28,7 @@ create a glow that gets added to the original image.
 
 The
 `offset` and `size` parameters are used to control the glow effect. They
-work the same as they do in the drop shadow filter+ `offset` causes the
+work the same as they do in the drop shadow filter: `offset` causes the
 light to grow outwards, and a blur of `size` is then applied to soften
 it. Often just using a blur alone will produce a pleasing effect. By
 playing with these two values you can make the bloom effect appear

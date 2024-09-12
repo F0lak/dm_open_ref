@@ -6,9 +6,9 @@
 +   The first position of elem in list, or 0 if not found.
 <!-- -->
 **Args:**
-+   Elem+ The element to find.
-+   Start+ The list position in which to begin the search.
-+   End+ The list position immediately following the end of the search.
++   Elem: The element to find.
++   Start: The list position in which to begin the search.
++   End: The list position immediately following the end of the search.
 
 
 Find the first position of Elem in the list. Elements between

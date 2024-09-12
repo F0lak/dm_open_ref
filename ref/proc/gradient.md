@@ -10,10 +10,10 @@
 +   gradient(Gradient, index)
 <!-- -->
 **Args:**
-+   Gradient+ A [color gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
-+   Item1, Item2\...+ Elements of a [color
++   Gradient: A [color gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
++   Item1, Item2\...: Elements of a [color
     gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
-+   index+ The index along the gradient where the interpolation is done.
++   index: The index along the gradient where the interpolation is done.
 <!-- -->
 **Returns:**
 +   A color, represented by a text string in #RRGGBB or #RRGGBBAA format

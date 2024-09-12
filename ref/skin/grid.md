@@ -25,8 +25,8 @@ Sending output to a grid looks like this:
 ```
  // output to column 3, row 2 winset(usr, \"thegrid\",
 \"current-cell=3,2\") usr \<\< output(\"Text\", \"thegrid\") // or even
-easier+ usr \<\< output(\"Text\", \"thegrid:3,2\") // when is-list is
-true+ usr \<\< output(\"5th item\", \"thegrid:5\") 
+easier: usr \<\< output(\"Text\", \"thegrid:3,2\") // when is-list is
+true: usr \<\< output(\"5th item\", \"thegrid:5\") 
 ```
 
 

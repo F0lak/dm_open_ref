@@ -6,7 +6,7 @@
 +   ref(Object)
 <!-- -->
 **Args:**
-+   Object+ The object to get a reference for
++   Object: The object to get a reference for
 <!-- -->
 **Returns:**
 +   A string containing a reference ID.

@@ -10,7 +10,7 @@
 +   A text string.
 <!-- -->
 **Args:**
-+   N+ A number.
++   N: A number.
 
 
 ASCII codes are numerical values corresponding to keyboard and

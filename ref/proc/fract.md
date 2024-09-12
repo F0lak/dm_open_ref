@@ -12,7 +12,7 @@
 +   fractional part of A
 <!-- -->
 **Args:**
-+   A+ A number, pixloc, or vector.
++   A: A number, pixloc, or vector.
 
 
 Returns the fractional part of the number A, with the same

@@ -12,7 +12,7 @@
 +   the floor of A
 <!-- -->
 **Args:**
-+   A+ A number, pixloc, or vector.
++   A: A number, pixloc, or vector.
 
 
 Returns the floor of A (the largest integer less than or equal

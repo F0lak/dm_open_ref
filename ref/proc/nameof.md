@@ -1,16 +1,16 @@
 ## nameof proc 
 ###### BYOND Version 515
 **See also:**
-+   [:+ operator](/ref/operator/::.md) <!-- -->
++   [:: operator](/ref/operator/::.md) <!-- -->
 **Format:**
 +   nameof(Var)
 +   nameof(ProcRef)
 +   nameof(Path)
 <!-- -->
 **Args:**
-+   Var+ A variable, e.g. src.density or foo::bar.
-+   ProcRef+ A proc reference, e.g. /mob::Enter().
-+   Path+ A type path, e.g. /obj/item/barrel.
++   Var: A variable, e.g. src.density or foo::bar.
++   ProcRef: A proc reference, e.g. /mob::Enter().
++   Path: A type path, e.g. /obj/item/barrel.
 
 
 This returns the name of a var or proc, or the last part of a

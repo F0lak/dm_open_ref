@@ -8,8 +8,8 @@
 +   ftime(File, IsCreationTime)
 <!-- -->
 **Args:**
-+   File+ name of file to test
-+   IsCreationTime (optional)+ true to return file creation time, false
++   File: name of file to test
++   IsCreationTime (optional): true to return file creation time, false
     (default) to return last-modified time
 <!-- -->
 **Returns:**

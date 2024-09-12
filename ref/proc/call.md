@@ -11,11 +11,11 @@
 +   call(LibName,FuncName)(Arguments) (use `call_ext()` instead)
 <!-- -->
 **Args:**
-+   ProcRef+ path of proc (/proc/MyProc)
-+   Object+ source of proc or verb
-+   ProcName+ name of proc or verb (\"MyProc\")
-+   LibName+ name of external library (\"test.DLL\")
-+   FuncName+ name of function in external library (\"func\")
++   ProcRef: path of proc (/proc/MyProc)
++   Object: source of proc or verb
++   ProcName: name of proc or verb (\"MyProc\")
++   LibName: name of external library (\"test.DLL\")
++   FuncName: name of function in external library (\"func\")
 <!-- -->
 **Returns:**
 +   The return value of the proc being called.
@@ -51,6 +51,6 @@ list(\"Proc1\",\"Proc2\")) call(src,Proc)(\"Hello, world!\")
 
 
 
-Note+ In prior versions, `call()` was also used to access
+Note: In prior versions, `call()` was also used to access
 third-party libraries (.DLL files on Windows, .SO files on Unix), but
-this has been moved to [call_ext()](/ref/proc/call_ext.md) .code} for clarity.
+this has been moved to [call_ext()](/ref/proc/call_ext.md) for clarity.

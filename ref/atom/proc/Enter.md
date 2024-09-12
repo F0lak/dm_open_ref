@@ -21,16 +21,18 @@
 +   Called when an object attempts to enter the contents list.
 <!-- -->
 **Args:**
-+   O+ the object attempting to enter.
-+   oldloc+ the old (current) loc of the object attempting to enter.
++   O: the object attempting to enter.
++   oldloc: the old (current) loc of the object attempting to enter.
 <!-- -->
 **Default action:**
 +   Explained below.
 
 
 Areas, objs, and mobs will always permit anything to enter by
-default. [!NOTE]The following behavior only applies to
-[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md) .code}. In all other
+default. 
+> [!NOTE]
+> The following behavior only applies to
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md). In all other
 movement modes, the turf\'s contents are not taken into account. Only
 the result of turf.Cross() matters. 
 
@@ -40,7 +42,7 @@ is entering is dense, then the turf will deny entry if the turf itself
 or its contents (any that take up the full tile) are dense.
 
 
-What actually happens in turf.Enter() is more detailed+ Cross()
+What actually happens in turf.Enter() is more detailed: Cross()
 is called for the turf, and if it succeeds (movement is permitted), then
 Cross() is called for any atoms in turf.contents that cover the entire
 tile. If any Cross() call fails, Enter() fails too and will return 0.

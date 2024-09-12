@@ -17,5 +17,5 @@
 
 
 Affects the background color for tabs. The regular
-[background-color](/ref/%7Bskin%7D/param/background-color.md) .code} is used
+[background-color](/ref/%7Bskin%7D/param/background-color.md) is used
 for the content area.

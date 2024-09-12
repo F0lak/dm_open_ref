@@ -10,7 +10,7 @@
 <!-- -->
 **Default value:**
 +   empty list
-::+ sidebar
+::: sidebar
 
 
 Overlays are relatively static and cannot be altered on the

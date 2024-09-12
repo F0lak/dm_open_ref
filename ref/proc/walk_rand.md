@@ -7,9 +7,9 @@
 +   walk_rand(Ref,Lag=0,Speed=0)
 <!-- -->
 **Args:**
-+   Ref+ A mob or obj.
-+   Lag+ Delay in world ticks between movement.
-+   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
++   Ref: A mob or obj.
++   Lag: Delay in world ticks between movement.
++   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Moves Ref randomly. Each step will be preceded by Lag time of

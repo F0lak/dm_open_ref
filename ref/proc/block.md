@@ -10,11 +10,11 @@
     (inclusive).
 <!-- -->
 **Args:**
-+   Start+ A turf to be the lower-left corner of the block.
-+   End+ A turf to be the upper-right corner of the block.
-+   StartX, StartY, StartZ+ XYZ coordinates of the lower-left corner of
++   Start: A turf to be the lower-left corner of the block.
++   End: A turf to be the upper-right corner of the block.
++   StartX, StartY, StartZ: XYZ coordinates of the lower-left corner of
     the block.
-+   EndX, EndY, EndZ+ XYZ coordinates of the upper-right corner of the
++   EndX, EndY, EndZ: XYZ coordinates of the upper-right corner of the
     block.
 
 

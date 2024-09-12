@@ -12,7 +12,7 @@
 +   Called when the object is written to a save file.
 <!-- -->
 **Args:**
-+   F+ the save file being written to
++   F: the save file being written to
 <!-- -->
 **Default action:**
 +   Write the value of each variable to a directory by the same name as

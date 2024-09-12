@@ -7,8 +7,8 @@
 +   Translate(x,y)
 <!-- -->
 **Args:**
-+   x+ The amount of scaling to do in the x direction
-+   y+ The amount of scaling to do in the y direction
++   x: The amount of scaling to do in the x direction
++   y: The amount of scaling to do in the y direction
 <!-- -->
 **Returns:**
 +   src

@@ -17,15 +17,15 @@
 +   MouseDrag(src_object,over_object,src_location,over_location,src_control,over_control,params)
 <!-- -->
 **Args:**
-+   src_object+ the object being dragged
-+   over_object+ the object under the mouse pointer
-+   src_location+ the turf, stat panel, grid cell, etc. from where the
++   src_object: the object being dragged
++   over_object: the object under the mouse pointer
++   src_location: the turf, stat panel, grid cell, etc. from where the
     src object was dragged
-+   over_location+ the turf, stat panel, grid cell, etc. containing the
++   over_location: the turf, stat panel, grid cell, etc. containing the
     object under the mouse pointer
-+   src_control+ The id of the skin control the object was dragged from
-+   over_control+ The id of the skin control the object was dragged over
-+   params+ other parameters including mouse/keyboard flags, icon
++   src_control: The id of the skin control the object was dragged from
++   over_control: The id of the skin control the object was dragged over
++   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
 **Default action:**
 +   Call
@@ -43,7 +43,7 @@ can be done through Click(), DblClick(), and MouseDrop(). The other
 procedures are simply available for completeness. 
 
 The argument
-format for this verb is+ 
+format for this verb is: 
 ```
  MouseDrag(src_object as null\|atom
 in usr.client,\\ over_object as null\|atom in usr.client,\\ src_location

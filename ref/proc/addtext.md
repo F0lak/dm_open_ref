@@ -18,7 +18,7 @@ constants or variables containing text.
 
 ```
  var/T T = \"1\" T = addtext(T,\"\*1 = \",T) // T = \"1\*1 =
-1\" world \<\< \"The answer is+ \[T\]\" 
+1\" world \<\< \"The answer is: \[T\]\" 
 ```
  
 

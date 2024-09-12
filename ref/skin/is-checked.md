@@ -16,4 +16,4 @@
 
 
 True if the button or menu item is checked. Menu items can set
-this even if [can-check](/ref/%7Bskin%7D/param/can-check.md) .code} is false.
+this even if [can-check](/ref/%7Bskin%7D/param/can-check.md) is false.

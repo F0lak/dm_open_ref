@@ -8,8 +8,8 @@
 +   GetAPI(Api, Name)
 <!-- -->
 **Args:**
-+   Api+ the name of the API (e.g. \"steam\")
-+   Key+ the name of the value to read
++   Api: the name of the API (e.g. \"steam\")
++   Key: the name of the value to read
 
 
 Interfaces with supported external APIs to read information.
@@ -17,7 +17,7 @@ Currently this only has meaning for Steam, for specially built games
 that have a Steam app ID. 
 
 This proc returns null any time the
-call or its results are invalid+ for instance, trying to query a Steam
+call or its results are invalid: for instance, trying to query a Steam
 stat from a user who isn\'t logged into Steam.
   -----------------------------------------------------------------------------------------------------
   Key                       Return type       Description                             
@@ -38,7 +38,7 @@ stat from a user who isn\'t logged into Steam.
   stat:*Name*               num               Returns the value of the stat called    
                                               `Name`.                                 
   achievement:*Name*        num               Returns the date (for use with          
-                                              [time2text](/ref/proc/time2text.md) .code})   
+                                              [time2text](/ref/proc/time2text.md))   
                                               the achievement called `Name`, or 0 if  
                                               it hasn\'t been earned.                 
   achievement-data:*Name*   list              Returns information about the           

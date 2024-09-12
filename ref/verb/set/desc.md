@@ -3,7 +3,7 @@
 +   set desc = \"Description\"
 <!-- -->
 **Args:**
-+   Description+ A text string containing the help text.
++   Description: A text string containing the help text.
 
 
 The desc attribute sets the descriptive help string for the
@@ -21,7 +21,7 @@ Talk privately to someone.\" M \<\< \"\[usr\] tells you, \'\[T\]\"
 ```
  
 
-This will produce the help text+ 
+This will produce the help text: 
 ```
  usage:
 tell target message (Talk privately to someone.) 
@@ -32,6 +32,6 @@ If
 the syntax description had not been supplied, it would have produced:
 
 ```
- usage+ tell mob \"text\" (Talk privately to someone.)
+ usage: tell mob \"text\" (Talk privately to someone.)
 
 ```

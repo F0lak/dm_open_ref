@@ -10,12 +10,12 @@
 +   number
 <!-- -->
 **Default value:**
-+   `angle1`+ 0
-+   `angle2`+ 180
++   `angle1`: 0
++   `angle2`: 180
 
 
 The angle of the bar control\'s arc when its
-[dir](/ref/%7Bskin%7D/param/dir.md) .code} is `clockwise` or
+[dir](/ref/%7Bskin%7D/param/dir.md) is `clockwise` or
 `counterclockwise`. Angles are measured clockwise from due north, so 0
 is north, 90 is east, and so on. `angle1` is the beginning of the arc,
 and `angle2` is the end.

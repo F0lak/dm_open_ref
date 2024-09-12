@@ -10,7 +10,7 @@
 +   Scale(width, height)
 <!-- -->
 **Args:**
-+   width,height+ size of the new icon
++   width,height: size of the new icon
 
 
 The current icon is scaled to a new size. 

@@ -12,7 +12,7 @@
 
 The logarithm is the power to which you have to raise X in
 order to get Y. In other words, the following is true (ignoring
-round-off error)+ 
+round-off error): 
 ```
  X \*\* log(X,Y) == Y 
 ```

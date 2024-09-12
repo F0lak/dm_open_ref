@@ -16,10 +16,10 @@
     described below.
 <!-- -->
 **Args:**
-+   key+ BYOND key of the user.
-+   address+ current IP address of the user.
-+   computer_id+ current computer_id of the user if known.
-+   type+ type of connection if known (see
++   key: BYOND key of the user.
++   address: current IP address of the user.
++   computer_id: current computer_id of the user if known.
++   type: type of connection if known (see
     [client.connection](/ref/client/var/connection.md) )
 
 

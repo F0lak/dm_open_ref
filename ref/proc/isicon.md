@@ -7,7 +7,7 @@
 +   isicon(Icon)
 <!-- -->
 **Args:**
-+   Icon+ the value to test
++   Icon: the value to test
 <!-- -->
 **Returns:**
 +   1 if the value is a valid icon; 0 otherwise.

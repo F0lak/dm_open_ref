@@ -16,7 +16,7 @@
 
 The color used for the prefix/header column of statpanel
 displays. No color means the default
-[text-color](/ref/%7Bskin%7D/param/text-color.md) .code} will be used.
+[text-color](/ref/%7Bskin%7D/param/text-color.md) will be used.
 
 
 In BYOND 3.0, this color was red.

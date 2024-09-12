@@ -20,10 +20,10 @@
 +   MouseEntered(location,control,params)
 <!-- -->
 **Args:**
-+   location+ the turf, stat panel, grid cell, etc. containing the
++   location: the turf, stat panel, grid cell, etc. containing the
     object
-+   control+ the name of the skin control involved
-+   params+ other parameters including mouse/keyboard flags, icon
++   control: the name of the skin control involved
++   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) 
 
 This is called when the mouse moves onto the object with no

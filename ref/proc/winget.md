@@ -9,9 +9,9 @@
 +   winget(player, control_id, params)
 <!-- -->
 **Args:**
-+   player+ A mob or client.
-+   control_id+ The unique ID of a control in the player\'s skin.
-+   params+ The name of a parameter to read, or a semicolon-separated
++   player: A mob or client.
++   control_id: The unique ID of a control in the player\'s skin.
++   params: The name of a parameter to read, or a semicolon-separated
     list of parameters
 
 
@@ -40,11 +40,11 @@ by separating them with semicolons, like `"button1;button2"`.
 ```
  
 
-This outputs+ 
+This outputs: 
 ```
 
-mainwindow.is-visible = true Other params+ pos=0x0;is-maximized=true
-Buttons+ button1.is-checked=true;button2.is-checked=false 
+mainwindow.is-visible = true Other params: pos=0x0;is-maximized=true
+Buttons: button1.is-checked=true;button2.is-checked=false 
 ```
 
 
@@ -60,7 +60,7 @@ controls in a window, menu, or macro set. If control_id is
 `mainwindow`---and `mainwindow` itself---is included in the result if it
 has the parameter(s) you\'re looking for. Use `params2list()` to
 interpret the result.
-Note+ Because the client must be contacted to get this information,
+Note: Because the client must be contacted to get this information,
 `winget()` will sleep the current proc.
 ### Special wingets
 

@@ -7,7 +7,7 @@
 +   set invisibility = Setting
 <!-- -->
 **Args:**
-+   Setting+ 0 to 100
++   Setting: 0 to 100
 <!-- -->
 **Default value:**
 +   same as invisibility of the source object.

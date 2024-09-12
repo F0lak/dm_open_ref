@@ -12,7 +12,7 @@
 +   truncated A
 <!-- -->
 **Args:**
-+   A+ A number, pixloc, or vector.
++   A: A number, pixloc, or vector.
 
 
 Returns the integer part of the number A. That is, this rounds

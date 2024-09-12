@@ -10,9 +10,9 @@
 +   1 on success; 0 otherwise.
 <!-- -->
 **Args:**
-+   Ref+ A mob or obj.
-+   Trg+ An object on the map.
-+   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
++   Ref: A mob or obj.
++   Trg: An object on the map.
++   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Move Ref in the direction of the location Trg.

@@ -13,8 +13,8 @@
 +   1 if Val is derived from Type; 0 otherwise.
 <!-- -->
 **Args:**
-+   Val+ An object instance.
-+   Type+ An object prototype or instance. If no type is specified and a
++   Val: An object instance.
++   Type: An object prototype or instance. If no type is specified and a
     variable was passed in as the first argument, it will default to the
     declared type of the variable.
 
@@ -32,7 +32,7 @@ see if one prototype derives from another one, use
 
 
 Using implicit types, that same example can be rewritten as
-follows+ 
+follows: 
 ```
  var/mob/ugly/M M = new/mob/ugly/duckling()
 if(istype(M)) //this will be true usr \<\< \"\[M\] is ugly!\" 

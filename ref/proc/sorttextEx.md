@@ -18,7 +18,7 @@
 This instruction is sensitive to case. The case-insensitive
 version is sorttext(). 
 
-Note+ Uppercase letters are lower in the
+Note: Uppercase letters are lower in the
 alphabetical order than lowercase letters.
 ### Example:
 
@@ -31,6 +31,6 @@ alphabetical order than lowercase letters.
 
 This outputs, \"descending\", since
 \"B\" comes before \"a\" in the alphabet.
-Note+ This proc used to be named `sortText`, like `sorttext` but with a
+Note: This proc used to be named `sortText`, like `sorttext` but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.

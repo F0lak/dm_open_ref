@@ -5,7 +5,7 @@
 +   [operators](/ref/operator.md) 
 +   [\[\] operator](/ref/operator/%5B%5D.md) 
 +   [?. operator](/ref/operator/%3f%2e.md) 
-+   [?+ operator](/ref/operator/%3f:.md) 
++   [?: operator](/ref/operator/%3f:.md) 
 
 This is the null-conditional list index operator. It is used to
 access an element of a list, IF that list is not null. If the list is

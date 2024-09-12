@@ -21,7 +21,7 @@
     side-effects. The same goes for deletion of an object.
 <!-- -->
 **Args:**
-+   O+ the object that moved and is no longer overlapping.
++   O: the object that moved and is no longer overlapping.
 <!-- -->
 **Default action:**
 +   none

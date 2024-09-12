@@ -37,7 +37,7 @@ particular type you are creating.
 This is the most common use of \"modified types\",
 but it is not specific to the newlist instruction. Anywhere a type value
 may be used in DM, it may be followed by a list of initializations. The
-general syntax for a modified types is+ 
+general syntax for a modified types is: 
 
 *path* {*var1* =
 *val1*; *var2* = *val2*} 

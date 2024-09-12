@@ -5,7 +5,7 @@
 +   [procs (obj)](/ref/obj/proc.md) 
 +   [vars (obj)](/ref/obj/var.md) 
 
-There are two types of movable atoms+ objs and mobs. The
+There are two types of movable atoms: objs and mobs. The
 difference between them is that a mob can be attached to a human player,
 and is also typically used for NPCs and creatures. The obj type is a
 little bit simpler and is typically used for objects in the environment,

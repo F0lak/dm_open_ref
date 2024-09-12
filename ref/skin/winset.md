@@ -34,25 +34,25 @@ the properties you requested. For example, this URL:
 
 \...might send this to the callback function `wgcb`:
     {
-        "is-checked"+ true,
-        "size"+ {
-            "x"+ 60,
-            "y"+ 20
+        "is-checked": true,
+        "size": {
+            "x": 60,
+            "y": 20
         },
-        "background-color"+ {
-            "value"+ "none",
-            "isDefault"+ true,
-            "red"+ 236,
-            "green"+ 233,
-            "blue"+ 216,
-            "alpha"+ 255,
-            "css"+ "#ece9d8"
+        "background-color": {
+            "value": "none",
+            "isDefault": true,
+            "red": 236,
+            "green": 233,
+            "blue": 216,
+            "alpha": 255,
+            "css": "#ece9d8"
         }
     }
 
 
 The property names will be in the same format you would expect
-from [winget()](/ref/proc/winget.md) .code}, so when you\'re looking at
+from [winget()](/ref/proc/winget.md), so when you\'re looking at
 multiple elements\' properties, you\'ll get the full names in
 `id.property` format. The values are always sent back in a convenient
 form for JavaScript to work with; in the case of size, position, and

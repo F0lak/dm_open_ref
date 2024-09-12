@@ -21,7 +21,7 @@ Jump to the specified node in the current proc.
 
 This displays \"The end\". 
 
-Note+ `goto`
+Note: `goto`
 should be used judiciously. It\'s easy to fall into the trap of
 \"spaghetti logic\" where `goto` is relied on so much that it becomes
 too difficult to follow how the flow of code execution will proceed.

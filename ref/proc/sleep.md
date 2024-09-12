@@ -9,8 +9,8 @@
 +   sleep(Delay)
 <!-- -->
 **Args:**
-+   Delay+ The amount of time to sleep, in 1/10 seconds.
-::+ {.sidebar .underhood}
++   Delay: The amount of time to sleep, in 1/10 seconds.
+::: {.sidebar .underhood}
 
 
 When a proc sleeps, it actually makes a copy of itself. The
@@ -28,7 +28,7 @@ that sleeping in some procedures results in the return value being lost.
 For example, if you sleep inside `Entered()` or `Exited()`, it will be
 as if you returned immediately where you started sleeping. This is
 because `Move()` calls them in away that says the return value should be
-ignored. Also if a proc has its [waitfor](/ref/proc/set/waitfor.md) .code}
+ignored. Also if a proc has its [waitfor](/ref/proc/set/waitfor.md)
 setting changed to 0, it will return the value of the `.` var to its
 caller immediately if it or one of its callees sleeps. 
 
@@ -58,14 +58,14 @@ loops are usually created using `spawn` to prevent the caller from
 getting locked up. You could call this procedure from `world.New()` to
 start it rolling. 
 
-Note+ sleep time is in 1/10s units, not
+Note: sleep time is in 1/10s units, not
 server ticks. If your `world.tick_lag` or `world.fps` value is different
 from the default, `sleep(1)` still means \"sleep for 1/10s\". To sleep
 for exactly `N` ticks, call `sleep(N * world.tick_lag)`. 
 
 If the
 ticker does intensive processing during each iteration, you probably
-want to run it in the background like this+ 
+want to run it in the background like this: 
 ```
  proc/Ticker() set
 background = 1 

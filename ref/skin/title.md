@@ -16,5 +16,5 @@ the tab if this pane is in a [Tab control](/ref/%7Bskin%7D/control/tab.md) .
 
 
 If this is the default window,
-[world.name](/ref/world/var/name.md) .code} takes precedence over the window
+[world.name](/ref/world/var/name.md) takes precedence over the window
 title.

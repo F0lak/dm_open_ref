@@ -21,7 +21,7 @@
     goes for creation or deletion of an object at a location.
 <!-- -->
 **Args:**
-+   O+ the object that moved and is now overlapping.
++   O: the object that moved and is now overlapping.
 <!-- -->
 **Default action:**
 +   none

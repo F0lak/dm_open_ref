@@ -8,9 +8,9 @@ Format:
 +   filter(type=\"angular_blur\", \...)
 <!-- -->
 Args:
-+   x+ Horizontal center of effect, in pixels, relative to image center
-+   y+ Vertical center of effect, in pixels, relative to image center
-+   size+ Amount of blur (defaults to 1)
++   x: Horizontal center of effect, in pixels, relative to image center
++   y: Vertical center of effect, in pixels, relative to image center
++   size: Amount of blur (defaults to 1)
 
 
 Blurs the image by a certain amount in a circular formation, as
@@ -23,7 +23,7 @@ Typically this blur is
 used with an entire plane, but it could be used to give a sense of
 motion blur to a spinning object. 
 
-Note+ Large blurs will look
+Note: Large blurs will look
 worse toward the edges due to limited sampling. Loss of accuracy will
 appear where `size` × distance is greater than about 300. You can
 increase accuracy by breaking up large sizes into multiple filter passes

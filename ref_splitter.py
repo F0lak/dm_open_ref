@@ -117,10 +117,11 @@ def clean_markdown_file(text) -> str:
 		text = fix_links(text)
 		text = clean_version(text)
 		text = clean_inline_code(text)
-		text = text.replace(": ", "+ ")
+		text = text.replace("\n: ", "\n+ ")
 		text = text.replace("PARAGRAPH", "\n\n")
 		text = text.replace("CODE_TICKS", "\n```\n")
-		text = text.replace("NOTE", "[!NOTE]")
+		text = text.replace("NOTE", "\n> [!NOTE]\n> ")
+		text = text.replace(" .code}", "")
 		return text
 
 def prep_html_file(text) -> str:
@@ -136,7 +137,6 @@ def clean_filenames(text) -> str:
 		text = text.replace("%3c", "<")
 		text = text.replace("%3f", "?")
 		text = text.replace("%25", "%")
-		#text = text.replace(".", "DOT")
 		text = text.replace(">", "RIGHT")
 		text = text.replace("<", "LEFT")
 		text = text.replace("*", "STAR")

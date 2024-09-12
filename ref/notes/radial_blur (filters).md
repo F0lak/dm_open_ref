@@ -8,9 +8,9 @@ Format:
 +   filter(type=\"radial_blur\", \...)
 <!-- -->
 Args:
-+   x+ Horizontal center of effect, in pixels, relative to image center
-+   y+ Vertical center of effect, in pixels, relative to image center
-+   size+ Amount of blur per pixel of distance (defaults to 0.01)
++   x: Horizontal center of effect, in pixels, relative to image center
++   y: Vertical center of effect, in pixels, relative to image center
++   size: Amount of blur per pixel of distance (defaults to 0.01)
 
 
 Blurs the image by a certain amount outward from the center, as
@@ -24,7 +24,7 @@ several hundred pixels.
 Typically this blur is used with an
 entire plane. 
 
-Note+ Large blurs will look worse toward the
+Note: Large blurs will look worse toward the
 edges due to limited sampling. Loss of accuracy will begin when `size` ×
 distance is greather than 6. You can increase accuracy by breaking up
 large sizes into multiple filter passes. The blur used is Gaussian, so

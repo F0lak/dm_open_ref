@@ -9,8 +9,8 @@
 +   The rotated icon.
 <!-- -->
 **Args:**
-+   Icon+ an icon to rotate
-+   Angle+ An angle in degrees (clockwise rotation).
++   Icon: an icon to rotate
++   Angle: An angle in degrees (clockwise rotation).
 ### Example:
 
 ```

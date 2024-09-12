@@ -40,7 +40,7 @@ your own macros but nothing else.
 This value can be changed at runtime.
 
 
-Note+ If you define your own skin for the world, and disable
+Note: If you define your own skin for the world, and disable
 the ability to use a custom skin or user-defined macros, you must be
 sure to define any macros your world may need. For instance, arrow keys
 may be needed for movement.

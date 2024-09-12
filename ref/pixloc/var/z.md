@@ -7,4 +7,4 @@
 
 
 The z value of this pixloc\'s turf (`loc`). It must be in the
-range of 1 to [world.maxz](/ref/world/var/maxz.md) .code}.
+range of 1 to [world.maxz](/ref/world/var/maxz.md).

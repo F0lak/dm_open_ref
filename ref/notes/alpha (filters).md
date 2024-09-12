@@ -7,11 +7,11 @@ Format:
 +   filter(type=\"alpha\", \...)
 <!-- -->
 Args:
-+   x+ Horizontal offset of mask (defaults to 0)
-+   y+ Vertical offset of mask (defaults to 0)
-+   icon+ Icon to use as a mask
-+   render_source+ `render_target` to use as a mask
-+   flags+ Defaults to 0; use see below for other flags
++   x: Horizontal offset of mask (defaults to 0)
++   y: Vertical offset of mask (defaults to 0)
++   icon: Icon to use as a mask
++   render_source: `render_target` to use as a mask
++   flags: Defaults to 0; use see below for other flags
 
 
 Uses an icon or render target as a mask over this image. Every
@@ -28,5 +28,5 @@ vice-versa. There is also a `MASK_SWAP` flag which treats the source
 image as the mask and vice-versa, which might be useful for some
 effects. 
 
-Note+ Unlike many other filters, this filter **is**
+Note: Unlike many other filters, this filter **is**
 taken into account for mouse-hit purposes.

@@ -7,7 +7,7 @@
 +   [Main](/ref/%7Bskin%7D/control/main.md)  (window only)
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) +   none
++   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) :   none
 <!-- -->
 **Default value:**
 +   none

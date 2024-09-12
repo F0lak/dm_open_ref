@@ -2,13 +2,13 @@
 ###### BYOND Version 515
 **See also:**
 +   [isnum proc](/ref/proc/isnum.md) 
-+   [isnan proc](/ref/proc/isnan.md) +   [Numbers](/%7Bnotes%7D/numbers)
++   [isnan proc](/ref/proc/isnan.md) :   [Numbers](/%7Bnotes%7D/numbers)
 <!-- -->
 **Format:**
 +   isinf(n)
 <!-- -->
 **Args:**
-+   n+ A number
++   n: A number
 <!-- -->
 **Returns:**
 +   1 if this is an infinite numeric value, either positive or negative;

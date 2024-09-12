@@ -10,5 +10,5 @@
 +   The length of text T.
 <!-- -->
 **Args:**
-+   T+ A text string.
-Use [length()](/ref/proc/length.md) .code} instead.
++   T: A text string.
+Use [length()](/ref/proc/length.md) instead.

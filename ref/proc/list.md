@@ -46,7 +46,7 @@ That creates a list with contents (\"player,
 The index values should be constants, and that usually means
 text constants. When these index values happen to be text strings that
 satisfy all the requirements for variable names, this may also be
-written in a convenient short-hand without the double quotes+ 
+written in a convenient short-hand without the double quotes: 
 ```
 
 var/list/lst = list(player = \"James Byond\", score = 2000) 

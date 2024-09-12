@@ -11,9 +11,9 @@
 +   The key, if the scores were successfully updated; null otherwise.
 <!-- -->
 **Args:**
-+   key+ the name of the player, character, etc. for which scores should
++   key: the name of the player, character, etc. for which scores should
     be set
-+   fields+ The data fields to set
++   fields: The data fields to set
 
 
 Updates scores that are kept on the BYOND hub. 
@@ -47,7 +47,7 @@ world.SetScores(\"Tom\", list2params(params)) // Delete Tom\'s scores
 entirely world.SetScores(\"Tom\", \"\") 
 ```
 
-Note+ You can specify a different hub path and hub_password by adding
+Note: You can specify a different hub path and hub_password by adding
 these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.

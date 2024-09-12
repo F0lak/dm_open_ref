@@ -15,7 +15,7 @@
 
 
 Hide text with asterisks. Copy to clipboard is not available in
-this mode, but the [text](/ref/%7Bskin%7D/param/text.md) .code} parameter can
+this mode, but the [text](/ref/%7Bskin%7D/param/text.md) parameter can
 still read the control\'s contents.
-Note+ For obvious reasons, you should never use the same password in a
+Note: For obvious reasons, you should never use the same password in a
 game that you would use anywhere else.

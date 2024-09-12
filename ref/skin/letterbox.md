@@ -16,7 +16,7 @@
 
 
 If map auto-scales its icons
-([zoom](/ref/%7Bskin%7D/param/zoom.md) .code} is 0), make sure the entire map
+([zoom](/ref/%7Bskin%7D/param/zoom.md) is 0), make sure the entire map
 fits, and fill excess space with the background color. 
 
 If

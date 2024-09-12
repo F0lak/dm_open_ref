@@ -6,8 +6,8 @@
 +   text2file(Text,File)
 <!-- -->
 **Args:**
-+   Text+ text to be added to file
-+   File+ file to be appended to
++   Text: text to be added to file
++   File: file to be appended to
 <!-- -->
 **Returns:**
 +   1 on success; 0 otherwise.

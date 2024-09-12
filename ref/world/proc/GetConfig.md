@@ -9,8 +9,8 @@
 +   Value of requested parameter.
 <!-- -->
 **Args:**
-+   config_set+ name of the configuration set (see below)
-+   param+ name of the configuration parameter
++   config_set: name of the configuration set (see below)
++   param: name of the configuration parameter
 
 
 This command is for retrieving configuration information that
@@ -69,7 +69,7 @@ but even then, the default behavior is almost always what you want.
 
 
 The configuration space is specified inside the configuration
-set parameter like this+ 
+set parameter like this: 
 ```
  world.SetConfig(\"APP/keyban\",\...)
 

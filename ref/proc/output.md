@@ -8,8 +8,8 @@
 +   output(msg, control)
 <!-- -->
 **Args:**
-+   msg+ Text, an atom, a file, or null
-+   control+ The ID of a control in the player\'s skin, or null for the
++   msg: Text, an atom, a file, or null
++   control: The ID of a control in the player\'s skin, or null for the
     default
 
 
@@ -45,12 +45,12 @@ JavaScript function. The format for sending a script to the browser
 control is `output("[params]","[control]:[scriptname]")` where
 \"\[params\]\" is a URL-encoded list of string arguments to the
 javascript function, as formatted by
-[list2params()](/ref/proc/list2params.md) .code}.
+[list2params()](/ref/proc/list2params.md).
 ### Example:
 
 ```
  mob/Login() . = ..() usr \<\< output(\\ {\"
-::+ 
+::: 
 ###### BYOND Version  proc
 **See also:**
 +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
@@ -61,8 +61,8 @@ javascript function, as formatted by
 +   output(msg, control)
 <!-- -->
 **Args:**
-+   msg+ Text, an atom, a file, or null
-+   control+ The ID of a control in the player\'s skin, or null for the
++   msg: Text, an atom, a file, or null
++   control: The ID of a control in the player\'s skin, or null for the
     default
 
 
@@ -98,12 +98,12 @@ JavaScript function. The format for sending a script to the browser
 control is `output("[params]","[control]:[scriptname]")` where
 \"\[params\]\" is a URL-encoded list of string arguments to the
 javascript function, as formatted by
-[list2params()](/ref/proc/list2params.md) .code}.
+[list2params()](/ref/proc/list2params.md).
 ### Example:
 
 ```
  mob/Login() . = ..() usr \<\< output(\\ {\"
-::+ {#foo}
+::: {#foo}
 This text can change.
 :::
 

@@ -5,7 +5,7 @@
 +   set instant = Setting
 <!-- -->
 **Args:**
-+   Setting+ 1 for \"instant\" verbs; 0 otherwise.
++   Setting: 1 for \"instant\" verbs; 0 otherwise.
 <!-- -->
 **Default value:**
 +   0

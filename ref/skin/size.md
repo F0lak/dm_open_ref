@@ -28,7 +28,7 @@ refers to the window\'s normal size when it is restored. See the
 comparison. 
 
 If this control is a pane and
-[can-scroll](/ref/%7Bskin%7D/param/can-scroll.md) .code} is true, `size`
+[can-scroll](/ref/%7Bskin%7D/param/can-scroll.md) is true, `size`
 refers to the total scrollable size of the pane, NOT the smaller size
 displayed. In this case, `outer-size` and `inner-size` refer to the
 display area with and without scrollbars, respectively.

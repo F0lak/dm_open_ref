@@ -10,8 +10,8 @@
 +   1 on success; 0 otherwise.
 <!-- -->
 **Args:**
-+   Ref+ A mob or obj.
-+   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
++   Ref: A mob or obj.
++   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Move Ref randomly.

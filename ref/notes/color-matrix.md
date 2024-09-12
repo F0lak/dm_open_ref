@@ -18,7 +18,7 @@ because it transforms four different numbers instead of two, is 5x5.
 
 
 In easier-to-understand terms, this is how the result is
-calculated+ 
+calculated: 
 ```
  new_red = red \* rr + green \* gr + blue \* br +
 alpha \* ar + 255 \* cr new_green = red \* rg + green \* gg + blue \*

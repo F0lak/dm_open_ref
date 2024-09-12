@@ -12,8 +12,8 @@
     distances.
 <!-- -->
 **Args:**
-+   Loc1+ An object on the map.
-+   Loc2+ An object on the map.
++   Loc1: An object on the map.
++   Loc2: An object on the map.
 
 
 For a distance in pixels, use `bounds_dist()`.
@@ -23,5 +23,5 @@ For a distance in pixels, use `bounds_dist()`.
 object. If one or both of them is not on the map, an infinite value is
 returned. 
 
-Note+ Prior to BYOND 515, `get_dist()` never returned
+Note: Prior to BYOND 515, `get_dist()` never returned
 a value greater than 127, which it counted as \"infinite\".

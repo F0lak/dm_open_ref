@@ -11,9 +11,9 @@
 +   arctan(Vector)
 <!-- -->
 **Args:**
-+   Num+ A number
-+   x, y+ 2D coordinates
-+   Vector+ A vector (only 2 dimensions are used)
++   Num: A number
++   x, y: 2D coordinates
++   Vector: A vector (only 2 dimensions are used)
 <!-- -->
 **Returns:**
 +   The inverse tangent in degrees.

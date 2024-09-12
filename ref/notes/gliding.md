@@ -44,8 +44,10 @@ By using the `LONG_GLIDE` flag in
 cardinal-direction glide by moving a fullt `glide_size` pixels in the
 dominant X or Y direction. Otherwise, gliding tries to move by that many
 pixels in strict Euclidean distance (a straight line) and diagonal
-glides take longer. [!NOTE]In
-[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md) .code}, gliding is
+glides take longer. 
+> [!NOTE]
+> In
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md), gliding is
 turned off if you set any of the bound or step vars for an atom to a
 non-default value. The only gliding that occurs in this case is when
 client.fps is higher than world.fps. All other movement modes base

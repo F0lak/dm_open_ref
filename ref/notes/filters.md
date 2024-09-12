@@ -16,7 +16,7 @@ image processing, like for instance a blur or a drop shadow. Filters can
 be added or removed at will, and can even be animated. 
 
 A filter
-is created by using the [filter proc](/ref/proc/filter.md)  like so+ 
+is created by using the [filter proc](/ref/proc/filter.md)  like so: 
 ```
 
 // halo effect mob.filters += filter(type=\"drop_shadow\", x=0, y=0,\\

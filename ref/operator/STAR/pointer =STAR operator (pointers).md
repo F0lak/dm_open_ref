@@ -29,7 +29,7 @@ mob/verb/WhereAmI() var/X, Y PixelPos(&X, &Y) usr \<\< \"You are at
 ```
  
 
-Note+ If you try to
+Note: If you try to
 read to or write from a pointer reference that is no longer valid, such
 as to a var inside a proc that has ended, the read or write will fail
 silently; reading will return a null value. (An exception is pointers to

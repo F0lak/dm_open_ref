@@ -20,8 +20,8 @@
     goes for creation or deletion of an object at a location.
 <!-- -->
 **Args:**
-+   Obj+ the object that entered (a mob or obj).
-+   OldLoc+ the previous location of the object.
++   Obj: the object that entered (a mob or obj).
++   OldLoc: the previous location of the object.
 <!-- -->
 **Default action:**
 +   None for most atoms, but turfs will call Crossed().

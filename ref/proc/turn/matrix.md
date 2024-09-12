@@ -9,8 +9,8 @@
 +   A new matrix which has been rotated.
 <!-- -->
 **Args:**
-+   Matrix+ a matrix to rotate
-+   Angle+ An angle in degrees (clockwise rotation).
++   Matrix: a matrix to rotate
++   Angle: An angle in degrees (clockwise rotation).
 ### Example:
 
 ```

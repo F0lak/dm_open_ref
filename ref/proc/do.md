@@ -21,7 +21,7 @@ code or a single statement.
 
 
 
-This outputs+ 
+This outputs: 
 ```
  3 2 1 
 ```

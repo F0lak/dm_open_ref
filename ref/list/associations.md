@@ -63,7 +63,7 @@ associative lists.
 
 When the index values happen to be text
 strings that satisfy all the requirements for variable names, this may
-also be written in a convenient short-hand+ 
+also be written in a convenient short-hand: 
 ```
  var/list/lst =
 list(player = \"James Byond\", score = 2000) 

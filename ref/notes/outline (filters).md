@@ -6,9 +6,9 @@ Format:
 +   filter(type=\"outline\", \...)
 <!-- -->
 Args:
-+   size+ Width in pixels (defaults to 1)
-+   color+ Outline color (defaults to black)
-+   flags+ Defaults to 0 (see below)
++   size: Width in pixels (defaults to 1)
++   color: Outline color (defaults to black)
++   flags: Defaults to 0 (see below)
 
 
 Applies an outline to this image. 

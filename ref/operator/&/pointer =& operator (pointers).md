@@ -54,8 +54,8 @@ made for any of these kinds of vars:
 One advantage of pointers is that you can use them to alter a
 value in a suspended (sleeping) proc. 
 
-Note+ When
-[spawn()](/ref/proc/spawn.md) .code} is used, the current proc is forked,
+Note: When
+[spawn()](/ref/proc/spawn.md) is used, the current proc is forked,
 where one keeps running and a copy is scheduled to run later. If any
 pointers to proc vars were created, they belong to the original proc
 (the one that keeps running), not to the fork.

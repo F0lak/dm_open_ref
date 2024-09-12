@@ -27,7 +27,7 @@ treated a little differently. Instead of returning a savefile object, it
 returns data cached in the world\'s rsc file. This is to give you
 control over what file this data is copied into before it is opened as a
 savefile. If you want to just open it up in a temporary file, do
-something like this+ 
+something like this: 
 ```
  obj var savefile/myfile Read() . = ..()
 //do the normal stuff if(myfile) //load data into a temporary file and

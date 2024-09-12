@@ -19,7 +19,7 @@ for your main window, and for your primary map, info, output, input, and
 browser controls. 
 
 The default control of a given type can be
-referenced in [winset()](/ref/proc/winset.md) .code} and other skin-related
+referenced in [winset()](/ref/proc/winset.md) and other skin-related
 procs by the name `":`*`type`*`"`, e.g. `":map"`. 
 
 Changing this

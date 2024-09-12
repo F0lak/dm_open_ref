@@ -10,5 +10,5 @@
 +   string
 
 
-The [id](/ref/%7Bskin%7D/param/id.md) .code} of the menu this window
+The [id](/ref/%7Bskin%7D/param/id.md) of the menu this window
 will use, if any, when it\'s active.

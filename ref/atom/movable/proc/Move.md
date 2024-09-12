@@ -18,9 +18,9 @@
 +   Move(NewLoc,Dir=0,step_x=0,step_y=0)
 <!-- -->
 **Returns:**
-+   Success (jump)+ 1
-+   Success (slide)+ Number of pixels moved
-+   Failure+ 0
++   Success (jump): 1
++   Success (slide): Number of pixels moved
++   Failure: 0
 <!-- -->
 **When:**
 +   Called to move the object. By default, client.Move() calls this proc
@@ -29,10 +29,10 @@
     does **not** call this procedure.
 <!-- -->
 **Args:**
-+   NewLoc+ The new location.
-+   Dir+ The direction of movement (or 0).
-+   [step_x]{byondver="490"}+ The new step_x value, relative to NewLoc
-+   [step_y]{byondver="490"}+ The new step_y value, relative to NewLoc
++   NewLoc: The new location.
++   Dir: The direction of movement (or 0).
++   [step_x]{byondver="490"}: The new step_x value, relative to NewLoc
++   [step_y]{byondver="490"}: The new step_y value, relative to NewLoc
 
 
 Any Move() is either a slide or a jump. Normal walking around

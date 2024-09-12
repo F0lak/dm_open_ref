@@ -9,14 +9,14 @@
 +   User\'s response.
 <!-- -->
 **Args:**
-+   Recipient+ The user who will see this input prompt.
-+   Message+ A message in the prompt, to tell the user what it\'s asking
++   Recipient: The user who will see this input prompt.
++   Message: A message in the prompt, to tell the user what it\'s asking
     for.
-+   Title+ The title of the prompt window.
-+   Default+ Default value if the user cancels the input.
-+   Type+ A verb input type, such as `text`, `message`, `num`,
++   Title: The title of the prompt window.
++   Default: Default value if the user cancels the input.
++   Type: A verb input type, such as `text`, `message`, `num`,
     `anything`. If you omit \"as Type\", the type defaults to `text`.
-+   List+ An optional list of items to choose from.
++   List: An optional list of items to choose from.
 
 
 Creates a prompt dialog that asks the user for a response. The
@@ -52,7 +52,7 @@ shopkeeper\'s inventory is its contents.
 ```
  mob/shopkeeper/verb/Buy() var/list/options = list()
 var/obj/item for(item in src) // show a pretty list of options with
-prices included options\[\"\[item\]+ \$\[item.price\]\"\] = item
+prices included options\[\"\[item\]: \$\[item.price\]\"\] = item
 var/choice = input(\"Buy something!\", \"Shop\") as null\|anything in
 options item = options\[choice\] if(!item) return // user canceled
 if(item.price \> usr.gold) usr \<\< \"You can\'t afford that.\" else //

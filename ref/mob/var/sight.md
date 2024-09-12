@@ -16,7 +16,7 @@ visible and lit. Different flags in this var can be set to extend or
 limit this range. 
 
 The following bit flags are encoded in
-mob.sight+ 
+mob.sight: 
 ```
  SEE_INFRA // can see infra-red objects SEE_SELF //
 can see self, no matter what SEE_MOBS // can see all mobs, no matter

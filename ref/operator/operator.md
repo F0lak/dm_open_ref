@@ -7,7 +7,7 @@ values.
 
 The DM operators are:
 ``` dmcode
-() . + / :+     // here . + / are path operators
+() . : / ::     // here . : / are path operators
 [] . :
 ?[] ?. ?:
 ~ ! - ++ -- * &     // unary operators (* and & here are pointer operators)
@@ -22,7 +22,7 @@ The DM operators are:
 |
 &&
 ||
-?               // ternary a ? b + c
+?               // ternary a ? b : c
 = += -= -= *= /= %= %%= &= |= ^= <<= >>= := &&= ||=
 in
 ```

@@ -7,12 +7,12 @@
 +   walk_away(Ref,Trg,Max=5,Lag=0,Speed=0)
 <!-- -->
 **Args:**
-+   Ref+ A mob or obj.
-+   Trg+ An object on the map.
-+   Max+ The maximum distance between Ref and Targ before movement
++   Ref: A mob or obj.
++   Trg: An object on the map.
++   Max: The maximum distance between Ref and Targ before movement
     halts.
-+   Lag+ Delay in world ticks between movement.
-+   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
++   Lag: Delay in world ticks between movement.
++   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Moves Ref on a path away from Trg continuously, taking

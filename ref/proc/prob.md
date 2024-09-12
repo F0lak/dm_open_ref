@@ -11,4 +11,4 @@
 +   1 with probability P percent; otherwise 0
 <!-- -->
 **Args:**
-+   P+ A number.
++   P: A number.

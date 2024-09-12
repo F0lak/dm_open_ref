@@ -8,7 +8,7 @@
 +   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) +   none
++   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) :   none
 
 
 The control\'s background color. The exact way this applies

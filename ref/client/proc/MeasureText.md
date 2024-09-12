@@ -8,10 +8,10 @@
 +   MeasureText(text, style, width=0)
 <!-- -->
 **Args:**
-+   text+ The text to be measured
-+   style+ Stylesheet to be used (leave blank to use the default map
++   text: The text to be measured
++   style: Stylesheet to be used (leave blank to use the default map
     control\'s styles, if any)
-+   width+ Width limit, if you only want to measure height; 0 means no
++   width: Width limit, if you only want to measure height; 0 means no
     limit
 <!-- -->
 **Returns:**

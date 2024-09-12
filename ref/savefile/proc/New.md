@@ -6,8 +6,8 @@
 +   New(filename,timeout)
 <!-- -->
 **Args:**
-+   filename+ name of file or empty for temporary file
-+   timeout+ seconds to wait; -1 for no timeout
++   filename: name of file or empty for temporary file
++   timeout: seconds to wait; -1 for no timeout
 
 
 You call this via new/savefile(filename,timeout). The timeout

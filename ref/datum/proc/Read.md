@@ -10,7 +10,7 @@
 +   Called when the object is read from a save file.
 <!-- -->
 **Args:**
-+   F+ the save file being read
++   F: the save file being read
 <!-- -->
 **Default action:**
 +   Read the value of each variable from a directory by the same name as

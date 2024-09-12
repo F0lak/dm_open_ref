@@ -87,7 +87,7 @@ string
 +   Value is formatted as a DM-escaped string with surrounding quotes.
 params
 +   Format value for a URL-encoded parameter list (see
-    [list2params](/ref/proc/list2params.md) .code}), escaping characters as
+    [list2params](/ref/proc/list2params.md)), escaping characters as
     needed.
 json
 +   JSON formatting. Numbers are left unchanged; size or position values

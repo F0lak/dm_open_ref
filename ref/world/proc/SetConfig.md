@@ -6,9 +6,9 @@
 +   SetConfig(config_set,param,value)
 <!-- -->
 **Args:**
-+   config_set+ name of the configuration set (see below)
-+   param+ name of the configuration parameter
-+   value+ data to store (or null to delete this entry)
++   config_set: name of the configuration set (see below)
++   param: name of the configuration parameter
++   value: data to store (or null to delete this entry)
 
 
 This command is for storing configuration information that is

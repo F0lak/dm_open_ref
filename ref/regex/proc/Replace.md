@@ -16,12 +16,12 @@
     the \"g\" flag, all matches are replaced.
 <!-- -->
 **Args:**
-+   haystack+ The text to be searched
-+   replacement+ A piece of text, OR a proc, that will be used to
++   haystack: The text to be searched
++   replacement: A piece of text, OR a proc, that will be used to
     replace the match
-+   Start+ The start position (in bytes) to search; defaults to 1, or to
++   Start: The start position (in bytes) to search; defaults to 1, or to
     src.next if this is a global pattern
-+   End+ The position of the byte after the end of the search; 0 is the
++   End: The position of the byte after the end of the search; 0 is the
     end. The actual match is allowed to extend past End.
 
 
@@ -33,7 +33,7 @@ In a non-global expression (not using the \"g\" flag), the
 values of src.index and src.next are set as they would be in a global
 Find(). See the Find() proc for more info. 
 
-Note+ In strings
+Note: In strings
 containing non-ASCII characters, byte position and character position
 are not the same thing. Use `Replace_char()` to work with character
 counts instead of bytes. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.

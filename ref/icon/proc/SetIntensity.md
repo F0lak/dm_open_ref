@@ -7,9 +7,9 @@
 +   SetIntensity(r,g=r,b=r)
 <!-- -->
 **Args:**
-+   r+ red component
-+   g+ green component
-+   b+ blue component
++   r: red component
++   g: green component
++   b: blue component
 
 
 This multiplies the pixel intensities by the specified amounts.

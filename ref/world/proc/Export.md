@@ -15,15 +15,15 @@
     which may in turn call world.Import() to access the file.
 <!-- -->
 **Args:**
-+   Addr+ The address of the recipient server. It should be in the form
++   Addr: The address of the recipient server. It should be in the form
     byond://server?topic. The topic portion is optional.
-+   File+ The (optional) file to send. This could be a cache file (in
++   File: The (optional) file to send. This could be a cache file (in
     single quotes) an external file (in double quotes) or a savefile.
-+   Persist+ Set to 1 to indicate that the server should keep this
++   Persist: Set to 1 to indicate that the server should keep this
     connection open, to expedite subsequent calls to the same address.
     An open connection can be closed at a later time by passing 0 in the
     Persist field.
-+   Clients+ An optional client, or list of clients, to tell the
++   Clients: An optional client, or list of clients, to tell the
     receiver about.
 <!-- -->
 **Default action:**
@@ -47,7 +47,7 @@ be manually set or could be the result of calling startup().
 
 It
 is also possible to access an HTTP server via world.Export(). Simply use
-an http address such as+ `http://www.byond.com`. This returns a list of
+an http address such as: `http://www.byond.com`. This returns a list of
 HTTP header parameters as well as the extra values \"STATUS\" and
 \"CONTENT\". The value associated with the \"STATUS\" entry is the HTTP
 status code returned by the web server (as text). The value associated

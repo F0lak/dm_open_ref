@@ -9,10 +9,10 @@
 +   regex(Regex)
 <!-- -->
 **Args:**
-+   pattern+ The pattern string to search for
-+   flags+ (optional) A text string containing any combination of
++   pattern: The pattern string to search for
++   flags: (optional) A text string containing any combination of
     modifier flags
-+   Regex+ an existing /regex datum to copy
++   Regex: an existing /regex datum to copy
 
 
 Calling new/regex() is the same as calling regex(). It will

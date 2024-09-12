@@ -5,8 +5,8 @@
 +   url_encode(PlainText, format=0)
 <!-- -->
 **Args:**
-+   PlainText+ text to be URL \"escaped\"
-+   format+ 0 to treat PlainText as a query string, 1 to treat it as a
++   PlainText: text to be URL \"escaped\"
++   format: 0 to treat PlainText as a query string, 1 to treat it as a
     full URL
 <!-- -->
 **Returns:**

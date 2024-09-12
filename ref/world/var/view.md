@@ -19,7 +19,7 @@ conveniently fit the map on the player\'s screen.
 For
 non-square views, you can assign this to a text string of the form
 \"WIDTHxHEIGHT\". For example, \"11x11\" is equivalent to a view depth
-of 5, but you could make it wider like this+ \"13x11\". 
+of 5, but you could make it wider like this: \"13x11\". 
 
 This
 setting also affects the default range of the `view()`, `oview()`,

@@ -1,9 +1,9 @@
-## :+ operator 
+## :: operator 
 ###### BYOND Version 515
 **See also:**
 +   [. path operator](/ref/operator/path/%2e.md) 
 +   [/ path operator](/ref/operator/path//.md) 
-+   [+ path operator](/ref/operator/path/:.md) 
++   [: path operator](/ref/operator/path/:.md) 
 +   [operators](/ref/operator.md) 
 +   [call proc](/ref/proc/call.md) 
 +   [initial proc](/ref/proc/initial.md) 

@@ -19,10 +19,10 @@
 +   Called when the object is clicked.
 <!-- -->
 **Args:**
-+   location+ the turf, stat panel, grid cell, etc. in which the object
++   location: the turf, stat panel, grid cell, etc. in which the object
     was clicked
-+   control+ the name of the skin control involved
-+   params+ other parameters including mouse/keyboard flags, icon
++   control: the name of the skin control involved
++   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) 
 
 This proc is called by the default client.Click() procedure.

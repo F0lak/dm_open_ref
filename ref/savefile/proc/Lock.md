@@ -6,7 +6,7 @@
 +   Lock(timeout)
 <!-- -->
 **Args:**
-+   timeout+ seconds to wait; -1 for no timeout
++   timeout: seconds to wait; -1 for no timeout
 <!-- -->
 **Returns:**
 +   1 on success; 0 on failure

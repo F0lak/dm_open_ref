@@ -13,9 +13,9 @@
 +   A number between 0 and 1 (excluding 1 itself)
 <!-- -->
 **Args:**
-+   num1, num2, num3\...+ Numbers to be hashed (at least one)
-+   list_of_nums+ A list containing the numbers to hash
-+   hash_name+ A text string indicating the hash type (reserved for
++   num1, num2, num3\...: Numbers to be hashed (at least one)
++   list_of_nums: A list containing the numbers to hash
++   hash_name: A text string indicating the hash type (reserved for
     future use)
 
 

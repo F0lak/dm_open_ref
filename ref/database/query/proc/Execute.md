@@ -15,7 +15,7 @@
 +   Execute(database)
 <!-- -->
 **Args:**
-+   database+ A /database datum with the database to be queried, or the
++   database: A /database datum with the database to be queried, or the
     name of the database file
 
 

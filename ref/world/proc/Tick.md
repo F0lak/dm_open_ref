@@ -29,8 +29,8 @@ break the loop
 ```
  
 
-Note+ The tick will not wait if this
+Note: The tick will not wait if this
 proc sleeps. It effectively has [set
-waitfor=0](/ref/proc/set/waitfor.md) .code} already built in. It\'s a good
+waitfor=0](/ref/proc/set/waitfor.md) already built in. It\'s a good
 idea not to sleep in this proc or any of its callees at all, since it
 will keep getting called every tick.

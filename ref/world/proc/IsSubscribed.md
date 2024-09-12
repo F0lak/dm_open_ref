@@ -9,7 +9,7 @@
     *or* null if hub contact failed
 <!-- -->
 **Args:**
-+   player+ a mob, client, key, or ckey
++   player: a mob, client, key, or ckey
 
 
 Checks a player for their subscription status to this game.
@@ -20,7 +20,7 @@ offline.
 This proc will return null if contacting the hub was
 required, but there was no way to reach the hub. Contacting the hub may
 take a few moments, so it is a good idea to use
-[spawn()](/ref/proc/spawn.md) .code} to avoid holding up the rest of the game.
+[spawn()](/ref/proc/spawn.md) to avoid holding up the rest of the game.
 ### Example:
 
 ```
@@ -30,7 +30,7 @@ the tag \"clubhouse\" loc = locate(\"clubhouse\") src \<\< \"Welcome to
 the clubhouse!\" 
 ```
 
-Note+ You can specify a different hub path and hub_password by adding
+Note: You can specify a different hub path and hub_password by adding
 these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.

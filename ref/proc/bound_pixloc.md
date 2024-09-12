@@ -14,8 +14,8 @@
     bounds.
 <!-- -->
 **Args:**
-+   Atom+ An atom.
-+   Dir+ The side or corner to use, or 0 for center.
++   Atom: An atom.
++   Dir: The side or corner to use, or 0 for center.
 
 
 Creates a new `pixloc` object based on an existing object\'s

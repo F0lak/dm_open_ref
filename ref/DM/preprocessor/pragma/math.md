@@ -37,7 +37,7 @@ Using [`#pragma compatibility
 515`](/DM/preprocessor/pragma/compatibility) will also force the
 fast math version. 
 
-Note+ For consistency, built-in compiler
+Note: For consistency, built-in compiler
 math for constant values uses the same calculations that would be used
 for non-constant values runtime, so `cos(90)` compiles as 6.12323e-17
 with fast math and as 0 for accurate math.

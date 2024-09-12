@@ -34,7 +34,7 @@ If
 the render target is a [`PLANE_MASTER`](/ref/atom/var/appearance_flags.md) 
 vars like `pixel_x/y/w/z` will not apply when it is re-drawn as a
 `render_source`.
-::+ note
+::: note
 
 
 To use a `render_target`, the object it belongs to must be

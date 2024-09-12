@@ -12,7 +12,7 @@
 +   the ceiling of A
 <!-- -->
 **Args:**
-+   A+ A number, pixloc, or vector.
++   A: A number, pixloc, or vector.
 
 
 Returns the ceiling of A (the largest integer greater than or

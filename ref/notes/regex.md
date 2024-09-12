@@ -45,8 +45,8 @@ much harder for you to read. It\'s easier to write `@"[\d]\n"` than
   \[\^*chars*\]                                                                                                                                Any character NOT matching the ones between the brackets.
   \\b                                                                                                                                          Word break
   \\B                                                                                                                                          Word non-break
-  (*pattern*)                                                                                                                                  Capturing group+ the pattern must match, and its contents will be captured in the group list.
-  (?:*pattern*)                                                                                                                                Non-capturing group+ Match the pattern, but do not capture its contents.
+  (*pattern*)                                                                                                                                  Capturing group: the pattern must match, and its contents will be captured in the group list.
+  (?:*pattern*)                                                                                                                                Non-capturing group: Match the pattern, but do not capture its contents.
   \\1 *through* \\9                                                                                                                            Backreference; `\`*`N`* is whatever was captured in the *N*th capturing group.
   Modifiers                                                                                                                                    
   Modifiers are \"greedy\" by default, looking for the longest match possible. When following a word, they only apply to the last character.   
@@ -65,23 +65,23 @@ much harder for you to read. It\'s easier to write `@"[\d]\n"` than
   \\D                                                                                                                                          Any character except a digit or line break
   \\l                                                                                                                                          Any letter A through Z, case-insensitive
   \\L                                                                                                                                          Any character except a letter or line break
-  \\w                                                                                                                                          Any identifier character+ digits, letters, or underscore
+  \\w                                                                                                                                          Any identifier character: digits, letters, or underscore
   \\W                                                                                                                                          Any character except an identifier character or line break
   \\s                                                                                                                                          Any space character
   \\S                                                                                                                                          Any character except a space or line break
   Assertions                                                                                                                                   
-  (?=*pattern*)                                                                                                                                Look-ahead+ Require this pattern to come next, but don\'t include it in the match
-  (?!*pattern*)                                                                                                                                Look-ahead+ Require this pattern NOT to come next
-  (?\<=*pattern*)                                                                                                                              Look-behind+ Require this pattern to come before, but don\'t include it in the match (must be a fixed byte length)
-  (?\<!*pattern*)                                                                                                                              Look-behind+ Require this pattern NOT to come before (must be a fixed byte length)
+  (?=*pattern*)                                                                                                                                Look-ahead: Require this pattern to come next, but don\'t include it in the match
+  (?!*pattern*)                                                                                                                                Look-ahead: Require this pattern NOT to come next
+  (?\<=*pattern*)                                                                                                                              Look-behind: Require this pattern to come before, but don\'t include it in the match (must be a fixed byte length)
+  (?\<!*pattern*)                                                                                                                              Look-behind: Require this pattern NOT to come before (must be a fixed byte length)
 
 
 The optional flags can be any combination of these:
   Flag   Meaning
   ------ ---------------------------------------------------------------------------------------------------------------
   i      Case-insensitive matching
-  g      Global+ In Find() subsequent calls will start where this left off, and in Replace() all matches are replaced.
-  m      Multi-line+ \^ and \$ refer to the beginning and end of a line, respectively.
+  g      Global: In Find() subsequent calls will start where this left off, and in Replace() all matches are replaced.
+  m      Multi-line: \^ and \$ refer to the beginning and end of a line, respectively.
 
 
 After calling `Find()` on a `/regex` datum, the datum\'s
@@ -89,5 +89,5 @@ After calling `Find()` on a `/regex` datum, the datum\'s
 found with the `()` parentheses operator. For instance, searching the
 string `"123"` for `1(\d)(\d)` will match `"123"`, and the `group` var
 will be `list("2","3")`. Groups can also be used in replacement
-expressions; see the [Replace() proc](/ref/regex/proc/Replace.md) .code} for
+expressions; see the [Replace() proc](/ref/regex/proc/Replace.md) for
 more details.

@@ -19,7 +19,7 @@ non-topdown map formats like isometric. Positive values are drawn on
 top, and negative values are drawn below. This mostly deprecates
 `EFFECTS_LAYER` and `BACKGROUND_LAYER`, but they can still be useful
 when using `PLANE_MASTER` for effects (see
-[appearance_flags](/ref/atom/var/appearance_flags.md) .code}). 
+[appearance_flags](/ref/atom/var/appearance_flags.md)). 
 
 The
 special value `FLOAT_PLANE` can be used for images and overlays, to take

@@ -7,12 +7,12 @@
 +   true/false
 <!-- -->
 **Default value:**
-+   `false`+ Input control
-+   `true`+ Info and Tab controls
++   `false`: Input control
++   `true`: Info and Tab controls
 
 
-Input control+ Create a multi-line input control. Read-only for
+Input control: Create a multi-line input control. Read-only for
 this control. 
 
-Info and Tab controls+ Show tabs in multiple rows
+Info and Tab controls: Show tabs in multiple rows
 if there are too many to fit in a single row.

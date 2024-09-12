@@ -10,8 +10,8 @@
 +   A.Turn(B)
 <!-- -->
 **Args:**
-+   angle+ An angle to turn a vector clockwise in 2D.
-+   B+ A vector to rotate around (right-hand rule).
++   angle: An angle to turn a vector clockwise in 2D.
++   B: A vector to rotate around (right-hand rule).
 <!-- -->
 **Returns:**
 +   The vector A, after rotating it.

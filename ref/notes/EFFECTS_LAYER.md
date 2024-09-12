@@ -12,7 +12,7 @@
 This is mostly no longer needed. A negative value for plane is
 the preferred way to do show objects in the background. It can still be
 used however when you want to rearrange objects in the same plane when
-using [PLANE_MASTER](/ref/atom/var/appearance_flags.md) .code} for visual
+using [PLANE_MASTER](/ref/atom/var/appearance_flags.md) for visual
 effects. 
 
 `EFFECTS_LAYER` is a special high value that can be

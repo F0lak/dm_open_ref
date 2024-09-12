@@ -21,14 +21,14 @@
 +   MouseDrag(over_object,src_location,over_location,src_control,over_control,params)
 <!-- -->
 **Args:**
-+   over_object+ the object under the mouse pointer
-+   src_location+ the turf, stat panel, grid cell, etc. from where the
++   over_object: the object under the mouse pointer
++   src_location: the turf, stat panel, grid cell, etc. from where the
     src object was dragged
-+   over_location+ the turf, stat panel, grid cell, etc. containing the
++   over_location: the turf, stat panel, grid cell, etc. containing the
     object under the mouse pointer
-+   src_control+ The id of the skin control the object was dragged from
-+   over_control+ The id of the skin control the object was dragged over
-+   params+ other parameters including mouse/keyboard flags, icon
++   src_control: The id of the skin control the object was dragged from
++   over_control: The id of the skin control the object was dragged over
++   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) 
 
 This is called while dragging this object by pressing and

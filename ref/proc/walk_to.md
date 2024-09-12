@@ -7,11 +7,11 @@
 +   walk_to(Ref,Trg,Min=0,Lag=0,Speed=0)
 <!-- -->
 **Args:**
-+   Ref+ A mob or obj.
-+   Trg+ An object on the map.
-+   Min+ The minimum distance between Ref and Trg before movement halts.
-+   Lag+ Delay in world ticks between movement.
-+   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
++   Ref: A mob or obj.
++   Trg: An object on the map.
++   Min: The minimum distance between Ref and Trg before movement halts.
++   Lag: Delay in world ticks between movement.
++   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Move Ref on a path to Trg continuously, taking obstacles into

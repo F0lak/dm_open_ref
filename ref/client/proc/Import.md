@@ -8,7 +8,7 @@
 +   client.Import(Query)
 <!-- -->
 **Args:**
-+   Query+ optional query parameters
++   Query: optional query parameters
 
 
 When no query parameters are given, this returns the

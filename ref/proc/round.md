@@ -12,8 +12,8 @@
 +   rounded A
 <!-- -->
 **Args:**
-+   A+ A number, pixloc, or vector.
-+   B+ The nearest multiple to round A.
++   A: A number, pixloc, or vector.
++   B: The nearest multiple to round A.
 
 
 The first format returns the floor of A (the largest integer

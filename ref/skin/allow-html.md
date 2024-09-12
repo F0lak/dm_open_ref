@@ -10,7 +10,7 @@
 +   false
 
 
-Info control+ Allow HTML tags to be used in
+Info control: Allow HTML tags to be used in
 [stat()](/ref/proc/stat.md) {.code} info. The same limitations apply as to the
 [Grid control](/ref/%7Bskin%7D/control/grid.md)  
 

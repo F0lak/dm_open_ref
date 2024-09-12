@@ -10,10 +10,10 @@
 +   1 on success; 0 otherwise
 <!-- -->
 **Args:**
-+   Ref+ A mob or obj.
-+   Dir+ One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
++   Ref: A mob or obj.
++   Dir: One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
     SOUTHEAST, SOUTHWEST.
-+   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
++   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Move Ref in the direction Dir.

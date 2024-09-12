@@ -6,7 +6,7 @@
 +   [matrix](/ref/matrix.md) 
 +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
 
-Note+ Currently this feature applies only to particle effects,
+Note: Currently this feature applies only to particle effects,
 using the `transform` var. 
 
 Normally icons in BYOND can only be
@@ -100,7 +100,7 @@ twice as far away.
 
 
 This 4x4 matrix is handled as a list just like the 3x4 affine
-matrix+ 
+matrix: 
 ```
 list(xx,xy,xz,xw, yx,yy,yz,yw, zx,zy,zz,zw,
 wx,wy,wz,ww)

@@ -8,7 +8,7 @@
 +   Flip(dir)
 <!-- -->
 **Args:**
-+   dir+ direction in which to flip over the icon
++   dir: direction in which to flip over the icon
 
 
 This flips the icon over in the specified direction. For

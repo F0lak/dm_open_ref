@@ -9,7 +9,7 @@ If it cannot be determined, it will be null.
 
 The full network
 address of the world may be formed by concatenating the world address
-and port+ \"byond://\[address\]:\[port\]\". 
+and port: \"byond://\[address\]:\[port\]\". 
 
 In CGI mode, this
 is the web address of the world. 

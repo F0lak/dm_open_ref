@@ -10,10 +10,10 @@
 +   A text string.
 <!-- -->
 **Args:**
-+   N+ A number.
-+   SigFig+ Number of significant digits.
-+   Digits+ Minimum number of digits
-+   Radix+ The base of the number, e.g. 16 is hexadecimal.
++   N: A number.
++   SigFig: Number of significant digits.
++   Digits: Minimum number of digits
++   Radix: The base of the number, e.g. 16 is hexadecimal.
 
 
 Get the text string for a number. The number of significant

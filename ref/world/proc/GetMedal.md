@@ -14,8 +14,8 @@
 +   null if the hub cannot be contacted
 <!-- -->
 **Args:**
-+   medal+ name of the medal being checked
-+   player+ a mob, client, key, or ckey
++   medal: name of the medal being checked
++   player: a mob, client, key, or ckey
 
 
 Checks to see if a medal has been awarded to the player in

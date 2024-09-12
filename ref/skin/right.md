@@ -16,6 +16,6 @@
 +   none
 
 
-The [id](/ref/%7Bskin%7D/param/id.md) .code} of the right/bottom pane
+The [id](/ref/%7Bskin%7D/param/id.md) of the right/bottom pane
 in this control. The parameter names `top` and `bottom` can be used
 interchangeably.

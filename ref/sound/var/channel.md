@@ -20,7 +20,7 @@ changes to your sound later on via the `SOUND_UPDATE` status flag, you
 This var may be filled in by
 the `SoundQuery` proc, but only for sounds that had a specified channel
 to begin with.
-Note+ If you don\'t specify a channel to play a sound, the client will
+Note: If you don\'t specify a channel to play a sound, the client will
 choose a channel automatically but it will *not* conflict with any
 specific channels you choose for other sounds later. This means if you
 play some sounds with channel 0 but then later want to play something on

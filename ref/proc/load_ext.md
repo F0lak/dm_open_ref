@@ -8,9 +8,9 @@
 +   load_ext(LibName,FuncName)
 <!-- -->
 **Args:**
-+   LibName+ name of external library (\"test.DLL\") (note+ the .dll or
++   LibName: name of external library (\"test.DLL\") (note: the .dll or
     .so suffix is not required)
-+   FuncName+ name of function in external library (\"func\"), which may
++   FuncName: name of function in external library (\"func\"), which may
     have prefixes to describe the type of function
 <!-- -->
 **Returns:**
@@ -20,7 +20,7 @@
 
 Use `load_ext()` to pre-load external library functions you
 intend to use often, when maximum performance is required. (See
-[call_ext()](/ref/proc/call_ext.md) .code} for the rules for loading
+[call_ext()](/ref/proc/call_ext.md) for the rules for loading
 libraries.) 
 
 The result of this proc can be passed to

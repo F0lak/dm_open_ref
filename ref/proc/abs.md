@@ -6,7 +6,7 @@
 +   The absolute value of A.
 <!-- -->
 **Args:**
-+   A+ A number.
++   A: A number.
 ### Example:
 
 ```

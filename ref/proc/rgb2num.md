@@ -10,9 +10,9 @@
 +   rgb2num(color, space)
 <!-- -->
 **Args:**
-+   color+ A color value (see [HTML
++   color: A color value (see [HTML
     colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) )
-+   space+ [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md)  default is
++   space: [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md)  default is
     `COLORSPACE_RGB`
 <!-- -->
 **Returns:**

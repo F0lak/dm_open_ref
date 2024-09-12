@@ -34,7 +34,7 @@ The only time `usr` is
 assigned for you is when a player executes a verb, clicks something with
 the mouse, clicks a link (see [Topic](/ref/client/proc/Topic.md) {.code}), or
 any other such action.
-Note+ **A good rule of thumb is to never put usr in a proc, only
+Note: **A good rule of thumb is to never put usr in a proc, only
 verbs.** Typically `usr` in a proc is an unsafe programming practice. If
 `src` would not be the correct choice, it is better to send another
 argument to your proc with the information it needs. 
@@ -64,6 +64,6 @@ than `usr`.
 procs like [view()](/ref/proc/view.md) {.code} and
 [range()](/ref/proc/range.md) {.code}, because of their common use in verbs. It
 is also the default recipient for [input()](/ref/proc/input.md) {.code} and
-[alert()](/ref/proc/alert.md) .code} messages. When using these in procs, be
+[alert()](/ref/proc/alert.md) messages. When using these in procs, be
 aware of that so you can change the default reference value to something
 more appropriate.

@@ -9,13 +9,13 @@
 +   REGEX_QUOTE_REPLACEMENT(text)
 <!-- -->
 **Returns:**
-+   REGEX_QUOTE+ A version of the text with any special regular
++   REGEX_QUOTE: A version of the text with any special regular
     expression characters escaped by backslashes.
-+   REGEX_QUOTE_REPLACEMENT+ A version of the text with \$ characters
++   REGEX_QUOTE_REPLACEMENT: A version of the text with \$ characters
     escaped by a second \$.
 <!-- -->
 **Args:**
-+   text+ The text to escape
++   text: The text to escape
 
 
 Quotes a piece of text so that it can be used inside a regular

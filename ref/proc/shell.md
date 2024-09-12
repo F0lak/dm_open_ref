@@ -10,7 +10,7 @@
 +   shell(Command)
 <!-- -->
 **Args:**
-+   Command+ system command to run
++   Command: system command to run
 <!-- -->
 **Returns:**
 +   null on failure to execute command

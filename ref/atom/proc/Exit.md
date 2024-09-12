@@ -20,8 +20,8 @@
 +   Called when an object attempts to exit the contents list.
 <!-- -->
 **Args:**
-+   O+ the object attempting to exit.
-+   [newloc]{byondver="507"}+ the object\'s new location.
++   O: the object attempting to exit.
++   [newloc]{byondver="507"}: the object\'s new location.
 <!-- -->
 **Default action:**
 +   Turfs will call Uncross() and return that value (1 by default). All
@@ -29,9 +29,11 @@
 
 
 By default, every atom returns 1 to allow exit, except for
-turfs which call Uncross() to handle it for them. [!NOTE]The following
+turfs which call Uncross() to handle it for them. 
+> [!NOTE]
+> The following
 behavior only applies to
-[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md) .code}. In all other
+[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md). In all other
 movement modes, the turf\'s contents are not taken into account. Only
 the result of turf.Uncross() matters. 
 

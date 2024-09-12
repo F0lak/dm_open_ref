@@ -8,7 +8,7 @@
 +   Error(exception)
 <!-- -->
 **Args:**
-+   exception+ The error that was thrown. If this was a runtime error,
++   exception: The error that was thrown. If this was a runtime error,
     the value will be an /exception datum.
 
 

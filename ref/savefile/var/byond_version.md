@@ -31,5 +31,5 @@ from BYOND 515 onward
 ```
  
 
-Note+ By default, worlds
+Note: By default, worlds
 compiled before BYOND 515 will set this value to 514.

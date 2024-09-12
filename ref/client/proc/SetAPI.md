@@ -7,9 +7,9 @@
 +   SetAPI(Api, Key, Value)
 <!-- -->
 **Args:**
-+   Api+ the name of the API (e.g. \"steam\")
-+   Key+ the name of the value to change
-+   Value+ the new value to set
++   Api: the name of the API (e.g. \"steam\")
++   Key: the name of the value to change
++   Value: the new value to set
 
 
 Interfaces with supported external APIs to write information.

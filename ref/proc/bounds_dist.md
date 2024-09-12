@@ -16,8 +16,8 @@
     boxes.
 <!-- -->
 **Args:**
-+   Ref+ A turf, obj, or mob.
-+   Target+ A turf, obj, or mob.
++   Ref: A turf, obj, or mob.
++   Target: A turf, obj, or mob.
 
 
 The value returned by bounds_dist() is the number of pixels

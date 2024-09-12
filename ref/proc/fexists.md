@@ -7,7 +7,7 @@
 +   fexists(File)
 <!-- -->
 **Args:**
-+   File+ name of file to test
++   File: name of file to test
 <!-- -->
 **Returns:**
 +   1 if file exists; 0 otherwise.

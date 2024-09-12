@@ -13,7 +13,7 @@ execute Statement3. The else nodes are all optional.
 
 
 Statement1, Statement2, and Statement3 may be a single
-statement or a code block with optional braces+ {}.
+statement or a code block with optional braces: {}.
 ### Example:
 
 ```

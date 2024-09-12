@@ -11,8 +11,8 @@
 +   A list of objects within Dist tiles of Center, excluding Center.
 <!-- -->
 **Args:**
-+   Dist+ A number.
-+   Center+ An object on the map.
++   Dist: A number.
++   Center: An object on the map.
 
 
 This instruction is identical to oview() except visibility is

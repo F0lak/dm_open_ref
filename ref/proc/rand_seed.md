@@ -8,7 +8,7 @@
 +   rand_seed(Seed)
 <!-- -->
 **Args:**
-+   Seed+ An integer used to initialize the random number generator.
++   Seed: An integer used to initialize the random number generator.
 
 
 Many DM procedures make use of a pseudo-random number

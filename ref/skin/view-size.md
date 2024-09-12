@@ -27,4 +27,4 @@ With a
 `zoom` value of 0, which is the default for most projects, the actual
 zoom level is automatically determined by the size of the map control,
 the map\'s native pixel size as explained above, and the value of the
-[letterbox](/ref/%7Bskin%7D/param/letterbox.md) .code} parameter.
+[letterbox](/ref/%7Bskin%7D/param/letterbox.md) parameter.

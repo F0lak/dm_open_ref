@@ -22,7 +22,7 @@ various procs such as [get_dir()](/ref/proc/get_dir.md) {.code} and
 
 This pixloc does not
 take bounds into account. See
-[bound_pixloc()](/ref/proc/bound_pixloc.md) .code} for getting the pixloc of
+[bound_pixloc()](/ref/proc/bound_pixloc.md) for getting the pixloc of
 an atom\'s corners or center of bounds. 
 
 The returned pixloc is

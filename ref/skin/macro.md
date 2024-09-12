@@ -11,5 +11,5 @@
 +   string
 
 
-The [id](/ref/%7Bskin%7D/param/id.md) .code} of the macro set this
+The [id](/ref/%7Bskin%7D/param/id.md) of the macro set this
 window will use, if any, when it\'s active.

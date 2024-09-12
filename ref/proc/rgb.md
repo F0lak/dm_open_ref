@@ -17,11 +17,11 @@
 +   rgb(x,y,z,a,space)
 <!-- -->
 **Args:**
-+   R,G,B+ Numbers from 0-255 corresponding to the red, green, and blue
++   R,G,B: Numbers from 0-255 corresponding to the red, green, and blue
     components of a color.
-+   A+ Optional alpha component; 0 is transparent, 255 is opaque.
-+   x,y,z+ Color components for a different color space
-+   space+ [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) ; defaults
++   A: Optional alpha component; 0 is transparent, 255 is opaque.
++   x,y,z: Color components for a different color space
++   space: [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) ; defaults
     to `COLORSPACE_RGB`
 <!-- -->
 **Returns:**

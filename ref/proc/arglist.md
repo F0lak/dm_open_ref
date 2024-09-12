@@ -9,7 +9,7 @@
 +   arglist(List)
 <!-- -->
 **Args:**
-+   List+ a list to be used as the arguments to a procedure
++   List: a list to be used as the arguments to a procedure
 
 
 Normally, if you were to pass a list directly to a procedure,

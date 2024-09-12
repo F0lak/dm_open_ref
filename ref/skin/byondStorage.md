@@ -22,6 +22,6 @@ Interacting with these storage objects is done in JavaScript,
 the same way you would use `localStorage` or `sessionStorage`.
 
 
-Note+ Technically `localStorage` does work, but because of the
+Note: Technically `localStorage` does work, but because of the
 way BYOND handles browser controls it acts more like `sessionStorage` in
 practice.

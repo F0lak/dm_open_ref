@@ -7,11 +7,11 @@
 +   startup(File,Port=0,Options,\...)
 <!-- -->
 **Args:**
-+   File+ The dmb file to run in a new server or null to load the
++   File: The dmb file to run in a new server or null to load the
     current world.
-+   Port+ The network port to start the new server on. A value of 0
++   Port: The network port to start the new server on. A value of 0
     indicates that any available port should be used.
-+   Options+ Any number of the options listed below. Each option should
++   Options: Any number of the options listed below. Each option should
     be in an argument by itself. If the option takes a parameter, this
     can be in the same argument or in the following one.
 ### The valid options are:
@@ -82,7 +82,7 @@
 -ports \<list\>
 +   restricts the range of ports that DreamDaemon and any child worlds
     may use. The syntax of *list* is a comma separated list of ports or
-    ranges of ports. Example+ `-ports 1234,1236,1240-1250`.
+    ranges of ports. Example: `-ports 1234,1236,1240-1250`.
 -ip \<address\>
 +   sets the IP address of the server. This will only work for an IP
     address the system recognizes as one it can use for hosting. Accepts

@@ -13,9 +13,9 @@
     match the characters in Needles.
 <!-- -->
 **Args:**
-+   Haystack+ The text string to search.
-+   Needles+ A text string with all the characters that match.
-+   Start+ The text byte position in Haystack in which to begin the
++   Haystack: The text string to search.
++   Needles: A text string with all the characters that match.
++   Start: The text byte position in Haystack in which to begin the
     search.
 
 

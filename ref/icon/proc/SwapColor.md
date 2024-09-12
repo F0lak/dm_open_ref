@@ -9,8 +9,8 @@
     SwapColor(old_rgba,new_rgba)
 <!-- -->
 **Args:**
-+   old_rgba+ the old rgba value to be replaced
-+   new_rgba+ the new rgba value to use in its place
++   old_rgba: the old rgba value to be replaced
++   new_rgba: the new rgba value to use in its place
 
 
 This causes a color value in the icon\'s palette to be changed.

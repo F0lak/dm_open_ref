@@ -18,5 +18,5 @@
 
 
 Affects the text color for tabs. The regular
-[text-color](/ref/%7Bskin%7D/param/text-color.md) .code} is used for the
+[text-color](/ref/%7Bskin%7D/param/text-color.md) is used for the
 content area.

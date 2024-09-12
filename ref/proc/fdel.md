@@ -5,7 +5,7 @@
 +   fdel(File)
 <!-- -->
 **Args:**
-+   File+ name of file to delete
++   File: name of file to delete
 <!-- -->
 **Returns:**
 +   1 on success; 0 otherwise.

@@ -10,6 +10,6 @@
 
 This causes the object to be visible in the dark to mobs that
 can see infrared light. Nothing but the object itself is lit up by the
-infrared emission. The scale is identical to luminosity+ 1 makes it
+infrared emission. The scale is identical to luminosity: 1 makes it
 visible only from the same location; 2 makes it visible from a
 neighboring position; and so on.

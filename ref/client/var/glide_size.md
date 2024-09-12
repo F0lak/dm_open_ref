@@ -8,7 +8,7 @@
 +   0
 
 
-Note+ The way this setting is used depends on
+Note: The way this setting is used depends on
 [world.movement_mode](/ref/world/var/movement_mode.md) . See
 [Gliding](/ref/%7Bnotes%7D/gliding.md) for more details. 
 

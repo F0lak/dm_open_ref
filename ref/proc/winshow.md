@@ -9,9 +9,9 @@
 +   winshow(player, window, show=1)
 <!-- -->
 **Args:**
-+   player+ A mob or client.
-+   window+ The name of a window in the player\'s skin.
-+   show+ Use a nonzero value to show the window, zero to hide it.
++   player: A mob or client.
++   window: The name of a window in the player\'s skin.
++   show: Use a nonzero value to show the window, zero to hide it.
 
 
 Shows or hides a window in the player\'s skin. This is a

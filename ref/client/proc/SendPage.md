@@ -6,9 +6,9 @@
 +   Returns number of recipients successfully contacted.
 <!-- -->
 **Args:**
-+   msg+ text to send
-+   recipient+ key or list of keys to page
-+   options+ text string containing key=value options
++   msg: text to send
++   recipient: key or list of keys to page
++   options: text string containing key=value options
 
 
 The user is prompted to authorize sending of the pager message.

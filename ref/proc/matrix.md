@@ -16,12 +16,12 @@
 +   A new matrix.
 <!-- -->
 **Args:**
-+   Matrix+ a matrix to copy
-+   a - f+ The individual matrix components (in column-major order)
-+   x, y+ Arguments affecting how the shortcut matrix format affects x
++   Matrix: a matrix to copy
++   a - f: The individual matrix components (in column-major order)
++   x, y: Arguments affecting how the shortcut matrix format affects x
     and y
-+   n+ The same value used for x and y together
-+   angle+ Rotation angle in degrees, clockwise
++   n: The same value used for x and y together
++   angle: Rotation angle in degrees, clockwise
 
 
 If no arguments are provided, a new default (identity) matrix

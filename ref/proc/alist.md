@@ -34,7 +34,7 @@ In this proc
 the index values should be constants, and that usually means text
 constants. When these index values happen to be text strings that
 satisfy all the requirements for variable names, this may also be
-written in a convenient short-hand without the double quotes+ 
+written in a convenient short-hand without the double quotes: 
 ```
 
 var/alist/lst = alist(player = \"James Byond\", score = 2000) 

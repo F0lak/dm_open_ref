@@ -24,7 +24,7 @@ A related map_format, used by older games, is
 
 
 In this form, the `layer` var behaves exactly as you would
-expect+ Icons with a lower layer are drawn beneath icons with a higher
+expect: Icons with a lower layer are drawn beneath icons with a higher
 layer. The only exception is when you use [big
 icons](/ref/%7Bnotes%7D/big-icons.md)  which will be drawn above any other
 icons on the same layer. Also an atom\'s underlays will be drawn behind

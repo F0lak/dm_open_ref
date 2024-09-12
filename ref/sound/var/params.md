@@ -10,7 +10,7 @@
 Used to set client skin information related to this sound. This
 can be set to an [associative list](/ref/list/associations.md)  or a parameter
 string such as you would get from
-[list2params()](/ref/proc/list2params.md) .code}. 
+[list2params()](/ref/proc/list2params.md). 
 
 These are the
 parameters currently defined:

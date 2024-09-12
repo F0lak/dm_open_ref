@@ -8,10 +8,10 @@
 +   Profilng data or null
 <!-- -->
 **Args:**
-+   command+ A numerical value that says whether to start, stop,
++   command: A numerical value that says whether to start, stop,
     refresh, etc.
-+   type+ A type of profile to use, other than proc profiling.
-+   format+ Optional format for output data
++   type: A type of profile to use, other than proc profiling.
++   format: Optional format for output data
 
 
 Interacts with the built-in server profiler without requiring
@@ -40,7 +40,7 @@ PROFILE_RESTART
 
 
 By default, data will be returned as a list. The first six
-values are the column names+ `"name"`, `"self"`, `"total"`, `"real"`,
+values are the column names: `"name"`, `"self"`, `"total"`, `"real"`,
 `"over"`, and `"calls"`, corresponding to the columns in the profiler.
 These are followed by the profile data for each proc, with the data
 being in the same column order. E.g. the next six items represent the
@@ -55,7 +55,7 @@ format.
 
 Using `"sendmaps"` in the `type` argument will profile the
 routines used to send map informaiton to players. Unlike the proc
-profiling this only has three data columns+ `"name"`, `"value"`, and
+profiling this only has three data columns: `"name"`, `"value"`, and
 `"calls"`. The value column might be a time or number value, depending
 on what\'s being measured. 
 

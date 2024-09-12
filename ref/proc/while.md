@@ -21,7 +21,7 @@ Statement may be a block of code or a single statement.
  
 
 This
-outputs+ 
+outputs: 
 ```
  3 2 1 
 ```

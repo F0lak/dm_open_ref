@@ -15,23 +15,23 @@
 <!-- -->
 **Possible values:**
 +   Any combination of:
-+   **LONG_GLIDE**+ Diagonal glides take as long as cardinal ones
-+   **RESET_COLOR**+ If this is an overlay/image/etc., ignore the
++   **LONG_GLIDE**: Diagonal glides take as long as cardinal ones
++   **RESET_COLOR**: If this is an overlay/image/etc., ignore the
     parent\'s color
-+   **RESET_ALPHA**+ If this is an overlay/image/etc., ignore the
++   **RESET_ALPHA**: If this is an overlay/image/etc., ignore the
     parent\'s alpha value
-+   **RESET_TRANSFORM**+ If this is an overlay/image/etc., ignore the
++   **RESET_TRANSFORM**: If this is an overlay/image/etc., ignore the
     parent\'s transform
-+   **NO_CLIENT_COLOR**+ Ignore client.color
-+   **KEEP_TOGETHER**+ Draw this icon along with its overlays and
++   **NO_CLIENT_COLOR**: Ignore client.color
++   **KEEP_TOGETHER**: Draw this icon along with its overlays and
     underlays, as one unit
-+   **KEEP_APART**+ Detach from a parent icon that uses `KEEP_TOGETHER`
-+   **PLANE_MASTER**+ Groups all other icons in the same plane
-+   **TILE_BOUND**+ Avoids more accurate visibility calculations
-+   **PIXEL_SCALE**+ Use point sampling when transforming this icon
-+   **PASS_MOUSE**+ If this icon has a `render_source`, pass mouse any
++   **KEEP_APART**: Detach from a parent icon that uses `KEEP_TOGETHER`
++   **PLANE_MASTER**: Groups all other icons in the same plane
++   **TILE_BOUND**: Avoids more accurate visibility calculations
++   **PIXEL_SCALE**: Use point sampling when transforming this icon
++   **PASS_MOUSE**: If this icon has a `render_source`, pass mouse any
     hits to the render source
-+   **TILE_MOVER**+ This atom is always locked to the grid
++   **TILE_MOVER**: This atom is always locked to the grid
 
 
 The appearance_flags value controls miscellaneous behavior of
@@ -150,7 +150,7 @@ mouse-visible.
 
 
 There are many ways an object may be shifted out of the normal
-bounds of the tile it\'s on+ a large icon, pixel offsets, step offsets,
+bounds of the tile it\'s on: a large icon, pixel offsets, step offsets,
 and transform. Ordinarily it\'s desirable to be able to see the object
 if it touches any visible turf. However, in some cases it\'s more
 desirable to only show the object if its actual loc is in view. The
@@ -175,6 +175,6 @@ instead of this object.
 
 
 This flag indicates this atom is locked to the tile grid as it
-would be in [TILE_MOVEMENT_MODE](/ref/world/var/movement_mode.md) .code},
+would be in [TILE_MOVEMENT_MODE](/ref/world/var/movement_mode.md),
 regardless of the setting of `world.movement_mode`. In this way, pixel
 movers and tile movers can coexist.

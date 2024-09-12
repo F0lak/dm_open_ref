@@ -13,7 +13,7 @@ url could be a web or BYOND address. In the latter case, the player will
 disconnect from the current world and connect to the specified one.
 
 
-The format of a BYOND url is as follows+ 
+The format of a BYOND url is as follows: 
 ```
 
 byond://address:port?TopicData 

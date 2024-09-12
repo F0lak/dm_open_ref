@@ -27,6 +27,6 @@ T2).
 
 This outputs \"Not equal!\"
 since \"Hi\" and \"HI\" are different when taking case into account.
-Note+ This proc used to be named cmpText, like cmptext but with a
+Note: This proc used to be named cmpText, like cmptext but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.

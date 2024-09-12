@@ -6,8 +6,8 @@
 +   list.Cut(Start=1,End=0)
 <!-- -->
 **Args:**
-+   Start+ The list position in which to begin the cut.
-+   End+ The list position immediately following the last element to be
++   Start: The list position in which to begin the cut.
++   End: The list position immediately following the last element to be
     removed.
 
 

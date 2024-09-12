@@ -8,7 +8,7 @@
 +   Turn(angle)
 <!-- -->
 **Args:**
-+   angle+ an angle in degrees
++   angle: an angle in degrees
 
 
 This rotates the icon clockwise by the specified amount.

@@ -38,7 +38,7 @@ Manipulation of matrices can be done with operators,
 or with procs. You can do the following with them:
 -   **Multiply:** Multiplying two matrices together will chain together
     the transformations they represent. For instance, a scaling matrix
-    multiplied by a rotation matrix says+ Scale, then rotate.
+    multiplied by a rotation matrix says: Scale, then rotate.
     Multiplication of two matrices is sensitive to the order you use.
 -   **Scale:** A simple scale matrix uses only the a and e values, to
     scale x and y by a certain amount.

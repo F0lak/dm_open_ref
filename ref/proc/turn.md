@@ -8,9 +8,9 @@
 +   turn(Dir, Angle)
 <!-- -->
 **Args:**
-+   Dir+ One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
++   Dir: One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
     SOUTHEAST, SOUTHWEST.
-+   Angle+ An angle in degrees (counterclockwise rotation).
++   Angle: An angle in degrees (counterclockwise rotation).
 <!-- -->
 **Returns:**
 +   The rotated direction.

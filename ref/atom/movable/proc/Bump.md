@@ -9,7 +9,7 @@
 +   Called when a movement fails due to a dense blockage.
 <!-- -->
 **Args:**
-+   Obstacle+ The blocking object.
++   Obstacle: The blocking object.
 <!-- -->
 **Default action:**
 +   If the obstacle is a mob and src is in its group, swap their

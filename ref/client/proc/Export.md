@@ -9,7 +9,7 @@
 +   client.Export(file)
 <!-- -->
 **Args:**
-+   file+ file to send to client
++   file: file to send to client
 
 
 This stores the file on the user\'s computer in a special

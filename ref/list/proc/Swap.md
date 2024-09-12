@@ -10,8 +10,8 @@
 +   Nothing.
 <!-- -->
 **Args:**
-+   Index1+ The index (1 to list.len) of one of the items to swap.
-+   Index2+ The index of the other item.
++   Index1: The index (1 to list.len) of one of the items to swap.
++   Index2: The index of the other item.
 
 
 Swap two items in a list. If the list has associated values,
@@ -34,5 +34,5 @@ orange -\> 3
 ```
  
 
-Note+ This proc doesn\'t work with many
+Note: This proc doesn\'t work with many
 special lists such as `contents` or `overlays`.

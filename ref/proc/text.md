@@ -9,8 +9,8 @@
 +   The text with macros arguments substituted.
 <!-- -->
 **Args:**
-+   FormatText+ a text string possibly containing text macros.
-+   Args+ a set of arguments that corresponds to the number of empty
++   FormatText: a text string possibly containing text macros.
++   Args: a set of arguments that corresponds to the number of empty
     embedded expressions in FormatText.
 
 

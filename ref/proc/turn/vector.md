@@ -12,9 +12,9 @@
 +   A new rotated vector.
 <!-- -->
 **Args:**
-+   A+ The vector to rotate.
-+   angle+ An angle to turn a vector counter-clockwise in 2D.
-+   B+ A vector to rotate around (left-hand rule).
++   A: The vector to rotate.
++   angle: An angle to turn a vector counter-clockwise in 2D.
++   B: A vector to rotate around (left-hand rule).
 
 
 All angles are in degrees. 

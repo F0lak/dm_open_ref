@@ -15,7 +15,7 @@ item is chosen from that list.
 
 When not using the list form,
 you can make a particular value more or less likely to be chosen by
-providing a relative probability like this+ 
+providing a relative probability like this: 
 ```
  prob(P); Val Or
 P; Val 

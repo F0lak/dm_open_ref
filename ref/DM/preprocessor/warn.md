@@ -6,7 +6,7 @@
 +   #warn Text
 <!-- -->
 **Args:**
-+   Text+ a warning message to display
++   Text: a warning message to display
 
 
 The #warn directive displays the specified message as a

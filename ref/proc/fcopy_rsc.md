@@ -8,7 +8,7 @@
 +   fcopy_rsc(File)
 <!-- -->
 **Args:**
-+   File+ file to copy into the resource cache
++   File: file to copy into the resource cache
 <!-- -->
 **Returns:**
 +   reference to the file as a cache entry

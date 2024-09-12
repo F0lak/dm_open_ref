@@ -8,12 +8,12 @@
 +   [caller var (proc)](/ref/proc/var/caller.md) 
 +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
 **Vars:**
-+   name+ A text string (such as an error message) or other value
-+   file+ The filename where the error occurred, if debugging info is
++   name: A text string (such as an error message) or other value
++   file: The filename where the error occurred, if debugging info is
     present
-+   line+ The line where the error occurred, if debugging info is
++   line: The line where the error occurred, if debugging info is
     present
-+   desc+ Detailed error info including call stack, only used when sent
++   desc: Detailed error info including call stack, only used when sent
     to world.Error()
 
 

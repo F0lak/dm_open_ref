@@ -16,14 +16,14 @@
     objects directly within that object are searched.
 <!-- -->
 **Args:**
-+   Type+ An object prototype or tag. If locate() is being used in an
++   Type: An object prototype or tag. If locate() is being used in an
     assignment to a variable with a declared type, this argument is
     optional and will default to the type of the variable being
     assigned.
-+   Container+ An optional container object. (The default is `world`.)
-+   X,Y,Z+ A set of numerical coordinates.
-+   Tag+ The value of an object\'s tag variable (must be unique).
-+   TextRef+ An embedded object reference created by the \\ref text
++   Container: An optional container object. (The default is `world`.)
++   X,Y,Z: A set of numerical coordinates.
++   Tag: The value of an object\'s tag variable (must be unique).
++   TextRef: An embedded object reference created by the \\ref text
     macro.
 
 

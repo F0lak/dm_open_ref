@@ -10,7 +10,7 @@
 +   [issaved proc](/ref/proc/issaved.md) 
 +   [Read proc (datum)](/ref/datum/proc/Read.md) 
 +   [Write proc (datum)](/ref/datum/proc/Write.md) 
-::+ {.sidebar .note}
+::: {.sidebar .note}
 
 
 Savefiles are easy to use, but you should always plan what
@@ -29,7 +29,7 @@ Currently, overlays and underlays also
 save by combining each list into a single icon that saves its full icon
 data in the file. This may not be desired, so you can remove that data.
 Usually you\'ll want to rebuild any overlay/underlay lists during
-[Read()](/ref/datum/proc/Read.md) .code}.
+[Read()](/ref/datum/proc/Read.md).
 :::
 
 

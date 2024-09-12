@@ -19,7 +19,7 @@ The atom\'s
 actual bounding box may not begin at step_x, but can be set even further
 in via bound_x. 
 
-Example+ A 16×16 smiley face centered in a
+Example: A 16×16 smiley face centered in a
 32×32 icon should have the following bounds:
 -   bound_x = 8
 -   bound_y = 8

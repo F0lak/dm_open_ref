@@ -25,7 +25,7 @@ itself. In rare cases, you may even depend on this behavior. When you
 are done with such objects, you should either null out the circular
 reference, or you should forcibly destroy each object with the `del`
 instruction.
-::+ {.sidebar .underhood}
+::: {.sidebar .underhood}
 
 
 This is a quick list of things that count as references to an

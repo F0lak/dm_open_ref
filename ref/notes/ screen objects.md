@@ -33,7 +33,7 @@ The `screen_loc` var can be set to a value like
 from the west, along the north side of the screen), `"SOUTHEAST"`, and
 so on. You can also include pixel offsets, percentages, and specify two
 corners to tile an icon repeatedly from one end to the other. See
-[screen_loc](/ref/atom/movable/var/screen_loc.md) .code} for more details.
+[screen_loc](/ref/atom/movable/var/screen_loc.md) for more details.
 
 
 `screen_loc` can also be used to stretch the bounds of the HUD.

@@ -7,7 +7,7 @@
 +   set popup_menu = Setting
 <!-- -->
 **Args:**
-+   Setting+ 1 (default) for showing this verb in the popup menus; 0
++   Setting: 1 (default) for showing this verb in the popup menus; 0
     otherwise.
 
 

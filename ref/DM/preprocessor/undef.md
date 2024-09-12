@@ -6,7 +6,7 @@
 +   #undef Name
 <!-- -->
 **Args:**
-+   Name+ A macro definition.
++   Name: A macro definition.
 
 
 The `#undef` statement removes a macro definition.

@@ -5,7 +5,7 @@
 +   text2path(T)
 <!-- -->
 **Args:**
-+   T+ A text string.
++   T: A text string.
 <!-- -->
 **Returns:**
 +   a type path or null.

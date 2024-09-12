@@ -8,7 +8,7 @@
 +   [Info](/ref/%7Bskin%7D/control/info.md) 
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) +   none
++   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) :   none
 <!-- -->
 **Default value:**
 +   #00ff00

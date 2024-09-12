@@ -26,7 +26,7 @@ verb will be invoked.
 In addition to the normal access control
 (see the verb src setting) verbs can be dynamically added and removed
 from objects. One way to do this is to use new() with the following
-syntax+ 
+syntax: 
 ```
  new verb_path(Destination,Name,Desc) 
 ```

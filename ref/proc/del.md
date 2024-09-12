@@ -8,7 +8,7 @@
 +   del Object
 <!-- -->
 **Args:**
-+   Object+ Any data object (datum, savefile, world, you name it)
++   Object: Any data object (datum, savefile, world, you name it)
 
 
 Destroy an object and null out all references to it. Procs that

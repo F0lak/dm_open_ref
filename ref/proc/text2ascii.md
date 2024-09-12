@@ -8,8 +8,8 @@
 +   text2ascii(T,pos=1)
 <!-- -->
 **Args:**
-+   T+ A text string.
-+   pos+ The byte position in T to use, starting at 1.
++   T: A text string.
++   pos: The byte position in T to use, starting at 1.
 <!-- -->
 **Returns:**
 +   A number representing the character\'s ASCII or Unicode code.

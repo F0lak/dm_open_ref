@@ -31,4 +31,4 @@ Other supported procs for pixlocs include:
 [floor()](/ref/proc/floor.md) {.code}
 [ceil()](/ref/proc/ceil.md) {.code}
 [trunc()](/ref/proc/trunc.md) {.code}
-[fract()](/ref/proc/fract.md) .code} (returns a vector)
+[fract()](/ref/proc/fract.md) (returns a vector)

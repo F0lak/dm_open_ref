@@ -10,9 +10,9 @@
 +   Crop(x1,y1,x2,y2)
 <!-- -->
 **Args:**
-+   x1,y1+ Coordinates of one corner of the rectangle (1,1 is the lower
++   x1,y1: Coordinates of one corner of the rectangle (1,1 is the lower
     left)
-+   x2,y2+ Coordinates of the other corner
++   x2,y2: Coordinates of the other corner
 
 
 A portion of the current icon is cropped (cut). If the crop

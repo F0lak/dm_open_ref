@@ -8,7 +8,7 @@
 +   issaved(Var)
 <!-- -->
 **Args:**
-+   Var+ The variable to test.
++   Var: The variable to test.
 
 
 This returns 1 if the given variable should be automatically

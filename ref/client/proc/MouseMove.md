@@ -18,11 +18,11 @@
 +   MouseMove(object,location,control,params)
 <!-- -->
 **Args:**
-+   object+ the object under the mouse pointer
-+   location+ the turf, stat panel, grid cell, etc. containing the
++   object: the object under the mouse pointer
++   location: the turf, stat panel, grid cell, etc. containing the
     object where it was clicked
-+   control+ the name of the skin control involved
-+   params+ other parameters including mouse/keyboard flags, icon
++   control: the name of the skin control involved
++   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
 **Default action:**
 +   Call object.MouseMove(location,control,params).

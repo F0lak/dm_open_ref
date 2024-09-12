@@ -11,17 +11,17 @@
 +   for (Key \[as Type\], Value in List) Statement
 <!-- -->
 **Args:**
-+   Var+ A variable to sequentially contain each member of the list.
-+   List+ The list to loop through. This defaults to the whole world.
-+   Type+ One or more of area, turf, mob, or obj, ORed together. If no
++   Var: A variable to sequentially contain each member of the list.
++   List: The list to loop through. This defaults to the whole world.
++   Type: One or more of area, turf, mob, or obj, ORed together. If no
     type is specified, the declared type of Var will be used to skip
     over inappropriate elements in the list.
-+   Start+ A starting numeric value.
-+   End+ An ending numeric value (inclusive).
-+   Step+ An increment for the numeric value; default is 1.
-+   Key+ A variable to sequentially contain each \"key\" in a key,value
++   Start: A starting numeric value.
++   End: An ending numeric value (inclusive).
++   Step: An increment for the numeric value; default is 1.
++   Key: A variable to sequentially contain each \"key\" in a key,value
     pair from an [associative list](/list/assoc)
-+   Value+ A variable to sequentially contain each associated value in a
++   Value: A variable to sequentially contain each associated value in a
     key,value pair list
 ### Example:
 
@@ -77,7 +77,7 @@ of that list.
 
 
 
-Note+ Although you can use fractional values for `step` in this
+Note: Although you can use fractional values for `step` in this
 numeric format, there may be accuracy considerations to keep in mind.
 See [Numbers](/ref/%7Bnotes%7D/numbers.md) for more information.
 ### Key,value pair loop 

@@ -12,7 +12,7 @@
     Columns(column)
 <!-- -->
 **Args:**
-+   column+ The Nth column whose name should be read
++   column: The Nth column whose name should be read
 
 
 Returns a list of column names for the current query, or the

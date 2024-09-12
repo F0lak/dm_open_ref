@@ -36,6 +36,6 @@ get out of sync during motion, causing the object to visually break up.
 Because of the advent of features like big icons, this value is no
 longer of much use. 
 
-Note+ This setting has no impact when used
+Note: This setting has no impact when used
 with pixel movement, except in special cases. See
 [Gliding](/ref/%7Bnotes%7D/gliding.md) for more details.

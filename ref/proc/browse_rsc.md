@@ -5,8 +5,8 @@
 +   usr \<\< browse_rsc(File,FileName)
 <!-- -->
 **Args:**
-+   File+ a resource file (such as an image)
-+   FileName+ name of file (if different from source file)
++   File: a resource file (such as an image)
++   FileName: name of file (if different from source file)
 
 
 This sends the specified resource file to usr (or anybody else)

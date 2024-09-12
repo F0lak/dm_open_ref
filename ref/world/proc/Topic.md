@@ -15,11 +15,11 @@
     remote server.
 <!-- -->
 **Args:**
-+   T+ The topic text string specified by the remote server (everything
++   T: The topic text string specified by the remote server (everything
     following ? in the URL).
-+   Addr+ The address of the remote server.
-+   Master+ 1 if remote server is the server which started this one.
-+   Keys+ List of keys belonging to users who are logged in on the
++   Addr: The address of the remote server.
++   Master: 1 if remote server is the server which started this one.
++   Keys: List of keys belonging to users who are logged in on the
     remote server
 <!-- -->
 **Default action:**

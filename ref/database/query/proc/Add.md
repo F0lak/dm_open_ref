@@ -7,8 +7,8 @@
 +   Add(text, item1, item2, \...)
 <!-- -->
 **Args:**
-+   text+ Text to add to the query
-+   item1, item2, etc.+ Items that will replace question marks in text
++   text: Text to add to the query
++   item1, item2, etc.: Items that will replace question marks in text
 
 
 Adds text to a database query. If this datum was already used

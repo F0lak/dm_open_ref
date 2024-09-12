@@ -11,8 +11,8 @@
 +   1 if the medal was rescinded successfully, 0 or null otherwise.
 <!-- -->
 **Args:**
-+   medal+ name of the medal being rescinded
-+   player+ a mob, client, key, or ckey
++   medal: name of the medal being rescinded
++   player: a mob, client, key, or ckey
 
 
 Removes a medal from a player. The proc will return 1 if it is
@@ -32,7 +32,7 @@ have spawn() if(ismob(killer) && killer.key)
 world.ClearMedal(\"Pacifist\", killer) 
 ```
 
-Note+ You can specify a different hub path and hub_password by adding
+Note: You can specify a different hub path and hub_password by adding
 these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.

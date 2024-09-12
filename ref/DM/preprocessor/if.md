@@ -12,7 +12,7 @@
 +   #endif
 <!-- -->
 **Args:**
-+   Val+ A logical expression.
++   Val: A logical expression.
 
 
 The `#if` statement is used to conditionally compile code. If

@@ -6,7 +6,7 @@
 +   url_decode(UrlText)
 <!-- -->
 **Args:**
-+   UrlText+ text to be \"unescaped\"
++   UrlText: text to be \"unescaped\"
 <!-- -->
 **Returns:**
 +   unescaped text

@@ -12,11 +12,11 @@
 +   call_ext(LoadedFunc)(Arguments)
 <!-- -->
 **Args:**
-+   LibName+ name of external library (\"test.DLL\") (note+ the .dll or
++   LibName: name of external library (\"test.DLL\") (note: the .dll or
     .so suffix is not required)
-+   FuncName+ name of function in external library (\"func\"), which may
++   FuncName: name of function in external library (\"func\"), which may
     have prefixes to describe the type of function
-+   LoadedFunc+ reference to a function that was loaded via `load_ext()`
++   LoadedFunc: reference to a function that was loaded via `load_ext()`
 <!-- -->
 **Returns:**
 +   The return value of the external library function.
@@ -61,7 +61,7 @@ array of the arguments themselves. The integer must be 32-bit.
 As the library prototype is `char**`, the `call_ext()`
 arguments must be strings. Other types (like numbers) will be passed as
 the empty string (`""`) into the library function.
-### Example+ {#example .cpp}
+### Example: {#example .cpp}
 ``` cpp
 // test.dll, a win32 C++ library compiled in VC++:
 #include <string.h>
@@ -85,7 +85,7 @@ extern "C" __declspec(dllexport) char *merge(int n, char *v[])
  // DM code to use test.dll mob/verb/test() usr \<\<
 call_ext(\"test.dll\",\"merge\")(\"fee\",\"fi\",\"fo\") // returns
 \"feefifo\" // As with the other call() versions, arglist() may be used
-to do runtime arguments+ mob/verb/argtest() var/L =
+to do runtime arguments: mob/verb/argtest() var/L =
 list(\"fee\",\"fi\",\"fo\") usr \<\<
 call_ext(\"test.dll\",\"func\")(arglist(L)) // returns \"feefifo\"
 
@@ -120,7 +120,7 @@ The `u4c` type is an unsigned 32-bit integer, defined in
 `byondapi.h`. `CByondValue` is also defined there. Interacting with a
 CByondValue structure requires the functions exported as part of
 Byondapi.
-### Example+ {#example-1 .cpp}
+### Example: {#example-1 .cpp}
 ``` cpp
 // test_byondapi.dll, a win32 C++ library compiled in VC++:
 #include <byondapi.h>
@@ -200,7 +200,7 @@ values.
 ### Other prefixes
 
 
-For advanced users+ on Windows, `call_ext()` uses the `__cdecl`
+For advanced users: on Windows, `call_ext()` uses the `__cdecl`
 convention by default. If you are designing or linking to a DLL that
 uses the `__stdcall` convention instead, you can inform `call_ext()` by
 prefacing the function name with the `"@"` symbol. E.g.,

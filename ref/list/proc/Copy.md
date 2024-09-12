@@ -8,8 +8,8 @@
 +   A new list.
 <!-- -->
 **Args:**
-+   Start+ The list position in which to begin the copy.
-+   End+ The list position immediately following the last element to be
++   Start: The list position in which to begin the copy.
++   End: The list position immediately following the last element to be
     copied.
 
 

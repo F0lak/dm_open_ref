@@ -7,12 +7,12 @@ Format:
 +   filter(type=\"drop_shadow\", \...)
 <!-- -->
 Args:
-+   x+ Shadow horizontal offset (defaults to 1)
-+   y+ Shadow horizontal offset (defaults to -1)
-+   size+ Blur amount (defaults to 1; negative values create inset
++   x: Shadow horizontal offset (defaults to 1)
++   y: Shadow horizontal offset (defaults to -1)
++   size: Blur amount (defaults to 1; negative values create inset
     shadows)
-+   offset+ Size increase before blur (defaults to 0)
-+   color+ Shadow color (defaults to 50% transparent black)
++   offset: Size increase before blur (defaults to 0)
++   color: Shadow color (defaults to 50% transparent black)
 
 
 Applies a drop shadow to this image. This is a combination of

@@ -5,7 +5,7 @@
 +   html_decode(HtmlText)
 <!-- -->
 **Args:**
-+   HtmlText+ text to be \"unescaped\"
++   HtmlText: text to be \"unescaped\"
 <!-- -->
 **Returns:**
 +   unescaped text

@@ -5,7 +5,7 @@
 +   flist(Path)
 <!-- -->
 **Args:**
-+   Path+ The path in the filesystem to get a listing of.
++   Path: The path in the filesystem to get a listing of.
 <!-- -->
 **Returns:**
 +   A list of files contained in the specified directory and whose names

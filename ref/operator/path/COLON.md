@@ -1,4 +1,4 @@
-## + path operator
+## : path operator
 **See also:**
 +   [. path operator](/ref/operator/path/%2e.md) 
 +   [/ path operator](/ref/operator/path//.md) 

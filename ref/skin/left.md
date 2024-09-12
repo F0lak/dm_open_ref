@@ -16,6 +16,6 @@
 +   none
 
 
-The [id](/ref/%7Bskin%7D/param/id.md) .code} of the left/top pane in
+The [id](/ref/%7Bskin%7D/param/id.md) of the left/top pane in
 this control. The parameter names `left` and `top` can be used
 interchangeably.

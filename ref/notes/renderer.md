@@ -27,17 +27,17 @@ animation (if any) to use.
 
 So with several simple icons, and
 not worrying about layers for now, a list of sprites lays out like this:
-::::::+ renderlist
-::+ renderlist-box
+::::::: renderlist
+::: renderlist-box
 Atom #1
 :::
-::+ renderlist-box
+::: renderlist-box
 Atom #2
 :::
-::+ renderlist-label
+::: renderlist-label
 ⋮
 :::
-::+ renderlist-box
+::: renderlist-box
 Atom #N
 :::
 :::::::
@@ -46,26 +46,26 @@ Atom #N
 
 Now let\'s consider what happens when an appearance has
 overlays.
-:::::::::+ renderlist
-::+ renderlist-box
+:::::::::: renderlist
+::: renderlist-box
 Underlay #1
 :::
-::+ renderlist-label
+::: renderlist-label
 ⋮
 :::
-::+ renderlist-box
+::: renderlist-box
 Underlay #N
 :::
-::+ renderlist-box
+::: renderlist-box
 Main icon
 :::
-::+ renderlist-box
+::: renderlist-box
 Overlay #1
 :::
-::+ renderlist-label
+::: renderlist-label
 ⋮
 :::
-::+ renderlist-box
+::: renderlist-box
 Overlay #N
 :::
 ::::::::::
@@ -74,29 +74,29 @@ Overlay #N
 The [underlays](/ref/atom/var/underlays.md) {.code} list is processed
 first, then [overlays](/ref/atom/var/overlays.md) {.code}. These lists contain
 appearances themselves, rather than actual atoms. This means that
-overlays are recursive+ an overlay can have overlays itself. To picture
+overlays are recursive: an overlay can have overlays itself. To picture
 how that works, just replace one of the overlays above with another
 list.
-:::::::::+ renderlist
-::+ renderlist-box
+:::::::::: renderlist
+::: renderlist-box
 Underlay #1
 :::
-::+ renderlist-box
+::: renderlist-box
 Underlay #2
 :::
-::+ renderlist-box
+::: renderlist-box
 Main icon
 :::
-::+ renderlist-box
+::: renderlist-box
 Underlays of overlay #1
 :::
-::+ renderlist-box
+::: renderlist-box
 Overlay #1 icon
 :::
-::+ renderlist-box
+::: renderlist-box
 Overlays of overlay #1
 :::
-::+ renderlist-box
+::: renderlist-box
 Overlay #2
 :::
 ::::::::::
@@ -107,20 +107,20 @@ Any atom can have an [image object](/ref/image.md)  attached, which
 can be shown to only specific players. Most atoms, and image objects,
 can have [visual contents](/ref/atom/var/vis_contents.md)  that display other
 atoms as if they\'re overlays.
-:::::::+ renderlist
-::+ renderlist-box
+:::::::: renderlist
+::: renderlist-box
 Underlays
 :::
-::+ renderlist-box
+::: renderlist-box
 Main icon
 :::
-::+ renderlist-box
+::: renderlist-box
 Overlays
 :::
-::+ renderlist-box
+::: renderlist-box
 Image objects
 :::
-::+ renderlist-box
+::: renderlist-box
 Visual contents
 :::
 ::::::::
@@ -152,19 +152,19 @@ get grouped with the main icon in a similar way to maptext.
 For
 simplicity, from this point forward the diagram will just treat
 underlays, overlays, image objects, and visual contents as overlays.
-:::::::+ renderlist
-:::::+ renderlist-box
-::+ renderlist-box
+:::::::: renderlist
+:::::: renderlist-box
+::: renderlist-box
 Main icon
 :::
-::+ renderlist-box
+::: renderlist-box
 Maptext
 :::
-::+ renderlist-box
+::: renderlist-box
 Particles
 :::
 ::::::
-::+ renderlist-box
+::: renderlist-box
 Overlays
 :::
 ::::::::
@@ -181,23 +181,23 @@ special [appearance_flags](/ref/var/appearance_flags.md) {.code}:
 
 The
 appearance\'s filters are only applied to the main icon.
-:::::::::+ renderlist
-:::::+ renderlist-box
-::+ renderlist-box
+:::::::::: renderlist
+:::::: renderlist-box
+::: renderlist-box
 Main icon
 :::
-::+ renderlist-box
+::: renderlist-box
 Maptext
 :::
-::+ renderlist-note
+::: renderlist-note
 Main `color`, `transform`, and `filters` apply
 :::
 ::::::
-::::+ renderlist-box
-::+ renderlist-label
+::::: renderlist-box
+::: renderlist-label
 Overlays
 :::
-::+ renderlist-note
+::: renderlist-note
 `color` and `transform` are inherited from Main\
 `filters` are not inherited from Main
 :::
@@ -223,23 +223,23 @@ By using the `KEEP_TOGETHER` value in
 an appearance will group all of its underlays and overlays together. If
 this is an atom with image objects and visual contents, those will be
 grouped with it as well.
-:::::::::+ renderlist
-::::::::+ renderlist-box
-::+ renderlist-label
+:::::::::: renderlist
+::::::::: renderlist-box
+::: renderlist-label
 KT group
 :::
-::+ renderlist-note
+::: renderlist-note
 Main `color`, `transform`, and `filters` apply
 :::
-::::+ renderlist-box
-::+ renderlist-box
+::::: renderlist-box
+::: renderlist-box
 Main icon
 :::
-::+ renderlist-box
+::: renderlist-box
 Maptext
 :::
 :::::
-::+ renderlist-box
+::: renderlist-box
 Overlays
 :::
 :::::::::

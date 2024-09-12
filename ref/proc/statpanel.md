@@ -8,9 +8,9 @@
 +   statpanel(Panel,Name,Value)
 <!-- -->
 **Args:**
-+   Panel+ the name of the stat panel
-+   Name+ the name of the stat line
-+   Value+ the data to be displayed
++   Panel: the name of the stat panel
++   Name: the name of the stat line
++   Value: the data to be displayed
 <!-- -->
 **Returns:**
 +   If called with just a Panel argument, 1 is returned if the player is

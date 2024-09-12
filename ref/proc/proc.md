@@ -54,7 +54,7 @@ in view(src) return target
 Currently the only
 purpose for using the `as` clause is for situations where the compiler
 needs to infer the type of an expression. Mainly this applies to the
-[.](/ref/operator/%2e.md) {.code} and [?.](/ref/operator/%3f%2e.md) .code} operators
+[.](/ref/operator/%2e.md) {.code} and [?.](/ref/operator/%3f%2e.md) operators
 in an expression such as `GetTarget()?.Attack(src)`. Giving
 `GetTarget()` a return type allows the compiler to check if `Attack()`
 is a valid proc for `/mob/player`. Otherwise, the `.` and `?.` operators

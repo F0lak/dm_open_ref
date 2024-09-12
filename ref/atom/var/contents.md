@@ -28,8 +28,8 @@ movable atom uses the bound vars to change its physical size, or
 turf. In that case, those turfs\' contents won\'t just contain anything
 directly in them, but also any atoms overhanging them. I.e., if a turf
 is in a mob\'s `locs` list, then the mob is in that turf\'s contents
-list. (See [locs](/ref/atom/movable/var/locs.md) .code} for more information.)
-Note+ Looping through all of the atoms, or even just turfs, in a
+list. (See [locs](/ref/atom/movable/var/locs.md) for more information.)
+Note: Looping through all of the atoms, or even just turfs, in a
 particular area actually loops through every turf in the world. E.g.,
 `for(var/turf/T in area)`. The engine will check each turf to see if it
 belongs to that area, and then includes the turf and/or its contents in

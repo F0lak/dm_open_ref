@@ -6,8 +6,8 @@
 +   fcopy(Src,Dst)
 <!-- -->
 **Args:**
-+   Src+ file to copy
-+   Dst+ new copy to make
++   Src: file to copy
++   Dst: new copy to make
 <!-- -->
 **Returns:**
 +   1 on success; 0 otherwise.

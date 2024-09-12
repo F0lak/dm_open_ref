@@ -10,7 +10,7 @@ it cannot be determined, it will be null.
 
 The full network
 address of the world may be formed by concatenating the world address
-and port+ \"byond://\[address\]:\[port\]\". 
+and port: \"byond://\[address\]:\[port\]\". 
 
 This var exists
 because `world.address` may not be accurate if the world is hosted on a

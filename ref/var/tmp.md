@@ -23,7 +23,7 @@ Therefore, you would need to use `tmp` when defining the variable.
  mob var/tmp leader verb follow(mob/M) leader = M 
 ```
 
-::+ {.sidebar .note}
+::: {.sidebar .note}
 
 
 Accidentally saving another mob in your savefile can be

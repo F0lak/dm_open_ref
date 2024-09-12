@@ -18,8 +18,8 @@
 +   A list of visible objects within Dist tiles of Center.
 <!-- -->
 **Args:**
-+   Dist+ A number.
-+   Center+ An object on the map.
++   Dist: A number.
++   Center: An object on the map.
 
 
 A Dist of 0 includes Center, the contents of Center (normally
@@ -43,7 +43,7 @@ reach of \[src\]\"
  
 
 Be aware of the following
-distinctions+ 
+distinctions: 
 ```
  view(usr) //objects that usr can see
 view(usr.loc) //objects visible from usr\'s position view(usr.client)

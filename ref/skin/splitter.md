@@ -16,6 +16,6 @@
 
 
 Position of the splitter when two panes are in use, whether
-[show-splitter](/ref/%7Bskin%7D/param/show-splitter.md) .code} is true or not.
+[show-splitter](/ref/%7Bskin%7D/param/show-splitter.md) is true or not.
 This value is a percentage. Specifically, it is the percentage of the
 available width/height that is given to the left/top pane.

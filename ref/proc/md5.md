@@ -11,12 +11,12 @@
 +   text or null.
 <!-- -->
 **Args:**
-+   T+ A text string.
-+   F+ A file.
++   T: A text string.
++   F: A file.
 
 
 This proc implements MD5 hashing. A hash function is a one-way
-process that compacts information to a short value+ a hash. The same
+process that compacts information to a short value: a hash. The same
 value will always have the same hash. Among other uses, most computers
 use hashing to store passwords. By storing just the hash, the password
 file contains very little sensitive information, but the password can
@@ -57,7 +57,7 @@ have been modified!\"
  
 
 Note that you must pass the
-result of [file()](/ref/proc/file.md) .code} in order to compute the hash of
+result of [file()](/ref/proc/file.md) in order to compute the hash of
 an external file\'s contents at runtime. Otherwise `md5()` will treat
 the filename as text and return the hash of the name only. 
 

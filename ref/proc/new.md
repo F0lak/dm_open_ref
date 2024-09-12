@@ -13,12 +13,12 @@
 +   A reference to a new instance of Type.
 <!-- -->
 **Args:**
-+   Type+ The type of object to create.
-+   Args+ Arguments for the Type.New() proc.
++   Type: The type of object to create.
++   Args: Arguments for the Type.New() proc.
 
 
 A new instance of Type is created. The arguments (Args) are
-passed to its New() proc. A handy short-cut+ if Type is not specified
+passed to its New() proc. A handy short-cut: if Type is not specified
 and new() is being used in an assignment, the variable type of the
 left-hand-side will be used as the default type. 
 

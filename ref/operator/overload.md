@@ -140,7 +140,7 @@ ternary `? :` operator pair, and the `.` and `:` family of operators for
 accessing vars and procs. 
 
 Comparison operators come in opposing
-pairs+ `~=` vs. `~!`, `<` vs. `>=`, `>` vs. `<=`. You only need to
+pairs: `~=` vs. `~!`, `<` vs. `>=`, `>` vs. `<=`. You only need to
 override one operator from each pair; DM is smart enough to know that
 `!(A ~= B)` is the same as `A ~! B`. 
 

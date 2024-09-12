@@ -12,9 +12,9 @@
 +   A list of directions to step.
 <!-- -->
 **Args:**
-+   Ref+ Starting point or object.
-+   Trg+ An object on the map.
-+   Min+ The minimum distance between Ref and Trg before movement halts.
++   Ref: Starting point or object.
++   Trg: An object on the map.
++   Min: The minimum distance between Ref and Trg before movement halts.
 
 
 Calculate a set of steps from `Ref` on a path to `Trg`, taking

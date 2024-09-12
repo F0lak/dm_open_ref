@@ -8,7 +8,7 @@
 +   EXCEPTION(value)
 <!-- -->
 **Args:**
-+   value+ A text string (such as an error message) or other value
++   value: A text string (such as an error message) or other value
     identifying the exception.
 
 

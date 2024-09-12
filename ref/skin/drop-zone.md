@@ -23,7 +23,7 @@ will be the value of the `over_control` argument in
 Grids can also add `drag-cell` and `drop-cell` to mouse proc
 parameters. The mouse procs\' `src_location` and `over_location`
 arguments are in the form `"[column],[row]"` (or `"[item"]` if
-[is-list](/ref/%7Bskin%7D/param/is-list.md) .code} is true) when dragging
+[is-list](/ref/%7Bskin%7D/param/is-list.md) is true) when dragging
 to/from a grid cell. 
 
 In Info controls, `src_location` and

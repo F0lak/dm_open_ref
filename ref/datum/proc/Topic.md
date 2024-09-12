@@ -6,8 +6,8 @@
 +   Topic(href,href_list\[\])
 <!-- -->
 **Args:**
-+   href+ the hyperlink data (following ? in the URL).
-+   href_list+ key/value list (from params2list(href)).
++   href: the hyperlink data (following ? in the URL).
++   href_list: key/value list (from params2list(href)).
 
 
 This procedure is called by the default `client.Topic()` proc

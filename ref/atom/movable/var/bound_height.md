@@ -20,7 +20,7 @@ This var defines the height of the physical atom\'s bounding
 box, in pixels. By default all atoms are assumed to be one tile in
 physical size. 
 
-Example+ A 16×16 smiley face centered in a 32×32
+Example: A 16×16 smiley face centered in a 32×32
 icon should have a bound_height value of 16. 
 
 The default value

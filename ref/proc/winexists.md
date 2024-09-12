@@ -10,8 +10,8 @@
 +   winexists(player, control_id)
 <!-- -->
 **Args:**
-+   player+ A mob or client.
-+   control_id+ The unique ID of a control in the player\'s skin.
++   player: A mob or client.
++   control_id: The unique ID of a control in the player\'s skin.
 
 
 Tells if a control exists and if so, what type it is. The

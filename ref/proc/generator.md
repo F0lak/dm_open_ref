@@ -12,11 +12,11 @@
 +   generator(type, A, B, rand)
 <!-- -->
 **Args:**
-+   type+ The type of generator object, which determines what kind of
++   type: The type of generator object, which determines what kind of
     results it produces
-+   A+ One extreme of the generator results
-+   B+ The other extreme
-+   rand+ Type of random distribution used
++   A: One extreme of the generator results
++   B: The other extreme
++   rand: Type of random distribution used
 
 
 Creates a generator that can be used to produce a random value.
@@ -57,4 +57,4 @@ random number between -1 and 1 world \<\< G.Rand() // generate a number
 and output it to world 
 ```
 
-Note+ Worlds compiled in older BYOND versions before [vector](/ref/vector.md) will return lists from vector generators.
+Note: Worlds compiled in older BYOND versions before [vector](/ref/vector.md) will return lists from vector generators.

@@ -20,11 +20,11 @@
 +   MouseWheel(delta_x,delta_y,location,control,params)
 <!-- -->
 **Args:**
-+   delta_x,delta_y+ amount of wheel movement
-+   location+ the turf, stat panel, grid cell, etc. containing the
++   delta_x,delta_y: amount of wheel movement
++   location: the turf, stat panel, grid cell, etc. containing the
     object
-+   control+ the name of the skin control involved
-+   params+ other parameters including mouse/keyboard flags, icon
++   control: the name of the skin control involved
++   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) 
 
 This is called when the mouse wheel is moved while over an

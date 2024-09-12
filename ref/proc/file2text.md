@@ -6,7 +6,7 @@
 +   file2text(File)
 <!-- -->
 **Args:**
-+   File+ file to read
++   File: file to read
 <!-- -->
 **Returns:**
 +   the contents of the file.

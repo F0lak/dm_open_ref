@@ -6,11 +6,11 @@ Format:
 +   filter(type=\"wave\", \...)
 <!-- -->
 Args:
-+   x+ Horiztonal direction and period of wave
-+   y+ Vertical direction and period of wave
-+   size+ Maximum distortion in pixels (defaults to 1)
-+   offset+ Phase of wave, in periods (e.g., 0 to 1)
-+   flags+ Defaults to 0; see below for other flags
++   x: Horiztonal direction and period of wave
++   y: Vertical direction and period of wave
++   size: Maximum distortion in pixels (defaults to 1)
++   offset: Phase of wave, in periods (e.g., 0 to 1)
++   flags: Defaults to 0; see below for other flags
 
 
 Applies a wave distortion effect to this image. 

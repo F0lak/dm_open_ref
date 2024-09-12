@@ -8,7 +8,7 @@
 +   Turn(angle)
 <!-- -->
 **Args:**
-+   angle+ The angle of clockwise rotation, in degrees
++   angle: The angle of clockwise rotation, in degrees
 <!-- -->
 **Returns:**
 +   src

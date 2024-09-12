@@ -4,20 +4,20 @@ Format:
 +   filter(type=\"rays\", \...)
 <!-- -->
 Args:
-+   x+ Horiztonal position of ray center, relative to image center
++   x: Horiztonal position of ray center, relative to image center
     (defaults to 0)
-+   y+ Vertical position of ray center, relative to image center
++   y: Vertical position of ray center, relative to image center
     (defaults to 0)
-+   size+ Maximum length of rays (defaults to 1/2 tile width)
-+   color+ Ray color (defaults to white)
-+   offset+ \"Time\" offset of rays (defaults to 0, repeats after 1000)
-+   density+ Higher values mean more, narrower rays (defaults to 10,
++   size: Maximum length of rays (defaults to 1/2 tile width)
++   color: Ray color (defaults to white)
++   offset: \"Time\" offset of rays (defaults to 0, repeats after 1000)
++   density: Higher values mean more, narrower rays (defaults to 10,
     must be whole number)
-+   threshold+ Low-end cutoff for ray strength (defaults to 0.5, can be
++   threshold: Low-end cutoff for ray strength (defaults to 0.5, can be
     0 to 1)
-+   factor+ How much ray strength is related to ray length (defaults to
++   factor: How much ray strength is related to ray length (defaults to
     0, can be 0 to 1)
-+   flags+ Defaults to `FILTER_OVERLAY | FILTER_UNDERLAY` (see below)
++   flags: Defaults to `FILTER_OVERLAY | FILTER_UNDERLAY` (see below)
 
 
 Draws random rays that radiate outward from a center point.

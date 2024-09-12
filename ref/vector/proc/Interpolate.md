@@ -7,8 +7,8 @@
 +   A.Interpolate(B, t)
 <!-- -->
 **Args:**
-+   B+ The other vector to interpolate with.
-+   t+ The interpolation factor+ from 0 (A) to 1 (B). Usually this is a
++   B: The other vector to interpolate with.
++   t: The interpolation factor: from 0 (A) to 1 (B). Usually this is a
     value between 0 and 1.
 <!-- -->
 **Returns:**

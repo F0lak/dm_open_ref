@@ -7,7 +7,7 @@
 +   New(filename)
 <!-- -->
 **Args:**
-+   filename+ The database filename to open (optional)
++   filename: The database filename to open (optional)
 
 
 Creates a new database datum, and opens the file if a filename

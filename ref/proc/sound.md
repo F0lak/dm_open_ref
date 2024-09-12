@@ -10,12 +10,12 @@
 +   [(supports named arguments)]{.small}
 <!-- -->
 **Args:**
-+   file+ A sound file to play
-+   repeat+ 1 to play sound repeatedly
-+   wait+ 0 to interrupt current sound on channel; 1 to wait in queue
-+   channel+ 0 for any available channel, 1-1024 for specific channel
++   file: A sound file to play
++   repeat: 1 to play sound repeatedly
++   wait: 0 to interrupt current sound on channel; 1 to wait in queue
++   channel: 0 for any available channel, 1-1024 for specific channel
     (non-MIDI only)
-+   volume+ 100 for full volume (default), 0 for none, or any value in
++   volume: 100 for full volume (default), 0 for none, or any value in
     between
 
 

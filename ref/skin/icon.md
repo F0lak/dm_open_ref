@@ -20,5 +20,5 @@ control is a pane, its icon will appear on the tab if the pane is inside
 a tab control. Lack of an icon will mean no icon appears in the tab.
 
 
-Note+ The Windows `.ico` format is not used. Only image formats
+Note: The Windows `.ico` format is not used. Only image formats
 BYOND can already use are supported.

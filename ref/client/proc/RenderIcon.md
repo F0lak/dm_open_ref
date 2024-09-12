@@ -8,7 +8,7 @@
 +   RenderIcon(object)
 <!-- -->
 **Args:**
-+   object+ An atom or appearance to render.
++   object: An atom or appearance to render.
 <!-- -->
 **Returns:**
 +   A single-image icon file in which the object is rendered with all
@@ -43,7 +43,7 @@ Important notes regarding this proc:
     to be rendered.
 -   [render_source](/ref/atom/var/render_source.md) {.code} will not work
     unless the corresponding
-    [render_target](/ref/atom/var/render_target.md) .code} appears in the same
+    [render_target](/ref/atom/var/render_target.md) appears in the same
     render stack. That is, this object or appearance will be rendered in
     an isolated \"scene\" rather than as part of the map, so it won\'t
     be able to use other objects on the map as render sources.

@@ -7,7 +7,7 @@
 +   ASSERT(expression)
 <!-- -->
 **Args:**
-+   expression+ an expression which should always be true
++   expression: an expression which should always be true
 
 
 This is used to make a sanity check. If the given expression is

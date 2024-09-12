@@ -14,11 +14,11 @@
     interpret the results.
 <!-- -->
 **Args:**
-+   key+ the name of the player, character, etc. for which scores have
++   key: the name of the player, character, etc. for which scores have
     been set
-+   fields+ The data fields to retrieve
-+   count+ The number of top score records to look at
-+   skip+ The number of top score records to skip over
++   fields: The data fields to retrieve
++   count: The number of top score records to look at
++   skip: The number of top score records to skip over
 
 
 Retrieves information about scores that is kept on the BYOND
@@ -93,7 +93,7 @@ default.
  mob/var/scores_found mob/Login() ..() spawn() var/top_scores
 = world.GetScores(10, \"Booty\") scores_found = !isnull(scores)
 if(scores) var/list/params = params2list(scores) src \<\< \"**Top
-Buccaneers:**\" for(var/i=1, iNote+ You can specify a different hub path
+Buccaneers:**\" for(var/i=1, iNote: You can specify a different hub path
 and hub_password by adding these as extra arguments, but this is not
 recommended for security reasons. If you use this feature, it should
 only be on games that cannot be downloaded by the public.

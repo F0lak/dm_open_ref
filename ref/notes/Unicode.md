@@ -44,7 +44,7 @@ going to encounter problems, but if you do a lot of text processing you
 should be aware of it. 
 
 In particular,
-[text2ascii()](/ref/proc/text2ascii.md) .code} returns the Unicode value at a
+[text2ascii()](/ref/proc/text2ascii.md) returns the Unicode value at a
 specific position, which may cover several bytes. If you loop through a
 string calling this proc for each character, you\'ll have to make
 adjustments for cases when multiple bytes have been read. 

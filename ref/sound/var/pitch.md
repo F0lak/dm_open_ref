@@ -15,7 +15,7 @@ The value of this var should be a multiple relative to
 1, so for instance to go up a full octave, the value would be 2; to go
 down an octave, use 0.5. 
 
-Note+ The filter that handles pitch
+Note: The filter that handles pitch
 shifting only goes from 0.5 to 2. The player will stack up to three
 filters if it has to, so the range is really from 0.125 to 8. You will
 however hear much poorer quality at more extreme values. 

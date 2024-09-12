@@ -7,7 +7,7 @@
 +   islist(Object)
 <!-- -->
 **Args:**
-+   Object+ The value to test
++   Object: The value to test
 <!-- -->
 **Returns:**
 +   1 if the object is a valid list; 0 otherwise.

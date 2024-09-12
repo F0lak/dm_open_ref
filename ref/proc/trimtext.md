@@ -10,7 +10,7 @@
 +   Text with whitespace trimmed from both ends
 <!-- -->
 **Args:**
-+   Text+ The text string to trim.
++   Text: The text string to trim.
 
 
 Trims whitespace from both ends of a text string. 

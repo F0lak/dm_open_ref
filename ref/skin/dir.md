@@ -20,7 +20,7 @@
 
 
 The direction/orientation of the bar. As the
-[value](/ref/%7Bskin%7D/param/value.md) .code} increases the bar will move
+[value](/ref/%7Bskin%7D/param/value.md) increases the bar will move
 further in this direction. 
 
 Shorthand values like `cw` and `ccw`

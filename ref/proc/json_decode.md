@@ -10,8 +10,8 @@
 +   A value interpreted from a JSON-formatted text string.
 <!-- -->
 **Args:**
-+   JSON+ The JSON-formatted text to decode.
-+   flags+ A set of flags that tell the decoder how to act.
++   JSON: The JSON-formatted text to decode.
++   flags: A set of flags that tell the decoder how to act.
 
 
 Arrays like `[1,2,3]` will be converted to regular lists like

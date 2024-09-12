@@ -30,13 +30,13 @@ instruction is used to get out of the loop).
 
 
 
-This outputs+ 
+This outputs: 
 ```
  0 1 2 
 ```
  
 
-Note+ An Inc
+Note: An Inc
 statement like `i += 0.1` is perfectly valid, but you should keep in
 mind that numerical accuracy is not exact. See
 [Numbers](/ref/%7Bnotes%7D/numbers.md)  for more information.

@@ -30,7 +30,7 @@ to Factory var/thing/T = Factory(\_\_IMPLIED_TYPE\_\_)
 -   In an expression on the right-hand side of an assignment operator
     (this includes operators like `+=`), where the left-hand side is a
     var that has a defined type path.
--   Within the second argument of [istype()](/ref/proc/istype.md) .code}.
+-   Within the second argument of [istype()](/ref/proc/istype.md).
 
 
 This is actually a pseudo-macro; the preprocessor doesn\'t

@@ -8,8 +8,8 @@ Format:
 +   filter(type=\"motion_blur\", \...)
 <!-- -->
 Args:
-+   x+ Blur vector on the X axis (defaults to 0)
-+   y+ Blur vector on the Y axis (defaults to 0)
++   x: Blur vector on the X axis (defaults to 0)
++   y: Blur vector on the Y axis (defaults to 0)
 
 
 Applies Gaussian blur in one direction only. The amount and

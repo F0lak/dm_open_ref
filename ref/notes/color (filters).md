@@ -9,8 +9,8 @@ Format:
 +   filter(type=\"color\", \...)
 <!-- -->
 Args:
-+   color+ A color matrix
-+   space+ Value indicating color space+ defaults to `FILTER_COLOR_RGB`
++   color: A color matrix
++   space: Value indicating color space: defaults to `FILTER_COLOR_RGB`
 
 
 Applies a color matrix to this image. Unlike with the

@@ -7,7 +7,7 @@
 +   ckey(Key)
 <!-- -->
 **Args:**
-+   Key+ The player key to convert to canonical form.
++   Key: The player key to convert to canonical form.
 <!-- -->
 **Returns:**
 +   The key in canonical form. To do this, it strips all punctuation and

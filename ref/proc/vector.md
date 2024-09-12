@@ -12,9 +12,9 @@
 +   A new vector.
 <!-- -->
 **Args:**
-+   x,y,z+ Components of the new vector.
-+   List+ A numeric list to copy as a vector.
-+   Vector+ A vector to copy.
++   x,y,z: Components of the new vector.
++   List: A numeric list to copy as a vector.
++   Vector: A vector to copy.
 
 
 Creates a vector.

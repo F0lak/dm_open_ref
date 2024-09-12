@@ -9,10 +9,10 @@
 +   clamp(List, Low, High)
 <!-- -->
 **Args:**
-+   Value+ A number, text, pixloc, or vector (or null, treated as 0).
-+   List+ A list of values.
-+   Low+ The lowest value that can be returned.
-+   High+ The highest value that can be returned.
++   Value: A number, text, pixloc, or vector (or null, treated as 0).
++   List: A list of values.
++   Low: The lowest value that can be returned.
++   High: The highest value that can be returned.
 <!-- -->
 **Returns:**
 +   A copy of the original Value, constrained between Low and High.

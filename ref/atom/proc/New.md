@@ -11,7 +11,7 @@
 +   Called when the object is created.
 <!-- -->
 **Args:**
-+   loc+ The initial location.
++   loc: The initial location.
 <!-- -->
 **Default action:**
 +   None.

@@ -8,7 +8,7 @@
 +   Subtract(Matrix2)
 <!-- -->
 **Args:**
-+   Matrix2+ another matrix
++   Matrix2: another matrix
 <!-- -->
 **Returns:**
 +   src

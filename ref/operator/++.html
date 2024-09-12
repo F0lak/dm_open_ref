@@ -1,0 +1,28 @@
+
+
+<a name=/operator/++>
+<h2>++ operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/+>+ operator</a>
+<dd><a href=#/operator/+=>+= operator</a>
+<dd><a href=#/operator/-->-- operator</a>
+<dd><a href=#/operator>operators</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>++A   // pre-increment
+<dd>A++   // post-increment
+</dl>
+
+<p>The pre-increment has the value (A+1) and the effect of adding 1 to A.
+
+<p>The post-increment has the value (A) and has the effect of adding 1 to A.
+
+<h3>Example:</h3>
+<xmp>
+var/A = 0
+world << "A++ = [A++]" // outputs "A++ = 0"
+world << "++A = [++A]" // outputs "++A = 2"
+</xmp>
+

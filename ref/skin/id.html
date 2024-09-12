@@ -1,0 +1,24 @@
+
+
+<a name=/{skin}/param/id>
+<h2>id parameter (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/parent>parent parameter</a>
+<dd><a href=#/{skin}/param/type>type parameter</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control>All</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>string
+</dl>
+
+<p>The name of this control. Read-only.
+
+<p>If this is a <a href=#/{skin}/control/main>Main control</a>, the name should always be unique. For others, it is usually still a good idea to use a unique name, but they can be referenced by <i>window</i>.<i>id</i> at runtime.
+
+<p byondver=511>You can use a colon in front of the <a class=code href=#/{skin}/param/type>type</a> to refer to the default control of a certain type, if one exists, e.g. <tt>:map</tt> is the default map.
+

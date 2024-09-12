@@ -1,0 +1,83 @@
+
+
+<a name=/regex/proc/Replace>
+<h2 byondver=510>Replace proc (regex)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{notes}/regex>Regular expressions</a>
+<dd><a href=#/regex>regex datum</a>
+<dd><a href=#/regex/proc/Find>Find proc (regex)</a>
+<dd><a href=#/regex/var>regex vars</a>
+<dd><a href=#/proc/regex>regex proc</a>
+<dd><a href=#/proc/replacetext>replacetext proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Replace(haystack, replacement, Start=1, End=0)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The original haystack string with the first match replaced.  If using the "g" flag, all matches are replaced.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>haystack: The text to be searched
+<dd>replacement: A piece of text, OR a proc, that will be used to replace the match
+<dd>Start: The start position (in bytes) to search; defaults to 1, or to src.next if this is a global pattern
+<dd>End: The position of the byte after the end of the search; 0 is the end. The actual match is allowed to extend past End.
+</dl>
+
+<p>Finds the regular expression pattern within the "haystack" text, and
+replaces the match with the given replacement value.
+
+<p>In a non-global expression (not using the "g" flag), the values of
+src.index and src.next are set as they would be in a global Find(). See the
+Find() proc for more info.
+
+<p>Note: In strings containing non-ASCII characters, byte position and
+character position are not the same thing. Use <tt>Replace_char()</tt> to
+work with character counts instead of bytes. See the
+<a href=#/{notes}/Unicode>Unicode</a> section for more information.
+
+<h3>Replacing with text</h3>
+
+<p>If the replacement value is text, the $ character is treated as special.
+If you want to use the actual dollar sign, it must be escaped with a second
+dollar sign. Otherwise, the $ character is one of these special values:
+
+<table class="regex">
+<tr><th>Replacement</th><th>Value</th></tr>
+<tr><td>$1 <i>through</i> $9</td><td><tt>$1</tt>tt> is whatever was in the first parentheses group, <tt>$2</tt> is the second, and so on.</td></tr>
+<tr><td>$`</td><td>The text that came before the match</td></tr>
+<tr><td>$'</td><td>The text that came after the match</td></tr>
+<tr><td>$0 <i>or</i> $&</td><td>The whole match itself</td></tr>
+</table>
+
+<h3>Replacing with a proc</h3>
+
+<p>If replacing matches with a proc, then the proc will be called with the
+match as its first argument, and any capturing groups as the following
+arguments. Whatever the proc returns will be used as the replacement text in
+place of the match.
+
+<h3>Example</h3>
+<xmp>
+var/regex/vowels = new("[aeiou]", "i")
+// match any word of 2 letters or more
+var/regex/piglatin = new("\\b(\\l)(\\l+)\\b", "ig")
+
+// group1 is the first letter, and group2 is everything else
+proc/word2piglatin(match, group1, group2)
+	// If the word starts with a vowel, just add "ay"
+    if(vowels.Find(group1)) return "[match]ay"
+    // If the word was capitalized, capitalize the replacement    
+    if(group1 == uppertext(group1))
+        group1 = lowertext(group1)
+        group2 = uppertext(copytext(group2,1,2)) + lowertext(copytext(group2,2))
+    return "[group2][group1]ay"
+
+mob/verb/PigSay(msg as text)
+    msg = html_encode(msg)
+    world << piglatin.Replace(msg, /proc/word2piglatin)
+</xmp>
+

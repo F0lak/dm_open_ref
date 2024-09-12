@@ -1,0 +1,28 @@
+
+
+<a name=/DM/preprocessor/DM_VERSION>
+<h2>DM_VERSION macro</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/byond_version>byond_version var (world)</a>
+<dd><a href=#/client/var/byond_version>byond_version var (client)</a>
+<dd><a href=#/DM/preprocessor/DM_BUILD>DM_BUILD macro</a>
+<dd><a href=#/DM/preprocessor>preprocessor</a>
+<dd><a href=#/DM/preprocessor/pragma/compatibility>#pragma compatibility directive</a>
+</dl>
+
+<p>This macro indicates the version of the compiler.  This could be useful when
+distributing code that uses new language features that would not compile in
+older compilers.
+
+<h3>Example:</h3>
+<xmp>
+#if DM_VERSION < 230
+#error This compiler is too far out of date!
+#endif
+</xmp>
+
+<p>If you use <tt>#pragma compatibility</tt>, it will alter the value of this
+macro (but never higher than the actual version being compiled). In this way
+you can alter your code's behavior based on the pragma.
+

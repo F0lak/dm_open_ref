@@ -1,0 +1,50 @@
+
+
+<a name=/proc/num2text>
+<h2>num2text proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/isnum>isnum proc</a>
+<dd><a href=#/proc/text2num>text2num proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>num2text(N, SigFig=6)
+<dd byondver=513>num2text(N, Digits, Radix)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A text string.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>N: A number.
+<dd>SigFig: Number of significant digits.
+<dd>Digits: Minimum number of digits
+<dd>Radix: The base of the number, e.g. 16 is hexadecimal.
+</dl>
+
+<p>Get the text string for a number.  The number of significant digits
+determines when scientific notation is used.  The default is 6, so
+scientific notation will only be used when there are more than 6 digits.
+
+<h3>Example:</h3>
+<xmp>
+T = num2text(12)  // = "12"
+T = num2text(12,1)  // = "1.2e1"
+</xmp>
+
+<p>The Radix format is intended for converting numbers to bases other than
+10, although you can still use 10. In this format, Digits represents the
+minimum number of digits to use, and the result will be left-padded with
+zeroes if necessary. Also, in this form only the integer part of the number
+is used, and it can't be any larger than what a 32-bit integer could store
+(about 4 billion). These limitations may be lessened or removed in the future,
+but this format was mainly intended for simple conversions.
+
+<h3>Example:</h3>
+<xmp>
+world << num2text(11, 2, 16)  // "0b"
+world << num2text(343, 0, 7)  // "1000"
+</xmp>
+

@@ -1,0 +1,46 @@
+
+
+<a name=/atom/var/mouse_opacity>
+<h2>mouse_opacity var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/mouse>mouse handling</a>
+<dd><a href=#/atom/var/overlays>overlays var (atom)</a>
+<dd><a href=#/atom/var/underlays>underlays var (atom)</a>
+<dd><a href=#/atom/var/vis_contents>vis_contents var (atom)</a>
+<dd><a href=#/atom/var/render_source>render_source var (atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>1
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>0  // transparent to mouse
+<dd>1  // mouse-opaque where icon is also opaque
+<dd>2  // completely mouse-opaque
+</dl>
+
+<p>This may be used to control how mouse operations on an object are
+interpreted.  A click or mouse movement over an object's icon normally applies
+to that object only if it is the topmost object that is not transparent at
+the position of the mouse.  Setting <tt>mouse_opacity</tt> to 0 would cause
+the object to be ignored completely, and setting it to 2 causes it to always
+be chosen over any lower-level objects, regardless of the transparency of its
+icon.
+
+<p>Note that overlays and underlays are not distinct objects, so their
+<tt>mouse_opacity</tt> is completely ignored in favor of the object they're
+attached to. The same applies to <a href=#/image>image objects</a>, which act
+like special overlays as well. <a href=#/atom/var/vis_contents>Visual
+contents</a>, on the other hand, are separate objects that can act like
+overlays in some ways, but because they're separate their
+<tt>mouse_opacity</tt> <i>is</i> taken into account.
+
+<p>When this is applied to a <tt>PLANE_MASTER</tt> object (see
+<a href=#/atom/var/appearance_flags>appearance_flags</a>), a value of 0 means
+everything on the plane is mouse-transparent.  1 means everything on the
+plane is mouse-visible (using the objects' normal mouse_opacity), but the
+plane master itself is not.  2 means everything on the plane is mouse-visible,
+and so is the plane master.
+

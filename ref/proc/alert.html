@@ -1,0 +1,47 @@
+
+
+<a name=/proc/alert>
+<h2>alert proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/input>input proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>alert(Usr=usr,Message,Title,Button1="Ok",Button2,Button3)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>Selected button
+</dl>
+
+<p>This sleeps the current proc until the user clicks one of the named
+buttons.  As with input(), the first argument may be entirely left out.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/self_destruct()
+   alert("Prepare to die.")
+   del usr
+</xmp>
+
+<p>A slightly more complicated example provides the user with a choice in
+the matter:
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/self_destruct()
+   switch(alert("Would you like to die?",,"Yes","No","Maybe"))
+      if("Yes")
+         del usr
+      if("No")
+         usr << "You have second thoughts."
+      if("Maybe")
+         usr << "You flip a coin..."
+         if(rand(0,1))
+            usr << "Heads -- you lose."
+            del usr
+         else
+            usr << "Tails -- you win!"
+</xmp>
+

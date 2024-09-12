@@ -1,0 +1,35 @@
+
+
+<a name=/DM/preprocessor/define/FILE_DIR>
+<h2>FILE_DIR definition</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/cache>cache</a>
+<dd><a href=#/DM/icon>icons</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>#define FILE_DIR Path
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Path: A search path on the current filesystem.
+</dl>
+
+<p>This macro defines a search path to be used in evaluating resource files
+(icons and sounds).  First the current directory is searched, then the first
+<code>FILE_DIR</code> path, then the next, etc.
+
+<h3>Example:</h3>
+<xmp>
+#define FILE_DIR icons
+#define FILE_DIR icons/mobs
+
+mob/clown
+  icon = 'clown.dmi'
+</xmp>
+
+<p>This searches for the file at the paths <code>"./clown.dmi"</code>,
+<code>"./icons/clown.dmi"</code>, and <code>"./icons/sounds/clown.dmi"</code>,
+where <code>"."</code> is the directory of the current source file.
+

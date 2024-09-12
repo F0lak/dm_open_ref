@@ -1,0 +1,31 @@
+
+
+<a name=/datum/proc/Write>
+<h2>Write proc (datum)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/savefile/operator/%3c%3c>&lt;&lt; operator (savefile)</a>
+<dd><a href=#/datum/proc/Read>Read proc (datum)</a>
+<dd><a href=#/proc/initial>initial proc</a>
+<dd><a href=#/proc/issaved>issaved proc</a>
+<dd><a href=#/var/tmp>tmp vars</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Write(savefile/F)
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when the object is written to a save file.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>F: the save file being written to
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>Write the value of each variable to a directory by the same name as the
+    variable.  Variables marked tmp, global, or const and variables which
+    are equal to their initial value are skipped.
+</dl>
+

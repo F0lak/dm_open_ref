@@ -1,0 +1,28 @@
+
+
+<a name=/atom/var/alpha>
+<h2 byondver=500>alpha var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var>vars (atom)</a>
+<dd><a href=#/atom/var/appearance_flags>appearance_flags var (atom)</a>
+<dd><a href=#/atom/var/blend_mode>blend_mode var (atom)</a>
+<dd><a href=#/atom/var/color>color var (atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>255 (opaque)
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>0 (transparent) through 255 (opaque)
+</dl>
+
+<p>Controls the opacity of the icon displayed on players' screens. A value of
+128 means the atom is half-transparent, so it will have a ghostly appearance.
+This can be used to fade an atom in and out, especially when combined with
+animation. Alpha is also applied to maptext.
+
+<p>Overlays and images will also be affected by alpha, unless they use the
+RESET_ALPHA value in appearance_flags.
+

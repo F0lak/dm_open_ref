@@ -1,0 +1,45 @@
+
+
+<a name=/proc/round>
+<h2>round proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/floor>floor proc</a>
+<dd><a href=#/proc/ceil>ceil proc</a>
+<dd><a href=#/proc/trunc>trunc proc</a>
+<dd><a href=#/proc/fract>fract proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd deprecated=1>round(A)
+<dd>round(A,B)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>rounded A
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>A: A number, pixloc, or vector.
+<dd>B: The nearest multiple to round A.
+</dl>
+
+<p>The first format returns the floor of A (the largest integer less than or
+equal to A), and has been deprecated in favor of <tt>floor(A)</tt>. The second
+format rounds A to the nearest multiple of B.
+
+<h3>Example:</h3>
+<xmp>
+usr << round(1.45) // outputs 1
+
+usr << round(-1.45) // outputs -2
+
+usr << round(1.45,1.5) // outputs 1.5
+</xmp>
+
+<p>If A is a vector, B can also be a vector to round each component
+separately.
+
+<p>If A is a pixloc, only the x and y portions will be considered. B may be a
+vector.
+

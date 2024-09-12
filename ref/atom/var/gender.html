@@ -1,0 +1,35 @@
+
+
+<a name=/atom/var/gender>
+<h2>gender var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/text/macros>macros (text)</a>
+<dd><a href=#/atom/var/name>name var (atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>"neuter"
+</dl>
+
+<p>This sets the object's gender.  This influences text macros like
+<code>\he</code>, which may expand to "it", "he", "she", or "they".  Valid
+values are:
+
+<xmp>
+"neuter"
+"male"
+"female"
+"plural"
+</xmp>
+
+These are also defined as constants, which may help prevent typos, since the
+compiler will complain if it doesn't recognize what you type:
+
+<xmp>
+NEUTER
+MALE
+FEMALE
+PLURAL
+</xmp>
+

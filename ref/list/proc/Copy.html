@@ -1,0 +1,27 @@
+
+
+<a name=/list/proc/Copy>
+<h2>Copy proc (list)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/list/proc/Cut>Cut proc (list)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>list.Copy(Start=1,End=0)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A new list.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Start: The list position in which to begin the copy.
+<dd>End: The list position immediately following the last element to be
+     copied.
+</dl>
+
+<p>Copy list[Start] through list[End-1] into a new list. The default end
+position of 0 stands for the position immediately after the end of the list,
+so by default the entire list is copied.
+

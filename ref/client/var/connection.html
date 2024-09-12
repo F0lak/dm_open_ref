@@ -1,0 +1,20 @@
+
+
+<a name=/client/var/connection>
+<h2 byondver=487>connection var (client)</h2>
+
+<p>This is a read-only var describing the type of client that is connected.
+
+<dl><dt><b>Possible values:</b></dt>
+<dd>"seeker" - The player is connected through Dream Seeker</dd>
+<dd>"telnet" - The player is connected through telnet</dd>
+<dd>"world" - The client is actually a world.Export() connection from another server</dd>
+<dd>"cgi" - The client is connected via CGI (irrelevant to most worlds)</dd>
+<dd>"web" - The client is connected via the Web client</dd>
+<dd>"http" - The client is an HTTP connection (used by the Web client's virtual server)</dd>
+</dl>
+
+<p>Other values may be supported in the future.
+
+<p>An empty value means the connection type is unknown because a full handshake hasn't been completed yet.
+

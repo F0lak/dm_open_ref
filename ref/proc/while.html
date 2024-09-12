@@ -1,0 +1,36 @@
+
+
+<a name=/proc/while>
+<h2>while proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/break>break statement</a>
+<dd><a href=#/proc/continue>continue statement</a>
+<dd><a href=#/proc/do>do proc</a>
+<dd><a href=#/proc/for/loop>for loop proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>while(E) Statement
+</dl>
+
+<p>If E is true (non-zero) execute Statement.  Continue testing E and doing
+the while block until E becomes false (zero).
+
+<p>Statement may be a block of code or a single statement.
+
+<h3>Example:</h3>
+<xmp>
+var/i = 3
+while(i)
+  world << i--
+</xmp>
+
+<p>This outputs:
+
+<xmp>
+3
+2
+1
+</xmp>
+

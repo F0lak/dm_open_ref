@@ -1,0 +1,56 @@
+
+
+<a name=/callee>
+<h2 byondver=516>callee</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc>proc</a>
+<dd><a href=#/proc/var>vars (proc)</a>
+<dd><a href=#/proc/var/callee>callee var (proc)</a>
+<dd><a href=#/proc/var/caller>caller var (proc)</a>
+<dd><a href=#/world/proc/Error>Error proc (world)</a>
+<dd><a href=#/proc/try>try and catch statements</a>
+</dl>
+
+<p>A primitive type representing a running or sleeping proc. This gives access
+to the proc's information, and can be used to output a stack trace in
+situations such as writing your own custom <tt>world.Error()</tt> handler.
+
+<p>You can get a <tt>/callee</tt> for the current running proc with its
+<a class=code href=#/proc/var/callee>callee</a> var, or its caller with the
+<a class=code href=#/proc/var/caller>caller</a> var. You can follow callers up
+the call chain.
+
+<h3>Example:</h3>
+<xmp>
+world/Error(err)
+    world.log << "Error [err]:"
+    for(var/callee/p = caller, p, p = p.caller)
+        world.log << "  [p.proc.type] (src=[p.src], usr=[p.usr])"
+        if(p.file) world.log << "    at [p.file]:[p.line]"
+</xmp>
+
+<p>Built-in callee vars (read-only):
+
+<dl class=codedd>
+  <dd><a href=#/proc/var/args>args</a>
+  <dd><a href=#/proc/var/caller>caller</a>
+  <dd><a href=#/verb/set/category>category</a><small><sup>*</sup></small>
+  <dd><a href=#/verb/set/desc>desc</a><small><sup>*</sup></small>
+  <dd>file
+  <dd><a href=#/verb/set/name>name</a><small><sup>*</sup></small>
+  <dd>line
+  <dd>proc
+  <dd><a href=#/proc/var/src>src</a>
+  <dd>type
+  <dd><a href=#/proc/var/usr>usr</a>
+</dl>
+<p><small><sup>*</sup> These vars are quick aliases for <tt>proc.<i>varname</i></tt>. <tt>proc.type</tt> is excluded since <tt>/callee</tt> has its own type var.</small>
+
+<p>The <tt>file</tt> and <tt>line</tt> vars are available if debugging
+information was turned on when the world was compiled. The other vars are all
+aliases for info about the running/sleeping proc or its prototype.
+
+<p>Even though the <tt>args</tt> var itself is read-only, the list it returns
+is mutable. Making changes to the list will affect the proc it belongs to.
+

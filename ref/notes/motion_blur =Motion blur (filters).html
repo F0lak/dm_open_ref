@@ -1,0 +1,25 @@
+
+
+<a name=/{notes}/filters/motion_blur toc="Motion blur (filters)">
+<h2 byondver=512>Motion blur filter</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/filters>filters var (atom)</a>
+<dd><a href=#/{notes}/filters/blur>Gaussian blur (filters)</a>
+</dl>
+
+<dl><dt>Format:</dt>
+<dd>filter(type="motion_blur", ...)</dd>
+</dl>
+
+<dl><dt>Args:</dt>
+<dd>x: Blur vector on the X axis (defaults to 0)</dd>
+<dd>y: Blur vector on the Y axis (defaults to 0)</dd>
+</dl>
+
+<p>Applies Gaussian blur in one direction only. The amount and direction are
+both specified by <tt>x</tt> and <tt>y</tt>. The size of the blur is equal to
+<tt>sqrt(x*x + y*y)</tt>.
+
+<p>See <a href=#/{notes}/filters/blur>Gaussian blur</a> for more information.
+

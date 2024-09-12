@@ -1,0 +1,49 @@
+
+
+<a name=/atom/var/vis_flags>
+<h2 byondver=513>vis_flags var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/vis_contents>vis_contents var (atom)</a>
+<dd><a href=#/atom/var/vis_locs>vis_locs var (atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>Any combination of:
+<dd><b>VIS_INHERIT_ICON</b>: Use the parent object's icon.
+<dd><b>VIS_INHERIT_ICON_STATE</b>: Use the parent object's icon_state.
+<dd><b>VIS_INHERIT_DIR</b>: Use the parent object's dir.
+<dd><b>VIS_INHERIT_LAYER</b>: Use the parent object's layer.
+<dd><b>VIS_INHERIT_PLANE</b>: Use the parent object's plane.
+<dd><b>VIS_INHERIT_ID</b>: Use the parent object's identity, so it acts like part of the same object.
+<dd><b>VIS_UNDERLAY</b>: Act as if this is at the bottom of the parent's underlays list instead of overlays (only relevant if using <tt>VIS_INHERIT_LAYER</tt> or a <a class=code href=#/atom/var/layer>FLOAT_LAYER</a>).
+<dd><b>VIS_HIDE</b>: Do not show this object in visual contents at all.
+</dl>
+
+<p>This is a set of flags that determine how this object will behave when it
+is in another object's visual contents.
+
+<p>Because only turfs, objs, and mobs can be in visual contents, this var
+belongs only to those types.
+
+<p>The <tt>VIS_INHERIT_ID</tt> flag effectively makes this object act like an
+ordinary overlay when in visual contents. This means its
+<a class=code href=#/atom/var/mouse_opacity>mouse_opacity</a> will be
+meaningless, for example.
+
+<p>Sometimes it's desirable for an object not to show up in visual contents,
+so <tt>VIS_HIDE</tt> will prevent that. The flag applies even if this object
+appears indirectly, like if it's in the contents of a turf that is in the
+visual contents of something else.
+
+<p>Note: Using any of the the flags <tt>VIS_INHERIT_ICON</tt>,
+<TT>VIS_INHERIT_ICON_STATE</TT>, <tt>VIS_INHERIT_DIR</tt>, or
+<tt>VIS_INHERIT_ID</tt> will cause movable atoms to inherit the "moving" flag
+of their container that appears during gliding. E.g., if your mob is walking,
+anything in its visual contents that uses these flags will use a moving icon
+state instead of a non-moving icon state, when available.
+

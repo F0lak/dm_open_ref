@@ -1,0 +1,76 @@
+
+
+<a name=/atom/movable/proc/Move>
+<h2>Move proc (movable atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/proc/Bump>Bump proc (movable atom)</a>
+<dd><a href=#/atom/proc/Enter>Enter proc (atom)</a>
+<dd><a href=#/atom/proc/Entered>Entered proc (atom)</a>
+<dd><a href=#/atom/proc/Exit>Exit proc (atom)</a>
+<dd><a href=#/atom/proc/Exited>Exited proc (atom)</a>
+<dd><a href=#/atom/proc/Cross>Cross proc (atom)</a>
+<dd><a href=#/atom/proc/Crossed>Crossed proc (atom)</a>
+<dd><a href=#/atom/proc/Uncross>Uncross proc (atom)</a>
+<dd><a href=#/atom/proc/Uncrossed>Uncrossed proc (atom)</a>
+<dd><a href=#/atom/var/loc>loc var (atom)</a>
+<dd><a href=#/atom/movable/var/locs>locs list var (movable atom)</a>
+<dd><a href=#/proc/walk>walk proc</a>
+<dd><a href=#/{notes}/gliding>Gliding</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Move(NewLoc,Dir=0,step_x=0,step_y=0)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>Success (jump): 1
+<dd>Success (slide): Number of pixels moved
+<dd>Failure: 0
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called to move the object.  By default, client.Move() calls this proc when
+players use direction keys.  The automated movement functions (like walk())
+also call this proc.  Directly setting the loc variable does
+<strong>not</strong> call this procedure.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>NewLoc: The new location.
+<dd>Dir: The direction of movement (or 0).
+<dd><span byondver=490>step_x</span>: The new step_x value, relative to NewLoc
+<dd><span byondver=490>step_y</span>: The new step_y value, relative to NewLoc
+</dl>
+
+<p>Any Move() is either a slide or a jump. Normal walking around is a slide;
+it can be stopped partway. A jump is pass/fail. See more information below.
+
+<p>This is what happens by default:
+
+<ol><li><p>oldloc.Exit(src) is called for any turfs or areas being vacated, or
+the container if moving out of an obj or mob. neighbor.Uncross(src) is called
+for any atoms that will no longer be overlapping this object. If any of these
+return 0 (failure), movement fails.</li>
+<li><p>newloc.Enter(src) is called for any turfs or areas that may be entered
+for the first time, or the container if moving into an obj or mob.
+neighbor.Cross(src) is called for any atoms that may be in collision with this
+object if the move fully succeeds. If any of these return 0 (failure), then a
+slide can be cut short but a jump will fail completely.</li>
+<li><p>If any obstacles were encountered via Enter() or Cross() failing, then
+src.Bump(obstacle) will be called for each of them.</li>
+<li><p>If movement did not fail completely, then loc and step_x/y, will be
+changed, and the following calls will be made: oldloc.Exited() for any turfs,
+areas, or other containers vacated; neighbor.Uncrossed() for any movable
+atoms no longer overlapping; newloc.Entered() for any turfs, areas, or other
+containers being entered for the first time; and neighbor.Crossed() for any
+movable atoms now overlapping the object.</li>
+</ol>
+
+<p>A movement is considered a slide if src is moving from one turf to
+another on the same z level, and the total pixel distance is less than either
+src.step_size or a full tile size (whichever is largest). Any other movement
+is a jump. Movement to the same turf with no step_x/y change is also
+considered a jump.
+

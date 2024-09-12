@@ -1,0 +1,54 @@
+
+
+<a name=/{skin}/control/browser/winset>
+<h2>winset and winget (JavaScript)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/control/browser>browser control (skin)</a>
+<dd><a href=#/proc/winset>winset proc</a>
+<dd><a href=#/proc/winget>winget proc</a>
+</dl>
+
+<p>Browser controls can interact with the skin via JavaScript, by setting <tt>window.location</tt> to a special URL.
+
+<h3>Winset</h3>
+
+<tt>byond://winset?id=<i>[control ID]</i>&<i>[property]</i>=<i>[value]</i>&...</tt>
+
+<p>This works like an ordinary <a class=code href=#/proc/winset>winset()</a> call from the server. If <tt>id</tt> is omitted, it's the same as a winset with a null ID. You can also leave the <tt>id</tt> blank if you use "fully decorated" property names such as <tt>mybutton.is-checked</tt> instead of just <tt>is-checked</tt>.
+
+<p>Any text you use other than letters, numbers, hyphens, commas, and periods should be encoded via the <tt>encodeURIComponent()</tt> function in JavaScript.
+
+<h3>Winget</h3>
+
+<tt>byond://winget?callback=<i>[callback function]</i>&id=<i>[control ID/list]</i>&property=<i>[property/list]</i></tt>
+
+<p>In this winget, the IDs and properties you want can be separated by commas if you want to retrieve more than one. The winget operation works via a callback function you must define in JavaScript. The callback is given just one argument, a JavaScript object with all of the properties you requested. For example, this URL:
+
+<pre>byond://winget?callback=wgcb&id=button1&property=is-checked,size,background-color</pre>
+
+<p>...might send this to the callback function <tt>wgcb</tt>:
+
+<pre>
+{
+    "is-checked": true,
+    "size": {
+        "x": 60,
+        "y": 20
+    },
+    "background-color": {
+        "value": "none",
+        "isDefault": true,
+        "red": 236,
+        "green": 233,
+        "blue": 216,
+        "alpha": 255,
+        "css": "#ece9d8"
+    }
+}
+</pre>
+
+<p>The property names will be in the same format you would expect from <a class=code href=#/proc/winget>winget()</a>, so when you're looking at multiple elements' properties, you'll get the full names in <tt>id.property</tt> format. The values are always sent back in a convenient form for JavaScript to work with; in the case of size, position, and color these will always be objects.
+
+<p>An optional <tt>control</tt> parameter for the winget call can be used if you want to send data to a callback in a different browser control.</p>
+

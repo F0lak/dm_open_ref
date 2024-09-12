@@ -1,0 +1,109 @@
+
+
+<a name=/proc/for/list>
+<h2>for list proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/for/loop>for loop proc</a>
+<dd><a href=#/list>list</a>
+<dd><a href=#/list/assoc>list associations</a>
+<dd><a href=#/proc/istype>istype</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>for (Var [as Type] [in List]) Statement
+<dd>for (Var in Start to End [step Step]) Statement
+<dd byondver=516>for (Key [as Type], Value in List) Statement
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Var:  A variable to sequentially contain each member of the list.
+<dd>List: The list to loop through.  This defaults to the whole world.
+<dd>Type: One or more of area, turf, mob, or obj, ORed together.  If no
+     type is specified, the declared type of Var will be used to skip over
+     inappropriate elements in the list.
+<dd>Start: A starting numeric value.
+<dd>End: An ending numeric value (inclusive).
+<dd>Step: An increment for the numeric value; default is 1.
+<dd>Key: A variable to sequentially contain each "key" in a key,value pair from an <a href=/list/assoc>associative list</a>
+<dd>Value: A variable to sequentially contain each associated value in a key,value pair list
+</dl>
+
+<h3>Example:</h3>
+<xmp>
+usr << "Mobs:"
+var/mob/M
+for(M in view())
+   usr << M.name
+</xmp>
+
+<p>This loops M through the mobs in view(), outputting the name at each
+iteration.
+
+<p>When you loop through a list, with the exception of looping through
+world, you're actually looping through a copy of that list. If the list
+changes, those changes won't have any bearing on this loop. If you want to
+be able to handle a list that might change, you'll need to use the
+<a href=#/proc/for/loop>for loop proc</a> instead.
+
+<p>You can declare the variable right inside the for statement.  Its scope
+is entirely contained within the for statement, so it will not conflict with
+a similar variable declared elsewhere in the same procedure.
+
+<h3>Example:</h3>
+<xmp>
+client/verb/who()
+   for(var/client/Player)
+      usr << Player
+</xmp>
+
+<p>If the loop var has a type, a hidden <tt>istype()</tt> call is included in
+the code. Only items of that type, or its descendants, are handled within the
+loop. That means null values and objects of unrelated types will be skipped.
+
+<h3>Numeric loop</h3>
+
+<p>The numeric loop form is a quick internal version of the
+<a href=#/proc/for/loop>for loop proc</a>. It's equivalent to
+<tt>for(Var = Start, Var &lt;= End, Var += Step)</tt> unless Step is
+negative, in which case a &gt;= comparison is used instead. The main
+difference is that unlike in a for loop proc, the values of Step and
+End are calculated at the beginning and never change after that, so an
+expression like <tt>list.len</tt> that might be subject to change will not be
+read again&mdash;in much the same way that looping through a list only loops
+through a copy of that list.
+
+<h3>Example:</h3>
+<xmp>
+for(var/count in 1 to 100)
+   src << count
+</xmp>
+
+<p>Note: Although you can use fractional values for <tt>step</tt> in this
+numeric format, there may be accuracy considerations to keep in mind. See
+<a href=#/{notes}/numbers>Numbers</a> for more information.
+
+<h3 byondver=516>Key,value pair loop</h3>
+
+<p>The key,value pair loop is meant for quickly traversing the items in an
+<a href=/list/assoc>associative list</a>, without having to do an additional
+lookup of <tt>List[Key]</tt> in the list. Additionally this also copies the
+associated values when the list is copied, so the loop won't react to changes
+in the original list.
+
+<h3>Example:</h3>
+<xmp>
+var/alist/prices = alist(/obj/item/weapon/sword = 100, /obj/item/armor/helmet = 50)
+player << "<b>Welcome to my shop!</b>"
+for(var/item,price in prices)
+    player << "[item::name] - $[price]"
+</xmp>
+
+<p>If the key var has a type, a hidden <tt>istype()</tt> call is included in
+the loop, just like in a regular <tt>for(Var in List)</tt> loop. You can also
+use the <tt>as</tt> clause to specify basic types like <tt>obj</tt>,
+<tt>num</tt>, <tt>text</tt>, etc.
+
+<p>If this format is used with non-associative lists, then the associated
+value will always be assigned null.
+

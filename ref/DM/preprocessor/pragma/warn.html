@@ -1,0 +1,42 @@
+
+
+<a name=/DM/preprocessor/pragma/warn>
+<h2 byondver=515>#pragma warn/ignore/error directive</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+<dd><a href=#/DM/preprocessor/warn>#warn directive</a>
+<dd><a href=#/DM/preprocessor/error>#error directive</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>#pragma <span class=faded>&lt;</span>warn<span class=faded>|</span>ignore<span class=faded>|</span>error<span class=faded>&gt;</span> WarningName
+</dl>
+
+<p>Changes the way the compiler responds to warnings (except those caused
+by the <a href=#/DM/preprocessor/warn><tt>#warn</tt> directive</a>). The
+warning name appears in the compiler output when the warning is generated.
+
+<p>Multiple warning names can be used in the same pragma, separated by commas.
+
+<h3>Example:</h3>
+<xmp>
+// temporarily ignore the unused_var warning
+#pragma push
+#pragma ignore unused_var
+
+proc/GNDN()
+    var/nothing // var defined but not used
+
+#pragma pop
+</xmp>
+
+<p>Here is a list of warnings that are disabled by default, but can be
+turned on for linting purposes:
+
+<table>
+<tr><th>Name</th><th>Description</th></tr>
+<tr><td>init_proc</td><td>A var in a very commonly used type, like <tt>/turf</tt> or <tt>/atom</tt> or <tt>/datum</tt>, is being initialized with an init proc. An example is <tt>var/stuff[]</tt> or <tt>var/list/stuff = list(1,2,3)</tt> which creates a list in a special internal proc because calling <a class=code href=#/datum/proc/New>New()</a>. Best practice is to not initialize the list until it's needed.</td></tr>
+<tr><td>frequent_call</td><td>A very commonly called proc such as <a class=code href=#/datum/proc/New>New()</a> or <a class=code href=#/datum/proc/Del>Del()</a> has been overridden on a type that gets created or destroyed frequently, such as <tt>/turf</tt>, <tt>/atom</tt>, or <tt>/datum</tt>.</td></tr>
+</table>
+

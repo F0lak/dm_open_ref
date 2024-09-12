@@ -1,0 +1,35 @@
+
+
+<a name=/proc/text2num>
+<h2>text2num proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/istext>istext proc</a>
+<dd><a href=#/proc/num2text>num2text proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>text2num(T)
+<dd byondver=513>text2num(T, radix)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>T: A text string.
+<dd>radix: The radix/base of the number, e.g. 16 for hexadecimal
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A number.
+</dl>
+
+<p>If T is a text string for a number, return the number.  Any non-numeric
+text following the initial portion will be ignored.  If there is no initial
+numeric portion, the result is null.
+
+<h3>Example:</h3>
+<xmp>
+var/number = text2num("123")  // = 123
+</xmp>
+
+<p>The optional radix, which defaults to 10, can be any integer from 2 to 36.
+

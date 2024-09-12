@@ -1,0 +1,36 @@
+
+
+<a name=/client/var/perspective>
+<h2>perspective var (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/var/eye>eye var (client)</a>
+<dd><a href=#/client/var/mob>mob var (client)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>MOB_PERSPECTIVE
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd><ul>
+<li>MOB_PERSPECTIVE
+<li>EYE_PERSPECTIVE
+<li>EDGE_PERSPECTIVE
+</ul>
+</dl>
+
+<p>This controls the eye's apparent center and what can be seen by the client.
+
+<p>EYE_PERSPECTIVE determines how visibility calculations are performed when
+<code>client.eye</code> and <code>client.mob</code> are different.  Normally,
+visibility is done from the position of the mob, rather than from the eye
+(which is actually just the center of the map view). The alternative flag is
+MOB_PERSPECTIVE, the default.
+
+<p>EDGE_PERSPECTIVE limits scrolling to the bounds of the map (1,1 to
+world.maxx,world.maxy), and does not keep the mob centered if it strays near
+the edge.
+
+<p>The above values can be used together via the | operator.
+

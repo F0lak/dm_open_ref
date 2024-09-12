@@ -1,0 +1,55 @@
+
+
+<a name=/world/proc/Topic>
+<h2>Topic proc (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/proc/Del>Del proc (world)</a>
+<dd><a href=#/world/proc/Export>Export proc (world)</a>
+<dd><a href=#/client/proc/Import>Import proc (client)</a>
+<dd><a href=#/world/proc/Import>Import proc (world)</a>
+<dd><a href=#/world/proc/Reboot>Reboot proc (world)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Topic(T,Addr,Master,Keys)
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when a message is received from another server by using
+    world.Export().  If a file is expected, world.Import() may be called to
+    get it.  The return value of Topic() will be passed back to the remote
+    server.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>T: The topic text string specified by the remote server (everything following ? in the URL).
+<dd>Addr: The address of the remote server.
+<dd>Master: 1 if remote server is the server which started this one.
+<dd>Keys: List of keys belonging to users who are logged in on the remote server
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>The topic "ping" returns a true value (number of players plus one),
+     which may be useful for telling if a server is alive.  The topics
+     "Reboot" and "Del" will call world.Reboot() and world.Del()
+     respectively if the message was sent by the master server.
+</dl>
+
+<h3>Example:</h3>
+<xmp>
+world/Topic(T)
+  if(findtext(T,"shout:") == 1)
+    world << copytext(T,7)
+</xmp>
+
+<p>This example allows other servers to send this server topic text of the
+form "shout:msg" and will broadcast the message to all the players in this
+world.
+
+<p>The Keys argument is either null, or a list of user keys. Any keys in the
+list are logged in to the remote server.
+
+<p class="note security">Always validate the input in <tt>Topic()</tt> calls
+to make sure it's correct and the query you're recieving is legitimate.
+

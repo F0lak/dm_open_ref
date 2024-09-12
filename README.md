@@ -4,4 +4,6 @@ The reference is currently built with the documentation for BYOND version 516.16
 
 At this time it's a very early-stages work in progress!
 
+This repo also contains the tool used for splitting the reference provided by BYOND.com: ref_splitter.py.  At this time the documentation for the tool is contained in the script itself.
+
 This repo is maintained by F0lak.  You can join the BYONDiscord server to discuss this project [here](https://discord.gg/pTFccGgnAr)

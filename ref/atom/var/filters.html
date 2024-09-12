@@ -1,0 +1,48 @@
+
+
+<a name=/atom/var/filters>
+<h2 byondver=512>filters var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/appearance_flags>appearance_flags var (atom)</a>
+<dd><a href=#/proc/filter>filter proc</a>
+<dd><a href=#/proc/animate>animate proc</a>
+<dd><a href=#/{notes}/filters>Filter effects</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>empty list
+</dl>
+
+<p>This var is a list of graphical filters to use for post-processing effects,
+applied in order. You can assign this value a list, an individual filter, or
+null to empty it.
+
+<h3>Example:</h3>
+<xmp>
+obj/blurry
+    filters = filter(type="blur", size=1)
+</xmp>
+
+<p>Atoms with the <code>KEEP_TOGETHER</code> flag will apply their filters
+after the composite image has been drawn. Filters will also apply to any
+maptext the atom has.
+
+<p>See the <a href=#/{notes}/filters>filters</a> section for more information
+on individual filters.
+
+<h3 byondver=516>Named Filters</h3>
+
+<p>Filters can be created with a <tt>name</tt> argument. That name can be used
+to access the filter in the list (e.g. <tt>filters["drunk_blur"]</tt> instead
+of using a numeric index, which is helpful for managing animations and
+updating multiple filters on an object.
+
+<p>Adding a new filter with the same name as an existing filter will remove the
+old one, since only one of a given filter name can be used on an appearance at
+a time.
+
+<p>You can also remove a named filter from the list simply by subtracting the
+name instead of the filter itself. That is, <tt>filters -= filters["foo"]</tt>
+and <tt>filters -= "foo"</tt> do the same thing.
+

@@ -1,0 +1,55 @@
+
+
+<a name=/proc/spawn>
+<h2>spawn proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/set/background>background setting (proc)</a>
+<dd><a href=#/proc/sleep>sleep proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>spawn(Delay=0) Statement
+<dd>spawn(Delay=0)<br/>Statement
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Delay: The amount of time (in 1/10 seconds) before Statement is executed.
+</dl>
+
+<p>Run Statement after a delay.  Statement may be a single statement or a code
+block enclosed in (optional) braces and indented.  If delay is negative, the
+spawned code is executed before continuing in the main code.  If it is zero,
+the spawned code is scheduled to happen right after other existing events that
+are immediately pending.
+
+<h3>Example:</h3>
+<xmp>
+spawn(30) storm()
+usr << "Storm clouds are brewing!"
+</xmp>
+
+<p>This will display <code>"Storm clouds are brewing!"</code> and then call the
+storm() proc after 3 seconds.
+
+<div class="sidebar underhood">
+<p>A spawned statement or block is a copy of the current proc. The current proc
+keeps running and the copy waits its turn. The copy stops at the end of the
+statement/block, and its return value is discarded.
+
+<p>In the case of spawn(-1), the original proc keeps running the
+statement/block and then stops, while the copy runs everything after that.
+</div>
+
+<p>The important feature of spawn() is that the caller does not have to wait
+around for the spawned code to finish.
+
+<p>Any vars you have defined in the proc itself, including arguments, will be
+copied between the spawned code and the code that runs right away. This means
+that if one part modifies one of those vars, the other part will not see that
+change. Changes made to objects, lists, datums, etc. however will be visible
+to both code blocks.
+
+<p><a href=#/operator/&/pointer>Pointers</a> to any vars that belong to the
+proc will stay with the original proc, not the copy.
+

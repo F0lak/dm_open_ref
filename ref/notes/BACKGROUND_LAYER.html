@@ -1,0 +1,41 @@
+
+
+<a name=/{notes}/BACKGROUND_LAYER>
+<h2>BACKGROUND_LAYER</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/layer>layer var (atom)</a>
+<dd><a href=#/atom/var/plane>plane var (atom)</a>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/{notes}/EFFECTS_LAYER>EFFECTS_LAYER</a>
+<dd><a href=#/{notes}/TOPDOWN_LAYER>TOPDOWN_LAYER</a>
+<dd><a href=#/{{appendix}}/stddef%2edm>stddef.dm file</a>
+<dd><a href=#/{notes}/renderer>Understanding the renderer</a>
+</dl>
+
+<p>This is mostly no longer needed. A negative value for plane is the
+preferred way to do show objects in the background. It can still be used
+however when you want to rearrange objects in the same plane when using
+<a class=code href=#/atom/var/appearance_flags>PLANE_MASTER</a> for visual
+effects.
+
+<p><tt>BACKGROUND_LAYER</tt> is a special high value that can be added to the
+regular layer of any atom.
+
+<p>The purpose of this value is to make an atom appear below any regular
+atoms, even if they share the same plane. In an isometric map for instance,
+HUD objects will always appear above the map, but makeing a HUD object appear
+behind the map was basically impossible without this feature until
+<tt>plane</tt> was implemented.
+
+<p>When using this special layer, it should be added to the layer an atom
+normally uses. For instance an obj should have a layer of <tt>BACKGROUND_LAYER
++ OBJ_LAYER</tt>.
+
+<p>This can be mixed with <tt>TOPDOWN_LAYER</tt> and <tt>EFFECTS_LAYER</tt>,
+but it will take precedence over both. Anything with <tt>BACKGROUND_LAYER</tt>
+will always appear below anything without it on the same plane.
+
+<p>Images or overlays with <tt>FLOAT_LAYER</tt> can be left alone. They will
+automatically have the same layer as whatever atom they are attached to.
+

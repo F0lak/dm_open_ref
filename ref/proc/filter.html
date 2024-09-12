@@ -1,0 +1,46 @@
+
+
+<a name=/proc/filter>
+<h2 byondver=512>filter proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/filters>filters var (atom)</a>
+<dd><a href=#/{notes}/filters>Filter effects</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>filter(type = Type, parameter = Value, ...)
+</dl>
+
+<p>Creates a graphical filter that can be assigned or added to a list of
+filters on an atom or image.
+
+<p>This proc uses named arguments, and the "type" value must always be
+included. To see which types of filters are available and what parameters
+they accept, see <a href=#/{notes}/filters>Filter effects</a>.
+
+<h3>Example:</h3>
+<xmp>
+atom/proc/Highlight(apply)
+    if(apply)
+        filters = filter(type="outline", size=1, color=rgb(255,0,0))
+    else
+        filters = null
+</xmp>
+
+<p>A filter created with this proc is an <i>abstract</i> filter; it is not
+associated with any atom. When you add it to atom's filters, the atom gets a
+copy of this filter, so changing the abstract filter's values afterward will
+not change the atom's filters. For the same reason, an abstract filter can't
+be animated.
+
+<p>A filter that is part of an atom's filters list, like obj.filters[1], is an
+<i>attached</i> filter. Changing the values for an attached filter will change
+how that atom is displayed, and attached filters can be animated.
+
+<h3 byondver=516>Named Filters</h3>
+
+<p>Filters can also be given a <tt>name</tt> argument, and can be referred
+to in an atom's <tt>filters</tt> list via that name (e.g. as
+<tt>filters["shadow"]</tt>) instead of a numeric index.
+

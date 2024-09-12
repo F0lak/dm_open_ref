@@ -1,0 +1,36 @@
+
+
+<a name=/world/var/tick_lag>
+<h2>tick_lag var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/fps>fps var (world)</a>
+<dd><a href=#/client/var/tick_lag>tick_lag var (client)</a>
+<dd><a href=#/world/var/tick_usage>tick_usage var (world)</a>
+<dd><a href=#/proc/sleep>sleep proc</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>1
+</dl>
+
+<p>This is the smallest unit of time (one server tick) measured in 1/10
+seconds.  The duration of events that take some finite amount of time (like
+sleep) will be rounded to a whole number of ticks.
+
+<p>Players are limited to one command (including movements) per server tick,
+so this value can be used to adjust the responsiveness of the game.  If the
+network is too slow to keep up with players, their commands will get queued
+up, which can be annoying when trying to move.  In this case, tick_lag
+should be increased so that the stored up movement commands are discarded.
+On the other hand, if you have a very fast network, you may wish to decrease
+tick_lag to speed up the response time to player commands.
+
+<p>Often it is more convenient to set world.fps instead of world.tick_lag,
+since fps (frames per second) is an easier way to think of server ticks.
+world.tick_lag is 10 / world.fps and vice-versa, so a tick_lag of 0.25 is
+equal to 40 fps.
+
+<p>If you set client.tick_lag or client.fps to a value other than 0, you can
+make the client tick at a different (usually faster) rate.
+

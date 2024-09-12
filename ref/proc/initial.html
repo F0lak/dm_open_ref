@@ -1,0 +1,33 @@
+
+
+<a name=/proc/initial>
+<h2>initial proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/::>:: operator</a>
+<dd><a href=#/proc/issaved>issaved proc</a>
+<dd><a href=#/datum/var/vars>vars list var (datum)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>initial(Var)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Var: A variable to find the initial value of.
+</dl>
+
+<p>This returns the original compile-time value of a variable.  It could
+be used to reset a variable to its default value or to check if a variable
+has changed.
+
+<h3>Example:</h3>
+<xmp>
+obj/verb/set_icon(I as null|icon)
+   if(!I) I = initial(icon)
+   icon = I
+</xmp>
+
+This example allows an object's icon to be modified.  If the user does not
+specify a new icon, it will be reset to the original one.
+

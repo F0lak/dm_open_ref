@@ -1,0 +1,28 @@
+
+
+<a name=/world/var/log>
+<h2>log var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/file>file proc</a>
+<dd><a href=#/proc/startup>startup proc</a>
+</dl>
+
+<p>Sending output to world.log may be useful for debugging purposes.  The
+output goes to the same place run-time proc errors are displayed.
+
+<h3>Example:</h3>
+<xmp>
+if(1+1 != 2)
+  world.log << "Uh oh."
+</xmp>
+
+<p>You can assign world.log to a file name or file() object to redirect output
+to that file.  (There is also a command-line option to Dream Daemon that does
+this.)
+
+<h3>Example:</h3>
+<xmp>
+world.log = file("mylog.txt")
+</xmp>
+

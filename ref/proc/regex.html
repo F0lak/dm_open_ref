@@ -1,0 +1,33 @@
+
+
+<a name=/proc/regex>
+<h2 byondver=510>regex proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{notes}/regex>Regular expressions</a>
+<dd><a href=#/regex>regex datum</a>
+<dd><a href=#/regex/proc>regex procs</a>
+<dd><a href=#/proc/findtext>findtext proc</a>
+<dd><a href=#/proc/replacetext>replacetext proc</a>
+<dd><a href=#/proc/splittext>splittext proc</a>
+<dd><a href=#/proc/REGEX_QUOTE>REGEX_QUOTE proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>regex(pattern, flags)
+<dd>regex(Regex)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A new /regex datum.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>pattern: The pattern string to search for
+<dd>flags: (optional) A text string containing any combination of modifier flags
+<dd>Regex: an existing /regex datum to copy
+</dl>
+
+<p>Creates a <a href=#/{notes}/regex>regular expression</a>, stored in a /regex
+datum, that can be used for searching and/or replacing text.
+

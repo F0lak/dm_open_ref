@@ -1,0 +1,37 @@
+
+
+<a name=/proc/text2file>
+<h2>text2file proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/file2text>file2text proc</a>
+<dd><a href=#/proc/shell>shell proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>text2file(Text,File)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Text: text to be added to file
+<dd>File: file to be appended to
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>1 on success; 0 otherwise.
+</dl>
+
+<p>Appends text to a file.  If the file does not exist, one will be created.
+
+<p>This can be useful when interacting with external applications that read
+output from a text file.  For example, you might have an external program
+that mimics conversation:
+
+<h3>Example:</h3>
+<xmp>
+mob/oracle/verb/tell(T as text)
+  text2file(T,"oracle.in")
+  shell("oracle < oracle.in > oracle.out")
+  usr << file2text("oracle.out")
+</xmp>
+

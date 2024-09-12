@@ -1,0 +1,67 @@
+
+
+<a name=/world/proc/GetMedal>
+<h2>GetMedal proc (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/proc/SetMedal>SetMedal proc (world)</a>
+<dd><a href=#/world/proc/ClearMedal>ClearMedal proc (world)</a>
+<dd><a href=#/world/proc/GetScores>GetScores proc (world)</a>
+<dd><a href=#/world/proc/SetScores>SetScores proc (world)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>GetMedal(medal, player)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>1 if the medal has been earned by the player
+<dd>0 if the medal has not been earned
+<dd>A list of medals in list2params() format if checking all medals
+<dd>null if the hub cannot be contacted
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>medal: name of the medal being checked
+<dd>player: a mob, client, key, or ckey
+</dl>
+
+<p>Checks to see if a medal has been awarded to the player in question. If
+the medal has been awarded, the return value is 1. If not, 0.
+
+<p>You can also use GetMedal() to read a list of all medals a player has
+earned for the hub entry, by leaving the medal argument blank. If you also
+leave the player argument blank, you will get a list of all medals available
+to the hub entry. In both cases the result can be parsed with params2list().
+
+<p>This proc will return null if there was no way to reach the hub or
+otherwise verify the medal's status. Use isnull() to check for a null value.
+
+<p>Whenever possible, GetMedal() will avoid contacting the hub by using the
+information it was given when the user logged in. If contacting the hub is
+required, the proc may take a few moments to return a result. It is a good
+idea to use spawn() to avoid holding up the rest of the game.
+
+<h3>Example:</h3>
+<xmp>
+turf/medal_door
+  density = 1
+  icon_state = "closed"
+  var/medal = "Dragon slayer"
+
+  verb/Knock()
+    usr << "<b>Guard:</b> Just checking your credentials...."
+    var/hasmedal = world.GetMedal(medal, usr)
+    if(hasmedal)
+      usr << "<b>Guard:</b> Go right in."
+      icon_state = "open"
+      density = 0
+    else if(!isnull(hasmedal))
+      usr << "<b>Guard:</b> Sorry, no admittance without a <b>[medal]</b> badge."
+    else
+      usr << "<b>Guard:</b> Sorry, I lost the paperwork. Try again later."
+</xmp>
+
+<p>You can add an optional hub path argument if you want to look at a medal
+for a different hub entry.
+

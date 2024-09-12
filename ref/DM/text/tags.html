@@ -1,0 +1,81 @@
+
+
+<a name=/DM/text/tags>
+<h2>tags (text)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/text/entities>entities (text)</a>
+<dd><a href=#/DM/text/macros>macros (text)</a>
+<dd><a href=#/DM/text/style>style sheets</a>
+<dd><a href=#/DM/text>text</a>
+</dl>
+
+<p>Text tags (also known as <em>elements</em> by snooty HTML purists) control
+how the text is formatted.  HTML syntax is used, so all tags start with
+<code>&lt;</code> and end with <code>&gt;</code>.  The tags which are
+currently supported by Dream Seeker, are listed below:
+
+<pre>
+&lt;A&gt;&lt;/A&gt;              // anchor (hyperlink)
+&lt;ACRONYM&gt;&lt;/ACRONYM&gt;  // acronym or abbreviation
+&lt;B&gt;&lt;/B&gt;              // bold text
+&lt;BIG&gt;&lt;/BIG&gt;          // one size bigger text
+&lt;BODY&gt;&lt;/BODY&gt;        // body of html document
+&lt;BR&gt;                 // line break
+&lt;CITE&gt;&lt;/CITE&gt;        // citation reference
+&lt;CODE&gt;&lt;/CODE&gt;        // program source code
+&lt;DFN&gt;&lt;/DFN&gt;          // definition
+&lt;DIV&gt;&lt;/DIV&gt;          // used in conjunction with style sheets
+&lt;EM&gt;&lt;/EM&gt;            // emphasized text
+&lt;FONT&gt;&lt;/FONT&gt;        // font face, color, and size
+&lt;H1&gt;&lt;/H1&gt;            // heading level
+&lt;H2&gt;&lt;/H2&gt;
+&lt;H3&gt;&lt;/H3&gt;
+&lt;H4&gt;&lt;/H4&gt;
+&lt;H5&gt;&lt;/H5&gt;
+&lt;H6&gt;&lt;/H6&gt;
+&lt;HEAD&gt;&lt;/HEAD&gt;        // document head section
+&lt;HTML&gt;&lt;/HTML&gt;        // html document
+&lt;I&gt;&lt;/I&gt;              // italic text
+&lt;IMG&gt;&lt;/IMG&gt;          // display icons
+&lt;KBD&gt;&lt;/KBD&gt;          // keyboard input
+&lt;P&gt;&lt;/P&gt;              // paragraph
+&lt;PRE&gt;&lt;/PRE&gt;          // pre-formatted text
+&lt;S&gt;&lt;/S&gt;              // overstrike text
+&lt;SAMP&gt;&lt;/SAMP&gt;        // sample output
+&lt;SMALL&gt;&lt;/SMALL&gt;      // one size smaller text
+&lt;SPAN&gt;&lt;/SPAN&gt;        // used in conjunction with style sheets
+&lt;STRONG&gt;&lt;/STRONG&gt;    // strongly emphasized text
+&lt;STYLE&gt;&lt;/STYLE&gt;      // contains a style sheet
+&lt;TITLE&gt;&lt;/TITLE&gt;      // document title
+&lt;TT&gt;&lt;/TT&gt;            // typewriter style
+&lt;U&gt;&lt;/U&gt;              // underline
+&lt;VAR&gt;&lt;/VAR&gt;          // variable name
+&lt;XMP&gt;&lt;/XMP&gt;          // preformatted (tags ignored)
+</pre>
+
+<p>In addition to these, the <code>&lt;BEEP&gt;</code> tag, which is not
+standard HTML, may be used to beep the terminal.
+
+<p>Some tags take additional parameters, known as attributes.  The most common
+ones are <code>&lt;FONT&gt;</code> and <code>&lt;A&gt;</code>.
+The syntax for these is illustrated by the following two examples:
+
+<xmp>
+"How about <FONT FACE=Arial COLOR=red SIZE=+1>this</FONT>!"
+"Click <A HREF=byond.com TITLE=BYOND!>here</A>!"
+</xmp>
+
+<p>As many attributes may be specified as desired.  The attribute value may
+have quotes around it, but this is only necessary if the value contains
+spaces.  It is usually more convenient to use single quotes so you don't have
+to escape the double quotes, but you can also embed the HTML in a
+<a href=#/DM/text>text document</a> to avoid the need for escaping quotes.
+
+<p>When applying color to text, you can use hexadecimal RGB or you can use
+one of the named <a href=#/{{appendix}}/html-colors>HTML colors</a>.
+
+<p>Text sizes range from 1 to 7, 1 being the smallest and 7 being the largest.
+In addition to absolute sizes, relative sizes may be specified (like +1 for
+one size bigger or -1 for one size smaller).
+

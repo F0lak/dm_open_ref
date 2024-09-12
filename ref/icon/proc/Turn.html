@@ -1,0 +1,39 @@
+
+
+<a name=/icon/proc/Turn>
+<h2>Turn proc (icon)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/icon/proc/Flip>Flip proc (icon)</a>
+<dd><a href=#/atom/var/dir>dir var (atom)</a>
+<dd><a href=#/icon>icon</a>
+<dd><a href=#/icon/proc>procs (icon)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Turn(angle)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>angle: an angle in degrees
+</dl>
+
+<p>This rotates the icon clockwise by the specified amount.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/drink()
+   //this effect is very confusing!
+   var/icon/I = new(usr.icon)
+   I.Turn(90)
+   usr.icon = I
+   usr << "You feel a little tipsy!"
+
+   sleep(200)
+
+   I.Turn(-90)  //turn it back
+   usr.icon = I //should have just saved original value
+</xmp>
+
+<p>If an icon is not square, it cannot be turned.
+

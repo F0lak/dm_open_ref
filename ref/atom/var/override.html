@@ -1,0 +1,21 @@
+
+
+<a name=/atom/var/override>
+<h2>override var (atom)</h2>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p><b>Currently this only applies to <a href=#/image>images</a>.</b>
+
+<p>If you attach an image to an atom, normally it is seen only in addition to
+the atom's regular icon. If the image's override var is 1, it will be seen
+<i>in place of</i> the original atom (and its overlays).  It will inherit the
+atom's color, alpha, transform, and appearance_flags, unless its own
+appearance_flags say otherwise.
+
+<p>If the image has a specific name and/or suffix value, those will override
+the parent atom too. Leaving them blank will let the original atom take
+precedence.
+

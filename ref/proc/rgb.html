@@ -1,0 +1,88 @@
+
+
+<a name=/proc/rgb>
+<h2>rgb proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/rgb2num>rgb2num proc</a>
+<dd><a href=#/proc/gradient>gradient proc</a>
+<dd><a href=#/{{appendix}}/color-space>Color space</a>
+<dd><a href=#/{{appendix}}/html-colors>HTML colors</a>
+<dd><a href=#/atom/var/color>color var (atom)</a>
+<dd><a href=#/icon/proc/Blend>Blend proc (icon)</a>
+<dd><a href=#/{notes}/color-matrix>Color matrix</a>
+<dd><a href=#/{notes}/filters/color>Color matrix filter</a>
+<dd><a href=#/{notes}/particles>Particle effects</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>rgb(R,G,B)
+<dd>rgb(R,G,B,A)
+<dd>rgb(x,y,z,space=<i>color space</i>)
+<dd>rgb(x,y,z,a,space)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>R,G,B: Numbers from 0-255 corresponding to the red, green, and blue
+components of a color.
+<dd>A: Optional alpha component; 0 is transparent, 255 is opaque.
+<dd>x,y,z: Color components for a different color space
+<dd>space: <a href=#/{{appendix}}/color-space>Color space</a>; defaults to <tt>COLORSPACE_RGB</tt>
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A color, represented by a text string in #RRGGBB or #RRGGBBAA format
+</dl>
+
+<p>A way of representing a color to be used in conjunction with icon
+arithmetic, atom.color, or other effects.  The colors <tt>rgb(0,0,0)</tt>
+and <tt>rgb(255,255,255)</tt> represent black and white, two corners of the
+"color cube".
+
+<h3>Example:</h3>
+<xmp>
+mob/proc/hurtme() // make a mob look damaged by adding red to its icon
+  src.icon += rgb(20,0,0)
+</xmp>
+
+<p>This proc returns a text string in the form used by HTML (#RRGGBB).
+rgb(255,0,128) for example becomes "#ff0080". If you use an alpha component,
+the format is #RRGGBBAA. You can use strings like this in most procs that use
+colors such as icon blending operations, and you can also use the short form
+#RGB or #RGBA. So if you know in advance that you want to use the color
+white, you can simply use"#fff" instead of rgb(255,255,255).
+
+<p>You can create colors other ways by specifying a different
+<a href=#/{{appendix}}/color-space>color space</a>. A color space can be
+specified by using a <a href=#/proc/arguments/named>named</a> "space" argument,
+or by using a 5-argument format (you can leave the alpha value blank or null to
+skip it), or by using named arguments for the other components.
+
+<h3>Example:</h3>
+<xmp>
+// All of these lines are equivalent.
+// They create (0,100,50) in HSL which is red (#ff0000).
+src << rgb(0, 100, 50, space=COLORSPACE_HSL)
+src << rgb(0, 100, 50, , COLORSPACE_HSL)
+src << rgb(h=0, s=100, l=50)
+</xmp>
+
+<p>Named arguments that are valid in <tt>rgb()</tt> are:
+
+<ul>
+<li><tt>space</tt></li>
+<li><tt>red</tt></li>
+<li><tt>green</tt></li>
+<li><tt>blue</tt></li>
+<li><tt>alpha</tt></li>
+<li><tt>hue</tt></li>
+<li><tt>saturation</tt></li>
+<li><tt>chroma</tt></li>
+<li><tt>value</tt></li>
+<li><tt>luminance</tt></li>
+<li><tt>y</tt> (HCY luminance)</li>
+</ul>
+
+<p>With the exception of <tt>space</tt>, only the first letter of the argument
+name matters, so <tt>r</tt> and <tt>red</tt> are the same thing.
+

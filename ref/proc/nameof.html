@@ -1,0 +1,48 @@
+
+
+<a name=/proc/nameof>
+<h2 byondver=515>nameof proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/::>:: operator</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>nameof(Var)
+<dd>nameof(ProcRef)
+<dd>nameof(Path)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Var: A variable, e.g. src.density or foo::bar.
+<dd>ProcRef: A proc reference, e.g. /mob::Enter().
+<dd>Path: A type path, e.g. /obj/item/barrel.
+</dl>
+
+<p>This returns the name of a var or proc, or the last part of a type path.
+This proc only exists at compile-time.
+
+<p>The main purpose of this proc is to turn a proc reference into a name,
+which is useful in some esoteric situations.
+
+<h3>Example:</h3>
+<xmp>
+var/list/event_queue
+
+proc/CallLater(object, procref, a, b, c)
+    var/list/forlater = list(object, nameof(procref), a, b, c)
+    event_queue ||= list()
+    event_queue[++event_queue.len] = forlater
+
+world/Tick()
+    while(length(event_queue))
+        var/list/forlater = event_queue[1]
+        event_queue.Cut(1,2)
+        var/object = forlater[1]
+        var/procname = forlater[2]
+        var/a = forlater[3]
+        var/b = forlater[4]
+        var/c = forlater[5]
+        call(object, procname)(a, b, c)
+</xmp>
+

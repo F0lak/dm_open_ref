@@ -1,0 +1,25 @@
+
+
+<a name=/proc/var/global>
+<h2>global var (proc)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/var/src>src var (proc)</a>
+</dl>
+
+<p>This is not really a variable but is used to force treatment of the
+following variable or proc as global.  This may be necessary if a local or
+src-level variable has the same name.
+
+<h3>Example:</h3>
+<xmp>
+var/myvar = "global"
+mob
+  verb/test()
+    var/myvar = "local"
+    usr << myvar
+    usr << global.myvar
+</xmp>
+
+<p>This example outputs "local" and then "global".
+

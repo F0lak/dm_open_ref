@@ -1,0 +1,110 @@
+
+
+<a name=/{{appendix}}/Byondapi>
+<h2 byondver=515>Byondapi</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/call_ext>call_ext() proc</a>
+</dl>
+
+<p>Byondapi is a set of exported functions from BYOND's core library that can
+be used by external libraries that you call via the
+<a href=#/proc/call_ext><tt>call_ext()</tt> proc</a>. The purpose is to make
+interfacing with native code easier, and to allow external access to BYOND's
+functionality. Before this existed, all external calls had to use text strings
+to pass data back and forth, which was inefficient for many uses and very
+limited.
+
+<p>To build your external library with Byondapi, you have to include the
+<tt>byondapi.h</tt> header file that's included in BYOND's distribution. When
+compiling in Windows, you'll also need to link with <tt>byondapi.lib</tt>; in
+Linux, your makefile should link with <tt>byondcore.so</tt> from BYOND's own
+<tt>bin</tt> directory.
+
+<h3>Simple BYOND types</h3>
+
+<p>For simplicity, BYOND defines some basic types and macros in
+<tt>byondapi.h</tt>. The one most relevant to you is <tt>u4c</tt>, which is an
+unsigned 4-byte integer. There's also <tt>s4c</tt> which is a signed integer,
+as well as simple 1-byte and 2-byte ints that use <tt>1c</tt> and <tt>2c</tt>
+(respectively) insteaed of the <tt>4c</tt> suffix.
+
+<h3>CByondValue struct</h3>
+
+<p>The main structure used to pass data back and forth is
+<tt>CByondValue</tt>. This mimics an internal structure in BYOND that holds
+values of all sorts: numbers, null, references to strings, references to
+objects and lists, and so on.
+
+<p>The exact functions used for interfacing with this structure are documented
+in <tt>byondapi.h</tt>.
+
+<p>The main tricky aspect of working with BYOND data is strings. If you need
+to get the contents of a string, you'll need to allocate memory for the
+character data and call <tt>Byond_ToString()</tt> to get a copy of the string.
+For converting character data to an internal string stored in CByondValue,
+you'll need to call <tt>ByondValue_SetStr()</tt>.
+
+<h3>Other function calls</h3>
+
+<p>There are many function calls available in Byondapi for interacting with
+the server. These include the ability to read and write vars, call procs,
+create lists, read and write from lists, and so on.
+
+<p>Most of these procs return boolean values: true if they succeed, false if
+not. In the event of a failure, you can call <tt>Byond_LastError()</tt> to
+get the error message.
+
+<p>In any functions that read data from lists, or read string data, they
+require the caller to allocate the needed memory for a copy of the string or
+list items. In these cases, the functions also take a <tt>u4c</tt> pointer for
+the length. If the return value is false and the length is set to zero, an
+error occurred. If the return value is false and the length is non-zero, the
+new length value is the required length of the array; the memory should be
+allocated and the function called again.
+
+<p>BYOND servers handle proc executin and the management of data in a single
+thread. If your library tries to call any BYOND server functions in a
+different thread of its own, the call will block until the server thread can
+handle it.
+
+<h3>C++ wrappers</h3>
+
+<p>If you want to use the handy C++ wrappers and classes, you can include
+<tt>byondapi_cpp_wrappers.cpp</tt> and <tt>byondapi_cpp_wrappers.h</tt> in
+your library.
+
+<p>The <tt>ByondValue</tt> class is a wrapper around <tt>CByondValue</tt>
+that handles a number of operations for you. You can redefine the <tt>argv</tt>
+argument of any <tt>call_ext()</tt> functions as an array of
+<tt>ByondValue</tt> instead of <tt>CByondValue</tt>, but the return value
+should stay a <tt>CByondValue</tt>.
+
+<h3 class=cpp>Example:</h3>
+<pre class=cpp>
+#include &lt;string&gt;
+#include &lt;byondapi.h&gt;
+#include &lt;byondapi_cpp_wrappers.h&gt;
+#include &lt;string&gt;
+
+extern "C" BYOND_EXPORT CByondValue merge(int n, ByondValue v[])
+{
+    ByondValue result;
+    std::string merged, str;
+    for(int i=0; i&lt;n; i++) {
+        v[i].ToString(str);
+        if(str) merged += str;
+    }
+    result = merged.c_str();   // ByondValue's assignment operator takes care of everything
+    return result;
+}
+</pre>
+
+<p>There is also a <tt>ByondValueList</tt> wrapper class for the list structure.
+
+<p>The external function calls like <tt>ByondValue_CallProc()</tt> have C++
+wrappers that use the C calls internally, but if an error happens they'll throw
+a <tt>ByondExtException</tt> for you to catch. This replaces the more
+cumbersome approach of checking if the return value is false and then calling
+<tt>Byond_LastError()</tt>.
+

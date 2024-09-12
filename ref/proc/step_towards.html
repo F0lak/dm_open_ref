@@ -1,0 +1,27 @@
+
+
+<a name=/proc/step_towards>
+<h2>step_towards proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/get_step_towards>get_step_towards proc</a>
+<dd><a href=#/proc/walk_towards>walk_towards proc</a>
+<dd><a href=#/atom/movable/var/step_size>step_size var (movable atom)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>step_towards(Ref,Trg,Speed)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>1 on success; 0 otherwise.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Ref: A mob or obj.
+<dd>Trg: An object on the map.
+<dd>Speed: Speed to move, in pixels. 0 uses Ref.step_size.
+</dl>
+
+<p>Move Ref in the direction of the location Trg.
+

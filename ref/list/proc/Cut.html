@@ -1,0 +1,25 @@
+
+
+<a name=/list/proc/Cut>
+<h2>Cut proc (list)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/list/proc/Copy>Copy proc (list)</a>
+<dd><a href=#/list/proc/Insert>Insert proc (list)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>list.Cut(Start=1,End=0)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Start: The list position in which to begin the cut.
+<dd>End: The list position immediately following the last element to be
+     removed.
+</dl>
+
+<p>Remove the elements between list[Start] and list[End-1], decreasing the
+size of the list appropriately.  The default end position of 0 stands for
+the position immediately after the end of the list, so by default the entire
+list is deleted.
+

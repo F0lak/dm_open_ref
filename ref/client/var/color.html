@@ -1,0 +1,31 @@
+
+
+<a name=/client/var/color>
+<h2 byondver=509>color var (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/color>color var (atom)</a>
+<dd><a href=#/atom/var/appearance_flags>appearance_flags var (atom)</a>
+</dl>
+
+<p>Casts a color multiplication or <a href=#/{notes}/color-matrix>matrix</a>
+effect over the entire main map.  This behaves exactly the same as
+atom.color, and will be combined with atom.color (which comes first) where
+present.  See <a href=#/atom/var/color>atom.color</a> for more information.
+
+<p>If a matrix is used, the alpha column and row will have no effect.
+
+<p>Icons that have the NO_CLIENT_COLOR value in appearance_flags will not be
+subject to client.color.  This can be useful for HUD objects.
+
+<p>This value can be animated.
+
+<h3>Example:</h3>
+<xmp>
+mob/proc/DayNight(is_day)
+    if(client)
+        client.color = is_day ? \
+            null : \
+            list(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4)
+</xmp>
+

@@ -1,0 +1,25 @@
+
+
+<a name=/client/var/gender>
+<h2>gender var (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/proc/New>New proc (client)</a>
+<dd><a href=#/atom/var/gender>gender var (atom)</a>
+<dd><a href=#/client/var/key>key var (client)</a>
+<dd><a href=#/DM/text/macros>macros (text)</a>
+</dl>
+
+<p>This is the client's gender, which is an attribute of the player's key.
+By default, when a new mob is made for a player (in client.New()), the new
+mob gets the same name and gender as the player's key.  This influences text
+macros like <code>\he</code>, which may expand to "it", "he", "she", or
+"they".  Valid values are:
+
+<xmp>
+"neuter"
+"male"
+"female"
+"plural"
+</xmp>
+

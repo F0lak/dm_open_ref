@@ -1,0 +1,39 @@
+
+
+<a name=/atom/var/plane>
+<h2 byondver=509>plane var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/layer>layer var (atom)</a>
+<dd><a href=#/atom/var/appearance_flags>appearance_flags var (atom)</a>
+<dd><a href=#/atom/var/vis_contents>vis_contents var (atom)</a>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/{notes}/renderer>Understanding the renderer</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd><tt>FLOAT_PLANE</tt>
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>-10000 to 10000 (integers only), <tt>FLOAT_PLANE+p</tt>
+</dl>
+
+<p>The value of plane overrides layer, and is mainly used for non-topdown map
+formats like isometric.  Positive values are drawn on top, and negative values
+are drawn below.  This mostly deprecates <tt>EFFECTS_LAYER</tt> and
+<tt>BACKGROUND_LAYER</tt>, but they can still be useful when using
+<tt>PLANE_MASTER</tt> for effects
+(see <a class=code href=#/atom/var/appearance_flags>appearance_flags</a>).
+
+<p>The special value <tt>FLOAT_PLANE</tt> can be used for images and overlays,
+to take on the plane of the parent atom. Whenever an icon or icon_state is
+used directly as an overlay, this is its plane. If there is no parent atom,
+the plane is 0.
+
+<p byondver=513>You can also use <tt>FLOAT_PLANE</tt> as a relative value, so
+<tt>FLOAT_PLANE+1</tt> adds 1 to the parent atom's plane. This may be useful
+for some applications where an object is included in visual contents. The
+added value should still be kept in the range of -10000 to 10000, or
+preferably much smaller.
+

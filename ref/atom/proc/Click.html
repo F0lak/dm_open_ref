@@ -1,0 +1,44 @@
+
+
+<a name=/atom/proc/Click>
+<h2>Click proc (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/proc/Click>Click proc (client)</a>
+<dd><a href=#/atom/proc/DblClick>DblClick proc (atom)</a>
+<dd><a href=#/atom/proc/MouseDown>MouseDown proc (atom)</a>
+<dd><a href=#/atom/proc/MouseDrag>MouseDrag proc (atom)</a>
+<dd><a href=#/atom/proc/MouseDrop>MouseDrop proc (atom)</a>
+<dd><a href=#/atom/proc/MouseEntered>MouseEntered proc (atom)</a>
+<dd><a href=#/atom/proc/MouseExited>MouseExited proc (atom)</a>
+<dd><a href=#/atom/proc/MouseMove>MouseMove proc (atom)</a>
+<dd><a href=#/atom/proc/MouseUp>MouseUp proc (atom)</a>
+<dd><a href=#/atom/proc/MouseWheel>MouseWheel proc (atom)</a>
+<dd><a href=#/client/var/show_popup_menus>show_popup_menus var (client)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Click(location,control,params)
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when the object is clicked.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>location: the turf, stat panel, grid cell, etc. in which the object was clicked
+<dd>control: the name of the skin control involved
+<dd>params: other parameters including mouse/keyboard flags, icon offsets, etc.; see <a href=#/DM/mouse>mouse handling</a>
+</dl>
+
+<p>This proc is called by the default client.Click() procedure.
+
+<p>The following example allows the player to walk to a position by clicking
+it.
+
+<h3>Example:</h3>
+<xmp>
+turf/Click()
+  walk_to(usr,src)
+</xmp>
+

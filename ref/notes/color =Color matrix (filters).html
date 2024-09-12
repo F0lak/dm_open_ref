@@ -1,0 +1,25 @@
+
+
+<a name=/{notes}/filters/color toc="Color matrix (filters)">
+<h2 byondver=513>Color matrix filter</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/color>color var (atom)</a>
+<dd><a href=#/{notes}/color-matrix>Color matrix</a>
+<dd><a href=#/{{appendix}}/color-space>Color space</a>
+</dl>
+
+<dl><dt>Format:</dt>
+<dd>filter(type="color", ...)</dd>
+</dl>
+
+<dl><dt>Args:</dt>
+<dd>color: A color matrix</dd>
+<dd>space: Value indicating color space: defaults to <tt>FILTER_COLOR_RGB</tt></dd>
+</dl>
+
+<p>Applies a color matrix to this image. Unlike with the atom.color var, you
+can apply color conversions other than the regular RGBA color space, depending
+on the value of <tt>space</tt>. See <a href=#/{{appendix}}/color-space>Color
+space</a> for more information.
+

@@ -1,0 +1,44 @@
+
+
+<a name=/atom/var/contents>
+<h2>contents list var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/proc/Enter>Enter proc (atom)</a>
+<dd><a href=#/atom/proc/Entered>Entered proc (atom)</a>
+<dd><a href=#/atom/proc/Exit>Exit proc (atom)</a>
+<dd><a href=#/atom/proc/Exited>Exited proc (atom)</a>
+<dd><a href=#/atom/movable/var/locs>locs list var (movable atom)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+<dd><a href=#/list>list</a>
+<dd><a href=#/atom/var/loc>loc var (atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>List of contained objects.
+</dl>
+
+<p>Except in the case of areas, this list is always restricted to objs and
+mobs (ie movable objects).  Only direct contents are listed.  Items inside of
+a bag object, for example, would not show up in the mob's contents list.
+
+<p>The contents of areas are a little different.  The turfs contained in the
+area are in the list along with any objs or mobs directly contained by those
+turfs.
+
+<p>If a movable atom uses the bound vars to change its physical size, or
+<tt>step_x</tt> or <tt>step_y</tt> to change its position, it may cover more
+than one turf. In that case, those turfs' contents won't just contain anything
+directly in them, but also any atoms overhanging them. I.e., if a turf is in a
+mob's <tt>locs</tt> list, then the mob is in that turf's contents list. (See
+<a class=code href=#/atom/movable/var/locs>locs</a> for more information.)
+
+<p class=performance>Note: Looping through all of the atoms, or even just
+turfs, in a particular area actually loops through every turf in the world.
+E.g., <tt>for(var/turf/T in area)</tt>. The engine will check each turf to see
+if it belongs to that area, and then includes the turf and/or its contents in
+the results depending on what the loop is looking for. This also applies to
+any situation where you might grab area.contents as a list, e.g.
+<tt>area.contents.Copy()</tt>. Therefore in a large world, it's advisable not
+to loop through area contents at all.
+

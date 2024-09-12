@@ -1,0 +1,33 @@
+
+
+<a name=/proc/trunc>
+<h2 byondver=515>trunc proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/fract>fract proc</a>
+<dd><a href=#/proc/floor>floor proc</a>
+<dd><a href=#/proc/ceil>ceil proc</a>
+<dd><a href=#/proc/round>round proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>trunc(A)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>truncated A
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>A: A number, pixloc, or vector.
+</dl>
+
+<p>Returns the integer part of the number A. That is, this rounds toward 0 to an integer.
+
+<h3>Example:</h3>
+<xmp>
+usr << trunc(1.45) // outputs 1
+
+usr << trunc(-1.45) // outputs -1
+</xmp>
+

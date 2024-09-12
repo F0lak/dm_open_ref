@@ -1,0 +1,32 @@
+
+
+<a name=/atom/movable/var/step_size>
+<h2 byondver=490>step_size var (movable atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/var/step_x>step_x var (movable atom)</a>
+<dd><a href=#/atom/movable/var/step_y>step_y var (movable atom)</a>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/atom/movable/var/locs>locs list var (movable atom)</a>
+<dd><a href=#/world/var/fps>fps var (world)</a>
+<dd><a href=#/world/var/icon_size>icon_size var (world)</a>
+<dd><a href=#/{notes}/gliding>Gliding</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>32 (width of default icon; depends on world.icon_size)
+</dl>
+
+<p>This var defines how fast, in pixels, an atom will move by default.
+If you use lower values of <tt>step_size</tt> for most items in your
+world, you may want to consider raising <tt>world.fps</tt> (at higher
+performance cost).
+
+<p>When <tt>Move()</tt> is called by a step or walk, or by the built-in client
+movement verbs, a change of <tt>step_size</tt> is applied to <tt>step_x</tt>
+and/or <tt>step_y</tt>. Any movement within the speed of <tt>step_size</tt>,
+or up to one tile in distance (whichever is greater), is considered a slide
+and may partially succeed if an obstacle is bumped before reaching the final
+position.
+

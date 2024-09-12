@@ -32,7 +32,7 @@ def write_file(text, file_name) -> None:
 	output_file = os.path.join(f'{file_name}')
 	with open(output_file, 'w', encoding='utf-8') as file:
 		file.write(text)
-		# print(f"New file: {output_file}")
+		# print(f"New file: {output_file}")    
   
 def clean_empty_lines(text) -> str:
 	lines = text.splitlines()
@@ -201,6 +201,7 @@ def make_dir(directory) -> None:
 			Exception(f"Invalid Path: Could not write {directory}")
 
 def build_file_tree() -> None:
+	print("Building file tree")
 	for html_text in parts:
 		
 		html_title: str = set_title(html_text, "html")
@@ -233,9 +234,14 @@ def build_file_tree() -> None:
 			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "md", md_text))
 			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "html", html_text))
 
+			global index
+			index += f"<a href = \"{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
+
 def make_files() -> None:
+	print("Making Files")
 	for page in pages:
 		page.write_to_file()
+	write_file(index, f"{script_directory}\\index.html")
   
 class Page:
 	def __init__ (self, path, title, extension, text): 
@@ -243,12 +249,17 @@ class Page:
 		self.path: str = path
 		self.text: str = text
 		self.extension = extension
+		#self.add_to_index()
 
 	def write_to_file(self) -> None:
 		make_dir(self.path)
 		if self.extension == "md":
 			self.text = clean_markdown_file(self.text)
 		write_file(self.text, f"{self.path}\\{self.title}.{self.extension}")
+
+	def add_to_index(self) -> None:
+		global index
+		index += f"<a href = \"f\"{self.path}\\{self.title}.{self.extension}\"{self.title}</a></ br>\n"
         
         
 if __name__ == "__main__":
@@ -262,8 +273,12 @@ if __name__ == "__main__":
 	if os.path.exists(output_directory):
 		shutil.rmtree(output_directory)
 
-	link_dict: dict = {}
-	pages: list = []
+	link_dict	: dict = {}
+	pages	: list = []
+	index	: str = ""
+ 
+	if os.path.exists("index.html"):
+		os.remove("index.html")
 
 	text: str = ""
 	with open(input_file, 'r', encoding='utf-8') as file:
@@ -272,10 +287,8 @@ if __name__ == "__main__":
 	delimiter: str = "<hr>"
 	parts = text.split(delimiter)
 
-	print("Building file tree")
 	build_file_tree()
 
-	print("Making Files")
 	make_files()
 
 	print("All done")

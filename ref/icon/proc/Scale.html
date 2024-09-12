@@ -1,0 +1,32 @@
+
+
+<a name=/icon/proc/Scale>
+<h2>Scale proc (icon)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/icon>icon</a>
+<dd><a href=#/icon/proc>procs (icon)</a>
+<dd><a href=#/world/var/icon_size>icon_size var (world)</a>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/{notes}/big-icons>Big icons</a>
+<dd><a href=#/{notes}/tiled-icons>Tiled icons</a>
+
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Scale(width, height)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>width,height: size of the new icon
+</dl>
+
+<p>The current icon is scaled to a new size.
+
+<p>If world.map_format is set to TILED_ICON_MAP and the new size is not in
+multiples of world.icon_size, the icon will be padded with transparent pixels
+to the top and right as needed. See map_format for more information.
+
+<p>Scale() automatically performs antialiasing to avoid unwanted artifacts.
+
+

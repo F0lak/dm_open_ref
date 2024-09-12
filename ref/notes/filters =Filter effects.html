@@ -1,0 +1,48 @@
+
+
+<a name=/{notes}/filters toc="Filter effects">
+<h2 byondver=512>Filter effects</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/filters>filters var (atom)</a>
+<dd><a href=#/atom/var/appearance_flags>appearance_flags var (atom)</a>
+<dd><a href=#/proc/filter>filter proc</a>
+<dd><a href=#/proc/animate>animate proc</a>
+<dd><a href=#/{notes}/renderer>Understanding the renderer</a>
+</dl>
+
+<p>Filters are a way of adding special effects to an icon, or a group of icons
+(see <tt>KEEP_TOGETHER</tt> in
+<a class=code href=#/atom/var/appearance_flags>appearance_flags</a>), by
+post-processing the image. A filter object describes a specific form of image
+processing, like for instance a blur or a drop shadow. Filters can be added or
+removed at will, and can even be animated.
+
+<p>A filter is created by using the <a href=#/proc/filter>filter proc</a> like
+so:
+
+<xmp>
+// halo effect
+mob.filters += filter(type="drop_shadow", x=0, y=0,\
+                      size=5, offset=2, color=rgb(255,255,170))
+</xmp>
+
+<p>These are the filters currently supported:
+
+<ul>
+<li byondver=513><a href=#/{notes}/filters/alpha>Alpha mask</a></li>
+<li byondver=513><a href=#/{notes}/filters/angular_blur>Angular blur</a></li>
+<li byondver=514><a href=#/{notes}/filters/bloom>Bloom</a></li>
+<li byondver=513><a href=#/{notes}/filters/color>Color matrix</a></li>
+<li byondver=513><a href=#/{notes}/filters/displace>Displacement map</a></li>
+<li><a href=#/{notes}/filters/drop_shadow>Drop shadow</a></li>
+<li><a href=#/{notes}/filters/blur>Gaussian blur</a></li>
+<li byondver=513><a href=#/{notes}/filters/layer>Layering (composite)</a>
+<li><a href=#/{notes}/filters/motion_blur>Motion blur</a></li>
+<li><a href=#/{notes}/filters/outline>Outline</a></li>
+<li byondver=513><a href=#/{notes}/filters/radial_blur>Radial blur</a></li>
+<li byondver=513><a href=#/{notes}/filters/rays>Rays</a></li>
+<li byondver=513><a href=#/{notes}/filters/ripple>Ripple</a></li>
+<li><a href=#/{notes}/filters/wave>Wave</a></li>
+</ul>
+

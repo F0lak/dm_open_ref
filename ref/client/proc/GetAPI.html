@@ -1,0 +1,39 @@
+
+
+<a name=/client/proc/GetAPI>
+<h2 byondver=514>GetAPI proc (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/proc/SetAPI>SetAPI proc (client)</a>
+<dd><a href=#/client/proc/CheckPassport>CheckPassport proc (client)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>GetAPI(Api, Name)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Api: the name of the API (e.g. "steam")
+<dd>Key: the name of the value to read
+</dl>
+
+<p>Interfaces with supported external APIs to read information. Currently this
+only has meaning for Steam, for specially built games that have a Steam app ID.
+
+<p>This proc returns null any time the call or its results are invalid: for
+instance, trying to query a Steam stat from a user who isn't logged into
+Steam.
+
+<table class=api>
+<thead><tr><th>Key</th><th class=nobr>Return type</th><th>Description</th></tr></thead>
+<tbody>
+<tr><th colspan=4><tt>"steam"</tt> API<br/>Requires that the server and client are using a valid Steam app ID, such as when a game is built for standalone distribution.</th></tr>
+<tr><td>id</td><td>text</td><td>Returns the user's numeric Steam ID, if any. Because this number is too big to fit in BYOND's numbering system, it is returned as text.</td></tr>
+<tr><td>name</td><td>text</td><td>Returns the user's persona name on Steam.</td></tr>
+<tr><td>stat:<i>Name</i></td><td>num</td><td>Returns the value of the stat called <tt>Name</tt>.</td></tr>
+<tr><td>achievement:<i>Name</i></td><td>num</td><td>Returns the date (for use with <a class=code href=#/proc/time2text>time2text</a>) the achievement called <tt>Name</tt>, or 0 if it hasn't been earned.</td></tr>
+<tr><td>achievement-data:<i>Name</i></td><td>list</td><td>Returns information about the achievement called <tt>Name</tt>. The result is an associative list with named values <tt>name</tt> (display name), <tt>desc</tt> (description), and optionally <tt>hidden</tt> and <tt>icon</tt>. (This call is the same no matter which client you call it for.)</td></tr>
+<tr><td>achievements</td><td>list</td><td>Returns a list of all possible achievements. Each item in the list is the internal name of the achievement, and it is associated with a list in the form described for <tt>achievement-data:<i>Name</i></tt>. (This call is the same no matter which client you call it for.)</td></tr>
+</tbody>
+</table>
+

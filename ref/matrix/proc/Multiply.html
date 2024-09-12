@@ -1,0 +1,34 @@
+
+
+<a name=/matrix/proc/Multiply>
+<h2>Multiply proc (matrix)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/matrix>matrix</a>
+<dd><a href=#/matrix/operators>matrix operators</a>
+<dd><a href=#/matrix/proc>matrix procs</a>
+<dd><a href=#/operator/*>*= operator</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Multiply(Matrix2)<br/><i>or</i>
+<dd>Multiply(n)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Matrix2: another matrix
+<dd>n: a number
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>src
+</dl>
+
+<p>This multiplies the current matrix by Matrix2 or n. If the n format is
+used, this is just like scaling the whole matrix. If another matrix is
+multiplied, then it is like doing the two transformations in order: src,
+then Matrix2.
+
+<p>Multiplication of one matrix by another depends on the order. You may
+get a different result multiplying A * B vs. B * A.
+

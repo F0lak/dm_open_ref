@@ -1,0 +1,37 @@
+
+
+<a name=/proc/fract>
+<h2 byondver=515>fract proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/trunc>trunc proc</a>
+<dd><a href=#/proc/floor>floor proc</a>
+<dd><a href=#/proc/ceil>ceil proc</a>
+<dd><a href=#/proc/round>round proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>fract(A)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>fractional part of A
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>A: A number, pixloc, or vector.
+</dl>
+
+<p>Returns the fractional part of the number A, with the same sign. This is
+everything after the decimal point.
+
+<h3>Example:</h3>
+<xmp>
+usr << fract(1.45) // outputs 0.45
+
+usr << fract(-1.45) // outputs -0.45
+</xmp>
+
+<p>If A is a pixloc, it will be treated as a vector with just its x and y
+parts, and the result will be a vector.
+

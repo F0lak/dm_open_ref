@@ -1,0 +1,134 @@
+
+
+<a name=/proc/startup>
+<h2>startup proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/params>params var (world)</a>
+<dd><a href=#/proc/shutdown>shutdown proc</a>
+</dl>
+
+
+<dl><dt><b>Format:</b>
+<dd>startup(File,Port=0,Options,...)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>File: The dmb file to run in a new server or null to load the current world.
+<dd>Port: The network port to start the new server on.  A value of 0
+          indicates that any available port should be used.
+<dd>Options: Any number of the options listed below.  Each option should be
+             in an argument by itself.  If the option takes a parameter, this
+             can be in the same argument or in the following one.
+</dl>
+
+<h3>The valid options are:</h3>
+<dl>
+
+<dt>-once
+<dd> automatically shuts down the server when all players have logged off.
+
+<dt>-close
+<dd>Closes the child copy of DreamDaemon after the world it is running shuts
+down.
+
+<dt>-log &lt;logfile&gt;
+<dd>sends all server output to the specified file.  The path to the file is
+relative to the world directory (the path containing the world
+<code>.dmb</code> file).
+
+<dt>-logself
+<dd>is identical to "-log [YourWorldFile].log".
+
+<dt>-safe
+<dd>runs the server in a special protective mode.  The server may only
+access files in the same directory (or below) as the dmb file and access to
+the shell() command is disabled.  This is the default mode if no security
+setting is specified and the world is run from a directory by the same name
+as the dmb file.
+
+<dt>-home &lt;path&gt;
+<dd>runs with the specified "safe home" directory.  Normally, in safe mode
+the directory containing the world dmb file is the safe home.
+
+<dt>-ultrasafe
+<dd>like -safe, this prohibits all file access.  This is the default if no
+security mode is specified and the world is not run from a directory with
+the same name.
+
+<dt>-trusted
+<dd>allows full access to files on the computer and to the shell() command.
+Note that this does not bypass the normal security of the operating system.
+For example, in the UNIX operating system, all of the usual access
+restrictions apply.  This mode merely removes BYOND's built-in safety checks.
+
+<dt>-params &lt;paramtext&gt;
+<dd>this is for passing user-defined parameters to the world.  Multiple
+parameters may be packed into a single argument or -params may be used
+several times.  In either case, the parameters are all loaded into
+world.params when the world starts up.  The parameter format is
+"name1=value1&name2=value2&...".
+
+<dt>-quiet
+<dd>disables the server's normal output indicating the BYOND version number
+and network port.
+
+<dt>-nologdates
+<dd>disables automatic date/time output in the log.
+
+<dt>-CGI
+<dd>runs the world as a CGI program (to be executed by a web server).  A
+/client object is automatically created for the user and any output sent to
+the associated mob gets returned to the user's web browser.  This option is
+normally specified in the compile-time setting:
+<a href=#/world/var/executor>world.executor</a>, which is automatically
+initialized for you if you include <code>html/CGI.dm</code> from the html
+library.
+
+<dt>-suid &lt;path&gt;
+<dd>runs the world as the owner of the specified directory or path.  This only
+works if DreamDaemon is running as root on operating systems where there even
+is such a thing.
+
+<dt>-suidself
+<dd>runs the world as the owner of the world dmb file.  This only works if
+DreamDaemon is running as root on operating systems where there even is such a
+thing.
+
+<dt>-cd &lt;path&gt;
+<dd>runs with the specified working directory.  Normally, the directory
+containing the world dmb file is used.
+
+<dt>-port P
+<dd>sets the network port to P.  The port may also be specified as a
+positional argument (following the .dmb name).
+
+<dt>-ports &lt;list&gt;
+<dd>restricts the range of ports that DreamDaemon and any child worlds may
+use.  The syntax of <i>list</i> is a comma separated list of ports or ranges
+of ports.  Example: <code>-ports 1234,1236,1240-1250</code>.
+
+<dt>-ip &lt;address&gt;
+<dd>sets the IP address of the server. This will only work for an IP address
+the system recognizes as one it can use for hosting. Accepts numerical
+addresses only.
+
+<dt>-webclient
+<dd>Enables the webclient, overriding default behavior.
+
+<dt>-nowebclient
+<dd>Disables the webclient, overriding default behavior.
+
+<dt>-verbose
+<dd>Runtime errors will continue outputting details after a certain number of
+errors has been reached. Without this option, the number of errors that
+provide detailed info (such as call stack) is limited. Use this option with
+caution as it could fill up a log file quickly if a problem occurs.
+
+</dl>
+
+
+<dl><dt><b>Returns:</b>
+<dd>The address of the new server in the form ip:port.
+</dl>
+

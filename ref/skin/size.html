@@ -1,0 +1,29 @@
+
+
+<a name=/{skin}/param/size>
+<h2>size parameter (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/pos>pos parameter</a>
+<dd><a href=#/{skin}/param/anchor>anchor1, anchor2 parameters</a>
+<dd><a href=#/{skin}/param/on-size>on-size parameter</a>
+<dd><a href=#/{skin}/param/inner-size>inner-size parameter</a>
+<dd><a href=#/{skin}/param/outer-size>outer-size parameter</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control>All</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd><i>width</i>x<i>height</i>
+</dl>
+
+<p>The size of this control.
+
+<p>Setting 0 for width or height uses up any available space right/downward.
+
+<p>If the control is a window, this refers to its <i>interior size when not maximized or minimized</i>. That is, it does not count borders, titlebar, menu, or statusbar, and if the window is minimized/maximized, this refers to the window's normal size when it is restored. See the <a class=code href=#/{skin}/param/inner-size>inner-size</a> and <a class=code href=#/{skin}/param/outer-size>outer-size</a> params for comparison.
+
+<p>If this control is a pane and <a class=code href=#/{skin}/param/can-scroll>can-scroll</a> is true, <tt>size</tt> refers to the total scrollable size of the pane, NOT the smaller size displayed. In this case, <tt>outer-size</tt> and <tt>inner-size</tt> refer to the display area with and without scrollbars, respectively.
+

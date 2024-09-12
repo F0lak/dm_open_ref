@@ -1,0 +1,27 @@
+
+
+<a name=/operator/:=>
+<h2 byondver=514>:= operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/=>= operator</a>
+<dd><a href=#/operator>operators</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>A := B
+</dl>
+
+<p>This is the "assign into" operator. The value of B is evaluated, then A. If
+A is a datum that has an <tt>operator:=</tt> proc overloading this operator,
+then that proc will be called with A as its src and B as its only argument.
+The return value of the proc (which defaults to its src, the old value of A)
+is assigned into the var that holds A.
+
+<p>If A was not a datum, then B is assigned into the var as if this were an
+ordinary A = B assignment.
+
+<p>A common use of this operator might be to copy another datum. This is
+basically just "syntactic sugar" to make certain datums easier to work with,
+and is intended mainly for situations where you've overloaded the operator.
+

@@ -1,0 +1,75 @@
+
+
+<a name=/proc/winclone>
+<h2>winclone proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/winexists>winexists proc</a>
+<dd><a href=#/proc/winget>winget proc</a>
+<dd><a href=#/proc/winset>winset proc</a>
+<dd><a href=#/proc/winshow>winshow proc</a>
+<dd><a href=#/{skin}>User interface skins</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>winclone(player, window_name, clone_name)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>player: A mob or client.
+<dd>window_name: The name of a window, pane, menu, or macro set in the world's skin file.
+<dd>clone_name: The name of the new window, pane, menu, or macro set to create.
+</dl>
+
+<p>Creates a clone of a window, pane, menu, or macro set that exists in the
+world's skin file. The original object as it exists in the skin file (not its
+current state) is used as a template to build the clone. The clone will exist
+only for the player you choose.
+
+<h3>Example:</h3>
+<xmp>
+winset(usr, "templatewindow", "clonedwindow")
+</xmp>
+
+<p>If a window is not visible by default, it will have to be shown with
+<tt>winset()</tt> or <tt>winshow()</tt>. A pane may be shown by using it in a
+Child or Tab control. Menus or macros must be assigned to a window with
+<tt>winset()</tt> before they will work.
+
+<p>If window_name is "window", "pane", "menu", or "macro", and the skin file
+does not have a control of that name already, the proc will create a new
+control of that type from scratch.
+
+<h3>Example:</h3>
+<xmp>
+winclone(usr, "menu", "newmenu")
+winset(usr, "newmenu_file", "parent=newmenu;name=File")
+winset(usr, "newmenu_quit", "parent=newmenu_file;name=Quit;command=.quit")
+</xmp>
+
+<p>A new window is invisible by default. For windows and panes, you should
+give them a size with <tt>winset()</tt> before adding any controls so you can
+set their anchors properly.
+
+<h3>Example:</h3>
+<xmp>
+// Create the pane
+winclone(usr, "pane", "newpane")
+// Give it a size so we can figure out where to put controls
+winset(usr, "newpane", "size=100x100")
+// Add controls
+winset(usr, "newpane_label", \
+       "parent=newpane;pos=0,0;size=100x100;anchor1=0,0;anchor2=100,100")
+// Put the pane in a child control where it can be seen
+winset(usr, "a_child", "left=newpane")
+usr << output("New label", "newpane_label")
+</xmp>
+
+<p>Once a clone is created, it can be deleted via a <tt>winset()</tt>
+call:</p>
+
+<h3>Example:</h3>
+<xmp>
+winset(usr, "clonedwindow", "parent=none")
+</xmp>
+

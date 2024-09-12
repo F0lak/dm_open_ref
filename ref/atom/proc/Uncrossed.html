@@ -1,0 +1,47 @@
+
+
+<a name=/atom/proc/Uncrossed>
+<h2 byondver=490>Uncrossed proc (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/proc/Enter>Enter proc (atom)</a>
+<dd><a href=#/atom/proc/Entered>Entered proc (atom)</a>
+<dd><a href=#/atom/proc/Exit>Exit proc (atom)</a>
+<dd><a href=#/atom/proc/Exited>Exited proc (atom)</a>
+<dd><a href=#/atom/proc/Cross>Cross proc (atom)</a>
+<dd><a href=#/atom/proc/Crossed>Crossed proc (atom)</a>
+<dd><a href=#/atom/proc/Uncross>Uncross proc (atom)</a>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/mob/var/group>group var (mob)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Uncrossed(atom/movable/O)
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when an object has stopped overlapping this one through a call to
+Move().  Directly setting the object's loc or step_x/y vars does not result
+in a call to Uncrossed() or any other movement side-effects.  The same goes
+for deletion of an object.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>O: the object that moved and is no longer overlapping.
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>none
+</dl>
+
+<h3>Example:</h3>
+<xmp>
+obj/pressure_plate
+   Uncrossed(O)
+      // if no other mobs are standing on it...
+      if(!(locate(/mob) in bounds()))
+         // do something
+         Release()
+</xmp>
+

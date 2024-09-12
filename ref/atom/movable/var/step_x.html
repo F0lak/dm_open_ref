@@ -1,0 +1,39 @@
+
+
+<a name=/atom/movable/var/step_x>
+<h2 byondver=490>step_x var (movable atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/var/step_y>step_y var (movable atom)</a>
+<dd><a href=#/atom/movable/var/step_size>step_size var (movable atom)</a>
+<dd><a href=#/atom/movable/var/bound_x>bound_x var (movable atom)</a>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/atom/movable/var/locs>locs list var (movable atom)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p>This var defines the position of the atom (in pixels) relative to its
+tile, on the x axis. A step_x of 5 means the atom actually is shown 5 pixels
+east of the tile's western edge.
+
+<p>The atom's actual bounding box may not begin at step_x, but can be set
+even further in via bound_x.
+
+<p>Example: A 16&times;16 smiley face centered in a 32&times;32 icon should
+have the following bounds:
+
+<ul><li>bound_x = 8</li>
+<li>bound_y = 8</li>
+<li>bound_width = 16</li>
+<li>bound_height = 16</li>
+</ul>
+
+<p>For the smiley to appear at the left edge of the tile it is standing on,
+it would need a step_x value of -8. A step_x value of 8 takes it all the way
+to the rightmost edge of the tile. Anything outside of the range -8 to 8 will
+have the atom straddling multiple turfs.
+

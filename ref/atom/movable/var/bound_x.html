@@ -1,0 +1,36 @@
+
+
+<a name=/atom/movable/var/bound_x>
+<h2 byondver=490 deprecated=516>bound_x var (movable atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/icon_w>icon_w var (atom)</a>
+<dd><a href=#/atom/movable/var/bound_y>bound_y var (movable atom)</a>
+<dd><a href=#/atom/movable/var/bound_width>bound_width var (movable atom)</a>
+<dd><a href=#/atom/movable/var/bound_height>bound_height var (movable atom)</a>
+<dd><a href=#/atom/movable/var/step_x>step_x var (movable atom)</a>
+<dd><a href=#/atom/movable/var/step_y>step_y var (movable atom)</a>
+<dd><a href=#/atom/movable/var/locs>locs list var (movable atom)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p class=deprecated>Note: The bound_x/y vars have been deprecated in favor of
+icon_w/z and pixel_w/z. It's now preferred to use bound_width/height alone to
+define a bounding box. New behavior simply subtracts bound_x/y from pixel_w/z
+to mimic the old usage.
+
+<p>This var defines the left side of the physical atom's bounding box, in
+pixels. By default all atoms are assumed to be one tile in physical size.
+
+<p>The left edge of the bounding box starts bound_x pixels inward from the
+left edge of the atom's icon (as affected by step_x). A bound_x value of 4
+means the atom has 4 pixels of empty space to its left.
+
+<p>Example: A 16&times;16 smiley face centered in a 32&times;32 icon should
+have a bound_x value of 8, since there are 8 pixels of empty space to the
+left.
+

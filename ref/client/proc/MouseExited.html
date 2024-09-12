@@ -1,0 +1,49 @@
+
+
+<a name=/client/proc/MouseExited>
+<h2>MouseExited proc (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/proc/Click>Click proc (client)</a>
+<dd><a href=#/client/proc/DblClick>DblClick proc (client)</a>
+<dd><a href=#/client/proc/MouseDrag>MouseDrag proc (client)</a>
+<dd><a href=#/client/proc/MouseDrop>MouseDrop proc (client)</a>
+<dd><a href=#/client/proc/MouseEntered>MouseEntered proc (client)</a>
+<dd><a href=#/atom/proc/MouseExited>MouseExited proc (atom)</a>
+<dd><a href=#/client/proc/MouseMove>MouseMove proc (client)</a>
+<dd><a href=#/client/proc/MouseUp>MouseUp proc (client)</a>
+<dd><a href=#/client/proc/MouseWheel>MouseWheel proc (client)</a>
+<dd><a href=#/atom/var/mouse_opacity>mouse_opacity var (atom)</a>
+<dd><a href=#/client/var/mouse_pointer_icon>mouse_pointer_icon var (client)</a>
+<dd><a href=#/client/var/show_popup_menus>show_popup_menus var (client)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>MouseExited(object,location,control,params)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>object: the object under the mouse pointer
+<dd>location: the turf, stat panel, grid cell, etc. containing the object where it was clicked
+<dd>control: the name of the skin control involved
+<dd>params: other parameters including mouse/keyboard flags, icon offsets, etc.; see <a href=#/DM/mouse>mouse handling</a>
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>Call object.MouseExited(location,control,params).
+</dl>
+
+<p>This is called when the mouse moves off of an object.
+
+<p>Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  Defining it on only the objects that
+require it reduces overhead.
+
+<p>The argument format for this verb is:
+
+<xmp>
+MouseExited(object as null|atom in usr.client,\
+            location as null|turf|text in usr.client,\
+            control as text, params as text)
+</xmp>
+

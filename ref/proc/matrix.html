@@ -1,0 +1,46 @@
+
+
+<a name=/proc/matrix>
+<h2 byondver=500>matrix proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/matrix>matrix</a>
+<dd><a href=#/atom/var/transform>transform var (atom)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>matrix()
+<dd>matrix(Matrix)
+<dd>matrix(a, b, c, d, e, f)
+<dd>matrix(x, y, MATRIX_SCALE)
+<dd>matrix(n, MATRIX_SCALE)
+<dd>matrix(angle, MATRIX_ROTATE)
+<dd>matrix(x, y, MATRIX_TRANSLATE)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A new matrix.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Matrix: a matrix to copy
+<dd>a - f: The individual matrix components (in column-major order)
+<dd>x, y: Arguments affecting how the shortcut matrix format affects x and y
+<dd>n: The same value used for x and y together
+<dd>angle: Rotation angle in degrees, clockwise
+</dl>
+
+<p>If no arguments are provided, a new default (identity) matrix is created.
+
+<p>There are also several "shortcut" matrix calls that can be made:
+
+<dl class=codedt>
+<dt>matrix(x, y, MATRIX_SCALE)</dt>
+<dt>matrix(n, MATRIX_SCALE)</dt>
+<dd>A scaling matrix, scaling either x and y independently or both together</dd>
+<dt>matrix(angle, MATRIX_ROTATE)</dt>
+<dd>A matrix that rotates by the angle in degrees, clockwise</dd>
+<dt>matrix(x, y, MATRIX_TRANSLATE)</dt>
+<dd>A matrix that translates by x and y</dd>
+</dl>
+

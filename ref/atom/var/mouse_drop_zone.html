@@ -1,0 +1,25 @@
+
+
+<a name=/atom/var/mouse_drop_zone>
+<h2>mouse_drop_zone var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/proc/MouseDrag>MouseDrag proc (atom)</a>
+<dd><a href=#/atom/proc/MouseDrop>MouseDrop proc (atom)</a>
+<dd><a href=#/atom/var/mouse_drag_pointer>mouse_drag_pointer var (atom)</a>
+<dd><a href=#/atom/var/mouse_drop_pointer>mouse_drop_pointer var (atom)</a>
+<dd><a href=#/atom/var/mouse_opacity>mouse_opacity var (atom)</a>
+<dd><a href=#/atom/var/mouse_over_pointer>mouse_over_pointer var (atom)</a>
+<dd><a href=#/client/var/mouse_pointer_icon>mouse_pointer_icon var (client)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p>Setting this to 1 indicates that this object is a valid site on which to
+drop other objects.  While dragging, <var>mouse_drop_cursor</var> of the
+object being dragged will become active in this case.  Note that this is a
+purely visual effect.  It does not control what the user may do with the
+mouse.  You control the real behavior with the associated procedures.
+

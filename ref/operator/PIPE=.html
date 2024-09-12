@@ -1,0 +1,30 @@
+
+
+<a name=/operator/|=>
+<h2>|= operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/&=>&amp;= operator</a>
+<dd><a href=#/operator>operators</a>
+<dd><a href=#/operator/|>| operator</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>A |= B
+</dl>
+
+<p>Set A equal to A | B.  It is shorthand for A = A | B.
+
+<p>This is commonly used to turn on certain bitfields in a word.
+
+<h3>Example:</h3>
+<xmp>
+usr.sight |= BLIND // turn on the blind bit
+</xmp>
+
+<p>If A and B are lists, any items in B that are not already in A are added
+to A.
+
+<p>If A is an /icon or /matrix datum, the datum will be changed rather than
+creating a new one and re-assigning it to A.
+

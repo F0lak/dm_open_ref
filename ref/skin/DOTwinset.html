@@ -1,0 +1,45 @@
+
+
+<a name=/{skin}/commands/.winset>
+<h2>.winset (client command)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/winset>winset proc</a>
+<dd><a href=#/{skin}/commands>client commands</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>.winset "<i>[control.param=value;...]</i>"</dt></dd>
+</dl>
+
+<p>Sets skin parameters like the <a href=#/proc/winset><tt>winset()</tt> proc</a>.
+You can set more than one parameter by separating them with semicolons.
+
+<p>This command also allows you to use conditional expressions, like so:
+
+<pre>condition ? choice1 : choice2</pre>
+
+<p>The condition is the same as any other parameter you might use in
+<tt>.winset</tt>, but instead of setting the parameter, it checks to see if
+it's true. If so, then the parameters in <tt>choice1</tt> will be set.
+Otherwise, the parameters in <tt>choice2</tt> are set. This example makes the
+window background red if bigbutton is checked.
+
+<pre>.winset "bigbutton.is-checked=true ? window.background-color=#ff0000 : window.background-color=none"</pre>
+
+<p>If you want to look for values that don't match instead of values that do,
+use <tt>!=</tt> instead of <tt>=</tt> in the condition.
+
+<pre>.winset "bigbutton.is-checked!=false ? window.background-color=#f00 : window.background-color=none"</pre>
+
+<p>The <tt>choice2</tt> item is optional.
+
+<pre>.winset "bigbutton.is-checked=true ? window.background-color=#f00"</pre>
+
+<p>Because it's often useful to do more than one thing at a time,
+<tt>choice1</tt> and <tt>choice2</tt> don't have to be just one parameter. You
+can use multiple parameters, but they are separated with a space instead of a
+semicolon. (A semicolon indicates the conditional expression is over.)
+
+<pre>.winset "bigbutton.is-checked=true ? window.text-color=#fff window.background-color=#f00 : window.text-color=none window.background-color=none"</pre>
+

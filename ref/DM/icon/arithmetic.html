@@ -1,0 +1,75 @@
+
+
+<a name=/DM/icon/arithmetic>
+<h2>icon arithmetic</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/icon>icon proc</a>
+<dd><a href=#/proc/icon_states>icon_states proc</a>
+<dd><a href=#/DM/icon>icons</a>
+<dd><a href=#/proc/rgb>rgb proc</a>
+<dd><a href=#/proc/turn/icon>turn proc (applied to an icon)</a>
+<dd><a href=#/icon>icon object</a>
+</dl>
+
+<p class=performance>Note: The following "arithmetical" methods of icon
+manipulation are being phased out in favor of the
+<a class=code href=#/icon> /icon</a> object, which can be directly manipulated
+and which provides a wider variety of operations. Many of those in turn have
+been obviated by the <a class=code href=#/atom/var/color>color</a> and
+<a class=code href=#/atom/var/transform>transform</a> vars.
+
+<p>There are several ways in which icons can be manipulated at runtime.
+They can be rotated, added together, and the colors components may be
+altered.
+
+<p>One purpose for such operations is to make players look different.  Other
+interesting uses (and abuses) will undoubtedly follow.
+
+<h3>Addition and Subtraction</h3>
+
+<p>The result of adding two icons is an arithmetic combination of the color
+components of each individual pixel.  At positions where either icon is
+transparent, the result is also transparent.  Subtraction, instead of
+increasing the intensity, decreases it by the amount in each pixel of the
+icon being subtracted.
+
+<p>Suppose you wanted to add together different bodies and heads.  You could
+do that by making a few of each type with black backgrounds.  When these add
+together, the black contributes nothing but prevents pixels in the other
+icon from getting clipped.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb
+   addicon(I as icon)
+      icon += I
+   subicon(I as icon)
+      icon -= I
+</xmp>
+
+<p>If you need to add the same color to every pixel, you can do so using a
+color value.  Color values have the same format as in HTML: "#RRGGBB" with
+two hexadecimal digits for each color component.  That gives you a range in
+color from 0 to FF (which is 255 in decimal).
+
+<p>You can also specify a color value as "#RGB".  The single digit is
+automatically repeated, so "#F00" is the same as "#FF0000", which is bright
+red.  For certain pre-defined color values, you can also specify a name,
+such as "red".  See <a href=#/{{appendix}}/html-colors>HTML colors</a> for a
+list of color names.
+
+<p>If you prefer base 10, you can create color values with the rgb(R,G,B)
+instruction.  Each parameter is in the range 0 to 255.
+
+<h3>Multiplication</h3>
+
+<p>To increase (or decrease) the intensity of an icon multiplicatively, you
+can use the '<code>*</code>' operator.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/multicon(factor as num)
+   icon *= factor
+</xmp>
+

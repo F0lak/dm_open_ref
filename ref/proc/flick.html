@@ -1,0 +1,31 @@
+
+
+<a name=/proc/flick>
+<h2>flick proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/icon_state>icon_state var (atom)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>flick(Icon,Object)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Icon:  An icon file or state name.
+<dd>Object:   The target object.
+</dl>
+
+<p>Cause the icon attached to Object to be temporarily replaced with the
+specified icon or icon state for the duration of the animation.  This is a
+purely visual effect and does not effect the actual value of the object's
+icon variable.
+
+<h3>Example:</h3>
+<xmp>
+flick('blink.dmi',usr) //show another icon
+flick("fight",usr)     //show usr's fight state
+</xmp>
+
+<p>The target object may be any atom or image.
+

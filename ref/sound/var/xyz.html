@@ -1,0 +1,29 @@
+
+
+<a name=/sound/var/xyz>
+<h2>x, y, and z vars (sound)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/sound/var>vars (sound)</a>
+<dd><a href=#/sound/var/falloff>falloff var (sound)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>all 0
+</dl>
+
+<p>Set to different values to give your sound a 3D effect which will be applied
+when it is played. Positive values for <tt>x</tt> will sound as if they come
+from the right, positive <tt>y</tt> sounds like it is above the player's head,
+and positive <tt>z</tt> sounds like it is directly ahead. The effect of 3D sound
+depends on the player's computer's sound card, and is greatly enhanced when
+wearing headphones.
+
+<p>Depending on the value of <tt>falloff</tt>, the settings for the location of
+the sound can also affect its volume. Once the distance passes the value of
+<tt>falloff</tt>, the volume will diminish.
+
+<p>If these values are all set to 0, you should set <tt>environment</tt> if you
+want to treat it as a 3D sound. Otherwise BYOND will assume this is meant to be
+a non-3D sound such as music or the interface.
+

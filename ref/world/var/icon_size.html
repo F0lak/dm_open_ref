@@ -1,0 +1,30 @@
+
+
+<a name=/world/var/icon_size>
+<h2>icon_size var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/atom/movable/var/step_size>step_size var (movable atoms)</a>
+<dd><a href=#/{notes}/gliding>Gliding</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>32
+</dl>
+
+<p>This is the tile size that will be used as a default for icons in the
+world. It can be set to a single number that represents both the width and
+height, or you can use a format like "[width]x[height]" (such as "16x48") to
+specify width and height separately.
+
+<p>This value affects several calculations, including icon operations and
+gliding between turfs.
+
+<p>Note: If you do not use a square icon size and you are using a topdown map
+format, you may experience display issues if setting <tt>client.dir</tt>
+to <tt>EAST</tt> or <tt>WEST</tt>. A non-square tile with a topdown map format
+will also interfere with pixel movement. For this reason, square sizes are
+recommended when using any topdown-view map format.
+

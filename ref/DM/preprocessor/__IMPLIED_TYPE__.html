@@ -1,0 +1,44 @@
+
+
+<a name=/DM/preprocessor/__IMPLIED_TYPE__>
+<h2 byondver=515>__IMPLIED_TYPE__ macro</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/__FILE__>__FILE__ macro</a>
+<dd><a href=#/DM/preprocessor/__LINE__>__LINE__ macro</a>
+<dd><a href=#/DM/preprocessor/__PROC__>__PROC__ macro</a>
+<dd><a href=#/DM/preprocessor/__TYPE__>__TYPE__ macro</a>
+<dd><a href=#/proc/new>new proc</a>
+<dd><a href=#/proc/locate>locate proc</a>
+<dd><a href=#/proc/istype>istype proc</a>
+</dl>
+
+<p>The <tt>__IMPLIED_TYPE__</tt> macro is replaced by a reference to the type
+path implied at the current point in compilation. For instance, when using the
+<a href=#/proc/new><tt>new</tt> proc</a> and assigning to a var, the type path
+for <tt>new()</tt> is implied by the var's type. Implied types are also
+automatically used in <a class=code href=#/proc/locate>locate()</a>, and are
+used by default for the second argument in
+<a class=code href=#/proc/istype>istype()</a>.
+
+<h3>Example:</h3>
+<xmp>
+proc/Factory(new_type)
+    world.log << "Creating new [new_type]"
+    return new new_type()
+
+proc/CreateThing()
+    // pass /thing to Factory
+    var/thing/T = Factory(__IMPLIED_TYPE__)
+</xmp>
+
+<p><tt>__IMPLIED_TYPE__</tt> is valid in the following situations:
+
+<ul>
+<li>In an expression on the right-hand side of an assignment operator (this includes operators like <tt>+=</tt>), where the left-hand side is a var that has a defined type path.
+<li>Within the second argument of <a class=code href=#/proc/istype>istype()</a>.</li>
+</ul>
+
+<p>This is actually a pseudo-macro; the preprocessor doesn't handle it
+directly.
+

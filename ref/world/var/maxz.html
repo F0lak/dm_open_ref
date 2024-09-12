@@ -1,0 +1,26 @@
+
+
+<a name=/world/var/maxz>
+<h2>maxz var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/area>area var (world)</a>
+<dd><a href=#/world/var/maxx>maxx var (world)</a>
+<dd><a href=#/world/var/maxy>maxy var (world)</a>
+<dd><a href=#/world/var/turf>turf var (world)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p>The world map is a three-dimensional block of turfs with coordinates
+ranging from (1,1,1) to (maxx,maxy,maxz).  If set at compile time, it
+provides a lower bound and will be increased as needed by the map files.
+
+<p>The default value is 0, indicating no map.  If any of the map dimensions
+are set to non-zero values at compile time, the others will default to 1.
+
+<p>New territory created by increasing the map boundaries is filled in with
+the default turf and area (world.turf, and world.area).
+

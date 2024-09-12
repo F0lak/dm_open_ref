@@ -1,0 +1,60 @@
+
+
+<a name=/atom/proc/Enter>
+<h2>Enter proc (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/proc/Entered>Entered proc (atom)</a>
+<dd><a href=#/atom/proc/Exit>Exit proc (atom)</a>
+<dd><a href=#/atom/proc/Exited>Exited proc (atom)</a>
+<dd><a href=#/atom/proc/Cross>Cross proc (atom)</a>
+<dd><a href=#/atom/proc/Crossed>Crossed proc (atom)</a>
+<dd><a href=#/atom/proc/Uncross>Uncross proc (atom)</a>
+<dd><a href=#/atom/proc/Uncrossed>Uncrossed proc (atom)</a>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/world/var/movement_mode>movement_mode var (world)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Enter(atom/movable/O, atom/oldloc)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>1 to permit; 0 to deny.
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when an object attempts to enter the contents list.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>O: the object attempting to enter.
+<dd>oldloc: the old (current) loc of the object attempting to enter.
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>Explained below.
+</dl>
+
+<p>Areas, objs, and mobs will always permit anything to enter by default.
+
+<p class=note>The following behavior only applies to
+<a class=code href=#/world/var/movement_mode>LEGACY_MOVEMENT_MODE</a>. In all
+other movement modes, the turf's contents are not taken into account. Only the
+result of turf.Cross() matters.
+
+<p>Turfs will return 1 (permit) or 0 (deny) based on density. In simple
+terms, if the atom that is entering is dense, then the turf will deny entry
+if the turf itself or its contents (any that take up the full tile) are
+dense.
+
+<p>What actually happens in turf.Enter() is more detailed: Cross() is called
+for the turf, and if it succeeds (movement is permitted), then Cross() is
+called for any atoms in turf.contents that cover the entire tile. If any
+Cross() call fails, Enter() fails too and will return 0.
+
+<p>If a mob is standing on a turf but its bounding box does not cover the
+whole tile, it is ignored by Enter(). Instead, its Cross() proc is called if
+there is a danger of the object overlapping it.
+

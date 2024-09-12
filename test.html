@@ -1,0 +1,1467 @@
+<a name=/DM>
+	<h2>DM language details</h2>
+	
+	<p>The DM (Dream Maker) language uses a syntax similar to C/C++ to build
+	networked multi-user worlds.  This reference and the accompanying guide
+	discuss the structure and function of DM.
+	
+	<p>This reference is arranged in sections:
+	
+	<ul>
+	<li><b>The DM language:</b> The majority of the reference; items in this section can have top-level entries.</li>
+	<li><b>Special notes:</b> Articles describing advanced features or concepts in more depth.</li>
+	<li><b>User interface skins:</b> Anything related to creating custom UIs for your world.</li>
+	<li><b>Appendix:</b> Additional reference informtation that might apply to multiple topics, e.g. regarding colors or HTML.</li>
+	</ul>
+	
+	<p>You can filter the reference content by subject, which helps narrow down
+	anything you might be looking for.
+	
+	<p>In various articles you may see notes or sidebar content:
+	
+	<table style="margin: 0 1em;">
+	<colgroup><col style="width:40px; font-size: 20px; text-shadow: 0 0 3px white, 0 0 3px white" class=center /><col class=vcenter /></colgroup>
+	<tr><td>&#x26a0;&#xfe0f;</td><td>Important note</td></tr>
+	<tr><td>&#x1f512;&#xfe0f;</td><td>Security concerns</td></tr>
+	<tr><td>&#x1f3c3;&#xfe0f;</td><td>Performance tip</td></tr>
+	<tr><td>&#x1f44d;&#xfe0f;</td><td>Rule of thumb</td></tr>
+	<tr><td>&#x1f3db;&#xfe0f;</td><td>Compatibility</td></tr>
+	<tr><td>&#x1f4a1;&#xfe0f;</td><td>Did you know?</td></tr>
+	<tr><td>&#x1f527;&#xfe0f;</td><td>Under the hood</td></tr>
+	<tr><td>&#x1f995;&#xfe0f;</td><td>Deprecated feature</td></tr>
+	<tr><td>&#x1f3b3;&#xfe0f;</td><td>Play area</td></tr>
+	</table>
+	
+	<hr>
+	
+	<a name=/DM/cache>
+	<h2>cache</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define/FILE_DIR>FILE_DIR definition</a>
+	<dd><a href=#/world/var/cache_lifespan>cache_lifespan var (world)</a>
+	<dd><a href=#/proc/fcopy_rsc>fcopy_rsc proc</a>
+	<dd><a href=#/proc/file>file proc</a>
+	<dd><a href=#/DM/icon>icons</a>
+	<dd><a href=#/DM/sound>sounds</a>
+	</dl>
+	
+	<p>Files specified in single quotes are loaded (at compile time) into the
+	world cache file (ending in <code>.rsc</code>).  These are referred to as
+	resource files.  At runtime these files are downloaded by players into their
+	<code>byond.rsc</code> file for future use.  With the appropriate verbs or
+	through savefiles, players may also upload files into the world cache.
+	
+	<p>If a resource file is not used for a long time, it will be automatically
+	removed from the cache file to save space.  If a cache file gets too bulky,
+	however, you may manually delete it and start from scratch.
+	
+	<p>To make compilation faster and to make it easier to distribute code, the
+	compiler will use an existing cache file if possible.  That means you could
+	compile up a world, and send people the <code>.dm</code> and
+	<code>.rsc</code> files without any need to package all the individual
+	resource files.  It is also possible to include additional supplementary
+	<code>.rsc</code> files by using the <code>#include</code> statement.
+	
+	<hr>
+	
+	<a name=/DM/comment>
+	<h2>comment</h2>
+	
+	<p>Comments may be used to explain code.  They can also be used to turn off a
+	line or block of code.  All text inside a comment is ignored by the compiler.
+	
+	<p>The single line comment begins with <code>//</code> and runs to the end of
+	the line.
+	
+	<p>The multi-line comment begins with <code>/*</code> and runs until
+	<code>*/</code>.
+	
+	<p>Multi-line comments may be nested.
+	
+	<h3>Example:</h3>
+	<xmp>
+	  // single line comment
+	  /*
+		 multi-line comment
+	  */
+	</xmp>
+	
+	<hr>
+	
+	<a name=/DM/garbage>
+	<h2>garbage collection</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/proc/del>del proc</a>
+	<dd><a href=#/world>world</a>
+	<dd><a href=#/proc/refcount>refcount proc</a>
+	</dl>
+	
+	<p>At runtime, data objects are garbage collected.  That means data which
+	is no longer in use gets automatically deleted to free up system memory.
+	This applies to text strings, lists, savefiles, datum objects, and so on.
+	
+	<p>The garbage collector works by using an efficient reference counting
+	system.  Once an item is no longer referenced by any variable, it gets
+	deleted.  For the most part, that frees you from having to think about memory
+	allocation, which is wonderful, especially in the case of text strings, which
+	tend to be allocated on the fly all over the place.
+	
+	<p>There are a couple provisos that you should note.  One is that circular
+	references will never be deleted by the garbage collector.  By <em>circular
+	reference</em>, I mean a pair of objects with variables that point to each
+	other, or even an object with a variable that points to itself.  In rare
+	cases, you may even depend on this behavior.  When you are done with such
+	objects, you should either null out the circular reference, or you should
+	forcibly destroy each object with the <code>del</code> instruction.
+	
+	<div class="sidebar underhood">
+	<p>This is a quick list of things that count as references to an object:
+	<ul>
+	<li>Stored in a var</li>
+	<li>An item in a <a href=#/list>list</a>, or <a href=#/list/associations>associated</a> with a list item</li>
+	<li>Has a <a class=code href=#/datum/var/tag>tag</a>
+	<li>Is on the map (always true for <a href=#/turf>turfs</a>)</li>
+	<li>Inside another atom's <a class=code href=#/atom/var/contents>contents</a></li>
+	<li>Inside an atom's <a class=code href=#/atom/var/vis_contents>vis_contents</a></li>
+	<li>A temporary value in a still-running proc</li>
+	<li>Is a <a href=#/mob>mob</a> with a <a class=code href=#/mob/var/key>key</a></li>
+	<li>Is an <a href=#/image>image object</a> attached to an atom</li>
+	</ul>
+	<p><tt>del()</tt> will try to clear out the most obvious possible references
+	first, and bail out when it's done, but if there are still references it will
+	search everywhere for any references that remain.
+	</div>
+	
+	<p>An object with running or sleeping procs is referenced by the
+	<code>src</code> variable of those procs and will therefore not be thrown out.
+	
+	<p>Another note is that the <code>world.contents</code> list does not count as
+	a reference.  Otherwise, <tt>/mob</tt> and <tt>/obj</tt> objects would never
+	be deleted, which is not the case.  Note that objects which are contained by
+	another object or which contain objects themselves <em>are</em> referenced and
+	will not be deleted.  That means an object must be at <code>loc=null</code>
+	with no contents and, of course, no other references anywhere in order to get
+	deleted by the garbage collector.
+	
+	<p>Mobs with a non-empty <tt>key</tt> and all objects with non-empty
+	<tt>tag</tt> are also immortal.
+	
+	<p>Turfs and areas do not currently get garbage collected.
+	
+	<p>When the world shuts down, all objects are destroyed, whether they are
+	referenced or not.  You don't have to worry about system memory getting
+	consumed by persistent objects.  That doesn't happen.
+	
+	<p>In general, people who do not like reference counting garbage collection
+	should be happy that DM provides a <code>del</code> instruction, allowing you
+	to take charge and delete things whether they are referenced or not.  Another
+	nicety is that this automatically nulls out any existing references to the
+	object, so you don't end up with dangling references to a deleted object,
+	which can otherwise be a great source of instability and mysterious bugs.
+	
+	<hr>
+	
+	<a name=/DM/icon>
+	<h2>icons</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define/FILE_DIR>FILE_DIR definition</a>
+	<dd><a href=#/DM/cache>cache</a>
+	<dd><a href=#/proc/flick>flick proc</a>
+	<dd><a href=#/icon>icon</a>
+	<dd><a href=#/atom/var/icon>icon var (atom)</a>
+	<dd><a href=#/atom/var/icon_state>icon_state var (atom)</a>
+	<dd><a href=#/image>image objects</a>
+	</dl>
+	
+	<p>An icon file may be referenced by putting single quotes around the
+	filename.  The file extension determines the type of icon.  Currently
+	supported icon types are <code>.dmi</code>, <code>.bmp</code>, <code>.png</code>,
+	<code>.jpg</code>, and <code>.gif</code>.  To create dmi icons, use the Dream
+	Maker icon editor.  This allows you to make animations, 4 or 8 directional icons,
+	and icons with different states (such as "live" and "dead").
+	
+	<h3>Example:</h3>
+	<xmp>
+	  mob
+		icon = 'monster.dmi'
+	</xmp>
+	
+	<p>You can also load icons into memory at run-time and manipulate the
+	graphical data to produce new icons dynamically.  This is done by creating an
+	<a href=#/icon>/icon</a> object.
+	
+	<hr>
+	
+	<a name=/DM/icon/arithmetic>
+	<h2>icon arithmetic</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/proc/icon>icon proc</a>
+	<dd><a href=#/proc/icon_states>icon_states proc</a>
+	<dd><a href=#/DM/icon>icons</a>
+	<dd><a href=#/proc/rgb>rgb proc</a>
+	<dd><a href=#/proc/turn/icon>turn proc (applied to an icon)</a>
+	<dd><a href=#/icon>icon object</a>
+	</dl>
+	
+	<p class=performance>Note: The following "arithmetical" methods of icon
+	manipulation are being phased out in favor of the
+	<a class=code href=#/icon> /icon</a> object, which can be directly manipulated
+	and which provides a wider variety of operations. Many of those in turn have
+	been obviated by the <a class=code href=#/atom/var/color>color</a> and
+	<a class=code href=#/atom/var/transform>transform</a> vars.
+	
+	<p>There are several ways in which icons can be manipulated at runtime.
+	They can be rotated, added together, and the colors components may be
+	altered.
+	
+	<p>One purpose for such operations is to make players look different.  Other
+	interesting uses (and abuses) will undoubtedly follow.
+	
+	<h3>Addition and Subtraction</h3>
+	
+	<p>The result of adding two icons is an arithmetic combination of the color
+	components of each individual pixel.  At positions where either icon is
+	transparent, the result is also transparent.  Subtraction, instead of
+	increasing the intensity, decreases it by the amount in each pixel of the
+	icon being subtracted.
+	
+	<p>Suppose you wanted to add together different bodies and heads.  You could
+	do that by making a few of each type with black backgrounds.  When these add
+	together, the black contributes nothing but prevents pixels in the other
+	icon from getting clipped.
+	
+	<h3>Example:</h3>
+	<xmp>
+	mob/verb
+	   addicon(I as icon)
+		  icon += I
+	   subicon(I as icon)
+		  icon -= I
+	</xmp>
+	
+	<p>If you need to add the same color to every pixel, you can do so using a
+	color value.  Color values have the same format as in HTML: "#RRGGBB" with
+	two hexadecimal digits for each color component.  That gives you a range in
+	color from 0 to FF (which is 255 in decimal).
+	
+	<p>You can also specify a color value as "#RGB".  The single digit is
+	automatically repeated, so "#F00" is the same as "#FF0000", which is bright
+	red.  For certain pre-defined color values, you can also specify a name,
+	such as "red".  See <a href=#/{{appendix}}/html-colors>HTML colors</a> for a
+	list of color names.
+	
+	<p>If you prefer base 10, you can create color values with the rgb(R,G,B)
+	instruction.  Each parameter is in the range 0 to 255.
+	
+	<h3>Multiplication</h3>
+	
+	<p>To increase (or decrease) the intensity of an icon multiplicatively, you
+	can use the '<code>*</code>' operator.
+	
+	<h3>Example:</h3>
+	<xmp>
+	mob/verb/multicon(factor as num)
+	   icon *= factor
+	</xmp>
+	
+	<hr>
+	
+	<a name=/DM/mouse toc="mouse handling">
+	<h2>mouse handling</h2>
+	
+	<p>Various mouse actions may be handled by defining procedures either on the
+	client object or on the atomic object being manipulated.  Any of the following
+	procedures may be defined:
+	
+	<ul>
+	<li><a href=#/client/proc/MouseDown>MouseDown()</a>
+	<li><a href=#/client/proc/MouseUp>MouseUp()</a>
+	<li><a href=#/client/proc/MouseDrag>MouseDrag()</a>
+	<li><a href=#/client/proc/MouseDrop>MouseDrop()</a>
+	<li><a href=#/client/proc/MouseEntered>MouseEntered()</a>
+	<li><a href=#/client/proc/MouseExited>MouseExited()</a>
+	<li><a href=#/client/proc/MouseMove>MouseMove</a>
+	<li><a href=#/client/proc/MouseWheel>MouseWheel</a>
+	<li><a href=#/client/proc/Click>Click()</a>
+	<li><a href=#/client/proc/DblClick>DblClick()</a>
+	</ul>
+	
+	<p>In general, define only the procedures you need, because extra
+	communication overhead may be avoided when the compiler detects that you do
+	not care about certain events.
+	
+	<p>The arguments used in mouse procs generally follow one of these forms:
+	
+	<dl>
+	<dt>For Click(), DblClick(), MouseDown(), MouseUp(), MouseEntered(), MouseExited(), and MouseMove():</dt>
+	  <dd>client/Click(object, location, control, params)<br/>
+	  atom/Click(location, control, params)</dd>
+	<dt>For MouseDrag() and MouseDrop():</dt>
+	  <dd>client/MouseDrag(src_object, over_object, src_location, over_location, src_control, over_control, params)<br/>
+	  atom/MouseDrag(over_object, src_location, over_location, src_control, over_control, params)</dd>
+	<dt>For MouseWheel():</dt>
+	  <dd>client/MouseWheel(object, delta_x, delta_y, location, control, params)<br/>
+	  atom/MouseWheel(delta_x, delta_y, location, control, params)</dd>
+	</dl>
+	
+	<p>The <tt>location</tt> argument varies with the type of control. For the map, it
+	will be the turf where the mouse action happened. For info controls (statpanels),
+	it will be the name of the statpanel where the action happened. For grid controls,
+	it will be the cell where the action happened. For others controls it may vary,
+	but most will leave this blank.
+	
+	<p>The <tt>control</tt> argument is the ID of the skin control where the
+	action happened, such as <tt>"mappane.map"</tt> or <tt>"mainwindow.banner"</tt>.
+	
+	<p>The <tt>params</tt> argument is text, and can be converted to a list using
+	<a class=code href=#/proc/params2list>params2list()</a>. It may contain any of
+	the following properties, which will only be set if they are used:
+	
+	<ul>
+	<li>icon-x, icon-y: Pixel coordinates within the icon, in the icon's coordinate space
+	<li>screen-loc: Pixel coordinates in screen_loc format ("[tile_x]:[pixel_x],[tile_y]:[pixel_y]")
+	<li>left, middle, right: Mouse buttons pressed, held, or released in this action (see compatibility note below)
+	<li byondver=514>button: Mouse button pressed or released in this action (see compatibility note below)
+	<li>ctrl, shift, alt: Keys held down during the mouse action
+	<li>drag-cell, drop-cell: Cells involved if using a Grid control
+	<li>drag: The button used for dragging (only sent for unrelated mouse up/down messages during a drag)
+	<li>link: If the mouse is over a link in maptext, or this event is related to clicking such a link
+	<li>vis-x, vis-y: Pixel coordinates relative to the icon's position on screen
+	</ul>
+	
+	<p>The icon-x/y coordinates are integers, and try to point to the actual
+	pixel in the icon before any atom transforms are done; i.e. if the icon
+	were scaled up to 3 times its size using the transform var, then a
+	3&times;3 region of pixels would all have the same icon-x/y values. The lower
+	left pixel of the icon is 1,1. The vis-x/y parameters are screen-based, and
+	their origin (1,1) is wherever the lower left corner of the icon is rendered.
+	
+	<p>Note: vis-x/y will not be included in the parameters if they are the same
+	as icon-x/y.
+	
+	<p>If the mouse is over an overlay, icon-x/y and vis-x/y are relative to the
+	parent object, not the overlay icon itself, so it's possible to have value
+	outside of the normal range of 1,1 to [width],[height].
+	
+	<p>The mouse pointer may be customized as well.  The following variables all
+	deal with the appearance of the pointer.  They do not control what actions may
+	be taken by the user, but they provide hints to the user about what actions
+	may work.
+	
+	<ul>
+	<li><a href=#/client/var/mouse_pointer_icon>mouse_pointer_icon</a>
+	<li><a href=#/atom/var/mouse_over_pointer>mouse_over_pointer</a>
+	<li><a href=#/atom/var/mouse_drag_pointer>mouse_drag_pointer</a>
+	<li><a href=#/atom/var/mouse_drop_pointer>mouse_drop_pointer</a>
+	<li><a href=#/atom/var/mouse_drop_zone>mouse_drop_zone</a>
+	<li><a href=#/atom/var/mouse_opacity>mouse_opacity</a>
+	</ul>
+	
+	<p>When selecting a mouse pointer, you may provide your own custom icon or use
+	one of the <a href=#/DM/mouse/pointers>built-in pointers</a>.
+	
+	<p class=compatibility>Note: Older games compiled prior to BYOND 4.0 had a
+	different format for the <tt>MouseDown()</tt> and <tt>MouseUp()</tt> procs.
+	These used <tt>icon_x</tt> and <tt>icon_y</tt> as arguments, but
+	<tt>control</tt> and <tt>params</tt> have replaced them.
+	
+	<p class=compatibility>Note: Games compiled before version 514 did not have
+	the <tt>button</tt> parameter, so they handled the <tt>left</tt>,
+	<tt>middle</tt>, and <tt>right</tt> parameters differently. In old versions,
+	only the button used in the action (left, middle, right) was included as a
+	parameter; now all buttons being held or changed are included, and
+	<tt>button</tt> is the mouse button that changed.
+	
+	<hr>
+	
+	<a name=/DM/mouse/pointers>
+	<h2>mouse pointers</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/mouse>mouse handling</a>
+	<dd><a href=#/atom/var/mouse_drag_pointer>mouse_drag_pointer var (atom)</a>
+	<dd><a href=#/atom/var/mouse_drop_pointer>mouse_drop_pointer var (atom)</a>
+	<dd><a href=#/atom/var/mouse_drop_zone>mouse_drop_zone var (atom)</a>
+	<dd><a href=#/atom/var/mouse_opacity>mouse_opacity var (atom)</a>
+	<dd><a href=#/atom/var/mouse_over_pointer>mouse_over_pointer var (atom)</a>
+	<dd><a href=#/client/var/mouse_pointer_icon>mouse_pointer_icon var (client)</a>
+	</dl>
+	
+	<p>The following mouse pointers are built-in and may be assigned to any of the
+	mouse pointer variables.  Of course, you can also define your own custom mouse
+	pointers using an icon file.
+	
+	<dl>
+	<dt>MOUSE_INACTIVE_POINTER (0)
+	<dt>MOUSE_ACTIVE_POINTER (1)
+	<dt>MOUSE_DRAG_POINTER
+	<dd>Same as mouse_drag_pointer = MOUSE_ACTIVE_POINTER.
+	<dt>MOUSE_DROP_POINTER
+	<dd>Same as mouse_drop_pointer = MOUSE_ACTIVE_POINTER.
+	<dt>MOUSE_ARROW_POINTER
+	<dd>Same as mouse_over_pointer = MOUSE_INACTIVE_POINTER.
+	<dt>MOUSE_CROSSHAIRS_POINTER
+	<dd>Same as mouse_over_pointer = MOUSE_ACTIVE_POINTER.
+	<dt>MOUSE_HAND_POINTER
+	</dl>
+	
+	<hr>
+	
+	<a name=/DM/null>
+	<h2>null</h2>
+	
+	<p>Variables that are not initialized have the value null.  This value is
+	distinct from 0 and "".  If you compare it to these, using the <code>==</code>
+	operator, it is not equal.  However, in a numeric context (like a mathematical
+	operation), null evaluates to 0 and in a text context (like insertion into a
+	text expression), null evaluates to "".  In a logical expression, null, 0, and
+	"" evaluate to false and all other values are true.
+	
+	<p>In an embedded text expression, null behaves like "".  That means, if you
+	are expecting a variable to display a 0, you should explicitly initialize it
+	to 0 rather than leaving it as null.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor>
+	<h2>preprocessor</h2>
+	
+	<p>The preprocessor performs various transformations on source code as the DM
+	compiler reads the file.  It may be used to define macros&mdash;that is words
+	which are replaced by other fragments of code.  It is also possible to insert
+	other source code files and to conditionally compile or not compile sections
+	of code.
+	
+	<p>Preprocessor commands are called directives.  They are placed on a line by
+	themselves and always begin with a hash symbol <code>#</code>.  The
+	preprocessor directives recognized by DM are the same as standard C compilers:
+	
+	<code><pre>
+	<a href=#/DM/preprocessor/define>#define</a>
+	<a href=#/DM/preprocessor/if>#if</a>
+	<a href=#/DM/preprocessor/elif>#elif</a>
+	<a href=#/DM/preprocessor/ifdef>#ifdef</a>
+	<a href=#/DM/preprocessor/ifndef>#ifndef</a>
+	<a href=#/DM/preprocessor/else>#else</a>
+	<a href=#/DM/preprocessor/endif>#endif</a>
+	<a href=#/DM/preprocessor/include>#include</a>
+	<a href=#/DM/preprocessor/pragma>#pragma</a>
+	<a href=#/DM/preprocessor/error>#error</a>
+	<a href=#/DM/preprocessor/warn>#warn</a>
+	</pre></code>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/DM_BUILD>
+	<h2>DM_BUILD macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/world/var/byond_build>byond_build var (world)</a>
+	<dd><a href=#/client/var/byond_build>byond_build var (client)</a>
+	<dd><a href=#/DM/preprocessor/DM_VERSION>DM_VERSION macro</a>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	</dl>
+	
+	<p>This macro indicates the minor version of the compiler, which is useful
+	during BYOND beta testing. More often, you will want to use the
+	<tt>DM_VERSION</tt> macro instead, which is the major version.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/DM_VERSION>
+	<h2>DM_VERSION macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/world/var/byond_version>byond_version var (world)</a>
+	<dd><a href=#/client/var/byond_version>byond_version var (client)</a>
+	<dd><a href=#/DM/preprocessor/DM_BUILD>DM_BUILD macro</a>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	<dd><a href=#/DM/preprocessor/pragma/compatibility>#pragma compatibility directive</a>
+	</dl>
+	
+	<p>This macro indicates the version of the compiler.  This could be useful when
+	distributing code that uses new language features that would not compile in
+	older compilers.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#if DM_VERSION < 230
+	#error This compiler is too far out of date!
+	#endif
+	</xmp>
+	
+	<p>If you use <tt>#pragma compatibility</tt>, it will alter the value of this
+	macro (but never higher than the actual version being compiled). In this way
+	you can alter your code's behavior based on the pragma.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/__FILE__>
+	<h2>__FILE__ macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/proc/ASSERT>ASSERT proc</a>
+	<dd><a href=#/DM/preprocessor/define/DEBUG>DEBUG definition</a>
+	<dd><a href=#/DM/preprocessor/__LINE__>__LINE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__MAIN__>__MAIN__ macro</a>
+	<dd><a href=#/DM/preprocessor/__PROC__>__PROC__ macro</a>
+	<dd><a href=#/DM/preprocessor/__TYPE__>__TYPE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__IMPLIED_TYPE__>__IMPLIED_TYPE__ macro</a>
+	</dl>
+	
+	<p>The __FILE__ macro expands to a string containing the name of the current
+	source file.  This may be useful when generating debugging error messages.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/__IMPLIED_TYPE__>
+	<h2 byondver=515>__IMPLIED_TYPE__ macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/__FILE__>__FILE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__LINE__>__LINE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__PROC__>__PROC__ macro</a>
+	<dd><a href=#/DM/preprocessor/__TYPE__>__TYPE__ macro</a>
+	<dd><a href=#/proc/new>new proc</a>
+	<dd><a href=#/proc/locate>locate proc</a>
+	<dd><a href=#/proc/istype>istype proc</a>
+	</dl>
+	
+	<p>The <tt>__IMPLIED_TYPE__</tt> macro is replaced by a reference to the type
+	path implied at the current point in compilation. For instance, when using the
+	<a href=#/proc/new><tt>new</tt> proc</a> and assigning to a var, the type path
+	for <tt>new()</tt> is implied by the var's type. Implied types are also
+	automatically used in <a class=code href=#/proc/locate>locate()</a>, and are
+	used by default for the second argument in
+	<a class=code href=#/proc/istype>istype()</a>.
+	
+	<h3>Example:</h3>
+	<xmp>
+	proc/Factory(new_type)
+		world.log << "Creating new [new_type]"
+		return new new_type()
+	
+	proc/CreateThing()
+		// pass /thing to Factory
+		var/thing/T = Factory(__IMPLIED_TYPE__)
+	</xmp>
+	
+	<p><tt>__IMPLIED_TYPE__</tt> is valid in the following situations:
+	
+	<ul>
+	<li>In an expression on the right-hand side of an assignment operator (this includes operators like <tt>+=</tt>), where the left-hand side is a var that has a defined type path.
+	<li>Within the second argument of <a class=code href=#/proc/istype>istype()</a>.</li>
+	</ul>
+	
+	<p>This is actually a pseudo-macro; the preprocessor doesn't handle it
+	directly.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/__LINE__>
+	<h2>__LINE__ macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/proc/ASSERT>ASSERT proc</a>
+	<dd><a href=#/DM/preprocessor/define/DEBUG>DEBUG definition</a>
+	<dd><a href=#/DM/preprocessor/__FILE__>__FILE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__PROC__>__PROC__ macro</a>
+	<dd><a href=#/DM/preprocessor/__TYPE__>__TYPE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__IMPLIED_TYPE__>__IMPLIED_TYPE__ macro</a>
+	</dl>
+	
+	<p>The __LINE__ macro is replaced by the line number in the current source
+	file.  This may be useful when generating debugging error messages.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/__MAIN__>
+	<h2>__MAIN__ macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	</dl>
+	
+	<p>The __MAIN__ macro is defined in the main <code>.dme</code> file being
+	compiled.  In all other files included by this file, __MAIN__ is not defined.
+	
+	<p>The purpose of this is for library writers to package a small demo of their
+	library directly in the library source code.  When users compile the library
+	directly, the library's own <code>.dme</code> is the main file and can include
+	extra files that are not normally part of the library.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#ifdef __MAIN__
+	#include "demo.dm"
+	#include "demo.dmm"
+	#endif
+	</xmp>
+	
+	<p>If the demo requires a lot of extra resources, it is probably better to
+	package the demo as a separate project.  Small demos, however, are nice and
+	convenient using this "auto-demo" technique&mdash;especially since Dream
+	Seeker automatically launches Dream Maker after installing a library
+	containing a <code>.dme</code> file.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/__PROC__>
+	<h2 byondver=515>__PROC__ macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/__FILE__>__FILE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__LINE__>__LINE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__TYPE__>__TYPE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__IMPLIED_TYPE__>__IMPLIED_TYPE__ macro</a>
+	</dl>
+	
+	<p>The <tt>__PROC__</tt> macro is replaced by a reference to the current proc
+	being compiled. This may be useful when generating debugging error messages,
+	especially when wrapped in <tt>nameof</tt>, e.g. <tt>nameof(__PROC__)</tt>.
+	
+	<p>This is actually a pseudo-macro; the preprocessor doesn't handle it
+	directly.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/__TYPE__>
+	<h2 byondver=515>__TYPE__ macro</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/__FILE__>__FILE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__LINE__>__LINE__ macro</a>
+	<dd><a href=#/DM/preprocessor/__PROC__>__PROC__ macro</a>
+	<dd><a href=#/DM/preprocessor/__IMPLIED_TYPE__>__IMPLIED_TYPE__ macro</a>
+	</dl>
+	
+	<p>The <tt>__TYPE__</tt> macro is replaced by a reference to the type path
+	currently being compiled. This may be useful when generating debugging error
+	messages. If used in a global proc, the value will be null.
+	
+	<p>This is actually a pseudo-macro; the preprocessor doesn't handle it
+	directly.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/define>
+	<h2>#define directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#define Name Value
+	<dd>#define Name(Parameters) Value
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Name:  A macro definition.
+	<dd>Value: The value to substitute for Name.
+	<dd>Parameters:  Arguments to pass into the macro.
+	</dl>
+	
+	<p>The #define statement creates a macro that is substituted for Name.
+	Substitution only applies to whole words.  Text inside of double or single
+	quotes is not processed for substitution, so <code>"This is BIG."</code> would
+	not be modified even if a macro named BIG were defined.  That is different
+	from <code>"This is [BIG]."</code>, where BIG is an embedded expression, which
+	does get processed for macro substitution.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#define DAY   0
+	#define NIGHT 1
+	var/daytime = NIGHT  //daytime = 1
+	</xmp>
+	
+	<h3>Example:</h3>
+	<xmp>
+	#define SQR(X) ((X)*(X))
+	var/x = SQR(2)       //x = ((2)*(2)) = 4
+	</xmp>
+	
+	<p>Note that it's usually important to use parentheses around any arguments
+	you use in a macro. Otherwise strange results may occur if you use an
+	expression such as 2+3. In the SQR(X) example, if there were no parentheses
+	around each X then the expansion of the macro would be (2+3*2+3). Since the *
+	operator has a higher precedence than + the result is 11, not 25 as expected.
+	It's equally important to put parentheses around the entire macro for the
+	same reason.
+	
+	<h3>Variadic macros</h3>
+	
+	<p>The last parameter of a macro can end in <tt>...</tt> which means that it
+	and all other arguments following it count as a single argument. This is
+	called a variadic macro because it lets you use a variable number of
+	arguments. The last parameter will also become optional.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#define DEFAULT_LIST(n, items...) if(!n) n = list(items)
+	</xmp>
+	
+	<h3><tt>#var</tt> to string</h3>
+	
+	<p>In a macro's body, if you precede a parameter by <tt>#</tt>, the
+	replacement value will be turned into a string.  For instance, 2 would become
+	"2".
+	
+	<h3>Example:</h3>
+	<xmp>
+	#define DEBUG_VAR(v) world.log << "[#v] = [v]"
+	DEBUG_VAR(usr.x)    // world.log << "usr.x = [usr.x]"
+	</xmp>
+	
+	<h3><tt>##var</tt> concatenation</h3>
+	
+	<p>A parameter preceded by <tt>##</tt> in the macro body is substituted
+	directly, without any spaces. If you use this with the last argument in a
+	variadic macro, any preceding spaces and a comma (if found) will be removed
+	if the replacement is empty.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#define MACROVAR(k) var/macro_state_##k
+	// MACROVAR(right) becomes var/macro_state_right
+	
+	#define PREFIX_LIST(x, y...) list(x, src, ##y)
+	// PREFIX_LIST(1, 2, 3) becomes list(1, src, 2, 3)
+	// PREFIX_LIST(4) becomes list(4, src)
+	</xmp>
+	
+	<h3><tt>n###var</tt> repeat</h3>
+	
+	<p>Using <tt>###</tt> in the macro body, preceded by a number, will repeat the
+	replacement a certain number of times.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#define SAYTWICE(t) 2###t
+	#define TOTEXT(t) #t
+	world << "[TOTEXT(SAYTWICE(hi))]"   // world << "hihi"
+	</xmp>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/define/DEBUG>
+	<h2>DEBUG definition</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define>#define directive</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#define DEBUG
+	</dl>
+	
+	<p>If <code>DEBUG</code> is defined, source file and line number information
+	will be stored in the compiled <code>.dmb</code> file.  If a proc crashes
+	during execution and <code>DEBUG</code> information is present, the current
+	source file name and line number will be indicated in the error output.
+	
+	<p>This option increases the size of the <code>.dmb</code>, typically by about
+	10%.  Execution of the code may also be a tiny bit slower.
+	
+	<p>If you are distributing the <code>.dmb</code> to players and you do not
+	want them to have debug access at runtime, you should <em>not</em> compile in
+	debug mode.
+	
+	<p>If you want to use the run-time profiler (see the debugging options in
+	Dream Seeker), you must compile in debug mode.  Then you can get a report of
+	CPU usage by your various procs.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/define/FILE_DIR>
+	<h2>FILE_DIR definition</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/cache>cache</a>
+	<dd><a href=#/DM/icon>icons</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#define FILE_DIR Path
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Path: A search path on the current filesystem.
+	</dl>
+	
+	<p>This macro defines a search path to be used in evaluating resource files
+	(icons and sounds).  First the current directory is searched, then the first
+	<code>FILE_DIR</code> path, then the next, etc.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#define FILE_DIR icons
+	#define FILE_DIR icons/mobs
+	
+	mob/clown
+	  icon = 'clown.dmi'
+	</xmp>
+	
+	<p>This searches for the file at the paths <code>"./clown.dmi"</code>,
+	<code>"./icons/clown.dmi"</code>, and <code>"./icons/sounds/clown.dmi"</code>,
+	where <code>"."</code> is the directory of the current source file.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/elif>
+	<h2>#elif directive</h2>
+	
+	<dl><dt><b>See:</b>
+	<dd><a href=#/DM/preprocessor/if>#if directive</a>
+	</dl>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/else>
+	<h2>#else directive</h2>
+	
+	<dl><dt><b>See:</b>
+	<dd><a href=#/DM/preprocessor/if>#if directive</a>
+	</dl>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/endif>
+	<h2>#endif directive</h2>
+	
+	<dl><dt><b>See:</b>
+	<dd><a href=#/DM/preprocessor/if>#if directive</a>
+	</dl>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/error>
+	<h2>#error directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	<dd><a href=#/DM/preprocessor/warn>#warn directive</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#error Text
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Text: an error message to display
+	</dl>
+	
+	<p>The #error directive halts compilation and displays the specified message.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#if DM_VERSION < 4
+	#error This compiler is too far out of date!
+	#endif
+	</xmp>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/if>
+	<h2>#if directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define>#define directive</a>
+	<dd><a href=#/DM/preprocessor/ifdef>#ifdef directive</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#if Val
+	<dd>...
+	<dd>#elif Val2
+	<dd>...
+	<dd>#else
+	<dd>...
+	<dd>#endif
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Val: A logical expression.
+	</dl>
+	
+	<p>The <code>#if</code> statement is used to conditionally compile code.  If
+	Val is true (non-zero), the code following the <code>#if</code> statement
+	will be compiled.  Otherwise, compilation skips to the next
+	<code>#elif</code>, <code>#else</code>, or <code>#endif</code> statement.
+	
+	<p>The function <code>defined()</code> can be used in the conditional
+	expression.  It is true if its argument is a defined macro (with
+	<code>#define</code>) and false otherwise.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#if defined(DEBUG)
+	// This code will be compiled if DEBUG is
+	// defined
+	#else
+	// This code will be compiled if DEBUG is
+	// not defined
+	#endif
+	</xmp>
+	
+	<p>You can also use <tt>fexists()</tt> in a conditional to check if a file
+	exists.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/ifdef>
+	<h2>#ifdef directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define>#define directive</a>
+	<dd><a href=#/DM/preprocessor/if>#if directive</a>
+	<dd><a href=#/DM/preprocessor/ifndef>#ifndef directive</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#ifdef Name
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Name: A macro definition.
+	</dl>
+	
+	<p>The <code>#ifdef</code> statement is used to conditionally compile code.  It
+	is equivalent to <code>#if defined(Name)</code>.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/ifndef>
+	<h2>#ifndef directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define>#define directive</a>
+	<dd><a href=#/DM/preprocessor/if>#if directive</a>
+	<dd><a href=#/DM/preprocessor/ifdef>#ifdef directive</a>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#ifndef Name
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Name: A macro definition.
+	</dl>
+	
+	<p>The <code>#ifndef</code> statement is used to conditionally compile code.
+	It is equivalent to <code>#if !defined(Name)</code>.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/include>
+	<h2>#include directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define>#define directive</a>
+	<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#include "Filename"
+	<dd>#include &lt;Filename&gt;
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>"Filename": The path to the filename to include, from the current
+		directory.
+	<dd>&lt;Filename&gt;: The path inside the BYOND lib directory.
+	</dl>
+	
+	<p>The <code>#include</code> statement causes the compiler to process another
+	file before continuing in the current source file.
+	
+	<p>If a file is included multiple times, only the first occurrence will be
+	processed. That is a convenient addition to the standard C preprocessor, which
+	DM otherwise emulates quite closely. If you want the file to be included more
+	than once, put the line <tt>#pragma multiple</tt> somewhere in the file.
+	
+	<p>The file <code>&lt;stddef.dm&gt;</code> is automatically included before
+	all other source code. You can view the contents of that file by creating a
+	file with that name in Dream Maker.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#include "test.dm" // checks ./test.dm
+	#include <test.dm> // checks lib-path/test.dm
+	</xmp>
+	
+	<p>The BYOND lib directory is called <code>"lib"</code> and is located in the
+	BYOND system directory (typically <code>"\Program Files\Byond\lib"</code>).
+	If the file is not found there, it also looks in the user lib directory, which
+	would typically be <code>"...\Byond\user\<i>login-name</i>\lib"</code>.
+	
+	<p>Note that the compiler interface allows you to include files graphically by
+	simply clicking the checkbox next to the file.  This creates an include
+	statement for you in the <code>.dme</code> project environment file.  The only
+	time you would still want to manually include files is when you need to ensure
+	a certain order of processing.  For example, if file <code>"MyCode.dm"</code>
+	overrides procedure definitions of an object defined in
+	<code>"LibCode.dm"</code>, you should include <code>"LibCode.dm"</code> at the
+	top of <code>"MyCode.dm"</code>.  Most other DM code is independent of order,
+	but overriding procedure definitions is not.  The compiler will warn you in
+	such cases if you forget.
+	
+	<p>Another case in which you should manually include files is if you are
+	writing a library to be used by other programmers.  Since the
+	<code>.dme</code> file is not distributed with a library, all necessary
+	inclusions must be made in the <code>.dm</code> files.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/pragma>
+	<h2 byondver=515>#pragma directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define>#define directive</a>
+	<dd><a href=#/DM/preprocessor/include>#include directive</a>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	</dl>
+	
+	<p>The <tt>#pragma</tt> directive alters the compiler's behavior in various
+	ways.
+	
+	<dl class=codedt>
+	  <dt><a href=#/DM/preprocessor/pragma/multiple>#pragma multiple</a></dt>
+	  <dd>Include this file more than once.</dd>
+	  <dt><a href=#/DM/preprocessor/pragma/warn>#pragma ignore <i>Warning</i></a></dt>
+	  <dt><a href=#/DM/preprocessor/pragma/warn>#pragma warn <i>Warning</i></a></dt>
+	  <dt><a href=#/DM/preprocessor/pragma/warn>#pragma error <i>Warning</i></a></dt>
+	  <dd>Changes how the compiler handles certain warnings.
+	  <dt><a href=#/DM/preprocessor/pragma/push>#pragma push</a></dt>
+	  <dd>Save the current pragma state.</dd>
+	  <dt><a href=#/DM/preprocessor/pragma/push>#pragma pop</a></dt>
+	  <dd>Restore a previously saved warning state.</dd>
+	  <dt byondver=516><a href=#/DM/preprocessor/pragma/syntax>#pragma syntax</a></dt>
+	  <dd>Switch to a different syntax for parsing certain procs.</dd>
+	  <dt byondver=516><a href=#/DM/preprocessor/pragma/compatibility>#pragma compatibility</a></dt>
+	  <dd>Hint that the compiler should avoid using features higher than a given version.</dd>
+	  <dt byondver=516><a href=#/DM/preprocessor/pragma/math>#pragma math</a></dt>
+	  <dd>Choose faster (old) or more accurate (new default) trigonometry.</dd>
+	</dl>
+	
+	<p>Pragmas will <i>not</i> be inherited by libraries included in your project.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/pragma/compatibility>
+	<h2 byondver=516>#pragma compatibility directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+	<dd><a href=#/DM/preprocessor/warn>warn/ignore/error directive</a>
+	<dd><a href=#/DM/preprocessor/DM_VERSION>DM_VERSION macro</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#pragma compatibility <span class=faded>&lt;</span>version<span class=faded>&gt;</span>
+	</dl>
+	
+	<p>Hints that the compiler should avoid using features past a certain major
+	BYOND version. If it encounters a situation where you explicitly or implicitly
+	use a newer feature than requested, it will generate a warning.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#pragma compatibility 515
+	</xmp>
+	
+	A value of 0 or anything negative will reset the compatibility version to the
+	default.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/pragma/math>
+	<h2 byondver=516>#pragma math directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+	<dd><a href=#/proc/sin>sin proc</a>
+	<dd><a href=#/proc/cos>cos proc</a>
+	<dd><a href=#/proc/tan>tan proc</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#pragma math <span class=faded>&lt;</span>fast<span class=faded>|</span>accurate<span class=faded>&gt;</span>
+	</dl>
+	
+	<p>Chooses old-style fast math procs, or newer more accurate ones that
+	sacrifice a small amount of speed. This appplies to
+	<a class=code href=/proc/sin>sin()</a>, <a class=code href=/proc/cos>cos()</a>,
+	and <a class=code href=/proc/tan>tan()</a>.
+	
+	<p>The reason this is necessary is because BYOND uses degrees for its angles,
+	but converting to radians (for the underlying math libraries) can't be done
+	with precision for many angles such as 90&deg;, which is &pi;/2 in radians.
+	When the result of the trig function is small, the angle being slightly off
+	from what the user intended will produce a small error in the result as well.
+	
+	<p>The more-accurate procs use trigonometric identities to reduce the angle
+	to a more manageable range of 0 to 45&deg; (&pi;/4 radians).
+	
+	<h3>Example:</h3>
+	<xmp>
+	var/angle = 90
+	#pragma math fast
+	usr << cos(angle)   // 6.12323e-17
+	#pragma math accurate
+	usr << cos(angle)   // 0
+	</xmp>
+	
+	<p>Using <a class=code href=/DM/preprocessor/pragma/compatibility>#pragma compatibility 515</a>
+	will also force the fast math version.
+	
+	<p>Note: For consistency, built-in compiler math for constant values uses the
+	same calculations that would be used for non-constant values runtime, so
+	<tt>cos(90)</tt> compiles as 6.12323e-17 with fast math and as 0 for accurate
+	math.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/pragma/multiple>
+	<h2 byondver=515>#pragma multiple directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+	<dd><a href=#/DM/preprocessor/include>#include directive</a>
+	</dl>
+	
+	<p>Allows this file to be included more than once. Ordinarily the
+	<tt>#include</tt> directive only allows a file to be included once.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/pragma/push>
+	<h2 byondver=515>#pragma push/pop directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+	<dd><a href=#/DM/preprocessor/pragma/warn>#pragma warn/ignore/error directive</a>
+	</dl>
+	
+	<p><tt>#pragma push</tt> saves the current state any pragma flags,
+	so for instance a warning's level can be temporarily changed to ignore, warn,
+	or error.
+	
+	<p><tt>#pragma pop</tt> restores a previously saved pragma state.
+	
+	<h3>Example:</h3>
+	<xmp>
+	// temporarily ignore the unused_var warning
+	#pragma push
+	#pragma ignore unused_var
+	
+	proc/GNDN()
+		var/nothing // var defined but not used
+	
+	#pragma pop
+	</xmp>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/pragma/syntax>
+	<h2 byondver=516>#pragma syntax directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+	<dd><a href=#/proc/for/loop>for loop proc</a>
+	<dd><a href=#/proc/switch>switch proc</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#pragma syntax <span class=faded>&lt;</span>C<span class=faded>|</span>DM<span class=faded>&gt;</span> <span class=faded>[</span>for<span class=faded>|</span>switch<span class=faded>]</span>
+	</dl>
+	
+	<p>Changes the syntax used to parse certain statements. This can be more
+	natural for users who prefer non-DM style, and can sometimes do things that
+	regular DM syntax can't do.
+	
+	<p>Changing the <a href=#/proc/for/loop><tt>for()</tt> loop</a> syntax to C
+	will use semicolons to separate the Init, Test, Inc sections instead of
+	commas. That means commas can be used to chain multiple statements together
+	instead.
+	
+	<p>In <a class=code href=#/proc/switch>switch()</a>, C syntax changes the
+	if/else statements to use C's <tt>case</tt> and/or <tt>default</tt> keywords,
+	followed by a colon, and the <a href=#/proc/break><tt>break</tt> statement</a>
+	is required to skip to the end of the switch unless you want to fall through
+	to the next case. Fall-through behavior isn't possible in the default DM
+	syntax.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#pragma push
+	#pragma syntax C switch
+	
+	switch(thing)
+		case 1:
+			usr << "This is case 1!"
+			break
+		case 2, 3:
+			usr << "This is case 2 or 3."
+			// no break, fall through
+		case 4 to 6:
+			usr << "This is case 4 through 6 (or maybe 2 or 3)."
+			break
+		default:
+			usr << "This is a different case.
+	
+	#pragma pop
+	</xmp>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/pragma/warn>
+	<h2 byondver=515>#pragma warn/ignore/error directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+	<dd><a href=#/DM/preprocessor/warn>#warn directive</a>
+	<dd><a href=#/DM/preprocessor/error>#error directive</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#pragma <span class=faded>&lt;</span>warn<span class=faded>|</span>ignore<span class=faded>|</span>error<span class=faded>&gt;</span> WarningName
+	</dl>
+	
+	<p>Changes the way the compiler responds to warnings (except those caused
+	by the <a href=#/DM/preprocessor/warn><tt>#warn</tt> directive</a>). The
+	warning name appears in the compiler output when the warning is generated.
+	
+	<p>Multiple warning names can be used in the same pragma, separated by commas.
+	
+	<h3>Example:</h3>
+	<xmp>
+	// temporarily ignore the unused_var warning
+	#pragma push
+	#pragma ignore unused_var
+	
+	proc/GNDN()
+		var/nothing // var defined but not used
+	
+	#pragma pop
+	</xmp>
+	
+	<p>Here is a list of warnings that are disabled by default, but can be
+	turned on for linting purposes:
+	
+	<table>
+	<tr><th>Name</th><th>Description</th></tr>
+	<tr><td>init_proc</td><td>A var in a very commonly used type, like <tt>/turf</tt> or <tt>/atom</tt> or <tt>/datum</tt>, is being initialized with an init proc. An example is <tt>var/stuff[]</tt> or <tt>var/list/stuff = list(1,2,3)</tt> which creates a list in a special internal proc because calling <a class=code href=#/datum/proc/New>New()</a>. Best practice is to not initialize the list until it's needed.</td></tr>
+	<tr><td>frequent_call</td><td>A very commonly called proc such as <a class=code href=#/datum/proc/New>New()</a> or <a class=code href=#/datum/proc/Del>Del()</a> has been overridden on a type that gets created or destroyed frequently, such as <tt>/turf</tt>, <tt>/atom</tt>, or <tt>/datum</tt>.</td></tr>
+	</table>
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/undef>
+	<h2>#undef directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define>#define directive</a>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#undef Name
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Name: A macro definition.
+	</dl>
+	
+	<p>The <code>#undef</code> statement removes a macro definition.
+	
+	<hr>
+	
+	<a name=/DM/preprocessor/warn>
+	<h2>#warn directive</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor>preprocessor</a>
+	<dd><a href=#/DM/preprocessor/error>#error directive</a>
+	</dl>
+	
+	<dl><dt><b>Format:</b>
+	<dd>#warn Text
+	</dl>
+	
+	<dl><dt><b>Args:</b>
+	<dd>Text: a warning message to display
+	</dl>
+	
+	<p>The #warn directive displays the specified message as a warning, but does
+	not prevent the project from compiling.
+	
+	<h3>Example:</h3>
+	<xmp>
+	#ifdef USE_LIGHTING
+	#warn The lighting feature in MyLibrary is experimental.
+	#endif
+	</xmp>
+	
+	<hr>
+	
+	<a name=/DM/sound>
+	<h2>sounds</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/DM/preprocessor/define/FILE_DIR>FILE_DIR definition</a>
+	<dd><a href=#/DM/cache>cache</a>
+	<dd><a href=#/proc/sound>sound proc</a>
+	<dd><a href=#/sound>/sound datum</a>
+	<dd><a href=#/proc/load_resource>load_resource proc</a>
+	</dl>
+	
+	<p>A sound stored in a file may be referenced by putting single quotes around
+	the filename.  The file extension determines the type of sound.  Currently
+	supported music types include MIDI (.mid or .midi), and module formats .mod, .it,
+	.s3m, .xm, and .oxm. Supported sound effect formats include .wav, .ogg, .mp3,
+	.raw, .wma, and .aiff.
+	
+	<h3>Example:</h3>
+	<xmp>
+	world << sound('fugue.midi')
+	</xmp>
+	
+	<p>This example plays the specified midi file to all players.
+	
+	<hr>
+	
+	<a name=/DM/text>
+	<h2>text</h2>
+	
+	<dl><dt><b>See also:</b>
+	<dd><a href=#/operator/%3c%3c/output>&lt;&lt; output operator</a>
+	<dd><a href=#/DM/text/entities>entities (text)</a>
+	<dd><a href=#/DM/text/macros>macros (text)</a>
+	<dd><a href=#/DM/text/tags>tags (text)</a>
+	<dd><a href=#/proc/text>text proc</a>
+	<dd><a href=#/{notes}/Unicode>Unicode</a>
+	</dl>
+	
+	<p>Text consists of a string of characters enclosed in double quotes.  To
+	place a quote inside a string, escape it with a backslash <code>\</code>
+	character.  You will also need to escape a backslash if you want to use
+	one on purpose.
+	
+	
+	<h3>Example:</h3>
+	<xmp>
+	usr << "He said, \"Hi.\""
+	</xmp>
+	
+	<p>This example sends some text to the usr:  <code>He said, "Hi."</code>
+	
+	<p>Backslashes are also used for special <a href=#/DM/text/macros>macros</a>
+	and to escape other characters that would normally be hard to include in a
+	string.  A backslash at the end of a line will ignore the line break, and
+	continue the string on the next line after ignoring any leading spaces.
+	
+	<p>To insert a variable expression into a string, enclose it in brackets
+	<code>[]</code>.  These are referred to as embedded text expressions.  An
+	object expression will display the object's name preceded by the text macro
+	<code>\the</code> or <code>\The</code> if no other article has been
+	specified.  Capitalization of the article is inferred from context.
+	
+	<h3>Example:</h3>
+	<xmp>
+	mob/verb/shout(T as text)
+	  world << "[usr]: [T]"
+	</xmp>
+	
+	<p>If this example is called by a mob named "Bill" with the text "hi
+	everybody!", it will display "Bill: hi everybody!".
+	
+	<p>On the other hand, if it is called by a mob named "cat", it would display
+	"The cat: hi everybody!".
+	
+	<p byondver=515>Via <a href=#/operator/overload>operator overloading</a> you
+	can define an <tt>operator""</tt> proc for an object to return different
+	text when it's embedded in a string.
+	
+	<h3>Document strings</h3>
+	
+	<p>For lengthy text strings, DM provides a special text <em>document</em>
+	syntax.  This begins with <code>{"</code> and ends with <code>"}</code>.  It
+	may include multiple lines and even un-escaped double quotes, but it still
+	parses escape characters and embedded expressions.
+	
+	<h3>Example:</h3>
+	<xmp>
+	mob/verb/end()
+	  usr << {"
+	This is the way the world ends
+	This is the way the world ends
+	This is the way the world ends
+	Not with a bang but a whimper.
+	
+	--T.S. Eliot "Hollow Men"
+	"}
+	  del world  //the end!
+	</xmp>
+	
+	<h3 byondver=512>Raw strings</h3>
+	
+	<p>DM also has a format for raw strings, which do not allow escape characters
+	or embedded expressions.  This can be useful for many situations, especially
+	<a href=#/{notes}/regex>regular expressions</a> which tend to use
+	characters that need escaping.  There are three ways to specify a raw string.
+	All of them begin with the <code>@</code> character.
+	
+	<p>Simple raw strings follow <code>@</code> with a single-character
+	delimiter, usually <code>"</code> but it can be almost anything, and end when
+	that delimiter is seen again.  Line breaks are not allowed in simple raw
+	strings.
+	
+	<h3>Examples:</h3>
+	<xmp>
+	world << @"I can say \ or [] without escaping anything!"
+	world << @#Here I can use "quotes" but not the pound sign.#
+	
+	var/regex/R = new(@/(\d+)/)
+	
+	// without raw strings
+	world << "I can say \\ or \[] without escaping anything!"   // lying
+	world << "I have to escape \"quotes\" to use them."
+	
+	var/regex/R = new("(\\d+)")
+	</xmp>
+	
+	<p>Complex raw strings use more complicated delimiters, but they let you
+	include line breaks.  There are two ways to do this: One starts with
+	<code>@{"</code> and ends with <code>"}</code>, so it looks like the familiar
+	document string format.  The other way starts with <code>@(XYZ)</code>, where
+	<code>XYZ</code> is any arbitrary text you want it to be, and ends when that
+	same text is encountered.
+	
+	<p>With a complex raw string, a single leading and/or trailing line break will
+	be ignored.
+	
+	<h3>Examples:</h3>
+	<xmp>
+	world << @{"
+	Now I have absolute freedom to use "quotes"
+	or [brackets] or line breaks, as long as I
+	don't follow a quote with a closing brace.
+	"}
+	
+	world << @(~~~)
+	Until three tilde (~) characters are seen, this is a valid string.
+	~~~     // end of string
+	
+	world << @(!!)You don't need a line break if you don't want one.!!
+	</xmp>
+	
+	<hr>
+	

@@ -1,0 +1,44 @@
+
+
+<a name=/proc/jointext>
+<h2 byondver=510>jointext proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/splittext>splittext proc</a>
+<dd><a href=#/list/proc/Join>Join proc (list)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>jointext(List,Glue,Start=1,End=0)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A text string made up of the items in List, joined together by Glue.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>List: The list to be joined.
+<dd>Glue: The text that will go between each item.
+<dd>Start: The list item on which to begin.
+<dd>End: The list item immediately following the last item to be joined.
+<dd>include_delimiters: True if any delimiters found should be included in
+     the result.
+</dl>
+
+<p>Any items in List that are not already text will be converted to text.
+The Glue string only goes between two items, so a single-item list is the
+same as converting that one item to text, and an empty list becomes an empty
+string.
+
+<h3>Example:</h3>
+<xmp>
+var/list/items = list("apples", "oranges", "bananas")
+usr << jointext(items, ", ")
+</xmp>
+
+<p>If the start or end position is negative, the position is counted backwards
+from the end of the list.
+
+<p>Calling List.Join(Glue,Start,End) is the same thing, as long as List is a
+valid list.
+

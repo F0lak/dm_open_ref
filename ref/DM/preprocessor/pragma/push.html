@@ -1,0 +1,28 @@
+
+
+<a name=/DM/preprocessor/pragma/push>
+<h2 byondver=515>#pragma push/pop directive</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+<dd><a href=#/DM/preprocessor/pragma/warn>#pragma warn/ignore/error directive</a>
+</dl>
+
+<p><tt>#pragma push</tt> saves the current state any pragma flags,
+so for instance a warning's level can be temporarily changed to ignore, warn,
+or error.
+
+<p><tt>#pragma pop</tt> restores a previously saved pragma state.
+
+<h3>Example:</h3>
+<xmp>
+// temporarily ignore the unused_var warning
+#pragma push
+#pragma ignore unused_var
+
+proc/GNDN()
+    var/nothing // var defined but not used
+
+#pragma pop
+</xmp>
+

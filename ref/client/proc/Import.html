@@ -1,0 +1,28 @@
+
+
+<a name=/client/proc/Import>
+<h2>Import proc (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/proc/Export>Export proc (client)</a>
+<dd><a href=#/client/proc/New>New proc (client)</a>
+<dd><a href=#/savefile>savefile</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>client.Import(Query)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Query: optional query parameters
+</dl>
+
+<p>When no query parameters are given, this returns the client-side file last
+exported with <code>client.Export()</code>.  This comes as an entry in the
+resource cache, which can be opened as a savefile among other things.  If
+there is no file, null is returned.  For an example, see
+<a href=#/client/proc/Export>client.Export</a>.
+
+<p>When there are query parameters, these may be used to import a file from
+some alternate source.  Currently this is not supported.
+

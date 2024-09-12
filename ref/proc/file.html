@@ -1,0 +1,43 @@
+
+
+<a name=/proc/file>
+<h2>file proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/%3c%3c/output>&lt;&lt; output operator</a>
+<dd><a href=#/proc/fcopy_rsc>fcopy_rsc proc</a>
+<dd><a href=#/proc/ftp>ftp proc</a>
+<dd><a href=#/proc/isfile>isfile proc</a>
+<dd><a href=#/proc/link>link proc</a>
+<dd><a href=#/proc/run>run proc</a>
+<dd><a href=#/savefile>savefile</a>
+<dd><a href=#/proc/sound>sound proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>file(Path)
+</dl>
+
+<p>Returns a file object corresponding to the named file.  This file object
+can then be used in a variety of ways.  One would be to send it to a player to
+view using the browse() instruction.  Output may also be appended to the file
+using the << operator.
+
+<p>Note that the file exists in the external filesystem (ie the hard disk)
+and not the cache.  That means the path is specified in double quotes and
+will be evaluated at run-time rather than compile-time.  The file need not
+exist at compile time and may even be modified at a later date.  This is the
+principle reason for using a file in the filesystem rather than a cached
+resource file (specified in single quotes).
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/help()
+  usr << browse(file("help.html"))
+</xmp>
+
+<p>Many DM instructions that deal with files treat file("name") and "name" the
+same.  There are cases such as browse() where a simple text string is not
+interpreted as a filename; it is in those situations where file() is really
+necessary.
+

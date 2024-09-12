@@ -1,0 +1,33 @@
+
+
+<a name=/atom/var/pixel_y>
+<h2>pixel_y var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/var/animate_movement>animate_movement var (movable atoms)</a>
+<dd><a href=#/atom/movable/var/glide_size>glide_size var (movable atoms)</a>
+<dd><a href=#/atom/var/pixel_x>pixel_x var (atom)</a>
+<dd><a href=#/atom/var/pixel_w>pixel_w var (atom)</a>
+<dd><a href=#/atom/var/pixel_z>pixel_z var (atom)</a>
+<dd><a href=#/world/var/icon_size>icon_size var (world)</a>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p>This displaces the object's icon on the y-axis by the specified number of
+pixels. In a project with a standard 32x32 tile size, this can range from -32
+to +32. (You can get away with larger displacements, but they are not
+guaranteed to work for objects off the edge of the map.)
+
+<p>Since overlays and images can each have their own additional displacements,
+this makes it possible to create visual effects that extend beyond the
+object's own cell in the turf grid, but which automatically move around with
+the object.
+
+<p>This effect is purely visual and does not influence such things as movement
+bumping or view() range calculations.
+

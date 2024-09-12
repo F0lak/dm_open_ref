@@ -1,0 +1,300 @@
+
+
+<a name=/{skin}/macros>
+<h2>macros (skin)</h2>
+
+<p>Macros are used to convert keyboard and gamepad events into actions. There
+are two ways this works: A macro can run a command, or in some cases (such as
+gamepad controls) it can be used to remap one control to another.
+
+<p>A collection of macros is called a macro set, and the window currently in
+use defines which macro set will be used via its
+<a class=code href=#/{skin}/param/macro>macro</a> parameter.
+
+<p>Macros can be changed at runtime. If a macro does not have an
+<a class=code href=#/{skin}/param/id>id</a>, you can refer to it by its key
+combination (<a class=code href=#/{skin}/param/name>name</a>). If you have a
+macro set named <tt>macro1</tt> and have a <tt>Ctrl+E</tt> macro for instance,
+you could use <a class=code href=#/proc/winset>winset()</a> with
+<tt>"macro1.Ctrl+E"</tt>. See the <a href=#/{skin}/control/macro>Macro
+control</a> for information on which parameters you can change with
+<tt>winset()</tt>.
+
+<p>The <tt>name</tt> of the macro is actually the full key combination as it
+would appear in the macro editor, like <tt>CTRL+E</tt>, <tt>Space+REP</tt>, or
+<tt>Alt+Shift+F1</tt>. This is not case-specific and it doesn't matter where
+you put modifiers like <tt>CTRL+</tt>, <tt>SHIFT+</tt>, etc.
+
+<h3 byondver=511>The Any macro</h3>
+
+<p>Oftentimes it's desirable to keep track of key presses yourself rather than
+have a hundred different macros defined. BYOND makes this possible via the
+<tt>Any</tt> and <tt>Any+UP</tt> macros, which respond to any key or gamepad
+button. <tt>UP</tt> is the only allowed modifier for this macro, since other
+modifier keys are handled by this same macro.
+
+<p>Typically, you will want to use <a class=code href=#/verb/set/instant>set
+instant=1</a> on the verbs that will be tied to the Any macro, so that
+keyboard input doesn't queue up and lag behind.
+
+<p>In the <a class=code href=#/{skin}/param/command>command</a> that goes with
+this macro, <tt>[[*]]</tt> will be replaced with the name of the key or gamepad
+button that was pressed/released. (See "Embedded Winget" in
+<a href=#/{skin}/commands>client commands</a> for more details on the
+<tt>[[...]]</tt> format.)
+
+<h3 byondver=511>Mapping</h3>
+
+<p>The <a class=code href=#/{skin}/param/map-to>map-to</a> parameter is used
+by <b>mappings</b>, which are like macros but are used to convert gamepad
+inputs easily and quickly to keyboard inputs. E.g., <tt>GamepadLeft</tt> can
+map to <tt>West</tt> which is the left arrow key. A set of default mappings
+will be added automatically at runtime if you don't include any gamepad
+mapping in your project.
+
+<h3 byondver=511>Gamepads</h3>
+
+<p>BYOND will support up to four gamepads, and breaks up their input into the
+following categories:
+
+<ul>
+<li><b>Buttons:</b> Buttons on the controller that are either pressed or not pressed.</li>
+<li><b>Directions:</b> Directions pressed on the D-pad, which act like buttons. Diagonals are also included.</li>
+<li><b>D-pad:</b> The D-pad itself, which can be used to read a <a class=code href=#/atom/var/dir>dir</a> number.</li>
+<li><b>Analog:</b> The analog sticks (BYOND supports left and right).</li>
+</ul>
+
+<p>See the list of available macros below for information on how to harness
+these inputs.
+
+<p>To let a user configure their gamepad, you need to call the client-side
+<tt>.gamepad-mapping</tt> <a href=#/{skin}/commands>command</a>. Or, if they
+have access to the Options &amp; Messages window and Dream Seeker's default
+menus, they can reach it from there. However it's a good idea to make this
+easy for them to find. Several common gamepads are already known by BYOND.
+
+<p>There is also the <tt>GamepadRaw</tt> macro, which is similar
+to <tt>Any</tt> in some ways and will avoid doing any processing (e.g.
+checking for dead zones on the analog sticks) so you can handle all input
+yourself. <tt>GamepadRaw</tt> does not rely on BYOND's controller
+configuration, so it will not, for instance, know that button 0 should be
+<tt>GamepadFace1</tt>. See below for more information on how to use this
+macro.
+
+<h3 byondver=514>Mouse macros</h3>
+
+<p>You can add macros (not local player-defined ones) for any of the mouse
+input commands, thereby bypassing the normal mouse verbs. This can be helpful
+for designing custom setups where you don't want to have to parse the normal
+parameter string that provides most of the info, and instead want to provide
+data directly to the verb. You will want <tt>set instant=1</tt> on any such
+verb.
+
+<p>Mouse macro commands use the <tt>[[...]]</tt> syntax to embed values, just
+like <a href=#/{skin}/commands>embedded wingets</a>. These are the values you
+can include in a mouse macro:
+
+<table class="macro_info">
+<tr><th>Embedded keyword</th><th>Meaning</th></tr>
+<tr><td><tt>action</tt></td><td>Name of the mouse action (e.g. MouseDown, MouseMove, etc.).</td></tr>
+<tr><td><tt>src</tt></td><td>Object the mouse is touching, or dragging/dropping.</td></tr>
+<tr><td><tt>loc</tt></td><td>Turf or statpanel that <tt>src</tt> is over; in a drag-drop you should split this into <tt>src.loc</tt> and <tt>over.loc</tt>.</td></tr>
+<tr><td><tt>button</tt></td><td>Mouse button used for this action, if any: <tt>left</tt>, <tt>middle</tt>, or <tt>right</tt>.</td></tr>
+<tr><td><tt>drag</tt></td><td>Mouse button currently used for dragging.</td></tr>
+<tr><td><tt>buttons</tt></td><td>Mouse buttons currently down or involved in this action, separated by commas.</td></tr>
+<tr><td><tt>keys</tt></td><td>Modifier keys currently held (<tt>shift</tt>, <tt>ctrl</tt>, <tt>alt</tt>), separated by commas.</td></tr>
+<tr><td><tt>over</tt></td><td>Object the mouse is over in a drag/drop operation.</td></tr>
+<tr><td><tt>id</tt></td><td>Control ID; in a drag-drop you should split this into <tt>src.id</tt> and <tt>over.id</tt>.</td></tr>
+<tr><td><tt>icon</tt></td><td>The icon offset (starting from 1,1 at the lower left) where the mouse action occurred.<sup>*</sup></td></tr>
+<tr><td><tt>tile</tt></td><td>The tile where the mouse action occurred, if relevant.<sup>*</sup></td></tr>
+<tr><td><tt>vis</tt></td><td>Pixel coordinates relative to the icon's position on screen (same as <tt>icon</tt> but without taking transform into account).<sup>*</sup></td></tr>
+<tr><td><tt>screen_loc</tt></td><td>The regular <tt>screen_loc</tt> cordinate string.<sup>*</sup></td></tr>
+<tr><td><tt>screen</tt></td><td><tt>screen_loc</tt> coordinates but entirely in pixels starting at 0,0 from lower left.<sup>*</sup></td></tr>
+<tr><td><tt>screen_tile</tt></td><td><tt>screen_loc</tt> coordinates but only the tile number starting at 1,1.<sup>*</sup></td></tr>
+<tr><td><tt>screen_offset</tt></td><td><tt>screen_loc</tt> coordinates but only the pixel offset from the tile, starting at 0,0.<sup>*</sup></td></tr>
+<tr><td><tt>delta</tt></td><td>Wheel changes in a mouse wheel command.<sup>*</sup></td></tr>
+<tr><td><tt>left</tt>, <tt>right</tt>, <tt>middle</tt></td><td>1 if this button is down or involved in this action, 0 otherwise</td></tr>
+<tr><td><tt>shift</tt>, <tt>ctrl</tt>, <tt>alt</tt></td><td>1 if this modifier key is held, 0 otherwise</td></tr>
+<tr><td><tt>link</tt></td><td>1 if the mouse is over a maptext link, 0 otherwise</td></tr>
+<tr><td><tt>cell</tt></td><td>Grid cell involved in a mouse action. In a drag/drop action, <tt>src.cell</tt> is the dragging cell and <tt>over.cell</tt> is the drop cell.</td></tr>
+<tr><td><tt>drag-cell</tt></td><td>Alias for <tt>src.cell</tt>.</td></tr>
+<tr><td><tt>drop-cell</tt></td><td>Alias for <tt>over.cell</tt>.</td></tr>
+<tr><td colspan=2><sup>*</sup> Coordinate values are comma-separated, but you can follow them with <tt>.x</tt> or <tt>.y</tt> to get the individual X and Y numbers.</td></tr>
+</table>
+
+<p>An example mouse macro command might look like this:
+
+<blockquote><pre>my-mousedown-verb [[src]] [[button]] "keys=[[keys as params]];drag=[[drag as params]]"</pre></blockquote>
+
+<p>And the verb to go with it looks like this:
+
+<xmp>
+client
+    // "in src" is the same as "in usr.client" here
+    verb/my_mousedown_verb(object as anything in src, button as text, params as text)
+</xmp>
+
+<p>In the example, the <tt>src</tt> value is a reference such as you would get
+with the <a href=#/proc/ref><tt>ref()</tt> proc</a>. It can be used as a verb
+argument directly and won't be enclosed by quotes by default. The <tt>button</tt>
+value is a string and the default formatting will put quotes around it. The
+<tt>keys</tt> and <tt>drag</tt> values were given the <tt>as params</tt> format
+specifier so they would behave as part of a <a href=#/proc/list2params>parameter
+list</a>.
+
+<p>In drag/drop actions, you can precede any value with <tt>src</tt> or
+<tt>over</tt> if there may be different information for the dragged object and
+the mouseover object/location. This also applies to things like <tt>keys</tt>,
+which by default will be the currently held keys but you can use <tt>src.keys</tt>
+to refer to the values from when the drag began.
+
+<h3>Available macros</h3>
+
+<p>This is a list of all keys and gamepad events that can be used in macros.
+
+<table class="macro_info">
+  <thead>
+    <tr><td class="macro_head" colspan=2><b>Macro modifiers</b> are part of the macro name, and control the conditions in which the macro will fire.</td></tr>
+    <tr><th>Modifier</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+  <tr><td><tt>SHIFT+</tt></td><td>This macro only counts if either Shift key is pressed.</td></tr>
+  <tr><td><tt>CTRL+</tt></td><td>This macro only counts if either Ctrl key is pressed.</td></tr>
+  <tr><td><tt>ALT+</tt></td><td>This macro only counts if either Alt key is pressed.</td></tr>
+  <tr><td><tt>+REP</tt></td><td>If a key/button is held down, this macro repeats.</td></tr>
+  <tr><td><tt>+UP</tt></td><td>This macro fires when the key/button is released.</td></tr>
+  </tbody>
+
+  <thead>
+    <tr><td class="macro_head" colspan=2><b>Keyboard keys</b> are the garden-variety macros. (This list is abridged to exclude keys probably no one has.)</td></tr>
+    <tr><th>Key</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><tt>A</tt> - <tt>Z</tt></td><td>Letter key</td></tr>
+    <tr><td><tt>0</tt> - <tt>9</tt></td><td>Number key</td></tr>
+    <tr><td><tt>Numpad0</tt> - <tt>Numpad9</tt></td><td>Numpad numbers</td></tr>
+    <tr><td><tt>North</tt></td><td>Up arrow</td></tr>
+    <tr><td><tt>South</tt></td><td>Down arrow</td></tr>
+    <tr><td><tt>East</tt></td><td>Right arrow</td></tr>
+    <tr><td><tt>West</tt></td><td>Left arrow</td></tr>
+    <tr><td><tt>Northwest</tt></td><td>Home key</td></tr>
+    <tr><td><tt>Southwest</tt></td><td>End key</td></tr>
+    <tr><td><tt>Northeast</tt></td><td>Page Up key</td></tr>
+    <tr><td><tt>Southeast</tt></td><td>Page Down key</td></tr>
+    <tr><td><tt>Center</tt></td><td>Center key (numpad)</td></tr>
+    <tr><td><tt>Return</tt></td><td>Enter / Return key</td></tr>
+    <tr><td><tt>Escape</tt></td><td>Esc key</td></tr>
+    <tr><td><tt>Tab</tt></td><td>Tab key</td></tr>
+    <tr><td><tt>Space</tt></td><td>Space bar</td></tr>
+    <tr><td><tt>Back</tt></td><td>Backspace key</td></tr>
+    <tr><td><tt>Insert</tt></td><td>Ins key</td></tr>
+    <tr><td><tt>Delete</tt></td><td>Del key</td></tr>
+    <tr><td><tt>Pause</tt></td><td>Pause key</td></tr>
+    <tr><td><tt>Snapshot</tt></td><td>Snapshot / Print Screen key</td></tr>
+    <tr><td><tt>LWin</tt></td><td>Left Windows key</td></tr>
+    <tr><td><tt>RWin</tt></td><td>Right Windows key</td></tr>
+    <tr><td><tt>Apps</tt></td><td>Apps key</td></tr>
+    <tr><td><tt>Multiply</tt></td><td>Multiply key</td></tr>
+    <tr><td><tt>Add</tt></td><td>Add key</td></tr>
+    <tr><td><tt>Subtract</tt></td><td>Subtract key</td></tr>
+    <tr><td><tt>Divide</tt></td><td>Divide / Slash key</td></tr>
+    <tr><td><tt>Separator</tt></td><td>Separator / Backslash key</td></tr>
+    <tr><td><tt>Shift</tt></td><td>Shift key (when not used as a modifier)</td></tr>
+    <tr><td><tt>Ctrl</tt></td><td>Ctrl key (when not used as a modifier)</td></tr>
+    <tr><td><tt>Alt</tt></td><td>Alt key (when not used as a modifier)</td></tr>
+    <tr><td><tt>VolumeMute</tt></td><td>Mute key</td></tr>
+    <tr><td><tt>VolumeUp</tt></td><td>Volume up key</td></tr>
+    <tr><td><tt>VolumeDown</tt></td><td>Volume down key</td></tr>
+    <tr><td><tt>MediaPlayPause</tt></td><td>Play/pause media key</td></tr>
+    <tr><td><tt>MediaStop</tt></td><td>Stop media key</td></tr>
+    <tr><td><tt>MediaNext</tt></td><td>Next track key</td></tr>
+    <tr><td><tt>MediaPrev</tt></td><td>Previous track key</td></tr>
+  </tbody>
+
+  <thead>
+    <tr><td class="macro_head" colspan=2><b>Special macros</b></td></tr>
+  </thead>
+  <tbody>
+    <tr><td><tt><b>Any</b></tt></td><td>A special macro that can run a command on press/release of any key or gamepad button. <tt>UP</tt> is the only modifier allowed. In the command, <tt>[[*]]</tt> is replaced with the key/button name.<sup>*</sup></td></tr>
+    <tr><td><tt><b>GamepadRaw</b></tt><sup>*</sup></td><td>Captures raw input from a gamepad, without regard to the adjustments done by the Gamepad Setup dialog. In the command, <tt>[[id]]</tt> is replaced by the name of the button or axis changed ("Button0" through "Button15" and "Axis0" through "Axis11"), <tt>[[value]]</tt> is replaced with the value of the button or axis, and <tt>[[*]]</tt> is equivalent to <tt>[[id]] [[value]]</tt>.</td></tr>
+    <tr><td colspan=2 class="macro_foot">
+      <p><sup>*</sup> If no gamepad mappings are included in a game's interface, the default mappings are used instead, which will map the Dpad buttons to the arrow keys. This will cause the Any macro to register both a gamepad directional button and the mapped key on the same press. If you plan on using macros to capture gamepad input, you may wish instead to map any one of the directional buttons to "None", which will override the default gamepad mappings completely.</p>
+    </td></tr>
+  </tbody>
+
+  <thead>
+    <tr><td class="macro_head" colspan=2><b>Gamepad buttons</b><sup>&dagger;</sup> can use another gamepad button as a modifier (but not CTRL, SHIFT, ALT), and can be mapped to one or two keyboard keys or mouse buttons.</td></tr>
+    <tr><th>Button</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><tt>GamepadFace1</tt></td><td>A (Xbox), X (PS), bottom of diamond</td></tr>
+    <tr><td><tt>GamepadFace2</tt></td><td>B (Xbox), Circle (PS), right of diamond</td></tr>
+    <tr><td><tt>GamepadFace3</tt></td><td>X (Xbox), Square (PS), left of diamond</td></tr>
+    <tr><td><tt>GamepadFace4</tt></td><td>Y (Xbox), Triangle (PS), top of diamond</td></tr>
+    <tr><td><tt>GamepadL1</tt></td><td>Left top shoulder</td></tr>
+    <tr><td><tt>GamepadR1</tt></td><td>Right top shoulder</td></tr>
+    <tr><td><tt>GamepadL2</tt></td><td>Left bottom shoulder</td></tr>
+    <tr><td><tt>GamepadR2</tt></td><td>Right bottom shoulder</td></tr>
+    <tr><td><tt>GamepadSelect</tt></td><td>Select / Back</td></tr>
+    <tr><td><tt>GamepadStart</tt></td><td>Start / Forward</td></tr>
+    <tr><td><tt>GamepadL3</tt></td><td>Left analog click</td></tr>
+    <tr><td><tt>GamepadR3</tt></td><td>Right analog click</td></tr>
+    <tr><td class="macro_subhead" colspan=2>Directional buttons: only one can pressed at a time, and the diagonal buttons are virtual.</tr>
+    <tr><td><tt>GamepadUp</tt></td><td>Up button</td></tr>
+    <tr><td><tt>GamepadDown</tt></td><td>Down button</td></tr>
+    <tr><td><tt>GamepadLeft</tt></td><td>Left button</td></tr>
+    <tr><td><tt>GamepadRight</tt></td><td>Right button</td></tr>
+    <tr><td><tt>GamepadUpLeft</tt></td><td>Up+left virtual button</td></tr>
+    <tr><td><tt>GamepadUpRight</tt></td><td>Up+right virtual button</td></tr>
+    <tr><td><tt>GamepadDownLeft</tt></td><td>Down+left virtual button</td></tr>
+    <tr><td><tt>GamepadDownRight</tt></td><td>Down+right virtual button</td></tr>
+  </tbody>
+
+  <thead>
+    <tr><td class="macro_head" colspan=2><b>Gamepad analog sticks</b><sup>&dagger;</sup> can have commands and/or map to <tt>GamepadDir</tt>, <tt>GamepadDir4</tt>, or <tt>Mouse</tt>. They can use a gamepad button as a modifier. In a command, <tt>[[x]]</tt> and <tt>[[y]]</tt> are replaced by coordinates, and <tt>[[*]]</tt> is replaced by both with a comma for separation.</td></tr>
+  </thead>
+  <tbody>
+    <tr><td><tt>GamepadLeftAnalog</tt></td><td>Left analog stick</td></tr>
+    <tr><td><tt>GamepadRightAnalog</tt></td><td>Left analog stick</td></tr>
+  </tbody>
+
+  <thead>
+    <tr><td class="macro_head" colspan=2><b>Gamepad Dpads</b><sup>&dagger;&Dagger;</sup> can have commands or are used as mapping targets for analog sticks. A gamepad button can be used as a modifier. In a command, <tt>[[*]]</tt> is replaced by a direction number, which can be 0.</td></tr>
+  </thead>
+  <tbody>
+    <tr><td><tt>GamepadDir</tt></td><td>Dpad, converted to one of the eight standard directions.</td></tr>
+    <tr><td><tt>GamepadDir4</tt></td><td>Dpad, converted to a cardinal direction.</td></tr>
+    <tr><td colspan=2 class="macro_foot">
+      <p><sup>&dagger;</sup> All of the gamepad macros defined above apply to the first gamepad. BYOND can now support up to four gamepads, and you can replace Gamepad in the names above with Gamepad2, Gamepad3, or Gamepad4 to access them. Each gamepad also has its own raw macro (i.e., Gamepad2Raw).</p>
+      <p><sup>&Dagger;</sup> If you use a Dpad macro like GamepadDir as a <tt>map-to</tt> target, you don't have to specify gamepad 2-4 in map-to; the mapping will automatically know that when Gamepad2LeftAnalog is mapped to GamepadDir, it means Gamepad2Dir.</p>
+    </td></tr>
+  </tbody>
+
+  <thead>
+    <tr><td class="macro_head" colspan=2 byondver=514><b>Mouse macros</b> can have commands but not be used as mapping targets.</td></tr>
+  </thead>
+  <tbody>
+    <tr><td><tt>MouseDown</tt></td><td>Mouse button pressed (replaces MouseDown verb)</td></tr>
+    <tr><td><tt>MouseUp</tt></td><td>Mouse button released (replaces MouseUp verb)</td></tr>
+    <tr><td><tt>MouseClick</tt></td><td>A click action has occurred (replaces Click verb)</td></tr>
+    <tr><td><tt>MouseDblClick</tt></td><td>A double-click action has occurred (replaces DblClick verb)</td></tr>
+    <tr><td><tt>MouseOver</tt></td><td>Mouse has moved over a new icon or entered/exited a control (replaces MouseEntered and MouseExited verbs)</td></tr>
+    <tr><td><tt>MouseMove</tt></td><td>Mouse has moved to a new pixel of the same icon (replaces MouseMove verb)</td></tr>
+    <tr><td><tt>MouseDrag</tt></td><td>Mouse has begin dragging or is over a new drop target (replaces MouseDrag verb)</td></tr>
+    <tr><td><tt>MouseDragMove</tt></td><td>Mouse is dragging and is over a new pixel of the same drop target (replaces MouseDrag verb in situations where MouseMove would apply)</td></tr>
+    <tr><td><tt>MouseDrop</tt></td><td>Mouse drag has been released over a target (replaces MouseDrop verb)</td></tr>
+    <tr><td><tt>MouseWheel</tt></td><td>A wheel movement has occurred (replaces MouseWheel verb)</td></tr>
+  </tbody>
+
+  <thead>
+    <tr><td class="macro_head" colspan=2><b>Mouse targets</b> can only be used as mapping targets for another macro.</td></tr>
+  </thead>
+  <tbody>
+    <tr><td><tt>Mouse</tt></td><td>The mouse cursor, mappable by a gamepad analog stick.</td></tr>
+    <tr><td><tt>MouseLeftButton</tt></td><td>Left button, mappable by a gamepad button.</td></tr>
+    <tr><td><tt>MouseRightButton</tt></td><td>Right button, mappable by a gamepad button.</td></tr>
+    <tr><td><tt>MouseMiddleButton</tt></td><td>Middle button, mappable by a gamepad button.</td></tr>
+  </tbody>
+
+</table>
+

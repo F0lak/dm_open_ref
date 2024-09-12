@@ -1,0 +1,29 @@
+
+
+<a name=/datum/proc/Read>
+<h2>Read proc (datum)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/savefile/operator/%3e%3e>&gt;&gt; operator (savefile)</a>
+<dd><a href=#/datum/proc/Write>Write proc (datum)</a>
+<dd><a href=#/var/tmp>tmp vars</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Read(savefile/F)
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when the object is read from a save file.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>F: the save file being read
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>Read the value of each variable from a directory by the same name as the
+    variable.  Variables marked tmp, global, or const and variables for
+    which there is no directory are skipped.
+</dl>
+

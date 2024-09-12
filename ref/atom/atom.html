@@ -1,0 +1,27 @@
+
+
+<a name=/atom>
+<h2>atom</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/area>area</a>
+<dd><a href=#/datum>datum</a>
+<dd><a href=#/mob>mob</a>
+<dd><a href=#/atom/movable>movable atoms</a>
+<dd><a href=#/obj>obj</a>
+<dd><a href=#/atom/proc>procs (atom)</a>
+<dd><a href=#/turf>turf</a>
+<dd><a href=#/atom/var>vars (atom)</a>
+</dl>
+
+<p>The /atom object type is the ancestor of all mappable objects in the
+game.  The types /area, /turf, /obj, and /mob are all derived from /atom.
+You should not create instances of /atom directly but should use /area,
+/turf, /obj, and /mob for actual objects.  The /atom object type exists for
+the purpose of defining variables or procedures that are shared by all of
+the other "physical" objects.  These are also the only objects for which
+verbs may be accessible to the user.
+
+<p>/atom is derived from /datum, so it inherits the basic properties that
+are shared by all DM objects.
+

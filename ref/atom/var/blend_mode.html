@@ -1,0 +1,55 @@
+
+
+<a name=/atom/var/blend_mode>
+<h2 byondver=501>blend_mode var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var>vars (atom)</a>
+<dd><a href=#/atom/var/alpha>alpha var (atom)</a>
+<dd><a href=#/atom/var/color>color var (atom)</a>
+<dd><a href=#/atom/var/appearance_flags>appearance_flags var (atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0 (none/overlay)
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>BLEND_DEFAULT (0)
+<dd>BLEND_OVERLAY
+<dd>BLEND_ADD
+<dd>BLEND_SUBTRACT<small>*</small>
+<dd>BLEND_MULTIPLY<small>*&dagger;</small>
+<dd byondver=513>BLEND_INSET_OVERLAY<small>*&dagger;</small>
+</dl>
+
+<p>[<small>*</small> This blend type appears only when using graphics
+hardware mode. It is also not visible in the map editor.]<br/>
+[<small>&dagger;</small> Since the alpha of the icon underneath is used for
+alpha masking, mouse hits take it into account.]
+
+<p>Controls the way the atom's icon is blended onto the icons behind it. The
+blend mode used by an atom is inherited by any attached overlays, unless they
+override it. <tt>BLEND_DEFAULT</tt> will use the main atom's blend mode; for
+the atom itself, it's the same as <tt>BLEND_OVERLAY</tt>.
+
+<p><tt>BLEND_OVERLAY</tt> will draw an icon the normal way.
+
+<p><tt>BLEND_ADD</tt> will do additive blending, so that the colors in the
+icon are added to whatever is behind it. Light effects like explosions will
+tend to look better in this mode.
+
+<p><tt>BLEND_SUBTRACT</tt> is for subtractive blending. This may be useful for
+special effects.
+
+<p><tt>BLEND_MULTIPLY</tt> will multiply the icon's colors by whatever is
+behind it. This is typically only useful for applying a colored light effect;
+for simply darkening, using a translucent black icon with normal overlay
+blending is a better option.
+
+<p><tt>BLEND_INSET_OVERLAY</tt> overlays the icon, but masks it by the
+image being drawn on. This is pretty much not at all useful directly on the
+map, but can be very useful for an overlay for an atom that uses
+<tt>KEEP_TOGETHER</tt> (see <a class=code href=#/atom/var/appearance_flags>appearance_flags</a>),
+or for the <a href=#/{notes}/filters/layer>layering filter</a>.
+

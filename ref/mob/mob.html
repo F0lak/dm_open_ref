@@ -1,0 +1,28 @@
+
+
+<a name=/mob>
+<h2>mob</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom>atom</a>
+<dd><a href=#/atom/movable>movable atoms</a>
+<dd><a href=#/mob/proc>procs (mob)</a>
+<dd><a href=#/mob/var>vars (mob)</a>
+<dd><a href=#/client>client</a>
+</dl>
+
+<p>Mobs are "mobile objects" derived from <tt>/mob</tt>, which derives from
+<tt>/atom/movable</tt>. Human players are associated with a mob when they log
+on. Mobs are typically used for other "creature" types as well such as NPCs.
+This type is slightly more complex than objs since it can be attached to a
+client.
+
+<p>This example defines the mob type <tt>/mob/guzzler</tt>.
+
+<h3>Example:</h3>
+<xmp>
+mob
+  guzzler
+    desc = "Mean, mad, and wicked bad."
+</xmp>
+

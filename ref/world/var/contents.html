@@ -1,0 +1,29 @@
+
+
+<a name=/world/var/contents>
+<h2>contents list var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/list>list</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>List of all areas, turfs, mobs, and objs initially in the world.
+</dl>
+
+<p>This is a list of every object in the world.  Objects in this list are in
+no particular order.
+
+<h3>Example:</h3>
+<xmp>
+proc/ListAreas(mob/M)
+  var/area/A
+  M << "Areas:"
+  for (A in world.contents)
+    M << A
+</xmp>
+
+<p>This example displays a list of every area in existence.  As a convenient
+short-hand, one may simply write for(A) or for(A in world) instead of the
+full for(A in world.contents).
+

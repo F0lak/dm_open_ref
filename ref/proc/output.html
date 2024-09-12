@@ -1,0 +1,73 @@
+
+
+<a name=/proc/output>
+<h2>output proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/%3c%3c/output>&lt;&lt; output operator</a>
+<dd><a href=#/proc/winclone>winclone proc</a>
+<dd><a href=#/proc/winset>winset proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>output(msg, control)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>msg: Text, an atom, a file, or null
+<dd>control: The ID of a control in the player's skin, or null for the default
+</dl>
+
+<p>This is used in conjunction with the &lt;&lt; output operator to send
+output to a particular control in the player's skin. If null is sent, the
+control will be cleared.
+
+<h3>Example:</h3>
+<xmp>
+usr << output("Your score is [score].", "scorepane.output")
+</xmp>
+
+<p>As with <tt>winset()</tt>, the control name may be in the form
+<tt>":[type]"</tt> which sends to the default control of that type, e.g.
+<tt>":output"</tt>.
+
+<p>The control ID can be followed by a colon and extra info such as a name
+or a grid cell, which can send the output to the control in a different way.
+In a grid, this can output directly to a specific grid cell, like so:
+
+<h3>Example:</h3>
+<xmp>
+usr << output("Column 3, Row 2", "examplegrid:3,2")
+</xmp>
+
+<p>For a browser control, the extra info is a JavaScript function. The format
+for sending a script to the browser control is
+<tt>output("[params]","[control]:[scriptname]")</tt> where "[params]" is a
+URL-encoded list of string arguments to the javascript function, as formatted
+by <a class=code href=#/proc/list2params>list2params()</a>.
+
+<h3>Example:</h3>
+<xmp>
+mob/Login()
+    . = ..()
+    usr << output(\
+{"
+<script type="text/javascript">
+function replace(v) {
+  document.getElementById('foo').innerHTML =
+    v.replace(/&/g, '&amp;').replace(/</g, '&lt;');
+}
+</script>
+<div id="foo">This text can change.</div>
+<p>And this can't.</p>
+"},
+    ":browser");
+
+#define LP(str) list2params(list(str))
+mob/verb/newtext(T as text)
+    usr << output(LP(T), ":browser:replace")
+</xmp>
+
+<p>This allows for the creation of more dynamic interfaces, since javascript
+provides access to many client-side operations and flicker-free updates.
+

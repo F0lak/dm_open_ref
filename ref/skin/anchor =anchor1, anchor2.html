@@ -1,0 +1,29 @@
+
+
+<a name=/{skin}/param/anchor toc="anchor1, anchor2">
+<h2>anchor1, anchor2 parameters (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/pos>pos parameter</a>
+<dd><a href=#/{skin}/param/size>size parameter</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control>All</a> (except <a href=#/{skin}/control/main>Main</a>)
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>none
+<dd><i>x</i>,<i>y</i>
+</dl>
+
+<dl class=codedd><dt><b>Default value:</b>
+<dd>none
+</dl>
+
+<p>Anchors the control within the window or pane. If the anchor is not <tt>none</tt>, it is expressed as pecentages of the container's width and height. For example, an anchor of 100,100 means that the X and Y position are tied to the lower right of the container, and 50,0 is tied to the top center.
+
+<p>Setting only <tt>anchor1</tt> will control the position of the control but won't affect its size.
+
+<p>Setting <tt>anchor2</tt> as well will allow you to stretch the control as the container's size changes. You can think of this <tt>anchor1</tt> controlling the top left corner, and <tt>anchor2</tt> the bottom right corner.
+

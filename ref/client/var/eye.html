@@ -1,0 +1,52 @@
+
+
+<a name=/client/var/eye>
+<h2>eye var (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/var/edge_limit>edge_limit var (client)</a>
+<dd><a href=#/client/var/lazy_eye>lazy_eye var (client)</a>
+<dd><a href=#/client/var/mob>mob var (client)</a>
+<dd><a href=#/client/var/perspective>perspective var (client)</a>
+<dd><a href=#/client/var/glide_size>glide_size var (client)</a>
+<dd><a href=#/client/var/view>view var (client)</a>
+<dd><a href=#/client/var/virtual_eye>virtual_eye var (client)</a>
+<dd><a href=#/world/var/view>view var (world)</a>
+<dd><a href=#/atom/movable/var/step_x>step_x var (movable atom)</a>
+<dd><a href=#/atom/movable/var/step_y>step_y var (movable atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>The connected mob, client.mob.
+</dl>
+
+<p>This value determines the center of the player's map.  The default value
+simply means that the visible region is normally centered on the player's mob.
+Effects such as setting <code>perspective</code> to
+<code>EDGE_PERSPECTIVE</code> or using <code>lazy_eye</code> can move the map
+off-center temporarily. The eye is the <i>ideal</i> center, not
+necessarily the actual center; to find the actual center, use
+<code>virtual_eye</code>.
+
+<p>The eye's step_x/y vars, if present, are also used to allow smooth
+scrolling of the map. These also obey lazy_eye and edge_limit.
+
+<p>Note that the visibility of objects is still computed from the point of
+view of the mob rather than the eye.  This allows the use of
+<code>lazy_eye</code> or similar effects that control the panning of the map
+while still having the player see only what the mob can see.  To determine
+visibility from the eye, you can change the value of
+<code>client.perspective</code>.
+
+<p>If a player connects to a new mob M, client.eye automatically changes to M.
+
+<h3>Example:</h3>
+<xmp>
+client
+  eye = locate(5,5,1)
+</xmp>
+
+<p>This fixes the center of the player's map at the turf coordinate (5,5,1).
+Since the eye is fixed, the map will not scroll even as the player's mob
+moves out of the visible range.
+

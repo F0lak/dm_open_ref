@@ -1,0 +1,34 @@
+
+
+<a name=/proc/file2text>
+<h2>file2text proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/shell>shell proc</a>
+<dd><a href=#/proc/text2file>text2file proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>file2text(File)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>File: file to read
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>the contents of the file.
+</dl>
+
+<p>This can be useful when interacting with external applications that
+generate output in a text file.  For example, you might have an external
+program that mimics conversation:
+
+<h3>Example:</h3>
+<xmp>
+mob/oracle/verb/tell(T as text)
+  text2file(T,"talk.in")
+  shell("talk < talk.in > talk.out")
+  usr << file2text("talk.out")
+</xmp>
+

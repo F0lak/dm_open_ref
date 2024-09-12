@@ -1,0 +1,28 @@
+
+
+<a name=/{notes}/filters/blur toc="Gaussian blur (filters)">
+<h2 byondver=512>Gaussian blur filter</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{notes}/filters/motion_blur>Motion blur (filters)</a>
+<dd><a href=#/{notes}/filters/radial_blur>Radial blur (filters)</a>
+<dd><a href=#/{notes}/filters/angular_blur>Angular blur (filters)</a>
+<dd><a href=#/{notes}/filters/drop_shadow>Drop shadow (filters)</a>
+</dl>
+
+<dl><dt>Format:</dt>
+<dd>filter(type="blur", ...)</dd>
+</dl>
+
+<dl><dt>Args:</dt>
+<dd>size: Amount of blur (defaults to 1)</dd>
+</dl>
+
+<p>Blurs the image by a certain amount. The size of the blur can roughly be
+thought of in "pixels" worth of blur.
+
+<p class=performance>Note: Large blurs will result in reduced performance. The
+highest size that can be handled easily in this filter is 6. Higher sizes
+require multiple passes, although the filter will "cheat" and use low-quality
+passes for much higher sizes.
+

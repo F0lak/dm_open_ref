@@ -231,8 +231,8 @@ def build_file_tree() -> None:
 			# print("fd: " + full_dir)
 
 			link_dict[f"{dirty_file_path}/{md_title}"] = f"{pruned_file_path}\\{md_title}.md"
-			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "md", md_text))
-			pages.append(Page(f"{output_directory}\\{pruned_file_path}", f"{md_title}", "html", html_text))
+			pages.append(Page(f"{output_directory}\\ref\\{pruned_file_path}", f"{md_title}", "md", md_text))
+			pages.append(Page(f"{output_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
 
 			global index
 			index += f"<a href = \"{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
@@ -268,10 +268,12 @@ if __name__ == "__main__":
     
 	script_directory = os.path.dirname(os.path.abspath(__file__))
 	input_file = os.path.join(script_directory, 'info.html')
-	output_directory = os.path.join(script_directory, 'ref')
+	output_directory = os.path.join(script_directory)
 
-	if os.path.exists(output_directory):
-		shutil.rmtree(output_directory)
+	if os.path.exists(output_directory + "\\ref"):
+		shutil.rmtree(output_directory+ "\\ref")
+	if os.path.exists(output_directory + "\\html"):
+		shutil.rmtree(output_directory + "\\html")
 
 	link_dict	: dict = {}
 	pages	: list = []

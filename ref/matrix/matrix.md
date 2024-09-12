@@ -1,5 +1,8 @@
 ## matrix 
 ###### BYOND Version 500
+
+[Click here](http://tracealter.com/matrices.html) to check out Crazah's matrix playground!
+
 **See also:**
 +   [matrix proc](/ref/proc/matrix.md) 
 +   [matrix operators](/ref/matrix/operators.md) 

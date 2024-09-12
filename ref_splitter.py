@@ -129,6 +129,7 @@ def prep_html_file(text) -> str:
 		return text
 
 def clean_filenames(text) -> str:
+		text = text.replace("%2e", "DOT")
 		text = text.replace(".", "DOT")
 		text = text.replace(">", "RIGHT")
 		text = text.replace("<", "LEFT")

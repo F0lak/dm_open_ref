@@ -1,6 +1,5 @@
 ## isarea proc
-**See also:**
-+   [isloc proc](/ref/proc/isloc.md) <!-- -->
+
 **Format:**
 +   isarea(Loc1, Loc2 \...)
 <!-- -->
@@ -9,3 +8,6 @@
 <!-- -->
 **Returns:**
 +   1 if all args are valid areas; 0 otherwise
+
+**See also:**
++   [isloc proc](/ref/proc/isloc.md) <!-- -->

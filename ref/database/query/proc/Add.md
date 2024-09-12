@@ -1,8 +1,6 @@
 ## Add proc (database query) 
 ###### BYOND Version 506
-**See also:**
-+   [database query datum](/ref/database/query.md) 
-+   [Clear proc (database query)](/ref/database/query/proc/Clear.md) <!-- -->
+
 **Format:**
 +   Add(text, item1, item2, \...)
 <!-- -->
@@ -36,3 +34,7 @@ above, the query text might look like this:
 
 
 `INSERT INTO quests (name, quest, complete) VALUES ('Tom','Save the Dog',1)`
+
+**See also:**
++   [database query datum](/ref/database/query.md) 
++   [Clear proc (database query)](/ref/database/query/proc/Clear.md) <!-- -->

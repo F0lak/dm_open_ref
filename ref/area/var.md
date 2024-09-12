@@ -46,3 +46,4 @@ area/var
 +   [type](/ref/datum/var/type.md) 
 +   [vars](/ref/datum/var/vars.md) 
 +   [verbs](/ref/atom/var/verbs.md) 
+

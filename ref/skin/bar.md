@@ -12,3 +12,4 @@ percentage from 0 to 100.
 +   [on-change](/ref/%7Bskin%7D/param/bar-color.md) 
 +   [value](/ref/%7Bskin%7D/param/value.md) 
 +   [width](/ref/%7Bskin%7D/param/width.md) 
+

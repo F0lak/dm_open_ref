@@ -1,8 +1,5 @@
 ## macros (text)
-**See also:**
-+   [icon text macro](/ref/DM/text/macros/icon.md) 
-+   [text](/ref/DM/text.md) 
-+   [text proc](/ref/proc/text.md) 
+
 
 Text macros start with \'\\\' (a backslash) and end with a
 space or other punctuation. 
@@ -47,3 +44,9 @@ value \\uNNNN // \" \\UNNNNNN // \"
  obj/CPU name = \"\\improper CPU\" //prevent capitalization
 from causing proper-noun behavior 
 ```
+
+
+**See also:**
++   [icon text macro](/ref/DM/text/macros/icon.md) 
++   [text](/ref/DM/text.md) 
++   [text proc](/ref/proc/text.md) 

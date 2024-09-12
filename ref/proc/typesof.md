@@ -1,7 +1,5 @@
 ## typesof proc
-**See also:**
-+   [istype proc](/ref/proc/istype.md) 
-+   [locate proc](/ref/proc/locate.md) <!-- -->
+
 **Format:**
 +   typesof(Type1,Type2,\...)
 <!-- -->
@@ -33,3 +31,8 @@ reboot_world() world.Reboot() //for testing mob/verb/add_admin() verbs
 += typesof(/mob/admin_commands/verb) mob/verb/remove_admin() verbs -=
 typesof(/mob/admin_commands/verb) 
 ```
+
+
+**See also:**
++   [istype proc](/ref/proc/istype.md) 
++   [locate proc](/ref/proc/locate.md) <!-- -->

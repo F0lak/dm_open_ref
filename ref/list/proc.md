@@ -1,7 +1,5 @@
 ## procs (list)
-**See also:**
-+   [list](/ref/list.md) 
-+   [list operators](/ref/list/operators.md) 
+
 
 
 Built-in list procs:
@@ -16,3 +14,7 @@ list/proc
 +   [RemoveAll](/ref/list/proc/RemoveAll.md) 
 +   [Splice](/ref/list/proc/Splice.md) 
 +   [Swap](/ref/list/proc/Swap.md) 
+
+**See also:**
++   [list](/ref/list.md) 
++   [list operators](/ref/list/operators.md) 

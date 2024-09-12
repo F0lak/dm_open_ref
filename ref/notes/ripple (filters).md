@@ -1,7 +1,6 @@
 ## Ripple filter 
 ###### BYOND Version 513
-**See also:**
-+   [Wave (filters)](/ref/%7Bnotes%7D/filters/wave.md) <!-- -->
+
 Format:
 +   filter(type=\"ripple\", \...)
 <!-- -->
@@ -39,3 +38,6 @@ Up to 10 ripples can be stacked together in
 a single pass of the filter, as long as they have the same `repeat`,
 `falloff`, and `flags` values. (See the wave filter for the
 `WAVE_BOUNDED` flag.)
+
+**See also:**
++   [Wave (filters)](/ref/%7Bnotes%7D/filters/wave.md) <!-- -->

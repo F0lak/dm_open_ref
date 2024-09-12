@@ -1,6 +1,5 @@
 ## browse_rsc proc
-**See also:**
-+   [browse proc](/ref/proc/browse.md) <!-- -->
+
 **Format:**
 +   usr \<\< browse_rsc(File,FileName)
 <!-- -->
@@ -34,3 +33,7 @@ browse(\"
 ![](room.jpg)
 \[desc\]\") 
 ```
+
+
+**See also:**
++   [browse proc](/ref/proc/browse.md) <!-- -->

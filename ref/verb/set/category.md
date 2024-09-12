@@ -1,6 +1,5 @@
 ## category setting (verb)
-**See also:**
-+   [default_verb_category var
+
     (client)](/ref/client/var/default_verb_category.md) 
 +   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
 <!-- -->
@@ -20,3 +19,6 @@ To hide a verb from all panels,
 set the category to null. The verb may still show up in right-click
 popup menus, so you may want to use the [hidden](/ref/verb/set/hidden.md)  or
 [popup_menu](/ref/verb/set/popup_menu.md) verb properties instead.
+
+**See also:**
++   [default_verb_category var

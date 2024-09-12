@@ -1,9 +1,5 @@
 ## map
-**See also:**
-+   [#include directive](/ref/DM/preprocessor/include.md) 
-+   [area var (world)](/ref/world/var/area.md) 
-+   [maxx var (world)](/ref/world/var/maxx.md) 
-+   [turf var (world)](/ref/world/var/turf.md) <!-- -->
+
 **Format:**
 +   #include \"mapname.dmm\"
 
@@ -23,3 +19,10 @@ determined by the world variables turf and area.
  #include \"level1.dmm\" #include \"level2.dmm\" #include
 \"level3.dmm\" 
 ```
+
+
+**See also:**
++   [#include directive](/ref/DM/preprocessor/include.md) 
++   [area var (world)](/ref/world/var/area.md) 
++   [maxx var (world)](/ref/world/var/maxx.md) 
++   [turf var (world)](/ref/world/var/turf.md) <!-- -->

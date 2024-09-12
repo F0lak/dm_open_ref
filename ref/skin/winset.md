@@ -1,8 +1,5 @@
 ## winset and winget (JavaScript)
-**See also:**
-+   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
-+   [winset proc](/ref/proc/winset.md) 
-+   [winget proc](/ref/proc/winget.md) 
+
 
 
 Browser controls can interact with the skin via JavaScript, by
@@ -61,3 +58,8 @@ color these will always be objects.
 An optional `control`
 parameter for the winget call can be used if you want to send data to a
 callback in a different browser control.
+
+**See also:**
++   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
++   [winset proc](/ref/proc/winset.md) 
++   [winget proc](/ref/proc/winget.md) 

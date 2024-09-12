@@ -1,10 +1,5 @@
 ## list2params proc
-**See also:**
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [list associations](/ref/list/associations.md) 
-+   [params var (world)](/ref/world/var/params.md) 
-+   [params2list proc](/ref/proc/params2list.md) 
-+   [text2num proc](/ref/proc/text2num.md) 
+
 <!-- -->
 **Format:**
 +   list2params(List)
@@ -57,3 +52,10 @@ say a mob) get turned into references in the parameter text, just as
 though you had embedded them with \"\\ref\[Object\]\". When read back in
 with params2list(), you could convert these values back into real
 references by using locate().
+
+**See also:**
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [list associations](/ref/list/associations.md) 
++   [params var (world)](/ref/world/var/params.md) 
++   [params2list proc](/ref/proc/params2list.md) 
++   [text2num proc](/ref/proc/text2num.md) 

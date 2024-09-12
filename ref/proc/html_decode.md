@@ -1,6 +1,5 @@
 ## html_decode proc
-**See also:**
-+   [html_encode proc](/ref/proc/html_encode.md) <!-- -->
+
 **Format:**
 +   html_decode(HtmlText)
 <!-- -->
@@ -20,3 +19,6 @@ produced by the code `&lt;` and \> is produced by the code `&gt;`.
 The `html_decode()` instruction takes a text string containing
 such escaped symbols and turns them into their literal counterparts. The
 more useful function is `html_encode()` which does the reverse.
+
+**See also:**
++   [html_encode proc](/ref/proc/html_encode.md) <!-- -->

@@ -1,11 +1,5 @@
 ## ftp proc
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [browse proc](/ref/proc/browse.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [link proc](/ref/proc/link.md) 
-+   [run proc](/ref/proc/run.md) 
-+   [sound proc](/ref/proc/sound.md) <!-- -->
+
 **Format:**
 +   target \<\< ftp(File, Name)
 
@@ -28,3 +22,11 @@ supplementary documentation, or anything.
 
 This example allows the user to download the icons from other
 objects in the game.
+
+**See also:**
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [browse proc](/ref/proc/browse.md) 
++   [file proc](/ref/proc/file.md) 
++   [link proc](/ref/proc/link.md) 
++   [run proc](/ref/proc/run.md) 
++   [sound proc](/ref/proc/sound.md) <!-- -->

@@ -1,7 +1,6 @@
 ## on-size parameter (skin) 
 ###### BYOND Version 482
-**See also:**
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+
 <!-- -->
 **Applies to:**
 +   [All](/ref/%7Bskin%7D/control.md) 
@@ -24,3 +23,6 @@ command, it will be replaced by the control\'s new size. Likewise,
 height. (See \"Embedded Winget\" in [client
 commands](/ref/%7Bskin%7D/commands.md) for more details on the `[[...]]`
 format.)
+
+**See also:**
++   [size parameter](/ref/%7Bskin%7D/param/size.md) 

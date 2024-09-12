@@ -1,10 +1,6 @@
 ## ?: operator 
 ###### BYOND Version 512
-**See also:**
-+   [. operator](/ref/operator/%2e.md) 
-+   [: operator](/ref/operator/:.md) 
-+   [?. operator](/ref/operator/%3f%2e.md) 
-+   [operators](/ref/operator.md) 
+
 
 This is used to access the procs and vars of an object. It is
 just like the : operator, but if the object is null, the access does not
@@ -38,3 +34,9 @@ once, and if it\'s not null then an assignment is made to its B var.
 This is identical to the ?. operator, except that ?. will check
 at compile time if the property is valid for the object type (if known).
 For this reason ?. is usually safer.
+
+**See also:**
++   [. operator](/ref/operator/%2e.md) 
++   [: operator](/ref/operator/:.md) 
++   [?. operator](/ref/operator/%3f%2e.md) 
++   [operators](/ref/operator.md) 

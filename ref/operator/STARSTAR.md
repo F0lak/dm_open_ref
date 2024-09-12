@@ -1,7 +1,5 @@
 ## \*\* operator
-**See also:**
-+   [log proc](/ref/proc/log.md) 
-+   [operators](/ref/operator.md) <!-- -->
+
 **Format:**
 +   A \*\* B
 <!-- -->
@@ -12,3 +10,8 @@
 ```
  usr \<\< 2 \*\* 3 // outputs 8 
 ```
+
+
+**See also:**
++   [log proc](/ref/proc/log.md) 
++   [operators](/ref/operator.md) <!-- -->

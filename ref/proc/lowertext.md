@@ -1,6 +1,5 @@
 ## lowertext proc
-**See also:**
-+   [uppertext proc](/ref/proc/uppertext.md) <!-- -->
+
 **Format:**
 +   lowertext(T)
 <!-- -->
@@ -17,3 +16,7 @@ Make all of the characters of T lowercase.
 ```
  L = lowertext(\"HI THERE\") // = \"hi there\" 
 ```
+
+
+**See also:**
++   [uppertext proc](/ref/proc/uppertext.md) <!-- -->

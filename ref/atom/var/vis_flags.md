@@ -1,8 +1,6 @@
 ## vis_flags var (atom) 
 ###### BYOND Version 513
-**See also:**
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
+
 <!-- -->
 **Default value:**
 +   0
@@ -46,3 +44,7 @@ Note: Using any of the the flags
 of their container that appears during gliding. E.g., if your mob is
 walking, anything in its visual contents that uses these flags will use
 a moving icon state instead of a non-moving icon state, when available.
+
+**See also:**
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 

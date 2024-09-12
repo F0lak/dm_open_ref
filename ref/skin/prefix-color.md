@@ -1,7 +1,5 @@
 ## prefix-color parameter (skin)
-**See also:**
-+   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-+   [suffix-color parameter](/ref/%7Bskin%7D/param/suffix-color.md) 
+
 <!-- -->
 **Applies to:**
 +   [Info](/ref/%7Bskin%7D/control/info.md) 
@@ -20,3 +18,7 @@ displays. No color means the default
 
 
 In BYOND 3.0, this color was red.
+
+**See also:**
++   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
++   [suffix-color parameter](/ref/%7Bskin%7D/param/suffix-color.md) 

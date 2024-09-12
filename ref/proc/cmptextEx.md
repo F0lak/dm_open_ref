@@ -1,6 +1,5 @@
 ## cmptextEx proc
-**See also:**
-+   [cmptext proc](/ref/proc/cmptext.md) <!-- -->
+
 **Format:**
 +   cmptextEx(T1,T2,\...)
 <!-- -->
@@ -30,3 +29,6 @@ since \"Hi\" and \"HI\" are different when taking case into account.
 Note: This proc used to be named cmpText, like cmptext but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.
+
+**See also:**
++   [cmptext proc](/ref/proc/cmptext.md) <!-- -->

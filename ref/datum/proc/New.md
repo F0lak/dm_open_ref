@@ -1,8 +1,5 @@
 ## New proc (datum)
-**See also:**
-+   [New proc (atom)](/ref/atom/proc/New.md) 
-+   [New proc (client)](/ref/client/proc/New.md) 
-+   [new proc](/ref/proc/new.md) 
+
 <!-- -->
 **Format:**
 +   New()
@@ -37,3 +34,8 @@ Also note that the type of
 object being created in this case was automatically inferred from the
 variable type on the left-hand side of the assignment. That\'s a handy
 little DM short-cut.
+
+**See also:**
++   [New proc (atom)](/ref/atom/proc/New.md) 
++   [New proc (client)](/ref/client/proc/New.md) 
++   [new proc](/ref/proc/new.md) 

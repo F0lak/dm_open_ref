@@ -1,6 +1,5 @@
 ## block proc
-**See also:**
-+   [list](/ref/list.md) <!-- -->
+
 **Format:**
 +   block(Start,End)
 +   block(StartX,StartY,StartZ, EndX=StartX,EndY=StartY,EndZ=StartZ)
@@ -39,3 +38,7 @@ example is equivalent to the one above:
  world maxx = 20 maxy = 20 mob/verb/block_test() var/turf/T
 for(T in block(1,1,1, 10,10)) T.text = \" \" 
 ```
+
+
+**See also:**
++   [list](/ref/list.md) <!-- -->

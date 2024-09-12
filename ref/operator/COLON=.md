@@ -1,8 +1,6 @@
 ## := operator 
 ###### BYOND Version 514
-**See also:**
-+   [= operator](/ref/operator/=.md) 
-+   [operators](/ref/operator.md) <!-- -->
+
 **Format:**
 +   A := B
 
@@ -21,3 +19,7 @@ A common use of
 this operator might be to copy another datum. This is basically just
 \"syntactic sugar\" to make certain datums easier to work with, and is
 intended mainly for situations where you\'ve overloaded the operator.
+
+**See also:**
++   [= operator](/ref/operator/=.md) 
++   [operators](/ref/operator.md) <!-- -->

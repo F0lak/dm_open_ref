@@ -1,9 +1,6 @@
 ## matrix procs 
 ###### BYOND Version 500
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [matrix operators](/ref/matrix/operators.md) 
-+   [turn proc (applied to a matrix)](/ref/proc/turn/matrix.md) 
+
 <!-- -->
 matrix/proc
 +   [New](/ref/proc/matrix.md) 
@@ -15,3 +12,8 @@ matrix/proc
 +   [Subtract](/ref/matrix/proc/Subtract.md) 
 +   [Translate](/ref/matrix/proc/Translate.md) 
 +   [Turn](/ref/matrix/proc/Turn.md) 
+
+**See also:**
++   [matrix](/ref/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [turn proc (applied to a matrix)](/ref/proc/turn/matrix.md) 

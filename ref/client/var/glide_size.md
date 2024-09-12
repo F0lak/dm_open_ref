@@ -1,8 +1,6 @@
 ## glide_size var (client) 
 ###### BYOND Version 490
-**See also:**
-+   [eye var (client)](/ref/client/var/eye.md) 
-+   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
+
 <!-- -->
 **Default value:**
 +   0
@@ -24,3 +22,7 @@ contrast pixel-level detail can look pretty ugly when displaced by short
 distances. 
 
 This was renamed from `pixel_step_size`.
+
+**See also:**
++   [eye var (client)](/ref/client/var/eye.md) 
++   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 

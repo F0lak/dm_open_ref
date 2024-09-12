@@ -1,9 +1,5 @@
 ## rgb2num proc
-**See also:**
-+   [rgb proc](/ref/proc/rgb.md) 
-+   [gradient proc](/ref/proc/gradient.md) 
-+   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
-+   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
+
 <!-- -->
 **Format:**
 +   rgb2num(color)
@@ -39,3 +35,10 @@ convert a color into a different format.
 HSL\[1\] // hue (210) src \<\< HSL\[2\] // saturation (100) src \<\<
 HSL\[3\] // luminance (66.6667) 
 ```
+
+
+**See also:**
++   [rgb proc](/ref/proc/rgb.md) 
++   [gradient proc](/ref/proc/gradient.md) 
++   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
++   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 

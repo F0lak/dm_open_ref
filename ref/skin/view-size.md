@@ -1,12 +1,5 @@
 ## view-size parameter (skin)
-**See also:**
-+   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
-+   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-+   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [view var (world)](/ref/world/var/view.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+
 <!-- -->
 **Applies to:**
 +   [Map](/ref/%7Bskin%7D/control/map.md)  (window only)
@@ -28,3 +21,12 @@ With a
 zoom level is automatically determined by the size of the map control,
 the map\'s native pixel size as explained above, and the value of the
 [letterbox](/ref/%7Bskin%7D/param/letterbox.md) parameter.
+
+**See also:**
++   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
++   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
++   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [view var (world)](/ref/world/var/view.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 

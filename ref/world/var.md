@@ -47,3 +47,4 @@ world/var
 +   [version](/ref/world/var/version.md) 
 +   [view](/ref/world/var/view.md) 
 +   [visibility](/ref/world/var/visibility.md) 
+

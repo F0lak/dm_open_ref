@@ -1,8 +1,5 @@
 ## Logout proc (mob)
-**See also:**
-+   [Login proc (mob)](/ref/mob/proc/Login.md) 
-+   [client var (mob)](/ref/mob/var/client.md) 
-+   [key var (mob)](/ref/mob/var/key.md) <!-- -->
+
 **Format:**
 +   Logout()
 <!-- -->
@@ -21,3 +18,8 @@ to another. In the case of a player switching to another mob, by the
 time `Logout()` is called, the original mob\'s key will be null, whereas
 the key will still be non-null in the case of a player disconnecting
 from the game.
+
+**See also:**
++   [Login proc (mob)](/ref/mob/proc/Login.md) 
++   [client var (mob)](/ref/mob/var/client.md) 
++   [key var (mob)](/ref/mob/var/key.md) <!-- -->

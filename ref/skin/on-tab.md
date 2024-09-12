@@ -1,7 +1,5 @@
 ## on-tab parameter (skin)
-**See also:**
-+   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
-+   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) 
+
 <!-- -->
 **Applies to:**
 +   [Info](/ref/%7Bskin%7D/control/info.md) 
@@ -18,3 +16,7 @@ If you include `[[*]]` in the command, it will be
 replaced by the new tab\'s [id](/ref/%7Bskin%7D/param/id.md) {.code}. (See
 \"Embedded Winget\" in [client commands](/ref/%7Bskin%7D/commands.md) for more
 details on the `[[...]]` format.)
+
+**See also:**
++   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
++   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) 

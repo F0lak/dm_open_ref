@@ -1,9 +1,5 @@
 ## sleep proc
-**See also:**
-+   [background setting (proc)](/ref/proc/set/background.md) 
-+   [waitfor setting (proc)](/ref/proc/set/waitfor.md) 
-+   [spawn proc](/ref/proc/spawn.md) 
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
+
 <!-- -->
 **Format:**
 +   sleep(Delay)
@@ -84,3 +80,9 @@ tend to run the current procedure at a higher priority with fewer
 interruptions. It is appropriate when there is a single task that needs
 to be done before anything else can happen, and you just want to make
 sure that network and user I/O are not terribly lagged in the process.
+
+**See also:**
++   [background setting (proc)](/ref/proc/set/background.md) 
++   [waitfor setting (proc)](/ref/proc/set/waitfor.md) 
++   [spawn proc](/ref/proc/spawn.md) 
++   [tick_lag var (world)](/ref/world/var/tick_lag.md) 

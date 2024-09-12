@@ -1,10 +1,6 @@
 ## Color gradient 
 ###### BYOND Version 514
-**See also:**
-+   [gradient proc](/ref/proc/gradient.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-+   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+
 
 
 A color gradient is a special list that defines a range of
@@ -77,3 +73,9 @@ effects and the [`gradient` proc](/ref/proc/gradient.md)  With particles, if
 you use a gradient the particle\'s color is given as a number, and that
 number is used to look up its real color from the gradient. The number
 can change over time, thus changing the particle\'s color.
+
+**See also:**
++   [gradient proc](/ref/proc/gradient.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
++   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 

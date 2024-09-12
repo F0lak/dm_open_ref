@@ -1,11 +1,5 @@
 ## IsBanned proc (world)
-**See also:**
-+   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) 
-+   [params2list proc](/ref/proc/params2list.md) 
-+   [address var (client)](/ref/client/var/address.md) 
-+   [computer_id var (client)](/ref/client/var/computer_id.md) 
-+   [connection var (client)](/ref/client/var/connection.md) 
-+   [hub var (world)](/ref/world/var/hub.md) 
+
 <!-- -->
 **Format:**
 +   IsBanned(key,address,computer_id,type)
@@ -80,3 +74,11 @@ of pager bans), but an interface could be created, using
 [SetConfig](/ref/world/proc/SetConfig.md) to read and write the data. Extra
 features could also be added such as automatic inference of key
 associations by IP address.
+
+**See also:**
++   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) 
++   [params2list proc](/ref/proc/params2list.md) 
++   [address var (client)](/ref/client/var/address.md) 
++   [computer_id var (client)](/ref/client/var/computer_id.md) 
++   [connection var (client)](/ref/client/var/connection.md) 
++   [hub var (world)](/ref/world/var/hub.md) 

@@ -1,8 +1,5 @@
 ## \<\< operator (savefile)
-**See also:**
-+   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [Write proc (datum)](/ref/datum/proc/Write.md) <!-- -->
+
 **Format:**
 +   F \<\< Val
 +   F\[\"Path\"\] \<\< Val
@@ -32,3 +29,8 @@ will be saved simply as references rather than as full objects. If this
 was not done, two references to the same object would be read back in as
 two separate objects. This also avoids infinite loops that would result
 when objects contain references back to themselves.
+
+**See also:**
++   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [Write proc (datum)](/ref/datum/proc/Write.md) <!-- -->

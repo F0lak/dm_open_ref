@@ -1,6 +1,5 @@
 ## cache_lifespan var (world)
-**See also:**
-+   [cache](/ref/DM/cache.md) <!-- -->
+
 **Default value:**
 +   30 (days)
 
@@ -17,3 +16,6 @@ browsers cannot make use of server-side caches when uploading files
 anyway. 
 
 This value must be a whole number.
+
+**See also:**
++   [cache](/ref/DM/cache.md) <!-- -->

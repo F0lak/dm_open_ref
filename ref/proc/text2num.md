@@ -1,7 +1,5 @@
 ## text2num proc
-**See also:**
-+   [istext proc](/ref/proc/istext.md) 
-+   [num2text proc](/ref/proc/num2text.md) <!-- -->
+
 **Format:**
 +   text2num(T)
 +   text2num(T, radix)
@@ -27,3 +25,7 @@ is no initial numeric portion, the result is null.
 
 The optional radix, which defaults to 10, can be any integer
 from 2 to 36.
+
+**See also:**
++   [istext proc](/ref/proc/istext.md) 
++   [num2text proc](/ref/proc/num2text.md) <!-- -->

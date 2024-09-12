@@ -1,6 +1,5 @@
 ## AllowUpload proc (client)
-**See also:**
-+   [input proc](/ref/proc/input.md) <!-- -->
+
 **Format:**
 +   AllowUpload(filename, filelength)
 <!-- -->
@@ -22,3 +21,7 @@ Otherwise, it will be rejected.
 524288) // 512K (0.5M) src \<\< \"\[filename\] is too big to upload!\"
 return 0 return 1 
 ```
+
+
+**See also:**
++   [input proc](/ref/proc/input.md) <!-- -->

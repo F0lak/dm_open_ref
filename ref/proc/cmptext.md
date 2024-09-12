@@ -1,6 +1,5 @@
 ## cmptext proc
-**See also:**
-+   [cmptextEx proc](/ref/proc/cmptextEx.md) <!-- -->
+
 **Format:**
 +   cmptext(T1,T2,\...)
 <!-- -->
@@ -24,3 +23,6 @@ cmptextEx().
 
 This outputs \"Equal!\" since
 \"Hi\" and \"HI\" are the same, ignoring case.
+
+**See also:**
++   [cmptextEx proc](/ref/proc/cmptextEx.md) <!-- -->

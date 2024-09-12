@@ -1,9 +1,6 @@
 ## icon_z var (atom) 
 ###### BYOND Version 516
-**See also:**
-+   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
-+   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
-+   [icon var (atom)](/ref/atom/var/icon.md) 
+
 <!-- -->
 **Default value:**
 +   0
@@ -18,3 +15,8 @@ icon.
 
 This var is meant to replace the `bound_y` var, which was
 applied very inconsistently in old versions.
+
+**See also:**
++   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
++   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
++   [icon var (atom)](/ref/atom/var/icon.md) 

@@ -1,6 +1,5 @@
 ## North proc (client)
-**See also:**
-+   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->
+
 **Format:**
 +   North()
 <!-- -->
@@ -12,3 +11,6 @@
 <!-- -->
 **Default action:**
 +   Calls src.Move() towards the north.
+
+**See also:**
++   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->

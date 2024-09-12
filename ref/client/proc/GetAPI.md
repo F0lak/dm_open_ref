@@ -1,8 +1,6 @@
 ## GetAPI proc (client) 
 ###### BYOND Version 514
-**See also:**
-+   [SetAPI proc (client)](/ref/client/proc/SetAPI.md) 
-+   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) 
+
 <!-- -->
 **Format:**
 +   GetAPI(Api, Name)
@@ -57,3 +55,7 @@ stat from a user who isn\'t logged into Steam.
                                               is the same no matter which client you  
                                               call it for.)                           
   -----------------------------------------------------------------------------------------------------
+
+**See also:**
++   [SetAPI proc (client)](/ref/client/proc/SetAPI.md) 
++   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) 

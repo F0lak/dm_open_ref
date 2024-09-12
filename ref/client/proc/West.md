@@ -1,6 +1,5 @@
 ## West proc (client)
-**See also:**
-+   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->
+
 **Format:**
 +   West()
 <!-- -->
@@ -12,3 +11,6 @@
 <!-- -->
 **Default action:**
 +   Calls src.Move() towards the west.
+
+**See also:**
++   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->

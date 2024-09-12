@@ -1,10 +1,6 @@
 ## vis_locs var (atom) 
 ###### BYOND Version 512
-**See also:**
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
-+   [image objects](/ref/image.md) 
-+   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+
 <!-- -->
 **Default value:**
 +   Empty list.
@@ -22,3 +18,9 @@ in a visual locs list does not count as a [reference](/ref/DM/garbage.md)  the
 same way that being a movable\'s loc does not count as a reference. If
 an object in this list otherwise runs out of references, it will be
 garbage collected and therefore removed from this list.
+
+**See also:**
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
++   [image objects](/ref/image.md) 
++   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 

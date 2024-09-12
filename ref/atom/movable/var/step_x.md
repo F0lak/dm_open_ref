@@ -1,12 +1,6 @@
 ## step_x var (movable atom) 
 ###### BYOND Version 490
-**See also:**
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
-+   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -31,3 +25,11 @@ For the smiley to appear at the left edge of the tile it is
 standing on, it would need a step_x value of -8. A step_x value of 8
 takes it all the way to the rightmost edge of the tile. Anything outside
 of the range -8 to 8 will have the atom straddling multiple turfs.
+
+**See also:**
++   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
++   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
++   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

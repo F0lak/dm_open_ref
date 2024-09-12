@@ -1,6 +1,5 @@
 ## procs (icon)
-**See also:**
-+   [icon](/ref/icon.md) 
+
 <!-- -->
 icon/proc
 +   [New](/ref/icon/proc/New.md) 
@@ -19,3 +18,6 @@ icon/proc
 +   [GetPixel](/ref/icon/proc/GetPixel.md) 
 +   [Width](/ref/icon/proc/Width.md) 
 +   [Height](/ref/icon/proc/Height.md) 
+
+**See also:**
++   [icon](/ref/icon.md) 

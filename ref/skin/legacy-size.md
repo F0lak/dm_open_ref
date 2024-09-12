@@ -1,7 +1,6 @@
 ## legacy-size parameter (skin) 
 ###### BYOND Version 512
-**See also:**
-+   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
+
 <!-- -->
 **Applies to:**
 +   [Output](/ref/%7Bskin%7D/control/output.md) <!-- -->
@@ -15,3 +14,6 @@
 When true, font sizes are scaled slightly larger for
 readability, which is legacy (and default) BYOND behavior. Set to false
 for exact font sizing.
+
+**See also:**
++   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 

@@ -1,8 +1,5 @@
 ## step_rand proc
-**See also:**
-+   [get_step_rand proc](/ref/proc/get_step_rand.md) 
-+   [walk_rand proc](/ref/proc/walk_rand.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+
 **Format:**
 +   step_rand(Ref,Speed=0)
 <!-- -->
@@ -15,3 +12,8 @@
 
 
 Move Ref randomly.
+
+**See also:**
++   [get_step_rand proc](/ref/proc/get_step_rand.md) 
++   [walk_rand proc](/ref/proc/walk_rand.md) 
++   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->

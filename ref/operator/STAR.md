@@ -1,10 +1,5 @@
 ## \* operator
-**See also:**
-+   [\*= operator](/ref/operator/*=.md) 
-+   [+ operator](/ref/operator/+.md) 
-+   [- operator](/ref/operator/-.md) 
-+   [/ operator](/ref/operator//.md) 
-+   [operators](/ref/operator.md) <!-- -->
+
 **Format:**
 +   A \* B
 <!-- -->
@@ -24,3 +19,10 @@ types of values being multiplied, mostly on A.
   vector            vector                 New vector with components multiplied together
                     matrix                 New vector with 2D transformation applied
                     num                    New vector scaling A by B
+
+**See also:**
++   [\*= operator](/ref/operator/*=.md) 
++   [+ operator](/ref/operator/+.md) 
++   [- operator](/ref/operator/-.md) 
++   [/ operator](/ref/operator//.md) 
++   [operators](/ref/operator.md) <!-- -->

@@ -1,11 +1,5 @@
 ## image objects
-**See also:**
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [image proc](/ref/proc/image.md) 
-+   [vars (image)](/ref/image/var.md) 
-+   [images var (client)](/ref/client/var/images.md) 
-+   [overlays var (atom)](/ref/atom/var/overlays.md) 
-+   [override var (atom)](/ref/atom/var/override.md) 
+
 
 The /image type contains data used to create a virtual image.
 Unlike other atomic objects, this object is a purely visual effect. It
@@ -47,3 +41,11 @@ state. Note that after the creation of an overlay, no link remains
 between the overlay and the object that was used to create it. If you
 change the image after that time, it will not change the overlay, which
 is simply a \"snapshot\" of the original image.
+
+**See also:**
++   [icon var (atom)](/ref/atom/var/icon.md) 
++   [image proc](/ref/proc/image.md) 
++   [vars (image)](/ref/image/var.md) 
++   [images var (client)](/ref/client/var/images.md) 
++   [overlays var (atom)](/ref/atom/var/overlays.md) 
++   [override var (atom)](/ref/atom/var/override.md) 

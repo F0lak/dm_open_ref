@@ -1,12 +1,5 @@
 ## list associations
-**See also:**
-+   [list](/ref/list.md) 
-+   [list proc](/ref/proc/list.md) 
-+   [list proc](/ref/proc/alist.md) 
-+   [list2params proc](/ref/proc/list2params.md) 
-+   [params var (world)](/ref/world/var/params.md) 
-+   [params2list proc](/ref/proc/params2list.md) 
-+   [vars list var (datum)](/ref/datum/var/vars.md) 
+
 
 
 Each unique text string or object in a list may be associated
@@ -78,3 +71,12 @@ The [`alist`
 proc](/ref/proc/alist.md) creates lists that are *strictly* associative. This
 means that list items are treated as \"keys\" in key,value pairs. Unlike
 a regular list, each \"key\" is unique.
+
+**See also:**
++   [list](/ref/list.md) 
++   [list proc](/ref/proc/list.md) 
++   [list proc](/ref/proc/alist.md) 
++   [list2params proc](/ref/proc/list2params.md) 
++   [params var (world)](/ref/world/var/params.md) 
++   [params2list proc](/ref/proc/params2list.md) 
++   [vars list var (datum)](/ref/datum/var/vars.md) 

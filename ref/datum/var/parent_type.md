@@ -36,3 +36,5 @@ share.
  datum proc/Copy(datum/O) MyType var foo Copy(MyType/O) foo =
 O.foo return ..() 
 ```
+
+

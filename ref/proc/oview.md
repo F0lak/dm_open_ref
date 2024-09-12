@@ -1,8 +1,5 @@
 ## oview proc
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [orange proc](/ref/proc/orange.md) 
-+   [view proc](/ref/proc/view.md) <!-- -->
+
 **Format:**
 +   oview(Dist,Center=usr)
 <!-- -->
@@ -22,3 +19,9 @@ Center or its contents in the list.
 ```
  oview() \<\< \"to others in sight of \[usr\]\" 
 ```
+
+
+**See also:**
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [orange proc](/ref/proc/orange.md) 
++   [view proc](/ref/proc/view.md) <!-- -->

@@ -1,7 +1,5 @@
 ## New proc (atom)
-**See also:**
-+   [New proc (datum)](/ref/datum/proc/New.md) 
-+   [new proc](/ref/proc/new.md) 
+
 <!-- -->
 **Format:**
 +   New(loc)
@@ -45,3 +43,8 @@ world.realtime return ..() verb/look() set src in view() usr \<\<
 \"\[src\] was born on \[time2text(birthdate,\"DD-MMM-YYYY\")\].\"
 
 ```
+
+
+**See also:**
++   [New proc (datum)](/ref/datum/proc/New.md) 
++   [new proc](/ref/proc/new.md) 

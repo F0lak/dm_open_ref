@@ -1,10 +1,6 @@
 ## floor proc 
 ###### BYOND Version 515
-**See also:**
-+   [ceil proc](/ref/proc/ceil.md) 
-+   [round proc](/ref/proc/round.md) 
-+   [trunc proc](/ref/proc/trunc.md) 
-+   [fract proc](/ref/proc/fract.md) <!-- -->
+
 **Format:**
 +   floor(A)
 <!-- -->
@@ -23,3 +19,10 @@ to A).
  usr \<\< floor(1.45) // outputs 1 usr \<\< floor(-1.45) //
 outputs -2 
 ```
+
+
+**See also:**
++   [ceil proc](/ref/proc/ceil.md) 
++   [round proc](/ref/proc/round.md) 
++   [trunc proc](/ref/proc/trunc.md) 
++   [fract proc](/ref/proc/fract.md) <!-- -->

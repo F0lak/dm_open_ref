@@ -1,7 +1,5 @@
 ## anchor1, anchor2 parameters (skin)
-**See also:**
-+   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+
 <!-- -->
 **Applies to:**
 +   [All](/ref/%7Bskin%7D/control.md)  (except
@@ -28,3 +26,7 @@ Setting
 `anchor2` as well will allow you to stretch the control as the
 container\'s size changes. You can think of this `anchor1` controlling
 the top left corner, and `anchor2` the bottom right corner.
+
+**See also:**
++   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
++   [size parameter](/ref/%7Bskin%7D/param/size.md) 

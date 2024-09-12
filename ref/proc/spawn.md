@@ -1,7 +1,5 @@
 ## spawn proc
-**See also:**
-+   [background setting (proc)](/ref/proc/set/background.md) 
-+   [sleep proc](/ref/proc/sleep.md) 
+
 <!-- -->
 **Format:**
 +   spawn(Delay=0) Statement
@@ -55,3 +53,7 @@ be visible to both code blocks.
 
 [Pointers](/ref/operator/&/pointer.md) to any vars that belong to the
 proc will stay with the original proc, not the copy.
+
+**See also:**
++   [background setting (proc)](/ref/proc/set/background.md) 
++   [sleep proc](/ref/proc/sleep.md) 

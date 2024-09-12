@@ -1,9 +1,5 @@
 ## fcopy_rsc proc
-**See also:**
-+   [cache](/ref/DM/cache.md) 
-+   [fcopy proc](/ref/proc/fcopy.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [load_resource proc](/ref/proc/load_resource.md) <!-- -->
+
 **Format:**
 +   fcopy_rsc(File)
 <!-- -->
@@ -31,3 +27,9 @@ main reason you would ever want to call this explicitly is if you are
 storing references to resource files in your own data structures and you
 want to ensure that all values are converted to cache entries so they
 may be directly compared to one another.
+
+**See also:**
++   [cache](/ref/DM/cache.md) 
++   [fcopy proc](/ref/proc/fcopy.md) 
++   [file proc](/ref/proc/file.md) 
++   [load_resource proc](/ref/proc/load_resource.md) <!-- -->

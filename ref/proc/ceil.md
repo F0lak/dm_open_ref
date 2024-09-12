@@ -1,10 +1,6 @@
 ## ceil proc 
 ###### BYOND Version 515
-**See also:**
-+   [floor proc](/ref/proc/floor.md) 
-+   [round proc](/ref/proc/round.md) 
-+   [trunc proc](/ref/proc/trunc.md) 
-+   [fract proc](/ref/proc/fract.md) <!-- -->
+
 **Format:**
 +   ceil(A)
 <!-- -->
@@ -23,3 +19,10 @@ equal to A).
  usr \<\< ceil(1.45) // outputs 2 usr \<\< ceil(-1.45) //
 outputs -1 
 ```
+
+
+**See also:**
++   [floor proc](/ref/proc/floor.md) 
++   [round proc](/ref/proc/round.md) 
++   [trunc proc](/ref/proc/trunc.md) 
++   [fract proc](/ref/proc/fract.md) <!-- -->

@@ -1,7 +1,6 @@
 ## refcount proc 
 ###### BYOND Version 515
-**See also:**
-+   [garbage collection](/ref/DM/garbage.md) <!-- -->
+
 **Format:**
 +   refcount(Object)
 <!-- -->
@@ -28,3 +27,6 @@ set, and some objects like clients and areas never soft-delete. A zero
 value also does not necessarily mean the object is immortal; it may be
 transient, like the `args` list in a proc that only lives as long as
 that copy of the proc lives.
+
+**See also:**
++   [garbage collection](/ref/DM/garbage.md) <!-- -->

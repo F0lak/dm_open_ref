@@ -1,32 +1,6 @@
 ## Pixel movement 
 ###### BYOND Version 490
-**See also:**
-+   *Bounding boxes*
-+   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-+   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
-+   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-+   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
-+   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
-+   [icon_z var (atom)](/ref/atom/var/icon_z.md) 
-+   *Speed and position*
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [contents list var (atom)](/ref/atom/var/contents.md) 
-+   [fps var (world)](/ref/world/var/fps.md) 
-+   *Movement*
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-+   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-+   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   *Other topics*
-+   [bounds proc](/ref/proc/bounds.md) 
-+   [bounds_dist proc](/ref/proc/bounds_dist.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+
 
 
 Pixel movement is a concept that allows atoms to escape the
@@ -165,3 +139,31 @@ distance between two atoms, in pixels. If it is positive, that is the
 minimum distance the atoms would have to traverse to be touching. At 0,
 they are touching but not in collision. A negative value means the two
 atoms are in collision.
+
+**See also:**
++   *Bounding boxes*
++   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
++   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
++   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
++   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
++   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
++   [icon_z var (atom)](/ref/atom/var/icon_z.md) 
++   *Speed and position*
++   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
++   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
++   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [contents list var (atom)](/ref/atom/var/contents.md) 
++   [fps var (world)](/ref/world/var/fps.md) 
++   *Movement*
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
++   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
++   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
++   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
++   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   *Other topics*
++   [bounds proc](/ref/proc/bounds.md) 
++   [bounds_dist proc](/ref/proc/bounds_dist.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 

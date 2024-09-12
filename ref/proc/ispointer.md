@@ -1,8 +1,6 @@
 ## ispointer proc 
 ###### BYOND Version 515
-**See also:**
-+   [\* operator (pointers)](/ref/operator/*.md) 
-+   [& operator (pointers)](/ref/operator/&.md) <!-- -->
+
 **Format:**
 +   ispointer(Value)
 <!-- -->
@@ -19,3 +17,7 @@ Note: This does
 not check if the pointer is still valid, like for instance if the object
 it belongs to has been deleted, or if it points to a list index that is
 now out of bounds.
+
+**See also:**
++   [\* operator (pointers)](/ref/operator/*.md) 
++   [& operator (pointers)](/ref/operator/&.md) <!-- -->

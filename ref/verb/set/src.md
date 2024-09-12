@@ -41,3 +41,5 @@ turf: src = view(0) area: src = view(0)
  obj/MagicCloak/verb/disappear() set src = usr.contents
 usr.invisibility = 1 view() \<\< \"\[usr\] disappears!\" 
 ```
+
+

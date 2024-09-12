@@ -1,9 +1,6 @@
 ## letterbox parameter (skin) 
 ###### BYOND Version 500
-**See also:**
-+   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
-+   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-+   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
+
 <!-- -->
 **Applies to:**
 +   [Map](/ref/%7Bskin%7D/control/map.md) 
@@ -22,3 +19,8 @@ fits, and fill excess space with the background color.
 If
 `letterbox` is not enabled, auto-zoom will fill all available space, and
 any excess will be cut off.
+
+**See also:**
++   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
++   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
++   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 

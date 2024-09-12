@@ -1,6 +1,5 @@
 ## html_encode proc
-**See also:**
-+   [html_decode proc](/ref/proc/html_decode.md) <!-- -->
+
 **Format:**
 +   html_encode(PlainText)
 <!-- -->
@@ -37,3 +36,6 @@ broken.
 Note for BYOND oldies: the old-style formatting codes
 such as \"\\red\" which are still parsed but not encouraged are
 completely stripped out by html_encode().
+
+**See also:**
++   [html_decode proc](/ref/proc/html_decode.md) <!-- -->

@@ -1,10 +1,6 @@
 ## try and catch statements 
 ###### BYOND Version 508
-**See also:**
-+   [Error proc (world)](/ref/world/proc/Error.md) 
-+   [throw statement](/ref/proc/throw.md) 
-+   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
-+   [exception](/ref/exception.md) 
+
 
 The try and catch keywords are used for error handling. Any
 code that runs inside of a try block will, if an error happens or the
@@ -35,3 +31,9 @@ ignore errors.)
 The throw keyword is used if you want to throw
 an error deliberately. When you use throw, the error thrown does not
 have to be an /exception datum, but can be anything you like.
+
+**See also:**
++   [Error proc (world)](/ref/world/proc/Error.md) 
++   [throw statement](/ref/proc/throw.md) 
++   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
++   [exception](/ref/exception.md) 

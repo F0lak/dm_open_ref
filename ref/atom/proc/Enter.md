@@ -1,15 +1,5 @@
 ## Enter proc (atom)
-**See also:**
-+   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-+   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-+   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-+   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-+   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+
 <!-- -->
 **Format:**
 +   Enter(atom/movable/O, atom/oldloc)
@@ -51,3 +41,15 @@ tile. If any Cross() call fails, Enter() fails too and will return 0.
 If a mob is standing on a turf but its bounding box does not
 cover the whole tile, it is ignored by Enter(). Instead, its Cross()
 proc is called if there is a danger of the object overlapping it.
+
+**See also:**
++   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
++   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
++   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
++   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
++   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
++   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
++   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 

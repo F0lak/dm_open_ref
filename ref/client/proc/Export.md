@@ -1,9 +1,5 @@
 ## Export proc (client)
-**See also:**
-+   [Import proc (client)](/ref/client/proc/Import.md) 
-+   [New proc (client)](/ref/client/proc/New.md) 
-+   [hub var (world)](/ref/world/var/hub.md) 
-+   [savefile](/ref/savefile.md) 
+
 <!-- -->
 **Format:**
 +   client.Export(file)
@@ -36,3 +32,10 @@ player\'s mob usr.client.Export(F) client/New() var/client_file =
 Import() if(client_file) var/savefile/F = new(client_file) //open it as
 a savefile F \>\> usr //read the player\'s mob return ..() 
 ```
+
+
+**See also:**
++   [Import proc (client)](/ref/client/proc/Import.md) 
++   [New proc (client)](/ref/client/proc/New.md) 
++   [hub var (world)](/ref/world/var/hub.md) 
++   [savefile](/ref/savefile.md) 

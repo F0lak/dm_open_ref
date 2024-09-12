@@ -1,7 +1,6 @@
 ## params var (sound) 
 ###### BYOND Version 515
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
+
 <!-- -->
 **Default value:**
 +   null
@@ -27,3 +26,7 @@ S.params = list(\"on-end\" = \".intro-ended\") src \<\< S
 mob/verb/\_Intro_Ended() set name = \".intro-ended\" src \<\< \"The
 intro has concluded.\" 
 ```
+
+
+**See also:**
++   [vars (sound)](/ref/sound/var.md) 

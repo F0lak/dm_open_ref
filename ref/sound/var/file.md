@@ -1,8 +1,5 @@
 ## file var (sound)
-**See also:**
-+   [sound proc](/ref/proc/sound.md) 
-+   [vars (sound)](/ref/sound/var.md) 
-+   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 
+
 
 This is the file that will be played when the sound is sent to
 a player. 
@@ -14,3 +11,8 @@ most browsers for audio, but .mp3 is needed for others.
 
 This
 var may be filled in by the `SoundQuery` proc.
+
+**See also:**
++   [sound proc](/ref/proc/sound.md) 
++   [vars (sound)](/ref/sound/var.md) 
++   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 

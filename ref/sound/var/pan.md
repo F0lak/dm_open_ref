@@ -1,6 +1,5 @@
 ## pan var (sound)
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -11,3 +10,6 @@ sound is sent to a player.
 
 For music, `pan` can range from -100
 (no pan separation) to 0 (full separation).
+
+**See also:**
++   [vars (sound)](/ref/sound/var.md) <!-- -->

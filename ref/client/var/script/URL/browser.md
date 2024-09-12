@@ -1,6 +1,5 @@
 ## browser configuration
-**See also:**
-+   [URL (client script)](/ref/client/var/script/URL.md) 
+
 
 DM Script can be used to effectively make a hyperlink in a web
 document to a BYOND world. This is done by making a DM Script file that
@@ -33,3 +32,7 @@ URL \"byond://myworld\"
 You can connect to my world [here](myworld.dms).
 
 ```
+
+
+**See also:**
++   [URL (client script)](/ref/client/var/script/URL.md) 

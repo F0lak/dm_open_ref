@@ -1,7 +1,5 @@
 ## text proc
-**See also:**
-+   [\<\< operator](/ref/operator/%3c%3c.md) 
-+   [macros (text)](/ref/DM/text/macros.md) <!-- -->
+
 **Format:**
 +   text(FormatText,Args)
 <!-- -->
@@ -25,3 +23,8 @@ passed as an argument after the text string.
  usr \<\< text(\"You are \[\] leagues from
 home.\",sqrt(usr.x\*\*2 + usr.y\*\*2)) 
 ```
+
+
+**See also:**
++   [\<\< operator](/ref/operator/%3c%3c.md) 
++   [macros (text)](/ref/DM/text/macros.md) <!-- -->

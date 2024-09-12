@@ -1,6 +1,5 @@
 ## pick proc
-**See also:**
-+   [prob proc](/ref/proc/prob.md) <!-- -->
+
 **Format:**
 +   pick(Val1,Val2,\...)
 +   pick(List)
@@ -35,3 +34,6 @@ as the norm, 50 half as likely, and so on.
 
 There
 is no analogous weighted format for the list version of this proc.
+
+**See also:**
++   [prob proc](/ref/proc/prob.md) <!-- -->

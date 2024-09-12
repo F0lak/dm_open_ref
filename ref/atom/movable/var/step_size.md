@@ -1,14 +1,6 @@
 ## step_size var (movable atom) 
 ###### BYOND Version 490
-**See also:**
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [fps var (world)](/ref/world/var/fps.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   32 (width of default icon; depends on world.icon_size)
 
@@ -24,3 +16,13 @@ applied to `step_x` and/or `step_y`. Any movement within the speed of
 `step_size`, or up to one tile in distance (whichever is greater), is
 considered a slide and may partially succeed if an obstacle is bumped
 before reaching the final position.
+
+**See also:**
++   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
++   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [fps var (world)](/ref/world/var/fps.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

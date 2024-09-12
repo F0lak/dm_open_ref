@@ -1,8 +1,5 @@
 ## control_freak (client)
-**See also:**
-+   [User interface skins](/ref/%7Bskin%7D.md) 
-+   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-+   [macros (client script)](/ref/client/var/script/macro.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -44,3 +41,8 @@ Note: If you define your own skin for the world, and disable
 the ability to use a custom skin or user-defined macros, you must be
 sure to define any macros your world may need. For instance, arrow keys
 may be needed for movement.
+
+**See also:**
++   [User interface skins](/ref/%7Bskin%7D.md) 
++   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
++   [macros (client script)](/ref/client/var/script/macro.md) <!-- -->

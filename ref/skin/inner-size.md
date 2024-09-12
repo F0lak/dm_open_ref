@@ -1,9 +1,6 @@
 ## inner-size parameter (skin) 
 ###### BYOND Version 513
-**See also:**
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
-+   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
-+   [inner-pos parameter](/ref/%7Bskin%7D/param/inner-pos.md) 
+
 <!-- -->
 **Applies to:**
 +   [Main](/ref/%7Bskin%7D/control/main.md) 
@@ -23,3 +20,8 @@ this window is no longer maximized.
 If this control is a pane
 and [can-scroll](/ref/%7Bskin%7D/param/can-scroll.md) is true, this is
 the size of the display area not including the scrollbars.
+
+**See also:**
++   [size parameter](/ref/%7Bskin%7D/param/size.md) 
++   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
++   [inner-pos parameter](/ref/%7Bskin%7D/param/inner-pos.md) 

@@ -1,6 +1,5 @@
 ## global vars
-**See also:**
-+   [vars](/ref/var.md) 
+
 
 The global type modifier makes a var permanent and shared. This
 means only one copy of the var is maintained. Otherwise, separate copies
@@ -17,3 +16,6 @@ proc, mob, obj, etc.)
 This example increases the count each
 time the proc is called. If count were not declared global, the
 displayed count would be 1 every time.
+
+**See also:**
++   [vars](/ref/var.md) 

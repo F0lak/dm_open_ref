@@ -1,11 +1,6 @@
 ## ref text macro 
 ###### BYOND Version 513
-**See also:**
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [icon text macro](/ref/DM/text/macros/icon.md) 
-+   [locate proc](/ref/proc/locate.md) 
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [tag var (datum)](/ref/datum/var/tag.md) 
+
 
 
 The `\ref` text macro inserts a unique identification number or
@@ -86,3 +81,10 @@ dir=*DIR*
     number, not text, so for instance `dir=[NORTH]`)
 frame=*N*
 +   Choose the Nth animation frame in an animated icon
+
+**See also:**
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [icon text macro](/ref/DM/text/macros/icon.md) 
++   [locate proc](/ref/proc/locate.md) 
++   [macros (text)](/ref/DM/text/macros.md) 
++   [tag var (datum)](/ref/datum/var/tag.md) 

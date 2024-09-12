@@ -1,9 +1,5 @@
 ## area
-**See also:**
-+   [atom](/ref/atom.md) 
-+   [procs (area)](/ref/area/proc.md) 
-+   [rooms](/ref/area/room.md) 
-+   [vars (area)](/ref/area/var.md) 
+
 
 Areas are derived from `/area`, which derives from `/atom`.
 Regions on the map may be assigned to an area by painting it onto the
@@ -29,3 +25,10 @@ display its description.
  area Entered(O) if(desc) O \<\< desc return ..() outside desc
 = \"Ah! A breath of fresh air!\" 
 ```
+
+
+**See also:**
++   [atom](/ref/atom.md) 
++   [procs (area)](/ref/area/proc.md) 
++   [rooms](/ref/area/room.md) 
++   [vars (area)](/ref/area/var.md) 

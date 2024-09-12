@@ -1,9 +1,5 @@
 ## for list proc
-**See also:**
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [list](/ref/list.md) 
-+   [list associations](/ref/list/assoc.md) 
-+   [istype](/ref/proc/istype.md) 
+
 <!-- -->
 **Format:**
 +   for (Var \[as Type\] \[in List\]) Statement
@@ -107,3 +103,9 @@ basic types like `obj`, `num`, `text`, etc.
 If this format is
 used with non-associative lists, then the associated value will always
 be assigned null.
+
+**See also:**
++   [for loop proc](/ref/proc/for/loop.md) 
++   [list](/ref/list.md) 
++   [list associations](/ref/list/assoc.md) 
++   [istype](/ref/proc/istype.md) 

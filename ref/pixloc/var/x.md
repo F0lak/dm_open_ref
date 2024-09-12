@@ -1,9 +1,6 @@
 ## x var (pixloc) 
 ###### BYOND Version 516
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [y var (pixloc)](/ref/pixloc/var/y.md) 
-+   [z var (pixloc)](/ref/pixloc/var/z.md) 
+
 
 The x value of this pixloc in world pixel coordinates, which
 start at 1. A value of x=1 means this is lined up to the western edge of
@@ -12,3 +9,8 @@ pixel on the eastern edge of the map.
 
 Setting x will alter the
 loc and step_x values automatically. Out-of-bounds values are allowed.
+
+**See also:**
++   [pixloc](/ref/pixloc.md) 
++   [y var (pixloc)](/ref/pixloc/var/y.md) 
++   [z var (pixloc)](/ref/pixloc/var/z.md) 

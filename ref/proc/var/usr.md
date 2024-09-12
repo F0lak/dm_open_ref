@@ -1,12 +1,5 @@
 ## usr var (proc)
-**See also:**
-+   [src var (proc)](/ref/proc/var/src.md) 
-+   [verbs](/ref/verb.md) 
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [range proc](/ref/proc/range.md) 
-+   [view proc](/ref/proc/view.md) 
-+   [alert proc](/ref/proc/alert.md) 
-+   [input proc](/ref/proc/input.md) 
+
 
 
 This is a mob variable (var/mob/usr) containing the mob of the
@@ -67,3 +60,12 @@ is also the default recipient for [input()](/ref/proc/input.md) {.code} and
 [alert()](/ref/proc/alert.md) messages. When using these in procs, be
 aware of that so you can change the default reference value to something
 more appropriate.
+
+**See also:**
++   [src var (proc)](/ref/proc/var/src.md) 
++   [verbs](/ref/verb.md) 
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [range proc](/ref/proc/range.md) 
++   [view proc](/ref/proc/view.md) 
++   [alert proc](/ref/proc/alert.md) 
++   [input proc](/ref/proc/input.md) 

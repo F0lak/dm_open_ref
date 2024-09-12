@@ -1,9 +1,5 @@
 ## statpanel proc
-**See also:**
-+   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
-+   [Stat proc (client)](/ref/client/proc/Stat.md) 
-+   [stat proc](/ref/proc/stat.md) 
-+   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+
 **Format:**
 +   statpanel(Panel,Name,Value)
 <!-- -->
@@ -37,3 +33,9 @@ displays the mob\'s description in one panel and inventory in another.
 Only the mob may see his own inventory, but you don\'t have to worry
 about that unless you change client.statobj to something other than
 one\'s own mob.
+
+**See also:**
++   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
++   [Stat proc (client)](/ref/client/proc/Stat.md) 
++   [stat proc](/ref/proc/stat.md) 
++   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->

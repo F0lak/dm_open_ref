@@ -1,8 +1,5 @@
 ## step_towards proc
-**See also:**
-+   [get_step_towards proc](/ref/proc/get_step_towards.md) 
-+   [walk_towards proc](/ref/proc/walk_towards.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+
 **Format:**
 +   step_towards(Ref,Trg,Speed)
 <!-- -->
@@ -16,3 +13,8 @@
 
 
 Move Ref in the direction of the location Trg.
+
+**See also:**
++   [get_step_towards proc](/ref/proc/get_step_towards.md) 
++   [walk_towards proc](/ref/proc/walk_towards.md) 
++   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->

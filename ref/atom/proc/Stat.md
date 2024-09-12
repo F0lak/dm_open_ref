@@ -1,8 +1,5 @@
 ## Stat proc (atom)
-**See also:**
-+   [Stat proc (client)](/ref/client/proc/Stat.md) 
-+   [stat proc](/ref/proc/stat.md) 
-+   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+
 **Format:**
 +   Stat()
 <!-- -->
@@ -21,3 +18,9 @@ status.
  mob/var health = 100 mob/Stat() stat(\"health\",health)
 statpanel(\"Inventory\",contents) 
 ```
+
+
+**See also:**
++   [Stat proc (client)](/ref/client/proc/Stat.md) 
++   [stat proc](/ref/proc/stat.md) 
++   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->

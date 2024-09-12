@@ -1,13 +1,6 @@
 ## \_\_IMPLIED_TYPE\_\_ macro 
 ###### BYOND Version 515
-**See also:**
-+   [\_\_FILE\_\_ macro](/ref/DM/preprocessor/__FILE__.md) 
-+   [\_\_LINE\_\_ macro](/ref/DM/preprocessor/__LINE__.md) 
-+   [\_\_PROC\_\_ macro](/ref/DM/preprocessor/__PROC__.md) 
-+   [\_\_TYPE\_\_ macro](/ref/DM/preprocessor/__TYPE__.md) 
-+   [new proc](/ref/proc/new.md) 
-+   [locate proc](/ref/proc/locate.md) 
-+   [istype proc](/ref/proc/istype.md) 
+
 
 
 The `__IMPLIED_TYPE__` macro is replaced by a reference to the
@@ -35,3 +28,12 @@ to Factory var/thing/T = Factory(\_\_IMPLIED_TYPE\_\_)
 
 This is actually a pseudo-macro; the preprocessor doesn\'t
 handle it directly.
+
+**See also:**
++   [\_\_FILE\_\_ macro](/ref/DM/preprocessor/__FILE__.md) 
++   [\_\_LINE\_\_ macro](/ref/DM/preprocessor/__LINE__.md) 
++   [\_\_PROC\_\_ macro](/ref/DM/preprocessor/__PROC__.md) 
++   [\_\_TYPE\_\_ macro](/ref/DM/preprocessor/__TYPE__.md) 
++   [new proc](/ref/proc/new.md) 
++   [locate proc](/ref/proc/locate.md) 
++   [istype proc](/ref/proc/istype.md) 

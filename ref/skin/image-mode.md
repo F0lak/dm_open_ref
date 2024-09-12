@@ -1,7 +1,5 @@
 ## image-mode parameter (skin)
-**See also:**
-+   [image parameter](/ref/%7Bskin%7D/param/image.md) 
-+   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 
+
 <!-- -->
 **Applies to:**
 +   [Label](/ref/%7Bskin%7D/control/label.md) 
@@ -16,3 +14,7 @@
 
 
 Determines how the background image is displayed.
+
+**See also:**
++   [image parameter](/ref/%7Bskin%7D/param/image.md) 
++   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 

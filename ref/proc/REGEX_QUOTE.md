@@ -1,9 +1,6 @@
 ## REGEX_QUOTE proc 
 ###### BYOND Version 510
-**See also:**
-+   [regex proc](/ref/proc/regex.md) 
-+   [regex datum](/ref/regex.md) 
-+   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
+
 **Format:**
 +   REGEX_QUOTE(text)
 +   REGEX_QUOTE_REPLACEMENT(text)
@@ -28,3 +25,9 @@ to search for the word // on its own instead of as part of another word.
 var/regex/R = regex(\"\\\\b\[REGEX_QUOTE(word)\]\\b\", \"i\") // find
 the pattern in the text return R.Find(text) 
 ```
+
+
+**See also:**
++   [regex proc](/ref/proc/regex.md) 
++   [regex datum](/ref/regex.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->

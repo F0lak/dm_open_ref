@@ -1,6 +1,5 @@
 ## ExportText proc (savefile)
-**See also:**
-+   [ImportText proc (savefile)](/ref/savefile/proc/ImportText.md) 
+
 <!-- -->
 **Format:**
 +   savefile.ExportText(path=cd,file)
@@ -31,3 +30,7 @@ usr \<\< \"
 file(\"players/\[ckey\].txt\") F.ImportText(\"/\",txtfile) F\[ckey\]
 \>\> usr 
 ```
+
+
+**See also:**
++   [ImportText proc (savefile)](/ref/savefile/proc/ImportText.md) 

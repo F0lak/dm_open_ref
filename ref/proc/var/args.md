@@ -1,6 +1,5 @@
 ## args list var (proc)
-**See also:**
-+   [list](/ref/list.md) 
+
 
 This is a list of the arguments passed to the proc or verb.
 ### Example:
@@ -13,3 +12,6 @@ tot
 
 Here, `add()` may be called with any number of
 arguments, each accessed through the `args` list.
+
+**See also:**
++   [list](/ref/list.md) 

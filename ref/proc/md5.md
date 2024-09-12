@@ -1,7 +1,5 @@
 ## md5 proc
-**See also:**
-+   [sha1 proc](/ref/proc/sha1.md) 
-+   [file proc](/ref/proc/file.md) 
+
 <!-- -->
 **Format:**
 +   md5(T)
@@ -63,3 +61,7 @@ the filename as text and return the hash of the name only.
 
 If
 `T` is anything but a text string or file, the proc returns null.
+
+**See also:**
++   [sha1 proc](/ref/proc/sha1.md) 
++   [file proc](/ref/proc/file.md) 

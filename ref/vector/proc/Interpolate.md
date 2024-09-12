@@ -1,8 +1,6 @@
 ## Interpolate proc (vector) 
 ###### BYOND Version 516
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) <!-- -->
+
 **Format:**
 +   A.Interpolate(B, t)
 <!-- -->
@@ -19,3 +17,7 @@ Returns the equivalent of `A + (B-A) * t`.
 
 There is
 special handling for a case of `t=1` to avoid rounding errors.
+
+**See also:**
++   [vector](/ref/vector.md) 
++   [vector proc](/ref/proc/vector.md) <!-- -->

@@ -1,11 +1,5 @@
 ## winexists proc
-**See also:**
-+   [winclone proc](/ref/proc/winclone.md) 
-+   [winget proc](/ref/proc/winget.md) 
-+   [winset proc](/ref/proc/winset.md) 
-+   [winshow proc](/ref/proc/winshow.md) 
-+   [User interface skins](/ref/%7Bskin%7D.md) 
-+   [type parameter (skin)](/ref/%7Bskin%7D/param/type.md) <!-- -->
+
 **Format:**
 +   winexists(player, control_id)
 <!-- -->
@@ -24,3 +18,11 @@ yet.
 
 Because the client must be contacted to get this
 information, winexists() will sleep the current proc.
+
+**See also:**
++   [winclone proc](/ref/proc/winclone.md) 
++   [winget proc](/ref/proc/winget.md) 
++   [winset proc](/ref/proc/winset.md) 
++   [winshow proc](/ref/proc/winshow.md) 
++   [User interface skins](/ref/%7Bskin%7D.md) 
++   [type parameter (skin)](/ref/%7Bskin%7D/param/type.md) <!-- -->

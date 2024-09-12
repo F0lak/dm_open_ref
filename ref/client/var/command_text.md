@@ -1,12 +1,6 @@
 ## command_text (client) 
 ###### BYOND Version d_text (client) {#command_text-client deprecated="1
-**See also:**
-+   [arguments (verb)](/ref/verb/arguments.md) 
-+   [command parameter](/ref/%7Bskin%7D/param/command.md) 
-+   [macros (client script)](/ref/client/var/script/macro.md) 
-+   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) 
-+   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) 
-+   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+
 <!-- -->
 **Default value:**
 +   null
@@ -49,3 +43,11 @@ set name = \"\>\" usr \<\< \"Your command: \[C\]\"
 This example uses the `command_text` input type, which accepts
 raw text, with no quoting, escaping, or translating, so that you can
 invent whatever syntax you want.
+
+**See also:**
++   [arguments (verb)](/ref/verb/arguments.md) 
++   [command parameter](/ref/%7Bskin%7D/param/command.md) 
++   [macros (client script)](/ref/client/var/script/macro.md) 
++   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) 
++   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) 
++   [macros (skin)](/ref/%7Bskin%7D/macros.md) 

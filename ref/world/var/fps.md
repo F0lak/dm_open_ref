@@ -1,9 +1,6 @@
 ## fps var (world) 
 ###### BYOND Version 490
-**See also:**
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
-+   [fps var (client)](/ref/client/var/fps.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   10
 
@@ -34,3 +31,8 @@ whole number to gloss over rounding error.
 If you set
 `client.tick_lag` or `client.fps` to a value other than 0, you can make
 the client tick at a different (usually faster) rate.
+
+**See also:**
++   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
++   [fps var (client)](/ref/client/var/fps.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

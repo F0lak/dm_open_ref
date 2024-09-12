@@ -1,8 +1,5 @@
 ## Shift proc (icon)
-**See also:**
-+   [dir var (atom)](/ref/atom/var/dir.md) 
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) <!-- -->
+
 **Format:**
 +   Shift(dir,offset,wrap=0)
 <!-- -->
@@ -21,3 +18,8 @@ By default, pixels that move off the edge are not
 wrapped around; transparent pixels are shifted onto the other side.
 Calling with wrap=1 causes it to shift the pixels around to the other
 side.
+
+**See also:**
++   [dir var (atom)](/ref/atom/var/dir.md) 
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) <!-- -->

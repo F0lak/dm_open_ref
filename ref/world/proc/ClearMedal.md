@@ -1,9 +1,5 @@
 ## ClearMedal proc (world)
-**See also:**
-+   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
-+   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
-+   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
-+   [SetScores proc (world)](/ref/world/proc/SetScores.md) <!-- -->
+
 **Format:**
 +   ClearMedal(medal, player)
 <!-- -->
@@ -36,3 +32,9 @@ Note: You can specify a different hub path and hub_password by adding
 these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.
+
+**See also:**
++   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
++   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
++   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
++   [SetScores proc (world)](/ref/world/proc/SetScores.md) <!-- -->

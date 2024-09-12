@@ -386,3 +386,4 @@ Left button, mappable by a gamepad button.
 Right button, mappable by a gamepad button.
 `MouseMiddleButton`
 Middle button, mappable by a gamepad button.
+

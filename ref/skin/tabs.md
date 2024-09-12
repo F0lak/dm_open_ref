@@ -1,8 +1,5 @@
 ## tabs parameter (skin)
-**See also:**
-+   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
-+   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-+   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) 
+
 <!-- -->
 **Applies to:**
 +   [Tab](/ref/%7Bskin%7D/control/tab.md) 
@@ -23,3 +20,8 @@ Note: When using
 this with [winset()](/ref/proc/winset.md) {.code}, remember you will need to
 escape `+` as `%2B` via [url_encode()](/ref/proc/url_encode.md) {.code} or
 [list2params()](/ref/proc/list2params.md).
+
+**See also:**
++   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
++   [id parameter](/ref/%7Bskin%7D/param/id.md) 
++   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) 

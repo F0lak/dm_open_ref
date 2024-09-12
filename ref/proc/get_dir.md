@@ -1,6 +1,5 @@
 ## get_dir proc
-**See also:**
-+   [dir var (atom)](/ref/atom/var/dir.md) <!-- -->
+
 **Format:**
 +   get_dir(Loc1, Loc2)
 <!-- -->
@@ -18,3 +17,6 @@ If the direction is not directly lying along one of the four
 primary cardinal directions, the result will become the nearest diagonal
 direction (eg. if `Loc2` is mostly north but a little to the east of
 `Loc1`, the direction returned will be `NORTHEAST`).
+
+**See also:**
++   [dir var (atom)](/ref/atom/var/dir.md) <!-- -->

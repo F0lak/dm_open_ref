@@ -1,10 +1,5 @@
 ## in operator
-**See also:**
-+   [list](/ref/list.md) 
-+   [operators](/ref/operator.md) 
-+   [! operator](/ref/operator/!.md) 
-+   [locate proc](/ref/proc/locate.md) 
-+   [input proc](/ref/proc/input.md) 
+
 <!-- -->
 **Format:**
 +   A in List
@@ -45,3 +40,10 @@ to see if an item is in that list. The lookup of `List[A]` in an
 associative list is relatively fast, so if the associated value is
 always expected to be true (not null, 0, or an empty string), you can
 use `List[A]` instead of `A in List` in those situations.
+
+**See also:**
++   [list](/ref/list.md) 
++   [operators](/ref/operator.md) 
++   [! operator](/ref/operator/!.md) 
++   [locate proc](/ref/proc/locate.md) 
++   [input proc](/ref/proc/input.md) 

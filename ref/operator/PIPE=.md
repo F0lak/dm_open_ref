@@ -1,8 +1,5 @@
 ## \|= operator
-**See also:**
-+   [&= operator](/ref/operator/&=.md) 
-+   [operators](/ref/operator.md) 
-+   [\| operator](/ref/operator/%7C.md) <!-- -->
+
 **Format:**
 +   A \|= B
 
@@ -24,3 +21,8 @@ are added to A.
 
 If A is an /icon or /matrix datum, the datum
 will be changed rather than creating a new one and re-assigning it to A.
+
+**See also:**
++   [&= operator](/ref/operator/&=.md) 
++   [operators](/ref/operator.md) 
++   [\| operator](/ref/operator/%7C.md) <!-- -->

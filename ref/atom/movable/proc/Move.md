@@ -1,19 +1,5 @@
 ## Move proc (movable atom)
-**See also:**
-+   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
-+   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-+   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-+   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-+   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-+   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-+   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-+   [loc var (atom)](/ref/atom/var/loc.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [walk proc](/ref/proc/walk.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Format:**
 +   Move(NewLoc,Dir=0,step_x=0,step_y=0)
 <!-- -->
@@ -75,3 +61,19 @@ to another on the same z level, and the total pixel distance is less
 than either src.step_size or a full tile size (whichever is largest).
 Any other movement is a jump. Movement to the same turf with no step_x/y
 change is also considered a jump.
+
+**See also:**
++   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
++   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
++   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
++   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
++   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
++   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
++   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
++   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
++   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
++   [loc var (atom)](/ref/atom/var/loc.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [walk proc](/ref/proc/walk.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

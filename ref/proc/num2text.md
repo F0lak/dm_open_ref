@@ -1,7 +1,5 @@
 ## num2text proc
-**See also:**
-+   [isnum proc](/ref/proc/isnum.md) 
-+   [text2num proc](/ref/proc/text2num.md) <!-- -->
+
 **Format:**
 +   num2text(N, SigFig=6)
 +   num2text(N, Digits, Radix)
@@ -41,3 +39,8 @@ format was mainly intended for simple conversions.
  world \<\< num2text(11, 2, 16) // \"0b\" world \<\<
 num2text(343, 0, 7) // \"1000\" 
 ```
+
+
+**See also:**
++   [isnum proc](/ref/proc/isnum.md) 
++   [text2num proc](/ref/proc/text2num.md) <!-- -->

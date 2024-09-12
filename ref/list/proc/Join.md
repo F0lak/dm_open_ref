@@ -1,7 +1,6 @@
 ## Join proc (list) 
 ###### BYOND Version 510
-**See also:**
-+   [jointext proc](/ref/proc/jointext.md) <!-- -->
+
 **Format:**
 +   list.Join(Glue,Start=1,End=0)
 <!-- -->
@@ -17,3 +16,6 @@
 
 This is exactly the same as calling
 jointext(List,Glue,Start,End), and is provided for convenience.
+
+**See also:**
++   [jointext proc](/ref/proc/jointext.md) <!-- -->

@@ -1,7 +1,5 @@
 ## ref proc
-**See also:**
-+   [\\ref text macro](/ref/DM/text/macros/ref.md) 
-+   [locate proc](/ref/proc/locate.md) <!-- -->
+
 **Format:**
 +   ref(Object)
 <!-- -->
@@ -13,3 +11,7 @@
 
 
 This is a shortcut for `"\ref[Object]"`.
+
+**See also:**
++   [\\ref text macro](/ref/DM/text/macros/ref.md) 
++   [locate proc](/ref/proc/locate.md) <!-- -->

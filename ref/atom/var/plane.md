@@ -1,11 +1,6 @@
 ## plane var (atom) 
 ###### BYOND Version 509
-**See also:**
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+
 <!-- -->
 **Default value:**
 +   `FLOAT_PLANE`
@@ -31,3 +26,10 @@ adds 1 to the parent atom\'s plane. This may be useful for some
 applications where an object is included in visual contents. The added
 value should still be kept in the range of -10000 to 10000, or
 preferably much smaller.
+
+**See also:**
++   [layer var (atom)](/ref/atom/var/layer.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

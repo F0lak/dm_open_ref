@@ -1,7 +1,5 @@
 ## perspective var (client)
-**See also:**
-+   [eye var (client)](/ref/client/var/eye.md) 
-+   [mob var (client)](/ref/client/var/mob.md) <!-- -->
+
 **Default value:**
 +   MOB_PERSPECTIVE
 <!-- -->
@@ -27,3 +25,7 @@ strays near the edge.
 
 The above values can be used together via
 the \| operator.
+
+**See also:**
++   [eye var (client)](/ref/client/var/eye.md) 
++   [mob var (client)](/ref/client/var/mob.md) <!-- -->

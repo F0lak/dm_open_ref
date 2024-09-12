@@ -1,11 +1,5 @@
 ## style sheets
-**See also:**
-+   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) 
-+   [entities (text)](/ref/DM/text/entities.md) 
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [script var (client)](/ref/client/var/script.md) 
-+   [tags (text)](/ref/DM/text/tags.md) 
-+   [text](/ref/DM/text.md) 
+
 
 
 HTML tags, such as `<font>` may be used to directly format
@@ -320,3 +314,11 @@ text-shadow
 Additionally, you can use the `:hover` pseudo-class to change
 the color of a link. As with other link pseudo-classes, only the text
 color can currently be changed.
+
+**See also:**
++   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) 
++   [entities (text)](/ref/DM/text/entities.md) 
++   [macros (text)](/ref/DM/text/macros.md) 
++   [script var (client)](/ref/client/var/script.md) 
++   [tags (text)](/ref/DM/text/tags.md) 
++   [text](/ref/DM/text.md) 

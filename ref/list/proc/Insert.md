@@ -1,8 +1,5 @@
 ## Insert proc (list)
-**See also:**
-+   [Cut proc (list)](/ref/list/proc/Cut.md) 
-+   [Copy proc (list)](/ref/list/proc/Copy.md) 
-+   [Swap proc (list)](/ref/list/proc/Swap.md) <!-- -->
+
 **Format:**
 +   list.Insert(Index,Item1,Item2\...)
 <!-- -->
@@ -26,3 +23,8 @@ instead of the list itself.
 
 Note: This proc doesn\'t work with
 many special lists such as `contents` or `overlays`.
+
+**See also:**
++   [Cut proc (list)](/ref/list/proc/Cut.md) 
++   [Copy proc (list)](/ref/list/proc/Copy.md) 
++   [Swap proc (list)](/ref/list/proc/Swap.md) <!-- -->

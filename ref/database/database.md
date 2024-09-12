@@ -1,9 +1,6 @@
 ## database datum 
 ###### BYOND Version 506
-**See also:**
-+   [database query datum](/ref/database/query.md) 
-+   [procs (database)](/ref/database/proc.md) 
-+   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+
 
 A /database datum gives you the ability to create or access a
 database using SQLite, which allows you to run complex database queries
@@ -24,3 +21,9 @@ new(\"SELECT \* FROM my_table WHERE name=?\", usr.key) if(q.Execute(db)
 && q.NextRow()) // returns a list such as list(name=\"MyName\",
 score=123) return q.GetRowData() // no data found return null 
 ```
+
+
+**See also:**
++   [database query datum](/ref/database/query.md) 
++   [procs (database)](/ref/database/proc.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 

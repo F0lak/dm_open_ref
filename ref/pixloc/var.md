@@ -1,7 +1,6 @@
 ## vars (pixloc) 
 ###### BYOND Version 516
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
+
 
 
 Built-in pixloc vars:
@@ -12,3 +11,6 @@ pixloc/var
 +   [x](/ref/pixloc/var/x.md) 
 +   [y](/ref/pixloc/var/y.md) 
 +   [z](/ref/pixloc/var/z.md) 
+
+**See also:**
++   [pixloc](/ref/pixloc.md) 

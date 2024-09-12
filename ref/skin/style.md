@@ -14,3 +14,4 @@ will usually not impact any existing text.
 For Map controls,
 this affects any [maptext](/ref/atom/var/maptext.md) drawn, and changes to the
 style should appear on the next refresh.
+

@@ -1,11 +1,5 @@
 ## Color space
-**See also:**
-+   [rgb proc](/ref/proc/rgb.md) 
-+   [rgb2num proc](/ref/proc/rgb2num.md) 
-+   [gradient proc](/ref/proc/gradient.md) 
-+   [animate proc](/ref/proc/animate.md) 
-+   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
-+   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) 
+
 
 There are different ways of interpreting color besides RGB.
 Several parts of BYOND are capable of using other color spaces.
@@ -76,3 +70,11 @@ and chroma=100 the colors should appear equally bright. Pure red,
 therefore, has a hue of 0, a chroma of 100, and a Y luminance of only
 29.9---roughly what red would look like in black & white with all the
 color leached out.
+
+**See also:**
++   [rgb proc](/ref/proc/rgb.md) 
++   [rgb2num proc](/ref/proc/rgb2num.md) 
++   [gradient proc](/ref/proc/gradient.md) 
++   [animate proc](/ref/proc/animate.md) 
++   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
++   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) 

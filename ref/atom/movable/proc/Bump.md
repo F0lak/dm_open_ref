@@ -1,7 +1,5 @@
 ## Bump proc (movable atom)
-**See also:**
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Format:**
 +   Bump(atom/Obstacle)
 <!-- -->
@@ -15,3 +13,7 @@
 +   If the obstacle is a mob and src is in its group, swap their
     positions. This is only done if the mobs both move by full tiles and
     do not use pixel movement, to preserve the behavior of older games.
+
+**See also:**
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

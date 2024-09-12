@@ -1,8 +1,6 @@
 ## jointext proc 
 ###### BYOND Version 510
-**See also:**
-+   [splittext proc](/ref/proc/splittext.md) 
-+   [Join proc (list)](/ref/list/proc/Join.md) <!-- -->
+
 **Format:**
 +   jointext(List,Glue,Start=1,End=0)
 <!-- -->
@@ -36,3 +34,7 @@ the list.
 
 Calling List.Join(Glue,Start,End) is the same thing,
 as long as List is a valid list.
+
+**See also:**
++   [splittext proc](/ref/proc/splittext.md) 
++   [Join proc (list)](/ref/list/proc/Join.md) <!-- -->

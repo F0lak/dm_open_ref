@@ -1,9 +1,6 @@
 ## tick_lag var (client) 
 ###### BYOND Version 511
-**See also:**
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
-+   [fps var (client)](/ref/client/var/fps.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   0 (uses world.tick_lag value)
 
@@ -18,3 +15,8 @@ nicer-looking game with no additional impact on the server.
 
 When this value is 0, the client and server tick at the same
 rate.
+
+**See also:**
++   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
++   [fps var (client)](/ref/client/var/fps.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

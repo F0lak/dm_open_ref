@@ -1,9 +1,5 @@
 ## arglist proc
-**See also:**
-+   [arguments (proc)](/ref/proc/arguments.md) 
-+   [call proc](/ref/proc/call.md) 
-+   [call_ext proc](/ref/proc/call_ext.md) 
-+   [list proc](/ref/proc/list.md) 
+
 <!-- -->
 **Format:**
 +   arglist(List)
@@ -41,3 +37,10 @@ mob/verb/test() var/lst = list(1,2) MyProc(arglist(lst)) //MyProc(1,2)
 lst = list(b=2,a=1) //just to illustrate that order does not matter
 MyProc(arglist(lst)) //MyProc(b=2,a=1) \--\> MyProc(1,2) 
 ```
+
+
+**See also:**
++   [arguments (proc)](/ref/proc/arguments.md) 
++   [call proc](/ref/proc/call.md) 
++   [call_ext proc](/ref/proc/call_ext.md) 
++   [list proc](/ref/proc/list.md) 

@@ -1,8 +1,5 @@
 ## is-default parameter (skin)
-**See also:**
-+   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-+   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
-+   [type parameter](/ref/%7Bskin%7D/param/type.md) 
+
 <!-- -->
 **Applies to:**
 +   [All](/ref/%7Bskin%7D/control.md) 
@@ -25,3 +22,8 @@ procs by the name `":`*`type`*`"`, e.g. `":map"`.
 Changing this
 value at runtime should be avoided, especially for windows. Results may
 be unpredictable.
+
+**See also:**
++   [id parameter](/ref/%7Bskin%7D/param/id.md) 
++   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
++   [type parameter](/ref/%7Bskin%7D/param/type.md) 

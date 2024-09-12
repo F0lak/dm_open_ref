@@ -1,10 +1,5 @@
 ## edge_limit var (client)
-**See also:**
-+   [eye var (client)](/ref/client/var/eye.md) 
-+   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
-+   [perspective var (client)](/ref/client/var/perspective.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) <!-- -->
+
 **Default value:**
 +   null
 
@@ -29,3 +24,11 @@ M.client) M.client.edge_limit = \"\[x1\],\[y1\] to \[x2\],\[y2\]\"
 Exited(mob/M) if(ismob(M) && M.client) M.client.edge_limit = null
 
 ```
+
+
+**See also:**
++   [eye var (client)](/ref/client/var/eye.md) 
++   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
++   [perspective var (client)](/ref/client/var/perspective.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) <!-- -->

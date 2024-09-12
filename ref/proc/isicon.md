@@ -1,8 +1,5 @@
 ## isicon proc
-**See also:**
-+   [cache](/ref/DM/cache.md) 
-+   [icon](/ref/icon.md) 
-+   [isfile proc](/ref/proc/isfile.md) <!-- -->
+
 **Format:**
 +   isicon(Icon)
 <!-- -->
@@ -15,3 +12,8 @@
 
 This returns a true value when given an icon. Both `/icon`
 memory objects and icon files stored in the resource cache qualify.
+
+**See also:**
++   [cache](/ref/DM/cache.md) 
++   [icon](/ref/icon.md) 
++   [isfile proc](/ref/proc/isfile.md) <!-- -->

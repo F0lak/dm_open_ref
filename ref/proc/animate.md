@@ -22,8 +22,7 @@ parallel, it will freeze the previous animation at its current point and
 animate any changes from there. The previous sequences are superseded,
 and will eventually be discarded.
 :::
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
+
 <!-- -->
 **Format:**
 +   animate(Object, var1=new_value1, var2=new_value2, \..., time, loop,
@@ -294,3 +293,6 @@ have two sequences with the same name running concurrently.
 
 Stopping a named sequence is as simple as calling
 `animate(Object, tag=name)` with no other arguments.
+
+**See also:**
++   [vars (atom)](/ref/atom/var.md) 

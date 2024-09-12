@@ -1,8 +1,6 @@
 ## caller var (proc) 
 ###### BYOND Version 516
-**See also:**
-+   [callee](/ref/callee.md) 
-+   [callee var (proc)](/ref/proc/var/callee.md) 
+
 
 
 Returns a [callee object](/ref/callee.md) representing the current
@@ -20,3 +18,8 @@ for(var/callee/p = caller, p, p = p.caller) world.log \<\< \" \[p.type\]
 (src=\[p.src\], usr=\[p.usr\])\" if(p.file) world.log \<\< \" at
 \[p.file\]:\[p.line\]\" 
 ```
+
+
+**See also:**
++   [callee](/ref/callee.md) 
++   [callee var (proc)](/ref/proc/var/callee.md) 

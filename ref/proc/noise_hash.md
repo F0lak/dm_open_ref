@@ -1,8 +1,6 @@
 ## noise_hash proc 
 ###### BYOND Version 515
-**See also:**
-+   [rand proc](/ref/proc/rand.md) 
-+   [rand_seed proc](/ref/proc/rand_seed.md) <!-- -->
+
 **Format:**
 +   noise_hash(num1, num2, num3\...)
 +   noise_hash(list_of_nums)
@@ -33,3 +31,7 @@ specify the type of hash to use. For now it is not used.
 
 Non-numbers provided to the proc will be interpreted
 arbitrarily. Don\'t do that.
+
+**See also:**
++   [rand proc](/ref/proc/rand.md) 
++   [rand_seed proc](/ref/proc/rand_seed.md) <!-- -->

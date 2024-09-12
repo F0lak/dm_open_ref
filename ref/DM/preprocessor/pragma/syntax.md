@@ -1,9 +1,6 @@
 ## #pragma syntax directive 
 ###### BYOND Version 516
-**See also:**
-+   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [switch proc](/ref/proc/switch.md) 
+
 <!-- -->
 **Format:**
 +   #pragma syntax [\<]{.faded}C[\|]{.faded}DM[\>]{.faded}
@@ -34,3 +31,9 @@ or 3.\" // no break, fall through case 4 to 6: usr \<\< \"This is case 4
 through 6 (or maybe 2 or 3).\" break default: usr \<\< \"This is a
 different case. #pragma pop 
 ```
+
+
+**See also:**
++   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
++   [for loop proc](/ref/proc/for/loop.md) 
++   [switch proc](/ref/proc/switch.md) 

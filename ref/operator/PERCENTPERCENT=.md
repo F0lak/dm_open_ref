@@ -1,8 +1,6 @@
 ## %%= operator 
 ###### BYOND Version 515
-**See also:**
-+   [%% operator](/ref/operator/%25%25.md) 
-+   [operators](/ref/operator.md) <!-- -->
+
 **Format:**
 +   A %%= B
 
@@ -16,3 +14,7 @@ values for A and B.
 
 If A is a vector, it will be modified by
 this operation.
+
+**See also:**
++   [%% operator](/ref/operator/%25%25.md) 
++   [operators](/ref/operator.md) <!-- -->

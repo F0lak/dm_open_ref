@@ -1,8 +1,7 @@
 ## bounds var (client) 
 ###### BYOND Version 509
 (Also `bound_x`, `bound_y`, `bound_width`, and `bound_height`.)
-**See also:**
-+   [bounds proc](/ref/proc/bounds.md) 
+
 
 The read-only bounds var returns the map coordinates, in
 pixels, covered by the client\'s viewport when accounting for pixel
@@ -19,3 +18,6 @@ The alias
 vars bound_x, bound_y, bound_width, and bound_height can also be used to
 retrieve the individual values from the list. They too will be null if
 the viewport is not on the map.
+
+**See also:**
++   [bounds proc](/ref/proc/bounds.md) 

@@ -1,9 +1,6 @@
 ## turn proc (applied to a vector) 
 ###### BYOND Version 516
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) 
-+   [Turn proc (vector)](/ref/vector/proc/Turn.md) <!-- -->
+
 **Format:**
 +   turn(vector/A, angle)
 +   turn(vector/A, vector/B)
@@ -27,3 +24,8 @@ When the argument is a vector, the result is
 rotated in 3 dimensions around vector B using the left-hand rule (thumb
 pointed in the direction of B, rotation following curled fingers). The
 angle of rotation is the length of B, in degrees.
+
+**See also:**
++   [vector](/ref/vector.md) 
++   [vector proc](/ref/proc/vector.md) 
++   [Turn proc (vector)](/ref/vector/proc/Turn.md) <!-- -->

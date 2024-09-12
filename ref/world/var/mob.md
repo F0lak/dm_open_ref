@@ -1,6 +1,5 @@
 ## mob var (world)
-**See also:**
-+   [New proc (client)](/ref/client/proc/New.md) <!-- -->
+
 **Default value:**
 +   /mob.
 
@@ -23,3 +22,6 @@ is /mob. Setting world.mob to 0 prevents the creation of default mobs.
 This example will
 connect new players to mobs of type /mob/newbie. They are welcomed when
 they connect.
+
+**See also:**
++   [New proc (client)](/ref/client/proc/New.md) <!-- -->

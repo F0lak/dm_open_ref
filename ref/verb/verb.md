@@ -1,10 +1,5 @@
 ## verbs
-**See also:**
-+   [arguments (verb)](/ref/verb/arguments.md) 
-+   [settings (verb)](/ref/verb/set.md) 
-+   [vars (verbs)](/ref/verb/var.md) 
-+   [src var (proc)](/ref/proc/var/src.md) 
-+   [usr var (proc)](/ref/proc/var/usr.md) 
+
 
 Verbs may be attached to mobs, objs, turfs, and areas. Players
 can then use them as commands if they have access to the source.
@@ -68,3 +63,10 @@ source in this example gives the user access to the kill verb without
 having to specify the source scroll as long as the scroll exists in the
 user\'s inventory. In other words, the player types \"kill rat\" rather
 than \"kill kill rat\".
+
+**See also:**
++   [arguments (verb)](/ref/verb/arguments.md) 
++   [settings (verb)](/ref/verb/set.md) 
++   [vars (verbs)](/ref/verb/var.md) 
++   [src var (proc)](/ref/proc/var/src.md) 
++   [usr var (proc)](/ref/proc/var/usr.md) 

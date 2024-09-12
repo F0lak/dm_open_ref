@@ -1,9 +1,5 @@
 ## GetMedal proc (world)
-**See also:**
-+   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
-+   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) 
-+   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
-+   [SetScores proc (world)](/ref/world/proc/SetScores.md) <!-- -->
+
 **Format:**
 +   GetMedal(medal, player)
 <!-- -->
@@ -53,3 +49,9 @@ Sorry, I lost the paperwork. Try again later.\"
 You
 can add an optional hub path argument if you want to look at a medal for
 a different hub entry.
+
+**See also:**
++   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
++   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) 
++   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
++   [SetScores proc (world)](/ref/world/proc/SetScores.md) <!-- -->

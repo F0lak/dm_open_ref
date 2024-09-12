@@ -1,6 +1,5 @@
 ## addtext proc
-**See also:**
-+   [+ operator](/ref/operator/+.md) <!-- -->
+
 **Format:**
 +   addtext(Arg1,Arg2,\...)
 <!-- -->
@@ -26,3 +25,6 @@ This
 instruction exists primarily for backwards-compatibility. You can
 accomplish the same thing with the + operator or by using embedded
 expressions.
+
+**See also:**
++   [+ operator](/ref/operator/+.md) <!-- -->

@@ -1,6 +1,5 @@
 ## obounds proc
-**See also:**
-+   [bounds proc](/ref/proc/bounds.md) <!-- -->
+
 **Format:**
 +   obounds(Ref, Dist=0)
 +   obounds(Ref, x_offset, y_offset, extra_width=0, extra_height=0)
@@ -18,3 +17,6 @@
 
 The results from obounds() are identical to bounds(), but
 obounds() leaves Ref out of the results.
+
+**See also:**
++   [bounds proc](/ref/proc/bounds.md) <!-- -->

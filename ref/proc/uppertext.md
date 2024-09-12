@@ -1,6 +1,5 @@
 ## uppertext proc
-**See also:**
-+   [lowertext proc](/ref/proc/lowertext.md) <!-- -->
+
 **Format:**
 +   uppertext(T)
 <!-- -->
@@ -17,3 +16,7 @@ Capitalize all of the characters of T.
 ```
  U = uppertext(\"hi there\") // = \"HI THERE\" 
 ```
+
+
+**See also:**
++   [lowertext proc](/ref/proc/lowertext.md) <!-- -->

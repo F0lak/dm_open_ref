@@ -1,10 +1,5 @@
 ## params2list proc
-**See also:**
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [list associations](/ref/list/associations.md) 
-+   [list2params proc](/ref/proc/list2params.md) 
-+   [params var (world)](/ref/world/var/params.md) 
-+   [text2num proc](/ref/proc/text2num.md) 
+
 <!-- -->
 **Format:**
 +   params2list(Params)
@@ -75,3 +70,10 @@ multiple items with the same name, they will be combined into a list of
 text strings. For example, `"key=value1;key=value2"` would set
 `list["key"]` to a list containing `"value1"` and `"value2"`, not
 necessarily in that order.
+
+**See also:**
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [list associations](/ref/list/associations.md) 
++   [list2params proc](/ref/proc/list2params.md) 
++   [params var (world)](/ref/world/var/params.md) 
++   [text2num proc](/ref/proc/text2num.md) 

@@ -1,9 +1,5 @@
 ## istype proc
-**See also:**
-+   [ispath proc](/ref/proc/ispath.md) 
-+   [locate proc](/ref/proc/locate.md) 
-+   [typesof proc](/ref/proc/typesof.md) 
-+   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 
+
 <!-- -->
 **Format:**
 +   istype(Val,Type)
@@ -37,3 +33,10 @@ follows:
  var/mob/ugly/M M = new/mob/ugly/duckling()
 if(istype(M)) //this will be true usr \<\< \"\[M\] is ugly!\" 
 ```
+
+
+**See also:**
++   [ispath proc](/ref/proc/ispath.md) 
++   [locate proc](/ref/proc/locate.md) 
++   [typesof proc](/ref/proc/typesof.md) 
++   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 

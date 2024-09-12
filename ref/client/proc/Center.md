@@ -1,6 +1,5 @@
 ## Center proc (client)
-**See also:**
-+   [walk proc](/ref/proc/walk.md) <!-- -->
+
 **Format:**
 +   Center()
 <!-- -->
@@ -9,3 +8,6 @@
 <!-- -->
 **Default action:**
 +   Cancels any automated movement by calling walk(usr,0).
+
+**See also:**
++   [walk proc](/ref/proc/walk.md) <!-- -->

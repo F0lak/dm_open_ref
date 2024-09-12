@@ -1,9 +1,6 @@
 ## procs (database query) 
 ###### BYOND Version 506
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [procs (database)](/ref/database/proc.md) 
+
 
 
 Built-in database query procs:
@@ -21,3 +18,8 @@ database/query/proc
 +   [NextRow](/ref/database/query/proc/NextRow.md) 
 +   [Reset](/ref/database/query/proc/Reset.md) 
 +   [RowsAffected](/ref/database/query/proc/RowsAffected.md) 
+
+**See also:**
++   [database datum](/ref/database.md) 
++   [database query datum](/ref/database/query.md) 
++   [procs (database)](/ref/database/proc.md) 

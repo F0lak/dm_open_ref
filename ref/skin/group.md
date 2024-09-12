@@ -1,8 +1,5 @@
 ## group parameter (skin)
-**See also:**
-+   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) 
-+   [can-check parameter](/ref/%7Bskin%7D/param/can-check.md) 
-+   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
+
 <!-- -->
 **Applies to:**
 +   [Button](/ref/%7Bskin%7D/control/button.md) 
@@ -18,3 +15,8 @@ string, or may be left empty.
 Buttons in different
 windows/panes, or menu items in another menu/submenu, are always treated
 as a different group.
+
+**See also:**
++   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) 
++   [can-check parameter](/ref/%7Bskin%7D/param/can-check.md) 
++   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 

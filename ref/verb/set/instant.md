@@ -1,6 +1,5 @@
 ## instant setting (verb)
-**See also:**
-+   [settings (verb)](/ref/verb/set.md) <!-- -->
+
 **Format:**
 +   set instant = Setting
 <!-- -->
@@ -32,3 +31,7 @@ for most of them.
  mob/verb/FastNorth() set instant = 1
 usr.Move(get_step(usr,NORTH), NORTH) 
 ```
+
+
+**See also:**
++   [settings (verb)](/ref/verb/set.md) <!-- -->

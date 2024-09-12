@@ -1,10 +1,5 @@
 ## vars
-**See also:**
-+   [path operators](/ref/operator/path.md) 
-+   [vars (atom)](/ref/atom/var.md) 
-+   [vars (client)](/ref/client/var.md) 
-+   [vars (datum)](/ref/datum/var.md) 
-+   [vars (mob)](/ref/mob/var.md) 
+
 
 
 Variables are derived from var.
@@ -35,3 +30,10 @@ Type modifiers:
 
 User types may be derived from anything except for `/world`,
 `/list`, `/client`, and `/savefile`.
+
+**See also:**
++   [path operators](/ref/operator/path.md) 
++   [vars (atom)](/ref/atom/var.md) 
++   [vars (client)](/ref/client/var.md) 
++   [vars (datum)](/ref/datum/var.md) 
++   [vars (mob)](/ref/mob/var.md) 

@@ -1,6 +1,5 @@
 ## operators
-**See also:**
-+   [operator overloading](/ref/operator/overload.md) 
+
 
 Operators are used extensively in DM to compute numerical
 values. 
@@ -42,3 +41,7 @@ except for `~=` and `:=`.
  var/N N = 0 // 0 N += 1+1\*2 // 3 if(1 + 1 == 2) N = 2 // 2
 if(N==2 && 1/2==0.5) N = 0.5 // 0.5 
 ```
+
+
+**See also:**
++   [operator overloading](/ref/operator/overload.md) 

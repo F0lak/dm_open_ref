@@ -73,3 +73,4 @@ gets rounded to as much precision as floating point can manage.
 In decimal, floating point numbers have at least six decimal
 digits of precision. Since they\'re actually stored in binary, their
 true precision is exactly 24 bits.
+

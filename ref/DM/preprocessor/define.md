@@ -1,6 +1,5 @@
 ## #define directive
-**See also:**
-+   [preprocessor](/ref/DM/preprocessor.md) <!-- -->
+
 **Format:**
 +   #define Name Value
 +   #define Name(Parameters) Value
@@ -93,3 +92,7 @@ repeat the replacement a certain number of times.
  #define SAYTWICE(t) 2###t #define TOTEXT(t) #t world \<\<
 \"\[TOTEXT(SAYTWICE(hi))\]\" // world \<\< \"hihi\" 
 ```
+
+
+**See also:**
++   [preprocessor](/ref/DM/preprocessor.md) <!-- -->

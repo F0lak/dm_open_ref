@@ -1,8 +1,6 @@
 ## clamp proc 
 ###### BYOND Version 513
-**See also:**
-+   [min proc](/ref/proc/min.md) 
-+   [max proc](/ref/proc/max.md) 
+
 <!-- -->
 **Format:**
 +   clamp(Value, Low, High)
@@ -48,3 +46,7 @@ it behaves as if you looped through the entire list and ran `clamp()` on
 each value. Please note the original list will be modified. If you want
 to leave the original list alone, use the [`Copy()`
 proc](/ref/list/proc/Copy.md) to pass a copy to `clamp()` instead.
+
+**See also:**
++   [min proc](/ref/proc/min.md) 
++   [max proc](/ref/proc/max.md) 

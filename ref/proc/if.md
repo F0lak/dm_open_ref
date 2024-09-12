@@ -1,6 +1,5 @@
 ## if proc
-**See also:**
-+   [goto proc](/ref/proc/goto.md) <!-- -->
+
 **Format:**
 +   if( E ) Statement1
 +   else if( E2 ) Statement2
@@ -24,3 +23,6 @@ statement or a code block with optional braces: {}.
 
 This will display \"TRUE\" if T has value 1, and
 \"FALSE\" otherwise.
+
+**See also:**
++   [goto proc](/ref/proc/goto.md) <!-- -->

@@ -1,7 +1,5 @@
 ## background setting (proc)
-**See also:**
-+   [sleep proc](/ref/proc/sleep.md) 
-+   [spawn proc](/ref/proc/spawn.md) 
+
 
 To avoid lag from procedures that hog the CPU for too long, you
 can turn on background processing. This will cause it to periodically
@@ -44,3 +42,7 @@ gets deleted after it is assigned to M but before the call to M.Tick()
 is executed. However, *background processing is only interrupted at loop
 points in the code*, so the above code is safe. It would only ever be
 interrupted at the end of the `for` or `while` loops.
+
+**See also:**
++   [sleep proc](/ref/proc/sleep.md) 
++   [spawn proc](/ref/proc/spawn.md) 

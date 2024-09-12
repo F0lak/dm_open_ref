@@ -1,6 +1,5 @@
 ## executor var (world)
-**See also:**
-+   [startup proc](/ref/proc/startup.md) <!-- -->
+
 **Format:**
 +   executor = \"/usr/local/byond/bin/DreamDaemon \[params\]\"
 
@@ -29,3 +28,6 @@ executed by a web server. It puts its error output in the file
 
 All of this is configured for you
 when you include `html/CGI.dm` from the html library.
+
+**See also:**
++   [startup proc](/ref/proc/startup.md) <!-- -->

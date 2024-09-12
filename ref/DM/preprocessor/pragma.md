@@ -1,9 +1,6 @@
 ## #pragma directive 
 ###### BYOND Version 515
-**See also:**
-+   [#define directive](/ref/DM/preprocessor/define.md) 
-+   [#include directive](/ref/DM/preprocessor/include.md) 
-+   [preprocessor](/ref/DM/preprocessor.md) 
+
 
 
 The `#pragma` directive alters the compiler\'s behavior in
@@ -28,3 +25,8 @@ various ways.
 
 Pragmas will *not* be inherited by libraries included in your
 project.
+
+**See also:**
++   [#define directive](/ref/DM/preprocessor/define.md) 
++   [#include directive](/ref/DM/preprocessor/include.md) 
++   [preprocessor](/ref/DM/preprocessor.md) 

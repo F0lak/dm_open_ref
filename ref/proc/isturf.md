@@ -1,6 +1,5 @@
 ## isturf proc
-**See also:**
-+   [isloc proc](/ref/proc/isloc.md) <!-- -->
+
 **Format:**
 +   isturf(Loc1, Loc2 \...)
 <!-- -->
@@ -9,3 +8,6 @@
 <!-- -->
 **Returns:**
 +   1 if all args are valid turfs; 0 otherwise
+
+**See also:**
++   [isloc proc](/ref/proc/isloc.md) <!-- -->

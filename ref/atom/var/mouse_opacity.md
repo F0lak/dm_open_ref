@@ -1,10 +1,5 @@
 ## mouse_opacity var (atom)
-**See also:**
-+   [mouse handling](/ref/DM/mouse.md) 
-+   [overlays var (atom)](/ref/atom/var/overlays.md) 
-+   [underlays var (atom)](/ref/atom/var/underlays.md) 
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [render_source var (atom)](/ref/atom/var/render_source.md) 
+
 <!-- -->
 **Default value:**
 +   1
@@ -38,3 +33,10 @@ everything on the plane is mouse-transparent. 1 means everything on the
 plane is mouse-visible (using the objects\' normal mouse_opacity), but
 the plane master itself is not. 2 means everything on the plane is
 mouse-visible, and so is the plane master.
+
+**See also:**
++   [mouse handling](/ref/DM/mouse.md) 
++   [overlays var (atom)](/ref/atom/var/overlays.md) 
++   [underlays var (atom)](/ref/atom/var/underlays.md) 
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [render_source var (atom)](/ref/atom/var/render_source.md) 

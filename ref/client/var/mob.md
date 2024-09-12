@@ -9,3 +9,5 @@ and its connected mob have the following symmetry:
  client ==
 mob.client client.mob == mob client.key == mob.key 
 ```
+
+

@@ -1,6 +1,5 @@
 ## url_encode proc
-**See also:**
-+   [url_decode proc](/ref/proc/url_decode.md) <!-- -->
+
 **Format:**
 +   url_encode(PlainText, format=0)
 <!-- -->
@@ -33,3 +32,7 @@ escaped.
 [\[M.name\]](?msg=%5Burl_encode(M.key)%5D)\\\] \[T\]\" M \<\< \"\\\[From
 [\[name\]](?msg=%5Burl_encode(key)%5D)\\\] \[T\]\" 
 ```
+
+
+**See also:**
++   [url_decode proc](/ref/proc/url_decode.md) <!-- -->

@@ -1,10 +1,5 @@
 ## for loop proc
-**See also:**
-+   [break statement](/ref/proc/break.md) 
-+   [continue statement](/ref/proc/continue.md) 
-+   [do proc](/ref/proc/do.md) 
-+   [for list proc](/ref/proc/for/list.md) 
-+   [while proc](/ref/proc/while.md) 
+
 <!-- -->
 **Format:**
 +   for(Init, Test, Inc) Statement
@@ -56,3 +51,11 @@ syntax C for var/i,j for(i=j=0; i\<=10; ++i,j+=i) world \<\< \"A
 triangle \[i\] block\\s high has \[j\] block\\s total.\" #pragma pop
 
 ```
+
+
+**See also:**
++   [break statement](/ref/proc/break.md) 
++   [continue statement](/ref/proc/continue.md) 
++   [do proc](/ref/proc/do.md) 
++   [for list proc](/ref/proc/for/list.md) 
++   [while proc](/ref/proc/while.md) 

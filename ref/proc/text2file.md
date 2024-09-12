@@ -1,7 +1,5 @@
 ## text2file proc
-**See also:**
-+   [file2text proc](/ref/proc/file2text.md) 
-+   [shell proc](/ref/proc/shell.md) <!-- -->
+
 **Format:**
 +   text2file(Text,File)
 <!-- -->
@@ -26,3 +24,8 @@ have an external program that mimics conversation:
 shell(\"oracle \< oracle.in \> oracle.out\") usr \<\<
 file2text(\"oracle.out\") 
 ```
+
+
+**See also:**
++   [file2text proc](/ref/proc/file2text.md) 
++   [shell proc](/ref/proc/shell.md) <!-- -->

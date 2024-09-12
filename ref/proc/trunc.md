@@ -1,10 +1,6 @@
 ## trunc proc 
 ###### BYOND Version 515
-**See also:**
-+   [fract proc](/ref/proc/fract.md) 
-+   [floor proc](/ref/proc/floor.md) 
-+   [ceil proc](/ref/proc/ceil.md) 
-+   [round proc](/ref/proc/round.md) <!-- -->
+
 **Format:**
 +   trunc(A)
 <!-- -->
@@ -23,3 +19,10 @@ toward 0 to an integer.
  usr \<\< trunc(1.45) // outputs 1 usr \<\< trunc(-1.45) //
 outputs -1 
 ```
+
+
+**See also:**
++   [fract proc](/ref/proc/fract.md) 
++   [floor proc](/ref/proc/floor.md) 
++   [ceil proc](/ref/proc/ceil.md) 
++   [round proc](/ref/proc/round.md) <!-- -->

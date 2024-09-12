@@ -1,6 +1,5 @@
 ## flick proc
-**See also:**
-+   [icon_state var (atom)](/ref/atom/var/icon_state.md) <!-- -->
+
 **Format:**
 +   flick(Icon,Object)
 <!-- -->
@@ -23,3 +22,6 @@ flick(\"fight\",usr) //show usr\'s fight state
 
 The
 target object may be any atom or image.
+
+**See also:**
++   [icon_state var (atom)](/ref/atom/var/icon_state.md) <!-- -->

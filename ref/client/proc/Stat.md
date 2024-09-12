@@ -1,11 +1,5 @@
 ## Stat proc (client)
-**See also:**
-+   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
-+   [stat proc](/ref/proc/stat.md) 
-+   [statobj var (client)](/ref/client/var/statobj.md) 
-+   [statpanel proc](/ref/proc/statpanel.md) 
-+   [statpanel var (client)](/ref/client/var/statpanel.md) 
-+   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+
 **Format:**
 +   Stat()
 <!-- -->
@@ -50,3 +44,11 @@ updateinventory = 0
 Because sleeping in Stat()
 requires more thinking through, it\'s best to do so only in cases where
 Stat() has to do a lot of intensive calculations.
+
+**See also:**
++   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
++   [stat proc](/ref/proc/stat.md) 
++   [statobj var (client)](/ref/client/var/statobj.md) 
++   [statpanel proc](/ref/proc/statpanel.md) 
++   [statpanel var (client)](/ref/client/var/statpanel.md) 
++   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->

@@ -1,9 +1,6 @@
 ## findlasttext proc 
 ###### BYOND Version 510
-**See also:**
-+   [findtext proc](/ref/proc/findtext.md) 
-+   [findtextEx proc](/ref/proc/findtextEx.md) 
-+   [findlasttextEx proc](/ref/proc/findlasttextEx.md) 
+
 <!-- -->
 **Format:**
 +   findlasttext(Haystack,Needle,Start=0,End=1)
@@ -38,3 +35,8 @@ Note: In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `findlasttext_char()` to work with character counts instead of
 bytes, at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.
+
+**See also:**
++   [findtext proc](/ref/proc/findtext.md) 
++   [findtextEx proc](/ref/proc/findtextEx.md) 
++   [findlasttextEx proc](/ref/proc/findlasttextEx.md) 

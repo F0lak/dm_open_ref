@@ -1,13 +1,5 @@
 ## contents list var (atom)
-**See also:**
-+   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-+   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-+   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-+   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
-+   [list](/ref/list.md) 
-+   [loc var (atom)](/ref/atom/var/loc.md) 
+
 <!-- -->
 **Default value:**
 +   List of contained objects.
@@ -37,3 +29,13 @@ the results depending on what the loop is looking for. This also applies
 to any situation where you might grab area.contents as a list, e.g.
 `area.contents.Copy()`. Therefore in a large world, it\'s advisable not
 to loop through area contents at all.
+
+**See also:**
++   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
++   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
++   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
++   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
++   [list](/ref/list.md) 
++   [loc var (atom)](/ref/atom/var/loc.md) 

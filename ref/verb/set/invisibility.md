@@ -1,8 +1,5 @@
 ## invisibility setting (verb)
-**See also:**
-+   [hidden setting (verb)](/ref/verb/set/hidden.md) 
-+   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
-+   [sight var (mob)](/ref/mob/var/sight.md) <!-- -->
+
 **Format:**
 +   set invisibility = Setting
 <!-- -->
@@ -17,3 +14,8 @@ An invisible verb is only accessible to players who can see
 invisible objects. This is different from a hidden verb which does not
 clutter up the verb list but which is still accessible when typed in
 full.
+
+**See also:**
++   [hidden setting (verb)](/ref/verb/set/hidden.md) 
++   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
++   [sight var (mob)](/ref/mob/var/sight.md) <!-- -->

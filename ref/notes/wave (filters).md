@@ -1,7 +1,6 @@
 ## Wave filter 
 ###### BYOND Version 512
-**See also:**
-+   [Ripple (filters)](/ref/%7Bnotes%7D/filters/ripple.md) <!-- -->
+
 Format:
 +   filter(type=\"wave\", \...)
 <!-- -->
@@ -56,3 +55,6 @@ likewise, transparent pixels spill inward).
 Up to 10 waves can
 be stacked together in a single pass of the filter, as long as they have
 the same `WAVE_BOUNDED` flags.
+
+**See also:**
++   [Ripple (filters)](/ref/%7Bnotes%7D/filters/ripple.md) <!-- -->

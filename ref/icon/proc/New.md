@@ -1,9 +1,5 @@
 ## New proc (icon)
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [image proc](/ref/proc/image.md) 
-+   [new proc](/ref/proc/new.md) 
+
 <!-- -->
 **Format:**
 +   New(icon,icon_state,dir,frame,moving)
@@ -52,3 +48,9 @@ directions can generally be achieved without any icon manipulation,
 which is good, because it saves quite a bit of overhead. For example,
 the variables atom.icon_state and atom.dir can be used to control how
 atom.icon is displayed, without any need for generating a new icon file.
+
+**See also:**
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [image proc](/ref/proc/image.md) 
++   [new proc](/ref/proc/new.md) 

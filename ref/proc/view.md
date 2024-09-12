@@ -1,16 +1,5 @@
 ## view proc
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [hearers](/ref/proc/hearers.md) 
-+   [oview proc](/ref/proc/oview.md) 
-+   [range proc](/ref/proc/range.md) 
-+   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
-+   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
-+   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
-+   [sight var (mob)](/ref/mob/var/sight.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [view var (world)](/ref/world/var/view.md) 
-+   [viewers](/ref/proc/viewers.md) <!-- -->
+
 **Format:**
 +   view(Dist=5,Center=usr)
 <!-- -->
@@ -66,3 +55,16 @@ many cases, you would want to use viewers() or hearers() instead.
 The third statement produces a list of visible objects as the
 player sees things, which might be different than how the mob sees
 things if `client.eye` and `client.mob` are different.
+
+**See also:**
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [hearers](/ref/proc/hearers.md) 
++   [oview proc](/ref/proc/oview.md) 
++   [range proc](/ref/proc/range.md) 
++   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
++   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
++   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
++   [sight var (mob)](/ref/mob/var/sight.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [view var (world)](/ref/world/var/view.md) 
++   [viewers](/ref/proc/viewers.md) <!-- -->

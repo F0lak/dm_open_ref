@@ -1,14 +1,6 @@
 ## bound_x var (movable atom) 
 ###### BYOND Version 490" deprecated="516
-**See also:**
-+   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
-+   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
-+   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-+   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   0
 Note: The bound_x/y vars have been deprecated in favor of icon_w/z and
@@ -28,3 +20,13 @@ atom has 4 pixels of empty space to its left.
 Example: A 16×16
 smiley face centered in a 32×32 icon should have a bound_x value of 8,
 since there are 8 pixels of empty space to the left.
+
+**See also:**
++   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
++   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
++   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
++   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
++   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
++   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

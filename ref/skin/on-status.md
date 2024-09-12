@@ -1,6 +1,5 @@
 ## on-status parameter (skin)
-**See also:**
-+   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) 
+
 <!-- -->
 **Applies to:**
 +   [Main](/ref/%7Bskin%7D/control/main.md) 
@@ -23,3 +22,6 @@ more details on the `[[...]]` format.)
 `[[from]]` can be used
 to reference the control (if any) that generated the next text. You can
 also use expressions like `[[from.type]]`, `[[from.parent.pos.x]]`, etc.
+
+**See also:**
++   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) 

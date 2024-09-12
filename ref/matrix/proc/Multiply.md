@@ -1,9 +1,5 @@
 ## Multiply proc (matrix)
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [matrix operators](/ref/matrix/operators.md) 
-+   [matrix procs](/ref/matrix/proc.md) 
-+   [\*= operator](/ref/operator/*.md) <!-- -->
+
 **Format:**
 +   Multiply(Matrix2)\
     *or*
@@ -25,3 +21,9 @@ order: src, then Matrix2.
 Multiplication of one matrix by
 another depends on the order. You may get a different result multiplying
 A \* B vs. B \* A.
+
+**See also:**
++   [matrix](/ref/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [matrix procs](/ref/matrix/proc.md) 
++   [\*= operator](/ref/operator/*.md) <!-- -->

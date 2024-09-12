@@ -1,7 +1,5 @@
 ## bar-color parameter (skin)
-**See also:**
-+   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
-+   [is-transparent parameter](/ref/%7Bskin%7D/param/is-transparent.md) 
+
 <!-- -->
 **Applies to:**
 +   [Bar](/ref/%7Bskin%7D/control/bar.md) 
@@ -11,3 +9,7 @@
 
 
 The color of the bar or slider.
+
+**See also:**
++   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
++   [is-transparent parameter](/ref/%7Bskin%7D/param/is-transparent.md) 

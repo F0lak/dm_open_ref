@@ -1,7 +1,5 @@
 ## tmp vars
-**See also:**
-+   [savefile](/ref/savefile.md) 
-+   [vars](/ref/var.md) 
+
 
 
 The tmp type modifier indicates that an object variable should
@@ -67,3 +65,7 @@ The following built-in variables are defined as tmp vars:
 +   [mouse_over_pointer](/ref/atom/var/mouse_over_pointer.md) 
 +   [mouse_drag_pointer](/ref/atom/var/mouse_drag_pointer.md) 
 +   [mouse_drop_pointer](/ref/atom/var/mouse_drop_pointer.md) 
+
+**See also:**
++   [savefile](/ref/savefile.md) 
++   [vars](/ref/var.md) 

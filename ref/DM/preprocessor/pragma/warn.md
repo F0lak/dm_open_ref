@@ -1,9 +1,6 @@
 ## #pragma warn/ignore/error directive 
 ###### BYOND Version 515
-**See also:**
-+   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-+   [#warn directive](/ref/DM/preprocessor/warn.md) 
-+   [#error directive](/ref/DM/preprocessor/error.md) 
+
 <!-- -->
 **Format:**
 +   #pragma
@@ -33,3 +30,8 @@ disabled by default, but can be turned on for linting purposes:
   --------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   init_proc       A var in a very commonly used type, like `/turf` or `/atom` or `/datum`, is being initialized with an init proc. An example is `var/stuff[]` or `var/list/stuff = list(1,2,3)` which creates a list in a special internal proc because calling [New()](/ref/datum/proc/New.md) {.code}. Best practice is to not initialize the list until it\'s needed.
   frequent_call   A very commonly called proc such as [New()](/ref/datum/proc/New.md) {.code} or [Del()](/ref/datum/proc/Del.md) has been overridden on a type that gets created or destroyed frequently, such as `/turf`, `/atom`, or `/datum`.
+
+**See also:**
++   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
++   [#warn directive](/ref/DM/preprocessor/warn.md) 
++   [#error directive](/ref/DM/preprocessor/error.md) 

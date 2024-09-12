@@ -1,9 +1,5 @@
 ## continue statement
-**See also:**
-+   [break statement](/ref/proc/break.md) 
-+   [do proc](/ref/proc/do.md) 
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [while proc](/ref/proc/while.md) <!-- -->
+
 **Format:**
 +   continue
 +   continue Label
@@ -49,3 +45,9 @@ This displays a list of mobs who do not belong in
 anyone else\'s group. Notice the syntax for labeling a list. The name of
 the block is simply placed in the code followed by a colon and its
 contents are indented inside it.
+
+**See also:**
++   [break statement](/ref/proc/break.md) 
++   [do proc](/ref/proc/do.md) 
++   [for loop proc](/ref/proc/for/loop.md) 
++   [while proc](/ref/proc/while.md) <!-- -->

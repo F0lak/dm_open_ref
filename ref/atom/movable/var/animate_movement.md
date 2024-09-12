@@ -1,8 +1,5 @@
 ## animate_movement var (movable atoms)
-**See also:**
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+
 <!-- -->
 **Default value:**
 +   FORWARD_STEPS (1)
@@ -39,3 +36,8 @@ longer of much use.
 Note: This setting has no impact when used
 with pixel movement, except in special cases. See
 [Gliding](/ref/%7Bnotes%7D/gliding.md) for more details.
+
+**See also:**
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 

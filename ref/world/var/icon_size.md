@@ -1,9 +1,5 @@
 ## icon_size var (world)
-**See also:**
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [step_size var (movable atoms)](/ref/atom/movable/var/step_size.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   32
 
@@ -23,3 +19,9 @@ experience display issues if setting `client.dir` to `EAST` or `WEST`. A
 non-square tile with a topdown map format will also interfere with pixel
 movement. For this reason, square sizes are recommended when using any
 topdown-view map format.
+
+**See also:**
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [step_size var (movable atoms)](/ref/atom/movable/var/step_size.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

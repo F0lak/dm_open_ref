@@ -1,7 +1,5 @@
 ## get_step proc
-**See also:**
-+   [step proc](/ref/proc/step.md) 
-+   [walk proc](/ref/proc/walk.md) <!-- -->
+
 **Format:**
 +   get_step(Ref, Dir)
 <!-- -->
@@ -16,3 +14,7 @@
 
 Calculate the position of a step from `Ref` in the direction
 `Dir`.
+
+**See also:**
++   [step proc](/ref/proc/step.md) 
++   [walk proc](/ref/proc/walk.md) <!-- -->

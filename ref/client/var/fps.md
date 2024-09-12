@@ -1,9 +1,6 @@
 ## fps var (client) 
 ###### BYOND Version 511
-**See also:**
-+   [fps var (world)](/ref/world/var/fps.md) 
-+   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   0 (uses world.fps value)
 
@@ -17,3 +14,8 @@ additional impact on the server.
 
 When this value is 0, the
 client and server tick at the same rate.
+
+**See also:**
++   [fps var (world)](/ref/world/var/fps.md) 
++   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

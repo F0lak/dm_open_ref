@@ -1,8 +1,5 @@
 ## #include directive
-**See also:**
-+   [#define directive](/ref/DM/preprocessor/define.md) 
-+   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-+   [preprocessor](/ref/DM/preprocessor.md) <!-- -->
+
 **Format:**
 +   #include \"Filename\"
 +   #include \<Filename\>
@@ -56,3 +53,8 @@ case in which you should manually include files is if you are writing a
 library to be used by other programmers. Since the `.dme` file is not
 distributed with a library, all necessary inclusions must be made in the
 `.dm` files.
+
+**See also:**
++   [#define directive](/ref/DM/preprocessor/define.md) 
++   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
++   [preprocessor](/ref/DM/preprocessor.md) <!-- -->

@@ -1,8 +1,5 @@
 ## status var (world)
-**See also:**
-+   [hub var (world)](/ref/world/var/hub.md) 
-+   [game_state var (world)](/ref/world/var/game_state.md) 
-+   [visibility var (world)](/ref/world/var/visibility.md) 
+
 
 This is a short text string used in BYOND hub to describe the
 state of a game in progress. For example, you might want to indicate if
@@ -14,3 +11,9 @@ join as spectators.
  world status = \"accepting players\" mob/verb/start_game()
 world.status = \"accepting spectators\" //\... 
 ```
+
+
+**See also:**
++   [hub var (world)](/ref/world/var/hub.md) 
++   [game_state var (world)](/ref/world/var/game_state.md) 
++   [visibility var (world)](/ref/world/var/visibility.md) 

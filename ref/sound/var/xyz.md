@@ -1,7 +1,5 @@
 ## x, y, and z vars (sound)
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [falloff var (sound)](/ref/sound/var/falloff.md) <!-- -->
+
 **Default value:**
 +   all 0
 
@@ -22,3 +20,7 @@ If these values are all set to 0, you
 should set `environment` if you want to treat it as a 3D sound.
 Otherwise BYOND will assume this is meant to be a non-3D sound such as
 music or the interface.
+
+**See also:**
++   [vars (sound)](/ref/sound/var.md) 
++   [falloff var (sound)](/ref/sound/var/falloff.md) <!-- -->

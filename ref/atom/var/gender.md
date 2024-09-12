@@ -1,7 +1,5 @@
 ## gender var (atom)
-**See also:**
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [name var (atom)](/ref/atom/var/name.md) <!-- -->
+
 **Default value:**
 +   \"neuter\"
 
@@ -19,3 +17,8 @@ you type:
 ```
  NEUTER MALE FEMALE PLURAL 
 ```
+
+
+**See also:**
++   [macros (text)](/ref/DM/text/macros.md) 
++   [name var (atom)](/ref/atom/var/name.md) <!-- -->

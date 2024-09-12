@@ -1,10 +1,6 @@
 ## Reset proc (database query) 
 ###### BYOND Version 506
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-+   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) <!-- -->
+
 **Format:**
 +   Reset()
 
@@ -15,3 +11,9 @@ have called NextRow() repeatedly to retrieve a number of rows, but need
 to go back to the start of the query for some other reason. This can
 also be used to count the total number of result rows if needed, but for
 best performance that isn\'t recommended.
+
+**See also:**
++   [database datum](/ref/database.md) 
++   [database query datum](/ref/database/query.md) 
++   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
++   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) <!-- -->

@@ -1,7 +1,5 @@
 ## GetConfig proc (world)
-**See also:**
-+   [IsBanned proc (world)](/ref/world/proc/IsBanned.md) 
-+   [SetConfig proc (world)](/ref/world/proc/SetConfig.md) <!-- -->
+
 **Format:**
 +   GetConfig(config_set,param)
 <!-- -->
@@ -109,3 +107,7 @@ time
 
 The old \"keyban\" and \"ipban\" config files are now just
 aliases for \"ban\".
+
+**See also:**
++   [IsBanned proc (world)](/ref/world/proc/IsBanned.md) 
++   [SetConfig proc (world)](/ref/world/proc/SetConfig.md) <!-- -->

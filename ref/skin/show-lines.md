@@ -1,6 +1,5 @@
 ## show-lines parameter (skin)
-**See also:**
-+   [line-color parameter](/ref/%7Bskin%7D/param/line-color.md) 
+
 <!-- -->
 **Applies to:**
 +   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
@@ -15,3 +14,6 @@
 
 
 Determines which grid lines to display.
+
+**See also:**
++   [line-color parameter](/ref/%7Bskin%7D/param/line-color.md) 

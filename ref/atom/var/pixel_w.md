@@ -1,7 +1,6 @@
 ## pixel_w var (atom) 
 ###### BYOND Version 511
-**See also:**
-+   [animate_movement var (movable
+
     atoms)](/ref/atom/movable/var/animate_movement.md) 
 +   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
 +   [pixel_x var (atom)](/ref/atom/var/pixel_x.md) 
@@ -23,3 +22,6 @@ with changes to client.dir.
 This effect is purely visual and
 does not influence such things as movement bumping or view() range
 calculations.
+
+**See also:**
++   [animate_movement var (movable

@@ -1,7 +1,5 @@
 ## Del proc (world)
-**See also:**
-+   [Del proc (datum)](/ref/datum/proc/Del.md) 
-+   [shutdown proc](/ref/proc/shutdown.md) <!-- -->
+
 **Format:**
 +   Del()
 <!-- -->
@@ -24,3 +22,7 @@ timeout is applied to any sleeping operations such as `sleep`,
 `world.Export()`, and so on. If the total time slept exceeds the
 timeout, `world/Del()` is aborted. Currently, this timeout is set at 30
 seconds.
+
+**See also:**
++   [Del proc (datum)](/ref/datum/proc/Del.md) 
++   [shutdown proc](/ref/proc/shutdown.md) <!-- -->

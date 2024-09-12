@@ -17,3 +17,4 @@ Info control: Allow HTML tags to be used in
 Label control:
 Currently, the label control will not actually use the HTML; it will
 simply strip it out. Full support may appear in a later version.
+

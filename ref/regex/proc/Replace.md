@@ -1,12 +1,6 @@
 ## Replace proc (regex) 
 ###### BYOND Version 510
-**See also:**
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
-+   [regex datum](/ref/regex.md) 
-+   [Find proc (regex)](/ref/regex/proc/Find.md) 
-+   [regex vars](/ref/regex/var.md) 
-+   [regex proc](/ref/proc/regex.md) 
-+   [replacetext proc](/ref/proc/replacetext.md) 
+
 <!-- -->
 **Format:**
 +   Replace(haystack, replacement, Start=1, End=0)
@@ -72,3 +66,12 @@ lowertext(copytext(group2,2)) return \"\[group2\]\[group1\]ay\"
 mob/verb/PigSay(msg as text) msg = html_encode(msg) world \<\<
 piglatin.Replace(msg, /proc/word2piglatin) 
 ```
+
+
+**See also:**
++   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
++   [regex datum](/ref/regex.md) 
++   [Find proc (regex)](/ref/regex/proc/Find.md) 
++   [regex vars](/ref/regex/var.md) 
++   [regex proc](/ref/proc/regex.md) 
++   [replacetext proc](/ref/proc/replacetext.md) 

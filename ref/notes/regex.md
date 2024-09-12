@@ -1,11 +1,5 @@
 ## Regular expressions
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [regex proc](/ref/proc/regex.md) 
-+   [findtext proc](/ref/proc/findtext.md) 
-+   [replacetext proc](/ref/proc/replacetext.md) 
-+   [splittext proc](/ref/proc/splittext.md) 
-+   [REGEX_QUOTE proc](/ref/proc/REGEX_QUOTE.md) 
+
 
 
 Regular expressions are patterns that can be searched for
@@ -91,3 +85,11 @@ string `"123"` for `1(\d)(\d)` will match `"123"`, and the `group` var
 will be `list("2","3")`. Groups can also be used in replacement
 expressions; see the [Replace() proc](/ref/regex/proc/Replace.md) for
 more details.
+
+**See also:**
++   [regex datum](/ref/regex.md) 
++   [regex proc](/ref/proc/regex.md) 
++   [findtext proc](/ref/proc/findtext.md) 
++   [replacetext proc](/ref/proc/replacetext.md) 
++   [splittext proc](/ref/proc/splittext.md) 
++   [REGEX_QUOTE proc](/ref/proc/REGEX_QUOTE.md) 

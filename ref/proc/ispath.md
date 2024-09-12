@@ -1,6 +1,5 @@
 ## ispath proc
-**See also:**
-+   [typesof proc](/ref/proc/typesof.md) <!-- -->
+
 **Format:**
 +   ispath(Val)
 +   ispath(Val,Type)
@@ -19,3 +18,7 @@
  var/M M = /mob/ugly/duckling if(ispath(M,/mob/ugly)) //true
 if(ispath(M)) //true if(ispath(new/mob)) //false 
 ```
+
+
+**See also:**
++   [typesof proc](/ref/proc/typesof.md) <!-- -->

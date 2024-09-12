@@ -1,11 +1,5 @@
 ## winset proc
-**See also:**
-+   [winclone proc](/ref/proc/winclone.md) 
-+   [winexists proc](/ref/proc/winexists.md) 
-+   [winget proc](/ref/proc/winget.md) 
-+   [winshow proc](/ref/proc/winshow.md) 
-+   [User interface skins](/ref/%7Bskin%7D.md) 
-+   [parameters (skin)](/ref/%7Bskin%7D/param.md) 
+
 <!-- -->
 **Format:**
 +   winset(player, control_id, params)
@@ -126,3 +120,11 @@ list of options.
 
 Browser options are shared across all browser
 controls.
+
+**See also:**
++   [winclone proc](/ref/proc/winclone.md) 
++   [winexists proc](/ref/proc/winexists.md) 
++   [winget proc](/ref/proc/winget.md) 
++   [winshow proc](/ref/proc/winshow.md) 
++   [User interface skins](/ref/%7Bskin%7D.md) 
++   [parameters (skin)](/ref/%7Bskin%7D/param.md) 

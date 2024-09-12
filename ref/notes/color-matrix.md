@@ -1,9 +1,6 @@
 ## Color matrix 
 ###### BYOND Version 509
-**See also:**
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [color var (client)](/ref/client/var/color.md) 
-+   [MapColors proc (icon)](/ref/icon/proc/MapColors.md) 
+
 
 A color matrix is used to transform colors, in the same way
 that a matrix represented by the `/matrix` datum is used to transform 2D
@@ -53,3 +50,8 @@ the full 20-item list, where every 4 items represent a row in the matrix
 
 In the `MapColors()` icon proc, the
 values are sent as arguments, not as a list.
+
+**See also:**
++   [color var (atom)](/ref/atom/var/color.md) 
++   [color var (client)](/ref/client/var/color.md) 
++   [MapColors proc (icon)](/ref/icon/proc/MapColors.md) 

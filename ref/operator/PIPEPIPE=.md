@@ -1,10 +1,6 @@
 ## \|\|= operator 
 ###### BYOND Version 514
-**See also:**
-+   [\|\| operator](/ref/operator/%7C%7C.md) 
-+   [&& operator](/ref/operator/&&.md) 
-+   [&&= operator](/ref/operator/&&=.md) 
-+   [operators](/ref/operator.md) <!-- -->
+
 **Format:**
 +   A \|\|= B
 <!-- -->
@@ -24,3 +20,9 @@ from `if(!A) A = B` if A is a complex expression such as
 
 
 This operator cannot be overloaded.
+
+**See also:**
++   [\|\| operator](/ref/operator/%7C%7C.md) 
++   [&& operator](/ref/operator/&&.md) 
++   [&&= operator](/ref/operator/&&=.md) 
++   [operators](/ref/operator.md) <!-- -->

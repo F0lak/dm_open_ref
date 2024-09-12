@@ -1,10 +1,6 @@
 ## pixloc 
 ###### BYOND Version 516
-**See also:**
-+   [vars (pixloc)](/ref/pixloc/var.md) 
-+   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-+   [pixloc proc](/ref/proc/pixloc.md) 
-+   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
+
 
 
 A primitive type that encapsulates position information for an
@@ -32,3 +28,9 @@ Other supported procs for pixlocs include:
 [ceil()](/ref/proc/ceil.md) {.code}
 [trunc()](/ref/proc/trunc.md) {.code}
 [fract()](/ref/proc/fract.md) (returns a vector)
+
+**See also:**
++   [vars (pixloc)](/ref/pixloc/var.md) 
++   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
++   [pixloc proc](/ref/proc/pixloc.md) 
++   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 

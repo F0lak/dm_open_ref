@@ -1,8 +1,5 @@
 ## aliases (client script)
-**See also:**
-+   [macros (client script)](/ref/client/var/script/macro.md) 
-+   [script var (client)](/ref/client/var/script.md) 
-+   [verbs](/ref/verb.md) 
+
 
 Command aliases have a syntax similar to verbs. They define a
 command and a series of arguments which can then be used to execute a
@@ -35,3 +32,8 @@ would have the same effect without an explicit return statement.
 Note that commands executed via an alias are never interpreted
 as aliases. Otherwise, examples such as the one above would result in an
 infinite loop.
+
+**See also:**
++   [macros (client script)](/ref/client/var/script/macro.md) 
++   [script var (client)](/ref/client/var/script.md) 
++   [verbs](/ref/verb.md) 

@@ -1,10 +1,6 @@
 ## fract proc 
 ###### BYOND Version 515
-**See also:**
-+   [trunc proc](/ref/proc/trunc.md) 
-+   [floor proc](/ref/proc/floor.md) 
-+   [ceil proc](/ref/proc/ceil.md) 
-+   [round proc](/ref/proc/round.md) <!-- -->
+
 **Format:**
 +   fract(A)
 <!-- -->
@@ -28,3 +24,9 @@ outputs -0.45
 If A is a pixloc, it will be treated
 as a vector with just its x and y parts, and the result will be a
 vector.
+
+**See also:**
++   [trunc proc](/ref/proc/trunc.md) 
++   [floor proc](/ref/proc/floor.md) 
++   [ceil proc](/ref/proc/ceil.md) 
++   [round proc](/ref/proc/round.md) <!-- -->

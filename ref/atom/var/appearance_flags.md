@@ -1,14 +1,6 @@
 ## appearance_flags var (atom) 
 ###### BYOND Version 509
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
-+   [alpha var (atom)](/ref/atom/var/alpha.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) 
-+   [color var (client)](/ref/client/var/color.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-+   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+
 <!-- -->
 **Default value:**
 +   0
@@ -178,3 +170,13 @@ This flag indicates this atom is locked to the tile grid as it
 would be in [TILE_MOVEMENT_MODE](/ref/world/var/movement_mode.md),
 regardless of the setting of `world.movement_mode`. In this way, pixel
 movers and tile movers can coexist.
+
+**See also:**
++   [vars (atom)](/ref/atom/var.md) 
++   [alpha var (atom)](/ref/atom/var/alpha.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [transform var (atom)](/ref/atom/var/transform.md) 
++   [color var (client)](/ref/client/var/color.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

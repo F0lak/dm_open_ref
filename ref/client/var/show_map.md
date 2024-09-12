@@ -1,8 +1,5 @@
 ## show_map var (client)
-**See also:**
-+   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [view var (world)](/ref/world/var/view.md) <!-- -->
+
 **Default value:**
 +   1
 
@@ -24,3 +21,9 @@ list.
 interact only with objects in same turf. mob density = 0 //Allow
 multiple mobs in a room. 
 ```
+
+
+**See also:**
++   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [view var (world)](/ref/world/var/view.md) <!-- -->

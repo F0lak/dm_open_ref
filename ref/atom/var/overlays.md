@@ -1,12 +1,5 @@
 ## overlays var (atom)
-**See also:**
-+   [underlays var (atom)](/ref/atom/var/underlays.md) 
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [list](/ref/list.md) 
-+   [image objects](/ref/image.md) 
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+
 <!-- -->
 **Default value:**
 +   empty list
@@ -88,3 +81,13 @@ actual overlays list.
 var/L\[0\] if(boots) L += boots if(clothes) L += clothes if(armor) L +=
 armor overlays = L 
 ```
+
+
+**See also:**
++   [underlays var (atom)](/ref/atom/var/underlays.md) 
++   [icon var (atom)](/ref/atom/var/icon.md) 
++   [layer var (atom)](/ref/atom/var/layer.md) 
++   [list](/ref/list.md) 
++   [image objects](/ref/image.md) 
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

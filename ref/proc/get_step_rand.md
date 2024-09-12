@@ -1,7 +1,5 @@
 ## get_step_rand proc
-**See also:**
-+   [step_rand proc](/ref/proc/step_rand.md) 
-+   [walk_rand proc](/ref/proc/walk_rand.md) <!-- -->
+
 **Format:**
 +   get_step_rand(Ref)
 <!-- -->
@@ -13,3 +11,7 @@
 
 
 Calculate position of a step from `Ref` in random motion.
+
+**See also:**
++   [step_rand proc](/ref/proc/step_rand.md) 
++   [walk_rand proc](/ref/proc/walk_rand.md) <!-- -->

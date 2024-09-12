@@ -1,11 +1,6 @@
 ## bound_pixloc proc 
 ###### BYOND Version 516
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-+   [pixloc proc](/ref/proc/pixloc.md) 
-+   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-+   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) <!-- -->
+
 **Format:**
 +   bound_pixloc(Atom, Dir)
 <!-- -->
@@ -31,3 +26,11 @@ If the atom is not directly on the map, this value is null.
 0) var/A_center = bound_pixloc(A, 0) var/vector/V = A_center - my_center
 return length(V) 
 ```
+
+
+**See also:**
++   [pixloc](/ref/pixloc.md) 
++   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
++   [pixloc proc](/ref/proc/pixloc.md) 
++   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
++   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) <!-- -->

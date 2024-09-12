@@ -1,10 +1,5 @@
 ## list
-**See also:**
-+   [list associations](/ref/list/associations.md) 
-+   [list proc](/ref/proc/list.md) 
-+   [islist proc](/ref/proc/islist.md) 
-+   [procs (list)](/ref/list/proc.md) 
-+   [vars (list)](/ref/list/var.md) 
+
 
 Lists are used to represent groups of objects. Like objects,
 they have vars and procs associated with them. In order to access these
@@ -84,3 +79,11 @@ having 5 elements.
 ```
  var/grid = new/list(10,5) 
 ```
+
+
+**See also:**
++   [list associations](/ref/list/associations.md) 
++   [list proc](/ref/proc/list.md) 
++   [islist proc](/ref/proc/islist.md) 
++   [procs (list)](/ref/list/proc.md) 
++   [vars (list)](/ref/list/var.md) 

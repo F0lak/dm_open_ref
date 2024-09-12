@@ -1,9 +1,6 @@
 ## tick_usage var (world) 
 ###### BYOND Version 510
-**See also:**
-+   [cpu var (world)](/ref/world/var/cpu.md) 
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
-+   [Tick proc (world)](/ref/world/proc/Tick.md) 
+
 
 This is the approximate percentage of the server tick that has
 been used already. A value under 100 means there\'s time to do more
@@ -17,3 +14,8 @@ except for handling any events such as player commands that might arrive
 before the next tick begins. Therefore in a verb, `tick_usage` might
 have a higher value than you would expect to see in a proc that loops
 and sleeps.
+
+**See also:**
++   [cpu var (world)](/ref/world/var/cpu.md) 
++   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
++   [Tick proc (world)](/ref/world/proc/Tick.md) 

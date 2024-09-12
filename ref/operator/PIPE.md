@@ -1,8 +1,5 @@
 ## \| operator
-**See also:**
-+   [& operator](/ref/operator/&.md) 
-+   [operators](/ref/operator.md) 
-+   [\|= operator](/ref/operator/%7C=.md) <!-- -->
+
 **Format:**
 +   A \| B
 <!-- -->
@@ -22,3 +19,8 @@ If A is an icon or /icon
 datum, it is blended with B which can be either a color or another icon.
 Unlike the + or & operation, the result is transparent only in places
 where both icons were transparent.
+
+**See also:**
++   [& operator](/ref/operator/&.md) 
++   [operators](/ref/operator.md) 
++   [\|= operator](/ref/operator/%7C=.md) <!-- -->

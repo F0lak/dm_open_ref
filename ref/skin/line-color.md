@@ -1,7 +1,5 @@
 ## line-color parameter (skin)
-**See also:**
-+   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
-+   [show-lines parameter](/ref/%7Bskin%7D/param/show-lines.md) 
+
 <!-- -->
 **Applies to:**
 +   [Grid](/ref/%7Bskin%7D/control/grid.md) 
@@ -14,3 +12,7 @@
 
 
 The color of grid lines.
+
+**See also:**
++   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
++   [show-lines parameter](/ref/%7Bskin%7D/param/show-lines.md) 

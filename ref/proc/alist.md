@@ -1,9 +1,6 @@
 ## alist proc 
 ###### BYOND Version 516
-**See also:**
-+   [list associations](/ref/list/associations.md) 
-+   [list](/ref/list.md) 
-+   [list proc](/ref/proc/list.md) 
+
 <!-- -->
 **Format:**
 +   alist(A=a,B=b,C=c,\...)
@@ -44,3 +41,8 @@ var/alist/lst = alist(player = \"James Byond\", score = 2000)
 
 In other words, this is exactly the same syntax as for [named
 arguments](/ref/proc/arguments/named.md) 
+
+**See also:**
++   [list associations](/ref/list/associations.md) 
++   [list](/ref/list.md) 
++   [list proc](/ref/proc/list.md) 

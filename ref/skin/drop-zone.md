@@ -1,6 +1,5 @@
 ## drop-zone parameter (skin)
-**See also:**
-+   [mouse handling](/ref/DM/mouse.md) 
+
 <!-- -->
 **Applies to:**
 +   [All](/ref/%7Bskin%7D/control.md) 
@@ -28,3 +27,6 @@ to/from a grid cell.
 
 In Info controls, `src_location` and
 `over_location` in mouse procs will be the name of the statpanel tab.
+
+**See also:**
++   [mouse handling](/ref/DM/mouse.md) 

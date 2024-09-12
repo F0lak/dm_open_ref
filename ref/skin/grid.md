@@ -50,3 +50,4 @@ to output in grid controls:
     for left, right, top, bottom.
 -   There will always be a 1-pixel space for grid lines, whether
     they\'re shown or not.
+

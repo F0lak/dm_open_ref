@@ -1,7 +1,5 @@
 ## log var (world)
-**See also:**
-+   [file proc](/ref/proc/file.md) 
-+   [startup proc](/ref/proc/startup.md) 
+
 
 Sending output to world.log may be useful for debugging
 purposes. The output goes to the same place run-time proc errors are
@@ -22,3 +20,8 @@ Dream Daemon that does this.)
 ```
  world.log = file(\"mylog.txt\") 
 ```
+
+
+**See also:**
++   [file proc](/ref/proc/file.md) 
++   [startup proc](/ref/proc/startup.md) 

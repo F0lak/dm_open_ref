@@ -1,9 +1,5 @@
 ## arguments (verb)
-**See also:**
-+   [argument expanding](/ref/verb/arguments/expanding.md) 
-+   [command_text (client)](/ref/client/var/command_text.md) 
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [args var (verb)](/ref/verb/var/args.md) 
+
 
 The parameters to a verb are referred to as arguments. For
 verbs, the input type and possible value list may also be specified.
@@ -79,3 +75,9 @@ type will be used to determine whether it is a mob, obj, turf, or area.
 
 This example defines a verb with two
 arguments: a target mob, and some text.
+
+**See also:**
++   [argument expanding](/ref/verb/arguments/expanding.md) 
++   [command_text (client)](/ref/client/var/command_text.md) 
++   [arglist proc](/ref/proc/arglist.md) 
++   [args var (verb)](/ref/verb/var/args.md) 

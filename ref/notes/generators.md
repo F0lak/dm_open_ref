@@ -1,10 +1,6 @@
 ## Generators 
 ###### BYOND Version 514
-**See also:**
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-+   [generator proc](/ref/proc/generator.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+
 
 A generator is an object that can produce a random number,
 vector (list of 3 numbers), color (as a text string), or color matrix
@@ -29,3 +25,9 @@ matrix to transform it.
   \+ - \* /                  Arithmetic operators. You can multiply a 3D vector by a color matrix (where red,green,blue in the matrix correspond to x,y,z) to do a 3D transform, or by a 2D matrix for a 2D transform.
   \- (unary)                 Negate the value, same as multiplying by -1.
   turn(), generator.Turn()   Rotate a vector clockwise in the XY plane.
+
+**See also:**
++   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
++   [generator proc](/ref/proc/generator.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 

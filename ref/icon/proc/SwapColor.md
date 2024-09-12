@@ -1,8 +1,5 @@
 ## SwapColor proc (icon)
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [rgb proc](/ref/proc/rgb.md) <!-- -->
+
 **Format:**
 +   SwapColor(old_rgb,new_rgb)\
     *or*\
@@ -26,3 +23,8 @@ as rgb(1,2,3) or \"#010203\", then that color will change to the new one
 regardless of its alpha value, and the original icon\'s alpha will be
 kept intact. (If the new color is totally transparent, however, then the
 old color will be replaced with full transparency.)
+
+**See also:**
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [rgb proc](/ref/proc/rgb.md) <!-- -->

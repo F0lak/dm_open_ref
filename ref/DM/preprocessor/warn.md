@@ -1,7 +1,5 @@
 ## #warn directive
-**See also:**
-+   [preprocessor](/ref/DM/preprocessor.md) 
-+   [#error directive](/ref/DM/preprocessor/error.md) <!-- -->
+
 **Format:**
 +   #warn Text
 <!-- -->
@@ -17,3 +15,8 @@ warning, but does not prevent the project from compiling.
  #ifdef USE_LIGHTING #warn The lighting feature in MyLibrary
 is experimental. #endif 
 ```
+
+
+**See also:**
++   [preprocessor](/ref/DM/preprocessor.md) 
++   [#error directive](/ref/DM/preprocessor/error.md) <!-- -->

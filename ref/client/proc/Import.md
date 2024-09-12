@@ -1,8 +1,5 @@
 ## Import proc (client)
-**See also:**
-+   [Export proc (client)](/ref/client/proc/Export.md) 
-+   [New proc (client)](/ref/client/proc/New.md) 
-+   [savefile](/ref/savefile.md) 
+
 <!-- -->
 **Format:**
 +   client.Import(Query)
@@ -20,3 +17,8 @@ other things. If there is no file, null is returned. For an example, see
 When there are query
 parameters, these may be used to import a file from some alternate
 source. Currently this is not supported.
+
+**See also:**
++   [Export proc (client)](/ref/client/proc/Export.md) 
++   [New proc (client)](/ref/client/proc/New.md) 
++   [savefile](/ref/savefile.md) 

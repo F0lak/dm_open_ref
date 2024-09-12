@@ -1,8 +1,6 @@
 ## RenderIcon proc (client) 
 ###### BYOND Version 515
-**See also:**
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
+
 <!-- -->
 **Format:**
 +   RenderIcon(object)
@@ -47,3 +45,7 @@ Important notes regarding this proc:
     render stack. That is, this object or appearance will be rendered in
     an isolated \"scene\" rather than as part of the map, so it won\'t
     be able to use other objects on the map as render sources.
+
+**See also:**
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [Filter effects](/ref/%7Bnotes%7D/filters.md) 

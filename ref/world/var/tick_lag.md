@@ -1,9 +1,5 @@
 ## tick_lag var (world)
-**See also:**
-+   [fps var (world)](/ref/world/var/fps.md) 
-+   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
-+   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
-+   [sleep proc](/ref/proc/sleep.md) <!-- -->
+
 **Default value:**
 +   1
 
@@ -30,3 +26,9 @@ and vice-versa, so a tick_lag of 0.25 is equal to 40 fps.
 If
 you set client.tick_lag or client.fps to a value other than 0, you can
 make the client tick at a different (usually faster) rate.
+
+**See also:**
++   [fps var (world)](/ref/world/var/fps.md) 
++   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
++   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
++   [sleep proc](/ref/proc/sleep.md) <!-- -->

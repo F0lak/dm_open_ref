@@ -1,8 +1,5 @@
 ## key var (mob)
-**See also:**
-+   [ckey var (mob)](/ref/mob/var/ckey.md) 
-+   [client](/ref/client.md) 
-+   [key var (client)](/ref/client/var/key.md) <!-- -->
+
 **Default value:**
 +   null
 
@@ -20,3 +17,8 @@ connect to the mob. Any other mob with the same key will lose it.
 Key values are always compared in canonical form (ie the form
 returned by ckey()) so setting a mob\'s key to \"Dan\", \"dan\" are
 equivalent as far as controlling player linkage.
+
+**See also:**
++   [ckey var (mob)](/ref/mob/var/ckey.md) 
++   [client](/ref/client.md) 
++   [key var (client)](/ref/client/var/key.md) <!-- -->

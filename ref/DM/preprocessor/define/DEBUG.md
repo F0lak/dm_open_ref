@@ -1,6 +1,5 @@
 ## DEBUG definition
-**See also:**
-+   [#define directive](/ref/DM/preprocessor/define.md) <!-- -->
+
 **Format:**
 +   #define DEBUG
 
@@ -22,3 +21,6 @@ debug mode.
 If you want to use the run-time profiler (see the
 debugging options in Dream Seeker), you must compile in debug mode. Then
 you can get a report of CPU usage by your various procs.
+
+**See also:**
++   [#define directive](/ref/DM/preprocessor/define.md) <!-- -->

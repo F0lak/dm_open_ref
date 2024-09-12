@@ -1,7 +1,6 @@
 ## glide_size var (movable atoms) 
 ###### BYOND Version 490
-**See also:**
-+   [animate_movement var (movable
+
     atoms)](/ref/atom/movable/var/animate_movement.md) 
 +   [glide_size var (client)](/ref/client/var/glide_size.md) 
 +   [pixel_x var (atom)](/ref/atom/var/pixel_x.md) 
@@ -40,3 +39,6 @@ greater than `world.fps`, the actual glide amount each client tick will
 be `glide_size/4`. 
 
 This was renamed from `pixel_step_size`.
+
+**See also:**
++   [animate_movement var (movable

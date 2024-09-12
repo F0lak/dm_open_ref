@@ -1,9 +1,5 @@
 ## Import proc (world)
-**See also:**
-+   [Export proc (world)](/ref/world/proc/Export.md) 
-+   [Import proc (client)](/ref/client/proc/Import.md) 
-+   [Topic proc (world)](/ref/world/proc/Topic.md) 
-+   [fcopy proc](/ref/proc/fcopy.md) <!-- -->
+
 **Format:**
 +   Import()
 <!-- -->
@@ -47,3 +43,9 @@ dumped from the cache into a separate temporary file, which is then
 opened as a savefile.) Other types of files would be handled
 differently. For example, you could use fcopy() to dump the cached item
 to its own separate file.
+
+**See also:**
++   [Export proc (world)](/ref/world/proc/Export.md) 
++   [Import proc (client)](/ref/client/proc/Import.md) 
++   [Topic proc (world)](/ref/world/proc/Topic.md) 
++   [fcopy proc](/ref/proc/fcopy.md) <!-- -->

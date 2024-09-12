@@ -1,11 +1,6 @@
 ## Filter effects 
 ###### BYOND Version 512
-**See also:**
-+   [filters var (atom)](/ref/atom/var/filters.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [filter proc](/ref/proc/filter.md) 
-+   [animate proc](/ref/proc/animate.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+
 
 
 Filters are a way of adding special effects to an icon, or a
@@ -40,3 +35,10 @@ the filters currently supported:
 -   [Rays](/ref/%7Bnotes%7D/filters/rays.md) 
 -   [Ripple](/ref/%7Bnotes%7D/filters/ripple.md) 
 -   [Wave](/ref/%7Bnotes%7D/filters/wave.md) 
+
+**See also:**
++   [filters var (atom)](/ref/atom/var/filters.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [filter proc](/ref/proc/filter.md) 
++   [animate proc](/ref/proc/animate.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

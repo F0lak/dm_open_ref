@@ -1,9 +1,5 @@
 ## round proc
-**See also:**
-+   [floor proc](/ref/proc/floor.md) 
-+   [ceil proc](/ref/proc/ceil.md) 
-+   [trunc proc](/ref/proc/trunc.md) 
-+   [fract proc](/ref/proc/fract.md) <!-- -->
+
 **Format:**
 +   round(A)
 +   round(A,B)
@@ -33,3 +29,9 @@ component separately.
 
 If A is a pixloc, only the x and y
 portions will be considered. B may be a vector.
+
+**See also:**
++   [floor proc](/ref/proc/floor.md) 
++   [ceil proc](/ref/proc/ceil.md) 
++   [trunc proc](/ref/proc/trunc.md) 
++   [fract proc](/ref/proc/fract.md) <!-- -->

@@ -1,9 +1,6 @@
 ## Dot proc (vector) 
 ###### BYOND Version 516
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) 
-+   [vars (vector)](/ref/vector/var.md) <!-- -->
+
 **Format:**
 +   A.Dot(B)
 <!-- -->
@@ -30,3 +27,9 @@ them.
 ```
 dot = A.size \* B.size \* cos(angle)
 ```
+
+
+**See also:**
++   [vector](/ref/vector.md) 
++   [vector proc](/ref/proc/vector.md) 
++   [vars (vector)](/ref/vector/var.md) <!-- -->

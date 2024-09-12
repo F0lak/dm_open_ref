@@ -1,12 +1,6 @@
 ## Find proc (regex) 
 ###### BYOND Version 510
-**See also:**
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
-+   [regex datum](/ref/regex.md) 
-+   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
-+   [regex vars](/ref/regex/var.md) 
-+   [regex proc](/ref/proc/regex.md) 
-+   [findtext proc](/ref/proc/findtext.md) <!-- -->
+
 **Format:**
 +   Find(haystack, Start=1, End=0)
 <!-- -->
@@ -43,3 +37,11 @@ strings containing non-ASCII characters, byte position and character
 position are not the same thing. Use `Find_char()` to work with
 character counts instead of bytes, at a performance cost. See the
 [Unicode](@/%7Bnotes%7D/Unicode) section for more information.
+
+**See also:**
++   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
++   [regex datum](/ref/regex.md) 
++   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
++   [regex vars](/ref/regex/var.md) 
++   [regex proc](/ref/proc/regex.md) 
++   [findtext proc](/ref/proc/findtext.md) <!-- -->

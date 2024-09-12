@@ -1,9 +1,5 @@
 ## turf
-**See also:**
-+   [atom](/ref/atom.md) 
-+   [procs (turf)](/ref/turf/proc.md) 
-+   [vars (turf)](/ref/turf/var.md) 
-+   [Map](/ref/map.md) 
+
 
 Turfs cover the surface of the map. They are derived from
 `/turf` which derives from `/atom`. 
@@ -28,3 +24,10 @@ it always replaces the old one.
  // replace old_turf with a wall var/turf/wall/T =
 new(old_turf) 
 ```
+
+
+**See also:**
++   [atom](/ref/atom.md) 
++   [procs (turf)](/ref/turf/proc.md) 
++   [vars (turf)](/ref/turf/var.md) 
++   [Map](/ref/map.md) 

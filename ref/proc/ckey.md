@@ -1,8 +1,5 @@
 ## ckey proc
-**See also:**
-+   [ckeyEx proc](/ref/proc/ckeyEx.md) 
-+   [ckey var (mob)](/ref/mob/var/ckey.md) 
-+   [savefile](/ref/savefile.md) <!-- -->
+
 **Format:**
 +   ckey(Key)
 <!-- -->
@@ -47,3 +44,8 @@ information into an existing mob.
 In this example, the ckey()
 proc was used, but it would be more efficient to use mob.ckey, which is
 the same value precomputed.
+
+**See also:**
++   [ckeyEx proc](/ref/proc/ckeyEx.md) 
++   [ckey var (mob)](/ref/mob/var/ckey.md) 
++   [savefile](/ref/savefile.md) <!-- -->

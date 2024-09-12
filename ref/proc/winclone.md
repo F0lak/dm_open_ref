@@ -1,10 +1,5 @@
 ## winclone proc
-**See also:**
-+   [winexists proc](/ref/proc/winexists.md) 
-+   [winget proc](/ref/proc/winget.md) 
-+   [winset proc](/ref/proc/winset.md) 
-+   [winshow proc](/ref/proc/winshow.md) 
-+   [User interface skins](/ref/%7Bskin%7D.md) <!-- -->
+
 **Format:**
 +   winclone(player, window_name, clone_name)
 <!-- -->
@@ -71,3 +66,11 @@ be deleted via a `winset()` call:
 ```
  winset(usr, \"clonedwindow\", \"parent=none\") 
 ```
+
+
+**See also:**
++   [winexists proc](/ref/proc/winexists.md) 
++   [winget proc](/ref/proc/winget.md) 
++   [winset proc](/ref/proc/winset.md) 
++   [winshow proc](/ref/proc/winshow.md) 
++   [User interface skins](/ref/%7Bskin%7D.md) <!-- -->

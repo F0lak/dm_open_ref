@@ -1,10 +1,5 @@
 ## render_target var (atom)
-**See also:**
-+   [render_source var (atom)](/ref/atom/var/render_source.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [filters var (atom)](/ref/atom/var/filters.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) 
+
 <!-- -->
 **Default value:**
 +   null
@@ -48,3 +43,10 @@ controls, a given render target can only be used as a source on the same
 map control where it appears. This is because each map is rendered
 separately.
 :::
+
+**See also:**
++   [render_source var (atom)](/ref/atom/var/render_source.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [filters var (atom)](/ref/atom/var/filters.md) 
++   [transform var (atom)](/ref/atom/var/transform.md) 

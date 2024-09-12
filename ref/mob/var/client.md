@@ -1,6 +1,5 @@
 ## client var (mob)
-**See also:**
-+   [client](/ref/client.md) <!-- -->
+
 **Default value:**
 +   null
 
@@ -11,3 +10,6 @@ null).
 
 Setting a mob\'s client connects that player\'s client
 to the mob.
+
+**See also:**
++   [client](/ref/client.md) <!-- -->

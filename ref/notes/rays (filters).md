@@ -56,3 +56,4 @@ FILTER_OVERLAY \| FILTER_UNDERLAY
 +   Default. For plane masters, this will use the `FILTER_OVERLAY`
     behavior and draw the rays over the plane, and for all other images
     it will default to `FILTER_UNDERLAY` to draw the rays beneath them.
+

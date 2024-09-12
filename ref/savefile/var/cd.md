@@ -1,6 +1,5 @@
 ## cd var (savefile)
-**See also:**
-+   [savefile](/ref/savefile.md) 
+
 
 This is the path name of the current directory. Setting it
 causes the current directory to change. (We are talking about the
@@ -15,3 +14,7 @@ unless its buffer (or one of its children) is modified, however.
 \"/MyDir/Icon\" F.cd = \"..\" // change to /MyDir F.cd = \"Icon\" //
 change to /MyDir/Icon 
 ```
+
+
+**See also:**
++   [savefile](/ref/savefile.md) 

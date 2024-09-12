@@ -1,6 +1,5 @@
 ## on-change parameter (skin)
-**See also:**
-+   [value parameter](/ref/%7Bskin%7D/param/value.md) 
+
 <!-- -->
 **Applies to:**
 +   [Bar](/ref/%7Bskin%7D/control/bar.md) 
@@ -18,3 +17,6 @@ If you include `[[*]]` in the command, it will be replaced
 by the control\'s new `value`. (See \"Embedded Winget\" in [client
 commands](/ref/%7Bskin%7D/commands.md) for more details on the `[[...]]`
 format.)
+
+**See also:**
++   [value parameter](/ref/%7Bskin%7D/param/value.md) 

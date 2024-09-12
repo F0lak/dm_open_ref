@@ -1,8 +1,5 @@
 ## findtextEx proc
-**See also:**
-+   [findtext proc](/ref/proc/findtext.md) 
-+   [replacetextEx proc](/ref/proc/replacetextEx.md) 
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+
 <!-- -->
 **Format:**
 +   findtextEx(Haystack,Needle,Start=1,End=0)
@@ -47,3 +44,8 @@ character counts instead of bytes, at a performance cost. See the
 Note: This proc used to be named `findText`, like `findtext` but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.
+
+**See also:**
++   [findtext proc](/ref/proc/findtext.md) 
++   [replacetextEx proc](/ref/proc/replacetextEx.md) 
++   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 

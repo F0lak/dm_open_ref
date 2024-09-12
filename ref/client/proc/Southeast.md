@@ -1,6 +1,5 @@
 ## Southeast proc (client)
-**See also:**
-+   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->
+
 **Format:**
 +   Southeast()
 <!-- -->
@@ -12,3 +11,6 @@
 <!-- -->
 **Default action:**
 +   Calls src.Move() towards the southeast.
+
+**See also:**
++   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->

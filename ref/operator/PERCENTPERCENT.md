@@ -1,9 +1,6 @@
 ## %% operator 
 ###### BYOND Version 515
-**See also:**
-+   [% operator](/ref/operator/%.md) 
-+   [%%= operator](/ref/operator/%25%25=.md) 
-+   [operators](/ref/operator.md) <!-- -->
+
 **Format:**
 +   A %% B
 <!-- -->
@@ -25,3 +22,8 @@ number; B can also be a vector in this case.
 If A is a pixloc,
 it\'s treated like a 2D vector and the modulo operation is done with
 that instead.
+
+**See also:**
++   [% operator](/ref/operator/%.md) 
++   [%%= operator](/ref/operator/%25%25=.md) 
++   [operators](/ref/operator.md) <!-- -->

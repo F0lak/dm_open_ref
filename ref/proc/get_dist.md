@@ -1,6 +1,5 @@
 ## get_dist proc
-**See also:**
-+   [bounds_dist proc](/ref/proc/bounds_dist.md) <!-- -->
+
 **Format:**
 +   get_dist(Loc1, Loc2)
 <!-- -->
@@ -25,3 +24,6 @@ returned.
 
 Note: Prior to BYOND 515, `get_dist()` never returned
 a value greater than 127, which it counted as \"infinite\".
+
+**See also:**
++   [bounds_dist proc](/ref/proc/bounds_dist.md) <!-- -->

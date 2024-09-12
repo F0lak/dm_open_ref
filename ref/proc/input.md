@@ -1,7 +1,5 @@
 ## input proc
-**See also:**
-+   [alert proc](/ref/proc/alert.md) 
-+   [arguments (verb)](/ref/verb/arguments.md) <!-- -->
+
 **Format:**
 +   input(Recipient=usr,Message,Title,Default) as Type in List
 <!-- -->
@@ -92,3 +90,7 @@ multi-line text, you should strip out `"\n"` characters. If they\'re
 putting in something like a character name, strip out any HTML via
 `html_encode()`, or you can simply reject anything that contains invalid
 characters and make them do it again.
+
+**See also:**
++   [alert proc](/ref/proc/alert.md) 
++   [arguments (verb)](/ref/verb/arguments.md) <!-- -->

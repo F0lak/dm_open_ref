@@ -1,7 +1,5 @@
 ## dir list var (savefile)
-**See also:**
-+   [list](/ref/list.md) 
-+   [savefile](/ref/savefile.md) 
+
 
 The name of each child directory of the current data directory
 is stored in the list savefile.dir. New directories may be created with
@@ -13,3 +11,7 @@ the filesystem.)
 The order of directories is not necessarily
 preserved, so do not assume, for example, that newer directories will be
 at the end of the list.
+
+**See also:**
++   [list](/ref/list.md) 
++   [savefile](/ref/savefile.md) 

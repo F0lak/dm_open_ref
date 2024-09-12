@@ -1,8 +1,5 @@
 ## icon proc
-**See also:**
-+   [file proc](/ref/proc/file.md) 
-+   [icon_states proc](/ref/proc/icon_states.md) 
-+   [icons](/ref/DM/icon.md) 
+
 <!-- -->
 **Format:**
 +   icon(icon,state,dir,frame,moving)
@@ -22,3 +19,8 @@ This is equivalent to new/icon(). It creates an /icon object,
 which is initialized to contain the same graphical data as the given
 file. If an icon state or direction are specified, only those parts of
 the original icon will be included in the new icon object.
+
+**See also:**
++   [file proc](/ref/proc/file.md) 
++   [icon_states proc](/ref/proc/icon_states.md) 
++   [icons](/ref/DM/icon.md) 

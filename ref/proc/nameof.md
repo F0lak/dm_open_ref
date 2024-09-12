@@ -1,7 +1,6 @@
 ## nameof proc 
 ###### BYOND Version 515
-**See also:**
-+   [:: operator](/ref/operator/::.md) <!-- -->
+
 **Format:**
 +   nameof(Var)
 +   nameof(ProcRef)
@@ -30,3 +29,7 @@ event_queue.Cut(1,2) var/object = forlater\[1\] var/procname =
 forlater\[2\] var/a = forlater\[3\] var/b = forlater\[4\] var/c =
 forlater\[5\] call(object, procname)(a, b, c) 
 ```
+
+
+**See also:**
++   [:: operator](/ref/operator/::.md) <!-- -->

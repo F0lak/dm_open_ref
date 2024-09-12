@@ -1,7 +1,5 @@
 ## frequency var (sound)
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [pitch var (sound)](/ref/sound/var/pitch.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -26,3 +24,7 @@ as fast; halving it will play it at a lower pitch and twice as slow.
 To make a sound play at a different speed but keep its pitch intact, set
 `frequency` to the speed multiple you want (e.g., 1.2 for 20% faster)
 and set `pitch` to the inverse (e.g., 1/1.2).
+
+**See also:**
++   [vars (sound)](/ref/sound/var.md) 
++   [pitch var (sound)](/ref/sound/var/pitch.md) <!-- -->

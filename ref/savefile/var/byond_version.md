@@ -1,10 +1,6 @@
 ## byond_version var (savefile) 
 ###### BYOND Version 515
-**See also:**
-+   [savefile](/ref/savefile.md) 
-+   [byond_build var (savefile)](/ref/savefile/var/byond_build.md) 
-+   [byond_version var (world)](/ref/world/var/byond_version.md) 
-+   [byond_build var (world)](/ref/world/var/byond_build.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -33,3 +29,9 @@ from BYOND 515 onward
 
 Note: By default, worlds
 compiled before BYOND 515 will set this value to 514.
+
+**See also:**
++   [savefile](/ref/savefile.md) 
++   [byond_build var (savefile)](/ref/savefile/var/byond_build.md) 
++   [byond_version var (world)](/ref/world/var/byond_version.md) 
++   [byond_build var (world)](/ref/world/var/byond_build.md) <!-- -->

@@ -1,8 +1,6 @@
 ## color var (client) 
 ###### BYOND Version 509
-**See also:**
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+
 
 
 Casts a color multiplication or
@@ -26,3 +24,8 @@ This value can be animated.
  mob/proc/DayNight(is_day) if(client) client.color = is_day ?
 \\ null : \\ list(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4) 
 ```
+
+
+**See also:**
++   [color var (atom)](/ref/atom/var/color.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 

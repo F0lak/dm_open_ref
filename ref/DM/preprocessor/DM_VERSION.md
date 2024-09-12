@@ -1,10 +1,5 @@
 ## DM_VERSION macro
-**See also:**
-+   [byond_version var (world)](/ref/world/var/byond_version.md) 
-+   [byond_version var (client)](/ref/client/var/byond_version.md) 
-+   [DM_BUILD macro](/ref/DM/preprocessor/DM_BUILD.md) 
-+   [preprocessor](/ref/DM/preprocessor.md) 
-+   [#pragma compatibility
+
     directive](/ref/DM/preprocessor/pragma/compatibility.md) 
 
 This macro indicates the version of the compiler. This could be
@@ -22,3 +17,10 @@ If you use `#pragma compatibility`, it
 will alter the value of this macro (but never higher than the actual
 version being compiled). In this way you can alter your code\'s behavior
 based on the pragma.
+
+**See also:**
++   [byond_version var (world)](/ref/world/var/byond_version.md) 
++   [byond_version var (client)](/ref/client/var/byond_version.md) 
++   [DM_BUILD macro](/ref/DM/preprocessor/DM_BUILD.md) 
++   [preprocessor](/ref/DM/preprocessor.md) 
++   [#pragma compatibility

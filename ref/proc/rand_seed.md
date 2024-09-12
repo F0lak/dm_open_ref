@@ -1,9 +1,5 @@
 ## rand_seed proc
-**See also:**
-+   [pick proc](/ref/proc/pick.md) 
-+   [prob proc](/ref/proc/prob.md) 
-+   [rand proc](/ref/proc/rand.md) 
-+   [roll proc](/ref/proc/roll.md) <!-- -->
+
 **Format:**
 +   rand_seed(Seed)
 <!-- -->
@@ -29,3 +25,9 @@ order.
 The pseudo-random number generator is system dependent,
 so do not expect the sequence generated from a particular seed to be
 identical on two different machines or operating systems.
+
+**See also:**
++   [pick proc](/ref/proc/pick.md) 
++   [prob proc](/ref/proc/prob.md) 
++   [rand proc](/ref/proc/rand.md) 
++   [roll proc](/ref/proc/roll.md) <!-- -->

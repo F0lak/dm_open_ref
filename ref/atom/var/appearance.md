@@ -1,9 +1,6 @@
 ## appearance var (atom) 
 ###### BYOND Version 508
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
-+   [mutable appearance](/ref/mutable_appearance.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+
 
 
 Every atom or image has an appearance, which controls all of
@@ -62,3 +59,8 @@ ARE copied when you assign a `/mutable_appearance`.
 If you set
 `atom.appearance` to another atom, the other atom\'s appearance will be
 copied.
+
+**See also:**
++   [vars (atom)](/ref/atom/var.md) 
++   [mutable appearance](/ref/mutable_appearance.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

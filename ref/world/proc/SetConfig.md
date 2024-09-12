@@ -1,6 +1,5 @@
 ## SetConfig proc (world)
-**See also:**
-+   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) 
+
 <!-- -->
 **Format:**
 +   SetConfig(config_set,param,value)
@@ -18,3 +17,6 @@ parameter within that set.
 
 For more information, see
 [GetConfig](/ref/world/proc/GetConfig.md) 
+
+**See also:**
++   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) 

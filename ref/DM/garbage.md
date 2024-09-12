@@ -1,8 +1,5 @@
 ## garbage collection
-**See also:**
-+   [del proc](/ref/proc/del.md) 
-+   [world](/ref/world.md) 
-+   [refcount proc](/ref/proc/refcount.md) 
+
 
 
 At runtime, data objects are garbage collected. That means data
@@ -78,3 +75,8 @@ delete things whether they are referenced or not. Another nicety is that
 this automatically nulls out any existing references to the object, so
 you don\'t end up with dangling references to a deleted object, which
 can otherwise be a great source of instability and mysterious bugs.
+
+**See also:**
++   [del proc](/ref/proc/del.md) 
++   [world](/ref/world.md) 
++   [refcount proc](/ref/proc/refcount.md) 

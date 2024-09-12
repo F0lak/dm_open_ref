@@ -12,3 +12,4 @@ A map that will display icons from the game.
 +   [view-size](/ref/%7Bskin%7D/param/view-size.md) 
 +   [zoom](/ref/%7Bskin%7D/param/zoom.md) 
 +   [zoom-mode](/ref/%7Bskin%7D/param/zoom-mode.md) 
+

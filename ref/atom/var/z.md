@@ -1,7 +1,5 @@
 ## z var (atom)
-**See also:**
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->
+
 **Default value:**
 +   The z coordinate of the object on the map.
 
@@ -26,3 +24,7 @@ movement behavior.
 For areas that are on the map, this is the
 coordinate of the turf with the lowest z, y, and x coordinate (in that
 order) that is contained by the area.
+
+**See also:**
++   [layer var (atom)](/ref/atom/var/layer.md) 
++   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->

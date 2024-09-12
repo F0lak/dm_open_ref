@@ -1,6 +1,5 @@
 ## text2path proc
-**See also:**
-+   [ispath proc](/ref/proc/ispath.md) <!-- -->
+
 **Format:**
 +   text2path(T)
 <!-- -->
@@ -19,3 +18,6 @@ src.loc = locate(myturf)
 
 T is changed from a text
 string to the equivalent type path, or null if there is no such type.
+
+**See also:**
++   [ispath proc](/ref/proc/ispath.md) <!-- -->

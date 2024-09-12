@@ -1,6 +1,5 @@
 ## tag var (datum)
-**See also:**
-+   [locate proc](/ref/proc/locate.md) <!-- -->
+
 **Default value:**
 +   null
 
@@ -29,3 +28,6 @@ be true
 Setting a tag to \"\" or null removes it.
 Any object with a non-empty tag is immune to garbage collection, since
 the tag is treated as an implicit reference to that object.
+
+**See also:**
++   [locate proc](/ref/proc/locate.md) <!-- -->

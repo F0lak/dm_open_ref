@@ -1,10 +1,6 @@
 ## Projection matrix 
 ###### BYOND Version 514
-**See also:**
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) 
-+   [matrix](/ref/matrix.md) 
-+   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+
 
 Note: Currently this feature applies only to particle effects,
 using the `transform` var. 
@@ -105,3 +101,10 @@ matrix:
 list(xx,xy,xz,xw, yx,yy,yz,yw, zx,zy,zz,zw,
 wx,wy,wz,ww)
 ```
+
+
+**See also:**
++   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
++   [transform var (atom)](/ref/atom/var/transform.md) 
++   [matrix](/ref/matrix.md) 
++   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 

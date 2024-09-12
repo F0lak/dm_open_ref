@@ -1,7 +1,5 @@
 ## min proc
-**See also:**
-+   [max proc](/ref/proc/max.md) 
-+   [clamp proc](/ref/proc/clamp.md) <!-- -->
+
 **Format:**
 +   min(A,B,C,\...)
 <!-- -->
@@ -28,3 +26,7 @@ be mixed with nums or text, but that\'s the only exception.)
 If
 the compared items are objects such as pixlocs or vectors, the result is
 a new object, not one of the objects that was compared.
+
+**See also:**
++   [max proc](/ref/proc/max.md) 
++   [clamp proc](/ref/proc/clamp.md) <!-- -->

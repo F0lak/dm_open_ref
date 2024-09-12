@@ -1,9 +1,6 @@
 ## \* pointer operator 
 ###### BYOND Version 515
-**See also:**
-+   [& pointer operator](/ref/operator/&/pointer.md) 
-+   [operators](/ref/operator.md) 
-+   [ispointer proc](/ref/proc/ispointer.md) <!-- -->
+
 **Format:**
 +   \*A
 <!-- -->
@@ -35,3 +32,8 @@ as to a var inside a proc that has ended, the read or write will fail
 silently; reading will return a null value. (An exception is pointers to
 list items. If the index is out of bounds, you will get the expected
 error.)
+
+**See also:**
++   [& pointer operator](/ref/operator/&/pointer.md) 
++   [operators](/ref/operator.md) 
++   [ispointer proc](/ref/proc/ispointer.md) <!-- -->

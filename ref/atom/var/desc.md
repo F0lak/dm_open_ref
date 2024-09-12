@@ -10,3 +10,5 @@ This is the description of the object.
  mob/verb/look(atom/O in view()) if(O.desc) usr \<\< O.desc
 else usr \<\< \"It\'s just \\an \[O\].\" 
 ```
+
+

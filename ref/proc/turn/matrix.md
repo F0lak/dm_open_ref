@@ -1,7 +1,5 @@
 ## turn proc (applied to a matrix)
-**See also:**
-+   [turn proc](/ref/proc/turn.md) 
-+   [matrix](/ref/matrix.md) <!-- -->
+
 **Format:**
 +   turn(Matrix, Angle)
 <!-- -->
@@ -18,3 +16,8 @@
 usr.transform = turn(usr.transform, 90) usr \<\< \"Woah! That stuff is
 powerful!\" sleep(200) usr.transform = null 
 ```
+
+
+**See also:**
++   [turn proc](/ref/proc/turn.md) 
++   [matrix](/ref/matrix.md) <!-- -->

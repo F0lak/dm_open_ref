@@ -1,13 +1,6 @@
 ## \<=\> operator 
 ###### BYOND Version 516
-**See also:**
-+   [\< operator](/ref/operator/%3c.md) 
-+   [\> operator](/ref/operator/%3e.md) 
-+   [\<= operator](/ref/operator/%3c=.md) 
-+   [\>= operator](/ref/operator/%3e=.md) 
-+   [== operator](/ref/operator/==.md) 
-+   [operators](/ref/operator.md) 
-+   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->
+
 **Format:**
 +   A \<=\> B
 <!-- -->
@@ -21,3 +14,12 @@ performed (like sorttextEx()).
 If either value is the special
 number NaN (not a number), the result is currently 0 but should be
 considered ambiguous.
+
+**See also:**
++   [\< operator](/ref/operator/%3c.md) 
++   [\> operator](/ref/operator/%3e.md) 
++   [\<= operator](/ref/operator/%3c=.md) 
++   [\>= operator](/ref/operator/%3e=.md) 
++   [== operator](/ref/operator/==.md) 
++   [operators](/ref/operator.md) 
++   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->

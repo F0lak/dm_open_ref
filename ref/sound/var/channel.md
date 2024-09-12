@@ -1,9 +1,5 @@
 ## channel var (sound)
-**See also:**
-+   [sound proc](/ref/proc/sound.md) 
-+   [status var (sound)](/ref/sound/var/status.md) 
-+   [vars (sound)](/ref/sound/var.md) 
-+   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
+
 **Default value:**
 +   0 (any channel)
 
@@ -25,3 +21,9 @@ choose a channel automatically but it will *not* conflict with any
 specific channels you choose for other sounds later. This means if you
 play some sounds with channel 0 but then later want to play something on
 channel 1, you don\'t have to worry about channel 1 being taken.
+
+**See also:**
++   [sound proc](/ref/proc/sound.md) 
++   [status var (sound)](/ref/sound/var/status.md) 
++   [vars (sound)](/ref/sound/var.md) 
++   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->

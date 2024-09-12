@@ -1,6 +1,5 @@
 ## ckeyEx proc
-**See also:**
-+   [ckey proc](/ref/proc/ckey.md) <!-- -->
+
 **Format:**
 +   ckeyEx(Text)
 <!-- -->
@@ -19,3 +18,6 @@ text) of any special characters.
 Note: This proc used to be named `cKey`, like `ckey` but with a capital
 k. To avoid confusion it has been renamed, but old code will still
 compile with a warning.
+
+**See also:**
++   [ckey proc](/ref/proc/ckey.md) <!-- -->

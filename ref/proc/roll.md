@@ -1,6 +1,5 @@
 ## roll proc
-**See also:**
-+   [rand proc](/ref/proc/rand.md) <!-- -->
+
 **Format:**
 +   roll(ndice=1,sides)
 +   roll(dice)
@@ -29,3 +28,7 @@ sum of 3 dice having 4 sides each.
 roll(dice) if(h\>15) usr \<\< \"Very refreshing!\" else usr \<\< \"You
 feel better.\" 
 ```
+
+
+**See also:**
++   [rand proc](/ref/proc/rand.md) <!-- -->

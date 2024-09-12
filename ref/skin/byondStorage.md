@@ -1,7 +1,5 @@
 ## byondStorage (browser control)
-**See also:**
-+   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
-+   [winset proc](/ref/proc/winset.md) 
+
 
 
 A replacement for `localStorage` that can be used to hold
@@ -25,3 +23,7 @@ the same way you would use `localStorage` or `sessionStorage`.
 Note: Technically `localStorage` does work, but because of the
 way BYOND handles browser controls it acts more like `sessionStorage` in
 practice.
+
+**See also:**
++   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
++   [winset proc](/ref/proc/winset.md) 

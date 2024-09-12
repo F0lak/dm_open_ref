@@ -1,8 +1,5 @@
 ## Interpolate proc (matrix)
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [matrix operators](/ref/matrix/operators.md) 
-+   [matrix procs](/ref/matrix/proc.md) <!-- -->
+
 **Format:**
 +   Interpolate(Matrix2, t)
 <!-- -->
@@ -25,3 +22,8 @@ rather than a rotation.
 It is not strictly necessary for t to
 be between 0 and 1. Using a value out of bounds will extrapolate a
 matrix, continuing the change as far as t.
+
+**See also:**
++   [matrix](/ref/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [matrix procs](/ref/matrix/proc.md) <!-- -->

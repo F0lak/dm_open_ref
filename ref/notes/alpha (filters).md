@@ -1,8 +1,6 @@
 ## Alpha mask filter 
 ###### BYOND Version 513
-**See also:**
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [render_target var (atom)](/ref/atom/var/render_target.md) <!-- -->
+
 Format:
 +   filter(type=\"alpha\", \...)
 <!-- -->
@@ -30,3 +28,7 @@ effects.
 
 Note: Unlike many other filters, this filter **is**
 taken into account for mouse-hit purposes.
+
+**See also:**
++   [icon var (atom)](/ref/atom/var/icon.md) 
++   [render_target var (atom)](/ref/atom/var/render_target.md) <!-- -->

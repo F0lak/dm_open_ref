@@ -1,9 +1,5 @@
 ## arguments (proc)
-**See also:**
-+   [named arguments (proc)](/ref/proc/arguments/named.md) 
-+   [path operators](/ref/operator/path.md) 
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [args var (proc)](/ref/proc/var/args.md) 
+
 
 The parameters to a proc are referred to as arguments. To
 define argument variables, place them inside the ()\'s in the proc
@@ -27,3 +23,9 @@ world \<\< \"The new desc for \[M\] is \[desc\].\"
 Note how the variable type may be specified. It is just like
 any other variable definition, except \"`var/`\" is implicit and does
 not need to be typed.
+
+**See also:**
++   [named arguments (proc)](/ref/proc/arguments/named.md) 
++   [path operators](/ref/operator/path.md) 
++   [arglist proc](/ref/proc/arglist.md) 
++   [args var (proc)](/ref/proc/var/args.md) 

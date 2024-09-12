@@ -1,7 +1,6 @@
 ## json_decode proc 
 ###### BYOND Version 510
-**See also:**
-+   [json_encode proc](/ref/proc/json_encode.md) <!-- -->
+
 **Format:**
 +   json_decode(JSON)
 +   json_decode(JSON, flags)
@@ -50,3 +49,6 @@ The `JSON_ALLOW_COMMENTS` flag allows you to include `//`
 single-line comments and `/* ... */` long-form comments in the text to
 be decoded. This can be mixed with the strict flag. This flag is now
 used by default.
+
+**See also:**
++   [json_encode proc](/ref/proc/json_encode.md) <!-- -->

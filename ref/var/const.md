@@ -1,6 +1,5 @@
 ## const vars
-**See also:**
-+   [vars](/ref/var.md) 
+
 
 The const type modifier defines a constant value. This may be
 useful for centralizing the location of a value that is used repeatedly
@@ -18,3 +17,6 @@ with other variables declared elsewhere.
 
 This example
 defines an upper limit on the number of items a mob may carry.
+
+**See also:**
++   [vars](/ref/var.md) 

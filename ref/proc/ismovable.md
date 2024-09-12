@@ -1,9 +1,6 @@
 ## ismovable proc 
 ###### BYOND Version 513
-**See also:**
-+   [isloc proc](/ref/proc/isloc.md) 
-+   [isobj proc](/ref/proc/isobj.md) 
-+   [ismob proc](/ref/proc/ismob.md) <!-- -->
+
 **Format:**
 +   ismovable(Loc1, Loc2 \...)
 <!-- -->
@@ -16,3 +13,8 @@
 
 Movable atoms are either objs or mobs, so this combines the
 `isobj` and `ismob` tests into a single proc.
+
+**See also:**
++   [isloc proc](/ref/proc/isloc.md) 
++   [isobj proc](/ref/proc/isobj.md) 
++   [ismob proc](/ref/proc/ismob.md) <!-- -->

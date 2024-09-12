@@ -1,15 +1,6 @@
 ## Execute proc (database query) 
 ###### BYOND Version 506
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [Add proc (database query)](/ref/database/query/proc/Add.md) 
-+   [Close proc (database query)](/ref/database/query/proc/Close.md) 
-+   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
-+   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-+   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
-+   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 
-+   [RowsAffected proc (database
+
     query)](/ref/database/query/proc/RowsAffected.md) <!-- -->
 **Format:**
 +   Execute(database)
@@ -44,3 +35,15 @@ while(q.NextRow()) var/row = q.GetRowData() if(row\[\"complete\"\])
 completed_quests\[row\[\"quest\"\]\] = 1 return completed_quests
 
 ```
+
+
+**See also:**
++   [database datum](/ref/database.md) 
++   [database query datum](/ref/database/query.md) 
++   [Add proc (database query)](/ref/database/query/proc/Add.md) 
++   [Close proc (database query)](/ref/database/query/proc/Close.md) 
++   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
++   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
++   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
++   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 
++   [RowsAffected proc (database

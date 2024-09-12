@@ -1,7 +1,5 @@
 ## get_step_towards proc
-**See also:**
-+   [step_towards proc](/ref/proc/step_towards.md) 
-+   [walk_towards proc](/ref/proc/walk_towards.md) <!-- -->
+
 **Format:**
 +   get_step_towards(Ref, Trg)
 <!-- -->
@@ -15,3 +13,7 @@
 
 Calculate the position of a step from `Ref` in the direction of
 `Trg`.
+
+**See also:**
++   [step_towards proc](/ref/proc/step_towards.md) 
++   [walk_towards proc](/ref/proc/walk_towards.md) <!-- -->

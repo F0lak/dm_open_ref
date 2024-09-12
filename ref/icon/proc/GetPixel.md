@@ -1,8 +1,5 @@
 ## GetPixel proc (icon)
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [rgb proc](/ref/proc/rgb.md) <!-- -->
+
 **Format:**
 +   GetPixel(x, y, icon_state, dir=0, frame=0, moving=-1)
 <!-- -->
@@ -21,3 +18,8 @@ don\'t specify) and returns the rgb() value of a pixel at that location,
 in \"#RRGGBB\" form. If the pixel is totally transparent, it returns
 null. If the pixel is partially transparent, an alpha component is also
 returned in \"#RRGGBBAA\" form.
+
+**See also:**
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [rgb proc](/ref/proc/rgb.md) <!-- -->

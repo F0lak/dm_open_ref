@@ -1,10 +1,5 @@
 ## maxx var (world)
-**See also:**
-+   [area var (world)](/ref/world/var/area.md) 
-+   [maxy var (world)](/ref/world/var/maxy.md) 
-+   [maxz var (world)](/ref/world/var/maxz.md) 
-+   [turf var (world)](/ref/world/var/turf.md) 
-+   [Map](/ref/map.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -21,3 +16,10 @@ others will default to 1.
 New territory created by increasing
 the map boundaries is filled in with the default turf and area
 (world.turf, and world.area).
+
+**See also:**
++   [area var (world)](/ref/world/var/area.md) 
++   [maxy var (world)](/ref/world/var/maxy.md) 
++   [maxz var (world)](/ref/world/var/maxz.md) 
++   [turf var (world)](/ref/world/var/turf.md) 
++   [Map](/ref/map.md) <!-- -->

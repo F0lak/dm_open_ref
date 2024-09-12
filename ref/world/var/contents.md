@@ -1,6 +1,5 @@
 ## contents list var (world)
-**See also:**
-+   [list](/ref/list.md) <!-- -->
+
 **Default value:**
 +   List of all areas, turfs, mobs, and objs initially in the world.
 
@@ -19,3 +18,6 @@ This example displays a
 list of every area in existence. As a convenient short-hand, one may
 simply write for(A) or for(A in world) instead of the full for(A in
 world.contents).
+
+**See also:**
++   [list](/ref/list.md) <!-- -->

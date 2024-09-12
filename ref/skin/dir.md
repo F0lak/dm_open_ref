@@ -1,8 +1,5 @@
 ## dir parameter (skin)
-**See also:**
-+   [value parameter](/ref/%7Bskin%7D/param/angle.md) 
-+   [angle1, angle2 parameters](/ref/%7Bskin%7D/param/angle.md) 
-+   [width parameter](/ref/%7Bskin%7D/param/width.md) 
+
 <!-- -->
 **Applies to:**
 +   [Bar](/ref/%7Bskin%7D/control/bar.md) 
@@ -25,3 +22,8 @@ further in this direction.
 
 Shorthand values like `cw` and `ccw`
 can be used, or also numerical BYOND directions.
+
+**See also:**
++   [value parameter](/ref/%7Bskin%7D/param/angle.md) 
++   [angle1, angle2 parameters](/ref/%7Bskin%7D/param/angle.md) 
++   [width parameter](/ref/%7Bskin%7D/param/width.md) 

@@ -1,9 +1,5 @@
 ## throw statement
-**See also:**
-+   [try statement](/ref/proc/try.md) 
-+   [Error proc (world)](/ref/world/proc/Error.md) 
-+   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
-+   [exception](/ref/exception.md) <!-- -->
+
 **Format:**
 +   throw Value
 <!-- -->
@@ -30,3 +26,9 @@ You can use the `EXCEPTION` macro to create a new
 file and line number where the exception was created. The thrown value
 does not have to be an `/exception` datum; you can throw anything, even
 null.
+
+**See also:**
++   [try statement](/ref/proc/try.md) 
++   [Error proc (world)](/ref/world/proc/Error.md) 
++   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
++   [exception](/ref/exception.md) <!-- -->

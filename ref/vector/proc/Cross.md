@@ -1,9 +1,6 @@
 ## Cross proc (vector) 
 ###### BYOND Version 516
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) 
-+   [vars (vector)](/ref/vector/var.md) <!-- -->
+
 **Format:**
 +   A.Cross(vector/B)
 <!-- -->
@@ -20,3 +17,8 @@ angle between them.
 
 The cross product depends on the order of
 the two vectors. If you switch their order, you get the negative result.
+
+**See also:**
++   [vector](/ref/vector.md) 
++   [vector proc](/ref/proc/vector.md) 
++   [vars (vector)](/ref/vector/var.md) <!-- -->

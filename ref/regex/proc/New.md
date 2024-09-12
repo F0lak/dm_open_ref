@@ -1,9 +1,6 @@
 ## New proc (regex) 
 ###### BYOND Version 510
-**See also:**
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
-+   [regex datum](/ref/regex.md) 
-+   [regex proc](/ref/proc/regex.md) <!-- -->
+
 **Format:**
 +   regex(pattern, flags)
 +   regex(Regex)
@@ -17,3 +14,8 @@
 
 Calling new/regex() is the same as calling regex(). It will
 create a new /regex datum.
+
+**See also:**
++   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
++   [regex datum](/ref/regex.md) 
++   [regex proc](/ref/proc/regex.md) <!-- -->

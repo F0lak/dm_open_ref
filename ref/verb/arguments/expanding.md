@@ -1,6 +1,5 @@
 ## argument expanding
-**See also:**
-+   [arguments (verb)](/ref/verb/arguments.md) 
+
 
 The expression used to to provide a list of possible values for
 a verb argument may reference the value of arguments prior to the one
@@ -23,3 +22,7 @@ which are accepted when typed in full.
 list(\"one\",\"two\",\"three\") if(!expanding) values += \"secret\"
 return values 
 ```
+
+
+**See also:**
++   [arguments (verb)](/ref/verb/arguments.md) 

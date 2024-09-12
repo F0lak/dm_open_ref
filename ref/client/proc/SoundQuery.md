@@ -1,8 +1,6 @@
 ## SoundQuery proc (client) 
 ###### BYOND Version 513
-**See also:**
-+   [/sound datum](/ref/sound.md) 
-+   [sound proc](/ref/proc/sound.md) <!-- -->
+
 **Format:**
 +   SoundQuery()
 <!-- -->
@@ -34,3 +32,7 @@ Not all info about the sounds is retrieved, such as `volume`,
 `frequency`, etc. If those are needed, it should be a simple matter to
 keep track of them in your code. The main purpose of `SoundQuery()` is
 to ascertain the current status of playing sounds.
+
+**See also:**
++   [/sound datum](/ref/sound.md) 
++   [sound proc](/ref/proc/sound.md) <!-- -->

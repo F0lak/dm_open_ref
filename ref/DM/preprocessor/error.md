@@ -1,7 +1,5 @@
 ## #error directive
-**See also:**
-+   [preprocessor](/ref/DM/preprocessor.md) 
-+   [#warn directive](/ref/DM/preprocessor/warn.md) <!-- -->
+
 **Format:**
 +   #error Text
 <!-- -->
@@ -17,3 +15,8 @@ specified message.
  #if DM_VERSION \< 4 #error This compiler is too far out of
 date! #endif 
 ```
+
+
+**See also:**
++   [preprocessor](/ref/DM/preprocessor.md) 
++   [#warn directive](/ref/DM/preprocessor/warn.md) <!-- -->

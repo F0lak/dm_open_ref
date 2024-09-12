@@ -8,3 +8,5 @@ This variable is read-only.
  mob/verb/test() usr \<\<
 type //displays \"/mob\" 
 ```
+
+

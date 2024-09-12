@@ -1,7 +1,5 @@
 ## background-color parameter (skin)
-**See also:**
-+   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-+   [tab-background-color
+
     parameter](/ref/%7Bskin%7D/param/tab-background-color.md) 
 <!-- -->
 **Applies to:**
@@ -13,3 +11,7 @@
 
 The control\'s background color. The exact way this applies
 depends on the control.
+
+**See also:**
++   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
++   [tab-background-color

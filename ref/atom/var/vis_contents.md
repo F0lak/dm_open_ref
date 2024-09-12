@@ -1,10 +1,6 @@
 ## vis_contents var (atom) 
 ###### BYOND Version 512
-**See also:**
-+   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
-+   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
-+   [image objects](/ref/image.md) 
-+   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+
 <!-- -->
 **Default value:**
 +   Empty list.
@@ -63,3 +59,9 @@ effect.
 Being in a visual contents list counts as a
 [reference](/ref/DM/garbage.md) for anything in the list, the same way that
 being on the map or inside of a movable counts as a reference.
+
+**See also:**
++   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
++   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
++   [image objects](/ref/image.md) 
++   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 

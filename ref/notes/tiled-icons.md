@@ -1,10 +1,5 @@
 ## Tiled icons
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+
 
 
 In BYOND 3.0, any file like a large .bmp would be treated like
@@ -68,3 +63,11 @@ for(var/tile_x=0, tile_x\<3, ++tile_x) if(tile_x && tile_y) O.pixel_x =
 tile_x \* 32 O.pixel_y = tile_y \* 32 O.icon_state =
 \"\[tile_x\],\[tile_y\]\" overlays += O 
 ```
+
+
+**See also:**
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 

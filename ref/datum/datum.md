@@ -1,8 +1,5 @@
 ## datum
-**See also:**
-+   [atom](/ref/atom.md) 
-+   [procs (datum)](/ref/datum/proc.md) 
-+   [vars (datum)](/ref/datum/var.md) 
+
 
 
 The datum object is the ancestor of all other data types in DM,
@@ -45,3 +42,8 @@ subtypes, and may or may not be able to allow var and proc overrides.
   [/callee](/ref/pixloc.md) {.code}       \-                \-                                                      can\'t be created in
                                                                                                              [new](/ref/proc/new.md)
   -------------------------------------------------------------------------------------------------------------------------------------
+
+**See also:**
++   [atom](/ref/atom.md) 
++   [procs (datum)](/ref/datum/proc.md) 
++   [vars (datum)](/ref/datum/var.md) 

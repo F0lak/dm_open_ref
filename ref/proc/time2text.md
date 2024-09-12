@@ -1,9 +1,5 @@
 ## time2text proc
-**See also:**
-+   [realtime var (world)](/ref/world/var/realtime.md) 
-+   [timeofday var (world)](/ref/world/var/timeofday.md) 
-+   [timezone var (world)](/ref/world/var/timezone.md) 
-+   [timezone var (client)](/ref/client/var/timezone.md) <!-- -->
+
 **Format:**
 +   time2text(timestamp,format,timezone)
 <!-- -->
@@ -56,3 +52,9 @@ this range are treated as a time for the current date. This way
 time2text() can return accurate results for world.timeofday. Any other
 values are interpreted as coming from world.realtime and will have the
 right time and date.
+
+**See also:**
++   [realtime var (world)](/ref/world/var/realtime.md) 
++   [timeofday var (world)](/ref/world/var/timeofday.md) 
++   [timezone var (world)](/ref/world/var/timezone.md) 
++   [timezone var (client)](/ref/client/var/timezone.md) <!-- -->

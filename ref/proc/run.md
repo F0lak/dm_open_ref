@@ -1,8 +1,5 @@
 ## run proc
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [link proc](/ref/proc/link.md) <!-- -->
+
 **Format:**
 +   O \<\< run(File)
 
@@ -22,3 +19,8 @@ usr.picture = F
 This example defines a picture to be
 associated with each mob and a verb for viewing another mob\'s picture.
 Players can also configure their own pictures.
+
+**See also:**
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [file proc](/ref/proc/file.md) 
++   [link proc](/ref/proc/link.md) <!-- -->

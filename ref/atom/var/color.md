@@ -1,13 +1,6 @@
 ## color var (atom) 
 ###### BYOND Version 500
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
-+   [alpha var (atom)](/ref/atom/var/alpha.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [blend_mode var (atom)](/ref/atom/var/blend_mode.md) 
-+   [color var (client)](/ref/client/var/color.md) 
-+   [rgb proc](/ref/proc/rgb.md) 
-+   [MapColors proc (icon)](/ref/icon/proc/MapColors.md) 
+
 <!-- -->
 **Default value:**
 +   null (white)
@@ -45,3 +38,12 @@ later it will not impact the actual color of the atom. This also means
 you can\'t use `color[9] = 0.5`; you would have to grab the value of
 `color` first, make sure it\'s a list, change it, and then assign the
 changed list back to the `color` var.
+
+**See also:**
++   [vars (atom)](/ref/atom/var.md) 
++   [alpha var (atom)](/ref/atom/var/alpha.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [blend_mode var (atom)](/ref/atom/var/blend_mode.md) 
++   [color var (client)](/ref/client/var/color.md) 
++   [rgb proc](/ref/proc/rgb.md) 
++   [MapColors proc (icon)](/ref/icon/proc/MapColors.md) 

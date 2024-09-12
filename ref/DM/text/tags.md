@@ -1,9 +1,5 @@
 ## tags (text)
-**See also:**
-+   [entities (text)](/ref/DM/text/entities.md) 
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [style sheets](/ref/DM/text/style.md) 
-+   [text](/ref/DM/text.md) 
+
 
 
 Text tags (also known as *elements* by snooty HTML purists)
@@ -77,3 +73,9 @@ Text sizes range
 from 1 to 7, 1 being the smallest and 7 being the largest. In addition
 to absolute sizes, relative sizes may be specified (like +1 for one size
 bigger or -1 for one size smaller).
+
+**See also:**
++   [entities (text)](/ref/DM/text/entities.md) 
++   [macros (text)](/ref/DM/text/macros.md) 
++   [style sheets](/ref/DM/text/style.md) 
++   [text](/ref/DM/text.md) 

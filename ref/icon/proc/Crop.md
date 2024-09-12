@@ -1,11 +1,5 @@
 ## Crop proc (icon)
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [map_format var (world)](/ref/world/var/icon_size.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->
+
 **Format:**
 +   Crop(x1,y1,x2,y2)
 <!-- -->
@@ -29,3 +23,12 @@ padded with transparent pixels to the top and right as needed.
 // take the upper right 16x16 chunk I.Crop(17,17,32,32) // that chunk
 now appears in the lower left corner icon = I 
 ```
+
+
+**See also:**
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [map_format var (world)](/ref/world/var/icon_size.md) 
++   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
++   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->

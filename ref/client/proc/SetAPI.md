@@ -1,8 +1,6 @@
 ## SetAPI proc (client) 
 ###### BYOND Version 514
-**See also:**
-+   [GetAPI proc (client)](/ref/client/proc/GetAPI.md) 
-+   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) <!-- -->
+
 **Format:**
 +   SetAPI(Api, Key, Value)
 <!-- -->
@@ -50,3 +48,7 @@ call or its results are invalid.
                                          achievement and 1 
                                          will earn it.     
   --------------------------------------------------------------------------
+
+**See also:**
++   [GetAPI proc (client)](/ref/client/proc/GetAPI.md) 
++   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) <!-- -->

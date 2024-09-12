@@ -1,11 +1,5 @@
 ## hub var (world)
-**See also:**
-+   [hub_password var (world)](/ref/world/var/hub_password.md) 
-+   [name var (world)](/ref/world/var/name.md) 
-+   [status var (world)](/ref/world/var/status.md) 
-+   [game_state var (world)](/ref/world/var/game_state.md) 
-+   [version var (world)](/ref/world/var/version.md) 
-+   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
+
 **Default value:**
 +   null
 
@@ -45,3 +39,11 @@ mob/verb/start_game() world.visibility = 0 //\...
 If
 you configure your hub page to require a hub password, you must also
 specify `world.hub_password`.
+
+**See also:**
++   [hub_password var (world)](/ref/world/var/hub_password.md) 
++   [name var (world)](/ref/world/var/name.md) 
++   [status var (world)](/ref/world/var/status.md) 
++   [game_state var (world)](/ref/world/var/game_state.md) 
++   [version var (world)](/ref/world/var/version.md) 
++   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->

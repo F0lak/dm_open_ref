@@ -1,11 +1,6 @@
 ## ?\[\] operator 
 ###### BYOND Version 514
-**See also:**
-+   [list](/ref/list.md) 
-+   [operators](/ref/operator.md) 
-+   [\[\] operator](/ref/operator/%5B%5D.md) 
-+   [?. operator](/ref/operator/%3f%2e.md) 
-+   [?: operator](/ref/operator/%3f:.md) 
+
 
 This is the null-conditional list index operator. It is used to
 access an element of a list, IF that list is not null. If the list is
@@ -30,3 +25,11 @@ after read, and myproc() is called good?\[idx++\] = myproc()
 This operator cannot be overloaded, but overloads to the `[]`
 operator will apply to this operator as well. 
 
+
+
+**See also:**
++   [list](/ref/list.md) 
++   [operators](/ref/operator.md) 
++   [\[\] operator](/ref/operator/%5B%5D.md) 
++   [?. operator](/ref/operator/%3f%2e.md) 
++   [?: operator](/ref/operator/%3f:.md) 

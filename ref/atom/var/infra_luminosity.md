@@ -1,9 +1,5 @@
 ## infra_luminosity var (atom)
-**See also:**
-+   [luminosity var (atom)](/ref/atom/var/luminosity.md) 
-+   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
-+   [sight var (mob)](/ref/mob/var/sight.md) 
-+   [view proc](/ref/proc/view.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -13,3 +9,9 @@ can see infrared light. Nothing but the object itself is lit up by the
 infrared emission. The scale is identical to luminosity: 1 makes it
 visible only from the same location; 2 makes it visible from a
 neighboring position; and so on.
+
+**See also:**
++   [luminosity var (atom)](/ref/atom/var/luminosity.md) 
++   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
++   [sight var (mob)](/ref/mob/var/sight.md) 
++   [view proc](/ref/proc/view.md) <!-- -->

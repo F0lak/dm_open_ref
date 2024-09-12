@@ -1,9 +1,5 @@
 ## Flip proc (icon)
-**See also:**
-+   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
-+   [dir var (atom)](/ref/atom/var/dir.md) 
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) <!-- -->
+
 **Format:**
 +   Flip(dir)
 <!-- -->
@@ -19,3 +15,9 @@ same as turning the icon by 180 degrees, because it produces a mirror
 image. 
 
 If an icon is square, it may be flipped diagonally.
+
+**See also:**
++   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
++   [dir var (atom)](/ref/atom/var/dir.md) 
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) <!-- -->

@@ -1,8 +1,6 @@
 ## sha1 proc 
 ###### BYOND Version 513
-**See also:**
-+   [md5 proc](/ref/proc/md5.md) 
-+   [file proc](/ref/proc/file.md) 
+
 <!-- -->
 **Format:**
 +   sha1(T)
@@ -64,3 +62,7 @@ the filename as text and return the hash of the name only.
 
 If
 `T` is anything but a text string or file, the proc returns null.
+
+**See also:**
++   [md5 proc](/ref/proc/md5.md) 
++   [file proc](/ref/proc/file.md) 

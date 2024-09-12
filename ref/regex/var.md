@@ -1,9 +1,6 @@
 ## regex vars 
 ###### BYOND Version 510
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [regex procs](/ref/regex/proc.md) 
-+   [regex proc](/ref/proc/regex.md) 
+
 <!-- -->
 regex/var
 +   [flags](/ref/regex/var/flags.md) 
@@ -13,3 +10,8 @@ regex/var
 +   [name](/ref/regex/var/name.md) 
 +   [next](/ref/regex/var/next.md) 
 +   [text](/ref/regex/var/text.md) 
+
+**See also:**
++   [regex datum](/ref/regex.md) 
++   [regex procs](/ref/regex/proc.md) 
++   [regex proc](/ref/proc/regex.md) 

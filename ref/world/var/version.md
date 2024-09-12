@@ -1,6 +1,5 @@
 ## version var (world)
-**See also:**
-+   [hub var (world)](/ref/world/var/hub.md) 
+
 <!-- -->
 **Default value:**
 +   0
@@ -17,3 +16,6 @@ console](https://secure.byond.com/members/?command=edit_hub).
 When players boot up an outdated version of your game (as
 indicated by comparing `world.version` with the version advertised by
 BYOND hub), they will be notified of the new release.
+
+**See also:**
++   [hub var (world)](/ref/world/var/hub.md) 

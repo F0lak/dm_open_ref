@@ -1,9 +1,5 @@
 ## gradient proc
-**See also:**
-+   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
-+   [rgb proc](/ref/proc/rgb.md) 
-+   [rgb2num proc](/ref/proc/rgb2num.md) 
-+   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+
 <!-- -->
 **Format:**
 +   gradient(Item1, Item2, \..., index)
@@ -65,3 +61,10 @@ list(0.5,\"red\",0.5,\"white\",\"loop\") // the color output alternates
 between red and white depending on the current time src \<\<
 gradient(candy_cane_gradient, world.time/100) 
 ```
+
+
+**See also:**
++   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
++   [rgb proc](/ref/proc/rgb.md) 
++   [rgb2num proc](/ref/proc/rgb2num.md) 
++   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 

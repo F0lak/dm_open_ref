@@ -1,10 +1,6 @@
 ## filters var (atom) 
 ###### BYOND Version 512
-**See also:**
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [filter proc](/ref/proc/filter.md) 
-+   [animate proc](/ref/proc/animate.md) 
-+   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
+
 <!-- -->
 **Default value:**
 +   empty list
@@ -42,3 +38,9 @@ at a time.
 You can also remove a named filter from the list
 simply by subtracting the name instead of the filter itself. That is,
 `filters -= filters["foo"]` and `filters -= "foo"` do the same thing.
+
+**See also:**
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [filter proc](/ref/proc/filter.md) 
++   [animate proc](/ref/proc/animate.md) 
++   [Filter effects](/ref/%7Bnotes%7D/filters.md) 

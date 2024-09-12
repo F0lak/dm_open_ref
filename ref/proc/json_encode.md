@@ -1,7 +1,6 @@
 ## json_encode proc 
 ###### BYOND Version 510
-**See also:**
-+   [json_decode proc](/ref/proc/json_decode.md) <!-- -->
+
 **Format:**
 +   json_encode(Value)
 +   json_encode(Value, flags)
@@ -53,3 +52,6 @@ Non-empty arrays and object literals will have a line break and tabs
 before each item, and a line break with one fewer tab before the closing
 bracket or brace. (The special formatting for numbers like Infinity, or
 the list form for matrices, will not be given tabs and line breaks.)
+
+**See also:**
++   [json_decode proc](/ref/proc/json_decode.md) <!-- -->

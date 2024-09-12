@@ -1,8 +1,6 @@
 ## operator overloading 
 ###### BYOND Version 512" short="overloading
-**See also:**
-+   [datum](/ref/datum.md) 
-+   [operators](/ref/operator.md) 
+
 
 DM allows you to overload most of the operators it uses when
 working with datums and other objects. This means that A + B can call a
@@ -196,3 +194,7 @@ isn\'t given any info about the overloaded text. Likewise, the
 overloaded text won\'t appear for objects in an `input()` prompt list,
 which is also handled mainly on the client. Despite these limitations,
 the text overload offers greater flexibility.
+
+**See also:**
++   [datum](/ref/datum.md) 
++   [operators](/ref/operator.md) 

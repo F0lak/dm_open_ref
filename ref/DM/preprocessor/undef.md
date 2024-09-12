@@ -1,7 +1,5 @@
 ## #undef directive
-**See also:**
-+   [#define directive](/ref/DM/preprocessor/define.md) 
-+   [preprocessor](/ref/DM/preprocessor.md) <!-- -->
+
 **Format:**
 +   #undef Name
 <!-- -->
@@ -10,3 +8,7 @@
 
 
 The `#undef` statement removes a macro definition.
+
+**See also:**
++   [#define directive](/ref/DM/preprocessor/define.md) 
++   [preprocessor](/ref/DM/preprocessor.md) <!-- -->

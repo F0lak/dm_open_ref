@@ -1,8 +1,5 @@
 ## icon_state var (atom)
-**See also:**
-+   [flick proc](/ref/proc/flick.md) 
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [icon_states proc](/ref/proc/icon_states.md) <!-- -->
+
 **Default value:**
 +   null
 
@@ -18,3 +15,9 @@ null state will be displayed if it exists.
 src in view(1) icon_state = \"open\" density = 0 close() set src in
 view(1) icon_state = \"closed\" density = 1 
 ```
+
+
+**See also:**
++   [flick proc](/ref/proc/flick.md) 
++   [icon var (atom)](/ref/atom/var/icon.md) 
++   [icon_states proc](/ref/proc/icon_states.md) <!-- -->

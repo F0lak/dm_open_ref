@@ -1,7 +1,5 @@
 ## file2text proc
-**See also:**
-+   [shell proc](/ref/proc/shell.md) 
-+   [text2file proc](/ref/proc/text2file.md) <!-- -->
+
 **Format:**
 +   file2text(File)
 <!-- -->
@@ -22,3 +20,8 @@ external program that mimics conversation:
 shell(\"talk \< talk.in \> talk.out\") usr \<\< file2text(\"talk.out\")
 
 ```
+
+
+**See also:**
++   [shell proc](/ref/proc/shell.md) 
++   [text2file proc](/ref/proc/text2file.md) <!-- -->

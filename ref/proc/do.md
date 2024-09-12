@@ -1,9 +1,5 @@
 ## do proc
-**See also:**
-+   [break statement](/ref/proc/break.md) 
-+   [continue statement](/ref/proc/continue.md) 
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [while proc](/ref/proc/while.md) <!-- -->
+
 **Format:**
 +   do Statement while( E )
 
@@ -25,3 +21,10 @@ This outputs:
 ```
  3 2 1 
 ```
+
+
+**See also:**
++   [break statement](/ref/proc/break.md) 
++   [continue statement](/ref/proc/continue.md) 
++   [for loop proc](/ref/proc/for/loop.md) 
++   [while proc](/ref/proc/while.md) <!-- -->

@@ -1,8 +1,6 @@
 ## pitch var (sound) 
 ###### BYOND Version 515
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [frequency var (sound)](/ref/sound/var/frequency.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -33,3 +31,8 @@ music proc/UpTempo(amount = 0.1) // 10% faster if(!music) return
 music.frequency = (music.frequency \|\| 1) + amount music.pitch = 1 /
 music.frequency music.status \|= SOUND_UPDATE src \<\< music 
 ```
+
+
+**See also:**
++   [vars (sound)](/ref/sound/var.md) 
++   [frequency var (sound)](/ref/sound/var/frequency.md) <!-- -->

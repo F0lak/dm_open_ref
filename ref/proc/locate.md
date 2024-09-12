@@ -1,8 +1,5 @@
 ## locate proc
-**See also:**
-+   [istype proc](/ref/proc/istype.md) 
-+   [tag var (datum)](/ref/datum/var/tag.md) 
-+   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) <!-- -->
+
 **Format:**
 +   locate(Type) in Container
 +   locate(X,Y,Z)
@@ -62,3 +59,8 @@ This
 
 This moves the
 usr to the turf at coordinates (x,y,z) = (1,2,3).
+
+**See also:**
++   [istype proc](/ref/proc/istype.md) 
++   [tag var (datum)](/ref/datum/var/tag.md) 
++   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) <!-- -->

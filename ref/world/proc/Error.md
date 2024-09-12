@@ -1,9 +1,6 @@
 ## Error proc (world) 
 ###### BYOND Version 508
-**See also:**
-+   [try and catch statements](/ref/proc/try.md) 
-+   [throw statement](/ref/proc/throw.md) 
-+   [exception](/ref/exception.md) <!-- -->
+
 **Format:**
 +   Error(exception)
 <!-- -->
@@ -14,3 +11,8 @@
 
 Called when a runtime error happens, or the throw keyword is
 used, without a try/catch to handle it. The return value is ignored.
+
+**See also:**
++   [try and catch statements](/ref/proc/try.md) 
++   [throw statement](/ref/proc/throw.md) 
++   [exception](/ref/exception.md) <!-- -->

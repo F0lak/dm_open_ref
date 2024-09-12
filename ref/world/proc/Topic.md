@@ -1,10 +1,5 @@
 ## Topic proc (world)
-**See also:**
-+   [Del proc (world)](/ref/world/proc/Del.md) 
-+   [Export proc (world)](/ref/world/proc/Export.md) 
-+   [Import proc (client)](/ref/client/proc/Import.md) 
-+   [Import proc (world)](/ref/world/proc/Import.md) 
-+   [Reboot proc (world)](/ref/world/proc/Reboot.md) <!-- -->
+
 **Format:**
 +   Topic(T,Addr,Master,Keys)
 <!-- -->
@@ -45,3 +40,10 @@ is either null, or a list of user keys. Any keys in the list are logged
 in to the remote server.
 Always validate the input in `Topic()` calls to make sure it\'s correct
 and the query you\'re recieving is legitimate.
+
+**See also:**
++   [Del proc (world)](/ref/world/proc/Del.md) 
++   [Export proc (world)](/ref/world/proc/Export.md) 
++   [Import proc (client)](/ref/client/proc/Import.md) 
++   [Import proc (world)](/ref/world/proc/Import.md) 
++   [Reboot proc (world)](/ref/world/proc/Reboot.md) <!-- -->

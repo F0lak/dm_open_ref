@@ -1,9 +1,5 @@
 ## \|\| operator
-**See also:**
-+   [! operator](/ref/operator/!.md) 
-+   [&& operator](/ref/operator/&&.md) 
-+   [\|\|= operator](/ref/operator/%7C%7C=.md) 
-+   [operators](/ref/operator.md) <!-- -->
+
 **Format:**
 +   A \|\| B
 <!-- -->
@@ -37,3 +33,10 @@ blocks such as `if` or `while`, they can be used elsewhere.
  // if current_target is null, pick a new one var/target =
 current_target \|\| PickTarget() 
 ```
+
+
+**See also:**
++   [! operator](/ref/operator/!.md) 
++   [&& operator](/ref/operator/&&.md) 
++   [\|\|= operator](/ref/operator/%7C%7C=.md) 
++   [operators](/ref/operator.md) <!-- -->

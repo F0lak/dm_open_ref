@@ -28,6 +28,9 @@ import cProfile
  (I'm a humble cook, not a programmer, so my apologies if the code isn't up to snuff!)
 """
 
+BUILD_HTML : bool = False
+SOURCE_FILE : str = "info.html"
+
 def write_file(text, file_name) -> None:
 	output_file = os.path.join(f'{file_name}')
 	with open(output_file, 'w', encoding='utf-8') as file:
@@ -111,6 +114,24 @@ def clean_inline_code(text) -> str:
     
     return fixed_text
 
+def move_see_also(text) -> str:
+	start = "**See also:**"
+	start_index = text.find(start)
+	i = start_index
+	end_index = None
+	while i < len(text):
+		if text[i] == "\n":
+			if text[i:i+3] != "\n+ ":
+				end_index = i
+				break
+		i = i + 1
+	if end_index:
+		replacement_text = text[start_index:end_index]
+		text = text.replace(replacement_text, "") + f"\n\n{replacement_text}"
+		#text = text.join(lines)
+  
+	return text
+        
 
 def clean_markdown_file(text) -> str:
 		text = clean_empty_lines(text)
@@ -122,6 +143,7 @@ def clean_markdown_file(text) -> str:
 		text = text.replace("CODE_TICKS", "\n```\n")
 		text = text.replace("NOTE", "\n> [!NOTE]\n> ")
 		text = text.replace(" .code}", "")
+		text = move_see_also(text)
 		return text
 
 def prep_html_file(text) -> str:
@@ -231,26 +253,26 @@ def build_file_tree() -> None:
 	
 		#	md_text = md_text.replace(dirty_file_path, html_title + ".md")
 			clean_file_path: str = clean_filenames(dirty_file_path)
-			full_dir: str = f"{output_directory}\\{clean_file_path}\\{html_title}"
 
 			# print("md: " + md_title)
-			print(dirty_file_path)
-			print(f"{dirty_file_path}/{md_title}")
+			#print(dirty_file_path)
+			#print(f"{dirty_file_path}/{md_title}")
 			pruned_file_path: str = ""
 			slash_index = clean_file_path.rfind("\\")
 			if slash_index != -1:
 				pruned_file_path = clean_file_path[0:slash_index]
 			else:
 				pruned_file_path = clean_file_path
-			# print(pruned_file_path)
-			# print("fd: " + full_dir)
+			print(f"{clean_file_path}\\{md_title}")
 
 			link_dict[f"{dirty_file_path}/{md_title}"] = f"{pruned_file_path}\\{md_title}.md"
 			pages.append(Page(f"{output_directory}\\ref\\{pruned_file_path}", f"{md_title}", "md", md_text))
-			pages.append(Page(f"{output_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
+			
+			if BUILD_HTML == True:
+				pages.append(Page(f"{output_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
 
-			global index
-			index += f"<a href = \"html\\{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
+				global index
+				index += f"<a href = \"html\\{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
 
 def make_files() -> None:
 	print("Making Files")
@@ -281,7 +303,7 @@ if __name__ == "__main__":
 	profiler.enable()
     
 	script_directory = os.path.dirname(os.path.abspath(__file__))
-	input_file = os.path.join(script_directory, 'info.html')
+	input_file = os.path.join(script_directory, SOURCE_FILE)
 	output_directory = os.path.join(script_directory)
 
 	if os.path.exists(output_directory + "\\ref"):

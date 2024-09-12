@@ -1,14 +1,6 @@
 ## :: operator 
 ###### BYOND Version 515
-**See also:**
-+   [. path operator](/ref/operator/path/%2e.md) 
-+   [/ path operator](/ref/operator/path//.md) 
-+   [: path operator](/ref/operator/path/:.md) 
-+   [operators](/ref/operator.md) 
-+   [call proc](/ref/proc/call.md) 
-+   [initial proc](/ref/proc/initial.md) 
-+   [nameof proc](/ref/proc/nameof.md) 
-+   [istype proc](/ref/proc/istype.md) <!-- -->
+
 **Format:**
 +   ::A
 +   ::A()
@@ -70,3 +62,14 @@ is /thing/better T.DoSomething() // deliberately calls /thing\'s
 original version; will print \"Did a thing\" call(T,
 /thing::DoSomething())() 
 ```
+
+
+**See also:**
++   [. path operator](/ref/operator/path/%2e.md) 
++   [/ path operator](/ref/operator/path//.md) 
++   [: path operator](/ref/operator/path/:.md) 
++   [operators](/ref/operator.md) 
++   [call proc](/ref/proc/call.md) 
++   [initial proc](/ref/proc/initial.md) 
++   [nameof proc](/ref/proc/nameof.md) 
++   [istype proc](/ref/proc/istype.md) <!-- -->

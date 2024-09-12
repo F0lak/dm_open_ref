@@ -1,7 +1,5 @@
 ## startup proc
-**See also:**
-+   [params var (world)](/ref/world/var/params.md) 
-+   [shutdown proc](/ref/proc/shutdown.md) 
+
 <!-- -->
 **Format:**
 +   startup(File,Port=0,Options,\...)
@@ -100,3 +98,7 @@
 <!-- -->
 **Returns:**
 +   The address of the new server in the form ip:port.
+
+**See also:**
++   [params var (world)](/ref/world/var/params.md) 
++   [shutdown proc](/ref/proc/shutdown.md) 

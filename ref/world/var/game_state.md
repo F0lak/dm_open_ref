@@ -1,8 +1,5 @@
 ## game_state var (world)
-**See also:**
-+   [name var (world)](/ref/world/var/name.md) 
-+   [status var (world)](/ref/world/var/status.md) 
-+   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -23,3 +20,8 @@ The following values are accepted:
 Note that this value does not affect how your world actually
 reacts to new players logging in. It is only used by the hub and
 website.
+
+**See also:**
++   [name var (world)](/ref/world/var/name.md) 
++   [status var (world)](/ref/world/var/status.md) 
++   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->

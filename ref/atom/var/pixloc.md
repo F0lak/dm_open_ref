@@ -1,13 +1,6 @@
 ## pixloc var (atom) 
 ###### BYOND Version 516
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [loc var (atom)](/ref/atom/var/loc.md) 
-+   [step_x var (movable atoms)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atoms)](/ref/atom/movable/var/step_y.md) 
-+   [pixloc proc](/ref/proc/pixloc.md) 
-+   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+
 
 
 Returns a pixloc representing this atom\'s `loc`, `step_x`, and
@@ -35,3 +28,13 @@ alter obj\'s position var/pixloc/p = obj.pixloc p.step_x += 12 // does
 alter obj\'s position, since a += b is just a = a + b obj.pixloc +=
 vector(12,0) 
 ```
+
+
+**See also:**
++   [pixloc](/ref/pixloc.md) 
++   [loc var (atom)](/ref/atom/var/loc.md) 
++   [step_x var (movable atoms)](/ref/atom/movable/var/step_x.md) 
++   [step_y var (movable atoms)](/ref/atom/movable/var/step_y.md) 
++   [pixloc proc](/ref/proc/pixloc.md) 
++   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 

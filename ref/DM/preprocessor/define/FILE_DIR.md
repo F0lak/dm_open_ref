@@ -1,7 +1,5 @@
 ## FILE_DIR definition
-**See also:**
-+   [cache](/ref/DM/cache.md) 
-+   [icons](/ref/DM/icon.md) <!-- -->
+
 **Format:**
 +   #define FILE_DIR Path
 <!-- -->
@@ -24,3 +22,7 @@ This searches for the file at
 the paths `"./clown.dmi"`, `"./icons/clown.dmi"`, and
 `"./icons/sounds/clown.dmi"`, where `"."` is the directory of the
 current source file.
+
+**See also:**
++   [cache](/ref/DM/cache.md) 
++   [icons](/ref/DM/icon.md) <!-- -->

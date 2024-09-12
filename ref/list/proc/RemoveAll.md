@@ -1,8 +1,6 @@
 ## RemoveAll proc (list) 
 ###### BYOND Version 515
-**See also:**
-+   [Add proc (list)](/ref/list/proc/Add.md) 
-+   [Remove proc (list)](/ref/list/proc/Remove.md) <!-- -->
+
 **Format:**
 +   list.RemoveAll(Item1,Item2,\...)
 <!-- -->
@@ -21,3 +19,7 @@ This is basically a faster version of the statement
 `while(list.Remove(Item1,Item2,...))` with an empty code block. For
 large lists this might be a big improvement because the list doesn\'t
 have to be traversed every time.
+
+**See also:**
++   [Add proc (list)](/ref/list/proc/Add.md) 
++   [Remove proc (list)](/ref/list/proc/Remove.md) <!-- -->

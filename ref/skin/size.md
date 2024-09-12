@@ -1,10 +1,5 @@
 ## size parameter (skin)
-**See also:**
-+   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
-+   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) 
-+   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
-+   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
-+   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
+
 <!-- -->
 **Applies to:**
 +   [All](/ref/%7Bskin%7D/control.md) 
@@ -32,3 +27,10 @@ If this control is a pane and
 refers to the total scrollable size of the pane, NOT the smaller size
 displayed. In this case, `outer-size` and `inner-size` refer to the
 display area with and without scrollbars, respectively.
+
+**See also:**
++   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
++   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) 
++   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
++   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
++   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 

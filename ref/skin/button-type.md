@@ -1,7 +1,5 @@
 ## button-type parameter (skin)
-**See also:**
-+   [group parameter](/ref/%7Bskin%7D/param/group.md) 
-+   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
+
 <!-- -->
 **Applies to:**
 +   [Button](/ref/%7Bskin%7D/control/button.md) <!-- -->
@@ -17,3 +15,7 @@
 
 
 Changes the type of button.
+
+**See also:**
++   [group parameter](/ref/%7Bskin%7D/param/group.md) 
++   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 

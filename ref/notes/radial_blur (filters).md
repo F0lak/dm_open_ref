@@ -1,9 +1,6 @@
 ## Radial blur filter 
 ###### BYOND Version 513
-**See also:**
-+   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-+   [Angular blur (filters)](/ref/%7Bnotes%7D/filters/angular_blur.md) 
-+   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) <!-- -->
+
 Format:
 +   filter(type=\"radial_blur\", \...)
 <!-- -->
@@ -29,3 +26,8 @@ edges due to limited sampling. Loss of accuracy will begin when `size` ×
 distance is greather than 6. You can increase accuracy by breaking up
 large sizes into multiple filter passes. The blur used is Gaussian, so
 combining blur sizes A and B will give a total size of sqrt(A^2^+B^2^).
+
+**See also:**
++   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
++   [Angular blur (filters)](/ref/%7Bnotes%7D/filters/angular_blur.md) 
++   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) <!-- -->

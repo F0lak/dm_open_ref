@@ -1,8 +1,6 @@
 ## matrix proc 
 ###### BYOND Version 500
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) <!-- -->
+
 **Format:**
 +   matrix()
 +   matrix(Matrix)
@@ -37,3 +35,7 @@ matrix(angle, MATRIX_ROTATE)
 +   A matrix that rotates by the angle in degrees, clockwise
 matrix(x, y, MATRIX_TRANSLATE)
 +   A matrix that translates by x and y
+
+**See also:**
++   [matrix](/ref/matrix.md) 
++   [transform var (atom)](/ref/atom/var/transform.md) <!-- -->

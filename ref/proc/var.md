@@ -1,6 +1,5 @@
 ## vars (procs)
-**See also:**
-+   [procs](/ref/proc.md) 
+
 
 
 Built-in proc vars:
@@ -11,3 +10,6 @@ proc/var
 +   [caller](/ref/proc/var/caller.md) 
 +   [src](/ref/proc/var/src.md) 
 +   [usr](/ref/proc/var/usr.md) 
+
+**See also:**
++   [procs](/ref/proc.md) 

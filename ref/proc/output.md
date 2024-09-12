@@ -1,8 +1,5 @@
 ## output proc
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [winclone proc](/ref/proc/winclone.md) 
-+   [winset proc](/ref/proc/winset.md) 
+
 <!-- -->
 **Format:**
 +   output(msg, control)
@@ -52,10 +49,7 @@ javascript function, as formatted by
  mob/Login() . = ..() usr \<\< output(\\ {\"
 ::: 
 ###### BYOND Version  proc
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [winclone proc](/ref/proc/winclone.md) 
-+   [winset proc](/ref/proc/winset.md) 
+
 <!-- -->
 **Format:**
 +   output(msg, control)
@@ -118,3 +112,8 @@ mob/verb/newtext(T as text) usr \<\< output(LP(T), \":browser:replace\")
 This allows for the creation of more dynamic
 interfaces, since javascript provides access to many client-side
 operations and flicker-free updates.
+
+**See also:**
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [winclone proc](/ref/proc/winclone.md) 
++   [winset proc](/ref/proc/winset.md) 

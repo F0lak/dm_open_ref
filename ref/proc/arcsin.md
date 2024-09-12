@@ -1,9 +1,5 @@
 ## arcsin proc
-**See also:**
-+   [arccos proc](/ref/proc/arccos.md) 
-+   [arctan proc](/ref/proc/arctan.md) 
-+   [sin proc](/ref/proc/sin.md) 
-+   [turn proc](/ref/proc/turn.md) <!-- -->
+
 **Format:**
 +   arcsin(X)
 <!-- -->
@@ -15,3 +11,10 @@
  mob/verb/test() usr \<\< arcsin(0) // 0 usr \<\<
 arcsin(0.707107) // 45 usr \<\< arcsin(1) // 90 
 ```
+
+
+**See also:**
++   [arccos proc](/ref/proc/arccos.md) 
++   [arctan proc](/ref/proc/arctan.md) 
++   [sin proc](/ref/proc/sin.md) 
++   [turn proc](/ref/proc/turn.md) <!-- -->

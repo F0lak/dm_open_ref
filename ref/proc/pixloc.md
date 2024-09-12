@@ -1,9 +1,6 @@
 ## pixloc proc 
 ###### BYOND Version 516
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-+   [bound_pixloc proc](/ref/proc/bound_pixloc.md) <!-- -->
+
 **Format:**
 +   pixloc(x, y, z)
 +   pixloc(Atom)
@@ -46,3 +43,9 @@ step combo can be calculated like so (if for any reason you needed to):
  world_x = (tile_x - 1) \* pixels_per_x_tile + step_x + 1
 world_y = (tile_y - 1) \* pixels_per_y_tile + step_y + 1 
 ```
+
+
+**See also:**
++   [pixloc](/ref/pixloc.md) 
++   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
++   [bound_pixloc proc](/ref/proc/bound_pixloc.md) <!-- -->

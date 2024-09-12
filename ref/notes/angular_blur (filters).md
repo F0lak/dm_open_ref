@@ -1,9 +1,6 @@
 ## Angular blur filter 
 ###### BYOND Version 513
-**See also:**
-+   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-+   [Radial blur (filters)](/ref/%7Bnotes%7D/filters/radial_blur.md) 
-+   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) <!-- -->
+
 Format:
 +   filter(type=\"angular_blur\", \...)
 <!-- -->
@@ -29,3 +26,8 @@ appear where `size` × distance is greater than about 300. You can
 increase accuracy by breaking up large sizes into multiple filter passes
 with differing sizes. The blur used is Gaussian, so combining blur sizes
 A and B will give a total size of sqrt(A^2^+B^2^).
+
+**See also:**
++   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
++   [Radial blur (filters)](/ref/%7Bnotes%7D/filters/radial_blur.md) 
++   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) <!-- -->

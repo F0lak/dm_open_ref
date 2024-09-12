@@ -1,7 +1,5 @@
 ## Topic proc (datum)
-**See also:**
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [ref text macro](/ref/DM/text/macros/ref.md) <!-- -->
+
 **Format:**
 +   Topic(href,href_list\[\])
 <!-- -->
@@ -32,3 +30,7 @@ to whatever data format you need using procedures such as `text2num()`,
 `locate()`, etc.
 Always validate the input in `Topic()` calls to make sure it\'s correct
 and the query you\'re recieving is legitimate.
+
+**See also:**
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [ref text macro](/ref/DM/text/macros/ref.md) <!-- -->

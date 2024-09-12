@@ -1,9 +1,6 @@
 ## New proc (database query) 
 ###### BYOND Version 506
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [Add proc (database query)](/ref/database/query/proc/Add.md) 
+
 <!-- -->
 **Format:**
 +   New(text, item1, item2, \...)
@@ -18,3 +15,8 @@ Add(). See the [Add proc](/ref/database/query/proc/Add.md) for more
 information. 
 
 Call Execute() to run the query.
+
+**See also:**
++   [database datum](/ref/database.md) 
++   [database query datum](/ref/database/query.md) 
++   [Add proc (database query)](/ref/database/query/proc/Add.md) 

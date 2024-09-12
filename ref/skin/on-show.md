@@ -1,6 +1,5 @@
 ## on-show parameter (skin)
-**See also:**
-+   [on-hide parameter](/ref/%7Bskin%7D/param/on-hide.md) 
+
 <!-- -->
 **Applies to:**
 +   [Browser](/ref/%7Bskin%7D/control/browser.md) 
@@ -16,3 +15,6 @@ shown by the game. Must be the default control for the game to show/hide
 it. 
 
 Currently not editable in Dream Maker.
+
+**See also:**
++   [on-hide parameter](/ref/%7Bskin%7D/param/on-hide.md) 

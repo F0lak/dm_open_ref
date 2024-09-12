@@ -1,10 +1,5 @@
 ## icon_states proc
-**See also:**
-+   [icons](/ref/DM/icon.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->
+
 **Format:**
 +   icon_states(Icon, mode=0)
 <!-- -->
@@ -41,3 +36,10 @@ all of which can be safely extracted in a single-tile icon via the
 `icon()` proc. mode=1 will show the main state names (\"open\"); any
 time you work with that state name you\'re working with the full-size
 icon. mode=2 will show all of the states.
+
+**See also:**
++   [icons](/ref/DM/icon.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
++   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->

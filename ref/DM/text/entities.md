@@ -1,8 +1,5 @@
 ## entities (text)
-**See also:**
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [tags (text)](/ref/DM/text/tags.md) 
-+   [text](/ref/DM/text.md) 
+
 
 Special characters may be inserted into text using HTML syntax.
 Such characters are known as entities. They start with an ampersand and
@@ -25,3 +22,8 @@ entity syntax is included for generality.
 When using numbered entities, you can put an `x` in front of
 the number to use hexadecimal. For instance `&#x26;`, `&#38;`, and
 `&amp;` are all equivalent.
+
+**See also:**
++   [macros (text)](/ref/DM/text/macros.md) 
++   [tags (text)](/ref/DM/text/tags.md) 
++   [text](/ref/DM/text.md) 

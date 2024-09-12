@@ -1,6 +1,5 @@
 ## load_resource proc
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->
+
 **Format:**
 +   Player \<\< load_resource(File)
 +   Player \<\< load_resource(File, KeepTime)
@@ -41,3 +40,6 @@ loaded indefinitely src \<\< load_resource(\'music1.ogg\',
 In cases of
 extreme memory duress, Dream Seeker\'s garbage collector will get more
 aggressive and can still override your choices if need be.
+
+**See also:**
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->

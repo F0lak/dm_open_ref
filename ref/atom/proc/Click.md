@@ -1,16 +1,5 @@
 ## Click proc (atom)
-**See also:**
-+   [Click proc (client)](/ref/client/proc/Click.md) 
-+   [DblClick proc (atom)](/ref/atom/proc/DblClick.md) 
-+   [MouseDown proc (atom)](/ref/atom/proc/MouseDown.md) 
-+   [MouseDrag proc (atom)](/ref/atom/proc/MouseDrag.md) 
-+   [MouseDrop proc (atom)](/ref/atom/proc/MouseDrop.md) 
-+   [MouseEntered proc (atom)](/ref/atom/proc/MouseEntered.md) 
-+   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md) 
-+   [MouseMove proc (atom)](/ref/atom/proc/MouseMove.md) 
-+   [MouseUp proc (atom)](/ref/atom/proc/MouseUp.md) 
-+   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel.md) 
-+   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md) 
+
 <!-- -->
 **Format:**
 +   Click(location,control,params)
@@ -35,3 +24,17 @@ by clicking it.
 ```
  turf/Click() walk_to(usr,src) 
 ```
+
+
+**See also:**
++   [Click proc (client)](/ref/client/proc/Click.md) 
++   [DblClick proc (atom)](/ref/atom/proc/DblClick.md) 
++   [MouseDown proc (atom)](/ref/atom/proc/MouseDown.md) 
++   [MouseDrag proc (atom)](/ref/atom/proc/MouseDrag.md) 
++   [MouseDrop proc (atom)](/ref/atom/proc/MouseDrop.md) 
++   [MouseEntered proc (atom)](/ref/atom/proc/MouseEntered.md) 
++   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md) 
++   [MouseMove proc (atom)](/ref/atom/proc/MouseMove.md) 
++   [MouseUp proc (atom)](/ref/atom/proc/MouseUp.md) 
++   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel.md) 
++   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md) 

@@ -1,7 +1,5 @@
 ## group list var (mob)
-**See also:**
-+   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
-+   [list](/ref/list.md) <!-- -->
+
 **Default value:**
 +   (empty list)
 
@@ -35,3 +33,8 @@ Here is an example of a verb accessible to a group:
  mob/verb/summon() set src in usr.group loc = usr.loc view()
 \<\< \"\[usr\] summons \[src\].\" 
 ```
+
+
+**See also:**
++   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
++   [list](/ref/list.md) <!-- -->

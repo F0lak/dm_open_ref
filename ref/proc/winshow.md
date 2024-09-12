@@ -1,10 +1,5 @@
 ## winshow proc
-**See also:**
-+   [winclone proc](/ref/proc/winclone.md) 
-+   [winget proc](/ref/proc/winget.md) 
-+   [winset proc](/ref/proc/winset.md) 
-+   [User interface skins](/ref/%7Bskin%7D.md) 
-+   [is-visible parameter (skin)](/ref/%7Bskin%7D/param/is-visible.md) <!-- -->
+
 **Format:**
 +   winshow(player, window, show=1)
 <!-- -->
@@ -16,3 +11,10 @@
 
 Shows or hides a window in the player\'s skin. This is a
 shortcut, equivalent to setting `is-visible` via `winset()`.
+
+**See also:**
++   [winclone proc](/ref/proc/winclone.md) 
++   [winget proc](/ref/proc/winget.md) 
++   [winset proc](/ref/proc/winset.md) 
++   [User interface skins](/ref/%7Bskin%7D.md) 
++   [is-visible parameter (skin)](/ref/%7Bskin%7D/param/is-visible.md) <!-- -->

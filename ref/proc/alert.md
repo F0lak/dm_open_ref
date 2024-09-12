@@ -1,6 +1,5 @@
 ## alert proc
-**See also:**
-+   [input proc](/ref/proc/input.md) <!-- -->
+
 **Format:**
 +   alert(Usr=usr,Message,Title,Button1=\"Ok\",Button2,Button3)
 <!-- -->
@@ -30,3 +29,7 @@ die?\",,\"Yes\",\"No\",\"Maybe\")) if(\"Yes\") del usr if(\"No\") usr
 coin\...\" if(rand(0,1)) usr \<\< \"Heads \-- you lose.\" del usr else
 usr \<\< \"Tails \-- you win!\" 
 ```
+
+
+**See also:**
++   [input proc](/ref/proc/input.md) <!-- -->

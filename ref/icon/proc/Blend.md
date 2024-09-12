@@ -1,9 +1,5 @@
 ## Blend proc (icon)
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [overlays var (atom)](/ref/atom/var/overlays.md) 
-+   [rgb proc](/ref/proc/rgb.md) <!-- -->
+
 **Format:**
 +   Blend(icon,function=ICON_ADD,x=1,y=1)
 <!-- -->
@@ -49,3 +45,9 @@ different place for blending, use the x and y arguments to specify where
 its lower left corner will be. 1,1 is the default, which is the lower
 left. 11,1 for instance would be 10 pixels to the right, and 1,21 would
 be 20 pixels up.
+
+**See also:**
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [overlays var (atom)](/ref/atom/var/overlays.md) 
++   [rgb proc](/ref/proc/rgb.md) <!-- -->

@@ -9,3 +9,7 @@ You can join the BYONDiscord server to discuss this project [here](https://disco
 The reference is currently built with the documentation for BYOND version 516.1644 alpha
 BYOND release notes can be found [here](https://www.byond.com/docs/notes/515.html).
 
+## Contributing
+Contributions to open_ref can be made either on Github.com or by cloning the repo and working locally.
+All contributions require a PR and are subject to approval.
+If you have any thoughts for changes or edits, feel free to open a discussion on the repo or discuss them on the discord server

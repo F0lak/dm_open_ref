@@ -1,19 +1,19 @@
 ## turn proc
 **See also:**
-*   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
-*   [dir var (atom)](/ref/atom/var/dir.md) 
-*   [Turn proc (vector)](/ref/vector/proc/Turn.md) 
++   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
++   [dir var (atom)](/ref/atom/var/dir.md) 
++   [Turn proc (vector)](/ref/vector/proc/Turn.md) 
 <!-- -->
 **Format:**
-*   turn(Dir, Angle)
++   turn(Dir, Angle)
 <!-- -->
 **Args:**
-*   Dir* One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
++   Dir+ One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
     SOUTHEAST, SOUTHWEST.
-*   Angle* An angle in degrees (counterclockwise rotation).
++   Angle+ An angle in degrees (counterclockwise rotation).
 <!-- -->
 **Returns:**
-*   The rotated direction.
++   The rotated direction.
 
 
 This proc can also be applied to an [icon](/ref/proc/turn/icon.md) , a

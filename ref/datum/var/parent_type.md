@@ -1,6 +1,6 @@
 ## parent_type var
 **Default value:**
-*   The path of the object definition that contains this one.
++   The path of the object definition that contains this one.
 
 
 This variable is set at compile-time to specify the inheritance
@@ -16,7 +16,7 @@ defaults to /obj weight = 30 color = \"black\"
 
 Explicitly setting the parent type allows you to put the object
 definition any place you want. That often means putting it at the top
-\"root\" level. Example* 
+\"root\" level. Example+ 
 ```
  Armor parent_type = /obj var
 strength plate //parent type is /Armor, which in turn inherits from /obj

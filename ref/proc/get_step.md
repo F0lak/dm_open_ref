@@ -1,16 +1,16 @@
 ## get_step proc
 **See also:**
-*   [step proc](/ref/proc/step.md) 
-*   [walk proc](/ref/proc/walk.md) <!-- -->
++   [step proc](/ref/proc/step.md) 
++   [walk proc](/ref/proc/walk.md) <!-- -->
 **Format:**
-*   get_step(Ref, Dir)
++   get_step(Ref, Dir)
 <!-- -->
 **Returns:**
-*   The location of the new position.
++   The location of the new position.
 <!-- -->
 **Args:**
-*   Ref* Starting point or object.
-*   Dir* One of `NORTH`, `SOUTH`, `EAST`, `WEST`, `NORTHEAST`,
++   Ref+ Starting point or object.
++   Dir+ One of `NORTH`, `SOUTH`, `EAST`, `WEST`, `NORTHEAST`,
     `NORTHWEST`, `SOUTHEAST`, `SOUTHWEST`.
 
 

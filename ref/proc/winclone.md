@@ -1,18 +1,18 @@
 ## winclone proc
 **See also:**
-*   [winexists proc](/ref/proc/winexists.md) 
-*   [winget proc](/ref/proc/winget.md) 
-*   [winset proc](/ref/proc/winset.md) 
-*   [winshow proc](/ref/proc/winshow.md) 
-*   [User interface skins](/ref/%7Bskin%7D.md) <!-- -->
++   [winexists proc](/ref/proc/winexists.md) 
++   [winget proc](/ref/proc/winget.md) 
++   [winset proc](/ref/proc/winset.md) 
++   [winshow proc](/ref/proc/winshow.md) 
++   [User interface skins](/ref/%7Bskin%7D.md) <!-- -->
 **Format:**
-*   winclone(player, window_name, clone_name)
++   winclone(player, window_name, clone_name)
 <!-- -->
 **Args:**
-*   player* A mob or client.
-*   window_name* The name of a window, pane, menu, or macro set in the
++   player+ A mob or client.
++   window_name+ The name of a window, pane, menu, or macro set in the
     world\'s skin file.
-*   clone_name* The name of the new window, pane, menu, or macro set to
++   clone_name+ The name of the new window, pane, menu, or macro set to
     create.
 
 

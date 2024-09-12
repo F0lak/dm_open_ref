@@ -1,17 +1,17 @@
 ## drop-zone parameter (skin)
 **See also:**
-*   [mouse handling](/ref/DM/mouse.md) 
++   [mouse handling](/ref/DM/mouse.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   `true` for [Grid](/ref/%7Bskin%7D/control/grid.md) ,
++   `true` for [Grid](/ref/%7Bskin%7D/control/grid.md) ,
     [Info](/ref/%7Bskin%7D/control/info.md) , [Map](/ref/%7Bskin%7D/control/map.md) 
-*   `false` for everything else
++   `false` for everything else
 
 
 True if dragged objects may be dropped here. Default is true

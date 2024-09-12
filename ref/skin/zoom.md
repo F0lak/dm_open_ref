@@ -1,16 +1,16 @@
 ## zoom parameter (skin)
 **See also:**
-*   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
-*   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
-*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
++   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
++   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
++   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
 <!-- -->
 **Applies to:**
-*   [Map](/ref/%7Bskin%7D/control/map.md) <!-- -->
++   [Map](/ref/%7Bskin%7D/control/map.md) <!-- -->
 **Format:**
-*   number
++   number
 <!-- -->
 **Default value:**
-*   0
++   0
 
 
 Zoom factor for icons on the map. 1 means to show the icons at

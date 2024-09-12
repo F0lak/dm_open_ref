@@ -1,15 +1,15 @@
 ## hidden setting (verb)
 **See also:**
-*   [category setting (verb)](/ref/verb/set/category.md) 
-*   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
-*   [name setting (verb)](/ref/verb/set/name.md) 
-*   [popup_menu setting (verb)](/ref/verb/set/popup_menu.md) 
++   [category setting (verb)](/ref/verb/set/category.md) 
++   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
++   [name setting (verb)](/ref/verb/set/name.md) 
++   [popup_menu setting (verb)](/ref/verb/set/popup_menu.md) 
 <!-- -->
 **Format:**
-*   set hidden = Setting
++   set hidden = Setting
 <!-- -->
 **Args:**
-*   Setting* 1 for hidden verbs; 0 otherwise.
++   Setting+ 1 for hidden verbs; 0 otherwise.
 
 
 A hidden verb is not visible to players (in menus or in

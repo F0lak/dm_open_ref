@@ -1,21 +1,21 @@
 ## MeasureText proc (client) 
 ###### BYOND Version 513
 **See also:**
-*   [maptext var (atom)](/ref/atom/var/maptext.md) 
-*   [maptext_width var (atom)](/ref/atom/var/maptext_width.md) 
-*   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) <!-- -->
++   [maptext var (atom)](/ref/atom/var/maptext.md) 
++   [maptext_width var (atom)](/ref/atom/var/maptext_width.md) 
++   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) <!-- -->
 **Format:**
-*   MeasureText(text, style, width=0)
++   MeasureText(text, style, width=0)
 <!-- -->
 **Args:**
-*   text* The text to be measured
-*   style* Stylesheet to be used (leave blank to use the default map
++   text+ The text to be measured
++   style+ Stylesheet to be used (leave blank to use the default map
     control\'s styles, if any)
-*   width* Width limit, if you only want to measure height; 0 means no
++   width+ Width limit, if you only want to measure height; 0 means no
     limit
 <!-- -->
 **Returns:**
-*   A size value in `"[width]x[height]"` format, e.g. \"60x16\"
++   A size value in `"[width]x[height]"` format, e.g. \"60x16\"
 
 
 Because maptext rendering may vary by client, `MeasureText`

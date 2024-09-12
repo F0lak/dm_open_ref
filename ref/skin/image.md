@@ -1,16 +1,16 @@
 ## image parameter (skin)
 **See also:**
-*   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 
-*   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 
++   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 
++   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 
 <!-- -->
 **Applies to:**
-*   [Button](/ref/%7Bskin%7D/control/button.md) 
-*   [Label](/ref/%7Bskin%7D/control/label.md) 
-*   [Main](/ref/%7Bskin%7D/control/main.md) 
-*   [Output](/ref/%7Bskin%7D/control/output.md) 
++   [Button](/ref/%7Bskin%7D/control/button.md) 
++   [Label](/ref/%7Bskin%7D/control/label.md) 
++   [Main](/ref/%7Bskin%7D/control/main.md) 
++   [Output](/ref/%7Bskin%7D/control/output.md) 
 <!-- -->
 **Format:**
-*   \'*file*\'
++   \'*file*\'
 
 
 A background image to show in this control. 
@@ -18,7 +18,7 @@ A background image to show in this control.
 In the
 Output control this image is always tiled. 
 
-Note* Icons
+Note+ Icons
 displayed in the output control will not show the background image
 underneath their transparent parts, but will instead show the background
 color.

@@ -1,15 +1,15 @@
 ## url_decode proc
 **See also:**
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [url_encode proc](/ref/proc/url_encode.md) <!-- -->
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [url_encode proc](/ref/proc/url_encode.md) <!-- -->
 **Format:**
-*   url_decode(UrlText)
++   url_decode(UrlText)
 <!-- -->
 **Args:**
-*   UrlText* text to be \"unescaped\"
++   UrlText+ text to be \"unescaped\"
 <!-- -->
 **Returns:**
-*   unescaped text
++   unescaped text
 
 
 Most non-alphanumeric characters are converted to another

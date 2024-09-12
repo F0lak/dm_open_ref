@@ -1,14 +1,14 @@
 ## Normalize proc (vector) 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/ref/vector.md) 
-*   [vector proc](/ref/proc/vector.md) 
-*   [size var (vector)](/ref/vector/var/size.md) <!-- -->
++   [vector](/ref/vector.md) 
++   [vector proc](/ref/proc/vector.md) 
++   [size var (vector)](/ref/vector/var/size.md) <!-- -->
 **Format:**
-*   V.Normalize()
++   V.Normalize()
 <!-- -->
 **Returns:**
-*   The same vector, after normalizing it to a unit vector.
++   The same vector, after normalizing it to a unit vector.
 
 
 Modifies the vector to make it a unit vector. This is the same

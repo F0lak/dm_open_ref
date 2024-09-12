@@ -1,14 +1,14 @@
 ## Flip proc (icon)
 **See also:**
-*   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
-*   [dir var (atom)](/ref/atom/var/dir.md) 
-*   [icon](/ref/icon.md) 
-*   [procs (icon)](/ref/icon/proc.md) <!-- -->
++   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
++   [dir var (atom)](/ref/atom/var/dir.md) 
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) <!-- -->
 **Format:**
-*   Flip(dir)
++   Flip(dir)
 <!-- -->
 **Args:**
-*   dir* direction in which to flip over the icon
++   dir+ direction in which to flip over the icon
 
 
 This flips the icon over in the specified direction. For

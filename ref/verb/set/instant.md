@@ -1,14 +1,14 @@
 ## instant setting (verb)
 **See also:**
-*   [settings (verb)](/ref/verb/set.md) <!-- -->
++   [settings (verb)](/ref/verb/set.md) <!-- -->
 **Format:**
-*   set instant = Setting
++   set instant = Setting
 <!-- -->
 **Args:**
-*   Setting* 1 for \"instant\" verbs; 0 otherwise.
++   Setting+ 1 for \"instant\" verbs; 0 otherwise.
 <!-- -->
 **Default value:**
-*   0
++   0
 
 
 Normally a player can only call one verb per tick, but they can

@@ -1,12 +1,12 @@
 ## icon arithmetic
 **See also:**
-*   [icon proc](/ref/proc/icon.md) 
-*   [icon_states proc](/ref/proc/icon_states.md) 
-*   [icons](/ref/DM/icon.md) 
-*   [rgb proc](/ref/proc/rgb.md) 
-*   [turn proc (applied to an icon)](/ref/proc/turn/icon.md) 
-*   [icon object](/ref/icon.md) 
-Note* The following \"arithmetical\" methods of icon manipulation are
++   [icon proc](/ref/proc/icon.md) 
++   [icon_states proc](/ref/proc/icon_states.md) 
++   [icons](/ref/DM/icon.md) 
++   [rgb proc](/ref/proc/rgb.md) 
++   [turn proc (applied to an icon)](/ref/proc/turn/icon.md) 
++   [icon object](/ref/icon.md) 
+Note+ The following \"arithmetical\" methods of icon manipulation are
 being phased out in favor of the [/icon](/ref/icon.md) {.code} object, which
 can be directly manipulated and which provides a wider variety of
 operations. Many of those in turn have been obviated by the
@@ -44,7 +44,7 @@ clipped.
 
 If you need to add the same color to every
 pixel, you can do so using a color value. Color values have the same
-format as in HTML* \"#RRGGBB\" with two hexadecimal digits for each
+format as in HTML+ \"#RRGGBB\" with two hexadecimal digits for each
 color component. That gives you a range in color from 0 to FF (which is
 255 in decimal). 
 

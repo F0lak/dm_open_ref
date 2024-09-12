@@ -1,18 +1,18 @@
 ## #if directive
 **See also:**
-*   [#define directive](/ref/DM/preprocessor/define.md) 
-*   [#ifdef directive](/ref/DM/preprocessor/ifdef.md) <!-- -->
++   [#define directive](/ref/DM/preprocessor/define.md) 
++   [#ifdef directive](/ref/DM/preprocessor/ifdef.md) <!-- -->
 **Format:**
-*   #if Val
-*   \...
-*   #elif Val2
-*   \...
-*   #else
-*   \...
-*   #endif
++   #if Val
++   \...
++   #elif Val2
++   \...
++   #else
++   \...
++   #endif
 <!-- -->
 **Args:**
-*   Val* A logical expression.
++   Val+ A logical expression.
 
 
 The `#if` statement is used to conditionally compile code. If

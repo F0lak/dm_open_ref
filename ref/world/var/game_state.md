@@ -1,10 +1,10 @@
 ## game_state var (world)
 **See also:**
-*   [name var (world)](/ref/world/var/name.md) 
-*   [status var (world)](/ref/world/var/status.md) 
-*   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
++   [name var (world)](/ref/world/var/name.md) 
++   [status var (world)](/ref/world/var/status.md) 
++   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 At runtime, this value may be changed to let the BYOND hub know
@@ -15,9 +15,9 @@ this server is full.
 
 The following values are accepted:
 0
-*   Normal status
++   Normal status
 1
-*   Server is full
++   Server is full
 
 
 Note that this value does not affect how your world actually

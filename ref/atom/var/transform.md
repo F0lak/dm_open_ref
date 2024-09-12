@@ -1,8 +1,8 @@
 ## transform var (atom) 
 ###### BYOND Version 500
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) 
-*   [matrix](/ref/matrix.md) 
++   [vars (atom)](/ref/atom/var.md) 
++   [matrix](/ref/matrix.md) 
 
 
 An atom can be made to appear rotated, scaled, and/or

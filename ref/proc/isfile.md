@@ -1,13 +1,13 @@
 ## isfile proc
 **See also:**
-*   [cache](/ref/DM/cache.md) 
-*   [file proc](/ref/proc/file.md) 
-*   [isicon proc](/ref/proc/isicon.md) <!-- -->
++   [cache](/ref/DM/cache.md) 
++   [file proc](/ref/proc/file.md) 
++   [isicon proc](/ref/proc/isicon.md) <!-- -->
 **Format:**
-*   isfile(File)
++   isfile(File)
 <!-- -->
 **Args:**
-*   File* the value to test
++   File+ the value to test
 
 
 This returns a true value when given a file. Both objects

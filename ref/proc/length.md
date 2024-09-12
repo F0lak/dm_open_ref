@@ -1,15 +1,15 @@
 ## length proc
 **See also:**
-*   [vector](/ref/vector.md) 
++   [vector](/ref/vector.md) 
 <!-- -->
 **Format:**
-*   length(E)
++   length(E)
 <!-- -->
 **Returns:**
-*   The length of the data associated with E.
++   The length of the data associated with E.
 <!-- -->
 **Args:**
-*   E* text, list, file, or vector
++   E+ text, list, file, or vector
 ### Example:
 
 ```
@@ -38,7 +38,7 @@ outputs, \"3\", the length of the list.
 
 This outputs the length of the file. 
 
-Note* In strings
+Note+ In strings
 containing non-ASCII characters, this is the length in bytes, not
 characters; a character may span multiple bytes. Use `length_char()` to
 work with character counts instead of bytes. See the

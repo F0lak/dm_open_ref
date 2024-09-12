@@ -1,19 +1,19 @@
 ## num2text proc
 **See also:**
-*   [isnum proc](/ref/proc/isnum.md) 
-*   [text2num proc](/ref/proc/text2num.md) <!-- -->
++   [isnum proc](/ref/proc/isnum.md) 
++   [text2num proc](/ref/proc/text2num.md) <!-- -->
 **Format:**
-*   num2text(N, SigFig=6)
-*   num2text(N, Digits, Radix)
++   num2text(N, SigFig=6)
++   num2text(N, Digits, Radix)
 <!-- -->
 **Returns:**
-*   A text string.
++   A text string.
 <!-- -->
 **Args:**
-*   N* A number.
-*   SigFig* Number of significant digits.
-*   Digits* Minimum number of digits
-*   Radix* The base of the number, e.g. 16 is hexadecimal.
++   N+ A number.
++   SigFig+ Number of significant digits.
++   Digits+ Minimum number of digits
++   Radix+ The base of the number, e.g. 16 is hexadecimal.
 
 
 Get the text string for a number. The number of significant

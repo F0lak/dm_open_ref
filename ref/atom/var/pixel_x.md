@@ -1,16 +1,16 @@
 ## pixel_x var (atom)
 **See also:**
-*   [animate_movement var (movable
++   [animate_movement var (movable
     atoms)](/ref/atom/movable/var/animate_movement.md) 
-*   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
-*   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
-*   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
-*   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
-*   [icon_size var (world)](/ref/world/var/icon_size.md) 
-*   [map_format var (world)](/ref/world/var/map_format.md) 
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
++   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
++   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
++   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
++   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 This displaces the object\'s icon on the x-axis by the

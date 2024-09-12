@@ -1,16 +1,16 @@
 ## no-command parameter (skin)
 **See also:**
-*   [command parameter](/ref/%7Bskin%7D/param/command.md) 
-*   [is-password parameter](/ref/%7Bskin%7D/param/is-password.md) 
-*   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) 
++   [command parameter](/ref/%7Bskin%7D/param/command.md) 
++   [is-password parameter](/ref/%7Bskin%7D/param/is-password.md) 
++   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) 
 <!-- -->
 **Applies to:**
-*   [Input](/ref/%7Bskin%7D/control/input.md) <!-- -->
++   [Input](/ref/%7Bskin%7D/control/input.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 True if this input control is for typing only; hitting Enter

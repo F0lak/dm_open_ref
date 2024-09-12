@@ -1,8 +1,8 @@
 ## pan var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) <!-- -->
++   [vars (sound)](/ref/sound/var.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 Alter the panning of a sound. -100 is full left, 100 is full

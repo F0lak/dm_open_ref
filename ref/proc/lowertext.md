@@ -1,14 +1,14 @@
 ## lowertext proc
 **See also:**
-*   [uppertext proc](/ref/proc/uppertext.md) <!-- -->
++   [uppertext proc](/ref/proc/uppertext.md) <!-- -->
 **Format:**
-*   lowertext(T)
++   lowertext(T)
 <!-- -->
 **Returns:**
-*   A lowercase text string.
++   A lowercase text string.
 <!-- -->
 **Args:**
-*   T* A text string.
++   T+ A text string.
 
 
 Make all of the characters of T lowercase.

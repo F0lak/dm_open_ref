@@ -1,16 +1,16 @@
 ## GetConfig proc (world)
 **See also:**
-*   [IsBanned proc (world)](/ref/world/proc/IsBanned.md) 
-*   [SetConfig proc (world)](/ref/world/proc/SetConfig.md) <!-- -->
++   [IsBanned proc (world)](/ref/world/proc/IsBanned.md) 
++   [SetConfig proc (world)](/ref/world/proc/SetConfig.md) <!-- -->
 **Format:**
-*   GetConfig(config_set,param)
++   GetConfig(config_set,param)
 <!-- -->
 **Returns:**
-*   Value of requested parameter.
++   Value of requested parameter.
 <!-- -->
 **Args:**
-*   config_set* name of the configuration set (see below)
-*   param* name of the configuration parameter
++   config_set+ name of the configuration set (see below)
++   param+ name of the configuration parameter
 
 
 This command is for retrieving configuration information that
@@ -69,7 +69,7 @@ but even then, the default behavior is almost always what you want.
 
 
 The configuration space is specified inside the configuration
-set parameter like this* 
+set parameter like this+ 
 ```
  world.SetConfig(\"APP/keyban\",\...)
 
@@ -86,23 +86,23 @@ overrides SYSTEM.
 If you want to create or read bans at runtime by using the
 \"ban\" config set, these are the main parameters currently used:
 type
-*   The ban\'s type, if any. It can be \"sticky\", \"session\", or
++   The ban\'s type, if any. It can be \"sticky\", \"session\", or
     \"time\", or a combination separated by commas. Session bans expire
     when the current session is over (world.Reboot() does not affect
     this).
 reason
-*   The reason the ban was implemented; this is for the host\'s or
++   The reason the ban was implemented; this is for the host\'s or
     admin\'s purposes only and is not displayed to the user.
 message
-*   A message to display to the user.
++   A message to display to the user.
 keys
-*   Other keys caught in a sticky ban.
++   Other keys caught in a sticky ban.
 IP
-*   Other IP addresses caught in a sticky ban.
++   Other IP addresses caught in a sticky ban.
 computer_id
-*   Other computer_id values caught in a sticky ban.
++   Other computer_id values caught in a sticky ban.
 time
-*   The number of seconds remaining in the ban. The type parameter must
++   The number of seconds remaining in the ban. The type parameter must
     include \"time\" for this to mean anything. If this parameter is not
     present when a timed ban is read, it means the ban has expired.
 

@@ -5,46 +5,46 @@ Several commands can be executed on the client that are not
 verbs, but instructions for Dream Seeker. Some of these commands have
 detailed syntax described in their own reference entries.
 [.winset](/ref/%7Bskin%7D/commands/.winset.md) 
-*   Sets skin parameters, and includes special syntax for conditional
++   Sets skin parameters, and includes special syntax for conditional
     actions.
 [.output](/ref/%7Bskin%7D/commands/.output.md) 
-*   Sends output to a control.
++   Sends output to a control.
 .options
-*   Shows the Options & Messages box.
++   Shows the Options & Messages box.
 .reboot
-*   Reboots the world, when Dream Seeker is also acting as a server.
++   Reboots the world, when Dream Seeker is also acting as a server.
 .reconnect
-*   Reconnects to the same world.
++   Reconnects to the same world.
 .host
-*   Opens hosting options box, when Dream Seeker is also acting as a
++   Opens hosting options box, when Dream Seeker is also acting as a
     server.
 .profile
-*   Opens the profiler. On a remote connection you may not have access
++   Opens the profiler. On a remote connection you may not have access
     to profile server procs, but you can look at the client and network
     profilers.
 .screenshot
-*   Saves a screenshot of the map. If there\'s more than one map
++   Saves a screenshot of the map. If there\'s more than one map
     control, the default map is used.
 .screenshot auto
-*   Saves a screenshot of the map, but does not prompt for a filename.
++   Saves a screenshot of the map, but does not prompt for a filename.
     The file will be saved in the client\'s user directory in
     BYOND/screenshots.
 .gamepad-mapping
-*   Opens the gamepad mapping dialog. Helpful if the user\'s gamepad is
++   Opens the gamepad mapping dialog. Helpful if the user\'s gamepad is
     not supported or not configured to their liking.
 .command
-*   Prompts the user to enter a command, which can be one of these
++   Prompts the user to enter a command, which can be one of these
     commands as well.
 [.sound](/ref/%7Bskin%7D/commands/sound.md) 
-*   Play, stop, or update sound.
++   Play, stop, or update sound.
 .configure *option* *value*
-*   Toggle certain Dream Seeker config options, such as
++   Toggle certain Dream Seeker config options, such as
     `.configure graphics-hwmode on`. The only supported options you can
     use are `graphics-hwmode`, `sound`, and `delay` which is an old
     mechanism for dynamically adapting to network delay. (Usually the
     `delay` is reset to 0.)
 .quit
-*   Closes Dream Seeker.
++   Closes Dream Seeker.
 ### Embedded Winget
 
 
@@ -75,29 +75,29 @@ following the value with `as` and a type, such as
 `[[window.size as string]]`. There are several types you can use, and
 different types of parameters get formatted differently:
 arg
-*   Value is formatted as if it\'s an argument on a command line.
++   Value is formatted as if it\'s an argument on a command line.
     Numbers are left alone; booleans are 0 or 1; size and position have
     their X and Y values separated by a space; pretty much everything
     else is DM-escaped and enclosed in quotes.
 escaped
-*   DM-escape the value as if it\'s in a quoted string but do not
++   DM-escape the value as if it\'s in a quoted string but do not
     include the quotes. Size and position values both use `,` to
     separate their X and Y values.
 string
-*   Value is formatted as a DM-escaped string with surrounding quotes.
++   Value is formatted as a DM-escaped string with surrounding quotes.
 params
-*   Format value for a URL-encoded parameter list (see
++   Format value for a URL-encoded parameter list (see
     [list2params](/ref/proc/list2params.md) .code}), escaping characters as
     needed.
 json
-*   JSON formatting. Numbers are left unchanged; size or position values
++   JSON formatting. Numbers are left unchanged; size or position values
     are turned into objects with x and y items; boolean values are
     `true` or `false`.
 json-dm
-*   JSON formatting, but DM-escaped so it can be included in a quoted
++   JSON formatting, but DM-escaped so it can be included in a quoted
     string. Quotes are not included.
 raw
-*   Does not change the value\'s text representation in any way; assumes
++   Does not change the value\'s text representation in any way; assumes
     it\'s already formatted correctly for the purpose. This is similar
     to `as arg` but does no escaping and no quotes.
 

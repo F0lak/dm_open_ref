@@ -1,10 +1,10 @@
 ## params var (sound) 
 ###### BYOND Version 515
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) 
++   [vars (sound)](/ref/sound/var.md) 
 <!-- -->
 **Default value:**
-*   null
++   null
 
 
 Used to set client skin information related to this sound. This
@@ -15,9 +15,9 @@ string such as you would get from
 These are the
 parameters currently defined:
 on-end
-*   Plays when the sound ends or is stopped.
++   Plays when the sound ends or is stopped.
 on-preempt
-*   Plays when the sound is preempted by another sound. If this isn\'t
++   Plays when the sound is preempted by another sound. If this isn\'t
     present, `on-end` still applies if the sound is preempted.
 ### Example:
 

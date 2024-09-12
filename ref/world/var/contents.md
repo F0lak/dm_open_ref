@@ -1,8 +1,8 @@
 ## contents list var (world)
 **See also:**
-*   [list](/ref/list.md) <!-- -->
++   [list](/ref/list.md) <!-- -->
 **Default value:**
-*   List of all areas, turfs, mobs, and objs initially in the world.
++   List of all areas, turfs, mobs, and objs initially in the world.
 
 
 This is a list of every object in the world. Objects in this

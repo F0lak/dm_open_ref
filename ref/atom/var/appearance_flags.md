@@ -1,37 +1,37 @@
 ## appearance_flags var (atom) 
 ###### BYOND Version 509
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) 
-*   [alpha var (atom)](/ref/atom/var/alpha.md) 
-*   [color var (atom)](/ref/atom/var/color.md) 
-*   [transform var (atom)](/ref/atom/var/transform.md) 
-*   [color var (client)](/ref/client/var/color.md) 
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-*   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
++   [vars (atom)](/ref/atom/var.md) 
++   [alpha var (atom)](/ref/atom/var/alpha.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [transform var (atom)](/ref/atom/var/transform.md) 
++   [color var (client)](/ref/client/var/color.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
 <!-- -->
 **Default value:**
-*   0
++   0
 <!-- -->
 **Possible values:**
-*   Any combination of:
-*   **LONG_GLIDE*** Diagonal glides take as long as cardinal ones
-*   **RESET_COLOR*** If this is an overlay/image/etc., ignore the
++   Any combination of:
++   **LONG_GLIDE**+ Diagonal glides take as long as cardinal ones
++   **RESET_COLOR**+ If this is an overlay/image/etc., ignore the
     parent\'s color
-*   **RESET_ALPHA*** If this is an overlay/image/etc., ignore the
++   **RESET_ALPHA**+ If this is an overlay/image/etc., ignore the
     parent\'s alpha value
-*   **RESET_TRANSFORM*** If this is an overlay/image/etc., ignore the
++   **RESET_TRANSFORM**+ If this is an overlay/image/etc., ignore the
     parent\'s transform
-*   **NO_CLIENT_COLOR*** Ignore client.color
-*   **KEEP_TOGETHER*** Draw this icon along with its overlays and
++   **NO_CLIENT_COLOR**+ Ignore client.color
++   **KEEP_TOGETHER**+ Draw this icon along with its overlays and
     underlays, as one unit
-*   **KEEP_APART*** Detach from a parent icon that uses `KEEP_TOGETHER`
-*   **PLANE_MASTER*** Groups all other icons in the same plane
-*   **TILE_BOUND*** Avoids more accurate visibility calculations
-*   **PIXEL_SCALE*** Use point sampling when transforming this icon
-*   **PASS_MOUSE*** If this icon has a `render_source`, pass mouse any
++   **KEEP_APART**+ Detach from a parent icon that uses `KEEP_TOGETHER`
++   **PLANE_MASTER**+ Groups all other icons in the same plane
++   **TILE_BOUND**+ Avoids more accurate visibility calculations
++   **PIXEL_SCALE**+ Use point sampling when transforming this icon
++   **PASS_MOUSE**+ If this icon has a `render_source`, pass mouse any
     hits to the render source
-*   **TILE_MOVER*** This atom is always locked to the grid
++   **TILE_MOVER**+ This atom is always locked to the grid
 
 
 The appearance_flags value controls miscellaneous behavior of
@@ -150,7 +150,7 @@ mouse-visible.
 
 
 There are many ways an object may be shifted out of the normal
-bounds of the tile it\'s on* a large icon, pixel offsets, step offsets,
+bounds of the tile it\'s on+ a large icon, pixel offsets, step offsets,
 and transform. Ordinarily it\'s desirable to be able to see the object
 if it touches any visible turf. However, in some cases it\'s more
 desirable to only show the object if its actual loc is in view. The

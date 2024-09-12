@@ -1,13 +1,13 @@
 ## border parameter (skin)
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Possible values:**
-*   none
-*   line
-*   sunken
++   none
++   line
++   sunken
 <!-- -->
 **Default value:**
-*   none
++   none
 
 
 Border type around the control or window. May not work the same

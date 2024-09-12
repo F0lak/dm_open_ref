@@ -1,12 +1,12 @@
 ## flash parameter (skin)
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
 <!-- -->
 **Format:**
-*   number
++   number
 <!-- -->
 **Default value:**
-*   0
++   0
 
 
 Set to a positive number to make the window flash that many

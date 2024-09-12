@@ -1,17 +1,17 @@
 ## mouse_over_pointer var (atom)
 **See also:**
-*   [Click proc (atom)](/ref/atom/proc/Click.md) 
-*   [MouseEntered proc (atom)](/ref/atom/proc/MouseEntered.md) 
-*   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md) 
-*   [MouseMove proc (atom)](/ref/atom/proc/MouseMove.md) 
-*   [mouse_drag_pointer var (atom)](/ref/atom/var/mouse_drag_pointer.md) 
-*   [mouse_drop_pointer var (atom)](/ref/atom/var/mouse_drop_pointer.md) 
-*   [mouse_drop_zone var (atom)](/ref/atom/var/mouse_drop_zone.md) 
-*   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) 
-*   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md) 
++   [Click proc (atom)](/ref/atom/proc/Click.md) 
++   [MouseEntered proc (atom)](/ref/atom/proc/MouseEntered.md) 
++   [MouseExited proc (atom)](/ref/atom/proc/MouseExited.md) 
++   [MouseMove proc (atom)](/ref/atom/proc/MouseMove.md) 
++   [mouse_drag_pointer var (atom)](/ref/atom/var/mouse_drag_pointer.md) 
++   [mouse_drop_pointer var (atom)](/ref/atom/var/mouse_drop_pointer.md) 
++   [mouse_drop_zone var (atom)](/ref/atom/var/mouse_drop_zone.md) 
++   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) 
++   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md) 
 <!-- -->
 **Default value:**
-*   MOUSE_INACTIVE_POINTER (0)
++   MOUSE_INACTIVE_POINTER (0)
 
 
 This defines how the mouse looks when no buttons are pressed

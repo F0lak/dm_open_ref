@@ -1,23 +1,23 @@
 ## Move proc (client)
 **See also:**
-*   [East proc (client)](/ref/client/proc/East.md) 
-*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-*   [North proc (client)](/ref/client/proc/North.md) 
-*   [Northeast proc (client)](/ref/client/proc/Northeast.md) 
-*   [Northwest proc (client)](/ref/client/proc/Northwest.md) 
-*   [South proc (client)](/ref/client/proc/South.md) 
-*   [Southeast proc (client)](/ref/client/proc/Southeast.md) 
-*   [Southwest proc (client)](/ref/client/proc/Southwest.md) 
-*   [West proc (client)](/ref/client/proc/West.md) <!-- -->
++   [East proc (client)](/ref/client/proc/East.md) 
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [North proc (client)](/ref/client/proc/North.md) 
++   [Northeast proc (client)](/ref/client/proc/Northeast.md) 
++   [Northwest proc (client)](/ref/client/proc/Northwest.md) 
++   [South proc (client)](/ref/client/proc/South.md) 
++   [Southeast proc (client)](/ref/client/proc/Southeast.md) 
++   [Southwest proc (client)](/ref/client/proc/Southwest.md) 
++   [West proc (client)](/ref/client/proc/West.md) <!-- -->
 **Format:**
-*   Move(loc,dir)
++   Move(loc,dir)
 <!-- -->
 **Returns:**
-*   1 on success; 0 on failure
++   1 on success; 0 on failure
 <!-- -->
 **When:**
-*   Called by the direction procs.
++   Called by the direction procs.
 <!-- -->
 **Default action:**
-*   Calls src.mob.Move(). Also cancels any automated movement by calling
++   Calls src.mob.Move(). Also cancels any automated movement by calling
     walk(usr,0).

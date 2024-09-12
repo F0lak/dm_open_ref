@@ -1,16 +1,16 @@
 ## sleep proc
 **See also:**
-*   [background setting (proc)](/ref/proc/set/background.md) 
-*   [waitfor setting (proc)](/ref/proc/set/waitfor.md) 
-*   [spawn proc](/ref/proc/spawn.md) 
-*   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
++   [background setting (proc)](/ref/proc/set/background.md) 
++   [waitfor setting (proc)](/ref/proc/set/waitfor.md) 
++   [spawn proc](/ref/proc/spawn.md) 
++   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
 <!-- -->
 **Format:**
-*   sleep(Delay)
++   sleep(Delay)
 <!-- -->
 **Args:**
-*   Delay* The amount of time to sleep, in 1/10 seconds.
-::* {.sidebar .underhood}
++   Delay+ The amount of time to sleep, in 1/10 seconds.
+::+ {.sidebar .underhood}
 
 
 When a proc sleeps, it actually makes a copy of itself. The
@@ -58,14 +58,14 @@ loops are usually created using `spawn` to prevent the caller from
 getting locked up. You could call this procedure from `world.New()` to
 start it rolling. 
 
-Note* sleep time is in 1/10s units, not
+Note+ sleep time is in 1/10s units, not
 server ticks. If your `world.tick_lag` or `world.fps` value is different
 from the default, `sleep(1)` still means \"sleep for 1/10s\". To sleep
 for exactly `N` ticks, call `sleep(N * world.tick_lag)`. 
 
 If the
 ticker does intensive processing during each iteration, you probably
-want to run it in the background like this* 
+want to run it in the background like this+ 
 ```
  proc/Ticker() set
 background = 1 

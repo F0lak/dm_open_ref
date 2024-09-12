@@ -1,17 +1,17 @@
 ## is-default parameter (skin)
 **See also:**
-*   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-*   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
-*   [type parameter](/ref/%7Bskin%7D/param/type.md) 
++   [id parameter](/ref/%7Bskin%7D/param/id.md) 
++   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
++   [type parameter](/ref/%7Bskin%7D/param/type.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 Specifies that this is a default control. This should be true

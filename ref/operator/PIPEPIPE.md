@@ -1,14 +1,14 @@
 ## \|\| operator
 **See also:**
-*   [! operator](/ref/operator/!.md) 
-*   [&& operator](/ref/operator/&&.md) 
-*   [\|\|= operator](/ref/operator/%7C%7C=.md) 
-*   [operators](/ref/operator.md) <!-- -->
++   [! operator](/ref/operator/!.md) 
++   [&& operator](/ref/operator/&&.md) 
++   [\|\|= operator](/ref/operator/%7C%7C=.md) 
++   [operators](/ref/operator.md) <!-- -->
 **Format:**
-*   A \|\| B
++   A \|\| B
 <!-- -->
 **Returns:**
-*   First true value of either A or B; last false value otherwise
++   First true value of either A or B; last false value otherwise
 The only false values in DM are the number 0, an empty text string, or
 null. All other values are considered true. 
 

@@ -1,17 +1,17 @@
 ## RenderIcon proc (client) 
 ###### BYOND Version 515
 **See also:**
-*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-*   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
 <!-- -->
 **Format:**
-*   RenderIcon(object)
++   RenderIcon(object)
 <!-- -->
 **Args:**
-*   object* An atom or appearance to render.
++   object+ An atom or appearance to render.
 <!-- -->
 **Returns:**
-*   A single-image icon file in which the object is rendered with all
++   A single-image icon file in which the object is rendered with all
     its overlays, visual contents, etc.
 
 

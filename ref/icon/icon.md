@@ -1,9 +1,9 @@
 ## icon object
 **See also:**
-*   [procs (icon)](/ref/icon/proc.md) 
-*   [icons](/ref/DM/icon.md) 
-*   [image objects](/ref/image.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [icons](/ref/DM/icon.md) 
++   [image objects](/ref/image.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
 
 
 An `/icon` object is created by loading an icon file into
@@ -51,7 +51,7 @@ capabilities.
   Overlaying/underlaying   [Blend](/ref/icon/proc/Blend.md) {.code} proc +          Overlay/underlay +
   another icon             `ICON_OVERLAY`                                    [KEEP_TOGETHER](/ref/atom/var/appearance_flags.md) {.code}\
                                                                              [Layering filter](/ref/%7Bnotes%7D/filters/layer.md)   ---------------------------------------------------------------------------------------------------------------------------------
-Note* Anything you can do with an atom var instead of using icon
+Note+ Anything you can do with an atom var instead of using icon
 manipulation procs will usually perform much better. Games that use the
 new methods use fewer resources, use less memory, and also usually look
 better too.

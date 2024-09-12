@@ -1,12 +1,12 @@
 # isloc proc
 **Format:**
-*   isloc(Loc1, Loc2 \...)
++   isloc(Loc1, Loc2 \...)
 <!-- -->
 **Args:**
-*   Any number of locations to test.
++   Any number of locations to test.
 <!-- -->
 **Returns:**
-*   1 if all args are valid locs; 0 otherwise.
++   1 if all args are valid locs; 0 otherwise.
 
 
 Tests validity of a location. If all arguments are mobs, objs,

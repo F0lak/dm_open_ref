@@ -1,18 +1,18 @@
 ## Splice proc (list) 
 ###### BYOND Version 514
 **See also:**
-*   [Copy proc (list)](/ref/list/proc/Copy.md) 
-*   [Cut proc (list)](/ref/list/proc/Cut.md) 
-*   [Insert proc (list)](/ref/list/proc/Insert.md) 
-*   [splicetext proc](/ref/proc/splicetext.md) <!-- -->
++   [Copy proc (list)](/ref/list/proc/Copy.md) 
++   [Cut proc (list)](/ref/list/proc/Cut.md) 
++   [Insert proc (list)](/ref/list/proc/Insert.md) 
++   [splicetext proc](/ref/proc/splicetext.md) <!-- -->
 **Format:**
-*   list.Splice(Start=1,End=0,Item1,Item2\...)
++   list.Splice(Start=1,End=0,Item1,Item2\...)
 <!-- -->
 **Args:**
-*   Start* The list index where the splice will begin.
-*   End* The index immediately following the last item to be cut from
++   Start+ The list index where the splice will begin.
++   End+ The index immediately following the last item to be cut from
     the list. 0 is the end of the list.
-*   Item1, Item2\...* Items to be inserted.
++   Item1, Item2\...+ Items to be inserted.
 
 
 Cuts out items from a list, and inserts new items in their
@@ -39,5 +39,5 @@ will be no error; they will simply be clamped to the beginning or end of
 the list. If `End` comes before `Start`, the two values are swapped.
 
 
-Note* This proc doesn\'t work with many special lists such as
+Note+ This proc doesn\'t work with many special lists such as
 `contents` or `overlays`.

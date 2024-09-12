@@ -1,13 +1,13 @@
 ## \| operator
 **See also:**
-*   [& operator](/ref/operator/&.md) 
-*   [operators](/ref/operator.md) 
-*   [\|= operator](/ref/operator/%7C=.md) <!-- -->
++   [& operator](/ref/operator/&.md) 
++   [operators](/ref/operator.md) 
++   [\|= operator](/ref/operator/%7C=.md) <!-- -->
 **Format:**
-*   A \| B
++   A \| B
 <!-- -->
 **Returns:**
-*   The binary \"or\" of A and B.
++   The binary \"or\" of A and B.
 
 
 A and B must be between 0 and 2\*\*24 - 1, giving an effective

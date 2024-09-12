@@ -1,21 +1,21 @@
 ## bound_pixloc proc 
 ###### BYOND Version 516
 **See also:**
-*   [pixloc](/ref/pixloc.md) 
-*   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-*   [pixloc proc](/ref/proc/pixloc.md) 
-*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) <!-- -->
++   [pixloc](/ref/pixloc.md) 
++   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
++   [pixloc proc](/ref/proc/pixloc.md) 
++   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
++   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) <!-- -->
 **Format:**
-*   bound_pixloc(Atom, Dir)
++   bound_pixloc(Atom, Dir)
 <!-- -->
 **Returns:**
-*   A `pixloc` object representing a corner, side, or center of atom
++   A `pixloc` object representing a corner, side, or center of atom
     bounds.
 <!-- -->
 **Args:**
-*   Atom* An atom.
-*   Dir* The side or corner to use, or 0 for center.
++   Atom+ An atom.
++   Dir+ The side or corner to use, or 0 for center.
 
 
 Creates a new `pixloc` object based on an existing object\'s

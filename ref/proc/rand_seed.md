@@ -1,14 +1,14 @@
 ## rand_seed proc
 **See also:**
-*   [pick proc](/ref/proc/pick.md) 
-*   [prob proc](/ref/proc/prob.md) 
-*   [rand proc](/ref/proc/rand.md) 
-*   [roll proc](/ref/proc/roll.md) <!-- -->
++   [pick proc](/ref/proc/pick.md) 
++   [prob proc](/ref/proc/prob.md) 
++   [rand proc](/ref/proc/rand.md) 
++   [roll proc](/ref/proc/roll.md) <!-- -->
 **Format:**
-*   rand_seed(Seed)
++   rand_seed(Seed)
 <!-- -->
 **Args:**
-*   Seed* An integer used to initialize the random number generator.
++   Seed+ An integer used to initialize the random number generator.
 
 
 Many DM procedures make use of a pseudo-random number

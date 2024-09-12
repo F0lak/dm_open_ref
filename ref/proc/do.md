@@ -1,11 +1,11 @@
 ## do proc
 **See also:**
-*   [break statement](/ref/proc/break.md) 
-*   [continue statement](/ref/proc/continue.md) 
-*   [for loop proc](/ref/proc/for/loop.md) 
-*   [while proc](/ref/proc/while.md) <!-- -->
++   [break statement](/ref/proc/break.md) 
++   [continue statement](/ref/proc/continue.md) 
++   [for loop proc](/ref/proc/for/loop.md) 
++   [while proc](/ref/proc/while.md) <!-- -->
 **Format:**
-*   do Statement while( E )
++   do Statement while( E )
 
 
 Execute Statement. If E is true (non-zero) do it over again.
@@ -21,7 +21,7 @@ code or a single statement.
 
 
 
-This outputs* 
+This outputs+ 
 ```
  3 2 1 
 ```

@@ -1,26 +1,26 @@
 ## image proc
 **See also:**
-*   [\<\< operator](/ref/operator/%3c%3c.md) 
-*   [del proc](/ref/proc/del.md) 
-*   [icon](/ref/icon.md) 
-*   [image objects](/ref/image.md) 
-*   [images var (client)](/ref/client/var/images.md) 
-*   [overlays var (atom)](/ref/atom/var/overlays.md) 
++   [\<\< operator](/ref/operator/%3c%3c.md) 
++   [del proc](/ref/proc/del.md) 
++   [icon](/ref/icon.md) 
++   [image objects](/ref/image.md) 
++   [images var (client)](/ref/client/var/images.md) 
++   [overlays var (atom)](/ref/atom/var/overlays.md) 
 <!-- -->
 **Format:**
-*   image(icon,loc,icon_state,layer,dir)
-*   [(supports [named arguments](/ref/proc/arguments/named.md) )]{.small}
++   image(icon,loc,icon_state,layer,dir)
++   [(supports [named arguments](/ref/proc/arguments/named.md) )]{.small}
 <!-- -->
 **Returns:**
-*   An image reference on success; 0 on failure.
++   An image reference on success; 0 on failure.
 <!-- -->
 **Args:**
-*   icon* An icon, icon_state, object prototype, object instance, or
++   icon+ An icon, icon_state, object prototype, object instance, or
     other image.
-*   loc* The location at which to display the image.
-*   icon_state* The icon state to use.
-*   layer* The drawing layer to use.
-*   dir* The direction to orient the image.
++   loc+ The location at which to display the image.
++   icon_state+ The icon state to use.
++   layer+ The drawing layer to use.
++   dir+ The direction to orient the image.
 
 
 Images are \"virtual\" objects, which have a purely visual
@@ -57,7 +57,7 @@ to OBJ_LAYER to make it appear under mobs on the map.
  
 
 Another
-common use of images is in making an overlay* 
+common use of images is in making an overlay+ 
 ```
  overlays +=
 image(\'pants.dmi\',icon_state = \"red\") 
@@ -66,7 +66,7 @@ image(\'pants.dmi\',icon_state = \"red\")
 
 Since the
 `loc` argument could never be a text string, the above statement can be
-further shortened* 
+further shortened+ 
 ```
  overlays += image(\'pants.dmi\',\"red\")
 
@@ -78,7 +78,7 @@ with `icon('pants.dmi',"red")`, since that involves the overhead of
 creating a new icon file, which should only be done when it is really
 necessary. 
 
-Note* The fact that `image` is essentially a wrapper
+Note+ The fact that `image` is essentially a wrapper
 for `new/image()` means that the arguments in
 [image/New()](/ref/datum/proc/New.md) .code} are always treated the same way
 as defined in this article. This applies even to subtypes, like

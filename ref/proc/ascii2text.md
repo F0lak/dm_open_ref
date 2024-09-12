@@ -1,16 +1,16 @@
 ## ascii2text proc
 **See also:**
-*   [entities (text)](/ref/DM/text/entities.md) 
-*   [text2ascii proc](/ref/proc/text2ascii.md) 
++   [entities (text)](/ref/DM/text/entities.md) 
++   [text2ascii proc](/ref/proc/text2ascii.md) 
 <!-- -->
 **Format:**
-*   ascii2text(N)
++   ascii2text(N)
 <!-- -->
 **Returns:**
-*   A text string.
++   A text string.
 <!-- -->
 **Args:**
-*   N* A number.
++   N+ A number.
 
 
 ASCII codes are numerical values corresponding to keyboard and

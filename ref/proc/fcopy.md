@@ -1,16 +1,16 @@
 ## fcopy proc
 **See also:**
-*   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
-*   [shell proc](/ref/proc/shell.md) <!-- -->
++   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
++   [shell proc](/ref/proc/shell.md) <!-- -->
 **Format:**
-*   fcopy(Src,Dst)
++   fcopy(Src,Dst)
 <!-- -->
 **Args:**
-*   Src* file to copy
-*   Dst* new copy to make
++   Src+ file to copy
++   Dst+ new copy to make
 <!-- -->
 **Returns:**
-*   1 on success; 0 otherwise.
++   1 on success; 0 otherwise.
 
 
 Src may be either a cache file, a savefile, or the name of an

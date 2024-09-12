@@ -1,26 +1,26 @@
 ## Insert proc (icon)
 **See also:**
-*   [procs (icon)](/ref/icon/proc.md) 
-*   [New proc](/ref/icon/proc/New.md) 
-*   [map_format var (world)](/ref/world/var/map_format.md) 
-*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-*   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [New proc](/ref/icon/proc/New.md) 
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
++   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 
 <!-- -->
 **Format:**
-*   Insert(new_icon,icon_state,dir,frame,moving,delay)
-*   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
++   Insert(new_icon,icon_state,dir,frame,moving,delay)
++   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
 <!-- -->
 **Args:**
-*   new_icon* an icon file or /icon object to insert
-*   icon_state* an optional text string, specifying a single icon state
++   new_icon+ an icon file or /icon object to insert
++   icon_state+ an optional text string, specifying a single icon state
     to change or add to this icon
-*   dir* an optional direction; the inserted icon will only be added for
++   dir+ an optional direction; the inserted icon will only be added for
     this direction
-*   frame* an optional animation frame (starting at 1); the inserted
++   frame+ an optional animation frame (starting at 1); the inserted
     icon will only be added for this frame
-*   moving* Non-zero to insert as a movement state, 0 for a regular
++   moving+ Non-zero to insert as a movement state, 0 for a regular
     non-movement state
-*   delay* 0 or null to leave unchanged; positive to set delay for a
++   delay+ 0 or null to leave unchanged; positive to set delay for a
     frame and turn rewind off; negative to set delay and rewind
 
 
@@ -44,12 +44,12 @@ pulsating arrow icon = I
  
 
 The icon resulting from
-this example has two states* The original arrow, and a new state called
+this example has two states+ The original arrow, and a new state called
 \"blink\" that pulsates between full and ½ luminance. To use the
 blinking state after that, set the atom\'s icon_state to \"blink\".
 
 
-(Note for animations* When building an animated icon_state from
+(Note for animations+ When building an animated icon_state from
 scratch, you can only add 16 new animation frames at a time; i.e.,
 frame\<=total_frames+16. Higher values for frame will be ignored. This
 is a safety precaution.) 

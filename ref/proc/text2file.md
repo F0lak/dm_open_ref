@@ -1,16 +1,16 @@
 ## text2file proc
 **See also:**
-*   [file2text proc](/ref/proc/file2text.md) 
-*   [shell proc](/ref/proc/shell.md) <!-- -->
++   [file2text proc](/ref/proc/file2text.md) 
++   [shell proc](/ref/proc/shell.md) <!-- -->
 **Format:**
-*   text2file(Text,File)
++   text2file(Text,File)
 <!-- -->
 **Args:**
-*   Text* text to be added to file
-*   File* file to be appended to
++   Text+ text to be added to file
++   File+ file to be appended to
 <!-- -->
 **Returns:**
-*   1 on success; 0 otherwise.
++   1 on success; 0 otherwise.
 
 
 Appends text to a file. If the file does not exist, one will be

@@ -1,8 +1,8 @@
 ## tag var (datum)
 **See also:**
-*   [locate proc](/ref/proc/locate.md) <!-- -->
++   [locate proc](/ref/proc/locate.md) <!-- -->
 **Default value:**
-*   null
++   null
 
 
 This may be assigned to a unique text string identifying a

@@ -1,27 +1,27 @@
 ## pixloc proc 
 ###### BYOND Version 516
 **See also:**
-*   [pixloc](/ref/pixloc.md) 
-*   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) <!-- -->
++   [pixloc](/ref/pixloc.md) 
++   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
++   [bound_pixloc proc](/ref/proc/bound_pixloc.md) <!-- -->
 **Format:**
-*   pixloc(x, y, z)
-*   pixloc(Atom)
-*   pixloc(Atom, x, y)
-*   pixloc(Atom, Vector)
-*   pixloc(Pixloc)
-*   pixloc(Pixloc, x, y)
-*   pixloc(Pixloc, Vector)
++   pixloc(x, y, z)
++   pixloc(Atom)
++   pixloc(Atom, x, y)
++   pixloc(Atom, Vector)
++   pixloc(Pixloc)
++   pixloc(Pixloc, x, y)
++   pixloc(Pixloc, Vector)
 <!-- -->
 **Returns:**
-*   A new `pixloc` object or null.
++   A new `pixloc` object or null.
 <!-- -->
 **Args:**
-*   x, y, z* Pixel coordinates in world space (starting at 1,1,1). When
++   x, y, z+ Pixel coordinates in world space (starting at 1,1,1). When
     the first argument is an atom or pixloc, x and y are offsets.
-*   Atom* An atom whose pixloc will be copied.
-*   Pixloc* An existing pixloc to copy.
-*   Vector* A 2D vector to offset the new pixloc by.
++   Atom+ An atom whose pixloc will be copied.
++   Pixloc+ An existing pixloc to copy.
++   Vector+ A 2D vector to offset the new pixloc by.
 
 
 Creates a new `pixloc` object based on an existing object\'s

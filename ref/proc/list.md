@@ -1,20 +1,20 @@
 ## list proc
 **See also:**
-*   [arglist proc](/ref/proc/arglist.md) 
-*   [list](/ref/list.md) 
-*   [list associations](/ref/list/associations.md) 
++   [arglist proc](/ref/proc/arglist.md) 
++   [list](/ref/list.md) 
++   [list associations](/ref/list/associations.md) 
 <!-- -->
 **Format:**
-*   list(A,B,C,\...)
-*   or
-*   list(A=a,B=b,C=c,\...)
++   list(A,B,C,\...)
++   or
++   list(A=a,B=b,C=c,\...)
 <!-- -->
 **Returns:**
-*   A new list with contents A, B, C, and (optional) associated values
++   A new list with contents A, B, C, and (optional) associated values
     a, b, c.
 <!-- -->
 **Args:**
-*   Arbitrary number of elements to be inserted into the list.
++   Arbitrary number of elements to be inserted into the list.
 
 
 Assign elements to a list.
@@ -46,7 +46,7 @@ That creates a list with contents (\"player,
 The index values should be constants, and that usually means
 text constants. When these index values happen to be text strings that
 satisfy all the requirements for variable names, this may also be
-written in a convenient short-hand without the double quotes* 
+written in a convenient short-hand without the double quotes+ 
 ```
 
 var/list/lst = list(player = \"James Byond\", score = 2000) 

@@ -1,9 +1,9 @@
 ## icon text macro
 **See also:**
-*   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
-*   [macros (text)](/ref/DM/text/macros.md) 
-*   [style sheets](/ref/DM/text/style.md) 
-*   [tags (text)](/ref/DM/text/tags.md) 
++   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
++   [macros (text)](/ref/DM/text/macros.md) 
++   [style sheets](/ref/DM/text/style.md) 
++   [tags (text)](/ref/DM/text/tags.md) 
 
 
 The \\icon macro is used to treat the following embedded
@@ -12,16 +12,16 @@ example, would be replaced by its icon rather than by its name.
 ### Example:
 
 ```
- usr \<\< \"You look like this* \\icon\[usr\]!\" 
+ usr \<\< \"You look like this+ \\icon\[usr\]!\" 
 ```
 
 
 
 The `\icon` macro expands internally to the \<IMG\> tag. The
-above example, could be rewritten like this* 
+above example, could be rewritten like this+ 
 ```
  usr \<\< \"You
-look like this* \\ ![](\ref%5Busr.icon%5D){.icon
+look like this+ \\ ![](\ref%5Busr.icon%5D){.icon
 iconstate="[usr.icon_state]"}!\" 
 ```
  
@@ -31,10 +31,10 @@ current icon state of the object is automatically used. Also note that
 the image belongs to a class called `icon`. That allows you to configure
 the way icons are displayed by using a style sheet. The following
 default style rule causes icons to be shrunk to 16 by 16 pixels so they
-fit in better with surrounding text* 
+fit in better with surrounding text+ 
 ```
- IMG.icon {width* 16px;
-height* 16px} 
+ IMG.icon {width+ 16px;
+height+ 16px} 
 ```
  
 
@@ -44,8 +44,8 @@ individual icons to be formatted differently from the rest.
 ### Example:
 
 ```
- BIG IMG.icon {width* 32px; height* 32px} SMALL IMG.icon
-{width* 16px; height* 16px} 
+ BIG IMG.icon {width+ 32px; height+ 32px} SMALL IMG.icon
+{width+ 16px; height+ 16px} 
 ```
  
 
@@ -53,7 +53,7 @@ With those rules in
 place, you could output a full sized icon by using the \<BIG\> tag:
 
 ```
- usr \<\< \"You look like this* \\icon\[usr\]!\" 
+ usr \<\< \"You look like this+ \\icon\[usr\]!\" 
 ```
 
 
@@ -73,7 +73,7 @@ use of the following tags:
 ### Example:
 
 ```
- usr \<\< \"You look like this* \\
+ usr \<\< \"You look like this+ \\
 ![](\ref%5Busr.icon%5D){.icon iconstate="glowing" icondir="NORTH"
 iconframe="2"}!\" 
 ```

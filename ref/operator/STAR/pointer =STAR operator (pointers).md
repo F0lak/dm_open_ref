@@ -1,14 +1,14 @@
 ## \* pointer operator 
 ###### BYOND Version 515
 **See also:**
-*   [& pointer operator](/ref/operator/&/pointer.md) 
-*   [operators](/ref/operator.md) 
-*   [ispointer proc](/ref/proc/ispointer.md) <!-- -->
++   [& pointer operator](/ref/operator/&/pointer.md) 
++   [operators](/ref/operator.md) 
++   [ispointer proc](/ref/proc/ispointer.md) <!-- -->
 **Format:**
-*   \*A
++   \*A
 <!-- -->
 **Returns:**
-*   The value pointed at by a pointer stored in A
++   The value pointed at by a pointer stored in A
 This operator is also called the dereference operator, since it takes a
 pointer reference and gives you the value within.) 
 
@@ -29,7 +29,7 @@ mob/verb/WhereAmI() var/X, Y PixelPos(&X, &Y) usr \<\< \"You are at
 ```
  
 
-Note* If you try to
+Note+ If you try to
 read to or write from a pointer reference that is no longer valid, such
 as to a var inside a proc that has ended, the read or write will fail
 silently; reading will return a null value. (An exception is pointers to

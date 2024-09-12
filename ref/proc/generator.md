@@ -1,22 +1,22 @@
 ## generator proc 
 ###### BYOND Version 514
 **See also:**
-*   [Generators](/ref/%7Bnotes%7D/generators.md) 
-*   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-*   [color var (atom)](/ref/atom/var/color.md) 
-*   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
-*   [vector](/ref/vector.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
++   [Generators](/ref/%7Bnotes%7D/generators.md) 
++   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
++   [vector](/ref/vector.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
 <!-- -->
 **Format:**
-*   generator(type, A, B, rand)
++   generator(type, A, B, rand)
 <!-- -->
 **Args:**
-*   type* The type of generator object, which determines what kind of
++   type+ The type of generator object, which determines what kind of
     results it produces
-*   A* One extreme of the generator results
-*   B* The other extreme
-*   rand* Type of random distribution used
++   A+ One extreme of the generator results
++   B+ The other extreme
++   rand+ Type of random distribution used
 
 
 Creates a generator that can be used to produce a random value.
@@ -57,4 +57,4 @@ random number between -1 and 1 world \<\< G.Rand() // generate a number
 and output it to world 
 ```
 
-Note* Worlds compiled in older BYOND versions before [vector](/ref/vector.md) will return lists from vector generators.
+Note+ Worlds compiled in older BYOND versions before [vector](/ref/vector.md) will return lists from vector generators.

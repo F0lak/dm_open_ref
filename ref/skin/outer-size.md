@@ -1,14 +1,14 @@
 ## outer-size parameter (skin) 
 ###### BYOND Version 513
 **See also:**
-*   [size parameter](/ref/%7Bskin%7D/param/size.md) 
-*   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
++   [size parameter](/ref/%7Bskin%7D/param/size.md) 
++   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) 
++   [Main](/ref/%7Bskin%7D/control/main.md) 
 <!-- -->
 **Format:**
-*   *width*x*height*
++   *width*x*height*
 
 
 Read-only. 

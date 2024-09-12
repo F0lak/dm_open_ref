@@ -1,21 +1,21 @@
 ## noise_hash proc 
 ###### BYOND Version 515
 **See also:**
-*   [rand proc](/ref/proc/rand.md) 
-*   [rand_seed proc](/ref/proc/rand_seed.md) <!-- -->
++   [rand proc](/ref/proc/rand.md) 
++   [rand_seed proc](/ref/proc/rand_seed.md) <!-- -->
 **Format:**
-*   noise_hash(num1, num2, num3\...)
-*   noise_hash(list_of_nums)
-*   noise_hash(hash_name, num1, num2, num3\...)
-*   noise_hash(hash_name, list_of_nums)
++   noise_hash(num1, num2, num3\...)
++   noise_hash(list_of_nums)
++   noise_hash(hash_name, num1, num2, num3\...)
++   noise_hash(hash_name, list_of_nums)
 <!-- -->
 **Returns:**
-*   A number between 0 and 1 (excluding 1 itself)
++   A number between 0 and 1 (excluding 1 itself)
 <!-- -->
 **Args:**
-*   num1, num2, num3\...* Numbers to be hashed (at least one)
-*   list_of_nums* A list containing the numbers to hash
-*   hash_name* A text string indicating the hash type (reserved for
++   num1, num2, num3\...+ Numbers to be hashed (at least one)
++   list_of_nums+ A list containing the numbers to hash
++   hash_name+ A text string indicating the hash type (reserved for
     future use)
 
 

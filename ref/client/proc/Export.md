@@ -1,15 +1,15 @@
 ## Export proc (client)
 **See also:**
-*   [Import proc (client)](/ref/client/proc/Import.md) 
-*   [New proc (client)](/ref/client/proc/New.md) 
-*   [hub var (world)](/ref/world/var/hub.md) 
-*   [savefile](/ref/savefile.md) 
++   [Import proc (client)](/ref/client/proc/Import.md) 
++   [New proc (client)](/ref/client/proc/New.md) 
++   [hub var (world)](/ref/world/var/hub.md) 
++   [savefile](/ref/savefile.md) 
 <!-- -->
 **Format:**
-*   client.Export(file)
++   client.Export(file)
 <!-- -->
 **Args:**
-*   file* file to send to client
++   file+ file to send to client
 
 
 This stores the file on the user\'s computer in a special

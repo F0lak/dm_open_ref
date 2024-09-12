@@ -1,15 +1,15 @@
 ## Shift proc (icon)
 **See also:**
-*   [dir var (atom)](/ref/atom/var/dir.md) 
-*   [icon](/ref/icon.md) 
-*   [procs (icon)](/ref/icon/proc.md) <!-- -->
++   [dir var (atom)](/ref/atom/var/dir.md) 
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) <!-- -->
 **Format:**
-*   Shift(dir,offset,wrap=0)
++   Shift(dir,offset,wrap=0)
 <!-- -->
 **Args:**
-*   dir* direction in which to shift the icon
-*   offset* distance to shift the pixels
-*   wrap* if true, causes shifted pixels to wrap around to the other
++   dir+ direction in which to shift the icon
++   offset+ distance to shift the pixels
++   wrap+ if true, causes shifted pixels to wrap around to the other
     side
 
 

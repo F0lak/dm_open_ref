@@ -1,16 +1,16 @@
 ## OpenPort proc (world)
 **See also:**
-*   [port var (world)](/ref/world/var/port.md) 
-*   [visibility var (world)](/ref/world/var/visibility.md) 
++   [port var (world)](/ref/world/var/port.md) 
++   [visibility var (world)](/ref/world/var/visibility.md) 
 <!-- -->
 **See also:**
-*   OpenPort(port=0)
++   OpenPort(port=0)
 <!-- -->
 **Args:**
-*   port* the network port to open
++   port+ the network port to open
 <!-- -->
 **Returns:**
-*   1 on success; 0 on failure
++   1 on success; 0 on failure
 
 
 This causes the world to be hosted on the specified network

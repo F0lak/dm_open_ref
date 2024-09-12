@@ -1,9 +1,9 @@
 ## lazy_eye var (client)
 **See also:**
-*   [view var (client)](/ref/client/var/view.md) 
-*   [view var (world)](/ref/world/var/view.md) <!-- -->
++   [view var (client)](/ref/client/var/view.md) 
++   [view var (world)](/ref/world/var/view.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 This is the maximum \"lag\" between client.eye and client.mob.
@@ -33,4 +33,4 @@ entire region will shift 5 tiles in the direction of motion.
 You can assign lazy_eye to any value valid as a view size, so,
 for example, if you have a non-square setting for client.view, say,
 \"17x11\", you could apply a similar setting to lazy_eye. You can even
-make one dimension lazy and the other one strictly centered* \"0x5\".
+make one dimension lazy and the other one strictly centered+ \"0x5\".

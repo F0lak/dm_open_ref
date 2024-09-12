@@ -1,23 +1,23 @@
 ## sha1 proc 
 ###### BYOND Version 513
 **See also:**
-*   [md5 proc](/ref/proc/md5.md) 
-*   [file proc](/ref/proc/file.md) 
++   [md5 proc](/ref/proc/md5.md) 
++   [file proc](/ref/proc/file.md) 
 <!-- -->
 **Format:**
-*   sha1(T)
-*   sha1(F)
++   sha1(T)
++   sha1(F)
 <!-- -->
 **Returns:**
-*   text or null.
++   text or null.
 <!-- -->
 **Args:**
-*   T* A text string.
-*   F* A file.
++   T+ A text string.
++   F+ A file.
 
 
 This proc implements SHA1 hashing. A hash function is a one-way
-process that compacts information to a short value* a hash. The same
+process that compacts information to a short value+ a hash. The same
 value will always have the same hash. Among other uses, most computers
 use hashing to store passwords. By storing just the hash, the password
 file contains very little sensitive information, but the password can

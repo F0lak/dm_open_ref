@@ -1,10 +1,10 @@
 ## MapColors proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) 
-*   [procs (icon)](/ref/icon/proc.md) 
-*   [rgb proc](/ref/proc/rgb.md) <!-- -->
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [rgb proc](/ref/proc/rgb.md) <!-- -->
 **Format:**
-*   MapColors(rr, rg, rb, gr, gg, gb, br, bg, bb, r0=0, g0=0, b0=0)\
++   MapColors(rr, rg, rb, gr, gg, gb, br, bg, bb, r0=0, g0=0, b0=0)\
     *or*\
     MapColors(r_rgb, g_rgb, b_rgb, rgb0=rgb(0,0,0))\
     *or*\
@@ -14,17 +14,17 @@
     MapColors(r_rgba, g_rgba, b_rgba, a_rgba, rgba0)
 <!-- -->
 **Args:**
-*   rr* portion of old red component -\> new red component
-*   rg* portion of old red component -\> new green component
-*   rb* portion of old red component -\> new blue component
-*   ra* portion of old red component -\> new alpha component
-*   r0* new base red component
-*   \...
++   rr+ portion of old red component -\> new red component
++   rg+ portion of old red component -\> new green component
++   rb+ portion of old red component -\> new blue component
++   ra+ portion of old red component -\> new alpha component
++   r0+ new base red component
++   \...
 *or*
-*   r_rgb* red component is converted to this color
-*   g_rgb* green component is converted to this color
-*   b_rgb* blue component is converted to this color
-*   rgb0* this color is added to the result
++   r_rgb+ red component is converted to this color
++   g_rgb+ green component is converted to this color
++   b_rgb+ blue component is converted to this color
++   rgb0+ this color is added to the result
 
 
 This is used for complex color mapping that can be used for
@@ -42,7 +42,7 @@ green to another color, and b_rgb converts blue to still another color,
 and all of them are added together. 
 
 Either of these calls
-change the icon to grayscale* 
+change the icon to grayscale+ 
 ```
 icon.MapColors(0.3,0.3,0.3,
 0.59,0.59,0.59, 0.11,0.11,0.11, 0,0,0) // or\...

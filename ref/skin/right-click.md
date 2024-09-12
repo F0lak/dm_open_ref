@@ -1,16 +1,16 @@
 ## right-click parameter (skin)
 **See also:**
-*   [mouse handling](/ref/DM/mose.md) 
-*   [popup_menu setting (verb)](/ref/set/popup_menu.md) 
-*   [drop-zone parameter](/ref/%7Bskin%7D/param/drop-zone.md) 
++   [mouse handling](/ref/DM/mose.md) 
++   [popup_menu setting (verb)](/ref/set/popup_menu.md) 
++   [drop-zone parameter](/ref/%7Bskin%7D/param/drop-zone.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 True if this control should allow right-clicks to behave like

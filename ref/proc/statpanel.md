@@ -1,19 +1,19 @@
 ## statpanel proc
 **See also:**
-*   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
-*   [Stat proc (client)](/ref/client/proc/Stat.md) 
-*   [stat proc](/ref/proc/stat.md) 
-*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
++   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
++   [Stat proc (client)](/ref/client/proc/Stat.md) 
++   [stat proc](/ref/proc/stat.md) 
++   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
 **Format:**
-*   statpanel(Panel,Name,Value)
++   statpanel(Panel,Name,Value)
 <!-- -->
 **Args:**
-*   Panel* the name of the stat panel
-*   Name* the name of the stat line
-*   Value* the data to be displayed
++   Panel+ the name of the stat panel
++   Name+ the name of the stat line
++   Value+ the data to be displayed
 <!-- -->
 **Returns:**
-*   If called with just a Panel argument, 1 is returned if the player is
++   If called with just a Panel argument, 1 is returned if the player is
     looking at the panel and 0 is returned if not. This may be useful to
     avoid the needless overhead of generating output to a panel that is
     not visible.

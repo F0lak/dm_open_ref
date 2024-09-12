@@ -1,20 +1,20 @@
 ## Turn proc (vector) 
 ###### BYOND Version 516
 **See also:**
-*   [turn proc (applied to a vector)](/ref/proc/turn/vector.md) 
-*   [vector](/ref/vector.md) 
-*   [vector proc](/ref/proc/vector.md) 
-*   [vars (vector)](/ref/vector/var.md) <!-- -->
++   [turn proc (applied to a vector)](/ref/proc/turn/vector.md) 
++   [vector](/ref/vector.md) 
++   [vector proc](/ref/proc/vector.md) 
++   [vars (vector)](/ref/vector/var.md) <!-- -->
 **Format:**
-*   A.Turn(angle)
-*   A.Turn(B)
++   A.Turn(angle)
++   A.Turn(B)
 <!-- -->
 **Args:**
-*   angle* An angle to turn a vector clockwise in 2D.
-*   B* A vector to rotate around (right-hand rule).
++   angle+ An angle to turn a vector clockwise in 2D.
++   B+ A vector to rotate around (right-hand rule).
 <!-- -->
 **Returns:**
-*   The vector A, after rotating it.
++   The vector A, after rotating it.
 
 
 This proc modifies the source vector. For legacy reasons, it

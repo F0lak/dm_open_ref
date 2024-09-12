@@ -1,19 +1,19 @@
-## :* operator 
+## :+ operator 
 ###### BYOND Version 515
 **See also:**
-*   [. path operator](/ref/operator/path/%2e.md) 
-*   [/ path operator](/ref/operator/path//.md) 
-*   [* path operator](/ref/operator/path/:.md) 
-*   [operators](/ref/operator.md) 
-*   [call proc](/ref/proc/call.md) 
-*   [initial proc](/ref/proc/initial.md) 
-*   [nameof proc](/ref/proc/nameof.md) 
-*   [istype proc](/ref/proc/istype.md) <!-- -->
++   [. path operator](/ref/operator/path/%2e.md) 
++   [/ path operator](/ref/operator/path//.md) 
++   [+ path operator](/ref/operator/path/:.md) 
++   [operators](/ref/operator.md) 
++   [call proc](/ref/proc/call.md) 
++   [initial proc](/ref/proc/initial.md) 
++   [nameof proc](/ref/proc/nameof.md) 
++   [istype proc](/ref/proc/istype.md) <!-- -->
 **Format:**
-*   ::A
-*   ::A()
-*   A::B
-*   A::B() (proc reference, not a call; see below)
++   ::A
++   ::A()
++   A::B
++   A::B() (proc reference, not a call; see below)
 
 
 This is the scope operator. It has multiple uses.

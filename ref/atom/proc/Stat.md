@@ -1,16 +1,16 @@
 ## Stat proc (atom)
 **See also:**
-*   [Stat proc (client)](/ref/client/proc/Stat.md) 
-*   [stat proc](/ref/proc/stat.md) 
-*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
++   [Stat proc (client)](/ref/client/proc/Stat.md) 
++   [stat proc](/ref/proc/stat.md) 
++   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
 **Format:**
-*   Stat()
++   Stat()
 <!-- -->
 **When:**
-*   Called periodically by the client to update the stat window.
++   Called periodically by the client to update the stat window.
 <!-- -->
 **Default action:**
-*   none.
++   none.
 
 
 The following code could be used to display a player\'s current

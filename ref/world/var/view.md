@@ -1,14 +1,14 @@
 ## view var (world)
 **See also:**
-*   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
-*   [show_map var (client)](/ref/client/var/show_map.md) 
-*   [view proc](/ref/proc/view.md) 
-*   [view var (client)](/ref/client/var/view.md) <!-- -->
++   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
++   [show_map var (client)](/ref/client/var/show_map.md) 
++   [view proc](/ref/proc/view.md) 
++   [view var (client)](/ref/client/var/view.md) <!-- -->
 **Default value:**
-*   5
++   5
 <!-- -->
 **Possible values:**
-*   -1 to 34 or \"WIDTHxHEIGHT\"
++   -1 to 34 or \"WIDTHxHEIGHT\"
 
 
 This is the default map viewport range. The default value of 5
@@ -19,7 +19,7 @@ conveniently fit the map on the player\'s screen.
 For
 non-square views, you can assign this to a text string of the form
 \"WIDTHxHEIGHT\". For example, \"11x11\" is equivalent to a view depth
-of 5, but you could make it wider like this* \"13x11\". 
+of 5, but you could make it wider like this+ \"13x11\". 
 
 This
 setting also affects the default range of the `view()`, `oview()`,

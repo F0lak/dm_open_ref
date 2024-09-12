@@ -1,7 +1,7 @@
 ## tmp vars
 **See also:**
-*   [savefile](/ref/savefile.md) 
-*   [vars](/ref/var.md) 
++   [savefile](/ref/savefile.md) 
++   [vars](/ref/var.md) 
 
 
 The tmp type modifier indicates that an object variable should
@@ -23,7 +23,7 @@ Therefore, you would need to use `tmp` when defining the variable.
  mob var/tmp leader verb follow(mob/M) leader = M 
 ```
 
-::* {.sidebar .note}
+::+ {.sidebar .note}
 
 
 Accidentally saving another mob in your savefile can be
@@ -47,23 +47,23 @@ override [Read()](/ref/datum/proc/Read.md) {.code} so if that var is present,
 you can remove it before calling `..()` to finish loading.
 :::
 The following built-in variables are defined as tmp vars:
-*   [type](/ref/datum/var/type.md) 
-*   [parent_type](/ref/datum/var/parent_type.md) 
-*   [vars](/ref/datum/var/vars.md) 
-*   [verbs](/ref/atom/var/verbs.md) 
-*   [group](/ref/mob/var/group.md) 
-*   [loc](/ref/atom/var/loc.md) 
-*   [locs](/ref/atom/var/locs.md) 
-*   [vis_locs](/ref/atom/var/vis_locs.md) 
-*   [x](/ref/atom/var/x.md) 
-*   [y](/ref/atom/var/y.md) 
-*   [z](/ref/atom/var/z.md) 
-*   [ckey](/ref/mob/var/ckey.md) 
-*   [visibility](/ref/atom/var/visibility.md) 
-*   [bound_x](/ref/atom/movable/var/bound_x.md) 
-*   [bound_y](/ref/atom/movable/var/bound_y.md) 
-*   [bound_width](/ref/atom/movable/var/bound_width.md) 
-*   [bound_height](/ref/atom/movable/var/bound_height.md) 
-*   [mouse_over_pointer](/ref/atom/var/mouse_over_pointer.md) 
-*   [mouse_drag_pointer](/ref/atom/var/mouse_drag_pointer.md) 
-*   [mouse_drop_pointer](/ref/atom/var/mouse_drop_pointer.md) 
++   [type](/ref/datum/var/type.md) 
++   [parent_type](/ref/datum/var/parent_type.md) 
++   [vars](/ref/datum/var/vars.md) 
++   [verbs](/ref/atom/var/verbs.md) 
++   [group](/ref/mob/var/group.md) 
++   [loc](/ref/atom/var/loc.md) 
++   [locs](/ref/atom/var/locs.md) 
++   [vis_locs](/ref/atom/var/vis_locs.md) 
++   [x](/ref/atom/var/x.md) 
++   [y](/ref/atom/var/y.md) 
++   [z](/ref/atom/var/z.md) 
++   [ckey](/ref/mob/var/ckey.md) 
++   [visibility](/ref/atom/var/visibility.md) 
++   [bound_x](/ref/atom/movable/var/bound_x.md) 
++   [bound_y](/ref/atom/movable/var/bound_y.md) 
++   [bound_width](/ref/atom/movable/var/bound_width.md) 
++   [bound_height](/ref/atom/movable/var/bound_height.md) 
++   [mouse_over_pointer](/ref/atom/var/mouse_over_pointer.md) 
++   [mouse_drag_pointer](/ref/atom/var/mouse_drag_pointer.md) 
++   [mouse_drop_pointer](/ref/atom/var/mouse_drop_pointer.md) 

@@ -1,18 +1,18 @@
 ## view-size parameter (skin)
 **See also:**
-*   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
-*   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
-*   [icon_size var (world)](/ref/world/var/icon_size.md) 
-*   [view var (world)](/ref/world/var/view.md) 
-*   [view var (client)](/ref/client/var/view.md) 
-*   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
++   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
++   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
++   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [view var (world)](/ref/world/var/view.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
 <!-- -->
 **Applies to:**
-*   [Map](/ref/%7Bskin%7D/control/map.md)  (window only)
++   [Map](/ref/%7Bskin%7D/control/map.md)  (window only)
 <!-- -->
 **Format:**
-*   *width*x*height*
++   *width*x*height*
 
 
 The size, in pixels, of the map after `zoom` has been applied.

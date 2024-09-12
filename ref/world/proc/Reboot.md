@@ -1,15 +1,15 @@
 ## Reboot proc (world)
 **Format:**
-*   Reboot(reason)
++   Reboot(reason)
 <!-- -->
 **Args:**
-*   reason* the reason `Reboot()` was called:
-    -   0 or null* Called by game code
-    -   1* By host (Ctrl+R in Dream Seeker)
-    -   2* By [world.Topic()](/ref/world/proc/Topic.md)     -   3* By SIGUSR1 in UNIX
++   reason+ the reason `Reboot()` was called:
+    -   0 or null+ Called by game code
+    -   1+ By host (Ctrl+R in Dream Seeker)
+    -   2+ By [world.Topic()](/ref/world/proc/Topic.md)     -   3+ By SIGUSR1 in UNIX
 <!-- -->
 **Default action:**
-*   
++   
 
 
 Reload the world from scratch. Any connected players will

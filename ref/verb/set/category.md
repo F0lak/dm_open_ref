@@ -1,14 +1,14 @@
 ## category setting (verb)
 **See also:**
-*   [default_verb_category var
++   [default_verb_category var
     (client)](/ref/client/var/default_verb_category.md) 
-*   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
++   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
 <!-- -->
 **Format:**
-*   set category = \"Category\"
++   set category = \"Category\"
 <!-- -->
 **Args:**
-*   Category* A text string for the category.
++   Category+ A text string for the category.
 
 
 Verbs in the same category are visually grouped together in the

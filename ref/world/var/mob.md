@@ -1,8 +1,8 @@
 ## mob var (world)
 **See also:**
-*   [New proc (client)](/ref/client/proc/New.md) <!-- -->
++   [New proc (client)](/ref/client/proc/New.md) <!-- -->
 **Default value:**
-*   /mob.
++   /mob.
 
 
 When a player connects to the world, the world is searched for

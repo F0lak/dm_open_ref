@@ -1,8 +1,8 @@
 ## executor var (world)
 **See also:**
-*   [startup proc](/ref/proc/startup.md) <!-- -->
++   [startup proc](/ref/proc/startup.md) <!-- -->
 **Format:**
-*   executor = \"/usr/local/byond/bin/DreamDaemon \[params\]\"
++   executor = \"/usr/local/byond/bin/DreamDaemon \[params\]\"
 
 
 This option is for direct execution of `.dmb` files in UNIX.

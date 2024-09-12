@@ -1,11 +1,11 @@
 ## alert proc
 **See also:**
-*   [input proc](/ref/proc/input.md) <!-- -->
++   [input proc](/ref/proc/input.md) <!-- -->
 **Format:**
-*   alert(Usr=usr,Message,Title,Button1=\"Ok\",Button2,Button3)
++   alert(Usr=usr,Message,Title,Button1=\"Ok\",Button2,Button3)
 <!-- -->
 **Returns:**
-*   Selected button
++   Selected button
 
 
 This sleeps the current proc until the user clicks one of the

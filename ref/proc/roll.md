@@ -1,17 +1,17 @@
 ## roll proc
 **See also:**
-*   [rand proc](/ref/proc/rand.md) <!-- -->
++   [rand proc](/ref/proc/rand.md) <!-- -->
 **Format:**
-*   roll(ndice=1,sides)
-*   roll(dice)
++   roll(ndice=1,sides)
++   roll(dice)
 <!-- -->
 **Returns:**
-*   The sum of the rolled dice.
++   The sum of the rolled dice.
 <!-- -->
 **Args:**
-*   ndice* number of dice to role.
-*   sides* number of sides to the dice.
-*   dice* a text string encoding both ndice and sides (see below).
++   ndice+ number of dice to role.
++   sides+ number of sides to the dice.
++   dice+ a text string encoding both ndice and sides (see below).
 
 
 The sides of the dice are numbered 1 through the total number

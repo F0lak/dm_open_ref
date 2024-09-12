@@ -1,14 +1,14 @@
 ## Interpolate proc (matrix)
 **See also:**
-*   [matrix](/ref/matrix.md) 
-*   [matrix operators](/ref/matrix/operators.md) 
-*   [matrix procs](/ref/matrix/proc.md) <!-- -->
++   [matrix](/ref/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [matrix procs](/ref/matrix/proc.md) <!-- -->
 **Format:**
-*   Interpolate(Matrix2, t)
++   Interpolate(Matrix2, t)
 <!-- -->
 **Args:**
-*   Matrix2* Another matrix
-*   t* The interpolation factor* from 0 (src) to 1 (Matrix2). Usually
++   Matrix2+ Another matrix
++   t+ The interpolation factor+ from 0 (src) to 1 (Matrix2). Usually
     this is a value between 0 and 1.
 
 

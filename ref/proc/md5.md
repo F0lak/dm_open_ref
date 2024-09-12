@@ -1,22 +1,22 @@
 ## md5 proc
 **See also:**
-*   [sha1 proc](/ref/proc/sha1.md) 
-*   [file proc](/ref/proc/file.md) 
++   [sha1 proc](/ref/proc/sha1.md) 
++   [file proc](/ref/proc/file.md) 
 <!-- -->
 **Format:**
-*   md5(T)
-*   md5(F)
++   md5(T)
++   md5(F)
 <!-- -->
 **Returns:**
-*   text or null.
++   text or null.
 <!-- -->
 **Args:**
-*   T* A text string.
-*   F* A file.
++   T+ A text string.
++   F+ A file.
 
 
 This proc implements MD5 hashing. A hash function is a one-way
-process that compacts information to a short value* a hash. The same
+process that compacts information to a short value+ a hash. The same
 value will always have the same hash. Among other uses, most computers
 use hashing to store passwords. By storing just the hash, the password
 file contains very little sensitive information, but the password can

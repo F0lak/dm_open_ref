@@ -1,11 +1,11 @@
 ## matrix 
 ###### BYOND Version 500
 **See also:**
-*   [matrix proc](/ref/proc/matrix.md) 
-*   [matrix operators](/ref/matrix/operators.md) 
-*   [matrix procs](/ref/matrix/proc.md) 
-*   [transform var (atom)](/ref/atom/var/transform.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
++   [matrix proc](/ref/proc/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [matrix procs](/ref/matrix/proc.md) 
++   [transform var (atom)](/ref/atom/var/transform.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
 
 
 To display rotation, scaling, and other transformations on
@@ -38,7 +38,7 @@ Manipulation of matrices can be done with operators,
 or with procs. You can do the following with them:
 -   **Multiply:** Multiplying two matrices together will chain together
     the transformations they represent. For instance, a scaling matrix
-    multiplied by a rotation matrix says* Scale, then rotate.
+    multiplied by a rotation matrix says+ Scale, then rotate.
     Multiplication of two matrices is sensitive to the order you use.
 -   **Scale:** A simple scale matrix uses only the a and e values, to
     scale x and y by a certain amount.

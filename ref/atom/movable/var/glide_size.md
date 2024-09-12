@@ -1,21 +1,21 @@
 ## glide_size var (movable atoms) 
 ###### BYOND Version 490
 **See also:**
-*   [animate_movement var (movable
++   [animate_movement var (movable
     atoms)](/ref/atom/movable/var/animate_movement.md) 
-*   [glide_size var (client)](/ref/client/var/glide_size.md) 
-*   [pixel_x var (atom)](/ref/atom/var/pixel_x.md) 
-*   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
-*   [icon_size var (world)](/ref/world/var/icon_size.md) 
-*   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-*   [fps var (client)](/ref/client/var/fps.md) 
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [glide_size var (client)](/ref/client/var/glide_size.md) 
++   [pixel_x var (atom)](/ref/atom/var/pixel_x.md) 
++   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
++   [fps var (client)](/ref/client/var/fps.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
 <!-- -->
 **Default value:**
-*   0
++   0
 
 
-Note* The way this setting is used depends on
+Note+ The way this setting is used depends on
 [world.movement_mode](/ref/world/var/movement_mode.md) . See
 [Gliding](/ref/%7Bnotes%7D/gliding.md) for more details. 
 

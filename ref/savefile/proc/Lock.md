@@ -1,15 +1,15 @@
 ## Lock proc (savefile)
 **See also:**
-*   [New proc (savefile)](/ref/savefile/proc/New.md) 
-*   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
++   [New proc (savefile)](/ref/savefile/proc/New.md) 
++   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
 **Format:**
-*   Lock(timeout)
++   Lock(timeout)
 <!-- -->
 **Args:**
-*   timeout* seconds to wait; -1 for no timeout
++   timeout+ seconds to wait; -1 for no timeout
 <!-- -->
 **Returns:**
-*   1 on success; 0 on failure
++   1 on success; 0 on failure
 
 
 In order to modify a savefile, exclusive access to the file

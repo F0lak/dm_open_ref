@@ -1,17 +1,17 @@
 ## json_decode proc 
 ###### BYOND Version 510
 **See also:**
-*   [json_encode proc](/ref/proc/json_encode.md) <!-- -->
++   [json_encode proc](/ref/proc/json_encode.md) <!-- -->
 **Format:**
-*   json_decode(JSON)
-*   json_decode(JSON, flags)
++   json_decode(JSON)
++   json_decode(JSON, flags)
 <!-- -->
 **Returns:**
-*   A value interpreted from a JSON-formatted text string.
++   A value interpreted from a JSON-formatted text string.
 <!-- -->
 **Args:**
-*   JSON* The JSON-formatted text to decode.
-*   flags* A set of flags that tell the decoder how to act.
++   JSON+ The JSON-formatted text to decode.
++   flags+ A set of flags that tell the decoder how to act.
 
 
 Arrays like `[1,2,3]` will be converted to regular lists like

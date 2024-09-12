@@ -1,6 +1,6 @@
 # text var (atom)
 **Default value:**
-*   The first letter of the object\'s name.
++   The first letter of the object\'s name.
 
 
 This is the character used to represent the object on text

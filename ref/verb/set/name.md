@@ -1,9 +1,9 @@
 # name setting (verb)
 **Format:**
-*   set name = \"Name\"
++   set name = \"Name\"
 <!-- -->
 **Args:**
-*   Name* A text string for the name.
++   Name+ A text string for the name.
 
 
 The name attribute of a verb defaults to the node name. Setting

@@ -1,14 +1,14 @@
 ## cell-span parameter (skin)
 **See also:**
-*   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
++   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
 **Format:**
-*   *columns*,*rows*
++   *columns*,*rows*
 <!-- -->
 **Default value:**
-*   1x1
++   1x1
 
 
 The span of the current grid cell; it can be merged with cells

@@ -1,18 +1,18 @@
 ## ispath proc
 **See also:**
-*   [typesof proc](/ref/proc/typesof.md) <!-- -->
++   [typesof proc](/ref/proc/typesof.md) <!-- -->
 **Format:**
-*   ispath(Val)
-*   ispath(Val,Type)
++   ispath(Val)
++   ispath(Val,Type)
 <!-- -->
 **Returns:**
-*   single-argument* 1 if Val is a type path
-*   double-argument* 1 if Val is a type path derived from Type; 0
++   single-argument+ 1 if Val is a type path
++   double-argument+ 1 if Val is a type path derived from Type; 0
     otherwise.
 <!-- -->
 **Args:**
-*   Val* A type path.
-*   Type* A type path or instance.
++   Val+ A type path.
++   Type+ A type path or instance.
 ### Example:
 
 ```

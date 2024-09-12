@@ -1,18 +1,18 @@
 ## log proc
 **See also:**
-*   [\*\* operator](/ref/operator/**.md) <!-- -->
++   [\*\* operator](/ref/operator/**.md) <!-- -->
 **Format:**
-*   log(X,Y)
-*   log(Y)
++   log(X,Y)
++   log(Y)
 <!-- -->
 **Returns:**
-*   The logarithm (base X) of Y. If X is not specified, a natural
++   The logarithm (base X) of Y. If X is not specified, a natural
     logarithm is computed (base 2.718\...).
 
 
 The logarithm is the power to which you have to raise X in
 order to get Y. In other words, the following is true (ignoring
-round-off error)* 
+round-off error)+ 
 ```
  X \*\* log(X,Y) == Y 
 ```

@@ -1,6 +1,6 @@
 # dir var (client)
 **Default value:**
-*   NORTH
++   NORTH
 
 
 This defines the relationship between the world\'s coordinate

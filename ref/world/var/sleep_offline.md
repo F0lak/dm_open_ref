@@ -1,6 +1,6 @@
 # sleep_offline var (world)
 **Default value:**
-*   0
++   0
 
 
 Setting this to 1 causes the world to be suspended when there

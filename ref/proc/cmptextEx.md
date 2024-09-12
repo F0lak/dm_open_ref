@@ -1,14 +1,14 @@
 ## cmptextEx proc
 **See also:**
-*   [cmptext proc](/ref/proc/cmptext.md) <!-- -->
++   [cmptext proc](/ref/proc/cmptext.md) <!-- -->
 **Format:**
-*   cmptextEx(T1,T2,\...)
++   cmptextEx(T1,T2,\...)
 <!-- -->
 **Returns:**
-*   1 if all arguments are equal; 0 otherwise.
++   1 if all arguments are equal; 0 otherwise.
 <!-- -->
 **Args:**
-*   Any number of text strings to compare.
++   Any number of text strings to compare.
 
 
 This instruction is sensitive to case. The case-insensitive
@@ -27,6 +27,6 @@ T2).
 
 This outputs \"Not equal!\"
 since \"Hi\" and \"HI\" are different when taking case into account.
-Note* This proc used to be named cmpText, like cmptext but with a
+Note+ This proc used to be named cmpText, like cmptext but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.

@@ -1,6 +1,6 @@
 ## inactivity var (client)
 **See also:**
-*   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
++   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
 
 This is equal to the amount of time (in server ticks, which
 default to 1/10s) since the player\'s last action (such as executing a

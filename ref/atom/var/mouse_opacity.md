@@ -1,18 +1,18 @@
 ## mouse_opacity var (atom)
 **See also:**
-*   [mouse handling](/ref/DM/mouse.md) 
-*   [overlays var (atom)](/ref/atom/var/overlays.md) 
-*   [underlays var (atom)](/ref/atom/var/underlays.md) 
-*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-*   [render_source var (atom)](/ref/atom/var/render_source.md) 
++   [mouse handling](/ref/DM/mouse.md) 
++   [overlays var (atom)](/ref/atom/var/overlays.md) 
++   [underlays var (atom)](/ref/atom/var/underlays.md) 
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [render_source var (atom)](/ref/atom/var/render_source.md) 
 <!-- -->
 **Default value:**
-*   1
++   1
 <!-- -->
 **Possible values:**
-*   0 // transparent to mouse
-*   1 // mouse-opaque where icon is also opaque
-*   2 // completely mouse-opaque
++   0 // transparent to mouse
++   1 // mouse-opaque where icon is also opaque
++   2 // completely mouse-opaque
 
 
 This may be used to control how mouse operations on an object

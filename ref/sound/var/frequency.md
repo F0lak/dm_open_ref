@@ -1,9 +1,9 @@
 ## frequency var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) 
-*   [pitch var (sound)](/ref/sound/var/pitch.md) <!-- -->
++   [vars (sound)](/ref/sound/var.md) 
++   [pitch var (sound)](/ref/sound/var/pitch.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 Any value from -100 to 100 will play this sound at a multiple

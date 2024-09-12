@@ -1,16 +1,16 @@
 ## focus parameter (skin)
 **See also:**
-*   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-*   [winget proc](/ref/proc/winget.md) 
++   [id parameter](/ref/%7Bskin%7D/param/id.md) 
++   [winget proc](/ref/proc/winget.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 This parameter is true if this control currently has focus.

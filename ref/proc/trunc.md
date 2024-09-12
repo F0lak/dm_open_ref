@@ -1,18 +1,18 @@
 ## trunc proc 
 ###### BYOND Version 515
 **See also:**
-*   [fract proc](/ref/proc/fract.md) 
-*   [floor proc](/ref/proc/floor.md) 
-*   [ceil proc](/ref/proc/ceil.md) 
-*   [round proc](/ref/proc/round.md) <!-- -->
++   [fract proc](/ref/proc/fract.md) 
++   [floor proc](/ref/proc/floor.md) 
++   [ceil proc](/ref/proc/ceil.md) 
++   [round proc](/ref/proc/round.md) <!-- -->
 **Format:**
-*   trunc(A)
++   trunc(A)
 <!-- -->
 **Returns:**
-*   truncated A
++   truncated A
 <!-- -->
 **Args:**
-*   A* A number, pixloc, or vector.
++   A+ A number, pixloc, or vector.
 
 
 Returns the integer part of the number A. That is, this rounds

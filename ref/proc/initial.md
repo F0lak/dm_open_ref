@@ -1,13 +1,13 @@
 ## initial proc
 **See also:**
-*   [:* operator](/ref/operator/::.md) 
-*   [issaved proc](/ref/proc/issaved.md) 
-*   [vars list var (datum)](/ref/datum/var/vars.md) <!-- -->
++   [:+ operator](/ref/operator/::.md) 
++   [issaved proc](/ref/proc/issaved.md) 
++   [vars list var (datum)](/ref/datum/var/vars.md) <!-- -->
 **Format:**
-*   initial(Var)
++   initial(Var)
 <!-- -->
 **Args:**
-*   Var* A variable to find the initial value of.
++   Var+ A variable to find the initial value of.
 
 
 This returns the original compile-time value of a variable. It

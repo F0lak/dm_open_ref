@@ -1,20 +1,20 @@
 ## shell proc
 **See also:**
-*   [fcopy proc](/ref/proc/fcopy.md) 
-*   [fdel proc](/ref/proc/fdel.md) 
-*   [file2text proc](/ref/proc/file2text.md) 
-*   [process var (world)](/ref/world/var/process.md) 
-*   [system_type var (world)](/ref/world/var/system_type.md) 
-*   [text2file proc](/ref/proc/text2file.md) <!-- -->
++   [fcopy proc](/ref/proc/fcopy.md) 
++   [fdel proc](/ref/proc/fdel.md) 
++   [file2text proc](/ref/proc/file2text.md) 
++   [process var (world)](/ref/world/var/process.md) 
++   [system_type var (world)](/ref/world/var/system_type.md) 
++   [text2file proc](/ref/proc/text2file.md) <!-- -->
 **Format:**
-*   shell(Command)
++   shell(Command)
 <!-- -->
 **Args:**
-*   Command* system command to run
++   Command+ system command to run
 <!-- -->
 **Returns:**
-*   null on failure to execute command
-*   exit code of command otherwise
++   null on failure to execute command
++   exit code of command otherwise
 
 
 This function is used to run an external program. The syntax of

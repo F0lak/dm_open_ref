@@ -1,6 +1,6 @@
 # area var (world)
 **Default value:**
-*   /area.
++   /area.
 
 
 This is the default area type to be placed on the map wherever

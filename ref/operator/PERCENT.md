@@ -1,13 +1,13 @@
 ## % operator
 **See also:**
-*   [%= operator](/ref/operator/%=.md) 
-*   [%% operator](/ref/operator/%25%25.md) 
-*   [operators](/ref/operator.md) <!-- -->
++   [%= operator](/ref/operator/%=.md) 
++   [%% operator](/ref/operator/%25%25.md) 
++   [operators](/ref/operator.md) <!-- -->
 **Format:**
-*   A % B
++   A % B
 <!-- -->
 **Returns:**
-*   The remainder of A / B, where both A and B are integers.
++   The remainder of A / B, where both A and B are integers.
 
 
 `A % B` is read \"A modulo B\", which stands for the remainder

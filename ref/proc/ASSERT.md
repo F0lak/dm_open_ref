@@ -1,13 +1,13 @@
 ## ASSERT proc
 **See also:**
-*   [CRASH proc](/ref/proc/CRASH.md) 
-*   [DEBUG definition](/ref/DM/preprocessor/define/DEBUG.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
++   [CRASH proc](/ref/proc/CRASH.md) 
++   [DEBUG definition](/ref/DM/preprocessor/define/DEBUG.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
 **Format:**
-*   ASSERT(expression)
++   ASSERT(expression)
 <!-- -->
 **Args:**
-*   expression* an expression which should always be true
++   expression+ an expression which should always be true
 
 
 This is used to make a sanity check. If the given expression is

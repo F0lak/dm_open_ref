@@ -1,16 +1,16 @@
 ## render_target var (atom)
 **See also:**
-*   [render_source var (atom)](/ref/atom/var/render_source.md) 
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-*   [color var (atom)](/ref/atom/var/color.md) 
-*   [filters var (atom)](/ref/atom/var/filters.md) 
-*   [transform var (atom)](/ref/atom/var/transform.md) 
++   [render_source var (atom)](/ref/atom/var/render_source.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [filters var (atom)](/ref/atom/var/filters.md) 
++   [transform var (atom)](/ref/atom/var/transform.md) 
 <!-- -->
 **Default value:**
-*   null
++   null
 <!-- -->
 **Possible values:**
-*   Any non-empty text string
++   Any non-empty text string
 
 
 If any icon uses `render_target`, and another icon in the scene
@@ -34,7 +34,7 @@ If
 the render target is a [`PLANE_MASTER`](/ref/atom/var/appearance_flags.md) 
 vars like `pixel_x/y/w/z` will not apply when it is re-drawn as a
 `render_source`.
-::* note
+::+ note
 
 
 To use a `render_target`, the object it belongs to must be

@@ -1,6 +1,6 @@
 # desc var (atom)
 **Default value:**
-*   null
++   null
 
 
 This is the description of the object.

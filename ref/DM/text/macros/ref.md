@@ -1,11 +1,11 @@
 ## ref text macro 
 ###### BYOND Version 513
 **See also:**
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [icon text macro](/ref/DM/text/macros/icon.md) 
-*   [locate proc](/ref/proc/locate.md) 
-*   [macros (text)](/ref/DM/text/macros.md) 
-*   [tag var (datum)](/ref/datum/var/tag.md) 
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [icon text macro](/ref/DM/text/macros/icon.md) 
++   [locate proc](/ref/proc/locate.md) 
++   [macros (text)](/ref/DM/text/macros.md) 
++   [tag var (datum)](/ref/datum/var/tag.md) 
 
 
 The `\ref` text macro inserts a unique identification number or
@@ -73,16 +73,16 @@ string after the icon reference.
 The query string can include any of the
 following (separated by & characters):
 sheet
-*   Display all matching frames as a sprite sheet; otherwise the first
++   Display all matching frames as a sprite sheet; otherwise the first
     matching frame is used
 state=*ICON_STATE*
-*   Use a specific icon state; be sure to
++   Use a specific icon state; be sure to
     [url_encode](/ref/proc/url_encode.md) .code} it)
 moving=*M*
-*   Specify whether to choose only moving (M=1) or non-moving (M=0)
++   Specify whether to choose only moving (M=1) or non-moving (M=0)
     states
 dir=*DIR*
-*   Choose only frames with a specific direction (this should be a
++   Choose only frames with a specific direction (this should be a
     number, not text, so for instance `dir=[NORTH]`)
 frame=*N*
-*   Choose the Nth animation frame in an animated icon
++   Choose the Nth animation frame in an animated icon

@@ -1,9 +1,9 @@
 ## appearance var (atom) 
 ###### BYOND Version 508
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) 
-*   [mutable appearance](/ref/mutable_appearance.md) 
-*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
++   [vars (atom)](/ref/atom/var.md) 
++   [mutable appearance](/ref/mutable_appearance.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
 
 
 Every atom or image has an appearance, which controls all of

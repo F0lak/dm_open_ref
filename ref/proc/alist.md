@@ -1,19 +1,19 @@
 ## alist proc 
 ###### BYOND Version 516
 **See also:**
-*   [list associations](/ref/list/associations.md) 
-*   [list](/ref/list.md) 
-*   [list proc](/ref/proc/list.md) 
++   [list associations](/ref/list/associations.md) 
++   [list](/ref/list.md) 
++   [list proc](/ref/proc/list.md) 
 <!-- -->
 **Format:**
-*   alist(A=a,B=b,C=c,\...)
++   alist(A=a,B=b,C=c,\...)
 <!-- -->
 **Returns:**
-*   A new associative list with contents (keys) A, B, C, and associated
++   A new associative list with contents (keys) A, B, C, and associated
     values a, b, c.
 <!-- -->
 **Args:**
-*   Arbitrary number of elements to be inserted into the associative
++   Arbitrary number of elements to be inserted into the associative
     list.
 
 
@@ -34,7 +34,7 @@ In this proc
 the index values should be constants, and that usually means text
 constants. When these index values happen to be text strings that
 satisfy all the requirements for variable names, this may also be
-written in a convenient short-hand without the double quotes* 
+written in a convenient short-hand without the double quotes+ 
 ```
 
 var/alist/lst = alist(player = \"James Byond\", score = 2000) 

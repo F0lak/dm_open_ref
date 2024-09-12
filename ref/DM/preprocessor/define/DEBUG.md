@@ -1,8 +1,8 @@
 ## DEBUG definition
 **See also:**
-*   [#define directive](/ref/DM/preprocessor/define.md) <!-- -->
++   [#define directive](/ref/DM/preprocessor/define.md) <!-- -->
 **Format:**
-*   #define DEBUG
++   #define DEBUG
 
 
 If `DEBUG` is defined, source file and line number information

@@ -1,14 +1,14 @@
 ## is-visible parameter (skin)
 **See also:**
-*   [is-disabled parameter](/ref/%7Bskin%7D/param/is-disabled.md) 
++   [is-disabled parameter](/ref/%7Bskin%7D/param/is-disabled.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   true
++   true
 
 
 True if this control can be seen. The main window should

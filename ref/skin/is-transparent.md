@@ -1,11 +1,11 @@
 ## is-transparent parameter (skin)
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 Make this control transparent. 

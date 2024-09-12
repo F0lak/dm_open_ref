@@ -1,19 +1,19 @@
 ## Tick proc (world) 
 ###### BYOND Version 515
 **See also:**
-*   [cpu var (world)](/ref/world/var/cpu.md) 
-*   [map_cpu var (world)](/ref/world/var/map_cpu.md) 
-*   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
++   [cpu var (world)](/ref/world/var/cpu.md) 
++   [map_cpu var (world)](/ref/world/var/map_cpu.md) 
++   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
 <!-- -->
 **Format:**
-*   Tick()
++   Tick()
 <!-- -->
 **When:**
-*   Called during the server tick, after sleeping procs and queued
++   Called during the server tick, after sleeping procs and queued
     commands, just before map information is sent to the clients.
 <!-- -->
 **Default action:**
-*   None.
++   None.
 
 
 This proc allows you to do any updates just before map info is
@@ -29,7 +29,7 @@ break the loop
 ```
  
 
-Note* The tick will not wait if this
+Note+ The tick will not wait if this
 proc sleeps. It effectively has [set
 waitfor=0](/ref/proc/set/waitfor.md) .code} already built in. It\'s a good
 idea not to sleep in this proc or any of its callees at all, since it

@@ -1,17 +1,17 @@
 ## Del proc (datum)
 **See also:**
-*   [del proc](/ref/proc/del.md) 
-*   [garbage collection](/ref/DM/garbage.md) 
++   [del proc](/ref/proc/del.md) 
++   [garbage collection](/ref/DM/garbage.md) 
 <!-- -->
 **Format:**
-*   Del()
++   Del()
 <!-- -->
 **When:**
-*   Called when the object is destroyed, for example by using the `del`
++   Called when the object is destroyed, for example by using the `del`
     instruction.
 <!-- -->
 **Default action:**
-*   Delete the object. The contents of atomic objects are also destroyed
++   Delete the object. The contents of atomic objects are also destroyed
     at this time, as though `del` were called on each one of them.
 
 
@@ -21,5 +21,5 @@ automatically called. The only object for which it is called is
 to be called at that time, you should explicitly call it from
 `world/Del()`. 
 
-Note* **Always** call `..()` at the end of the
+Note+ **Always** call `..()` at the end of the
 proc if you override it.

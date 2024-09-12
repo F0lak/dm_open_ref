@@ -1,12 +1,12 @@
 ## vector 
 ###### BYOND Version 516
 **See also:**
-*   [vector proc](/ref/proc/vector.md) 
-*   [procs (vector)](/ref/vector/proc.md) 
-*   [vars (vector)](/ref/vector/var.md) 
-*   [pixloc](/ref/pixloc.md) 
-*   [operators](/ref/operator.md) 
-*   [matrix](/ref/matrix.md) 
++   [vector proc](/ref/proc/vector.md) 
++   [procs (vector)](/ref/vector/proc.md) 
++   [vars (vector)](/ref/vector/var.md) 
++   [pixloc](/ref/pixloc.md) 
++   [operators](/ref/operator.md) 
++   [matrix](/ref/matrix.md) 
 
 
 A primitive value representing a numeric vector in 2 or 3

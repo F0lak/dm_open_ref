@@ -1,15 +1,15 @@
 ## AllowUpload proc (client)
 **See also:**
-*   [input proc](/ref/proc/input.md) <!-- -->
++   [input proc](/ref/proc/input.md) <!-- -->
 **Format:**
-*   AllowUpload(filename, filelength)
++   AllowUpload(filename, filelength)
 <!-- -->
 **When:**
-*   Called when the player attempts to upload a file to the server,
++   Called when the player attempts to upload a file to the server,
     through input() or a command.
 <!-- -->
 **Default action:**
-*   Allows the upload by returning 1.
++   Allows the upload by returning 1.
 
 
 The client who owns this proc (src) is the one trying to upload

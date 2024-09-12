@@ -1,18 +1,18 @@
 ## GetColumn proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/ref/database.md) 
-*   [database query datum](/ref/database/query.md) 
-*   [Columns proc (database query)](/ref/database/query/proc/Columns.md) 
-*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-*   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
-*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
++   [database datum](/ref/database.md) 
++   [database query datum](/ref/database/query.md) 
++   [Columns proc (database query)](/ref/database/query/proc/Columns.md) 
++   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
++   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
++   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
++   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
 **Format:**
-*   GetColumn(column)
++   GetColumn(column)
 <!-- -->
 **Args:**
-*   column* The column number whose value should be retrieved
++   column+ The column number whose value should be retrieved
 
 
 Gets the value from the Nth column in this row of results. If

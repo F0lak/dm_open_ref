@@ -1,6 +1,6 @@
 ## override var (atom)
 **Default value:**
-*   0
++   0
 
 
 **Currently this only applies to [images](/ref/image.md) **

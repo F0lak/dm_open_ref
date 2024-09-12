@@ -1,8 +1,8 @@
 ## waitfor setting (proc)
 **See also:**
-*   [sleep proc](/ref/proc/sleep.md) 
-*   [spawn proc](/ref/proc/spawn.md) 
-*   [. var (proc)](/ref/proc/var/%2e.md) 
++   [sleep proc](/ref/proc/sleep.md) 
++   [spawn proc](/ref/proc/spawn.md) 
++   [. var (proc)](/ref/proc/var/%2e.md) 
 
 
 By default, procs that sleep usually expect their callers to

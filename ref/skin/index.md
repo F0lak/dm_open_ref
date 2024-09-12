@@ -1,11 +1,11 @@
 ## index parameter (skin)
 **Applies to:**
-*   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
++   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
 **Format:**
-*   number
++   number
 <!-- -->
 **Default value:**
-*   1000
++   1000
 
 
 Moves the menu item to the *N*th position among its siblings. 0

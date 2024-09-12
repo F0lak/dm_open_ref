@@ -1,13 +1,13 @@
 ## Topic proc (datum)
 **See also:**
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [ref text macro](/ref/DM/text/macros/ref.md) <!-- -->
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [ref text macro](/ref/DM/text/macros/ref.md) <!-- -->
 **Format:**
-*   Topic(href,href_list\[\])
++   Topic(href,href_list\[\])
 <!-- -->
 **Args:**
-*   href* the hyperlink data (following ? in the URL).
-*   href_list* key/value list (from params2list(href)).
++   href+ the hyperlink data (following ? in the URL).
++   href_list+ key/value list (from params2list(href)).
 
 
 This procedure is called by the default `client.Topic()` proc

@@ -1,17 +1,17 @@
 ## is-disabled parameter (skin)
 **See also:**
-*   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
-*   [is-visible parameter](/ref/%7Bskin%7D/param/is-visible.md) 
++   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
++   [is-visible parameter](/ref/%7Bskin%7D/param/is-visible.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) 
-*   [Macro](/ref/%7Bskin%7D/control/macro.md) 
-*   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
++   [All](/ref/%7Bskin%7D/control.md) 
++   [Macro](/ref/%7Bskin%7D/control/macro.md) 
++   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 Disables the control, menu item, or macro.

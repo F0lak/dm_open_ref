@@ -1,16 +1,16 @@
 ## load_resource proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->
 **Format:**
-*   Player \<\< load_resource(File)
-*   Player \<\< load_resource(File, KeepTime)
-*   Player \<\< load_resource(File1, File2\..., KeepTime1, File3,
++   Player \<\< load_resource(File)
++   Player \<\< load_resource(File, KeepTime)
++   Player \<\< load_resource(File1, File2\..., KeepTime1, File3,
     File4\..., KeepTime2\...)
 <!-- -->
 **Args:**
-*   Player* A mob or client, a list of them, or world
-*   File* A resource file (image or sound)
-*   KeepTime* Minimum time (in seconds) to keep the file loaded;
++   Player+ A mob or client, a list of them, or world
++   File+ A resource file (image or sound)
++   KeepTime+ Minimum time (in seconds) to keep the file loaded;
     0=default, -1=forever
 
 

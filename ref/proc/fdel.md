@@ -1,14 +1,14 @@
 ## fdel proc
 **See also:**
-*   [shell proc](/ref/proc/shell.md) <!-- -->
++   [shell proc](/ref/proc/shell.md) <!-- -->
 **Format:**
-*   fdel(File)
++   fdel(File)
 <!-- -->
 **Args:**
-*   File* name of file to delete
++   File+ name of file to delete
 <!-- -->
 **Returns:**
-*   1 on success; 0 otherwise.
++   1 on success; 0 otherwise.
 
 
 If the specified file ends in \'`/`\', it is treated as a

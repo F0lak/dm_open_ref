@@ -1,17 +1,17 @@
 ## isnan proc 
 ###### BYOND Version 515
 **See also:**
-*   [isnum proc](/ref/proc/isnum.md) 
-*   [isinf proc](/ref/proc/isinf.md) *   [Numbers](/%7Bnotes%7D/numbers)
++   [isnum proc](/ref/proc/isnum.md) 
++   [isinf proc](/ref/proc/isinf.md) +   [Numbers](/%7Bnotes%7D/numbers)
 <!-- -->
 **Format:**
-*   isnan(n)
++   isnan(n)
 <!-- -->
 **Args:**
-*   n* A number
++   n+ A number
 <!-- -->
 **Returns:**
-*   1 if this is a numeric value but is an invalid \"not a number\"
++   1 if this is a numeric value but is an invalid \"not a number\"
     (NaN); 0 otherwise
 
 

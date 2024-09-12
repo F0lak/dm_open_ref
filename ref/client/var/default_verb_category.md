@@ -1,9 +1,9 @@
 ## default_verb_category var (client)
 **See also:**
-*   [category setting (verb)](/ref/verb/set/category.md) 
-*   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) <!-- -->
++   [category setting (verb)](/ref/verb/set/category.md) 
++   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) <!-- -->
 **Default value:**
-*   \"Commands\"
++   \"Commands\"
 
 
 All verbs with category \"\" (the default value) are treated as

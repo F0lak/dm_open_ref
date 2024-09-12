@@ -1,15 +1,15 @@
 ## spawn proc
 **See also:**
-*   [background setting (proc)](/ref/proc/set/background.md) 
-*   [sleep proc](/ref/proc/sleep.md) 
++   [background setting (proc)](/ref/proc/set/background.md) 
++   [sleep proc](/ref/proc/sleep.md) 
 <!-- -->
 **Format:**
-*   spawn(Delay=0) Statement
-*   spawn(Delay=0)\
++   spawn(Delay=0) Statement
++   spawn(Delay=0)\
     Statement
 <!-- -->
 **Args:**
-*   Delay* The amount of time (in 1/10 seconds) before Statement is
++   Delay+ The amount of time (in 1/10 seconds) before Statement is
     executed.
 
 
@@ -28,7 +28,7 @@ after other existing events that are immediately pending.
 
 This will display `"Storm clouds are brewing!"` and
 then call the storm() proc after 3 seconds.
-::* {.sidebar .underhood}
+::+ {.sidebar .underhood}
 
 
 A spawned statement or block is a copy of the current proc. The

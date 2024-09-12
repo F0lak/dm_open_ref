@@ -1,17 +1,17 @@
 ## plane var (atom) 
 ###### BYOND Version 509
 **See also:**
-*   [layer var (atom)](/ref/atom/var/layer.md) 
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-*   [map_format var (world)](/ref/world/var/map_format.md) 
-*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
++   [layer var (atom)](/ref/atom/var/layer.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
 <!-- -->
 **Default value:**
-*   `FLOAT_PLANE`
++   `FLOAT_PLANE`
 <!-- -->
 **Possible values:**
-*   -10000 to 10000 (integers only), `FLOAT_PLANE+p`
++   -10000 to 10000 (integers only), `FLOAT_PLANE+p`
 
 
 The value of plane overrides layer, and is mainly used for

@@ -1,13 +1,13 @@
 ## on-size parameter (skin) 
 ###### BYOND Version 482
 **See also:**
-*   [size parameter](/ref/%7Bskin%7D/param/size.md) 
++   [size parameter](/ref/%7Bskin%7D/param/size.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
-*   string
++   string
 
 
 [Command](/ref/%7Bskin%7D/commands.md)  executed when this control is

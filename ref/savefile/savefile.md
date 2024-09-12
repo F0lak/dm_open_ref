@@ -1,16 +1,16 @@
 ## savefile
 **See also:**
-*   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
-*   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
-*   [Export proc (client)](/ref/client/proc/Export.md) 
-*   [New proc (client)](/ref/client/proc/New.md) 
-*   [procs (savefile)](/ref/savefile/proc.md) 
-*   [vars (savefile)](/ref/savefile/var.md) 
-*   [tmp vars](/ref/var/tmp.md) 
-*   [issaved proc](/ref/proc/issaved.md) 
-*   [Read proc (datum)](/ref/datum/proc/Read.md) 
-*   [Write proc (datum)](/ref/datum/proc/Write.md) 
-::* {.sidebar .note}
++   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
++   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
++   [Export proc (client)](/ref/client/proc/Export.md) 
++   [New proc (client)](/ref/client/proc/New.md) 
++   [procs (savefile)](/ref/savefile/proc.md) 
++   [vars (savefile)](/ref/savefile/var.md) 
++   [tmp vars](/ref/var/tmp.md) 
++   [issaved proc](/ref/proc/issaved.md) 
++   [Read proc (datum)](/ref/datum/proc/Read.md) 
++   [Write proc (datum)](/ref/datum/proc/Write.md) 
+::+ {.sidebar .note}
 
 
 Savefiles are easy to use, but you should always plan what

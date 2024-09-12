@@ -1,15 +1,15 @@
 ## alpha var (atom) 
 ###### BYOND Version 500
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) 
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-*   [blend_mode var (atom)](/ref/atom/var/blend_mode.md) 
-*   [color var (atom)](/ref/atom/var/color.md) <!-- -->
++   [vars (atom)](/ref/atom/var.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [blend_mode var (atom)](/ref/atom/var/blend_mode.md) 
++   [color var (atom)](/ref/atom/var/color.md) <!-- -->
 **Default value:**
-*   255 (opaque)
++   255 (opaque)
 <!-- -->
 **Possible values:**
-*   0 (transparent) through 255 (opaque)
++   0 (transparent) through 255 (opaque)
 
 
 Controls the opacity of the icon displayed on players\'

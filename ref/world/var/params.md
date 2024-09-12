@@ -1,10 +1,10 @@
 ## params var (world)
 **See also:**
-*   [list associations](/ref/list/associations.md) 
-*   [params2list proc](/ref/proc/params2list.md) 
-*   [startup proc](/ref/proc/startup.md) <!-- -->
++   [list associations](/ref/list/associations.md) 
++   [params2list proc](/ref/proc/params2list.md) 
++   [startup proc](/ref/proc/startup.md) <!-- -->
 **Default value:**
-*   null
++   null
 
 
 This is a list of parameters passed to the world from the

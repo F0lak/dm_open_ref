@@ -1,17 +1,17 @@
 ## animate_movement var (movable atoms)
 **See also:**
-*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-*   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
 <!-- -->
 **Default value:**
-*   FORWARD_STEPS (1)
++   FORWARD_STEPS (1)
 <!-- -->
 **Possible values:**
-*   NO_STEPS (0)
-*   FORWARD_STEPS (1)
-*   SLIDE_STEPS (2)
-*   SYNC_STEPS (3)
++   NO_STEPS (0)
++   FORWARD_STEPS (1)
++   SLIDE_STEPS (2)
++   SYNC_STEPS (3)
 
 
 Setting this to 0 causes movement between two adjacent
@@ -36,6 +36,6 @@ get out of sync during motion, causing the object to visually break up.
 Because of the advent of features like big icons, this value is no
 longer of much use. 
 
-Note* This setting has no impact when used
+Note+ This setting has no impact when used
 with pixel movement, except in special cases. See
 [Gliding](/ref/%7Bnotes%7D/gliding.md) for more details.

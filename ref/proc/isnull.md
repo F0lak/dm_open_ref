@@ -1,8 +1,8 @@
 ## isnull proc
 **See also:**
-*   [null](/ref/DM/null.md) <!-- -->
++   [null](/ref/DM/null.md) <!-- -->
 **Format:**
-*   isnull(Val)
++   isnull(Val)
 <!-- -->
 **Returns:**
-*   1 if Val is null; 0 otherwise
++   1 if Val is null; 0 otherwise

@@ -1,14 +1,14 @@
 ## small-icons parameter (skin)
 **See also:**
-*   [show-names parameter](/ref/%7Bskin%7D/param/show-names.md) 
++   [show-names parameter](/ref/%7Bskin%7D/param/show-names.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 When output(object,grid) is sent, show smaller icons in this

@@ -1,15 +1,15 @@
 ## & pointer operator 
 ###### BYOND Version 515
 **See also:**
-*   [\* operator (pointers)](/ref/operator/*/prefix.md) 
-*   [operators](/ref/operator.md) 
-*   [ispointer proc](/ref/proc/ispointer.md) 
++   [\* operator (pointers)](/ref/operator/*/prefix.md) 
++   [operators](/ref/operator.md) 
++   [ispointer proc](/ref/proc/ispointer.md) 
 <!-- -->
 **Format:**
-*   &A
++   &A
 <!-- -->
 **Returns:**
-*   A pointer to the var or list item A.
++   A pointer to the var or list item A.
 This operator is also called the reference operator, since it creates a
 reference to a var that you can use elsewhere.) 
 
@@ -54,7 +54,7 @@ made for any of these kinds of vars:
 One advantage of pointers is that you can use them to alter a
 value in a suspended (sleeping) proc. 
 
-Note* When
+Note+ When
 [spawn()](/ref/proc/spawn.md) .code} is used, the current proc is forked,
 where one keeps running and a copy is scheduled to run later. If any
 pointers to proc vars were created, they belong to the original proc

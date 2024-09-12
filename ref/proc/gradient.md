@@ -1,22 +1,22 @@
 ## gradient proc
 **See also:**
-*   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
-*   [rgb proc](/ref/proc/rgb.md) 
-*   [rgb2num proc](/ref/proc/rgb2num.md) 
-*   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
++   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
++   [rgb proc](/ref/proc/rgb.md) 
++   [rgb2num proc](/ref/proc/rgb2num.md) 
++   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
 <!-- -->
 **Format:**
-*   gradient(Item1, Item2, \..., index)
-*   gradient(Gradient, index)
++   gradient(Item1, Item2, \..., index)
++   gradient(Gradient, index)
 <!-- -->
 **Args:**
-*   Gradient* A [color gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
-*   Item1, Item2\...* Elements of a [color
++   Gradient+ A [color gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
++   Item1, Item2\...+ Elements of a [color
     gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
-*   index* The index along the gradient where the interpolation is done.
++   index+ The index along the gradient where the interpolation is done.
 <!-- -->
 **Returns:**
-*   A color, represented by a text string in #RRGGBB or #RRGGBBAA format
++   A color, represented by a text string in #RRGGBB or #RRGGBBAA format
 
 
 Interpolates between two or more colors along a [color

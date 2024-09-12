@@ -1,17 +1,17 @@
 ## walk proc
 **See also:**
-*   [get_step proc](/ref/proc/get_step.md) 
-*   [step proc](/ref/proc/step.md) 
-*   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
++   [get_step proc](/ref/proc/get_step.md) 
++   [step proc](/ref/proc/step.md) 
++   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
 **Format:**
-*   walk(Ref,Dir,Lag=0,Speed=0)
++   walk(Ref,Dir,Lag=0,Speed=0)
 <!-- -->
 **Args:**
-*   Ref* A mob or obj.
-*   Dir* One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
++   Ref+ A mob or obj.
++   Dir+ One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST,
     SOUTHEAST, SOUTHWEST, or 0 to halt.
-*   Lag* Delay in world ticks between movement.
-*   Speed* Speed to move, in pixels. 0 uses Ref.step_size.
++   Lag+ Delay in world ticks between movement.
++   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Move Ref in the direction Dir continuously. Each step will be

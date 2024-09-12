@@ -1,21 +1,21 @@
 ## REGEX_QUOTE proc 
 ###### BYOND Version 510
 **See also:**
-*   [regex proc](/ref/proc/regex.md) 
-*   [regex datum](/ref/regex.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
++   [regex proc](/ref/proc/regex.md) 
++   [regex datum](/ref/regex.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
 **Format:**
-*   REGEX_QUOTE(text)
-*   REGEX_QUOTE_REPLACEMENT(text)
++   REGEX_QUOTE(text)
++   REGEX_QUOTE_REPLACEMENT(text)
 <!-- -->
 **Returns:**
-*   REGEX_QUOTE* A version of the text with any special regular
++   REGEX_QUOTE+ A version of the text with any special regular
     expression characters escaped by backslashes.
-*   REGEX_QUOTE_REPLACEMENT* A version of the text with \$ characters
++   REGEX_QUOTE_REPLACEMENT+ A version of the text with \$ characters
     escaped by a second \$.
 <!-- -->
 **Args:**
-*   text* The text to escape
++   text+ The text to escape
 
 
 Quotes a piece of text so that it can be used inside a regular

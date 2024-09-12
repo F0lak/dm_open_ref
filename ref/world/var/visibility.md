@@ -1,9 +1,9 @@
 ## visibility var (world)
 **See also:**
-*   [OpenPort proc (world)](/ref/world/proc/OpenPort.md) 
-*   [hub var (world)](/ref/world/var/hub.md) <!-- -->
++   [OpenPort proc (world)](/ref/world/proc/OpenPort.md) 
++   [hub var (world)](/ref/world/var/hub.md) <!-- -->
 **Default value:**
-*   1 (visible)
++   1 (visible)
 
 
 This controls whether the world advertises itself in the [BYOND

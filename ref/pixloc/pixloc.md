@@ -1,10 +1,10 @@
 ## pixloc 
 ###### BYOND Version 516
 **See also:**
-*   [vars (pixloc)](/ref/pixloc/var.md) 
-*   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-*   [pixloc proc](/ref/proc/pixloc.md) 
-*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
++   [vars (pixloc)](/ref/pixloc/var.md) 
++   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
++   [pixloc proc](/ref/proc/pixloc.md) 
++   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
 
 
 A primitive type that encapsulates position information for an

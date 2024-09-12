@@ -1,16 +1,16 @@
 ## list2params proc
 **See also:**
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [list associations](/ref/list/associations.md) 
-*   [params var (world)](/ref/world/var/params.md) 
-*   [params2list proc](/ref/proc/params2list.md) 
-*   [text2num proc](/ref/proc/text2num.md) 
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [list associations](/ref/list/associations.md) 
++   [params var (world)](/ref/world/var/params.md) 
++   [params2list proc](/ref/proc/params2list.md) 
++   [text2num proc](/ref/proc/text2num.md) 
 <!-- -->
 **Format:**
-*   list2params(List)
++   list2params(List)
 <!-- -->
 **Args:**
-*   List* List to encode as a text string.
++   List+ List to encode as a text string.
 
 
 This instruction converts a list of parameter names and
@@ -24,7 +24,7 @@ similar situation. The format of the resulting text string is:
 
 
 Special characters such as \'=\' and \'&\' inside the parameter
-names or values are written in the form* `%xx` where `xx` are two
+names or values are written in the form+ `%xx` where `xx` are two
 hexadecimal digits representing the ASCII value of the character. For
 [Unicode](/ref/%7Bnotes%7D/Unicode.md) characters, their UTF-8 encoding will
 be processed this way, which may make up multiple `%xx` sequences. In

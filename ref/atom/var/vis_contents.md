@@ -1,13 +1,13 @@
 ## vis_contents var (atom) 
 ###### BYOND Version 512
 **See also:**
-*   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
-*   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
-*   [image objects](/ref/image.md) 
-*   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
++   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
++   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
++   [image objects](/ref/image.md) 
++   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
 <!-- -->
 **Default value:**
-*   Empty list.
++   Empty list.
 
 
 Turfs, movable atoms, and images can be given a list of atoms

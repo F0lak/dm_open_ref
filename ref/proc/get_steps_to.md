@@ -1,20 +1,20 @@
 ## get_steps_to proc 
 ###### BYOND Version 515
 **See also:**
-*   [step proc](/ref/proc/step.md) 
-*   [step_to proc](/ref/proc/step_to.md) 
-*   [walk_to proc](/ref/proc/walk_to.md) 
-*   [get_step_to proc](/ref/proc/get_step_to.md) <!-- -->
++   [step proc](/ref/proc/step.md) 
++   [step_to proc](/ref/proc/step_to.md) 
++   [walk_to proc](/ref/proc/walk_to.md) 
++   [get_step_to proc](/ref/proc/get_step_to.md) <!-- -->
 **Format:**
-*   get_steps_to(Ref, Trg, Min=0)
++   get_steps_to(Ref, Trg, Min=0)
 <!-- -->
 **Returns:**
-*   A list of directions to step.
++   A list of directions to step.
 <!-- -->
 **Args:**
-*   Ref* Starting point or object.
-*   Trg* An object on the map.
-*   Min* The minimum distance between Ref and Trg before movement halts.
++   Ref+ Starting point or object.
++   Trg+ An object on the map.
++   Min+ The minimum distance between Ref and Trg before movement halts.
 
 
 Calculate a set of steps from `Ref` on a path to `Trg`, taking

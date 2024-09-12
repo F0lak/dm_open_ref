@@ -1,31 +1,31 @@
 ## New proc (client)
 **See also:**
-*   [Export proc (client)](/ref/client/proc/Export.md) 
-*   [Import proc (client)](/ref/client/proc/Import.md) 
-*   [Login proc (mob)](/ref/mob/proc/Login.md) 
-*   [New proc (datum)](/ref/datum/proc/New.md) 
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [mob var (world)](/ref/world/var/mob.md) 
-*   [savefile](/ref/savefile.md) 
++   [Export proc (client)](/ref/client/proc/Export.md) 
++   [Import proc (client)](/ref/client/proc/Import.md) 
++   [Login proc (mob)](/ref/mob/proc/Login.md) 
++   [New proc (datum)](/ref/datum/proc/New.md) 
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [mob var (world)](/ref/world/var/mob.md) 
++   [savefile](/ref/savefile.md) 
 <!-- -->
 **Format:**
-*   New(TopicData)
++   New(TopicData)
 <!-- -->
 **Returns:**
-*   The newly connected mob, client.mob, or null to disallow the
++   The newly connected mob, client.mob, or null to disallow the
     connection.
 <!-- -->
 **When:**
-*   Called when the player first tries to connect to the world.
++   Called when the player first tries to connect to the world.
 <!-- -->
 **Args:**
-*   usr* The mob in the world with the same key as the player, if it
++   usr+ The mob in the world with the same key as the player, if it
     exists.
-*   TopicData* If the player accessed the world with a \"connection
++   TopicData+ If the player accessed the world with a \"connection
     topic\", this is the topic text. Otherwise it is null.
 <!-- -->
 **Default action:**
-*   Look for an existing mob with the same key as the player. If found,
++   Look for an existing mob with the same key as the player. If found,
     connect the player to that mob (mob.Login()). Otherwise, look for a
     prototype mob with the same key as the player. If found, create a
     mob of that type and connect the player to it. Otherwise, create a

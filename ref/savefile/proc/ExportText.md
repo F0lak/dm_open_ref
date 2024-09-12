@@ -1,13 +1,13 @@
 ## ExportText proc (savefile)
 **See also:**
-*   [ImportText proc (savefile)](/ref/savefile/proc/ImportText.md) 
++   [ImportText proc (savefile)](/ref/savefile/proc/ImportText.md) 
 <!-- -->
 **Format:**
-*   savefile.ExportText(path=cd,file)
++   savefile.ExportText(path=cd,file)
 <!-- -->
 **Args:**
-*   path* the path to export
-*   file* optional file to write to
++   path+ the path to export
++   file+ optional file to write to
 
 
 Converts all or part of a savefile to a human readable text

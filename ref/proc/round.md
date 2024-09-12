@@ -1,19 +1,19 @@
 ## round proc
 **See also:**
-*   [floor proc](/ref/proc/floor.md) 
-*   [ceil proc](/ref/proc/ceil.md) 
-*   [trunc proc](/ref/proc/trunc.md) 
-*   [fract proc](/ref/proc/fract.md) <!-- -->
++   [floor proc](/ref/proc/floor.md) 
++   [ceil proc](/ref/proc/ceil.md) 
++   [trunc proc](/ref/proc/trunc.md) 
++   [fract proc](/ref/proc/fract.md) <!-- -->
 **Format:**
-*   round(A)
-*   round(A,B)
++   round(A)
++   round(A,B)
 <!-- -->
 **Returns:**
-*   rounded A
++   rounded A
 <!-- -->
 **Args:**
-*   A* A number, pixloc, or vector.
-*   B* The nearest multiple to round A.
++   A+ A number, pixloc, or vector.
++   B+ The nearest multiple to round A.
 
 
 The first format returns the floor of A (the largest integer

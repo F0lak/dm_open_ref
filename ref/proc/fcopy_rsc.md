@@ -1,17 +1,17 @@
 ## fcopy_rsc proc
 **See also:**
-*   [cache](/ref/DM/cache.md) 
-*   [fcopy proc](/ref/proc/fcopy.md) 
-*   [file proc](/ref/proc/file.md) 
-*   [load_resource proc](/ref/proc/load_resource.md) <!-- -->
++   [cache](/ref/DM/cache.md) 
++   [fcopy proc](/ref/proc/fcopy.md) 
++   [file proc](/ref/proc/file.md) 
++   [load_resource proc](/ref/proc/load_resource.md) <!-- -->
 **Format:**
-*   fcopy_rsc(File)
++   fcopy_rsc(File)
 <!-- -->
 **Args:**
-*   File* file to copy into the resource cache
++   File+ file to copy into the resource cache
 <!-- -->
 **Returns:**
-*   reference to the file as a cache entry
++   reference to the file as a cache entry
 
 
 The file to copy may either be a file name (text string) or the

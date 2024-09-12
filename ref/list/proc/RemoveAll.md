@@ -1,16 +1,16 @@
 ## RemoveAll proc (list) 
 ###### BYOND Version 515
 **See also:**
-*   [Add proc (list)](/ref/list/proc/Add.md) 
-*   [Remove proc (list)](/ref/list/proc/Remove.md) <!-- -->
++   [Add proc (list)](/ref/list/proc/Add.md) 
++   [Remove proc (list)](/ref/list/proc/Remove.md) <!-- -->
 **Format:**
-*   list.RemoveAll(Item1,Item2,\...)
++   list.RemoveAll(Item1,Item2,\...)
 <!-- -->
 **Returns:**
-*   Number of items removed.
++   Number of items removed.
 <!-- -->
 **Args:**
-*   One or more items to remove entirely from the list.
++   One or more items to remove entirely from the list.
 
 
 Removes all copies of the specified items from the list. If an

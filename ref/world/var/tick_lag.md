@@ -1,11 +1,11 @@
 ## tick_lag var (world)
 **See also:**
-*   [fps var (world)](/ref/world/var/fps.md) 
-*   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
-*   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
-*   [sleep proc](/ref/proc/sleep.md) <!-- -->
++   [fps var (world)](/ref/world/var/fps.md) 
++   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
++   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
++   [sleep proc](/ref/proc/sleep.md) <!-- -->
 **Default value:**
-*   1
++   1
 
 
 This is the smallest unit of time (one server tick) measured in

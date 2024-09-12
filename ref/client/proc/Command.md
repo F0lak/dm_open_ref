@@ -1,13 +1,13 @@
 # Command proc (client)
 **Format:**
-*   Command(command as command_text)
++   Command(command as command_text)
 <!-- -->
 **When:**
-*   Called when the player types in something that is not understood as
++   Called when the player types in something that is not understood as
     a valid command, or if the player is connected via telnet.
 <!-- -->
 **Default action:**
-*   None.
++   None.
 
 
 If this proc is used, players will be able to connect to your

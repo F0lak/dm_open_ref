@@ -1,27 +1,27 @@
 ## splittext proc 
 ###### BYOND Version 510
 **See also:**
-*   [findtext proc](/ref/proc/findtext.md) 
-*   [jointext proc](/ref/proc/jointext.md) 
-*   [nonspantext proc](/ref/proc/nonspantext.md) 
-*   [spantext proc](/ref/proc/spantext.md) 
-*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
++   [findtext proc](/ref/proc/findtext.md) 
++   [jointext proc](/ref/proc/jointext.md) 
++   [nonspantext proc](/ref/proc/nonspantext.md) 
++   [spantext proc](/ref/proc/spantext.md) 
++   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
 <!-- -->
 **Format:**
-*   splittext(Text,Delimiter,Start=1,End=0,include_delimiters=0)
++   splittext(Text,Delimiter,Start=1,End=0,include_delimiters=0)
 <!-- -->
 **Returns:**
-*   A list of text strings split by the delimiter given.
++   A list of text strings split by the delimiter given.
 <!-- -->
 **Args:**
-*   Text* The text string to search.
-*   Delimiter* A text string that will be used as the separator between
++   Text+ The text string to search.
++   Delimiter+ A text string that will be used as the separator between
     items, OR a regular expression (regex) used to find splits
-*   Start* The text byte position in Text in which to begin looking for
++   Start+ The text byte position in Text in which to begin looking for
     splits.
-*   End* The text byte position in Text immediately following the last
++   End+ The text byte position in Text immediately following the last
     character to look at for splits.
-*   include_delimiters* True if any delimiters found should be included
++   include_delimiters+ True if any delimiters found should be included
     in the result.
 
 
@@ -57,7 +57,7 @@ the string; if you want to split a trimmed string, trim it with
 [copytext()](/ref/proc/copytext.md) {.code} and send the result to
 `splittext()` instead. 
 
-Note* In strings containing non-ASCII
+Note+ In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `splittext_char()` to work with character counts instead of bytes,
 at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section

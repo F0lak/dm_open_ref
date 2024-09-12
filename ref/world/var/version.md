@@ -1,9 +1,9 @@
 ## version var (world)
 **See also:**
-*   [hub var (world)](/ref/world/var/hub.md) 
++   [hub var (world)](/ref/world/var/hub.md) 
 <!-- -->
 **Default value:**
-*   0
++   0
 
 
 If you are distributing your game to players, you can use this

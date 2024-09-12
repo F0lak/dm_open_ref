@@ -1,6 +1,6 @@
 # suffix var (atom)
 **Default value:**
-*   null
++   null
 
 
 This is an optional text string that follows the object\'s name

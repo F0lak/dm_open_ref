@@ -1,22 +1,22 @@
 ## clamp proc 
 ###### BYOND Version 513
 **See also:**
-*   [min proc](/ref/proc/min.md) 
-*   [max proc](/ref/proc/max.md) 
++   [min proc](/ref/proc/min.md) 
++   [max proc](/ref/proc/max.md) 
 <!-- -->
 **Format:**
-*   clamp(Value, Low, High)
-*   clamp(List, Low, High)
++   clamp(Value, Low, High)
++   clamp(List, Low, High)
 <!-- -->
 **Args:**
-*   Value* A number, text, pixloc, or vector (or null, treated as 0).
-*   List* A list of values.
-*   Low* The lowest value that can be returned.
-*   High* The highest value that can be returned.
++   Value+ A number, text, pixloc, or vector (or null, treated as 0).
++   List+ A list of values.
++   Low+ The lowest value that can be returned.
++   High+ The highest value that can be returned.
 <!-- -->
 **Returns:**
-*   A copy of the original Value, constrained between Low and High.
-*   The original List, whose contents have all been clamped.
++   A copy of the original Value, constrained between Low and High.
++   The original List, whose contents have all been clamped.
 
 
 \"Clamps\" a value, usually a number, to a given allowable

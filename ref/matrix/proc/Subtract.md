@@ -1,17 +1,17 @@
 ## Subtract proc (matrix)
 **See also:**
-*   [matrix](/ref/matrix.md) 
-*   [matrix operators](/ref/matrix/operators.md) 
-*   [matrix procs](/ref/matrix/proc.md) 
-*   [-= operator](/ref/operator/+=.md) <!-- -->
++   [matrix](/ref/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [matrix procs](/ref/matrix/proc.md) 
++   [-= operator](/ref/operator/+=.md) <!-- -->
 **Format:**
-*   Subtract(Matrix2)
++   Subtract(Matrix2)
 <!-- -->
 **Args:**
-*   Matrix2* another matrix
++   Matrix2+ another matrix
 <!-- -->
 **Returns:**
-*   src
++   src
 
 
 This subtracts Matrix2 from the current matrix.

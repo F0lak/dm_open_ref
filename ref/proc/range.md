@@ -1,18 +1,18 @@
 ## range proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [block](/ref/proc/block.md) 
-*   [view proc](/ref/proc/view.md) 
-*   [orange proc](/ref/proc/orange.md) <!-- -->
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [block](/ref/proc/block.md) 
++   [view proc](/ref/proc/view.md) 
++   [orange proc](/ref/proc/orange.md) <!-- -->
 **Format:**
-*   range(Dist,Center=usr)
++   range(Dist,Center=usr)
 <!-- -->
 **Returns:**
-*   A list of objects within Dist tiles of Center.
++   A list of objects within Dist tiles of Center.
 <!-- -->
 **Args:**
-*   Dist* A number.
-*   Center* An object on the map.
++   Dist+ A number.
++   Center+ An object on the map.
 
 
 This instruction is identical to view() except visibility is

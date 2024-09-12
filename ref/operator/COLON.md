@@ -1,10 +1,10 @@
-## * operator
+## + operator
 **See also:**
-*   [. operator](/ref/operator/%2e.md) 
-*   [?. operator](/ref/operator/%3f%2e.md) 
-*   [?* operator](/ref/operator/%3f:.md) 
-*   [* path operator](/ref/operator/path/:.md) 
-*   [operators](/ref/operator.md) 
++   [. operator](/ref/operator/%2e.md) 
++   [?. operator](/ref/operator/%3f%2e.md) 
++   [?+ operator](/ref/operator/%3f:.md) 
++   [+ path operator](/ref/operator/path/:.md) 
++   [operators](/ref/operator.md) 
 
 This is the runtime search operator. It is used to access a
 property (var or proc) of a var that is not explicitly prototyped. If
@@ -22,5 +22,5 @@ The `.` operator behaves the same way,
 but it checks at compile time whether the property is available. If the
 var is assigned a value that isn\'t the correct type and doesn\'t have
 this property, a runtime error will still occur.
-Note* You should prefer the `.` operator in most situations, because
+Note+ You should prefer the `.` operator in most situations, because
 it\'s better to catch a problem in the compiler instead of at runtime.

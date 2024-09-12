@@ -1,20 +1,20 @@
 ## Import proc (world)
 **See also:**
-*   [Export proc (world)](/ref/world/proc/Export.md) 
-*   [Import proc (client)](/ref/client/proc/Import.md) 
-*   [Topic proc (world)](/ref/world/proc/Topic.md) 
-*   [fcopy proc](/ref/proc/fcopy.md) <!-- -->
++   [Export proc (world)](/ref/world/proc/Export.md) 
++   [Import proc (client)](/ref/client/proc/Import.md) 
++   [Topic proc (world)](/ref/world/proc/Topic.md) 
++   [fcopy proc](/ref/proc/fcopy.md) <!-- -->
 **Format:**
-*   Import()
++   Import()
 <!-- -->
 **Returns:**
-*   The file sent by the remote server. The file will be downloaded to
++   The file sent by the remote server. The file will be downloaded to
     the local server\'s resource cache. Note that this will cause the
     caller to sleep while waiting for the necessary data to be
     transfered.
 <!-- -->
 **When:**
-*   Call this inside world.Topic() if you are expecting a file from the
++   Call this inside world.Topic() if you are expecting a file from the
     remote server.
 ### Example:
 

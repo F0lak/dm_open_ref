@@ -1,12 +1,12 @@
 ## FILE_DIR definition
 **See also:**
-*   [cache](/ref/DM/cache.md) 
-*   [icons](/ref/DM/icon.md) <!-- -->
++   [cache](/ref/DM/cache.md) 
++   [icons](/ref/DM/icon.md) <!-- -->
 **Format:**
-*   #define FILE_DIR Path
++   #define FILE_DIR Path
 <!-- -->
 **Args:**
-*   Path* A search path on the current filesystem.
++   Path+ A search path on the current filesystem.
 
 
 This macro defines a search path to be used in evaluating

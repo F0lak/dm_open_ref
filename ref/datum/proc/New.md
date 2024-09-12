@@ -1,19 +1,19 @@
 ## New proc (datum)
 **See also:**
-*   [New proc (atom)](/ref/atom/proc/New.md) 
-*   [New proc (client)](/ref/client/proc/New.md) 
-*   [new proc](/ref/proc/new.md) 
++   [New proc (atom)](/ref/atom/proc/New.md) 
++   [New proc (client)](/ref/client/proc/New.md) 
++   [new proc](/ref/proc/new.md) 
 <!-- -->
 **Format:**
-*   New()
++   New()
 <!-- -->
 **When:**
-*   Called when the datum is created, for example by using `new`, when
++   Called when the datum is created, for example by using `new`, when
     reading an object that was stored in a [savefile](/ref/savefile.md) , or
     when the world is initially created.
 <!-- -->
 **Default action:**
-*   None.
++   None.
 
 
 You can use the New() procedure to do more complicated

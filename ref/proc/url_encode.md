@@ -1,16 +1,16 @@
 ## url_encode proc
 **See also:**
-*   [url_decode proc](/ref/proc/url_decode.md) <!-- -->
++   [url_decode proc](/ref/proc/url_decode.md) <!-- -->
 **Format:**
-*   url_encode(PlainText, format=0)
++   url_encode(PlainText, format=0)
 <!-- -->
 **Args:**
-*   PlainText* text to be URL \"escaped\"
-*   format* 0 to treat PlainText as a query string, 1 to treat it as a
++   PlainText+ text to be URL \"escaped\"
++   format+ 0 to treat PlainText as a query string, 1 to treat it as a
     full URL
 <!-- -->
 **Returns:**
-*   escaped text
++   escaped text
 
 
 Special characters such as spaces are not used literally in

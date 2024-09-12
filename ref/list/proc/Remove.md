@@ -1,16 +1,16 @@
 ## Remove proc (list)
 **See also:**
-*   [- operator](/ref/operator/-.md) 
-*   [Add proc (list)](/ref/list/proc/Add.md) 
-*   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->
++   [- operator](/ref/operator/-.md) 
++   [Add proc (list)](/ref/list/proc/Add.md) 
++   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->
 **Format:**
-*   list.Remove(Item1,Item2,\...)
++   list.Remove(Item1,Item2,\...)
 <!-- -->
 **Returns:**
-*   1 if any items removed, 0 if not.
++   1 if any items removed, 0 if not.
 <!-- -->
 **Args:**
-*   One or more items to remove from the list.
++   One or more items to remove from the list.
 
 
 Removes the specified items from the list. If an argument is

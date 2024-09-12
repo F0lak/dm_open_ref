@@ -1,14 +1,14 @@
 ## uppertext proc
 **See also:**
-*   [lowertext proc](/ref/proc/lowertext.md) <!-- -->
++   [lowertext proc](/ref/proc/lowertext.md) <!-- -->
 **Format:**
-*   uppertext(T)
++   uppertext(T)
 <!-- -->
 **Returns:**
-*   A capitalized text string.
++   A capitalized text string.
 <!-- -->
 **Args:**
-*   T* A text string.
++   T+ A text string.
 
 
 Capitalize all of the characters of T.

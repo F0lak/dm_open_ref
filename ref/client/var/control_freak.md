@@ -1,10 +1,10 @@
 ## control_freak (client)
 **See also:**
-*   [User interface skins](/ref/%7Bskin%7D.md) 
-*   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-*   [macros (client script)](/ref/client/var/script/macro.md) <!-- -->
++   [User interface skins](/ref/%7Bskin%7D.md) 
++   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
++   [macros (client script)](/ref/client/var/script/macro.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 This var lets you set flags to turn off options that are
@@ -12,7 +12,7 @@ normally present for the end user. You can combine these flags with the
 `|` operator. The value 1 is equivalent to `CONTROL_FREAK_ALL` and will
 disable everything.
 CONTROL_FREAK_ALL
-*   If this value is used, it affects all the options below.
++   If this value is used, it affects all the options below.
     -   User-defined macros may not be used.
     -   Only the world\'s skin or the default BYOND skin will be loaded,
         not a user-customized version.
@@ -25,9 +25,9 @@ CONTROL_FREAK_ALL
     -   The default F2 macro for the .screenshot command is turned off.
         The command is then only accessible through the skin you create.
 CONTROL_FREAK_SKIN
-*   Toggles the ability to create a custom version of the skin.
++   Toggles the ability to create a custom version of the skin.
 CONTROL_FREAK_MACROS
-*   Toggles the ability to use and define custom macros.
++   Toggles the ability to use and define custom macros.
 
 
 Using `CONTROL_FREAK_ALL` will default to disabling everything,
@@ -40,7 +40,7 @@ your own macros but nothing else.
 This value can be changed at runtime.
 
 
-Note* If you define your own skin for the world, and disable
+Note+ If you define your own skin for the world, and disable
 the ability to use a custom skin or user-defined macros, you must be
 sure to define any macros your world may need. For instance, arrow keys
 may be needed for movement.

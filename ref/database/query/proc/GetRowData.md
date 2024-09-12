@@ -1,15 +1,15 @@
 ## GetRowData proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/ref/database.md) 
-*   [database query datum](/ref/database/query.md) 
-*   [Columns proc (database query)](/ref/database/query/proc/Columns.md) 
-*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-*   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
-*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
-*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
++   [database datum](/ref/database.md) 
++   [database query datum](/ref/database/query.md) 
++   [Columns proc (database query)](/ref/database/query/proc/Columns.md) 
++   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
++   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
++   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
++   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
 **Format:**
-*   GetRowData()
++   GetRowData()
 
 
 Returns a list with the current result row for this query. If

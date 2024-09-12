@@ -1,10 +1,10 @@
 ## particles var (movable atom) 
 ###### BYOND Version 514
 **See also:**
-*   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
++   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
 <!-- -->
 **Default value:**
-*   null
++   null
 
 
 A datum (not derived from /atom) containing information about a

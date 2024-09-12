@@ -1,14 +1,14 @@
 ## addtext proc
 **See also:**
-*   [+ operator](/ref/operator/+.md) <!-- -->
++   [+ operator](/ref/operator/+.md) <!-- -->
 **Format:**
-*   addtext(Arg1,Arg2,\...)
++   addtext(Arg1,Arg2,\...)
 <!-- -->
 **Returns:**
-*   A text string with the arguments concatenated.
++   A text string with the arguments concatenated.
 <!-- -->
 **Args:**
-*   Any number of text strings.
++   Any number of text strings.
 
 
 This instruction returns text containing the first argument
@@ -18,7 +18,7 @@ constants or variables containing text.
 
 ```
  var/T T = \"1\" T = addtext(T,\"\*1 = \",T) // T = \"1\*1 =
-1\" world \<\< \"The answer is* \[T\]\" 
+1\" world \<\< \"The answer is+ \[T\]\" 
 ```
  
 

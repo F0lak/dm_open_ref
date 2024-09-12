@@ -1,22 +1,22 @@
 ## arctan proc 
 ###### BYOND Version 513
 **See also:**
-*   [arcsin proc](/ref/proc/arcsin.md) 
-*   [arccos proc](/ref/proc/arccos.md) 
-*   [tan proc](/ref/proc/tan.md) 
-*   [turn proc](/ref/proc/turn.md) <!-- -->
++   [arcsin proc](/ref/proc/arcsin.md) 
++   [arccos proc](/ref/proc/arccos.md) 
++   [tan proc](/ref/proc/tan.md) 
++   [turn proc](/ref/proc/turn.md) <!-- -->
 **Format:**
-*   arctan(Num)
-*   arctan(x, y)
-*   arctan(Vector)
++   arctan(Num)
++   arctan(x, y)
++   arctan(Vector)
 <!-- -->
 **Args:**
-*   Num* A number
-*   x, y* 2D coordinates
-*   Vector* A vector (only 2 dimensions are used)
++   Num+ A number
++   x, y+ 2D coordinates
++   Vector+ A vector (only 2 dimensions are used)
 <!-- -->
 **Returns:**
-*   The inverse tangent in degrees.
++   The inverse tangent in degrees.
 
 
 When `arctan` is called with just one number argument, the

@@ -1,18 +1,18 @@
 ## floor proc 
 ###### BYOND Version 515
 **See also:**
-*   [ceil proc](/ref/proc/ceil.md) 
-*   [round proc](/ref/proc/round.md) 
-*   [trunc proc](/ref/proc/trunc.md) 
-*   [fract proc](/ref/proc/fract.md) <!-- -->
++   [ceil proc](/ref/proc/ceil.md) 
++   [round proc](/ref/proc/round.md) 
++   [trunc proc](/ref/proc/trunc.md) 
++   [fract proc](/ref/proc/fract.md) <!-- -->
 **Format:**
-*   floor(A)
++   floor(A)
 <!-- -->
 **Returns:**
-*   the floor of A
++   the floor of A
 <!-- -->
 **Args:**
-*   A* A number, pixloc, or vector.
++   A+ A number, pixloc, or vector.
 
 
 Returns the floor of A (the largest integer less than or equal

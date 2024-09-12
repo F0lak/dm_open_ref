@@ -1,14 +1,14 @@
 ## throw statement
 **See also:**
-*   [try statement](/ref/proc/try.md) 
-*   [Error proc (world)](/ref/world/proc/Error.md) 
-*   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
-*   [exception](/ref/exception.md) <!-- -->
++   [try statement](/ref/proc/try.md) 
++   [Error proc (world)](/ref/world/proc/Error.md) 
++   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
++   [exception](/ref/exception.md) <!-- -->
 **Format:**
-*   throw Value
++   throw Value
 <!-- -->
 **Args:**
-*   Value* Any value, which will be sent to catch() if present.
++   Value+ Any value, which will be sent to catch() if present.
 
 
 This keyword throws an exception, which will stop executing the
@@ -20,7 +20,7 @@ then the current proc will end and control will return to the caller.
 
 ```
  try if(!src.ready) throw EXCEPTION(\"Not ready\")
-DoSomething() catch(var/e) world.log \<\< \"Exception* \[e\]\"
+DoSomething() catch(var/e) world.log \<\< \"Exception+ \[e\]\"
 
 ```
  

@@ -1,31 +1,31 @@
 ## rgb proc
 **See also:**
-*   [rgb2num proc](/ref/proc/rgb2num.md) 
-*   [gradient proc](/ref/proc/gradient.md) 
-*   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
-*   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
-*   [color var (atom)](/ref/atom/var/color.md) 
-*   [Blend proc (icon)](/ref/icon/proc/Blend.md) 
-*   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
-*   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) 
-*   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
++   [rgb2num proc](/ref/proc/rgb2num.md) 
++   [gradient proc](/ref/proc/gradient.md) 
++   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
++   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [Blend proc (icon)](/ref/icon/proc/Blend.md) 
++   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
++   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) 
++   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
 <!-- -->
 **Format:**
-*   rgb(R,G,B)
-*   rgb(R,G,B,A)
-*   rgb(x,y,z,space=*color space*)
-*   rgb(x,y,z,a,space)
++   rgb(R,G,B)
++   rgb(R,G,B,A)
++   rgb(x,y,z,space=*color space*)
++   rgb(x,y,z,a,space)
 <!-- -->
 **Args:**
-*   R,G,B* Numbers from 0-255 corresponding to the red, green, and blue
++   R,G,B+ Numbers from 0-255 corresponding to the red, green, and blue
     components of a color.
-*   A* Optional alpha component; 0 is transparent, 255 is opaque.
-*   x,y,z* Color components for a different color space
-*   space* [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) ; defaults
++   A+ Optional alpha component; 0 is transparent, 255 is opaque.
++   x,y,z+ Color components for a different color space
++   space+ [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) ; defaults
     to `COLORSPACE_RGB`
 <!-- -->
 **Returns:**
-*   A color, represented by a text string in #RRGGBB or #RRGGBBAA format
++   A color, represented by a text string in #RRGGBB or #RRGGBBAA format
 
 
 A way of representing a color to be used in conjunction with

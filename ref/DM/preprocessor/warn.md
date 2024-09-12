@@ -1,12 +1,12 @@
 ## #warn directive
 **See also:**
-*   [preprocessor](/ref/DM/preprocessor.md) 
-*   [#error directive](/ref/DM/preprocessor/error.md) <!-- -->
++   [preprocessor](/ref/DM/preprocessor.md) 
++   [#error directive](/ref/DM/preprocessor/error.md) <!-- -->
 **Format:**
-*   #warn Text
++   #warn Text
 <!-- -->
 **Args:**
-*   Text* a warning message to display
++   Text+ a warning message to display
 
 
 The #warn directive displays the specified message as a

@@ -1,17 +1,17 @@
 ## json_encode proc 
 ###### BYOND Version 510
 **See also:**
-*   [json_decode proc](/ref/proc/json_decode.md) <!-- -->
++   [json_decode proc](/ref/proc/json_decode.md) <!-- -->
 **Format:**
-*   json_encode(Value)
-*   json_encode(Value, flags)
++   json_encode(Value)
++   json_encode(Value, flags)
 <!-- -->
 **Returns:**
-*   A JSON-formatted text string representing Value.
++   A JSON-formatted text string representing Value.
 <!-- -->
 **Args:**
-*   Value* The value to encode.
-*   flags* A set of flags that tell the encoder how to act.
++   Value+ The value to encode.
++   flags+ A set of flags that tell the encoder how to act.
 
 
 If Value is a simple list or a matrix, the result will be

@@ -1,17 +1,17 @@
 ## show-lines parameter (skin)
 **See also:**
-*   [line-color parameter](/ref/%7Bskin%7D/param/line-color.md) 
++   [line-color parameter](/ref/%7Bskin%7D/param/line-color.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
 **Possible values:**
-*   none
-*   horizontal
-*   vertical
-*   both
++   none
++   horizontal
++   vertical
++   both
 <!-- -->
 **Default value:**
-*   both
++   both
 
 
 Determines which grid lines to display.

@@ -1,13 +1,13 @@
 ## ftp proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [browse proc](/ref/proc/browse.md) 
-*   [file proc](/ref/proc/file.md) 
-*   [link proc](/ref/proc/link.md) 
-*   [run proc](/ref/proc/run.md) 
-*   [sound proc](/ref/proc/sound.md) <!-- -->
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [browse proc](/ref/proc/browse.md) 
++   [file proc](/ref/proc/file.md) 
++   [link proc](/ref/proc/link.md) 
++   [run proc](/ref/proc/run.md) 
++   [sound proc](/ref/proc/sound.md) <!-- -->
 **Format:**
-*   target \<\< ftp(File, Name)
++   target \<\< ftp(File, Name)
 
 
 Sends a file to the target with the (optional) suggested name

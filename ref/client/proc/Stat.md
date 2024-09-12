@@ -1,19 +1,19 @@
 ## Stat proc (client)
 **See also:**
-*   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
-*   [stat proc](/ref/proc/stat.md) 
-*   [statobj var (client)](/ref/client/var/statobj.md) 
-*   [statpanel proc](/ref/proc/statpanel.md) 
-*   [statpanel var (client)](/ref/client/var/statpanel.md) 
-*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
++   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
++   [stat proc](/ref/proc/stat.md) 
++   [statobj var (client)](/ref/client/var/statobj.md) 
++   [statpanel proc](/ref/proc/statpanel.md) 
++   [statpanel var (client)](/ref/client/var/statpanel.md) 
++   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
 **Format:**
-*   Stat()
++   Stat()
 <!-- -->
 **When:**
-*   Called periodically by the client to update the stat window.
++   Called periodically by the client to update the stat window.
 <!-- -->
 **Default action:**
-*   Call statobj.Stat().
++   Call statobj.Stat().
 
 
 If this procedure sleeps (or engages in some other waiting
@@ -26,7 +26,7 @@ To increase the
 frequency of stat updates, you can lower `world.tick_lag`.
 
 
-Note* Typically only the currently viewed statpanel is updated,
+Note+ Typically only the currently viewed statpanel is updated,
 which saves on some network activity and a little time. If however the
 proc sleeps, you need to be sure that any pending updates are displayed
 once the right panel is available. Therefore if you\'re resetting a var

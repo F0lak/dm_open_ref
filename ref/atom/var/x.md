@@ -1,8 +1,8 @@
 ## x var (atom)
 **See also:**
-*   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->
++   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->
 **Default value:**
-*   The x coordinate of the object on the map.
++   The x coordinate of the object on the map.
 
 
 You may assign the coordinates of movable objects (mobs and

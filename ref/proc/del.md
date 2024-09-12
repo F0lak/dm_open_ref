@@ -1,14 +1,14 @@
 ## del proc
 **See also:**
-*   [Del proc (datum)](/ref/datum/proc/Del.md) 
-*   [garbage collection](/ref/DM/garbage.md) 
-*   [refcount proc](/ref/proc/refcount.md) 
++   [Del proc (datum)](/ref/datum/proc/Del.md) 
++   [garbage collection](/ref/DM/garbage.md) 
++   [refcount proc](/ref/proc/refcount.md) 
 <!-- -->
 **Format:**
-*   del Object
++   del Object
 <!-- -->
 **Args:**
-*   Object* Any data object (datum, savefile, world, you name it)
++   Object+ Any data object (datum, savefile, world, you name it)
 
 
 Destroy an object and null out all references to it. Procs that

@@ -1,12 +1,12 @@
 ## maxx var (world)
 **See also:**
-*   [area var (world)](/ref/world/var/area.md) 
-*   [maxy var (world)](/ref/world/var/maxy.md) 
-*   [maxz var (world)](/ref/world/var/maxz.md) 
-*   [turf var (world)](/ref/world/var/turf.md) 
-*   [Map](/ref/map.md) <!-- -->
++   [area var (world)](/ref/world/var/area.md) 
++   [maxy var (world)](/ref/world/var/maxy.md) 
++   [maxz var (world)](/ref/world/var/maxz.md) 
++   [turf var (world)](/ref/world/var/turf.md) 
++   [Map](/ref/map.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 The world map is a three-dimensional block of turfs with

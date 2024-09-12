@@ -1,8 +1,8 @@
 ## return statement
 **See also:**
-*   [. var (proc)](/ref/proc/var/%2e.md) <!-- -->
++   [. var (proc)](/ref/proc/var/%2e.md) <!-- -->
 **Format:**
-*   return E
++   return E
 
 
 Stop execution of the current proc and return the value of E to

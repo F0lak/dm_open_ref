@@ -1,14 +1,14 @@
 ## text-wrap parameter (skin)
 **See also:**
-*   [text parameter](/ref/%7Bskin%7D/param/text.md) 
++   [text parameter](/ref/%7Bskin%7D/param/text.md) 
 <!-- -->
 **Applies to:**
-*   [Label](/ref/%7Bskin%7D/control/label.md) <!-- -->
++   [Label](/ref/%7Bskin%7D/control/label.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 Wrap text that is too long for the width of the label.

@@ -1,18 +1,18 @@
 ## browse proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [browse_rsc proc](/ref/proc/browse_rsc.md) 
-*   [file proc](/ref/proc/file.md) 
-*   [link proc](/ref/proc/link.md) 
-*   [run proc](/ref/proc/run.md) 
-*   [output proc](/ref/proc/output.md) 
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [browse_rsc proc](/ref/proc/browse_rsc.md) 
++   [file proc](/ref/proc/file.md) 
++   [link proc](/ref/proc/link.md) 
++   [run proc](/ref/proc/run.md) 
++   [output proc](/ref/proc/output.md) 
 <!-- -->
 **Format:**
-*   usr \<\< browse(Body,Options)
++   usr \<\< browse(Body,Options)
 <!-- -->
 **Args:**
-*   Body* html text, file, or null to close the browser.
-*   Options* optional parameters
++   Body+ html text, file, or null to close the browser.
++   Options+ optional parameters
 
 
 This sends the html text or file to the user and optionally
@@ -37,12 +37,12 @@ These control how to handle the text or file.
 
 
 window
-*   This is the name used to identify the popup window. It is not
++   This is the name used to identify the popup window. It is not
     visible to the user. Multiple calls to browse() with the same window
     name overwrite previous contents of the same popup window. If window
     is not specified, the embedded browser panel will be used.
 file
-*   When this is unspecified, the client will store the generated html
++   When this is unspecified, the client will store the generated html
     file in the user\'s byond \"cache\" directory with an appropriate
     name. If Body is a text string, the client will generate a unique
     name. If it is a file, it will use the name of the file. You can
@@ -50,11 +50,11 @@ file
     you need to reference the file later, typically in tandem with the
     display setting below.
 display
-*   This controls whether the browser actually displays Body in the web
++   This controls whether the browser actually displays Body in the web
     browser or not. If it is turned off (display=0), the text or file is
     simply sent to the user and expected to be referenced later. This
     might be useful, for instance, to first send an image to a user and
-    then display a web page that uses that image* 
+    then display a web page that uses that image+ 
 ```
  usr \<\<
     browse(\'monster.png\',\"display=0\") usr \<\<
@@ -77,23 +77,23 @@ effect.
 
 
 border
-*   This is the width of the border between the edges of the dialogue
++   This is the width of the border between the edges of the dialogue
     and the window content. The default value is 0, meaning that the
     entire window is filled with html content.
 size
-*   This is the size of the popup window in pixels. The format is
++   This is the size of the popup window in pixels. The format is
     `WIDTHxHEIGHT`.
 can_close
-*   This specifies whether the window should be closable. The default
++   This specifies whether the window should be closable. The default
     value is 1, which enables the standard \"X\" button for closing.
 can_resize
-*   This controls whether the window is resizable. The default value is
++   This controls whether the window is resizable. The default value is
     1, enabling resizing and maximizing.
 can_minimize
-*   This controls whether the window is minimizable. The default value
++   This controls whether the window is minimizable. The default value
     is 1, enabling the standard minimization button.
 titlebar
-*   The default titlebar=1 enables the standard bar at the top of the
++   The default titlebar=1 enables the standard bar at the top of the
     window. Turning it off disables can_close and can_minimize.
 
 

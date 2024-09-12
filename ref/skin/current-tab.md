@@ -1,13 +1,13 @@
 ## current-tab parameter (skin)
 **See also:**
-*   [on-tab parameter](/ref/%7Bskin%7D/param/on-tab.md) 
-*   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) 
++   [on-tab parameter](/ref/%7Bskin%7D/param/on-tab.md) 
++   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) 
 <!-- -->
 **Applies to:**
-*   [Tab](/ref/%7Bskin%7D/control/tab.md) 
++   [Tab](/ref/%7Bskin%7D/control/tab.md) 
 <!-- -->
 **Format:**
-*   string
++   string
 
 
 The name of the [pane](/ref/%7Bskin%7D/control/main.md) in the

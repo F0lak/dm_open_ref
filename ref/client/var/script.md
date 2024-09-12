@@ -1,18 +1,18 @@
 ## script var (client)
 **See also:**
-*   [#include directive](/ref/DM/preprocessor/include.md) 
-*   [PASSWORD_TRIGGER (client
++   [#include directive](/ref/DM/preprocessor/include.md) 
++   [PASSWORD_TRIGGER (client
     script)](/ref/client/var/script/PASSWORD_TRIGGER.md) 
-*   [URL (client script)](/ref/client/var/script/URL.md) 
-*   [aliases (client script)](/ref/client/var/script/alias.md) 
-*   [browser configuration](/ref/client/var/script/URL/browser.md) 
-*   [command_text (client)](/ref/client/var/command_text.md) 
-*   [macros (client script)](/ref/client/var/script/macro.md) 
-*   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-*   [style sheets](/ref/DM/text/style.md) 
-*   [style sheets (in scripts)](/ref/client/var/script/style.md) <!-- -->
++   [URL (client script)](/ref/client/var/script/URL.md) 
++   [aliases (client script)](/ref/client/var/script/alias.md) 
++   [browser configuration](/ref/client/var/script/URL/browser.md) 
++   [command_text (client)](/ref/client/var/command_text.md) 
++   [macros (client script)](/ref/client/var/script/macro.md) 
++   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
++   [style sheets](/ref/DM/text/style.md) 
++   [style sheets (in scripts)](/ref/client/var/script/style.md) <!-- -->
 **Default value:**
-*   none
++   none
 
 
 Client scripts are mini-programs used to configure the client.
@@ -55,7 +55,7 @@ have higher precedence by default.
 
 There are three
 post-connection client-side scripts for the three types of worlds the
-client can connect to* `byond.dms`, `telnet.dms`, and `irc.dms`. These
+client can connect to+ `byond.dms`, `telnet.dms`, and `irc.dms`. These
 are automatically executed if the player connects directly to a world
 without using a connection script to do so. The intention is to load any
 standard configurations such as style sheets and command aliases.

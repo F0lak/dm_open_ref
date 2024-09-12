@@ -1,38 +1,38 @@
 ## Move proc (movable atom)
 **See also:**
-*   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
-*   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-*   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-*   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-*   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-*   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-*   [loc var (atom)](/ref/atom/var/loc.md) 
-*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-*   [walk proc](/ref/proc/walk.md) 
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
++   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
++   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
++   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
++   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
++   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
++   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
++   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
++   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
++   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
++   [loc var (atom)](/ref/atom/var/loc.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [walk proc](/ref/proc/walk.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Format:**
-*   Move(NewLoc,Dir=0,step_x=0,step_y=0)
++   Move(NewLoc,Dir=0,step_x=0,step_y=0)
 <!-- -->
 **Returns:**
-*   Success (jump)* 1
-*   Success (slide)* Number of pixels moved
-*   Failure* 0
++   Success (jump)+ 1
++   Success (slide)+ Number of pixels moved
++   Failure+ 0
 <!-- -->
 **When:**
-*   Called to move the object. By default, client.Move() calls this proc
++   Called to move the object. By default, client.Move() calls this proc
     when players use direction keys. The automated movement functions
     (like walk()) also call this proc. Directly setting the loc variable
     does **not** call this procedure.
 <!-- -->
 **Args:**
-*   NewLoc* The new location.
-*   Dir* The direction of movement (or 0).
-*   [step_x]{byondver="490"}* The new step_x value, relative to NewLoc
-*   [step_y]{byondver="490"}* The new step_y value, relative to NewLoc
++   NewLoc+ The new location.
++   Dir+ The direction of movement (or 0).
++   [step_x]{byondver="490"}+ The new step_x value, relative to NewLoc
++   [step_y]{byondver="490"}+ The new step_y value, relative to NewLoc
 
 
 Any Move() is either a slide or a jump. Normal walking around

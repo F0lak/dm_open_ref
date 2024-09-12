@@ -1,15 +1,15 @@
 ## SetIntensity proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) 
-*   [procs (icon)](/ref/icon/proc.md) 
-*   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) <!-- -->
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) <!-- -->
 **Format:**
-*   SetIntensity(r,g=r,b=r)
++   SetIntensity(r,g=r,b=r)
 <!-- -->
 **Args:**
-*   r* red component
-*   g* green component
-*   b* blue component
++   r+ red component
++   g+ green component
++   b+ blue component
 
 
 This multiplies the pixel intensities by the specified amounts.

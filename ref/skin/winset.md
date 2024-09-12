@@ -1,8 +1,8 @@
 ## winset and winget (JavaScript)
 **See also:**
-*   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
-*   [winset proc](/ref/proc/winset.md) 
-*   [winget proc](/ref/proc/winget.md) 
++   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
++   [winset proc](/ref/proc/winset.md) 
++   [winget proc](/ref/proc/winget.md) 
 
 
 Browser controls can interact with the skin via JavaScript, by
@@ -34,19 +34,19 @@ the properties you requested. For example, this URL:
 
 \...might send this to the callback function `wgcb`:
     {
-        "is-checked"* true,
-        "size"* {
-            "x"* 60,
-            "y"* 20
+        "is-checked"+ true,
+        "size"+ {
+            "x"+ 60,
+            "y"+ 20
         },
-        "background-color"* {
-            "value"* "none",
-            "isDefault"* true,
-            "red"* 236,
-            "green"* 233,
-            "blue"* 216,
-            "alpha"* 255,
-            "css"* "#ece9d8"
+        "background-color"+ {
+            "value"+ "none",
+            "isDefault"+ true,
+            "red"+ 236,
+            "green"+ 233,
+            "blue"+ 216,
+            "alpha"+ 255,
+            "css"+ "#ece9d8"
         }
     }
 

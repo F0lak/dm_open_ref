@@ -1,18 +1,18 @@
 ## current-cell parameter (skin)
 **See also:**
-*   [cell-span parameter](/ref/%7Bskin%7D/param/cell-span.md) 
-*   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
-*   [is-list parameter](/ref/%7Bskin%7D/param/is-list.md) 
++   [cell-span parameter](/ref/%7Bskin%7D/param/cell-span.md) 
++   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
++   [is-list parameter](/ref/%7Bskin%7D/param/is-list.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) 
++   [Grid](/ref/%7Bskin%7D/control/grid.md) 
 <!-- -->
 **Format:**
-*   *columns*,*rows*
-*   *items*
++   *columns*,*rows*
++   *items*
 <!-- -->
 **Default value:**
-*   0x0
++   0x0
 
 
 The active cell. Any output sent to the grid, that is not sent

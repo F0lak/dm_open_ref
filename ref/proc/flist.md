@@ -1,14 +1,14 @@
 ## flist proc
 **See also:**
-*   [fexists proc](/ref/proc/fexists.md) <!-- -->
++   [fexists proc](/ref/proc/fexists.md) <!-- -->
 **Format:**
-*   flist(Path)
++   flist(Path)
 <!-- -->
 **Args:**
-*   Path* The path in the filesystem to get a listing of.
++   Path+ The path in the filesystem to get a listing of.
 <!-- -->
 **Returns:**
-*   A list of files contained in the specified directory and whose names
++   A list of files contained in the specified directory and whose names
     begin with the specified text. The names of sub-directories are
     listed too, and are marked by a trailing \"/\".
 

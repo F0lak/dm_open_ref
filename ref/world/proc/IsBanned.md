@@ -1,25 +1,25 @@
 ## IsBanned proc (world)
 **See also:**
-*   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) 
-*   [params2list proc](/ref/proc/params2list.md) 
-*   [address var (client)](/ref/client/var/address.md) 
-*   [computer_id var (client)](/ref/client/var/computer_id.md) 
-*   [connection var (client)](/ref/client/var/connection.md) 
-*   [hub var (world)](/ref/world/var/hub.md) 
++   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) 
++   [params2list proc](/ref/proc/params2list.md) 
++   [address var (client)](/ref/client/var/address.md) 
++   [computer_id var (client)](/ref/client/var/computer_id.md) 
++   [connection var (client)](/ref/client/var/connection.md) 
++   [hub var (world)](/ref/world/var/hub.md) 
 <!-- -->
 **Format:**
-*   IsBanned(key,address,computer_id,type)
++   IsBanned(key,address,computer_id,type)
 <!-- -->
 **Returns:**
-*   True value if user is banned from this world. This may be a list, in
++   True value if user is banned from this world. This may be a list, in
     which case special meaning is attributed to certain list elements as
     described below.
 <!-- -->
 **Args:**
-*   key* BYOND key of the user.
-*   address* current IP address of the user.
-*   computer_id* current computer_id of the user if known.
-*   type* type of connection if known (see
++   key+ BYOND key of the user.
++   address+ current IP address of the user.
++   computer_id+ current computer_id of the user if known.
++   type+ type of connection if known (see
     [client.connection](/ref/client/var/connection.md) )
 
 
@@ -60,14 +60,14 @@ When you remove pager ban, they are removed from keyban as well.
 Additional data elements may be added to the ban list in the
 future. The current definition includes just the following items:
 Login
-*   true if banned user should be allowed to log in
++   true if banned user should be allowed to log in
 reason
-*   text string describing the reason or origin of the ban. For example,
++   text string describing the reason or origin of the ban. For example,
     when people are banned from the pager, they are added to the
     \"keyban\" list with reason = \"pager ban\". This text is internal
     information only and is not displayed to the banned user.
 message
-*   text string explaining to the user why they were banned and possibly
++   text string explaining to the user why they were banned and possibly
     what they should do to be forgiven.
 
 

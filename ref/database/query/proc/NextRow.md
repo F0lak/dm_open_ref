@@ -1,14 +1,14 @@
 ## NextRow proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/ref/database.md) 
-*   [database query datum](/ref/database/query.md) 
-*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-*   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
-*   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
++   [database datum](/ref/database.md) 
++   [database query datum](/ref/database/query.md) 
++   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
++   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
++   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
++   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
 **Format:**
-*   NextRow()
++   NextRow()
 
 
 If there are result rows in this query (Execute() must be

@@ -1,21 +1,21 @@
 ## New proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) 
-*   [procs (icon)](/ref/icon/proc.md) 
-*   [image proc](/ref/proc/image.md) 
-*   [new proc](/ref/proc/new.md) 
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [image proc](/ref/proc/image.md) 
++   [new proc](/ref/proc/new.md) 
 <!-- -->
 **Format:**
-*   New(icon,icon_state,dir,frame,moving)
-*   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
++   New(icon,icon_state,dir,frame,moving)
++   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
 <!-- -->
 **Args:**
-*   icon* an icon file or /icon object
-*   icon_state* an optional text string, specifying a single icon state
++   icon+ an icon file or /icon object
++   icon_state+ an optional text string, specifying a single icon state
     to load
-*   dir* an optional direction to extract
-*   frame* an optional animation frame to extract
-*   moving* Non-zero to extract only movement states, 0 for non-movement
++   dir+ an optional direction to extract
++   frame+ an optional animation frame to extract
++   moving+ Non-zero to extract only movement states, 0 for non-movement
     states, or null (default) for both
 
 

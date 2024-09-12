@@ -1,6 +1,6 @@
 # PASSWORD_TRIGGER (client script)
 **Format:**
-*   #define PASSWORD_TRIGGER \"assword:\"
++   #define PASSWORD_TRIGGER \"assword:\"
 
 
 This defines a special text *trigger* used to detect when the

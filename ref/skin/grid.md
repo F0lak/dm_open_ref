@@ -4,19 +4,19 @@
 A grid that contains multiple cells that can show various kinds
 of output data.
 **Grid-specific parameters:**
-*   [cell-span](/ref/%7Bskin%7D/param/cell-span.md) 
-*   [cells](/ref/%7Bskin%7D/param/cells.md) 
-*   [current-cell](/ref/%7Bskin%7D/param/current-cell.md) 
-*   [enable-http-images](/ref/%7Bskin%7D/param/enable-http-images.md) 
-*   [highlight-color](/ref/%7Bskin%7D/param/highlight-color.md) 
-*   [is-list](/ref/%7Bskin%7D/param/is-list.md) 
-*   [line-color](/ref/%7Bskin%7D/param/line-color.md) 
-*   [link-color](/ref/%7Bskin%7D/param/link-color.md) 
-*   [show-lines](/ref/%7Bskin%7D/param/show-lines.md) 
-*   [show-names](/ref/%7Bskin%7D/param/show-names.md) 
-*   [small-icons](/ref/%7Bskin%7D/param/small-icons.md) 
-*   [style](/ref/%7Bskin%7D/param/style.md) 
-*   [visited-color](/ref/%7Bskin%7D/param/visited-color.md) 
++   [cell-span](/ref/%7Bskin%7D/param/cell-span.md) 
++   [cells](/ref/%7Bskin%7D/param/cells.md) 
++   [current-cell](/ref/%7Bskin%7D/param/current-cell.md) 
++   [enable-http-images](/ref/%7Bskin%7D/param/enable-http-images.md) 
++   [highlight-color](/ref/%7Bskin%7D/param/highlight-color.md) 
++   [is-list](/ref/%7Bskin%7D/param/is-list.md) 
++   [line-color](/ref/%7Bskin%7D/param/line-color.md) 
++   [link-color](/ref/%7Bskin%7D/param/link-color.md) 
++   [show-lines](/ref/%7Bskin%7D/param/show-lines.md) 
++   [show-names](/ref/%7Bskin%7D/param/show-names.md) 
++   [small-icons](/ref/%7Bskin%7D/param/small-icons.md) 
++   [style](/ref/%7Bskin%7D/param/style.md) 
++   [visited-color](/ref/%7Bskin%7D/param/visited-color.md) 
 
 
 Sending output to a grid looks like this:
@@ -25,8 +25,8 @@ Sending output to a grid looks like this:
 ```
  // output to column 3, row 2 winset(usr, \"thegrid\",
 \"current-cell=3,2\") usr \<\< output(\"Text\", \"thegrid\") // or even
-easier* usr \<\< output(\"Text\", \"thegrid:3,2\") // when is-list is
-true* usr \<\< output(\"5th item\", \"thegrid:5\") 
+easier+ usr \<\< output(\"Text\", \"thegrid:3,2\") // when is-list is
+true+ usr \<\< output(\"5th item\", \"thegrid:5\") 
 ```
 
 

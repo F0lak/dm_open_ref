@@ -1,9 +1,9 @@
 ## arguments (verb)
 **See also:**
-*   [argument expanding](/ref/verb/arguments/expanding.md) 
-*   [command_text (client)](/ref/client/var/command_text.md) 
-*   [arglist proc](/ref/proc/arglist.md) 
-*   [args var (verb)](/ref/verb/var/args.md) 
++   [argument expanding](/ref/verb/arguments/expanding.md) 
++   [command_text (client)](/ref/client/var/command_text.md) 
++   [arglist proc](/ref/proc/arglist.md) 
++   [args var (verb)](/ref/verb/var/args.md) 
 
 The parameters to a verb are referred to as arguments. For
 verbs, the input type and possible value list may also be specified.
@@ -34,7 +34,7 @@ literal values that the user can type in (like a number or a text
 string). The second group work in conjunction with a list of objects or
 values. They are called input type *filters* because they may be used to
 filter out certain types of values from the list. For example a mob or
-an obj within sight would be specified as follows* 
+an obj within sight would be specified as follows+ 
 ```
  myverb(M
 as mob\|obj in view()) {\...} 
@@ -56,7 +56,7 @@ it on by default.
 
 The `anything` input type can be used to
 combine values in a list with other constant input types. Here, this is
-done with the `null` input type* 
+done with the `null` input type+ 
 ```
  set_aggression(a=\"on\" as
 null\|anything in list(\"on\",\"off\")) 
@@ -78,4 +78,4 @@ type will be used to determine whether it is a mob, obj, turf, or area.
  
 
 This example defines a verb with two
-arguments* a target mob, and some text.
+arguments+ a target mob, and some text.

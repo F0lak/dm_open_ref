@@ -1,15 +1,15 @@
 ## arglist proc
 **See also:**
-*   [arguments (proc)](/ref/proc/arguments.md) 
-*   [call proc](/ref/proc/call.md) 
-*   [call_ext proc](/ref/proc/call_ext.md) 
-*   [list proc](/ref/proc/list.md) 
++   [arguments (proc)](/ref/proc/arguments.md) 
++   [call proc](/ref/proc/call.md) 
++   [call_ext proc](/ref/proc/call_ext.md) 
++   [list proc](/ref/proc/list.md) 
 <!-- -->
 **Format:**
-*   arglist(List)
++   arglist(List)
 <!-- -->
 **Args:**
-*   List* a list to be used as the arguments to a procedure
++   List+ a list to be used as the arguments to a procedure
 
 
 Normally, if you were to pass a list directly to a procedure,

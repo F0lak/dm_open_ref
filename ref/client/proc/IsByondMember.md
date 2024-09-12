@@ -1,9 +1,9 @@
 # IsByondMember proc (client)
 **Format:**
-*   IsByondMember()
++   IsByondMember()
 <!-- -->
 **Args:**
-*   None.
++   None.
 
 
 This built-in procedure checks to see if the user is a BYOND

@@ -1,12 +1,12 @@
 ## HUD / screen objects
 **See also:**
-*   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-*   [screen var (client)](/ref/client/var/screen.md) 
-*   [view var (client)](/ref/client/var/view.md) 
-*   [map_format var (world)](/ref/world/var/map_format.md) 
-*   [icon_size var (world)](/ref/world/var/icon_size.md) 
-*   [layer var (atom)](/ref/atom/var/layer.md) 
-*   [image objects](/ref/image.md) 
++   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
++   [screen var (client)](/ref/client/var/screen.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [icon_size var (world)](/ref/world/var/icon_size.md) 
++   [layer var (atom)](/ref/atom/var/layer.md) 
++   [image objects](/ref/image.md) 
 
 
 HUD stands for Heads-Up Display, and refers to any atoms that

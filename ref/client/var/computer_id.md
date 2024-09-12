@@ -1,6 +1,6 @@
 # computer_id var (client)
 **Default value:**
-*   A unique numerical identifier for the player\'s computer. The value
++   A unique numerical identifier for the player\'s computer. The value
     is in text form.
 
 

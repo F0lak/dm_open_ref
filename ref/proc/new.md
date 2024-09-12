@@ -1,24 +1,24 @@
 ## new proc
 **See also:**
-*   [New proc (atom)](/ref/atom/proc/New.md) 
-*   [New proc (datum)](/ref/datum/proc/New.md) 
-*   [New proc (icon)](/ref/icon/proc/New.md) 
-*   [newlist proc](/ref/proc/newlist.md) 
-*   [path operators](/ref/operator/path.md) 
-*   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) <!-- -->
++   [New proc (atom)](/ref/atom/proc/New.md) 
++   [New proc (datum)](/ref/datum/proc/New.md) 
++   [New proc (icon)](/ref/icon/proc/New.md) 
++   [newlist proc](/ref/proc/newlist.md) 
++   [path operators](/ref/operator/path.md) 
++   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) <!-- -->
 **Format:**
-*   new Type(Args)
++   new Type(Args)
 <!-- -->
 **Returns:**
-*   A reference to a new instance of Type.
++   A reference to a new instance of Type.
 <!-- -->
 **Args:**
-*   Type* The type of object to create.
-*   Args* Arguments for the Type.New() proc.
++   Type+ The type of object to create.
++   Args+ Arguments for the Type.New() proc.
 
 
 A new instance of Type is created. The arguments (Args) are
-passed to its New() proc. A handy short-cut* if Type is not specified
+passed to its New() proc. A handy short-cut+ if Type is not specified
 and new() is being used in an assignment, the variable type of the
 left-hand-side will be used as the default type. 
 

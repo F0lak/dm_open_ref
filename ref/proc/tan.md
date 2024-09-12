@@ -1,15 +1,15 @@
 ## tan proc 
 ###### BYOND Version 513
 **See also:**
-*   [arctan proc](/ref/proc/arctan.md) 
-*   [cos proc](/ref/proc/cos.md) 
-*   [sin proc](/ref/proc/sin.md) 
-*   [turn proc](/ref/proc/turn.md) <!-- -->
++   [arctan proc](/ref/proc/arctan.md) 
++   [cos proc](/ref/proc/cos.md) 
++   [sin proc](/ref/proc/sin.md) 
++   [turn proc](/ref/proc/turn.md) <!-- -->
 **Format:**
-*   tan(X)
++   tan(X)
 <!-- -->
 **Returns:**
-*   The tangent of X, where X is in degrees.
++   The tangent of X, where X is in degrees.
 ### Example:
 
 ```

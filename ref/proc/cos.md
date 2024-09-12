@@ -1,14 +1,14 @@
 ## cos proc
 **See also:**
-*   [arccos proc](/ref/proc/arccos.md) 
-*   [sin proc](/ref/proc/sin.md) 
-*   [tan proc](/ref/proc/tan.md) 
-*   [turn proc](/ref/proc/turn.md) <!-- -->
++   [arccos proc](/ref/proc/arccos.md) 
++   [sin proc](/ref/proc/sin.md) 
++   [tan proc](/ref/proc/tan.md) 
++   [turn proc](/ref/proc/turn.md) <!-- -->
 **Format:**
-*   cos(X)
++   cos(X)
 <!-- -->
 **Returns:**
-*   The cosine of X, where X is in degrees.
++   The cosine of X, where X is in degrees.
 ### Example:
 
 ```

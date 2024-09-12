@@ -1,16 +1,16 @@
 ## walk_towards proc
 **See also:**
-*   [get_step_towards proc](/ref/proc/get_step_towards.md) 
-*   [step_towards proc](/ref/proc/step_towards.md) 
-*   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
++   [get_step_towards proc](/ref/proc/get_step_towards.md) 
++   [step_towards proc](/ref/proc/step_towards.md) 
++   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
 **Format:**
-*   walk_towards(Ref,Trg,Lag=0,Speed=0)
++   walk_towards(Ref,Trg,Lag=0,Speed=0)
 <!-- -->
 **Args:**
-*   Ref* A mob or obj.
-*   Trg* An object on the map.
-*   Lag* Delay in world ticks between movement.
-*   Speed* Speed to move, in pixels. 0 uses Ref.step_size.
++   Ref+ A mob or obj.
++   Trg+ An object on the map.
++   Lag+ Delay in world ticks between movement.
++   Speed+ Speed to move, in pixels. 0 uses Ref.step_size.
 
 
 Move Ref in the direction of Trg continuously. Each step will

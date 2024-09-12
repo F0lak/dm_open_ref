@@ -3,12 +3,12 @@
 
 A browser panel integrated into the skin.
 **Browser-specific parameters:**
-*   [auto-format](/ref/%7Bskin%7D/param/auto-format.md) 
-*   [on-hide](/ref/%7Bskin%7D/param/on-hide.md) 
-*   [on-show](/ref/%7Bskin%7D/param/on-show.md) 
-*   [show-history](/ref/%7Bskin%7D/param/show-history.md) 
-*   [show-url](/ref/%7Bskin%7D/param/show-url.md) 
-*   [use-title](/ref/%7Bskin%7D/param/use-title.md) 
++   [auto-format](/ref/%7Bskin%7D/param/auto-format.md) 
++   [on-hide](/ref/%7Bskin%7D/param/on-hide.md) 
++   [on-show](/ref/%7Bskin%7D/param/on-show.md) 
++   [show-history](/ref/%7Bskin%7D/param/show-history.md) 
++   [show-url](/ref/%7Bskin%7D/param/show-url.md) 
++   [use-title](/ref/%7Bskin%7D/param/use-title.md) 
 
 
 Browsers are capable of displaying HTML documents, and can also
@@ -54,5 +54,5 @@ this example.
 
 These topics cover more advanced uses of the browser control.
 [winset and winget (JavaScript)](/ref/%7Bskin%7D/control/browser/winset.md) 
-*   Interact with the skin via JavaScript
-[byondStorage (browser control)](/ref/%7Bskin%7D/control/browser/byondStorage.md) *   Provides persistent storage options for small data
++   Interact with the skin via JavaScript
+[byondStorage (browser control)](/ref/%7Bskin%7D/control/browser/byondStorage.md) +   Provides persistent storage options for small data

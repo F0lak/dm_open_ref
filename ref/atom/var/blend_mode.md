@@ -1,21 +1,21 @@
 ## blend_mode var (atom) 
 ###### BYOND Version 501
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) 
-*   [alpha var (atom)](/ref/atom/var/alpha.md) 
-*   [color var (atom)](/ref/atom/var/color.md) 
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [vars (atom)](/ref/atom/var.md) 
++   [alpha var (atom)](/ref/atom/var/alpha.md) 
++   [color var (atom)](/ref/atom/var/color.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 <!-- -->
 **Default value:**
-*   0 (none/overlay)
++   0 (none/overlay)
 <!-- -->
 **Possible values:**
-*   BLEND_DEFAULT (0)
-*   BLEND_OVERLAY
-*   BLEND_ADD
-*   BLEND_SUBTRACT[\*]{.small}
-*   BLEND_MULTIPLY[\*†]{.small}
-*   BLEND_INSET_OVERLAY[\*†]{.small}
++   BLEND_DEFAULT (0)
++   BLEND_OVERLAY
++   BLEND_ADD
++   BLEND_SUBTRACT[\*]{.small}
++   BLEND_MULTIPLY[\*†]{.small}
++   BLEND_INSET_OVERLAY[\*†]{.small}
 
 
 \[[\*]{.small} This blend type appears only when using graphics

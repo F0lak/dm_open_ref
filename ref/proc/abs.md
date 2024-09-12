@@ -1,12 +1,12 @@
 # abs proc
 **Format:**
-*   abs(A)
++   abs(A)
 <!-- -->
 **Returns:**
-*   The absolute value of A.
++   The absolute value of A.
 <!-- -->
 **Args:**
-*   A* A number.
++   A+ A number.
 ### Example:
 
 ```

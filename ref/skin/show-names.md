@@ -1,15 +1,15 @@
 ## show-names parameter (skin)
 **See also:**
-*   [name var (atom)](/ref/atom/var/name.md) 
-*   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) 
++   [name var (atom)](/ref/atom/var/name.md) 
++   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   true
++   true
 
 
 When atoms are output to the grid, show the atom\'s name next

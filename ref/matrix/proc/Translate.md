@@ -1,17 +1,17 @@
 ## Translate proc (matrix)
 **See also:**
-*   [matrix](/ref/matrix.md) 
-*   [matrix operators](/ref/matrix/operators.md) 
-*   [matrix procs](/ref/matrix/proc.md) <!-- -->
++   [matrix](/ref/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [matrix procs](/ref/matrix/proc.md) <!-- -->
 **Format:**
-*   Translate(x,y)
++   Translate(x,y)
 <!-- -->
 **Args:**
-*   x* The amount of scaling to do in the x direction
-*   y* The amount of scaling to do in the y direction
++   x+ The amount of scaling to do in the x direction
++   y+ The amount of scaling to do in the y direction
 <!-- -->
 **Returns:**
-*   src
++   src
 
 
 The matrix is translated (moved) by the appropriate amounts.

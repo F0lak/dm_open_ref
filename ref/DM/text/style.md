@@ -1,11 +1,11 @@
 ## style sheets
 **See also:**
-*   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) 
-*   [entities (text)](/ref/DM/text/entities.md) 
-*   [macros (text)](/ref/DM/text/macros.md) 
-*   [script var (client)](/ref/client/var/script.md) 
-*   [tags (text)](/ref/DM/text/tags.md) 
-*   [text](/ref/DM/text.md) 
++   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) 
++   [entities (text)](/ref/DM/text/entities.md) 
++   [macros (text)](/ref/DM/text/macros.md) 
++   [script var (client)](/ref/client/var/script.md) 
++   [tags (text)](/ref/DM/text/tags.md) 
++   [text](/ref/DM/text.md) 
 
 
 HTML tags, such as `<font>` may be used to directly format
@@ -26,7 +26,7 @@ style sheet, one might want combat and conversational messages to appear
 differently---perhaps using different colors. Instead of using the
 `<font>` tag to color the text, you could use `<span>` to mark the
 beginning and ending of the text and to specify what kind of message it
-is. The result might be text such as the following* 
+is. The result might be text such as the following+ 
 ```
  \"\[usr\]
 [spanks]{.combat} \[targ\]!\" \"\[usr\] says, \'[\[msg\]]{.chat}\'\"
@@ -39,10 +39,10 @@ The `class` attribute may be used with any tag, but
 side-effect but defining the style class. `span` is for text within a
 single paragraph and `div` is for whole paragraphs. The way text
 belonging to a particular class is formatted may be controlled in a
-style sheet such as the following* 
+style sheet such as the following+ 
 ```
- .combat {color* red} .chat
-{color* green} 
+ .combat {color+ red} .chat
+{color+ green} 
 ```
  
 
@@ -77,20 +77,20 @@ any matching tag, regardless of class.
 To specify a *nested*
 context, several simple selectors may be listed one after the other. For
 example, emphasized text within a combat message could be enlarged with
-the following rule* 
+the following rule+ 
 ```
- .combat em {font-size* larger} 
+ .combat em {font-size+ larger} 
 ```
 
 
 
 It is also possible to list several selectors separated by
 commas in order to make them all apply to the same body. For example,
-this next rule is equivalent to the two following ones* 
+this next rule is equivalent to the two following ones+ 
 ```
 
-.combat em, .chat em {font-size* larger} .combat em {font-size* larger}
-.chat em {font-size* larger} 
+.combat em, .chat em {font-size+ larger} .combat em {font-size+ larger}
+.chat em {font-size+ larger} 
 ```
  
 
@@ -148,7 +148,7 @@ The following example sets the font for the `<body>` tag. Even
 if you don\'t explicitly use `<body>` in output text, it is applied
 implicitly. 
 ```
- body {font* 12pt \'Times New Roman\', sans-serif}
+ body {font+ 12pt \'Times New Roman\', sans-serif}
 
 ```
  
@@ -188,10 +188,10 @@ inches or points, or a relative size unit like em or ex. (A percentage
 is interpreted so that 100% is 1em, not the width of the window.) Using
 the `text-indent` attribute will indent the first line of a paragraph
 from the left margin. It is possible to create a hanging indent by using
-a negative value for `text-indent`, like so* 
+a negative value for `text-indent`, like so+ 
 ```
  body
-{text-indent* -0.5in; margin-left* 0.5in} 
+{text-indent+ -0.5in; margin-left+ 0.5in} 
 ```
 
 ### background colors
@@ -221,10 +221,10 @@ class as well as more specific ones. That allows you to change all of
 these colors in one shot if you are too lazy to change them each
 individually. For example, if you define a style sheet that changes the
 background color, you might need to redefine the various foreground
-colors like this* 
+colors like this+ 
 ```
- body {background* aqua; color* black}
-.system {color* red; font-weight* bold} .command {color* green}
+ body {background+ aqua; color+ black}
+.system {color+ red; font-weight+ bold} .command {color+ green}
 
 ```
  
@@ -273,10 +273,10 @@ However, if more than one rule is important, the normal rules of
 precedence will be used to resolve the conflict. 
 
 The important
-flag is applied after the attribute assignment like this* 
+flag is applied after the attribute assignment like this+ 
 ```
 
-body {background* white ! important; font* serif} 
+body {background+ white ! important; font+ serif} 
 ```
  
 
@@ -295,7 +295,7 @@ The
 following example uses the style attribute to color some text:
 
 ```
- usr \<\< \"That [HURT]{style="color* red"}!\" 
+ usr \<\< \"That [HURT]{style="color+ red"}!\" 
 ```
 
 

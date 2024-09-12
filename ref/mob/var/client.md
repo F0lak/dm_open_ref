@@ -1,8 +1,8 @@
 ## client var (mob)
 **See also:**
-*   [client](/ref/client.md) <!-- -->
++   [client](/ref/client.md) <!-- -->
 **Default value:**
-*   null
++   null
 
 
 This is a reference to a set of properties specific to the

@@ -1,9 +1,9 @@
 ## ckey var (mob)
 **See also:**
-*   [ckey proc](/ref/proc/ckey.md) 
-*   [key var (mob)](/ref/mob/var/key.md) <!-- -->
++   [ckey proc](/ref/proc/ckey.md) 
++   [key var (mob)](/ref/mob/var/key.md) <!-- -->
 **Default value:**
-*   null
++   null
 
 
 This is the value of mob.key converted to canonical form (ie

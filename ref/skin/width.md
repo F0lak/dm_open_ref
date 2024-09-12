@@ -1,15 +1,15 @@
 ## width parameter (skin)
 **See also:**
-*   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 
-*   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider.md) 
++   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 
++   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider.md) 
 <!-- -->
 **Applies to:**
-*   [Bar](/ref/%7Bskin%7D/control/bar.md) <!-- -->
++   [Bar](/ref/%7Bskin%7D/control/bar.md) <!-- -->
 **Format:**
-*   number
++   number
 <!-- -->
 **Default value:**
-*   10
++   10
 
 
 Width, in pixels, of the bar or slider. A value of 0 uses all

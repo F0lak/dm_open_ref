@@ -1,6 +1,6 @@
 # preload_rsc var (client)
 **Default value:**
-*   1\.
++   1\.
 
 
 This variable controls whether resource files (icons and
@@ -12,13 +12,13 @@ it for some time.
 
 The three possible settings are:
 0
-*   do not preload any resources
++   do not preload any resources
 1
-*   preload compiled-in resources only
++   preload compiled-in resources only
 2
-*   preload all resources including those uploaded by players
++   preload all resources including those uploaded by players
 URL
-*   preload resources from specified file
++   preload resources from specified file
 
 
 Preloading resource files will eliminate delays later on, but
@@ -52,5 +52,5 @@ server directly.
 
 If you want to force a complete refresh,
 simply change the name of the resource package. For example, you could
-put a version number in the name of the file* `mygame_rsc_01.zip`,
+put a version number in the name of the file+ `mygame_rsc_01.zip`,
 `mygame_rsc_02.zip`, and so on.

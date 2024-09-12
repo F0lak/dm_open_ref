@@ -1,14 +1,14 @@
 ## Import proc (client)
 **See also:**
-*   [Export proc (client)](/ref/client/proc/Export.md) 
-*   [New proc (client)](/ref/client/proc/New.md) 
-*   [savefile](/ref/savefile.md) 
++   [Export proc (client)](/ref/client/proc/Export.md) 
++   [New proc (client)](/ref/client/proc/New.md) 
++   [savefile](/ref/savefile.md) 
 <!-- -->
 **Format:**
-*   client.Import(Query)
++   client.Import(Query)
 <!-- -->
 **Args:**
-*   Query* optional query parameters
++   Query+ optional query parameters
 
 
 When no query parameters are given, this returns the

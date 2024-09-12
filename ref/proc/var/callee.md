@@ -1,8 +1,8 @@
 ## callee var (proc) 
 ###### BYOND Version 516
 **See also:**
-*   [callee](/ref/callee.md) 
-*   [caller var (proc)](/ref/proc/var/caller.md) 
++   [callee](/ref/callee.md) 
++   [caller var (proc)](/ref/proc/var/caller.md) 
 
 
 Returns a [callee object](/ref/callee.md) representing the current

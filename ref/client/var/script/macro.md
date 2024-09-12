@@ -1,10 +1,10 @@
 ## macros (client script)
 **See also:**
-*   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-*   [aliases (client script)](/ref/client/var/script/alias.md) 
-*   [command_text (client)](/ref/client/var/command_text.md) 
-*   [script var (client)](/ref/client/var/script.md) 
-*   [verbs](/ref/verb.md) 
++   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
++   [aliases (client script)](/ref/client/var/script/alias.md) 
++   [command_text (client)](/ref/client/var/command_text.md) 
++   [script var (client)](/ref/client/var/script.md) 
++   [verbs](/ref/verb.md) 
 
 
 Macros are just like aliases, except that they are triggered by
@@ -23,7 +23,7 @@ typical set of macros.
 \\\...\" //command to be edited 
 ```
 
-Note* In old versions of BYOND, character keys required the Alt key to
+Note+ In old versions of BYOND, character keys required the Alt key to
 be pressed to trigger the macro, and did not include `"ALT+"` to do so.
 This behavior has changed, and the name of the macro is just like the
 format used in skin files. You can now use a key name, and modifiers

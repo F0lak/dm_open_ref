@@ -1,23 +1,23 @@
 ## bounds_dist proc
 **See also:**
-*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
-*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
-*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-*   [bounds proc](/ref/proc/bounds.md) 
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
++   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
++   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
++   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
++   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
++   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
++   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
++   [bounds proc](/ref/proc/bounds.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Format:**
-*   bounds_dist(Ref, Target)
++   bounds_dist(Ref, Target)
 <!-- -->
 **Returns:**
-*   The distance, in pixels, between Ref\'s and Target\'s bounding
++   The distance, in pixels, between Ref\'s and Target\'s bounding
     boxes.
 <!-- -->
 **Args:**
-*   Ref* A turf, obj, or mob.
-*   Target* A turf, obj, or mob.
++   Ref+ A turf, obj, or mob.
++   Target+ A turf, obj, or mob.
 
 
 The value returned by bounds_dist() is the number of pixels

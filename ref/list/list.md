@@ -1,10 +1,10 @@
 ## list
 **See also:**
-*   [list associations](/ref/list/associations.md) 
-*   [list proc](/ref/proc/list.md) 
-*   [islist proc](/ref/proc/islist.md) 
-*   [procs (list)](/ref/list/proc.md) 
-*   [vars (list)](/ref/list/var.md) 
++   [list associations](/ref/list/associations.md) 
++   [list proc](/ref/proc/list.md) 
++   [islist proc](/ref/proc/islist.md) 
++   [procs (list)](/ref/list/proc.md) 
++   [vars (list)](/ref/list/var.md) 
 
 Lists are used to represent groups of objects. Like objects,
 they have vars and procs associated with them. In order to access these
@@ -15,7 +15,7 @@ assigned to existing lists, or used to create new lists.
 ```
  var/list/L // list reference L = world.contents // assign to
 existing list L = new/list() // make a new list L = new() // make a new
-list (implicit type) L.Add(\"futz\") // L contains* \"futz\" del(L) //
+list (implicit type) L.Add(\"futz\") // L contains+ \"futz\" del(L) //
 delete L 
 ```
  
@@ -29,7 +29,7 @@ The
 ### Example:
 
 ```
- var/list/L L = list(\"futz\",3) // L contains* (\"futz\", 3)
+ var/list/L L = list(\"futz\",3) // L contains+ (\"futz\", 3)
 
 ```
  
@@ -42,14 +42,14 @@ initial size.
 ### Example:
 
 ```
- var/L\[\] // same as var/list/L* list reference var/M\[10\]
+ var/L\[\] // same as var/list/L+ list reference var/M\[10\]
 // initially empty list of size 10 L = M // L is now an empty list of
 size 10 
 ```
  
 
 Once a list L is declared, a specific item
-can be accessed by putting its index in the brackets* L\[index\].
+can be accessed by putting its index in the brackets+ L\[index\].
 
 
 Indices range from 1 to len. If the length of the list is
@@ -60,8 +60,8 @@ initial value of null.
 
 ```
  var/L\[5\] // initial length of 5 var/i for(i=1, i\<=L.len,
-i++) L\[i\] = i // L contains* (1,2,3,4,5) L.len = 7 // expand list // L
-contains* (1,2,3,4,5,null,null) del(L) // destroy list 
+i++) L\[i\] = i // L contains+ (1,2,3,4,5) L.len = 7 // expand list // L
+contains+ (1,2,3,4,5,null,null) del(L) // destroy list 
 ```
 
 

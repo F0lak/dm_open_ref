@@ -1,6 +1,6 @@
 ## args list var (proc)
 **See also:**
-*   [list](/ref/list.md) 
++   [list](/ref/list.md) 
 
 This is a list of the arguments passed to the proc or verb.
 ### Example:

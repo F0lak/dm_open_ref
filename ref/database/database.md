@@ -1,9 +1,9 @@
 ## database datum 
 ###### BYOND Version 506
 **See also:**
-*   [database query datum](/ref/database/query.md) 
-*   [procs (database)](/ref/database/proc.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
++   [database query datum](/ref/database/query.md) 
++   [procs (database)](/ref/database/proc.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
 
 A /database datum gives you the ability to create or access a
 database using SQLite, which allows you to run complex database queries

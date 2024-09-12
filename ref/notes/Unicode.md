@@ -1,7 +1,7 @@
 ## Unicode 
 ###### BYOND Version 513
 **See also:**
-*   [text](/ref/DM/text.md) 
++   [text](/ref/DM/text.md) 
 
 
 BYOND was originally written to handle 8-bit (\"ANSI\")

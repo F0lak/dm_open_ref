@@ -1,18 +1,18 @@
 ## text2ascii proc
 **See also:**
-*   [ascii2text proc](/ref/proc/ascii2text.md) 
-*   [entities (text)](/ref/DM/text/entities.md) 
-*   [Unicode](/ref/%7Bnotes%7D/Unicode.md) 
++   [ascii2text proc](/ref/proc/ascii2text.md) 
++   [entities (text)](/ref/DM/text/entities.md) 
++   [Unicode](/ref/%7Bnotes%7D/Unicode.md) 
 <!-- -->
 **Format:**
-*   text2ascii(T,pos=1)
++   text2ascii(T,pos=1)
 <!-- -->
 **Args:**
-*   T* A text string.
-*   pos* The byte position in T to use, starting at 1.
++   T+ A text string.
++   pos+ The byte position in T to use, starting at 1.
 <!-- -->
 **Returns:**
-*   A number representing the character\'s ASCII or Unicode code.
++   A number representing the character\'s ASCII or Unicode code.
 
 
 ASCII codes are numerical values corresponding to keyboard and

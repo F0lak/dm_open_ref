@@ -1,9 +1,9 @@
 ## mutable appearance 
 ###### BYOND Version 511
 **See also:**
-*   [appearance var (atom)](/ref/atom/var/appearance.md) 
-*   [image objects](/ref/image.md) 
-*   [vars (mutable appearance)](/ref/mutable_appearance/var.md) 
++   [appearance var (atom)](/ref/atom/var/appearance.md) 
++   [image objects](/ref/image.md) 
++   [vars (mutable appearance)](/ref/mutable_appearance/var.md) 
 
 All atoms and images have an appearance, which is an immutable
 object that can be shared by many atoms. Making changes to an object\'s

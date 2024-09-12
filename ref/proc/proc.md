@@ -1,11 +1,11 @@
 ## procs
 **See also:**
-*   [vars (procs)](/ref/proc/var.md) 
-*   [arguments (proc)](/ref/proc/arguments.md) 
-*   [procs (area)](/ref/area/proc.md) 
-*   [procs (mob)](/ref/mob/proc.md) 
-*   [procs (obj)](/ref/obj/proc.md) 
-*   [procs (turf)](/ref/turf/proc.md) 
++   [vars (procs)](/ref/proc/var.md) 
++   [arguments (proc)](/ref/proc/arguments.md) 
++   [procs (area)](/ref/area/proc.md) 
++   [procs (mob)](/ref/mob/proc.md) 
++   [procs (obj)](/ref/obj/proc.md) 
++   [procs (turf)](/ref/turf/proc.md) 
 
 
 Procs may be derived from /proc. These procs are \"global\", in

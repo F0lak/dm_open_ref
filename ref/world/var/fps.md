@@ -1,11 +1,11 @@
 ## fps var (world) 
 ###### BYOND Version 490
 **See also:**
-*   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
-*   [fps var (client)](/ref/client/var/fps.md) 
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
++   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
++   [fps var (client)](/ref/client/var/fps.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Default value:**
-*   10
++   10
 
 
 The value of `world.fps` defines the speed of the world in

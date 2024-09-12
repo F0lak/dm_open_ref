@@ -1,13 +1,13 @@
 ## id parameter (skin)
 **See also:**
-*   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
-*   [type parameter](/ref/%7Bskin%7D/param/type.md) 
++   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
++   [type parameter](/ref/%7Bskin%7D/param/type.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
-*   string
++   string
 
 
 The name of this control. Read-only. 

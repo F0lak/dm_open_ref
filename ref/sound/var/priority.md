@@ -1,8 +1,8 @@
 ## priority var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) <!-- -->
++   [vars (sound)](/ref/sound/var.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 Sounds with higher priority may steal channels from sounds of

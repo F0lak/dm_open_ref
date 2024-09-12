@@ -1,10 +1,10 @@
 ## := operator 
 ###### BYOND Version 514
 **See also:**
-*   [= operator](/ref/operator/=.md) 
-*   [operators](/ref/operator.md) <!-- -->
++   [= operator](/ref/operator/=.md) 
++   [operators](/ref/operator.md) <!-- -->
 **Format:**
-*   A := B
++   A := B
 
 
 This is the \"assign into\" operator. The value of B is

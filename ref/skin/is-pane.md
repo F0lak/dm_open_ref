@@ -1,16 +1,16 @@
 ## is-pane parameter (skin)
 **See also:**
-*   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-*   [Child control](/ref/%7Bskin%7D/control/child.md) 
-*   [Tab control](/ref/%7Bskin%7D/control/tab.md) 
++   [id parameter](/ref/%7Bskin%7D/param/id.md) 
++   [Child control](/ref/%7Bskin%7D/control/child.md) 
++   [Tab control](/ref/%7Bskin%7D/control/tab.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
++   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 True if this is a pane that will be used in other container

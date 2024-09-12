@@ -1,10 +1,10 @@
 ## try and catch statements 
 ###### BYOND Version 508
 **See also:**
-*   [Error proc (world)](/ref/world/proc/Error.md) 
-*   [throw statement](/ref/proc/throw.md) 
-*   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
-*   [exception](/ref/exception.md) 
++   [Error proc (world)](/ref/world/proc/Error.md) 
++   [throw statement](/ref/proc/throw.md) 
++   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
++   [exception](/ref/exception.md) 
 
 The try and catch keywords are used for error handling. Any
 code that runs inside of a try block will, if an error happens or the

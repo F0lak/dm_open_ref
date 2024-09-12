@@ -1,11 +1,11 @@
 ## saved-params parameter (skin)
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Format:**
-*   string
++   string
 <!-- -->
 **Default value:**
-*   *varies*
++   *varies*
 
 
 A semicolon-separated list of parameters that get saved with

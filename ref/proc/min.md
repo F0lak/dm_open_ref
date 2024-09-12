@@ -1,12 +1,12 @@
 ## min proc
 **See also:**
-*   [max proc](/ref/proc/max.md) 
-*   [clamp proc](/ref/proc/clamp.md) <!-- -->
++   [max proc](/ref/proc/max.md) 
++   [clamp proc](/ref/proc/clamp.md) <!-- -->
 **Format:**
-*   min(A,B,C,\...)
++   min(A,B,C,\...)
 <!-- -->
 **Returns:**
-*   the minimum of the arguments.
++   the minimum of the arguments.
 ### Example:
 
 ```

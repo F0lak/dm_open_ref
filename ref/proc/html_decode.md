@@ -1,14 +1,14 @@
 ## html_decode proc
 **See also:**
-*   [html_encode proc](/ref/proc/html_encode.md) <!-- -->
++   [html_encode proc](/ref/proc/html_encode.md) <!-- -->
 **Format:**
-*   html_decode(HtmlText)
++   html_decode(HtmlText)
 <!-- -->
 **Args:**
-*   HtmlText* text to be \"unescaped\"
++   HtmlText+ text to be \"unescaped\"
 <!-- -->
 **Returns:**
-*   unescaped text
++   unescaped text
 
 
 Special characters such as \< and \> are not displayed

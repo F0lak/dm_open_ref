@@ -1,16 +1,16 @@
 ## DrawBox proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) 
-*   [procs (icon)](/ref/icon/proc.md) 
-*   [rgb proc](/ref/proc/rgb.md) <!-- -->
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [rgb proc](/ref/proc/rgb.md) <!-- -->
 **Format:**
-*   DrawBox(rgb,x1,y1,x2=x1,y2=y1)
++   DrawBox(rgb,x1,y1,x2=x1,y2=y1)
 <!-- -->
 **Args:**
-*   rgb* `rgb(red,green,blue)` or `null`
-*   x1,y1* Coordinates of one corner of the rectangle (1,1 is the lower
++   rgb+ `rgb(red,green,blue)` or `null`
++   x1,y1+ Coordinates of one corner of the rectangle (1,1 is the lower
     left)
-*   x2,y2* (optional) Coordinates of the other corner
++   x2,y2+ (optional) Coordinates of the other corner
 
 
 A rectangle (filled) of the given color is drawn over every

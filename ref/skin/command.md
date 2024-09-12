@@ -1,15 +1,15 @@
 ## command parameter (skin)
 **See also:**
-*   [client commands](/ref/%7Bskin%7D/commands.md) 
++   [client commands](/ref/%7Bskin%7D/commands.md) 
 <!-- -->
 **Applies to:**
-*   [Button](/ref/%7Bskin%7D/control/button.md) 
-*   [Input](/ref/%7Bskin%7D/control/input.md) 
-*   [Macro](/ref/%7Bskin%7D/control/macro.md) 
-*   [Menu](/ref/%7Bskin%7D/control/menu.md) 
++   [Button](/ref/%7Bskin%7D/control/button.md) 
++   [Input](/ref/%7Bskin%7D/control/input.md) 
++   [Macro](/ref/%7Bskin%7D/control/macro.md) 
++   [Menu](/ref/%7Bskin%7D/control/menu.md) 
 <!-- -->
 **Format:**
-*   string
++   string
 
 
 [Command](/ref/%7Bskin%7D/commands.md) executed when this control is

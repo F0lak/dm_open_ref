@@ -1,15 +1,15 @@
 ## Del proc (world)
 **See also:**
-*   [Del proc (datum)](/ref/datum/proc/Del.md) 
-*   [shutdown proc](/ref/proc/shutdown.md) <!-- -->
++   [Del proc (datum)](/ref/datum/proc/Del.md) 
++   [shutdown proc](/ref/proc/shutdown.md) <!-- -->
 **Format:**
-*   Del()
++   Del()
 <!-- -->
 **When:**
-*   Called when the world is shutdown.
++   Called when the world is shutdown.
 <!-- -->
 **Default action:**
-*   Shutdown the world.
++   Shutdown the world.
 
 
 When the world is destroyed, only the Del() proc of the `world`

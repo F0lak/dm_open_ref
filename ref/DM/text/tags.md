@@ -1,9 +1,9 @@
 ## tags (text)
 **See also:**
-*   [entities (text)](/ref/DM/text/entities.md) 
-*   [macros (text)](/ref/DM/text/macros.md) 
-*   [style sheets](/ref/DM/text/style.md) 
-*   [text](/ref/DM/text.md) 
++   [entities (text)](/ref/DM/text/entities.md) 
++   [macros (text)](/ref/DM/text/macros.md) 
++   [style sheets](/ref/DM/text/style.md) 
++   [text](/ref/DM/text.md) 
 
 
 Text tags (also known as *elements* by snooty HTML purists)
@@ -54,7 +54,7 @@ HTML, may be used to beep the terminal.
 Some tags take
 additional parameters, known as attributes. The most common ones are
 `<FONT>` and `<A>`. The syntax for these is illustrated by the following
-two examples* 
+two examples+ 
 ```
  \"How about this!\" \"Click
 [here](byond.com "BYOND!")!\" 

@@ -1,13 +1,13 @@
 ## filters var (atom) 
 ###### BYOND Version 512
 **See also:**
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-*   [filter proc](/ref/proc/filter.md) 
-*   [animate proc](/ref/proc/animate.md) 
-*   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [filter proc](/ref/proc/filter.md) 
++   [animate proc](/ref/proc/animate.md) 
++   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
 <!-- -->
 **Default value:**
-*   empty list
++   empty list
 
 
 This var is a list of graphical filters to use for

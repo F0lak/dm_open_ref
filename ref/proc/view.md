@@ -1,25 +1,25 @@
 ## view proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [hearers](/ref/proc/hearers.md) 
-*   [oview proc](/ref/proc/oview.md) 
-*   [range proc](/ref/proc/range.md) 
-*   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
-*   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
-*   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
-*   [sight var (mob)](/ref/mob/var/sight.md) 
-*   [view var (client)](/ref/client/var/view.md) 
-*   [view var (world)](/ref/world/var/view.md) 
-*   [viewers](/ref/proc/viewers.md) <!-- -->
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [hearers](/ref/proc/hearers.md) 
++   [oview proc](/ref/proc/oview.md) 
++   [range proc](/ref/proc/range.md) 
++   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
++   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
++   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
++   [sight var (mob)](/ref/mob/var/sight.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [view var (world)](/ref/world/var/view.md) 
++   [viewers](/ref/proc/viewers.md) <!-- -->
 **Format:**
-*   view(Dist=5,Center=usr)
++   view(Dist=5,Center=usr)
 <!-- -->
 **Returns:**
-*   A list of visible objects within Dist tiles of Center.
++   A list of visible objects within Dist tiles of Center.
 <!-- -->
 **Args:**
-*   Dist* A number.
-*   Center* An object on the map.
++   Dist+ A number.
++   Center+ An object on the map.
 
 
 A Dist of 0 includes Center, the contents of Center (normally
@@ -43,7 +43,7 @@ reach of \[src\]\"
  
 
 Be aware of the following
-distinctions* 
+distinctions+ 
 ```
  view(usr) //objects that usr can see
 view(usr.loc) //objects visible from usr\'s position view(usr.client)

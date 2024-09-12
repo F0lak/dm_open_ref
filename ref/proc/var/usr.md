@@ -1,12 +1,12 @@
 ## usr var (proc)
 **See also:**
-*   [src var (proc)](/ref/proc/var/src.md) 
-*   [verbs](/ref/verb.md) 
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [range proc](/ref/proc/range.md) 
-*   [view proc](/ref/proc/view.md) 
-*   [alert proc](/ref/proc/alert.md) 
-*   [input proc](/ref/proc/input.md) 
++   [src var (proc)](/ref/proc/var/src.md) 
++   [verbs](/ref/verb.md) 
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [range proc](/ref/proc/range.md) 
++   [view proc](/ref/proc/view.md) 
++   [alert proc](/ref/proc/alert.md) 
++   [input proc](/ref/proc/input.md) 
 
 
 This is a mob variable (var/mob/usr) containing the mob of the
@@ -34,7 +34,7 @@ The only time `usr` is
 assigned for you is when a player executes a verb, clicks something with
 the mouse, clicks a link (see [Topic](/ref/client/proc/Topic.md) {.code}), or
 any other such action.
-Note* **A good rule of thumb is to never put usr in a proc, only
+Note+ **A good rule of thumb is to never put usr in a proc, only
 verbs.** Typically `usr` in a proc is an unsafe programming practice. If
 `src` would not be the correct choice, it is better to send another
 argument to your proc with the information it needs. 

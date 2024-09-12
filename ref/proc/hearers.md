@@ -1,10 +1,10 @@
 ## hearers
 **See also:**
-*   [ohearers](/ref/proc/ohearers.md) 
-*   [view proc](/ref/proc/view.md) 
-*   [viewers](/ref/proc/viewers.md) <!-- -->
++   [ohearers](/ref/proc/ohearers.md) 
++   [view proc](/ref/proc/view.md) 
++   [viewers](/ref/proc/viewers.md) <!-- -->
 **Format:**
-*   hearers(Depth=world.view,Center=usr)
++   hearers(Depth=world.view,Center=usr)
 
 
 This is just like `viewers()`, but it is a list of mobs that

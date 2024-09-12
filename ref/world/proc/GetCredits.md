@@ -1,16 +1,16 @@
 ## GetCredits proc (world) 
 ###### BYOND Version 503
 **See also:**
-*   [AddCredits proc (world)](/ref/world/proc/AddCredits.md) 
-*   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) <!-- -->
++   [AddCredits proc (world)](/ref/world/proc/AddCredits.md) 
++   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) <!-- -->
 **Format:**
-*   GetCredits(player)
++   GetCredits(player)
 <!-- -->
 **Returns:**
-*   Number of credits if hub contact was successful, null otherwise.
++   Number of credits if hub contact was successful, null otherwise.
 <!-- -->
 **Args:**
-*   player* a mob, client, key, or ckey
++   player+ a mob, client, key, or ckey
 
 
 Retrieves the number of available credits in a player\'s
@@ -26,7 +26,7 @@ the rest of the game.
 The best time to call this proc is before
 a player does something that would allow them to spend credits, and/or
 just afterward, so they can see what is left in their account.
-Note* You can specify a different hub path and hub_password by adding
+Note+ You can specify a different hub path and hub_password by adding
 these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.

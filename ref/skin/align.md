@@ -1,22 +1,22 @@
 ## align parameter (skin)
 **See also:**
-*   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md) 
++   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md) 
 <!-- -->
 **Applies to:**
-*   [Label](/ref/%7Bskin%7D/control/label.md) <!-- -->
++   [Label](/ref/%7Bskin%7D/control/label.md) <!-- -->
 **Possible values:**
-*   center
-*   left
-*   right
-*   top
-*   bottom
-*   top-left
-*   top-right
-*   bottom-left
-*   bottom-right
++   center
++   left
++   right
++   top
++   bottom
++   top-left
++   top-right
++   bottom-left
++   bottom-right
 <!-- -->
 **Default value:**
-*   center
++   center
 
 
 Default alignment of text/image, both horizontal and vertical.

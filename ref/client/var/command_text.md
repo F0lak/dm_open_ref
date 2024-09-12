@@ -1,16 +1,16 @@
 ## command_text (client) 
 ###### BYOND Version d_text (client) {#command_text-client deprecated="1
 **See also:**
-*   [arguments (verb)](/ref/verb/arguments.md) 
-*   [command parameter](/ref/%7Bskin%7D/param/command.md) 
-*   [macros (client script)](/ref/client/var/script/macro.md) 
-*   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) 
-*   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) 
-*   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
++   [arguments (verb)](/ref/verb/arguments.md) 
++   [command parameter](/ref/%7Bskin%7D/param/command.md) 
++   [macros (client script)](/ref/client/var/script/macro.md) 
++   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) 
++   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) 
++   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
 <!-- -->
 **Default value:**
-*   null
-Note* In BYOND 4.0 this var is deprecated. The
++   null
+Note+ In BYOND 4.0 this var is deprecated. The
 [command](/ref/%7Bskin%7D/param/command.md) {.code} parameter for an [Input
 control](/ref/%7Bskin%7D/control/input.md)  can be set to `!command` (`!` in
 front of your default command) which does the same thing. 
@@ -41,7 +41,7 @@ MUD command-line could be implemented like this:
 
 ```
  client command_text = \"\> \" verb/command(C as command_text)
-set name = \"\>\" usr \<\< \"Your command* \[C\]\" 
+set name = \"\>\" usr \<\< \"Your command+ \[C\]\" 
 ```
 
 

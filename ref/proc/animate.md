@@ -1,6 +1,6 @@
 ## animate proc 
 ###### BYOND Version 500
-::* sidebar
+::+ sidebar
 ### Useful terms in this article:
 
 
@@ -23,34 +23,34 @@ animate any changes from there. The previous sequences are superseded,
 and will eventually be discarded.
 :::
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) 
++   [vars (atom)](/ref/atom/var.md) 
 <!-- -->
 **Format:**
-*   animate(Object, var1=new_value1, var2=new_value2, \..., time, loop,
++   animate(Object, var1=new_value1, var2=new_value2, \..., time, loop,
     easing, flags, delay, tag)
-*   animate(Object, appearance=new_appearance, time, loop, easing,
++   animate(Object, appearance=new_appearance, time, loop, easing,
     flags, delay, tag)
-*   animate(Object)
++   animate(Object)
 <!-- -->
 **Args:**
-*   Object* The atom, image, or client to animate; omit to add another
++   Object+ The atom, image, or client to animate; omit to add another
     step to the same sequence as the last `animate()` call
-*   var1=new_value1, var2=new_value2, \...* Vars to change in the
++   var1=new_value1, var2=new_value2, \...+ Vars to change in the
     animation step
-*   var_list* An associative list of vars to change
-*   appearance* New appearance to use instead of multiple var changes
++   var_list+ An associative list of vars to change
++   appearance+ New appearance to use instead of multiple var changes
     (must be a [named argument](/ref/proc/arguments/named.md) )
-*   time* Time of this step, in 1/10s (may be a [named
++   time+ Time of this step, in 1/10s (may be a [named
     argument](/ref/proc/arguments/named.md) )
-*   loop* Number of times to run this sequence, or -1 to loop forever
++   loop+ Number of times to run this sequence, or -1 to loop forever
     (may be a named argument)
-*   easing* The \"curve\" followed by this animation step (may be a
++   easing+ The \"curve\" followed by this animation step (may be a
     [named argument](/ref/proc/arguments/named.md) )
-*   flags* Flags that impact how the animation acts (may be a [named
++   flags+ Flags that impact how the animation acts (may be a [named
     argument](/ref/proc/arguments/named.md) )
-*   delay* Delay time for starting the first step in a sequence (may be
++   delay+ Delay time for starting the first step in a sequence (may be
     negative; may be a [named argument](/ref/proc/arguments/named.md) )
-*   tag* Optional name for a new animation sequence (must be a [named
++   tag+ Optional name for a new animation sequence (must be a [named
     argument](/ref/proc/arguments/named.md) )
 
 
@@ -71,7 +71,7 @@ completely.
 ```
  mob/proc/GrowAndFade() // expand (scale by 2x2) and fade out
 over 1/2s animate(src, transform = matrix()\*2, alpha = 0, time = 5)
-obj/spell/proc/Spin() // cast a spell on a monster* make the icon spin
+obj/spell/proc/Spin() // cast a spell on a monster+ make the icon spin
 // this animation takes 3s total (6 ticks \* 5) animate(src, transform =
 turn(matrix(), 120), time = 2, loop = 5) animate(transform =
 turn(matrix(), 240), time = 2) animate(transform = null, time = 2)
@@ -102,7 +102,7 @@ step rather than smoothly:
 
 
 Other vars may apply:
--   space* A named var for the [color
+-   space+ A named var for the [color
     space](/ref/%7B%7Bappendix%7D%7D/color-space.md) , if animating color; only
     applies to non-matrix color values.
 For convenience, you can use an [associative list](/ref/list/associations.md) ,
@@ -120,7 +120,7 @@ transformation to make a coin appear to spin. A text bubble can jump
 into place and bounce a little before it settles. The choice of curve
 you use is called easing, and you have several good choices to pick
 from.
-::::* {.sidebar .play}
+::::+ {.sidebar .play}
 
 
 In this play area, you can test different easing functions to
@@ -131,22 +131,22 @@ represents the time of the animation from beginning to end. The vertical
 axis, from bottom to top, is how the animation will be interpolated; the
 lower green line represents the starting appearance, and the upper blue
 line is the ending appearance.
-:::* {style="margin:10px 0; text-align* center;"}
+:::+ {style="margin:10px 0; text-align+ center;"}
 +-----------------------------------+-----------------------------------+
-| :::* {                            |                                   |
+| :::+ {                            |                                   |
 | style="width:1em; height:150px;"} |                                   |
-| ::* {.nobr style="c               |                                   |
+| ::+ {.nobr style="c               |                                   |
 | olor:black; width:150px; height:1 |                                   |
 | 50px; transform:rotate(270deg);"} |                                   |
 | Progress →                        |                                   |
-| ::*                               |                                   |
-| :::*                              |                                   |
+| ::+                               |                                   |
+| :::+                              |                                   |
 +-----------------------------------+-----------------------------------+
-|                                   | ::* nobr                          |
+|                                   | ::+ nobr                          |
 |                                   | Time →                            |
-|                                   | ::*                               |
+|                                   | ::+                               |
 +-----------------------------------+-----------------------------------+
-::* {style="display:inline-block; text-align* left; vertical-align* middle; margin* 0 auto 0 0;"}
+::+ {style="display:inline-block; text-align+ left; vertical-align+ middle; margin+ 0 auto 0 0;"}
 LINEAR_EASING SINE_EASING CIRCULAR_EASING CUBIC_EASING BOUNCE_EASING
 ELASTIC_EASING BACK_EASING QUAD_EASING JUMP_EASING\
 EASE_IN\
@@ -155,30 +155,30 @@ EASE_OUT
 ::::
 :::::
 LINEAR_EASING
-*   Default. Go from one value to another at a constant rate.
++   Default. Go from one value to another at a constant rate.
 SINE_EASING
-*   The animation follows a sine curve, so it starts off and finishes
++   The animation follows a sine curve, so it starts off and finishes
     slowly, with a quicker transition in the middle.
 CIRCULAR_EASING
-*   Similar to a sine curve, but each half of the curve is shaped like a
++   Similar to a sine curve, but each half of the curve is shaped like a
     quarter circle.
 QUAD_EASING
-*   A quadratic curve, good for gravity effects.
++   A quadratic curve, good for gravity effects.
 CUBIC_EASING
-*   A cubic curve, a little more pronounced than a sine curve.
++   A cubic curve, a little more pronounced than a sine curve.
 BOUNCE_EASING
-*   This transitions quickly like a falling object, and bounces a few
++   This transitions quickly like a falling object, and bounces a few
     times.\
     Uses `EASE_OUT` unless otherwise specified.
 ELASTIC_EASING
-*   This transitions quickly and overshoots, rebounds, and finally
++   This transitions quickly and overshoots, rebounds, and finally
     settles down.\
     Uses `EASE_OUT` unless otherwise specified.
 BACK_EASING
-*   Goes a little bit backward at first, and overshoots a little at the
++   Goes a little bit backward at first, and overshoots a little at the
     end.
 JUMP_EASING
-*   Jumps suddenly from the beginning state to the end. With the default
++   Jumps suddenly from the beginning state to the end. With the default
     or `EASE_OUT`, this happens at the end of the time slice. With
     `EASE_IN`, the jump happens at the beginning. With both flags set,
     the jump happens at the halfway point.
@@ -210,19 +210,19 @@ briefly outside of that range during the animation.
 Any combination of these flags may be used for animation (use
 `+` or `|` to combine them):
 `ANIMATION_END_NOW`
-*   Normally if you interrupt another animation, it transitions from its
++   Normally if you interrupt another animation, it transitions from its
     current state. This flag will start the new animation fresh by
     bringing the old one to its conclusion immediately. It is only
     meaningful on the first step of a new animation. If using the `tag`
     argument, only a previous sequence with the same matching tag is
     stopped.
 `ANIMATION_LINEAR_TRANSFORM`
-*   The transform var is interpolated in a way that preserves size
++   The transform var is interpolated in a way that preserves size
     during rotation, by pulling the rotation step out. This flag forces
     linear interpolation, which may be more desirable for things like
     beam effects, mechanical arms, etc.
 `ANIMATION_PARALLEL`
-*   Start a parallel animation sequence that runs alongside the current
++   Start a parallel animation sequence that runs alongside the current
     animation sequence. The difference between where the parallel
     sequence started, and its current appearance, is added to the result
     of any previous animations. For instance, you could use this to
@@ -232,19 +232,19 @@ Any combination of these flags may be used for animation (use
     this flag, the src var may be included, but it is optional.) This
     flag is implied if using the `tag` argument for a named sequence.
 `ANIMATION_RELATIVE`
-*   The vars specified are relative to the current state. This works for
++   The vars specified are relative to the current state. This works for
     maptext_x/y/width/height, pixel_x/y/w/z, luminosity, layer, alpha,
     transform, and color. For transform and color, the current value is
     multiplied by the new one. Vars not in this list are simply changed
     as if this flag is not present. (If you supply an appearance instead
     of individual vars, this flag is meaningless.)
 `ANIMATION_CONTINUE`
-*   This flag is equivalent to leaving out the `Object` argument. It
++   This flag is equivalent to leaving out the `Object` argument. It
     exists to make it easier to define an animation using a [for
     loop](/ref/proc/for.md) . If `Object` differs from the previous sequence,
     this flag will be ignored and a new sequence will start.
 `ANIMATION_SLICE`
-*   Following a series of `animate()` calls, you can view just a portion
++   Following a series of `animate()` calls, you can view just a portion
     of the animation by using
     `animate(object, delay=start, time=duration, flags=ANIMATION_SLICE)`.
     The `loop` parameter may optionally be included. The `delay` is the
@@ -255,7 +255,7 @@ Any combination of these flags may be used for animation (use
     animation. A negative value for `time` will remove the slice and
     finish any existing animations.
 `ANIMATION_END_LOOP`
-*   Tells previous animation sequences to stop looping and end
++   Tells previous animation sequences to stop looping and end
     naturally. The delay for starting this new sequence is adjusted
     based on that. If using the `tag` argument, only a previous sequence
     with the same matching tag is told to stop looping.

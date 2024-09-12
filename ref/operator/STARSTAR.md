@@ -1,12 +1,12 @@
 ## \*\* operator
 **See also:**
-*   [log proc](/ref/proc/log.md) 
-*   [operators](/ref/operator.md) <!-- -->
++   [log proc](/ref/proc/log.md) 
++   [operators](/ref/operator.md) <!-- -->
 **Format:**
-*   A \*\* B
++   A \*\* B
 <!-- -->
 **Returns:**
-*   A to the power of B.
++   A to the power of B.
 ### Example:
 
 ```

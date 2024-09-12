@@ -1,12 +1,12 @@
 ## continue statement
 **See also:**
-*   [break statement](/ref/proc/break.md) 
-*   [do proc](/ref/proc/do.md) 
-*   [for loop proc](/ref/proc/for/loop.md) 
-*   [while proc](/ref/proc/while.md) <!-- -->
++   [break statement](/ref/proc/break.md) 
++   [do proc](/ref/proc/do.md) 
++   [for loop proc](/ref/proc/for/loop.md) 
++   [while proc](/ref/proc/while.md) <!-- -->
 **Format:**
-*   continue
-*   continue Label
++   continue
++   continue Label
 
 
 Begins the next iteration of the loop with the given label. If
@@ -36,10 +36,10 @@ by using `continue` and its companion `break`.
 
 Here is an
 example using a label to continue an outer loop from inside an inner
-one* 
+one+ 
 ```
  client/verb/loners() var/mob/M var/mob/G usr \<\<
-\"Loners:\" finding_loners* for(M in world) for(G in world) if(M in
+\"Loners:\" finding_loners+ for(M in world) for(G in world) if(M in
 G.group) continue finding_loners //found a loner usr \<\< M.name
 
 ```

@@ -1,12 +1,12 @@
 ## pick proc
 **See also:**
-*   [prob proc](/ref/proc/prob.md) <!-- -->
++   [prob proc](/ref/proc/prob.md) <!-- -->
 **Format:**
-*   pick(Val1,Val2,\...)
-*   pick(List)
++   pick(Val1,Val2,\...)
++   pick(List)
 <!-- -->
 **Returns:**
-*   One of the given values randomly chosen.
++   One of the given values randomly chosen.
 
 
 Randomly chooses an item from a list or from the arguments
@@ -15,7 +15,7 @@ item is chosen from that list.
 
 When not using the list form,
 you can make a particular value more or less likely to be chosen by
-providing a relative probability like this* 
+providing a relative probability like this+ 
 ```
  prob(P); Val Or
 P; Val 

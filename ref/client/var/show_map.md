@@ -1,10 +1,10 @@
 ## show_map var (client)
 **See also:**
-*   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
-*   [view var (client)](/ref/client/var/view.md) 
-*   [view var (world)](/ref/world/var/view.md) <!-- -->
++   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
++   [view var (client)](/ref/client/var/view.md) 
++   [view var (world)](/ref/world/var/view.md) <!-- -->
 **Default value:**
-*   1
++   1
 
 
 This variable may be used to turn off the view of the map in

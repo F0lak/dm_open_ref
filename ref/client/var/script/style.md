@@ -1,7 +1,7 @@
 ## style sheets (in scripts)
 **See also:**
-*   [script var (client)](/ref/client/var/script.md) 
-*   [style sheets](/ref/DM/text/style.md) 
++   [script var (client)](/ref/client/var/script.md) 
++   [style sheets](/ref/DM/text/style.md) 
 
 
 Style sheets may be included in DM Script by putting the style

@@ -1,8 +1,8 @@
 ## src var (proc)
 **See also:**
-*   [usr var (proc)](/ref/proc/var/src.md) 
-*   [procs](/ref/proc.md) 
-*   [verbs](/ref/verb.md) 
++   [usr var (proc)](/ref/proc/var/src.md) 
++   [procs](/ref/proc.md) 
++   [verbs](/ref/verb.md) 
 
 
 This is a variable equal to the object containing the proc or

@@ -1,30 +1,30 @@
 ## Entered proc (atom)
 **See also:**
-*   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-*   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-*   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-*   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) <!-- -->
++   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
++   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
++   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
++   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
++   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
++   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
++   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
++   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) <!-- -->
 **Format:**
-*   Entered(atom/movable/Obj,atom/OldLoc)
++   Entered(atom/movable/Obj,atom/OldLoc)
 <!-- -->
 **When:**
-*   Called when an object has entered the contents list through Move().
++   Called when an object has entered the contents list through Move().
     Directly setting the object\'s loc or step_x/y vars does not result
     in a call to Entered() or any other movement side-effects. The same
     goes for creation or deletion of an object at a location.
 <!-- -->
 **Args:**
-*   Obj* the object that entered (a mob or obj).
-*   OldLoc* the previous location of the object.
++   Obj+ the object that entered (a mob or obj).
++   OldLoc+ the previous location of the object.
 <!-- -->
 **Default action:**
-*   None for most atoms, but turfs will call Crossed().
++   None for most atoms, but turfs will call Crossed().
 ### Example:
 
 ```

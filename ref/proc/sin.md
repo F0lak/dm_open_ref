@@ -1,14 +1,14 @@
 ## sin proc
 **See also:**
-*   [arcsin proc](/ref/proc/arcsin.md) 
-*   [cos proc](/ref/proc/cos.md) 
-*   [tan proc](/ref/proc/tan.md) 
-*   [turn proc](/ref/proc/turn.md) <!-- -->
++   [arcsin proc](/ref/proc/arcsin.md) 
++   [cos proc](/ref/proc/cos.md) 
++   [tan proc](/ref/proc/tan.md) 
++   [turn proc](/ref/proc/turn.md) <!-- -->
 **Format:**
-*   sin(X)
++   sin(X)
 <!-- -->
 **Returns:**
-*   The sine of X, where X is in degrees.
++   The sine of X, where X is in degrees.
 ### Example:
 
 ```

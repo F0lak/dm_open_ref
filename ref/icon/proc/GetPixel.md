@@ -1,17 +1,17 @@
 ## GetPixel proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) 
-*   [procs (icon)](/ref/icon/proc.md) 
-*   [rgb proc](/ref/proc/rgb.md) <!-- -->
++   [icon](/ref/icon.md) 
++   [procs (icon)](/ref/icon/proc.md) 
++   [rgb proc](/ref/proc/rgb.md) <!-- -->
 **Format:**
-*   GetPixel(x, y, icon_state, dir=0, frame=0, moving=-1)
++   GetPixel(x, y, icon_state, dir=0, frame=0, moving=-1)
 <!-- -->
 **Args:**
-*   x,y* coordinates of the pixel to grab; 1,1 is the lower left corner
-*   icon_state* a specific icon_state to use (may be null)
-*   dir* a specific direction of this icon to use
-*   frame* a specific animation frame to use (1 is the 1st frame)
-*   moving* non-zero for only movement states, 0 for non-movement
++   x,y+ coordinates of the pixel to grab; 1,1 is the lower left corner
++   icon_state+ a specific icon_state to use (may be null)
++   dir+ a specific direction of this icon to use
++   frame+ a specific animation frame to use (1 is the 1st frame)
++   moving+ non-zero for only movement states, 0 for non-movement
     states, or null (default) for either
 
 

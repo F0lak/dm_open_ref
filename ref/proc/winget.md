@@ -1,17 +1,17 @@
 ## winget proc
 **See also:**
-*   [winexists proc](/ref/proc/winexists.md) 
-*   [winset proc](/ref/proc/winset.md) 
-*   [User interface skins](/ref/%7Bskin%7D.md) 
-*   [parameters (skin)](/ref/%7Bskin%7D/param.md) 
++   [winexists proc](/ref/proc/winexists.md) 
++   [winset proc](/ref/proc/winset.md) 
++   [User interface skins](/ref/%7Bskin%7D.md) 
++   [parameters (skin)](/ref/%7Bskin%7D/param.md) 
 <!-- -->
 **Format:**
-*   winget(player, control_id, params)
++   winget(player, control_id, params)
 <!-- -->
 **Args:**
-*   player* A mob or client.
-*   control_id* The unique ID of a control in the player\'s skin.
-*   params* The name of a parameter to read, or a semicolon-separated
++   player+ A mob or client.
++   control_id+ The unique ID of a control in the player\'s skin.
++   params+ The name of a parameter to read, or a semicolon-separated
     list of parameters
 
 
@@ -40,11 +40,11 @@ by separating them with semicolons, like `"button1;button2"`.
 ```
  
 
-This outputs* 
+This outputs+ 
 ```
 
-mainwindow.is-visible = true Other params* pos=0x0;is-maximized=true
-Buttons* button1.is-checked=true;button2.is-checked=false 
+mainwindow.is-visible = true Other params+ pos=0x0;is-maximized=true
+Buttons+ button1.is-checked=true;button2.is-checked=false 
 ```
 
 
@@ -60,7 +60,7 @@ controls in a window, menu, or macro set. If control_id is
 `mainwindow`---and `mainwindow` itself---is included in the result if it
 has the parameter(s) you\'re looking for. Use `params2list()` to
 interpret the result.
-Note* Because the client must be contacted to get this information,
+Note+ Because the client must be contacted to get this information,
 `winget()` will sleep the current proc.
 ### Special wingets
 
@@ -70,27 +70,27 @@ some values that belong to the client as a whole, not to specific
 controls. They can also be used for [embedded
 wingets](/ref/%7Bskin%7D/commands.md) 
 focus
-*   The full ID of the control, if any, that currently has keyboard
++   The full ID of the control, if any, that currently has keyboard
     focus.
 windows
-*   The IDs of all windows, separated by semicolons.
++   The IDs of all windows, separated by semicolons.
 panes
-*   The IDs of all panes, separated by semicolons.
++   The IDs of all panes, separated by semicolons.
 menus
-*   The IDs of all menus, separated by semicolons.
++   The IDs of all menus, separated by semicolons.
 macros
-*   The IDs of all macro sets, separated by semicolons.
++   The IDs of all macro sets, separated by semicolons.
 sound
-*   True if sounds are enabled.
++   True if sounds are enabled.
 hwmode
-*   True if the map displays in hardware rendering mode.
++   True if the map displays in hardware rendering mode.
 url
-*   The URL the client is connected to in `IP:port` form. The port is 0
++   The URL the client is connected to in `IP:port` form. The port is 0
     if connected to a local .dmb file, and either an empty string or
     null is returned if Dream Seeker is not connected at all.
 num-lock
-*   True if Num Lock is on.
++   True if Num Lock is on.
 caps-lock
-*   True if Caps Lock is on.
++   True if Caps Lock is on.
 scroll-lock
-*   True if Scroll Lock is on.
++   True if Scroll Lock is on.

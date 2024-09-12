@@ -1,15 +1,15 @@
 ## stat proc
 **See also:**
-*   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
-*   [Stat proc (client)](/ref/client/proc/Stat.md) 
-*   [statpanel proc](/ref/proc/statpanel.md) 
-*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
++   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
++   [Stat proc (client)](/ref/client/proc/Stat.md) 
++   [statpanel proc](/ref/proc/statpanel.md) 
++   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
 **Format:**
-*   stat(Name,Value)
++   stat(Name,Value)
 <!-- -->
 **Args:**
-*   Name* the name of the stat line
-*   Value* the data to be displayed
++   Name+ the name of the stat line
++   Value+ the data to be displayed
 
 
 This is used in a Stat() proc to send a stat line to usr, the

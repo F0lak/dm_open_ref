@@ -1,11 +1,11 @@
 ## show_verb_panel var (client)
 **See also:**
-*   [category setting (verb)](/ref/verb/set/category.md) 
-*   [default_verb_category var
++   [category setting (verb)](/ref/verb/set/category.md) 
++   [default_verb_category var
     (client)](/ref/client/var/default_verb_category.md) 
-*   [show_map var (client)](/ref/client/var/show_map.md) <!-- -->
++   [show_map var (client)](/ref/client/var/show_map.md) <!-- -->
 **Default value:**
-*   1
++   1
 
 
 Setting this to 0 turns off the verb panel in Dream Seeker. You

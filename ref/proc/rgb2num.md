@@ -1,22 +1,22 @@
 ## rgb2num proc
 **See also:**
-*   [rgb proc](/ref/proc/rgb.md) 
-*   [gradient proc](/ref/proc/gradient.md) 
-*   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
-*   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
++   [rgb proc](/ref/proc/rgb.md) 
++   [gradient proc](/ref/proc/gradient.md) 
++   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
++   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
 <!-- -->
 **Format:**
-*   rgb2num(color)
-*   rgb2num(color, space)
++   rgb2num(color)
++   rgb2num(color, space)
 <!-- -->
 **Args:**
-*   color* A color value (see [HTML
++   color+ A color value (see [HTML
     colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) )
-*   space* [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md)  default is
++   space+ [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md)  default is
     `COLORSPACE_RGB`
 <!-- -->
 **Returns:**
-*   A list with the components of this color
++   A list with the components of this color
 
 
 Parses a color into a list with 3 or 4 component values; the

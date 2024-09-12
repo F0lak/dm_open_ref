@@ -1,11 +1,11 @@
 ## link proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [file proc](/ref/proc/file.md) 
-*   [run proc](/ref/proc/run.md) <!-- -->
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [file proc](/ref/proc/file.md) 
++   [run proc](/ref/proc/run.md) <!-- -->
 **Format:**
-*   O \<\< link(url)
++   O \<\< link(url)
 
 
 This causes the recipient (O) to view the specified url. The
@@ -13,7 +13,7 @@ url could be a web or BYOND address. In the latter case, the player will
 disconnect from the current world and connect to the specified one.
 
 
-The format of a BYOND url is as follows* 
+The format of a BYOND url is as follows+ 
 ```
 
 byond://address:port?TopicData 

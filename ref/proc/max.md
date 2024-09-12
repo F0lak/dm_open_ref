@@ -1,12 +1,12 @@
 ## max proc
 **See also:**
-*   [min proc](/ref/proc/min.md) 
-*   [clamp proc](/ref/proc/clamp.md) <!-- -->
++   [min proc](/ref/proc/min.md) 
++   [clamp proc](/ref/proc/clamp.md) <!-- -->
 **Format:**
-*   max(A,B,C,\...)
++   max(A,B,C,\...)
 <!-- -->
 **Returns:**
-*   the maximum of the arguments.
++   the maximum of the arguments.
 ### Example:
 
 ```

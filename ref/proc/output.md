@@ -1,15 +1,15 @@
 ## output proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [winclone proc](/ref/proc/winclone.md) 
-*   [winset proc](/ref/proc/winset.md) 
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [winclone proc](/ref/proc/winclone.md) 
++   [winset proc](/ref/proc/winset.md) 
 <!-- -->
 **Format:**
-*   output(msg, control)
++   output(msg, control)
 <!-- -->
 **Args:**
-*   msg* Text, an atom, a file, or null
-*   control* The ID of a control in the player\'s skin, or null for the
++   msg+ Text, an atom, a file, or null
++   control+ The ID of a control in the player\'s skin, or null for the
     default
 
 
@@ -50,19 +50,19 @@ javascript function, as formatted by
 
 ```
  mob/Login() . = ..() usr \<\< output(\\ {\"
-::* 
+::+ 
 ###### BYOND Version  proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [winclone proc](/ref/proc/winclone.md) 
-*   [winset proc](/ref/proc/winset.md) 
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [winclone proc](/ref/proc/winclone.md) 
++   [winset proc](/ref/proc/winset.md) 
 <!-- -->
 **Format:**
-*   output(msg, control)
++   output(msg, control)
 <!-- -->
 **Args:**
-*   msg* Text, an atom, a file, or null
-*   control* The ID of a control in the player\'s skin, or null for the
++   msg+ Text, an atom, a file, or null
++   control+ The ID of a control in the player\'s skin, or null for the
     default
 
 
@@ -103,7 +103,7 @@ javascript function, as formatted by
 
 ```
  mob/Login() . = ..() usr \<\< output(\\ {\"
-::* {#foo}
+::+ {#foo}
 This text can change.
 :::
 

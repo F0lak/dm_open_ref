@@ -1,17 +1,17 @@
 ## get_dir proc
 **See also:**
-*   [dir var (atom)](/ref/atom/var/dir.md) <!-- -->
++   [dir var (atom)](/ref/atom/var/dir.md) <!-- -->
 **Format:**
-*   get_dir(Loc1, Loc2)
++   get_dir(Loc1, Loc2)
 <!-- -->
 **Returns:**
-*   The direction from Loc1 to Loc2. Possible results are `NORTH`,
++   The direction from Loc1 to Loc2. Possible results are `NORTH`,
     `SOUTH`, `EAST`, `WEST`, `NORTHEAST`, `NORTHWEST`, `SOUTHEAST`, and
     `SOUTHWEST`.
 <!-- -->
 **Args:**
-*   Loc1* An object on the map.
-*   Loc2* An object on the map.
++   Loc1+ An object on the map.
++   Loc2+ An object on the map.
 
 
 If the direction is not directly lying along one of the four

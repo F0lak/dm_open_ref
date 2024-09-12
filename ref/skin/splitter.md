@@ -1,18 +1,18 @@
 ## splitter parameter (skin)
 **See also:**
-*   [left parameter](/ref/%7Bskin%7D/param/left.md) 
-*   [right parameter](/ref/%7Bskin%7D/param/right.md) 
-*   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) 
-*   [show-splitter parameter](/ref/%7Bskin%7D/param/show-splitter.md) 
++   [left parameter](/ref/%7Bskin%7D/param/left.md) 
++   [right parameter](/ref/%7Bskin%7D/param/right.md) 
++   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) 
++   [show-splitter parameter](/ref/%7Bskin%7D/param/show-splitter.md) 
 <!-- -->
 **Applies to:**
-*   [Child](/ref/%7Bskin%7D/control/child.md) 
++   [Child](/ref/%7Bskin%7D/control/child.md) 
 <!-- -->
 **Format:**
-*   number (0 to 100)
++   number (0 to 100)
 <!-- -->
 **Default value:**
-*   50
++   50
 
 
 Position of the splitter when two panes are in use, whether

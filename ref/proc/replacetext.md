@@ -1,25 +1,25 @@
 ## replacetext proc 
 ###### BYOND Version 510
 **See also:**
-*   [findtext proc](/ref/proc/findtext.md) 
-*   [replacetextEx proc](/ref/proc/replacetextEx.md) 
-*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
-*   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
++   [findtext proc](/ref/proc/findtext.md) 
++   [replacetextEx proc](/ref/proc/replacetextEx.md) 
++   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
++   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
 <!-- -->
 **Format:**
-*   replacetext(Haystack,Needle,Replacement,Start=1,End=0)
++   replacetext(Haystack,Needle,Replacement,Start=1,End=0)
 <!-- -->
 **Returns:**
-*   The Haystack text with all cases of Needle replaced by Replacement
++   The Haystack text with all cases of Needle replaced by Replacement
 <!-- -->
 **Args:**
-*   Haystack* The text string to search.
-*   Needle* The sub-text to search for. May be a regular expression
++   Haystack+ The text string to search.
++   Needle+ The sub-text to search for. May be a regular expression
     (regex).
-*   Replacement* The replacement text, or a proc.
-*   Start* The text byte position in Haystack in which to begin the
++   Replacement+ The replacement text, or a proc.
++   Start+ The text byte position in Haystack in which to begin the
     search.
-*   End* The text byte position in Haystack immediately following the
++   End+ The text byte position in Haystack immediately following the
     last character to search.
 
 
@@ -50,7 +50,7 @@ behaves identically to the [regex Replace()](/ref/regex/proc/Replace.md)  proc.
 Case-sensitivity, and whether one match or all are replaced, depend on
 the regular expression. 
 
-Note* In strings containing non-ASCII
+Note+ In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `replacetext_char()` to work with character counts instead of bytes,
 at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section

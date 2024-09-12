@@ -1,15 +1,15 @@
 ## IsSubscribed proc (world) 
 ###### BYOND Version 503
 **Format:**
-*   IsSubscribed(player)
-*   IsSubscribed(player, \"BYOND\") (to check BYOND Membership)
++   IsSubscribed(player)
++   IsSubscribed(player, \"BYOND\") (to check BYOND Membership)
 <!-- -->
 **Returns:**
-*   Number of days left in subscription, -1 for a lifetime subscriber,
++   Number of days left in subscription, -1 for a lifetime subscriber,
     *or* null if hub contact failed
 <!-- -->
 **Args:**
-*   player* a mob, client, key, or ckey
++   player+ a mob, client, key, or ckey
 
 
 Checks a player for their subscription status to this game.
@@ -30,7 +30,7 @@ the tag \"clubhouse\" loc = locate(\"clubhouse\") src \<\< \"Welcome to
 the clubhouse!\" 
 ```
 
-Note* You can specify a different hub path and hub_password by adding
+Note+ You can specify a different hub path and hub_password by adding
 these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.

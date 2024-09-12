@@ -1,14 +1,14 @@
 ## html_encode proc
 **See also:**
-*   [html_decode proc](/ref/proc/html_decode.md) <!-- -->
++   [html_decode proc](/ref/proc/html_decode.md) <!-- -->
 **Format:**
-*   html_encode(PlainText)
++   html_encode(PlainText)
 <!-- -->
 **Args:**
-*   PlainText* text to be html \"escaped\"
++   PlainText+ text to be html \"escaped\"
 <!-- -->
 **Returns:**
-*   escaped text
++   escaped text
 
 
 Special characters such as \< and \> are not displayed
@@ -34,6 +34,6 @@ text, special characters like & that are part of the URL will be
 skipped. This keeps automatically created links in the output from being
 broken. 
 
-Note for BYOND oldies* the old-style formatting codes
+Note for BYOND oldies+ the old-style formatting codes
 such as \"\\red\" which are still parsed but not encouraged are
 completely stripped out by html_encode().

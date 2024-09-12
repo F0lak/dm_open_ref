@@ -1,15 +1,15 @@
 ## file2text proc
 **See also:**
-*   [shell proc](/ref/proc/shell.md) 
-*   [text2file proc](/ref/proc/text2file.md) <!-- -->
++   [shell proc](/ref/proc/shell.md) 
++   [text2file proc](/ref/proc/text2file.md) <!-- -->
 **Format:**
-*   file2text(File)
++   file2text(File)
 <!-- -->
 **Args:**
-*   File* file to read
++   File+ file to read
 <!-- -->
 **Returns:**
-*   the contents of the file.
++   the contents of the file.
 
 
 This can be useful when interacting with external applications

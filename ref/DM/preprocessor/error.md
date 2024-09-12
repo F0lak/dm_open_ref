@@ -1,12 +1,12 @@
 ## #error directive
 **See also:**
-*   [preprocessor](/ref/DM/preprocessor.md) 
-*   [#warn directive](/ref/DM/preprocessor/warn.md) <!-- -->
++   [preprocessor](/ref/DM/preprocessor.md) 
++   [#warn directive](/ref/DM/preprocessor/warn.md) <!-- -->
 **Format:**
-*   #error Text
++   #error Text
 <!-- -->
 **Args:**
-*   Text* an error message to display
++   Text+ an error message to display
 
 
 The #error directive halts compilation and displays the

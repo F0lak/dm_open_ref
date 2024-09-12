@@ -1,14 +1,14 @@
 ## arccos proc
 **See also:**
-*   [arcsin proc](/ref/proc/arcsin.md) 
-*   [arctan proc](/ref/proc/arctan.md) 
-*   [cos proc](/ref/proc/cos.md) 
-*   [turn proc](/ref/proc/turn.md) <!-- -->
++   [arcsin proc](/ref/proc/arcsin.md) 
++   [arctan proc](/ref/proc/arctan.md) 
++   [cos proc](/ref/proc/cos.md) 
++   [turn proc](/ref/proc/turn.md) <!-- -->
 **Format:**
-*   arccos(X)
++   arccos(X)
 <!-- -->
 **Returns:**
-*   The inverse cosine of X in degrees.
++   The inverse cosine of X in degrees.
 ### Example:
 
 ```

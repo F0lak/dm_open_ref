@@ -1,11 +1,11 @@
 ## style parameter (skin)
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) 
-*   [Map](/ref/%7Bskin%7D/control/map.md) 
-*   [Output](/ref/%7Bskin%7D/control/output.md) 
++   [Grid](/ref/%7Bskin%7D/control/grid.md) 
++   [Map](/ref/%7Bskin%7D/control/map.md) 
++   [Output](/ref/%7Bskin%7D/control/output.md) 
 <!-- -->
 **Format:**
-*   string
++   string
 
 
 Custom stylesheet used for the control. Changes made at runtime

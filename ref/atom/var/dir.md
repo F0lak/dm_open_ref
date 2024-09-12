@@ -1,14 +1,14 @@
 ## dir var (atom)
 **See also:**
-*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-*   [icon var (atom)](/ref/atom/var/icon.md) 
-*   [turn proc](/ref/proc/turn.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [icon var (atom)](/ref/atom/var/icon.md) 
++   [turn proc](/ref/proc/turn.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
 **Default value:**
-*   SOUTH
++   SOUTH
 <!-- -->
 **Possible values:**
-*   NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
++   NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
 
 
 This is the direction that the object is facing. This has

@@ -1,10 +1,10 @@
 # src setting (verb)
 **Format:**
-*   set src in List
-*   set src = List
++   set src in List
++   set src = List
 <!-- -->
 **Args:**
-*   List* One of view(), oview(), world, world.contents, usr,
++   List+ One of view(), oview(), world, world.contents, usr,
     usr.contents, usr.loc, or usr.group
 
 
@@ -24,8 +24,8 @@ respectively.
 The default setting depends on the type of src:
 
 ```
- mob* src = usr obj* src in usr // short for usr.contents
-turf* src = view(0) area* src = view(0) 
+ mob+ src = usr obj+ src in usr // short for usr.contents
+turf+ src = view(0) area+ src = view(0) 
 ```
 
 ### Example:

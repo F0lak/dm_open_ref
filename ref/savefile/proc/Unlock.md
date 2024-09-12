@@ -1,9 +1,9 @@
 ## Unlock proc (savefile)
 **See also:**
-*   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
-*   [New proc (savefile)](/ref/savefile/proc/New.md) <!-- -->
++   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
++   [New proc (savefile)](/ref/savefile/proc/New.md) <!-- -->
 **Format:**
-*   Unlock()
++   Unlock()
 
 
 Exclusive locks are automatically released when the savefile is

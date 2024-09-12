@@ -1,11 +1,11 @@
 ## filter proc 
 ###### BYOND Version 512
 **See also:**
-*   [filters var (atom)](/ref/atom/var/filters.md) 
-*   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
++   [filters var (atom)](/ref/atom/var/filters.md) 
++   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
 <!-- -->
 **Format:**
-*   filter(type = Type, parameter = Value, \...)
++   filter(type = Type, parameter = Value, \...)
 
 
 Creates a graphical filter that can be assigned or added to a

@@ -1,11 +1,11 @@
 ## channel var (sound)
 **See also:**
-*   [sound proc](/ref/proc/sound.md) 
-*   [status var (sound)](/ref/sound/var/status.md) 
-*   [vars (sound)](/ref/sound/var.md) 
-*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
++   [sound proc](/ref/proc/sound.md) 
++   [status var (sound)](/ref/sound/var/status.md) 
++   [vars (sound)](/ref/sound/var.md) 
++   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
 **Default value:**
-*   0 (any channel)
++   0 (any channel)
 
 
 For sound effects, set to 1 through 1024 to choose a specific
@@ -20,7 +20,7 @@ changes to your sound later on via the `SOUND_UPDATE` status flag, you
 This var may be filled in by
 the `SoundQuery` proc, but only for sounds that had a specified channel
 to begin with.
-Note* If you don\'t specify a channel to play a sound, the client will
+Note+ If you don\'t specify a channel to play a sound, the client will
 choose a channel automatically but it will *not* conflict with any
 specific channels you choose for other sounds later. This means if you
 play some sounds with channel 0 but then later want to play something on

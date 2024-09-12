@@ -1,11 +1,11 @@
 ## map
 **See also:**
-*   [#include directive](/ref/DM/preprocessor/include.md) 
-*   [area var (world)](/ref/world/var/area.md) 
-*   [maxx var (world)](/ref/world/var/maxx.md) 
-*   [turf var (world)](/ref/world/var/turf.md) <!-- -->
++   [#include directive](/ref/DM/preprocessor/include.md) 
++   [area var (world)](/ref/world/var/area.md) 
++   [maxx var (world)](/ref/world/var/maxx.md) 
++   [turf var (world)](/ref/world/var/turf.md) <!-- -->
 **Format:**
-*   #include \"mapname.dmm\"
++   #include \"mapname.dmm\"
 
 
 One or more map files may be loaded into the world\'s map.

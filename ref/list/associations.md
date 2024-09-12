@@ -1,12 +1,12 @@
 ## list associations
 **See also:**
-*   [list](/ref/list.md) 
-*   [list proc](/ref/proc/list.md) 
-*   [list proc](/ref/proc/alist.md) 
-*   [list2params proc](/ref/proc/list2params.md) 
-*   [params var (world)](/ref/world/var/params.md) 
-*   [params2list proc](/ref/proc/params2list.md) 
-*   [vars list var (datum)](/ref/datum/var/vars.md) 
++   [list](/ref/list.md) 
++   [list proc](/ref/proc/list.md) 
++   [list proc](/ref/proc/alist.md) 
++   [list2params proc](/ref/proc/list2params.md) 
++   [params var (world)](/ref/world/var/params.md) 
++   [params2list proc](/ref/proc/params2list.md) 
++   [vars list var (datum)](/ref/datum/var/vars.md) 
 
 
 Each unique text string or object in a list may be associated
@@ -63,7 +63,7 @@ associative lists.
 
 When the index values happen to be text
 strings that satisfy all the requirements for variable names, this may
-also be written in a convenient short-hand* 
+also be written in a convenient short-hand+ 
 ```
  var/list/lst =
 list(player = \"James Byond\", score = 2000) 

@@ -1,7 +1,7 @@
 # luminosity var (atom)
 **Default value:**
-*   0
-*   1 (areas)
++   0
++   1 (areas)
 
 
 This sets the object\'s luminosity (how far it casts light). It

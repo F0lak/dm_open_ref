@@ -1,8 +1,8 @@
 ## file var (sound)
 **See also:**
-*   [sound proc](/ref/proc/sound.md) 
-*   [vars (sound)](/ref/sound/var.md) 
-*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 
++   [sound proc](/ref/proc/sound.md) 
++   [vars (sound)](/ref/sound/var.md) 
++   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 
 
 This is the file that will be played when the sound is sent to
 a player. 

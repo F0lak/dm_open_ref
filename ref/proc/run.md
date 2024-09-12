@@ -1,10 +1,10 @@
 ## run proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-*   [file proc](/ref/proc/file.md) 
-*   [link proc](/ref/proc/link.md) <!-- -->
++   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
++   [file proc](/ref/proc/file.md) 
++   [link proc](/ref/proc/link.md) <!-- -->
 **Format:**
-*   O \<\< run(File)
++   O \<\< run(File)
 
 
 This is similar to link() but instead of a URL, you can pass a

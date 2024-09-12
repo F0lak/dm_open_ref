@@ -1,24 +1,24 @@
 ## params2list proc
 **See also:**
-*   [Topic proc (client)](/ref/client/proc/Topic.md) 
-*   [list associations](/ref/list/associations.md) 
-*   [list2params proc](/ref/proc/list2params.md) 
-*   [params var (world)](/ref/world/var/params.md) 
-*   [text2num proc](/ref/proc/text2num.md) 
++   [Topic proc (client)](/ref/client/proc/Topic.md) 
++   [list associations](/ref/list/associations.md) 
++   [list2params proc](/ref/proc/list2params.md) 
++   [params var (world)](/ref/world/var/params.md) 
++   [text2num proc](/ref/proc/text2num.md) 
 <!-- -->
 **Format:**
-*   params2list(Params)
++   params2list(Params)
 <!-- -->
 **Args:**
-*   Params* Text string of parameter values.
++   Params+ Text string of parameter values.
 <!-- -->
 **Returns:**
-*   An associative list of parameter names and values.
++   An associative list of parameter names and values.
 
 
 This instruction converts a parameter text string to a list of
 individual parameters and associated values. The format of the parameter
-text is* 
+text is+ 
 ```
  \"name1=value1&name2=value2&\...\" 
 ```
@@ -59,7 +59,7 @@ params2list(ptext) var/p for(p in plist) usr \<\< \"\[p\] =
  
 
 The above example defines a simple
-parameter text string containing two parameters* `"offense"` and
+parameter text string containing two parameters+ `"offense"` and
 `"time"`. These are associated with the values `"jwalk"` and `"10:00"`.
 The `for` loop illustrates how one might loop through the list and print
 out each setting. 

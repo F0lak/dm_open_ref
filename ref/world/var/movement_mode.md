@@ -1,23 +1,23 @@
 ## movement_mode var (world)
 **See also:**
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-*   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-*   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-*   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
++   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
++   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
++   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
++   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
 <!-- -->
 **Possible values:**
-*   `LEGACY_MOVEMENT_MODE`* Old BYOND behavior regarding pixel movement
++   `LEGACY_MOVEMENT_MODE`+ Old BYOND behavior regarding pixel movement
     and turf contents (see below)
-*   `TILE_MOVEMENT_MODE`* All atoms are locked to the tile grid
-*   `PIXEL_MOVEMENT_MODE`* All movable atoms can use pixel movement
++   `TILE_MOVEMENT_MODE`+ All atoms are locked to the tile grid
++   `PIXEL_MOVEMENT_MODE`+ All movable atoms can use pixel movement
     unless otherwise specified (see below), but legacy behavior for turf
     contents is ignored
 <!-- -->
 **Default value:**
-*   LEGACY_MOVEMENT_MODE
++   LEGACY_MOVEMENT_MODE
 
 
 Controls how movement works on the map.

@@ -1,20 +1,20 @@
 ## istype proc
 **See also:**
-*   [ispath proc](/ref/proc/ispath.md) 
-*   [locate proc](/ref/proc/locate.md) 
-*   [typesof proc](/ref/proc/typesof.md) 
-*   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 
++   [ispath proc](/ref/proc/ispath.md) 
++   [locate proc](/ref/proc/locate.md) 
++   [typesof proc](/ref/proc/typesof.md) 
++   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 
 <!-- -->
 **Format:**
-*   istype(Val,Type)
-*   istype(Val)
++   istype(Val,Type)
++   istype(Val)
 <!-- -->
 **Returns:**
-*   1 if Val is derived from Type; 0 otherwise.
++   1 if Val is derived from Type; 0 otherwise.
 <!-- -->
 **Args:**
-*   Val* An object instance.
-*   Type* An object prototype or instance. If no type is specified and a
++   Val+ An object instance.
++   Type+ An object prototype or instance. If no type is specified and a
     variable was passed in as the first argument, it will default to the
     declared type of the variable.
 
@@ -32,7 +32,7 @@ see if one prototype derives from another one, use
 
 
 Using implicit types, that same example can be rewritten as
-follows* 
+follows+ 
 ```
  var/mob/ugly/M M = new/mob/ugly/duckling()
 if(istype(M)) //this will be true usr \<\< \"\[M\] is ugly!\" 

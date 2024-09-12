@@ -1,8 +1,8 @@
 ## reachable var (world) 
 ###### BYOND Version 502
 **See also:**
-*   [port var (world)](/ref/world/var/port.md) 
-*   [OpenPort proc (world)](/ref/world/proc/OpenPort.md) 
++   [port var (world)](/ref/world/var/port.md) 
++   [OpenPort proc (world)](/ref/world/proc/OpenPort.md) 
 
 Returns 1 if the world is currently hosted and the port can be
 reached by players (as determined by the BYOND hub), 0 if not.

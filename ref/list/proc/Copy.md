@@ -1,15 +1,15 @@
 ## Copy proc (list)
 **See also:**
-*   [Cut proc (list)](/ref/list/proc/Cut.md) <!-- -->
++   [Cut proc (list)](/ref/list/proc/Cut.md) <!-- -->
 **Format:**
-*   list.Copy(Start=1,End=0)
++   list.Copy(Start=1,End=0)
 <!-- -->
 **Returns:**
-*   A new list.
++   A new list.
 <!-- -->
 **Args:**
-*   Start* The list position in which to begin the copy.
-*   End* The list position immediately following the last element to be
++   Start+ The list position in which to begin the copy.
++   End+ The list position immediately following the last element to be
     copied.
 
 

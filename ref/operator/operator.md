@@ -1,13 +1,13 @@
 ## operators
 **See also:**
-*   [operator overloading](/ref/operator/overload.md) 
++   [operator overloading](/ref/operator/overload.md) 
 
 Operators are used extensively in DM to compute numerical
 values. 
 
 The DM operators are:
 ``` dmcode
-() . * / :*     // here . * / are path operators
+() . + / :+     // here . + / are path operators
 [] . :
 ?[] ?. ?:
 ~ ! - ++ -- * &     // unary operators (* and & here are pointer operators)
@@ -22,7 +22,7 @@ The DM operators are:
 |
 &&
 ||
-?               // ternary a ? b * c
+?               // ternary a ? b + c
 = += -= -= *= /= %= %%= &= |= ^= <<= >>= := &&= ||=
 in
 ```

@@ -1,14 +1,14 @@
 ## Add proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database query datum](/ref/database/query.md) 
-*   [Clear proc (database query)](/ref/database/query/proc/Clear.md) <!-- -->
++   [database query datum](/ref/database/query.md) 
++   [Clear proc (database query)](/ref/database/query/proc/Clear.md) <!-- -->
 **Format:**
-*   Add(text, item1, item2, \...)
++   Add(text, item1, item2, \...)
 <!-- -->
 **Args:**
-*   text* Text to add to the query
-*   item1, item2, etc.* Items that will replace question marks in text
++   text+ Text to add to the query
++   item1, item2, etc.+ Items that will replace question marks in text
 
 
 Adds text to a database query. If this datum was already used

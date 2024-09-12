@@ -1,12 +1,12 @@
 ## flick proc
 **See also:**
-*   [icon_state var (atom)](/ref/atom/var/icon_state.md) <!-- -->
++   [icon_state var (atom)](/ref/atom/var/icon_state.md) <!-- -->
 **Format:**
-*   flick(Icon,Object)
++   flick(Icon,Object)
 <!-- -->
 **Args:**
-*   Icon* An icon file or state name.
-*   Object* The target object.
++   Icon+ An icon file or state name.
++   Object+ The target object.
 
 
 Cause the icon attached to Object to be temporarily replaced

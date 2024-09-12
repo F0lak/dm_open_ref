@@ -1,14 +1,14 @@
 ## text2path proc
 **See also:**
-*   [ispath proc](/ref/proc/ispath.md) <!-- -->
++   [ispath proc](/ref/proc/ispath.md) <!-- -->
 **Format:**
-*   text2path(T)
++   text2path(T)
 <!-- -->
 **Args:**
-*   T* A text string.
++   T+ A text string.
 <!-- -->
 **Returns:**
-*   a type path or null.
++   a type path or null.
 ### Example:
 
 ```

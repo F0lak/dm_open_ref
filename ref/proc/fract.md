@@ -1,18 +1,18 @@
 ## fract proc 
 ###### BYOND Version 515
 **See also:**
-*   [trunc proc](/ref/proc/trunc.md) 
-*   [floor proc](/ref/proc/floor.md) 
-*   [ceil proc](/ref/proc/ceil.md) 
-*   [round proc](/ref/proc/round.md) <!-- -->
++   [trunc proc](/ref/proc/trunc.md) 
++   [floor proc](/ref/proc/floor.md) 
++   [ceil proc](/ref/proc/ceil.md) 
++   [round proc](/ref/proc/round.md) <!-- -->
 **Format:**
-*   fract(A)
++   fract(A)
 <!-- -->
 **Returns:**
-*   fractional part of A
++   fractional part of A
 <!-- -->
 **Args:**
-*   A* A number, pixloc, or vector.
++   A+ A number, pixloc, or vector.
 
 
 Returns the fractional part of the number A, with the same

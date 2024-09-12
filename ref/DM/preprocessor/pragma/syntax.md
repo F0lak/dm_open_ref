@@ -1,12 +1,12 @@
 ## #pragma syntax directive 
 ###### BYOND Version 516
 **See also:**
-*   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-*   [for loop proc](/ref/proc/for/loop.md) 
-*   [switch proc](/ref/proc/switch.md) 
++   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
++   [for loop proc](/ref/proc/for/loop.md) 
++   [switch proc](/ref/proc/switch.md) 
 <!-- -->
 **Format:**
-*   #pragma syntax [\<]{.faded}C[\|]{.faded}DM[\>]{.faded}
++   #pragma syntax [\<]{.faded}C[\|]{.faded}DM[\>]{.faded}
     [\[]{.faded}for[\|]{.faded}switch[\]]{.faded}
 
 
@@ -29,8 +29,8 @@ Fall-through behavior isn\'t possible in the default DM syntax.
 
 ```
  #pragma push #pragma syntax C switch switch(thing) case 1:
-usr \<\< \"This is case 1!\" break case 2, 3* usr \<\< \"This is case 2
-or 3.\" // no break, fall through case 4 to 6* usr \<\< \"This is case 4
-through 6 (or maybe 2 or 3).\" break default* usr \<\< \"This is a
+usr \<\< \"This is case 1!\" break case 2, 3+ usr \<\< \"This is case 2
+or 3.\" // no break, fall through case 4 to 6+ usr \<\< \"This is case 4
+through 6 (or maybe 2 or 3).\" break default+ usr \<\< \"This is a
 different case. #pragma pop 
 ```

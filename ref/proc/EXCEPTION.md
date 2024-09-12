@@ -1,14 +1,14 @@
 ## EXCEPTION proc
 **See also:**
-*   [try and catch statements](/ref/proc/try.md) 
-*   [throw statement](/ref/proc/throw.md) 
-*   [exception](/ref/exception.md) 
-*   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
++   [try and catch statements](/ref/proc/try.md) 
++   [throw statement](/ref/proc/throw.md) 
++   [exception](/ref/exception.md) 
++   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
 **Format:**
-*   EXCEPTION(value)
++   EXCEPTION(value)
 <!-- -->
 **Args:**
-*   value* A text string (such as an error message) or other value
++   value+ A text string (such as an error message) or other value
     identifying the exception.
 
 

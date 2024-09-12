@@ -1,16 +1,16 @@
 ## turn proc (applied to an icon)
 **See also:**
-*   [turn proc](/ref/proc/turn.md) 
-*   [icon](/ref/icon.md) <!-- -->
++   [turn proc](/ref/proc/turn.md) 
++   [icon](/ref/icon.md) <!-- -->
 **Format:**
-*   turn(Icon, Angle)
++   turn(Icon, Angle)
 <!-- -->
 **Returns:**
-*   The rotated icon.
++   The rotated icon.
 <!-- -->
 **Args:**
-*   Icon* an icon to rotate
-*   Angle* An angle in degrees (clockwise rotation).
++   Icon+ an icon to rotate
++   Angle+ An angle in degrees (clockwise rotation).
 ### Example:
 
 ```

@@ -1,20 +1,20 @@
 ## jointext proc 
 ###### BYOND Version 510
 **See also:**
-*   [splittext proc](/ref/proc/splittext.md) 
-*   [Join proc (list)](/ref/list/proc/Join.md) <!-- -->
++   [splittext proc](/ref/proc/splittext.md) 
++   [Join proc (list)](/ref/list/proc/Join.md) <!-- -->
 **Format:**
-*   jointext(List,Glue,Start=1,End=0)
++   jointext(List,Glue,Start=1,End=0)
 <!-- -->
 **Returns:**
-*   A text string made up of the items in List, joined together by Glue.
++   A text string made up of the items in List, joined together by Glue.
 <!-- -->
 **Args:**
-*   List* The list to be joined.
-*   Glue* The text that will go between each item.
-*   Start* The list item on which to begin.
-*   End* The list item immediately following the last item to be joined.
-*   include_delimiters* True if any delimiters found should be included
++   List+ The list to be joined.
++   Glue+ The text that will go between each item.
++   Start+ The list item on which to begin.
++   End+ The list item immediately following the last item to be joined.
++   include_delimiters+ True if any delimiters found should be included
     in the result.
 
 

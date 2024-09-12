@@ -1,12 +1,12 @@
 # sqrt proc
 **Format:**
-*   sqrt(A)
++   sqrt(A)
 <!-- -->
 **Returns:**
-*   The square root of A
++   The square root of A
 <!-- -->
 **Args:**
-*   A* A number.
++   A+ A number.
 ### Example:
 
 ```

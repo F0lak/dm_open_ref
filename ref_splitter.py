@@ -117,20 +117,26 @@ def clean_markdown_file(text) -> str:
 		text = fix_links(text)
 		text = clean_version(text)
 		text = clean_inline_code(text)
-		text = text.replace(": ", "* ")
+		text = text.replace(": ", "+ ")
 		text = text.replace("PARAGRAPH", "\n\n")
 		text = text.replace("CODE_TICKS", "\n```\n")
+		text = text.replace("NOTE", "[!NOTE]")
 		return text
 
 def prep_html_file(text) -> str:
 		text = text.replace("<p>", "PARAGRAPH")
 		text = text.replace("<xmp>", "CODE_TICKS")
 		text = text.replace("</xmp>", "CODE_TICKS")
+		text = text.replace("<p class=note>", "NOTE")
 		return text
 
 def clean_filenames(text) -> str:
-		text = text.replace("%2e", "DOT")
-		text = text.replace(".", "DOT")
+		text = text.replace("%2e", ".")
+		text = text.replace("%3e", ">")
+		text = text.replace("%3c", "<")
+		text = text.replace("%3f", "?")
+		text = text.replace("%25", "%")
+		#text = text.replace(".", "DOT")
 		text = text.replace(">", "RIGHT")
 		text = text.replace("<", "LEFT")
 		text = text.replace("*", "STAR")
@@ -140,11 +146,20 @@ def clean_filenames(text) -> str:
 		text = text.replace("{", "")
 		text = text.replace("}", "")
 		text = text.replace("toc", "")
-		text = text.replace("toc=", "")
 		text = text.replace("\"", "")
-		text = text.replace(" =mouse", "")
 		text = text.replace("/", "\\")
 		text = text.replace("%", "PERCENT")
+
+		if text.find("operator") == -1:
+			start_marker = " ="
+			start_index = text.find(start_marker)
+			if start_index != -1:
+				end_index = text.find("(", start_index)
+				if end_index == -1:
+					end_index = len(text)
+				else:
+					start_index += 1
+				text = text.replace(text[start_index:end_index], "")
 
 		return text
 
@@ -235,7 +250,7 @@ def build_file_tree() -> None:
 			pages.append(Page(f"{output_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
 
 			global index
-			index += f"<a href = \"{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
+			index += f"<a href = \"html\\{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
 
 def make_files() -> None:
 	print("Making Files")
@@ -260,7 +275,6 @@ class Page:
 	def add_to_index(self) -> None:
 		global index
 		index += f"<a href = \"f\"{self.path}\\{self.title}.{self.extension}\"{self.title}</a></ br>\n"
-        
         
 if __name__ == "__main__":
 	profiler = cProfile.Profile()

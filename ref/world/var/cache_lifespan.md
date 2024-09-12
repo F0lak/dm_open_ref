@@ -1,8 +1,8 @@
 ## cache_lifespan var (world)
 **See also:**
-*   [cache](/ref/DM/cache.md) <!-- -->
++   [cache](/ref/DM/cache.md) <!-- -->
 **Default value:**
-*   30 (days)
++   30 (days)
 
 
 Number of days items that are not in use will be saved in the

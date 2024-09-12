@@ -1,10 +1,10 @@
 ## Close proc (database) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/ref/database.md) 
-*   [Open proc (database)](/ref/database/proc/Open.md) <!-- -->
++   [database datum](/ref/database.md) 
++   [Open proc (database)](/ref/database/proc/Open.md) <!-- -->
 **Format:**
-*   Close()
++   Close()
 
 
 If a database is currently open, this will close the database

@@ -1,13 +1,13 @@
 ## sight var (mob)
 **See also:**
-*   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
-*   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
-*   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
-*   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
-*   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
-*   [view proc](/ref/proc/view.md) <!-- -->
++   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
++   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
++   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
++   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
++   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
++   [view proc](/ref/proc/view.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 This controls which objects on the map the mob can see. The
@@ -16,7 +16,7 @@ visible and lit. Different flags in this var can be set to extend or
 limit this range. 
 
 The following bit flags are encoded in
-mob.sight* 
+mob.sight+ 
 ```
  SEE_INFRA // can see infra-red objects SEE_SELF //
 can see self, no matter what SEE_MOBS // can see all mobs, no matter

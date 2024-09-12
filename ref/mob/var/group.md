@@ -1,9 +1,9 @@
 ## group list var (mob)
 **See also:**
-*   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
-*   [list](/ref/list.md) <!-- -->
++   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
++   [list](/ref/list.md) <!-- -->
 **Default value:**
-*   (empty list)
++   (empty list)
 
 
 This is a list of mobs in the same group. By default, a mob

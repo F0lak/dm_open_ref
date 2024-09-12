@@ -1,14 +1,14 @@
 ## #define directive
 **See also:**
-*   [preprocessor](/ref/DM/preprocessor.md) <!-- -->
++   [preprocessor](/ref/DM/preprocessor.md) <!-- -->
 **Format:**
-*   #define Name Value
-*   #define Name(Parameters) Value
++   #define Name Value
++   #define Name(Parameters) Value
 <!-- -->
 **Args:**
-*   Name* A macro definition.
-*   Value* The value to substitute for Name.
-*   Parameters* Arguments to pass into the macro.
++   Name+ A macro definition.
++   Value+ The value to substitute for Name.
++   Parameters+ Arguments to pass into the macro.
 
 
 The #define statement creates a macro that is substituted for

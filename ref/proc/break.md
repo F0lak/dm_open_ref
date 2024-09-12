@@ -1,15 +1,15 @@
 ## break statement
 **See also:**
-*   [continue statement](/ref/proc/continue.md) 
-*   [do proc](/ref/proc/do.md) 
-*   [for loop proc](/ref/proc/for/loop.md) 
-*   [while proc](/ref/proc/while.md) 
-*   [switch proc](/ref/proc/switch.md) 
-*   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) 
++   [continue statement](/ref/proc/continue.md) 
++   [do proc](/ref/proc/do.md) 
++   [for loop proc](/ref/proc/for/loop.md) 
++   [while proc](/ref/proc/while.md) 
++   [switch proc](/ref/proc/switch.md) 
++   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) 
 <!-- -->
 **Format:**
-*   break
-*   break Label
++   break
++   break Label
 
 
 Terminate the loop with the given label. If no label is

@@ -1,16 +1,16 @@
 ## size parameter (skin)
 **See also:**
-*   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
-*   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) 
-*   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
-*   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
-*   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
++   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
++   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) 
++   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
++   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
++   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
-*   *width*x*height*
++   *width*x*height*
 
 
 The size of this control. 

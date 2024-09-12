@@ -1,18 +1,18 @@
 ## is-minimized parameter (skin)
 **See also:**
-*   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
-*   [is-maximized parameter](/ref/%7Bskin%7D/param/is-maximized.md) 
-*   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) 
-*   [size parameter](/ref/%7Bskin%7D/param/size.md) 
++   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
++   [is-maximized parameter](/ref/%7Bskin%7D/param/is-maximized.md) 
++   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) 
++   [size parameter](/ref/%7Bskin%7D/param/size.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
 <!-- -->
 **Format:**
-*   true/false
++   true/false
 <!-- -->
 **Default value:**
-*   false
++   false
 
 
 True if the window is minimized. 

@@ -1,9 +1,9 @@
 ## hub_password var (world)
 **See also:**
-*   [hub var (world)](/ref/world/var/hub.md) 
-*   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
++   [hub var (world)](/ref/world/var/hub.md) 
++   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
 **Default value:**
-*   null
++   null
 
 
 If `world.hub` is set, any live session of the game will be

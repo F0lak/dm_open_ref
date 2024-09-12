@@ -1,16 +1,16 @@
 ## turn proc (applied to a matrix)
 **See also:**
-*   [turn proc](/ref/proc/turn.md) 
-*   [matrix](/ref/matrix.md) <!-- -->
++   [turn proc](/ref/proc/turn.md) 
++   [matrix](/ref/matrix.md) <!-- -->
 **Format:**
-*   turn(Matrix, Angle)
++   turn(Matrix, Angle)
 <!-- -->
 **Returns:**
-*   A new matrix which has been rotated.
++   A new matrix which has been rotated.
 <!-- -->
 **Args:**
-*   Matrix* a matrix to rotate
-*   Angle* An angle in degrees (clockwise rotation).
++   Matrix+ a matrix to rotate
++   Angle+ An angle in degrees (clockwise rotation).
 ### Example:
 
 ```

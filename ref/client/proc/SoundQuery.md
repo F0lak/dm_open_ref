@@ -1,32 +1,32 @@
 ## SoundQuery proc (client) 
 ###### BYOND Version 513
 **See also:**
-*   [/sound datum](/ref/sound.md) 
-*   [sound proc](/ref/proc/sound.md) <!-- -->
++   [/sound datum](/ref/sound.md) 
++   [sound proc](/ref/proc/sound.md) <!-- -->
 **Format:**
-*   SoundQuery()
++   SoundQuery()
 <!-- -->
 **Args:**
-*   none
++   none
 <!-- -->
 **Returns:**
-*   A list of `/sound` datums with information about currently playing
++   A list of `/sound` datums with information about currently playing
     sounds.
 
 
 This proc is used to ask a client about sounds that are
 playing. The `/sound` datums in the returned list have the following
 vars set:
--   file* Sound/music file, or null if none
--   channel* Channel of sound, if one was set when the sound was played
--   repeat* The `repeat` value of the sound
--   status* Status flags active for this channel; currently only
+-   file+ Sound/music file, or null if none
+-   channel+ Channel of sound, if one was set when the sound was played
+-   repeat+ The `repeat` value of the sound
+-   status+ Status flags active for this channel; currently only
     `SOUND_PAUSED` is supported
--   offset* Current time index, in seconds, of the sound at the current
+-   offset+ Current time index, in seconds, of the sound at the current
     frequency
--   len* Total duration, in seconds, of the sound at the current
+-   len+ Total duration, in seconds, of the sound at the current
     frequency
--   wait* Total duration of sounds queued to play later on this channel
+-   wait+ Total duration of sounds queued to play later on this channel
     (does not apply to channel 0)
 
 

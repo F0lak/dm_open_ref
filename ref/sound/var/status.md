@@ -1,9 +1,9 @@
 ## status var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) 
-*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
++   [vars (sound)](/ref/sound/var.md) 
++   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 Alter the way the sound is heard by affecting several different

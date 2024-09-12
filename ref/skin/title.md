@@ -1,13 +1,13 @@
 ## title parameter (skin)
 **See also:**
-*   [name var (world)](/ref/world/var/name.md) 
-*   [icon parameter](/ref/%7Bskin%7D/param/icon.md) 
++   [name var (world)](/ref/world/var/name.md) 
++   [icon parameter](/ref/%7Bskin%7D/param/icon.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) 
++   [Main](/ref/%7Bskin%7D/control/main.md) 
 <!-- -->
 **Format:**
-*   string
++   string
 
 
 The title of this window or pane. For a window, the title will

@@ -1,20 +1,20 @@
 ## block proc
 **See also:**
-*   [list](/ref/list.md) <!-- -->
++   [list](/ref/list.md) <!-- -->
 **Format:**
-*   block(Start,End)
-*   block(StartX,StartY,StartZ, EndX=StartX,EndY=StartY,EndZ=StartZ)
++   block(Start,End)
++   block(StartX,StartY,StartZ, EndX=StartX,EndY=StartY,EndZ=StartZ)
 <!-- -->
 **Returns:**
-*   The list of turfs in the 3D block defined by Start and End
++   The list of turfs in the 3D block defined by Start and End
     (inclusive).
 <!-- -->
 **Args:**
-*   Start* A turf to be the lower-left corner of the block.
-*   End* A turf to be the upper-right corner of the block.
-*   StartX, StartY, StartZ* XYZ coordinates of the lower-left corner of
++   Start+ A turf to be the lower-left corner of the block.
++   End+ A turf to be the upper-right corner of the block.
++   StartX, StartY, StartZ+ XYZ coordinates of the lower-left corner of
     the block.
-*   EndX, EndY, EndZ* XYZ coordinates of the upper-right corner of the
++   EndX, EndY, EndZ+ XYZ coordinates of the upper-right corner of the
     block.
 
 

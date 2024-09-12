@@ -1,14 +1,14 @@
 ## step_x var (movable atom) 
 ###### BYOND Version 490
 **See also:**
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-*   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
-*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
++   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
++   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
++   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
++   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
++   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Default value:**
-*   0
++   0
 
 
 This var defines the position of the atom (in pixels) relative
@@ -19,7 +19,7 @@ The atom\'s
 actual bounding box may not begin at step_x, but can be set even further
 in via bound_x. 
 
-Example* A 16×16 smiley face centered in a
+Example+ A 16×16 smiley face centered in a
 32×32 icon should have the following bounds:
 -   bound_x = 8
 -   bound_y = 8

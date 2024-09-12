@@ -1,15 +1,15 @@
 ## \* operator
 **See also:**
-*   [\*= operator](/ref/operator/*=.md) 
-*   [+ operator](/ref/operator/+.md) 
-*   [- operator](/ref/operator/-.md) 
-*   [/ operator](/ref/operator//.md) 
-*   [operators](/ref/operator.md) <!-- -->
++   [\*= operator](/ref/operator/*=.md) 
++   [+ operator](/ref/operator/+.md) 
++   [- operator](/ref/operator/-.md) 
++   [/ operator](/ref/operator//.md) 
++   [operators](/ref/operator.md) <!-- -->
 **Format:**
-*   A \* B
++   A \* B
 <!-- -->
 **Returns:**
-*   The product of A and B.
++   The product of A and B.
 
 
 Multiplies A and B. The result of the operation depends on the

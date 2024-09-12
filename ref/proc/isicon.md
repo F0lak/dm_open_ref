@@ -1,16 +1,16 @@
 ## isicon proc
 **See also:**
-*   [cache](/ref/DM/cache.md) 
-*   [icon](/ref/icon.md) 
-*   [isfile proc](/ref/proc/isfile.md) <!-- -->
++   [cache](/ref/DM/cache.md) 
++   [icon](/ref/icon.md) 
++   [isfile proc](/ref/proc/isfile.md) <!-- -->
 **Format:**
-*   isicon(Icon)
++   isicon(Icon)
 <!-- -->
 **Args:**
-*   Icon* the value to test
++   Icon+ the value to test
 <!-- -->
 **Returns:**
-*   1 if the value is a valid icon; 0 otherwise.
++   1 if the value is a valid icon; 0 otherwise.
 
 
 This returns a true value when given an icon. Both `/icon`

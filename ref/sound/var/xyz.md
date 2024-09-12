@@ -1,9 +1,9 @@
 ## x, y, and z vars (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) 
-*   [falloff var (sound)](/ref/sound/var/falloff.md) <!-- -->
++   [vars (sound)](/ref/sound/var.md) 
++   [falloff var (sound)](/ref/sound/var/falloff.md) <!-- -->
 **Default value:**
-*   all 0
++   all 0
 
 
 Set to different values to give your sound a 3D effect which

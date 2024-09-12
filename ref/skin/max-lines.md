@@ -1,11 +1,11 @@
 ## max-lines parameter (skin)
 **Applies to:**
-*   [Output](/ref/%7Bskin%7D/control/output.md) <!-- -->
++   [Output](/ref/%7Bskin%7D/control/output.md) <!-- -->
 **Format:**
-*   number
++   number
 <!-- -->
 **Default value:**
-*   1000
++   1000
 
 
 Maximum number of lines before the control drops old text to

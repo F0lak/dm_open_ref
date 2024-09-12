@@ -1,6 +1,6 @@
 # turf var (world)
 **Default value:**
-*   /turf.
++   /turf.
 
 
 This is the default turf type to be placed on the map wherever

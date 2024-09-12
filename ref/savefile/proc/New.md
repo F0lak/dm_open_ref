@@ -1,13 +1,13 @@
 ## New proc (savefile)
 **See also:**
-*   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
-*   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
++   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
++   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
 **Format:**
-*   New(filename,timeout)
++   New(filename,timeout)
 <!-- -->
 **Args:**
-*   filename* name of file or empty for temporary file
-*   timeout* seconds to wait; -1 for no timeout
++   filename+ name of file or empty for temporary file
++   timeout+ seconds to wait; -1 for no timeout
 
 
 You call this via new/savefile(filename,timeout). The timeout

@@ -1,13 +1,13 @@
 ## vis_locs var (atom) 
 ###### BYOND Version 512
 **See also:**
-*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-*   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
-*   [image objects](/ref/image.md) 
-*   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
++   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
++   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
++   [image objects](/ref/image.md) 
++   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
 <!-- -->
 **Default value:**
-*   Empty list.
++   Empty list.
 
 
 This list is the opposite of the `vis_contents` list. If this

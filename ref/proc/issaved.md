@@ -1,14 +1,14 @@
 ## issaved proc
 **See also:**
-*   [initial proc](/ref/proc/initial.md) 
-*   [savefile](/ref/savefile.md) 
-*   [tmp vars](/ref/var/tmp.md) 
-*   [vars list var (datum)](/ref/datum/var/vars.md) <!-- -->
++   [initial proc](/ref/proc/initial.md) 
++   [savefile](/ref/savefile.md) 
++   [tmp vars](/ref/var/tmp.md) 
++   [vars list var (datum)](/ref/datum/var/vars.md) <!-- -->
 **Format:**
-*   issaved(Var)
++   issaved(Var)
 <!-- -->
 **Args:**
-*   Var* The variable to test.
++   Var+ The variable to test.
 
 
 This returns 1 if the given variable should be automatically

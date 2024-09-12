@@ -1,12 +1,12 @@
 ## #pragma warn/ignore/error directive 
 ###### BYOND Version 515
 **See also:**
-*   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-*   [#warn directive](/ref/DM/preprocessor/warn.md) 
-*   [#error directive](/ref/DM/preprocessor/error.md) 
++   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
++   [#warn directive](/ref/DM/preprocessor/warn.md) 
++   [#error directive](/ref/DM/preprocessor/error.md) 
 <!-- -->
 **Format:**
-*   #pragma
++   #pragma
     [\<]{.faded}warn[\|]{.faded}ignore[\|]{.faded}error[\>]{.faded}
     WarningName
 

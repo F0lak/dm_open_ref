@@ -1,20 +1,20 @@
 ## New proc (atom)
 **See also:**
-*   [New proc (datum)](/ref/datum/proc/New.md) 
-*   [new proc](/ref/proc/new.md) 
++   [New proc (datum)](/ref/datum/proc/New.md) 
++   [new proc](/ref/proc/new.md) 
 <!-- -->
 **Format:**
-*   New(loc)
-*   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
++   New(loc)
++   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
 <!-- -->
 **When:**
-*   Called when the object is created.
++   Called when the object is created.
 <!-- -->
 **Args:**
-*   loc* The initial location.
++   loc+ The initial location.
 <!-- -->
 **Default action:**
-*   None.
++   None.
 
 
 By the time New() is called, the object has already been

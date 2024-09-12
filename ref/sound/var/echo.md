@@ -1,10 +1,10 @@
 ## echo var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) 
-*   [x, y, z vars (sound)](/ref/sound/var/xyz.md) 
-*   [environment var (sound)](/ref/sound/var/environment.md) <!-- -->
++   [vars (sound)](/ref/sound/var.md) 
++   [x, y, z vars (sound)](/ref/sound/var/xyz.md) 
++   [environment var (sound)](/ref/sound/var/environment.md) <!-- -->
 **Default value:**
-*   null
++   null
 
 
 If set to an 18-element list, this value customizes
@@ -23,41 +23,41 @@ of a wall, but a doorway or window is allowing it to pass through to the
 listener. You can use a little of each of these effects to increase
 realism.
 1 Direct (-10,000 to 1,000) default = 0
-*   direct path level (at low and mid frequencies)
++   direct path level (at low and mid frequencies)
 2 DirectHF (-10,000 to 0) default = 0
-*   relative direct path level at high frequencies
++   relative direct path level at high frequencies
 3 Room (-10,000 to 1,000) default = 0
-*   room effect level (at low and mid frequencies)
++   room effect level (at low and mid frequencies)
 4 Room HF (-10,000 to 0) default = 0
-*   relative room effect level at high frequencies
++   relative room effect level at high frequencies
 5 Obstruction (-10,000 to 0) default = 0
-*   main obstruction control (attenuation at high frequencies)
++   main obstruction control (attenuation at high frequencies)
 6 ObstructionLFRatio (0.0 to 1.0) default = 0.0
-*   obstruction low-frequency level re. main control
++   obstruction low-frequency level re. main control
 7 Occlusion (-10,000 to 0) default = 0
-*   main occlusion control (attenuation at high frequencies)
++   main occlusion control (attenuation at high frequencies)
 8 OcclusionLFRatio (0.0 to 1.0) default = 0.25
-*   occlusion low-frequency level re. main control
++   occlusion low-frequency level re. main control
 9 OcclusionRoomRatio (0.0 to 10.0) default = 1.5
-*   relative occlusion control for room effect
++   relative occlusion control for room effect
 10 OcclusionDirectRatio (0.0 to 10.0) default = 1.0
-*   relative occlusion control for direct path
++   relative occlusion control for direct path
 11 Exclusion (-10,000 to 0) default = 0
-*   main exlusion control (attenuation at high frequencies)
++   main exlusion control (attenuation at high frequencies)
 12 ExclusionLFRatio (0.0 to 1.0) default = 1.0
-*   exclusion low-frequency level re. main control
++   exclusion low-frequency level re. main control
 13 OutsideVolumeHF (-10,000 to 0) default = 0
-*   outside sound cone level at high frequencies
++   outside sound cone level at high frequencies
 14 DopplerFactor (0.0 to 10.0) default = 0.0
-*   like DS3D flDopplerFactor but per source
++   like DS3D flDopplerFactor but per source
 15 RolloffFactor (0.0 to 10.0) default = 0.0
-*   like DS3D flRolloffFactor but per source
++   like DS3D flRolloffFactor but per source
 16 RoomRolloffFactor (0.0 to 10.0) default = 0.0
-*   like DS3D flRolloffFactor but for room effect
++   like DS3D flRolloffFactor but for room effect
 17 AirAbsorptionFactor (0.0 to 10.0) default = 1.0
-*   multiplies AirAbsorptionHF member of environment reverb properties.
++   multiplies AirAbsorptionHF member of environment reverb properties.
 18 Flags default = 7
-*   Bit flags that modify the behavior of properties
++   Bit flags that modify the behavior of properties
     -   1 - Automatic setting of \'Direct\' due to distance from
         listener
     -   2 - Automatic setting of \'Room\' due to distance from listener

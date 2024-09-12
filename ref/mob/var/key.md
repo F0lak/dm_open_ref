@@ -1,10 +1,10 @@
 ## key var (mob)
 **See also:**
-*   [ckey var (mob)](/ref/mob/var/ckey.md) 
-*   [client](/ref/client.md) 
-*   [key var (client)](/ref/client/var/key.md) <!-- -->
++   [ckey var (mob)](/ref/mob/var/ckey.md) 
++   [client](/ref/client.md) 
++   [key var (client)](/ref/client/var/key.md) <!-- -->
 **Default value:**
-*   null
++   null
 
 
 For player mobs (PCs) this is the value of the player\'s key.

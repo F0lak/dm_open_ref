@@ -1,21 +1,21 @@
 ## spantext proc 
 ###### BYOND Version 510
 **See also:**
-*   [findtext proc](/ref/proc/findtext.md) 
-*   [nonspantext proc](/ref/proc/nonspantext.md) 
-*   [splittext proc](/ref/proc/splittext.md) 
++   [findtext proc](/ref/proc/findtext.md) 
++   [nonspantext proc](/ref/proc/nonspantext.md) 
++   [splittext proc](/ref/proc/splittext.md) 
 <!-- -->
 **Format:**
-*   spantext(Haystack,Needles,Start=1)
++   spantext(Haystack,Needles,Start=1)
 <!-- -->
 **Returns:**
-*   The number of consecutive characters, from the start position, that
++   The number of consecutive characters, from the start position, that
     match the characters in Needles.
 <!-- -->
 **Args:**
-*   Haystack* The text string to search.
-*   Needles* A text string with all the characters that match.
-*   Start* The text byte position in Haystack in which to begin the
++   Haystack+ The text string to search.
++   Needles+ A text string with all the characters that match.
++   Start+ The text byte position in Haystack in which to begin the
     search.
 
 

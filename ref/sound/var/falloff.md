@@ -1,9 +1,9 @@
 ## falloff var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) 
-*   [x, y, z vars (sound)](/ref/sound/var/xyz.md) <!-- -->
++   [vars (sound)](/ref/sound/var.md) 
++   [x, y, z vars (sound)](/ref/sound/var/xyz.md) <!-- -->
 **Default value:**
-*   1
++   1
 
 
 Within the falloff distance a 3D sound stays at the constant

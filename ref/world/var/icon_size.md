@@ -1,11 +1,11 @@
 ## icon_size var (world)
 **See also:**
-*   [map_format var (world)](/ref/world/var/map_format.md) 
-*   [step_size var (movable atoms)](/ref/atom/movable/var/step_size.md) 
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
++   [map_format var (world)](/ref/world/var/map_format.md) 
++   [step_size var (movable atoms)](/ref/atom/movable/var/step_size.md) 
++   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Default value:**
-*   32
++   32
 
 
 This is the tile size that will be used as a default for icons
@@ -17,7 +17,7 @@ width and height, or you can use a format like \"\[width\]x\[height\]\"
 This value affects several calculations, including icon
 operations and gliding between turfs. 
 
-Note* If you do not use a
+Note+ If you do not use a
 square icon size and you are using a topdown map format, you may
 experience display issues if setting `client.dir` to `EAST` or `WEST`. A
 non-square tile with a topdown map format will also interfere with pixel

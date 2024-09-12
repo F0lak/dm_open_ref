@@ -1,10 +1,10 @@
 ## ohearers
 **See also:**
-*   [hearers](/ref/proc/hearers.md) 
-*   [oview proc](/ref/proc/oview.md) 
-*   [oviewers](/ref/proc/oviewers.md) <!-- -->
++   [hearers](/ref/proc/hearers.md) 
++   [oview proc](/ref/proc/oview.md) 
++   [oviewers](/ref/proc/oviewers.md) <!-- -->
 **Format:**
-*   ohearers(Depth=world.view,Center=usr)
++   ohearers(Depth=world.view,Center=usr)
 
 
 This is just like `hearers()`, but it excludes the center

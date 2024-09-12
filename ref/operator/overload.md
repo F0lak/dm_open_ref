@@ -1,8 +1,8 @@
 ## operator overloading 
 ###### BYOND Version 512" short="overloading
 **See also:**
-*   [datum](/ref/datum.md) 
-*   [operators](/ref/operator.md) 
++   [datum](/ref/datum.md) 
++   [operators](/ref/operator.md) 
 
 DM allows you to overload most of the operators it uses when
 working with datums and other objects. This means that A + B can call a
@@ -140,7 +140,7 @@ ternary `? :` operator pair, and the `.` and `:` family of operators for
 accessing vars and procs. 
 
 Comparison operators come in opposing
-pairs* `~=` vs. `~!`, `<` vs. `>=`, `>` vs. `<=`. You only need to
+pairs+ `~=` vs. `~!`, `<` vs. `>=`, `>` vs. `<=`. You only need to
 override one operator from each pair; DM is smart enough to know that
 `!(A ~= B)` is the same as `A ~! B`. 
 

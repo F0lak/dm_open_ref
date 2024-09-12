@@ -1,20 +1,20 @@
 ## load_ext proc 
 ###### BYOND Version 516
 **See also:**
-*   [call_ext proc](/ref/proc/call_ext.md) 
-*   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 
++   [call_ext proc](/ref/proc/call_ext.md) 
++   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 
 <!-- -->
 **Format:**
-*   load_ext(LibName,FuncName)
++   load_ext(LibName,FuncName)
 <!-- -->
 **Args:**
-*   LibName* name of external library (\"test.DLL\") (note* the .dll or
++   LibName+ name of external library (\"test.DLL\") (note+ the .dll or
     .so suffix is not required)
-*   FuncName* name of function in external library (\"func\"), which may
++   FuncName+ name of function in external library (\"func\"), which may
     have prefixes to describe the type of function
 <!-- -->
 **Returns:**
-*   A reference to a function in an external library, for use with
++   A reference to a function in an external library, for use with
     `call_ext()`.
 
 

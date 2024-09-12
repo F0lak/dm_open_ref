@@ -1,14 +1,14 @@
 ## Invert proc (matrix)
 **See also:**
-*   [matrix](/ref/matrix.md) 
-*   [matrix operators](/ref/matrix/operators.md) 
-*   [matrix procs](/ref/matrix/proc.md) 
-*   [\~ operator](/ref/operator/~.md) <!-- -->
++   [matrix](/ref/matrix.md) 
++   [matrix operators](/ref/matrix/operators.md) 
++   [matrix procs](/ref/matrix/proc.md) 
++   [\~ operator](/ref/operator/~.md) <!-- -->
 **Format:**
-*   Invert()
++   Invert()
 <!-- -->
 **Returns:**
-*   src
++   src
 
 
 This inverts the current matrix, if possible. 

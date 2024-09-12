@@ -1,24 +1,24 @@
 ## sorttextEx proc
 **See also:**
-*   [\> operator](/ref/operator/%3e.md) 
-*   [\< operator](/ref/operator/%3c.md) 
-*   [sorttext proc](/ref/proc/sorttext.md) <!-- -->
++   [\> operator](/ref/operator/%3e.md) 
++   [\< operator](/ref/operator/%3c.md) 
++   [sorttext proc](/ref/proc/sorttext.md) <!-- -->
 **Format:**
-*   sorttextEx(T1,T2,\...)
++   sorttextEx(T1,T2,\...)
 <!-- -->
 **Args:**
-*   Any number of text strings to sort.
++   Any number of text strings to sort.
 <!-- -->
 **Returns:**
-*   1 if text is ascending
-*   -1 if text is descending
-*   0 otherwise.
++   1 if text is ascending
++   -1 if text is descending
++   0 otherwise.
 
 
 This instruction is sensitive to case. The case-insensitive
 version is sorttext(). 
 
-Note* Uppercase letters are lower in the
+Note+ Uppercase letters are lower in the
 alphabetical order than lowercase letters.
 ### Example:
 
@@ -31,6 +31,6 @@ alphabetical order than lowercase letters.
 
 This outputs, \"descending\", since
 \"B\" comes before \"a\" in the alphabet.
-Note* This proc used to be named `sortText`, like `sorttext` but with a
+Note+ This proc used to be named `sortText`, like `sorttext` but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.

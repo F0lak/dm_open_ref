@@ -1,12 +1,12 @@
 ## on-status parameter (skin)
 **See also:**
-*   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) 
++   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) 
++   [Main](/ref/%7Bskin%7D/control/main.md) 
 <!-- -->
 **Format:**
-*   string
++   string
 
 
 [Command](/ref/%7Bskin%7D/commands.md)  executed when the text that

@@ -26,8 +26,9 @@ newer, more flexible syntax is a text string of the form
 
 The maximum view size is about 5000 tiles, or roughly 70x70.
 
-**See also:**
-+   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
-+   [show_map var (client)](/ref/client/var/show_map.md) 
-+   [view proc](/ref/proc/view.md) 
-+   [view var (world)](/ref/world/var/view.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
+> +   [show_map var (client)](/ref/client/var/show_map.md) 
+> +   [view proc](/ref/proc/view.md) 
+> +   [view var (world)](/ref/world/var/view.md) <!-- -->

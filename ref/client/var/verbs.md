@@ -8,5 +8,6 @@ This is a list of the client\'s verbs. Initially, it contains
 all of the verbs defined for the client. It may be used to add and
 remove verbs at runtime.
 
-**See also:**
-+   [list](/ref/list.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) <!-- -->

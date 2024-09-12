@@ -17,5 +17,6 @@ If
 to be parsed. If it\'s a `file()` reference, it will be treated as a
 filename and the file\'s contents will be loaded.
 
-**See also:**
-+   [ExportText proc (savefile)](/ref/savefile/proc/ExportText.md) 
+> [!TIP] 
+> **See also:**
+> +   [ExportText proc (savefile)](/ref/savefile/proc/ExportText.md) 

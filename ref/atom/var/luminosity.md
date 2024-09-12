@@ -11,3 +11,5 @@ Areas are a little
 different. Any non-zero value in an area results in all objects within
 the area being bathed in light.
 
+> [!TIP] 
+> 

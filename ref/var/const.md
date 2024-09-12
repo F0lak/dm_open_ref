@@ -18,5 +18,6 @@ with other variables declared elsewhere.
 This example
 defines an upper limit on the number of items a mob may carry.
 
-**See also:**
-+   [vars](/ref/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars](/ref/var.md) 

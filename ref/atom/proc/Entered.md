@@ -56,14 +56,15 @@ has been granted!\" else usr \<\< \"You are too greedy!\" del O
 ```
 
 
-**See also:**
-+   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-+   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-+   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-+   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-+   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
+> +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
+> +   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
+> +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
+> +   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
+> +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
+> +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
+> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
+> +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) <!-- -->

@@ -26,6 +26,7 @@ This value can be animated.
 ```
 
 
-**See also:**
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+> [!TIP] 
+> **See also:**
+> +   [color var (atom)](/ref/atom/var/color.md) 
+> +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 

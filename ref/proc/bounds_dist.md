@@ -27,12 +27,13 @@ A return
 value of -2 means the two objects are overlapping by 2 pixels; they
 would have to move 2 pixels apart to separate.
 
-**See also:**
-+   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-+   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
-+   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-+   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-+   [bounds proc](/ref/proc/bounds.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+> +   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
+> +   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+> +   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+> +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+> +   [bounds proc](/ref/proc/bounds.md) 
+> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

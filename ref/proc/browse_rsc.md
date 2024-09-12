@@ -35,5 +35,6 @@ browse(\"
 ```
 
 
-**See also:**
-+   [browse proc](/ref/proc/browse.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [browse proc](/ref/proc/browse.md) <!-- -->

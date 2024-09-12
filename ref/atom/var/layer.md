@@ -62,12 +62,13 @@ The `atom.plane` var takes
 priority over layer. This is the preferred method of handling background
 and effects.
 
-**See also:**
-+   [overlays var (atom)](/ref/atom/var/overlays.md) 
-+   [plane var (atom)](/ref/atom/var/plane.md) 
-+   [z var (atom)](/ref/atom/var/z.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
-+   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
-+   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [overlays var (atom)](/ref/atom/var/overlays.md) 
+> +   [plane var (atom)](/ref/atom/var/plane.md) 
+> +   [z var (atom)](/ref/atom/var/z.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
+> +   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
+> +   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md) 
+> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) <!-- -->

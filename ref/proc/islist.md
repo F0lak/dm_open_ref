@@ -14,6 +14,7 @@
 Tests whether an object is a list. This includes user-defined
 lists, special lists like `contents` and `overlays`, and more.
 
-**See also:**
-+   [list](/ref/list.md) 
-+   [list proc](/ref/proc/list.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) 
+> +   [list proc](/ref/proc/list.md) <!-- -->

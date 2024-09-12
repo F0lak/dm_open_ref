@@ -11,3 +11,5 @@ A text label that appears on the skin.
 +   [text](/ref/%7Bskin%7D/param/text.md) 
 +   [text-wrap](/ref/%7Bskin%7D/param/text-wrap.md) 
 
+> [!TIP] 
+> 

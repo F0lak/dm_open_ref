@@ -28,5 +28,6 @@ intro has concluded.\"
 ```
 
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) 

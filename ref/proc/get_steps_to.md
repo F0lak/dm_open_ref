@@ -22,8 +22,9 @@ If `Ref` is within `Min` steps of `Trg`, no steps are computed.
 This is also true if the target is too far away (more than twice
 `world.view` steps). In either case, null is returned.
 
-**See also:**
-+   [step proc](/ref/proc/step.md) 
-+   [step_to proc](/ref/proc/step_to.md) 
-+   [walk_to proc](/ref/proc/walk_to.md) 
-+   [get_step_to proc](/ref/proc/get_step_to.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [step proc](/ref/proc/step.md) 
+> +   [step_to proc](/ref/proc/step_to.md) 
+> +   [walk_to proc](/ref/proc/walk_to.md) 
+> +   [get_step_to proc](/ref/proc/get_step_to.md) <!-- -->

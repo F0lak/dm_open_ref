@@ -11,7 +11,8 @@ Setting y will
 alter the loc and step_y values automatically. Out-of-bounds values are
 allowed.
 
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [x var (pixloc)](/ref/pixloc/var/x.md) 
-+   [z var (pixloc)](/ref/pixloc/var/z.md) 
+> [!TIP] 
+> **See also:**
+> +   [pixloc](/ref/pixloc.md) 
+> +   [x var (pixloc)](/ref/pixloc/var/x.md) 
+> +   [z var (pixloc)](/ref/pixloc/var/z.md) 

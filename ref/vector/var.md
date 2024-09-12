@@ -11,7 +11,8 @@ vector/var
 +   [y](/ref/vector/var/y.md) 
 +   [z](/ref/vector/var/z.md) 
 
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) 
-+   [procs (vector)](/ref/vector/proc.md) 
+> [!TIP] 
+> **See also:**
+> +   [vector](/ref/vector.md) 
+> +   [vector proc](/ref/proc/vector.md) 
+> +   [procs (vector)](/ref/vector/proc.md) 

@@ -18,7 +18,8 @@ Sets the font style. Any combination of the above values may be
 used, or none of them. Multiple values may be separated by spaces or
 commas.
 
-**See also:**
-+   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
-+   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
-+   [tab-font-family, tab-font-size, tab-font-style
+> [!TIP] 
+> **See also:**
+> +   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
+> +   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
+> +   [tab-font-family, tab-font-size, tab-font-style

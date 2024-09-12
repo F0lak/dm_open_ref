@@ -35,6 +35,7 @@ above, the query text might look like this:
 
 `INSERT INTO quests (name, quest, complete) VALUES ('Tom','Save the Dog',1)`
 
-**See also:**
-+   [database query datum](/ref/database/query.md) 
-+   [Clear proc (database query)](/ref/database/query/proc/Clear.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [database query datum](/ref/database/query.md) 
+> +   [Clear proc (database query)](/ref/database/query/proc/Clear.md) <!-- -->

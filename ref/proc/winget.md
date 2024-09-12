@@ -91,8 +91,9 @@ caps-lock
 scroll-lock
 +   True if Scroll Lock is on.
 
-**See also:**
-+   [winexists proc](/ref/proc/winexists.md) 
-+   [winset proc](/ref/proc/winset.md) 
-+   [User interface skins](/ref/%7Bskin%7D.md) 
-+   [parameters (skin)](/ref/%7Bskin%7D/param.md) 
+> [!TIP] 
+> **See also:**
+> +   [winexists proc](/ref/proc/winexists.md) 
+> +   [winset proc](/ref/proc/winset.md) 
+> +   [User interface skins](/ref/%7Bskin%7D.md) 
+> +   [parameters (skin)](/ref/%7Bskin%7D/param.md) 

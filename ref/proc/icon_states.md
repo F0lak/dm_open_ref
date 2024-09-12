@@ -37,9 +37,10 @@ all of which can be safely extracted in a single-tile icon via the
 time you work with that state name you\'re working with the full-size
 icon. mode=2 will show all of the states.
 
-**See also:**
-+   [icons](/ref/DM/icon.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icons](/ref/DM/icon.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> +   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->

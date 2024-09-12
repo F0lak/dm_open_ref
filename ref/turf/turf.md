@@ -26,8 +26,9 @@ new(old_turf)
 ```
 
 
-**See also:**
-+   [atom](/ref/atom.md) 
-+   [procs (turf)](/ref/turf/proc.md) 
-+   [vars (turf)](/ref/turf/var.md) 
-+   [Map](/ref/map.md) 
+> [!TIP] 
+> **See also:**
+> +   [atom](/ref/atom.md) 
+> +   [procs (turf)](/ref/turf/proc.md) 
+> +   [vars (turf)](/ref/turf/var.md) 
+> +   [Map](/ref/map.md) 

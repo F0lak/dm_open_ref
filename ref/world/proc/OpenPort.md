@@ -32,6 +32,7 @@ configuration option in cfg/byond.txt can be used to control what ports
 worlds may open. The -ports command-line option may also be used. See
 [startup](/ref/proc/startup.md) for the syntax.
 
-**See also:**
-+   [port var (world)](/ref/world/var/port.md) 
-+   [visibility var (world)](/ref/world/var/visibility.md) 
+> [!TIP] 
+> **See also:**
+> +   [port var (world)](/ref/world/var/port.md) 
+> +   [visibility var (world)](/ref/world/var/visibility.md) 

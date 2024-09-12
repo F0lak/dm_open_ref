@@ -17,7 +17,7 @@ Init, Test, Inc sections instead of commas. That means commas can be
 used to chain multiple statements together instead. 
 
 In
-[switch()](/ref/proc/switch.md) {.code}, C syntax changes the if/else
+[switch()](/ref/proc/switch.md) , C syntax changes the if/else
 statements to use C\'s `case` and/or `default` keywords, followed by a
 colon, and the [`break` statement](/ref/proc/break.md) is required to skip to
 the end of the switch unless you want to fall through to the next case.
@@ -33,7 +33,8 @@ different case. #pragma pop
 ```
 
 
-**See also:**
-+   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [switch proc](/ref/proc/switch.md) 
+> [!TIP] 
+> **See also:**
+> +   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
+> +   [for loop proc](/ref/proc/for/loop.md) 
+> +   [switch proc](/ref/proc/switch.md) 

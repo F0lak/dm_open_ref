@@ -28,12 +28,13 @@ to work unless you have used fcopy_rsc() to get a cache reference to
 your dynamically created icon first. This is almost never an issue, so
 don\'t worry about it if none of that made any sense to you!
 
-**See also:**
-+   [icon proc](/ref/proc/icon.md) 
-+   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
-+   [icons](/ref/DM/icon.md) 
-+   [overlays var (atom)](/ref/atom/var/overlays.md) 
-+   [underlays var (atom)](/ref/atom/var/underlays.md) 
-+   [load_resource proc](/ref/proc/load_resource.md) 
-+   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
-+   [icon_z var (atom)](/ref/atom/var/icon_z.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icon proc](/ref/proc/icon.md) 
+> +   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
+> +   [icons](/ref/DM/icon.md) 
+> +   [overlays var (atom)](/ref/atom/var/overlays.md) 
+> +   [underlays var (atom)](/ref/atom/var/underlays.md) 
+> +   [load_resource proc](/ref/proc/load_resource.md) 
+> +   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
+> +   [icon_z var (atom)](/ref/atom/var/icon_z.md) <!-- -->

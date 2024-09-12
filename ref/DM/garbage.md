@@ -30,12 +30,12 @@ object:
 -   Stored in a var
 -   An item in a [list](/ref/list.md) , or [associated](/ref/list/associations.md) 
     with a list item
--   Has a [tag](/ref/datum/var/tag.md) {.code}
+-   Has a [tag](/ref/datum/var/tag.md) 
 -   Is on the map (always true for [turfs](/ref/turf.md) )
--   Inside another atom\'s [contents](/ref/atom/var/contents.md) {.code}
--   Inside an atom\'s [vis_contents](/ref/atom/var/vis_contents.md) {.code}
+-   Inside another atom\'s [contents](/ref/atom/var/contents.md) 
+-   Inside an atom\'s [vis_contents](/ref/atom/var/vis_contents.md) 
 -   A temporary value in a still-running proc
--   Is a [mob](/ref/mob.md)  with a [key](/ref/mob/var/key.md) {.code}
+-   Is a [mob](/ref/mob.md)  with a [key](/ref/mob/var/key.md) 
 -   Is an [image object](/ref/image.md) attached to an atom
 
 
@@ -76,7 +76,8 @@ this automatically nulls out any existing references to the object, so
 you don\'t end up with dangling references to a deleted object, which
 can otherwise be a great source of instability and mysterious bugs.
 
-**See also:**
-+   [del proc](/ref/proc/del.md) 
-+   [world](/ref/world.md) 
-+   [refcount proc](/ref/proc/refcount.md) 
+> [!TIP] 
+> **See also:**
+> +   [del proc](/ref/proc/del.md) 
+> +   [world](/ref/world.md) 
+> +   [refcount proc](/ref/proc/refcount.md) 

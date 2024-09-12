@@ -41,5 +41,6 @@ In cases of
 extreme memory duress, Dream Seeker\'s garbage collector will get more
 aggressive and can still override your choices if need be.
 
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->

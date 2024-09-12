@@ -64,9 +64,10 @@ having to specify the source scroll as long as the scroll exists in the
 user\'s inventory. In other words, the player types \"kill rat\" rather
 than \"kill kill rat\".
 
-**See also:**
-+   [arguments (verb)](/ref/verb/arguments.md) 
-+   [settings (verb)](/ref/verb/set.md) 
-+   [vars (verbs)](/ref/verb/var.md) 
-+   [src var (proc)](/ref/proc/var/src.md) 
-+   [usr var (proc)](/ref/proc/var/usr.md) 
+> [!TIP] 
+> **See also:**
+> +   [arguments (verb)](/ref/verb/arguments.md) 
+> +   [settings (verb)](/ref/verb/set.md) 
+> +   [vars (verbs)](/ref/verb/var.md) 
+> +   [src var (proc)](/ref/proc/var/src.md) 
+> +   [usr var (proc)](/ref/proc/var/usr.md) 

@@ -26,7 +26,8 @@ various ways.
 Pragmas will *not* be inherited by libraries included in your
 project.
 
-**See also:**
-+   [#define directive](/ref/DM/preprocessor/define.md) 
-+   [#include directive](/ref/DM/preprocessor/include.md) 
-+   [preprocessor](/ref/DM/preprocessor.md) 
+> [!TIP] 
+> **See also:**
+> +   [#define directive](/ref/DM/preprocessor/define.md) 
+> +   [#include directive](/ref/DM/preprocessor/include.md) 
+> +   [preprocessor](/ref/DM/preprocessor.md) 

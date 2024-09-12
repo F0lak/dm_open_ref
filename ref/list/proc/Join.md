@@ -17,5 +17,6 @@
 This is exactly the same as calling
 jointext(List,Glue,Start,End), and is provided for convenience.
 
-**See also:**
-+   [jointext proc](/ref/proc/jointext.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [jointext proc](/ref/proc/jointext.md) <!-- -->

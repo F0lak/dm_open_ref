@@ -14,6 +14,7 @@
 Calculate the position of a step from `Ref` in the direction of
 `Trg`.
 
-**See also:**
-+   [step_towards proc](/ref/proc/step_towards.md) 
-+   [walk_towards proc](/ref/proc/walk_towards.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [step_towards proc](/ref/proc/step_towards.md) 
+> +   [walk_towards proc](/ref/proc/walk_towards.md) <!-- -->

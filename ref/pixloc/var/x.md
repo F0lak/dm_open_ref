@@ -10,7 +10,8 @@ pixel on the eastern edge of the map.
 Setting x will alter the
 loc and step_x values automatically. Out-of-bounds values are allowed.
 
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [y var (pixloc)](/ref/pixloc/var/y.md) 
-+   [z var (pixloc)](/ref/pixloc/var/z.md) 
+> [!TIP] 
+> **See also:**
+> +   [pixloc](/ref/pixloc.md) 
+> +   [y var (pixloc)](/ref/pixloc/var/y.md) 
+> +   [z var (pixloc)](/ref/pixloc/var/z.md) 

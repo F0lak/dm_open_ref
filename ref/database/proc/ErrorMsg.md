@@ -7,7 +7,8 @@
 
 Returns the error message last received by the database.
 
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [Error proc (database)](/ref/database/proc/Error.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [database datum](/ref/database.md) 
+> +   [database query datum](/ref/database/query.md) 
+> +   [Error proc (database)](/ref/database/proc/Error.md) <!-- -->

@@ -15,7 +15,8 @@ itself a list, each item contained in it will be removed. Removal starts
 at the end of the list (highest index) so that this operation is an
 exact reversal of Add().
 
-**See also:**
-+   [- operator](/ref/operator/-.md) 
-+   [Add proc (list)](/ref/list/proc/Add.md) 
-+   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [- operator](/ref/operator/-.md) 
+> +   [Add proc (list)](/ref/list/proc/Add.md) 
+> +   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->

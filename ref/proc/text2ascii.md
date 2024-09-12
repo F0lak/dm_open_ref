@@ -44,7 +44,8 @@ determine the byte count from this table:
 Alternatively, you can use `test2ascii_char()` to work with
 character positions instead of bytes, at a performance cost.
 
-**See also:**
-+   [ascii2text proc](/ref/proc/ascii2text.md) 
-+   [entities (text)](/ref/DM/text/entities.md) 
-+   [Unicode](/ref/%7Bnotes%7D/Unicode.md) 
+> [!TIP] 
+> **See also:**
+> +   [ascii2text proc](/ref/proc/ascii2text.md) 
+> +   [entities (text)](/ref/DM/text/entities.md) 
+> +   [Unicode](/ref/%7Bnotes%7D/Unicode.md) 

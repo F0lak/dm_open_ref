@@ -30,5 +30,6 @@ feel better.\"
 ```
 
 
-**See also:**
-+   [rand proc](/ref/proc/rand.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [rand proc](/ref/proc/rand.md) <!-- -->

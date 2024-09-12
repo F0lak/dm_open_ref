@@ -29,5 +29,6 @@ executed by a web server. It puts its error output in the file
 All of this is configured for you
 when you include `html/CGI.dm` from the html library.
 
-**See also:**
-+   [startup proc](/ref/proc/startup.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [startup proc](/ref/proc/startup.md) <!-- -->

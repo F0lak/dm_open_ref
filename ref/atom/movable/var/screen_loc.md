@@ -111,9 +111,10 @@ items, you should not use the full `window.control` ID, just the
 [id](/ref/%7Bskin%7D/param/id.md) of the control itself. Map controls
 should always have a unique `id`.
 
-**See also:**
-+   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [screen var (client)](/ref/client/var/screen.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
+> [!TIP] 
+> **See also:**
+> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> +   [layer var (atom)](/ref/atom/var/layer.md) 
+> +   [screen var (client)](/ref/client/var/screen.md) 
+> +   [view var (client)](/ref/client/var/view.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 

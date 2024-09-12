@@ -12,7 +12,8 @@ width of 24 bits.
 
 Bits shifted below the 24 low bits are lost.
 
-**See also:**
-+   [\>\>= operator](/ref/operator/%3e%3e=.md) 
-+   [\<\< shift operator](/ref/operator/%3c%3c/shift.md) 
-+   [operators](/ref/operator.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\>\>= operator](/ref/operator/%3e%3e=.md) 
+> +   [\<\< shift operator](/ref/operator/%3c%3c/shift.md) 
+> +   [operators](/ref/operator.md) <!-- -->

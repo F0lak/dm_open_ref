@@ -83,7 +83,8 @@ MapColors(-1,0,0, 0,-1,0, 0,0,-1, 1,1,1)
 The longer formats of MapColors() will allow you to also change
 alpha colors.
 
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [rgb proc](/ref/proc/rgb.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) 
+> +   [rgb proc](/ref/proc/rgb.md) <!-- -->

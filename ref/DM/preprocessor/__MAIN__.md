@@ -25,5 +25,6 @@ project. Small demos, however, are nice and convenient using this
 launches Dream Maker after installing a library containing a `.dme`
 file.
 
-**See also:**
-+   [preprocessor](/ref/DM/preprocessor.md) 
+> [!TIP] 
+> **See also:**
+> +   [preprocessor](/ref/DM/preprocessor.md) 

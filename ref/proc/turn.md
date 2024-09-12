@@ -31,7 +31,8 @@ angle is used, it will be treated as the closest multiple of 45 to 0.
 If the supplied Dir is invalid, such as 0, or something like UP
 or DOWN, the result is a random direction unless the angle is also 0.
 
-**See also:**
-+   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
-+   [dir var (atom)](/ref/atom/var/dir.md) 
-+   [Turn proc (vector)](/ref/vector/proc/Turn.md) 
+> [!TIP] 
+> **See also:**
+> +   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
+> +   [dir var (atom)](/ref/atom/var/dir.md) 
+> +   [Turn proc (vector)](/ref/vector/proc/Turn.md) 

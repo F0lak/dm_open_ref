@@ -37,15 +37,16 @@ Swapping obviously only works in situations where a mob takes up a whole
 tile and only moves by tiles; for all other situations, allowing an
 overlap makes more sense.
 
-**See also:**
-+   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-+   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-+   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-+   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-+   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [group var (mob)](/ref/mob/var/group.md) 
-+   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+> [!TIP] 
+> **See also:**
+> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
+> +   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
+> +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
+> +   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
+> +   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
+> +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
+> +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
+> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
+> +   [group var (mob)](/ref/mob/var/group.md) 
+> +   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
+> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 

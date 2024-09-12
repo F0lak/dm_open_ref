@@ -39,6 +39,7 @@ Filters can also be given a `name` argument, and can be
 referred to in an atom\'s `filters` list via that name (e.g. as
 `filters["shadow"]`) instead of a numeric index.
 
-**See also:**
-+   [filters var (atom)](/ref/atom/var/filters.md) 
-+   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
+> [!TIP] 
+> **See also:**
+> +   [filters var (atom)](/ref/atom/var/filters.md) 
+> +   [Filter effects](/ref/%7Bnotes%7D/filters.md) 

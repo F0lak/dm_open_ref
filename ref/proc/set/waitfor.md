@@ -29,7 +29,8 @@ versions, the [`New` proc](/ref/datum/proc/New.md) always had `waitfor` set to
 so setting `waitfor` to 1 will result in a warning that it is no longer
 necessary.
 
-**See also:**
-+   [sleep proc](/ref/proc/sleep.md) 
-+   [spawn proc](/ref/proc/spawn.md) 
-+   [. var (proc)](/ref/proc/var/%2e.md) 
+> [!TIP] 
+> **See also:**
+> +   [sleep proc](/ref/proc/sleep.md) 
+> +   [spawn proc](/ref/proc/spawn.md) 
+> +   [. var (proc)](/ref/proc/var/%2e.md) 

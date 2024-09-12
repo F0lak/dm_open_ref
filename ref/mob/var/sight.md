@@ -44,10 +44,11 @@ them.
 The black tiles rendered by `SEE_BLACKNESS` and
 `SEE_PIXELS` are drawn on the default plane 0.
 
-**See also:**
-+   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
-+   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
-+   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
-+   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
-+   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
-+   [view proc](/ref/proc/view.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
+> +   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
+> +   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
+> +   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
+> +   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
+> +   [view proc](/ref/proc/view.md) <!-- -->

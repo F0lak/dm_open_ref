@@ -29,15 +29,16 @@ Screen objects (also called the HUD) cannot be intermixed with
 topdown icons. They will appear on top of other icons, unless using a
 lower plane or a special layer like `BACKGROUND_LAYER`.
 
-**See also:**
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [dir var (client)](/ref/client/var/dir.md) 
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [plane var (atom)](/ref/atom/var/plane.md) 
-+   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [HUD](/ref/%7Bnotes%7D/HUD.md) 
-+   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
-+   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> [!TIP] 
+> **See also:**
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [dir var (client)](/ref/client/var/dir.md) 
+> +   [layer var (atom)](/ref/atom/var/layer.md) 
+> +   [plane var (atom)](/ref/atom/var/plane.md) 
+> +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> +   [HUD](/ref/%7Bnotes%7D/HUD.md) 
+> +   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
+> +   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
+> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

@@ -45,7 +45,8 @@ world_y = (tile_y - 1) \* pixels_per_y_tile + step_y + 1
 ```
 
 
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-+   [bound_pixloc proc](/ref/proc/bound_pixloc.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [pixloc](/ref/pixloc.md) 
+> +   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
+> +   [bound_pixloc proc](/ref/proc/bound_pixloc.md) <!-- -->

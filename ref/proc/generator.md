@@ -53,10 +53,11 @@ and output it to world
 
 Note: Worlds compiled in older BYOND versions before [vector](/ref/vector.md) will return lists from vector generators.
 
-**See also:**
-+   [Generators](/ref/%7Bnotes%7D/generators.md) 
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
-+   [vector](/ref/vector.md) 
-+   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> [!TIP] 
+> **See also:**
+> +   [Generators](/ref/%7Bnotes%7D/generators.md) 
+> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> +   [color var (atom)](/ref/atom/var/color.md) 
+> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> +   [vector](/ref/vector.md) 
+> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 

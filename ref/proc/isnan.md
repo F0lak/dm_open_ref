@@ -20,6 +20,7 @@ is that type.
 NaN is never greater than, less than, or equal to
 another number, even itself.
 
-**See also:**
-+   [isnum proc](/ref/proc/isnum.md) 
-+   [isinf proc](/ref/proc/isinf.md) :   [Numbers](/%7Bnotes%7D/numbers)
+> [!TIP] 
+> **See also:**
+> +   [isnum proc](/ref/proc/isnum.md) 
+> +   [isinf proc](/ref/proc/isinf.md) :   [Numbers](/%7Bnotes%7D/numbers)

@@ -19,6 +19,7 @@ If this
 control is a pane and [can-scroll](/ref/%7Bskin%7D/param/can-scroll.md)
 is true, this is the size of the display area including the scrollbars.
 
-**See also:**
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
-+   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
+> [!TIP] 
+> **See also:**
+> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> +   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 

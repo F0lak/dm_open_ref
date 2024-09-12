@@ -35,8 +35,9 @@ This is identical to the ?. operator, except that ?. will check
 at compile time if the property is valid for the object type (if known).
 For this reason ?. is usually safer.
 
-**See also:**
-+   [. operator](/ref/operator/%2e.md) 
-+   [: operator](/ref/operator/:.md) 
-+   [?. operator](/ref/operator/%3f%2e.md) 
-+   [operators](/ref/operator.md) 
+> [!TIP] 
+> **See also:**
+> +   [. operator](/ref/operator/%2e.md) 
+> +   [: operator](/ref/operator/:.md) 
+> +   [?. operator](/ref/operator/%3f%2e.md) 
+> +   [operators](/ref/operator.md) 

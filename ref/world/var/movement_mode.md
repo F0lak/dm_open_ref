@@ -33,11 +33,12 @@ mob.Cross() is also affected, since it would return 0 by default in
 legacy mode when both mobs were dense; now by default it checks
 `mob.group`.
 
-**See also:**
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-+   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-+   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+> [!TIP] 
+> **See also:**
+> +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
+> +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
+> +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
+> +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
+> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+> +   [Gliding](/ref/%7Bnotes%7D/gliding.md) 

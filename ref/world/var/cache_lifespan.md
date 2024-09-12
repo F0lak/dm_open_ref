@@ -17,5 +17,6 @@ anyway.
 
 This value must be a whole number.
 
-**See also:**
-+   [cache](/ref/DM/cache.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [cache](/ref/DM/cache.md) <!-- -->

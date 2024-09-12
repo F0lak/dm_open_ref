@@ -13,5 +13,6 @@
 
 Opacity of the window, from 0 (invisible) to 255 (opaque).
 
-**See also:**
-+   [transparent-color parameter](/ref/%7Bskin%7D/param/transparent-color.md) 
+> [!TIP] 
+> **See also:**
+> +   [transparent-color parameter](/ref/%7Bskin%7D/param/transparent-color.md) 

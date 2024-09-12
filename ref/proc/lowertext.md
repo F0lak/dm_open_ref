@@ -18,5 +18,6 @@ Make all of the characters of T lowercase.
 ```
 
 
-**See also:**
-+   [uppertext proc](/ref/proc/uppertext.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [uppertext proc](/ref/proc/uppertext.md) <!-- -->

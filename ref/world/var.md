@@ -48,3 +48,5 @@ world/var
 +   [view](/ref/world/var/view.md) 
 +   [visibility](/ref/world/var/visibility.md) 
 
+> [!TIP] 
+> 

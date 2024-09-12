@@ -12,8 +12,9 @@
 
 This adds Matrix2 to the current matrix.
 
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [matrix operators](/ref/matrix/operators.md) 
-+   [matrix procs](/ref/matrix/proc.md) 
-+   [+= operator](/ref/operator/+=.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [matrix](/ref/matrix.md) 
+> +   [matrix operators](/ref/matrix/operators.md) 
+> +   [matrix procs](/ref/matrix/proc.md) 
+> +   [+= operator](/ref/operator/+=.md) <!-- -->

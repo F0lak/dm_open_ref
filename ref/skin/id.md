@@ -18,6 +18,7 @@ You can use a colon in front of the
 [type](/ref/%7Bskin%7D/param/type.md) to refer to the default control
 of a certain type, if one exists, e.g. `:map` is the default map.
 
-**See also:**
-+   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
-+   [type parameter](/ref/%7Bskin%7D/param/type.md) 
+> [!TIP] 
+> **See also:**
+> +   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
+> +   [type parameter](/ref/%7Bskin%7D/param/type.md) 

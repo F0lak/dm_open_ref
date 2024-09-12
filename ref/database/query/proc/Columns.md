@@ -16,9 +16,10 @@ name of the Nth column.
 You must call Execute() before calling
 Columns().
 
-**See also:**
-+   [database query datum](/ref/database/query.md) 
-+   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-+   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
-+   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-+   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [database query datum](/ref/database/query.md) 
+> +   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
+> +   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
+> +   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
+> +   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) <!-- -->

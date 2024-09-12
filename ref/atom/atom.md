@@ -13,12 +13,13 @@ objects for which verbs may be accessible to the user.
 derived from /datum, so it inherits the basic properties that are shared
 by all DM objects.
 
-**See also:**
-+   [area](/ref/area.md) 
-+   [datum](/ref/datum.md) 
-+   [mob](/ref/mob.md) 
-+   [movable atoms](/ref/atom/movable.md) 
-+   [obj](/ref/obj.md) 
-+   [procs (atom)](/ref/atom/proc.md) 
-+   [turf](/ref/turf.md) 
-+   [vars (atom)](/ref/atom/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [area](/ref/area.md) 
+> +   [datum](/ref/datum.md) 
+> +   [mob](/ref/mob.md) 
+> +   [movable atoms](/ref/atom/movable.md) 
+> +   [obj](/ref/obj.md) 
+> +   [procs (atom)](/ref/atom/proc.md) 
+> +   [turf](/ref/turf.md) 
+> +   [vars (atom)](/ref/atom/var.md) 

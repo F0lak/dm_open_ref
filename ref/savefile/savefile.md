@@ -49,14 +49,15 @@ If a resource cache is specified, a temporary file will be created and
 the contents of the cached file will be copied into it. Changes will
 therefore only be temporary.
 
-**See also:**
-+   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
-+   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
-+   [Export proc (client)](/ref/client/proc/Export.md) 
-+   [New proc (client)](/ref/client/proc/New.md) 
-+   [procs (savefile)](/ref/savefile/proc.md) 
-+   [vars (savefile)](/ref/savefile/var.md) 
-+   [tmp vars](/ref/var/tmp.md) 
-+   [issaved proc](/ref/proc/issaved.md) 
-+   [Read proc (datum)](/ref/datum/proc/Read.md) 
-+   [Write proc (datum)](/ref/datum/proc/Write.md) 
+> [!TIP] 
+> **See also:**
+> +   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
+> +   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+> +   [Export proc (client)](/ref/client/proc/Export.md) 
+> +   [New proc (client)](/ref/client/proc/New.md) 
+> +   [procs (savefile)](/ref/savefile/proc.md) 
+> +   [vars (savefile)](/ref/savefile/var.md) 
+> +   [tmp vars](/ref/var/tmp.md) 
+> +   [issaved proc](/ref/proc/issaved.md) 
+> +   [Read proc (datum)](/ref/datum/proc/Read.md) 
+> +   [Write proc (datum)](/ref/datum/proc/Write.md) 

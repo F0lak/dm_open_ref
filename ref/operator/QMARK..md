@@ -39,8 +39,9 @@ time if the property is available, use the ?: operator instead.
 If ?. is used after a proc call, a list lookup, or a complex
 expression where the type can\'t be known, it will act like ?: instead.
 
-**See also:**
-+   [. operator](/ref/operator/%2e.md) 
-+   [: operator](/ref/operator/:.md) 
-+   [?: operator](/ref/operator/%3f:.md) 
-+   [operators](/ref/operator.md) 
+> [!TIP] 
+> **See also:**
+> +   [. operator](/ref/operator/%2e.md) 
+> +   [: operator](/ref/operator/:.md) 
+> +   [?: operator](/ref/operator/%3f:.md) 
+> +   [operators](/ref/operator.md) 

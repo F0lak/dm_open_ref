@@ -23,5 +23,6 @@ return 0 return 1
 ```
 
 
-**See also:**
-+   [input proc](/ref/proc/input.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [input proc](/ref/proc/input.md) <!-- -->

@@ -19,8 +19,9 @@ obj type `/obj/scooper`.
 ```
 
 
-**See also:**
-+   [atom](/ref/atom.md) 
-+   [movable atoms](/ref/atom/movable.md) 
-+   [procs (obj)](/ref/obj/proc.md) 
-+   [vars (obj)](/ref/obj/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [atom](/ref/atom.md) 
+> +   [movable atoms](/ref/atom/movable.md) 
+> +   [procs (obj)](/ref/obj/proc.md) 
+> +   [vars (obj)](/ref/obj/var.md) 

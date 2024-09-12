@@ -26,5 +26,6 @@ instruction exists primarily for backwards-compatibility. You can
 accomplish the same thing with the + operator or by using embedded
 expressions.
 
-**See also:**
-+   [+ operator](/ref/operator/+.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [+ operator](/ref/operator/+.md) <!-- -->

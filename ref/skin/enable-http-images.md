@@ -14,6 +14,7 @@
 Allows images to be pulled from the Web when using the `<img>`
 tag; otherwise only locally stored images can be shown.
 
-**See also:**
-+   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) 
-+   [style parameter](/ref/%7Bskin%7D/param/style.md) 
+> [!TIP] 
+> **See also:**
+> +   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) 
+> +   [style parameter](/ref/%7Bskin%7D/param/style.md) 

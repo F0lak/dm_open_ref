@@ -41,9 +41,10 @@ and character position are not the same thing. Use `copytext_char()` to
 work with character counts instead of bytes, at a performance cost. See
 the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.
 
-**See also:**
-+   [splicetext proc](/ref/proc/splicetext.md) 
-+   [findtext proc](/ref/proc/findtext.md) 
-+   [splittext proc](/ref/proc/splittext.md) 
-+   [trimtext proc](/ref/proc/trimtext.md) 
-+   [Copy proc (list)](/ref/list/proc/Copy.md) 
+> [!TIP] 
+> **See also:**
+> +   [splicetext proc](/ref/proc/splicetext.md) 
+> +   [findtext proc](/ref/proc/findtext.md) 
+> +   [splittext proc](/ref/proc/splittext.md) 
+> +   [trimtext proc](/ref/proc/trimtext.md) 
+> +   [Copy proc (list)](/ref/list/proc/Copy.md) 

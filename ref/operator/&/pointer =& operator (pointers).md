@@ -57,7 +57,8 @@ where one keeps running and a copy is scheduled to run later. If any
 pointers to proc vars were created, they belong to the original proc
 (the one that keeps running), not to the fork.
 
-**See also:**
-+   [\* operator (pointers)](/ref/operator/*/prefix.md) 
-+   [operators](/ref/operator.md) 
-+   [ispointer proc](/ref/proc/ispointer.md) 
+> [!TIP] 
+> **See also:**
+> +   [\* operator (pointers)](/ref/operator/*/prefix.md) 
+> +   [operators](/ref/operator.md) 
+> +   [ispointer proc](/ref/proc/ispointer.md) 

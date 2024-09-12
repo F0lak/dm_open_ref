@@ -23,12 +23,13 @@ If loc is not a turf, it
 will be the only item in the locs list. If loc is null, locs will be
 empty.
 
-**See also:**
-+   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-+   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
-+   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-+   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-+   [loc var (atom)](/ref/atom/var/loc.md) 
-+   [contents list var (atom)](/ref/atom/var/contents.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+> +   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
+> +   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+> +   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+> +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+> +   [loc var (atom)](/ref/atom/var/loc.md) 
+> +   [contents list var (atom)](/ref/atom/var/contents.md) <!-- -->

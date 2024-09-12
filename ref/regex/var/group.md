@@ -14,8 +14,9 @@ this pattern in \"BYOND\"
  The result of the example is that
 R.group is list(\"Y\",\"O\",\"N\").
 
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [Find proc (regex)](/ref/regex/proc/Find.md) 
-+   [index var (regex)](/ref/regex/var/index.md) 
-+   [match var (regex)](/ref/regex/var/match.md) 
+> [!TIP] 
+> **See also:**
+> +   [regex datum](/ref/regex.md) 
+> +   [Find proc (regex)](/ref/regex/proc/Find.md) 
+> +   [index var (regex)](/ref/regex/var/index.md) 
+> +   [match var (regex)](/ref/regex/var/match.md) 

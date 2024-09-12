@@ -26,7 +26,8 @@ This can be used for very
 complex distortion, unlike other distortion filters such as wave and
 ripple that are confined to specific equations.
 
-**See also:**
-+   [Alpha mask (filters)](/ref/%7Bnotes%7D/filters/alpha.md) 
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [render_target var (atom)](/ref/atom/var/render_target.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Alpha mask (filters)](/ref/%7Bnotes%7D/filters/alpha.md) 
+> +   [icon var (atom)](/ref/atom/var/icon.md) 
+> +   [render_target var (atom)](/ref/atom/var/render_target.md) <!-- -->

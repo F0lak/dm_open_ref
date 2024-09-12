@@ -67,9 +67,10 @@ the Clients argument is used, it accepts a client that is currently
 loggedin, a mob belonging to such a client, or a list of any of these.
 The remote server will receive a list of their keys in world.Topic().
 
-**See also:**
-+   [Export proc (client)](/ref/client/proc/Export.md) 
-+   [Import proc (world)](/ref/world/proc/Import.md) 
-+   [Topic proc (world)](/ref/world/proc/Topic.md) 
-+   [link proc](/ref/proc/link.md) 
-+   [shutdown proc](/ref/proc/shutdown.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Export proc (client)](/ref/client/proc/Export.md) 
+> +   [Import proc (world)](/ref/world/proc/Import.md) 
+> +   [Topic proc (world)](/ref/world/proc/Topic.md) 
+> +   [link proc](/ref/proc/link.md) 
+> +   [shutdown proc](/ref/proc/shutdown.md) <!-- -->

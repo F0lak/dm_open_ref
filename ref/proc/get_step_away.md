@@ -17,6 +17,7 @@ Calculate position of a step from `Ref` on a path away from
 `Trg`, taking obstacles into account. If `Ref` is farther than `Max`
 steps from `Trg`, 0 will be returned.
 
-**See also:**
-+   [step_away proc](/ref/proc/step_away.md) 
-+   [walk_away proc](/ref/proc/walk_away.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [step_away proc](/ref/proc/step_away.md) 
+> +   [walk_away proc](/ref/proc/walk_away.md) <!-- -->

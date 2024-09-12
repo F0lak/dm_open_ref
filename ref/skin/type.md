@@ -11,6 +11,7 @@
 
 The type of this control. Read-only.
 
-**See also:**
-+   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-+   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
+> [!TIP] 
+> **See also:**
+> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+> +   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 

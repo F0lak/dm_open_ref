@@ -26,6 +26,7 @@ For Label and Main, use
 [image-mode](/ref/%7Bskin%7D/param/image-mode.md) to control how the
 image is displayed.
 
-**See also:**
-+   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 
-+   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 
+> [!TIP] 
+> **See also:**
+> +   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 
+> +   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 

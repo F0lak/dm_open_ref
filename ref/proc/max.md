@@ -27,6 +27,7 @@ If the compared
 items are objects such as pixlocs or vectors, the result is a new
 object, not one of the objects that was compared.
 
-**See also:**
-+   [min proc](/ref/proc/min.md) 
-+   [clamp proc](/ref/proc/clamp.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [min proc](/ref/proc/min.md) 
+> +   [clamp proc](/ref/proc/clamp.md) <!-- -->

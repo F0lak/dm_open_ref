@@ -19,5 +19,6 @@ list of every area in existence. As a convenient short-hand, one may
 simply write for(A) or for(A in world) instead of the full for(A in
 world.contents).
 
-**See also:**
-+   [list](/ref/list.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) <!-- -->

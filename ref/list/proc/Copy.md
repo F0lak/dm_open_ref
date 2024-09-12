@@ -16,5 +16,6 @@ Copy list\[Start\] through list\[End-1\] into a new list. The
 default end position of 0 stands for the position immediately after the
 end of the list, so by default the entire list is copied.
 
-**See also:**
-+   [Cut proc (list)](/ref/list/proc/Cut.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Cut proc (list)](/ref/list/proc/Cut.md) <!-- -->

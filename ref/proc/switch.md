@@ -69,6 +69,7 @@ Multiple cases can be put together with either commas between
 the values, or separate `case` statements. The *`A`*` to `*`B`* syntax
 is still allowed also.
 
-**See also:**
-+   [if proc](/ref/proc/if.md) 
-+   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) 
+> [!TIP] 
+> **See also:**
+> +   [if proc](/ref/proc/if.md) 
+> +   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) 

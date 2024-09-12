@@ -118,10 +118,11 @@ beyond help!\", \"help.browser\")
 ```
 
 
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [browse_rsc proc](/ref/proc/browse_rsc.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [link proc](/ref/proc/link.md) 
-+   [run proc](/ref/proc/run.md) 
-+   [output proc](/ref/proc/output.md) 
+> [!TIP] 
+> **See also:**
+> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [browse_rsc proc](/ref/proc/browse_rsc.md) 
+> +   [file proc](/ref/proc/file.md) 
+> +   [link proc](/ref/proc/link.md) 
+> +   [run proc](/ref/proc/run.md) 
+> +   [output proc](/ref/proc/output.md) 

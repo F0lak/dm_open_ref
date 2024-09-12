@@ -14,5 +14,6 @@ For areas that are on the map, this is the coordinate
 of the turf with the lowest z, y, and x coordinate (in that order) that
 is contained by the area.
 
-**See also:**
-+   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->

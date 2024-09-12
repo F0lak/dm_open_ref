@@ -10,9 +10,10 @@ position.
 Replace() on a non-global pattern will store the text
 *after* replacement here.
 
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [Find proc (regex)](/ref/regex/proc/Find.md) 
-+   [index var (regex)](/ref/regex/var/index.md) 
-+   [match var (regex)](/ref/regex/var/match.md) 
-+   [next var (regex)](/ref/regex/var/next.md) 
+> [!TIP] 
+> **See also:**
+> +   [regex datum](/ref/regex.md) 
+> +   [Find proc (regex)](/ref/regex/proc/Find.md) 
+> +   [index var (regex)](/ref/regex/var/index.md) 
+> +   [match var (regex)](/ref/regex/var/match.md) 
+> +   [next var (regex)](/ref/regex/var/next.md) 

@@ -27,8 +27,9 @@ display its description.
 ```
 
 
-**See also:**
-+   [atom](/ref/atom.md) 
-+   [procs (area)](/ref/area/proc.md) 
-+   [rooms](/ref/area/room.md) 
-+   [vars (area)](/ref/area/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [atom](/ref/atom.md) 
+> +   [procs (area)](/ref/area/proc.md) 
+> +   [rooms](/ref/area/room.md) 
+> +   [vars (area)](/ref/area/var.md) 

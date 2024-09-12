@@ -26,9 +26,10 @@ Exited(mob/M) if(ismob(M) && M.client) M.client.edge_limit = null
 ```
 
 
-**See also:**
-+   [eye var (client)](/ref/client/var/eye.md) 
-+   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
-+   [perspective var (client)](/ref/client/var/perspective.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [eye var (client)](/ref/client/var/eye.md) 
+> +   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
+> +   [perspective var (client)](/ref/client/var/perspective.md) 
+> +   [view var (client)](/ref/client/var/view.md) 
+> +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) <!-- -->

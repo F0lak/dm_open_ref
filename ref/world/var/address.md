@@ -16,7 +16,8 @@ only. If the world is hosted via a router, the external IP address may
 be different. Use `internet_address` to find the external address, if
 available.
 
-**See also:**
-+   [port var (world)](/ref/world/var/port.md) 
-+   [url var (world)](/ref/world/var/url.md) 
-+   [internet_address var (world)](/ref/world/var/internet_address.md) 
+> [!TIP] 
+> **See also:**
+> +   [port var (world)](/ref/world/var/port.md) 
+> +   [url var (world)](/ref/world/var/url.md) 
+> +   [internet_address var (world)](/ref/world/var/internet_address.md) 

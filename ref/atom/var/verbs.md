@@ -22,6 +22,7 @@ verbs += /mob/proc/kazaam mob/verb/remove_kazaam() verbs -=
 ```
 
 
-**See also:**
-+   [list](/ref/list.md) 
-+   [typesof proc](/ref/proc/typesof.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) 
+> +   [typesof proc](/ref/proc/typesof.md) <!-- -->

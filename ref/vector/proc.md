@@ -11,7 +11,8 @@ vector/proc
 +   [Normalize](/ref/vector/proc/Normalize.md) 
 +   [Turn](/ref/vector/proc/Turn.md) 
 
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) 
-+   [vars (vector)](/ref/vector/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [vector](/ref/vector.md) 
+> +   [vector proc](/ref/proc/vector.md) 
+> +   [vars (vector)](/ref/vector/var.md) 

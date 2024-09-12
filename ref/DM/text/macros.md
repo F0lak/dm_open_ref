@@ -46,7 +46,8 @@ from causing proper-noun behavior
 ```
 
 
-**See also:**
-+   [icon text macro](/ref/DM/text/macros/icon.md) 
-+   [text](/ref/DM/text.md) 
-+   [text proc](/ref/proc/text.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon text macro](/ref/DM/text/macros/icon.md) 
+> +   [text](/ref/DM/text.md) 
+> +   [text proc](/ref/proc/text.md) 

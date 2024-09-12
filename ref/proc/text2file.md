@@ -26,6 +26,7 @@ file2text(\"oracle.out\")
 ```
 
 
-**See also:**
-+   [file2text proc](/ref/proc/file2text.md) 
-+   [shell proc](/ref/proc/shell.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [file2text proc](/ref/proc/file2text.md) 
+> +   [shell proc](/ref/proc/shell.md) <!-- -->

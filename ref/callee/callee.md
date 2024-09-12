@@ -9,8 +9,8 @@ stack trace in situations such as writing your own custom
 `world.Error()` handler. 
 
 You can get a `/callee` for the
-current running proc with its [callee](/ref/proc/var/callee.md) {.code} var, or
-its caller with the [caller](/ref/proc/var/caller.md) {.code} var. You can
+current running proc with its [callee](/ref/proc/var/callee.md)  var, or
+its caller with the [caller](/ref/proc/var/caller.md)  var. You can
 follow callers up the call chain.
 ### Example:
 
@@ -49,10 +49,11 @@ Even though the `args` var itself is read-only, the
 list it returns is mutable. Making changes to the list will affect the
 proc it belongs to.
 
-**See also:**
-+   [proc](/ref/proc.md) 
-+   [vars (proc)](/ref/proc/var.md) 
-+   [callee var (proc)](/ref/proc/var/callee.md) 
-+   [caller var (proc)](/ref/proc/var/caller.md) 
-+   [Error proc (world)](/ref/world/proc/Error.md) 
-+   [try and catch statements](/ref/proc/try.md) 
+> [!TIP] 
+> **See also:**
+> +   [proc](/ref/proc.md) 
+> +   [vars (proc)](/ref/proc/var.md) 
+> +   [callee var (proc)](/ref/proc/var/callee.md) 
+> +   [caller var (proc)](/ref/proc/var/caller.md) 
+> +   [Error proc (world)](/ref/world/proc/Error.md) 
+> +   [try and catch statements](/ref/proc/try.md) 

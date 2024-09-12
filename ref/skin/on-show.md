@@ -16,5 +16,6 @@ it.
 
 Currently not editable in Dream Maker.
 
-**See also:**
-+   [on-hide parameter](/ref/%7Bskin%7D/param/on-hide.md) 
+> [!TIP] 
+> **See also:**
+> +   [on-hide parameter](/ref/%7Bskin%7D/param/on-hide.md) 

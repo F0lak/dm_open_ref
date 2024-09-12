@@ -20,8 +20,9 @@ clutter up the verb list, while still making them relatively easy to
 use. If you think this is a random quirky feature, you are right. To put
 \".\" in front of the name, use the [name setting](/ref/verb/set/name.md) 
 
-**See also:**
-+   [category setting (verb)](/ref/verb/set/category.md) 
-+   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
-+   [name setting (verb)](/ref/verb/set/name.md) 
-+   [popup_menu setting (verb)](/ref/verb/set/popup_menu.md) 
+> [!TIP] 
+> **See also:**
+> +   [category setting (verb)](/ref/verb/set/category.md) 
+> +   [invisibility setting (verb)](/ref/verb/set/invisibility.md) 
+> +   [name setting (verb)](/ref/verb/set/name.md) 
+> +   [popup_menu setting (verb)](/ref/verb/set/popup_menu.md) 

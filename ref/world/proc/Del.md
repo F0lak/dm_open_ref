@@ -23,6 +23,7 @@ timeout is applied to any sleeping operations such as `sleep`,
 timeout, `world/Del()` is aborted. Currently, this timeout is set at 30
 seconds.
 
-**See also:**
-+   [Del proc (datum)](/ref/datum/proc/Del.md) 
-+   [shutdown proc](/ref/proc/shutdown.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Del proc (datum)](/ref/datum/proc/Del.md) 
+> +   [shutdown proc](/ref/proc/shutdown.md) <!-- -->

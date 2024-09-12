@@ -33,7 +33,8 @@ is technically a descendant of `/image`, but this is only for
 convenience, and should not be relied on for any other purpose as it is
 subject to change in future versions.
 
-**See also:**
-+   [appearance var (atom)](/ref/atom/var/appearance.md) 
-+   [image objects](/ref/image.md) 
-+   [vars (mutable appearance)](/ref/mutable_appearance/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [appearance var (atom)](/ref/atom/var/appearance.md) 
+> +   [image objects](/ref/image.md) 
+> +   [vars (mutable appearance)](/ref/mutable_appearance/var.md) 

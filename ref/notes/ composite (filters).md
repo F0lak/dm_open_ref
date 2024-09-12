@@ -42,6 +42,7 @@ Note: Like most other filters, this filter is **not** taken
 into account for mouse-hit purposes. Any layered icons will be strictly
 visual.
 
-**See also:**
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [render_target var (atom)](/ref/atom/var/render_target.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon var (atom)](/ref/atom/var/icon.md) 
+> +   [render_target var (atom)](/ref/atom/var/render_target.md) 

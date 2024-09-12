@@ -11,5 +11,6 @@ null).
 Setting a mob\'s client connects that player\'s client
 to the mob.
 
-**See also:**
-+   [client](/ref/client.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [client](/ref/client.md) <!-- -->

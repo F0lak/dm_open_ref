@@ -13,6 +13,7 @@
 
 If no address is specified, the current world is shut down.
 
-**See also:**
-+   [Export proc (world)](/ref/world/proc/Export.md) 
-+   [startup proc](/ref/proc/startup.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Export proc (world)](/ref/world/proc/Export.md) 
+> +   [startup proc](/ref/proc/startup.md) <!-- -->

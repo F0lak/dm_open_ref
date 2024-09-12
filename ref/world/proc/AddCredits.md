@@ -37,6 +37,7 @@ these as extra arguments, but this is not recommended for security
 reasons. If you use this feature, it should only be on games that cannot
 be downloaded by the public.
 
-**See also:**
-+   [GetCredits proc (world)](/ref/world/proc/GetCredits.md) 
-+   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [GetCredits proc (world)](/ref/world/proc/GetCredits.md) 
+> +   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) <!-- -->

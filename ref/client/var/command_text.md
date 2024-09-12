@@ -5,7 +5,7 @@
 **Default value:**
 +   null
 Note: In BYOND 4.0 this var is deprecated. The
-[command](/ref/%7Bskin%7D/param/command.md) {.code} parameter for an [Input
+[command](/ref/%7Bskin%7D/param/command.md)  parameter for an [Input
 control](/ref/%7Bskin%7D/control/input.md)  can be set to `!command` (`!` in
 front of your default command) which does the same thing. 
 
@@ -44,10 +44,11 @@ This example uses the `command_text` input type, which accepts
 raw text, with no quoting, escaping, or translating, so that you can
 invent whatever syntax you want.
 
-**See also:**
-+   [arguments (verb)](/ref/verb/arguments.md) 
-+   [command parameter](/ref/%7Bskin%7D/param/command.md) 
-+   [macros (client script)](/ref/client/var/script/macro.md) 
-+   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) 
-+   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) 
-+   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+> [!TIP] 
+> **See also:**
+> +   [arguments (verb)](/ref/verb/arguments.md) 
+> +   [command parameter](/ref/%7Bskin%7D/param/command.md) 
+> +   [macros (client script)](/ref/client/var/script/macro.md) 
+> +   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) 
+> +   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) 
+> +   [macros (skin)](/ref/%7Bskin%7D/macros.md) 

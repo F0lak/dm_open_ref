@@ -36,13 +36,14 @@ return 0. In games using pixel movement, Uncross() is usually called
 separately, but this allows projects using tile-based movement instead
 to benefit from Cross() and Uncross().
 
-**See also:**
-+   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-+   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-+   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-+   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-+   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
+> [!TIP] 
+> **See also:**
+> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
+> +   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
+> +   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
+> +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
+> +   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
+> +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
+> +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
+> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
+> +   [movement_mode var (world)](/ref/world/var/movement_mode.md) 

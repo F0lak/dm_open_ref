@@ -35,8 +35,9 @@ the mob may see his own inventory, but you don\'t have to worry about
 that unless you change client.statobj to something other than one\'s own
 mob.
 
-**See also:**
-+   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
-+   [Stat proc (client)](/ref/client/proc/Stat.md) 
-+   [statpanel proc](/ref/proc/statpanel.md) 
-+   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
+> +   [Stat proc (client)](/ref/client/proc/Stat.md) 
+> +   [statpanel proc](/ref/proc/statpanel.md) 
+> +   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->

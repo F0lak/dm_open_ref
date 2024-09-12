@@ -57,11 +57,12 @@ that for the above example to work, you **must** make proper use of the
 this can end up sucking large portions of your world into each player
 savefile, which can have all sorts of unexpected consequences!
 
-**See also:**
-+   [Export proc (client)](/ref/client/proc/Export.md) 
-+   [Import proc (client)](/ref/client/proc/Import.md) 
-+   [Login proc (mob)](/ref/mob/proc/Login.md) 
-+   [New proc (datum)](/ref/datum/proc/New.md) 
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [mob var (world)](/ref/world/var/mob.md) 
-+   [savefile](/ref/savefile.md) 
+> [!TIP] 
+> **See also:**
+> +   [Export proc (client)](/ref/client/proc/Export.md) 
+> +   [Import proc (client)](/ref/client/proc/Import.md) 
+> +   [Login proc (mob)](/ref/mob/proc/Login.md) 
+> +   [New proc (datum)](/ref/datum/proc/New.md) 
+> +   [Topic proc (client)](/ref/client/proc/Topic.md) 
+> +   [mob var (world)](/ref/world/var/mob.md) 
+> +   [savefile](/ref/savefile.md) 

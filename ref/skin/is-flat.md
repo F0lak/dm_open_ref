@@ -13,5 +13,6 @@
 Gives this button a flat appearance instead of pseudo-3D
 highlights.
 
-**See also:**
-+   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) 
+> [!TIP] 
+> **See also:**
+> +   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) 

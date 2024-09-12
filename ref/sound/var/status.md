@@ -41,6 +41,7 @@ again from the beginning.
 Some of the flags for this value may
 be filled in by the `SoundQuery` proc.
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) 
+> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->

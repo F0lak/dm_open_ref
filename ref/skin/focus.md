@@ -15,10 +15,11 @@ This parameter is true if this control currently has focus.
 
 
 This is also a special read-only global parameter. Calling
-[winget()](/ref/proc/winget.md) {.code} with no `id` and `focus` as the
+[winget()](/ref/proc/winget.md)  with no `id` and `focus` as the
 parameter will return the [id](/ref/%7Bskin%7D/param/id.md) of the
 currently focused control, if any.
 
-**See also:**
-+   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-+   [winget proc](/ref/proc/winget.md) 
+> [!TIP] 
+> **See also:**
+> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+> +   [winget proc](/ref/proc/winget.md) 

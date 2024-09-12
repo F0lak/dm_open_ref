@@ -34,5 +34,6 @@ escaped.
 ```
 
 
-**See also:**
-+   [url_decode proc](/ref/proc/url_decode.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [url_decode proc](/ref/proc/url_decode.md) <!-- -->

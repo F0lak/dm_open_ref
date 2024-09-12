@@ -21,3 +21,5 @@ keys are remapped so that a player with client.dir = SOUTH hitting the
 up arrow will generate a call to client.South() rather than the usual
 client.North().
 
+> [!TIP] 
+> 

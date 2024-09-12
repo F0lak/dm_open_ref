@@ -20,6 +20,7 @@ The assignment operators will modify an existing
 matrix, and can also be used directly with atom.transform. Other
 operators will create a new matrix.
 
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [matrix procs](/ref/matrix/proc.md) 
+> [!TIP] 
+> **See also:**
+> +   [matrix](/ref/matrix.md) 
+> +   [matrix procs](/ref/matrix/proc.md) 

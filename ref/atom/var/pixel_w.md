@@ -23,5 +23,6 @@ This effect is purely visual and
 does not influence such things as movement bumping or view() range
 calculations.
 
-**See also:**
-+   [animate_movement var (movable
+> [!TIP] 
+> **See also:**
+> +   [animate_movement var (movable

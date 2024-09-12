@@ -33,6 +33,7 @@ Not all info about the sounds is retrieved, such as `volume`,
 keep track of them in your code. The main purpose of `SoundQuery()` is
 to ascertain the current status of playing sounds.
 
-**See also:**
-+   [/sound datum](/ref/sound.md) 
-+   [sound proc](/ref/proc/sound.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [/sound datum](/ref/sound.md) 
+> +   [sound proc](/ref/proc/sound.md) <!-- -->

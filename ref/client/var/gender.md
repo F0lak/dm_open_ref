@@ -12,8 +12,9 @@ to \"it\", \"he\", \"she\", or \"they\". Valid values are:
 ```
 
 
-**See also:**
-+   [New proc (client)](/ref/client/proc/New.md) 
-+   [gender var (atom)](/ref/atom/var/gender.md) 
-+   [key var (client)](/ref/client/var/key.md) 
-+   [macros (text)](/ref/DM/text/macros.md) 
+> [!TIP] 
+> **See also:**
+> +   [New proc (client)](/ref/client/proc/New.md) 
+> +   [gender var (atom)](/ref/atom/var/gender.md) 
+> +   [key var (client)](/ref/client/var/key.md) 
+> +   [macros (text)](/ref/DM/text/macros.md) 

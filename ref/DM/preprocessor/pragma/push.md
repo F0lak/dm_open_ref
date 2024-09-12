@@ -17,6 +17,7 @@ used #pragma pop
 ```
 
 
-**See also:**
-+   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-+   [#pragma warn/ignore/error directive](/ref/DM/preprocessor/pragma/warn.md) 
+> [!TIP] 
+> **See also:**
+> +   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
+> +   [#pragma warn/ignore/error directive](/ref/DM/preprocessor/pragma/warn.md) 

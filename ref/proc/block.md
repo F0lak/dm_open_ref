@@ -40,5 +40,6 @@ for(T in block(1,1,1, 10,10)) T.text = \" \"
 ```
 
 
-**See also:**
-+   [list](/ref/list.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) <!-- -->

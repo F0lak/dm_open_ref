@@ -18,8 +18,9 @@ account. If Ref is within Min steps of Trg, no action will be taken.
 This is also the case if the target is too far away (more than twice
 world.view steps).
 
-**See also:**
-+   [get_step_to proc](/ref/proc/get_step_to.md) 
-+   [get_steps_to proc](/ref/proc/get_steps_to.md) 
-+   [walk_to proc](/ref/proc/walk_to.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [get_step_to proc](/ref/proc/get_step_to.md) 
+> +   [get_steps_to proc](/ref/proc/get_steps_to.md) 
+> +   [walk_to proc](/ref/proc/walk_to.md) 
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->

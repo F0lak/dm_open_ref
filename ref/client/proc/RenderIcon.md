@@ -39,13 +39,14 @@ Important notes regarding this proc:
     server will hold a reference to the object until the map tick ends,
     so an object you create temporarily should remain valid long enough
     to be rendered.
--   [render_source](/ref/atom/var/render_source.md) {.code} will not work
+-   [render_source](/ref/atom/var/render_source.md)  will not work
     unless the corresponding
     [render_target](/ref/atom/var/render_target.md) appears in the same
     render stack. That is, this object or appearance will be rendered in
     an isolated \"scene\" rather than as part of the map, so it won\'t
     be able to use other objects on the map as render sources.
 
-**See also:**
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
+> [!TIP] 
+> **See also:**
+> +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
+> +   [Filter effects](/ref/%7Bnotes%7D/filters.md) 

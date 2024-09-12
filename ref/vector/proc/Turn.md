@@ -28,8 +28,9 @@ in 3 dimensions around vector B using the right-hand rule (thumb pointed
 in the direction of B, rotation following curled fingers). The angle of
 rotation is the length of B, in degrees.
 
-**See also:**
-+   [turn proc (applied to a vector)](/ref/proc/turn/vector.md) 
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) 
-+   [vars (vector)](/ref/vector/var.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [turn proc (applied to a vector)](/ref/proc/turn/vector.md) 
+> +   [vector](/ref/vector.md) 
+> +   [vector proc](/ref/proc/vector.md) 
+> +   [vars (vector)](/ref/vector/var.md) <!-- -->

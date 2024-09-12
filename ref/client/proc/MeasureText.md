@@ -19,7 +19,8 @@ Because maptext rendering may vary by client, `MeasureText`
 lets you get a measurement of how text will be laid out, so you can
 adjust `maptext_width` and `maptext_height` accordingly.
 
-**See also:**
-+   [maptext var (atom)](/ref/atom/var/maptext.md) 
-+   [maptext_width var (atom)](/ref/atom/var/maptext_width.md) 
-+   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [maptext var (atom)](/ref/atom/var/maptext.md) 
+> +   [maptext_width var (atom)](/ref/atom/var/maptext_width.md) 
+> +   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) <!-- -->

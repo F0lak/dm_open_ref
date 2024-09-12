@@ -129,9 +129,10 @@ mob/Move(/atom/Dest) //WRONG
 Essentially, \"var/\"
 is prepended to each entry in the parameter list.
 
-**See also:**
-+   [. path operator](/ref/operator/path/%2e.md) 
-+   [/ path operator](/ref/operator/path//.md) 
-+   [: path operator](/ref/operator/path/:.md) 
-+   [procs](/ref/proc.md) 
-+   [vars](/ref/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [. path operator](/ref/operator/path/%2e.md) 
+> +   [/ path operator](/ref/operator/path//.md) 
+> +   [: path operator](/ref/operator/path/:.md) 
+> +   [procs](/ref/proc.md) 
+> +   [vars](/ref/var.md) 

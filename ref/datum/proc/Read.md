@@ -14,7 +14,8 @@
     the variable. Variables marked tmp, global, or const and variables
     for which there is no directory are skipped.
 
-**See also:**
-+   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
-+   [Write proc (datum)](/ref/datum/proc/Write.md) 
-+   [tmp vars](/ref/var/tmp.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
+> +   [Write proc (datum)](/ref/datum/proc/Write.md) 
+> +   [tmp vars](/ref/var/tmp.md) <!-- -->

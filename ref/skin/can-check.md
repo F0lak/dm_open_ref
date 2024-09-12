@@ -13,6 +13,7 @@
 If true, this menu item is toggled like a checkbox or radio
 button when clicked.
 
-**See also:**
-+   [group parameter](/ref/%7Bskin%7D/param/group.md) 
-+   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
+> [!TIP] 
+> **See also:**
+> +   [group parameter](/ref/%7Bskin%7D/param/group.md) 
+> +   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 

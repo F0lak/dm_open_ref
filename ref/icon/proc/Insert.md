@@ -64,9 +64,10 @@ inserted into an icon, then the delay will default to 1 tick. Remember,
 if your delay is positive, it will turn off the rewind flag for that
 entire icon state; negative will turn it on.
 
-**See also:**
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [New proc](/ref/icon/proc/New.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 
+> [!TIP] 
+> **See also:**
+> +   [procs (icon)](/ref/icon/proc.md) 
+> +   [New proc](/ref/icon/proc/New.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> +   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 

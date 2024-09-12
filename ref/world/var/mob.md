@@ -23,5 +23,6 @@ This example will
 connect new players to mobs of type /mob/newbie. They are welcomed when
 they connect.
 
-**See also:**
-+   [New proc (client)](/ref/client/proc/New.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [New proc (client)](/ref/client/proc/New.md) <!-- -->

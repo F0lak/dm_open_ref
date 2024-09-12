@@ -113,7 +113,8 @@ This allows for the creation of more dynamic
 interfaces, since javascript provides access to many client-side
 operations and flicker-free updates.
 
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [winclone proc](/ref/proc/winclone.md) 
-+   [winset proc](/ref/proc/winset.md) 
+> [!TIP] 
+> **See also:**
+> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [winclone proc](/ref/proc/winclone.md) 
+> +   [winset proc](/ref/proc/winset.md) 

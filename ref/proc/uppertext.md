@@ -18,5 +18,6 @@ Capitalize all of the characters of T.
 ```
 
 
-**See also:**
-+   [lowertext proc](/ref/proc/lowertext.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [lowertext proc](/ref/proc/lowertext.md) <!-- -->

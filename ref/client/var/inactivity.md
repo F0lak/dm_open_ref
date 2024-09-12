@@ -14,5 +14,6 @@ time that has passed since the last one.
 ```
 
 
-**See also:**
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
+> [!TIP] 
+> **See also:**
+> +   [tick_lag var (world)](/ref/world/var/tick_lag.md) 

@@ -27,6 +27,7 @@ Setting
 container\'s size changes. You can think of this `anchor1` controlling
 the top left corner, and `anchor2` the bottom right corner.
 
-**See also:**
-+   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> [!TIP] 
+> **See also:**
+> +   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
+> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 

@@ -32,3 +32,5 @@ Seeker. If your DM code never does anything with the icon variable, then
 this is the default configuration. Such applications are known as
 *advanced* iconic text games:)
 
+> [!TIP] 
+> 

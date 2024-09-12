@@ -3,3 +3,5 @@
 
 Renamed to [glide_size](/ref/atom/movable/var/glide_size.md) 
 
+> [!TIP] 
+> 

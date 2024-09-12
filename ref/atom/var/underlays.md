@@ -21,8 +21,9 @@ When multiple turfs are stacked
 on top of one another in the map editor, there is actually only one turf
 (the topmost) and the rest are all underlays.
 
-**See also:**
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [list](/ref/list.md) 
-+   [overlays var (atom)](/ref/atom/var/overlays.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon var (atom)](/ref/atom/var/icon.md) 
+> +   [list](/ref/list.md) 
+> +   [overlays var (atom)](/ref/atom/var/overlays.md) 
+> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

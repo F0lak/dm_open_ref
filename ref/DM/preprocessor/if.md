@@ -33,6 +33,7 @@ defined #endif
 You can also use `fexists()` in a
 conditional to check if a file exists.
 
-**See also:**
-+   [#define directive](/ref/DM/preprocessor/define.md) 
-+   [#ifdef directive](/ref/DM/preprocessor/ifdef.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [#define directive](/ref/DM/preprocessor/define.md) 
+> +   [#ifdef directive](/ref/DM/preprocessor/ifdef.md) <!-- -->

@@ -23,7 +23,8 @@ further in this direction.
 Shorthand values like `cw` and `ccw`
 can be used, or also numerical BYOND directions.
 
-**See also:**
-+   [value parameter](/ref/%7Bskin%7D/param/angle.md) 
-+   [angle1, angle2 parameters](/ref/%7Bskin%7D/param/angle.md) 
-+   [width parameter](/ref/%7Bskin%7D/param/width.md) 
+> [!TIP] 
+> **See also:**
+> +   [value parameter](/ref/%7Bskin%7D/param/angle.md) 
+> +   [angle1, angle2 parameters](/ref/%7Bskin%7D/param/angle.md) 
+> +   [width parameter](/ref/%7Bskin%7D/param/width.md) 

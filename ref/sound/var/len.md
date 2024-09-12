@@ -10,6 +10,7 @@ shorter time to play and therefore has a shorter length.
 Other
 uses for this var may be considered in the future.
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) 
+> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 

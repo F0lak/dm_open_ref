@@ -20,9 +20,10 @@ types of values being multiplied, mostly on A.
                     matrix                 New vector with 2D transformation applied
                     num                    New vector scaling A by B
 
-**See also:**
-+   [\*= operator](/ref/operator/*=.md) 
-+   [+ operator](/ref/operator/+.md) 
-+   [- operator](/ref/operator/-.md) 
-+   [/ operator](/ref/operator//.md) 
-+   [operators](/ref/operator.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\*= operator](/ref/operator/*=.md) 
+> +   [+ operator](/ref/operator/+.md) 
+> +   [- operator](/ref/operator/-.md) 
+> +   [/ operator](/ref/operator//.md) 
+> +   [operators](/ref/operator.md) <!-- -->

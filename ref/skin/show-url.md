@@ -12,6 +12,7 @@
 
 Shows an address bar for this browser control.
 
-**See also:**
-+   [show-history parameter](/ref/%7Bskin%7D/param/show-history.md) 
-+   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) 
+> [!TIP] 
+> **See also:**
+> +   [show-history parameter](/ref/%7Bskin%7D/param/show-history.md) 
+> +   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) 

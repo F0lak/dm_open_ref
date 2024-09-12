@@ -23,5 +23,6 @@ more details on the `[[...]]` format.)
 to reference the control (if any) that generated the next text. You can
 also use expressions like `[[from.type]]`, `[[from.parent.pos.x]]`, etc.
 
-**See also:**
-+   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) 
+> [!TIP] 
+> **See also:**
+> +   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) 

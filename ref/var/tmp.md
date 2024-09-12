@@ -39,9 +39,9 @@ called. Thus they\'ll appear to \"rollback\" to an earlier state.
 
 If your game accidentally falls into this trap, don\'t panic!
 You can look at your savefiles via
-[ImportText()](/ref/savefile/ImportText.md) {.code} or in an editor to see
+[ImportText()](/ref/savefile/ImportText.md)  or in an editor to see
 which var is the problem. Once you change that var to `/tmp`, you can
-override [Read()](/ref/datum/proc/Read.md) {.code} so if that var is present,
+override [Read()](/ref/datum/proc/Read.md)  so if that var is present,
 you can remove it before calling `..()` to finish loading.
 :::
 The following built-in variables are defined as tmp vars:
@@ -66,6 +66,7 @@ The following built-in variables are defined as tmp vars:
 +   [mouse_drag_pointer](/ref/atom/var/mouse_drag_pointer.md) 
 +   [mouse_drop_pointer](/ref/atom/var/mouse_drop_pointer.md) 
 
-**See also:**
-+   [savefile](/ref/savefile.md) 
-+   [vars](/ref/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [savefile](/ref/savefile.md) 
+> +   [vars](/ref/var.md) 

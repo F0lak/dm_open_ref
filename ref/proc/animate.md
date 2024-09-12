@@ -294,5 +294,6 @@ have two sequences with the same name running concurrently.
 Stopping a named sequence is as simple as calling
 `animate(Object, tag=name)` with no other arguments.
 
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars (atom)](/ref/atom/var.md) 

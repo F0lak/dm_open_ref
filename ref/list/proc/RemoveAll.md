@@ -20,6 +20,7 @@ This is basically a faster version of the statement
 large lists this might be a big improvement because the list doesn\'t
 have to be traversed every time.
 
-**See also:**
-+   [Add proc (list)](/ref/list/proc/Add.md) 
-+   [Remove proc (list)](/ref/list/proc/Remove.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Add proc (list)](/ref/list/proc/Add.md) 
+> +   [Remove proc (list)](/ref/list/proc/Remove.md) <!-- -->

@@ -55,3 +55,5 @@ simply change the name of the resource package. For example, you could
 put a version number in the name of the file: `mygame_rsc_01.zip`,
 `mygame_rsc_02.zip`, and so on.
 
+> [!TIP] 
+> 

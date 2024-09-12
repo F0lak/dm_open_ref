@@ -53,9 +53,10 @@ triangle \[i\] block\\s high has \[j\] block\\s total.\" #pragma pop
 ```
 
 
-**See also:**
-+   [break statement](/ref/proc/break.md) 
-+   [continue statement](/ref/proc/continue.md) 
-+   [do proc](/ref/proc/do.md) 
-+   [for list proc](/ref/proc/for/list.md) 
-+   [while proc](/ref/proc/while.md) 
+> [!TIP] 
+> **See also:**
+> +   [break statement](/ref/proc/break.md) 
+> +   [continue statement](/ref/proc/continue.md) 
+> +   [do proc](/ref/proc/do.md) 
+> +   [for list proc](/ref/proc/for/list.md) 
+> +   [while proc](/ref/proc/while.md) 

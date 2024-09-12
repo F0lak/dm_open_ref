@@ -13,6 +13,7 @@
 
 Allow the window to be minimized.
 
-**See also:**
-+   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
-+   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
+> [!TIP] 
+> **See also:**
+> +   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
+> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 

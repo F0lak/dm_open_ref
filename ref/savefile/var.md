@@ -10,3 +10,5 @@ savefile/var
 +   [eof](/ref/savefile/var/eof.md) 
 +   [name](/ref/savefile/var/name.md) 
 
+> [!TIP] 
+> 

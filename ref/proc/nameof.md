@@ -31,5 +31,6 @@ forlater\[5\] call(object, procname)(a, b, c)
 ```
 
 
-**See also:**
-+   [:: operator](/ref/operator/::.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [:: operator](/ref/operator/::.md) <!-- -->

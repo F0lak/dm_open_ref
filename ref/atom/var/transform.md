@@ -42,6 +42,7 @@ atom.transform will revert the atom to using no transformation at all.
 It is also legal to assign a list with six values, which is equivalent
 to using a matrix.
 
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
-+   [matrix](/ref/matrix.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars (atom)](/ref/atom/var.md) 
+> +   [matrix](/ref/matrix.md) 

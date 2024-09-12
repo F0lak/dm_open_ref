@@ -13,8 +13,9 @@
 ```
 
 
-**See also:**
-+   [arccos proc](/ref/proc/arccos.md) 
-+   [sin proc](/ref/proc/sin.md) 
-+   [tan proc](/ref/proc/tan.md) 
-+   [turn proc](/ref/proc/turn.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [arccos proc](/ref/proc/arccos.md) 
+> +   [sin proc](/ref/proc/sin.md) 
+> +   [tan proc](/ref/proc/tan.md) 
+> +   [turn proc](/ref/proc/turn.md) <!-- -->

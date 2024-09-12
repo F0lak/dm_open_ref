@@ -16,9 +16,10 @@ formats include .wav, .ogg, .mp3, .raw, .wma, and .aiff.
 This
 example plays the specified midi file to all players.
 
-**See also:**
-+   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
-+   [cache](/ref/DM/cache.md) 
-+   [sound proc](/ref/proc/sound.md) 
-+   [/sound datum](/ref/sound.md) 
-+   [load_resource proc](/ref/proc/load_resource.md) 
+> [!TIP] 
+> **See also:**
+> +   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
+> +   [cache](/ref/DM/cache.md) 
+> +   [sound proc](/ref/proc/sound.md) 
+> +   [/sound datum](/ref/sound.md) 
+> +   [load_resource proc](/ref/proc/load_resource.md) 

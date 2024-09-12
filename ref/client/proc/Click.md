@@ -39,17 +39,18 @@ null\|turf\|text in usr.client,\\ control as text, params as text)
 ```
 
 
-**See also:**
-+   [Click proc (atom)](/ref/atom/proc/Click.md) 
-+   [DblClick proc (client)](/ref/client/proc/DblClick.md) 
-+   [MouseDown proc (client)](/ref/client/proc/MouseDown.md) 
-+   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md) 
-+   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md) 
-+   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md) 
-+   [MouseExited proc (client)](/ref/client/proc/MouseExited.md) 
-+   [MouseMove proc (client)](/ref/client/proc/MouseMove.md) 
-+   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) 
-+   [MouseWheel proc (client)](/ref/client/proc/MouseWheel.md) 
-+   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) 
-+   [mouse_over_pointer var (atom)](/ref/atom/var/mouse_over_pointer.md) 
-+   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md) 
+> [!TIP] 
+> **See also:**
+> +   [Click proc (atom)](/ref/atom/proc/Click.md) 
+> +   [DblClick proc (client)](/ref/client/proc/DblClick.md) 
+> +   [MouseDown proc (client)](/ref/client/proc/MouseDown.md) 
+> +   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md) 
+> +   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md) 
+> +   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md) 
+> +   [MouseExited proc (client)](/ref/client/proc/MouseExited.md) 
+> +   [MouseMove proc (client)](/ref/client/proc/MouseMove.md) 
+> +   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) 
+> +   [MouseWheel proc (client)](/ref/client/proc/MouseWheel.md) 
+> +   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) 
+> +   [mouse_over_pointer var (atom)](/ref/atom/var/mouse_over_pointer.md) 
+> +   [show_popup_menus var (client)](/ref/client/var/show_popup_menus.md) 

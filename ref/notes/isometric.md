@@ -115,17 +115,18 @@ screen_height = round((pixel_height + icon_height - 1) / icon_height)
 If you use `TOPDOWN_LAYER`, any topdown sections of
 the map will be limited to this same view.
 
-**See also:**
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [dir var (client)](/ref/client/var/dir.md) 
-+   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
-+   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
-+   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
-+   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
-+   [HUD](/ref/%7Bnotes%7D/HUD.md) 
-+   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
-+   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
-+   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) 
+> [!TIP] 
+> **See also:**
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [dir var (client)](/ref/client/var/dir.md) 
+> +   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
+> +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
+> +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> +   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
+> +   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
+> +   [HUD](/ref/%7Bnotes%7D/HUD.md) 
+> +   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
+> +   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
+> +   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) 

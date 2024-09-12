@@ -15,6 +15,7 @@ list/proc
 +   [Splice](/ref/list/proc/Splice.md) 
 +   [Swap](/ref/list/proc/Swap.md) 
 
-**See also:**
-+   [list](/ref/list.md) 
-+   [list operators](/ref/list/operators.md) 
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) 
+> +   [list operators](/ref/list/operators.md) 

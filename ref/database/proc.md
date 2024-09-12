@@ -11,7 +11,8 @@ database/proc
 +   [New](/ref/database/proc/New.md) 
 +   [Open](/ref/database/proc/Open.md) 
 
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [procs (database query)](/ref/database/query/proc.md) 
+> [!TIP] 
+> **See also:**
+> +   [database datum](/ref/database.md) 
+> +   [database query datum](/ref/database/query.md) 
+> +   [procs (database query)](/ref/database/query/proc.md) 

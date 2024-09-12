@@ -83,11 +83,12 @@ armor overlays = L
 ```
 
 
-**See also:**
-+   [underlays var (atom)](/ref/atom/var/underlays.md) 
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [list](/ref/list.md) 
-+   [image objects](/ref/image.md) 
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> [!TIP] 
+> **See also:**
+> +   [underlays var (atom)](/ref/atom/var/underlays.md) 
+> +   [icon var (atom)](/ref/atom/var/icon.md) 
+> +   [layer var (atom)](/ref/atom/var/layer.md) 
+> +   [list](/ref/list.md) 
+> +   [image objects](/ref/image.md) 
+> +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
+> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

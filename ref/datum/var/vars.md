@@ -15,9 +15,10 @@ as an index into the list, the value of that variable is accessed.
 This example displays all the
 variables belonging to your mob.
 
-**See also:**
-+   [initial proc](/ref/proc/initial.md) 
-+   [issaved proc](/ref/proc/issaved.md) 
-+   [list](/ref/list.md) 
-+   [list associations](/ref/list/associations.md) 
-+   [vars list var (global)](/ref/DM/vars.md) 
+> [!TIP] 
+> **See also:**
+> +   [initial proc](/ref/proc/initial.md) 
+> +   [issaved proc](/ref/proc/issaved.md) 
+> +   [list](/ref/list.md) 
+> +   [list associations](/ref/list/associations.md) 
+> +   [vars list var (global)](/ref/DM/vars.md) 

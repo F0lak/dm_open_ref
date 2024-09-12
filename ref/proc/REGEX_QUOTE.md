@@ -27,7 +27,8 @@ the pattern in the text return R.Find(text)
 ```
 
 
-**See also:**
-+   [regex proc](/ref/proc/regex.md) 
-+   [regex datum](/ref/regex.md) 
-+   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [regex proc](/ref/proc/regex.md) 
+> +   [regex datum](/ref/regex.md) 
+> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->

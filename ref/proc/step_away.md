@@ -18,7 +18,8 @@ Move Ref on a path away from location Trg, taking obstacles
 into account. If Ref is farther than Max steps from Trg, no action will
 be taken.
 
-**See also:**
-+   [get_step_away proc](/ref/proc/get_step_away.md) 
-+   [walk_away proc](/ref/proc/walk_away.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [get_step_away proc](/ref/proc/get_step_away.md) 
+> +   [walk_away proc](/ref/proc/walk_away.md) 
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->

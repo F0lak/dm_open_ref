@@ -64,8 +64,9 @@ functionality. Just remember that the data in the list is always stored
 as text, so if you are expecting a number or an object, you must convert
 it yourself (with text2num(), locate(), or whatever).
 
-**See also:**
-+   [New proc (client)](/ref/client/proc/New.md) 
-+   [Topic proc (datum)](/ref/datum/proc/Topic.md) 
-+   [link proc](/ref/proc/link.md) 
-+   [ref text macro](/ref/DM/text/macros/ref.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [New proc (client)](/ref/client/proc/New.md) 
+> +   [Topic proc (datum)](/ref/datum/proc/Topic.md) 
+> +   [link proc](/ref/proc/link.md) 
+> +   [ref text macro](/ref/DM/text/macros/ref.md) <!-- -->

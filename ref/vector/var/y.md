@@ -4,6 +4,7 @@
 
 The y component of this vector.
 
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vars (vector)](/ref/vector/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [vector](/ref/vector.md) 
+> +   [vars (vector)](/ref/vector/var.md) 

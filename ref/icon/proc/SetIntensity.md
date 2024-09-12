@@ -13,7 +13,8 @@ This multiplies the pixel intensities by the specified amounts.
 A value greater than 1.0 increases the intensity and a value less than
 1.0 decreases the intensity.
 
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) 
+> +   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) <!-- -->

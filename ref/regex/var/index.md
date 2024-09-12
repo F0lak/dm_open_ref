@@ -8,9 +8,10 @@ match was found.
 Replace() on a non-global pattern will also
 store the index of the match here.
 
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [Find proc (regex)](/ref/regex/proc/Find.md) 
-+   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
-+   [match var (regex)](/ref/regex/var/match.md) 
-+   [next var (regex)](/ref/regex/var/next.md) 
+> [!TIP] 
+> **See also:**
+> +   [regex datum](/ref/regex.md) 
+> +   [Find proc (regex)](/ref/regex/proc/Find.md) 
+> +   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
+> +   [match var (regex)](/ref/regex/var/match.md) 
+> +   [next var (regex)](/ref/regex/var/next.md) 

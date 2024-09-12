@@ -49,7 +49,7 @@ If the start or
 end position is negative, the position is counted backwards from the end
 of the string. Please note that the start and end positions do NOT trim
 the string; if you want to split a trimmed string, trim it with
-[copytext()](/ref/proc/copytext.md) {.code} and send the result to
+[copytext()](/ref/proc/copytext.md)  and send the result to
 `splittext()` instead. 
 
 Note: In strings containing non-ASCII
@@ -58,9 +58,10 @@ Use `splittext_char()` to work with character counts instead of bytes,
 at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section
 for more information.
 
-**See also:**
-+   [findtext proc](/ref/proc/findtext.md) 
-+   [jointext proc](/ref/proc/jointext.md) 
-+   [nonspantext proc](/ref/proc/nonspantext.md) 
-+   [spantext proc](/ref/proc/spantext.md) 
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> [!TIP] 
+> **See also:**
+> +   [findtext proc](/ref/proc/findtext.md) 
+> +   [jointext proc](/ref/proc/jointext.md) 
+> +   [nonspantext proc](/ref/proc/nonspantext.md) 
+> +   [spantext proc](/ref/proc/spantext.md) 
+> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 

@@ -21,8 +21,9 @@ have just saved original value
 If an icon is not
 square, it cannot be turned.
 
-**See also:**
-+   [Flip proc (icon)](/ref/icon/proc/Flip.md) 
-+   [dir var (atom)](/ref/atom/var/dir.md) 
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Flip proc (icon)](/ref/icon/proc/Flip.md) 
+> +   [dir var (atom)](/ref/atom/var/dir.md) 
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) <!-- -->

@@ -50,5 +50,6 @@ single-line comments and `/* ... */` long-form comments in the text to
 be decoded. This can be mixed with the strict flag. This flag is now
 used by default.
 
-**See also:**
-+   [json_encode proc](/ref/proc/json_encode.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [json_encode proc](/ref/proc/json_encode.md) <!-- -->

@@ -21,8 +21,9 @@ determined by the world variables turf and area.
 ```
 
 
-**See also:**
-+   [#include directive](/ref/DM/preprocessor/include.md) 
-+   [area var (world)](/ref/world/var/area.md) 
-+   [maxx var (world)](/ref/world/var/maxx.md) 
-+   [turf var (world)](/ref/world/var/turf.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [#include directive](/ref/DM/preprocessor/include.md) 
+> +   [area var (world)](/ref/world/var/area.md) 
+> +   [maxx var (world)](/ref/world/var/maxx.md) 
+> +   [turf var (world)](/ref/world/var/turf.md) <!-- -->

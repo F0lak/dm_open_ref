@@ -20,11 +20,12 @@ load icons into memory at run-time and manipulate the graphical data to
 produce new icons dynamically. This is done by creating an
 [/icon](/ref/icon.md) object.
 
-**See also:**
-+   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
-+   [cache](/ref/DM/cache.md) 
-+   [flick proc](/ref/proc/flick.md) 
-+   [icon](/ref/icon.md) 
-+   [icon var (atom)](/ref/atom/var/icon.md) 
-+   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
-+   [image objects](/ref/image.md) 
+> [!TIP] 
+> **See also:**
+> +   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
+> +   [cache](/ref/DM/cache.md) 
+> +   [flick proc](/ref/proc/flick.md) 
+> +   [icon](/ref/icon.md) 
+> +   [icon var (atom)](/ref/atom/var/icon.md) 
+> +   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
+> +   [image objects](/ref/image.md) 

@@ -10,3 +10,5 @@ defined and documented in a separate code library `html/CGI.dm`. You can
 find the current version at
 [www.byond.com](http://www.byond.com/developer/Dantom/CGI).
 
+> [!TIP] 
+> 

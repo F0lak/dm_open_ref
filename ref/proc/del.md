@@ -38,7 +38,8 @@ object destruction arises. Objects that have no references are deleted
 automatically without the need for a search. See [garbage
 collection](/ref/DM/garbage.md) for more details.
 
-**See also:**
-+   [Del proc (datum)](/ref/datum/proc/Del.md) 
-+   [garbage collection](/ref/DM/garbage.md) 
-+   [refcount proc](/ref/proc/refcount.md) 
+> [!TIP] 
+> **See also:**
+> +   [Del proc (datum)](/ref/datum/proc/Del.md) 
+> +   [garbage collection](/ref/DM/garbage.md) 
+> +   [refcount proc](/ref/proc/refcount.md) 

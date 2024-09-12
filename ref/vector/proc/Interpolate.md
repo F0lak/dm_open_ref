@@ -18,6 +18,7 @@ Returns the equivalent of `A + (B-A) * t`.
 There is
 special handling for a case of `t=1` to avoid rounding errors.
 
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vector proc](/ref/proc/vector.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vector](/ref/vector.md) 
+> +   [vector proc](/ref/proc/vector.md) <!-- -->

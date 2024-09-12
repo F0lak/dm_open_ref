@@ -20,7 +20,8 @@ icon = I
 modified. If the user does not specify a new icon, it will be reset to
 the original one.
 
-**See also:**
-+   [:: operator](/ref/operator/::.md) 
-+   [issaved proc](/ref/proc/issaved.md) 
-+   [vars list var (datum)](/ref/datum/var/vars.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [:: operator](/ref/operator/::.md) 
+> +   [issaved proc](/ref/proc/issaved.md) 
+> +   [vars list var (datum)](/ref/datum/var/vars.md) <!-- -->

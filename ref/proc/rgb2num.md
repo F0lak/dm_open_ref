@@ -37,8 +37,9 @@ HSL\[3\] // luminance (66.6667)
 ```
 
 
-**See also:**
-+   [rgb proc](/ref/proc/rgb.md) 
-+   [gradient proc](/ref/proc/gradient.md) 
-+   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
-+   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
+> [!TIP] 
+> **See also:**
+> +   [rgb proc](/ref/proc/rgb.md) 
+> +   [gradient proc](/ref/proc/gradient.md) 
+> +   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+> +   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 

@@ -17,8 +17,9 @@ maptext.
 Overlays and images will also be affected by alpha,
 unless they use the RESET_ALPHA value in appearance_flags.
 
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [blend_mode var (atom)](/ref/atom/var/blend_mode.md) 
-+   [color var (atom)](/ref/atom/var/color.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vars (atom)](/ref/atom/var.md) 
+> +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+> +   [blend_mode var (atom)](/ref/atom/var/blend_mode.md) 
+> +   [color var (atom)](/ref/atom/var/color.md) <!-- -->

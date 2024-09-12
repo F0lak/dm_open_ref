@@ -21,8 +21,9 @@ outputs -1
 ```
 
 
-**See also:**
-+   [floor proc](/ref/proc/floor.md) 
-+   [round proc](/ref/proc/round.md) 
-+   [trunc proc](/ref/proc/trunc.md) 
-+   [fract proc](/ref/proc/fract.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [floor proc](/ref/proc/floor.md) 
+> +   [round proc](/ref/proc/round.md) 
+> +   [trunc proc](/ref/proc/trunc.md) 
+> +   [fract proc](/ref/proc/fract.md) <!-- -->

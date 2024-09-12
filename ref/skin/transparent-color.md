@@ -16,5 +16,6 @@ A color that will be turned into transparency wherever it
 appears in this window. Overall, this method of transparency comes with
 many limitations, so it is considered deprecated.
 
-**See also:**
-+   [alpha parameter](/ref/%7Bskin%7D/param/alpha.md) 
+> [!TIP] 
+> **See also:**
+> +   [alpha parameter](/ref/%7Bskin%7D/param/alpha.md) 

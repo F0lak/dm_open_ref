@@ -17,5 +17,6 @@ This example increases the count each
 time the proc is called. If count were not declared global, the
 displayed count would be 1 every time.
 
-**See also:**
-+   [vars](/ref/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars](/ref/var.md) 

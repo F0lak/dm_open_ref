@@ -103,8 +103,9 @@ wx,wy,wz,ww)
 ```
 
 
-**See also:**
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) 
-+   [matrix](/ref/matrix.md) 
-+   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> [!TIP] 
+> **See also:**
+> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> +   [transform var (atom)](/ref/atom/var/transform.md) 
+> +   [matrix](/ref/matrix.md) 
+> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 

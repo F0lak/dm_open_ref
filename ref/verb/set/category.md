@@ -20,5 +20,6 @@ set the category to null. The verb may still show up in right-click
 popup menus, so you may want to use the [hidden](/ref/verb/set/hidden.md)  or
 [popup_menu](/ref/verb/set/popup_menu.md) verb properties instead.
 
-**See also:**
-+   [default_verb_category var
+> [!TIP] 
+> **See also:**
+> +   [default_verb_category var

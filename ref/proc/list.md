@@ -54,7 +54,8 @@ var/list/lst = list(player = \"James Byond\", score = 2000)
 In other words, this is exactly the same syntax as for [named
 arguments](/ref/proc/arguments/named.md) 
 
-**See also:**
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [list](/ref/list.md) 
-+   [list associations](/ref/list/associations.md) 
+> [!TIP] 
+> **See also:**
+> +   [arglist proc](/ref/proc/arglist.md) 
+> +   [list](/ref/list.md) 
+> +   [list associations](/ref/list/associations.md) 

@@ -22,6 +22,7 @@ to be called at that time, you should explicitly call it from
 Note: **Always** call `..()` at the end of the
 proc if you override it.
 
-**See also:**
-+   [del proc](/ref/proc/del.md) 
-+   [garbage collection](/ref/DM/garbage.md) 
+> [!TIP] 
+> **See also:**
+> +   [del proc](/ref/proc/del.md) 
+> +   [garbage collection](/ref/DM/garbage.md) 

@@ -11,6 +11,7 @@
 [Command](/ref/%7Bskin%7D/commands.md) executed when the control
 gains focus.
 
-**See also:**
-+   [focus parameter](/ref/%7Bskin%7D/param/focus.md) 
-+   [on-blur parameter](/ref/%7Bskin%7D/param/on-blur.md) 
+> [!TIP] 
+> **See also:**
+> +   [focus parameter](/ref/%7Bskin%7D/param/focus.md) 
+> +   [on-blur parameter](/ref/%7Bskin%7D/param/on-blur.md) 

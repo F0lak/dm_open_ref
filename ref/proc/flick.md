@@ -23,5 +23,6 @@ flick(\"fight\",usr) //show usr\'s fight state
 The
 target object may be any atom or image.
 
-**See also:**
-+   [icon_state var (atom)](/ref/atom/var/icon_state.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icon_state var (atom)](/ref/atom/var/icon_state.md) <!-- -->

@@ -11,5 +11,6 @@ proc/var
 +   [src](/ref/proc/var/src.md) 
 +   [usr](/ref/proc/var/usr.md) 
 
-**See also:**
-+   [procs](/ref/proc.md) 
+> [!TIP] 
+> **See also:**
+> +   [procs](/ref/proc.md) 

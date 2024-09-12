@@ -195,6 +195,7 @@ overloaded text won\'t appear for objects in an `input()` prompt list,
 which is also handled mainly on the client. Despite these limitations,
 the text overload offers greater flexibility.
 
-**See also:**
-+   [datum](/ref/datum.md) 
-+   [operators](/ref/operator.md) 
+> [!TIP] 
+> **See also:**
+> +   [datum](/ref/datum.md) 
+> +   [operators](/ref/operator.md) 

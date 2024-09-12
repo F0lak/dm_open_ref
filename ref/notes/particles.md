@@ -158,9 +158,10 @@ The same particle datum can be assigned
 to more than one movable atom. However the particles displayed by each
 atom will be different.
 
-**See also:**
-+   [particles (movable atom var)](/ref/atom/movable/var/particles.md) 
-+   [Generators](/ref/%7Bnotes%7D/generators.md) 
-+   [generator proc](/ref/proc/generator.md) 
-+   [Projection matrix](/ref/%7Bnotes%7D/projection-matrix.md) 
-+   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> [!TIP] 
+> **See also:**
+> +   [particles (movable atom var)](/ref/atom/movable/var/particles.md) 
+> +   [Generators](/ref/%7Bnotes%7D/generators.md) 
+> +   [generator proc](/ref/proc/generator.md) 
+> +   [Projection matrix](/ref/%7Bnotes%7D/projection-matrix.md) 
+> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 

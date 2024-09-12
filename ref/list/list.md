@@ -81,9 +81,10 @@ having 5 elements.
 ```
 
 
-**See also:**
-+   [list associations](/ref/list/associations.md) 
-+   [list proc](/ref/proc/list.md) 
-+   [islist proc](/ref/proc/islist.md) 
-+   [procs (list)](/ref/list/proc.md) 
-+   [vars (list)](/ref/list/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [list associations](/ref/list/associations.md) 
+> +   [list proc](/ref/proc/list.md) 
+> +   [islist proc](/ref/proc/islist.md) 
+> +   [procs (list)](/ref/list/proc.md) 
+> +   [vars (list)](/ref/list/var.md) 

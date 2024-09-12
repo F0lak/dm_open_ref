@@ -24,5 +24,6 @@ statement or a code block with optional braces: {}.
 This will display \"TRUE\" if T has value 1, and
 \"FALSE\" otherwise.
 
-**See also:**
-+   [goto proc](/ref/proc/goto.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [goto proc](/ref/proc/goto.md) <!-- -->

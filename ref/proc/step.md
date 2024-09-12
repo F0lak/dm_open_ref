@@ -15,7 +15,8 @@
 
 Move Ref in the direction Dir.
 
-**See also:**
-+   [get_step proc](/ref/proc/get_step.md) 
-+   [walk proc](/ref/proc/walk.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [get_step proc](/ref/proc/get_step.md) 
+> +   [walk proc](/ref/proc/walk.md) 
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->

@@ -36,6 +36,7 @@ matrix(angle, MATRIX_ROTATE)
 matrix(x, y, MATRIX_TRANSLATE)
 +   A matrix that translates by x and y
 
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [matrix](/ref/matrix.md) 
+> +   [transform var (atom)](/ref/atom/var/transform.md) <!-- -->

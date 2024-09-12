@@ -15,6 +15,7 @@
 Calculate the position of a step from `Ref` in the direction
 `Dir`.
 
-**See also:**
-+   [step proc](/ref/proc/step.md) 
-+   [walk proc](/ref/proc/walk.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [step proc](/ref/proc/step.md) 
+> +   [walk proc](/ref/proc/walk.md) <!-- -->

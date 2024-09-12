@@ -51,8 +51,9 @@ Note: In prior versions, `call()` was also used to access
 third-party libraries (.DLL files on Windows, .SO files on Unix), but
 this has been moved to [call_ext()](/ref/proc/call_ext.md) for clarity.
 
-**See also:**
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [call_ext proc](/ref/proc/call_ext.md) 
-+   [hascall proc](/ref/proc/hascall.md) 
-+   [path operators](/ref/operator/path.md) 
+> [!TIP] 
+> **See also:**
+> +   [arglist proc](/ref/proc/arglist.md) 
+> +   [call_ext proc](/ref/proc/call_ext.md) 
+> +   [hascall proc](/ref/proc/hascall.md) 
+> +   [path operators](/ref/operator/path.md) 

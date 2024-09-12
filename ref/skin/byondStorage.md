@@ -24,6 +24,7 @@ Note: Technically `localStorage` does work, but because of the
 way BYOND handles browser controls it acts more like `sessionStorage` in
 practice.
 
-**See also:**
-+   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
-+   [winset proc](/ref/proc/winset.md) 
+> [!TIP] 
+> **See also:**
+> +   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
+> +   [winset proc](/ref/proc/winset.md) 

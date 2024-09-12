@@ -10,7 +10,8 @@
 This returns a true value when given a file. Both objects
 returned by file() and files stored in the resource cache qualify.
 
-**See also:**
-+   [cache](/ref/DM/cache.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [isicon proc](/ref/proc/isicon.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [cache](/ref/DM/cache.md) 
+> +   [file proc](/ref/proc/file.md) 
+> +   [isicon proc](/ref/proc/isicon.md) <!-- -->

@@ -12,6 +12,7 @@
 
 This is a shortcut for `"\ref[Object]"`.
 
-**See also:**
-+   [\\ref text macro](/ref/DM/text/macros/ref.md) 
-+   [locate proc](/ref/proc/locate.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\\ref text macro](/ref/DM/text/macros/ref.md) 
+> +   [locate proc](/ref/proc/locate.md) <!-- -->

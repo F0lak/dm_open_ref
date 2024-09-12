@@ -9,7 +9,8 @@ Most math operations on a
 vector will expand the result to the same dimension as the largest
 operand.
 
-**See also:**
-+   [length proc](/ref/proc/length.md) 
-+   [vector](/ref/vector.md) 
-+   [vars (vector)](/ref/vector/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [length proc](/ref/proc/length.md) 
+> +   [vector](/ref/vector.md) 
+> +   [vars (vector)](/ref/vector/var.md) 

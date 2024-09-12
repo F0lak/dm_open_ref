@@ -20,10 +20,12 @@ rows.
 
 
 Output to a statpanel is done via the
-[stat()](/ref/proc/stat.md) {.code} and [statpanel()](/ref/proc/statpanel.md) {.code}
-procs, during [mob/Stat()](/ref/atom/proc/stat.md) {.code}. 
+[stat()](/ref/proc/stat.md)  and [statpanel()](/ref/proc/statpanel.md) 
+procs, during [mob/Stat()](/ref/atom/proc/stat.md) . 
 
 The same
 limitations that apply to [grid](/ref/%7Bskin%7D/control/grid.md) output apply
 here.
 
+> [!TIP] 
+> 

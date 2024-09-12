@@ -26,9 +26,10 @@ like `SHIFT+`, `CTRL+`, `ALT+`, `+REP`, and `+UP`. Old .dms and
 [client.script](/ref/client/var/script.md) files (prior to version 507)
 should be updated accordingly when recompiling in a newer version.
 
-**See also:**
-+   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-+   [aliases (client script)](/ref/client/var/script/alias.md) 
-+   [command_text (client)](/ref/client/var/command_text.md) 
-+   [script var (client)](/ref/client/var/script.md) 
-+   [verbs](/ref/verb.md) 
+> [!TIP] 
+> **See also:**
+> +   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+> +   [aliases (client script)](/ref/client/var/script/alias.md) 
+> +   [command_text (client)](/ref/client/var/command_text.md) 
+> +   [script var (client)](/ref/client/var/script.md) 
+> +   [verbs](/ref/verb.md) 

@@ -26,5 +26,6 @@ OUTLINE_SQUARE
 +   Extend the outline sharply from corner pixels; for a box this will
     maintain a box shape without rounded corners
 
-**See also:**
-+   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->

@@ -16,8 +16,9 @@ image.
 
 If an icon is square, it may be flipped diagonally.
 
-**See also:**
-+   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
-+   [dir var (atom)](/ref/atom/var/dir.md) 
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
+> +   [dir var (atom)](/ref/atom/var/dir.md) 
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) <!-- -->

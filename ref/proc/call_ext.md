@@ -205,9 +205,10 @@ version, you can use `call_ext("test.dll","@byond:merge")` or
 `call_ext("test.dll","byond:@merge")` (it doesn\'t matter which order
 the prefixes go in).
 
-**See also:**
-+   [load_ext proc](/ref/proc/load_ext.md) 
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [call proc](/ref/proc/call.md) 
-+   [path operators](/ref/operator/path.md) 
-+   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 
+> [!TIP] 
+> **See also:**
+> +   [load_ext proc](/ref/proc/load_ext.md) 
+> +   [arglist proc](/ref/proc/arglist.md) 
+> +   [call proc](/ref/proc/call.md) 
+> +   [path operators](/ref/operator/path.md) 
+> +   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 

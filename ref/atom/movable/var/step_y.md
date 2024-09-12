@@ -26,10 +26,11 @@ standing on, it would need a step_y value of -8. A step_y value of 8
 takes it all the way to the top edge of the tile. Anything outside of
 the range -8 to 8 will have the atom straddling multiple turfs.
 
-**See also:**
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
-+   [bound_y var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
+> +   [bound_y var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
+> +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
+> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

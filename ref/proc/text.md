@@ -25,6 +25,7 @@ home.\",sqrt(usr.x\*\*2 + usr.y\*\*2))
 ```
 
 
-**See also:**
-+   [\<\< operator](/ref/operator/%3c%3c.md) 
-+   [macros (text)](/ref/DM/text/macros.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\<\< operator](/ref/operator/%3c%3c.md) 
+> +   [macros (text)](/ref/DM/text/macros.md) <!-- -->

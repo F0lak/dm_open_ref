@@ -53,9 +53,10 @@ matrices supported by this datum are **not** the same kind used to
 transform colors, as in the atom.color var and icon.MapColors() proc.
 For color matrices, see [color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
 
-**See also:**
-+   [matrix proc](/ref/proc/matrix.md) 
-+   [matrix operators](/ref/matrix/operators.md) 
-+   [matrix procs](/ref/matrix/proc.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) 
-+   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> [!TIP] 
+> **See also:**
+> +   [matrix proc](/ref/proc/matrix.md) 
+> +   [matrix operators](/ref/matrix/operators.md) 
+> +   [matrix procs](/ref/matrix/proc.md) 
+> +   [transform var (atom)](/ref/atom/var/transform.md) 
+> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 

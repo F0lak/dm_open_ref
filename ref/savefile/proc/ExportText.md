@@ -32,5 +32,6 @@ file(\"players/\[ckey\].txt\") F.ImportText(\"/\",txtfile) F\[ckey\]
 ```
 
 
-**See also:**
-+   [ImportText proc (savefile)](/ref/savefile/proc/ImportText.md) 
+> [!TIP] 
+> **See also:**
+> +   [ImportText proc (savefile)](/ref/savefile/proc/ImportText.md) 

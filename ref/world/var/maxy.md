@@ -17,8 +17,9 @@ New territory created by increasing
 the map boundaries is filled in with the default turf and area
 (world.turf, and world.area).
 
-**See also:**
-+   [area var (world)](/ref/world/var/area.md) 
-+   [maxx var (world)](/ref/world/var/maxx.md) 
-+   [maxz var (world)](/ref/world/var/maxz.md) 
-+   [turf var (world)](/ref/world/var/turf.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [area var (world)](/ref/world/var/area.md) 
+> +   [maxx var (world)](/ref/world/var/maxx.md) 
+> +   [maxz var (world)](/ref/world/var/maxz.md) 
+> +   [turf var (world)](/ref/world/var/turf.md) <!-- -->

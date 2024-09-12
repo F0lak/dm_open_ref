@@ -45,7 +45,8 @@ Note: This proc used to be named `findText`, like `findtext` but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.
 
-**See also:**
-+   [findtext proc](/ref/proc/findtext.md) 
-+   [replacetextEx proc](/ref/proc/replacetextEx.md) 
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> [!TIP] 
+> **See also:**
+> +   [findtext proc](/ref/proc/findtext.md) 
+> +   [replacetextEx proc](/ref/proc/replacetextEx.md) 
+> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 

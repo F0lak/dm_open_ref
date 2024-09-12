@@ -11,6 +11,7 @@
 [Command](/ref/%7Bskin%7D/commands.md) executed when the window is
 closed.
 
-**See also:**
-+   [can-close parameter](/ref/%7Bskin%7D/param/can-close.md) 
-+   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
+> [!TIP] 
+> **See also:**
+> +   [can-close parameter](/ref/%7Bskin%7D/param/can-close.md) 
+> +   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 

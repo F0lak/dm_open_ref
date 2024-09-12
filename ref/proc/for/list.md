@@ -104,8 +104,9 @@ If this format is
 used with non-associative lists, then the associated value will always
 be assigned null.
 
-**See also:**
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [list](/ref/list.md) 
-+   [list associations](/ref/list/assoc.md) 
-+   [istype](/ref/proc/istype.md) 
+> [!TIP] 
+> **See also:**
+> +   [for loop proc](/ref/proc/for/loop.md) 
+> +   [list](/ref/list.md) 
+> +   [list associations](/ref/list/assoc.md) 
+> +   [istype](/ref/proc/istype.md) 

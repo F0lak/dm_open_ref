@@ -20,7 +20,8 @@ walking, call walk(Ref,0).
 This function returns immediately,
 but continues to process in the background.
 
-**See also:**
-+   [get_step_towards proc](/ref/proc/get_step_towards.md) 
-+   [step_towards proc](/ref/proc/step_towards.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [get_step_towards proc](/ref/proc/get_step_towards.md) 
+> +   [step_towards proc](/ref/proc/step_towards.md) 
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->

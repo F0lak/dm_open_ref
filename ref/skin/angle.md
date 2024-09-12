@@ -18,6 +18,7 @@ The angle of the bar control\'s arc when its
 is north, 90 is east, and so on. `angle1` is the beginning of the arc,
 and `angle2` is the end.
 
-**See also:**
-+   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 
-+   [width parameter](/ref/%7Bskin%7D/param/width.md) 
+> [!TIP] 
+> **See also:**
+> +   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 
+> +   [width parameter](/ref/%7Bskin%7D/param/width.md) 

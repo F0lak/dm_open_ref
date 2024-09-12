@@ -31,5 +31,6 @@ usr \<\< \"Tails \-- you win!\"
 ```
 
 
-**See also:**
-+   [input proc](/ref/proc/input.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [input proc](/ref/proc/input.md) <!-- -->

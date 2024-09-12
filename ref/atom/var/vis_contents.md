@@ -45,7 +45,7 @@ to do anything else to make the block appear normal.
 
 You can
 alter some aspects of how an object behaves when in visual contents by
-changing its [vis_flags](/ref/atom/var/vis_flags.md) {.code} var. In particular
+changing its [vis_flags](/ref/atom/var/vis_flags.md)  var. In particular
 this is useful if you want an object to behave more like an overlay,
 inheriting aspects of its parent object or even acting like a part of
 that object instead of an independent one. Also this can make an object
@@ -60,8 +60,9 @@ Being in a visual contents list counts as a
 [reference](/ref/DM/garbage.md) for anything in the list, the same way that
 being on the map or inside of a movable counts as a reference.
 
-**See also:**
-+   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
-+   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
-+   [image objects](/ref/image.md) 
-+   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> [!TIP] 
+> **See also:**
+> +   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
+> +   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
+> +   [image objects](/ref/image.md) 
+> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 

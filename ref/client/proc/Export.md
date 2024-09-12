@@ -34,8 +34,9 @@ a savefile F \>\> usr //read the player\'s mob return ..()
 ```
 
 
-**See also:**
-+   [Import proc (client)](/ref/client/proc/Import.md) 
-+   [New proc (client)](/ref/client/proc/New.md) 
-+   [hub var (world)](/ref/world/var/hub.md) 
-+   [savefile](/ref/savefile.md) 
+> [!TIP] 
+> **See also:**
+> +   [Import proc (client)](/ref/client/proc/Import.md) 
+> +   [New proc (client)](/ref/client/proc/New.md) 
+> +   [hub var (world)](/ref/world/var/hub.md) 
+> +   [savefile](/ref/savefile.md) 

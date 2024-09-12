@@ -49,6 +49,7 @@ call or its results are invalid.
                                          will earn it.     
   --------------------------------------------------------------------------
 
-**See also:**
-+   [GetAPI proc (client)](/ref/client/proc/GetAPI.md) 
-+   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [GetAPI proc (client)](/ref/client/proc/GetAPI.md) 
+> +   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) <!-- -->

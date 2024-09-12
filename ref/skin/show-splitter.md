@@ -13,8 +13,9 @@
 Show a splitter if both the left and right (or top and bottom)
 panes are in use. The splitter can be dragged to resize the panes.
 
-**See also:**
-+   [left parameter](/ref/%7Bskin%7D/param/left.md) 
-+   [right parameter](/ref/%7Bskin%7D/param/right.md) 
-+   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) 
-+   [splitter parameter](/ref/%7Bskin%7D/param/splitter.md) 
+> [!TIP] 
+> **See also:**
+> +   [left parameter](/ref/%7Bskin%7D/param/left.md) 
+> +   [right parameter](/ref/%7Bskin%7D/param/right.md) 
+> +   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) 
+> +   [splitter parameter](/ref/%7Bskin%7D/param/splitter.md) 

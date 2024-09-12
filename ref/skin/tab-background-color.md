@@ -17,7 +17,8 @@ Affects the background color for tabs. The regular
 [background-color](/ref/%7Bskin%7D/param/background-color.md) is used
 for the content area.
 
-**See also:**
-+   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
-+   [tab-text-color parameter](/ref/%7Bskin%7D/param/tab-text-color.md) 
-+   [tab-font-family, tab-font-size, tab-font-style
+> [!TIP] 
+> **See also:**
+> +   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
+> +   [tab-text-color parameter](/ref/%7Bskin%7D/param/tab-text-color.md) 
+> +   [tab-font-family, tab-font-size, tab-font-style

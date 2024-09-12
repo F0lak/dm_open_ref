@@ -47,3 +47,5 @@ client/var
 +   [view](/ref/client/var/view.md) 
 +   [virtual_eye](/ref/client/var/virtual_eye.md) 
 
+> [!TIP] 
+> 

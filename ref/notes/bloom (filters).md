@@ -37,6 +37,7 @@ contributions from bloomed pixels that get added to the original image,
 so values lower than 255 can make the effect less pronounced. This can
 be very useful if you choose to animate the filter.
 
-**See also:**
-+   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-+   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
+> +   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->

@@ -10,6 +10,7 @@
 
 The color of the bar or slider.
 
-**See also:**
-+   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
-+   [is-transparent parameter](/ref/%7Bskin%7D/param/is-transparent.md) 
+> [!TIP] 
+> **See also:**
+> +   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
+> +   [is-transparent parameter](/ref/%7Bskin%7D/param/is-transparent.md) 

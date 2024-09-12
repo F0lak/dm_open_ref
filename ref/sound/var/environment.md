@@ -107,7 +107,8 @@ for any setting will select its default.
     -   64 - \'EnvSize\' affects echo time
     -   128 - \'EnvSize\' affects modulation time
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [x, y, z vars (sound)](/ref/sound/var/xyz.md) 
-+   [echo var (sound)](/ref/sound/var/echo.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) 
+> +   [x, y, z vars (sound)](/ref/sound/var/xyz.md) 
+> +   [echo var (sound)](/ref/sound/var/echo.md) <!-- -->

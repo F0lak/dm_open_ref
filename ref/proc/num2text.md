@@ -41,6 +41,7 @@ num2text(343, 0, 7) // \"1000\"
 ```
 
 
-**See also:**
-+   [isnum proc](/ref/proc/isnum.md) 
-+   [text2num proc](/ref/proc/text2num.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [isnum proc](/ref/proc/isnum.md) 
+> +   [text2num proc](/ref/proc/text2num.md) <!-- -->

@@ -12,6 +12,7 @@ Higher values will make sounds
 fade out more slowly as they get farther away. The distance of a sound
 is set by `x`, `y`, and `z`.
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [x, y, z vars (sound)](/ref/sound/var/xyz.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) 
+> +   [x, y, z vars (sound)](/ref/sound/var/xyz.md) <!-- -->

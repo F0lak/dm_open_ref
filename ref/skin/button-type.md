@@ -16,6 +16,7 @@
 
 Changes the type of button.
 
-**See also:**
-+   [group parameter](/ref/%7Bskin%7D/param/group.md) 
-+   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
+> [!TIP] 
+> **See also:**
+> +   [group parameter](/ref/%7Bskin%7D/param/group.md) 
+> +   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 

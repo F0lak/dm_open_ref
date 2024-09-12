@@ -19,6 +19,7 @@ you type:
 ```
 
 
-**See also:**
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [name var (atom)](/ref/atom/var/name.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [macros (text)](/ref/DM/text/macros.md) 
+> +   [name var (atom)](/ref/atom/var/name.md) <!-- -->

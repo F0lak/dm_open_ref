@@ -20,9 +20,10 @@ this property, a runtime error will still occur.
 Note: You should prefer the `.` operator in most situations, because
 it\'s better to catch a problem in the compiler instead of at runtime.
 
-**See also:**
-+   [. operator](/ref/operator/%2e.md) 
-+   [?. operator](/ref/operator/%3f%2e.md) 
-+   [?: operator](/ref/operator/%3f:.md) 
-+   [: path operator](/ref/operator/path/:.md) 
-+   [operators](/ref/operator.md) 
+> [!TIP] 
+> **See also:**
+> +   [. operator](/ref/operator/%2e.md) 
+> +   [?. operator](/ref/operator/%3f%2e.md) 
+> +   [?: operator](/ref/operator/%3f:.md) 
+> +   [: path operator](/ref/operator/path/:.md) 
+> +   [operators](/ref/operator.md) 

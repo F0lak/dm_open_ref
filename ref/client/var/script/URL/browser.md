@@ -34,5 +34,6 @@ You can connect to my world [here](myworld.dms).
 ```
 
 
-**See also:**
-+   [URL (client script)](/ref/client/var/script/URL.md) 
+> [!TIP] 
+> **See also:**
+> +   [URL (client script)](/ref/client/var/script/URL.md) 

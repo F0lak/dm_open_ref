@@ -25,6 +25,7 @@ To make a sound play at a different speed but keep its pitch intact, set
 `frequency` to the speed multiple you want (e.g., 1.2 for 20% faster)
 and set `pitch` to the inverse (e.g., 1/1.2).
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [pitch var (sound)](/ref/sound/var/pitch.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) 
+> +   [pitch var (sound)](/ref/sound/var/pitch.md) <!-- -->

@@ -23,6 +23,7 @@ distances.
 
 This was renamed from `pixel_step_size`.
 
-**See also:**
-+   [eye var (client)](/ref/client/var/eye.md) 
-+   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
+> [!TIP] 
+> **See also:**
+> +   [eye var (client)](/ref/client/var/eye.md) 
+> +   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 

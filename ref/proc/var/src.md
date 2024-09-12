@@ -19,7 +19,8 @@ Note that `src` has no
 meaning for global procs, derived from `/proc`, unless they are invoked
 as verbs (by being attached to a [verb list](/ref/atom/var/verbs.md) .
 
-**See also:**
-+   [usr var (proc)](/ref/proc/var/src.md) 
-+   [procs](/ref/proc.md) 
-+   [verbs](/ref/verb.md) 
+> [!TIP] 
+> **See also:**
+> +   [usr var (proc)](/ref/proc/var/src.md) 
+> +   [procs](/ref/proc.md) 
+> +   [verbs](/ref/verb.md) 

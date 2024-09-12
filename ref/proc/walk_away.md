@@ -24,7 +24,8 @@ This
 function returns immediately, but continues to process in the
 background.
 
-**See also:**
-+   [get_step_away proc](/ref/proc/get_step_away.md) 
-+   [step_away proc](/ref/proc/step_away.md) 
-+   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [get_step_away proc](/ref/proc/get_step_away.md) 
+> +   [step_away proc](/ref/proc/step_away.md) 
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->

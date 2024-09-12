@@ -56,6 +56,7 @@ stat from a user who isn\'t logged into Steam.
                                               call it for.)                           
   -----------------------------------------------------------------------------------------------------
 
-**See also:**
-+   [SetAPI proc (client)](/ref/client/proc/SetAPI.md) 
-+   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) 
+> [!TIP] 
+> **See also:**
+> +   [SetAPI proc (client)](/ref/client/proc/SetAPI.md) 
+> +   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) 

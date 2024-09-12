@@ -51,6 +51,7 @@ non-default value. The only gliding that occurs in this case is when
 client.fps is higher than world.fps. All other movement modes base
 gliding on an atom\'s `glide_size` value.
 
-**See also:**
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
-+   [animate_movement var (movable
+> [!TIP] 
+> **See also:**
+> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+> +   [animate_movement var (movable

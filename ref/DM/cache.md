@@ -20,10 +20,11 @@ possible. That means you could compile up a world, and send people the
 resource files. It is also possible to include additional supplementary
 `.rsc` files by using the `#include` statement.
 
-**See also:**
-+   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
-+   [cache_lifespan var (world)](/ref/world/var/cache_lifespan.md) 
-+   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [icons](/ref/DM/icon.md) 
-+   [sounds](/ref/DM/sound.md) 
+> [!TIP] 
+> **See also:**
+> +   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
+> +   [cache_lifespan var (world)](/ref/world/var/cache_lifespan.md) 
+> +   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
+> +   [file proc](/ref/proc/file.md) 
+> +   [icons](/ref/DM/icon.md) 
+> +   [sounds](/ref/DM/sound.md) 

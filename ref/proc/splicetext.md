@@ -40,6 +40,7 @@ are not the same thing. Use `splicetext_char()` to work with character
 counts instead of bytes, at a performance cost. See the
 [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.
 
-**See also:**
-+   [copytext proc](/ref/proc/copytext.md) 
-+   [Splice proc (list)](/ref/list/proc/Splice.md) 
+> [!TIP] 
+> **See also:**
+> +   [copytext proc](/ref/proc/copytext.md) 
+> +   [Splice proc (list)](/ref/list/proc/Splice.md) 

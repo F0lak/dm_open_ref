@@ -75,7 +75,8 @@ named arguments involve a slight amount of extra overhead, one should
 avoid them in code that is highly cpu intensive due to being called many
 many times. Otherwise, code clarity may be a bigger priority.
 
-**See also:**
-+   [New proc (atom)](/ref/atom/proc/New.md) 
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [arguments (proc)](/ref/proc/arguments.md) 
+> [!TIP] 
+> **See also:**
+> +   [New proc (atom)](/ref/atom/proc/New.md) 
+> +   [arglist proc](/ref/proc/arglist.md) 
+> +   [arguments (proc)](/ref/proc/arguments.md) 

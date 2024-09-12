@@ -12,5 +12,6 @@
 
 Wrap text that is too long for the width of the label.
 
-**See also:**
-+   [text parameter](/ref/%7Bskin%7D/param/text.md) 
+> [!TIP] 
+> **See also:**
+> +   [text parameter](/ref/%7Bskin%7D/param/text.md) 

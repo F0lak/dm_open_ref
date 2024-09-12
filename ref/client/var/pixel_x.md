@@ -7,8 +7,9 @@
 This displaces the player\'s viewpoint on the x-axis by the
 specified number of pixels. Can be animated with the animate() proc.
 
-**See also:**
-+   [glide_size var (client)](/ref/client/var/glide_size.md) 
-+   [pixel_y var (client)](/ref/client/var/pixel_y.md) 
-+   [pixel_w var (client)](/ref/client/var/pixel_w.md) 
-+   [pixel_z var (client)](/ref/client/var/pixel_z.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [glide_size var (client)](/ref/client/var/glide_size.md) 
+> +   [pixel_y var (client)](/ref/client/var/pixel_y.md) 
+> +   [pixel_w var (client)](/ref/client/var/pixel_w.md) 
+> +   [pixel_z var (client)](/ref/client/var/pixel_z.md) <!-- -->

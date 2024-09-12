@@ -37,13 +37,14 @@ completed_quests\[row\[\"quest\"\]\] = 1 return completed_quests
 ```
 
 
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [Add proc (database query)](/ref/database/query/proc/Add.md) 
-+   [Close proc (database query)](/ref/database/query/proc/Close.md) 
-+   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
-+   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-+   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
-+   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 
-+   [RowsAffected proc (database
+> [!TIP] 
+> **See also:**
+> +   [database datum](/ref/database.md) 
+> +   [database query datum](/ref/database/query.md) 
+> +   [Add proc (database query)](/ref/database/query/proc/Add.md) 
+> +   [Close proc (database query)](/ref/database/query/proc/Close.md) 
+> +   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
+> +   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
+> +   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
+> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 
+> +   [RowsAffected proc (database

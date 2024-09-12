@@ -15,7 +15,7 @@ won\'t run until you finish.
 
 No command will be sent in
 response to size or splitter changes made by
-[winset()](/ref/proc/winset.md) {.code}. 
+[winset()](/ref/proc/winset.md) . 
 
 If you include `[[*]]` in the
 command, it will be replaced by the control\'s new size. Likewise,
@@ -24,5 +24,6 @@ height. (See \"Embedded Winget\" in [client
 commands](/ref/%7Bskin%7D/commands.md) for more details on the `[[...]]`
 format.)
 
-**See also:**
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> [!TIP] 
+> **See also:**
+> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 

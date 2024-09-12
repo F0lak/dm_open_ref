@@ -16,7 +16,7 @@
 True if dragged objects may be dropped here. Default is true
 for Map, Info, and Grid controls, false for others. When in use, this
 will be the value of the `over_control` argument in
-[MouseDrop()](/ref/client/proc/MouseDrop.md) {.code} if you drop an atom here.
+[MouseDrop()](/ref/client/proc/MouseDrop.md)  if you drop an atom here.
 
 
 Grids can also add `drag-cell` and `drop-cell` to mouse proc
@@ -28,5 +28,6 @@ to/from a grid cell.
 In Info controls, `src_location` and
 `over_location` in mouse procs will be the name of the statpanel tab.
 
-**See also:**
-+   [mouse handling](/ref/DM/mouse.md) 
+> [!TIP] 
+> **See also:**
+> +   [mouse handling](/ref/DM/mouse.md) 

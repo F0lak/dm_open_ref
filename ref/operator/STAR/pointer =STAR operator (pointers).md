@@ -33,7 +33,8 @@ silently; reading will return a null value. (An exception is pointers to
 list items. If the index is out of bounds, you will get the expected
 error.)
 
-**See also:**
-+   [& pointer operator](/ref/operator/&/pointer.md) 
-+   [operators](/ref/operator.md) 
-+   [ispointer proc](/ref/proc/ispointer.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [& pointer operator](/ref/operator/&/pointer.md) 
+> +   [operators](/ref/operator.md) 
+> +   [ispointer proc](/ref/proc/ispointer.md) <!-- -->

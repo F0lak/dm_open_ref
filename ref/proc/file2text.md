@@ -22,6 +22,7 @@ shell(\"talk \< talk.in \> talk.out\") usr \<\< file2text(\"talk.out\")
 ```
 
 
-**See also:**
-+   [shell proc](/ref/proc/shell.md) 
-+   [text2file proc](/ref/proc/text2file.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [shell proc](/ref/proc/shell.md) 
+> +   [text2file proc](/ref/proc/text2file.md) <!-- -->

@@ -28,9 +28,10 @@ return length(V)
 ```
 
 
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-+   [pixloc proc](/ref/proc/pixloc.md) 
-+   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-+   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [pixloc](/ref/pixloc.md) 
+> +   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
+> +   [pixloc proc](/ref/proc/pixloc.md) 
+> +   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+> +   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) <!-- -->

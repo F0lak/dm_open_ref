@@ -14,6 +14,7 @@ decreasing the size of the list appropriately. The default end position
 of 0 stands for the position immediately after the end of the list, so
 by default the entire list is deleted.
 
-**See also:**
-+   [Copy proc (list)](/ref/list/proc/Copy.md) 
-+   [Insert proc (list)](/ref/list/proc/Insert.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Copy proc (list)](/ref/list/proc/Copy.md) 
+> +   [Insert proc (list)](/ref/list/proc/Insert.md) <!-- -->

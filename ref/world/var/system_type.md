@@ -6,7 +6,8 @@ It will be one of the following constants:
 -   MS_WINDOWS
 -   UNIX
 
-**See also:**
-+   [byond_version var (world)](/ref/world/var/byond_version.md) 
-+   [process var (world)](/ref/world/var/process.md) 
-+   [shell proc](/ref/proc/shell.md) 
+> [!TIP] 
+> **See also:**
+> +   [byond_version var (world)](/ref/world/var/byond_version.md) 
+> +   [process var (world)](/ref/world/var/process.md) 
+> +   [shell proc](/ref/proc/shell.md) 

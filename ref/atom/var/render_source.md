@@ -35,6 +35,7 @@ in the `render_source` or its children. If you want mouse clicks and
 other behavior to go to the source, use the `PASS_MOUSE` [appearance
 flag](/ref/atom/var/appearance_flags.md) 
 
-**See also:**
-+   [render_target var (atom)](/ref/atom/var/render_target.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+> [!TIP] 
+> **See also:**
+> +   [render_target var (atom)](/ref/atom/var/render_target.md) 
+> +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 

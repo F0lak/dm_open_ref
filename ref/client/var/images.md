@@ -20,6 +20,7 @@ display
 ```
 
 
-**See also:**
-+   [image objects](/ref/image.md) 
-+   [image proc](/ref/proc/image.md) 
+> [!TIP] 
+> **See also:**
+> +   [image objects](/ref/image.md) 
+> +   [image proc](/ref/proc/image.md) 

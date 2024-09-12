@@ -13,10 +13,11 @@
 is changed. 
 
 If you include `[[*]]` in the command, it will be
-replaced by the new tab\'s [id](/ref/%7Bskin%7D/param/id.md) {.code}. (See
+replaced by the new tab\'s [id](/ref/%7Bskin%7D/param/id.md) . (See
 \"Embedded Winget\" in [client commands](/ref/%7Bskin%7D/commands.md) for more
 details on the `[[...]]` format.)
 
-**See also:**
-+   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
-+   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) 
+> [!TIP] 
+> **See also:**
+> +   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
+> +   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) 

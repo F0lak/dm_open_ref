@@ -47,3 +47,5 @@ area/var
 +   [vars](/ref/datum/var/vars.md) 
 +   [verbs](/ref/atom/var/verbs.md) 
 
+> [!TIP] 
+> 

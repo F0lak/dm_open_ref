@@ -31,7 +31,8 @@ are not the same thing. Use `nonspantext_char()` to work with character
 counts instead of bytes, at a performance cost. See the
 [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.
 
-**See also:**
-+   [findtext proc](/ref/proc/findtext.md) 
-+   [spantext proc](/ref/proc/spantext.md) 
-+   [splittext proc](/ref/proc/splittext.md) 
+> [!TIP] 
+> **See also:**
+> +   [findtext proc](/ref/proc/findtext.md) 
+> +   [spantext proc](/ref/proc/spantext.md) 
+> +   [splittext proc](/ref/proc/splittext.md) 

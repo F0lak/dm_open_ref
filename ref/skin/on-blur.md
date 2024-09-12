@@ -11,6 +11,7 @@
 [Command](/ref/%7Bskin%7D/commands.md) executed when the control
 loses focus.
 
-**See also:**
-+   [focus parameter](/ref/%7Bskin%7D/param/focus.md) 
-+   [on-focus parameter](/ref/%7Bskin%7D/param/on-focus.md) 
+> [!TIP] 
+> **See also:**
+> +   [focus parameter](/ref/%7Bskin%7D/param/focus.md) 
+> +   [on-focus parameter](/ref/%7Bskin%7D/param/on-focus.md) 

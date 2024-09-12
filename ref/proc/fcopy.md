@@ -37,6 +37,7 @@ and reboot the world. It assumes that DreamMaker is in the path where
 the shell looks for executable files and also that the name of the
 running world is world.dmb.
 
-**See also:**
-+   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
-+   [shell proc](/ref/proc/shell.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
+> +   [shell proc](/ref/proc/shell.md) <!-- -->

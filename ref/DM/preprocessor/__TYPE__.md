@@ -10,8 +10,9 @@ null.
 This is actually a pseudo-macro; the preprocessor
 doesn\'t handle it directly.
 
-**See also:**
-+   [\_\_FILE\_\_ macro](/ref/DM/preprocessor/__FILE__.md) 
-+   [\_\_LINE\_\_ macro](/ref/DM/preprocessor/__LINE__.md) 
-+   [\_\_PROC\_\_ macro](/ref/DM/preprocessor/__PROC__.md) 
-+   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 
+> [!TIP] 
+> **See also:**
+> +   [\_\_FILE\_\_ macro](/ref/DM/preprocessor/__FILE__.md) 
+> +   [\_\_LINE\_\_ macro](/ref/DM/preprocessor/__LINE__.md) 
+> +   [\_\_PROC\_\_ macro](/ref/DM/preprocessor/__PROC__.md) 
+> +   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 

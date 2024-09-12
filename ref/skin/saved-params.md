@@ -14,3 +14,5 @@ level for a map.
 
 Currently not editable in Dream Maker.
 
+> [!TIP] 
+> 

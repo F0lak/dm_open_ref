@@ -17,6 +17,7 @@ One can typically tell if a player is connecting to a fresh mob
 versus reconnecting to an existing one by testing if the mob\'s location
 is null.
 
-**See also:**
-+   [Logout proc (mob)](/ref/mob/proc/Logout.md) 
-+   [client var (mob)](/ref/mob/var/client.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Logout proc (mob)](/ref/mob/proc/Logout.md) 
+> +   [client var (mob)](/ref/mob/var/client.md) <!-- -->

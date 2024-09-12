@@ -12,6 +12,7 @@
 
 The \"fullness\" of this bar/slider, as a percentage.
 
-**See also:**
-+   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider.md) 
-+   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 
+> [!TIP] 
+> **See also:**
+> +   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider.md) 
+> +   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 

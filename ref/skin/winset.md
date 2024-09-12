@@ -8,7 +8,7 @@ setting `window.location` to a special URL.
 `byond://winset?id=`*`[control ID]`*`&`*`[property]`*`=`*`[value]`*`&...`
 
 
-This works like an ordinary [winset()](/ref/proc/winset.md) {.code}
+This works like an ordinary [winset()](/ref/proc/winset.md) 
 call from the server. If `id` is omitted, it\'s the same as a winset
 with a null ID. You can also leave the `id` blank if you use \"fully
 decorated\" property names such as `mybutton.is-checked` instead of just
@@ -59,7 +59,8 @@ An optional `control`
 parameter for the winget call can be used if you want to send data to a
 callback in a different browser control.
 
-**See also:**
-+   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
-+   [winset proc](/ref/proc/winset.md) 
-+   [winget proc](/ref/proc/winget.md) 
+> [!TIP] 
+> **See also:**
+> +   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
+> +   [winset proc](/ref/proc/winset.md) 
+> +   [winget proc](/ref/proc/winget.md) 

@@ -56,12 +56,13 @@ different sizes. By default, the icons will be lined up at their
 southwest corners. You can change the position at which the second icon
 is blended.
 
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [Blend proc (icon)](/ref/icon/proc/Blend.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 
-+   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
-+   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) 
+> +   [Blend proc (icon)](/ref/icon/proc/Blend.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 
+> +   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
+> +   [Side-view maps](/ref/%7Bnotes%7D/side.md) 

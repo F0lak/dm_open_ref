@@ -50,3 +50,5 @@ mob/var
 +   [verbs](/ref/atom/var/verbs.md) 
 +   [vis_flags](/ref/atom/var/vis_flags.md) 
 
+> [!TIP] 
+> 

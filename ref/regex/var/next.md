@@ -10,9 +10,10 @@ Replace() on a non-global pattern will also store the
 index of the next place to begin a search here. The position to search
 will be based on the replaced text, which is stored in the text var.
 
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [Find proc (regex)](/ref/regex/proc/Find.md) 
-+   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
-+   [index var (regex)](/ref/regex/var/index.md) 
-+   [match var (regex)](/ref/regex/var/match.md) 
+> [!TIP] 
+> **See also:**
+> +   [regex datum](/ref/regex.md) 
+> +   [Find proc (regex)](/ref/regex/proc/Find.md) 
+> +   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
+> +   [index var (regex)](/ref/regex/var/index.md) 
+> +   [match var (regex)](/ref/regex/var/match.md) 

@@ -48,6 +48,7 @@ be parsed as a single expression, which is a different context from the
 usual use of braces in DM when you are defining a true type. Also,
 indentation inside of an argument list is always ignored anyway.
 
-**See also:**
-+   [list proc](/ref/proc/list.md) 
-+   [new proc](/ref/proc/new.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [list proc](/ref/proc/list.md) 
+> +   [new proc](/ref/proc/new.md) <!-- -->

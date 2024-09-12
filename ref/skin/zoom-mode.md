@@ -26,7 +26,8 @@ blur
 Uses bilinear sampling to upscale. This will cause a blurry appearance
 if the zoom factor is high, but it may be desired in some cases.
 
-**See also:**
-+   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
-+   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
-+   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
+> [!TIP] 
+> **See also:**
+> +   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
+> +   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
+> +   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 

@@ -20,7 +20,8 @@ If
 `letterbox` is not enabled, auto-zoom will fill all available space, and
 any excess will be cut off.
 
-**See also:**
-+   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
-+   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-+   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
+> [!TIP] 
+> **See also:**
+> +   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
+> +   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
+> +   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 

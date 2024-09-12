@@ -9,5 +9,6 @@
 **Returns:**
 +   1 if all args are valid turfs; 0 otherwise
 
-**See also:**
-+   [isloc proc](/ref/proc/isloc.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [isloc proc](/ref/proc/isloc.md) <!-- -->

@@ -7,7 +7,8 @@ regex/proc
 +   [Find](/ref/regex/proc/Find.md) 
 +   [Replace](/ref/regex/proc/Replace.md) 
 
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [regex vars](/ref/regex/var.md) 
-+   [regex proc](/ref/proc/regex.md) 
+> [!TIP] 
+> **See also:**
+> +   [regex datum](/ref/regex.md) 
+> +   [regex vars](/ref/regex/var.md) 
+> +   [regex proc](/ref/proc/regex.md) 

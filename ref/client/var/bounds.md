@@ -19,5 +19,6 @@ vars bound_x, bound_y, bound_width, and bound_height can also be used to
 retrieve the individual values from the list. They too will be null if
 the viewport is not on the map.
 
-**See also:**
-+   [bounds proc](/ref/proc/bounds.md) 
+> [!TIP] 
+> **See also:**
+> +   [bounds proc](/ref/proc/bounds.md) 

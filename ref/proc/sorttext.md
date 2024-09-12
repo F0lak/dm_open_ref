@@ -26,7 +26,8 @@ if(-1)world \<\< \"descending\" if(0) world \<\< \"neither\"
 This outputs \"ascending\", since \"A\" comes before \"B\" in
 the alphabet.
 
-**See also:**
-+   [\> operator](/ref/operator/%3e.md) 
-+   [\< operator](/ref/operator/%3c.md) 
-+   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\> operator](/ref/operator/%3e.md) 
+> +   [\< operator](/ref/operator/%3c.md) 
+> +   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->

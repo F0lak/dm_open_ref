@@ -30,8 +30,9 @@ link(\"?myTopic\") //topic
 ```
 
 
-**See also:**
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [run proc](/ref/proc/run.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [Topic proc (client)](/ref/client/proc/Topic.md) 
+> +   [file proc](/ref/proc/file.md) 
+> +   [run proc](/ref/proc/run.md) <!-- -->

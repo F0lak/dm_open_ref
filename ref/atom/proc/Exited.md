@@ -16,12 +16,13 @@
 **Default action:**
 +   None for most atoms, but turfs will call Uncrossed().
 
-**See also:**
-+   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-+   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-+   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-+   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-+   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-+   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-+   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-+   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
+> +   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
+> +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
+> +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
+> +   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
+> +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
+> +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
+> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) <!-- -->

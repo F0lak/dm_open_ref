@@ -45,6 +45,7 @@ world.realtime return ..() verb/look() set src in view() usr \<\<
 ```
 
 
-**See also:**
-+   [New proc (datum)](/ref/datum/proc/New.md) 
-+   [new proc](/ref/proc/new.md) 
+> [!TIP] 
+> **See also:**
+> +   [New proc (datum)](/ref/datum/proc/New.md) 
+> +   [new proc](/ref/proc/new.md) 

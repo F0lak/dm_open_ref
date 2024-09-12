@@ -24,5 +24,6 @@ Default alignment of text/image, both horizontal and vertical.
 A BYOND direction flag like `WEST` may be assigned to this
 parameter, or 0 for center alignment.
 
-**See also:**
-+   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md) 
+> [!TIP] 
+> **See also:**
+> +   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md) 

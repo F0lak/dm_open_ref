@@ -15,7 +15,8 @@ frame in the icon. If x2 and/or y2 are omitted, a line or a single pixel
 is drawn. To draw a transparent box instead of an opaque color, use null
 as the color.
 
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [rgb proc](/ref/proc/rgb.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) 
+> +   [rgb proc](/ref/proc/rgb.md) <!-- -->

@@ -53,5 +53,6 @@ before each item, and a line break with one fewer tab before the closing
 bracket or brace. (The special formatting for numbers like Infinity, or
 the list form for matrices, will not be given tabs and line breaks.)
 
-**See also:**
-+   [json_decode proc](/ref/proc/json_decode.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [json_decode proc](/ref/proc/json_decode.md) <!-- -->

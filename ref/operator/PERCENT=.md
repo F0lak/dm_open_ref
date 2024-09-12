@@ -14,6 +14,7 @@ use `%%=` instead to work with fractional values.
 If A is a
 vector, it will be modified by this operation.
 
-**See also:**
-+   [% operator](/ref/operator/%.md) 
-+   [operators](/ref/operator.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [% operator](/ref/operator/%.md) 
+> +   [operators](/ref/operator.md) <!-- -->

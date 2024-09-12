@@ -16,6 +16,7 @@ might want to do that, for instance, if you\'ve only got one verb (like
 ```
 
 
-**See also:**
-+   [category setting (verb)](/ref/verb/set/category.md) 
-+   [default_verb_category var
+> [!TIP] 
+> **See also:**
+> +   [category setting (verb)](/ref/verb/set/category.md) 
+> +   [default_verb_category var

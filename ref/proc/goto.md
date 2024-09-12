@@ -23,10 +23,11 @@ Normally, you\'ll want to use a construct like `while()` or `for()`
 loops, and `break` and `continue` statements. `goto` is for more complex
 situations that aren\'t readily handled by any of these.
 
-**See also:**
-+   [break statement](/ref/proc/break.md) 
-+   [continue statement](/ref/proc/continue.md) 
-+   [do proc](/ref/proc/do.md) 
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [for list proc](/ref/proc/for/list.md) 
-+   [while proc](/ref/proc/while.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [break statement](/ref/proc/break.md) 
+> +   [continue statement](/ref/proc/continue.md) 
+> +   [do proc](/ref/proc/do.md) 
+> +   [for loop proc](/ref/proc/for/loop.md) 
+> +   [for list proc](/ref/proc/for/list.md) 
+> +   [while proc](/ref/proc/while.md) <!-- -->

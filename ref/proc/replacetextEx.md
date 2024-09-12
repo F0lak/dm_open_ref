@@ -48,8 +48,9 @@ characters, byte position and character position are not the same thing.
 Use `replacetextEx_char()` to work with character counts instead of
 bytes, at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.
 
-**See also:**
-+   [findtextEx proc](/ref/proc/findtextEx.md) 
-+   [replacetext proc](/ref/proc/replacetext.md) 
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
-+   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
+> [!TIP] 
+> **See also:**
+> +   [findtextEx proc](/ref/proc/findtextEx.md) 
+> +   [replacetext proc](/ref/proc/replacetext.md) 
+> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [Replace proc (regex)](/ref/regex/proc/Replace.md) 

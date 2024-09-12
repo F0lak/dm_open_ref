@@ -19,6 +19,7 @@ displays. No color means the default
 
 In BYOND 3.0, this color was red.
 
-**See also:**
-+   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-+   [suffix-color parameter](/ref/%7Bskin%7D/param/suffix-color.md) 
+> [!TIP] 
+> **See also:**
+> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
+> +   [suffix-color parameter](/ref/%7Bskin%7D/param/suffix-color.md) 

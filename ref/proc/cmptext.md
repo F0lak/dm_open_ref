@@ -24,5 +24,6 @@ cmptextEx().
 This outputs \"Equal!\" since
 \"Hi\" and \"HI\" are the same, ignoring case.
 
-**See also:**
-+   [cmptextEx proc](/ref/proc/cmptextEx.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [cmptextEx proc](/ref/proc/cmptextEx.md) <!-- -->

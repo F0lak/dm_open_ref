@@ -10,8 +10,8 @@ vars. A movable\'s pixloc is null if it isn\'t located on a turf.
 
 
 A pixloc can be used for calculating distances, or passed to
-various procs such as [get_dir()](/ref/proc/get_dir.md) {.code} and
-[Move()](/ref/atom/movable/proc/Move.md) {.code}. 
+various procs such as [get_dir()](/ref/proc/get_dir.md)  and
+[Move()](/ref/atom/movable/proc/Move.md) . 
 
 This pixloc does not
 take bounds into account. See
@@ -30,11 +30,12 @@ vector(12,0)
 ```
 
 
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
-+   [loc var (atom)](/ref/atom/var/loc.md) 
-+   [step_x var (movable atoms)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atoms)](/ref/atom/movable/var/step_y.md) 
-+   [pixloc proc](/ref/proc/pixloc.md) 
-+   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+> [!TIP] 
+> **See also:**
+> +   [pixloc](/ref/pixloc.md) 
+> +   [loc var (atom)](/ref/atom/var/loc.md) 
+> +   [step_x var (movable atoms)](/ref/atom/movable/var/step_x.md) 
+> +   [step_y var (movable atoms)](/ref/atom/movable/var/step_y.md) 
+> +   [pixloc proc](/ref/proc/pixloc.md) 
+> +   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
+> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 

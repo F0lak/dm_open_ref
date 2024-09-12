@@ -18,5 +18,6 @@
 
 Creates a vector.
 
-**See also:**
-+   [vector](/ref/vector.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vector](/ref/vector.md) <!-- -->

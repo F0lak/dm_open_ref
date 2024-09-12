@@ -17,6 +17,7 @@ fit available space.
 This parameter has been deprecated. Use
 [zoom](/ref/%7Bskin%7D/param/zoom.md) instead.
 
-**See also:**
-+   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-+   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
+> [!TIP] 
+> **See also:**
+> +   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
+> +   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 

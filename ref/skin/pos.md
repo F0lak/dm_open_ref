@@ -15,6 +15,7 @@
 Position of this control\'s upper left corner, relative to its
 container. (Not applicable to panes.)
 
-**See also:**
-+   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) 
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> [!TIP] 
+> **See also:**
+> +   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) 
+> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 

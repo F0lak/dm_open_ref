@@ -23,8 +23,9 @@ This outputs:
 ```
 
 
-**See also:**
-+   [break statement](/ref/proc/break.md) 
-+   [continue statement](/ref/proc/continue.md) 
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [while proc](/ref/proc/while.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [break statement](/ref/proc/break.md) 
+> +   [continue statement](/ref/proc/continue.md) 
+> +   [for loop proc](/ref/proc/for/loop.md) 
+> +   [while proc](/ref/proc/while.md) <!-- -->

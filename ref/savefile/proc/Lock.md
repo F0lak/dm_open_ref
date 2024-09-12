@@ -37,6 +37,7 @@ If you are using Lock(), then you probably also want to
 specify a timeout when you open the savefile, since that too can fail
 due to the file being locked by another process.
 
-**See also:**
-+   [New proc (savefile)](/ref/savefile/proc/New.md) 
-+   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [New proc (savefile)](/ref/savefile/proc/New.md) 
+> +   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->

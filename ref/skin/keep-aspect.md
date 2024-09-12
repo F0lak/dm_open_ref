@@ -13,6 +13,7 @@
 
 If stretching a background image, preserve its aspect ratio.
 
-**See also:**
-+   [image parameter](/ref/%7Bskin%7D/param/image.md) 
-+   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 
+> [!TIP] 
+> **See also:**
+> +   [image parameter](/ref/%7Bskin%7D/param/image.md) 
+> +   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 

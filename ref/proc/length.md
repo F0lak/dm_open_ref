@@ -47,5 +47,6 @@ work with character counts instead of bytes. See the
 For vectors, the length is the magnitude of the vector. See
 [vector.len](/ref/vector/var/len.md).
 
-**See also:**
-+   [vector](/ref/vector.md) 
+> [!TIP] 
+> **See also:**
+> +   [vector](/ref/vector.md) 

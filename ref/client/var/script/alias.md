@@ -33,7 +33,8 @@ Note that commands executed via an alias are never interpreted
 as aliases. Otherwise, examples such as the one above would result in an
 infinite loop.
 
-**See also:**
-+   [macros (client script)](/ref/client/var/script/macro.md) 
-+   [script var (client)](/ref/client/var/script.md) 
-+   [verbs](/ref/verb.md) 
+> [!TIP] 
+> **See also:**
+> +   [macros (client script)](/ref/client/var/script/macro.md) 
+> +   [script var (client)](/ref/client/var/script.md) 
+> +   [verbs](/ref/verb.md) 

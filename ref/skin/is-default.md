@@ -23,7 +23,8 @@ Changing this
 value at runtime should be avoided, especially for windows. Results may
 be unpredictable.
 
-**See also:**
-+   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-+   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
-+   [type parameter](/ref/%7Bskin%7D/param/type.md) 
+> [!TIP] 
+> **See also:**
+> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+> +   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
+> +   [type parameter](/ref/%7Bskin%7D/param/type.md) 

@@ -12,5 +12,6 @@ pixloc/var
 +   [y](/ref/pixloc/var/y.md) 
 +   [z](/ref/pixloc/var/z.md) 
 
-**See also:**
-+   [pixloc](/ref/pixloc.md) 
+> [!TIP] 
+> **See also:**
+> +   [pixloc](/ref/pixloc.md) 

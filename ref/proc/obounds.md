@@ -18,5 +18,6 @@
 The results from obounds() are identical to bounds(), but
 obounds() leaves Ref out of the results.
 
-**See also:**
-+   [bounds proc](/ref/proc/bounds.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [bounds proc](/ref/proc/bounds.md) <!-- -->

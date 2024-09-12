@@ -19,6 +19,7 @@ color means the default
 
 In BYOND 3.0, this color was blue.
 
-**See also:**
-+   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-+   [prefix-color parameter](/ref/%7Bskin%7D/param/prefix-color.md) 
+> [!TIP] 
+> **See also:**
+> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
+> +   [prefix-color parameter](/ref/%7Bskin%7D/param/prefix-color.md) 

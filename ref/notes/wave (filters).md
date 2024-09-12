@@ -56,5 +56,6 @@ Up to 10 waves can
 be stacked together in a single pass of the filter, as long as they have
 the same `WAVE_BOUNDED` flags.
 
-**See also:**
-+   [Ripple (filters)](/ref/%7Bnotes%7D/filters/ripple.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Ripple (filters)](/ref/%7Bnotes%7D/filters/ripple.md) <!-- -->

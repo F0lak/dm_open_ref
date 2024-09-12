@@ -33,5 +33,6 @@ usr.Move(get_step(usr,NORTH), NORTH)
 ```
 
 
-**See also:**
-+   [settings (verb)](/ref/verb/set.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [settings (verb)](/ref/verb/set.md) <!-- -->

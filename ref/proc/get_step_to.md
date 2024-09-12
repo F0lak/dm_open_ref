@@ -20,7 +20,8 @@ of `Trg`, no step is computed. This is also true if the target is too
 far away (more than twice `world.view` steps). In either case, null is
 returned.
 
-**See also:**
-+   [step_to proc](/ref/proc/step_to.md) 
-+   [walk_to proc](/ref/proc/walk_to.md) 
-+   [get_steps_to proc](/ref/proc/get_steps_to.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [step_to proc](/ref/proc/step_to.md) 
+> +   [walk_to proc](/ref/proc/walk_to.md) 
+> +   [get_steps_to proc](/ref/proc/get_steps_to.md) <!-- -->

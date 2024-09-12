@@ -17,7 +17,8 @@ If y
 is omitted, x is used for both. E.g., Scale(2) is equivalent to
 Scale(2,2).
 
-**See also:**
-+   [matrix](/ref/matrix.md) 
-+   [matrix operators](/ref/matrix/operators.md) 
-+   [matrix procs](/ref/matrix/proc.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [matrix](/ref/matrix.md) 
+> +   [matrix operators](/ref/matrix/operators.md) 
+> +   [matrix procs](/ref/matrix/proc.md) <!-- -->

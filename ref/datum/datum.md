@@ -28,22 +28,23 @@ subtypes, and may or may not be able to allow var and proc overrides.
   -------------------------------------------------------------------------------------------------------------------------------------
   Type                             User-defined      Can override                                            Notes
   -------------------------------- ----------------- ------------------------------------------------------- --------------------------
-  [/world](/ref/world.md) {.code}         procs only        vars and procs                                          
-  [/client](/ref/client.md) {.code}       vars and procs    vars and procs                                          can manually set
+  [/world](/ref/world.md)          procs only        vars and procs                                          
+  [/client](/ref/client.md)        vars and procs    vars and procs                                          can manually set
                                                                                                              `parent_type=/datum`\
                                                                                                              can\'t be created in
-                                                                                                             [new](/ref/proc/new.md) {.code}
-  [/list](/ref/list.md) {.code}           \-                \-                                                      
-  [/savefile](/ref/savefile.md) {.code}   \-                [byond_version](/ref/savefile/var/byond_version.md) {.code}\   
-                                                     [byond_build](/ref/savefile/var/byond_build.md) {.code}        
-  [/alist](/ref/alist.md) {.code}         \-                \-                                                      
-  [/pixloc](/ref/pixloc.md) {.code}       \-                \-                                                      
-  [/vector](/ref/vector.md) {.code}       \-                \-                                                      
-  [/callee](/ref/pixloc.md) {.code}       \-                \-                                                      can\'t be created in
+                                                                                                             [new](/ref/proc/new.md) 
+  [/list](/ref/list.md)            \-                \-                                                      
+  [/savefile](/ref/savefile.md)    \-                [byond_version](/ref/savefile/var/byond_version.md) \   
+                                                     [byond_build](/ref/savefile/var/byond_build.md)         
+  [/alist](/ref/alist.md)          \-                \-                                                      
+  [/pixloc](/ref/pixloc.md)        \-                \-                                                      
+  [/vector](/ref/vector.md)        \-                \-                                                      
+  [/callee](/ref/pixloc.md)        \-                \-                                                      can\'t be created in
                                                                                                              [new](/ref/proc/new.md)
   -------------------------------------------------------------------------------------------------------------------------------------
 
-**See also:**
-+   [atom](/ref/atom.md) 
-+   [procs (datum)](/ref/datum/proc.md) 
-+   [vars (datum)](/ref/datum/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [atom](/ref/atom.md) 
+> +   [procs (datum)](/ref/datum/proc.md) 
+> +   [vars (datum)](/ref/datum/var.md) 

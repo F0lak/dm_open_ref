@@ -15,5 +15,6 @@ Resetting this var to null after it has contained a particle
 set will cause any existing particles on this object to immiediately
 disappear.
 
-**See also:**
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> [!TIP] 
+> **See also:**
+> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 

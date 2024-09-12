@@ -14,8 +14,9 @@ usr \<\< tan(90) // infinity (or close enough)
 ```
 
 
-**See also:**
-+   [arctan proc](/ref/proc/arctan.md) 
-+   [cos proc](/ref/proc/cos.md) 
-+   [sin proc](/ref/proc/sin.md) 
-+   [turn proc](/ref/proc/turn.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [arctan proc](/ref/proc/arctan.md) 
+> +   [cos proc](/ref/proc/cos.md) 
+> +   [sin proc](/ref/proc/sin.md) 
+> +   [turn proc](/ref/proc/turn.md) <!-- -->

@@ -11,8 +11,9 @@
 **Returns:**
 +   A time value that can be sent to time2text().
 
-**See also:**
-+   [time2text proc](/ref/proc/time2text.md) 
-+   [flist proc](/ref/proc/flist.md) 
-+   [fexists proc](/ref/proc/fexists.md) 
-+   [length proc](/ref/proc/length.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [time2text proc](/ref/proc/time2text.md) 
+> +   [flist proc](/ref/proc/flist.md) 
+> +   [fexists proc](/ref/proc/fexists.md) 
+> +   [length proc](/ref/proc/length.md) <!-- -->

@@ -12,3 +12,5 @@ location. In other words, this loc variable does not behave like
 like the image is on top of the specified object. If the object moves,
 the image will automatically move around with it.
 
+> [!TIP] 
+> 

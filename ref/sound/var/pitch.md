@@ -33,6 +33,7 @@ music.frequency music.status \|= SOUND_UPDATE src \<\< music
 ```
 
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) 
-+   [frequency var (sound)](/ref/sound/var/frequency.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) 
+> +   [frequency var (sound)](/ref/sound/var/frequency.md) <!-- -->

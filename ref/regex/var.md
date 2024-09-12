@@ -11,7 +11,8 @@ regex/var
 +   [next](/ref/regex/var/next.md) 
 +   [text](/ref/regex/var/text.md) 
 
-**See also:**
-+   [regex datum](/ref/regex.md) 
-+   [regex procs](/ref/regex/proc.md) 
-+   [regex proc](/ref/proc/regex.md) 
+> [!TIP] 
+> **See also:**
+> +   [regex datum](/ref/regex.md) 
+> +   [regex procs](/ref/regex/proc.md) 
+> +   [regex proc](/ref/proc/regex.md) 

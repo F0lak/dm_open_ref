@@ -16,6 +16,7 @@
 The color used for links. In some controls [visited
 links](/ref/%7Bskin%7D/param/visited-color.md) may have a different color.
 
-**See also:**
-+   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-+   [visited-color parameter](/ref/%7Bskin%7D/param/visited-color.md) 
+> [!TIP] 
+> **See also:**
+> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
+> +   [visited-color parameter](/ref/%7Bskin%7D/param/visited-color.md) 

@@ -19,7 +19,8 @@ If
 [is-list](/ref/%7Bskin%7D/param/is-list.md) is true, this value can be
 set to a single number.
 
-**See also:**
-+   [cell-span parameter](/ref/%7Bskin%7D/param/cell-span.md) 
-+   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell.md) 
-+   [is-list parameter](/ref/%7Bskin%7D/param/is-list.md) 
+> [!TIP] 
+> **See also:**
+> +   [cell-span parameter](/ref/%7Bskin%7D/param/cell-span.md) 
+> +   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell.md) 
+> +   [is-list parameter](/ref/%7Bskin%7D/param/is-list.md) 

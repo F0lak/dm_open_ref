@@ -18,12 +18,10 @@ import cProfile
   - parses the file names and relative paths from the string
   - cleans up the file path and file names to prep for writing to disk
   - reformats the strings from html to markdown
-  - cleans up the markdown for the following criteria:
-   - fix links to other files
-   - removes empty lines
+  - cleans up the markdown for display on github.com
   - writes the files to disk, mimicking the tree that the original reference uses
   
-  After that, you're left with a big ol' tree of markdown files that you can do what you want with.
+  After that, you're left with a big ol' tree of files that you can do what you want with.
 	
  (I'm a humble cook, not a programmer, so my apologies if the code isn't up to snuff!)
 """
@@ -127,7 +125,8 @@ def move_see_also(text) -> str:
 		i = i + 1
 	if end_index:
 		replacement_text = text[start_index:end_index]
-		text = text.replace(replacement_text, "") + f"\n\n{replacement_text}"
+		tiptext = replacement_text.replace("\n", "\n> ")
+		text = text.replace(replacement_text, "") + f"\n\n> [!TIP] \n> {tiptext}"
 		#text = text.join(lines)
   
 	return text
@@ -143,6 +142,7 @@ def clean_markdown_file(text) -> str:
 		text = text.replace("CODE_TICKS", "\n```\n")
 		text = text.replace("NOTE", "\n> [!NOTE]\n> ")
 		text = text.replace(" .code}", "")
+		text = text.replace("{.code}", "")
 		text = move_see_also(text)
 		return text
 

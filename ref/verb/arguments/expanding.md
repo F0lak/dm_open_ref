@@ -24,5 +24,6 @@ return values
 ```
 
 
-**See also:**
-+   [arguments (verb)](/ref/verb/arguments.md) 
+> [!TIP] 
+> **See also:**
+> +   [arguments (verb)](/ref/verb/arguments.md) 

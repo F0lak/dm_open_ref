@@ -13,5 +13,6 @@ tot
 Here, `add()` may be called with any number of
 arguments, each accessed through the `args` list.
 
-**See also:**
-+   [list](/ref/list.md) 
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) 

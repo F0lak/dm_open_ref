@@ -19,8 +19,9 @@ same way that being a movable\'s loc does not count as a reference. If
 an object in this list otherwise runs out of references, it will be
 garbage collected and therefore removed from this list.
 
-**See also:**
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
-+   [image objects](/ref/image.md) 
-+   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> [!TIP] 
+> **See also:**
+> +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
+> +   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
+> +   [image objects](/ref/image.md) 
+> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 

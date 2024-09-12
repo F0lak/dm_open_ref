@@ -13,5 +13,6 @@
 When output(object,grid) is sent, show smaller icons in this
 control instead of larger ones.
 
-**See also:**
-+   [show-names parameter](/ref/%7Bskin%7D/param/show-names.md) 
+> [!TIP] 
+> **See also:**
+> +   [show-names parameter](/ref/%7Bskin%7D/param/show-names.md) 

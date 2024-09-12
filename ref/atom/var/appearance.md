@@ -60,7 +60,8 @@ If you set
 `atom.appearance` to another atom, the other atom\'s appearance will be
 copied.
 
-**See also:**
-+   [vars (atom)](/ref/atom/var.md) 
-+   [mutable appearance](/ref/mutable_appearance.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars (atom)](/ref/atom/var.md) 
+> +   [mutable appearance](/ref/mutable_appearance.md) 
+> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

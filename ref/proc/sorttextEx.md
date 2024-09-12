@@ -32,7 +32,8 @@ Note: This proc used to be named `sortText`, like `sorttext` but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.
 
-**See also:**
-+   [\> operator](/ref/operator/%3e.md) 
-+   [\< operator](/ref/operator/%3c.md) 
-+   [sorttext proc](/ref/proc/sorttext.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\> operator](/ref/operator/%3e.md) 
+> +   [\< operator](/ref/operator/%3c.md) 
+> +   [sorttext proc](/ref/proc/sorttext.md) <!-- -->

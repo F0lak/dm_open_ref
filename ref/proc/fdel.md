@@ -16,5 +16,6 @@ directory. Any contents (including sub-directories) are deleted as well.
 
 Be careful!
 
-**See also:**
-+   [shell proc](/ref/proc/shell.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [shell proc](/ref/proc/shell.md) <!-- -->

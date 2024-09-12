@@ -9,6 +9,7 @@
 **Returns:**
 +   1 if all args are valid mobs; 0 otherwise
 
-**See also:**
-+   [isloc proc](/ref/proc/isloc.md) 
-+   [ismovable proc](/ref/proc/ismovable.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [isloc proc](/ref/proc/isloc.md) 
+> +   [ismovable proc](/ref/proc/ismovable.md) <!-- -->

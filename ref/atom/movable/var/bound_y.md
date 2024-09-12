@@ -21,12 +21,13 @@ Example: A 16×16
 smiley face centered in a 32×32 icon should have a bound_y value of 8,
 since there are 8 pixels of empty space below.
 
-**See also:**
-+   [icon_z var (atom)](/ref/atom/var/icon_z.md) 
-+   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-+   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
-+   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
-+   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-+   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-+   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-+   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icon_z var (atom)](/ref/atom/var/icon_z.md) 
+> +   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+> +   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+> +   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+> +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+> +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
+> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->

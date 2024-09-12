@@ -16,8 +16,9 @@ enough to tick at a higher rate.
 The `map_cpu` var is a subset
 of this, measuring only time used for sending map information.
 
-**See also:**
-+   [map_cpu var (world)](/ref/world/var/map_cpu.md) 
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
-+   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
-+   [Tick proc (world)](/ref/world/proc/Tick.md) 
+> [!TIP] 
+> **See also:**
+> +   [map_cpu var (world)](/ref/world/var/map_cpu.md) 
+> +   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
+> +   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
+> +   [Tick proc (world)](/ref/world/proc/Tick.md) 

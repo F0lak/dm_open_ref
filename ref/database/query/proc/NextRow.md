@@ -17,10 +17,11 @@ about the results in this row.
 Call Reset() if you want to
 rewind the query to the beginning.
 
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-+   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
-+   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-+   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [database datum](/ref/database.md) 
+> +   [database query datum](/ref/database/query.md) 
+> +   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
+> +   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
+> +   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
+> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->

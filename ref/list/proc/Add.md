@@ -10,7 +10,8 @@
 Appends the specified items to the list. If an argument is
 itself a list, each item in the list will be added.
 
-**See also:**
-+   [+ operator](/ref/operator/+.md) 
-+   [Remove proc (list)](/ref/list/proc/Remove.md) 
-+   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [+ operator](/ref/operator/+.md) 
+> +   [Remove proc (list)](/ref/list/proc/Remove.md) 
+> +   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->

@@ -10,7 +10,8 @@ deliver the exact number of 1/10 second ticks. It usually rounds off to
 the nearest several seconds. For more accurate readings use
 `world.timeofday`.
 
-**See also:**
-+   [time var (world)](/ref/world/var/time.md) 
-+   [timeofday var (world)](/ref/world/var/timeofday.md) 
-+   [time2text proc](/ref/proc/time2text.md) 
+> [!TIP] 
+> **See also:**
+> +   [time var (world)](/ref/world/var/time.md) 
+> +   [timeofday var (world)](/ref/world/var/timeofday.md) 
+> +   [time2text proc](/ref/proc/time2text.md) 

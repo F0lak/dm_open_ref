@@ -16,7 +16,7 @@
     like part of the same object.
 +   **VIS_UNDERLAY**: Act as if this is at the bottom of the parent\'s
     underlays list instead of overlays (only relevant if using
-    `VIS_INHERIT_LAYER` or a [FLOAT_LAYER](/ref/atom/var/layer.md) {.code}).
+    `VIS_INHERIT_LAYER` or a [FLOAT_LAYER](/ref/atom/var/layer.md) ).
 +   **VIS_HIDE**: Do not show this object in visual contents at all.
 
 
@@ -45,6 +45,7 @@ of their container that appears during gliding. E.g., if your mob is
 walking, anything in its visual contents that uses these flags will use
 a moving icon state instead of a non-moving icon state, when available.
 
-**See also:**
-+   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-+   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
+> [!TIP] 
+> **See also:**
+> +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
+> +   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 

@@ -26,8 +26,9 @@ matrix to transform it.
   \- (unary)                 Negate the value, same as multiplying by -1.
   turn(), generator.Turn()   Rotate a vector clockwise in the XY plane.
 
-**See also:**
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-+   [generator proc](/ref/proc/generator.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> [!TIP] 
+> **See also:**
+> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> +   [generator proc](/ref/proc/generator.md) 
+> +   [color var (atom)](/ref/atom/var/color.md) 
+> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 

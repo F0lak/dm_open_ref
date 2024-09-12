@@ -6,7 +6,8 @@ is basically identical to `world.realtime` but doesn\'t include any
 information about the date. This is a much smaller number; hence it is
 more accurate.
 
-**See also:**
-+   [realtime var (world)](/ref/world/var/realtime.md) 
-+   [time var (world)](/ref/world/var/time.md) 
-+   [time2text proc](/ref/proc/time2text.md) 
+> [!TIP] 
+> **See also:**
+> +   [realtime var (world)](/ref/world/var/realtime.md) 
+> +   [time var (world)](/ref/world/var/time.md) 
+> +   [time2text proc](/ref/proc/time2text.md) 

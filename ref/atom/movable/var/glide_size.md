@@ -40,5 +40,6 @@ be `glide_size/4`.
 
 This was renamed from `pixel_step_size`.
 
-**See also:**
-+   [animate_movement var (movable
+> [!TIP] 
+> **See also:**
+> +   [animate_movement var (movable

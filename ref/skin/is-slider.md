@@ -13,5 +13,6 @@
 Make this an adjustable slider capable of being changed by the
 user, instead of a progress bar.
 
-**See also:**
-+   [value parameter](/ref/%7Bskin%7D/param/value.md) 
+> [!TIP] 
+> **See also:**
+> +   [value parameter](/ref/%7Bskin%7D/param/value.md) 

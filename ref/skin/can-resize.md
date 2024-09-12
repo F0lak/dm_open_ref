@@ -18,8 +18,9 @@ If
 represents the state of the window when `is-fullscreen` is turned off
 again.
 
-**See also:**
-+   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
-+   [can-minimize parameter](/ref/%7Bskin%7D/param/can-minimize.md) 
-+   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
-+   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) 
+> [!TIP] 
+> **See also:**
+> +   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
+> +   [can-minimize parameter](/ref/%7Bskin%7D/param/can-minimize.md) 
+> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
+> +   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) 

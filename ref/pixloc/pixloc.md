@@ -15,22 +15,23 @@ center, use the [`bound_pixloc()` proc](/ref/proc/bound_pixloc.md)  for that.
 
 Pixlocs support some math operations. A [vector](/ref/vector.md)  can
 be added or subtracted to a pixloc, and subtracting one pixloc from
-another will produce a vector. The [%](/ref/operator/%.md) {.code} and
-[%%](/ref/operator/%%.md) {.code} operators are supported, returning a vector.
+another will produce a vector. The [%](/ref/operator/%.md)  and
+[%%](/ref/operator/%%.md)  operators are supported, returning a vector.
 
 
 Other supported procs for pixlocs include:
-[min()](/ref/proc/min.md) {.code}
-[max()](/ref/proc/max.md) {.code}
-[clamp()](/ref/proc/clamp.md) {.code}
-[round()](/ref/proc/round.md) {.code}
-[floor()](/ref/proc/floor.md) {.code}
-[ceil()](/ref/proc/ceil.md) {.code}
-[trunc()](/ref/proc/trunc.md) {.code}
+[min()](/ref/proc/min.md) 
+[max()](/ref/proc/max.md) 
+[clamp()](/ref/proc/clamp.md) 
+[round()](/ref/proc/round.md) 
+[floor()](/ref/proc/floor.md) 
+[ceil()](/ref/proc/ceil.md) 
+[trunc()](/ref/proc/trunc.md) 
 [fract()](/ref/proc/fract.md) (returns a vector)
 
-**See also:**
-+   [vars (pixloc)](/ref/pixloc/var.md) 
-+   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-+   [pixloc proc](/ref/proc/pixloc.md) 
-+   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars (pixloc)](/ref/pixloc/var.md) 
+> +   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
+> +   [pixloc proc](/ref/proc/pixloc.md) 
+> +   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 

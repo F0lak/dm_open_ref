@@ -51,3 +51,5 @@ to output in grid controls:
 -   There will always be a 1-pixel space for grid lines, whether
     they\'re shown or not.
 
+> [!TIP] 
+> 

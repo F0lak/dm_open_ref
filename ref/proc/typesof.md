@@ -33,6 +33,7 @@ typesof(/mob/admin_commands/verb)
 ```
 
 
-**See also:**
-+   [istype proc](/ref/proc/istype.md) 
-+   [locate proc](/ref/proc/locate.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [istype proc](/ref/proc/istype.md) 
+> +   [locate proc](/ref/proc/locate.md) <!-- -->

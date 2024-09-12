@@ -44,9 +44,10 @@ map control where it appears. This is because each map is rendered
 separately.
 :::
 
-**See also:**
-+   [render_source var (atom)](/ref/atom/var/render_source.md) 
-+   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [filters var (atom)](/ref/atom/var/filters.md) 
-+   [transform var (atom)](/ref/atom/var/transform.md) 
+> [!TIP] 
+> **See also:**
+> +   [render_source var (atom)](/ref/atom/var/render_source.md) 
+> +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+> +   [color var (atom)](/ref/atom/var/color.md) 
+> +   [filters var (atom)](/ref/atom/var/filters.md) 
+> +   [transform var (atom)](/ref/atom/var/transform.md) 

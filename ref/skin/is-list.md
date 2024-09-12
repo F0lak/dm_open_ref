@@ -13,6 +13,7 @@
 True if the grid is used for a flexible list of items; the
 number of columns and rows may change to fit them.
 
-**See also:**
-+   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
-+   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell.md) 
+> [!TIP] 
+> **See also:**
+> +   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
+> +   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell.md) 

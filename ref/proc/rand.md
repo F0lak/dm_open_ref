@@ -11,8 +11,9 @@
 +   L: A number for the lower-bound.
 +   H: A number for the upper-bound.
 
-**See also:**
-+   [pick proc](/ref/proc/pick.md) 
-+   [prob proc](/ref/proc/prob.md) 
-+   [rand_seed proc](/ref/proc/rand_seed.md) 
-+   [roll proc](/ref/proc/roll.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [pick proc](/ref/proc/pick.md) 
+> +   [prob proc](/ref/proc/prob.md) 
+> +   [rand_seed proc](/ref/proc/rand_seed.md) 
+> +   [roll proc](/ref/proc/roll.md) <!-- -->

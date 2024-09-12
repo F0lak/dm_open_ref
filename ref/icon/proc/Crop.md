@@ -25,10 +25,11 @@ now appears in the lower left corner icon = I
 ```
 
 
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [map_format var (world)](/ref/world/var/icon_size.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [map_format var (world)](/ref/world/var/icon_size.md) 
+> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> +   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->

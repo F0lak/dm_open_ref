@@ -38,8 +38,9 @@ volume=50) // play an explosion at half volume
 [\*See **Notes** under [sound support](/ref/DM/sound.md) for more
 information.]{.small}
 
-**See also:**
-+   [sound datum](/ref/sound.md) 
-+   [vars (sound)](/ref/sound/var.md) 
-+   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
-+   [load_resource proc](/ref/proc/load_resource.md) 
+> [!TIP] 
+> **See also:**
+> +   [sound datum](/ref/sound.md) 
+> +   [vars (sound)](/ref/sound/var.md) 
+> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [load_resource proc](/ref/proc/load_resource.md) 

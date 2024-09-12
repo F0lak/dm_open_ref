@@ -48,7 +48,7 @@ where the action happened, such as `"mappane.map"` or
 `"mainwindow.banner"`. 
 
 The `params` argument is text, and can
-be converted to a list using [params2list()](/ref/proc/params2list.md) {.code}.
+be converted to a list using [params2list()](/ref/proc/params2list.md) .
 It may contain any of the following properties, which will only be set
 if they are used:
 -   icon-x, icon-y: Pixel coordinates within the icon, in the icon\'s
@@ -109,3 +109,5 @@ differently. In old versions, only the button used in the action (left,
 middle, right) was included as a parameter; now all buttons being held
 or changed are included, and `button` is the mouse button that changed.
 
+> [!TIP] 
+> 

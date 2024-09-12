@@ -12,5 +12,6 @@
 **Default action:**
 +   Calls src.Move() towards the southwest.
 
-**See also:**
-+   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Move proc (client)](/ref/client/proc/Move.md) <!-- -->

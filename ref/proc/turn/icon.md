@@ -24,6 +24,7 @@ square will not be turned.
 If the icon is an /icon datum, a new
 datum will be created as the result.
 
-**See also:**
-+   [turn proc](/ref/proc/turn.md) 
-+   [icon](/ref/icon.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [turn proc](/ref/proc/turn.md) 
+> +   [icon](/ref/icon.md) <!-- -->

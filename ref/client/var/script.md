@@ -58,6 +58,7 @@ are automatically executed if the player connects directly to a world
 without using a connection script to do so. The intention is to load any
 standard configurations such as style sheets and command aliases.
 
-**See also:**
-+   [#include directive](/ref/DM/preprocessor/include.md) 
-+   [PASSWORD_TRIGGER (client
+> [!TIP] 
+> **See also:**
+> +   [#include directive](/ref/DM/preprocessor/include.md) 
+> +   [PASSWORD_TRIGGER (client

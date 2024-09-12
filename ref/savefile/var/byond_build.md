@@ -28,8 +28,9 @@ from BYOND build 1601 onward
 ```
 
 
-**See also:**
-+   [savefile](/ref/savefile.md) 
-+   [byond_version var (savefile)](/ref/savefile/var/byond_version.md) 
-+   [byond_version var (world)](/ref/world/var/byond_version.md) 
-+   [byond_build var (world)](/ref/world/var/byond_build.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [savefile](/ref/savefile.md) 
+> +   [byond_version var (savefile)](/ref/savefile/var/byond_version.md) 
+> +   [byond_version var (world)](/ref/world/var/byond_version.md) 
+> +   [byond_build var (world)](/ref/world/var/byond_build.md) <!-- -->

@@ -13,5 +13,6 @@ file F2 = new(\"myfile\") // open \"myfile\" world \<\< \"F1.name =
 ```
 
 
-**See also:**
-+   [savefile](/ref/savefile.md) 
+> [!TIP] 
+> **See also:**
+> +   [savefile](/ref/savefile.md) 

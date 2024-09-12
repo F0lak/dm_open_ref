@@ -12,8 +12,9 @@
 The [macro name](/ref/%7Bskin%7D/macros.md) (e.g., \"SOUTH\") of a
 key combo, Dpad, mouse button, etc. that this macro maps to.
 
-**See also:**
-+   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-+   [command parameter](/ref/%7Bskin%7D/param/command.md) 
-+   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-+   [name parameter](/ref/%7Bskin%7D/param/name.md) 
+> [!TIP] 
+> **See also:**
+> +   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+> +   [command parameter](/ref/%7Bskin%7D/param/command.md) 
+> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+> +   [name parameter](/ref/%7Bskin%7D/param/name.md) 

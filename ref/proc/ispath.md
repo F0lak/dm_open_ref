@@ -20,5 +20,6 @@ if(ispath(M)) //true if(ispath(new/mob)) //false
 ```
 
 
-**See also:**
-+   [typesof proc](/ref/proc/typesof.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [typesof proc](/ref/proc/typesof.md) <!-- -->

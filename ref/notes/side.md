@@ -30,17 +30,18 @@ above--- is considered to be 64x64, so you would need `pixel_y=64` or
 `step_y=64` to offset by a whole tile. This adjustment does not apply to
 screen objects, `pixel_w`, or `pixel_z`.
 
-**See also:**
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [dir var (client)](/ref/client/var/dir.md) 
-+   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
-+   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
-+   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
-+   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
-+   [HUD](/ref/%7Bnotes%7D/HUD.md) 
-+   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
-+   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
-+   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) 
+> [!TIP] 
+> **See also:**
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [dir var (client)](/ref/client/var/dir.md) 
+> +   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
+> +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
+> +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> +   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
+> +   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
+> +   [HUD](/ref/%7Bnotes%7D/HUD.md) 
+> +   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
+> +   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
+> +   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) 

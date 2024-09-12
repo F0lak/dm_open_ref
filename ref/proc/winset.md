@@ -77,7 +77,7 @@ Because many characters
 need to be specially encoded for winsets, it\'s best to either use the
 list format of `winset()` which handles that encoding for you. If you
 want to use the string form, like `winset(usr, null, "command=XYZ")`,
-then you should use [url_encode()](/ref/proc/url_encode.md) {.code} to encode
+then you should use [url_encode()](/ref/proc/url_encode.md)  to encode
 your command.
 #### browser-options {#browser-options byondver="516"}
 
@@ -103,7 +103,7 @@ zoom
 Ctrl with the + or - keys can zoom the browser, and Ctrl+0 can reset it.
 byondstorage
 ❌
-Enables [byondStorage](/ref/%7Bskin%7D/control/browser/byondStorage.md) {.code}
+Enables [byondStorage](/ref/%7Bskin%7D/control/browser/byondStorage.md) 
 access.
 ### Example:
 
@@ -121,10 +121,11 @@ list of options.
 Browser options are shared across all browser
 controls.
 
-**See also:**
-+   [winclone proc](/ref/proc/winclone.md) 
-+   [winexists proc](/ref/proc/winexists.md) 
-+   [winget proc](/ref/proc/winget.md) 
-+   [winshow proc](/ref/proc/winshow.md) 
-+   [User interface skins](/ref/%7Bskin%7D.md) 
-+   [parameters (skin)](/ref/%7Bskin%7D/param.md) 
+> [!TIP] 
+> **See also:**
+> +   [winclone proc](/ref/proc/winclone.md) 
+> +   [winexists proc](/ref/proc/winexists.md) 
+> +   [winget proc](/ref/proc/winget.md) 
+> +   [winshow proc](/ref/proc/winshow.md) 
+> +   [User interface skins](/ref/%7Bskin%7D.md) 
+> +   [parameters (skin)](/ref/%7Bskin%7D/param.md) 

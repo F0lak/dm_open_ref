@@ -26,19 +26,20 @@ E.g., adding a 2D and 3D vector produces a 3D vector.
 
 Other
 supported procs for vectors include:
-[min()](/ref/proc/min.md) {.code}
-[max()](/ref/proc/max.md) {.code}
-[clamp()](/ref/proc/clamp.md) {.code}
-[round()](/ref/proc/round.md) {.code}
-[floor()](/ref/proc/floor.md) {.code}
-[ceil()](/ref/proc/ceil.md) {.code}
-[trunc()](/ref/proc/trunc.md) {.code}
+[min()](/ref/proc/min.md) 
+[max()](/ref/proc/max.md) 
+[clamp()](/ref/proc/clamp.md) 
+[round()](/ref/proc/round.md) 
+[floor()](/ref/proc/floor.md) 
+[ceil()](/ref/proc/ceil.md) 
+[trunc()](/ref/proc/trunc.md) 
 [fract()](/ref/proc/fract.md)
 
-**See also:**
-+   [vector proc](/ref/proc/vector.md) 
-+   [procs (vector)](/ref/vector/proc.md) 
-+   [vars (vector)](/ref/vector/var.md) 
-+   [pixloc](/ref/pixloc.md) 
-+   [operators](/ref/operator.md) 
-+   [matrix](/ref/matrix.md) 
+> [!TIP] 
+> **See also:**
+> +   [vector proc](/ref/proc/vector.md) 
+> +   [procs (vector)](/ref/vector/proc.md) 
+> +   [vars (vector)](/ref/vector/var.md) 
+> +   [pixloc](/ref/pixloc.md) 
+> +   [operators](/ref/operator.md) 
+> +   [matrix](/ref/matrix.md) 

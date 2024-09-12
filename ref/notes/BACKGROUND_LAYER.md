@@ -31,11 +31,12 @@ Images or overlays with
 `FLOAT_LAYER` can be left alone. They will automatically have the same
 layer as whatever atom they are attached to.
 
-**See also:**
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [plane var (atom)](/ref/atom/var/plane.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
-+   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md) 
-+   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> [!TIP] 
+> **See also:**
+> +   [layer var (atom)](/ref/atom/var/layer.md) 
+> +   [plane var (atom)](/ref/atom/var/plane.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
+> +   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/TOPDOWN_LAYER.md) 
+> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 

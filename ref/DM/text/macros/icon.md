@@ -81,8 +81,9 @@ appear in an HTML document, use [browse_rsc()](/ref/proc/browse_rsc.md)  to
 send an icon to the client before using [browse()](/ref/proc/browse.md) to
 display it.
 
-**See also:**
-+   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [style sheets](/ref/DM/text/style.md) 
-+   [tags (text)](/ref/DM/text/tags.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
+> +   [macros (text)](/ref/DM/text/macros.md) 
+> +   [style sheets](/ref/DM/text/style.md) 
+> +   [tags (text)](/ref/DM/text/tags.md) 

@@ -25,5 +25,6 @@ returned.
 Note: Prior to BYOND 515, `get_dist()` never returned
 a value greater than 127, which it counted as \"infinite\".
 
-**See also:**
-+   [bounds_dist proc](/ref/proc/bounds_dist.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [bounds_dist proc](/ref/proc/bounds_dist.md) <!-- -->

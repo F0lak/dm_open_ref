@@ -28,6 +28,7 @@ Note that for security reasons,
 reading this variable at runtime will return a hashed version of the
 value that was set.
 
-**See also:**
-+   [hub var (world)](/ref/world/var/hub.md) 
-+   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [hub var (world)](/ref/world/var/hub.md) 
+> +   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->

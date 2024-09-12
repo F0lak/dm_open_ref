@@ -15,7 +15,8 @@ atom.color var, you can apply color conversions other than the regular
 RGBA color space, depending on the value of `space`. See [Color
 space](/ref/%7B%7Bappendix%7D%7D/color-space.md) for more information.
 
-**See also:**
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
-+   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+> [!TIP] 
+> **See also:**
+> +   [color var (atom)](/ref/atom/var/color.md) 
+> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> +   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 

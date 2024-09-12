@@ -15,8 +15,9 @@ N.Login()). Setting the mob\'s key has the same effect.
 Additional vars, procs, and verbs may be added to the client in
 order to give the player properties that are independent of the mob.
 
-**See also:**
-+   [client var (mob)](/ref/mob/var/client.md) 
-+   [key var (mob)](/ref/mob/var/key.md) 
-+   [procs (client)](/ref/client/proc.md) 
-+   [vars (client)](/ref/client/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [client var (mob)](/ref/mob/var/client.md) 
+> +   [key var (mob)](/ref/mob/var/key.md) 
+> +   [procs (client)](/ref/client/proc.md) 
+> +   [vars (client)](/ref/client/var.md) 

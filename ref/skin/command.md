@@ -19,5 +19,6 @@ follows this command. If your command starts with an exclamation point
 `!`, everything after the `!` is shown as a default prompt that may be
 cleared by the user.
 
-**See also:**
-+   [client commands](/ref/%7Bskin%7D/commands.md) 
+> [!TIP] 
+> **See also:**
+> +   [client commands](/ref/%7Bskin%7D/commands.md) 

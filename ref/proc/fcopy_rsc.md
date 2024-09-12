@@ -28,8 +28,9 @@ storing references to resource files in your own data structures and you
 want to ensure that all values are converted to cache entries so they
 may be directly compared to one another.
 
-**See also:**
-+   [cache](/ref/DM/cache.md) 
-+   [fcopy proc](/ref/proc/fcopy.md) 
-+   [file proc](/ref/proc/file.md) 
-+   [load_resource proc](/ref/proc/load_resource.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [cache](/ref/DM/cache.md) 
+> +   [fcopy proc](/ref/proc/fcopy.md) 
+> +   [file proc](/ref/proc/file.md) 
+> +   [load_resource proc](/ref/proc/load_resource.md) <!-- -->

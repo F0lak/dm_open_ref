@@ -19,7 +19,8 @@ The [Output control](/ref/%7Bskin%7D/control/output.md)  behaves
 differently for legacy reasons, unless
 [legacy-size](/ref/%7Bskin%7D/param/legacy-size.md) is false.
 
-**See also:**
-+   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
-+   [font-style parameter](/ref/%7Bskin%7D/param/font-style.md) 
-+   [tab-font-family, tab-font-size, tab-font-style
+> [!TIP] 
+> **See also:**
+> +   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
+> +   [font-style parameter](/ref/%7Bskin%7D/param/font-style.md) 
+> +   [tab-font-family, tab-font-size, tab-font-style

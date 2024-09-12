@@ -16,5 +16,6 @@ show/hide it.
 
 Currently not editable in Dream Maker.
 
-**See also:**
-+   [on-show parameter](/ref/%7Bskin%7D/param/on-show.md) 
+> [!TIP] 
+> **See also:**
+> +   [on-show parameter](/ref/%7Bskin%7D/param/on-show.md) 

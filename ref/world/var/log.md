@@ -22,6 +22,7 @@ Dream Daemon that does this.)
 ```
 
 
-**See also:**
-+   [file proc](/ref/proc/file.md) 
-+   [startup proc](/ref/proc/startup.md) 
+> [!TIP] 
+> **See also:**
+> +   [file proc](/ref/proc/file.md) 
+> +   [startup proc](/ref/proc/startup.md) 

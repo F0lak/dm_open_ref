@@ -14,7 +14,8 @@
 Movable atoms are either objs or mobs, so this combines the
 `isobj` and `ismob` tests into a single proc.
 
-**See also:**
-+   [isloc proc](/ref/proc/isloc.md) 
-+   [isobj proc](/ref/proc/isobj.md) 
-+   [ismob proc](/ref/proc/ismob.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [isloc proc](/ref/proc/isloc.md) 
+> +   [isobj proc](/ref/proc/isobj.md) 
+> +   [ismob proc](/ref/proc/ismob.md) <!-- -->

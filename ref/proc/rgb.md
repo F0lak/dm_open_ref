@@ -73,13 +73,14 @@ valid in `rgb()` are:
 With the exception of `space`, only the first letter of the
 argument name matters, so `r` and `red` are the same thing.
 
-**See also:**
-+   [rgb2num proc](/ref/proc/rgb2num.md) 
-+   [gradient proc](/ref/proc/gradient.md) 
-+   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
-+   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
-+   [color var (atom)](/ref/atom/var/color.md) 
-+   [Blend proc (icon)](/ref/icon/proc/Blend.md) 
-+   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
-+   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) 
-+   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> [!TIP] 
+> **See also:**
+> +   [rgb2num proc](/ref/proc/rgb2num.md) 
+> +   [gradient proc](/ref/proc/gradient.md) 
+> +   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+> +   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
+> +   [color var (atom)](/ref/atom/var/color.md) 
+> +   [Blend proc (icon)](/ref/icon/proc/Blend.md) 
+> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> +   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) 
+> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 

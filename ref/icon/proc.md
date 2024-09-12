@@ -19,5 +19,6 @@ icon/proc
 +   [Width](/ref/icon/proc/Width.md) 
 +   [Height](/ref/icon/proc/Height.md) 
 
-**See also:**
-+   [icon](/ref/icon.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon](/ref/icon.md) 

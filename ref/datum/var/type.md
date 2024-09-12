@@ -10,3 +10,5 @@ type //displays \"/mob\"
 ```
 
 
+> [!TIP] 
+> 

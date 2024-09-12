@@ -81,10 +81,11 @@ as defined in this article. This applies even to subtypes, like
 `image()`. You can\'t meaningfully customize the arguments in `New()`
 for images.
 
-**See also:**
-+   [\<\< operator](/ref/operator/%3c%3c.md) 
-+   [del proc](/ref/proc/del.md) 
-+   [icon](/ref/icon.md) 
-+   [image objects](/ref/image.md) 
-+   [images var (client)](/ref/client/var/images.md) 
-+   [overlays var (atom)](/ref/atom/var/overlays.md) 
+> [!TIP] 
+> **See also:**
+> +   [\<\< operator](/ref/operator/%3c%3c.md) 
+> +   [del proc](/ref/proc/del.md) 
+> +   [icon](/ref/icon.md) 
+> +   [image objects](/ref/image.md) 
+> +   [images var (client)](/ref/client/var/images.md) 
+> +   [overlays var (atom)](/ref/atom/var/overlays.md) 

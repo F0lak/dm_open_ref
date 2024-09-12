@@ -10,5 +10,6 @@
 **Returns:**
 +   1 if object has such a proc or verb; 0 otherwise
 
-**See also:**
-+   [call proc](/ref/proc/call.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [call proc](/ref/proc/call.md) <!-- -->

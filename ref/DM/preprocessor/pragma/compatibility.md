@@ -17,7 +17,8 @@ generate a warning.
  A value of 0 or anything
 negative will reset the compatibility version to the default.
 
-**See also:**
-+   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-+   [warn/ignore/error directive](/ref/DM/preprocessor/warn.md) 
-+   [DM_VERSION macro](/ref/DM/preprocessor/DM_VERSION.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
+> +   [warn/ignore/error directive](/ref/DM/preprocessor/warn.md) 
+> +   [DM_VERSION macro](/ref/DM/preprocessor/DM_VERSION.md) <!-- -->

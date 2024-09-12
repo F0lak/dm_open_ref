@@ -20,7 +20,8 @@ datum, it is blended with B which can be either a color or another icon.
 Unlike the + or & operation, the result is transparent only in places
 where both icons were transparent.
 
-**See also:**
-+   [& operator](/ref/operator/&.md) 
-+   [operators](/ref/operator.md) 
-+   [\|= operator](/ref/operator/%7C=.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [& operator](/ref/operator/&.md) 
+> +   [operators](/ref/operator.md) 
+> +   [\|= operator](/ref/operator/%7C=.md) <!-- -->

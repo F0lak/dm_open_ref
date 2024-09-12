@@ -108,5 +108,6 @@ internally, but if an error happens they\'ll throw a `ByondExtException`
 for you to catch. This replaces the more cumbersome approach of checking
 if the return value is false and then calling `Byond_LastError()`.
 
-**See also:**
-+   [call_ext() proc](/ref/proc/call_ext.md) 
+> [!TIP] 
+> **See also:**
+> +   [call_ext() proc](/ref/proc/call_ext.md) 

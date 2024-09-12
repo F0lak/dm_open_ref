@@ -11,7 +11,8 @@
 Use this to prevent a verb from showing up in the popup
 \"context\" menu when users right-click on objects.
 
-**See also:**
-+   [category setting (verb)](/ref/verb/set/category.md) 
-+   [hidden setting (verb)](/ref/verb/set/hidden.md) 
-+   [invisibility setting (verb)](/ref/verb/set/invisibility.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [category setting (verb)](/ref/verb/set/category.md) 
+> +   [hidden setting (verb)](/ref/verb/set/hidden.md) 
+> +   [invisibility setting (verb)](/ref/verb/set/invisibility.md) <!-- -->

@@ -36,6 +36,7 @@ load_ext(\"my_lib\", \"byond:OutputToLog\") call_ext(logfunc)(msg)
 ```
 
 
-**See also:**
-+   [call_ext proc](/ref/proc/call_ext.md) 
-+   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 
+> [!TIP] 
+> **See also:**
+> +   [call_ext proc](/ref/proc/call_ext.md) 
+> +   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 

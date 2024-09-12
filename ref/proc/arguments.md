@@ -24,8 +24,9 @@ Note how the variable type may be specified. It is just like
 any other variable definition, except \"`var/`\" is implicit and does
 not need to be typed.
 
-**See also:**
-+   [named arguments (proc)](/ref/proc/arguments/named.md) 
-+   [path operators](/ref/operator/path.md) 
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [args var (proc)](/ref/proc/var/args.md) 
+> [!TIP] 
+> **See also:**
+> +   [named arguments (proc)](/ref/proc/arguments/named.md) 
+> +   [path operators](/ref/operator/path.md) 
+> +   [arglist proc](/ref/proc/arglist.md) 
+> +   [args var (proc)](/ref/proc/var/args.md) 

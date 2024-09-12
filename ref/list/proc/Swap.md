@@ -34,7 +34,8 @@ orange -\> 3
 Note: This proc doesn\'t work with many
 special lists such as `contents` or `overlays`.
 
-**See also:**
-+   [Cut proc (list)](/ref/list/proc/Cut.md) 
-+   [Copy proc (list)](/ref/list/proc/Copy.md) 
-+   [Insert proc (list)](/ref/list/proc/Insert.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Cut proc (list)](/ref/list/proc/Cut.md) 
+> +   [Copy proc (list)](/ref/list/proc/Copy.md) 
+> +   [Insert proc (list)](/ref/list/proc/Insert.md) <!-- -->

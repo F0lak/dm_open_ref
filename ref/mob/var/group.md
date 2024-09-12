@@ -35,6 +35,7 @@ Here is an example of a verb accessible to a group:
 ```
 
 
-**See also:**
-+   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
-+   [list](/ref/list.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
+> +   [list](/ref/list.md) <!-- -->

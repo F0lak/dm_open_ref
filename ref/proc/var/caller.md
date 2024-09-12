@@ -20,6 +20,7 @@ for(var/callee/p = caller, p, p = p.caller) world.log \<\< \" \[p.type\]
 ```
 
 
-**See also:**
-+   [callee](/ref/callee.md) 
-+   [callee var (proc)](/ref/proc/var/callee.md) 
+> [!TIP] 
+> **See also:**
+> +   [callee](/ref/callee.md) 
+> +   [callee var (proc)](/ref/proc/var/callee.md) 

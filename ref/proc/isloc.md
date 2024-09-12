@@ -16,3 +16,5 @@ For a single argument this is
 equivalent to:
 `(ismob(Loc) || isobj(Loc) || isturf(Loc) || isarea(Loc))`.
 
+> [!TIP] 
+> 

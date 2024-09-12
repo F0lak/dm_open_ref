@@ -19,5 +19,6 @@ src.loc = locate(myturf)
 T is changed from a text
 string to the equivalent type path, or null if there is no such type.
 
-**See also:**
-+   [ispath proc](/ref/proc/ispath.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [ispath proc](/ref/proc/ispath.md) <!-- -->

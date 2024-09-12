@@ -9,6 +9,7 @@ server runs overtime during a tick (because procs take longer than
 tick_lag to finish) this still only counts as one tick. This value is
 therefore a measure of \"game time\" rather than real time.
 
-**See also:**
-+   [realtime var (world)](/ref/world/var/realtime.md) 
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
+> [!TIP] 
+> **See also:**
+> +   [realtime var (world)](/ref/world/var/realtime.md) 
+> +   [tick_lag var (world)](/ref/world/var/tick_lag.md) 

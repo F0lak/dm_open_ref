@@ -12,6 +12,7 @@
 ```
 
 
-**See also:**
-+   [log proc](/ref/proc/log.md) 
-+   [operators](/ref/operator.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [log proc](/ref/proc/log.md) 
+> +   [operators](/ref/operator.md) <!-- -->

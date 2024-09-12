@@ -23,5 +23,6 @@ specified path are listed (ie not the contents of the sub-directories
 too). The file names in the list do not include the path information but
 just the bare file name.
 
-**See also:**
-+   [fexists proc](/ref/proc/fexists.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [fexists proc](/ref/proc/fexists.md) <!-- -->

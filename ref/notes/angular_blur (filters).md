@@ -27,7 +27,8 @@ increase accuracy by breaking up large sizes into multiple filter passes
 with differing sizes. The blur used is Gaussian, so combining blur sizes
 A and B will give a total size of sqrt(A^2^+B^2^).
 
-**See also:**
-+   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-+   [Radial blur (filters)](/ref/%7Bnotes%7D/filters/radial_blur.md) 
-+   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
+> +   [Radial blur (filters)](/ref/%7Bnotes%7D/filters/radial_blur.md) 
+> +   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) <!-- -->

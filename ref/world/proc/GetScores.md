@@ -94,8 +94,9 @@ and hub_password by adding these as extra arguments, but this is not
 recommended for security reasons. If you use this feature, it should
 only be on games that cannot be downloaded by the public.
 
-**See also:**
-+   [SetScores proc (world)](/ref/world/proc/SetScores.md) 
-+   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
-+   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
-+   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [SetScores proc (world)](/ref/world/proc/SetScores.md) 
+> +   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
+> +   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
+> +   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) <!-- -->

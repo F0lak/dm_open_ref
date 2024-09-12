@@ -19,7 +19,8 @@ database/query/proc
 +   [Reset](/ref/database/query/proc/Reset.md) 
 +   [RowsAffected](/ref/database/query/proc/RowsAffected.md) 
 
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [procs (database)](/ref/database/proc.md) 
+> [!TIP] 
+> **See also:**
+> +   [database datum](/ref/database.md) 
+> +   [database query datum](/ref/database/query.md) 
+> +   [procs (database)](/ref/database/proc.md) 

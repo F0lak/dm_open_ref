@@ -15,7 +15,8 @@ before the next tick begins. Therefore in a verb, `tick_usage` might
 have a higher value than you would expect to see in a proc that loops
 and sleeps.
 
-**See also:**
-+   [cpu var (world)](/ref/world/var/cpu.md) 
-+   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
-+   [Tick proc (world)](/ref/world/proc/Tick.md) 
+> [!TIP] 
+> **See also:**
+> +   [cpu var (world)](/ref/world/var/cpu.md) 
+> +   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
+> +   [Tick proc (world)](/ref/world/proc/Tick.md) 

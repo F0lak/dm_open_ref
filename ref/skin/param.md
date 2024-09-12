@@ -2,7 +2,7 @@
 
 
 Controls can be interacted with via
-[winset()](/ref/proc/winset.md) {.code} and [winget()](/ref/proc/winset.md) {.code} to
+[winset()](/ref/proc/winset.md)  and [winget()](/ref/proc/winset.md)  to
 change or read various parameters. 
 
 Parameters come in a few
@@ -25,3 +25,5 @@ Note: In any parameter\'s \"Applies to\" section, \"all\"
 refers to positionable controls only, not Macro or Menu controls. Macro
 and Menu will be listed separately if supported.
 
+> [!TIP] 
+> 

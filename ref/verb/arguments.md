@@ -76,8 +76,9 @@ type will be used to determine whether it is a mob, obj, turf, or area.
 This example defines a verb with two
 arguments: a target mob, and some text.
 
-**See also:**
-+   [argument expanding](/ref/verb/arguments/expanding.md) 
-+   [command_text (client)](/ref/client/var/command_text.md) 
-+   [arglist proc](/ref/proc/arglist.md) 
-+   [args var (verb)](/ref/verb/var/args.md) 
+> [!TIP] 
+> **See also:**
+> +   [argument expanding](/ref/verb/arguments/expanding.md) 
+> +   [command_text (client)](/ref/client/var/command_text.md) 
+> +   [arglist proc](/ref/proc/arglist.md) 
+> +   [args var (verb)](/ref/verb/var/args.md) 

@@ -16,7 +16,8 @@ information.
 
 Call Execute() to run the query.
 
-**See also:**
-+   [database datum](/ref/database.md) 
-+   [database query datum](/ref/database/query.md) 
-+   [Add proc (database query)](/ref/database/query/proc/Add.md) 
+> [!TIP] 
+> **See also:**
+> +   [database datum](/ref/database.md) 
+> +   [database query datum](/ref/database/query.md) 
+> +   [Add proc (database query)](/ref/database/query/proc/Add.md) 

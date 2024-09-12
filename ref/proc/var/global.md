@@ -15,5 +15,6 @@ usr \<\< myvar usr \<\< global.myvar
 This example
 outputs \"local\" and then \"global\".
 
-**See also:**
-+   [src var (proc)](/ref/proc/var/src.md) 
+> [!TIP] 
+> **See also:**
+> +   [src var (proc)](/ref/proc/var/src.md) 

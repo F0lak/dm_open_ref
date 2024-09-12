@@ -48,17 +48,18 @@ in view(src) return target
 Currently the only
 purpose for using the `as` clause is for situations where the compiler
 needs to infer the type of an expression. Mainly this applies to the
-[.](/ref/operator/%2e.md) {.code} and [?.](/ref/operator/%3f%2e.md) operators
+[.](/ref/operator/%2e.md)  and [?.](/ref/operator/%3f%2e.md) operators
 in an expression such as `GetTarget()?.Attack(src)`. Giving
 `GetTarget()` a return type allows the compiler to check if `Attack()`
 is a valid proc for `/mob/player`. Otherwise, the `.` and `?.` operators
 act like `:` and `?:`, respectively; the compiler won\'t do any checking
 to see if `Attack()` is valid.
 
-**See also:**
-+   [vars (procs)](/ref/proc/var.md) 
-+   [arguments (proc)](/ref/proc/arguments.md) 
-+   [procs (area)](/ref/area/proc.md) 
-+   [procs (mob)](/ref/mob/proc.md) 
-+   [procs (obj)](/ref/obj/proc.md) 
-+   [procs (turf)](/ref/turf/proc.md) 
+> [!TIP] 
+> **See also:**
+> +   [vars (procs)](/ref/proc/var.md) 
+> +   [arguments (proc)](/ref/proc/arguments.md) 
+> +   [procs (area)](/ref/area/proc.md) 
+> +   [procs (mob)](/ref/mob/proc.md) 
+> +   [procs (obj)](/ref/obj/proc.md) 
+> +   [procs (turf)](/ref/turf/proc.md) 

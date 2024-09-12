@@ -14,6 +14,7 @@
 
 The color used for visited links.
 
-**See also:**
-+   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-+   [link-color parameter](/ref/%7Bskin%7D/param/link-color.md) 
+> [!TIP] 
+> **See also:**
+> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
+> +   [link-color parameter](/ref/%7Bskin%7D/param/link-color.md) 

@@ -17,3 +17,5 @@ this control.
 Info and Tab controls: Show tabs in multiple rows
 if there are too many to fit in a single row.
 
+> [!TIP] 
+> 

@@ -35,6 +35,7 @@ the list.
 Calling List.Join(Glue,Start,End) is the same thing,
 as long as List is a valid list.
 
-**See also:**
-+   [splittext proc](/ref/proc/splittext.md) 
-+   [Join proc (list)](/ref/list/proc/Join.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [splittext proc](/ref/proc/splittext.md) 
+> +   [Join proc (list)](/ref/list/proc/Join.md) <!-- -->

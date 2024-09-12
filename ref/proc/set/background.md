@@ -43,6 +43,7 @@ is executed. However, *background processing is only interrupted at loop
 points in the code*, so the above code is safe. It would only ever be
 interrupted at the end of the `for` or `while` loops.
 
-**See also:**
-+   [sleep proc](/ref/proc/sleep.md) 
-+   [spawn proc](/ref/proc/spawn.md) 
+> [!TIP] 
+> **See also:**
+> +   [sleep proc](/ref/proc/sleep.md) 
+> +   [spawn proc](/ref/proc/spawn.md) 

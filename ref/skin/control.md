@@ -49,12 +49,12 @@
 
 Controls can be created or deleted at runtime. (Only controls
 you created during runtime may be deleted.) To create a control, call
-[winset()](/ref/proc/winset.md) {.code} using the
-[id](/ref/%7Bskin%7D/param/id.md) {.code} of the new control, and the parameter
-list should include [type](/ref/%7Bskin%7D/param/type.md) {.code},
-[parent](/ref/%7Bskin%7D/param/parent.md) {.code}, and probably also
-[pos](/ref/%7Bskin%7D/param/pos.md) {.code},
-[size](/ref/%7Bskin%7D/param/size.md) {.code}, and any
+[winset()](/ref/proc/winset.md)  using the
+[id](/ref/%7Bskin%7D/param/id.md)  of the new control, and the parameter
+list should include [type](/ref/%7Bskin%7D/param/type.md) ,
+[parent](/ref/%7Bskin%7D/param/parent.md) , and probably also
+[pos](/ref/%7Bskin%7D/param/pos.md) ,
+[size](/ref/%7Bskin%7D/param/size.md) , and any
 [anchors](/ref/%7Bskin%7D/param/anchor.md) . 
 
 To delete the control
@@ -62,8 +62,10 @@ again, set its `parent` to a blank value.
 
 Menu items and macros
 work similarly, except they have no positional info. For those, the
-[name](/ref/%7Bskin%7D/param/name.md) {.code} parameter is important when you
+[name](/ref/%7Bskin%7D/param/name.md)  parameter is important when you
 create them, and you will either need
-[command](/ref/%7Bskin%7D/param/command.md) {.code} or (for macros)
+[command](/ref/%7Bskin%7D/param/command.md)  or (for macros)
 [map-to](/ref/%7Bskin%7D/param/map-to.md) to do anything with them.
 
+> [!TIP] 
+> 

@@ -12,5 +12,6 @@
 +   T: A text string.
 Use [length()](/ref/proc/length.md) instead.
 
-**See also:**
-+   [length proc](/ref/proc/length.md) 
+> [!TIP] 
+> **See also:**
+> +   [length proc](/ref/proc/length.md) 

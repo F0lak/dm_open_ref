@@ -9,10 +9,11 @@
 
 This is identical to the != operator.
 
-**See also:**
-+   [!= operator](/ref/operator/!=.md) 
-+   [\> operator](/ref/operator/%3e.md) 
-+   [\< operator](/ref/operator/%3c.md) 
-+   [== operator](/ref/operator/==.md) 
-+   [operators](/ref/operator.md) 
-+   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [!= operator](/ref/operator/!=.md) 
+> +   [\> operator](/ref/operator/%3e.md) 
+> +   [\< operator](/ref/operator/%3c.md) 
+> +   [== operator](/ref/operator/==.md) 
+> +   [operators](/ref/operator.md) 
+> +   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->

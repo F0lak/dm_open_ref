@@ -14,9 +14,10 @@
     the variable. Variables marked tmp, global, or const and variables
     which are equal to their initial value are skipped.
 
-**See also:**
-+   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
-+   [Read proc (datum)](/ref/datum/proc/Read.md) 
-+   [initial proc](/ref/proc/initial.md) 
-+   [issaved proc](/ref/proc/issaved.md) 
-+   [tmp vars](/ref/var/tmp.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+> +   [Read proc (datum)](/ref/datum/proc/Read.md) 
+> +   [initial proc](/ref/proc/initial.md) 
+> +   [issaved proc](/ref/proc/issaved.md) 
+> +   [tmp vars](/ref/var/tmp.md) <!-- -->

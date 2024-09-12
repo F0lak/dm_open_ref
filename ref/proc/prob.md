@@ -9,8 +9,9 @@
 **Args:**
 +   P: A number.
 
-**See also:**
-+   [pick proc](/ref/proc/pick.md) 
-+   [rand proc](/ref/proc/rand.md) 
-+   [rand_seed proc](/ref/proc/rand_seed.md) 
-+   [roll proc](/ref/proc/roll.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [pick proc](/ref/proc/pick.md) 
+> +   [rand proc](/ref/proc/rand.md) 
+> +   [rand_seed proc](/ref/proc/rand_seed.md) 
+> +   [roll proc](/ref/proc/roll.md) <!-- -->

@@ -38,8 +38,9 @@ the list. If `End` comes before `Start`, the two values are swapped.
 Note: This proc doesn\'t work with many special lists such as
 `contents` or `overlays`.
 
-**See also:**
-+   [Copy proc (list)](/ref/list/proc/Copy.md) 
-+   [Cut proc (list)](/ref/list/proc/Cut.md) 
-+   [Insert proc (list)](/ref/list/proc/Insert.md) 
-+   [splicetext proc](/ref/proc/splicetext.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Copy proc (list)](/ref/list/proc/Copy.md) 
+> +   [Cut proc (list)](/ref/list/proc/Cut.md) 
+> +   [Insert proc (list)](/ref/list/proc/Insert.md) 
+> +   [splicetext proc](/ref/proc/splicetext.md) <!-- -->

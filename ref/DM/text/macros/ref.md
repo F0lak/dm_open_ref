@@ -82,9 +82,10 @@ dir=*DIR*
 frame=*N*
 +   Choose the Nth animation frame in an animated icon
 
-**See also:**
-+   [Topic proc (client)](/ref/client/proc/Topic.md) 
-+   [icon text macro](/ref/DM/text/macros/icon.md) 
-+   [locate proc](/ref/proc/locate.md) 
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [tag var (datum)](/ref/datum/var/tag.md) 
+> [!TIP] 
+> **See also:**
+> +   [Topic proc (client)](/ref/client/proc/Topic.md) 
+> +   [icon text macro](/ref/DM/text/macros/icon.md) 
+> +   [locate proc](/ref/proc/locate.md) 
+> +   [macros (text)](/ref/DM/text/macros.md) 
+> +   [tag var (datum)](/ref/datum/var/tag.md) 

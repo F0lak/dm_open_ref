@@ -19,6 +19,7 @@ Affects the text color for tabs. The regular
 [text-color](/ref/%7Bskin%7D/param/text-color.md) is used for the
 content area.
 
-**See also:**
-+   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-+   [tab-background-color
+> [!TIP] 
+> **See also:**
+> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
+> +   [tab-background-color

@@ -19,7 +19,8 @@ text is passed through params2list() to generate the world.params list.
 This example displays the value of
 each parameter.
 
-**See also:**
-+   [list associations](/ref/list/associations.md) 
-+   [params2list proc](/ref/proc/params2list.md) 
-+   [startup proc](/ref/proc/startup.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [list associations](/ref/list/associations.md) 
+> +   [params2list proc](/ref/proc/params2list.md) 
+> +   [startup proc](/ref/proc/startup.md) <!-- -->

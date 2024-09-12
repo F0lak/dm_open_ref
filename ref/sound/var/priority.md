@@ -7,5 +7,6 @@
 Sounds with higher priority may steal channels from sounds of
 lower priority. The maximum value is 255. 0 is the lowest.
 
-**See also:**
-+   [vars (sound)](/ref/sound/var.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [vars (sound)](/ref/sound/var.md) <!-- -->

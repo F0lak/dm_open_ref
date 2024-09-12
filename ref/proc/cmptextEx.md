@@ -30,5 +30,6 @@ Note: This proc used to be named cmpText, like cmptext but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.
 
-**See also:**
-+   [cmptext proc](/ref/proc/cmptext.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [cmptext proc](/ref/proc/cmptext.md) <!-- -->

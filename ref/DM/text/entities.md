@@ -23,7 +23,8 @@ When using numbered entities, you can put an `x` in front of
 the number to use hexadecimal. For instance `&#x26;`, `&#38;`, and
 `&amp;` are all equivalent.
 
-**See also:**
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [tags (text)](/ref/DM/text/tags.md) 
-+   [text](/ref/DM/text.md) 
+> [!TIP] 
+> **See also:**
+> +   [macros (text)](/ref/DM/text/macros.md) 
+> +   [tags (text)](/ref/DM/text/tags.md) 
+> +   [text](/ref/DM/text.md) 

@@ -75,5 +75,6 @@ than counting a lot of characters going forward.
 Code written in ANSI will be up-converted to UTF-8 by Dream
 Maker, based on your current locale when the code is loaded.
 
-**See also:**
-+   [text](/ref/DM/text.md) 
+> [!TIP] 
+> **See also:**
+> +   [text](/ref/DM/text.md) 

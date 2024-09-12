@@ -68,10 +68,11 @@ piglatin.Replace(msg, /proc/word2piglatin)
 ```
 
 
-**See also:**
-+   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
-+   [regex datum](/ref/regex.md) 
-+   [Find proc (regex)](/ref/regex/proc/Find.md) 
-+   [regex vars](/ref/regex/var.md) 
-+   [regex proc](/ref/proc/regex.md) 
-+   [replacetext proc](/ref/proc/replacetext.md) 
+> [!TIP] 
+> **See also:**
+> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [regex datum](/ref/regex.md) 
+> +   [Find proc (regex)](/ref/regex/proc/Find.md) 
+> +   [regex vars](/ref/regex/var.md) 
+> +   [regex proc](/ref/proc/regex.md) 
+> +   [replacetext proc](/ref/proc/replacetext.md) 

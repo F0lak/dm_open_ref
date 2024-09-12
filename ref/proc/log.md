@@ -23,5 +23,6 @@ increases, with a slope that continuously tapers off. In other words, it
 can be useful to represent diminishing returns from some input, such as
 money, experience points, and so forth.
 
-**See also:**
-+   [\*\* operator](/ref/operator/**.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [\*\* operator](/ref/operator/**.md) <!-- -->

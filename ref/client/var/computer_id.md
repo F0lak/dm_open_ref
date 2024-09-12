@@ -10,3 +10,5 @@ to detect if players are connecting to a server with multiple accounts
 on the same machine, while still allowing for multiple accounts on the
 same network (eg, through a router).
 
+> [!TIP] 
+> 

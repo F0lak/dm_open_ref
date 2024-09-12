@@ -15,5 +15,6 @@
 Note that this does not automatically delete the player\'s mob.
 If you want to do that, you could do so in mob.Logout().
 
-**See also:**
-+   [Logout proc (mob)](/ref/mob/proc/Logout.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Logout proc (mob)](/ref/mob/proc/Logout.md) <!-- -->

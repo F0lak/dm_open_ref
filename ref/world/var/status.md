@@ -13,7 +13,8 @@ world.status = \"accepting spectators\" //\...
 ```
 
 
-**See also:**
-+   [hub var (world)](/ref/world/var/hub.md) 
-+   [game_state var (world)](/ref/world/var/game_state.md) 
-+   [visibility var (world)](/ref/world/var/visibility.md) 
+> [!TIP] 
+> **See also:**
+> +   [hub var (world)](/ref/world/var/hub.md) 
+> +   [game_state var (world)](/ref/world/var/game_state.md) 
+> +   [visibility var (world)](/ref/world/var/visibility.md) 

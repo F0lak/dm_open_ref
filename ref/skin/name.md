@@ -17,6 +17,7 @@ shortcut, like \"Help\\tF1\". (Keyboard shortcuts must be implemented as
 macros in order to work. This is just a label.) A blank name shows just
 a separator.
 
-**See also:**
-+   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-+   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+> [!TIP] 
+> **See also:**
+> +   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 

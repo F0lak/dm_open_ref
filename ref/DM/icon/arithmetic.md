@@ -1,11 +1,11 @@
 ## icon arithmetic
 
 Note: The following \"arithmetical\" methods of icon manipulation are
-being phased out in favor of the [/icon](/ref/icon.md) {.code} object, which
+being phased out in favor of the [/icon](/ref/icon.md)  object, which
 can be directly manipulated and which provides a wider variety of
 operations. Many of those in turn have been obviated by the
-[color](/ref/atom/var/color.md) {.code} and
-[transform](/ref/atom/var/transform.md) {.code} vars. 
+[color](/ref/atom/var/color.md)  and
+[transform](/ref/atom/var/transform.md)  vars. 
 
 There are
 several ways in which icons can be manipulated at runtime. They can be
@@ -63,10 +63,11 @@ multiplicatively, you can use the \'`*`\' operator.
 ```
 
 
-**See also:**
-+   [icon proc](/ref/proc/icon.md) 
-+   [icon_states proc](/ref/proc/icon_states.md) 
-+   [icons](/ref/DM/icon.md) 
-+   [rgb proc](/ref/proc/rgb.md) 
-+   [turn proc (applied to an icon)](/ref/proc/turn/icon.md) 
-+   [icon object](/ref/icon.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon proc](/ref/proc/icon.md) 
+> +   [icon_states proc](/ref/proc/icon_states.md) 
+> +   [icons](/ref/DM/icon.md) 
+> +   [rgb proc](/ref/proc/rgb.md) 
+> +   [turn proc (applied to an icon)](/ref/proc/turn/icon.md) 
+> +   [icon object](/ref/icon.md) 

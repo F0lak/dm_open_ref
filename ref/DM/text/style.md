@@ -13,7 +13,7 @@ purpose in HTML documents.
 This section discusses the syntax of
 style sheets as an independent element. For information on how to
 include the style sheets in your DM code, see the section on
-[client.script](/ref/client/var/script.md) {.code}. 
+[client.script](/ref/client/var/script.md) . 
 
 As an example of a
 style sheet, one might want combat and conversational messages to appear
@@ -315,10 +315,11 @@ Additionally, you can use the `:hover` pseudo-class to change
 the color of a link. As with other link pseudo-classes, only the text
 color can currently be changed.
 
-**See also:**
-+   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) 
-+   [entities (text)](/ref/DM/text/entities.md) 
-+   [macros (text)](/ref/DM/text/macros.md) 
-+   [script var (client)](/ref/client/var/script.md) 
-+   [tags (text)](/ref/DM/text/tags.md) 
-+   [text](/ref/DM/text.md) 
+> [!TIP] 
+> **See also:**
+> +   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) 
+> +   [entities (text)](/ref/DM/text/entities.md) 
+> +   [macros (text)](/ref/DM/text/macros.md) 
+> +   [script var (client)](/ref/client/var/script.md) 
+> +   [tags (text)](/ref/DM/text/tags.md) 
+> +   [text](/ref/DM/text.md) 

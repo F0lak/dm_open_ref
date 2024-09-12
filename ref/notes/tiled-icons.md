@@ -65,9 +65,10 @@ tile_x \* 32 O.pixel_y = tile_y \* 32 O.icon_state =
 ```
 
 
-**See also:**
-+   [icon](/ref/icon.md) 
-+   [procs (icon)](/ref/icon/proc.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> [!TIP] 
+> **See also:**
+> +   [icon](/ref/icon.md) 
+> +   [procs (icon)](/ref/icon/proc.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 

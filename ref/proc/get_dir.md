@@ -18,5 +18,6 @@ primary cardinal directions, the result will become the nearest diagonal
 direction (eg. if `Loc2` is mostly north but a little to the east of
 `Loc1`, the direction returned will be `NORTHEAST`).
 
-**See also:**
-+   [dir var (atom)](/ref/atom/var/dir.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [dir var (atom)](/ref/atom/var/dir.md) <!-- -->

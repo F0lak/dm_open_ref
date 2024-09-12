@@ -33,10 +33,11 @@ also be used inside of a [`switch()` proc](/ref/proc/switch.md)  when using
 a `case` block to the end of the switch. See [switch
 proc](/ref/proc/switch.md) for more details.
 
-**See also:**
-+   [continue statement](/ref/proc/continue.md) 
-+   [do proc](/ref/proc/do.md) 
-+   [for loop proc](/ref/proc/for/loop.md) 
-+   [while proc](/ref/proc/while.md) 
-+   [switch proc](/ref/proc/switch.md) 
-+   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) 
+> [!TIP] 
+> **See also:**
+> +   [continue statement](/ref/proc/continue.md) 
+> +   [do proc](/ref/proc/do.md) 
+> +   [for loop proc](/ref/proc/for/loop.md) 
+> +   [while proc](/ref/proc/while.md) 
+> +   [switch proc](/ref/proc/switch.md) 
+> +   [#pragma syntax directive](/ref/DM/preprocessor/pragma/syntax.md) 

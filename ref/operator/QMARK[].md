@@ -27,9 +27,10 @@ operator will apply to this operator as well.
 
 
 
-**See also:**
-+   [list](/ref/list.md) 
-+   [operators](/ref/operator.md) 
-+   [\[\] operator](/ref/operator/%5B%5D.md) 
-+   [?. operator](/ref/operator/%3f%2e.md) 
-+   [?: operator](/ref/operator/%3f:.md) 
+> [!TIP] 
+> **See also:**
+> +   [list](/ref/list.md) 
+> +   [operators](/ref/operator.md) 
+> +   [\[\] operator](/ref/operator/%5B%5D.md) 
+> +   [?. operator](/ref/operator/%3f%2e.md) 
+> +   [?: operator](/ref/operator/%3f:.md) 

@@ -20,6 +20,7 @@ the world\'s rsc cache, the data will be copied into a temporary file
 and accessed from there. Changes to this, and any other temporary file,
 are not saved. When you close the file, it simply gets deleted.
 
-**See also:**
-+   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
-+   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
+> +   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->

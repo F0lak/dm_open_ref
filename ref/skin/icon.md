@@ -21,6 +21,7 @@ a tab control. Lack of an icon will mean no icon appears in the tab.
 Note: The Windows `.ico` format is not used. Only image formats
 BYOND can already use are supported.
 
-**See also:**
-+   [title parameter](/ref/%7Bskin%7D/param/title.md) 
-+   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
+> [!TIP] 
+> **See also:**
+> +   [title parameter](/ref/%7Bskin%7D/param/title.md) 
+> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 

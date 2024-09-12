@@ -25,6 +25,7 @@ If you use a `size` less than 0, the shadow will
 appear inside the image instead. This would be an inset shadow, or inner
 glow.
 
-**See also:**
-+   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-+   [Outline (filters)](/ref/%7Bnotes%7D/filters/outline.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
+> +   [Outline (filters)](/ref/%7Bnotes%7D/filters/outline.md) <!-- -->

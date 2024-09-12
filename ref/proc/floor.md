@@ -21,8 +21,9 @@ outputs -2
 ```
 
 
-**See also:**
-+   [ceil proc](/ref/proc/ceil.md) 
-+   [round proc](/ref/proc/round.md) 
-+   [trunc proc](/ref/proc/trunc.md) 
-+   [fract proc](/ref/proc/fract.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [ceil proc](/ref/proc/ceil.md) 
+> +   [round proc](/ref/proc/round.md) 
+> +   [trunc proc](/ref/proc/trunc.md) 
+> +   [fract proc](/ref/proc/fract.md) <!-- -->

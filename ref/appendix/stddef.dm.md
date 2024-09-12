@@ -13,3 +13,5 @@ The
 contents of `stddef.dm` may change with new BYOND versions. However an
 eye is always kept on backwards-compatibility.
 
+> [!TIP] 
+> 

@@ -13,6 +13,7 @@ Note that this does not allow other processes to lock the file.
 It only allows them to read from it. As long as the file is open by more
 than one process, no lock may be obtained.
 
-**See also:**
-+   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
-+   [New proc (savefile)](/ref/savefile/proc/New.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
+> +   [New proc (savefile)](/ref/savefile/proc/New.md) <!-- -->

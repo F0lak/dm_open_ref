@@ -13,6 +13,7 @@ Read-only.
 For windows, this is the size of the
 nearest monitor\'s area.
 
-**See also:**
-+   [size parameter](/ref/%7Bskin%7D/param/size.md) 
-+   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
+> [!TIP] 
+> **See also:**
+> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> +   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 

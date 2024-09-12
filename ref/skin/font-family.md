@@ -20,7 +20,8 @@ client, like so:
 ```
 
 
-**See also:**
-+   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
-+   [font-style parameter](/ref/%7Bskin%7D/param/font-style.md) 
-+   [tab-font-family, tab-font-size, tab-font-style
+> [!TIP] 
+> **See also:**
+> +   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
+> +   [font-style parameter](/ref/%7Bskin%7D/param/font-style.md) 
+> +   [tab-font-family, tab-font-size, tab-font-style

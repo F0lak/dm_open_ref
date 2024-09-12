@@ -18,6 +18,7 @@ If the size is already 0,
 as in the case of a degenerate vector like 0,0, then changing this value
 will have no effect.
 
-**See also:**
-+   [vector](/ref/vector.md) 
-+   [vars (vector)](/ref/vector/var.md) 
+> [!TIP] 
+> **See also:**
+> +   [vector](/ref/vector.md) 
+> +   [vars (vector)](/ref/vector/var.md) 

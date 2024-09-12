@@ -20,7 +20,8 @@ statpanel(\"Inventory\",contents)
 ```
 
 
-**See also:**
-+   [Stat proc (client)](/ref/client/proc/Stat.md) 
-+   [stat proc](/ref/proc/stat.md) 
-+   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+> [!TIP] 
+> **See also:**
+> +   [Stat proc (client)](/ref/client/proc/Stat.md) 
+> +   [stat proc](/ref/proc/stat.md) 
+> +   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->

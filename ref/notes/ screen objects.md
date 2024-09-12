@@ -46,11 +46,12 @@ out the icons in it extend in any direction. If you have one icon at
 `"map2:1,1"` and another at `"map2:4,3"`, then that HUD will be four
 tiles wide and three high.
 
-**See also:**
-+   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-+   [screen var (client)](/ref/client/var/screen.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [layer var (atom)](/ref/atom/var/layer.md) 
-+   [image objects](/ref/image.md) 
+> [!TIP] 
+> **See also:**
+> +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+> +   [screen var (client)](/ref/client/var/screen.md) 
+> +   [view var (client)](/ref/client/var/view.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [layer var (atom)](/ref/atom/var/layer.md) 
+> +   [image objects](/ref/image.md) 

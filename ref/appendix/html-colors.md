@@ -36,5 +36,6 @@ listed in the following table:
   aqua *or* cyan         #00FFFF   
   ---------------------- --------- --
 
-**See also:**
-+   [rgb proc](/ref/proc/rgb.md) 
+> [!TIP] 
+> **See also:**
+> +   [rgb proc](/ref/proc/rgb.md) 

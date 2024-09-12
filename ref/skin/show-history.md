@@ -12,6 +12,7 @@
 
 Show forward/back navigation buttons.
 
-**See also:**
-+   [show-url parameter](/ref/%7Bskin%7D/param/show-url.md) 
-+   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) 
+> [!TIP] 
+> **See also:**
+> +   [show-url parameter](/ref/%7Bskin%7D/param/show-url.md) 
+> +   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) 

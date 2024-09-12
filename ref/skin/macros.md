@@ -8,14 +8,14 @@ control to another.
 
 A collection of macros is called a macro
 set, and the window currently in use defines which macro set will be
-used via its [macro](/ref/%7Bskin%7D/param/macro.md) {.code} parameter.
+used via its [macro](/ref/%7Bskin%7D/param/macro.md)  parameter.
 
 
 Macros can be changed at runtime. If a macro does not have an
-[id](/ref/%7Bskin%7D/param/id.md) {.code}, you can refer to it by its key
-combination ([name](/ref/%7Bskin%7D/param/name.md) {.code}). If you have a
+[id](/ref/%7Bskin%7D/param/id.md) , you can refer to it by its key
+combination ([name](/ref/%7Bskin%7D/param/name.md) ). If you have a
 macro set named `macro1` and have a `Ctrl+E` macro for instance, you
-could use [winset()](/ref/proc/winset.md) {.code} with `"macro1.Ctrl+E"`. See
+could use [winset()](/ref/proc/winset.md)  with `"macro1.Ctrl+E"`. See
 the [Macro control](/ref/%7Bskin%7D/control/macro.md)  for information on which
 parameters you can change with `winset()`. 
 
@@ -36,11 +36,11 @@ macro, since other modifier keys are handled by this same macro.
 
 
 Typically, you will want to use [set
-instant=1](/ref/verb/set/instant.md) {.code} on the verbs that will be tied to
+instant=1](/ref/verb/set/instant.md)  on the verbs that will be tied to
 the Any macro, so that keyboard input doesn\'t queue up and lag behind.
 
 
-In the [command](/ref/%7Bskin%7D/param/command.md) {.code} that goes
+In the [command](/ref/%7Bskin%7D/param/command.md)  that goes
 with this macro, `[[*]]` will be replaced with the name of the key or
 gamepad button that was pressed/released. (See \"Embedded Winget\" in
 [client commands](/ref/%7Bskin%7D/commands.md)  for more details on the
@@ -48,7 +48,7 @@ gamepad button that was pressed/released. (See \"Embedded Winget\" in
 ### Mapping {#mapping byondver="511"}
 
 
-The [map-to](/ref/%7Bskin%7D/param/map-to.md) {.code} parameter is
+The [map-to](/ref/%7Bskin%7D/param/map-to.md)  parameter is
 used by **mappings**, which are like macros but are used to convert
 gamepad inputs easily and quickly to keyboard inputs. E.g.,
 `GamepadLeft` can map to `West` which is the left arrow key. A set of
@@ -64,7 +64,7 @@ input into the following categories:
 -   **Directions:** Directions pressed on the D-pad, which act like
     buttons. Diagonals are also included.
 -   **D-pad:** The D-pad itself, which can be used to read a
-    [dir](/ref/atom/var/dir.md) {.code} number.
+    [dir](/ref/atom/var/dir.md)  number.
 -   **Analog:** The analog sticks (BYOND supports left and right).
 
 
@@ -387,3 +387,5 @@ Right button, mappable by a gamepad button.
 `MouseMiddleButton`
 Middle button, mappable by a gamepad button.
 
+> [!TIP] 
+> 

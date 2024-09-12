@@ -1,8 +1,8 @@
 ## % operator
 **See also:**
-*   [%= operator](/ref/operator/%=.md) -m
-*   [%% operator](/ref/operator/%25%25.md) -m
-*   [operators](/ref/operator.md) -m<!-- -->
+*   [%= operator](/ref/operator/%=.md) 
+*   [%% operator](/ref/operator/%25%25.md) 
+*   [operators](/ref/operator.md) <!-- -->
 **Format:**
 *   A % B
 <!-- -->

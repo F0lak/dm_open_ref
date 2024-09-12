@@ -1,6 +1,6 @@
 ## ImportText proc (savefile)
 **See also:**
-*   [ExportText proc (savefile)](/ref/savefile/proc/ExportText.md) -m
+*   [ExportText proc (savefile)](/ref/savefile/proc/ExportText.md) 
 <!-- -->
 **Format:**
 *   savefile.ImportText(path=cd,source)
@@ -11,7 +11,7 @@
 
 
 Reads a text file or string and writes it into a savefile. See
-[ExportText](/ref/savefile/proc/ExportText.md) -mfor an example. 
+[ExportText](/ref/savefile/proc/ExportText.md) for an example. 
 
 If
 `source` is an ordinary string, it will be treated as savefile contents

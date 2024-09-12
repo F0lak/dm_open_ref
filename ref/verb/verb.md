@@ -1,10 +1,10 @@
 ## verbs
 **See also:**
-*   [arguments (verb)](/ref/verb/arguments.md) -m
-*   [settings (verb)](/ref/verb/set.md) -m
-*   [vars (verbs)](/ref/verb/var.md) -m
-*   [src var (proc)](/ref/proc/var/src.md) -m
-*   [usr var (proc)](/ref/proc/var/usr.md) -m
+*   [arguments (verb)](/ref/verb/arguments.md) 
+*   [settings (verb)](/ref/verb/set.md) 
+*   [vars (verbs)](/ref/verb/var.md) 
+*   [src var (proc)](/ref/proc/var/src.md) 
+*   [usr var (proc)](/ref/proc/var/usr.md) 
 
 Verbs may be attached to mobs, objs, turfs, and areas. Players
 can then use them as commands if they have access to the source.

@@ -1,16 +1,16 @@
 ## params var (sound) 
 ###### BYOND Version 515
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) -m
+*   [vars (sound)](/ref/sound/var.md) 
 <!-- -->
 **Default value:**
 *   null
 
 
 Used to set client skin information related to this sound. This
-can be set to an [associative list](/ref/list/associations.md) -m or a parameter
+can be set to an [associative list](/ref/list/associations.md)  or a parameter
 string such as you would get from
-[list2params()](/ref/proc/list2params.md) -m.code}. 
+[list2params()](/ref/proc/list2params.md) .code}. 
 
 These are the
 parameters currently defined:

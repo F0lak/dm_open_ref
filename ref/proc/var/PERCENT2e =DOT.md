@@ -1,7 +1,7 @@
 ## . var (proc)
 **See also:**
-*   [return statement](/ref/proc/return.md) -m
-*   [vars (procs)](/ref/proc/var.md) -m
+*   [return statement](/ref/proc/return.md) 
+*   [vars (procs)](/ref/proc/var.md) 
 
 This is the default return value. If a proc exits without
 calling return or if no arguments are specified the value of `.` will be

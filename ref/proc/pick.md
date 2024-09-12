@@ -1,6 +1,6 @@
 ## pick proc
 **See also:**
-*   [prob proc](/ref/proc/prob.md) -m<!-- -->
+*   [prob proc](/ref/proc/prob.md) <!-- -->
 **Format:**
 *   pick(Val1,Val2,\...)
 *   pick(List)

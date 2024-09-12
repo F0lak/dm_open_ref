@@ -1,6 +1,6 @@
 ## Copy proc (list)
 **See also:**
-*   [Cut proc (list)](/ref/list/proc/Cut.md) -m<!-- -->
+*   [Cut proc (list)](/ref/list/proc/Cut.md) <!-- -->
 **Format:**
 *   list.Copy(Start=1,End=0)
 <!-- -->

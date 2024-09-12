@@ -1,9 +1,9 @@
 ## view var (world)
 **See also:**
-*   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) -m
-*   [show_map var (client)](/ref/client/var/show_map.md) -m
-*   [view proc](/ref/proc/view.md) -m
-*   [view var (client)](/ref/client/var/view.md) -m<!-- -->
+*   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
+*   [show_map var (client)](/ref/client/var/show_map.md) 
+*   [view proc](/ref/proc/view.md) 
+*   [view var (client)](/ref/client/var/view.md) <!-- -->
 **Default value:**
 *   5
 <!-- -->

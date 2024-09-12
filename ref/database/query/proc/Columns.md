@@ -1,11 +1,11 @@
 ## Columns proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database query datum](/ref/database/query.md) -m
-*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) -m
-*   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) -m
-*   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) -m
-*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) -m<!-- -->
+*   [database query datum](/ref/database/query.md) 
+*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
+*   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
+*   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
+*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) <!-- -->
 **Format:**
 *   Columns()\
     *or*\

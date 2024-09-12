@@ -8,15 +8,15 @@ control to another.
 
 A collection of macros is called a macro
 set, and the window currently in use defines which macro set will be
-used via its [macro](/ref/%7Bskin%7D/param/macro.md) -m{.code} parameter.
+used via its [macro](/ref/%7Bskin%7D/param/macro.md) {.code} parameter.
 
 
 Macros can be changed at runtime. If a macro does not have an
-[id](/ref/%7Bskin%7D/param/id.md) -m{.code}, you can refer to it by its key
-combination ([name](/ref/%7Bskin%7D/param/name.md) -m{.code}). If you have a
+[id](/ref/%7Bskin%7D/param/id.md) {.code}, you can refer to it by its key
+combination ([name](/ref/%7Bskin%7D/param/name.md) {.code}). If you have a
 macro set named `macro1` and have a `Ctrl+E` macro for instance, you
-could use [winset()](/ref/proc/winset.md) -m{.code} with `"macro1.Ctrl+E"`. See
-the [Macro control](/ref/%7Bskin%7D/control/macro.md) -m for information on which
+could use [winset()](/ref/proc/winset.md) {.code} with `"macro1.Ctrl+E"`. See
+the [Macro control](/ref/%7Bskin%7D/control/macro.md)  for information on which
 parameters you can change with `winset()`. 
 
 The `name` of the
@@ -36,19 +36,19 @@ macro, since other modifier keys are handled by this same macro.
 
 
 Typically, you will want to use [set
-instant=1](/ref/verb/set/instant.md) -m{.code} on the verbs that will be tied to
+instant=1](/ref/verb/set/instant.md) {.code} on the verbs that will be tied to
 the Any macro, so that keyboard input doesn\'t queue up and lag behind.
 
 
-In the [command](/ref/%7Bskin%7D/param/command.md) -m{.code} that goes
+In the [command](/ref/%7Bskin%7D/param/command.md) {.code} that goes
 with this macro, `[[*]]` will be replaced with the name of the key or
 gamepad button that was pressed/released. (See \"Embedded Winget\" in
-[client commands](/ref/%7Bskin%7D/commands.md) -m for more details on the
+[client commands](/ref/%7Bskin%7D/commands.md)  for more details on the
 `[[...]]` format.)
 ### Mapping {#mapping byondver="511"}
 
 
-The [map-to](/ref/%7Bskin%7D/param/map-to.md) -m{.code} parameter is
+The [map-to](/ref/%7Bskin%7D/param/map-to.md) {.code} parameter is
 used by **mappings**, which are like macros but are used to convert
 gamepad inputs easily and quickly to keyboard inputs. E.g.,
 `GamepadLeft` can map to `West` which is the left arrow key. A set of
@@ -64,7 +64,7 @@ input into the following categories:
 -   **Directions:** Directions pressed on the D-pad, which act like
     buttons. Diagonals are also included.
 -   **D-pad:** The D-pad itself, which can be used to read a
-    [dir](/ref/atom/var/dir.md) -m{.code} number.
+    [dir](/ref/atom/var/dir.md) {.code} number.
 -   **Analog:** The analog sticks (BYOND supports left and right).
 
 
@@ -73,7 +73,7 @@ to harness these inputs.
 
 To let a user configure their gamepad,
 you need to call the client-side `.gamepad-mapping`
-[command](/ref/%7Bskin%7D/commands.md) -m. Or, if they have access to the Options
+[command](/ref/%7Bskin%7D/commands.md) . Or, if they have access to the Options
 & Messages window and Dream Seeker\'s default menus, they can reach it
 from there. However it\'s a good idea to make this easy for them to
 find. Several common gamepads are already known by BYOND. 
@@ -97,7 +97,7 @@ instead want to provide data directly to the verb. You will want
 
 Mouse macro commands use the
 `[[...]]` syntax to embed values, just like [embedded
-wingets](/ref/%7Bskin%7D/commands.md) -m. These are the values you can include in
+wingets](/ref/%7Bskin%7D/commands.md) . These are the values you can include in
 a mouse macro:
   Embedded keyword                                                                                                               Meaning
   ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------
@@ -141,12 +141,12 @@ as text)
  
 
 In the example, the `src` value is a
-reference such as you would get with the [`ref()` proc](/ref/proc/ref.md) -m. It
+reference such as you would get with the [`ref()` proc](/ref/proc/ref.md) . It
 can be used as a verb argument directly and won\'t be enclosed by quotes
 by default. The `button` value is a string and the default formatting
 will put quotes around it. The `keys` and `drag` values were given the
 `as params` format specifier so they would behave as part of a
-[parameter list](/ref/proc/list2params.md) -m 
+[parameter list](/ref/proc/list2params.md)  
 
 In drag/drop actions, you
 can precede any value with `src` or `over` if there may be different

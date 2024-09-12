@@ -1,10 +1,10 @@
 ## fract proc 
 ###### BYOND Version 515
 **See also:**
-*   [trunc proc](/ref/proc/trunc.md) -m
-*   [floor proc](/ref/proc/floor.md) -m
-*   [ceil proc](/ref/proc/ceil.md) -m
-*   [round proc](/ref/proc/round.md) -m<!-- -->
+*   [trunc proc](/ref/proc/trunc.md) 
+*   [floor proc](/ref/proc/floor.md) 
+*   [ceil proc](/ref/proc/ceil.md) 
+*   [round proc](/ref/proc/round.md) <!-- -->
 **Format:**
 *   fract(A)
 <!-- -->

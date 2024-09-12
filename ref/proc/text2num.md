@@ -1,7 +1,7 @@
 ## text2num proc
 **See also:**
-*   [istext proc](/ref/proc/istext.md) -m
-*   [num2text proc](/ref/proc/num2text.md) -m<!-- -->
+*   [istext proc](/ref/proc/istext.md) 
+*   [num2text proc](/ref/proc/num2text.md) <!-- -->
 **Format:**
 *   text2num(T)
 *   text2num(T, radix)

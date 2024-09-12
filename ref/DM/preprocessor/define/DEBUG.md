@@ -1,6 +1,6 @@
 ## DEBUG definition
 **See also:**
-*   [#define directive](/ref/DM/preprocessor/define.md) -m<!-- -->
+*   [#define directive](/ref/DM/preprocessor/define.md) <!-- -->
 **Format:**
 *   #define DEBUG
 

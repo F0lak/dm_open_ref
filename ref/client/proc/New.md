@@ -1,12 +1,12 @@
 ## New proc (client)
 **See also:**
-*   [Export proc (client)](/ref/client/proc/Export.md) -m
-*   [Import proc (client)](/ref/client/proc/Import.md) -m
-*   [Login proc (mob)](/ref/mob/proc/Login.md) -m
-*   [New proc (datum)](/ref/datum/proc/New.md) -m
-*   [Topic proc (client)](/ref/client/proc/Topic.md) -m
-*   [mob var (world)](/ref/world/var/mob.md) -m
-*   [savefile](/ref/savefile.md) -m
+*   [Export proc (client)](/ref/client/proc/Export.md) 
+*   [Import proc (client)](/ref/client/proc/Import.md) 
+*   [Login proc (mob)](/ref/mob/proc/Login.md) 
+*   [New proc (datum)](/ref/datum/proc/New.md) 
+*   [Topic proc (client)](/ref/client/proc/Topic.md) 
+*   [mob var (world)](/ref/world/var/mob.md) 
+*   [savefile](/ref/savefile.md) 
 <!-- -->
 **Format:**
 *   New(TopicData)
@@ -60,6 +60,6 @@ doing things in `mob/Login()`, rather than `client/New()`.
 
 Note
 that for the above example to work, you **must** make proper use of the
-[tmp](/ref/var/tmp.md) -mflag when defining new object variables. Otherwise,
+[tmp](/ref/var/tmp.md) flag when defining new object variables. Otherwise,
 this can end up sucking large portions of your world into each player
 savefile, which can have all sorts of unexpected consequences!

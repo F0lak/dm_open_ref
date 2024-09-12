@@ -1,11 +1,11 @@
 ## is-default parameter (skin)
 **See also:**
-*   [id parameter](/ref/%7Bskin%7D/param/id.md) -m
-*   [parent parameter](/ref/%7Bskin%7D/param/parent.md) -m
-*   [type parameter](/ref/%7Bskin%7D/param/type.md) -m
+*   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+*   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
+*   [type parameter](/ref/%7Bskin%7D/param/type.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) -m
+*   [All](/ref/%7Bskin%7D/control.md) 
 <!-- -->
 **Format:**
 *   true/false
@@ -19,7 +19,7 @@ for your main window, and for your primary map, info, output, input, and
 browser controls. 
 
 The default control of a given type can be
-referenced in [winset()](/ref/proc/winset.md) -m.code} and other skin-related
+referenced in [winset()](/ref/proc/winset.md) .code} and other skin-related
 procs by the name `":`*`type`*`"`, e.g. `":map"`. 
 
 Changing this

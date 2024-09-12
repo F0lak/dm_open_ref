@@ -1,8 +1,8 @@
 ## len var (sound) 
 ###### BYOND Version 513
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) -m
-*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) -m
+*   [vars (sound)](/ref/sound/var.md) 
+*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 
 
 This value is set by the `SoundQuery` proc and represents the
 length, in seconds, of a sound playing on the client. Frequency is taken

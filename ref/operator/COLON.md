@@ -1,10 +1,10 @@
 ## * operator
 **See also:**
-*   [. operator](/ref/operator/%2e.md) -m
-*   [?. operator](/ref/operator/%3f%2e.md) -m
-*   [?* operator](/ref/operator/%3f:.md) -m
-*   [* path operator](/ref/operator/path/:.md) -m
-*   [operators](/ref/operator.md) -m
+*   [. operator](/ref/operator/%2e.md) 
+*   [?. operator](/ref/operator/%3f%2e.md) 
+*   [?* operator](/ref/operator/%3f:.md) 
+*   [* path operator](/ref/operator/path/:.md) 
+*   [operators](/ref/operator.md) 
 
 This is the runtime search operator. It is used to access a
 property (var or proc) of a var that is not explicitly prototyped. If

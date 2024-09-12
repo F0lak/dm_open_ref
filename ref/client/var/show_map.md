@@ -1,8 +1,8 @@
 ## show_map var (client)
 **See also:**
-*   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) -m
-*   [view var (client)](/ref/client/var/view.md) -m
-*   [view var (world)](/ref/world/var/view.md) -m<!-- -->
+*   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
+*   [view var (client)](/ref/client/var/view.md) 
+*   [view var (world)](/ref/world/var/view.md) <!-- -->
 **Default value:**
 *   1
 

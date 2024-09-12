@@ -1,9 +1,9 @@
 ## Tick proc (world) 
 ###### BYOND Version 515
 **See also:**
-*   [cpu var (world)](/ref/world/var/cpu.md) -m
-*   [map_cpu var (world)](/ref/world/var/map_cpu.md) -m
-*   [tick_usage var (world)](/ref/world/var/tick_usage.md) -m
+*   [cpu var (world)](/ref/world/var/cpu.md) 
+*   [map_cpu var (world)](/ref/world/var/map_cpu.md) 
+*   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
 <!-- -->
 **Format:**
 *   Tick()
@@ -31,6 +31,6 @@ break the loop
 
 Note* The tick will not wait if this
 proc sleeps. It effectively has [set
-waitfor=0](/ref/proc/set/waitfor.md) -m.code} already built in. It\'s a good
+waitfor=0](/ref/proc/set/waitfor.md) .code} already built in. It\'s a good
 idea not to sleep in this proc or any of its callees at all, since it
 will keep getting called every tick.

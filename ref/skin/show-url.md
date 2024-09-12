@@ -1,10 +1,10 @@
 ## show-url parameter (skin)
 **See also:**
-*   [show-history parameter](/ref/%7Bskin%7D/param/show-history.md) -m
-*   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) -m
+*   [show-history parameter](/ref/%7Bskin%7D/param/show-history.md) 
+*   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) 
 <!-- -->
 **Applies to:**
-*   [Browser](/ref/%7Bskin%7D/control/browser.md) -m<!-- -->
+*   [Browser](/ref/%7Bskin%7D/control/browser.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

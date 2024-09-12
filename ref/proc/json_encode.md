@@ -1,7 +1,7 @@
 ## json_encode proc 
 ###### BYOND Version 510
 **See also:**
-*   [json_decode proc](/ref/proc/json_decode.md) -m<!-- -->
+*   [json_decode proc](/ref/proc/json_decode.md) <!-- -->
 **Format:**
 *   json_encode(Value)
 *   json_encode(Value, flags)

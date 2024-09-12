@@ -163,9 +163,9 @@ def fix_links(text) -> str:
 		path = text[start_index + len(start_marker):end_index]
 		new_link = f"{path}"
 		if f"/{path}" in link_dict:
-			new_link = f"](/ref{link_dict[path]}.md) -h"
+			new_link = f"](/ref{link_dict[path]}.md)"
 		else:
-			new_link = f"](/ref/{path}.md) -m"
+			new_link = f"](/ref/{path}.md) "
 		result.append(new_link)
 		
 		i = end_index + 1

@@ -1,6 +1,6 @@
 ## mob var (world)
 **See also:**
-*   [New proc (client)](/ref/client/proc/New.md) -m<!-- -->
+*   [New proc (client)](/ref/client/proc/New.md) <!-- -->
 **Default value:**
 *   /mob.
 

@@ -1,7 +1,7 @@
 ## gender var (atom)
 **See also:**
-*   [macros (text)](/ref/DM/text/macros.md) -m
-*   [name var (atom)](/ref/atom/var/name.md) -m<!-- -->
+*   [macros (text)](/ref/DM/text/macros.md) 
+*   [name var (atom)](/ref/atom/var/name.md) <!-- -->
 **Default value:**
 *   \"neuter\"
 

@@ -1,6 +1,6 @@
 ## AllowUpload proc (client)
 **See also:**
-*   [input proc](/ref/proc/input.md) -m<!-- -->
+*   [input proc](/ref/proc/input.md) <!-- -->
 **Format:**
 *   AllowUpload(filename, filelength)
 <!-- -->

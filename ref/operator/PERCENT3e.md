@@ -1,11 +1,11 @@
 ## \> operator
 **See also:**
-*   [\>= operator](/ref/operator/%3e=.md) -m
-*   [\< operator](/ref/operator/%3c.md) -m
-*   [\<=\> operator](/ref/operator/%3c=%3e.md) -m
-*   [== operator](/ref/operator/==.md) -m
-*   [operators](/ref/operator.md) -m
-*   [sorttextEx proc](/ref/proc/sorttextEx.md) -m<!-- -->
+*   [\>= operator](/ref/operator/%3e=.md) 
+*   [\< operator](/ref/operator/%3c.md) 
+*   [\<=\> operator](/ref/operator/%3c=%3e.md) 
+*   [== operator](/ref/operator/==.md) 
+*   [operators](/ref/operator.md) 
+*   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->
 **Format:**
 *   A \> B
 <!-- -->

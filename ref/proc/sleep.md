@@ -1,9 +1,9 @@
 ## sleep proc
 **See also:**
-*   [background setting (proc)](/ref/proc/set/background.md) -m
-*   [waitfor setting (proc)](/ref/proc/set/waitfor.md) -m
-*   [spawn proc](/ref/proc/spawn.md) -m
-*   [tick_lag var (world)](/ref/world/var/tick_lag.md) -m
+*   [background setting (proc)](/ref/proc/set/background.md) 
+*   [waitfor setting (proc)](/ref/proc/set/waitfor.md) 
+*   [spawn proc](/ref/proc/spawn.md) 
+*   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
 <!-- -->
 **Format:**
 *   sleep(Delay)
@@ -28,7 +28,7 @@ that sleeping in some procedures results in the return value being lost.
 For example, if you sleep inside `Entered()` or `Exited()`, it will be
 as if you returned immediately where you started sleeping. This is
 because `Move()` calls them in away that says the return value should be
-ignored. Also if a proc has its [waitfor](/ref/proc/set/waitfor.md) -m.code}
+ignored. Also if a proc has its [waitfor](/ref/proc/set/waitfor.md) .code}
 setting changed to 0, it will return the value of the `.` var to its
 caller immediately if it or one of its callees sleeps. 
 

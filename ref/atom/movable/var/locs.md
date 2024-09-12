@@ -1,14 +1,14 @@
 ## locs list var (movable atom) 
 ###### BYOND Version 490
 **See also:**
-*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) -m
-*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) -m
-*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) -m
-*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) -m
-*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
-*   [loc var (atom)](/ref/atom/var/loc.md) -m
-*   [contents list var (atom)](/ref/atom/var/contents.md) -m<!-- -->
+*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
+*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+*   [loc var (atom)](/ref/atom/var/loc.md) 
+*   [contents list var (atom)](/ref/atom/var/contents.md) <!-- -->
 **Default value:**
 *   list(src.loc)
 

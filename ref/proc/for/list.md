@@ -1,9 +1,9 @@
 ## for list proc
 **See also:**
-*   [for loop proc](/ref/proc/for/loop.md) -m
-*   [list](/ref/list.md) -m
-*   [list associations](/ref/list/assoc.md) -m
-*   [istype](/ref/proc/istype.md) -m
+*   [for loop proc](/ref/proc/for/loop.md) 
+*   [list](/ref/list.md) 
+*   [list associations](/ref/list/assoc.md) 
+*   [istype](/ref/proc/istype.md) 
 <!-- -->
 **Format:**
 *   for (Var \[as Type\] \[in List\]) Statement
@@ -38,7 +38,7 @@ When you loop through a list, with
 the exception of looping through world, you\'re actually looping through
 a copy of that list. If the list changes, those changes won\'t have any
 bearing on this loop. If you want to be able to handle a list that might
-change, you\'ll need to use the [for loop proc](/ref/proc/for/loop.md) -m
+change, you\'ll need to use the [for loop proc](/ref/proc/for/loop.md) 
 instead. 
 
 You can declare the variable right inside the for
@@ -61,7 +61,7 @@ unrelated types will be skipped.
 
 
 The numeric loop form is a quick internal version of the [for
-loop proc](/ref/proc/for/loop.md) -m. It\'s equivalent to
+loop proc](/ref/proc/for/loop.md) . It\'s equivalent to
 `for(Var = Start, Var <= End, Var += Step)` unless Step is negative, in
 which case a \>= comparison is used instead. The main difference is that
 unlike in a for loop proc, the values of Step and End are calculated at
@@ -79,7 +79,7 @@ of that list.
 
 Note* Although you can use fractional values for `step` in this
 numeric format, there may be accuracy considerations to keep in mind.
-See [Numbers](/ref/%7Bnotes%7D/numbers.md) -mfor more information.
+See [Numbers](/ref/%7Bnotes%7D/numbers.md) for more information.
 ### Key,value pair loop 
 ###### BYOND Version 516
 

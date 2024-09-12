@@ -1,7 +1,7 @@
 ## ref proc
 **See also:**
-*   [\\ref text macro](/ref/DM/text/macros/ref.md) -m
-*   [locate proc](/ref/proc/locate.md) -m<!-- -->
+*   [\\ref text macro](/ref/DM/text/macros/ref.md) 
+*   [locate proc](/ref/proc/locate.md) <!-- -->
 **Format:**
 *   ref(Object)
 <!-- -->

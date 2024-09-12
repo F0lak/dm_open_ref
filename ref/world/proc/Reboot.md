@@ -6,7 +6,7 @@
 *   reason* the reason `Reboot()` was called:
     -   0 or null* Called by game code
     -   1* By host (Ctrl+R in Dream Seeker)
-    -   2* By [world.Topic()](/ref/world/proc/Topic.md) -m    -   3* By SIGUSR1 in UNIX
+    -   2* By [world.Topic()](/ref/world/proc/Topic.md)     -   3* By SIGUSR1 in UNIX
 <!-- -->
 **Default action:**
 *   

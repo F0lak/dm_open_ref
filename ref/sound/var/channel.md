@@ -1,9 +1,9 @@
 ## channel var (sound)
 **See also:**
-*   [sound proc](/ref/proc/sound.md) -m
-*   [status var (sound)](/ref/sound/var/status.md) -m
-*   [vars (sound)](/ref/sound/var.md) -m
-*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) -m<!-- -->
+*   [sound proc](/ref/proc/sound.md) 
+*   [status var (sound)](/ref/sound/var/status.md) 
+*   [vars (sound)](/ref/sound/var.md) 
+*   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
 **Default value:**
 *   0 (any channel)
 

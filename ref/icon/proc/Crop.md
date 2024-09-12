@@ -1,11 +1,11 @@
 ## Crop proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) -m
-*   [procs (icon)](/ref/icon/proc.md) -m
-*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
-*   [map_format var (world)](/ref/world/var/icon_size.md) -m
-*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) -m
-*   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) -m<!-- -->
+*   [icon](/ref/icon.md) 
+*   [procs (icon)](/ref/icon/proc.md) 
+*   [icon_size var (world)](/ref/world/var/icon_size.md) 
+*   [map_format var (world)](/ref/world/var/icon_size.md) 
+*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+*   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->
 **Format:**
 *   Crop(x1,y1,x2,y2)
 <!-- -->

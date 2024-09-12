@@ -1,9 +1,9 @@
 ## icon text macro
 **See also:**
-*   [icon_state var (atom)](/ref/atom/var/icon_state.md) -m
-*   [macros (text)](/ref/DM/text/macros.md) -m
-*   [style sheets](/ref/DM/text/style.md) -m
-*   [tags (text)](/ref/DM/text/tags.md) -m
+*   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
+*   [macros (text)](/ref/DM/text/macros.md) 
+*   [style sheets](/ref/DM/text/style.md) 
+*   [tags (text)](/ref/DM/text/tags.md) 
 
 
 The \\icon macro is used to treat the following embedded
@@ -81,6 +81,6 @@ iconframe="2"}!\"
 
 Note that the \\icon macro does
 not work in the mini-browser; it is only for text output. To make icons
-appear in an HTML document, use [browse_rsc()](/ref/proc/browse_rsc.md) -m to
-send an icon to the client before using [browse()](/ref/proc/browse.md) -mto
+appear in an HTML document, use [browse_rsc()](/ref/proc/browse_rsc.md)  to
+send an icon to the client before using [browse()](/ref/proc/browse.md) to
 display it.

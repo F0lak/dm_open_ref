@@ -1,10 +1,10 @@
 ## copytext proc
 **See also:**
-*   [splicetext proc](/ref/proc/splicetext.md) -m
-*   [findtext proc](/ref/proc/findtext.md) -m
-*   [splittext proc](/ref/proc/splittext.md) -m
-*   [trimtext proc](/ref/proc/trimtext.md) -m
-*   [Copy proc (list)](/ref/list/proc/Copy.md) -m
+*   [splicetext proc](/ref/proc/splicetext.md) 
+*   [findtext proc](/ref/proc/findtext.md) 
+*   [splittext proc](/ref/proc/splittext.md) 
+*   [trimtext proc](/ref/proc/trimtext.md) 
+*   [Copy proc (list)](/ref/list/proc/Copy.md) 
 <!-- -->
 **Format:**
 *   copytext(T,Start=1,End=0)
@@ -44,4 +44,4 @@ the string.
 Note* In strings containing non-ASCII characters, byte position
 and character position are not the same thing. Use `copytext_char()` to
 work with character counts instead of bytes, at a performance cost. See
-the [Unicode](/ref/%7Bnotes%7D/Unicode.md) -msection for more information.
+the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.

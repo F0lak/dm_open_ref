@@ -1,9 +1,9 @@
 ## show-lines parameter (skin)
 **See also:**
-*   [line-color parameter](/ref/%7Bskin%7D/param/line-color.md) -m
+*   [line-color parameter](/ref/%7Bskin%7D/param/line-color.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) -m<!-- -->
+*   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
 **Possible values:**
 *   none
 *   horizontal

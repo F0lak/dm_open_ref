@@ -1,8 +1,8 @@
 ## timeofday var (world)
 **See also:**
-*   [realtime var (world)](/ref/world/var/realtime.md) -m
-*   [time var (world)](/ref/world/var/time.md) -m
-*   [time2text proc](/ref/proc/time2text.md) -m
+*   [realtime var (world)](/ref/world/var/realtime.md) 
+*   [time var (world)](/ref/world/var/time.md) 
+*   [time2text proc](/ref/proc/time2text.md) 
 
 This is the time (in 1/10 seconds) since 00:00:00 GMT today. It
 is basically identical to `world.realtime` but doesn\'t include any

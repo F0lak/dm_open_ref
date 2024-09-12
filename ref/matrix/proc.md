@@ -1,17 +1,17 @@
 ## matrix procs 
 ###### BYOND Version 500
 **See also:**
-*   [matrix](/ref/matrix.md) -m
-*   [matrix operators](/ref/matrix/operators.md) -m
-*   [turn proc (applied to a matrix)](/ref/proc/turn/matrix.md) -m
+*   [matrix](/ref/matrix.md) 
+*   [matrix operators](/ref/matrix/operators.md) 
+*   [turn proc (applied to a matrix)](/ref/proc/turn/matrix.md) 
 <!-- -->
 matrix/proc
-*   [New](/ref/proc/matrix.md) -m
-*   [Add](/ref/matrix/proc/Add.md) -m
-*   [Interpolate](/ref/matrix/proc/Interpolate.md) -m
-*   [Invert](/ref/matrix/proc/Invert.md) -m
-*   [Multiply](/ref/matrix/proc/Multiply.md) -m
-*   [Scale](/ref/matrix/proc/Scale.md) -m
-*   [Subtract](/ref/matrix/proc/Subtract.md) -m
-*   [Translate](/ref/matrix/proc/Translate.md) -m
-*   [Turn](/ref/matrix/proc/Turn.md) -m
+*   [New](/ref/proc/matrix.md) 
+*   [Add](/ref/matrix/proc/Add.md) 
+*   [Interpolate](/ref/matrix/proc/Interpolate.md) 
+*   [Invert](/ref/matrix/proc/Invert.md) 
+*   [Multiply](/ref/matrix/proc/Multiply.md) 
+*   [Scale](/ref/matrix/proc/Scale.md) 
+*   [Subtract](/ref/matrix/proc/Subtract.md) 
+*   [Translate](/ref/matrix/proc/Translate.md) 
+*   [Turn](/ref/matrix/proc/Turn.md) 

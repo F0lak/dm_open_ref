@@ -1,21 +1,21 @@
 ## procs (icon)
 **See also:**
-*   [icon](/ref/icon.md) -m
+*   [icon](/ref/icon.md) 
 <!-- -->
 icon/proc
-*   [New](/ref/icon/proc/New.md) -m
-*   [IconStates](/ref/icon/proc/IconStates.md) -m
-*   [Turn](/ref/icon/proc/Turn.md) -m
-*   [Flip](/ref/icon/proc/Flip.md) -m
-*   [Shift](/ref/icon/proc/Shift.md) -m
-*   [SetIntensity](/ref/icon/proc/SetIntensity.md) -m
-*   [Blend](/ref/icon/proc/Blend.md) -m
-*   [SwapColor](/ref/icon/proc/SwapColor.md) -m
-*   [DrawBox](/ref/icon/proc/DrawBox.md) -m
-*   [Insert](/ref/icon/proc/Insert.md) -m
-*   [MapColors](/ref/icon/proc/MapColors.md) -m
-*   [Scale](/ref/icon/proc/Scale.md) -m
-*   [Crop](/ref/icon/proc/Crop.md) -m
-*   [GetPixel](/ref/icon/proc/GetPixel.md) -m
-*   [Width](/ref/icon/proc/Width.md) -m
-*   [Height](/ref/icon/proc/Height.md) -m
+*   [New](/ref/icon/proc/New.md) 
+*   [IconStates](/ref/icon/proc/IconStates.md) 
+*   [Turn](/ref/icon/proc/Turn.md) 
+*   [Flip](/ref/icon/proc/Flip.md) 
+*   [Shift](/ref/icon/proc/Shift.md) 
+*   [SetIntensity](/ref/icon/proc/SetIntensity.md) 
+*   [Blend](/ref/icon/proc/Blend.md) 
+*   [SwapColor](/ref/icon/proc/SwapColor.md) 
+*   [DrawBox](/ref/icon/proc/DrawBox.md) 
+*   [Insert](/ref/icon/proc/Insert.md) 
+*   [MapColors](/ref/icon/proc/MapColors.md) 
+*   [Scale](/ref/icon/proc/Scale.md) 
+*   [Crop](/ref/icon/proc/Crop.md) 
+*   [GetPixel](/ref/icon/proc/GetPixel.md) 
+*   [Width](/ref/icon/proc/Width.md) 
+*   [Height](/ref/icon/proc/Height.md) 

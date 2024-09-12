@@ -1,20 +1,20 @@
 ## on-tab parameter (skin)
 **See also:**
-*   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) -m
-*   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) -m
+*   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
+*   [tabs parameter](/ref/%7Bskin%7D/param/tabs.md) 
 <!-- -->
 **Applies to:**
-*   [Info](/ref/%7Bskin%7D/control/info.md) -m
-*   [Tab](/ref/%7Bskin%7D/control/tab.md) -m
+*   [Info](/ref/%7Bskin%7D/control/info.md) 
+*   [Tab](/ref/%7Bskin%7D/control/tab.md) 
 <!-- -->
 **Format:**
 *   string
 
 
-[Command](/ref/%7Bskin%7D/commands.md) -m executed when the current tab
+[Command](/ref/%7Bskin%7D/commands.md)  executed when the current tab
 is changed. 
 
 If you include `[[*]]` in the command, it will be
-replaced by the new tab\'s [id](/ref/%7Bskin%7D/param/id.md) -m{.code}. (See
-\"Embedded Winget\" in [client commands](/ref/%7Bskin%7D/commands.md) -mfor more
+replaced by the new tab\'s [id](/ref/%7Bskin%7D/param/id.md) {.code}. (See
+\"Embedded Winget\" in [client commands](/ref/%7Bskin%7D/commands.md) for more
 details on the `[[...]]` format.)

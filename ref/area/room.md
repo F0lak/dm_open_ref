@@ -7,7 +7,7 @@ something like a text MUD. By default, there would be no way for players
 to move from one room to another, so you have to handle movement
 yourself. 
 
-You can check the variable [area.x](/ref/atom/var/x.md) -mto
+You can check the variable [area.x](/ref/atom/var/x.md) to
 see if a given area is on the map or not. 
 
 The following example

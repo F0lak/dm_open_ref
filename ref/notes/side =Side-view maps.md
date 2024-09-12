@@ -1,19 +1,19 @@
 ## Side-view maps 
 ###### BYOND Version 482
 **See also:**
-*   [map_format var (world)](/ref/world/var/map_format.md) -m
-*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
-*   [dir var (client)](/ref/client/var/dir.md) -m
-*   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) -m
-*   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) -m
-*   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) -m
-*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) -m
-*   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) -m
-*   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) -m
-*   [HUD](/ref/%7Bnotes%7D/HUD.md) -m
-*   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) -m
-*   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) -m
-*   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) 
+*   [icon_size var (world)](/ref/world/var/icon_size.md) 
+*   [dir var (client)](/ref/client/var/dir.md) 
+*   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
+*   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
+*   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+*   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
+*   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
+*   [HUD](/ref/%7Bnotes%7D/HUD.md) 
+*   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
+*   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
+*   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) 
 
 
 The side-view map format is used for 3/4 perspective, where the
@@ -28,7 +28,7 @@ It is important to remember that this is an illusion of 3D, not
 real 3D. 
 
 The `layer` var behaves much the same way it does in
-`ISOMETRIC_MAP` mode.See [isometric maps](/ref/%7Bnotes%7D/isometric.md) -mfor
+`ISOMETRIC_MAP` mode.See [isometric maps](/ref/%7Bnotes%7D/isometric.md) for
 more information. 
 
 When using this mode you may want to use a

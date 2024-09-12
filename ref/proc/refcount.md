@@ -1,7 +1,7 @@
 ## refcount proc 
 ###### BYOND Version 515
 **See also:**
-*   [garbage collection](/ref/DM/garbage.md) -m<!-- -->
+*   [garbage collection](/ref/DM/garbage.md) <!-- -->
 **Format:**
 *   refcount(Object)
 <!-- -->

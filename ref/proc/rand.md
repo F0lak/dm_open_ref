@@ -1,9 +1,9 @@
 ## rand proc
 **See also:**
-*   [pick proc](/ref/proc/pick.md) -m
-*   [prob proc](/ref/proc/prob.md) -m
-*   [rand_seed proc](/ref/proc/rand_seed.md) -m
-*   [roll proc](/ref/proc/roll.md) -m<!-- -->
+*   [pick proc](/ref/proc/pick.md) 
+*   [prob proc](/ref/proc/prob.md) 
+*   [rand_seed proc](/ref/proc/rand_seed.md) 
+*   [roll proc](/ref/proc/roll.md) <!-- -->
 **Format:**
 *   rand(L=0,H) or rand()
 <!-- -->

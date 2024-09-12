@@ -1,7 +1,7 @@
 ## render_source var (atom)
 **See also:**
-*   [render_target var (atom)](/ref/atom/var/render_target.md) -m
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) -m
+*   [render_target var (atom)](/ref/atom/var/render_target.md) 
+*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 <!-- -->
 **Default value:**
 *   null
@@ -15,7 +15,7 @@ another icon with a matching `render_target` value on the visible map,
 and draw that in place of the `icon`/`icon_state`/`dir` that it normally
 would. The same render target might be used as a source multiple times,
 and for a complex image this can save some rendering time. This is also
-usable for special effects such as [filters](/ref/%7Bnotes%7D/filters.md) -m that
+usable for special effects such as [filters](/ref/%7Bnotes%7D/filters.md)  that
 might require copies of an image. 
 
 Note* The corresponding
@@ -35,4 +35,4 @@ Note* Any mouse
 hits on this object belong to the object itself, not to the object used
 in the `render_source` or its children. If you want mouse clicks and
 other behavior to go to the source, use the `PASS_MOUSE` [appearance
-flag](/ref/atom/var/appearance_flags.md) -m
+flag](/ref/atom/var/appearance_flags.md) 

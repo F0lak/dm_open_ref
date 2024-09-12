@@ -1,9 +1,9 @@
 ## cell-span parameter (skin)
 **See also:**
-*   [cells parameter](/ref/%7Bskin%7D/param/cells.md) -m
+*   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) -m<!-- -->
+*   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
 **Format:**
 *   *columns*,*rows*
 <!-- -->

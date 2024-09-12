@@ -1,9 +1,9 @@
 ## rgb2num proc
 **See also:**
-*   [rgb proc](/ref/proc/rgb.md) -m
-*   [gradient proc](/ref/proc/gradient.md) -m
-*   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) -m
-*   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m
+*   [rgb proc](/ref/proc/rgb.md) 
+*   [gradient proc](/ref/proc/gradient.md) 
+*   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+*   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
 <!-- -->
 **Format:**
 *   rgb2num(color)
@@ -11,8 +11,8 @@
 <!-- -->
 **Args:**
 *   color* A color value (see [HTML
-    colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m)
-*   space* [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) -m default is
+    colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) )
+*   space* [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md)  default is
     `COLORSPACE_RGB`
 <!-- -->
 **Returns:**

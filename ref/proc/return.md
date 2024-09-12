@@ -1,6 +1,6 @@
 ## return statement
 **See also:**
-*   [. var (proc)](/ref/proc/var/%2e.md) -m<!-- -->
+*   [. var (proc)](/ref/proc/var/%2e.md) <!-- -->
 **Format:**
 *   return E
 

@@ -1,9 +1,9 @@
 ## arglist proc
 **See also:**
-*   [arguments (proc)](/ref/proc/arguments.md) -m
-*   [call proc](/ref/proc/call.md) -m
-*   [call_ext proc](/ref/proc/call_ext.md) -m
-*   [list proc](/ref/proc/list.md) -m
+*   [arguments (proc)](/ref/proc/arguments.md) 
+*   [call proc](/ref/proc/call.md) 
+*   [call_ext proc](/ref/proc/call_ext.md) 
+*   [list proc](/ref/proc/list.md) 
 <!-- -->
 **Format:**
 *   arglist(List)
@@ -19,7 +19,7 @@ arguments to the procedure. That is what `arglist()` achieves.
 
 
 If the items in the list are associations, these are treated as
-[named arguments](/ref/proc/arguments/named.md) -m Each such list item is
+[named arguments](/ref/proc/arguments/named.md)  Each such list item is
 matched against the names of the procedure arguments and its associated
 value is assigned to that parameter. 
 

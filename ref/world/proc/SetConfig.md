@@ -1,6 +1,6 @@
 ## SetConfig proc (world)
 **See also:**
-*   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) -m
+*   [GetConfig proc (world)](/ref/world/proc/GetConfig.md) 
 <!-- -->
 **Format:**
 *   SetConfig(config_set,param,value)
@@ -17,4 +17,4 @@ data is accessed by specifying the configuration \"set\" and the
 parameter within that set. 
 
 For more information, see
-[GetConfig](/ref/world/proc/GetConfig.md) -m
+[GetConfig](/ref/world/proc/GetConfig.md) 

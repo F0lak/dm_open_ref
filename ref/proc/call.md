@@ -1,9 +1,9 @@
 ## call proc
 **See also:**
-*   [arglist proc](/ref/proc/arglist.md) -m
-*   [call_ext proc](/ref/proc/call_ext.md) -m
-*   [hascall proc](/ref/proc/hascall.md) -m
-*   [path operators](/ref/operator/path.md) -m
+*   [arglist proc](/ref/proc/arglist.md) 
+*   [call_ext proc](/ref/proc/call_ext.md) 
+*   [hascall proc](/ref/proc/hascall.md) 
+*   [path operators](/ref/operator/path.md) 
 <!-- -->
 **Format:**
 *   call(ProcRef)(Arguments)
@@ -53,4 +53,4 @@ list(\"Proc1\",\"Proc2\")) call(src,Proc)(\"Hello, world!\")
 
 Note* In prior versions, `call()` was also used to access
 third-party libraries (.DLL files on Windows, .SO files on Unix), but
-this has been moved to [call_ext()](/ref/proc/call_ext.md) -m.code} for clarity.
+this has been moved to [call_ext()](/ref/proc/call_ext.md) .code} for clarity.

@@ -1,10 +1,10 @@
 ## text-mode parameter (skin)
 **See also:**
-*   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) -m
-*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) -m
+*   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
+*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
 <!-- -->
 **Applies to:**
-*   [Map](/ref/%7Bskin%7D/control/map.md) -m<!-- -->
+*   [Map](/ref/%7Bskin%7D/control/map.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

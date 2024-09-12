@@ -1,11 +1,11 @@
 ## winexists proc
 **See also:**
-*   [winclone proc](/ref/proc/winclone.md) -m
-*   [winget proc](/ref/proc/winget.md) -m
-*   [winset proc](/ref/proc/winset.md) -m
-*   [winshow proc](/ref/proc/winshow.md) -m
-*   [User interface skins](/ref/%7Bskin%7D.md) -m
-*   [type parameter (skin)](/ref/%7Bskin%7D/param/type.md) -m<!-- -->
+*   [winclone proc](/ref/proc/winclone.md) 
+*   [winget proc](/ref/proc/winget.md) 
+*   [winset proc](/ref/proc/winset.md) 
+*   [winshow proc](/ref/proc/winshow.md) 
+*   [User interface skins](/ref/%7Bskin%7D.md) 
+*   [type parameter (skin)](/ref/%7Bskin%7D/param/type.md) <!-- -->
 **Format:**
 *   winexists(player, control_id)
 <!-- -->

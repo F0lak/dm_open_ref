@@ -1,6 +1,6 @@
 ## block proc
 **See also:**
-*   [list](/ref/list.md) -m<!-- -->
+*   [list](/ref/list.md) <!-- -->
 **Format:**
 *   block(Start,End)
 *   block(StartX,StartY,StartZ, EndX=StartX,EndY=StartY,EndZ=StartZ)

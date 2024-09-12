@@ -1,6 +1,6 @@
 ## key var (client)
 **See also:**
-*   [key var (mob)](/ref/mob/var/key.md) -m<!-- -->
+*   [key var (mob)](/ref/mob/var/key.md) <!-- -->
 **Default value:**
 *   The player\'s key identity.
 

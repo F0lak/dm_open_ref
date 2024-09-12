@@ -1,10 +1,10 @@
 ## Reset proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/ref/database.md) -m
-*   [database query datum](/ref/database/query.md) -m
-*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) -m
-*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) -m<!-- -->
+*   [database datum](/ref/database.md) 
+*   [database query datum](/ref/database/query.md) 
+*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
+*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) <!-- -->
 **Format:**
 *   Reset()
 

@@ -1,9 +1,9 @@
 ## Topic proc (client)
 **See also:**
-*   [New proc (client)](/ref/client/proc/New.md) -m
-*   [Topic proc (datum)](/ref/datum/proc/Topic.md) -m
-*   [link proc](/ref/proc/link.md) -m
-*   [ref text macro](/ref/DM/text/macros/ref.md) -m<!-- -->
+*   [New proc (client)](/ref/client/proc/New.md) 
+*   [Topic proc (datum)](/ref/datum/proc/Topic.md) 
+*   [link proc](/ref/proc/link.md) 
+*   [ref text macro](/ref/DM/text/macros/ref.md) <!-- -->
 **Format:**
 *   Topic(href,href_list\[\],hsrc)
 <!-- -->

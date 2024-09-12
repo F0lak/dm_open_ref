@@ -1,16 +1,16 @@
 ## view proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
-*   [hearers](/ref/proc/hearers.md) -m
-*   [oview proc](/ref/proc/oview.md) -m
-*   [range proc](/ref/proc/range.md) -m
-*   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) -m
-*   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) -m
-*   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) -m
-*   [sight var (mob)](/ref/mob/var/sight.md) -m
-*   [view var (client)](/ref/client/var/view.md) -m
-*   [view var (world)](/ref/world/var/view.md) -m
-*   [viewers](/ref/proc/viewers.md) -m<!-- -->
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+*   [hearers](/ref/proc/hearers.md) 
+*   [oview proc](/ref/proc/oview.md) 
+*   [range proc](/ref/proc/range.md) 
+*   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
+*   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
+*   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
+*   [sight var (mob)](/ref/mob/var/sight.md) 
+*   [view var (client)](/ref/client/var/view.md) 
+*   [view var (world)](/ref/world/var/view.md) 
+*   [viewers](/ref/proc/viewers.md) <!-- -->
 **Format:**
 *   view(Dist=5,Center=usr)
 <!-- -->

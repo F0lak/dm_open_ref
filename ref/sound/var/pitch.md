@@ -1,8 +1,8 @@
 ## pitch var (sound) 
 ###### BYOND Version 515
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) -m
-*   [frequency var (sound)](/ref/sound/var/frequency.md) -m<!-- -->
+*   [vars (sound)](/ref/sound/var.md) 
+*   [frequency var (sound)](/ref/sound/var/frequency.md) <!-- -->
 **Default value:**
 *   0
 

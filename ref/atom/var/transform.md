@@ -1,8 +1,8 @@
 ## transform var (atom) 
 ###### BYOND Version 500
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) -m
-*   [matrix](/ref/matrix.md) -m
+*   [vars (atom)](/ref/atom/var.md) 
+*   [matrix](/ref/matrix.md) 
 
 
 An atom can be made to appear rotated, scaled, and/or
@@ -19,7 +19,7 @@ This is equivalent to:
 
 
 You do not need to understand matrix math to use transforms,
-because you can use the [matrix datum](/ref/matrix.md) -mto do this for you.
+because you can use the [matrix datum](/ref/matrix.md) to do this for you.
 
 
 Transformations are relative to the center of the icon. They do

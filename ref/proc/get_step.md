@@ -1,7 +1,7 @@
 ## get_step proc
 **See also:**
-*   [step proc](/ref/proc/step.md) -m
-*   [walk proc](/ref/proc/walk.md) -m<!-- -->
+*   [step proc](/ref/proc/step.md) 
+*   [walk proc](/ref/proc/walk.md) <!-- -->
 **Format:**
 *   get_step(Ref, Dir)
 <!-- -->

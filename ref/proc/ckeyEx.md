@@ -1,6 +1,6 @@
 ## ckeyEx proc
 **See also:**
-*   [ckey proc](/ref/proc/ckey.md) -m<!-- -->
+*   [ckey proc](/ref/proc/ckey.md) <!-- -->
 **Format:**
 *   ckeyEx(Text)
 <!-- -->

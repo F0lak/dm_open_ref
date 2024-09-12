@@ -1,19 +1,19 @@
 ## Move proc (movable atom)
 **See also:**
-*   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) -m
-*   [Enter proc (atom)](/ref/atom/proc/Enter.md) -m
-*   [Entered proc (atom)](/ref/atom/proc/Entered.md) -m
-*   [Exit proc (atom)](/ref/atom/proc/Exit.md) -m
-*   [Exited proc (atom)](/ref/atom/proc/Exited.md) -m
-*   [Cross proc (atom)](/ref/atom/proc/Cross.md) -m
-*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) -m
-*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) -m
-*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) -m
-*   [loc var (atom)](/ref/atom/var/loc.md) -m
-*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) -m
-*   [walk proc](/ref/proc/walk.md) -m
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) -m
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
+*   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
+*   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
+*   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
+*   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
+*   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
+*   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
+*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
+*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
+*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
+*   [loc var (atom)](/ref/atom/var/loc.md) 
+*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
+*   [walk proc](/ref/proc/walk.md) 
+*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Format:**
 *   Move(NewLoc,Dir=0,step_x=0,step_y=0)
 <!-- -->

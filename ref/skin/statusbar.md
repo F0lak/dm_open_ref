@@ -1,10 +1,10 @@
 ## statusbar parameter (skin)
 **See also:**
-*   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) -m
-*   [on-status parameter](/ref/%7Bskin%7D/param/on-status.md) -m
+*   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
+*   [on-status parameter](/ref/%7Bskin%7D/param/on-status.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) -m(window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
 <!-- -->
 **Format:**
 *   true/false

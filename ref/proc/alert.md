@@ -1,6 +1,6 @@
 ## alert proc
 **See also:**
-*   [input proc](/ref/proc/input.md) -m<!-- -->
+*   [input proc](/ref/proc/input.md) <!-- -->
 **Format:**
 *   alert(Usr=usr,Message,Title,Button1=\"Ok\",Button2,Button3)
 <!-- -->

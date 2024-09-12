@@ -1,8 +1,8 @@
 ## islist proc 
 ###### BYOND Version 513
 **See also:**
-*   [list](/ref/list.md) -m
-*   [list proc](/ref/proc/list.md) -m<!-- -->
+*   [list](/ref/list.md) 
+*   [list proc](/ref/proc/list.md) <!-- -->
 **Format:**
 *   islist(Object)
 <!-- -->

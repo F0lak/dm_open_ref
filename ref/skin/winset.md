@@ -1,8 +1,8 @@
 ## winset and winget (JavaScript)
 **See also:**
-*   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) -m
-*   [winset proc](/ref/proc/winset.md) -m
-*   [winget proc](/ref/proc/winget.md) -m
+*   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
+*   [winset proc](/ref/proc/winset.md) 
+*   [winget proc](/ref/proc/winget.md) 
 
 
 Browser controls can interact with the skin via JavaScript, by
@@ -11,7 +11,7 @@ setting `window.location` to a special URL.
 `byond://winset?id=`*`[control ID]`*`&`*`[property]`*`=`*`[value]`*`&...`
 
 
-This works like an ordinary [winset()](/ref/proc/winset.md) -m{.code}
+This works like an ordinary [winset()](/ref/proc/winset.md) {.code}
 call from the server. If `id` is omitted, it\'s the same as a winset
 with a null ID. You can also leave the `id` blank if you use \"fully
 decorated\" property names such as `mybutton.is-checked` instead of just
@@ -52,7 +52,7 @@ the properties you requested. For example, this URL:
 
 
 The property names will be in the same format you would expect
-from [winget()](/ref/proc/winget.md) -m.code}, so when you\'re looking at
+from [winget()](/ref/proc/winget.md) .code}, so when you\'re looking at
 multiple elements\' properties, you\'ll get the full names in
 `id.property` format. The values are always sent back in a convenient
 form for JavaScript to work with; in the case of size, position, and

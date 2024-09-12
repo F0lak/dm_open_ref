@@ -1,9 +1,9 @@
 ## sound proc
 **See also:**
-*   [sound datum](/ref/sound.md) -m
-*   [vars (sound)](/ref/sound/var.md) -m
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m
-*   [load_resource proc](/ref/proc/load_resource.md) -m
+*   [sound datum](/ref/sound.md) 
+*   [vars (sound)](/ref/sound/var.md) 
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+*   [load_resource proc](/ref/proc/load_resource.md) 
 <!-- -->
 **Format:**
 *   sound(file,repeat=0,wait,channel,volume)
@@ -39,5 +39,5 @@ volume=50) // play an explosion at half volume
 
 
 
-[\*See **Notes** under [sound support](/ref/DM/sound.md) -mfor more
+[\*See **Notes** under [sound support](/ref/DM/sound.md) for more
 information.]{.small}

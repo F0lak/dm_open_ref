@@ -1,8 +1,8 @@
 ## matrix proc 
 ###### BYOND Version 500
 **See also:**
-*   [matrix](/ref/matrix.md) -m
-*   [transform var (atom)](/ref/atom/var/transform.md) -m<!-- -->
+*   [matrix](/ref/matrix.md) 
+*   [transform var (atom)](/ref/atom/var/transform.md) <!-- -->
 **Format:**
 *   matrix()
 *   matrix(Matrix)

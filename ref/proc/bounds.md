@@ -1,18 +1,18 @@
 ## bounds proc
 **See also:**
-*   [obounds proc](/ref/proc/obounds.md) -m
-*   [pixloc](/ref/pixloc.md) -m
-*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) -m
-*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) -m
-*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) -m
-*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) -m
-*   [icon_w var (atom)](/ref/atom/var/icon_w.md) -m
-*   [icon_z var (atom)](/ref/atom/var/icon_z.md) -m
-*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
-*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) -m
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m
-*   [bounds var (client)](/ref/client/var/bounds.md) -m
+*   [obounds proc](/ref/proc/obounds.md) 
+*   [pixloc](/ref/pixloc.md) 
+*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
+*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+*   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
+*   [icon_z var (atom)](/ref/atom/var/icon_z.md) 
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+*   [bounds var (client)](/ref/client/var/bounds.md) 
 <!-- -->
 **Format:**
 *   bounds(Ref=src, Dist=0)
@@ -56,5 +56,5 @@ the final form, bounds() can use absolute coordinates and does not need
 an object to be Ref. Absolute coordinates start at 1,1 at the lower left
 corner of the map, by tradition. 
 
-Note* A [vector](/ref/vector.md) -mmay
+Note* A [vector](/ref/vector.md) may
 be used in place of any x/y or width/height pair.

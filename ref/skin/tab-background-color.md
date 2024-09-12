@@ -1,15 +1,15 @@
 ## tab-background-color parameter (skin)
 **See also:**
-*   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) -m
-*   [tab-text-color parameter](/ref/%7Bskin%7D/param/tab-text-color.md) -m
+*   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
+*   [tab-text-color parameter](/ref/%7Bskin%7D/param/tab-text-color.md) 
 *   [tab-font-family, tab-font-size, tab-font-style
-    parameters](/ref/%7Bskin%7D/param/tab-font.md) -m
+    parameters](/ref/%7Bskin%7D/param/tab-font.md) 
 <!-- -->
 **Applies to:**
-*   [Info](/ref/%7Bskin%7D/control/info.md) -m
+*   [Info](/ref/%7Bskin%7D/control/info.md) 
 <!-- -->
 **Format:**
-*   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m
+*   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
 *   none
 <!-- -->
 **Default value:**
@@ -17,5 +17,5 @@
 
 
 Affects the background color for tabs. The regular
-[background-color](/ref/%7Bskin%7D/param/background-color.md) -m.code} is used
+[background-color](/ref/%7Bskin%7D/param/background-color.md) .code} is used
 for the content area.

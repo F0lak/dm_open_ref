@@ -1,9 +1,9 @@
 ## Flip proc (icon)
 **See also:**
-*   [Turn proc (icon)](/ref/icon/proc/Turn.md) -m
-*   [dir var (atom)](/ref/atom/var/dir.md) -m
-*   [icon](/ref/icon.md) -m
-*   [procs (icon)](/ref/icon/proc.md) -m<!-- -->
+*   [Turn proc (icon)](/ref/icon/proc/Turn.md) 
+*   [dir var (atom)](/ref/atom/var/dir.md) 
+*   [icon](/ref/icon.md) 
+*   [procs (icon)](/ref/icon/proc.md) <!-- -->
 **Format:**
 *   Flip(dir)
 <!-- -->

@@ -111,8 +111,6 @@
 ###### BYOND Version d
 ###### BYOND Version )
 ###### BYOND Version  
-###### BYOND Version -
-###### BYOND Version m
 ###### BYOND Version 
 
 ###### BYOND Version :
@@ -184,8 +182,6 @@
 ###### BYOND Version d
 ###### BYOND Version )
 ###### BYOND Version  
-###### BYOND Version -
-###### BYOND Version m
 ###### BYOND Version 
 
 ###### BYOND Version :
@@ -243,8 +239,6 @@
 ###### BYOND Version d
 ###### BYOND Version )
 ###### BYOND Version  
-###### BYOND Version -
-###### BYOND Version m
 ###### BYOND Version 
 
 ###### BYOND Version :
@@ -302,8 +296,6 @@
 ###### BYOND Version d
 ###### BYOND Version )
 ###### BYOND Version  
-###### BYOND Version -
-###### BYOND Version m
 ###### BYOND Version <
 ###### BYOND Version !
 ###### BYOND Version -

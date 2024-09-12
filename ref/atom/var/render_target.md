@@ -1,10 +1,10 @@
 ## render_target var (atom)
 **See also:**
-*   [render_source var (atom)](/ref/atom/var/render_source.md) -m
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) -m
-*   [color var (atom)](/ref/atom/var/color.md) -m
-*   [filters var (atom)](/ref/atom/var/filters.md) -m
-*   [transform var (atom)](/ref/atom/var/transform.md) -m
+*   [render_source var (atom)](/ref/atom/var/render_source.md) 
+*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+*   [color var (atom)](/ref/atom/var/color.md) 
+*   [filters var (atom)](/ref/atom/var/filters.md) 
+*   [transform var (atom)](/ref/atom/var/transform.md) 
 <!-- -->
 **Default value:**
 *   null
@@ -27,11 +27,11 @@ normally affect the appearance of this icon, such as `color`,
 `transform`, `filters`, `appearance_flags`, etc. are all applied when
 drawing to the slate. Additionally, if this object has overlays,
 underlays, or visual contents and uses the
-[`KEEP_TOGETHER`](/ref/atom/var/appearance_flags.md) -m flag to group all of the
+[`KEEP_TOGETHER`](/ref/atom/var/appearance_flags.md)  flag to group all of the
 icons together, those will also be included in the slate. 
 
 If
-the render target is a [`PLANE_MASTER`](/ref/atom/var/appearance_flags.md) -m
+the render target is a [`PLANE_MASTER`](/ref/atom/var/appearance_flags.md) 
 vars like `pixel_x/y/w/z` will not apply when it is re-drawn as a
 `render_source`.
 ::* note

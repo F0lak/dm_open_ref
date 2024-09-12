@@ -1,18 +1,18 @@
 ## command_text (client) 
 ###### BYOND Version d_text (client) {#command_text-client deprecated="1
 **See also:**
-*   [arguments (verb)](/ref/verb/arguments.md) -m
-*   [command parameter](/ref/%7Bskin%7D/param/command.md) -m
-*   [macros (client script)](/ref/client/var/script/macro.md) -m
-*   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) -m
-*   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) -m
-*   [macros (skin)](/ref/%7Bskin%7D/macros.md) -m
+*   [arguments (verb)](/ref/verb/arguments.md) 
+*   [command parameter](/ref/%7Bskin%7D/param/command.md) 
+*   [macros (client script)](/ref/client/var/script/macro.md) 
+*   [Input control (skin)](/ref/%7Bskin%7D/control/input.md) 
+*   [command parameter (skin)](/ref/%7Bskin%7D/param/command.md) 
+*   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
 <!-- -->
 **Default value:**
 *   null
 Note* In BYOND 4.0 this var is deprecated. The
-[command](/ref/%7Bskin%7D/param/command.md) -m{.code} parameter for an [Input
-control](/ref/%7Bskin%7D/control/input.md) -m can be set to `!command` (`!` in
+[command](/ref/%7Bskin%7D/param/command.md) {.code} parameter for an [Input
+control](/ref/%7Bskin%7D/control/input.md)  can be set to `!command` (`!` in
 front of your default command) which does the same thing. 
 
 This
@@ -30,7 +30,7 @@ by hitting backspace, escape, delete, or `/`.
 
 It is also possible to
 turn on macro mode, in which each keypress executes a [keyboard
-macro](/ref/client/var/script/macro.md) -m by setting `command_text` to
+macro](/ref/client/var/script/macro.md)  by setting `command_text` to
 `".alt "`. That stands for the *Alt* key, which can be used to execute
 macros in normal mode. 
 

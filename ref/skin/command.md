@@ -1,18 +1,18 @@
 ## command parameter (skin)
 **See also:**
-*   [client commands](/ref/%7Bskin%7D/commands.md) -m
+*   [client commands](/ref/%7Bskin%7D/commands.md) 
 <!-- -->
 **Applies to:**
-*   [Button](/ref/%7Bskin%7D/control/button.md) -m
-*   [Input](/ref/%7Bskin%7D/control/input.md) -m
-*   [Macro](/ref/%7Bskin%7D/control/macro.md) -m
-*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m
+*   [Button](/ref/%7Bskin%7D/control/button.md) 
+*   [Input](/ref/%7Bskin%7D/control/input.md) 
+*   [Macro](/ref/%7Bskin%7D/control/macro.md) 
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) 
 <!-- -->
 **Format:**
 *   string
 
 
-[Command](/ref/%7Bskin%7D/commands.md) -mexecuted when this control is
+[Command](/ref/%7Bskin%7D/commands.md) executed when this control is
 activated. 
 
 For the Input control, whatever the user types in

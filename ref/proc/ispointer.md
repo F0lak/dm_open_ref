@@ -1,8 +1,8 @@
 ## ispointer proc 
 ###### BYOND Version 515
 **See also:**
-*   [\* operator (pointers)](/ref/operator/*.md) -m
-*   [& operator (pointers)](/ref/operator/&.md) -m<!-- -->
+*   [\* operator (pointers)](/ref/operator/*.md) 
+*   [& operator (pointers)](/ref/operator/&.md) <!-- -->
 **Format:**
 *   ispointer(Value)
 <!-- -->

@@ -1,8 +1,8 @@
 ## environment var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) -m
-*   [x, y, z vars (sound)](/ref/sound/var/xyz.md) -m
-*   [echo var (sound)](/ref/sound/var/echo.md) -m<!-- -->
+*   [vars (sound)](/ref/sound/var.md) 
+*   [x, y, z vars (sound)](/ref/sound/var/xyz.md) 
+*   [echo var (sound)](/ref/sound/var/echo.md) <!-- -->
 **Default value:**
 *   -1
 

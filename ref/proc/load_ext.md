@@ -1,8 +1,8 @@
 ## load_ext proc 
 ###### BYOND Version 516
 **See also:**
-*   [call_ext proc](/ref/proc/call_ext.md) -m
-*   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) -m
+*   [call_ext proc](/ref/proc/call_ext.md) 
+*   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 
 <!-- -->
 **Format:**
 *   load_ext(LibName,FuncName)
@@ -20,7 +20,7 @@
 
 Use `load_ext()` to pre-load external library functions you
 intend to use often, when maximum performance is required. (See
-[call_ext()](/ref/proc/call_ext.md) -m.code} for the rules for loading
+[call_ext()](/ref/proc/call_ext.md) .code} for the rules for loading
 libraries.) 
 
 The result of this proc can be passed to

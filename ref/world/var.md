@@ -3,47 +3,47 @@
 
 Built-in world vars:
 world/var
-*   [address](/ref/world/var/address.md) -m
-*   [area](/ref/world/var/area.md) -m
-*   [byond_build](/ref/world/var/byond_build.md) -m
-*   [byond_version](/ref/world/var/byond_version.md) -m
-*   [cache_lifespan](/ref/world/var/cache_lifespan.md) -m
-*   [contents](/ref/world/var/contents.md) -m
-*   [cpu](/ref/world/var/cpu.md) -m
-*   [executor](/ref/world/var/executor.md) -m
-*   [fps](/ref/world/var/fps.md) -m
-*   [game_state](/ref/world/var/game_state.md) -m
-*   [host](/ref/world/var/host.md) -m
-*   [hub](/ref/world/var/hub.md) -m
-*   [hub_password](/ref/world/var/hub_password.md) -m
-*   [icon_size](/ref/world/var/icon_size.md) -m
-*   [internet_address](/ref/world/var/internet_address.md) -m
-*   [log](/ref/world/var/log.md) -m
-*   [loop_checks](/ref/world/var/loop_checks.md) -m
-*   [map_format](/ref/world/var/map_format.md) -m
-*   [map_cpu](/ref/world/var/map_cpu.md) -m
-*   [maxx](/ref/world/var/maxx.md) -m
-*   [maxy](/ref/world/var/maxy.md) -m
-*   [maxz](/ref/world/var/maxz.md) -m
-*   [mob](/ref/world/var/mob.md) -m
-*   [movement_mode](/ref/world/var/movement_mode.md) -m
-*   [name](/ref/world/var/name.md) -m
-*   [params](/ref/world/var/params.md) -m
-*   [port](/ref/world/var/port.md) -m
-*   [process](/ref/world/var/process.md) -m
-*   [realtime](/ref/world/var/realtime.md) -m
-*   [reachable](/ref/world/var/reachable.md) -m
-*   [sleep_offline](/ref/world/var/sleep_offline.md) -m
-*   [status](/ref/world/var/status.md) -m
-*   [system_type](/ref/world/var/system_type.md) -m
-*   [tick_lag](/ref/world/var/tick_lag.md) -m
-*   [tick_usage](/ref/world/var/tick_usage.md) -m
-*   [time](/ref/world/var/time.md) -m
-*   [timeofday](/ref/world/var/timeofday.md) -m
-*   [timezone](/ref/world/var/timezone.md) -m
-*   [turf](/ref/world/var/turf.md) -m
-*   [url](/ref/world/var/url.md) -m
-*   [vars](/ref/datum/var/vars.md) -m
-*   [version](/ref/world/var/version.md) -m
-*   [view](/ref/world/var/view.md) -m
-*   [visibility](/ref/world/var/visibility.md) -m
+*   [address](/ref/world/var/address.md) 
+*   [area](/ref/world/var/area.md) 
+*   [byond_build](/ref/world/var/byond_build.md) 
+*   [byond_version](/ref/world/var/byond_version.md) 
+*   [cache_lifespan](/ref/world/var/cache_lifespan.md) 
+*   [contents](/ref/world/var/contents.md) 
+*   [cpu](/ref/world/var/cpu.md) 
+*   [executor](/ref/world/var/executor.md) 
+*   [fps](/ref/world/var/fps.md) 
+*   [game_state](/ref/world/var/game_state.md) 
+*   [host](/ref/world/var/host.md) 
+*   [hub](/ref/world/var/hub.md) 
+*   [hub_password](/ref/world/var/hub_password.md) 
+*   [icon_size](/ref/world/var/icon_size.md) 
+*   [internet_address](/ref/world/var/internet_address.md) 
+*   [log](/ref/world/var/log.md) 
+*   [loop_checks](/ref/world/var/loop_checks.md) 
+*   [map_format](/ref/world/var/map_format.md) 
+*   [map_cpu](/ref/world/var/map_cpu.md) 
+*   [maxx](/ref/world/var/maxx.md) 
+*   [maxy](/ref/world/var/maxy.md) 
+*   [maxz](/ref/world/var/maxz.md) 
+*   [mob](/ref/world/var/mob.md) 
+*   [movement_mode](/ref/world/var/movement_mode.md) 
+*   [name](/ref/world/var/name.md) 
+*   [params](/ref/world/var/params.md) 
+*   [port](/ref/world/var/port.md) 
+*   [process](/ref/world/var/process.md) 
+*   [realtime](/ref/world/var/realtime.md) 
+*   [reachable](/ref/world/var/reachable.md) 
+*   [sleep_offline](/ref/world/var/sleep_offline.md) 
+*   [status](/ref/world/var/status.md) 
+*   [system_type](/ref/world/var/system_type.md) 
+*   [tick_lag](/ref/world/var/tick_lag.md) 
+*   [tick_usage](/ref/world/var/tick_usage.md) 
+*   [time](/ref/world/var/time.md) 
+*   [timeofday](/ref/world/var/timeofday.md) 
+*   [timezone](/ref/world/var/timezone.md) 
+*   [turf](/ref/world/var/turf.md) 
+*   [url](/ref/world/var/url.md) 
+*   [vars](/ref/datum/var/vars.md) 
+*   [version](/ref/world/var/version.md) 
+*   [view](/ref/world/var/view.md) 
+*   [visibility](/ref/world/var/visibility.md) 

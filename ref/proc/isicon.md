@@ -1,8 +1,8 @@
 ## isicon proc
 **See also:**
-*   [cache](/ref/DM/cache.md) -m
-*   [icon](/ref/icon.md) -m
-*   [isfile proc](/ref/proc/isfile.md) -m<!-- -->
+*   [cache](/ref/DM/cache.md) 
+*   [icon](/ref/icon.md) 
+*   [isfile proc](/ref/proc/isfile.md) <!-- -->
 **Format:**
 *   isicon(Icon)
 <!-- -->

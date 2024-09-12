@@ -1,9 +1,9 @@
 ## is-visible parameter (skin)
 **See also:**
-*   [is-disabled parameter](/ref/%7Bskin%7D/param/is-disabled.md) -m
+*   [is-disabled parameter](/ref/%7Bskin%7D/param/is-disabled.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) -m<!-- -->
+*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

@@ -1,7 +1,7 @@
 ## Outline filter 
 ###### BYOND Version 512
 **See also:**
-*   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) -m<!-- -->
+*   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->
 Format:
 *   filter(type=\"outline\", \...)
 <!-- -->

@@ -1,15 +1,15 @@
 ## image proc
 **See also:**
-*   [\<\< operator](/ref/operator/%3c%3c.md) -m
-*   [del proc](/ref/proc/del.md) -m
-*   [icon](/ref/icon.md) -m
-*   [image objects](/ref/image.md) -m
-*   [images var (client)](/ref/client/var/images.md) -m
-*   [overlays var (atom)](/ref/atom/var/overlays.md) -m
+*   [\<\< operator](/ref/operator/%3c%3c.md) 
+*   [del proc](/ref/proc/del.md) 
+*   [icon](/ref/icon.md) 
+*   [image objects](/ref/image.md) 
+*   [images var (client)](/ref/client/var/images.md) 
+*   [overlays var (atom)](/ref/atom/var/overlays.md) 
 <!-- -->
 **Format:**
 *   image(icon,loc,icon_state,layer,dir)
-*   [(supports [named arguments](/ref/proc/arguments/named.md) -m)]{.small}
+*   [(supports [named arguments](/ref/proc/arguments/named.md) )]{.small}
 <!-- -->
 **Returns:**
 *   An image reference on success; 0 on failure.
@@ -80,7 +80,7 @@ necessary.
 
 Note* The fact that `image` is essentially a wrapper
 for `new/image()` means that the arguments in
-[image/New()](/ref/datum/proc/New.md) -m.code} are always treated the same way
+[image/New()](/ref/datum/proc/New.md) .code} are always treated the same way
 as defined in this article. This applies even to subtypes, like
 `/image/thing`. If you create a user-defined subtype like
 `new/image/thing()` it will still use the arguments the same way as in

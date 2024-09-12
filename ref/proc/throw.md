@@ -1,9 +1,9 @@
 ## throw statement
 **See also:**
-*   [try statement](/ref/proc/try.md) -m
-*   [Error proc (world)](/ref/world/proc/Error.md) -m
-*   [EXCEPTION proc](/ref/proc/EXCEPTION.md) -m
-*   [exception](/ref/exception.md) -m<!-- -->
+*   [try statement](/ref/proc/try.md) 
+*   [Error proc (world)](/ref/world/proc/Error.md) 
+*   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
+*   [exception](/ref/exception.md) <!-- -->
 **Format:**
 *   throw Value
 <!-- -->

@@ -1,12 +1,12 @@
 ## icon proc
 **See also:**
-*   [file proc](/ref/proc/file.md) -m
-*   [icon_states proc](/ref/proc/icon_states.md) -m
-*   [icons](/ref/DM/icon.md) -m
+*   [file proc](/ref/proc/file.md) 
+*   [icon_states proc](/ref/proc/icon_states.md) 
+*   [icons](/ref/DM/icon.md) 
 <!-- -->
 **Format:**
 *   icon(icon,state,dir,frame,moving)
-*   [(supports [named arguments](/ref/proc/arguments/named.md) -m]{.small}
+*   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
 <!-- -->
 **Args:**
 *   icon* an icon file or /icon object

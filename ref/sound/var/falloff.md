@@ -1,7 +1,7 @@
 ## falloff var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) -m
-*   [x, y, z vars (sound)](/ref/sound/var/xyz.md) -m<!-- -->
+*   [vars (sound)](/ref/sound/var.md) 
+*   [x, y, z vars (sound)](/ref/sound/var/xyz.md) <!-- -->
 **Default value:**
 *   1
 

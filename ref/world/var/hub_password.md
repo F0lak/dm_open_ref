@@ -1,7 +1,7 @@
 ## hub_password var (world)
 **See also:**
-*   [hub var (world)](/ref/world/var/hub.md) -m
-*   [visibility var (world)](/ref/world/var/visibility.md) -m<!-- -->
+*   [hub var (world)](/ref/world/var/hub.md) 
+*   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
 **Default value:**
 *   null
 

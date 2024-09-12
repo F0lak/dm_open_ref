@@ -1,6 +1,6 @@
 ## length proc
 **See also:**
-*   [vector](/ref/vector.md) -m
+*   [vector](/ref/vector.md) 
 <!-- -->
 **Format:**
 *   length(E)
@@ -42,8 +42,8 @@ Note* In strings
 containing non-ASCII characters, this is the length in bytes, not
 characters; a character may span multiple bytes. Use `length_char()` to
 work with character counts instead of bytes. See the
-[Unicode](/ref/%7Bnotes%7D/Unicode.md) -m section for more information.
+[Unicode](/ref/%7Bnotes%7D/Unicode.md)  section for more information.
 
 
 For vectors, the length is the magnitude of the vector. See
-[vector.len](/ref/vector/var/len.md) -m.code}.
+[vector.len](/ref/vector/var/len.md) .code}.

@@ -1,13 +1,13 @@
 ## bounds_dist proc
 **See also:**
-*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) -m
-*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) -m
-*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) -m
-*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) -m
-*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
-*   [bounds proc](/ref/proc/bounds.md) -m
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
+*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
+*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+*   [bounds proc](/ref/proc/bounds.md) 
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Format:**
 *   bounds_dist(Ref, Target)
 <!-- -->

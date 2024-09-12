@@ -1,9 +1,9 @@
 ## #pragma compatibility directive 
 ###### BYOND Version 516
 **See also:**
-*   [#pragma directive](/ref/DM/preprocessor/pragma.md) -m
-*   [warn/ignore/error directive](/ref/DM/preprocessor/warn.md) -m
-*   [DM_VERSION macro](/ref/DM/preprocessor/DM_VERSION.md) -m<!-- -->
+*   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
+*   [warn/ignore/error directive](/ref/DM/preprocessor/warn.md) 
+*   [DM_VERSION macro](/ref/DM/preprocessor/DM_VERSION.md) <!-- -->
 **Format:**
 *   #pragma compatibility [\<]{.faded}version[\>]{.faded}
 

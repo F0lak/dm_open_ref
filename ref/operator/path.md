@@ -1,10 +1,10 @@
 ## path operators
 **See also:**
-*   [. path operator](/ref/operator/path/%2e.md) -m
-*   [/ path operator](/ref/operator/path//.md) -m
-*   [* path operator](/ref/operator/path/:.md) -m
-*   [procs](/ref/proc.md) -m
-*   [vars](/ref/var.md) -m
+*   [. path operator](/ref/operator/path/%2e.md) 
+*   [/ path operator](/ref/operator/path//.md) 
+*   [* path operator](/ref/operator/path/:.md) 
+*   [procs](/ref/proc.md) 
+*   [vars](/ref/var.md) 
 
 A \"path\" in DM is a constant value that identifies a
 particular definition in the code tree (i.e. an object, procedure, or

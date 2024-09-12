@@ -1,6 +1,6 @@
 ## load_resource proc
 **See also:**
-*   [\<\< output operator](/ref/operator/%3c%3c/output.md) -m<!-- -->
+*   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->
 **Format:**
 *   Player \<\< load_resource(File)
 *   Player \<\< load_resource(File, KeepTime)

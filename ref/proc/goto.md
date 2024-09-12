@@ -1,11 +1,11 @@
 ## goto proc
 **See also:**
-*   [break statement](/ref/proc/break.md) -m
-*   [continue statement](/ref/proc/continue.md) -m
-*   [do proc](/ref/proc/do.md) -m
-*   [for loop proc](/ref/proc/for/loop.md) -m
-*   [for list proc](/ref/proc/for/list.md) -m
-*   [while proc](/ref/proc/while.md) -m<!-- -->
+*   [break statement](/ref/proc/break.md) 
+*   [continue statement](/ref/proc/continue.md) 
+*   [do proc](/ref/proc/do.md) 
+*   [for loop proc](/ref/proc/for/loop.md) 
+*   [for list proc](/ref/proc/for/list.md) 
+*   [while proc](/ref/proc/while.md) <!-- -->
 **Format:**
 *   goto node
 

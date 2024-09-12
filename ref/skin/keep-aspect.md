@@ -1,11 +1,11 @@
 ## keep-aspect parameter (skin)
 **See also:**
-*   [image parameter](/ref/%7Bskin%7D/param/image.md) -m
-*   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) -m
+*   [image parameter](/ref/%7Bskin%7D/param/image.md) 
+*   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 
 <!-- -->
 **Applies to:**
-*   [Label](/ref/%7Bskin%7D/control/label.md) -m
-*   [Main](/ref/%7Bskin%7D/control/main.md) -m<!-- -->
+*   [Label](/ref/%7Bskin%7D/control/label.md) 
+*   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

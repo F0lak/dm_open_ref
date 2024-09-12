@@ -1,11 +1,11 @@
 ## outer-size parameter (skin) 
 ###### BYOND Version 513
 **See also:**
-*   [size parameter](/ref/%7Bskin%7D/param/size.md) -m
-*   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) -m
+*   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+*   [inner-size parameter](/ref/%7Bskin%7D/param/inner-size.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) -m
+*   [Main](/ref/%7Bskin%7D/control/main.md) 
 <!-- -->
 **Format:**
 *   *width*x*height*
@@ -18,5 +18,5 @@ its current exterior size *including* titlebar, statusbar, borders, etc.
 If the window is maximized, this is the maximized size. 
 
 If this
-control is a pane and [can-scroll](/ref/%7Bskin%7D/param/can-scroll.md) -m.code}
+control is a pane and [can-scroll](/ref/%7Bskin%7D/param/can-scroll.md) .code}
 is true, this is the size of the display area including the scrollbars.

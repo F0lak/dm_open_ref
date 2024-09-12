@@ -1,9 +1,9 @@
 ## align parameter (skin)
 **See also:**
-*   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md) -m
+*   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md) 
 <!-- -->
 **Applies to:**
-*   [Label](/ref/%7Bskin%7D/control/label.md) -m<!-- -->
+*   [Label](/ref/%7Bskin%7D/control/label.md) <!-- -->
 **Possible values:**
 *   center
 *   left

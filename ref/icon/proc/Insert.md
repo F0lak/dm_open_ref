@@ -1,14 +1,14 @@
 ## Insert proc (icon)
 **See also:**
-*   [procs (icon)](/ref/icon/proc.md) -m
-*   [New proc](/ref/icon/proc/New.md) -m
-*   [map_format var (world)](/ref/world/var/map_format.md) -m
-*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) -m
-*   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) -m
+*   [procs (icon)](/ref/icon/proc.md) 
+*   [New proc](/ref/icon/proc/New.md) 
+*   [map_format var (world)](/ref/world/var/map_format.md) 
+*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+*   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 
 <!-- -->
 **Format:**
 *   Insert(new_icon,icon_state,dir,frame,moving,delay)
-*   [(supports [named arguments](/ref/proc/arguments/named.md) -m]{.small}
+*   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
 <!-- -->
 **Args:**
 *   new_icon* an icon file or /icon object to insert

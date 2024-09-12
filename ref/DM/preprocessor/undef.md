@@ -1,7 +1,7 @@
 ## #undef directive
 **See also:**
-*   [#define directive](/ref/DM/preprocessor/define.md) -m
-*   [preprocessor](/ref/DM/preprocessor.md) -m<!-- -->
+*   [#define directive](/ref/DM/preprocessor/define.md) 
+*   [preprocessor](/ref/DM/preprocessor.md) <!-- -->
 **Format:**
 *   #undef Name
 <!-- -->

@@ -1,8 +1,8 @@
 ## process var (world)
 **See also:**
-*   [byond_version var (world)](/ref/world/var/byond_version.md) -m
-*   [system_type var (world)](/ref/world/var/system_type.md) -m
-*   [shell proc](/ref/proc/shell.md) -m
+*   [byond_version var (world)](/ref/world/var/byond_version.md) 
+*   [system_type var (world)](/ref/world/var/system_type.md) 
+*   [shell proc](/ref/proc/shell.md) 
 
 This read-only variable indicates the ID of the server\'s
 process on the system running it. The result is a number, unless for

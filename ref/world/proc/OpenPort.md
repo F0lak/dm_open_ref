@@ -1,7 +1,7 @@
 ## OpenPort proc (world)
 **See also:**
-*   [port var (world)](/ref/world/var/port.md) -m
-*   [visibility var (world)](/ref/world/var/visibility.md) -m
+*   [port var (world)](/ref/world/var/port.md) 
+*   [visibility var (world)](/ref/world/var/visibility.md) 
 <!-- -->
 **See also:**
 *   OpenPort(port=0)
@@ -32,4 +32,4 @@ if(host_is_subscribed) return ..()
 The \"ports\"
 configuration option in cfg/byond.txt can be used to control what ports
 worlds may open. The -ports command-line option may also be used. See
-[startup](/ref/proc/startup.md) -mfor the syntax.
+[startup](/ref/proc/startup.md) for the syntax.

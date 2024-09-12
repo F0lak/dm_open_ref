@@ -1,8 +1,8 @@
 ## control_freak (client)
 **See also:**
-*   [User interface skins](/ref/%7Bskin%7D.md) -m
-*   [macros (skin)](/ref/%7Bskin%7D/macros.md) -m
-*   [macros (client script)](/ref/client/var/script/macro.md) -m<!-- -->
+*   [User interface skins](/ref/%7Bskin%7D.md) 
+*   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+*   [macros (client script)](/ref/client/var/script/macro.md) <!-- -->
 **Default value:**
 *   0
 

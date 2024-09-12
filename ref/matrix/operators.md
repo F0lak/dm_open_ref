@@ -1,19 +1,19 @@
 ## matrix operators 
 ###### BYOND Version 500" short="operators
 **See also:**
-*   [matrix](/ref/matrix.md) -m
-*   [matrix procs](/ref/matrix/proc.md) -m
+*   [matrix](/ref/matrix.md) 
+*   [matrix procs](/ref/matrix/proc.md) 
 <!-- -->
 **See also:**
-*   [+ operator](/ref/operator/+.md) -m
-*   [+= operator](/ref/operator/+=.md) -m
-*   [- operator](/ref/operator/-.md) -m
-*   [-= operator](/ref/operator/-=.md) -m
-*   [\* operator](/ref/operator/*.md) -m
-*   [\*= operator](/ref/operator/*=.md) -m
-*   [/ operator](/ref/operator//.md) -m
-*   [/= operator](/ref/operator//=.md) -m
-*   [\~ operator](/ref/operator/~.md) -m
+*   [+ operator](/ref/operator/+.md) 
+*   [+= operator](/ref/operator/+=.md) 
+*   [- operator](/ref/operator/-.md) 
+*   [-= operator](/ref/operator/-=.md) 
+*   [\* operator](/ref/operator/*.md) 
+*   [\*= operator](/ref/operator/*=.md) 
+*   [/ operator](/ref/operator//.md) 
+*   [/= operator](/ref/operator//=.md) 
+*   [\~ operator](/ref/operator/~.md) 
 
 The operators listed above have special meaning when applied to
 matrices. 

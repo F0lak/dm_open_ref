@@ -1,7 +1,7 @@
 ## get_step_rand proc
 **See also:**
-*   [step_rand proc](/ref/proc/step_rand.md) -m
-*   [walk_rand proc](/ref/proc/walk_rand.md) -m<!-- -->
+*   [step_rand proc](/ref/proc/step_rand.md) 
+*   [walk_rand proc](/ref/proc/walk_rand.md) <!-- -->
 **Format:**
 *   get_step_rand(Ref)
 <!-- -->

@@ -1,9 +1,9 @@
 ## arcsin proc
 **See also:**
-*   [arccos proc](/ref/proc/arccos.md) -m
-*   [arctan proc](/ref/proc/arctan.md) -m
-*   [sin proc](/ref/proc/sin.md) -m
-*   [turn proc](/ref/proc/turn.md) -m<!-- -->
+*   [arccos proc](/ref/proc/arccos.md) 
+*   [arctan proc](/ref/proc/arctan.md) 
+*   [sin proc](/ref/proc/sin.md) 
+*   [turn proc](/ref/proc/turn.md) <!-- -->
 **Format:**
 *   arcsin(X)
 <!-- -->

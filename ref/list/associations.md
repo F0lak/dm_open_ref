@@ -1,12 +1,12 @@
 ## list associations
 **See also:**
-*   [list](/ref/list.md) -m
-*   [list proc](/ref/proc/list.md) -m
-*   [list proc](/ref/proc/alist.md) -m
-*   [list2params proc](/ref/proc/list2params.md) -m
-*   [params var (world)](/ref/world/var/params.md) -m
-*   [params2list proc](/ref/proc/params2list.md) -m
-*   [vars list var (datum)](/ref/datum/var/vars.md) -m
+*   [list](/ref/list.md) 
+*   [list proc](/ref/proc/list.md) 
+*   [list proc](/ref/proc/alist.md) 
+*   [list2params proc](/ref/proc/list2params.md) 
+*   [params var (world)](/ref/world/var/params.md) 
+*   [params2list proc](/ref/proc/params2list.md) 
+*   [vars list var (datum)](/ref/datum/var/vars.md) 
 
 
 Each unique text string or object in a list may be associated
@@ -42,7 +42,7 @@ numeric indices are treated differently, accessing the Nth item in the
 list, you may not assign an associated value to a numeric list item.
 Associations must have a text string or object reference as the index
 item. (`alist()` is an exception to this, and can use numeric
-associations. See [alist()](/ref/list/alist.md) -m{.code} for more information.)
+associations. See [alist()](/ref/list/alist.md) {.code} for more information.)
 
 
 Associated values default to null if none is assigned. This is
@@ -50,8 +50,8 @@ also the value returned when the supplied index item does not exist in
 the list. The list defined above, for example, would return null for
 `params["time"]`. 
 
-The [list()](/ref/proc/list.md) -m{.code} or
-[alist()](/ref/proc/alist.md) -m{.code} instructions may also be used to create
+The [list()](/ref/proc/list.md) {.code} or
+[alist()](/ref/proc/alist.md) {.code} instructions may also be used to create
 associative lists.
 ### Example:
 
@@ -72,9 +72,9 @@ list(player = \"James Byond\", score = 2000)
 
 In
 other words, this is exactly the same syntax as for [named
-arguments](/ref/proc/arguments/named.md) -m. 
+arguments](/ref/proc/arguments/named.md) . 
 
 The [`alist`
-proc](/ref/proc/alist.md) -mcreates lists that are *strictly* associative. This
+proc](/ref/proc/alist.md) creates lists that are *strictly* associative. This
 means that list items are treated as \"keys\" in key,value pairs. Unlike
 a regular list, each \"key\" is unique.

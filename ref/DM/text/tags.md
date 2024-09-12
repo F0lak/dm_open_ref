@@ -1,9 +1,9 @@
 ## tags (text)
 **See also:**
-*   [entities (text)](/ref/DM/text/entities.md) -m
-*   [macros (text)](/ref/DM/text/macros.md) -m
-*   [style sheets](/ref/DM/text/style.md) -m
-*   [text](/ref/DM/text.md) -m
+*   [entities (text)](/ref/DM/text/entities.md) 
+*   [macros (text)](/ref/DM/text/macros.md) 
+*   [style sheets](/ref/DM/text/style.md) 
+*   [text](/ref/DM/text.md) 
 
 
 Text tags (also known as *elements* by snooty HTML purists)
@@ -66,12 +66,12 @@ be specified as desired. The attribute value may have quotes around it,
 but this is only necessary if the value contains spaces. It is usually
 more convenient to use single quotes so you don\'t have to escape the
 double quotes, but you can also embed the HTML in a [text
-document](/ref/DM/text.md) -m to avoid the need for escaping quotes.
+document](/ref/DM/text.md)  to avoid the need for escaping quotes.
 
 
 When applying color to text, you can use hexadecimal RGB or you
 can use one of the named [HTML
-colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m 
+colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md)  
 
 Text sizes range
 from 1 to 7, 1 being the smallest and 7 being the largest. In addition

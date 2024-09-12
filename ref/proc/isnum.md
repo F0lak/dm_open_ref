@@ -1,7 +1,7 @@
 ## isnum proc
 **See also:**
-*   [isinf proc](/ref/proc/isinf.md) -m
-*   [isnan proc](/ref/proc/isnan.md) -m*   [Numbers](/%7Bnotes%7D/numbers)
+*   [isinf proc](/ref/proc/isinf.md) 
+*   [isnan proc](/ref/proc/isnan.md) *   [Numbers](/%7Bnotes%7D/numbers)
 <!-- -->
 **Format:**
 *   isnum(Val)

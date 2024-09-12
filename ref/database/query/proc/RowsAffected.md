@@ -1,11 +1,11 @@
 ## RowsAffected proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/ref/database.md) -m
-*   [database query datum](/ref/database/query.md) -m
-*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) -m
+*   [database datum](/ref/database.md) 
+*   [database query datum](/ref/database/query.md) 
+*   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
 *   [RowsAffected proc (database
-    query)](/ref/database/query/proc/RowsAffected.md) -m<!-- -->
+    query)](/ref/database/query/proc/RowsAffected.md) <!-- -->
 **Format:**
 *   RowsAffected()
 

@@ -1,10 +1,10 @@
 ## pixloc 
 ###### BYOND Version 516
 **See also:**
-*   [vars (pixloc)](/ref/pixloc/var.md) -m
-*   [pixloc var (atom)](/ref/atom/var/pixloc.md) -m
-*   [pixloc proc](/ref/proc/pixloc.md) -m
-*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) -m
+*   [vars (pixloc)](/ref/pixloc/var.md) 
+*   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
+*   [pixloc proc](/ref/proc/pixloc.md) 
+*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
 
 
 A primitive type that encapsulates position information for an
@@ -14,21 +14,21 @@ coordinates.
 
 The pixloc of an atom is taken from its loc and
 step_x/y vars only. If you want the pixloc of its bounds edges or its
-center, use the [`bound_pixloc()` proc](/ref/proc/bound_pixloc.md) -m for that.
+center, use the [`bound_pixloc()` proc](/ref/proc/bound_pixloc.md)  for that.
 
 
-Pixlocs support some math operations. A [vector](/ref/vector.md) -m can
+Pixlocs support some math operations. A [vector](/ref/vector.md)  can
 be added or subtracted to a pixloc, and subtracting one pixloc from
-another will produce a vector. The [%](/ref/operator/%.md) -m{.code} and
-[%%](/ref/operator/%%.md) -m{.code} operators are supported, returning a vector.
+another will produce a vector. The [%](/ref/operator/%.md) {.code} and
+[%%](/ref/operator/%%.md) {.code} operators are supported, returning a vector.
 
 
 Other supported procs for pixlocs include:
-[min()](/ref/proc/min.md) -m{.code}
-[max()](/ref/proc/max.md) -m{.code}
-[clamp()](/ref/proc/clamp.md) -m{.code}
-[round()](/ref/proc/round.md) -m{.code}
-[floor()](/ref/proc/floor.md) -m{.code}
-[ceil()](/ref/proc/ceil.md) -m{.code}
-[trunc()](/ref/proc/trunc.md) -m{.code}
-[fract()](/ref/proc/fract.md) -m.code} (returns a vector)
+[min()](/ref/proc/min.md) {.code}
+[max()](/ref/proc/max.md) {.code}
+[clamp()](/ref/proc/clamp.md) {.code}
+[round()](/ref/proc/round.md) {.code}
+[floor()](/ref/proc/floor.md) {.code}
+[ceil()](/ref/proc/ceil.md) {.code}
+[trunc()](/ref/proc/trunc.md) {.code}
+[fract()](/ref/proc/fract.md) .code} (returns a vector)

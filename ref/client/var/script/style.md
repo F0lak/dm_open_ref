@@ -1,7 +1,7 @@
 ## style sheets (in scripts)
 **See also:**
-*   [script var (client)](/ref/client/var/script.md) -m
-*   [style sheets](/ref/DM/text/style.md) -m
+*   [script var (client)](/ref/client/var/script.md) 
+*   [style sheets](/ref/DM/text/style.md) 
 
 
 Style sheets may be included in DM Script by putting the style
@@ -22,4 +22,4 @@ as well as loading a style sheet.
 This example style sheet makes the player\'s
 terminal have a black background and aqua colored text. When changing
 the background color, it is important to change the color of system and
-link text as well. See the section on [style sheets](/ref/DM/text/style.md) -mfor an example.
+link text as well. See the section on [style sheets](/ref/DM/text/style.md) for an example.

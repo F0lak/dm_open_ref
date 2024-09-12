@@ -1,8 +1,8 @@
 ## system_type var (world)
 **See also:**
-*   [byond_version var (world)](/ref/world/var/byond_version.md) -m
-*   [process var (world)](/ref/world/var/process.md) -m
-*   [shell proc](/ref/proc/shell.md) -m
+*   [byond_version var (world)](/ref/world/var/byond_version.md) 
+*   [process var (world)](/ref/world/var/process.md) 
+*   [shell proc](/ref/proc/shell.md) 
 
 This variable indicates the operating system type at run-time.
 It will be one of the following constants:

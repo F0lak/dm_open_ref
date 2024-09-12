@@ -1,6 +1,6 @@
 ## priority var (sound)
 **See also:**
-*   [vars (sound)](/ref/sound/var.md) -m<!-- -->
+*   [vars (sound)](/ref/sound/var.md) <!-- -->
 **Default value:**
 *   0
 

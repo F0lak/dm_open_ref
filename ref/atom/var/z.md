@@ -1,7 +1,7 @@
 ## z var (atom)
 **See also:**
-*   [layer var (atom)](/ref/atom/var/layer.md) -m
-*   [loc var (atom)](/ref/atom/var/loc.md) -m<!-- -->
+*   [layer var (atom)](/ref/atom/var/layer.md) 
+*   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->
 **Default value:**
 *   The z coordinate of the object on the map.
 

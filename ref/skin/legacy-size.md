@@ -1,10 +1,10 @@
 ## legacy-size parameter (skin) 
 ###### BYOND Version 512
 **See also:**
-*   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) -m
+*   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
 <!-- -->
 **Applies to:**
-*   [Output](/ref/%7Bskin%7D/control/output.md) -m<!-- -->
+*   [Output](/ref/%7Bskin%7D/control/output.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

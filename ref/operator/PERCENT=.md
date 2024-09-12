@@ -1,7 +1,7 @@
 ## %= operator
 **See also:**
-*   [% operator](/ref/operator/%.md) -m
-*   [operators](/ref/operator.md) -m<!-- -->
+*   [% operator](/ref/operator/%.md) 
+*   [operators](/ref/operator.md) <!-- -->
 **Format:**
 *   A %= B
 

@@ -1,9 +1,9 @@
 ## cos proc
 **See also:**
-*   [arccos proc](/ref/proc/arccos.md) -m
-*   [sin proc](/ref/proc/sin.md) -m
-*   [tan proc](/ref/proc/tan.md) -m
-*   [turn proc](/ref/proc/turn.md) -m<!-- -->
+*   [arccos proc](/ref/proc/arccos.md) 
+*   [sin proc](/ref/proc/sin.md) 
+*   [tan proc](/ref/proc/tan.md) 
+*   [turn proc](/ref/proc/turn.md) <!-- -->
 **Format:**
 *   cos(X)
 <!-- -->

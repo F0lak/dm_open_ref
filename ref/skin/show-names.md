@@ -1,10 +1,10 @@
 ## show-names parameter (skin)
 **See also:**
-*   [name var (atom)](/ref/atom/var/name.md) -m
-*   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) -m
+*   [name var (atom)](/ref/atom/var/name.md) 
+*   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) 
 <!-- -->
 **Applies to:**
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) -m<!-- -->
+*   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

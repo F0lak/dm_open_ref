@@ -1,10 +1,10 @@
 ## blend_mode var (atom) 
 ###### BYOND Version 501
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) -m
-*   [alpha var (atom)](/ref/atom/var/alpha.md) -m
-*   [color var (atom)](/ref/atom/var/color.md) -m
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) -m
+*   [vars (atom)](/ref/atom/var.md) 
+*   [alpha var (atom)](/ref/atom/var/alpha.md) 
+*   [color var (atom)](/ref/atom/var/color.md) 
+*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 <!-- -->
 **Default value:**
 *   0 (none/overlay)
@@ -51,5 +51,5 @@ translucent black icon with normal overlay blending is a better option.
 image being drawn on. This is pretty much not at all useful directly on
 the map, but can be very useful for an overlay for an atom that uses
 `KEEP_TOGETHER` (see
-[appearance_flags](/ref/atom/var/appearance_flags.md) -m{.code}), or for the
-[layering filter](/ref/%7Bnotes%7D/filters/layer.md) -m
+[appearance_flags](/ref/atom/var/appearance_flags.md) {.code}), or for the
+[layering filter](/ref/%7Bnotes%7D/filters/layer.md) 

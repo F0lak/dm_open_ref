@@ -1,12 +1,12 @@
 ## HUD / screen objects
 **See also:**
-*   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) -m
-*   [screen var (client)](/ref/client/var/screen.md) -m
-*   [view var (client)](/ref/client/var/view.md) -m
-*   [map_format var (world)](/ref/world/var/map_format.md) -m
-*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
-*   [layer var (atom)](/ref/atom/var/layer.md) -m
-*   [image objects](/ref/image.md) -m
+*   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+*   [screen var (client)](/ref/client/var/screen.md) 
+*   [view var (client)](/ref/client/var/view.md) 
+*   [map_format var (world)](/ref/world/var/map_format.md) 
+*   [icon_size var (world)](/ref/world/var/icon_size.md) 
+*   [layer var (atom)](/ref/atom/var/layer.md) 
+*   [image objects](/ref/image.md) 
 
 
 HUD stands for Heads-Up Display, and refers to any atoms that
@@ -33,7 +33,7 @@ The `screen_loc` var can be set to a value like
 from the west, along the north side of the screen), `"SOUTHEAST"`, and
 so on. You can also include pixel offsets, percentages, and specify two
 corners to tile an icon repeatedly from one end to the other. See
-[screen_loc](/ref/atom/movable/var/screen_loc.md) -m.code} for more details.
+[screen_loc](/ref/atom/movable/var/screen_loc.md) .code} for more details.
 
 
 `screen_loc` can also be used to stretch the bounds of the HUD.

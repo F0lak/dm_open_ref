@@ -1,6 +1,6 @@
 ## tag var (datum)
 **See also:**
-*   [locate proc](/ref/proc/locate.md) -m<!-- -->
+*   [locate proc](/ref/proc/locate.md) <!-- -->
 **Default value:**
 *   null
 

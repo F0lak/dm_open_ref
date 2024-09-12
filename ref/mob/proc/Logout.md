@@ -1,8 +1,8 @@
 ## Logout proc (mob)
 **See also:**
-*   [Login proc (mob)](/ref/mob/proc/Login.md) -m
-*   [client var (mob)](/ref/mob/var/client.md) -m
-*   [key var (mob)](/ref/mob/var/key.md) -m<!-- -->
+*   [Login proc (mob)](/ref/mob/proc/Login.md) 
+*   [client var (mob)](/ref/mob/var/client.md) 
+*   [key var (mob)](/ref/mob/var/key.md) <!-- -->
 **Format:**
 *   Logout()
 <!-- -->

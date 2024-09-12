@@ -1,12 +1,12 @@
 ## overlays var (atom)
 **See also:**
-*   [underlays var (atom)](/ref/atom/var/underlays.md) -m
-*   [icon var (atom)](/ref/atom/var/icon.md) -m
-*   [layer var (atom)](/ref/atom/var/layer.md) -m
-*   [list](/ref/list.md) -m
-*   [image objects](/ref/image.md) -m
-*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) -m
-*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) -m
+*   [underlays var (atom)](/ref/atom/var/underlays.md) 
+*   [icon var (atom)](/ref/atom/var/icon.md) 
+*   [layer var (atom)](/ref/atom/var/layer.md) 
+*   [list](/ref/list.md) 
+*   [image objects](/ref/image.md) 
+*   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
+*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
 <!-- -->
 **Default value:**
 *   empty list
@@ -16,9 +16,9 @@
 Overlays are relatively static and cannot be altered on the
 fly, only replaced. They\'re your best-performing option for very simple
 things that won\'t change often. If you need something that allows
-dynamic changes you may prefer to look into [image objects](/ref/image.md) -m
+dynamic changes you may prefer to look into [image objects](/ref/image.md) 
 (which can also be selectively shown to only certain players) or [visual
-contents](/ref/atom/var/vis_contents.md) -m which are more versatile.
+contents](/ref/atom/var/vis_contents.md)  which are more versatile.
 :::
 
 
@@ -27,7 +27,7 @@ the object\'s main icon.
 
 The individual items in the list may
 not be directly accessed, since they are stored in a [special internal
-format](/ref/atom/var/appearance.md) -m However, the list operators `+=`, `-=`,
+format](/ref/atom/var/appearance.md)  However, the list operators `+=`, `-=`,
 and the procedures `Add`, `Remove`, and `Cut` work normally.
 ### Example:
 

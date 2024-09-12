@@ -1,10 +1,10 @@
 ## floor proc 
 ###### BYOND Version 515
 **See also:**
-*   [ceil proc](/ref/proc/ceil.md) -m
-*   [round proc](/ref/proc/round.md) -m
-*   [trunc proc](/ref/proc/trunc.md) -m
-*   [fract proc](/ref/proc/fract.md) -m<!-- -->
+*   [ceil proc](/ref/proc/ceil.md) 
+*   [round proc](/ref/proc/round.md) 
+*   [trunc proc](/ref/proc/trunc.md) 
+*   [fract proc](/ref/proc/fract.md) <!-- -->
 **Format:**
 *   floor(A)
 <!-- -->

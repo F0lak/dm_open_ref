@@ -1,7 +1,7 @@
 ## group list var (mob)
 **See also:**
-*   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) -m
-*   [list](/ref/list.md) -m<!-- -->
+*   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
+*   [list](/ref/list.md) <!-- -->
 **Default value:**
 *   (empty list)
 

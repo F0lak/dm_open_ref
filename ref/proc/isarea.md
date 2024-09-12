@@ -1,6 +1,6 @@
 ## isarea proc
 **See also:**
-*   [isloc proc](/ref/proc/isloc.md) -m<!-- -->
+*   [isloc proc](/ref/proc/isloc.md) <!-- -->
 **Format:**
 *   isarea(Loc1, Loc2 \...)
 <!-- -->

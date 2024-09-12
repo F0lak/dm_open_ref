@@ -1,9 +1,9 @@
 ## is-slider parameter (skin)
 **See also:**
-*   [value parameter](/ref/%7Bskin%7D/param/value.md) -m
+*   [value parameter](/ref/%7Bskin%7D/param/value.md) 
 <!-- -->
 **Applies to:**
-*   [Bar](/ref/%7Bskin%7D/control/bar.md) -m<!-- -->
+*   [Bar](/ref/%7Bskin%7D/control/bar.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

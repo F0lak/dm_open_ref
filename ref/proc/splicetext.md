@@ -1,8 +1,8 @@
 ## splicetext proc 
 ###### BYOND Version 514
 **See also:**
-*   [copytext proc](/ref/proc/copytext.md) -m
-*   [Splice proc (list)](/ref/list/proc/Splice.md) -m
+*   [copytext proc](/ref/proc/copytext.md) 
+*   [Splice proc (list)](/ref/list/proc/Splice.md) 
 <!-- -->
 **Format:**
 *   splicetext(Text,Start=1,End=0,Insert=\"\")
@@ -40,4 +40,4 @@ Note* In strings
 containing non-ASCII characters, byte position and character position
 are not the same thing. Use `splicetext_char()` to work with character
 counts instead of bytes, at a performance cost. See the
-[Unicode](/ref/%7Bnotes%7D/Unicode.md) -msection for more information.
+[Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.

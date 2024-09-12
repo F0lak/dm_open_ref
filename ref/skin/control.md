@@ -1,68 +1,68 @@
 ## controls (skin)
 **Control types:**
-*   [Bar](/ref/%7Bskin%7D/control/bar.md) -m* A progress bar or slider
-*   [Browser](/ref/%7Bskin%7D/control/browser.md) -m* A browser
-*   [Button](/ref/%7Bskin%7D/control/button.md) -m* A pushbutton or toggle button
-*   [Child](/ref/%7Bskin%7D/control/child.md) -m* A container holding one or two
+*   [Bar](/ref/%7Bskin%7D/control/bar.md) * A progress bar or slider
+*   [Browser](/ref/%7Bskin%7D/control/browser.md) * A browser
+*   [Button](/ref/%7Bskin%7D/control/button.md) * A pushbutton or toggle button
+*   [Child](/ref/%7Bskin%7D/control/child.md) * A container holding one or two
     panes, with a movable splitter
-*   [Grid](/ref/%7Bskin%7D/control/grid.md) -m* For table-like or list-like
+*   [Grid](/ref/%7Bskin%7D/control/grid.md) * For table-like or list-like
     output
-*   [Info](/ref/%7Bskin%7D/control/info.md) -m* Classic BYOND statpanel
-*   [Input](/ref/%7Bskin%7D/control/input.md) -m* Command input or other
+*   [Info](/ref/%7Bskin%7D/control/info.md) * Classic BYOND statpanel
+*   [Input](/ref/%7Bskin%7D/control/input.md) * Command input or other
     user-entered text
-*   [Label](/ref/%7Bskin%7D/control/label.md) -m* Non-interactive text label
-*   [Main](/ref/%7Bskin%7D/control/main.md) -m* A window or pane that holds other
+*   [Label](/ref/%7Bskin%7D/control/label.md) * Non-interactive text label
+*   [Main](/ref/%7Bskin%7D/control/main.md) * A window or pane that holds other
     controls
-*   [Macro](/ref/%7Bskin%7D/control/macro.md) -m* A [keyboard/gamepad/mouse
-    macro](/ref/%7Bskin%7D/macros.md) -m
-*   [Map](/ref/%7Bskin%7D/control/map.md) -m* The game map display
-*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m* An item in a drop-down menu
-*   [Output](/ref/%7Bskin%7D/control/output.md) -m* Text output
-*   [Tab](/ref/%7Bskin%7D/control/tab.md) -m* A tab control holding multiple
+*   [Macro](/ref/%7Bskin%7D/control/macro.md) * A [keyboard/gamepad/mouse
+    macro](/ref/%7Bskin%7D/macros.md) 
+*   [Map](/ref/%7Bskin%7D/control/map.md) * The game map display
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) * An item in a drop-down menu
+*   [Output](/ref/%7Bskin%7D/control/output.md) * Text output
+*   [Tab](/ref/%7Bskin%7D/control/tab.md) * A tab control holding multiple
     panes, showing one at a time
 <!-- -->
 **Parameters common to all controls:**
-*   [id](/ref/%7Bskin%7D/param/id.md) -m
-*   [is-disabled](/ref/%7Bskin%7D/param/is-disabled.md) -m
-*   [parent](/ref/%7Bskin%7D/param/parent.md) -m
-*   [saved-params](/ref/%7Bskin%7D/param/saved-params.md) -m
-*   [type](/ref/%7Bskin%7D/param/type.md) -m
+*   [id](/ref/%7Bskin%7D/param/id.md) 
+*   [is-disabled](/ref/%7Bskin%7D/param/is-disabled.md) 
+*   [parent](/ref/%7Bskin%7D/param/parent.md) 
+*   [saved-params](/ref/%7Bskin%7D/param/saved-params.md) 
+*   [type](/ref/%7Bskin%7D/param/type.md) 
 **Positionable controls only (not Macro or Menu):**
-*   [anchor1, anchor2](/ref/%7Bskin%7D/param/anchor.md) -m
-*   [background-color](/ref/%7Bskin%7D/param/background-color.md) -m
-*   [border](/ref/%7Bskin%7D/param/border.md) -m
-*   [drop-zone](/ref/%7Bskin%7D/param/drop-zone.md) -m
-*   [flash](/ref/%7Bskin%7D/param/flash.md) -m
-*   [focus](/ref/%7Bskin%7D/param/focus.md) -m
-*   [font-family](/ref/%7Bskin%7D/param/font-family.md) -m
-*   [font-size](/ref/%7Bskin%7D/param/font-size.md) -m
-*   [font-style](/ref/%7Bskin%7D/param/font-style.md) -m
-*   [is-visible](/ref/%7Bskin%7D/param/is-visible.md) -m
-*   [is-transparent](/ref/%7Bskin%7D/param/is-transparent.md) -m
-*   [on-size](/ref/%7Bskin%7D/param/on-size.md) -m
-*   [pos](/ref/%7Bskin%7D/param/pos.md) -m
-*   [right-click](/ref/%7Bskin%7D/param/right-click.md) -m
-*   [size](/ref/%7Bskin%7D/param/size.md) -m
-*   [text-color](/ref/%7Bskin%7D/param/text-color.md) -m
+*   [anchor1, anchor2](/ref/%7Bskin%7D/param/anchor.md) 
+*   [background-color](/ref/%7Bskin%7D/param/background-color.md) 
+*   [border](/ref/%7Bskin%7D/param/border.md) 
+*   [drop-zone](/ref/%7Bskin%7D/param/drop-zone.md) 
+*   [flash](/ref/%7Bskin%7D/param/flash.md) 
+*   [focus](/ref/%7Bskin%7D/param/focus.md) 
+*   [font-family](/ref/%7Bskin%7D/param/font-family.md) 
+*   [font-size](/ref/%7Bskin%7D/param/font-size.md) 
+*   [font-style](/ref/%7Bskin%7D/param/font-style.md) 
+*   [is-visible](/ref/%7Bskin%7D/param/is-visible.md) 
+*   [is-transparent](/ref/%7Bskin%7D/param/is-transparent.md) 
+*   [on-size](/ref/%7Bskin%7D/param/on-size.md) 
+*   [pos](/ref/%7Bskin%7D/param/pos.md) 
+*   [right-click](/ref/%7Bskin%7D/param/right-click.md) 
+*   [size](/ref/%7Bskin%7D/param/size.md) 
+*   [text-color](/ref/%7Bskin%7D/param/text-color.md) 
 ### Creating/Destroying at runtime
 
 
 Controls can be created or deleted at runtime. (Only controls
 you created during runtime may be deleted.) To create a control, call
-[winset()](/ref/proc/winset.md) -m{.code} using the
-[id](/ref/%7Bskin%7D/param/id.md) -m{.code} of the new control, and the parameter
-list should include [type](/ref/%7Bskin%7D/param/type.md) -m{.code},
-[parent](/ref/%7Bskin%7D/param/parent.md) -m{.code}, and probably also
-[pos](/ref/%7Bskin%7D/param/pos.md) -m{.code},
-[size](/ref/%7Bskin%7D/param/size.md) -m{.code}, and any
-[anchors](/ref/%7Bskin%7D/param/anchor.md) -m. 
+[winset()](/ref/proc/winset.md) {.code} using the
+[id](/ref/%7Bskin%7D/param/id.md) {.code} of the new control, and the parameter
+list should include [type](/ref/%7Bskin%7D/param/type.md) {.code},
+[parent](/ref/%7Bskin%7D/param/parent.md) {.code}, and probably also
+[pos](/ref/%7Bskin%7D/param/pos.md) {.code},
+[size](/ref/%7Bskin%7D/param/size.md) {.code}, and any
+[anchors](/ref/%7Bskin%7D/param/anchor.md) . 
 
 To delete the control
 again, set its `parent` to a blank value. 
 
 Menu items and macros
 work similarly, except they have no positional info. For those, the
-[name](/ref/%7Bskin%7D/param/name.md) -m{.code} parameter is important when you
+[name](/ref/%7Bskin%7D/param/name.md) {.code} parameter is important when you
 create them, and you will either need
-[command](/ref/%7Bskin%7D/param/command.md) -m{.code} or (for macros)
-[map-to](/ref/%7Bskin%7D/param/map-to.md) -m.code} to do anything with them.
+[command](/ref/%7Bskin%7D/param/command.md) {.code} or (for macros)
+[map-to](/ref/%7Bskin%7D/param/map-to.md) .code} to do anything with them.

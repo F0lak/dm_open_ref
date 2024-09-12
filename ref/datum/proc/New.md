@@ -1,15 +1,15 @@
 ## New proc (datum)
 **See also:**
-*   [New proc (atom)](/ref/atom/proc/New.md) -m
-*   [New proc (client)](/ref/client/proc/New.md) -m
-*   [new proc](/ref/proc/new.md) -m
+*   [New proc (atom)](/ref/atom/proc/New.md) 
+*   [New proc (client)](/ref/client/proc/New.md) 
+*   [new proc](/ref/proc/new.md) 
 <!-- -->
 **Format:**
 *   New()
 <!-- -->
 **When:**
 *   Called when the datum is created, for example by using `new`, when
-    reading an object that was stored in a [savefile](/ref/savefile.md) -m, or
+    reading an object that was stored in a [savefile](/ref/savefile.md) , or
     when the world is initially created.
 <!-- -->
 **Default action:**
@@ -22,7 +22,7 @@ assign the initial value of variables to constants.
 
 The
 following example makes use of the \"Location\" parameter that is passed
-to objects of type [/atom](/ref/atom.md) -m You can pass any number of
+to objects of type [/atom](/ref/atom.md)  You can pass any number of
 additional arguments to New() by passing them to the `new` instruction
 which creates the object.
 ### Example:

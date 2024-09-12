@@ -1,10 +1,10 @@
 ## mob
 **See also:**
-*   [atom](/ref/atom.md) -m
-*   [movable atoms](/ref/atom/movable.md) -m
-*   [procs (mob)](/ref/mob/proc.md) -m
-*   [vars (mob)](/ref/mob/var.md) -m
-*   [client](/ref/client.md) -m
+*   [atom](/ref/atom.md) 
+*   [movable atoms](/ref/atom/movable.md) 
+*   [procs (mob)](/ref/mob/proc.md) 
+*   [vars (mob)](/ref/mob/var.md) 
+*   [client](/ref/client.md) 
 
 Mobs are \"mobile objects\" derived from `/mob`, which derives
 from `/atom/movable`. Human players are associated with a mob when they

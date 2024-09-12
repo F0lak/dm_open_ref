@@ -1,13 +1,13 @@
 ## lock parameter (skin)
 **See also:**
-*   [left parameter](/ref/%7Bskin%7D/param/left.md) -m
-*   [right parameter](/ref/%7Bskin%7D/param/right.md) -m
-*   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) -m
-*   [show-splitter parameter](/ref/%7Bskin%7D/param/show-splitter.md) -m
-*   [splitter parameter](/ref/%7Bskin%7D/param/splitter.md) -m
+*   [left parameter](/ref/%7Bskin%7D/param/left.md) 
+*   [right parameter](/ref/%7Bskin%7D/param/right.md) 
+*   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) 
+*   [show-splitter parameter](/ref/%7Bskin%7D/param/show-splitter.md) 
+*   [splitter parameter](/ref/%7Bskin%7D/param/splitter.md) 
 <!-- -->
 **Applies to:**
-*   [Child](/ref/%7Bskin%7D/control/child.md) -m<!-- -->
+*   [Child](/ref/%7Bskin%7D/control/child.md) <!-- -->
 **Possible values:**
 *   left
 *   right

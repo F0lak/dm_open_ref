@@ -1,10 +1,10 @@
 ## movable atoms
 **See also:**
-*   [atom](/ref/atom.md) -m
-*   [mob](/ref/mob.md) -m
-*   [obj](/ref/obj.md) -m
-*   [procs (movable atoms)](/ref/atom/movable/proc.md) -m
-*   [vars (movable atoms)](/ref/atom/movable/var.md) -m
+*   [atom](/ref/atom.md) 
+*   [mob](/ref/mob.md) 
+*   [obj](/ref/obj.md) 
+*   [procs (movable atoms)](/ref/atom/movable/proc.md) 
+*   [vars (movable atoms)](/ref/atom/movable/var.md) 
 
 The /atom/movable object type is the ancestor of all mappable
 objects that are capable of motion. The types /obj and /mob are derived

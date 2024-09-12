@@ -1,10 +1,10 @@
 ## list
 **See also:**
-*   [list associations](/ref/list/associations.md) -m
-*   [list proc](/ref/proc/list.md) -m
-*   [islist proc](/ref/proc/islist.md) -m
-*   [procs (list)](/ref/list/proc.md) -m
-*   [vars (list)](/ref/list/var.md) -m
+*   [list associations](/ref/list/associations.md) 
+*   [list proc](/ref/proc/list.md) 
+*   [islist proc](/ref/proc/islist.md) 
+*   [procs (list)](/ref/list/proc.md) 
+*   [vars (list)](/ref/list/var.md) 
 
 Lists are used to represent groups of objects. Like objects,
 they have vars and procs associated with them. In order to access these

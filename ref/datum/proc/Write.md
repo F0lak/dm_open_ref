@@ -1,10 +1,10 @@
 ## Write proc (datum)
 **See also:**
-*   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) -m
-*   [Read proc (datum)](/ref/datum/proc/Read.md) -m
-*   [initial proc](/ref/proc/initial.md) -m
-*   [issaved proc](/ref/proc/issaved.md) -m
-*   [tmp vars](/ref/var/tmp.md) -m<!-- -->
+*   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+*   [Read proc (datum)](/ref/datum/proc/Read.md) 
+*   [initial proc](/ref/proc/initial.md) 
+*   [issaved proc](/ref/proc/issaved.md) 
+*   [tmp vars](/ref/var/tmp.md) <!-- -->
 **Format:**
 *   Write(savefile/F)
 <!-- -->

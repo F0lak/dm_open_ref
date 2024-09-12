@@ -1,18 +1,18 @@
 ## MouseWheel proc (client) 
 ###### BYOND Version 508
 **See also:**
-*   [Click proc (client)](/ref/client/proc/Click.md) -m
-*   [DblClick proc (client)](/ref/client/proc/DblClick.md) -m
-*   [MouseDown proc (client)](/ref/client/proc/MouseDown.md) -m
-*   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md) -m
-*   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md) -m
-*   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md) -m
-*   [MouseExited proc (client)](/ref/client/proc/MouseExited.md) -m
-*   [MouseMove proc (client)](/ref/client/proc/MouseMove.md) -m
-*   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) -m
-*   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel.md) -m
-*   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) -m
-*   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md) -m
+*   [Click proc (client)](/ref/client/proc/Click.md) 
+*   [DblClick proc (client)](/ref/client/proc/DblClick.md) 
+*   [MouseDown proc (client)](/ref/client/proc/MouseDown.md) 
+*   [MouseDrag proc (client)](/ref/client/proc/MouseDrag.md) 
+*   [MouseDrop proc (client)](/ref/client/proc/MouseDrop.md) 
+*   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md) 
+*   [MouseExited proc (client)](/ref/client/proc/MouseExited.md) 
+*   [MouseMove proc (client)](/ref/client/proc/MouseMove.md) 
+*   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) 
+*   [MouseWheel proc (atom)](/ref/atom/proc/MouseWheel.md) 
+*   [mouse_opacity var (atom)](/ref/atom/var/mouse_opacity.md) 
+*   [mouse_pointer_icon var (client)](/ref/client/var/mouse_pointer_icon.md) 
 <!-- -->
 **Format:**
 *   MouseWheel(object,delta_x,delta_y,location,control,params)
@@ -24,7 +24,7 @@
     object
 *   control* the name of the skin control involved
 *   params* other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) -m<!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
 **Default action:**
 *   Call object.MouseWheel(delta_x,delta_y,location,control,params).
 

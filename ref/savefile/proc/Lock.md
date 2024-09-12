@@ -1,7 +1,7 @@
 ## Lock proc (savefile)
 **See also:**
-*   [New proc (savefile)](/ref/savefile/proc/New.md) -m
-*   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) -m<!-- -->
+*   [New proc (savefile)](/ref/savefile/proc/New.md) 
+*   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
 **Format:**
 *   Lock(timeout)
 <!-- -->

@@ -1,10 +1,10 @@
 ## params2list proc
 **See also:**
-*   [Topic proc (client)](/ref/client/proc/Topic.md) -m
-*   [list associations](/ref/list/associations.md) -m
-*   [list2params proc](/ref/proc/list2params.md) -m
-*   [params var (world)](/ref/world/var/params.md) -m
-*   [text2num proc](/ref/proc/text2num.md) -m
+*   [Topic proc (client)](/ref/client/proc/Topic.md) 
+*   [list associations](/ref/list/associations.md) 
+*   [list2params proc](/ref/proc/list2params.md) 
+*   [params var (world)](/ref/world/var/params.md) 
+*   [text2num proc](/ref/proc/text2num.md) 
 <!-- -->
 **Format:**
 *   params2list(Params)
@@ -31,7 +31,7 @@ The field separator `;` may be used in place of `&`.
 Special characters such as `=`, `;`, and `&` inside the
 parameter names or values should be written in the form `%xx`, where
 `xx` are two hexadecimal digits representing the ASCII value of the
-character. (For [Unicode](/ref/%7Bnotes%7D/Unicode.md) -mcharacters, this may be
+character. (For [Unicode](/ref/%7Bnotes%7D/Unicode.md) characters, this may be
 several `%xx` sequences using UTF-8 encoding.) For example, `=` would be
 written `%3d`, `;` would be `%3b`, `&` would be `%26`, and `%` would be
 `%25`. These \"escaped\" codes are automatically translated into the

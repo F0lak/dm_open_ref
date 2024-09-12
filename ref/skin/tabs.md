@@ -1,17 +1,17 @@
 ## tabs parameter (skin)
 **See also:**
-*   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) -m
-*   [id parameter](/ref/%7Bskin%7D/param/id.md) -m
-*   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) -m
+*   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
+*   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+*   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) 
 <!-- -->
 **Applies to:**
-*   [Tab](/ref/%7Bskin%7D/control/tab.md) -m
+*   [Tab](/ref/%7Bskin%7D/control/tab.md) 
 <!-- -->
 **Format:**
 *   string
 
 
-A comma-separated list of [id](/ref/%7Bskin%7D/param/id.md) -m{.code}
+A comma-separated list of [id](/ref/%7Bskin%7D/param/id.md) {.code}
 values for the panes included as tabs in this control. 
 
 When
@@ -20,6 +20,6 @@ the existing control, without affecting current tabs. You can likewise
 use `-` in front of the list to remove tabs. 
 
 Note* When using
-this with [winset()](/ref/proc/winset.md) -m{.code}, remember you will need to
-escape `+` as `%2B` via [url_encode()](/ref/proc/url_encode.md) -m{.code} or
-[list2params()](/ref/proc/list2params.md) -m.code}.
+this with [winset()](/ref/proc/winset.md) {.code}, remember you will need to
+escape `+` as `%2B` via [url_encode()](/ref/proc/url_encode.md) {.code} or
+[list2params()](/ref/proc/list2params.md) .code}.

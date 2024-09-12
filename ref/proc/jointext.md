@@ -1,8 +1,8 @@
 ## jointext proc 
 ###### BYOND Version 510
 **See also:**
-*   [splittext proc](/ref/proc/splittext.md) -m
-*   [Join proc (list)](/ref/list/proc/Join.md) -m<!-- -->
+*   [splittext proc](/ref/proc/splittext.md) 
+*   [Join proc (list)](/ref/list/proc/Join.md) <!-- -->
 **Format:**
 *   jointext(List,Glue,Start=1,End=0)
 <!-- -->

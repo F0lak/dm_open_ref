@@ -1,6 +1,6 @@
 ## index parameter (skin)
 **Applies to:**
-*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m<!-- -->
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
 **Format:**
 *   number
 <!-- -->

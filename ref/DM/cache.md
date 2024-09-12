@@ -1,11 +1,11 @@
 ## cache
 **See also:**
-*   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) -m
-*   [cache_lifespan var (world)](/ref/world/var/cache_lifespan.md) -m
-*   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) -m
-*   [file proc](/ref/proc/file.md) -m
-*   [icons](/ref/DM/icon.md) -m
-*   [sounds](/ref/DM/sound.md) -m
+*   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
+*   [cache_lifespan var (world)](/ref/world/var/cache_lifespan.md) 
+*   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
+*   [file proc](/ref/proc/file.md) 
+*   [icons](/ref/DM/icon.md) 
+*   [sounds](/ref/DM/sound.md) 
 
 Files specified in single quotes are loaded (at compile time)
 into the world cache file (ending in `.rsc`). These are referred to as

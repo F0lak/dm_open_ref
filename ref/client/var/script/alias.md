@@ -1,8 +1,8 @@
 ## aliases (client script)
 **See also:**
-*   [macros (client script)](/ref/client/var/script/macro.md) -m
-*   [script var (client)](/ref/client/var/script.md) -m
-*   [verbs](/ref/verb.md) -m
+*   [macros (client script)](/ref/client/var/script/macro.md) 
+*   [script var (client)](/ref/client/var/script.md) 
+*   [verbs](/ref/verb.md) 
 
 Command aliases have a syntax similar to verbs. They define a
 command and a series of arguments which can then be used to execute a

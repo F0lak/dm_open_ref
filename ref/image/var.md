@@ -1,38 +1,38 @@
 ## vars (image)
 /image/var
-*   [alpha](/ref/atom/var/alpha.md) -m
-*   [appearance](/ref/atom/var/appearance.md) -m
-*   [appearance_flags](/ref/atom/var/appearance_flags.md) -m
-*   [blend_mode](/ref/atom/var/blend_mode.md) -m
-*   [color](/ref/atom/var/color.md) -m
-*   [icon](/ref/atom/var/icon.md) -m
-*   [icon_state](/ref/atom/var/icon_state.md) -m
-*   [icon_w](/ref/atom/var/icon_w.md) -m
-*   [icon_z](/ref/atom/var/icon_z.md) -m
-*   [text](/ref/atom/var/text.md) -m
-*   [dir](/ref/atom/var/dir.md) -m
-*   [filters](/ref/atom/var/filters.md) -m
-*   [loc](/ref/image/var/loc.md) -m
-*   [maptext](/ref/atom/var/maptext.md) -m
-*   [maptext_width](/ref/atom/var/maptext_width.md) -m
-*   [maptext_height](/ref/atom/var/maptext_height.md) -m
-*   [maptext_x](/ref/atom/var/maptext_x.md) -m
-*   [maptext_y](/ref/atom/var/maptext_y.md) -m
-*   [overlays](/ref/atom/var/overlays.md) -m
-*   [override](/ref/atom/var/override.md) -m
-*   [pixel_x](/ref/atom/var/pixel_x.md) -m
-*   [pixel_y](/ref/atom/var/pixel_y.md) -m
-*   [pixel_w](/ref/atom/var/pixel_w.md) -m
-*   [pixel_z](/ref/atom/var/pixel_z.md) -m
-*   [plane](/ref/atom/var/plane.md) -m
-*   [render_source](/ref/atom/var/render_source.md) -m
-*   [render_target](/ref/atom/var/render_target.md) -m
-*   [transform](/ref/atom/var/transform.md) -m
-*   [underlays](/ref/atom/var/underlays.md) -m
-*   [vis_contents](/ref/atom/var/vis_contents.md) -m
-*   [x](/ref/atom/var/x.md) -m
-*   [y](/ref/atom/var/y.md) -m
-*   [z](/ref/atom/var/z.md) -m
-*   [type](/ref/datum/var/type.md) -m
-*   [tag](/ref/datum/var/tag.md) -m
-*   [parent_type](/ref/datum/var/parent_type.md) -m
+*   [alpha](/ref/atom/var/alpha.md) 
+*   [appearance](/ref/atom/var/appearance.md) 
+*   [appearance_flags](/ref/atom/var/appearance_flags.md) 
+*   [blend_mode](/ref/atom/var/blend_mode.md) 
+*   [color](/ref/atom/var/color.md) 
+*   [icon](/ref/atom/var/icon.md) 
+*   [icon_state](/ref/atom/var/icon_state.md) 
+*   [icon_w](/ref/atom/var/icon_w.md) 
+*   [icon_z](/ref/atom/var/icon_z.md) 
+*   [text](/ref/atom/var/text.md) 
+*   [dir](/ref/atom/var/dir.md) 
+*   [filters](/ref/atom/var/filters.md) 
+*   [loc](/ref/image/var/loc.md) 
+*   [maptext](/ref/atom/var/maptext.md) 
+*   [maptext_width](/ref/atom/var/maptext_width.md) 
+*   [maptext_height](/ref/atom/var/maptext_height.md) 
+*   [maptext_x](/ref/atom/var/maptext_x.md) 
+*   [maptext_y](/ref/atom/var/maptext_y.md) 
+*   [overlays](/ref/atom/var/overlays.md) 
+*   [override](/ref/atom/var/override.md) 
+*   [pixel_x](/ref/atom/var/pixel_x.md) 
+*   [pixel_y](/ref/atom/var/pixel_y.md) 
+*   [pixel_w](/ref/atom/var/pixel_w.md) 
+*   [pixel_z](/ref/atom/var/pixel_z.md) 
+*   [plane](/ref/atom/var/plane.md) 
+*   [render_source](/ref/atom/var/render_source.md) 
+*   [render_target](/ref/atom/var/render_target.md) 
+*   [transform](/ref/atom/var/transform.md) 
+*   [underlays](/ref/atom/var/underlays.md) 
+*   [vis_contents](/ref/atom/var/vis_contents.md) 
+*   [x](/ref/atom/var/x.md) 
+*   [y](/ref/atom/var/y.md) 
+*   [z](/ref/atom/var/z.md) 
+*   [type](/ref/datum/var/type.md) 
+*   [tag](/ref/datum/var/tag.md) 
+*   [parent_type](/ref/datum/var/parent_type.md) 

@@ -1,9 +1,9 @@
 ## cpu var (world)
 **See also:**
-*   [map_cpu var (world)](/ref/world/var/map_cpu.md) -m
-*   [tick_lag var (world)](/ref/world/var/tick_lag.md) -m
-*   [tick_usage var (world)](/ref/world/var/tick_usage.md) -m
-*   [Tick proc (world)](/ref/world/proc/Tick.md) -m
+*   [map_cpu var (world)](/ref/world/var/map_cpu.md) 
+*   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
+*   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
+*   [Tick proc (world)](/ref/world/proc/Tick.md) 
 
 This is the percentage of a server tick that the server spends
 processing running procs and the work of sending map information to

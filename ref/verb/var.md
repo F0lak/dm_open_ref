@@ -1,3 +1,3 @@
 ## vars (verbs)
 **See:**
-*   [vars (procs)](/ref/proc/var.md) -m
+*   [vars (procs)](/ref/proc/var.md) 

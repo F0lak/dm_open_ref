@@ -1,6 +1,6 @@
 ## fdel proc
 **See also:**
-*   [shell proc](/ref/proc/shell.md) -m<!-- -->
+*   [shell proc](/ref/proc/shell.md) <!-- -->
 **Format:**
 *   fdel(File)
 <!-- -->

@@ -1,15 +1,15 @@
 ## color var (client) 
 ###### BYOND Version 509
 **See also:**
-*   [color var (atom)](/ref/atom/var/color.md) -m
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) -m
+*   [color var (atom)](/ref/atom/var/color.md) 
+*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 
 
 Casts a color multiplication or
-[matrix](/ref/%7Bnotes%7D/color-matrix.md) -m effect over the entire main map.
+[matrix](/ref/%7Bnotes%7D/color-matrix.md)  effect over the entire main map.
 This behaves exactly the same as atom.color, and will be combined with
 atom.color (which comes first) where present. See
-[atom.color](/ref/atom/var/color.md) -mfor more information. 
+[atom.color](/ref/atom/var/color.md) for more information. 
 
 If a
 matrix is used, the alpha column and row will have no effect.

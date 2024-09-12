@@ -1,6 +1,6 @@
 ## cmptextEx proc
 **See also:**
-*   [cmptext proc](/ref/proc/cmptext.md) -m<!-- -->
+*   [cmptext proc](/ref/proc/cmptext.md) <!-- -->
 **Format:**
 *   cmptextEx(T1,T2,\...)
 <!-- -->

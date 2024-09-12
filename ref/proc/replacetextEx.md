@@ -1,10 +1,10 @@
 ## replacetextEx proc 
 ###### BYOND Version 510
 **See also:**
-*   [findtextEx proc](/ref/proc/findtextEx.md) -m
-*   [replacetext proc](/ref/proc/replacetext.md) -m
-*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) -m
-*   [Replace proc (regex)](/ref/regex/proc/Replace.md) -m
+*   [findtextEx proc](/ref/proc/findtextEx.md) 
+*   [replacetext proc](/ref/proc/replacetext.md) 
+*   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+*   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
 <!-- -->
 **Format:**
 *   replacetextEx(Haystack,Needle,Replacement,Start=1,End=0)
@@ -43,11 +43,11 @@ will be no automatic correction to uppercase or all caps in this case.
 
 
 When the Needle value is a regular expression, this proc
-behaves identically to the [regex Replace()](/ref/regex/proc/Replace.md) -m proc.
+behaves identically to the [regex Replace()](/ref/regex/proc/Replace.md)  proc.
 Case-sensitivity, and whether one match or all are replaced, depend on
 the regular expression. 
 
 Note* In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `replacetextEx_char()` to work with character counts instead of
-bytes, at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) -msection for more information.
+bytes, at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.

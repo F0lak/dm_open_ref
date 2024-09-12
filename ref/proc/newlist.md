@@ -1,7 +1,7 @@
 ## newlist proc
 **See also:**
-*   [list proc](/ref/proc/list.md) -m
-*   [new proc](/ref/proc/new.md) -m<!-- -->
+*   [list proc](/ref/proc/list.md) 
+*   [new proc](/ref/proc/new.md) <!-- -->
 **Format:**
 *   newlist(A,B,C,\...)
 <!-- -->

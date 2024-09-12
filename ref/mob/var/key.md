@@ -1,8 +1,8 @@
 ## key var (mob)
 **See also:**
-*   [ckey var (mob)](/ref/mob/var/ckey.md) -m
-*   [client](/ref/client.md) -m
-*   [key var (client)](/ref/client/var/key.md) -m<!-- -->
+*   [ckey var (mob)](/ref/mob/var/ckey.md) 
+*   [client](/ref/client.md) 
+*   [key var (client)](/ref/client/var/key.md) <!-- -->
 **Default value:**
 *   null
 

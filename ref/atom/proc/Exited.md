@@ -1,13 +1,13 @@
 ## Exited proc (atom)
 **See also:**
-*   [Enter proc (atom)](/ref/atom/proc/Enter.md) -m
-*   [Entered proc (atom)](/ref/atom/proc/Entered.md) -m
-*   [Exit proc (atom)](/ref/atom/proc/Exit.md) -m
-*   [Cross proc (atom)](/ref/atom/proc/Cross.md) -m
-*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) -m
-*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) -m
-*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) -m
-*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) -m<!-- -->
+*   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
+*   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
+*   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
+*   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
+*   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
+*   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
+*   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
+*   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) <!-- -->
 **Format:**
 *   Exited(atom/movable/Obj, atom/newloc)
 <!-- -->

@@ -1,11 +1,11 @@
 ## Regular expressions
 **See also:**
-*   [regex datum](/ref/regex.md) -m
-*   [regex proc](/ref/proc/regex.md) -m
-*   [findtext proc](/ref/proc/findtext.md) -m
-*   [replacetext proc](/ref/proc/replacetext.md) -m
-*   [splittext proc](/ref/proc/splittext.md) -m
-*   [REGEX_QUOTE proc](/ref/proc/REGEX_QUOTE.md) -m
+*   [regex datum](/ref/regex.md) 
+*   [regex proc](/ref/proc/regex.md) 
+*   [findtext proc](/ref/proc/findtext.md) 
+*   [replacetext proc](/ref/proc/replacetext.md) 
+*   [splittext proc](/ref/proc/splittext.md) 
+*   [REGEX_QUOTE proc](/ref/proc/REGEX_QUOTE.md) 
 
 
 Regular expressions are patterns that can be searched for
@@ -28,7 +28,7 @@ any of the operators as an actual character, it must be escaped with a
 backslash. 
 
 It is highly recommended that you use [raw
-strings](/ref/DM/text.md) -m like `@"..."` for your regular expression patterns,
+strings](/ref/DM/text.md)  like `@"..."` for your regular expression patterns,
 because with a regular DM string you have to escape all backslash `\`
 and open bracket `[` characters, which will make your regular expression
 much harder for you to read. It\'s easier to write `@"[\d]\n"` than
@@ -89,5 +89,5 @@ After calling `Find()` on a `/regex` datum, the datum\'s
 found with the `()` parentheses operator. For instance, searching the
 string `"123"` for `1(\d)(\d)` will match `"123"`, and the `group` var
 will be `list("2","3")`. Groups can also be used in replacement
-expressions; see the [Replace() proc](/ref/regex/proc/Replace.md) -m.code} for
+expressions; see the [Replace() proc](/ref/regex/proc/Replace.md) .code} for
 more details.

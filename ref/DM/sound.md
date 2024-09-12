@@ -1,10 +1,10 @@
 ## sounds
 **See also:**
-*   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) -m
-*   [cache](/ref/DM/cache.md) -m
-*   [sound proc](/ref/proc/sound.md) -m
-*   [/sound datum](/ref/sound.md) -m
-*   [load_resource proc](/ref/proc/load_resource.md) -m
+*   [FILE_DIR definition](/ref/DM/preprocessor/define/FILE_DIR.md) 
+*   [cache](/ref/DM/cache.md) 
+*   [sound proc](/ref/proc/sound.md) 
+*   [/sound datum](/ref/sound.md) 
+*   [load_resource proc](/ref/proc/load_resource.md) 
 
 A sound stored in a file may be referenced by putting single
 quotes around the filename. The file extension determines the type of

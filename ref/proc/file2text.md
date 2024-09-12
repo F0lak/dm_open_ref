@@ -1,7 +1,7 @@
 ## file2text proc
 **See also:**
-*   [shell proc](/ref/proc/shell.md) -m
-*   [text2file proc](/ref/proc/text2file.md) -m<!-- -->
+*   [shell proc](/ref/proc/shell.md) 
+*   [text2file proc](/ref/proc/text2file.md) <!-- -->
 **Format:**
 *   file2text(File)
 <!-- -->

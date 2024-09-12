@@ -1,12 +1,12 @@
 ## font-style parameter (skin)
 **See also:**
-*   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) -m
-*   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) -m
+*   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
+*   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
 *   [tab-font-family, tab-font-size, tab-font-style
-    parameters](/ref/%7Bskin%7D/param/tab-font.md) -m
+    parameters](/ref/%7Bskin%7D/param/tab-font.md) 
 <!-- -->
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) -m<!-- -->
+*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Possible values:**
 *   bold
 *   italic

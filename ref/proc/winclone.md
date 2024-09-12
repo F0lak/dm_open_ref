@@ -1,10 +1,10 @@
 ## winclone proc
 **See also:**
-*   [winexists proc](/ref/proc/winexists.md) -m
-*   [winget proc](/ref/proc/winget.md) -m
-*   [winset proc](/ref/proc/winset.md) -m
-*   [winshow proc](/ref/proc/winshow.md) -m
-*   [User interface skins](/ref/%7Bskin%7D.md) -m<!-- -->
+*   [winexists proc](/ref/proc/winexists.md) 
+*   [winget proc](/ref/proc/winget.md) 
+*   [winset proc](/ref/proc/winset.md) 
+*   [winshow proc](/ref/proc/winshow.md) 
+*   [User interface skins](/ref/%7Bskin%7D.md) <!-- -->
 **Format:**
 *   winclone(player, window_name, clone_name)
 <!-- -->

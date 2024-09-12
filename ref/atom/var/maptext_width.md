@@ -1,11 +1,11 @@
 ## maptext_width var (atom) 
 ###### BYOND Version 494
 **See also:**
-*   [maptext var (atom)](/ref/atom/var/maptext.md) -m
-*   [maptext_x var (atom)](/ref/atom/var/maptext_x.md) -m
-*   [maptext_y var (atom)](/ref/atom/var/maptext_y.md) -m
-*   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) -m
-*   [icon_size var (world)](/ref/world/var/icon_size.md) -m<!-- -->
+*   [maptext var (atom)](/ref/atom/var/maptext.md) 
+*   [maptext_x var (atom)](/ref/atom/var/maptext_x.md) 
+*   [maptext_y var (atom)](/ref/atom/var/maptext_y.md) 
+*   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) 
+*   [icon_size var (world)](/ref/world/var/icon_size.md) <!-- -->
 **Default value:**
 *   32 (depends on world.icon_size)
 

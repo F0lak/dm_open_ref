@@ -1,8 +1,8 @@
 ## operator overloading 
 ###### BYOND Version 512" short="overloading
 **See also:**
-*   [datum](/ref/datum.md) -m
-*   [operators](/ref/operator.md) -m
+*   [datum](/ref/datum.md) 
+*   [operators](/ref/operator.md) 
 
 DM allows you to overload most of the operators it uses when
 working with datums and other objects. This means that A + B can call a

@@ -1,10 +1,10 @@
 ## icon parameter (skin)
 **See also:**
-*   [title parameter](/ref/%7Bskin%7D/param/title.md) -m
-*   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) -m
+*   [title parameter](/ref/%7Bskin%7D/param/title.md) 
+*   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) -m<!-- -->
+*   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
 **Format:**
 *   \'*file*\'
 <!-- -->

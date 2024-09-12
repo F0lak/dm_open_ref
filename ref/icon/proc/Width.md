@@ -1,8 +1,8 @@
 ## Width proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) -m
-*   [procs (icon)](/ref/icon/proc.md) -m
-*   [Height proc](/ref/icon/proc/Height.md) -m<!-- -->
+*   [icon](/ref/icon.md) 
+*   [procs (icon)](/ref/icon/proc.md) 
+*   [Height proc](/ref/icon/proc/Height.md) <!-- -->
 **Format:**
 *   Width()
 

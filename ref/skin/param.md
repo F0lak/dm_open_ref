@@ -2,7 +2,7 @@
 
 
 Controls can be interacted with via
-[winset()](/ref/proc/winset.md) -m{.code} and [winget()](/ref/proc/winset.md) -m{.code} to
+[winset()](/ref/proc/winset.md) {.code} and [winget()](/ref/proc/winset.md) {.code} to
 change or read various parameters. 
 
 Parameters come in a few
@@ -16,7 +16,7 @@ different formats:
     or true/false values as shortcuts
 
 
-The list of [all controls](/ref/%7Bskin%7D/control.md) -mwhich shows
+The list of [all controls](/ref/%7Bskin%7D/control.md) which shows
 which parameters are universal, and each individual control type lists
 additional parameters that apply to that type specifically.
 

@@ -1,8 +1,8 @@
 ## del proc
 **See also:**
-*   [Del proc (datum)](/ref/datum/proc/Del.md) -m
-*   [garbage collection](/ref/DM/garbage.md) -m
-*   [refcount proc](/ref/proc/refcount.md) -m
+*   [Del proc (datum)](/ref/datum/proc/Del.md) 
+*   [garbage collection](/ref/DM/garbage.md) 
+*   [refcount proc](/ref/proc/refcount.md) 
 <!-- -->
 **Format:**
 *   del Object
@@ -39,4 +39,4 @@ cases, as a best practice, manual deletion should be avoided by ensuring
 that all references to an object are taken care of when the need for
 object destruction arises. Objects that have no references are deleted
 automatically without the need for a search. See [garbage
-collection](/ref/DM/garbage.md) -mfor more details.
+collection](/ref/DM/garbage.md) for more details.

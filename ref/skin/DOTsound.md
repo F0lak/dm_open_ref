@@ -1,9 +1,9 @@
 ## .sound (client command) 
 ###### BYOND Version 516
 **See also:**
-*   [sound proc](/ref/proc/sound.md) -m
-*   [sound datum](/ref/sound.md) -m
-*   [client commands](/ref/%7Bskin%7D/commands.md) -m
+*   [sound proc](/ref/proc/sound.md) 
+*   [sound datum](/ref/sound.md) 
+*   [client commands](/ref/%7Bskin%7D/commands.md) 
 <!-- -->
 **Format:**
 *   .sound *file* *options*
@@ -24,7 +24,7 @@ sound. Any options should be separated by spaces; most are in a
 Supported options are:
 update
 *   This action is updating a channel rather than playing a new sound.
-    It corresponds to the [SOUND_UPDATE](/ref/sound/var/status.md) -m.code}
+    It corresponds to the [SOUND_UPDATE](/ref/sound/var/status.md) .code}
     status flag.
 channel=*N*
 *   Specifies a channel.

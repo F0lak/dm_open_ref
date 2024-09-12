@@ -1,7 +1,7 @@
 ## \*\* operator
 **See also:**
-*   [log proc](/ref/proc/log.md) -m
-*   [operators](/ref/operator.md) -m<!-- -->
+*   [log proc](/ref/proc/log.md) 
+*   [operators](/ref/operator.md) <!-- -->
 **Format:**
 *   A \*\* B
 <!-- -->

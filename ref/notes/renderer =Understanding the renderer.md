@@ -5,16 +5,16 @@ To get the most out of BYOND\'s visual effects, it helps to
 understand how the map is displayed. 
 
 Every atom has an
-[appearance](/ref/atom/var/appearance.md) -m that holds all of its visual info
+[appearance](/ref/atom/var/appearance.md)  that holds all of its visual info
 (and sometimes a little non-visual info). This appearance has to be
 turned into sprites in order to be rendered. 
 
 Although many
-atoms need little more than a simple [icon](/ref/atom/var/icon.md) -m{.code} and
-[icon_state](/ref/atom/var/icon_state.md) -m{.code} and produce only a single
+atoms need little more than a simple [icon](/ref/atom/var/icon.md) {.code} and
+[icon_state](/ref/atom/var/icon_state.md) {.code} and produce only a single
 sprite, some are more complex with overlays, underlays, maptext, etc.
-Also there may be [image objects](/ref/image.md) -m and [visual
-contents](/ref/atom/var/vis_contents.md) -m involved, although they\'re not part
+Also there may be [image objects](/ref/image.md)  and [visual
+contents](/ref/atom/var/vis_contents.md)  involved, although they\'re not part
 of the atom\'s appearance. 
 
 For a simple `icon` and
@@ -22,7 +22,7 @@ For a simple `icon` and
 it\'s given. Then it looks up an icon state, which may be influenced by
 whether the atom is moving or not since you can have moving and
 non-moving icon states. Then it determines which
-[direction](/ref/atom/var/dir.md) -m to draw and which frame of the icon\'s
+[direction](/ref/atom/var/dir.md)  to draw and which frame of the icon\'s
 animation (if any) to use. 
 
 So with several simple icons, and
@@ -71,8 +71,8 @@ Overlay #N
 ::::::::::
 
 
-The [underlays](/ref/atom/var/underlays.md) -m{.code} list is processed
-first, then [overlays](/ref/atom/var/overlays.md) -m{.code}. These lists contain
+The [underlays](/ref/atom/var/underlays.md) {.code} list is processed
+first, then [overlays](/ref/atom/var/overlays.md) {.code}. These lists contain
 appearances themselves, rather than actual atoms. This means that
 overlays are recursive* an overlay can have overlays itself. To picture
 how that works, just replace one of the overlays above with another
@@ -103,9 +103,9 @@ Overlay #2
 ### Image objects and visual contents
 
 
-Any atom can have an [image object](/ref/image.md) -m attached, which
+Any atom can have an [image object](/ref/image.md)  attached, which
 can be shown to only specific players. Most atoms, and image objects,
-can have [visual contents](/ref/atom/var/vis_contents.md) -m that display other
+can have [visual contents](/ref/atom/var/vis_contents.md)  that display other
 atoms as if they\'re overlays.
 :::::::* renderlist
 ::* renderlist-box
@@ -133,16 +133,16 @@ be recursive as they add new overlays, etc.
 
 A couple of things
 to keep in mind:
--   If an image object uses the [override](/ref/atom/var/override.md) -m{.code}
+-   If an image object uses the [override](/ref/atom/var/override.md) {.code}
     var, it will replace the main appearance\'s icon and overlays,
     although it won\'t replace other images or visual contents.
 -   An object in visual contents can use
-    [vis_flags](/ref/atom/var/vis_flags.md) -m{.code} to set `VIS_UNDERLAY` and
+    [vis_flags](/ref/atom/var/vis_flags.md) {.code} to set `VIS_UNDERLAY` and
     move itself before the parent\'s underlays.
 ### Maptext and particles
 
 
-Any appearance may have [maptext](/ref/atom/var/maptext.md) -m{.code}
+Any appearance may have [maptext](/ref/atom/var/maptext.md) {.code}
 attached. That maptext draws above the icon but is grouped with it. That
 grouping will be discussed further below. 
 
@@ -171,12 +171,12 @@ Overlays
 ### Color, transform, and filters
 
 
-An appearance\'s [color](/ref/atom/var/color.md) -m{.code} and
-[alpha](/ref/atom/var/alpha.md) -m{.code} vars (from here forwarded they\'ll just
-be referred to by `color`) and [transform](/ref/atom/var/transform.md) -m{.code}
+An appearance\'s [color](/ref/atom/var/color.md) {.code} and
+[alpha](/ref/atom/var/alpha.md) {.code} vars (from here forwarded they\'ll just
+be referred to by `color`) and [transform](/ref/atom/var/transform.md) {.code}
 are inherited by any overlays, which also includes images and visual
 contents. You can avoid that inheritance by giving those overlays
-special [appearance_flags](/ref/var/appearance_flags.md) -m{.code}:
+special [appearance_flags](/ref/var/appearance_flags.md) {.code}:
 `RESET_COLOR`, `RESET_ALPHA`, and `RESET_TRANSFORM`. 
 
 The
@@ -219,7 +219,7 @@ whole atom faded instead of drawing each sprite faded, one on top of the
 other. 
 
 By using the `KEEP_TOGETHER` value in
-[appearance_flags](/ref/var/appearance_flags.md) -m{.code} (called KT for short),
+[appearance_flags](/ref/var/appearance_flags.md) {.code} (called KT for short),
 an appearance will group all of its underlays and overlays together. If
 this is an atom with image objects and visual contents, those will be
 grouped with it as well.
@@ -258,18 +258,18 @@ short). If there are multiple nested KT groups, KA will only escape the
 innermost group. 
 
 If an overlay inside a KT group has a
-different [plane](/ref/atom/var/plane.md) -m{.code} than the group\'s owner, it
+different [plane](/ref/atom/var/plane.md) {.code} than the group\'s owner, it
 will be separated as if it defined `KEEP_APART`, except it can escape
 multiple nested groups.
 ### Layers and planes
 
 
-Any appearance can have a [layer](/ref/atom/var/layer.md) -m{.code} or
-[plane](/ref/atom/var/layer.md) -m{.code}, and these influence how it gets
+Any appearance can have a [layer](/ref/atom/var/layer.md) {.code} or
+[plane](/ref/atom/var/layer.md) {.code}, and these influence how it gets
 sorted. (There\'s also a concept called a \"sub-plane\" that\'s
 influenced by whether an atom is a [HUD/screen
-object](/ref/%7Bnotes%7D/HUD.md) -m or special layers like
-[BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) -m{.code}.) 
+object](/ref/%7Bnotes%7D/HUD.md)  or special layers like
+[BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) {.code}.) 
 
 If
 a sprite is created with `FLOAT_LAYER` (any negative value counts as a
@@ -290,7 +290,7 @@ which they\'re rendered on the map is determined in this order:
 1.  The `plane` var matters most.
 2.  Subplane is counted next. E.g., HUD objects render above non-HUD
     objects.
-3.  Depending on [world.map_format](/ref/world/var/map_format.md) -m{.code},
+3.  Depending on [world.map_format](/ref/world/var/map_format.md) {.code},
     `layer` or physical position determine the drawing order from here.
 4.  After everything else has been checked, the order the sprites were
     generated in is the final tie-breaker.
@@ -307,7 +307,7 @@ only to topdown maps.
 
 Sometimes it\'s helpful to group multiple sprites on one plane
 as if the plane itself were a KT group. For this,
-[appearance_flags](/ref/var/appearance_flags.md) -m{.code} has a value called
+[appearance_flags](/ref/var/appearance_flags.md) {.code} has a value called
 `PLANE_MASTER`. An object with this flag will act as a \"parent\" for
 everything else on the plane. All other sprites on the plane will be
 grouped together and rendered on a temporary drawing surface, and then
@@ -320,6 +320,6 @@ own; they\'re simply ignored. It can have overlays added to the group.
 
 
 There are other topics not covered in this article, such as
-[render targets](/ref/atom/var/render_target.md) -mand special map formats. Any
+[render targets](/ref/atom/var/render_target.md) and special map formats. Any
 details on how those features impact rendering are discussed in their
 own articles.

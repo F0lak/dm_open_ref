@@ -1,7 +1,7 @@
 ## FILE_DIR definition
 **See also:**
-*   [cache](/ref/DM/cache.md) -m
-*   [icons](/ref/DM/icon.md) -m<!-- -->
+*   [cache](/ref/DM/cache.md) 
+*   [icons](/ref/DM/icon.md) <!-- -->
 **Format:**
 *   #define FILE_DIR Path
 <!-- -->

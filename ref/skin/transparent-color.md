@@ -1,13 +1,13 @@
 ## transparent-color parameter (skin) 
 ###### BYOND Version arent-color parameter (skin) {#transparent-color-parameter-skin deprecated="1
 **See also:**
-*   [alpha parameter](/ref/%7Bskin%7D/param/alpha.md) -m
+*   [alpha parameter](/ref/%7Bskin%7D/param/alpha.md) 
 <!-- -->
 **Applies to:**
-*   [Main](/ref/%7Bskin%7D/control/main.md) -m (window only)
+*   [Main](/ref/%7Bskin%7D/control/main.md)  (window only)
 <!-- -->
 **Format:**
-*   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) -m*   none
+*   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) *   none
 <!-- -->
 **Default value:**
 *   none

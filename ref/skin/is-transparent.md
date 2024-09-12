@@ -1,6 +1,6 @@
 ## is-transparent parameter (skin)
 **Applies to:**
-*   [All](/ref/%7Bskin%7D/control.md) -m<!-- -->
+*   [All](/ref/%7Bskin%7D/control.md) <!-- -->
 **Format:**
 *   true/false
 <!-- -->

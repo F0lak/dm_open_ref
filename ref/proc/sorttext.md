@@ -1,8 +1,8 @@
 ## sorttext proc
 **See also:**
-*   [\> operator](/ref/operator/%3e.md) -m
-*   [\< operator](/ref/operator/%3c.md) -m
-*   [sorttextEx proc](/ref/proc/sorttextEx.md) -m<!-- -->
+*   [\> operator](/ref/operator/%3e.md) 
+*   [\< operator](/ref/operator/%3c.md) 
+*   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->
 **Format:**
 *   sorttext(T1,T2,\...)
 <!-- -->

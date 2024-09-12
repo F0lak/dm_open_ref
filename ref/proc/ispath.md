@@ -1,6 +1,6 @@
 ## ispath proc
 **See also:**
-*   [typesof proc](/ref/proc/typesof.md) -m<!-- -->
+*   [typesof proc](/ref/proc/typesof.md) <!-- -->
 **Format:**
 *   ispath(Val)
 *   ispath(Val,Type)

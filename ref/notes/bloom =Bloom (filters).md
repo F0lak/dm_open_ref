@@ -1,8 +1,8 @@
 ## Bloom filter 
 ###### BYOND Version 514
 **See also:**
-*   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) -m
-*   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) -m<!-- -->
+*   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
+*   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->
 Format:
 *   filter(type=\"bloom\", \...)
 <!-- -->

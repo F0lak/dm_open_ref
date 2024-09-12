@@ -1,8 +1,8 @@
 ## invisibility setting (verb)
 **See also:**
-*   [hidden setting (verb)](/ref/verb/set/hidden.md) -m
-*   [invisibility var (atom)](/ref/atom/var/invisibility.md) -m
-*   [sight var (mob)](/ref/mob/var/sight.md) -m<!-- -->
+*   [hidden setting (verb)](/ref/verb/set/hidden.md) 
+*   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
+*   [sight var (mob)](/ref/mob/var/sight.md) <!-- -->
 **Format:**
 *   set invisibility = Setting
 <!-- -->

@@ -1,13 +1,13 @@
 ## pixloc var (atom) 
 ###### BYOND Version 516
 **See also:**
-*   [pixloc](/ref/pixloc.md) -m
-*   [loc var (atom)](/ref/atom/var/loc.md) -m
-*   [step_x var (movable atoms)](/ref/atom/movable/var/step_x.md) -m
-*   [step_y var (movable atoms)](/ref/atom/movable/var/step_y.md) -m
-*   [pixloc proc](/ref/proc/pixloc.md) -m
-*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) -m
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m
+*   [pixloc](/ref/pixloc.md) 
+*   [loc var (atom)](/ref/atom/var/loc.md) 
+*   [step_x var (movable atoms)](/ref/atom/movable/var/step_x.md) 
+*   [step_y var (movable atoms)](/ref/atom/movable/var/step_y.md) 
+*   [pixloc proc](/ref/proc/pixloc.md) 
+*   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
 
 
 Returns a pixloc representing this atom\'s `loc`, `step_x`, and
@@ -17,12 +17,12 @@ vars. A movable\'s pixloc is null if it isn\'t located on a turf.
 
 
 A pixloc can be used for calculating distances, or passed to
-various procs such as [get_dir()](/ref/proc/get_dir.md) -m{.code} and
-[Move()](/ref/atom/movable/proc/Move.md) -m{.code}. 
+various procs such as [get_dir()](/ref/proc/get_dir.md) {.code} and
+[Move()](/ref/atom/movable/proc/Move.md) {.code}. 
 
 This pixloc does not
 take bounds into account. See
-[bound_pixloc()](/ref/proc/bound_pixloc.md) -m.code} for getting the pixloc of
+[bound_pixloc()](/ref/proc/bound_pixloc.md) .code} for getting the pixloc of
 an atom\'s corners or center of bounds. 
 
 The returned pixloc is

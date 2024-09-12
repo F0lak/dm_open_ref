@@ -1,9 +1,9 @@
 ## Close proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database query datum](/ref/database/query.md) -m
-*   [Clear proc (database query)](/ref/database/query/proc/Clear.md) -m
-*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) -m<!-- -->
+*   [database query datum](/ref/database/query.md) 
+*   [Clear proc (database query)](/ref/database/query/proc/Clear.md) 
+*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
 **Format:**
 *   Close()
 

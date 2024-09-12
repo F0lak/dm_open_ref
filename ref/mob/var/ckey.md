@@ -1,7 +1,7 @@
 ## ckey var (mob)
 **See also:**
-*   [ckey proc](/ref/proc/ckey.md) -m
-*   [key var (mob)](/ref/mob/var/key.md) -m<!-- -->
+*   [ckey proc](/ref/proc/ckey.md) 
+*   [key var (mob)](/ref/mob/var/key.md) <!-- -->
 **Default value:**
 *   null
 

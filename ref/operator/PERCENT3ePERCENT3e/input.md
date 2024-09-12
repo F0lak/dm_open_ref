@@ -1,7 +1,7 @@
 ## \>\> input operator
 **See also:**
-*   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) -m
-*   [file proc](/ref/proc/file.md) -m<!-- -->
+*   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
+*   [file proc](/ref/proc/file.md) <!-- -->
 **Format:**
 *   F \>\> Var
 

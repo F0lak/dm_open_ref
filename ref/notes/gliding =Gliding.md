@@ -1,19 +1,19 @@
 ## Gliding
 **See also:**
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
 *   [animate_movement var (movable
-    atom)](/ref/atom/movable/var/animate_movement.md) -m
-*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) -m
-*   [glide_size var (movable atom)](/ref/atom/movable/var/glide_size.md) -m
-*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) -m
-*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) -m
-*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) -m
-*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) -m
-*   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) -m
-*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
-*   [movement_mode var (world)](/ref/world/var/movement_mode.md) -m
-*   [fps var (client)](/ref/client/var/fps.md) -m
+    atom)](/ref/atom/movable/var/animate_movement.md) 
+*   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
+*   [glide_size var (movable atom)](/ref/atom/movable/var/glide_size.md) 
+*   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
+*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
+*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+*   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+*   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
+*   [fps var (client)](/ref/client/var/fps.md) 
 
 
 Gliding is a \"glitz\" effect applied by BYOND to cover up the
@@ -45,7 +45,7 @@ cardinal-direction glide by moving a fullt `glide_size` pixels in the
 dominant X or Y direction. Otherwise, gliding tries to move by that many
 pixels in strict Euclidean distance (a straight line) and diagonal
 glides take longer.
-In [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md) -m.code}, gliding is
+In [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md) .code}, gliding is
 turned off if you set any of the bound or step vars for an atom to a
 non-default value. The only gliding that occurs in this case is when
 client.fps is higher than world.fps. All other movement modes base

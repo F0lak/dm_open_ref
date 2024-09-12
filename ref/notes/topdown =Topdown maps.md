@@ -1,16 +1,16 @@
 ## Topdown maps
 **See also:**
-*   [map_format var (world)](/ref/world/var/map_format.md) -m
-*   [icon_size var (world)](/ref/world/var/icon_size.md) -m
-*   [dir var (client)](/ref/client/var/dir.md) -m
-*   [layer var (atom)](/ref/atom/var/layer.md) -m
-*   [plane var (atom)](/ref/atom/var/plane.md) -m
-*   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) -m
-*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) -m
-*   [HUD](/ref/%7Bnotes%7D/HUD.md) -m
-*   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) -m
-*   [Side-view maps](/ref/%7Bnotes%7D/side.md) -m
-*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) -m
+*   [map_format var (world)](/ref/world/var/map_format.md) 
+*   [icon_size var (world)](/ref/world/var/icon_size.md) 
+*   [dir var (client)](/ref/client/var/dir.md) 
+*   [layer var (atom)](/ref/atom/var/layer.md) 
+*   [plane var (atom)](/ref/atom/var/plane.md) 
+*   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+*   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+*   [HUD](/ref/%7Bnotes%7D/HUD.md) 
+*   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
+*   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
+*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
 
 
 By default, BYOND displays all maps in top-down format, so
@@ -26,7 +26,7 @@ A related map_format, used by older games, is
 In this form, the `layer` var behaves exactly as you would
 expect* Icons with a lower layer are drawn beneath icons with a higher
 layer. The only exception is when you use [big
-icons](/ref/%7Bnotes%7D/big-icons.md) -m which will be drawn above any other
+icons](/ref/%7Bnotes%7D/big-icons.md)  which will be drawn above any other
 icons on the same layer. Also an atom\'s underlays will be drawn behind
 it unless their layer is changed, and its overlays will draw in front of
 it unless otherwise stated. 

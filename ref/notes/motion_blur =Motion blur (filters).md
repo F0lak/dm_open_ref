@@ -1,8 +1,8 @@
 ## Motion blur filter 
 ###### BYOND Version 512
 **See also:**
-*   [filters var (atom)](/ref/atom/var/filters.md) -m
-*   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) -m
+*   [filters var (atom)](/ref/atom/var/filters.md) 
+*   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
 <!-- -->
 Format:
 *   filter(type=\"motion_blur\", \...)
@@ -17,4 +17,4 @@ direction are both specified by `x` and `y`. The size of the blur is
 equal to `sqrt(x*x + y*y)`. 
 
 See [Gaussian
-blur](/ref/%7Bnotes%7D/filters/blur.md) -mfor more information.
+blur](/ref/%7Bnotes%7D/filters/blur.md) for more information.

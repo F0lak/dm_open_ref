@@ -1,7 +1,7 @@
 ## CRASH proc
 **See also:**
-*   [ASSERT proc](/ref/proc/ASSERT.md) -m
-*   [DEBUG definition](/ref/DM/preprocessor/define/DEBUG.md) -m<!-- -->
+*   [ASSERT proc](/ref/proc/ASSERT.md) 
+*   [DEBUG definition](/ref/DM/preprocessor/define/DEBUG.md) <!-- -->
 **Format:**
 *   CRASH(msg)
 

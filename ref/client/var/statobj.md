@@ -1,10 +1,10 @@
 ## statobj var (client)
 **See also:**
-*   [Stat proc (client)](/ref/client/proc/Stat.md) -m
-*   [stat proc](/ref/proc/stat.md) -m
-*   [statpanel proc](/ref/proc/statpanel.md) -m
-*   [statpanel var (client)](/ref/client/var/statpanel.md) -m
-*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) -m<!-- -->
+*   [Stat proc (client)](/ref/client/proc/Stat.md) 
+*   [stat proc](/ref/proc/stat.md) 
+*   [statpanel proc](/ref/proc/statpanel.md) 
+*   [statpanel var (client)](/ref/client/var/statpanel.md) 
+*   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
 **Default value:**
 *   client.mob (the player\'s mob).
 

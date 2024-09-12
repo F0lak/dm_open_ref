@@ -1,10 +1,10 @@
 ## ceil proc 
 ###### BYOND Version 515
 **See also:**
-*   [floor proc](/ref/proc/floor.md) -m
-*   [round proc](/ref/proc/round.md) -m
-*   [trunc proc](/ref/proc/trunc.md) -m
-*   [fract proc](/ref/proc/fract.md) -m<!-- -->
+*   [floor proc](/ref/proc/floor.md) 
+*   [round proc](/ref/proc/round.md) 
+*   [trunc proc](/ref/proc/trunc.md) 
+*   [fract proc](/ref/proc/fract.md) <!-- -->
 **Format:**
 *   ceil(A)
 <!-- -->

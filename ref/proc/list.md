@@ -1,8 +1,8 @@
 ## list proc
 **See also:**
-*   [arglist proc](/ref/proc/arglist.md) -m
-*   [list](/ref/list.md) -m
-*   [list associations](/ref/list/associations.md) -m
+*   [arglist proc](/ref/proc/arglist.md) 
+*   [list](/ref/list.md) 
+*   [list associations](/ref/list/associations.md) 
 <!-- -->
 **Format:**
 *   list(A,B,C,\...)
@@ -55,4 +55,4 @@ var/list/lst = list(player = \"James Byond\", score = 2000)
 
 
 In other words, this is exactly the same syntax as for [named
-arguments](/ref/proc/arguments/named.md) -m
+arguments](/ref/proc/arguments/named.md) 

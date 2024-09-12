@@ -1,14 +1,14 @@
 ## bound_x var (movable atom) 
 ###### BYOND Version 490" deprecated="516
 **See also:**
-*   [icon_w var (atom)](/ref/atom/var/icon_w.md) -m
-*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) -m
-*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) -m
-*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) -m
-*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) -m
-*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) -m
-*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) -m
-*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) -m<!-- -->
+*   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
+*   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
+*   [bound_width var (movable atom)](/ref/atom/movable/var/bound_width.md) 
+*   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
+*   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
+*   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+*   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
+*   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
 **Default value:**
 *   0
 Note* The bound_x/y vars have been deprecated in favor of icon_w/z and

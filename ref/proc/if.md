@@ -1,6 +1,6 @@
 ## if proc
 **See also:**
-*   [goto proc](/ref/proc/goto.md) -m<!-- -->
+*   [goto proc](/ref/proc/goto.md) <!-- -->
 **Format:**
 *   if( E ) Statement1
 *   else if( E2 ) Statement2

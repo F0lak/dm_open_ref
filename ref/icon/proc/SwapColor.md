@@ -1,8 +1,8 @@
 ## SwapColor proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) -m
-*   [procs (icon)](/ref/icon/proc.md) -m
-*   [rgb proc](/ref/proc/rgb.md) -m<!-- -->
+*   [icon](/ref/icon.md) 
+*   [procs (icon)](/ref/icon/proc.md) 
+*   [rgb proc](/ref/proc/rgb.md) <!-- -->
 **Format:**
 *   SwapColor(old_rgb,new_rgb)\
     *or*\

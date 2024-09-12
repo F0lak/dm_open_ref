@@ -1,15 +1,15 @@
 ## vars (vector) 
 ###### BYOND Version 516
 **See also:**
-*   [vector](/ref/vector.md) -m
-*   [vector proc](/ref/proc/vector.md) -m
-*   [procs (vector)](/ref/vector/proc.md) -m
+*   [vector](/ref/vector.md) 
+*   [vector proc](/ref/proc/vector.md) 
+*   [procs (vector)](/ref/vector/proc.md) 
 
 
 Built-in vector vars:
 vector/var
-*   [len](/ref/vector/var/len.md) -m
-*   [size](/ref/vector/var/size.md) -m
-*   [x](/ref/vector/var/x.md) -m
-*   [y](/ref/vector/var/y.md) -m
-*   [z](/ref/vector/var/z.md) -m
+*   [len](/ref/vector/var/len.md) 
+*   [size](/ref/vector/var/size.md) 
+*   [x](/ref/vector/var/x.md) 
+*   [y](/ref/vector/var/y.md) 
+*   [z](/ref/vector/var/z.md) 

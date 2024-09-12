@@ -1,7 +1,7 @@
 ## md5 proc
 **See also:**
-*   [sha1 proc](/ref/proc/sha1.md) -m
-*   [file proc](/ref/proc/file.md) -m
+*   [sha1 proc](/ref/proc/sha1.md) 
+*   [file proc](/ref/proc/file.md) 
 <!-- -->
 **Format:**
 *   md5(T)
@@ -57,7 +57,7 @@ have been modified!\"
  
 
 Note that you must pass the
-result of [file()](/ref/proc/file.md) -m.code} in order to compute the hash of
+result of [file()](/ref/proc/file.md) .code} in order to compute the hash of
 an external file\'s contents at runtime. Otherwise `md5()` will treat
 the filename as text and return the hash of the name only. 
 

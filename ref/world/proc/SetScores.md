@@ -1,9 +1,9 @@
 ## SetScores proc (world)
 **See also:**
-*   [GetScores proc (world)](/ref/world/proc/GetScores.md) -m
-*   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) -m
-*   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) -m
-*   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) -m<!-- -->
+*   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
+*   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
+*   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
+*   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) <!-- -->
 **Format:**
 *   SetScores(key, fields)
 <!-- -->

@@ -1,6 +1,6 @@
 ## verbs list var (client)
 **See also:**
-*   [list](/ref/list.md) -m<!-- -->
+*   [list](/ref/list.md) <!-- -->
 **Default value:**
 *   The list of verbs defined for the client.
 

@@ -1,8 +1,8 @@
 ## Add proc (list)
 **See also:**
-*   [+ operator](/ref/operator/+.md) -m
-*   [Remove proc (list)](/ref/list/proc/Remove.md) -m
-*   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) -m<!-- -->
+*   [+ operator](/ref/operator/+.md) 
+*   [Remove proc (list)](/ref/list/proc/Remove.md) 
+*   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->
 **Format:**
 *   list.Add(Item1,Item2,\...)
 <!-- -->

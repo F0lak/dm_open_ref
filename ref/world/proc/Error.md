@@ -1,9 +1,9 @@
 ## Error proc (world) 
 ###### BYOND Version 508
 **See also:**
-*   [try and catch statements](/ref/proc/try.md) -m
-*   [throw statement](/ref/proc/throw.md) -m
-*   [exception](/ref/exception.md) -m<!-- -->
+*   [try and catch statements](/ref/proc/try.md) 
+*   [throw statement](/ref/proc/throw.md) 
+*   [exception](/ref/exception.md) <!-- -->
 **Format:**
 *   Error(exception)
 <!-- -->

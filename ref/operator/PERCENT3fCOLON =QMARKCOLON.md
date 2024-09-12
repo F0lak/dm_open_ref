@@ -1,10 +1,10 @@
 ## ?* operator 
 ###### BYOND Version 512
 **See also:**
-*   [. operator](/ref/operator/%2e.md) -m
-*   [* operator](/ref/operator/:.md) -m
-*   [?. operator](/ref/operator/%3f%2e.md) -m
-*   [operators](/ref/operator.md) -m
+*   [. operator](/ref/operator/%2e.md) 
+*   [* operator](/ref/operator/:.md) 
+*   [?. operator](/ref/operator/%3f%2e.md) 
+*   [operators](/ref/operator.md) 
 
 This is used to access the procs and vars of an object. It is
 just like the * operator, but if the object is null, the access does not

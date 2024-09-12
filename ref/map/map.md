@@ -1,9 +1,9 @@
 ## map
 **See also:**
-*   [#include directive](/ref/DM/preprocessor/include.md) -m
-*   [area var (world)](/ref/world/var/area.md) -m
-*   [maxx var (world)](/ref/world/var/maxx.md) -m
-*   [turf var (world)](/ref/world/var/turf.md) -m<!-- -->
+*   [#include directive](/ref/DM/preprocessor/include.md) 
+*   [area var (world)](/ref/world/var/area.md) 
+*   [maxx var (world)](/ref/world/var/maxx.md) 
+*   [turf var (world)](/ref/world/var/turf.md) <!-- -->
 **Format:**
 *   #include \"mapname.dmm\"
 

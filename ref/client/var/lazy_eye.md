@@ -1,7 +1,7 @@
 ## lazy_eye var (client)
 **See also:**
-*   [view var (client)](/ref/client/var/view.md) -m
-*   [view var (world)](/ref/world/var/view.md) -m<!-- -->
+*   [view var (client)](/ref/client/var/view.md) 
+*   [view var (world)](/ref/world/var/view.md) <!-- -->
 **Default value:**
 *   0
 

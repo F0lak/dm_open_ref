@@ -1,8 +1,8 @@
 ## SetIntensity proc (icon)
 **See also:**
-*   [icon](/ref/icon.md) -m
-*   [procs (icon)](/ref/icon/proc.md) -m
-*   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) -m<!-- -->
+*   [icon](/ref/icon.md) 
+*   [procs (icon)](/ref/icon/proc.md) 
+*   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) <!-- -->
 **Format:**
 *   SetIntensity(r,g=r,b=r)
 <!-- -->

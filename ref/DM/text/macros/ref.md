@@ -1,11 +1,11 @@
 ## ref text macro 
 ###### BYOND Version 513
 **See also:**
-*   [Topic proc (client)](/ref/client/proc/Topic.md) -m
-*   [icon text macro](/ref/DM/text/macros/icon.md) -m
-*   [locate proc](/ref/proc/locate.md) -m
-*   [macros (text)](/ref/DM/text/macros.md) -m
-*   [tag var (datum)](/ref/datum/var/tag.md) -m
+*   [Topic proc (client)](/ref/client/proc/Topic.md) 
+*   [icon text macro](/ref/DM/text/macros/icon.md) 
+*   [locate proc](/ref/proc/locate.md) 
+*   [macros (text)](/ref/DM/text/macros.md) 
+*   [tag var (datum)](/ref/datum/var/tag.md) 
 
 
 The `\ref` text macro inserts a unique identification number or
@@ -24,7 +24,7 @@ The primary use for object references embedded in text is in
 topic links. This allows you to encode a reference to an object in the
 href value of a hyperlink. (Just make sure the object does not get
 deleted before the user executes the link. See [garbage
-collection](/ref/DM/garbage.md) -m.) 
+collection](/ref/DM/garbage.md) .) 
 
 Topic links that contain a
 parameter \"src\" assigned to an object reference are treated somewhat
@@ -56,7 +56,7 @@ locate() instruction.
 
 In output for browser controls, you can use `\ref[object]` as
 the src parameter for an \<img\> tag. The object can be an
-[appearance](/ref/atom/var/appearance.md) -m, an icon, or an atom or image.
+[appearance](/ref/atom/var/appearance.md) , an icon, or an atom or image.
 
 
 If the ref string is for an icon, you can add an HTML query
@@ -77,7 +77,7 @@ sheet
     matching frame is used
 state=*ICON_STATE*
 *   Use a specific icon state; be sure to
-    [url_encode](/ref/proc/url_encode.md) -m.code} it)
+    [url_encode](/ref/proc/url_encode.md) .code} it)
 moving=*M*
 *   Specify whether to choose only moving (M=1) or non-moving (M=0)
     states

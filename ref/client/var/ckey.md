@@ -1,7 +1,7 @@
 ## ckey var (client)
 **See also:**
-*   [ckey proc](/ref/proc/ckey.md) -m
-*   [key var (client)](/ref/client/var/key.md) -m
+*   [ckey proc](/ref/proc/ckey.md) 
+*   [key var (client)](/ref/client/var/key.md) 
 
 This is a read-only value that is the canonical form of the
 player\'s key (ie the value returned by ckey()). Among other things,

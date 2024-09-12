@@ -4,19 +4,19 @@
 A grid that contains multiple cells that can show various kinds
 of output data.
 **Grid-specific parameters:**
-*   [cell-span](/ref/%7Bskin%7D/param/cell-span.md) -m
-*   [cells](/ref/%7Bskin%7D/param/cells.md) -m
-*   [current-cell](/ref/%7Bskin%7D/param/current-cell.md) -m
-*   [enable-http-images](/ref/%7Bskin%7D/param/enable-http-images.md) -m
-*   [highlight-color](/ref/%7Bskin%7D/param/highlight-color.md) -m
-*   [is-list](/ref/%7Bskin%7D/param/is-list.md) -m
-*   [line-color](/ref/%7Bskin%7D/param/line-color.md) -m
-*   [link-color](/ref/%7Bskin%7D/param/link-color.md) -m
-*   [show-lines](/ref/%7Bskin%7D/param/show-lines.md) -m
-*   [show-names](/ref/%7Bskin%7D/param/show-names.md) -m
-*   [small-icons](/ref/%7Bskin%7D/param/small-icons.md) -m
-*   [style](/ref/%7Bskin%7D/param/style.md) -m
-*   [visited-color](/ref/%7Bskin%7D/param/visited-color.md) -m
+*   [cell-span](/ref/%7Bskin%7D/param/cell-span.md) 
+*   [cells](/ref/%7Bskin%7D/param/cells.md) 
+*   [current-cell](/ref/%7Bskin%7D/param/current-cell.md) 
+*   [enable-http-images](/ref/%7Bskin%7D/param/enable-http-images.md) 
+*   [highlight-color](/ref/%7Bskin%7D/param/highlight-color.md) 
+*   [is-list](/ref/%7Bskin%7D/param/is-list.md) 
+*   [line-color](/ref/%7Bskin%7D/param/line-color.md) 
+*   [link-color](/ref/%7Bskin%7D/param/link-color.md) 
+*   [show-lines](/ref/%7Bskin%7D/param/show-lines.md) 
+*   [show-names](/ref/%7Bskin%7D/param/show-names.md) 
+*   [small-icons](/ref/%7Bskin%7D/param/small-icons.md) 
+*   [style](/ref/%7Bskin%7D/param/style.md) 
+*   [visited-color](/ref/%7Bskin%7D/param/visited-color.md) 
 
 
 Sending output to a grid looks like this:
@@ -44,7 +44,7 @@ to output in grid controls:
 -   A cell is either a link, or not.
 -   One image is allowed per cell.
 -   A cell can hold an object (atom), sent to it via the [`output()`
-    proc](/ref/proc/output.md) -m which can be clicked, dragged, etc.; it will
+    proc](/ref/proc/output.md)  which can be clicked, dragged, etc.; it will
     not act as a link.
 -   The same margin is used all around the cell, not different margins
     for left, right, top, bottom.

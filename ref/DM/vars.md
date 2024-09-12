@@ -1,7 +1,7 @@
 ## vars list var (global) 
 ###### BYOND Version 512
 **See also:**
-*   [vars list var (datum)](/ref/datum/var/vars.md) -m
+*   [vars list var (datum)](/ref/datum/var/vars.md) 
 
 This is a list of all global variables. The items in the list
 are the variable names. If the variable name is used as an index into

@@ -1,11 +1,11 @@
 ## zoom parameter (skin)
 **See also:**
-*   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) -m
-*   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) -m
-*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) -m
+*   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
+*   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
+*   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
 <!-- -->
 **Applies to:**
-*   [Map](/ref/%7Bskin%7D/control/map.md) -m<!-- -->
+*   [Map](/ref/%7Bskin%7D/control/map.md) <!-- -->
 **Format:**
 *   number
 <!-- -->

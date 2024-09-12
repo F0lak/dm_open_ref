@@ -1,16 +1,16 @@
 ## Execute proc (database query) 
 ###### BYOND Version 506
 **See also:**
-*   [database datum](/ref/database.md) -m
-*   [database query datum](/ref/database/query.md) -m
-*   [Add proc (database query)](/ref/database/query/proc/Add.md) -m
-*   [Close proc (database query)](/ref/database/query/proc/Close.md) -m
-*   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) -m
-*   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) -m
-*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) -m
-*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) -m
+*   [database datum](/ref/database.md) 
+*   [database query datum](/ref/database/query.md) 
+*   [Add proc (database query)](/ref/database/query/proc/Add.md) 
+*   [Close proc (database query)](/ref/database/query/proc/Close.md) 
+*   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
+*   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
+*   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
+*   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 
 *   [RowsAffected proc (database
-    query)](/ref/database/query/proc/RowsAffected.md) -m<!-- -->
+    query)](/ref/database/query/proc/RowsAffected.md) <!-- -->
 **Format:**
 *   Execute(database)
 <!-- -->

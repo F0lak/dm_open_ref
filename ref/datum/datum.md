@@ -1,8 +1,8 @@
 ## datum
 **See also:**
-*   [atom](/ref/atom.md) -m
-*   [procs (datum)](/ref/datum/proc.md) -m
-*   [vars (datum)](/ref/datum/var.md) -m
+*   [atom](/ref/atom.md) 
+*   [procs (datum)](/ref/datum/proc.md) 
+*   [vars (datum)](/ref/datum/var.md) 
 
 
 The datum object is the ancestor of all other data types in DM,
@@ -31,17 +31,17 @@ subtypes, and may or may not be able to allow var and proc overrides.
   -------------------------------------------------------------------------------------------------------------------------------------
   Type                             User-defined      Can override                                            Notes
   -------------------------------- ----------------- ------------------------------------------------------- --------------------------
-  [/world](/ref/world.md) -m{.code}         procs only        vars and procs                                          
-  [/client](/ref/client.md) -m{.code}       vars and procs    vars and procs                                          can manually set
+  [/world](/ref/world.md) {.code}         procs only        vars and procs                                          
+  [/client](/ref/client.md) {.code}       vars and procs    vars and procs                                          can manually set
                                                                                                              `parent_type=/datum`\
                                                                                                              can\'t be created in
-                                                                                                             [new](/ref/proc/new.md) -m{.code}
-  [/list](/ref/list.md) -m{.code}           \-                \-                                                      
-  [/savefile](/ref/savefile.md) -m{.code}   \-                [byond_version](/ref/savefile/var/byond_version.md) -m{.code}\   
-                                                     [byond_build](/ref/savefile/var/byond_build.md) -m{.code}        
-  [/alist](/ref/alist.md) -m{.code}         \-                \-                                                      
-  [/pixloc](/ref/pixloc.md) -m{.code}       \-                \-                                                      
-  [/vector](/ref/vector.md) -m{.code}       \-                \-                                                      
-  [/callee](/ref/pixloc.md) -m{.code}       \-                \-                                                      can\'t be created in
-                                                                                                             [new](/ref/proc/new.md) -m.code}
+                                                                                                             [new](/ref/proc/new.md) {.code}
+  [/list](/ref/list.md) {.code}           \-                \-                                                      
+  [/savefile](/ref/savefile.md) {.code}   \-                [byond_version](/ref/savefile/var/byond_version.md) {.code}\   
+                                                     [byond_build](/ref/savefile/var/byond_build.md) {.code}        
+  [/alist](/ref/alist.md) {.code}         \-                \-                                                      
+  [/pixloc](/ref/pixloc.md) {.code}       \-                \-                                                      
+  [/vector](/ref/vector.md) {.code}       \-                \-                                                      
+  [/callee](/ref/pixloc.md) {.code}       \-                \-                                                      can\'t be created in
+                                                                                                             [new](/ref/proc/new.md) .code}
   -------------------------------------------------------------------------------------------------------------------------------------

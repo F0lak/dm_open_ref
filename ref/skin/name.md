@@ -1,11 +1,11 @@
 ## name parameter (skin)
 **See also:**
-*   [macros (skin)](/ref/%7Bskin%7D/macros.md) -m
-*   [id parameter](/ref/%7Bskin%7D/param/id.md) -m
+*   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+*   [id parameter](/ref/%7Bskin%7D/param/id.md) 
 <!-- -->
 **Applies to:**
-*   [Macro](/ref/%7Bskin%7D/control/macro.md) -m
-*   [Menu](/ref/%7Bskin%7D/control/menu.md) -m<!-- -->
+*   [Macro](/ref/%7Bskin%7D/control/macro.md) 
+*   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
 **Format:**
 *   string
 

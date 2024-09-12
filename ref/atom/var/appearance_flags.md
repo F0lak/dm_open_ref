@@ -1,14 +1,14 @@
 ## appearance_flags var (atom) 
 ###### BYOND Version 509
 **See also:**
-*   [vars (atom)](/ref/atom/var.md) -m
-*   [alpha var (atom)](/ref/atom/var/alpha.md) -m
-*   [color var (atom)](/ref/atom/var/color.md) -m
-*   [transform var (atom)](/ref/atom/var/transform.md) -m
-*   [color var (client)](/ref/client/var/color.md) -m
-*   [Gliding](/ref/%7Bnotes%7D/gliding.md) -m
-*   [movement_mode var (world)](/ref/world/var/movement_mode.md) -m
-*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) -m
+*   [vars (atom)](/ref/atom/var.md) 
+*   [alpha var (atom)](/ref/atom/var/alpha.md) 
+*   [color var (atom)](/ref/atom/var/color.md) 
+*   [transform var (atom)](/ref/atom/var/transform.md) 
+*   [color var (client)](/ref/client/var/color.md) 
+*   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+*   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
+*   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
 <!-- -->
 **Default value:**
 *   0
@@ -63,7 +63,7 @@ applied afterward.
 ### NO_CLIENT_COLOR
 
 
-The value of [client.color](/ref/client/var/color.md) -m{.code} is
+The value of [client.color](/ref/client/var/color.md) {.code} is
 normally applied to all icons. This flag says that the icon is an
 exception. Generally `client.color` has been superseded by the use of
 plane masters anyway. 
@@ -140,7 +140,7 @@ usually a better idea not to mess with the alpha color, and instead use
 another icon, scaled to the appropriate size, as a backdrop.
 
 
-The [mouse_opacity](/ref/atom/var/mouse_opacity.md) -m{.code} set by the
+The [mouse_opacity](/ref/atom/var/mouse_opacity.md) {.code} set by the
 plane master will determine how the mouse interacts with objects on the
 plane. A value of 0 will mean everything in the plane is invisible to
 the mouse; 1 means the plane is mouse-invisible but the objects in it
@@ -175,6 +175,6 @@ instead of this object.
 
 
 This flag indicates this atom is locked to the tile grid as it
-would be in [TILE_MOVEMENT_MODE](/ref/world/var/movement_mode.md) -m.code},
+would be in [TILE_MOVEMENT_MODE](/ref/world/var/movement_mode.md) .code},
 regardless of the setting of `world.movement_mode`. In this way, pixel
 movers and tile movers can coexist.

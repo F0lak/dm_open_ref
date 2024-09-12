@@ -1,0 +1,33 @@
+
+
+<a name=/sound/var/channel>
+<h2>channel var (sound)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/sound>sound proc</a>
+<dd><a href=#/sound/var/status>status var (sound)</a>
+<dd><a href=#/sound/var>vars (sound)</a>
+<dd><a href=#/client/proc/SoundQuery>SoundQuery proc (client)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0 (any channel)
+</dl>
+
+<p>For sound effects, set to 1 through 1024 to choose a specific sound channel.
+For values of 0 or less, any available channel will be chosen. If you play a
+null sound (no file) on channel 0, the settings for the datum will affect all
+channels.
+
+<p>If you want to make any changes to your sound later on via the
+<tt>SOUND_UPDATE</tt> status flag, you <i>must</i> specify a channel for it.
+
+<p>This var may be filled in by the <tt>SoundQuery</tt> proc, but only for
+sounds that had a specified channel to begin with.
+
+<p class=didyouknow>Note: If you don't specify a channel to play a sound, the
+client will choose a channel automatically but it will <i>not</i> conflict
+with any specific channels you choose for other sounds later. This means if
+you play some sounds with channel 0 but then later want to play something on
+channel 1, you don't have to worry about channel 1 being taken.
+

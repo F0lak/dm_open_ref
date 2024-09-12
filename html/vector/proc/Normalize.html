@@ -1,0 +1,25 @@
+
+
+<a name=/vector/proc/Normalize>
+<h2 byondver=516>Normalize proc (vector)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/vector>vector</a>
+<dd><a href=#/proc/vector>vector proc</a>
+<dd><a href=#/vector/var/size>size var (vector)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>V.Normalize()
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The same vector, after normalizing it to a unit vector.
+</dl>
+
+<p>Modifies the vector to make it a unit vector. This is the same as setting
+its <tt>size</tt> var to 1.
+
+<p>A degenerate vector such as 0,0,0 cannot be normalized; it will be
+unchanged by this call.
+

@@ -1,0 +1,63 @@
+
+
+<a name=/matrix>
+<h2 byondver=500>matrix</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/matrix>matrix proc</a>
+<dd><a href=#/matrix/operators>matrix operators</a>
+<dd><a href=#/matrix/proc>matrix procs</a>
+<dd><a href=#/atom/var/transform>transform var (atom)</a>
+<dd><a href=#/{{appendix}}/stddef%2edm>stddef.dm file</a>
+</dl>
+
+<p>To display rotation, scaling, and other transformations on atoms, DM uses
+2D matrices. The /matrix datum is a convenient way of handling the numbers
+involved, as it can be easily manipulated. There are six vars, a through f,
+laid out like so:
+
+<pre>          a d 0
+x y 1  *  b e 0  =  x' y' 1
+          c f 1</pre>
+
+<p>When an x,y point is multiplied by the matrix, it becomes the new point
+x',y'. This is equivalent to:
+
+<pre>x' = a*x + b*y + c
+y' = d*x + e*y + f</pre>
+
+<p>The default matrix is:
+
+<pre>1 0 0
+0 1 0
+0 0 1</pre>
+
+<p>Matrices are created with the matrix() proc, or by calling new/matrix().
+(See the matrix() proc for examples.) They are also created as needed
+whenever you read from atom.transform or use certain operators.
+
+<p>Manipulation of matrices can be done with operators, or with procs. You
+can do the following with them:
+
+<ul>
+<li><b>Multiply:</b> Multiplying two matrices together will chain together
+the transformations they represent. For instance, a scaling matrix
+multiplied by a rotation matrix says: Scale, then rotate. Multiplication of
+two matrices is sensitive to the order you use.</li>
+<li><b>Scale:</b> A simple scale matrix uses only the a and e values, to
+scale x and y by a certain amount.</li>
+<li><b>Rotate:</b> A rotation matrix can rotate an atom by whatever amount
+you like.</li>
+<li><b>Translate:</b> Translation is like a pixel offset, changing the atom's
+position.</li>
+<li><b>Interpolate:</b> You can calculate a matrix that lies somewhere
+between two other matrices, which can be helpful for animation.</li>
+</ul>
+
+<p>When you've built your matrix, you can assign it to atom.transform to
+change the way that atom is displayed.
+
+<p>The matrices supported by this datum are <b>not</b> the same kind used to
+transform colors, as in the atom.color var and icon.MapColors() proc.  For
+color matrices, see <a href=#/{notes}/color-matrix>color matrix</a>.
+

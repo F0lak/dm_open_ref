@@ -130,7 +130,7 @@ def prep_html_file(text) -> str:
 		text = text.replace("<p class=note>", "NOTE")
 		return text
 
-def clean_filenames(text) -> str:
+def clean_filenames(text) -> str: 
 		text = text.replace("%2e", ".")
 		text = text.replace("%3e", ">")
 		text = text.replace("%3c", "<")

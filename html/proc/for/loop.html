@@ -1,0 +1,69 @@
+
+
+<a name=/proc/for/loop>
+<h2>for loop proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/break>break statement</a>
+<dd><a href=#/proc/continue>continue statement</a>
+<dd><a href=#/proc/do>do proc</a>
+<dd><a href=#/proc/for/list>for list proc</a>
+<dd><a href=#/proc/while>while proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>for(Init, Test, Inc) Statement
+</dl>
+
+<p>First execute Init.  Then if Test is true (non-zero), execute Statement.
+After this execute Inc.  Continue checking Test, doing Statement, and
+performing Inc until Test turns out to be false (zero).
+
+<p>Statement may be a code block or a single statement.  Semicolons may be
+substituted for commas inside the parentheses as a convenience to C/C++
+programmers.
+
+<p>Init and Inc may be omitted.  If Test is omitted, the loop will continue
+forever (unless a break, goto, or return instruction is used to get out of
+the loop).
+
+<h3>Example:</h3>
+<xmp>
+var/i
+for(i=0, i<3, i++)
+    world << i
+</xmp>
+
+<p>This outputs:
+
+<xmp>
+0
+1
+2
+</xmp>
+
+<p>Note: An Inc statement like <tt>i += 0.1</tt> is perfectly valid, but
+you should keep in mind that numerical accuracy is not exact. See
+<a href=#/{notes}/numbers>Numbers</a> for more information.
+
+<h3>C-like syntax</h3>
+
+<p>Using the <a href=#/DM/preprocessor/pragma/syntax><tt>#pragma syntax</tt>
+directive</a> you can change <tt>for()</tt> to be more like other languages
+such as C. This uses a semicolon <tt>;</tt> in place of commas to separate
+Init, Test, and Inc. Instead the comma is treated as a way of stringing
+multiple statements together.
+
+<h3>Example:</h3>
+<xmp>
+// make this syntax change temporary
+#pragma push
+#pragma syntax C for
+
+var/i,j
+for(i=j=0; i<=10; ++i,j+=i)
+    world << "A triangle [i] block\s high has [j] block\s total."
+
+#pragma pop
+</xmp>
+

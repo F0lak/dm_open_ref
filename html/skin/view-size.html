@@ -1,0 +1,29 @@
+
+
+<a name=/{skin}/param/view-size>
+<h2>view-size parameter (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/letterbox>letterbox parameter</a>
+<dd><a href=#/{skin}/param/zoom>zoom parameter</a>
+<dd><a href=#/{skin}/param/zoom-mode>zoom-mode parameter</a>
+<dd><a href=#/world/var/icon_size>icon_size var (world)</a>
+<dd><a href=#/world/var/view>view var (world)</a>
+<dd><a href=#/client/var/view>view var (client)</a>
+<dd><a href=#/{notes}/HUD>HUD / screen objects</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control/map>Map</a> (window only)
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd><i>width</i>x<i>height</i>
+</dl>
+
+<p>The size, in pixels, of the map after <tt>zoom</tt> has been applied.
+
+<p>For instance, if the client view has 10&times;10 tiles (this includes any extended tiles caused by HUD objects) and <tt>world.icon_size</tt> is 32x32, the map has a native size of 320&times;320 pixels. If the map has a zoom level of 2, then <tt>view-size</tt> will be 640x640.
+
+<p>With a <tt>zoom</tt> value of 0, which is the default for most projects, the actual zoom level is automatically determined by the size of the map control, the map's native pixel size as explained above, and the value of the <a class=code href=#/{skin}/param/letterbox>letterbox</a> parameter.
+

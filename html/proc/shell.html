@@ -1,0 +1,52 @@
+
+
+<a name=/proc/shell>
+<h2>shell proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/fcopy>fcopy proc</a>
+<dd><a href=#/proc/fdel>fdel proc</a>
+<dd><a href=#/proc/file2text>file2text proc</a>
+<dd><a href=#/world/var/process>process var (world)</a>
+<dd><a href=#/world/var/system_type>system_type var (world)</a>
+<dd><a href=#/proc/text2file>text2file proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>shell(Command)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Command: system command to run
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>null on failure to execute command
+<dd>exit code of command otherwise
+</dl>
+
+<p>This function is used to run an external program.  The syntax of Command
+depends on the server machine's operating system.  Be sure to redirect input
+and output to files if there is any.  Also realize that the command will
+fail if the program you try to run is not in the path where the shell
+expects to find executable files (unless you specify a full path).
+
+<p>Since shell() allows arbitrary access to the system, each call requires
+authorization from the person hosting the world, unless running in trusted
+mode.  Authorization is only sought when running in Dream Seeker, since Dream
+Daemon is intended to be non-interactive.  Calling shell() with no arguments
+is a way of checking if it is allowed by the current safety settings.  It will
+return true if running in Dream Seeker (regardless of safety mode) or if
+running in Dream Daemon in trusted mode.
+
+<p>The calling proc will sleep until the command is finished executing.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/dir(Path as text)
+  shell("dir [Path] > dir.out")
+  usr << file2text("dir.out")
+</xmp>
+
+<p>This example displays the output of the "dir" command to the user.
+

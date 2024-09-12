@@ -1,0 +1,31 @@
+
+
+<a name=/DM/cache>
+<h2>cache</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/define/FILE_DIR>FILE_DIR definition</a>
+<dd><a href=#/world/var/cache_lifespan>cache_lifespan var (world)</a>
+<dd><a href=#/proc/fcopy_rsc>fcopy_rsc proc</a>
+<dd><a href=#/proc/file>file proc</a>
+<dd><a href=#/DM/icon>icons</a>
+<dd><a href=#/DM/sound>sounds</a>
+</dl>
+
+<p>Files specified in single quotes are loaded (at compile time) into the
+world cache file (ending in <code>.rsc</code>).  These are referred to as
+resource files.  At runtime these files are downloaded by players into their
+<code>byond.rsc</code> file for future use.  With the appropriate verbs or
+through savefiles, players may also upload files into the world cache.
+
+<p>If a resource file is not used for a long time, it will be automatically
+removed from the cache file to save space.  If a cache file gets too bulky,
+however, you may manually delete it and start from scratch.
+
+<p>To make compilation faster and to make it easier to distribute code, the
+compiler will use an existing cache file if possible.  That means you could
+compile up a world, and send people the <code>.dm</code> and
+<code>.rsc</code> files without any need to package all the individual
+resource files.  It is also possible to include additional supplementary
+<code>.rsc</code> files by using the <code>#include</code> statement.
+

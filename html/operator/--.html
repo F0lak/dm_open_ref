@@ -1,0 +1,30 @@
+
+
+<a name=/operator/-->
+<h2>-- operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/++>++ operator</a>
+<dd><a href=#/operator/->- operator</a>
+<dd><a href=#/operator/-=>-= operator</a>
+<dd><a href=#/operator>operators</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>--A   // pre-decrement
+<dd>A--   // post-decrement
+</dl>
+
+<p>The pre-decrement has the value (A-1) and the effect of subtracting 1
+from A.
+
+<p>The post-decrement has the value (A) and has the effect of subtracting 1
+from A.
+
+<h3>Example:</h3>
+<xmp>
+var/A = 0
+world << "A-- = [A--]" // outputs "A = 0"
+world << "--A = [--A]" // outputs "A = -2"
+</xmp>
+

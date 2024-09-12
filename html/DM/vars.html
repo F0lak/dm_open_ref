@@ -1,0 +1,24 @@
+
+
+<a name=/DM/vars>
+<h2 byondver=512>vars list var (global)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/datum/var/vars>vars list var (datum)</a>
+</dl>
+
+<p>This is a list of all global variables.  The items in the list are the
+variable names.  If the variable name is used as an index into the list,
+the value of that variable is accessed.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/dumpglobal()
+   for(var/V in global.vars)
+      usr << "[V] = [global.vars[V]]"
+</xmp>
+
+<p>This example displays all global variables.  The <code>global</code>
+keyword is used here to distinguish it from <code>src.vars</code>, which in
+this example would be the mob's vars.
+

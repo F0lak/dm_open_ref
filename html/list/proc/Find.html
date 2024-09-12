@@ -1,0 +1,24 @@
+
+
+<a name=/list/proc/Find>
+<h2>Find proc (list)</h2>
+
+<dl><dt><b>Format:</b>
+<dd>list.Find(Elem,Start=1,End=0)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The first position of elem in list, or 0 if not found.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Elem: The element to find.
+<dd>Start: The list position in which to begin the search.
+<dd>End: The list position immediately following the end of the search.
+</dl>
+
+<p>Find the first position of Elem in the list.  Elements between Start and
+End are searched.  The default end position of 0 stands for the position
+immediately after the end of the list, so by default the entire list is
+searched.
+

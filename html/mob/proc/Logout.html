@@ -1,0 +1,31 @@
+
+
+<a name=/mob/proc/Logout>
+<h2>Logout proc (mob)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/mob/proc/Login>Login proc (mob)</a>
+<dd><a href=#/mob/var/client>client var (mob)</a>
+<dd><a href=#/mob/var/key>key var (mob)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Logout()
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when a player's client has disconnected from a mob.  This happens
+    in client.Del() when the player logs out of the world.  It may also
+    happen when the player switches from one mob to another.
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>None.
+</dl>
+
+<p>One may wish to distinguish between a player who has disconnected from
+the game and one who is simply switching from one mob to another.  In the
+case of a player switching to another mob, by the time <code>Logout()</code>
+is called, the original mob's key will be null, whereas the key will still
+be non-null in the case of a player disconnecting from the game.
+

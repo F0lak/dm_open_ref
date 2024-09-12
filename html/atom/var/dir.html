@@ -1,0 +1,29 @@
+
+
+<a name=/atom/var/dir>
+<h2>dir var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/atom/var/icon>icon var (atom)</a>
+<dd><a href=#/proc/turn>turn proc</a>
+<dd><a href=#/{{appendix}}/stddef%2edm>stddef.dm file</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>SOUTH
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
+</dl>
+
+<p>This is the direction that the object is facing.  This has little effect
+unless the object's icon is directional.  In the case of a directional icon,
+this selects the corresponding orientation from the icon file.
+
+<p>An icon file with only four (cardinal) directions makes the choice of
+orientation ambiguous when the true direction is a diagonal.  In that case, of
+the two possibilities, the one closest to the previous orientation is
+displayed.  Sounds complicated, but it's what one would naturally expect.
+

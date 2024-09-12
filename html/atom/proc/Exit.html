@@ -1,0 +1,53 @@
+
+
+<a name=/atom/proc/Exit>
+<h2>Exit proc (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/proc/Enter>Enter proc (atom)</a>
+<dd><a href=#/atom/proc/Entered>Entered proc (atom)</a>
+<dd><a href=#/atom/proc/Exited>Exited proc (atom)</a>
+<dd><a href=#/atom/proc/Cross>Cross proc (atom)</a>
+<dd><a href=#/atom/proc/Crossed>Crossed proc (atom)</a>
+<dd><a href=#/atom/proc/Uncross>Uncross proc (atom)</a>
+<dd><a href=#/atom/proc/Uncrossed>Uncrossed proc (atom)</a>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/world/var/movement_mode>movement_mode var (world)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Exit(atom/movable/O, atom/newloc)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>1 to permit; 0 to deny.
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when an object attempts to exit the contents list.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>O: the object attempting to exit.
+<dd><span byondver=507>newloc</span>: the object's new location.
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>Turfs will call Uncross() and return that value (1 by default). All others allow the object to exit (returning 1).
+</dl>
+
+<p>By default, every atom returns 1 to allow exit, except for turfs which
+call Uncross() to handle it for them.
+
+<p class=note>The following behavior only applies to
+<a class=code href=#/world/var/movement_mode>LEGACY_MOVEMENT_MODE</a>. In all
+other movement modes, the turf's contents are not taken into account. Only the
+result of turf.Uncross() matters.
+
+<p>In the default Exit handler for turfs, Uncross() is called for the turf
+itself and then Uncross() will also be called for any atoms in turf.contents
+that cover the entire tile. If any Uncross() call fails, Exit() fails too and
+will return 0. In games using pixel movement, Uncross() is usually called
+separately, but this allows projects using tile-based movement instead to
+benefit from Cross() and Uncross().
+

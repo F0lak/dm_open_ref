@@ -1,0 +1,47 @@
+
+
+<a name=/datum/proc/New>
+<h2>New proc (datum)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/proc/New>New proc (atom)</a>
+<dd><a href=#/client/proc/New>New proc (client)</a>
+<dd><a href=#/proc/new>new proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>New()
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when the datum is created, for example by using <code>new</code>,
+when reading an object that was stored in a <a href=#/savefile>savefile</a>,
+or when the world is initially created.
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>None.
+</dl>
+
+<p>You can use the New() procedure to do more complicated initializations
+than are possible in the object definition where you assign the initial
+value of variables to constants.
+
+<p>The following example makes use of the "Location" parameter that is passed
+to objects of type <a href=#/atom>/atom</a>.  You can pass any number of
+additional arguments to New() by passing them to the <code>new</code>
+instruction which creates the object.
+
+<h3>Example:</h3>
+<xmp>
+mob/night
+   var/mob/squire/my_squire
+   New(Location)
+      my_squire = new(Location)
+      return ..()
+</xmp>
+
+<p>Also note that the type of object being created in this case was
+automatically inferred from the variable type on the left-hand side of the
+assignment.  That's a handy little DM short-cut.
+

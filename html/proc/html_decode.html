@@ -1,0 +1,30 @@
+
+
+<a name=/proc/html_decode>
+<h2>html_decode proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/html_encode>html_encode proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>html_decode(HtmlText)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>HtmlText: text to be "unescaped"
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>unescaped text
+</dl>
+
+<p>Special characters such as &lt; and &gt; are not displayed literally in
+html and may produce garbled output.  To display these characters literally,
+they must be "escaped".  For example, &lt; is produced by the code
+<code>&amp;lt;</code> and &gt; is produced by the code <code>&amp;gt;</code>.
+
+<p>The <code>html_decode()</code> instruction takes a text string containing
+such escaped symbols and turns them into their literal counterparts.  The
+more useful function is <code>html_encode()</code> which does the reverse.
+

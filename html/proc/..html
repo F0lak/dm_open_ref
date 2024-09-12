@@ -1,0 +1,33 @@
+
+
+<a name=/proc/%2e toc=".">
+<h2>. proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/%2e%2e>.. proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>.(Args)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The return value of the current proc.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>The arguments to pass to the new invocation of the current proc.  This
+     defaults to current arguments.
+</dl>
+
+<p>Call the current proc.  A proc that calls itself is said to be recursive.
+
+<h3>Example:</h3>
+<xmp>
+proc/factorial(N as num)
+  if(N<=0) return 1
+  return .(N-1)*N
+</xmp>
+
+<p>This computes the factorial N! by calling itself recursively.
+

@@ -1,0 +1,73 @@
+
+
+<a name=/atom/var/layer>
+<h2>layer var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/overlays>overlays var (atom)</a>
+<dd><a href=#/atom/var/plane>plane var (atom)</a>
+<dd><a href=#/atom/var/z>z var (atom)</a>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/{notes}/BACKGROUND_LAYER>BACKGROUND_LAYER</a>
+<dd><a href=#/{notes}/EFFECTS_LAYER>EFFECTS_LAYER</a>
+<dd><a href=#/{notes}/TOPDOWN_LAYER>TOPDOWN_LAYER</a>
+<dd><a href=#/{notes}/renderer>Understanding the renderer</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>1 (AREA_LAYER)
+<dd>2 (TURF_LAYER)
+<dd>3 (OBJ_LAYER)
+<dd>4 (MOB_LAYER)
+</dl>
+
+<p>This numerical value determines the layer in which the object is drawn on
+the map.  By default, the order is area, turf, obj, mob, followed by missiles
+and images (in FLY_LAYER, which is 5).
+
+<h3>Example:</h3>
+<xmp>
+turf
+   archway
+      layer = MOB_LAYER+1  //overhead
+</xmp>
+
+<p>When making objects to be used as graphical overlays, you should also be
+aware of the special <tt>FLOAT_LAYER</tt> value.  This causes the overlay (or
+underlay) to be in the same drawing layer as the base object, no matter how
+that layer changes after the addition of the overlay.  Otherwise, the overlay
+object's own drawing layer is used.
+
+<p>The actual drawing order of icons may change depending on world.map_format.
+An isometric map for instance has to display tiles that are "closer" to the
+viewer in front of tiles that are in the back, so the layer var takes a
+backseat to the needs of the map. If you use the <tt>TOPDOWN_MAP</tt> or
+<tt>TILED_ICON_MAP</tt> map formats, the layer is more important.
+
+<p>If you are using a <tt>world.map_format</tt> that does not display topdown,
+such as <tt>ISOMETRIC_MAP</tt> or <tt>SIDE_MAP</tt>, then you can use a
+special layer for showing certain portions of the map in topdown mode. For
+those parts of the map, you can add <tt>TOPDOWN_LAYER</tt> to every atom's
+ layer to make the atom appear in topdown mode. This is for special cases,
+like for instance a battle map in an RPG, where a regular topdown view is
+preferable to the special mapping used by the rest of the game. It is
+recommended that you use <tt>TOPDOWN_LAYER</tt> with every atom in that
+portion of the map, since topdown and isometric maps for instance don't mix.
+If you use <tt>TOPDOWN_LAYER</tt>, it is best to use a square size in
+<tt>world.icon_size</tt> if any of these atoms will be moving around.
+
+<p>Another special layer, <tt>EFFECTS_LAYER</tt>, is also available. Icons
+that use this layer will display above icons that don't.
+<tt>TOPDOWN_LAYER</tt> will then display above that. This layer is useful for
+situations such as using a floating name or health meter overlay on a mob in
+isometric mode. When using <tt>EFFECTS_LAYER</tt>, other icons on the regular
+map won't cover the overlay. (It is preferable to use atom.plane for this,
+when possible.)
+
+<p>Finally there is BACKGROUND_LAYER. Adding this to an atom's layer will make
+it appear below any atoms that do not use BACKGROUND_LAYER.  (It is preferable
+to use atom.plane when possible.)
+
+<p>The <tt>atom.plane</tt> var takes priority over layer. This is the preferred
+method of handling background and effects.
+

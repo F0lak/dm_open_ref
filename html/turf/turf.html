@@ -1,0 +1,38 @@
+
+
+<a name=/turf>
+<h2>turf</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom>atom</a>
+<dd><a href=#/turf/proc>procs (turf)</a>
+<dd><a href=#/turf/var>vars (turf)</a>
+<dd><a href=#/map>Map</a>
+</dl>
+
+<p>Turfs cover the surface of the map.  They are derived from <tt>/turf</tt>
+which derives from <tt>/atom</tt>.
+
+<p>This example defines the turf prototype <tt>/turf/floor</tt> and
+<tt>/turf/wall</tt>.
+
+<h3>Example:</h3>
+<xmp>
+turf
+  floor
+    desc = "A wood plank floor."
+  wall
+    desc = "A stone wall."
+    density = 1
+</xmp>
+
+<p>Turfs cannot be moved. They can only be created or destroyed by changing
+<tt>world.maxx</tt>, <tt>world.maxy</tt>, or <tt>world.maxz</tt>. When you
+create a new turf with <tt>new()</tt>, it always replaces the old one.
+
+<h3>Example:</h3>
+<xmp>
+// replace old_turf with a wall
+var/turf/wall/T = new(old_turf)
+</xmp>
+

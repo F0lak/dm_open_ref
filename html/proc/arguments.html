@@ -1,0 +1,33 @@
+
+
+<a name=/proc/arguments>
+<h2>arguments (proc)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/arguments/named>named arguments (proc)</a>
+<dd><a href=#/operator/path>path operators</a>
+<dd><a href=#/proc/arglist>arglist proc</a>
+<dd><a href=#/proc/var/args>args var (proc)</a>
+</dl>
+
+<p>The parameters to a proc are referred to as arguments.  To define
+argument variables, place them inside the ()'s in the proc definition.  A
+default value may be specified.  Otherwise, arguments default to null.
+
+<h3>Example:</h3>
+<xmp>
+proc/Sum(a,b)
+  return a + b
+</xmp>
+
+<h3>Example:</h3>
+<xmp>
+proc/set_mob_desc(mob/M,desc="big and bad")
+  M.desc = desc
+  world << "The new desc for [M] is [desc]."
+</xmp>
+
+<p>Note how the variable type may be specified.  It is just like any other
+variable definition, except "<code>var/</code>" is implicit and does not need
+to be typed.
+

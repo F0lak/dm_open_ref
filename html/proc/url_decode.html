@@ -1,0 +1,30 @@
+
+
+<a name=/proc/url_decode>
+<h2>url_decode proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/proc/Topic>Topic proc (client)</a>
+<dd><a href=#/proc/url_encode>url_encode proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>url_decode(UrlText)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>UrlText: text to be "unescaped"
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>unescaped text
+</dl>
+
+<p>Most non-alphanumeric characters are converted to another format in a URL.
+To send these characters literally, they must be "escaped".
+
+<p>The <code>url_decode()</code> instruction takes a text string containing
+such escaped symbols and turns them into their literal counterparts.  Usually
+this is done for you automatically in <code>Topic()</code>. The more useful
+function is <code>url_encode()</code> which does the reverse.
+

@@ -1,0 +1,28 @@
+
+
+<a name=/atom/movable/proc/Bump>
+<h2>Bump proc (movable atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Bump(atom/Obstacle)
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when a movement fails due to a dense blockage.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Obstacle: The blocking object.
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>If the obstacle is a mob and src is in its group, swap their positions.
+This is only done if the mobs both move by full tiles and do not use pixel
+movement, to preserve the behavior of older games.
+</dl>
+

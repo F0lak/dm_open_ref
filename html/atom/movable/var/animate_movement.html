@@ -1,0 +1,44 @@
+
+
+<a name=/atom/movable/var/animate_movement>
+<h2>animate_movement var (movable atoms)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/proc/Move>Move proc (movable atom)</a>
+<dd><a href=#/atom/movable/var/glide_size>glide_size var (movable atoms)</a>
+<dd><a href=#/{notes}/gliding>Gliding</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>FORWARD_STEPS (1)
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>NO_STEPS (0)
+<dd>FORWARD_STEPS (1)
+<dd>SLIDE_STEPS (2)
+<dd deprecated=1>SYNC_STEPS (3)
+</dl>
+
+<p>Setting this to 0 causes movement between two adjacent positions to be
+displayed as a single discrete jump.  Otherwise, objects will be made to glide
+from one position to another, using the movement animation defined in the icon
+file if one is defined.
+
+<p>By default, movement animation avoids cutting corners, since this can look
+very bad in some games.  If you want objects to take the shortest (and
+smoothest) visual path when moving around, use <tt>SLIDE_STEPS</tt> instead of
+the default <tt>FORWARD_STEPS</tt>.  This also allows the object to be facing
+in a different direction than it is moving, so make sure this is what you want.
+
+<p><tt>SYNC_STEPS</tt> is intended for objects that move in unison as part of
+a larger "conglomerate" object.  You should set the movement animation to
+<tt>SYNC_STEPS</tt> on all but a single "head" object, which will serve as the
+leader when choosing pixel step sizes.  If you do not use <tt>SYNC_STEPS</tt>,
+there are cases where the pixel offsets of objects may get out of sync during
+motion, causing the object to visually break up. Because of the advent of
+features like big icons, this value is no longer of much use.
+
+<p>Note: This setting has no impact when used with pixel movement, except in
+special cases. See <a href=#/{notes}/gliding>Gliding</a> for more details.
+

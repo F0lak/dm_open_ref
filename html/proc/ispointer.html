@@ -1,0 +1,28 @@
+
+
+<a name=/proc/ispointer>
+<h2 byondver=515>ispointer proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/*>* operator (pointers)</a>
+<dd><a href=#/operator/&>&amp; operator (pointers)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>ispointer(Value)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Value: The value to test
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>1 if the value is a pointer; 0 otherwise.
+</dl>
+
+<p>Tests whether an value is a pointer.
+
+<p>Note: This does not check if the pointer is still valid, like for instance
+if the object it belongs to has been deleted, or if it points to a list index
+that is now out of bounds.
+

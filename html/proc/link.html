@@ -1,0 +1,38 @@
+
+
+<a name=/proc/link>
+<h2>link proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/%3c%3c/output>&lt;&lt; output operator</a>
+<dd><a href=#/client/proc/Topic>Topic proc (client)</a>
+<dd><a href=#/proc/file>file proc</a>
+<dd><a href=#/proc/run>run proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>O &lt;&lt; link(url)
+</dl>
+
+<p>This causes the recipient (O) to view the specified url.  The url could
+be a web or BYOND address.  In the latter case, the player will disconnect
+from the current world and connect to the specified one.
+
+<p>The format of a BYOND url is as follows:
+
+<xmp>
+byond://address:port?TopicData
+</xmp>
+
+<p>To access a registered world, address:port may be replaced by the
+registered name in the hub.  The optional topic data is processed by the
+world once the player has connected.  If only a topic is specified, the
+current world processes it.
+
+<h3>Example:</h3>
+<xmp>
+usr << link("byond://byond.com:6000") //BYOND address
+usr << link("http://www.byond.com")   //web address
+usr << link("?myTopic")                //topic
+</xmp>
+

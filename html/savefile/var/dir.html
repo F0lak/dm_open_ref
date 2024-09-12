@@ -1,0 +1,20 @@
+
+
+<a name=/savefile/var/dir>
+<h2>dir list var (savefile)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/list>list</a>
+<dd><a href=#/savefile>savefile</a>
+</dl>
+
+<p>The name of each child directory of the current data directory is stored
+in the list savefile.dir.  New directories may be created with
+savefile.dir.Add() and removed with savefile.dir.Remove().  To test for the
+existence of a directory, use savefile.dir.Find().  (Note that these are
+<em>database</em> directories inside the savefile&mdash;not real directories
+on the filesystem.)
+
+<p>The order of directories is not necessarily preserved, so do not assume,
+for example, that newer directories will be at the end of the list.
+

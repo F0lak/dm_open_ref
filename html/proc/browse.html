@@ -1,0 +1,149 @@
+
+
+<a name=/proc/browse>
+<h2>browse proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/%3c%3c/output>&lt;&lt; output operator</a>
+<dd><a href=#/proc/browse_rsc>browse_rsc proc</a>
+<dd><a href=#/proc/file>file proc</a>
+<dd><a href=#/proc/link>link proc</a>
+<dd><a href=#/proc/run>run proc</a>
+<dd><a href=#/proc/output>output proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>usr &lt;&lt; browse(Body,Options)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Body: html text, file, or null to close the browser.
+<dd>Options: optional parameters
+</dl>
+
+<p>This sends the html text or file to the user and optionally displays it in
+the web browser.  The default action is to use the embedded browser panel in the Dream
+Seeker window; specifying an alternate window name (see below) causes it to appear in a
+popup window.  Passing in 'null' for the html text causes the browser panel or named
+window to be closed.
+
+<p>The option parameters should either be omitted or they should be in a text
+string of the following format:
+
+<code>
+"<var>window</var>=name;<var>file</var>=name;<var>display</var>=1;
+<br><var>size</var>=300x300;<var>border</var>=0;<var>can_close</var>=1;
+<br><var>can_resize</var>=1;<var>can_minimize</var>=1;<var>titlebar</var>=1"
+</code>
+
+<p>You may use commas (,), ampersands (&amp;), or semicolons (;) as the
+delimiter.  Any or all of the parameters may be specified and they may be
+included in any order.
+
+<h3>General options</h3>
+These control how to handle the text or file.
+<p>
+<dl>
+<dt>window
+<dd>This is the name used to identify the popup window.  It is not visible to
+the user.  Multiple calls to browse() with the same window name overwrite
+previous contents of the same popup window.  If window is not specified, the
+embedded browser panel will be used.
+
+<dt>file
+<dd>When this is unspecified, the client will store the generated html file in the
+user's byond "cache" directory with an appropriate name.  If Body is a
+text string, the client will generate a unique name.  If it is a file, it will use
+the name of the file.  You can override this by setting this parameter.  This is
+only useful when you need to reference the file later, typically in tandem with the
+display setting below.
+
+<dt>display
+<dd>This controls whether the browser actually displays Body in the web browser
+or not.  If it is turned off (display=0), the text or file is simply sent
+to the user and expected to be referenced later.  This might be useful, for instance, to first send an image to a user and then display a web page that uses that image:
+<xmp>
+usr << browse('monster.png',"display=0")
+usr << browse("<img src=monster.png>A scary monster appears from the mist!")
+</xmp>
+Note that this performs the same function as the <a href=#/proc/browse_rsc>browse_rsc</a> proc (preserved for legacy reasons).  It is a little more powerful because you can use
+it to send html text as well as files.  In that case, you'll have to also supply the file=name argument so that you can reference the html text from within a later browse().
+<p>
+When display=0, all of the other arguments besides file are ignored.
+</dl>
+
+<h3>Popup options</h3>
+These control how the popup window initially appears.  Setting these parameters for
+an existing popup window or the embedded browser has no effect.
+<p>
+<dl>
+<dt>border
+
+<dd>This is the width of the border between the edges of the dialogue and the window
+content.  The default value is 0, meaning that the entire window is filled with
+html content.
+
+<dt>size
+
+<dd>This is the size of the popup window in pixels.  The format is
+<code>WIDTHxHEIGHT</code>.
+
+<dt>can_close
+
+<dd>This specifies whether the window should be closable.  The default value
+is 1, which enables the standard "X" button for closing.
+
+<dt>can_resize
+
+<dd>This controls whether the window is resizable.  The default value is 1,
+enabling resizing and maximizing.
+
+<dt>can_minimize
+
+<dd>This controls whether the window is minimizable.  The default value is 1,
+enabling the standard minimization button.
+
+<dt>titlebar
+
+<dd>The default titlebar=1 enables the standard bar at the top of the window.
+Turning it off disables can_close and can_minimize.
+
+</dl>
+
+<p>Note also that many display options can be controlled through the html
+itself.  For instance, to turn off the scrollbars, you can do:
+<code>&lt;body scroll=no&gt;</code>; to add a title, you can do:
+<code>&lt;head&gt;&lt;title&gt;My Title&lt;/title&gt;&lt;/head&gt;</code>; and so forth.
+
+<p>The following example displays a help page in a popup window.
+
+<h3>Example:</h3>
+
+<xmp>
+var/const/help = {"
+<html>
+<head><title>Help!</title></head>
+<body>
+
+You are beyond help!
+
+</body>
+</html>
+"}
+client/verb/help()
+   usr << browse(help,"window=help")
+</xmp>
+
+You can use commands like <a href=#/proc/output>output()</a> and
+<a href=#/proc/winset>winset()</a> to interact with popups. The name of the
+window is the same name you gave the popup, and the browser is
+"[windowname].browser".
+
+<h3>Example:</h3>
+
+<xmp>
+client/verb/more_help()
+   usr << output("You are still beyond help!", "help.browser")
+</xmp>
+
+

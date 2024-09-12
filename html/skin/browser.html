@@ -1,0 +1,46 @@
+
+
+<a name=/{skin}/control/browser>
+<h2>browser control (skin)</h2>
+
+<p>A browser panel integrated into the skin.
+
+<dl class=codedd><dt><b>Browser-specific parameters:</b>
+<dd><a href=#/{skin}/param/auto-format>auto-format</a>
+<dd><a href=#/{skin}/param/on-hide>on-hide</a>
+<dd><a href=#/{skin}/param/on-show>on-show</a>
+<dd><a href=#/{skin}/param/show-history>show-history</a>
+<dd><a href=#/{skin}/param/show-url>show-url</a>
+<dd><a href=#/{skin}/param/use-title>use-title</a>
+</dl>
+
+<p>Browsers are capable of displaying HTML documents, and can also interact with the skin.
+
+<h3>Browsers and popups</h3>
+
+<p>A longstanding behavior of BYOND is the ability to create a new browser window by sending an extra argument to the <a class=code href=#/proc/browse>browse()</a> proc. Since the advent of skins in BYOND 4.0, this behavior was kept. When you create a new browser popup, the window name you specify for the popup is used for the name of a new <a href=#/{skin}/control/main>window control</a>, and within that window there will be a new browser control simply called <tt>browser</tt>.
+
+<p>If you want to interact with the new browser, its full "decorated" <a class=code href=#/{skin}/param/id>id</a> is <tt><i>windowname</i>.browser</tt>.
+
+<h3>Running JavaScript from DM</h3>
+
+<p>Sending <a class=code href=#/proc/output>output()</a> to a browser will send a document to display there, but if you follow the browser's control name with a colon and a function name, you can call a JavaScript function in the document displayed within that browser.
+
+<h3>Example:</h3>
+<xmp>
+var/list/info = list("name"="fridge", "power"=12)
+// send {"name":"fridge","power":12} to a JavaScript function
+usr << output(url_encode(json_encode(info)), "mybrowser:myJSfunction")
+</xmp>
+
+<p>The text that you send as output will be parsed like URL parameters, where mutliple arguments to the function are separated by <tt>&amp;</tt> or <tt>;</tt>, which is why <a class=code href=#/proc/url_encode>url_encode()</a> is wrapped around the <a class=code href=#/proc/json_encode>json_encode()</a> call in this example.
+
+<h3>More browser options</h3>
+
+<p>These topics cover more advanced uses of the browser control.
+
+<dl>
+<dt><a href=#/{skin}/control/browser/winset>winset and winget (JavaScript)</a></dt><dd>Interact with the skin via JavaScript</dd>
+<dt><a href=#/{skin}/control/browser/byondStorage>byondStorage (browser control)</a></dt><dd>Provides persistent storage options for small data</dd>
+</dl>
+

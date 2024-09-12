@@ -1,0 +1,26 @@
+
+
+<a name=/DM/sound>
+<h2>sounds</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/define/FILE_DIR>FILE_DIR definition</a>
+<dd><a href=#/DM/cache>cache</a>
+<dd><a href=#/proc/sound>sound proc</a>
+<dd><a href=#/sound>/sound datum</a>
+<dd><a href=#/proc/load_resource>load_resource proc</a>
+</dl>
+
+<p>A sound stored in a file may be referenced by putting single quotes around
+the filename.  The file extension determines the type of sound.  Currently
+supported music types include MIDI (.mid or .midi), and module formats .mod, .it,
+.s3m, .xm, and .oxm. Supported sound effect formats include .wav, .ogg, .mp3,
+.raw, .wma, and .aiff.
+
+<h3>Example:</h3>
+<xmp>
+world << sound('fugue.midi')
+</xmp>
+
+<p>This example plays the specified midi file to all players.
+

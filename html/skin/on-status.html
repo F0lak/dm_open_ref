@@ -1,0 +1,23 @@
+
+
+<a name=/{skin}/param/on-status>
+<h2>on-status parameter (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/statusbar>statusbar parameter</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control/main>Main</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>string
+</dl>
+
+<p><a href=#/{skin}/commands>Command</a> executed when the text that would go in the statusbar is changed. This applies even if this control is a pane and not a window, or is a window without a statusbar. It applies to all panes and windows that directly or indirectly contain whatever control generated the statusbar text (e.g., a map).
+
+<p>If you include <tt>[[*]]</tt> in the command, it will be replaced by the new text. (See "Embedded Winget" in <a href=#/{skin}/commands>client commands</a> for more details on the <tt>[[...]]</tt> format.)
+
+<p><tt>[[from]]</tt> can be used to reference the control (if any) that generated the next text. You can also use expressions like <tt>[[from.type]]</tt>, <tt>[[from.parent.pos.x]]</tt>, etc.
+

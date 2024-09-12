@@ -1,0 +1,39 @@
+
+
+<a name=/operator/~=>
+<h2 byondver=512>~= operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/~!>~! operator</a>
+<dd><a href=#/operator/==>== operator</a>
+<dd><a href=#/operator/!=>!= operator</a>
+<dd><a href=#/operator>operators</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>A ~= B
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>1 if A and B are equivalent; 0 otherwise
+</dl>
+
+<p>Equivalence is a looser version of equality:
+
+<ul>
+<li>Two lists are equivalent if their contents are the same. (This is a
+shallow comparison, so it doesn't check if the Nth items are also
+equivalent, only equal.)</li>
+<li>Two <a href=#/matrix>/matrix</a> values are equivalent if their components
+are the same.</li>
+<li>Datums A and B are equivalent if A <dd><a href=#/operator/overload>overloads</a>
+the ~= operator with a proc that returns true for B. Without an overload,
+they are only equivalent if they're the same object.</li>
+</ul>
+
+<p>To check if A and B are equal, use the == operator.
+
+<p>Note: For code compiled in version 516 or later,
+<a href=#/list/assoc>associated values</a> in lists are also checked for
+equality. This was not the case for older versions.
+

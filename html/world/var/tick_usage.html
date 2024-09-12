@@ -1,0 +1,23 @@
+
+
+<a name=/world/var/tick_usage>
+<h2 byondver=510>tick_usage var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/cpu>cpu var (world)</a>
+<dd><a href=#/world/var/tick_lag>tick_lag var (world)</a>
+<dd><a href=#/world/proc/Tick>Tick proc (world)</a>
+</dl>
+
+<p>This is the approximate percentage of the server tick that has been used
+already.  A value under 100 means there's time to do more calculations, which
+can include any pending procs that are still waiting to run on this tick.
+When the value is over 100, the tick is running long and your world will
+experience lag.
+
+<p>Keep in mind that sending maps to clients is the last thing that happens
+during a tick, except for handling any events such as player commands that
+might arrive before the next tick begins. Therefore in a verb,
+<tt>tick_usage</tt> might have a higher value than you would expect to see in
+a proc that loops and sleeps.
+

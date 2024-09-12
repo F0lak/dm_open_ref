@@ -1,0 +1,43 @@
+
+
+<a name=/proc/findlasttext>
+<h2 byondver=510>findlasttext proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/findtext>findtext proc</a>
+<dd><a href=#/proc/findtextEx>findtextEx proc</a>
+<dd><a href=#/proc/findlasttextEx>findlasttextEx proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>findlasttext(Haystack,Needle,Start=0,End=1)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The last position of Needle in Haystack; 0 if not found.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Haystack: The text string to search.
+<dd>Needle: The sub-text to search for.
+<dd>Start: The text byte  position in Haystack in which to begin the search.
+    Because this searches backwards, the default is the end of the string (0).
+<dd>End: The earliest position in Haystack that can be matched as a result.
+</dl>
+
+<p>This instruction is NOT sensitive to the case of Haystack or Needle.  The
+case-sensitive version is findlasttextEx().
+
+<p>If the start or end position is negative, the position is counted backwards
+from the end of the string. E.g., findlasttext("Banana", "na", -3) starts three
+characters from the end and will skip over the last "na".
+
+<p>Note: Unlike findtext(), a regular expression may NOT be used as the
+Needle. Searching backwards is simply too complex for the regular expression
+engine.
+
+<p>Note: In strings containing non-ASCII characters, byte position and
+character position are not the same thing. Use <tt>findlasttext_char()</tt> to
+work with character counts instead of bytes, at a performance cost. See the
+<a href=#/{notes}/Unicode>Unicode</a> section for more information.
+

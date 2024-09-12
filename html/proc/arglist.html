@@ -1,0 +1,53 @@
+
+
+<a name=/proc/arglist>
+<h2>arglist proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/arguments>arguments (proc)</a>
+<dd><a href=#/proc/call>call proc</a>
+<dd><a href=#/proc/call_ext>call_ext proc</a>
+<dd><a href=#/proc/list>list proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>arglist(List)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>List: a list to be used as the arguments to a procedure
+</dl>
+
+<p>Normally, if you were to pass a list directly to a procedure, it would only
+come through as a singe argument to that procedure.  In some cases, you might
+instead want the items in the list to become the arguments to the procedure.
+That is what <code>arglist()</code> achieves.
+
+<p>If the items in the list are associations, these are treated as
+<a href=#/proc/arguments/named>named arguments</a>.  Each such list item is
+matched against the names of the procedure arguments and its associated value
+is assigned to that parameter.
+
+<p>Most built-in DM instructions do not support use of
+<code>arglist()</code>, but all user-defined procedures automatically
+support it.  The built-in instructions which support named arguments will also
+support <code>arglist()</code>.
+
+<p>The following example shows how to use <code>arglist()</code> with both
+positional parameters and named arguments.  Both of these examples could be
+replaced by a much simpler direct call without need for a list to hold the
+arguments; this is just to illustrate the syntax.
+
+<h3>Example:</h3>
+<xmp>
+proc/MyProc(a,b)
+   usr << "MyProc([a],[b])"
+
+mob/verb/test()
+   var/lst = list(1,2)
+   MyProc(arglist(lst))  //MyProc(1,2)
+
+   lst = list(b=2,a=1)   //just to illustrate that order does not matter
+   MyProc(arglist(lst))  //MyProc(b=2,a=1)  -->  MyProc(1,2)
+</xmp>
+

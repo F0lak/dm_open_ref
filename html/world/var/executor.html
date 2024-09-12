@@ -1,0 +1,33 @@
+
+
+<a name=/world/var/executor>
+<h2>executor var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/startup>startup proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>executor = "/usr/local/byond/bin/DreamDaemon [params]"
+</dl>
+
+<p>This option is for direct execution of <code>.dmb</code> files in UNIX.
+The most common use is for writing CGI programs that are executed by the web
+server.
+
+<p>The first parameter in the <var>executor</var> text string is the path to
+DreamDaemon.  The one listed above is the standard UNIX location.
+
+<p>Optional parameters may follow.  The most common are -CGI and -logself.
+
+<h3>Example:</h3>
+<xmp>
+world/executor = "/usr/local/byond/bin/DreamDaemon -CGI -logself"
+</xmp>
+
+<p>This example creates a CGI program to be executed by a web server.  It
+puts its error output in the file <code><var>projname</var>.log</code>.
+
+<p>All of this is configured for you when you include
+<code>html/CGI.dm</code> from the html library.
+

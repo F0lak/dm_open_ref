@@ -1,0 +1,43 @@
+
+
+<a name=/proc/turn>
+<h2>turn proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/icon/proc/Turn>Turn proc (icon)</a>
+<dd><a href=#/atom/var/dir>dir var (atom)</a>
+<dd><a href=#/vector/proc/Turn>Turn proc (vector)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>turn(Dir, Angle)
+
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Dir: One of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST.
+<dd>Angle:  An angle in degrees (counterclockwise rotation).
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The rotated direction.
+</dl>
+
+<p>This proc can also be applied to an <a href=#/proc/turn/icon>icon</a>, a
+<a href=#/proc/turn/matrix>matrix</a>, or a
+<a href=#/proc/turn/vector>vector</a>.
+
+<h3>Example:</h3>
+<xmp>
+var/dir
+dir = turn(NORTH, 90)  // dir = west
+dir = turn(dir, -90)   // dir = north
+dir = turn(dir, 45)    // dir = northwest
+</xmp>
+
+<p>Only multiples of 45 are allowed for angles. If an invalid angle is used,
+it will be treated as the closest multiple of 45 to 0.
+
+<p>If the supplied Dir is invalid, such as 0, or something like UP or DOWN,
+the result is a random direction unless the angle is also 0.
+

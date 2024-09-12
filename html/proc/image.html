@@ -1,0 +1,92 @@
+
+
+<a name=/proc/image>
+<h2>image proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/%3c%3c>&lt;&lt; operator</a>
+<dd><a href=#/proc/del>del proc</a>
+<dd><a href=#/icon>icon</a>
+<dd><a href=#/image>image objects</a>
+<dd><a href=#/client/var/images>images var (client)</a>
+<dd><a href=#/atom/var/overlays>overlays var (atom)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>image(icon,loc,icon_state,layer,dir)
+<dd><small>(supports <a href=#/proc/arguments/named>named arguments</a>)</small>
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>An image reference on success; 0 on failure.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>icon: An icon, icon_state, object prototype, object instance, or other image.
+<dd>loc:  The location at which to display the image.
+<dd>icon_state: The icon state to use.
+<dd>layer: The drawing layer to use.
+<dd>dir: The direction to orient the image.
+</dl>
+
+<p>Images are "virtual" objects, which have a purely visual effect.  Once
+created, they can be made to appear to selected players.  The image()
+instruction is simply a short-hand for new/image().
+
+<p>The image remains attached to the location specified by <var>loc</var>.
+For example, if <var>loc</var> is a mob, the image will appear above the mob
+until it is destroyed.
+
+<p>The <tt>icon</tt> argument can be anything that can be interpreted as an
+appearance, i.e. anything you might add to an overlays list. If this argument
+is interpreted as an appearance, it will be used <i>instead of</i> the
+appearance of the image type. A null value will use the image type's own
+default appearance. An icon value will use the default appearance but change
+the icon. A text string will be interpreted as the <tt>icon_state</tt>
+argument if one is not present, but otherwise will be interpreted as an
+appearance.
+
+<p>The arguments <var>icon_state</var>, <var>layer</var>, and <var>dir</var>
+may be used to override the settings associated with the icon or object used
+to create the image.  For example, the default drawing layer for an plain icon
+is FLY_LAYER (above all other objects), but you could change this to OBJ_LAYER
+to make it appear under mobs on the map.
+
+<h3>Example:</h3>
+<xmp>
+var/Box
+Box = image ('highlight.dmi', usr)
+usr << Box
+...
+del(Box)  //when done, remove image
+</xmp>
+
+<p>Another common use of images is in making an overlay:
+
+<xmp>
+overlays += image('pants.dmi',icon_state = "red")
+</xmp>
+
+<p>Since the <code>loc</code> argument could never be a text string, the above
+statement can be further shortened:
+
+<xmp>
+overlays += image('pants.dmi',"red")
+</xmp>
+
+<p>This is much preferable to achieving the same effect with
+<code>icon('pants.dmi',"red")</code>, since that involves the
+overhead of creating a new icon file, which should only be done when it is
+really necessary.
+
+<p>Note: The fact that <tt>image</tt> is essentially a wrapper for
+<tt>new/image()</tt> means that the arguments in
+<a class=code href=#/datum/proc/New>image/New()</a> are always treated the
+same way as defined in this article. This applies even to subtypes, like
+<tt>/image/thing</tt>. 
+
+
+If you create a user-defined subtype like <tt>new/image/thing()</tt>
+it will still use the arguments the same way as in <tt>image()</tt>. You can't
+meaningfully customize the arguments in <tt>New()</tt> for images.
+

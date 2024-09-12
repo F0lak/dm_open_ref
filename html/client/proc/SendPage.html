@@ -1,0 +1,48 @@
+
+
+<a name=/client/proc/SendPage>
+<h2>SendPage proc (client)</h2>
+
+<dl><dt><b>Format:</b>
+<dd>SendPage(msg,recipient,options)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>Returns number of recipients successfully contacted.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>msg: text to send
+<dd>recipient: key or list of keys to page
+<dd>options: text string containing key=value options
+</dl>
+
+<p>The user is prompted to authorize sending of the pager message.  The
+recipient may easily respond or jump to the sender's location by clicking on
+the link in the pager message.  The effect is identical to that of the
+sending a page through the Dream Seeker pager.
+
+<p>The options are encoded in the same format read by text2params().  The
+valid options are:
+
+<dl>
+<dt>summon (0/1)</dt>
+
+<dd>If not included in the options, this is 0.  If included in the options
+without assigning it to anything, it is 1.  A value of 1 sends the recipient
+the sender's location so they can join by clicking on the message.
+
+<dt>email (0/1)</dt>
+
+<dd>If not included in the options, this is 0.  If included in the options
+without assigning it to anything, it is 1.  A value of 1 sends causes the
+message to be delivered as email.  If this is not possible, it is delivered as
+a long-lived pager message.  Normally, pager messages expire within a short
+time after being sent (half an hour).
+
+<dt>subject</dt>
+
+<dd>For email messages, this specifies the subject to use.
+
+</dl>
+

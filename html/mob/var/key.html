@@ -1,0 +1,27 @@
+
+
+<a name=/mob/var/key>
+<h2>key var (mob)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/mob/var/ckey>ckey var (mob)</a>
+<dd><a href=#/client>client</a>
+<dd><a href=#/client/var/key>key var (client)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>null
+</dl>
+
+<p>For player mobs (PCs) this is the value of the player's key.  For
+non-player mobs (NPCs), this is the value of the "desired" key.  This means
+that if a player with that key logs into the world, he will be connected to
+that mob (as opposed to a new one of type world.mob).
+
+<p>Setting the mob's key will cause a client with the same key to connect to
+the mob.  Any other mob with the same key will lose it.
+
+<p>Key values are always compared in canonical form (ie the form returned by
+ckey()) so setting a mob's key to "Dan", "dan" are equivalent as far as
+controlling player linkage.
+

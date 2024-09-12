@@ -1,0 +1,36 @@
+
+
+<a name=/{notes}/filters/alpha toc="Alpha mask (filters)">
+<h2 byondver=513>Alpha mask filter</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/icon>icon var (atom)</a>
+<dd><a href=#/atom/var/render_target>render_target var (atom)</a>
+</dl>
+
+<dl><dt>Format:</dt>
+<dd>filter(type="alpha", ...)</dd>
+</dl>
+
+<dl><dt>Args:</dt>
+<dd>x: Horizontal offset of mask (defaults to 0)</dd>
+<dd>y: Vertical offset of mask (defaults to 0)</dd>
+<dd>icon: Icon to use as a mask</dd>
+<dd>render_source: <tt>render_target</tt> to use as a mask</dd>
+<dd>flags: Defaults to 0; use see below for other flags</dd>
+</dl>
+
+<p>Uses an icon or render target as a mask over this image. Every pixel that
+is transparent in either the image or the mask, is transparent in the result.
+
+<p>The <tt>x</tt> and <tt>y</tt> values can move the mask from its normal
+position. By default, the mask is centered over the center of the image.
+
+<p>The <tt>MASK_INVERSE</tt> flag will invert the alpha mask so that opaque
+areas in the mask become transparent, and vice-versa. There is also a
+<tt>MASK_SWAP</tt> flag which treats the source image as the mask and
+vice-versa, which might be useful for some effects.
+
+<p>Note: Unlike many other filters, this filter <b>is</b> taken into account
+for mouse-hit purposes.
+

@@ -1,0 +1,40 @@
+
+
+<a name=/mutable_appearance>
+<h2 byondver=511>mutable appearance</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/appearance>appearance var (atom)</a>
+<dd><a href=#/image>image objects</a>
+<dd><a href=#/mutable_appearance/var>vars (mutable appearance)</a>
+</dl>
+
+<p>All atoms and images have an appearance, which is an immutable object
+that can be shared by many atoms.  Making changes to an object's appearance
+generates new appearances, many of which may be temporary. For
+high-performance games, this can be a drawback. The
+<tt>/mutable_appearance</tt> type exists so that you can make multiple changes
+to an appearance without creating all the temporary objects, then turn it into
+a regular immutable appearance when finished.
+
+<p>A new mutable appearance is created via <tt>new/mutable_appearance</tt>,
+and giving it an atom, image, or appearance as a source object.  Assigning it
+to an object's appearance var will create a new immutable appearance.
+
+<h3>Example:</h3>
+<xmp>
+mob/proc/GetAngry()
+    var/mutable_appearance/ma = new(src)
+    ma.color = rgb(51,255,51)   // green
+    ma.transform = matrix(2,0,0,0,2,0)  // scale x2
+    appearance = ma
+</xmp>
+
+<p>Reading certain vars, such as <tt>overlays</tt>, will create a temporary
+list object that can be modified easily. With regular appearances, making
+many changes to the <tt>overlays</tt> list results in a lot of churn.
+
+<p>The <tt>/mutable_appearance</tt> datum is technically a descendant of
+<tt>/image</tt>, but this is only for convenience, and should not be relied
+on for any other purpose as it is subject to change in future versions.
+

@@ -1,0 +1,50 @@
+
+
+<a name=/{notes}/filters/rays toc="Rays (filters)">
+<h2 byondver=513>Rays filter</h2>
+
+<dl><dt>Format:</dt>
+<dd>filter(type="rays", ...)</dd>
+</dl>
+
+<dl><dt>Args:</dt>
+<dd>x: Horiztonal position of ray center, relative to image center (defaults to 0)</dd>
+<dd>y: Vertical position of ray center, relative to image center (defaults to 0)</dd>
+<dd>size: Maximum length of rays (defaults to 1/2 tile width)</dd>
+<dd>color: Ray color (defaults to white)</dd>
+<dd>offset: "Time" offset of rays (defaults to 0, repeats after 1000)</dd>
+<dd>density: Higher values mean more, narrower rays (defaults to 10, must be whole number)</dd>
+<dd>threshold: Low-end cutoff for ray strength (defaults to 0.5, can be 0 to 1)</dd>
+<dd>factor: How much ray strength is related to ray length (defaults to 0, can be 0 to 1)</dd>
+<dd>flags: Defaults to <tt>FILTER_OVERLAY | FILTER_UNDERLAY</tt> (see below)</dd>
+</dl>
+
+<p>Draws random rays that radiate outward from a center point. (That point may
+be outside of the image.) As they move outward, their alpha value diminishes
+linearly. These are meant to be animated. The <tt>offset</tt> value determines
+the "time", where every jump of +1 can be a very different set of rays, and
+every 1000 units this filter will repeat.
+
+<p>The <tt>threshold</tt> value can be thought of as a way of culling
+lower-strength rays. Ray strength is anywhere from 0 to 1 at any given angle,
+but values below <tt>threshold</tt> may as well be 0. Values above that are
+re-scaled into a range of 0 to 1.
+
+<p>The <tt>factor</tt> parameter allows you to tie the ray's length to its
+strength. At 0, the length of every ray is the same. At 1, the length ranges
+from 0 to <tt>size</tt>. Generally speaking, the higher <tt>factor</tt> is,
+the more the rays will appear to move outward as they strengthen and inward
+as they weaken.
+
+<p>Ray <tt>color</tt> can be provided as a matrix. Only the diagonal values of the
+color matrix will be used, but using a matrix will allow you to set values
+outside of the normal color range.
+
+<p><tt>flags</tt> can have the following values:
+<dl class=codedt>
+<dt>0</dt><dd>The rays are drawn alone, erasing the existing image (useful for some effects).</dd>
+<dt>FILTER_OVERLAY</dt><dd>The rays are overlaid on top of the existing image.</dd>
+<dt>FILTER_UNDERLAY</dt><dd>The rays are drawn underneath the existing image.</dd>
+<dt>FILTER_OVERLAY | FILTER_UNDERLAY</dt><dd>Default. For plane masters, this will use the <tt>FILTER_OVERLAY</tt> behavior and draw the rays over the plane, and for all other images it will default to <tt>FILTER_UNDERLAY</tt> to draw the rays beneath them.</dd>
+</dl>
+

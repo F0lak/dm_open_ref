@@ -1,0 +1,27 @@
+
+
+<a name=/DM/preprocessor/pragma/compatibility>
+<h2 byondver=516>#pragma compatibility directive</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/pragma>#pragma directive</a>
+<dd><a href=#/DM/preprocessor/warn>warn/ignore/error directive</a>
+<dd><a href=#/DM/preprocessor/DM_VERSION>DM_VERSION macro</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>#pragma compatibility <span class=faded>&lt;</span>version<span class=faded>&gt;</span>
+</dl>
+
+<p>Hints that the compiler should avoid using features past a certain major
+BYOND version. If it encounters a situation where you explicitly or implicitly
+use a newer feature than requested, it will generate a warning.
+
+<h3>Example:</h3>
+<xmp>
+#pragma compatibility 515
+</xmp>
+
+A value of 0 or anything negative will reset the compatibility version to the
+default.
+

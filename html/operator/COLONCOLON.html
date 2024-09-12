@@ -1,0 +1,87 @@
+
+
+<a name=/operator/::>
+<h2 byondver=515>:: operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/path/%2e>. path operator</a>
+<dd><a href=#/operator/path//>/ path operator</a>
+<dd><a href=#/operator/path/:>: path operator</a>
+<dd><a href=#/operator>operators</a>
+<dd><a href=#/proc/call>call proc</a>
+<dd><a href=#/proc/initial>initial proc</a>
+<dd><a href=#/proc/nameof>nameof proc</a>
+<dd><a href=#/proc/istype>istype proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>::A
+<dd>::A()
+<dd>A::B
+<dd>A::B() (proc reference, not a call; see below)
+</dl>
+
+<p>This is the scope operator. It has multiple uses.
+
+<h3>Global var and proc disambiguation</h3>
+
+<p><tt>::A</tt> is a shorthand for <tt>global.A</tt>, so if you have a local
+or object var with the same name this disambiguates to the global var. The
+same is true of <tt>:A()</tt> which will call <tt>global.A()</tt> with the
+arguments you give it.
+
+<h3>Static var disambiguation</h3>
+
+<p>If <tt>A</tt> is a constant type and <tt>B</tt> is a static var,
+<tt>A::B</tt> refers to the static var. If you have a local var with the same
+name, this disambiguates to the static var. This is also the only case where
+<tt>A::B</tt> can be used as an Lvalue (modifiable expression).
+
+<h3>Initial value</h3>
+
+<p>The most common use of the scope operator is to get the initial value for a
+var. If <tt>A::B</tt> isn't a static var, then it's equivalent to
+<tt>initial(A:B)</tt>. If <tt>A</tt> is a constant type path, the compiler
+will go even further by compiling this expression as the actual initial value
+instead of doing a runtime lookup.
+
+<p>This can also be used when defining a var that overrides its parent, by
+using the <tt>parent_type</tt> keyword for <tt>A</tt>. Multiple
+<tt>parent_type</tt> levels can be chained together. Similarly, in a static var
+definition, <tt>type</tt> can be used for <tt>A</tt> the same way.
+
+<h3>Example:</h3>
+<xmp>
+thing
+    var/price = 60
+    better
+        price = parent_type::price + 40
+</xmp>
+
+<h3>Proc reference</h3>
+
+<p>If <tt>B</tt> is a proc, then <tt>A::B()</tt> is a reference to the proc
+for type <tt>A</tt>, which can be used in <tt>call()</tt>. In this case the
+parentheses are just a cue for the compiler to know this is a proc reference;
+it doesn't actually call the proc. Currently, <tt>A</tt> must be a constant
+type for this usage.
+
+<h3>Example:</h3>
+<xmp>
+thing
+    proc/DoSomething()
+        world << "Did a thing"
+    better
+        DoSomething()
+            world << "Did a better thing"
+
+proc/Downgrade()
+    var/thing/better/T = new
+
+    // will print "Did a better thing" because T is /thing/better
+    T.DoSomething()
+
+    // deliberately calls /thing's original version; will print "Did a thing"
+    call(T, /thing::DoSomething())()
+</xmp>
+

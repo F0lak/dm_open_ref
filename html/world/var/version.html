@@ -1,0 +1,24 @@
+
+
+<a name=/world/var/version>
+<h2>version var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/hub>hub var (world)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p>If you are distributing your game to players, you can use this variable
+to automatically notify them of new releases.  To do so, you will first need
+to set <a href=#/world/var/hub><code>world.hub</code></a> to the hub
+path of your game.  You can then advertise the current version by
+configuring that value in your
+<a href=https://secure.byond.com/members/?command=edit_hub>hub console</a>.
+
+<p>When players boot up an outdated version of your game (as indicated by
+comparing <code>world.version</code> with the version advertised by BYOND
+hub), they will be notified of the new release.
+

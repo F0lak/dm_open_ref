@@ -1,0 +1,37 @@
+
+
+<a name=/savefile/var/byond_version>
+<h2 byondver=515>byond_version var (savefile)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/savefile>savefile</a>
+<dd><a href=#/savefile/var/byond_build>byond_build var (savefile)</a>
+<dd><a href=#/world/var/byond_version>byond_version var (world)</a>
+<dd><a href=#/world/var/byond_build>byond_build var (world)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<p>Sometimes when transitioning between BYOND versions you'll want to keep a
+savefile in a condition where it can be read by older versions. The
+<tt>byond_version</tt> var tells it to avoid using newer savefile features
+(unless forced to) above a certain version number. A value of 0 means not to
+worry about it.
+
+<p>This can be changed on a per-savefile basis so that you can use newer
+features in some files and avoid changing others. For instance, character
+saves might want to go on using older features for a while, but for saving
+parts of the map you might prefer to allow newer features to be used.
+
+<p>The default savefile compatibility version can be set at compile-time:
+
+<h3>Example:</h3>
+<xmp>
+savefile/byond_version = 514  // do not use savefile features from BYOND 515 onward
+</xmp>
+
+<p>Note: By default, worlds compiled before BYOND 515 will set this value to
+514.
+

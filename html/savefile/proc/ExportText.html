@@ -1,0 +1,48 @@
+
+
+<a name=/savefile/proc/ExportText>
+<h2>ExportText proc (savefile)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/savefile/proc/ImportText>ImportText proc (savefile)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>savefile.ExportText(path=cd,file)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>path: the path to export
+<dd>file: optional file to write to
+</dl>
+
+<p>Converts all or part of a savefile to a human readable text format, similar
+in syntax to DM.  If no file is specified, the savefile text is returned as a
+text string instead of being written to a file.
+
+<p>The following example shows how to export and later import a savefile.  The
+user's mob is written into a directory with the same name as their
+<a href=#/mob/var/ckey>ckey</a> and the result is written to a text file.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/write()
+   var/savefile/F = new()
+   var/txtfile = file("players/[ckey].txt")
+
+   F[ckey] << usr
+
+   fdel(txtfile)
+   F.ExportText("/",txtfile)
+
+   usr << "Your savefile looks like this:"
+   usr << "<pre>[html_encode(file2text(txtfile))]</pre>"
+
+mob/verb/read()
+   var/savefile/F = new()
+   var/txtfile = file("players/[ckey].txt")
+
+   F.ImportText("/",txtfile)
+   F[ckey] >> usr
+</xmp>
+

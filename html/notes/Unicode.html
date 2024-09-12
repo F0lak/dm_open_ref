@@ -1,0 +1,79 @@
+
+
+<a name=/{notes}/Unicode>
+<h2 byondver=513>Unicode</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/text>text</a>
+</dl>
+
+<p>BYOND was originally written to handle 8-bit ("ANSI") characters only.
+However as time has marched on, Unicode has become ubiquitous for supporting
+multiple languages, special characters, and emojis. To adapt to this, BYOND
+now supports Unicode.
+
+<p>When ANSI was king, every character was exactly one byte in width, because
+the only valid characters were between 1 and 255. (And technically, BYOND
+reserved 255 for its own use.) Now, BYOND uses an encoding called UTF-8 to
+store characters that can't fit in one byte.
+
+<p>UTF-8 breaks up characters with codes of 128 or higher into multiple
+bytes, like so:
+
+<table class=withborder>
+<tr><th>Character code</th><th>Size in bytes</th></tr>
+<tr><td>0 - 0x7F</td><td>1</td></tr>
+<tr><td>0x80 - 0x7FF</td><td>2</td></tr>
+<tr><td>0x800 - 0xFFFF</td><td>3</td></tr>
+<tr><td>0x10000 - 0x10FFFF</td><td>4</td></tr>
+</table>
+
+<h3>Text handling</h3>
+
+<p>Importantly, BYOND's text procs are based on the byte position, not the
+character position which may be lower. In other words,
+<tt>length("abcd&eacute;fg")</tt> is greater than 7; it's 8, because
+<tt>&eacute;</tt> takes up 2 bytes in UTF-8. That also means <tt>f</tt> is at
+position 7, not position 6.
+
+<p>Why do the text procs work with byte position instead of character
+position? Because ultimately, it's faster. Going by character position would
+require counting every byte in a string (at least when it uses UTF-8) until
+the right character position was found. This would be detrimental to
+performance in most cases.
+
+<p>For the most part, this distinction should be fairly invisible to you.
+Most code isn't going to encounter problems, but if you do a lot of text
+processing you should be aware of it.
+
+<p>In particular, <a class=code href=#/proc/text2ascii>text2ascii()</a>
+returns the Unicode value at a specific position, which may cover several
+bytes. If you loop through a string calling this proc for each character,
+you'll have to make adjustments for cases when multiple bytes have been
+read.
+
+<p>The read-only <tt>[]</tt> index operator also uses byte positions.
+
+<p>If you read a byte or cut text at an inappropriate point, any broken
+characters resulting from the cut will be turned into the Unicode
+replacement character &#xfffd; which is 0xFFFD.
+
+<h3><tt>_char</tt> procs</h3>
+
+<p>Most of the text handling procs have slower <tt>_char</tt> versions (e.g.,
+<tt>copytext_char</tt>) that use character positions instead of byte
+positions.
+
+<p>These should be used sparingly if at all; whenever it's possible to use
+byte positions, you should. When you do use a <tt>_char</tt> version of a
+proc, prefer using <tt>-offset</tt> instead of
+<tt>length_char(text)-offset</tt> for positions near the end of the string.
+Most text procs allow negative position values that count backwards from the
+end, and counting a small number of characters backward is faster than
+counting a lot of characters going forward.
+
+<h3>Old code</h3>
+
+<p>Code written in ANSI will be up-converted to UTF-8 by Dream Maker, based on
+your current locale when the code is loaded.
+

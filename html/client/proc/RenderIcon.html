@@ -1,0 +1,56 @@
+
+
+<a name=/client/proc/RenderIcon>
+<h2 byondver=515>RenderIcon proc (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/vis_contents>vis_contents var (atom)</a>
+<dd><a href=#/{notes}/filters>Filter effects</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>RenderIcon(object)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>object: An atom or appearance to render.</dd>
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A single-image icon file in which the object is rendered with all its
+overlays, visual contents, etc.
+</dl>
+
+<p>Use this proc to render an atom or an appearance as a single icon. This is
+a client proc because the server is not capable of rendering anything on its
+own.
+
+<p>Any overlays, image objects known to this client that are attached to the
+object, visual contents, maptext, and so on will be included in the render.
+The returned icon is sized to fit all of the above, and to include room for
+any expansion due to filter effects.
+
+<h3>Example:</h3>
+<xmp>
+mob/proc/GetFlatIcon()
+    return client?.RenderIcon(src)
+</xmp>
+
+<p>Important notes regarding this proc:
+
+<ul>
+<li>The returned icon is a cache file, <i>not</i> an <tt>/icon</tt> datum.</li>
+<li>If <tt>object</tt> is an <a href=#/image><tt>/image</tt> object</a>, the
+  image must be known to the client. Otherwise the return value is null.</li>
+<li>If this object doesn't appear on the client's map, it will be sent to them
+  on the next map tick, along with any visual contents. The server will hold a
+  reference to the object until the map tick ends, so an object you create
+  temporarily should remain valid long enough to be rendered.</li>
+<li><a class=code href=#/atom/var/render_source>render_source</a> will not
+  work unless the corresponding
+  <a class=code href=#/atom/var/render_target>render_target</a> appears in the
+  same render stack. That is, this object or appearance will be rendered in an
+  isolated "scene" rather than as part of the map, so it won't be able to use
+  other objects on the map as render sources.</li>
+</ul>
+

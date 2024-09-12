@@ -1,0 +1,28 @@
+
+
+<a name=/proc/sin>
+<h2>sin proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/arcsin>arcsin proc</a>
+<dd><a href=#/proc/cos>cos proc</a>
+<dd><a href=#/proc/tan>tan proc</a>
+<dd><a href=#/proc/turn>turn proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>sin(X)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The sine of X, where X is in degrees.
+</dl>
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/test()
+   usr << sin(0)  // 0
+   usr << sin(45) // 0.707...
+   usr << sin(90) // 1
+</xmp>
+

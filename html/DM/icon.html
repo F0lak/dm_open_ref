@@ -1,0 +1,32 @@
+
+
+<a name=/DM/icon>
+<h2>icons</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/define/FILE_DIR>FILE_DIR definition</a>
+<dd><a href=#/DM/cache>cache</a>
+<dd><a href=#/proc/flick>flick proc</a>
+<dd><a href=#/icon>icon</a>
+<dd><a href=#/atom/var/icon>icon var (atom)</a>
+<dd><a href=#/atom/var/icon_state>icon_state var (atom)</a>
+<dd><a href=#/image>image objects</a>
+</dl>
+
+<p>An icon file may be referenced by putting single quotes around the
+filename.  The file extension determines the type of icon.  Currently
+supported icon types are <code>.dmi</code>, <code>.bmp</code>, <code>.png</code>,
+<code>.jpg</code>, and <code>.gif</code>.  To create dmi icons, use the Dream
+Maker icon editor.  This allows you to make animations, 4 or 8 directional icons,
+and icons with different states (such as "live" and "dead").
+
+<h3>Example:</h3>
+<xmp>
+  mob
+    icon = 'monster.dmi'
+</xmp>
+
+<p>You can also load icons into memory at run-time and manipulate the
+graphical data to produce new icons dynamically.  This is done by creating an
+<a href=#/icon>/icon</a> object.
+

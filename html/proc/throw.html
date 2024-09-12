@@ -1,0 +1,40 @@
+
+
+<a name=/proc/throw>
+<h2>throw statement</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/try>try statement</a>
+<dd><a href=#/world/proc/Error>Error proc (world)</a>
+<dd><a href=#/proc/EXCEPTION>EXCEPTION proc</a>
+<dd><a href=#/exception>exception</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>throw Value
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Value: Any value, which will be sent to catch() if present.
+</dl>
+
+<p>This keyword throws an exception, which will stop executing the current
+proc and go to the most recent catch block if one is present. The catch block
+will receive the thrown value. If there is no try/catch in use, the exception
+will be passed to <tt>world.Error()</tt> (if present), then the current proc
+will end and control will return to the caller.
+
+<h3>Example:</h3>
+<xmp>
+try
+  if(!src.ready) throw EXCEPTION("Not ready")
+  DoSomething()
+catch(var/e)
+  world.log << "Exception: [e]"
+</xmp>
+
+<p>You can use the <tt>EXCEPTION</tt> macro to create a new <tt>/exception</tt>
+datum, which contains a value or message as well as the file and line number
+where the exception was created. The thrown value does not have to be an
+<tt>/exception</tt> datum; you can throw anything, even null.
+

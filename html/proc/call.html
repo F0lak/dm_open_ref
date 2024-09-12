@@ -1,0 +1,70 @@
+
+
+<a name=/proc/call>
+<h2>call proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/arglist>arglist proc</a>
+<dd><a href=#/proc/call_ext>call_ext proc</a>
+<dd><a href=#/proc/hascall>hascall proc</a>
+<dd><a href=#/operator/path>path operators</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>call(ProcRef)(Arguments)
+<dd>call(Object,ProcName)(Arguments)
+<dd deprecated>call(LibName,FuncName)(Arguments) (use <tt>call_ext()</tt> instead)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>ProcRef: path of proc (/proc/MyProc)
+<dd>Object: source of proc or verb
+<dd>ProcName: name of proc or verb ("MyProc")
+<dd deprecated>LibName: name of external library ("test.DLL")
+<dd deprecated>FuncName: name of function in external library ("func")
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The return value of the proc being called.
+</dl>
+
+<p>This instruction exists in order to call procs dynamically, since the proc
+reference or name may be an expression rather than a hard-coded value.  This
+may serve the same purpose as a "function pointer" in C programs.
+
+<p>The following examples do not demonstrate why you would want to do this,
+but the syntax is illustrated.  The first one calls a specific procedure by
+using a path reference to that procedure.
+
+<h3>Example:</h3>
+<xmp>
+/proc/MyProc(Arg)
+   usr << "MyProc([Arg])"
+mob
+   var
+      MyProc = /proc/MyProc
+   verb
+      call_myproc()
+         call(MyProc)("Hello, world!")
+</xmp>
+
+<p>The next example calls an object procedure (or verb) by name, rather than
+by path.
+
+<h3>Example:</h3>
+<xmp>
+mob
+   proc
+      Proc1(Arg)
+         usr << "Proc1([Arg])"
+      Proc2(Arg)
+         usr << "Proc2([Arg])"
+   verb
+      call_proc(Proc in list("Proc1","Proc2"))
+         call(src,Proc)("Hello, world!")
+</xmp>
+
+<p>Note: In prior versions, <tt>call()</tt> was also used to access third-party
+libraries (.DLL files on Windows, .SO files on Unix), but this has been moved
+to <a class=code href=#/proc/call_ext>call_ext()</a> for clarity.
+

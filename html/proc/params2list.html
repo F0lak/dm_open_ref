@@ -1,0 +1,83 @@
+
+
+<a name=/proc/params2list>
+<h2>params2list proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/proc/Topic>Topic proc (client)</a>
+<dd><a href=#/list/associations>list associations</a>
+<dd><a href=#/proc/list2params>list2params proc</a>
+<dd><a href=#/world/var/params>params var (world)</a>
+<dd><a href=#/proc/text2num>text2num proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>params2list(Params)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Params: Text string of parameter values.
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>An associative list of parameter names and values.
+</dl>
+
+<p>This instruction converts a parameter text string to a list of individual
+parameters and associated values.  The format of the parameter text is:
+
+<xmp>
+"name1=value1&name2=value2&..."
+</xmp>
+
+<p>The field separator <tt>;</tt> may be used in place of <tt>&amp;</tt>.
+
+<p>Special characters such as <tt>=</tt>, <tt>;</tt>, and <tt>&amp;</tt>
+inside the parameter names or values should be written in the form
+<code>%xx</code>, where <code>xx</code> are two hexadecimal digits
+representing the ASCII value of the character. (For
+<a href=#/{notes}/Unicode>Unicode</a> characters, this may be several
+<code>%xx</code> sequences using UTF-8 encoding.)  For example,
+<tt>=</tt> would be written <code>%3d</code>, <tt>;</tt> would be
+<code>%3b</code>, <tt>&amp;</tt> would be <code>%26</code>, and <tt>%</tt>
+would be <code>%25</code>.  These "escaped" codes are automatically translated
+into the corresponding character when read by <tt>params2list()</tt>.
+
+<p>This parameter format is the same one used by most HTML forms and is
+known by the MIME type <tt>application/x-www-form-urlencoded</tt>.  It is
+often used in DM to pack information into topic links.  Though DM does not
+require it, the standard format is for newlines to be written as CR LF pairs
+(<code>%0d%0a</code>) and spaces to be written as <tt>+</tt> characters.  That
+means if you want to write a <tt>+</tt> symbol, you will have to use
+<code>%2b</code>.
+
+<p>The list produced from the parameter text has items <tt>"name1"</tt>,
+<tt>"name2"</tt>, and so on.  To access the values associated with these, you
+use the parameter name as the list index.
+
+<h3>Example:</h3>
+<xmp>
+var/ptext = "offense=jwalk&time=10:00"
+var/plist[] = params2list(ptext)
+
+var/p
+for(p in plist)
+   usr << "[p] = [plist[p]]"
+</xmp>
+
+<p>The above example defines a simple parameter text string containing two
+parameters: <tt>"offense"</tt> and <tt>"time"</tt>.  These are associated with
+the values <tt>"jwalk"</tt> and <tt>"10:00"</tt>.  The <code>for</code> loop
+illustrates how one might loop through the list and print out each setting.
+
+<p>Note that all values are stored as text strings in the list.  If you wish
+to perform a numerical operation (such as addition), you should convert the
+value to a number first using <tt>text2num()</tt>.  If the value is an object
+text reference, you can convert that into the object itself by using
+<tt>locate()</tt>.
+
+<p>If you have multiple items with the same name, they will be combined into
+a list of text strings. For example, <tt>"key=value1;key=value2"</tt> would
+set <tt>list["key"]</tt> to a list containing <tt>"value1"</tt> and
+<tt>"value2"</tt>, not necessarily in that order.
+

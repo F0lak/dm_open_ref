@@ -1,0 +1,182 @@
+
+
+<a name=/atom/var/appearance_flags>
+<h2 byondver=509>appearance_flags var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var>vars (atom)</a>
+<dd><a href=#/atom/var/alpha>alpha var (atom)</a>
+<dd><a href=#/atom/var/color>color var (atom)</a>
+<dd><a href=#/atom/var/transform>transform var (atom)</a>
+<dd><a href=#/client/var/color>color var (client)</a>
+<dd><a href=#/{notes}/gliding>Gliding</a>
+<dd><a href=#/world/var/movement_mode>movement_mode var (world)</a>
+<dd><a href=#/{notes}/renderer>Understanding the renderer</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>0
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>Any combination of:
+<dd><b>LONG_GLIDE</b>: Diagonal glides take as long as cardinal ones
+<dd><b>RESET_COLOR</b>: If this is an overlay/image/etc., ignore the parent's color
+<dd><b>RESET_ALPHA</b>: If this is an overlay/image/etc., ignore the parent's alpha value
+<dd><b>RESET_TRANSFORM</b>: If this is an overlay/image/etc., ignore the parent's transform
+<dd><b>NO_CLIENT_COLOR</b>: Ignore client.color
+<dd byondver=510><b>KEEP_TOGETHER</b>: Draw this icon along with its overlays and underlays, as one unit
+<dd byondver=510><b>KEEP_APART</b>: Detach from a parent icon that uses <tt>KEEP_TOGETHER</tt>
+<dd byondver=510><b>PLANE_MASTER</b>: Groups all other icons in the same plane
+<dd byondver=510><b>TILE_BOUND</b>: Avoids more accurate visibility calculations
+<dd byondver=511><b>PIXEL_SCALE</b>: Use point sampling when transforming this icon
+<dd byondver=513><b>PASS_MOUSE</b>: If this icon has a <tt>render_source</tt>, pass mouse any hits to the render source
+<dd byondver=514><b>TILE_MOVER</b>: This atom is always locked to the grid
+</dl>
+
+<p>The appearance_flags value controls miscellaneous behavior of an atom or
+appearance that doesn't make sense to handle in any other var.
+
+<p>These values are bitflags, and can be combined with the <tt>+</tt> or
+<tt>|</tt> operator.
+
+<h3>LONG_GLIDE</h3>
+
+<p>Gliding is normally done by Euclidean (straight-line) distance, so diagonal
+gliding across a square tile takes about 41% longer, since the distance is
+multiplied by sqrt(2). With <tt>LONG_GLIDE</tt>, the dominant X or Y direction
+of the glide is used to adjust the glide size so it takes just as long as if
+the object were gliding in a cardinal direction.
+
+<h3>RESET_COLOR, RESET_ALPHA, RESET_TRANSFORM</h3>
+
+<p>These flags cause this overlay not to inherit aspects of its parent object.
+Ordinarily, transforms on a parent get applied to overlays too, as does color.
+
+<p>All of these flags are ignored if <tt>KEEP_TOGETHER</tt> is used on the
+parent (and this object does not override with <tt>KEEP_APART</tt>), since
+then the parent icon along with all of its overlays get drawn to a single
+surface and color, transform, etc. are applied afterward.
+
+<h3>NO_CLIENT_COLOR</h3>
+
+<p>The value of <a class=code href=#/client/var/color>client.color</a> is
+normally applied to all icons. This flag says that the icon is an exception.
+Generally <tt>client.color</tt> has been superseded by the use of plane
+masters anyway.
+
+<p>The <tt>NO_CLIENT_COLOR</tt> flag is inherited by overlays and images
+automatically unless they have the <tt>RESET_COLOR</tt> flag. It is also
+basically meaningless when used on an overlay that's inside of a
+<tt>KEEP_TOGETHER</tt> group, since the client's color is applied to the
+entire group.
+
+<h3 byondver=510>KEEP_TOGETHER</h3>
+
+<p>This flag is used to force the overlays and underlays of this icon (its
+"children") to be drawn with it all at once, not each icon individually. One
+reason you might want to do this is if your player's icon uses overlays for
+hair and equipment, and you want to change the alpha value to make them fade
+out. With regular drawing, changing the parent icon's alpha means that each
+individual icon becomes translucent; with <tt>KEEP_TOGETHER</tt>, the whole
+combination fades as one unit. Because this incurs some small overhead, it
+should be avoided for atoms that do not need it.
+
+<p>Any child appearances underneath <tt>KEEP_TOGETHER</tt> use
+<tt>NO_CLIENT_COLOR</tt> automatically, and <tt>RESET_COLOR</tt>,
+<tt>RESET_ALPHA</tt>, and <tt>RESET_TRANSFORM</tt> become meaningless. Use
+<tt>KEEP_APART</tt> with them if you want to use those flags.
+
+<p>Icons that are in a different plane from the parent icon will
+automatically have <tt>KEEP_APART</tt> set and therefore won't be included.
+
+<h3 byondver=510>KEEP_APART</h3>
+
+<p>If this appearance is a child of something that uses <tt>KEEP_TOGETHER</tt>,
+it will be separated out from the main icon and drawn separately.  This may be
+useful for things such as health meters, for instance.
+
+<p>This flag is automatically applied to icons that are on a different plane
+from their parents.
+
+<h3 byondver=510>PLANE_MASTER</h3>
+
+<p>Use this flag to group all icons in the same plane and draw them on a
+temporary surface the size of the whole screen, and then that image is drawn
+over the existing scene.  This is useful for post-processing effects, like
+lighting.  The plane master's icon is not drawn, but its color, transform, and
+blend_mode are all taken into account when drawing.
+
+<h3>Example</h3>
+<xmp>
+obj/lighting_plane
+    screen_loc = "1,1"
+    plane = 2
+    blend_mode = BLEND_MULTIPLY
+    appearance_flags = PLANE_MASTER | NO_CLIENT_COLOR
+    // use 20% ambient lighting; be sure to add full alpha
+    color = list(null,null,null,null,"#333f")
+    mouse_opacity = 0    // nothing on this plane is mouse-visible
+
+image/spotlight
+    plane = 2
+    blend_mode = BLEND_ADD
+    icon = 'spotlight.dmi'  // a 96x96 white circle
+    pixel_x = -32
+    pixel_y = -32
+
+mob/Login()
+    ..()
+    client.screen += new/obj/lighting_plane
+    overlays += /image/spotlight
+</xmp>
+
+<p>In the example, all objects in plane 2 are lights.  They're added together,
+and then the whole image is put through the color matrix, then multiplied over
+the rest of the scene below.  This will darken everything that doesn't have a
+spotlight overlay, but anywhere a spotlight exists will have a circle of
+light.
+
+<p>The example also makes a point of adding full alpha to the plane, because a
+plane is fully transparent by default. However, it's usually a better idea not
+to mess with the alpha color, and instead use another icon, scaled to the
+appropriate size, as a backdrop.
+
+<p>The <a class=code href=#/atom/var/mouse_opacity>mouse_opacity</a> set by
+the plane master will determine how the mouse interacts with objects on the
+plane. A value of 0 will mean everything in the plane is invisible to the
+mouse; 1 means the plane is mouse-invisible but the objects in it use their
+own <tt>mouse_opacity</tt>. 2 is the same except the plane itself is
+mouse-visible.
+
+<h3 byondver=510>TILE_BOUND</h3>
+
+<p>There are many ways an object may be shifted out of the normal bounds of
+the tile it's on: a large icon, pixel offsets, step offsets, and transform.
+Ordinarily it's desirable to be able to see the object if it touches any
+visible turf. However, in some cases it's more desirable to only show the
+object if its actual loc is in view. The <tt>TILE_BOUND</tt> flag will
+accomplish that. This flag is inherited by images and overlays. 
+
+<h3 byondver=511>PIXEL_SCALE</h3>
+
+<p>Normally if an icon is transformed via atom.transform, it uses bilinear
+texture sampling which produces a nice smooth effect. If you want a granular
+pixel-art effect instead, <tt>PIXEL_SCALE</tt> will do that for you by using
+nearest-neighbor sampling.
+
+<h3 byondver=513>PASS_MOUSE</h3>
+
+<p>If this object has a <tt>render_source</tt> it will take on the rendered
+appearance of another object (source). This is just a visual copy, so the
+mouse still interacts with this object, not the source. The <tt>PASS_MOUSE</tt>
+flag causes any mouse interaction to happen with the source instead of this
+object.
+
+<h3 byondver=514>TILE_MOVER</h3>
+
+<p>This flag indicates this atom is locked to the tile grid as it would be in
+<a class=code href=#/world/var/movement_mode>TILE_MOVEMENT_MODE</a>,
+regardless of the setting of <tt>world.movement_mode</tt>. In this way, pixel
+movers and tile movers can coexist.
+

@@ -1,0 +1,51 @@
+
+
+<a name=/operator>
+<h2>operators</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/overload>operator overloading</a>
+</dl>
+
+<p>Operators are used extensively in DM to compute numerical values.
+
+<p>The DM operators are:
+
+<pre class=dmcode>
+<a href="#/operator/()">()</a> <a href="#/operator/path/%2e">.</a> <a href="#/operator/path/:">:</a> <a href="#/operator/path//">/</a> <a href="#/operator/::">::</a>     <span class=DMc>// here . : / are path operators</span>
+<a href="#/operator/[]">[]</a> <a href="#/operator/%2e">.</a> <a href="#/operator/:">:</a>
+<a href="#/operator/%3f[]">?[]</a> <a href="#/operator/%3f%2e">?.</a> <a href="#/operator/%3f:">?:</a>
+<a href="#/operator/~">~</a> <a href="#/operator/!">!</a> <a href="#/operator/-">-</a> <a href="#/operator/++">++</a> <a href="#/operator/--">--</a> <a href="#/operator/*/pointer">*</a> <a href="#/operator/&/pointer">&amp;</a>     <span class=DMc>// unary operators (* and &amp; here are pointer operators)</span>
+<a href="#/operator/**">**</a>
+<a href="#/operator/*">*</a> <a href="#/operator//">/</a> <a href="#/operator/%">%</a> <a href="#/operator/%25%25">%%</a>
+<a href="#/operator/+">+</a> <a href="#/operator/-">-</a>
+<a href="#/operator/%3c">&lt;</a> <a href="#/operator/%3c=">&lt;=</a> <a href="#/operator/%3e">&gt;</a> <a href="#/operator/%3e=">&gt;=</a> <a href="#/operator/%3c=%3e">&lt;=&gt;</a>
+<a href="#/operator/%3c%3c">&lt;&lt;</a> <a href="#/operator/%3e%3e">&gt;&gt;</a>
+<a href="#/operator/==">==</a> <a href="#/operator/!=">!=</a> <a href="#/operator/%3c%3e">&lt;&gt;</a> <a href="#/operator/~=">~=</a> <a href="#/operator/~!">~!</a>
+<a href="#/operator/&">&amp;</a>
+<a href="#/operator/^">^</a>
+<a href="#/operator/|">|</a>
+<a href="#/operator/&&">&amp;&amp;</a>
+<a href="#/operator/||">||</a>
+<a href="#/operator/%3f">?</a>               <span class=DMc>// ternary a ? b : c</span>
+<a href="#/operator/=">=</a> <a href="#/operator/+=">+=</a> <a href="#/operator/-=">-=</a> <a href="#/operator/-=">-=</a> <a href="#/operator/*=">*=</a> <a href="#/operator//=">/=</a> <a href="#/operator/%=">%=</a> <a href="#/operator/%25%25=">%%=</a> <a href="#/operator/&=">&amp;=</a> <a href="#/operator/|=">|=</a> <a href="#/operator/^=">^=</a> <a href="#/operator/%3c%3c=">&lt;&lt;=</a> <a href="#/operator/%3e%3e=">&gt;&gt;=</a> <a href="#/operator/:=">:=</a> <a href="#/operator/&&=">&amp;&amp;=</a> <a href="#/operator/||=">||=</a>
+<a href="#/operator/in">in</a>
+</pre>
+
+<p>Each line has higher order of operations than the next.  Operators within
+a line have equal precedence and therefore are processed from left to right
+as they occur in an expression. (Assignment, or operate-and-assign, are
+processed from right to left.)
+
+<p>Expressions of the form <tt>A #= B</tt> are shorthand for
+<tt>A = A # B</tt> except for <tt>~=</tt> and <tt>:=</tt>.
+
+<h3>Example:</h3>
+<xmp>
+var/N
+N = 0                          // 0
+N += 1+1*2                     // 3
+if(1 + 1 == 2) N = 2           // 2
+if(N==2 && 1/2==0.5) N = 0.5   // 0.5
+</xmp>
+

@@ -1,0 +1,43 @@
+
+
+<a name=/{notes}/topdown toc="Topdown maps">
+<h2>Topdown maps</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/world/var/icon_size>icon_size var (world)</a>
+<dd><a href=#/client/var/dir>dir var (client)</a>
+<dd><a href=#/atom/var/layer>layer var (atom)</a>
+<dd><a href=#/atom/var/plane>plane var (atom)</a>
+<dd><a href=#/atom/movable/var/screen_loc>screen_loc var (movable atoms)</a>
+<dd><a href=#/{notes}/big-icons>Big icons</a>
+<dd><a href=#/{notes}/HUD>HUD</a>
+<dd><a href=#/{notes}/isometric>Isometric maps</a>
+<dd><a href=#/{notes}/side>Side-view maps</a>
+<dd><a href=#/{notes}/renderer>Understanding the renderer</a>
+</dl>
+
+<p>By default, BYOND displays all maps in top-down format, so
+<tt>world.map_format</tt> is set to <tt>TOPDOWN_MAP</tt> unless you say
+otherwise. This view means players are looking down on the map, and
+"north" corresponds to the top of their screen. (This can be changed by
+setting <tt>client.dir</tt>.)
+
+<p>A related map_format, used by older games, is <tt>TILED_ICON_MAP</tt>. This
+is also topdown but it handles icons differently.
+
+<p>In this form, the <tt>layer</tt> var behaves exactly as you would expect:
+Icons with a lower layer are drawn beneath icons with a higher layer. The only
+exception is when you use <a href=#/{notes}/big-icons>big icons</a>, which will
+be drawn above any other icons on the same layer. Also an atom's underlays will
+be drawn behind it unless their layer is changed, and its overlays will draw in
+front of it unless otherwise stated.
+
+<p>Topdown mode also guarantees that <tt>world.view</tt> or <tt>client.view</tt>
+will set the exact screen size used by the HUD, except for HUD objects that
+appear outside of the normal bounds.
+
+<p>Screen objects (also called the HUD) cannot be intermixed with topdown
+icons. They will appear on top of other icons, unless using a lower plane or a
+special layer like <tt>BACKGROUND_LAYER</tt>.
+

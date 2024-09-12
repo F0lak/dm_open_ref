@@ -1,0 +1,26 @@
+
+
+<a name=/operator/^>
+<h2>^ operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/^=>^= operator</a>
+<dd><a href=#/operator>operators</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>A ^ B
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The binary "xor" of A and B.
+</dl>
+
+<p>A and B must be between 0 and 2**24 - 1, giving an effective
+width of 24 bits.
+
+<p>If A and B are lists, the result is a list containing items that are in
+either list but not both. list(1,2) ^ list(2,3) is equivalent to list(1,3).
+The items found only in A come first in the result, followed by any items
+found only in B.
+

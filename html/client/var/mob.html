@@ -1,0 +1,18 @@
+
+
+<a name=/client/var/mob>
+<h2>mob var (client)</h2>
+
+<dl><dt><b>Default value:</b>
+<dd>Determined in client.New(), by default world.mob.
+</dl>
+
+<p>This is the mob to which the client is connected.  The client and its
+connected mob have the following symmetry:
+
+<xmp>
+client == mob.client
+client.mob == mob
+client.key == mob.key
+</xmp>
+

@@ -1,0 +1,50 @@
+
+
+<a name=/proc/length>
+<h2>length proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/vector>vector</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>length(E)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The length of the data associated with E.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>E: text, list, file, or vector
+</dl>
+
+<h3>Example:</h3>
+<xmp>
+world << length("Hi")
+</xmp>
+
+<p>This outputs, "2", the length of the string "Hi".
+
+<h3>Example:</h3>
+<xmp>
+world << length(list(1,2,3))
+</xmp>
+
+<p>This outputs, "3", the length of the list.
+
+<h3>Example:</h3>
+<xmp>
+world << length(file("test.txt"))
+</xmp>
+
+<p>This outputs the length of the file.
+
+<p>Note: In strings containing non-ASCII characters, this is the length in
+bytes, not characters; a character may span multiple bytes. Use
+<tt>length_char()</tt> to work with character counts instead of bytes. See the
+<a href=#/{notes}/Unicode>Unicode</a> section for more information.
+
+<p>For vectors, the length is the magnitude of the vector. See
+<a class=code href=#/vector/var/len>vector.len</a>.
+

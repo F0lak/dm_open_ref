@@ -1,0 +1,23 @@
+
+
+<a name=/world/var/address>
+<h2>address var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/world/var/port>port var (world)</a>
+<dd><a href=#/world/var/url>url var (world)</a>
+<dd><a href=#/world/var/internet_address>internet_address var (world)</a>
+</dl>
+
+<p>This is the network address of the machine hosting the world.  If it
+cannot be determined, it will be null.
+
+<p>The full network address of the world may be formed by concatenating the
+world address and port: "byond://[address]:[port]".
+
+<p>In CGI mode, this is the web address of the world.
+
+<p>This is the local address only. If the world is hosted via a router, the
+external IP address may be different. Use <tt>internet_address</tt> to find
+the external address, if available.
+

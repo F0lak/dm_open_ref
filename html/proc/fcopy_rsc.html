@@ -1,0 +1,40 @@
+
+
+<a name=/proc/fcopy_rsc>
+<h2>fcopy_rsc proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/cache>cache</a>
+<dd><a href=#/proc/fcopy>fcopy proc</a>
+<dd><a href=#/proc/file>file proc</a>
+<dd><a href=#/proc/load_resource>load_resource proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>fcopy_rsc(File)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>File: file to copy into the resource cache
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>reference to the file as a cache entry
+</dl>
+
+<p>The file to copy may either be a file name (text string) or the return
+value of file() operating on the same.  If a cache entry is passed as the
+argument, it will simply be returned with no action necessary.
+
+<p>Once a file has been copied into the resource cache (i.e. the world's .rsc
+file), it may be used as an icon or a sound or whatever is appropriate.  Most
+internal operations involving resource files automatically perform this
+operation when you try to use an external file in place of a cache entry.  For
+example, when assigning a file() object to atom.icon, fcopy_rsc() is
+implicitly invoked.
+
+<p>The main reason you would ever want to call this explicitly is if you are
+storing references to resource files in your own data structures and you want
+to ensure that all values are converted to cache entries so they may be
+directly compared to one another.
+

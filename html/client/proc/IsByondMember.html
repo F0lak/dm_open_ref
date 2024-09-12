@@ -1,0 +1,33 @@
+
+
+<a name=/client/proc/IsByondMember>
+<h2>IsByondMember proc (client)</h2>
+
+<dl><dt><b>Format:</b>
+<dd>IsByondMember()
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>None.
+</dl>
+
+<p>This built-in procedure checks to see if the user is a BYOND Member.
+Use it to give special in-game rewards to those who support BYOND.
+
+<p>If the user is a Member, the result is the number of days left (rounded
+up) on their Membership, or -1 for lifetime Members.
+
+<h3>Example:</h3>
+<xmp>
+mob/var
+   special_features
+
+mob/Login()
+   if(client.IsByondMember())
+      special_features = 1
+   else
+      src << "For special features, <a href=\
+              'http://members.byond.com/' >become a BYOND Member</a>!"
+   return ..()
+</xmp>
+

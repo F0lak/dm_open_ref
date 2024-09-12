@@ -1,0 +1,35 @@
+
+
+<a name=/proc/max>
+<h2>max proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/min>min proc</a>
+<dd><a href=#/proc/clamp>clamp proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>max(A,B,C,...)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>the maximum of the arguments.
+</dl>
+
+<h3>Example:</h3>
+<xmp>
+usr << max(1,2,3)
+</xmp>
+
+<p>This example displays 3.
+
+<p>If a single argument is specified, this is expected to be a list and the
+maximum item from the list is returned.
+
+<p>Items to be compared may be numbers, text strings, pixlocs, or vectors, or
+null, but different types may not be mixed. (Null values can be mixed with
+nums or text, but that's the only exception.)
+
+<p>If the compared items are objects such as pixlocs or vectors, the result is
+a new object, not one of the objects that was compared.
+

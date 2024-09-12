@@ -1,0 +1,18 @@
+
+
+<a name=/atom/var/desc>
+<h2>desc var (atom)</h2>
+
+<dl><dt><b>Default value:</b>
+<dd>null
+</dl>
+
+<p>This is the description of the object.
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/look(atom/O in view())
+   if(O.desc) usr << O.desc
+   else usr << "It's just \an [O]."
+</xmp>
+

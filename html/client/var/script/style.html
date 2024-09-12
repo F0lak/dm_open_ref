@@ -1,0 +1,27 @@
+
+
+<a name=/client/var/script/style>
+<h2>style sheets (in scripts)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/client/var/script>script var (client)</a>
+<dd><a href=#/DM/text/style>style sheets</a>
+</dl>
+
+<p>Style sheets may be included in DM Script by putting the style sheet
+inside the HTML tags <code>&lt;STYLE&gt;</code> and
+<code>&lt;/STYLE&gt;</code>.  In general, any text enclosed in start
+and end tags will be sent to the player's terminal, so you could use
+<code>client.script</code> to output a welcome message as well as loading a
+style sheet.
+
+<p><h3>Example:</h3>
+<xmp>
+client/script = "<STYLE>BODY {background: black; color: aqua}</STYLE>"
+</xmp>
+
+<p>This example style sheet makes the player's terminal have a black
+background and aqua colored text.  When changing the background color, it is
+important to change the color of system and link text as well.  See the
+section on <a href=#/DM/text/style>style sheets</a> for an example.
+

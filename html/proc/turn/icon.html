@@ -1,0 +1,37 @@
+
+
+<a name=/proc/turn/icon>
+<h2>turn proc (applied to an icon)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/turn>turn proc</a>
+<dd><a href=#/icon>icon</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>turn(Icon, Angle)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The rotated icon.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Icon: an icon to rotate
+<dd>Angle: An angle in degrees (clockwise rotation).
+</dl>
+
+<h3>Example:</h3>
+<xmp>
+mob/verb/drink()
+   //this effect is very confusing!
+   usr.icon = turn(usr.icon,90)
+   usr << "Woah!  That stuff is powerful!"
+   sleep(200)
+   usr.icon = turn(usr.icon,-90)
+</xmp>
+
+<p>An icon that is not square will not be turned.
+
+<p>If the icon is an /icon datum, a new datum will be created as the result.
+

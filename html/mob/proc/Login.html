@@ -1,0 +1,27 @@
+
+
+<a name=/mob/proc/Login>
+<h2>Login proc (mob)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/mob/proc/Logout>Logout proc (mob)</a>
+<dd><a href=#/mob/var/client>client var (mob)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>Login()
+</dl>
+
+<dl><dt><b>When:</b>
+<dd>Called when a player's client tries to connect to a mob.  This is called
+    by default from client.New(), when the player logs into the world.
+</dl>
+
+<dl><dt><b>Default action:</b>
+<dd>If the mob has no location, place it near (1,1,1) if possible.  Change
+     the player's stat object (client.statobj) to the mob.
+</dl>
+
+<p>One can typically tell if a player is connecting to a fresh mob versus
+reconnecting to an existing one by testing if the mob's location is null.
+

@@ -1,0 +1,77 @@
+
+
+<a name=/DM/text/macros/icon>
+<h2>icon text macro</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/icon_state>icon_state var (atom)</a>
+<dd><a href=#/DM/text/macros>macros (text)</a>
+<dd><a href=#/DM/text/style>style sheets</a>
+<dd><a href=#/DM/text/tags>tags (text)</a>
+</dl>
+
+<p>The </code>\icon</code> macro is used to treat the following embedded
+expression (in []'s) as an icon rather than as text.  An object, for
+example, would be replaced by its icon rather than by its name.
+
+<h3>Example:</h3>
+<xmp>
+usr << "You look like this: \icon[usr]!"
+</xmp>
+
+<p>The <code>\icon</code> macro expands internally to the &lt;IMG&gt; tag.  The
+above example, could be rewritten like this:
+
+<xmp>
+usr << "You look like this: \
+  <IMG CLASS=icon SRC=\ref[usr.icon] ICONSTATE='[usr.icon_state]'>!"
+</xmp>
+
+<p>Note that the current icon state of the object is automatically used.
+Also note that the image belongs to a class called <code>icon</code>.  That
+allows you to configure the way icons are displayed by using a style sheet.
+The following default style rule causes icons to be shrunk to 16 by 16
+pixels so they fit in better with surrounding text:
+
+<xmp>
+IMG.icon {width: 16px; height: 16px}
+</xmp>
+
+<p>You could override this setting globally in your own style sheet.  You
+could even define rules to allow individual icons to be formatted
+differently from the rest.
+
+<h3>Example:</h3>
+<xmp>
+BIG IMG.icon {width: 32px; height: 32px}
+SMALL IMG.icon {width: 16px; height: 16px}
+</xmp>
+
+<p>With those rules in place, you could output a full sized icon by using
+the &lt;BIG&gt; tag:
+
+<xmp>
+usr << "You look like this: <BIG>\icon[usr]</BIG>!"
+</xmp>
+
+<p>The one time that one might want to use the &lt;IMG&gt; tag directly is
+to specify the ALT text to be displayed on clients which don't support
+graphical icons.
+
+<p>Specific states, directions, and frames of an icon can be displayed in lieu
+of the default through use of the following tags:
+<ul><li>ICONSTATE='[state]'
+<li>ICONDIR=[dir], where dir is one of NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
+<li>ICONFRAME=[frame], where frame is the animation frame, starting with 1</ul>
+
+<h3>Example:</h3>
+<xmp>
+usr << "You look like this: \
+  <IMG CLASS=icon SRC=\ref[usr.icon] ICONSTATE='glowing' ICONDIR=NORTH ICONFRAME=2>!"
+</xmp>
+
+<p>Note that the \icon macro does not work in the mini-browser; it is only
+for text output. To make icons appear in an HTML document, use
+<a href=#/proc/browse_rsc>browse_rsc()</a> to send an icon to the
+client before using <a href=#/proc/browse>browse()</a> to display it.
+

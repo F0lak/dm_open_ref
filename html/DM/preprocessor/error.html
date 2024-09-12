@@ -1,0 +1,27 @@
+
+
+<a name=/DM/preprocessor/error>
+<h2>#error directive</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor>preprocessor</a>
+<dd><a href=#/DM/preprocessor/warn>#warn directive</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>#error Text
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Text: an error message to display
+</dl>
+
+<p>The #error directive halts compilation and displays the specified message.
+
+<h3>Example:</h3>
+<xmp>
+#if DM_VERSION < 4
+#error This compiler is too far out of date!
+#endif
+</xmp>
+

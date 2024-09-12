@@ -1,0 +1,55 @@
+
+
+<a name=/{skin}/control/grid>
+<h2>grid control (skin)</h2>
+
+<p>A grid that contains multiple cells that can show various kinds of output data.
+
+<dl class=codedd><dt><b>Grid-specific parameters:</b>
+<dd><a href=#/{skin}/param/cell-span>cell-span</a>
+<dd><a href=#/{skin}/param/cells>cells</a>
+<dd><a href=#/{skin}/param/current-cell>current-cell</a>
+<dd><a href=#/{skin}/param/enable-http-images>enable-http-images</a>
+<dd><a href=#/{skin}/param/highlight-color>highlight-color</a>
+<dd><a href=#/{skin}/param/is-list>is-list</a>
+<dd><a href=#/{skin}/param/line-color>line-color</a>
+<dd><a href=#/{skin}/param/link-color>link-color</a>
+<dd><a href=#/{skin}/param/show-lines>show-lines</a>
+<dd><a href=#/{skin}/param/show-names>show-names</a>
+<dd><a href=#/{skin}/param/small-icons>small-icons</a>
+<dd><a href=#/{skin}/param/style>style</a>
+<dd><a href=#/{skin}/param/visited-color>visited-color</a>
+</dl>
+
+<p>Sending output to a grid looks like this:
+
+<h3>Example:</h3>
+<xmp>
+// output to column 3, row 2
+winset(usr, "thegrid", "current-cell=3,2")
+usr << output("Text", "thegrid")
+
+// or even easier:
+usr << output("Text", "thegrid:3,2")
+
+// when is-list is true:
+usr << output("5th item", "thegrid:5")
+</xmp>
+
+<p>You can output an atom to the grid, which can be clicked, dragged, etc.
+However, you should make sure that atom is <i>not</i> temporary and will
+persist until you no longer need it, or else the server may recycle it and
+the object in the cell will either disappear or be impossible to interact
+with anymore.
+
+<p>There are some limitations to output in grid controls:
+
+<ul>
+<li>Only one character style (font, color, bold, etc.) may appear within a single cell.</li>
+<li>A cell is either a link, or not.
+<li>One image is allowed per cell.</li>
+<li>A cell can hold an object (atom), sent to it via the <a href=#/proc/output><tt>output()</tt> proc</a>, which can be clicked, dragged, etc.; it will not act as a link.</li>
+<li>The same margin is used all around the cell, not different margins for left, right, top, bottom.</li>
+<li>There will always be a 1-pixel space for grid lines, whether they're shown or not.</li>
+</ul>
+

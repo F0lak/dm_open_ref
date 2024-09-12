@@ -1,0 +1,25 @@
+
+
+<a name=/savefile/proc/ImportText>
+<h2>ImportText proc (savefile)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/savefile/proc/ExportText>ExportText proc (savefile)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>savefile.ImportText(path=cd,source)
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>path: the path at which to write the imported data
+<dd>source: a file or text string to import
+</dl>
+
+<p>Reads a text file or string and writes it into a savefile.  See
+<a href=#/savefile/proc/ExportText>ExportText</a> for an example.
+
+<p>If <tt>source</tt> is an ordinary string, it will be treated as savefile
+contents to be parsed. If it's a <tt>file()</tt> reference, it will be
+treated as a filename and the file's contents will be loaded.
+

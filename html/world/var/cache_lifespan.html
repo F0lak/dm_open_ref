@@ -1,0 +1,24 @@
+
+
+<a name=/world/var/cache_lifespan>
+<h2>cache_lifespan var (world)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/cache>cache</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>30 (days)
+</dl>
+
+<p>Number of days items that are not in use will be saved in the resource
+cache (.rsc file).  Files uploaded by players are stored in the world's .rsc
+file for future use.  If the file is not used for the specified amount of
+time, it will be removed to save space.
+
+<p>Setting this value to 0 causes items to be saved for the current session
+only.  This is used by the CGI library, because web browsers cannot make use
+of server-side caches when uploading files anyway.
+
+<p>This value must be a whole number.
+

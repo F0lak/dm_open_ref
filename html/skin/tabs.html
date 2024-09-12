@@ -1,0 +1,25 @@
+
+
+<a name=/{skin}/param/tabs>
+<h2>tabs parameter (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/current-tab>current-tab parameter</a>
+<dd><a href=#/{skin}/param/id>id parameter</a>
+<dd><a href=#/{skin}/param/multi-line>multi-line parameter</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control/tab>Tab</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>string
+</dl>
+
+<p>A comma-separated list of <a class=code href=#/{skin}/param/id>id</a> values for the panes included as tabs in this control.
+
+<p>When setting this value, you can put <tt>+</tt> in front of the list to add tabs to the existing control, without affecting current tabs. You can likewise use <tt>-</tt> in front of the list to remove tabs.
+
+<p>Note: When using this with <a class=code href=#/proc/winset>winset()</a>, remember you will need to escape <tt>+</tt> as <tt>%2B</tt> via <a class=code href=#/proc/url_encode>url_encode()</a> or <a class=code href=#/proc/list2params>list2params()</a>.
+

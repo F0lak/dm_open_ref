@@ -1,0 +1,34 @@
+
+
+<a name=/atom/movable/var/bound_height>
+<h2 byondver=490>bound_height var (movable atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/movable/var/bound_x>bound_x var (movable atom)</a>
+<dd><a href=#/atom/movable/var/bound_y>bound_y var (movable atom)</a>
+<dd><a href=#/atom/movable/var/bound_width>bound_width var (movable atom)</a>
+<dd><a href=#/atom/var/icon_w>icon_w var (atom)</a>
+<dd><a href=#/atom/var/icon_z>icon_z var (atom)</a>
+<dd><a href=#/atom/movable/var/step_x>step_x var (movable atom)</a>
+<dd><a href=#/atom/movable/var/step_y>step_y var (movable atom)</a>
+<dd><a href=#/atom/movable/var/locs>locs list var (movable atom)</a>
+<dd><a href=#/world/var/icon_size>icon_size var (world)</a>
+<dd><a href=#/world/var/map_format>map_format var (world)</a>
+<dd><a href=#/{notes}/pixel-movement>Pixel movement</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>32 (depends on world.icon_size)
+</dl>
+
+<p>This var defines the height of the physical atom's bounding box, in
+pixels. By default all atoms are assumed to be one tile in physical size.
+
+<p>Example: A 16&times;16 smiley face centered in a 32&times;32 icon should
+have a bound_height value of 16.
+
+<p>The default value depends on world.icon_size and world.map_format. In a
+topdown or tiled map_format, the icon height specified in world.icon_size is
+used. In other modes, height is irrelevant and tile "footprints" are square,
+so the icon width is used.
+

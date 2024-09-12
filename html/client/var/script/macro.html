@@ -1,0 +1,39 @@
+
+
+<a name=/client/var/script/macro>
+<h2>macros (client script)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/macros>macros (skin)</a>
+<dd><a href=#/client/var/script/alias>aliases (client script)</a>
+<dd><a href=#/client/var/command_text>command_text (client)</a>
+<dd><a href=#/client/var/script>script var (client)</a>
+<dd><a href=#/verb>verbs</a>
+</dl>
+
+<p>Macros are just like aliases, except that they are triggered by a single
+key (or combination of keys) instead of a full command.  When a macro is
+executed, it returns a text string which is then executed as a command.  So
+a macro is just a short-cut for entering a command.
+
+<p>The following example illustrates the syntax for entering a typical set
+of macros.
+
+<h3>Example;</h3>
+<xmp>
+macro
+   ALT+I return "inventory"
+   ALT+SHIFT+I return "inventory\nequipment" //multiple commands
+   ALT+s return "say \..."             //command to be edited
+</xmp>
+
+<p class=compatibility>Note: In old versions of BYOND, character keys required
+the Alt key to be pressed to trigger the macro, and did not include
+<tt>"ALT+"</tt> to do so. This behavior has changed, and the name of the macro
+is just like the format used in skin files. You can now use a key name, and
+modifiers like <tt>SHIFT+</tt>, <tt>CTRL+</tt>, <tt>ALT+</tt>, <tt>+REP</tt>,
+and <tt>+UP</tt>. Old .dms and
+<a class=code href=#/client/var/script>client.script</a> files (prior to
+version 507) should be updated accordingly when recompiling in a newer
+version.
+

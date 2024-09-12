@@ -1,0 +1,36 @@
+
+
+<a name=/operator/*>
+<h2>* operator</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/operator/*=>*= operator</a>
+<dd><a href=#/operator/+>+ operator</a>
+<dd><a href=#/operator/->- operator</a>
+<dd><a href=#/operator//>/ operator</a>
+<dd><a href=#/operator>operators</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>A * B
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>The product of A and B.
+</dl>
+
+<p>Multiplies A and B. The result of the operation depends on the types of values
+being multiplied, mostly on A.
+
+<table>
+<tr><th>A type</th><th>B type</th><th>Result</th></tr>
+<tr><td>num or null (0)</td><td>num or null (0)</td><td>Numeric product</td></tr>
+<tr><td>icon or /icon</td><td>icon or num or color</td><td>New blended icon via ICON_MULTIPLY</td></tr>
+<tr><td rowspan=3>matrix</td><td>matrix</td><td>New matrix, product of A and B</td></tr>
+<tr><td>num</td><td>New matrix scaling A by B</td></tr>
+<tr><td>vector</td><td>New matrix scaling A by B.x and B.y</td></tr>
+<tr><td rowspan=3>vector</td><td>vector</td><td>New vector with components multiplied together</td></tr>
+<tr><td>matrix</td><td>New vector with 2D transformation applied</td></tr>
+<tr><td>num</td><td>New vector scaling A by B</td></tr>
+</table>
+

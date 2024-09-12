@@ -1,0 +1,32 @@
+
+
+<a name=/map>
+<h2>map</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/DM/preprocessor/include>#include directive</a>
+<dd><a href=#/world/var/area>area var (world)</a>
+<dd><a href=#/world/var/maxx>maxx var (world)</a>
+<dd><a href=#/world/var/turf>turf var (world)</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>#include "mapname.dmm"
+</dl>
+
+<p>One or more map files may be loaded into the world's map.  These are
+loaded into successive z-levels.  If no map files are specified, the default
+project map file will be used.  This file has the same name as the project
+but has the extension .dmm.
+
+<p>If no map files are loaded, the world's map size is determined by the
+world variables maxx, maxy, and maxz.  The default content of this map is
+determined by the world variables turf and area.
+
+<h3>Example:</h3>
+<xmp>
+#include "level1.dmm"
+#include "level2.dmm"
+#include "level3.dmm"
+</xmp>
+

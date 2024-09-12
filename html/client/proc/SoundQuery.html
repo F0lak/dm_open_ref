@@ -1,0 +1,40 @@
+
+
+<a name=/client/proc/SoundQuery>
+<h2 byondver=513>SoundQuery proc (client)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/sound>/sound datum</a>
+<dd><a href=#/proc/sound>sound proc</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>SoundQuery()
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>none
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>A list of <tt>/sound</tt> datums with information about currently playing sounds.
+</dl>
+
+<p>This proc is used to ask a client about sounds that are playing. The
+<tt>/sound</tt> datums in the returned list have the following vars set:
+
+<ul>
+  <li>file: Sound/music file, or null if none</li>
+  <li>channel: Channel of sound, if one was set when the sound was played</li>
+  <li>repeat: The <tt>repeat</tt> value of the sound</li>
+  <li>status: Status flags active for this channel; currently only <tt>SOUND_PAUSED</tt> is supported</li>
+  <li>offset: Current time index, in seconds, of the sound at the current frequency</li>
+  <li>len: Total duration, in seconds, of the sound at the current frequency</li>
+  <li>wait: Total duration of sounds queued to play later on this channel (does not apply to channel 0)</li>
+</ul>
+
+<p>Not all info about the sounds is retrieved, such as <tt>volume</tt>,
+<tt>frequency</tt>, etc. If those are needed, it should be a simple matter to
+keep track of them in your code. The main purpose of <tt>SoundQuery()</tt> is
+to ascertain the current status of playing sounds.
+

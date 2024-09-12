@@ -1,0 +1,35 @@
+
+
+<a name=/{notes}/filters/displace toc="Displacement map (filters)">
+<h2 byondver=513>Displacement map filter</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{notes}/filters/alpha>Alpha mask (filters)</a>
+<dd><a href=#/atom/var/icon>icon var (atom)</a>
+<dd><a href=#/atom/var/render_target>render_target var (atom)</a>
+</dl>
+
+<dl><dt>Format:</dt>
+<dd>filter(type="displace", ...)</dd>
+</dl>
+
+<dl><dt>Args:</dt>
+<dd>x: Horizontal offset of map (defaults to 0)</dd>
+<dd>y: Vertical offset of map (defaults to 0)</dd>
+<dd>size: Maximum distortion, in pixels</dd>
+<dd>icon: Icon to use as a displacement map</dd>
+<dd>render_source: <tt>render_target</tt> to use as a displacement map</dd>
+</dl>
+
+<p>Uses an icon or render target as a template for various warping effects on
+the main image.
+
+<p>In the displacement map, pixels that have a higher red component will make
+the image appear to warp to the left, lower reds warp it to the right, and
+gray (r=128) will cause no horizontal warping. The green component affects the
+vertical: higher to warp upward, lower to warp downward. Transparent pixels in
+the displacement map will have no effect.
+
+<p>This can be used for very complex distortion, unlike other distortion
+filters such as wave and ripple that are confined to specific equations.
+

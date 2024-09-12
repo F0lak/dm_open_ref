@@ -1,0 +1,42 @@
+
+
+<a name=/atom/var/render_source>
+<h2>render_source var (atom)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/atom/var/render_target>render_target var (atom)</a>
+<dd><a href=#/atom/var/appearance_flags>appearance_flags var (atom)</a>
+</dl>
+
+<dl><dt><b>Default value:</b>
+<dd>null
+</dl>
+
+<dl><dt><b>Possible values:</b>
+<dd>Any non-empty text string
+</dl>
+
+<p>If any icon uses <tt>render_source</tt>, the renderer will look for another
+icon with a matching <tt>render_target</tt> value on the visible map, and draw
+that in place of the <tt>icon</tt>/<tt>icon_state</tt>/<tt>dir</tt> that it
+normally would. The same render target might be used as a source multiple
+times, and for a complex image this can save some rendering time. This is also
+usable for special effects such as <a href=#/{notes}/filters>filters</a> that
+might require copies of an image.
+
+<p>Note: The corresponding <tt>render_target</tt> <i>must</i> be visible to the
+player for a render source to be used.
+
+<p>The replacement icon from the <tt>render_source</tt> will be anchored to the
+bottom left of the icon it replaces.
+
+<p>Other vars that would normally affect the appearance of this icon, such as
+<tt>color</tt>, <tt>transform</tt>, <tt>filters</tt>, <tt>appearance_flags</tt>,
+etc. are all applied. Additionally, if this object has overlays, underlays, or
+visual contents, those will still be drawn as well.
+
+<p>Note: Any mouse hits on this object belong to the object itself, not to the
+object used in the <tt>render_source</tt> or its children. If you want mouse
+clicks and other behavior to go to the source, use the <tt>PASS_MOUSE</tt>
+<a href=#/atom/var/appearance_flags>appearance flag</a>.
+

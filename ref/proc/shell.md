@@ -31,14 +31,14 @@ The calling proc will sleep until
 the command is finished executing.
 ### Example:
 
-```
- mob/verb/dir(Path as text) shell(\"dir \[Path\] \> dir.out\")
-usr \<\< file2text(\"dir.out\") 
+``` dm
+ mob/verb/dir(Path as text) shell(\"dir \[Path\] \>
+dir.out\") usr \<\< file2text(\"dir.out\") 
 ```
  
 
-This example
-displays the output of the \"dir\" command to the user.
+This
+example displays the output of the \"dir\" command to the user.
 
 > [!TIP] 
 > **See also:**

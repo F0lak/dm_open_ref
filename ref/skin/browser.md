@@ -36,7 +36,7 @@ name with a colon and a function name, you can call a JavaScript
 function in the document displayed within that browser.
 ### Example:
 
-```
+``` dm
  var/list/info = list(\"name\"=\"fridge\", \"power\"=12) //
 send {\"name\":\"fridge\",\"power\":12} to a JavaScript function usr
 \<\< output(url_encode(json_encode(info)), \"mybrowser:myJSfunction\")
@@ -56,6 +56,3 @@ These topics cover more advanced uses of the browser control.
 [winset and winget (JavaScript)](/ref/%7Bskin%7D/control/browser/winset.md) 
 +   Interact with the skin via JavaScript
 [byondStorage (browser control)](/ref/%7Bskin%7D/control/browser/byondStorage.md) :   Provides persistent storage options for small data
-
-> [!TIP] 
-> 

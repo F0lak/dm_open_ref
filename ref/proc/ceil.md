@@ -15,7 +15,7 @@ Returns the ceiling of A (the largest integer greater than or
 equal to A).
 ### Example:
 
-```
+``` dm
  usr \<\< ceil(1.45) // outputs 2 usr \<\< ceil(-1.45) //
 outputs -1 
 ```

@@ -10,7 +10,7 @@ or error.
 state.
 ### Example:
 
-```
+``` dm
  // temporarily ignore the unused_var warning #pragma push
 #pragma ignore unused_var proc/GNDN() var/nothing // var defined but not
 used #pragma pop 

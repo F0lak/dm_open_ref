@@ -24,7 +24,7 @@ is 5, the default range is also 5. You may use any valid view size, so
 an explicit view size such as \"11x17\" is also valid.
 ### Example:
 
-```
+``` dm
  view() \<\< \"to all in sight of \[usr\]\" view(src) \<\<
 \"to all in sight of \[src\]\" view(1,src.loc) \<\< \"to all within
 reach of \[src\]\" 
@@ -33,7 +33,7 @@ reach of \[src\]\"
 
 Be aware of the following
 distinctions: 
-```
+``` dm
  view(usr) //objects that usr can see
 view(usr.loc) //objects visible from usr\'s position view(usr.client)
 //objects visible to player 

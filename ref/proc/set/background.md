@@ -14,16 +14,16 @@ similar thing by sprinkling calls to sleep(0) or sleep(-1) in the
 \"working\" part of the loop.
 ### Example
 
-```
- proc/Ticker() set background = 1 spawn while(1) for(var/mob/M
-in world) M.Tick() sleep(10) 
+``` dm
+ proc/Ticker() set background = 1 spawn while(1)
+for(var/mob/M in world) M.Tick() sleep(10) 
 ```
  
 
-Since the background
-procedure sleeps at unpredictable times, you must be aware that race
-conditions are possible if the background procedure interacts with
-variables modified by other procedures. It\'s still much safer than
+Since the
+background procedure sleeps at unpredictable times, you must be aware
+that race conditions are possible if the background procedure interacts
+with variables modified by other procedures. It\'s still much safer than
 multi-threaded programs because the background procedure never
 interrupts other code; but other code may interrupt the background
 procedure. 

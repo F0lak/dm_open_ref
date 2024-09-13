@@ -21,7 +21,7 @@ piece of text in its place. This is basically equivalent to
 `copytext(Text,1,Start) + Insert + copytext(Text,End)`, but faster.
 ### Example:
 
-```
+``` dm
  // cuts \"nan\" from \"banana\" and replaces it with
 \"laclav\" // prints \"balaclava\" usr \<\< splicetext(\"banana\", 3, 6,
 \"laclav\") 

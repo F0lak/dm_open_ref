@@ -19,6 +19,3 @@ These operators all have special meaning when applied to lists.
 [\^ operator](/ref/operator/%5E.md) 
 [\^= operator](/ref/operator/%5E=.md) 
 [in operator](/ref/operator/in.md) 
-
-> [!TIP] 
-> 

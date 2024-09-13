@@ -26,6 +26,3 @@ reboot to complete normally.
 For reboots initiated by Dream
 Seeker, usr will be the mob belonging to the player who sent the
 command.
-
-> [!TIP] 
-> 

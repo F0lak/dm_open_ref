@@ -37,9 +37,9 @@ Expressions of the form `A #= B` are shorthand for `A = A # B`
 except for `~=` and `:=`.
 ### Example:
 
-```
- var/N N = 0 // 0 N += 1+1\*2 // 3 if(1 + 1 == 2) N = 2 // 2
-if(N==2 && 1/2==0.5) N = 0.5 // 0.5 
+``` dm
+ var/N N = 0 // 0 N += 1+1\*2 // 3 if(1 + 1 == 2) N = 2 //
+2 if(N==2 && 1/2==0.5) N = 0.5 // 0.5 
 ```
 
 

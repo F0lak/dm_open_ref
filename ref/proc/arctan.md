@@ -30,9 +30,9 @@ Finally, you can use a vector instead
 of a number. Only the x and y components of a vector will be used.
 ### Example:
 
-```
- mob/verb/test() usr \<\< arctan(0) // 0 usr \<\< arctan(1) //
-45 usr \<\< arctan(sqrt(3)) // 60 // polar coordinates usr \<\<
+``` dm
+ mob/verb/test() usr \<\< arctan(0) // 0 usr \<\< arctan(1)
+// 45 usr \<\< arctan(sqrt(3)) // 60 // polar coordinates usr \<\<
 arctan(3, 4) // 53.1301 usr \<\< arctan(-1, 1) // 135 usr \<\< arctan(0,
 -5) // -90 
 ```
@@ -40,7 +40,7 @@ arctan(3, 4) // 53.1301 usr \<\< arctan(-1, 1) // 135 usr \<\< arctan(0,
 
 Here\'s another example, in which a
 rotating turret points to a target on another tile. 
-```
+``` dm
 
 mob/turret proc/PointAt(atom/target) if(!target) return var/dx =
 target.x - x var/dy = target.y - y // turret\'s icon normally faces east

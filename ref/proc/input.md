@@ -27,9 +27,9 @@ The `null` type will allow the user to cancel, e.g.
 `as null | anything in contents`.
 ### Example:
 
-```
- mob/verb/create_character() usr.name = input(\"Choose a name
-for your character.\", \"Your Name\", usr.name) usr.gender =
+``` dm
+ mob/verb/create_character() usr.name = input(\"Choose a
+name for your character.\", \"Your Name\", usr.name) usr.gender =
 input(\"Select a gender for your character.\", \"Your Gender\",
 usr.gender) in list(\"male\",\"female\",\"neuter\") 
 ```
@@ -47,7 +47,7 @@ from. For example, this is a simple shopkeeper NPC, where the
 shopkeeper\'s inventory is its contents.
 ### Example:
 
-```
+``` dm
  mob/shopkeeper/verb/Buy() var/list/options = list()
 var/obj/item for(item in src) // show a pretty list of options with
 prices included options\[\"\[item\]: \$\[item.price\]\"\] = item
@@ -73,9 +73,9 @@ isn\'t negative and doesn\'t contain any fractions, and isn\'t more than
 they have.
 ### Example:
 
-```
- mob/player/verb/Give_Gold() set src in oview(1) var/amount =
-input(\"How much?\", \"Give gold\") as null\|num if(isnull(amount))
+``` dm
+ mob/player/verb/Give_Gold() set src in oview(1) var/amount
+= input(\"How much?\", \"Give gold\") as null\|num if(isnull(amount))
 return amount = floor(amount) // round down to a whole number amount =
 min(amount, usr.gold) // don\'t give more than you have if(amount \<= 0)
 return // ignore negatives and 0 gold += amount usr.gold -= amount usr

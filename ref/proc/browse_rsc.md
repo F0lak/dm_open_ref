@@ -24,9 +24,9 @@ user\'s cache, so there is little overhead in calling this every time
 you are about to use `browse()`.
 ### Example:
 
-```
- area var room_graphic = \'cozy_room.jpg\' Enter(O) . = ..()
-//do default checks if(.) //if we got clearance to enter O \<\<
+``` dm
+ area var room_graphic = \'cozy_room.jpg\' Enter(O) . =
+..() //do default checks if(.) //if we got clearance to enter O \<\<
 browse_rsc(room_graphic,\"room.jpg\") O \<\<
 browse(\"
 

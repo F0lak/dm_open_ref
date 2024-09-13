@@ -6,7 +6,7 @@ This is a variable equal to the object containing the proc or
 verb. It is defined to have the same type as that object.
 ### Example:
 
-```
+``` dm
  obj/bread verb/eat() world \<\< \"\[usr\] eats \[src\]\"
 
 ```

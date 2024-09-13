@@ -26,6 +26,3 @@ procs, during [mob/Stat()](/ref/atom/proc/stat.md) .
 The same
 limitations that apply to [grid](/ref/%7Bskin%7D/control/grid.md) output apply
 here.
-
-> [!TIP] 
-> 

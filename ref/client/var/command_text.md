@@ -16,14 +16,14 @@ such as `"say "`. The user can clear this and enter a different command
 by hitting backspace, escape, delete, or `/`.
 ### Example:
 
-```
- client command_text = \"say \" verb/say(T as text) world \<\<
-\"\[usr\] says, \'\[T\]\'\" 
+``` dm
+ client command_text = \"say \" verb/say(T as text) world
+\<\< \"\[usr\] says, \'\[T\]\'\" 
 ```
  
 
-It is also possible to
-turn on macro mode, in which each keypress executes a [keyboard
+It is also possible
+to turn on macro mode, in which each keypress executes a [keyboard
 macro](/ref/client/var/script/macro.md)  by setting `command_text` to
 `".alt "`. That stands for the *Alt* key, which can be used to execute
 macros in normal mode. 
@@ -33,16 +33,16 @@ create a specialized command prompt. For example, a traditional style
 MUD command-line could be implemented like this:
 ### Example:
 
+``` dm
+ client command_text = \"\> \" verb/command(C as
+command_text) set name = \"\>\" usr \<\< \"Your command: \[C\]\"
+
 ```
- client command_text = \"\> \" verb/command(C as command_text)
-set name = \"\>\" usr \<\< \"Your command: \[C\]\" 
-```
+ 
 
-
-
-This example uses the `command_text` input type, which accepts
-raw text, with no quoting, escaping, or translating, so that you can
-invent whatever syntax you want.
+This example uses the `command_text` input type,
+which accepts raw text, with no quoting, escaping, or translating, so
+that you can invent whatever syntax you want.
 
 > [!TIP] 
 > **See also:**

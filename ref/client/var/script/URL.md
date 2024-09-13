@@ -13,6 +13,3 @@ has connected to a world. In those cases, the URL setting has no effect.
 
 It is important to enclose the URL in double quotes. Otherwise,
 the `//` symbol would be mistaken for a comment.
-
-> [!TIP] 
-> 

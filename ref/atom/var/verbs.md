@@ -15,10 +15,10 @@ necessary changes yourself or they will not be preserved when the object
 is loaded.
 ### Example:
 
-```
- mob/proc/kazaam() usr \<\< \"Kazaam!\" mob/verb/add_kazaam()
-verbs += /mob/proc/kazaam mob/verb/remove_kazaam() verbs -=
-/mob/proc/kazaam 
+``` dm
+ mob/proc/kazaam() usr \<\< \"Kazaam!\"
+mob/verb/add_kazaam() verbs += /mob/proc/kazaam mob/verb/remove_kazaam()
+verbs -= /mob/proc/kazaam 
 ```
 
 

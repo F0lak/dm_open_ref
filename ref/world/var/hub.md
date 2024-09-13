@@ -30,7 +30,7 @@ or if it is too late in the game for new people to join. At such times,
 you can simply set the visibility to 0.
 ### Example:
 
-```
+``` dm
  world hub = \"Dan.PipeStock\" //registered hub path
 mob/verb/start_game() world.visibility = 0 //\... 
 ```

@@ -11,17 +11,19 @@ post-processing effects, applied in order. You can assign this value a
 list, an individual filter, or null to empty it.
 ### Example:
 
+``` dm
+ obj/blurry filters = filter(type=\"blur\", size=1)
+
 ```
- obj/blurry filters = filter(type=\"blur\", size=1) 
-```
+ 
 
+Atoms with the `KEEP_TOGETHER` flag will apply their
+filters after the composite image has been drawn. Filters will also
+apply to any maptext the atom has. 
 
-
-Atoms with the `KEEP_TOGETHER` flag will apply their filters
-after the composite image has been drawn. Filters will also apply to any
-maptext the atom has. 
-
-See the [filters](/ref/%7Bnotes%7D/filters.md) section for more information on individual filters.
+See the
+[filters](/ref/%7Bnotes%7D/filters.md) section for more information on
+individual filters.
 ### Named Filters {#named-filters byondver="516"}
 
 

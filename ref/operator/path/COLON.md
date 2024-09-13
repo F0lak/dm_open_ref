@@ -12,7 +12,7 @@ example demonstrates the principle but it obviously doesn\'t save much
 typing!
 ### Example:
 
-```
+``` dm
  world mob = :player //short-cut to /mob/player mob/player
 Login() src \<\< \"Welcome, \[name\].\" 
 ```

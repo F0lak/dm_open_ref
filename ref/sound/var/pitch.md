@@ -24,7 +24,7 @@ make a sound play at a different speed but keep its pitch intact, set
 and set `pitch` to the inverse (e.g., 1/1.2).
 ### Example:
 
-```
+``` dm
  client var/sound/music // music currently playing
 proc/PlayMusic(music) music = new(music) music.channel = 100 src \<\<
 music proc/UpTempo(amount = 0.1) // 10% faster if(!music) return

@@ -22,6 +22,3 @@ recognized by DM are the same as standard C compilers:
     #pragma
     #error
     #warn
-
-> [!TIP] 
-> 

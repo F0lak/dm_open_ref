@@ -8,7 +8,7 @@ wait for them to finish, so the callers must sleep as well. Using
 control to the caller immediately.
 ### Example
 
-```
+``` dm
  mob/proc/LongLoop() set waitfor = 0 while(1) UpdateAI() //
 proc will return to caller here sleep(1) 
 ```

@@ -32,12 +32,12 @@ procedures are simply available for completeness.
 
 The argument
 format for this verb is: 
-```
- MouseDrag(src_object as null\|atom
-in usr.client,\\ over_object as null\|atom in usr.client,\\ src_location
-as null\|turf\|text in usr.client,\\ over_location as null\|turf\|text
-in usr.client,\\ src_control as text, over_control as text, params as
-text) 
+``` dm
+ MouseDrag(src_object as
+null\|atom in usr.client,\\ over_object as null\|atom in usr.client,\\
+src_location as null\|turf\|text in usr.client,\\ over_location as
+null\|turf\|text in usr.client,\\ src_control as text, over_control as
+text, params as text) 
 ```
 
 

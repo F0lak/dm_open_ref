@@ -10,16 +10,16 @@
 This rotates the icon clockwise by the specified amount.
 ### Example:
 
-```
- mob/verb/drink() //this effect is very confusing! var/icon/I
-= new(usr.icon) I.Turn(90) usr.icon = I usr \<\< \"You feel a little
-tipsy!\" sleep(200) I.Turn(-90) //turn it back usr.icon = I //should
-have just saved original value 
+``` dm
+ mob/verb/drink() //this effect is very confusing!
+var/icon/I = new(usr.icon) I.Turn(90) usr.icon = I usr \<\< \"You feel a
+little tipsy!\" sleep(200) I.Turn(-90) //turn it back usr.icon = I
+//should have just saved original value 
 ```
  
 
-If an icon is not
-square, it cannot be turned.
+If an icon
+is not square, it cannot be turned.
 
 > [!TIP] 
 > **See also:**

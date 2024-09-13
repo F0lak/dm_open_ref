@@ -8,9 +8,9 @@ is reset to 0 after each new action so you can use it to determine the
 time that has passed since the last one.
 ### Example:
 
-```
- mob/verb/inactivity() usr \<\< \"You have been inactive for
-\[client.inactivity/10\] seconds.\" 
+``` dm
+ mob/verb/inactivity() usr \<\< \"You have been inactive
+for \[client.inactivity/10\] seconds.\" 
 ```
 
 

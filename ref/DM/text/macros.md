@@ -3,7 +3,7 @@
 
 Text macros start with \'\\\' (a backslash) and end with a
 space or other punctuation. 
-```
+``` dm
  \\the, \\The // insert \'the\'
 (if needed) \\a, \\an, // insert \'a(n)\' or \'some\' (if needed) \\A,
 \\An \\he, \\He // insert \'he/she/they/it\' \\she, \\She // same \\his,
@@ -26,21 +26,21 @@ value \\uNNNN // \" \\UNNNNNN // \"
 
 ### Example:
 
-```
- mob/verb/steal(M as mob,obj/O as obj in M) O.loc = usr view()
-\<\< \"\[usr\] finds \\himself \\an \[O\].\" 
+``` dm
+ mob/verb/steal(M as mob,obj/O as obj in M) O.loc = usr
+view() \<\< \"\[usr\] finds \\himself \\an \[O\].\" 
 ```
 
 ### Example:
 
-```
+``` dm
  var/DayCount proc/NewDay() DayCount++ world \<\< \"The
 \[DayCount\]\\th day dawns.\" 
 ```
 
 ### Example:
 
-```
+``` dm
  obj/CPU name = \"\\improper CPU\" //prevent capitalization
 from causing proper-noun behavior 
 ```

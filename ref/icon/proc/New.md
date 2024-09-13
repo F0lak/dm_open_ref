@@ -36,7 +36,7 @@ icon state \"\" from the user\'s icon file, rotates that a bit, and then
 creates a new icon file for the user.
 ### Example:
 
-```
+``` dm
  mob/verb/test() var/icon/I = new(usr.icon,icon_state =
 \"\",dir = EAST) I.Turn(90) //rotate clockwise 90 degrees usr.icon = I
 

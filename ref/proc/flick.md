@@ -14,7 +14,7 @@ This is a purely visual effect and does not effect the actual value of
 the object\'s icon variable.
 ### Example:
 
-```
+``` dm
  flick(\'blink.dmi\',usr) //show another icon
 flick(\"fight\",usr) //show usr\'s fight state 
 ```

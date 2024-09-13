@@ -7,7 +7,7 @@ This variable is set at compile-time to specify the inheritance
 of an object type. Normally, a new type of object inherits its variables
 and procedures from the object type that contains it. For example:
 
-```
+``` dm
  obj var weight color sword //parent type of \'sword\'
 defaults to /obj weight = 30 color = \"black\" 
 ```
@@ -17,7 +17,7 @@ defaults to /obj weight = 30 color = \"black\"
 Explicitly setting the parent type allows you to put the object
 definition any place you want. That often means putting it at the top
 \"root\" level. Example: 
-```
+``` dm
  Armor parent_type = /obj var
 strength plate //parent type is /Armor, which in turn inherits from /obj
 weight = 100 color = \"rusty\" strength = 10 
@@ -32,11 +32,7 @@ define procedures or variables that you need all of your objects to
 share.
 ### Example:
 
+``` dm
+ datum proc/Copy(datum/O) MyType var foo Copy(MyType/O) foo
+= O.foo return ..() 
 ```
- datum proc/Copy(datum/O) MyType var foo Copy(MyType/O) foo =
-O.foo return ..() 
-```
-
-
-> [!TIP] 
-> 

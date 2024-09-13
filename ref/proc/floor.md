@@ -15,7 +15,7 @@ Returns the floor of A (the largest integer less than or equal
 to A).
 ### Example:
 
-```
+``` dm
  usr \<\< floor(1.45) // outputs 1 usr \<\< floor(-1.45) //
 outputs -2 
 ```

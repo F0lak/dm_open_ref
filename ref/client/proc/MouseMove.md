@@ -27,9 +27,9 @@ it reduces overhead.
 
 The argument format for this verb is:
 
-```
- MouseMove(object as null\|atom in usr.client,\\ location as
-null\|turf\|text in usr.client,\\ control as text, params as text)
+``` dm
+ MouseMove(object as null\|atom in usr.client,\\ location
+as null\|turf\|text in usr.client,\\ control as text, params as text)
 
 ```
 

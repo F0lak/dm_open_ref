@@ -15,17 +15,17 @@ item is chosen from that list.
 When not using the list form,
 you can make a particular value more or less likely to be chosen by
 providing a relative probability like this: 
-```
- prob(P); Val Or
-P; Val 
+``` dm
+ prob(P); Val
+Or P; Val 
 ```
  
 
-A value for P of 200 makes it twice as likely
-as the norm, 50 half as likely, and so on.
+A value for P of 200 makes it twice as
+likely as the norm, 50 half as likely, and so on.
 ### Example:
 
-```
+``` dm
  obj/food verb/eat() usr \<\< pick ( \"\[usr\] eats \\a
 \[src\].\", prob(50) \"\[usr\] devours \\a \[src\].\", prob(25)
 \"\[usr\] wolfs down \\a \[src\].\" ) del(src) 

@@ -18,10 +18,11 @@ icons must be even multiples of world.tile_size, so the icon will be
 padded with transparent pixels to the top and right as needed.
 ### Example:
 
-```
- // start with a simple icon var/icon/I = new(\'circle.dmi\')
-// take the upper right 16x16 chunk I.Crop(17,17,32,32) // that chunk
-now appears in the lower left corner icon = I 
+``` dm
+ // start with a simple icon var/icon/I =
+new(\'circle.dmi\') // take the upper right 16x16 chunk
+I.Crop(17,17,32,32) // that chunk now appears in the lower left corner
+icon = I 
 ```
 
 

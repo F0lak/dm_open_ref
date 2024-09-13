@@ -24,14 +24,14 @@ additional arguments to New() by passing them to the `new` instruction
 which creates the object.
 ### Example:
 
-```
- mob/night var/mob/squire/my_squire New(Location) my_squire =
-new(Location) return ..() 
+``` dm
+ mob/night var/mob/squire/my_squire New(Location) my_squire
+= new(Location) return ..() 
 ```
  
 
-Also note that the type of
-object being created in this case was automatically inferred from the
+Also note that the type
+of object being created in this case was automatically inferred from the
 variable type on the left-hand side of the assignment. That\'s a handy
 little DM short-cut.
 

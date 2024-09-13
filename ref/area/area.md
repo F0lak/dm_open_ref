@@ -21,9 +21,9 @@ defines an action to be taken when somebody enters an area, namely to
 display its description.
 ### Example:
 
-```
- area Entered(O) if(desc) O \<\< desc return ..() outside desc
-= \"Ah! A breath of fresh air!\" 
+``` dm
+ area Entered(O) if(desc) O \<\< desc return ..() outside
+desc = \"Ah! A breath of fresh air!\" 
 ```
 
 

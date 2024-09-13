@@ -20,14 +20,14 @@ purpose of this proc is to turn a proc reference into a name, which is
 useful in some esoteric situations.
 ### Example:
 
-```
- var/list/event_queue proc/CallLater(object, procref, a, b, c)
-var/list/forlater = list(object, nameof(procref), a, b, c) event_queue
-\|\|= list() event_queue\[++event_queue.len\] = forlater world/Tick()
-while(length(event_queue)) var/list/forlater = event_queue\[1\]
-event_queue.Cut(1,2) var/object = forlater\[1\] var/procname =
-forlater\[2\] var/a = forlater\[3\] var/b = forlater\[4\] var/c =
-forlater\[5\] call(object, procname)(a, b, c) 
+``` dm
+ var/list/event_queue proc/CallLater(object, procref, a, b,
+c) var/list/forlater = list(object, nameof(procref), a, b, c)
+event_queue \|\|= list() event_queue\[++event_queue.len\] = forlater
+world/Tick() while(length(event_queue)) var/list/forlater =
+event_queue\[1\] event_queue.Cut(1,2) var/object = forlater\[1\]
+var/procname = forlater\[2\] var/a = forlater\[3\] var/b = forlater\[4\]
+var/c = forlater\[5\] call(object, procname)(a, b, c) 
 ```
 
 

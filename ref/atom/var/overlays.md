@@ -24,7 +24,7 @@ format](/ref/atom/var/appearance.md)  However, the list operators `+=`, `-=`,
 and the procedures `Add`, `Remove`, and `Cut` work normally.
 ### Example:
 
-```
+``` dm
  turf/verb/AddOverlay(I as icon) overlays += I
 turf/verb/RemoveOverlay(I as icon) overlays -= I 
 ```
@@ -59,7 +59,7 @@ would not have to worry about the order in which you add them to the
 list.
 ### Example:
 
-```
+``` dm
  var/const ARMOR_LAYER = FLOAT_LAYER-1 CLOTHES_LAYER =
 FLOAT_LAYER-2 obj/overlay armor icon = \'armor.dmi\' layer = ARMOR_LAYER
 clothes icon = \'clothes.dmi\' layer = CLOTHES_LAYER mob/verb
@@ -76,7 +76,7 @@ your own list of overlays with the order you want and assign that to the
 actual overlays list.
 ### Example:
 
-```
+``` dm
  mob/var boots clothes armor mob/proc ShowOverlays()
 var/L\[0\] if(boots) L += boots if(clothes) L += clothes if(armor) L +=
 armor overlays = L 

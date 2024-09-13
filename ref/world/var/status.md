@@ -7,7 +7,7 @@ new players will be able to actively play, or whether they would have to
 join as spectators.
 ### Example:
 
-```
+``` dm
  world status = \"accepting players\" mob/verb/start_game()
 world.status = \"accepting spectators\" //\... 
 ```

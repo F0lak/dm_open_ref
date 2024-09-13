@@ -20,6 +20,3 @@ sound/var
 +   [falloff](/ref/sound/var/falloff.md) 
 +   [environment](/ref/sound/var/environment.md) 
 +   [echo](/ref/sound/var/echo.md) 
-
-> [!TIP] 
-> 

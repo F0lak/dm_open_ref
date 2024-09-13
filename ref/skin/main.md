@@ -41,6 +41,3 @@ control](/ref/%7Bskin%7D/control/tab.md) .
 
 The font parameters have no impact on a window\'s statusbar or
 titlebar; those are drawn by the operating system.
-
-> [!TIP] 
-> 

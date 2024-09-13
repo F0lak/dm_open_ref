@@ -17,8 +17,9 @@ necessarily want the leader to be saved in the player\'s savefile.
 Therefore, you would need to use `tmp` when defining the variable.
 ### Example:
 
-```
- mob var/tmp leader verb follow(mob/M) leader = M 
+``` dm
+ mob var/tmp leader verb follow(mob/M) leader = M
+
 ```
 
 ::: {.sidebar .note}

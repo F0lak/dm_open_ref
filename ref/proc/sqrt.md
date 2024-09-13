@@ -9,10 +9,6 @@
 +   A: A number.
 ### Example:
 
-```
+``` dm
  usr \<\< sqrt(2) // outputs 1.41421 
 ```
-
-
-> [!TIP] 
-> 

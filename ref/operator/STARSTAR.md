@@ -7,7 +7,7 @@
 +   A to the power of B.
 ### Example:
 
-```
+``` dm
  usr \<\< 2 \*\* 3 // outputs 8 
 ```
 

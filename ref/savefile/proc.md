@@ -6,6 +6,3 @@ savefile/proc
 +   [Lock](/ref/savefile/proc/Lock.md) 
 +   [Unlock](/ref/savefile/proc/Unlock.md) 
 +   [New](/ref/savefile/proc/New.md) 
-
-> [!TIP] 
-> 

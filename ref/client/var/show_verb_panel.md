@@ -11,7 +11,7 @@ might want to do that, for instance, if you\'ve only got one verb (like
 \"say\") and the panel looks stupid with just one verb in it.
 ### Example:
 
-```
+``` dm
  client show_verb_panel = 0 
 ```
 

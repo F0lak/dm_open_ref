@@ -30,7 +30,7 @@ appropriate time is closer to half an hour, you can set a keep time of
 keep time of -1.
 ### Example:
 
-```
+``` dm
  mob/Login() ..() // load up these songs now and keep them
 loaded indefinitely src \<\< load_resource(\'music1.ogg\',
 \'music2.ogg\', \'music3.ogg\', -1) 

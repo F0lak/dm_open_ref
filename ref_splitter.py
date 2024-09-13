@@ -27,6 +27,7 @@ import cProfile
 """
 
 BUILD_HTML : bool = False
+BUILD_FILE_TREE : bool = False
 SOURCE_FILE : str = "info.html"
 
 def write_file(text, file_name) -> None:
@@ -126,7 +127,8 @@ def move_see_also(text) -> str:
 	if end_index:
 		replacement_text = text[start_index:end_index]
 		tiptext = replacement_text.replace("\n", "\n> ")
-		text = text.replace(replacement_text, "") + f"\n\n> [!TIP] \n> {tiptext}"
+		if replacement_text:
+			text = text.replace(replacement_text, "") + f"\n\n> [!TIP] \n> {tiptext}"
 		#text = text.join(lines)
   
 	return text
@@ -139,6 +141,7 @@ def clean_markdown_file(text) -> str:
 		text = clean_inline_code(text)
 		text = text.replace("\n: ", "\n+ ")
 		text = text.replace("PARAGRAPH", "\n\n")
+		text = text.replace("CODE_TICKS_DM", "\n``` dm\n")
 		text = text.replace("CODE_TICKS", "\n```\n")
 		text = text.replace("NOTE", "\n> [!NOTE]\n> ")
 		text = text.replace(" .code}", "")
@@ -148,7 +151,7 @@ def clean_markdown_file(text) -> str:
 
 def prep_html_file(text) -> str:
 		text = text.replace("<p>", "PARAGRAPH")
-		text = text.replace("<xmp>", "CODE_TICKS")
+		text = text.replace("<xmp>", "CODE_TICKS_DM")
 		text = text.replace("</xmp>", "CODE_TICKS")
 		text = text.replace("<p class=note>", "NOTE")
 		return text

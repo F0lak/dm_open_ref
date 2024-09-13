@@ -8,9 +8,9 @@ This is a list of every object in the world. Objects in this
 list are in no particular order.
 ### Example:
 
-```
- proc/ListAreas(mob/M) var/area/A M \<\< \"Areas:\" for (A in
-world.contents) M \<\< A 
+``` dm
+ proc/ListAreas(mob/M) var/area/A M \<\< \"Areas:\" for (A
+in world.contents) M \<\< A 
 ```
  
 

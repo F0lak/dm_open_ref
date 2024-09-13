@@ -11,14 +11,14 @@ Statement may be a block of
 code or a single statement.
 ### Example:
 
-```
+``` dm
  var/i = 3 do world \<\< i\-- while(i) 
 ```
 
 
 
 This outputs: 
-```
+``` dm
  3 2 1 
 ```
 

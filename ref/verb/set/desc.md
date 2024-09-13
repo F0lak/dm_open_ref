@@ -14,28 +14,24 @@ description, put your modified version inside parentheses at the
 beginning of the desc text.
 ### Example:
 
+``` dm
+ mob/verb/tell(mob/M,T as text) set desc =
+\"(target,message) Talk privately to someone.\" M \<\< \"\[usr\] tells
+you, \'\[T\]\" 
 ```
- mob/verb/tell(mob/M,T as text) set desc = \"(target,message)
-Talk privately to someone.\" M \<\< \"\[usr\] tells you, \'\[T\]\"
+ 
+
+This will produce the help text:
+
+``` dm
+ usage: tell target message (Talk privately to someone.)
 
 ```
  
 
-This will produce the help text: 
+If the syntax description had not been supplied, it
+would have produced: 
+``` dm
+ usage: tell mob \"text\" (Talk
+privately to someone.) 
 ```
- usage:
-tell target message (Talk privately to someone.) 
-```
- 
-
-If
-the syntax description had not been supplied, it would have produced:
-
-```
- usage: tell mob \"text\" (Talk privately to someone.)
-
-```
-
-
-> [!TIP] 
-> 

@@ -11,16 +11,16 @@ image processing, like for instance a blur or a drop shadow. Filters can
 be added or removed at will, and can even be animated. 
 
 A filter
-is created by using the [filter proc](/ref/proc/filter.md)  like so: 
+is created by using the [filter proc](/ref/proc/filter.md)  like so:
+
+``` dm
+ // halo effect mob.filters += filter(type=\"drop_shadow\",
+x=0, y=0,\\ size=5, offset=2, color=rgb(255,255,170)) 
 ```
 
-// halo effect mob.filters += filter(type=\"drop_shadow\", x=0, y=0,\\
-size=5, offset=2, color=rgb(255,255,170)) 
-```
- 
 
-These are
-the filters currently supported:
+
+These are the filters currently supported:
 -   [Alpha mask](/ref/%7Bnotes%7D/filters/alpha.md) 
 -   [Angular blur](/ref/%7Bnotes%7D/filters/angular_blur.md) 
 -   [Bloom](/ref/%7Bnotes%7D/filters/bloom.md) 

@@ -47,7 +47,7 @@ you will get a complete list of keys that have scores and stats
 associated with them.
 ### Example 1:
 
-```
+``` dm
  mob/var/scores_found mob/var/score = 0 mob/Login() ..()
 spawn() var/scores = world.GetScores(key) scores_found = !isnull(scores)
 if(scores) var/list/params = params2list(scores) if(params\[\"Score\"\])
@@ -85,14 +85,15 @@ displays \"Score\", then \"Level\", then the \"Score\" field is the
 default.
 ### Example 2:
 
-```
- mob/var/scores_found mob/Login() ..() spawn() var/top_scores
-= world.GetScores(10, \"Booty\") scores_found = !isnull(scores)
-if(scores) var/list/params = params2list(scores) src \<\< \"**Top
-Buccaneers:**\" for(var/i=1, iNote: You can specify a different hub path
-and hub_password by adding these as extra arguments, but this is not
-recommended for security reasons. If you use this feature, it should
-only be on games that cannot be downloaded by the public.
+``` dm
+ mob/var/scores_found mob/Login() ..() spawn()
+var/top_scores = world.GetScores(10, \"Booty\") scores_found =
+!isnull(scores) if(scores) var/list/params = params2list(scores) src
+\<\< \"**Top Buccaneers:**\" for(var/i=1, iNote: You can specify a
+different hub path and hub_password by adding these as extra arguments,
+but this is not recommended for security reasons. If you use this
+feature, it should only be on games that cannot be downloaded by the
+public.
 
 > [!TIP] 
 > **See also:**

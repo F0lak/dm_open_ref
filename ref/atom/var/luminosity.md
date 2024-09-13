@@ -10,6 +10,3 @@ must be an integer in the range 0 to 6.
 Areas are a little
 different. Any non-zero value in an area results in all objects within
 the area being bathed in light.
-
-> [!TIP] 
-> 

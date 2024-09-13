@@ -12,7 +12,7 @@ main file and can include extra files that are not normally part of the
 library.
 ### Example:
 
-```
+``` dm
  #ifdef \_\_MAIN\_\_ #include \"demo.dm\" #include
 \"demo.dmm\" #endif 
 ```

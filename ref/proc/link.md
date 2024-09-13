@@ -10,7 +10,7 @@ disconnect from the current world and connect to the specified one.
 
 
 The format of a BYOND url is as follows: 
-```
+``` dm
 
 byond://address:port?TopicData 
 ```
@@ -23,9 +23,9 @@ player has connected. If only a topic is specified, the current world
 processes it.
 ### Example:
 
-```
- usr \<\< link(\"byond://byond.com:6000\") //BYOND address usr
-\<\< link(\"http://www.byond.com\") //web address usr \<\<
+``` dm
+ usr \<\< link(\"byond://byond.com:6000\") //BYOND address
+usr \<\< link(\"http://www.byond.com\") //web address usr \<\<
 link(\"?myTopic\") //topic 
 ```
 

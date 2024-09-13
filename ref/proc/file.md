@@ -18,7 +18,7 @@ principle reason for using a file in the filesystem rather than a cached
 resource file (specified in single quotes).
 ### Example:
 
-```
+``` dm
  mob/verb/help() usr \<\< browse(file(\"help.html\"))
 
 ```

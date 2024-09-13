@@ -7,15 +7,15 @@ definition. A default value may be specified. Otherwise, arguments
 default to null.
 ### Example:
 
-```
+``` dm
  proc/Sum(a,b) return a + b 
 ```
 
 ### Example:
 
-```
- proc/set_mob_desc(mob/M,desc=\"big and bad\") M.desc = desc
-world \<\< \"The new desc for \[M\] is \[desc\].\" 
+``` dm
+ proc/set_mob_desc(mob/M,desc=\"big and bad\") M.desc =
+desc world \<\< \"The new desc for \[M\] is \[desc\].\" 
 ```
 
 

@@ -774,6 +774,9 @@
 ###### BYOND Version C
 ###### BYOND Version K
 ###### BYOND Version S
+###### BYOND Version _
+###### BYOND Version D
+###### BYOND Version M
 ###### BYOND Version  
 ###### BYOND Version w
 ###### BYOND Version o

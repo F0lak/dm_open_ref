@@ -58,6 +58,3 @@ obj/var
 +   [x](/ref/atom/var/x.md) 
 +   [y](/ref/atom/var/y.md) 
 +   [z](/ref/atom/var/z.md) 
-
-> [!TIP] 
-> 

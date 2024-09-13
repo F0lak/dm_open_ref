@@ -23,9 +23,9 @@ still be verified by confirming that `sha1(password)==hash`. SHA1 is a
 widely-used hash function.
 ### Example:
 
-```
- mob/var/hash mob/Read(savefile/S) ..() // hash was saved in
-the file along with other values
+``` dm
+ mob/var/hash mob/Read(savefile/S) ..() // hash was saved
+in the file along with other values
 if(sha1(\"\[level\]/\[exp\]/\[exp_needed\]\") != hash) src \<\<
 \"Cheater!\" del(src) 
 ```
@@ -45,9 +45,9 @@ file\'s entire contents. If the file doesn\'t exist, it returns null.
 The file may be a cache file or an external file.
 ### Examples:
 
-```
- var/hash = \"(insert hash value here)\" // Compute this ahead
-of time // Check that the cached default icon is still the same if
+``` dm
+ var/hash = \"(insert hash value here)\" // Compute this
+ahead of time // Check that the cached default icon is still the same if
 (sha1(\'default.dmi\') != hash) world \<\< \"The default icon has been
 modified!\" // Or check that the entire game resource file is pristine
 if (sha1(file(\"mygame.rsc\")) != hash) world \<\< \"The game resources

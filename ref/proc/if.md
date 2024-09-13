@@ -15,7 +15,7 @@ Statement1, Statement2, and Statement3 may be a single
 statement or a code block with optional braces: {}.
 ### Example:
 
-```
+``` dm
  if(T==1) world \<\< \"TRUE\" else world \<\< \"FALSE\"
 
 ```

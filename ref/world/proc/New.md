@@ -9,6 +9,3 @@
 <!-- -->
 **Default action:**
 +   None.
-
-> [!TIP] 
-> 

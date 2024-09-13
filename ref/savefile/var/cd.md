@@ -9,7 +9,7 @@ non-existent directory. This new directory will not be saved to disk
 unless its buffer (or one of its children) is modified, however.
 ### Example:
 
-```
+``` dm
  var/savefile/F = new() // temporary file F.cd =
 \"/MyDir/Icon\" F.cd = \"..\" // change to /MyDir F.cd = \"Icon\" //
 change to /MyDir/Icon 

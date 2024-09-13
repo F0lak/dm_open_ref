@@ -13,7 +13,7 @@ The following example handles addition of somebody else to your
 group.
 ### Example:
 
-```
+``` dm
  mob/verb/join(mob/M) usr.group.Add(M) // add M to usr\'s
 group view() \<\< \"\[usr\] joins \[M\].\" mob/verb/disband(mob/M)
 usr.group.Remove(M) // remove M from group view() \<\< \"\[usr\]
@@ -29,9 +29,9 @@ not.
 Here is an example of a verb accessible to a group:
 ### Example:
 
-```
- mob/verb/summon() set src in usr.group loc = usr.loc view()
-\<\< \"\[usr\] summons \[src\].\" 
+``` dm
+ mob/verb/summon() set src in usr.group loc = usr.loc
+view() \<\< \"\[usr\] summons \[src\].\" 
 ```
 
 

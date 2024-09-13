@@ -23,6 +23,3 @@ Dream Seeker.
 
 Connections to worlds on the same machine are not
 hub-authenticated to allow for convenient offline testing.
-
-> [!TIP] 
-> 

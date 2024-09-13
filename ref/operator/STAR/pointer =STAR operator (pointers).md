@@ -16,11 +16,11 @@ on the left-hand side of assignment operations, for instance `*A = B` or
 `*X += Y`, to store the result in the place the pointer indicates.
 ### Example:
 
-```
- atom/proc/PixelPos(px, py) // get an exact step position \*px
-= (x-1) \* 32 // this code assumes a 32x32 icon size \*py = (y-1) \* 32
-atom/movable/PixelPos(px, py) // get an exact step position ..() \*px +=
-step_x // this code assumes a 32x32 icon size \*py += step_y
+``` dm
+ atom/proc/PixelPos(px, py) // get an exact step position
+\*px = (x-1) \* 32 // this code assumes a 32x32 icon size \*py = (y-1)
+\* 32 atom/movable/PixelPos(px, py) // get an exact step position ..()
+\*px += step_x // this code assumes a 32x32 icon size \*py += step_y
 mob/verb/WhereAmI() var/X, Y PixelPos(&X, &Y) usr \<\< \"You are at
 \[X\],\[Y\] on level \[z\]\" 
 ```

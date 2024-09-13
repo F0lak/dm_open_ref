@@ -107,29 +107,29 @@ drawn, but its color, transform, and blend_mode are all taken into
 account when drawing.
 ### Example
 
-```
- obj/lighting_plane screen_loc = \"1,1\" plane = 2 blend_mode
-= BLEND_MULTIPLY appearance_flags = PLANE_MASTER \| NO_CLIENT_COLOR //
-use 20% ambient lighting; be sure to add full alpha color =
-list(null,null,null,null,\"#333f\") mouse_opacity = 0 // nothing on this
-plane is mouse-visible image/spotlight plane = 2 blend_mode = BLEND_ADD
-icon = \'spotlight.dmi\' // a 96x96 white circle pixel_x = -32 pixel_y =
--32 mob/Login() ..() client.screen += new/obj/lighting_plane overlays +=
-/image/spotlight 
+``` dm
+ obj/lighting_plane screen_loc = \"1,1\" plane = 2
+blend_mode = BLEND_MULTIPLY appearance_flags = PLANE_MASTER \|
+NO_CLIENT_COLOR // use 20% ambient lighting; be sure to add full alpha
+color = list(null,null,null,null,\"#333f\") mouse_opacity = 0 // nothing
+on this plane is mouse-visible image/spotlight plane = 2 blend_mode =
+BLEND_ADD icon = \'spotlight.dmi\' // a 96x96 white circle pixel_x = -32
+pixel_y = -32 mob/Login() ..() client.screen += new/obj/lighting_plane
+overlays += /image/spotlight 
 ```
  
 
-In the example, all objects in
-plane 2 are lights. They\'re added together, and then the whole image is
-put through the color matrix, then multiplied over the rest of the scene
-below. This will darken everything that doesn\'t have a spotlight
-overlay, but anywhere a spotlight exists will have a circle of light.
+In the example, all
+objects in plane 2 are lights. They\'re added together, and then the
+whole image is put through the color matrix, then multiplied over the
+rest of the scene below. This will darken everything that doesn\'t have
+a spotlight overlay, but anywhere a spotlight exists will have a circle
+of light. 
 
-
-The example also makes a point of adding full alpha to the
-plane, because a plane is fully transparent by default. However, it\'s
-usually a better idea not to mess with the alpha color, and instead use
-another icon, scaled to the appropriate size, as a backdrop.
+The example also makes a point of adding full alpha
+to the plane, because a plane is fully transparent by default. However,
+it\'s usually a better idea not to mess with the alpha color, and
+instead use another icon, scaled to the appropriate size, as a backdrop.
 
 
 The [mouse_opacity](/ref/atom/var/mouse_opacity.md)  set by the

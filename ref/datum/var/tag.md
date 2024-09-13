@@ -18,7 +18,7 @@ following example demonstrates how to set a tag and use it to obtain a
 reference to an object.
 ### Example:
 
-```
+``` dm
  mob/verb/test() var/obj/O = new() O.tag = \"My Object\"
 var/obj/O2 = locate(\"My Object\") ASSERT(O == O2) //this should always
 be true 

@@ -10,6 +10,3 @@ Displays text output.
 +   [max-lines](/ref/%7Bskin%7D/param/max-lines.md) 
 +   [style](/ref/%7Bskin%7D/param/style.md) 
 +   [visited-color](/ref/%7Bskin%7D/param/visited-color.md) 
-
-> [!TIP] 
-> 

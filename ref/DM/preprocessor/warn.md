@@ -11,9 +11,9 @@ The #warn directive displays the specified message as a
 warning, but does not prevent the project from compiling.
 ### Example:
 
-```
- #ifdef USE_LIGHTING #warn The lighting feature in MyLibrary
-is experimental. #endif 
+``` dm
+ #ifdef USE_LIGHTING #warn The lighting feature in
+MyLibrary is experimental. #endif 
 ```
 
 

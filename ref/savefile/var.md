@@ -9,6 +9,3 @@ savefile/var
 +   [dir](/ref/savefile/var/dir.md) 
 +   [eof](/ref/savefile/var/eof.md) 
 +   [name](/ref/savefile/var/name.md) 
-
-> [!TIP] 
-> 

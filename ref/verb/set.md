@@ -17,6 +17,3 @@ verb settings:
 Procs and verbs are the same \"type\" so these attributes may
 be set for procs as well; most of them do not have any meaning, however,
 unless the proc is invoked as a verb (by adding it to a verb list).
-
-> [!TIP] 
-> 

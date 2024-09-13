@@ -29,7 +29,7 @@ If the lookup fails for any reason, a runtime error
 will be thrown.
 ### Example:
 
-```
+``` dm
  var/logfunc proc/LogLine(msg) logfunc \|\|=
 load_ext(\"my_lib\", \"byond:OutputToLog\") call_ext(logfunc)(msg)
 

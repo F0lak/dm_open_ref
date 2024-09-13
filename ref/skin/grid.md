@@ -22,7 +22,7 @@ of output data.
 Sending output to a grid looks like this:
 ### Example:
 
-```
+``` dm
  // output to column 3, row 2 winset(usr, \"thegrid\",
 \"current-cell=3,2\") usr \<\< output(\"Text\", \"thegrid\") // or even
 easier: usr \<\< output(\"Text\", \"thegrid:3,2\") // when is-list is
@@ -50,6 +50,3 @@ to output in grid controls:
     for left, right, top, bottom.
 -   There will always be a 1-pixel space for grid lines, whether
     they\'re shown or not.
-
-> [!TIP] 
-> 

@@ -15,6 +15,3 @@ atom/movable/var
 +   [step_size](/ref/atom/movable/var/step_size.md) 
 +   [step_x](/ref/atom/movable/var/step_x.md) 
 +   [step_y](/ref/atom/movable/var/step_y.md) 
-
-> [!TIP] 
-> 

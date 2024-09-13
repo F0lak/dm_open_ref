@@ -7,7 +7,7 @@
 +   The cosine of X, where X is in degrees.
 ### Example:
 
-```
+``` dm
  mob/verb/test() usr \<\< cos(0) // 1 usr \<\< cos(45) //
 0.707\... usr \<\< cos(90) // 0 
 ```

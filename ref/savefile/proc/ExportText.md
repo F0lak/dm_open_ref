@@ -20,7 +20,7 @@ as their [ckey](/ref/mob/var/ckey.md) and the result is written to a text
 file.
 ### Example:
 
-```
+``` dm
  mob/verb/write() var/savefile/F = new() var/txtfile =
 file(\"players/\[ckey\].txt\") F\[ckey\] \<\< usr fdel(txtfile)
 F.ExportText(\"/\",txtfile) usr \<\< \"Your savefile looks like this:\"

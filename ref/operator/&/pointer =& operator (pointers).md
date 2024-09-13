@@ -17,9 +17,9 @@ that var. Then you can use the `*` operator to refer to the value inside
 the pointer, or even to assign a value to it.
 ### Example:
 
-```
- var/a=3, b=4 var/p = &a world \<\< \*p // same as world \<\<
-a \*p = 5 // same as a = 5 var/list/L = list(1, 2, 3) var/list/pl =
+``` dm
+ var/a=3, b=4 var/p = &a world \<\< \*p // same as world
+\<\< a \*p = 5 // same as a = 5 var/list/L = list(1, 2, 3) var/list/pl =
 &L\[2\] \*pl \*= 10 // same as L\[2\] \*= 10 
 ```
  

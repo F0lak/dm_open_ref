@@ -32,7 +32,7 @@ objects, use atom.MouseWheel() instead which is more selective.
 
 
 The argument format for this verb is: 
-```
+``` dm
 
 MouseWheel(object as null\|atom in usr.client,\\ delta_x as num, delta_y
 as num,\\ location as null\|turf\|text in usr.client,\\ control as text,

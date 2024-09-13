@@ -12,43 +12,44 @@ The following
 example shows several ways of producing the same call to a procedure.
 ### Example:
 
-```
- mob/proc/MyProc(a,b,c) src \<\< \"MyProc(\[a\],\[b\],\[c\])\"
-mob/verb/test() MyProc(1,2,3) //positional parameters
-MyProc(a=1,b=2,c=3) //named arguments MyProc(1,b=2,c=3) //positional and
-named arguments MyProc(c=3,a=1,b=2) //named arguments can come in any
-order 
+``` dm
+ mob/proc/MyProc(a,b,c) src \<\<
+\"MyProc(\[a\],\[b\],\[c\])\" mob/verb/test() MyProc(1,2,3) //positional
+parameters MyProc(a=1,b=2,c=3) //named arguments MyProc(1,b=2,c=3)
+//positional and named arguments MyProc(c=3,a=1,b=2) //named arguments
+can come in any order 
 ```
  
 
-To prevent silent errors, named arguments that
-do not match any of the arguments of the procedure being called will
-generate a runtime error. This is somewhat different from the behavior
-of positional arguments in DM where it is perfectly acceptable to pass
-more arguments than were explicitly defined in the procedure.
+To prevent silent errors,
+named arguments that do not match any of the arguments of the procedure
+being called will generate a runtime error. This is somewhat different
+from the behavior of positional arguments in DM where it is perfectly
+acceptable to pass more arguments than were explicitly defined in the
+procedure. 
+
+As always, arguments that are not assigned in the
+call will simply be given the value null (or whatever default value is
+specified in the definition). 
+
+When an object procedure is
+overridden, the variable names in the new definition are the ones that
+get matched against named arguments in a call to that procedure. A
+procedure which is intended to support named arguments should therefore
+be defined with care so as to conform to the interface expected by users
+of the procedure. That doesn\'t stop you from changing that interface
+when overriding a procedure, but the normal case would be to preserve
+the argument names of the base procedure when overriding it.
 
 
-As always, arguments that are not assigned in the call will
-simply be given the value null (or whatever default value is specified
-in the definition). 
-
-When an object procedure is overridden, the
-variable names in the new definition are the ones that get matched
-against named arguments in a call to that procedure. A procedure which
-is intended to support named arguments should therefore be defined with
-care so as to conform to the interface expected by users of the
-procedure. That doesn\'t stop you from changing that interface when
-overriding a procedure, but the normal case would be to preserve the
-argument names of the base procedure when overriding it. 
-
-The
-following example is not useful, but it illustrates a situation where a
-procedure is overridden so as to preserve the same argument names and
-positions. As mentioned above, you are not *required* to preserve either
-the names or positions, but that is usually what you want.
+The following example is not useful, but it illustrates a
+situation where a procedure is overridden so as to preserve the same
+argument names and positions. As mentioned above, you are not *required*
+to preserve either the names or positions, but that is usually what you
+want.
 ### Example:
 
-```
+``` dm
  mob proc/MyProc(a,b,c) usr \<\<
 \"mob.MyProc(\[a\],\[b\],\[c\])\" mob/verb/test() MyProc(a=1,b=2,c=3)
 special_mob MyProc(a,b,c,d) if(d) ..() //pass in same order else

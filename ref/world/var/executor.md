@@ -16,7 +16,7 @@ Optional parameters may follow. The
 most common are -CGI and -logself.
 ### Example:
 
-```
+``` dm
  world/executor = \"/usr/local/byond/bin/DreamDaemon -CGI
 -logself\" 
 ```

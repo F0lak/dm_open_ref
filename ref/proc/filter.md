@@ -15,7 +15,7 @@ types of filters are available and what parameters they accept, see
 [Filter effects](/ref/%7Bnotes%7D/filters.md) 
 ### Example:
 
-```
+``` dm
  atom/proc/Highlight(apply) if(apply) filters =
 filter(type=\"outline\", size=1, color=rgb(255,0,0)) else filters = null
 

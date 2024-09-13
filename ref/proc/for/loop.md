@@ -19,20 +19,20 @@ omitted, the loop will continue forever (unless a break, goto, or return
 instruction is used to get out of the loop).
 ### Example:
 
-```
+``` dm
  var/i for(i=0, i\<3, i++) world \<\< i 
 ```
 
 
 
 This outputs: 
-```
+``` dm
  0 1 2 
 ```
  
 
-Note: An Inc
-statement like `i += 0.1` is perfectly valid, but you should keep in
+Note: An
+Inc statement like `i += 0.1` is perfectly valid, but you should keep in
 mind that numerical accuracy is not exact. See
 [Numbers](/ref/%7Bnotes%7D/numbers.md)  for more information.
 ### C-like syntax
@@ -45,7 +45,7 @@ of commas to separate Init, Test, and Inc. Instead the comma is treated
 as a way of stringing multiple statements together.
 ### Example:
 
-```
+``` dm
  // make this syntax change temporary #pragma push #pragma
 syntax C for var/i,j for(i=j=0; i\<=10; ++i,j+=i) world \<\< \"A
 triangle \[i\] block\\s high has \[j\] block\\s total.\" #pragma pop

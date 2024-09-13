@@ -10,6 +10,3 @@ A text label that appears on the skin.
 +   [keep-aspect](/ref/%7Bskin%7D/param/keep-aspect.md) 
 +   [text](/ref/%7Bskin%7D/param/text.md) 
 +   [text-wrap](/ref/%7Bskin%7D/param/text-wrap.md) 
-
-> [!TIP] 
-> 

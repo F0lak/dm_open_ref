@@ -21,10 +21,10 @@ then `bound_pixloc(atom, SOUTHWEST)` will differ from `atom.pixloc`.
 If the atom is not directly on the map, this value is null.
 ### Example:
 
-```
- mob/verb/DistanceTo(atom/A) var/my_center = bound_pixloc(src,
-0) var/A_center = bound_pixloc(A, 0) var/vector/V = A_center - my_center
-return length(V) 
+``` dm
+ mob/verb/DistanceTo(atom/A) var/my_center =
+bound_pixloc(src, 0) var/A_center = bound_pixloc(A, 0) var/vector/V =
+A_center - my_center return length(V) 
 ```
 
 

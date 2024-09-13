@@ -15,7 +15,7 @@ loads an icon file, reddens it, and then assigns it back to the
 player\'s icon, which implicitly creates a new icon file.
 ### Example:
 
-```
+``` dm
  mob/verb/test() var/icon/I = new(\'player.dmi\')
 I.Blend(rgb(40,0,0)) usr.icon = I 
 ```

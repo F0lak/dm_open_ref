@@ -12,7 +12,7 @@ The following example illustrates the syntax for entering a
 typical set of macros.
 ### Example;
 
-```
+``` dm
  macro ALT+I return \"inventory\" ALT+SHIFT+I return
 \"inventory\\nequipment\" //multiple commands ALT+s return \"say
 \\\...\" //command to be edited 

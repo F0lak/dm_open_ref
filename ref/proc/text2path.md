@@ -10,7 +10,7 @@
 +   a type path or null.
 ### Example:
 
-```
+``` dm
  var/myturf = text2path(\"/turf/\[src.color\]\") if(myturf)
 src.loc = locate(myturf) 
 ```

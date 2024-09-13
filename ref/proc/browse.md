@@ -49,7 +49,7 @@ display
     simply sent to the user and expected to be referenced later. This
     might be useful, for instance, to first send an image to a user and
     then display a web page that uses that image: 
-```
+``` dm
  usr \<\<
     browse(\'monster.png\',\"display=0\") usr \<\<
     browse(\"![](monster.png)A scary monster appears from the mist!\")
@@ -100,7 +100,7 @@ The
 following example displays a help page in a popup window.
 ### Example:
 
-```
+``` dm
  var/const/help = {\"
 You are beyond help!
 \"} client/verb/help() usr \<\< browse(help,\"window=help\") 
@@ -112,7 +112,7 @@ window is the same name you gave the popup, and the browser is
 \"\[windowname\].browser\".
 ### Example:
 
-```
+``` dm
  client/verb/more_help() usr \<\< output(\"You are still
 beyond help!\", \"help.browser\") 
 ```

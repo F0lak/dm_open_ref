@@ -10,6 +10,3 @@ no players and no procs waiting to happen. The main purpose of the
 variable is to save the cpu from doing work when there is nobody around
 to appreciate it. On the other hand, that doesn\'t give the poor NPC\'s
 a break from the nasty humans.
-
-> [!TIP] 
-> 

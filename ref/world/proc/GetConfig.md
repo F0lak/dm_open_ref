@@ -16,16 +16,16 @@ is shared by applications installed on the same system. The
 configuration data is accessed by specifying the configuration \"set\"
 and the parameter within that set. The \"sets\" defined so far are:
 
-```
- env system environment variables (changes are not persistent)
-admin list of site administrators ban list of banned users or IP
-addresses keyban list of banned users (deprecated) ipban list of banned
-addresses (deprecated) 
+``` dm
+ env system environment variables (changes are not
+persistent) admin list of site administrators ban list of banned users
+or IP addresses keyban list of banned users (deprecated) ipban list of
+banned addresses (deprecated) 
 ```
  
 
-If no parameter is specified,
-a list of the names of all available parameters is returned.
+If no parameter is
+specified, a list of the names of all available parameters is returned.
 
 
 The format of the configuration data itself is currently being
@@ -35,7 +35,7 @@ ckey or ckeyEx as the parameter, and might have data such as
 \"reason=jerkish;message=You+jerk!\".
 ### Example:
 
-```
+``` dm
  mob/verb ban(key as text)
 world.SetConfig(\"ban\",ckey(key),\"reason=fiendish;admin=\[ckey\]\")
 lookban(key as null\|text) if(key) usr \<\< \"\[key\]:
@@ -68,16 +68,16 @@ but even then, the default behavior is almost always what you want.
 
 The configuration space is specified inside the configuration
 set parameter like this: 
-```
- world.SetConfig(\"APP/keyban\",\...)
+``` dm
 
+world.SetConfig(\"APP/keyban\",\...) 
 ```
  
 
-When reading configuration settings, the spaces are
-always lumped together. In cases of settings with the same name but
-different values, APP overrides HOME, which overrides USER, which
-overrides SYSTEM.
+When reading
+configuration settings, the spaces are always lumped together. In cases
+of settings with the same name but different values, APP overrides HOME,
+which overrides USER, which overrides SYSTEM.
 ### Ban Format
 
 

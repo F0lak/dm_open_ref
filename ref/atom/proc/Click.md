@@ -21,7 +21,7 @@ The following example allows the player to walk to a position
 by clicking it.
 ### Example:
 
-```
+``` dm
  turf/Click() walk_to(usr,src) 
 ```
 

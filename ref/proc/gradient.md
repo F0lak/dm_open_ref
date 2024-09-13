@@ -24,27 +24,27 @@ The simplest way to use this proc is to interpolate
 between two colors:
 ### Example:
 
+``` dm
+ // 20% of the way from red to black // prints #cc0000
+which is rgb(204,0,0) src \<\< gradient(\"red\", \"black\", 0.2)
+
 ```
- // 20% of the way from red to black // prints #cc0000 which
-is rgb(204,0,0) src \<\< gradient(\"red\", \"black\", 0.2) 
-```
+ 
 
+Anything that applies to color gradients can be used
+in this proc, so you can have a looping gradient, or a gradient that
+uses a color space other than RGB. 
 
-
-Anything that applies to color gradients can be used in this
-proc, so you can have a looping gradient, or a gradient that uses a
-color space other than RGB. 
-
-In the first format where you
-specify all the items separately, you can use [named
+In the first format where
+you specify all the items separately, you can use [named
 arguments](/ref/proc/arguments/named.md) for `index` and `space` (the
 gradient\'s color space). If you don\'t specify an argument called
 \"index\", the last argument is assumed to be the index.
 ### Example:
 
-```
- // This gradient loops through all the hues and goes from 0
-to 6. // Because this is a looping gradient, index=10 becomes index=4.
+``` dm
+ // This gradient loops through all the hues and goes from
+0 to 6. // Because this is a looping gradient, index=10 becomes index=4.
 // In HSL, this will give you blue (#0000ff). src \<\< gradient(0,
 \"#f00\", 3, \"#0ff\", 6, \"#f00\", \"loop\", space=COLORSPACE_HSL,
 index=10) 
@@ -55,7 +55,7 @@ The `gradient(Gradient, index)` format is
 used for cases where you want to pass an existing gradient to the proc.
 ### Example:
 
-```
+``` dm
  var/candy_cane_gradient =
 list(0.5,\"red\",0.5,\"white\",\"loop\") // the color output alternates
 between red and white depending on the current time src \<\<

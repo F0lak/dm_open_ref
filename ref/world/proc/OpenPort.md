@@ -21,7 +21,7 @@ is, calling ..() is necessary to open the port. If ..() is not called,
 it will not open.
 ### Example:
 
-```
+``` dm
  world/OpenPort(port) // only allow subscribers to host
 if(host_is_subscribed) return ..() 
 ```

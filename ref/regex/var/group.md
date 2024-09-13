@@ -7,12 +7,12 @@ parentheses groups, whatever text was matched in those groups is stored
 here in a list.
 ### Example
 
+``` dm
+ var/regex/R = new(\"B(.)(.)(.)D\") R.Find(\"BYOND\") //
+find this pattern in \"BYOND\" 
 ```
- var/regex/R = new(\"B(.)(.)(.)D\") R.Find(\"BYOND\") // find
-this pattern in \"BYOND\" 
-```
- The result of the example is that
-R.group is list(\"Y\",\"O\",\"N\").
+ The result of the example is
+that R.group is list(\"Y\",\"O\",\"N\").
 
 > [!TIP] 
 > **See also:**

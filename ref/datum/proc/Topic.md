@@ -13,7 +13,7 @@ when the href contains a parameter called \"src\" containing an object
 reference.
 ### Example:
 
-```
+``` dm
  mob/verb/test() usr \<\< \"Click
 [here](?src=\ref%5Bsrc%5D;action=startgame)!\"
 mob/Topic(href,href_list\[\]) switch(href_list\[\"action\"\])

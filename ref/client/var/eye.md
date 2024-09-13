@@ -27,15 +27,15 @@ If a player connects to a new mob M,
 client.eye automatically changes to M.
 ### Example:
 
-```
+``` dm
  client eye = locate(5,5,1) 
 ```
  
 
-This fixes the
-center of the player\'s map at the turf coordinate (5,5,1). Since the
-eye is fixed, the map will not scroll even as the player\'s mob moves
-out of the visible range.
+This fixes
+the center of the player\'s map at the turf coordinate (5,5,1). Since
+the eye is fixed, the map will not scroll even as the player\'s mob
+moves out of the visible range.
 
 > [!TIP] 
 > **See also:**

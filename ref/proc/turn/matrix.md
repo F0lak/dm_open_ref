@@ -11,7 +11,7 @@
 +   Angle: An angle in degrees (clockwise rotation).
 ### Example:
 
-```
+``` dm
  mob/verb/drink() //this effect is very confusing!
 usr.transform = turn(usr.transform, 90) usr \<\< \"Woah! That stuff is
 powerful!\" sleep(200) usr.transform = null 

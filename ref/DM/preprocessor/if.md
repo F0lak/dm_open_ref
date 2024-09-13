@@ -23,9 +23,9 @@ conditional expression. It is true if its argument is a defined macro
 (with `#define`) and false otherwise.
 ### Example:
 
-```
- #if defined(DEBUG) // This code will be compiled if DEBUG is
-// defined #else // This code will be compiled if DEBUG is // not
+``` dm
+ #if defined(DEBUG) // This code will be compiled if DEBUG
+is // defined #else // This code will be compiled if DEBUG is // not
 defined #endif 
 ```
  

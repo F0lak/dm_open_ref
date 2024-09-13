@@ -46,6 +46,3 @@ only change the text color.
   :visited       ✔️       
   :active                 
   :hover                  ✔️
-
-> [!TIP] 
-> 

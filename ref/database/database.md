@@ -15,7 +15,7 @@ values (such as INTEGER or FLOAT), text (TEXT), and cache files such as
 icons (BLOB). Null values are also allowed.
 ### Example:
 
-```
+``` dm
  var/database/db = new(\"mydb.db\") var/database/query/q =
 new(\"SELECT \* FROM my_table WHERE name=?\", usr.key) if(q.Execute(db)
 && q.NextRow()) // returns a list such as list(name=\"MyName\",

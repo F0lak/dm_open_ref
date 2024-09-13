@@ -38,7 +38,7 @@ message to display to the user. A reason for the ban can be added with a
 insert these values directly into the list that is returned.
 ## Example
 
-```
+``` dm
  world/IsBanned(key,address) . = ..() //check the ban lists
 if(istype(., /list)) .\[\"Login\"\] = 1 //allow banned user to login
 

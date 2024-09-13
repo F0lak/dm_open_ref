@@ -25,6 +25,3 @@ world/proc
 +   [SetScores](/ref/world/proc/SetScores.md) 
 +   [Tick](/ref/world/proc/Tick.md) 
 +   [Topic](/ref/world/proc/Topic.md) 
-
-> [!TIP] 
-> 

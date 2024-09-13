@@ -16,7 +16,7 @@ to the next item in the list. In a `while` or `do-while` loop,
 `continue` jumps to the condition in the `while` statement.
 ### Example:
 
-```
+``` dm
  client/verb/who() var/mob/M usr \<\< \"Players:\" for(M in
 world) if(M == usr) continue if(M.key) usr \<\< M.key 
 ```
@@ -33,7 +33,7 @@ by using `continue` and its companion `break`.
 Here is an
 example using a label to continue an outer loop from inside an inner
 one: 
-```
+``` dm
  client/verb/loners() var/mob/M var/mob/G usr \<\<
 \"Loners:\" finding_loners: for(M in world) for(G in world) if(M in
 G.group) continue finding_loners //found a loner usr \<\< M.name

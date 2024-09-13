@@ -17,7 +17,7 @@ Multiple warning names can be used in the same pragma,
 separated by commas.
 ### Example:
 
-```
+``` dm
  // temporarily ignore the unused_var warning #pragma push
 #pragma ignore unused_var proc/GNDN() var/nothing // var defined but not
 used #pragma pop 

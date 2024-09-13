@@ -18,7 +18,7 @@ uses `"[x1],[y1] to [x2],[y2]"`. It can also use directions such as
 `"SOUTHWEST to NORTHEAST"`, which refer to the limits of the map.
 ### Example:
 
-```
+``` dm
  area/house var/x1,x2,y1,y2 Entered(mob/M) if(ismob(M) &&
 M.client) M.client.edge_limit = \"\[x1\],\[y1\] to \[x2\],\[y2\]\"
 Exited(mob/M) if(ismob(M) && M.client) M.client.edge_limit = null

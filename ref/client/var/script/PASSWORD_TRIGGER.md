@@ -12,6 +12,3 @@ defined as necessary.
 The example above is more robust than the
 more polite version because it works whether they capitalize the \'P\'
 or not\...
-
-> [!TIP] 
-> 

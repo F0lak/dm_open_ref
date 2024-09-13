@@ -132,9 +132,9 @@ An example mouse macro command might look like this:
 
 
 And the verb to go with it looks like this: 
-```
- client
-// \"in src\" is the same as \"in usr.client\" here
+``` dm
+
+client // \"in src\" is the same as \"in usr.client\" here
 verb/my_mousedown_verb(object as anything in src, button as text, params
 as text) 
 ```
@@ -386,6 +386,3 @@ Left button, mappable by a gamepad button.
 Right button, mappable by a gamepad button.
 `MouseMiddleButton`
 Middle button, mappable by a gamepad button.
-
-> [!TIP] 
-> 

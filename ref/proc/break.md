@@ -11,16 +11,16 @@ specified, the innermost loop containing the `break` statement is
 assumed.
 ### Example:
 
+``` dm
+ obj/zapper verb/use() var/mob/M for(M in view())
+if(!M.key) break if(!M) M = usr M \<\< \"ZAP!\" del(M) 
 ```
- obj/zapper verb/use() var/mob/M for(M in view()) if(!M.key)
-break if(!M) M = usr M \<\< \"ZAP!\" del(M) 
-```
- 
 
-The
-zapper object kills the first mob it finds that doesn\'t belong to a
-player. If none can be found, it kills the user. Be careful! Note how
-this code takes advantage of the fact that the loop variable
+
+
+The zapper object kills the first mob it finds that doesn\'t
+belong to a player. If none can be found, it kills the user. Be careful!
+Note how this code takes advantage of the fact that the loop variable
 `M`{.variable} will be `null` if the loop terminates normally.
 
 

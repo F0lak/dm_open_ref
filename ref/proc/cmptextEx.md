@@ -18,14 +18,15 @@ combined to conserve memory, cmptextEx(T1,T2) is equivalent to (T1 ==
 T2).
 ### Example:
 
-```
- if(cmptextEx(\"Hi\",\"HI\")) world \<\< \"Equal!\" else world
-\<\< \"Not equal!\" 
+``` dm
+ if(cmptextEx(\"Hi\",\"HI\")) world \<\< \"Equal!\" else
+world \<\< \"Not equal!\" 
 ```
  
 
-This outputs \"Not equal!\"
-since \"Hi\" and \"HI\" are different when taking case into account.
+This outputs \"Not
+equal!\" since \"Hi\" and \"HI\" are different when taking case into
+account.
 Note: This proc used to be named cmpText, like cmptext but with a
 capital T. To avoid confusion it has been renamed, but old code will
 still compile.

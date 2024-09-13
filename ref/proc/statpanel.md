@@ -22,7 +22,7 @@ changes the default panel. Otherwise, the default panel is unchanged and
 a stat line is appended to Panel.
 ### Example:
 
-```
+``` dm
  mob/Stat() stat(\"description\",src.desc) if(src == usr)
 statpanel(\"inventory\",src.contents) 
 ```

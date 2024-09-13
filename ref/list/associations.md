@@ -7,7 +7,7 @@ with another value. This is done by using the item as an index into the
 list.
 ### Example:
 
-```
+``` dm
  var/params\[0\] params\[\"player\"\] = \"James Byond\"
 params\[\"score\"\] = 2000 //List now contains (\"player\",\"score\")
 //These are associated with (\"James Byond\",2000) usr \<\< \"Looping
@@ -48,23 +48,23 @@ The [list()](/ref/proc/list.md)  or
 associative lists.
 ### Example:
 
-```
- var/list/lst = list(\"player\" = \"James Byond\", \"score\" =
-2000) 
-```
- 
-
-When the index values happen to be text
-strings that satisfy all the requirements for variable names, this may
-also be written in a convenient short-hand: 
-```
- var/list/lst =
-list(player = \"James Byond\", score = 2000) 
+``` dm
+ var/list/lst = list(\"player\" = \"James Byond\",
+\"score\" = 2000) 
 ```
  
 
-In
-other words, this is exactly the same syntax as for [named
+When the index values happen to be
+text strings that satisfy all the requirements for variable names, this
+may also be written in a convenient short-hand: 
+``` dm
+
+var/list/lst = list(player = \"James Byond\", score = 2000) 
+```
+
+
+
+In other words, this is exactly the same syntax as for [named
 arguments](/ref/proc/arguments/named.md) . 
 
 The [`alist`

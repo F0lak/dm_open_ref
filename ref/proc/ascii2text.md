@@ -17,14 +17,15 @@ symbols in HTML. This proc converts an ASCII code to its corresponding
 text representation.
 ### Example:
 
-```
+``` dm
  T = ascii2text(65) // = \"A\" 
 ```
  
 
-BYOND now
-supports [Unicode](/ref/%7Bnotes%7D/Unicode.md) via UTF-8 encoding, so you can
-use the character code for any valid Unicode character, not just ASCII.
+BYOND
+now supports [Unicode](/ref/%7Bnotes%7D/Unicode.md) via UTF-8 encoding, so you
+can use the character code for any valid Unicode character, not just
+ASCII.
 
 > [!TIP] 
 > **See also:**

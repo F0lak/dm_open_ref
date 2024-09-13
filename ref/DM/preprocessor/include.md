@@ -25,14 +25,14 @@ other source code. You can view the contents of that file by creating a
 file with that name in Dream Maker.
 ### Example:
 
-```
- #include \"test.dm\" // checks ./test.dm #include // checks
-lib-path/test.dm 
+``` dm
+ #include \"test.dm\" // checks ./test.dm #include //
+checks lib-path/test.dm 
 ```
  
 
-The BYOND lib directory is called
-`"lib"` and is located in the BYOND system directory (typically
+The BYOND lib directory is
+called `"lib"` and is located in the BYOND system directory (typically
 `"\Program Files\Byond\lib"`). If the file is not found there, it also
 looks in the user lib directory, which would typically be
 `"...\Byond\user\`*`login-name`*`\lib"`. 

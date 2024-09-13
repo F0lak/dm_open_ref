@@ -108,6 +108,3 @@ parameter, so they handled the `left`, `middle`, and `right` parameters
 differently. In old versions, only the button used in the action (left,
 middle, right) was included as a parameter; now all buttons being held
 or changed are included, and `button` is the mouse button that changed.
-
-> [!TIP] 
-> 

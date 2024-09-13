@@ -105,6 +105,3 @@ raw
 The `arg` type is the default, unless the `[[`*\...*`]]`
 expression has double quotes on both sides, in which case `escaped` is
 the default.
-
-> [!TIP] 
-> 

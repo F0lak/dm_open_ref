@@ -21,14 +21,14 @@ The default
 savefile compatibility version can be set at compile-time:
 ### Example:
 
-```
- savefile/byond_version = 514 // do not use savefile features
-from BYOND 515 onward 
+``` dm
+ savefile/byond_version = 514 // do not use savefile
+features from BYOND 515 onward 
 ```
  
 
-Note: By default, worlds
-compiled before BYOND 515 will set this value to 514.
+Note: By default,
+worlds compiled before BYOND 515 will set this value to 514.
 
 > [!TIP] 
 > **See also:**

@@ -12,6 +12,3 @@ a window or pane into smaller units.
 +   [right, bottom](/ref/%7Bskin%7D/param/right.md) 
 +   [show-splitter](/ref/%7Bskin%7D/param/show-splitter.md) 
 +   [splitter](/ref/%7Bskin%7D/param/splitter.md) 
-
-> [!TIP] 
-> 

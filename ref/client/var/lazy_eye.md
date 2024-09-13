@@ -17,15 +17,15 @@ as it moves about the map, making one big jump to catch up whenever the
 mob gets out of range.
 ### Example:
 
-```
+``` dm
  client lazy_eye = 5 
 ```
  
 
-This setting allows
-client.mob to move onto the entire 11x11 visible region without changing
-the value of client.eye. The moment it steps out of this region, the
-entire region will shift 5 tiles in the direction of motion.
+This setting
+allows client.mob to move onto the entire 11x11 visible region without
+changing the value of client.eye. The moment it steps out of this
+region, the entire region will shift 5 tiles in the direction of motion.
 
 
 You can assign lazy_eye to any value valid as a view size, so,

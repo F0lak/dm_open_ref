@@ -28,7 +28,7 @@ default behavior is to call the referenced object\'s own Topic()
 procedure.
 ### Example:
 
-```
+``` dm
  mob/verb/test() usr \<\< \"Click
 [here](?src=\ref%5Bsrc%5D;action=start)!\" mob/Topic(href,href_list\[\])
 switch(href_list\[\"action\"\]) if(\"start\") usr \<\< \"Starting the
@@ -58,7 +58,7 @@ If the ref string is for an icon, you can add an HTML query
 string after the icon reference.
 ### Example:
 
-```
+``` dm
  player \<\< browse({\"
 ![](\ref%5Bicon%5D?state=hungry&dir=%5BEAST%5D)
 \"}) 

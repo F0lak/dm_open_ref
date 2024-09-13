@@ -22,10 +22,10 @@
 The following example uses a very simple href value.
 ### Example:
 
-```
- mob/Login() src \<\< \"Click [here](?source) to download the
-source code.\" return ..() client/Topic(href) if(href == \"source\") usr
-\<\< file(\"world.dm\") usr \<\< file(\"world.rsc\") else ..()
+``` dm
+ mob/Login() src \<\< \"Click [here](?source) to download
+the source code.\" return ..() client/Topic(href) if(href == \"source\")
+usr \<\< file(\"world.dm\") usr \<\< file(\"world.rsc\") else ..()
 
 ```
  
@@ -49,7 +49,7 @@ You specify the object that will handle the request by using a
 parameter called \"src\".
 ### Example:
 
-```
+``` dm
  mob/Login() src \<\< \"Click
 [here](?src=\ref%5Bsrc%5D;action=startgame) to start.\" return ..()
 mob/Topic(href,href_list\[\]) switch(href_list\[\"action\"\])

@@ -22,9 +22,9 @@ After the query has been built,
 call Execute() to run it.
 ### Example:
 
-```
- var/database/db = new(\"mydb.db\") var/database/query/q = new
-q.Add(\"INSERT INTO quests (name, quest, complete) VALUES (?,?,?)\",
+``` dm
+ var/database/db = new(\"mydb.db\") var/database/query/q =
+new q.Add(\"INSERT INTO quests (name, quest, complete) VALUES (?,?,?)\",
 usr.key, quest_name, 1) q.Execute(db) 
 ```
  

@@ -15,9 +15,9 @@ followed by the second, followed by the third, etc. The arguments may be
 constants or variables containing text.
 ### Example:
 
-```
- var/T T = \"1\" T = addtext(T,\"\*1 = \",T) // T = \"1\*1 =
-1\" world \<\< \"The answer is: \[T\]\" 
+``` dm
+ var/T T = \"1\" T = addtext(T,\"\*1 = \",T) // T = \"1\*1
+= 1\" world \<\< \"The answer is: \[T\]\" 
 ```
  
 

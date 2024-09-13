@@ -6,7 +6,7 @@
 
 Alter the way the sound is heard by affecting several different
 on/off values which combine as bit flags. 
-```
+``` dm
  SOUND_MUTE // do
 not play the sound SOUND_PAUSED // pause sound SOUND_STREAM // create as
 a stream SOUND_UPDATE // update a playing sound 

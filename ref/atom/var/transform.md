@@ -24,7 +24,7 @@ Transformations are relative to the center of the icon. They do
 not apply to maptext.
 ### Examples:
 
-```
+``` dm
  // Rotate the atom by 45° clockwise src.transform =
 turn(src.transform, 45) // OR var/matrix/M = matrix() M.Turn(45)
 src.transform = M // Scale the atom by 2x2 src.transform \*= 2 // OR

@@ -35,20 +35,20 @@ is required, the proc may take a few moments to return a result. It is a
 good idea to use spawn() to avoid holding up the rest of the game.
 ### Example:
 
+``` dm
+ turf/medal_door density = 1 icon_state = \"closed\"
+var/medal = \"Dragon slayer\" verb/Knock() usr \<\< \"**Guard:** Just
+checking your credentials\....\" var/hasmedal = world.GetMedal(medal,
+usr) if(hasmedal) usr \<\< \"**Guard:** Go right in.\" icon_state =
+\"open\" density = 0 else if(!isnull(hasmedal)) usr \<\< \"**Guard:**
+Sorry, no admittance without a **\[medal\]** badge.\" else usr \<\<
+\"**Guard:** Sorry, I lost the paperwork. Try again later.\" 
 ```
- turf/medal_door density = 1 icon_state = \"closed\" var/medal
-= \"Dragon slayer\" verb/Knock() usr \<\< \"**Guard:** Just checking
-your credentials\....\" var/hasmedal = world.GetMedal(medal, usr)
-if(hasmedal) usr \<\< \"**Guard:** Go right in.\" icon_state = \"open\"
-density = 0 else if(!isnull(hasmedal)) usr \<\< \"**Guard:** Sorry, no
-admittance without a **\[medal\]** badge.\" else usr \<\< \"**Guard:**
-Sorry, I lost the paperwork. Try again later.\" 
-```
- 
 
-You
-can add an optional hub path argument if you want to look at a medal for
-a different hub entry.
+
+
+You can add an optional hub path argument if you want to look
+at a medal for a different hub entry.
 
 > [!TIP] 
 > **See also:**

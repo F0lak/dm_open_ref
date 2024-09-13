@@ -14,7 +14,7 @@
     remote server.
 ### Example:
 
-```
+``` dm
  //sending the file mob/proc/Export(Addr) var/savefile/F =
 new() F.Write(src) world.Export(Addr,F) //receiving the file
 world/Topic() var/savefile/F = new(world.Import()) F.Read() //read the

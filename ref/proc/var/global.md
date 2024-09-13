@@ -6,14 +6,14 @@ the following variable or proc as global. This may be necessary if a
 local or src-level variable has the same name.
 ### Example:
 
-```
- var/myvar = \"global\" mob verb/test() var/myvar = \"local\"
-usr \<\< myvar usr \<\< global.myvar 
+``` dm
+ var/myvar = \"global\" mob verb/test() var/myvar =
+\"local\" usr \<\< myvar usr \<\< global.myvar 
 ```
  
 
-This example
-outputs \"local\" and then \"global\".
+This
+example outputs \"local\" and then \"global\".
 
 > [!TIP] 
 > **See also:**

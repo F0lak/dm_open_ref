@@ -14,13 +14,9 @@ If the user is a Member, the result is the number of
 days left (rounded up) on their Membership, or -1 for lifetime Members.
 ### Example:
 
-```
+``` dm
  mob/var special_features mob/Login()
 if(client.IsByondMember()) special_features = 1 else src \<\< \"For
 special features, [become a BYOND Member](\){'http:=""
 members.byond.com="" '=""}!\" return ..() 
 ```
-
-
-> [!TIP] 
-> 

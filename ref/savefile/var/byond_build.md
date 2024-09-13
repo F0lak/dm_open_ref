@@ -22,9 +22,9 @@ The default
 savefile compatibility version can be set at compile-time:
 ### Example:
 
-```
- savefile/byond_build = 1600 // do not use savefile features
-from BYOND build 1601 onward 
+``` dm
+ savefile/byond_build = 1600 // do not use savefile
+features from BYOND build 1601 onward 
 ```
 
 

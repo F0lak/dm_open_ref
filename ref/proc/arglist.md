@@ -31,7 +31,7 @@ by a much simpler direct call without need for a list to hold the
 arguments; this is just to illustrate the syntax.
 ### Example:
 
-```
+``` dm
  proc/MyProc(a,b) usr \<\< \"MyProc(\[a\],\[b\])\"
 mob/verb/test() var/lst = list(1,2) MyProc(arglist(lst)) //MyProc(1,2)
 lst = list(b=2,a=1) //just to illustrate that order does not matter

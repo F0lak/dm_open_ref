@@ -53,7 +53,7 @@ following arguments. Whatever the proc returns will be used as the
 replacement text in place of the match.
 ### Example
 
-```
+``` dm
  var/regex/vowels = new(\"\[aeiou\]\", \"i\") // match any
 word of 2 letters or more var/regex/piglatin =
 new(\"\\\\b(\\\\l)(\\\\l+)\\\\b\", \"ig\") // group1 is the first

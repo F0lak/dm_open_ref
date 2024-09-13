@@ -17,7 +17,7 @@ non-numeric text following the initial portion will be ignored. If there
 is no initial numeric portion, the result is null.
 ### Example:
 
-```
+``` dm
  var/number = text2num(\"123\") // = 123 
 ```
 

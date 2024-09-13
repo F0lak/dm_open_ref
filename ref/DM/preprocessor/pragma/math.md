@@ -22,7 +22,7 @@ more-accurate procs use trigonometric identities to reduce the angle to
 a more manageable range of 0 to 45° (π/4 radians).
 ### Example:
 
-```
+``` dm
  var/angle = 90 #pragma math fast usr \<\< cos(angle) //
 6.12323e-17 #pragma math accurate usr \<\< cos(angle) // 0 
 ```

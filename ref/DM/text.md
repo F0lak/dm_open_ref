@@ -560,6 +560,9 @@
 ###### BYOND Version C
 ###### BYOND Version K
 ###### BYOND Version S
+###### BYOND Version _
+###### BYOND Version D
+###### BYOND Version M
 ###### BYOND Version  
 ###### BYOND Version u
 ###### BYOND Version s
@@ -1340,6 +1343,9 @@
 ###### BYOND Version C
 ###### BYOND Version K
 ###### BYOND Version S
+###### BYOND Version _
+###### BYOND Version D
+###### BYOND Version M
 ###### BYOND Version  
 ###### BYOND Version m
 ###### BYOND Version o
@@ -2127,6 +2133,9 @@
 ###### BYOND Version C
 ###### BYOND Version K
 ###### BYOND Version S
+###### BYOND Version _
+###### BYOND Version D
+###### BYOND Version M
 ###### BYOND Version  
 ###### BYOND Version m
 ###### BYOND Version o
@@ -2987,6 +2996,9 @@
 ###### BYOND Version C
 ###### BYOND Version K
 ###### BYOND Version S
+###### BYOND Version _
+###### BYOND Version D
+###### BYOND Version M
 ###### BYOND Version  
 ###### BYOND Version w
 ###### BYOND Version o
@@ -3842,6 +3854,9 @@
 ###### BYOND Version C
 ###### BYOND Version K
 ###### BYOND Version S
+###### BYOND Version _
+###### BYOND Version D
+###### BYOND Version M
 ###### BYOND Version  
 ###### BYOND Version w
 ###### BYOND Version o

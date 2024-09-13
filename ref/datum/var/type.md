@@ -4,11 +4,7 @@
 
 
 This variable is read-only. 
+``` dm
+ mob/verb/test() usr
+\<\< type //displays \"/mob\" 
 ```
- mob/verb/test() usr \<\<
-type //displays \"/mob\" 
-```
-
-
-> [!TIP] 
-> 

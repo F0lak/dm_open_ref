@@ -17,7 +17,7 @@
 +   None for most atoms, but turfs will call Crossed().
 ### Example:
 
-```
+``` dm
  turf/pit Entered(O) O \<\< \"OUCH. You fell in a pit!\"
 
 ```
@@ -30,7 +30,7 @@ drop() verbs, but the following code separates user interface from
 lower-level functions.
 ### Example:
 
-```
+``` dm
  obj var weight = 10 verb get() set src in oview(1)
 if(Move(usr)) usr \<\< \"You pick up \\a \[src\].\" else usr \<\< \"You
 cannot pick up \[src\].\" drop() set src in usr if(Move(usr.loc)) usr
@@ -48,11 +48,11 @@ inventory without the mob picking it up. You can still run it through
 your normal movement rules without calling get().
 ### Example:
 
-```
- mob/verb/wish() var/obj/O = new() //create it with loc=null
-if(O.Move(usr)) //and then move it into inventory usr \<\< \"Your wish
-has been granted!\" else usr \<\< \"You are too greedy!\" del O
-
+``` dm
+ mob/verb/wish() var/obj/O = new() //create it with
+loc=null if(O.Move(usr)) //and then move it into inventory usr \<\<
+\"Your wish has been granted!\" else usr \<\< \"You are too greedy!\"
+del O 
 ```
 
 

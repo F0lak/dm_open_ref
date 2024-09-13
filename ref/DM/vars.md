@@ -7,7 +7,7 @@ are the variable names. If the variable name is used as an index into
 the list, the value of that variable is accessed.
 ### Example:
 
-```
+``` dm
  mob/verb/dumpglobal() for(var/V in global.vars) usr \<\<
 \"\[V\] = \[global.vars\[V\]\]\" 
 ```

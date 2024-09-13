@@ -15,6 +15,3 @@ unless its own appearance_flags say otherwise.
 If the image has
 a specific name and/or suffix value, those will override the parent atom
 too. Leaving them blank will let the original atom take precedence.
-
-> [!TIP] 
-> 

@@ -15,14 +15,14 @@ This instruction is NOT sensitive to case. It also ignores the
 cmptextEx().
 ### Example:
 
-```
- if(cmptext(\"Hi\",\"HI\")) world \<\< \"Equal!\" else world
-\<\< \"Not equal!\" 
+``` dm
+ if(cmptext(\"Hi\",\"HI\")) world \<\< \"Equal!\" else
+world \<\< \"Not equal!\" 
 ```
  
 
-This outputs \"Equal!\" since
-\"Hi\" and \"HI\" are the same, ignoring case.
+This outputs \"Equal!\"
+since \"Hi\" and \"HI\" are the same, ignoring case.
 
 > [!TIP] 
 > **See also:**

@@ -16,9 +16,10 @@ place. This is basically equivalent to calling `list.Cut(Start,End)` and
 then calling `list.Insert(Start,Item1,Item2...)`, but faster.
 ### Example:
 
-```
- var/list/L = list(\"apple\",\"banana\",\"orange\",\"pear\")
-// cuts \"banana\" and \"orange\" and inserts four new items
+``` dm
+ var/list/L =
+list(\"apple\",\"banana\",\"orange\",\"pear\") // cuts \"banana\" and
+\"orange\" and inserts four new items
 L.Splice(2,4,\"firetruck\",\"camel\",\"joystick\",\"balloon\") // prints
 apple, firetruck, camel, joystick, balloon, pear for(var/item in L) usr
 \<\< item 

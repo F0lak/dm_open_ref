@@ -20,7 +20,7 @@ see if one prototype derives from another one, use
 [ispath()](/ref/proc/ispath.md) instead.
 ### Example:
 
-```
+``` dm
  var/M M = new/mob/ugly/duckling() if(istype(M,/mob/ugly))
 //this will be true usr \<\< \"\[M\] is ugly!\" 
 ```
@@ -29,7 +29,7 @@ see if one prototype derives from another one, use
 
 Using implicit types, that same example can be rewritten as
 follows: 
-```
+``` dm
  var/mob/ugly/M M = new/mob/ugly/duckling()
 if(istype(M)) //this will be true usr \<\< \"\[M\] is ugly!\" 
 ```

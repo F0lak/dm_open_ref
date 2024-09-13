@@ -17,42 +17,42 @@
 Assign elements to a list.
 ### Example:
 
-```
+``` dm
  var/L\[\] L = list(1,2,3) 
 ```
  
 
-This creates a
-new list \'L\' that initially contains elements 1, 2, and 3. The length
-of L is 3. 
+This creates
+a new list \'L\' that initially contains elements 1, 2, and 3. The
+length of L is 3. 
 
-The `list()` instruction may also be used to create
-associative lists.
+The `list()` instruction may also be used to
+create associative lists.
 ### Example:
 
+``` dm
+ var/list/lst = list(\"player\" = \"James Byond\",
+\"score\" = 2000) 
 ```
- var/list/lst = list(\"player\" = \"James Byond\", \"score\" =
+ 
+
+That creates a list with contents
+(\"player, \"score\") and associated values (\"James Byond\", 2000)
+respectively. 
+
+The index values should be constants, and that
+usually means text constants. When these index values happen to be text
+strings that satisfy all the requirements for variable names, this may
+also be written in a convenient short-hand without the double quotes:
+
+``` dm
+ var/list/lst = list(player = \"James Byond\", score =
 2000) 
 ```
  
 
-That creates a list with contents (\"player,
-\"score\") and associated values (\"James Byond\", 2000) respectively.
-
-
-The index values should be constants, and that usually means
-text constants. When these index values happen to be text strings that
-satisfy all the requirements for variable names, this may also be
-written in a convenient short-hand without the double quotes: 
-```
-
-var/list/lst = list(player = \"James Byond\", score = 2000) 
-```
-
-
-
-In other words, this is exactly the same syntax as for [named
-arguments](/ref/proc/arguments/named.md) 
+In other words, this is exactly the same
+syntax as for [named arguments](/ref/proc/arguments/named.md) 
 
 > [!TIP] 
 > **See also:**

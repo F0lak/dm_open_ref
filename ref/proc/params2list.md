@@ -14,7 +14,7 @@
 This instruction converts a parameter text string to a list of
 individual parameters and associated values. The format of the parameter
 text is: 
-```
+``` dm
  \"name1=value1&name2=value2&\...\" 
 ```
 
@@ -46,7 +46,7 @@ and so on. To access the values associated with these, you use the
 parameter name as the list index.
 ### Example:
 
-```
+``` dm
  var/ptext = \"offense=jwalk&time=10:00\" var/plist\[\] =
 params2list(ptext) var/p for(p in plist) usr \<\< \"\[p\] =
 \[plist\[p\]\]\" 

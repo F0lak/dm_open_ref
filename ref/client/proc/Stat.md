@@ -29,7 +29,7 @@ unless you know the player is looking at the right statpanel and has
 received the updates.
 ### Example
 
-```
+``` dm
  client/var/updategold = 1 // set to 1 if gold changes
 client/var/updateinventory = 1 // set to 1 if inventory changes
 client/Stat() // if not ready to update, Stat() won\'t be called again

@@ -16,7 +16,7 @@ the file. If this proc returns a true value, the upload will be allowed.
 Otherwise, it will be rejected.
 ### Example:
 
-```
+``` dm
  client AllowUpload(filename, filelength) if(filelength \>=
 524288) // 512K (0.5M) src \<\< \"\[filename\] is too big to upload!\"
 return 0 return 1 

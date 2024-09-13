@@ -20,6 +20,3 @@ is not advisable to disable the check unless you\'re trying to debug
 something, since you can cause the server to hang. Generally if you have
 a loop so long it can cause the regular loop checks to freak out, you
 need to make a change to the loop behavior anyway.
-
-> [!TIP] 
-> 

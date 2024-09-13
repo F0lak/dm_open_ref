@@ -24,7 +24,7 @@ repeating. With multiple waves, you can produce a very convincing water
 effect.
 ### Example
 
-```
+``` dm
  #define WAVE_COUNT 7 atom/proc/WaterEffect() var/start =
 filters.len var/X,Y,rsq,i,f for(i=1, i\<=WAVE_COUNT, ++i) // choose a
 wave with a random direction and a period between 10 and 30 pixels do X

@@ -27,7 +27,7 @@ piece at a time, for example by inserting an icon into the NORTH
 direction for animation frame 3.
 ### Example:
 
-```
+``` dm
  // start with a non-animated arrow icon var/icon/I =
 new(\'arrow.dmi\') // make a new state called \"blink\" var/icon/J =
 new(\'arrow.dmi\') I.Insert(J, \"blink\", delay=-1) // set rewind flag

@@ -20,7 +20,7 @@
 The following example shows how to loop over a block of turfs.
 ### Example:
 
-```
+``` dm
  world maxx = 20 maxy = 20 mob/verb/block_test() var/turf/T
 for(T in block(locate(1,1,1), locate(10,10,1))) T.text = \" \"
 
@@ -34,7 +34,7 @@ to using the corresponding StartX, StartY, or StartZ. Therefore this
 example is equivalent to the one above:
 ### Example:
 
-```
+``` dm
  world maxx = 20 maxy = 20 mob/verb/block_test() var/turf/T
 for(T in block(1,1,1, 10,10)) T.text = \" \" 
 ```

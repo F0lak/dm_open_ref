@@ -76,7 +76,7 @@ extern "C" __declspec(dllexport) char *merge(int n, char *v[])
 }
 ```
 
-```
+``` dm
  // DM code to use test.dll mob/verb/test() usr \<\<
 call_ext(\"test.dll\",\"merge\")(\"fee\",\"fi\",\"fo\") // returns
 \"feefifo\" // As with the other call() versions, arglist() may be used
@@ -179,10 +179,10 @@ extern "C" BYOND_EXPORT CByondValue average(int n, CByondValue v[])
 }
 ```
 
-```
- // DM code to use test_byondapi.dll mob/verb/test() usr \<\<
-call_ext(\"test_byondapi\",\"byond:merge\")(\"fee\",\"fi\",\"fo\") //
-returns \"feefifo\" mob/verb/average() usr \<\<
+``` dm
+ // DM code to use test_byondapi.dll mob/verb/test() usr
+\<\< call_ext(\"test_byondapi\",\"byond:merge\")(\"fee\",\"fi\",\"fo\")
+// returns \"feefifo\" mob/verb/average() usr \<\<
 call_ext(\"test_byondapi\",\"byond:average\")(1,6,8) // returns 5
 
 ```

@@ -7,7 +7,7 @@
 +   the minimum of the arguments.
 ### Example:
 
-```
+``` dm
  usr \<\< min(1,2,3) 
 ```
  

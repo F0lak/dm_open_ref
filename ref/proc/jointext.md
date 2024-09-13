@@ -22,18 +22,18 @@ list is the same as converting that one item to text, and an empty list
 becomes an empty string.
 ### Example:
 
-```
- var/list/items = list(\"apples\", \"oranges\", \"bananas\")
-usr \<\< jointext(items, \", \") 
+``` dm
+ var/list/items = list(\"apples\", \"oranges\",
+\"bananas\") usr \<\< jointext(items, \", \") 
 ```
  
 
-If the start or end
-position is negative, the position is counted backwards from the end of
-the list. 
+If the
+start or end position is negative, the position is counted backwards
+from the end of the list. 
 
-Calling List.Join(Glue,Start,End) is the same thing,
-as long as List is a valid list.
+Calling List.Join(Glue,Start,End) is
+the same thing, as long as List is a valid list.
 
 > [!TIP] 
 > **See also:**

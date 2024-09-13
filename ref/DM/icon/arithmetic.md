@@ -30,9 +30,9 @@ contributes nothing but prevents pixels in the other icon from getting
 clipped.
 ### Example:
 
-```
- mob/verb addicon(I as icon) icon += I subicon(I as icon) icon
--= I 
+``` dm
+ mob/verb addicon(I as icon) icon += I subicon(I as icon)
+icon -= I 
 ```
  
 
@@ -58,8 +58,9 @@ To increase (or decrease) the intensity of an icon
 multiplicatively, you can use the \'`*`\' operator.
 ### Example:
 
-```
- mob/verb/multicon(factor as num) icon \*= factor 
+``` dm
+ mob/verb/multicon(factor as num) icon \*= factor
+
 ```
 
 

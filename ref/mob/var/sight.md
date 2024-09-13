@@ -11,9 +11,9 @@ limit this range.
 
 The following bit flags are encoded in
 mob.sight: 
-```
- SEE_INFRA // can see infra-red objects SEE_SELF //
-can see self, no matter what SEE_MOBS // can see all mobs, no matter
+``` dm
+ SEE_INFRA // can see infra-red objects SEE_SELF
+// can see self, no matter what SEE_MOBS // can see all mobs, no matter
 what SEE_OBJS // can see all objs, no matter what SEE_TURFS // can see
 all turfs (and areas), no matter what SEE_PIXELS// if an object is
 located on an unlit area, but some of its pixels are // in a lit area
@@ -24,7 +24,7 @@ blackness BLIND // can\'t see anything
 
 ### Example:
 
-```
+``` dm
  usr.sight \|= BLIND // turn on the blind bit usr.sight &=
 \~BLIND // turn off the blind bit usr.sight \|=
 (SEE_MOBS\|SEE_OBJS\|SEE_TURFS) // turn on several bits at once

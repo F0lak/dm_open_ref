@@ -10,14 +10,14 @@ make animations, 4 or 8 directional icons, and icons with different
 states (such as \"live\" and \"dead\").
 ### Example:
 
-```
+``` dm
  mob icon = \'monster.dmi\' 
 ```
  
 
-You can also
-load icons into memory at run-time and manipulate the graphical data to
-produce new icons dynamically. This is done by creating an
+You can
+also load icons into memory at run-time and manipulate the graphical
+data to produce new icons dynamically. This is done by creating an
 [/icon](/ref/icon.md) object.
 
 > [!TIP] 

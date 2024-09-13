@@ -28,9 +28,9 @@ illustrated. The first one calls a specific procedure by using a path
 reference to that procedure.
 ### Example:
 
-```
- /proc/MyProc(Arg) usr \<\< \"MyProc(\[Arg\])\" mob var MyProc
-= /proc/MyProc verb call_myproc() call(MyProc)(\"Hello, world!\")
+``` dm
+ /proc/MyProc(Arg) usr \<\< \"MyProc(\[Arg\])\" mob var
+MyProc = /proc/MyProc verb call_myproc() call(MyProc)(\"Hello, world!\")
 
 ```
  
@@ -39,7 +39,7 @@ The next example calls an object procedure (or verb)
 by name, rather than by path.
 ### Example:
 
-```
+``` dm
  mob proc Proc1(Arg) usr \<\< \"Proc1(\[Arg\])\" Proc2(Arg)
 usr \<\< \"Proc2(\[Arg\])\" verb call_proc(Proc in
 list(\"Proc1\",\"Proc2\")) call(src,Proc)(\"Hello, world!\") 

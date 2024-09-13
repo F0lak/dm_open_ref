@@ -15,7 +15,7 @@ value are skipped. The return value is equal to the last operand to be
 evaluated.
 ### Example:
 
-```
+``` dm
 mob/verb/Fly() if(swimming \|\| IsStuck()) src \<\< \"You
 can\'t fly right now!\" return 
 ```
@@ -29,7 +29,7 @@ Although logical short-circuit operators are used most often in
 blocks such as `if` or `while`, they can be used elsewhere.
 ### Example:
 
-```
+``` dm
  // if current_target is null, pick a new one var/target =
 current_target \|\| PickTarget() 
 ```

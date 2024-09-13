@@ -24,7 +24,7 @@ sized to fit all of the above, and to include room for any expansion due
 to filter effects.
 ### Example:
 
-```
+``` dm
  mob/proc/GetFlatIcon() return client?.RenderIcon(src)
 
 ```

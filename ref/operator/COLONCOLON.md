@@ -39,9 +39,9 @@ Similarly, in a static var definition, `type` can be used for `A` the
 same way.
 ### Example:
 
-```
- thing var/price = 60 better price = parent_type::price + 40
-
+``` dm
+ thing var/price = 60 better price = parent_type::price +
+40 
 ```
 
 ### Proc reference
@@ -54,7 +54,7 @@ doesn\'t actually call the proc. Currently, `A` must be a constant type
 for this usage.
 ### Example:
 
-```
+``` dm
  thing proc/DoSomething() world \<\< \"Did a thing\" better
 DoSomething() world \<\< \"Did a better thing\" proc/Downgrade()
 var/thing/better/T = new // will print \"Did a better thing\" because T

@@ -40,7 +40,7 @@ and all of them are added together.
 
 Either of these calls
 change the icon to grayscale: 
-```
+``` dm
 icon.MapColors(0.3,0.3,0.3,
 0.59,0.59,0.59, 0.11,0.11,0.11, 0,0,0) // or\...
 icon.MapColors(rgb(77,77,77), rgb(150,150,150), rgb(28,28,28),
@@ -57,10 +57,10 @@ The calculations are as follows:
 
 Or this will make a nice moonlight effect:
 
-```
-icon.MapColors(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4, 0,0,0)
-// or\... icon.MapColors(rgb(51,13,13), rgb(26,77,51), rgb(26,26,102),
-rgb(0,0,0)) 
+``` dm
+icon.MapColors(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4,
+0,0,0) // or\... icon.MapColors(rgb(51,13,13), rgb(26,77,51),
+rgb(26,26,102), rgb(0,0,0)) 
 ```
 
 -   For any red in the original icon, add rgb(51,12.75,12.75) (dark
@@ -74,7 +74,7 @@ rgb(0,0,0))
 
 Or a negative icon (invert all colors):
 
-```
+``` dm
 MapColors(-1,0,0, 0,-1,0, 0,0,-1, 1,1,1)
 ```
 

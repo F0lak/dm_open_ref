@@ -19,21 +19,21 @@
 +   Call object.DblClick(location,control,params).
 ### Example:
 
-```
- client DblClick(O) usr \<\< \"You double-clicked \[O\]\" ..()
-// do default action 
+``` dm
+ client DblClick(O) usr \<\< \"You double-clicked \[O\]\"
+..() // do default action 
 ```
  
 
-Note that due to network lag,
-it is possible when clicking on moving objects for the location of those
-objects to have changed by the time the DblClick() proc is executed.
-That is the reason for the location argument. It tells you where the
-click originally took place. 
-```
- DblClick(object as null\|atom in
-usr.client,\\ location as null\|turf\|text in usr.client,\\ control as
-text, params as text) 
+Note that due to network
+lag, it is possible when clicking on moving objects for the location of
+those objects to have changed by the time the DblClick() proc is
+executed. That is the reason for the location argument. It tells you
+where the click originally took place. 
+``` dm
+ DblClick(object as
+null\|atom in usr.client,\\ location as null\|turf\|text in
+usr.client,\\ control as text, params as text) 
 ```
 
 

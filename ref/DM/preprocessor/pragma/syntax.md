@@ -24,7 +24,7 @@ the end of the switch unless you want to fall through to the next case.
 Fall-through behavior isn\'t possible in the default DM syntax.
 ### Example:
 
-```
+``` dm
  #pragma push #pragma syntax C switch switch(thing) case 1:
 usr \<\< \"This is case 1!\" break case 2, 3: usr \<\< \"This is case 2
 or 3.\" // no break, fall through case 4 to 6: usr \<\< \"This is case 4

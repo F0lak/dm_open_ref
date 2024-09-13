@@ -8,7 +8,7 @@ module formats .mod, .it, .s3m, .xm, and .oxm. Supported sound effect
 formats include .wav, .ogg, .mp3, .raw, .wma, and .aiff.
 ### Example:
 
-```
+``` dm
  world \<\< sound(\'fugue.midi\') 
 ```
  

@@ -16,16 +16,16 @@ execute DreamSeeker with the `.dms` file as an argument.
 ### Example:
 ### myworld.dms
 
-```
- /\*If your browser shows you this, you either need to install
-BYOND (it\'s free!) from www.byond.com, or you need to configure your
-browser to execute DreamSeeker with DM Script (.dms) files. \*/ #define
-URL \"byond://myworld\" 
+``` dm
+ /\*If your browser shows you this, you either need to
+install BYOND (it\'s free!) from www.byond.com, or you need to configure
+your browser to execute DreamSeeker with DM Script (.dms) files. \*/
+#define URL \"byond://myworld\" 
 ```
 
 ### myworld.html
 
-```
+``` dm
 
 
 

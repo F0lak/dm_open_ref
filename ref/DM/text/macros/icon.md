@@ -7,7 +7,7 @@ expression (in \[\]\'s) as an icon rather than as text. An object, for
 example, would be replaced by its icon rather than by its name.
 ### Example:
 
-```
+``` dm
  usr \<\< \"You look like this: \\icon\[usr\]!\" 
 ```
 
@@ -15,9 +15,9 @@ example, would be replaced by its icon rather than by its name.
 
 The `\icon` macro expands internally to the \<IMG\> tag. The
 above example, could be rewritten like this: 
-```
- usr \<\< \"You
-look like this: \\ ![](\ref%5Busr.icon%5D){.icon
+``` dm
+ usr \<\<
+\"You look like this: \\ ![](\ref%5Busr.icon%5D){.icon
 iconstate="[usr.icon_state]"}!\" 
 ```
  
@@ -28,9 +28,9 @@ the image belongs to a class called `icon`. That allows you to configure
 the way icons are displayed by using a style sheet. The following
 default style rule causes icons to be shrunk to 16 by 16 pixels so they
 fit in better with surrounding text: 
-```
- IMG.icon {width: 16px;
-height: 16px} 
+``` dm
+ IMG.icon {width:
+16px; height: 16px} 
 ```
  
 
@@ -39,7 +39,7 @@ globally in your own style sheet. You could even define rules to allow
 individual icons to be formatted differently from the rest.
 ### Example:
 
-```
+``` dm
  BIG IMG.icon {width: 32px; height: 32px} SMALL IMG.icon
 {width: 16px; height: 16px} 
 ```
@@ -48,7 +48,7 @@ individual icons to be formatted differently from the rest.
 With those rules in
 place, you could output a full sized icon by using the \<BIG\> tag:
 
-```
+``` dm
  usr \<\< \"You look like this: \\icon\[usr\]!\" 
 ```
 
@@ -68,7 +68,7 @@ use of the following tags:
     with 1
 ### Example:
 
-```
+``` dm
  usr \<\< \"You look like this: \\
 ![](\ref%5Busr.icon%5D){.icon iconstate="glowing" icondir="NORTH"
 iconframe="2"}!\" 

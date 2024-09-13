@@ -35,9 +35,9 @@ created from a savefile. In that case, you don\'t need a temporary mob
 to be created first.
 ### Example:
 
-```
- client/New() if(usr) return ..() //reconnecting to existing
-mob else var/player_sav = \"players/\[ckey\].sav\"
+``` dm
+ client/New() if(usr) return ..() //reconnecting to
+existing mob else var/player_sav = \"players/\[ckey\].sav\"
 if(length(file(player_sav))) //if player savefile exists var/savefile/F
 = new(player_sav) //open it F \>\> usr //create saved mob return ..()
 //creates a new mob if necessary mob/Logout() var/player_sav =

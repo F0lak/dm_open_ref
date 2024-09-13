@@ -44,7 +44,7 @@ icon is FLY_LAYER (above all other objects), but you could change this
 to OBJ_LAYER to make it appear under mobs on the map.
 ### Example:
 
-```
+``` dm
  var/Box Box = image (\'highlight.dmi\', usr) usr \<\< Box
 \... del(Box) //when done, remove image 
 ```
@@ -52,7 +52,7 @@ to OBJ_LAYER to make it appear under mobs on the map.
 
 Another
 common use of images is in making an overlay: 
-```
+``` dm
  overlays +=
 image(\'pants.dmi\',icon_state = \"red\") 
 ```
@@ -61,19 +61,19 @@ image(\'pants.dmi\',icon_state = \"red\")
 Since the
 `loc` argument could never be a text string, the above statement can be
 further shortened: 
-```
- overlays += image(\'pants.dmi\',\"red\")
-
+``` dm
+ overlays +=
+image(\'pants.dmi\',\"red\") 
 ```
  
 
-This is much preferable to achieving the same effect
-with `icon('pants.dmi',"red")`, since that involves the overhead of
-creating a new icon file, which should only be done when it is really
-necessary. 
+This is much preferable
+to achieving the same effect with `icon('pants.dmi',"red")`, since that
+involves the overhead of creating a new icon file, which should only be
+done when it is really necessary. 
 
-Note: The fact that `image` is essentially a wrapper
-for `new/image()` means that the arguments in
+Note: The fact that `image`
+is essentially a wrapper for `new/image()` means that the arguments in
 [image/New()](/ref/datum/proc/New.md) are always treated the same way
 as defined in this article. This applies even to subtypes, like
 `/image/thing`. If you create a user-defined subtype like

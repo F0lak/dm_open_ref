@@ -16,7 +16,7 @@ This instruction is just like view() except it doesn\'t include
 Center or its contents in the list.
 ### Example:
 
-```
+``` dm
  oview() \<\< \"to others in sight of \[usr\]\" 
 ```
 

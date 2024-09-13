@@ -26,7 +26,7 @@ often a good idea to use spawn() to avoid holding up the rest of the
 game.
 ### Example:
 
-```
+``` dm
  mob/proc/ItemShop() var/items = list(\"Get credits!\",
 \"Magic sword\"=10, \"Skeleton key\"=50) var/choices\[0\] var/item,price
 for(item in items) price = items\[item\] choices\[\"\[item\]: \[price\]

@@ -5,6 +5,3 @@
 
 This is a read-only value which contains the player\'s network
 address.
-
-> [!TIP] 
-> 

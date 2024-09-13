@@ -13,7 +13,7 @@ itself, such as `operator*` to override the multiplication operator.
 `A * B` will call `A.operator*(B)` if the proc is available.
 ### Example:
 
-```
+``` dm
  complex // complex number a+bi var/a as num var/b as num
 New(\_a,\_b) a = \_a b = \_b proc/operator+(complex/C) if(istype(C))
 return new/complex(a+C.a, b+C.b) if(isnum(C)) return new/complex(a+C, b)
@@ -165,7 +165,7 @@ third argument when the result `output()` is sent, since that can
 include a window reference.
 ### Example:
 
-```
+``` dm
  // Send an effect to a player or list of players
 proc/DoEffect(target, effect/E) if(istype(target, /list)) for(var/i in
 target) DoEffect(i, E) return if(target == world \|\| target ==

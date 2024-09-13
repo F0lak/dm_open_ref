@@ -29,16 +29,16 @@ This is effectively equivalent to
 `min(max(Value, min(Low,High)), max(Low,High))`, but slightly faster.
 ### Example:
 
-```
- usr \<\< clamp(5, 0, 10) // 5; it falls between 0 and 10 usr
-\<\< clamp(-1, 0, 10) // 0; it is less than 0 usr \<\< clamp(20, 0, 10)
-// 10; it is more than 10 
+``` dm
+ usr \<\< clamp(5, 0, 10) // 5; it falls between 0 and 10
+usr \<\< clamp(-1, 0, 10) // 0; it is less than 0 usr \<\< clamp(20, 0,
+10) // 10; it is more than 10 
 ```
  
 
-If the compared items are
-objects such as pixlocs or vectors, the result of clamping them is a new
-object, not one of the objects that was compared. 
+If the compared items
+are objects such as pixlocs or vectors, the result of clamping them is a
+new object, not one of the objects that was compared. 
 
 The list
 format will accept a list in place of a value as the first argument, and

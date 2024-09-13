@@ -23,7 +23,7 @@ Note that this may be
 used on any text string. It is not just limited to keys.
 ### Example:
 
-```
+``` dm
  var/savefile/SaveFile = new(\"world.sav\")
 proc/SavePlayer(mob/M) var/keydir = ckey(M.key) SaveFile.cd =
 \"/players\" SaveFile.cd = keydir M.Write(SaveFile)

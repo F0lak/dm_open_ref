@@ -24,26 +24,26 @@ conditional values may be any constant expression, such as a number or
 text string.
 ### Example:
 
+``` dm
+ switch (2) if(1) world \<\< \"ONE\" if(4) world \<\<
+\"FOUR\" if(2,3) world \<\< \"TWO or THREE\" if(5 to 10) world \<\<
+\"FIVE to TEN\" else world \<\< \"not ONE to TEN\" 
 ```
- switch (2) if(1) world \<\< \"ONE\" if(4) world \<\< \"FOUR\"
-if(2,3) world \<\< \"TWO or THREE\" if(5 to 10) world \<\< \"FIVE to
-TEN\" else world \<\< \"not ONE to TEN\" 
-```
- 
 
-This
-outputs: 
-```
+
+
+This outputs: 
+``` dm
  TWO or THREE 
 ```
- 
 
-Note: Currently the
-compiler does not throw a warning or error if there is a conflict
-between two different `if` blocks in a `switch`, e.g. when you define
-`if(1 to 10)` and `if(5 to 20)` which overlap from 5 to 10. If two
-different blocks could handle a given value, the choice of which block
-takes over is not defined.
+
+
+Note: Currently the compiler does not throw a warning or error
+if there is a conflict between two different `if` blocks in a `switch`,
+e.g. when you define `if(1 to 10)` and `if(5 to 20)` which overlap from
+5 to 10. If two different blocks could handle a given value, the choice
+of which block takes over is not defined.
 ### C-like syntax
 
 
@@ -55,7 +55,7 @@ If you don\'t use the [`break` statement](/ref/proc/break.md) at the end of a
 block, it will fall through to the next block.
 ### Example:
 
-```
+``` dm
  // make this syntax change temporary #pragma push #pragma
 syntax C switch mob/proc/Greeting(friend) switch(roll(6)) case 4: friend
 \<\< \"I\'m \[name\]. \\\...\" // fall through to cases 1 and 2 case

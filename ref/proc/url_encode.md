@@ -26,9 +26,9 @@ spaces are converted to `+` instead of `%20`, and most characters are
 escaped.
 ### Example:
 
-```
- mob/verb/Private(M as mob in players, T as text) if(!client
-\|\| !M \|\| !M.client \|\| !T) return usr \<\< \"\\\[To
+``` dm
+ mob/verb/Private(M as mob in players, T as text)
+if(!client \|\| !M \|\| !M.client \|\| !T) return usr \<\< \"\\\[To
 [\[M.name\]](?msg=%5Burl_encode(M.key)%5D)\\\] \[T\]\" M \<\< \"\\\[From
 [\[name\]](?msg=%5Burl_encode(key)%5D)\\\] \[T\]\" 
 ```

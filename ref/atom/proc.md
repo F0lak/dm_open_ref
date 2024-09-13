@@ -27,6 +27,3 @@ atom/proc
 +   [Uncross proc](/ref/atom/proc/Uncross.md) 
 +   [Uncrossed proc](/ref/atom/proc/Uncrossed.md) 
 +   [Write](/ref/datum/proc/Write.md) 
-
-> [!TIP] 
-> 

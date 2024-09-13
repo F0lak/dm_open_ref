@@ -25,7 +25,7 @@ instruction could be useful when players upload files (like code) that
 you might want to dump to an external file.
 ### Example:
 
-```
+``` dm
  mob/verb/change_world(F as file) fcopy(F,\"world.dm\")
 shell(\"DreamMaker world\") world.Reboot() 
 ```

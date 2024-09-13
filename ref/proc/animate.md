@@ -67,9 +67,9 @@ arguments besides the object are left out, the animation is stopped
 completely.
 ### Example:
 
-```
- mob/proc/GrowAndFade() // expand (scale by 2x2) and fade out
-over 1/2s animate(src, transform = matrix()\*2, alpha = 0, time = 5)
+``` dm
+ mob/proc/GrowAndFade() // expand (scale by 2x2) and fade
+out over 1/2s animate(src, transform = matrix()\*2, alpha = 0, time = 5)
 obj/spell/proc/Spin() // cast a spell on a monster: make the icon spin
 // this animation takes 3s total (6 ticks \* 5) animate(src, transform =
 turn(matrix(), 120), time = 2, loop = 5) animate(transform =
@@ -187,22 +187,22 @@ These can be combined with `EASE_IN` or `EASE_OUT` using the
 `|` operator, to use just the first or last part of the curve.
 ### Example:
 
-```
- obj/coin/proc/Spin() var/matrix/M = matrix() M.Scale(-1, 1)
-// flip horizontally animate(src, transform = M, time = 5, loop = 5,
-easing = SINE_EASING) animate(transform = null, time = 5, easing =
-SINE_EASING) obj/speech_bubble/New(newloc, msg) icon = \'bubble.dmi\'
-var/obj/O = new O.maptext = msg O.maptext_width = width O.maptext_height
-= height overlays = O // start below final position and jump into place
-pixel_z = -100 alpha = 0 animate(src, pixel_z = 0, alpha = 255, time =
-10, easing = ELASTIC_EASING) 
+``` dm
+ obj/coin/proc/Spin() var/matrix/M = matrix()
+M.Scale(-1, 1) // flip horizontally animate(src, transform = M, time =
+5, loop = 5, easing = SINE_EASING) animate(transform = null, time = 5,
+easing = SINE_EASING) obj/speech_bubble/New(newloc, msg) icon =
+\'bubble.dmi\' var/obj/O = new O.maptext = msg O.maptext_width = width
+O.maptext_height = height overlays = O // start below final position and
+jump into place pixel_z = -100 alpha = 0 animate(src, pixel_z = 0, alpha
+= 255, time = 10, easing = ELASTIC_EASING) 
 ```
  
 
-Some easing functions
-may overshoot one line or the other, so it\'s fully possible to have a
-`pixel_w` value, for instance, animate from 0 to 100 but actually end up
-briefly outside of that range during the animation.
+Some
+easing functions may overshoot one line or the other, so it\'s fully
+possible to have a `pixel_w` value, for instance, animate from 0 to 100
+but actually end up briefly outside of that range during the animation.
 ### Flags {#flags byondver="509"}
 
 
@@ -270,10 +270,10 @@ call was to a filter, and this call is for the object that filter
 belonged to, again it will be treated as a continuation of the sequence.
 ### Example:
 
-```
-atom/proc/BlurFade() filters += filter(type = \"blur\", size =
-0) // Animating a filter of src animate(filters\[filters.len\], size =
-5, time = 10) // Switching back to src to animate the next step
+``` dm
+atom/proc/BlurFade() filters += filter(type = \"blur\",
+size = 0) // Animating a filter of src animate(filters\[filters.len\],
+size = 5, time = 10) // Switching back to src to animate the next step
 animate(src, alpha = 0, time = 2.5) 
 ```
 

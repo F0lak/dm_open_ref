@@ -16,9 +16,9 @@ have possible values which do not show up in the expansion lists, but
 which are accepted when typed in full.
 ### Example:
 
-```
- mob/verb/test(A in MyProc(A,expanding)) usr \<\< \"You typed:
-\[A\]\" proc/MyProc(A,expanding) var/values\[\] =
+``` dm
+ mob/verb/test(A in MyProc(A,expanding)) usr \<\< \"You
+typed: \[A\]\" proc/MyProc(A,expanding) var/values\[\] =
 list(\"one\",\"two\",\"three\") if(!expanding) values += \"secret\"
 return values 
 ```

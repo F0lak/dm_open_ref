@@ -35,7 +35,7 @@ the hub may take a few moments, so it is a good idea to use spawn() to
 avoid holding up the rest of the game.
 ### Example:
 
-```
+``` dm
  var/params // Change the Score and Pet fields params =
 list(\"Score\"=123, \"Pet\"=\"Dog\") world.SetScores(\"Tom\",
 list2params(params)) // Delete the Pet field params = list(\"Pet\"=\"\")

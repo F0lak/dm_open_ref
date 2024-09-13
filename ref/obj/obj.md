@@ -14,7 +14,7 @@ The following example defines the
 obj type `/obj/scooper`.
 ### Example:
 
-```
+``` dm
  obj scooper desc = \"Super pooper scooper.\" 
 ```
 

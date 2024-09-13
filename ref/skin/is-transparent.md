@@ -17,6 +17,3 @@ on top of certain other controls.
 Bars and labels handle
 transparency reasonably well, when not on top of other controls (or only
 on top of other conrols of these types).
-
-> [!TIP] 
-> 

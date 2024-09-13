@@ -37,7 +37,7 @@ because it requires a runtime evaluation. This is a common reason to use
 New().
 ### Example:
 
-```
+``` dm
  mob var birthdate //time stamp New() birthdate =
 world.realtime return ..() verb/look() set src in view() usr \<\<
 \"\[src\] was born on \[time2text(birthdate,\"DD-MMM-YYYY\")\].\"

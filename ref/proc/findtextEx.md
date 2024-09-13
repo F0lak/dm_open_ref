@@ -21,7 +21,7 @@ When Needle is text, this instruction is sensitive to the case
 of Haystack and Needle. The case-insensitive version is findtext().
 ### Example:
 
-```
+``` dm
  if(findtextEx(\"Hi There\",\"there\")==0) world \<\< \"Not
 found!\" else world \<\< \"Found!\" 
 ```

@@ -323,6 +323,3 @@ There are other topics not covered in this article, such as
 [render targets](/ref/atom/var/render_target.md) and special map formats. Any
 details on how those features impact rendering are discussed in their
 own articles.
-
-> [!TIP] 
-> 

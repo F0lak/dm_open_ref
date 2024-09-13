@@ -19,7 +19,7 @@ digits determines when scientific notation is used. The default is 6, so
 scientific notation will only be used when there are more than 6 digits.
 ### Example:
 
-```
+``` dm
  T = num2text(12) // = \"12\" T = num2text(12,1) // =
 \"1.2e1\" 
 ```
@@ -35,7 +35,7 @@ These limitations may be lessened or removed in the future, but this
 format was mainly intended for simple conversions.
 ### Example:
 
-```
+``` dm
  world \<\< num2text(11, 2, 16) // \"0b\" world \<\<
 num2text(343, 0, 7) // \"1000\" 
 ```

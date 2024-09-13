@@ -21,29 +21,29 @@
     key,value pair list
 ### Example:
 
-```
- usr \<\< \"Mobs:\" var/mob/M for(M in view()) usr \<\< M.name
-
+``` dm
+ usr \<\< \"Mobs:\" var/mob/M for(M in view()) usr \<\<
+M.name 
 ```
  
 
-This loops M through the mobs in view(), outputting
-the name at each iteration. 
+This loops M through the mobs in view(),
+outputting the name at each iteration. 
 
-When you loop through a list, with
-the exception of looping through world, you\'re actually looping through
-a copy of that list. If the list changes, those changes won\'t have any
-bearing on this loop. If you want to be able to handle a list that might
-change, you\'ll need to use the [for loop proc](/ref/proc/for/loop.md) 
-instead. 
+When you loop through a
+list, with the exception of looping through world, you\'re actually
+looping through a copy of that list. If the list changes, those changes
+won\'t have any bearing on this loop. If you want to be able to handle a
+list that might change, you\'ll need to use the [for loop
+proc](/ref/proc/for/loop.md)  instead. 
 
-You can declare the variable right inside the for
-statement. Its scope is entirely contained within the for statement, so
-it will not conflict with a similar variable declared elsewhere in the
-same procedure.
+You can declare the variable
+right inside the for statement. Its scope is entirely contained within
+the for statement, so it will not conflict with a similar variable
+declared elsewhere in the same procedure.
 ### Example:
 
-```
+``` dm
  client/verb/who() for(var/client/Player) usr \<\< Player
 
 ```
@@ -67,7 +67,7 @@ much the same way that looping through a list only loops through a copy
 of that list.
 ### Example:
 
-```
+``` dm
  for(var/count in 1 to 100) src \<\< count 
 ```
 
@@ -87,7 +87,7 @@ copies the associated values when the list is copied, so the loop won\'t
 react to changes in the original list.
 ### Example:
 
-```
+``` dm
  var/alist/prices = alist(/obj/item/weapon/sword = 100,
 /obj/item/armor/helmet = 50) player \<\< \"**Welcome to my shop!**\"
 for(var/item,price in prices) player \<\< \"\[item::name\] -

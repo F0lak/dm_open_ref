@@ -36,6 +36,17 @@ def write_file(text, file_name) -> None:
 		file.write(text)
 		# print(f"New file: {output_file}")    
   
+def clean_file(file_name) -> None:
+	print(f"Cleaning {file_name}")
+	if os.path.exists(file_name):
+		print(f"{file_name} exists!")
+		with open(file_name, "r+", encoding = "utf-8") as file:
+			file_text = file.read()
+			file_text = clean_markdown_file(file_text)
+			file.seek(0)
+			file.write(file_text)
+			file.truncate()
+  
 def clean_empty_lines(text) -> str:
 	lines = text.splitlines()
 	lines.remove(lines[0])
@@ -252,14 +263,10 @@ def build_file_tree() -> None:
 			md_title = clean_filenames(md_title)
 			html_title = clean_filenames(html_title)
 	
-			dirty_file_path: str = copytext(md_text, "[]{#/", "}") or "stubs"
+			dirty_file_path: str = copytext(md_text, "[]{#/", "}")
 	
-		#	md_text = md_text.replace(dirty_file_path, html_title + ".md")
 			clean_file_path: str = clean_filenames(dirty_file_path)
 
-			# print("md: " + md_title)
-			#print(dirty_file_path)
-			#print(f"{dirty_file_path}/{md_title}")
 			pruned_file_path: str = ""
 			slash_index = clean_file_path.rfind("\\")
 			if slash_index != -1:
@@ -269,10 +276,10 @@ def build_file_tree() -> None:
 			print(f"{clean_file_path}\\{md_title}")
 
 			link_dict[f"{dirty_file_path}/{md_title}"] = f"{pruned_file_path}\\{md_title}.md"
-			pages.append(Page(f"{output_directory}\\ref\\{pruned_file_path}", f"{md_title}", "md", md_text))
+			pages.append(Page(f"{markdown_directory}\\{pruned_file_path}", f"{md_title}", "md", "THIS IS NEW" + md_text))
 			
 			if BUILD_HTML == True:
-				pages.append(Page(f"{output_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
+				pages.append(Page(f"{html_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
 
 				global index
 				index += f"<a href = \"html\\{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
@@ -282,6 +289,16 @@ def make_files() -> None:
 	for page in pages:
 		page.write_to_file()
 	write_file(index, f"{script_directory}\\index.html")
+ 
+def clean_markdown_files() -> list:
+	print(f"walk the walk {markdown_directory}")
+	for root, dirs, files in os.walk(markdown_directory):
+		for file in files:
+			print(file)
+			if file.endswith(".md"):
+				print("It's a markdown!")
+				full_path = os.path.join(root, file)
+				clean_file(full_path)
   
 class Page:
 	def __init__ (self, path, title, extension, text): 
@@ -307,30 +324,35 @@ if __name__ == "__main__":
     
 	script_directory = os.path.dirname(os.path.abspath(__file__))
 	input_file = os.path.join(script_directory, SOURCE_FILE)
-	output_directory = os.path.join(script_directory)
+	markdown_directory = os.path.join(script_directory) + "\\ref"
+	html_directory = os.path.join(script_directory) + "\\html"
 
-	if os.path.exists(output_directory + "\\ref"):
-		shutil.rmtree(output_directory+ "\\ref")
-	if os.path.exists(output_directory + "\\html"):
-		shutil.rmtree(output_directory + "\\html")
+	if BUILD_FILE_TREE:
+		if os.path.exists(markdown_directory):
+			shutil.rmtree(markdown_directory)
+		if os.path.exists(html_directory):
+			shutil.rmtree(html_directory)
 
-	link_dict	: dict = {}
-	pages	: list = []
-	index	: str = ""
- 
-	if os.path.exists("index.html"):
-		os.remove("index.html")
+		link_dict	: dict = {}
+		pages	: list = []
+		index	: str = ""
+	
+		if os.path.exists("index.html"):
+			os.remove("index.html")
 
-	text: str = ""
-	with open(input_file, 'r', encoding='utf-8') as file:
-		text = file.read()
+		text: str = ""
+		with open(input_file, 'r', encoding='utf-8') as file:
+			text = file.read()
 
-	delimiter: str = "<hr>"
-	parts = text.split(delimiter)
+		delimiter: str = "<hr>"
+		parts = text.split(delimiter)
 
-	build_file_tree()
+		build_file_tree()
 
-	make_files()
+		make_files()
+  
+	else:
+		clean_markdown_files()
 
 	print("All done")
  

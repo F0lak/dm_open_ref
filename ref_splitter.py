@@ -227,6 +227,8 @@ def clean_markdown_file(text) -> str:
 	'''
 		Cleans up and finalizes the formatting of markdown files
 	'''
+	# Most of these are leftovers from pypandoc's parsing
+ 
 	if BUILD_FILE_TREE:
 		text = clean_empty_lines(text)
 		text = move_see_also(text)
@@ -412,8 +414,7 @@ if __name__ == "__main__":
 		with open(input_file, 'r', encoding='utf-8') as file:
 			text = file.read()
 
-		delimiter: str = "<hr>"
-		parts = text.split(delimiter)
+		parts = text.split("<hr>")
 
 		build_file_tree()
 

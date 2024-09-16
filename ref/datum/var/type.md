@@ -23,5 +23,5 @@ obj
 >
 > ``` dm
 > mob/verb/test()
-> usr << type //displays "/mob" 
+> 	usr << type //displays "/mob" 
 > ```

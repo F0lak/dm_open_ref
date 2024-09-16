@@ -3,7 +3,7 @@
 <!-- -->
 **Format:**
 +   New(loc)
-+   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
++   supports [named arguments](/ref/proc/arguments/named.md)
 <!-- -->
 **When:**
 +   Called when the object is created.
@@ -38,9 +38,16 @@ New().
 ### Example:
 
 ``` dm
- mob var birthdate //time stamp New() birthdate =
-world.realtime return ..() verb/look() set src in view() usr \<\<
-\"\[src\] was born on \[time2text(birthdate,\"DD-MMM-YYYY\")\].\"
+mob
+	var birthdate //time stamp
+	
+	New()
+		birthdate = world.realtime
+		return ..()
+	
+	verb/look()
+		set src in view()
+		usr << "[src] was born on [time2text(birthdate,"DD-MMM-YYYY")]."
 
 ```
 

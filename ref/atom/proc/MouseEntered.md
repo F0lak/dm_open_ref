@@ -2,7 +2,7 @@
 
 <!-- -->
 **Format:**
-+   MouseEntered(location,control,params)
++   MouseEntered(location, control, params)
 <!-- -->
 **Args:**
 +   location: the turf, stat panel, grid cell, etc. containing the

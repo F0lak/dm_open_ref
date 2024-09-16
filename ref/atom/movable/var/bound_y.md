@@ -1,12 +1,13 @@
 ## bound_y var (movable atom) 
-###### BYOND Version 490" deprecated="516
-
-**Default value:**
-+   0
-Note: The bound_x/y vars have been deprecated in favor of icon_w/z and
+###### BYOND Version 490
+> [!NOTE]
+> The bound_x/y vars have been deprecated in favor of icon_w/z and
 pixel_w/z. It\'s now preferred to use bound_width/height alone to define
 a bounding box. New behavior simply subtracts bound_x/y from pixel_w/z
 to mimic the old usage. 
+
+**Default value:**
++   0
 
 This var defines the bottom side of the
 physical atom\'s bounding box, in pixels. By default all atoms are

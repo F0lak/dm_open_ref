@@ -18,7 +18,9 @@
 ### Example:
 
 ``` dm
- turf/pit Entered(O) O \<\< \"OUCH. You fell in a pit!\"
+ turf/pit
+    Entered(O)
+        O << "OUCH. You fell in a pit!"
 
 ```
  
@@ -31,28 +33,55 @@ lower-level functions.
 ### Example:
 
 ``` dm
- obj var weight = 10 verb get() set src in oview(1)
-if(Move(usr)) usr \<\< \"You pick up \\a \[src\].\" else usr \<\< \"You
-cannot pick up \[src\].\" drop() set src in usr if(Move(usr.loc)) usr
-\<\< \"You drop \\a \[src\].\" mob var weight max_weight = 50
-Entered(obj/O) weight += O.weight Exited(obj/O) weight -= O.weight
-Enter(obj/O) //only allow entrance if weight is within the limit
-if(O.weight + weight \<= max_weight) return ..() 
+obj
+    var
+        weight = 10
+
+    verb
+        get()
+            set src in oview(1)
+            if(Move(usr))
+                usr << "You pick up \a [src]."
+            else
+                usr << "You cannot pick up [src]."
+
+        drop()
+            set src in usr
+            if(Move(usr.loc))
+                usr << "You drop a [src]."
+mob
+    var
+        weight
+        max_weight = 50
+
+    Entered(obj/O)
+        weight += O.weight
+
+    Exited(obj/O)
+        weight -= O.weight
+    
+    Enter(obj/O)
+        //only allow entrance if weight is within the limit
+        if(O.weight + weight <= max_weight)
+            return ..() 
 ```
  
 
-To
-see the advantages of this arrangement, imagine that there are certain
+To see the advantages of this arrangement, imagine that there are certain
 situations in which an object may be created directly within the mob\'s
 inventory without the mob picking it up. You can still run it through
 your normal movement rules without calling get().
 ### Example:
 
 ``` dm
- mob/verb/wish() var/obj/O = new() //create it with
-loc=null if(O.Move(usr)) //and then move it into inventory usr \<\<
-\"Your wish has been granted!\" else usr \<\< \"You are too greedy!\"
-del O 
+mob/verb/wish()
+    var/obj/O = new() //create it with loc=null
+    if(O.Move(usr))
+        //and then move it into inventory
+        usr << "Your wish has been granted!"
+    else
+        usr << "You are too greedy!"
+        del O 
 ```
 
 

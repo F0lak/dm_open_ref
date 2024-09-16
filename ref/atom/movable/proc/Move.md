@@ -1,7 +1,7 @@
 ## Move proc (movable atom)
 
 **Format:**
-+   Move(NewLoc,Dir=0,step_x=0,step_y=0)
++   Move(NewLoc, Dir = 0, step_x = 0, step_y = 0)
 <!-- -->
 **Returns:**
 +   Success (jump): 1
@@ -17,8 +17,8 @@
 **Args:**
 +   NewLoc: The new location.
 +   Dir: The direction of movement (or 0).
-+   [step_x]{byondver="490"}: The new step_x value, relative to NewLoc
-+   [step_y]{byondver="490"}: The new step_y value, relative to NewLoc
++   [step_x] <sub>490</sub> : The new step_x value, relative to NewLoc
++   [step_y] <sub>490</sub> : The new step_y value, relative to NewLoc
 
 
 Any Move() is either a slide or a jump. Normal walking around

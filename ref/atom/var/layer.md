@@ -13,7 +13,9 @@ followed by missiles and images (in FLY_LAYER, which is 5).
 ### Example:
 
 ``` dm
- turf archway layer = MOB_LAYER+1 //overhead 
+turf
+ 	archway
+	layer = MOB_LAYER+1 //overhead 
 ```
 
 

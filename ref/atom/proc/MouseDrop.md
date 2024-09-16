@@ -2,7 +2,7 @@
 
 <!-- -->
 **Format:**
-+   MouseDrop(over_object,src_location,over_location,src_control,over_control,params)
++   MouseDrop(over_object, src_location, over_location, src_control, over_control, params)
 <!-- -->
 **Args:**
 +   over_object: the object under the mouse pointer

@@ -2,7 +2,7 @@
 
 <!-- -->
 **Format:**
-+   MouseUp(location,control,params)
++   MouseUp(location, control, params)
 <!-- -->
 **Args:**
 +   location: the turf, stat panel, grid cell, etc. in which the object

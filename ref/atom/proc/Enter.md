@@ -20,9 +20,7 @@
 
 Areas, objs, and mobs will always permit anything to enter by
 default. 
-> [!
 > [!NOTE]
-> ]
 > The following behavior only applies to
 [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md). In all other
 movement modes, the turf\'s contents are not taken into account. Only

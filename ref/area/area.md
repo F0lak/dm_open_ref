@@ -22,8 +22,13 @@ display its description.
 ### Example:
 
 ``` dm
- area Entered(O) if(desc) O \<\< desc return ..() outside
-desc = \"Ah! A breath of fresh air!\" 
+area
+	Entered(O)
+		if(desc)
+			O << desc
+			return ..()
+outside
+	desc = "Ah! A breath of fresh air!" 
 ```
 
 

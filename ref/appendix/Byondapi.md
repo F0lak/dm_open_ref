@@ -79,7 +79,7 @@ The `ByondValue` class is a wrapper around
 redefine the `argv` argument of any `call_ext()` functions as an array
 of `ByondValue` instead of `CByondValue`, but the return value should
 stay a `CByondValue`.
-### Example: {#example .cpp}
+### Example:
 ``` cpp
 #include <string>
 #include <byondapi.h>

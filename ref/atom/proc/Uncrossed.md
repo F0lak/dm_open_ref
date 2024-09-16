@@ -18,9 +18,12 @@
 ### Example:
 
 ``` dm
- obj/pressure_plate Uncrossed(O) // if no other mobs are
-standing on it\... if(!(locate(/mob) in bounds())) // do something
-Release() 
+obj/pressure_plate
+    Uncrossed(O)
+    // if no other mobs are standing on it...
+    if(!(locate(/mob) in bounds()))
+        // do something
+        Release() 
 ```
 
 

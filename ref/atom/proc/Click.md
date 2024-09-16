@@ -22,7 +22,8 @@ by clicking it.
 ### Example:
 
 ``` dm
- turf/Click() walk_to(usr,src) 
+ turf/Click()
+    walk_to(usr,src) 
 ```
 
 

@@ -12,7 +12,7 @@
 <!-- -->
 **Args:**
 +   O: the object attempting to exit.
-+   [newloc]{byondver="507"}: the object\'s new location.
++   newloc <sub>507</sub> : the object\'s new location.
 <!-- -->
 **Default action:**
 +   Turfs will call Uncross() and return that value (1 by default). All

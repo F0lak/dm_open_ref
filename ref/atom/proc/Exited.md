@@ -11,7 +11,7 @@
 <!-- -->
 **Args:**
 +   Obj: the object that exited (a mob or obj).
-+   [newloc]{byondver="507"}: the object\'s new location.
++   newloc <sub>507</sub> : the object\'s new location.
 <!-- -->
 **Default action:**
 +   None for most atoms, but turfs will call Uncrossed().

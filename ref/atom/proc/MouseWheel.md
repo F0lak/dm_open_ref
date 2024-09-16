@@ -3,7 +3,7 @@
 
 <!-- -->
 **Format:**
-+   MouseWheel(delta_x,delta_y,location,control,params)
++   MouseWheel(delta_x, delta_y, location, control, params)
 <!-- -->
 **Args:**
 +   delta_x,delta_y: amount of wheel movement

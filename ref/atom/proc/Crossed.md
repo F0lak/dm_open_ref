@@ -18,8 +18,10 @@
 ### Example:
 
 ``` dm
- obj/landmine Crossed(O) O \<\< \"You stepped on a land
-mine!\" Explode() 
+obj/landmine
+    Crossed(O)
+        O << "You stepped on a land mine!"
+        Explode() 
 ```
 
 

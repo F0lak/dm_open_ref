@@ -9,7 +9,8 @@ on graphical clients.
 ### Example:
 
 ``` dm
- turf/wall icon = \'wall.dmi\' 
+turf/wall
+ 	icon = \'wall.dmi\' 
 ```
  
 

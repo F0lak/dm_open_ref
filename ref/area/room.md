@@ -15,9 +15,18 @@ puts players in a room when they log in and provides a single exit.
 ### Example:
 
 ``` dm
- mob/Login() if(!loc) Move(locate(/area/birthing_hut))
-return ..() area/birthing_hut Entered(O) O \<\< \"Waaaaah! You land in a
-pile of straw.\" return ..() verb/exit() if(Move(locate(1,1,1))) //jump
-to the map or whatever usr \<\< \"You crawl into the open air\...\" else
-usr \<\< \"The hut door is blocked. You cannot get out.\" 
+mob/Login()
+	if(!loc)
+		Move(locate(/area/birthing_hut))
+		return ..()
+
+area/birthing_hut
+	Entered(O) O << "Waaaaah! You land in a pile of straw."
+	return ..()
+
+	verb/exit()
+		if(Move(locate(1,1,1))) //jump to the map or whatever
+		usr << "You crawl into the open air..."
+		else
+			usr << "The hut door is blocked. You cannot get out." 
 ```

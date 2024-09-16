@@ -3,11 +3,12 @@
 
 
 This is a text string that controls where an object that is
-listed in `client.screen`{.variable} will appear on the user\'s screen.
+listed in `client.screen` will appear on the user\'s screen.
 The format is: 
 ``` dm
- \"x,y\" \"x:px,y:py\" \"x1,y1 to x2,y2\"
-
+ "x,y"
+ "x:px,y:py"
+ "x1,y1 to x2,y2"
 ```
  
 
@@ -46,8 +47,8 @@ to fit whichever edge you use. Because these keywords do not conform to
 the normal tile-based structure of the HUD, they can\'t be used for a
 range of tiles with the `"to"` format. 
 
-Note:
-[Letterboxing](/ref/skin/param/letterbox.md) , the blank space to either
+> [!NOTE]
+> [Letterboxing](/ref/skin/param/letterbox.md) , the blank space to either
 side of the map if it doesn\'t take up the whole map control, is not
 considered usable space. HUD objects aligned to the control edge appear
 inside any letterboxing, not on top of it.
@@ -67,9 +68,8 @@ create a border big enough for the whole icon to be shown. You can avoid
 this by using the [`TILE_BOUND` appearance
 flag](/ref/atom/var/appearance_flags.md) . Transforms on this atom are not
 taken into account when determining whether to add a border.
+
 ### Offsets
-
-
 Offsets may be applied to screen_loc coordinates. For example,
 `"NORTH+1,WEST"` is in a border above the map. `"CENTER+2,CENTER-1"`
 will appear 2 units right, 1 unit down from the center of the map.
@@ -90,15 +90,13 @@ intended that an object could exist on the map and in the screen object
 list simultaneously, so positioning must be independent. Pixel offsets
 are specified after a colon like this: `"1:16,1:16"`. In this case the
 object is shifted to the northeast by 16 pixels.
+
 ### Layering
-
-
 Screen objects on a plane will appear above non-screen objects
 on the same plane regardless of layer, except that `BACKGROUND_LAYER` or
 `EFFECTS_LAYER` may be used to move the objects forward or back.
+
 ### Secondary map controls
-
-
 You can use HUD objects in any additional [map
 controls](/ref/skin/control/map.md)  that might appear in game\'s skin
 file. If you have a second map named `map2` for instance, then you can

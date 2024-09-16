@@ -12,7 +12,8 @@ list, an individual filter, or null to empty it.
 ### Example:
 
 ``` dm
- obj/blurry filters = filter(type=\"blur\", size=1)
+ obj/blurry
+ 	filters = filter(type="blur", size=1)
 
 ```
  
@@ -24,7 +25,7 @@ apply to any maptext the atom has.
 See the
 [filters](/ref/notes/filters.md) section for more information on
 individual filters.
-### Named Filters {#named-filters byondver="516"}
+### Named Filters <sub>516</sub>
 
 
 Filters can be created with a `name` argument. That name can be

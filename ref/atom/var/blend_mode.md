@@ -9,15 +9,13 @@
 +   BLEND_DEFAULT (0)
 +   BLEND_OVERLAY
 +   BLEND_ADD
-+   BLEND_SUBTRACT[\*]{.small}
-+   BLEND_MULTIPLY[\*†]{.small}
-+   BLEND_INSET_OVERLAY[\*†]{.small}
++   BLEND_SUBTRACT[*](#*)
++   BLEND_MULTIPLY[*†](#*†)
++   BLEND_INSET_OVERLAY[*†](#*†)
 
 
-\[[\*]{.small} This blend type appears only when using graphics
-hardware mode. It is also not visible in the map editor.\]\
-\[[†]{.small} Since the alpha of the icon underneath is used for alpha
-masking, mouse hits take it into account.\] 
+###### * This blend type appears only when using graphics hardware mode. It is also not visible in the map editor.
+###### † Since the alpha of the icon underneath is used for alpha masking, mouse hits take it into account. 
 
 Controls the way
 the atom\'s icon is blended onto the icons behind it. The blend mode

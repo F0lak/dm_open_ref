@@ -15,8 +15,10 @@ status.
 ### Example:
 
 ``` dm
- mob/var health = 100 mob/Stat() stat(\"health\",health)
-statpanel(\"Inventory\",contents) 
+mob/var health = 100
+mob/Stat()
+	stat("health",health)
+	statpanel("Inventory",contents) 
 ```
 
 

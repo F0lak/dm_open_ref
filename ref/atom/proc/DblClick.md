@@ -22,7 +22,8 @@ double clicking it.
 ### Example:
 
 ``` dm
- turf/DblClick() usr.Move(src) 
+ turf/DblClick()
+    usr.Move(src) 
 ```
 
 

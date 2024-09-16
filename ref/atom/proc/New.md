@@ -51,6 +51,17 @@ mob
 
 ```
 
+Below are a few various ways of initializing objects:
+```dm
+var/obj/O = new
+```
+``` dm
+new/atom()
+```
+``` dm
+var/wackysubtype = /obj/test
+var/obj/O = new wackysubtype
+```
 
 > [!TIP] 
 > **See also:**

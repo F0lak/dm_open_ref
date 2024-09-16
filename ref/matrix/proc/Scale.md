@@ -1,7 +1,7 @@
 ## Scale proc (matrix)
 
 **Format:**
-+   Scale(x,y)
++   Scale(x, y)
 <!-- -->
 **Args:**
 +   x: The amount of scaling to do in the x direction

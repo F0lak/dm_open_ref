@@ -1,13 +1,6 @@
 ## pixel_x var (atom)
 
-    atoms)](/ref/atom/movable/var/animate_movement.md) 
-+   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
-+   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
-+   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
-+   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
-+   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [map_format var (world)](/ref/world/var/map_format.md) 
-+   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+
 **Default value:**
 +   0
 
@@ -29,4 +22,11 @@ view() range calculations.
 
 > [!TIP] 
 > **See also:**
-> +   [animate_movement var (movable
+> +   [animate_movement var (movable atoms)](/ref/atom/movable/var/animate_movement.md) 
+> +   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
+> +   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
+> +   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
+> +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [map_format var (world)](/ref/world/var/map_format.md) 
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

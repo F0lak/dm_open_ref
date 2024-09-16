@@ -11,7 +11,7 @@
 +   Message: A message in the prompt, to tell the user what it\'s asking
     for.
 +   Title: The title of the prompt window.
-+   Default: Default value if the user cancels the input.
++   Default: Default value that is pre-populated or pre-selected,  if the user cancels the input.
 +   Type: A verb input type, such as `text`, `message`, `num`,
     `anything`. If you omit "as Type", the type defaults to `text`.
 +   List: An optional list of items to choose from.

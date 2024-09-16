@@ -1,27 +1,24 @@
 ## animate proc 
 ###### BYOND Version 500
-::: sidebar
 ### Useful terms in this article:
 
-
-**Step:** A piece of an animation that transitions from the old
+> [!IMPORTANT]
+> **Step:**
+>   A piece of an animation that transitions from the old
 appearance to a new appearance, in a given time. 
-
-**Sequence:**
-One or more steps in an animation. A sequence may loop a certain number
+> **Sequence:**
+>   One or more steps in an animation. A sequence may loop a certain number
 of times, but requires more than one step for the loop to be meaningful.
-
-
-**Parallel:** Multiple sequences can run concurrently if they
+> **Parallel:**
+>   Multiple sequences can run concurrently if they
 are flagged as parallel. A parallel animation animates only the relative
 changes from the appearance that started the sequence.
-
-
-**Supersede:** If a new animation sequence is not flagged as
+> **Supersede:**
+>   If a new animation sequence is not flagged as
 parallel, it will freeze the previous animation at its current point and
 animate any changes from there. The previous sequences are superseded,
 and will eventually be discarded.
-:::
+
 
 <!-- -->
 **Format:**
@@ -68,13 +65,15 @@ completely.
 ### Example:
 
 ``` dm
- mob/proc/GrowAndFade() // expand (scale by 2x2) and fade
-out over 1/2s animate(src, transform = matrix()*2, alpha = 0, time = 5)
-obj/spell/proc/Spin() // cast a spell on a monster: make the icon spin
-// this animation takes 3s total (6 ticks * 5) animate(src, transform =
-turn(matrix(), 120), time = 2, loop = 5) animate(transform =
-turn(matrix(), 240), time = 2) animate(transform = null, time = 2)
+mob/proc/GrowAndFade()
+    // expand (scale by 2x2) and fade out over 1/2s
+    animate(src, transform = matrix()*2, alpha = 0, time = 5)
 
+obj/spell/proc/Spin()
+    // cast a spell on a monster: make the icon spin
+    // this animation takes 3s total (6 ticks * 5)
+    animate(src, transform = turn(matrix(), 120), time = 2, loop = 5)
+    animate(transform = turn(matrix(), 240), time = 2) animate(transform = null, time = 2)
 ```
  
 
@@ -89,6 +88,8 @@ The following vars will animate smoothly:
 -   pixel_x, pixel_y, pixel_w, pixel_z
 -   transform
 
+> [!NOTE]
+>  `pixel_x, pixel_y, pixel_w, pixel_z are considered integer values by the renderer and sub-pixel values are therefore rounded off during animation calls.  This means that the renderer won't trigger a redraw during these frames
 
 These vars can be changed, but will change immediately on each
 step rather than smoothly:
@@ -119,68 +120,18 @@ transformation to make a coin appear to spin. A text bubble can jump
 into place and bounce a little before it settles. The choice of curve
 you use is called easing, and you have several good choices to pick
 from.
-::::: {.sidebar .play}
 
-
-In this play area, you can test different easing functions to
-see how they work. 
-
-The horizontal axis from left to right
-represents the time of the animation from beginning to end. The vertical
-axis, from bottom to top, is how the animation will be interpolated; the
-lower green line represents the starting appearance, and the upper blue
-line is the ending appearance.
-:::: {style="margin:10px 0; text-align: center;"}
-+-----------------------------------+-----------------------------------+
-| :::: {                            |                                   |
-| style="width:1em; height:150px;"} |                                   |
-| ::: {.nobr style="c               |                                   |
-| olor:black; width:150px; height:1 |                                   |
-| 50px; transform:rotate(270deg);"} |                                   |
-| Progress →                        |                                   |
-| :::                               |                                   |
-| ::::                              |                                   |
-+-----------------------------------+-----------------------------------+
-|                                   | ::: nobr                          |
-|                                   | Time →                            |
-|                                   | :::                               |
-+-----------------------------------+-----------------------------------+
-::: {style="display:inline-block; text-align: left; vertical-align: middle; margin: 0 auto 0 0;"}
-LINEAR_EASING SINE_EASING CIRCULAR_EASING CUBIC_EASING BOUNCE_EASING
-ELASTIC_EASING BACK_EASING QUAD_EASING JUMP_EASING\
-EASE_IN\
-EASE_OUT
-:::
-::::
-:::::
-LINEAR_EASING
-+   Default. Go from one value to another at a constant rate.
-SINE_EASING
-+   The animation follows a sine curve, so it starts off and finishes
-    slowly, with a quicker transition in the middle.
-CIRCULAR_EASING
-+   Similar to a sine curve, but each half of the curve is shaped like a
-    quarter circle.
-QUAD_EASING
-+   A quadratic curve, good for gravity effects.
-CUBIC_EASING
-+   A cubic curve, a little more pronounced than a sine curve.
-BOUNCE_EASING
-+   This transitions quickly like a falling object, and bounces a few
-    times.\
-    Uses `EASE_OUT` unless otherwise specified.
-ELASTIC_EASING
-+   This transitions quickly and overshoots, rebounds, and finally
-    settles down.\
-    Uses `EASE_OUT` unless otherwise specified.
-BACK_EASING
-+   Goes a little bit backward at first, and overshoots a little at the
-    end.
-JUMP_EASING
-+   Jumps suddenly from the beginning state to the end. With the default
-    or `EASE_OUT`, this happens at the end of the time slice. With
-    `EASE_IN`, the jump happens at the beginning. With both flags set,
-    the jump happens at the halfway point.
++ **LINEAR_EASING**: Default. Go from one value to another at a constant rate.
++ **SINE_EASING**: The animation follows a sine curve, so it starts off and finishes slowly, with a quicker transition in the middle.
++ **CIRCULAR_EASING**: Similar to a sine curve, but each half of the curve is shaped like a quarter circle.
++ **QUAD_EASING**: A quadratic curve, good for gravity effects.
++ **CUBIC_EASING**: A cubic curve, a little more pronounced than a sine curve.
++ **BOUNCE_EASING**:  This transitions quickly like a falling object, and bounces a few times.
+    + Uses `EASE_OUT` unless otherwise specified.
++ **ELASTIC_EASING**: This transitions quickly and overshoots, rebounds, and finally settles down.
+    + Uses `EASE_OUT` unless otherwise specified.
++ **BACK_EASING**:  Goes a little bit backward at first, and overshoots a little at the end.
+**JUMP_EASING**: Jumps suddenly from the beginning state to the end. With the default or `EASE_OUT`, this happens at the end of the time slice. With `EASE_IN`, the jump happens at the beginning. With both flags set, the jump happens at the halfway point.
 
 
 These can be combined with `EASE_IN` or `EASE_OUT` using the
@@ -188,22 +139,30 @@ These can be combined with `EASE_IN` or `EASE_OUT` using the
 ### Example:
 
 ``` dm
- obj/coin/proc/Spin() var/matrix/M = matrix()
-M.Scale(-1, 1) // flip horizontally animate(src, transform = M, time =
-5, loop = 5, easing = SINE_EASING) animate(transform = null, time = 5,
-easing = SINE_EASING) obj/speech_bubble/New(newloc, msg) icon =
-\'bubble.dmi\' var/obj/O = new O.maptext = msg O.maptext_width = width
-O.maptext_height = height overlays = O // start below final position and
-jump into place pixel_z = -100 alpha = 0 animate(src, pixel_z = 0, alpha
-= 255, time = 10, easing = ELASTIC_EASING) 
+obj/coin/proc/Spin()
+    var/matrix/M = matrix()
+    M.Scale(-1, 1) // flip horizontally
+    animate(src, transform = M, time = 5, loop = 5, easing = SINE_EASING)
+    animate(transform = null, time = 5, easing = SINE_EASING)
+    
+obj/speech_bubble/New(newloc, msg)
+    icon = 'bubble.dmi'
+    var/obj/O = new
+    O.maptext = msg
+    O.maptext_width = width
+    O.maptext_height = height
+    overlays = O
+    
+    // start below final position and jump into place
+    pixel_z = -100
+    alpha = 0 animate(src, pixel_z = 0, alpha = 255, time = 10, easing = ELASTIC_EASING) 
 ```
  
 
-Some
-easing functions may overshoot one line or the other, so it\'s fully
+Some easing functions may overshoot one line or the other, so it\'s fully
 possible to have a `pixel_w` value, for instance, animate from 0 to 100
 but actually end up briefly outside of that range during the animation.
-### Flags {#flags byondver="509"}
+### Flags <sub><sub>509</sub></sub>
 
 
 Any combination of these flags may be used for animation (use
@@ -258,8 +217,8 @@ Any combination of these flags may be used for animation (use
     naturally. The delay for starting this new sequence is adjusted
     based on that. If using the `tag` argument, only a previous sequence
     with the same matching tag is told to stop looping.
-### Filters {#filters byondver="512"}
 
+### Filters <sub><sub>512</sub></sub>
 
 [Filters](/ref/notes/filters.md) can be animated too. If you
 want to animate a filter, you need to specify the filter to be animated.
@@ -268,17 +227,19 @@ a different filter for that object, then this will be treated as a new
 step in the same animation sequece. Likewise, if the last `animate()`
 call was to a filter, and this call is for the object that filter
 belonged to, again it will be treated as a continuation of the sequence.
+
 ### Example:
 
 ``` dm
-atom/proc/BlurFade() filters += filter(type = "blur",
-size = 0) // Animating a filter of src animate(filters[filters.len],
-size = 5, time = 10) // Switching back to src to animate the next step
-animate(src, alpha = 0, time = 2.5) 
+atom/proc/BlurFade()
+    filters += filter(type = "blur", size = 0)
+    // Animating a filter of src
+    animate(filters[filters.len], size = 5, time = 10)
+    // Switching back to src to animate the next step
+    animate(src, alpha = 0, time = 2.5)
 ```
 
-### Named sequences {#named-sequences byondver="516"}
-
+### Named sequences <sub><sub>516</sub></sub>
 
 The `tag` argument allows you to refer to an animation sequence
 by name. This is useful for being able to replace or stop a previous

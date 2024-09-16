@@ -6,9 +6,8 @@
 
 Changes the environmental reverb for all 3D sounds until
 another environment is specified. Only 3D sounds react to the
-environment. Please see the EAX2 documentation at
-http://developer.creative.com/ for detailed information about these
-settings. 
+environment. Detailed information about these
+settings can be found [here](https://opentk.net/api/OpenTK.Audio.OpenAL.Extensions.Creative.EFX.EffectFloat.html). 
 
 This value may be a number which selects a preset, or
 a list to choose settings manually. The default value (-1) specifies no

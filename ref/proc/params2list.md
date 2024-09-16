@@ -26,7 +26,7 @@ The field separator `;` may be used in place of `&`.
 Special characters such as `=`, `;`, and `&` inside the
 parameter names or values should be written in the form `%xx`, where
 `xx` are two hexadecimal digits representing the ASCII value of the
-character. (For [Unicode](/ref/%7Bnotes%7D/Unicode.md) characters, this may be
+character. (For [Unicode](/ref/notes/Unicode.md) characters, this may be
 several `%xx` sequences using UTF-8 encoding.) For example, `=` would be
 written `%3d`, `;` would be `%3b`, `&` would be `%26`, and `%` would be
 `%25`. These \"escaped\" codes are automatically translated into the

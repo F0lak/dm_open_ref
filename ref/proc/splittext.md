@@ -55,7 +55,7 @@ the string; if you want to split a trimmed string, trim it with
 Note: In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `splittext_char()` to work with character counts instead of bytes,
-at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section
+at a performance cost. See the [Unicode](/ref/notes/Unicode.md) section
 for more information.
 
 > [!TIP] 
@@ -64,4 +64,4 @@ for more information.
 > +   [jointext proc](/ref/proc/jointext.md) 
 > +   [nonspantext proc](/ref/proc/nonspantext.md) 
 > +   [spantext proc](/ref/proc/spantext.md) 
-> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [Regular expressions](/ref/notes/regex.md) 

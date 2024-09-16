@@ -58,7 +58,7 @@ also include \"space\" in the list, and give it an associated value that
 describes the color space this gradient uses to interpolate between
 colors. For instance, `"space"=COLORSPACE_HSL` will use HSL
 interpolation instead of the default RGB. See [Color
-space](/ref/%7B%7Bappendix%7D%7D/color-space.md)  for more information.
+space](/ref/appendix/color-space.md)  for more information.
 ### Example:
 
 ``` dm
@@ -78,5 +78,5 @@ can change over time, thus changing the particle\'s color.
 > **See also:**
 > +   [gradient proc](/ref/proc/gradient.md) 
 > +   [color var (atom)](/ref/atom/var/color.md) 
-> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
-> +   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+> +   [Particle effects](/ref/notes/particles.md) 
+> +   [Color space](/ref/appendix/color-space.md) 

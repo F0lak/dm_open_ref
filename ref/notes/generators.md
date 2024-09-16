@@ -28,7 +28,7 @@ matrix to transform it.
 
 > [!TIP] 
 > **See also:**
-> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> +   [Particle effects](/ref/notes/particles.md) 
 > +   [generator proc](/ref/proc/generator.md) 
 > +   [color var (atom)](/ref/atom/var/color.md) 
-> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> +   [Color matrix](/ref/notes/color-matrix.md) 

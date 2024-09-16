@@ -41,4 +41,4 @@ a single pass of the filter, as long as they have the same `repeat`,
 
 > [!TIP] 
 > **See also:**
-> +   [Wave (filters)](/ref/%7Bnotes%7D/filters/wave.md) <!-- -->
+> +   [Wave (filters)](/ref/notes/filters/wave.md) <!-- -->

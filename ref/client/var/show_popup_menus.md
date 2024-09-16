@@ -11,7 +11,7 @@ right-clicks will instead be passed to the various mouse functions.
 
 > [!TIP] 
 > **See also:**
-> +   [right-click parameter (skin)](/ref/%7Bskin%7D/param/right-click.md) 
+> +   [right-click parameter (skin)](/ref/skin/param/right-click.md) 
 > +   [Click proc (client)](/ref/client/proc/Click.md) 
 > +   [DblClick proc (client)](/ref/client/proc/DblClick.md) 
 > +   [MouseDown proc (client)](/ref/client/proc/MouseDown.md) 

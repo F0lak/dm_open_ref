@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Map](/ref/%7Bskin%7D/control/map.md)  (window only)
++   [Map](/ref/skin/control/map.md)  (window only)
 <!-- -->
 **Format:**
 +   *width*x*height*
@@ -20,14 +20,14 @@ With a
 `zoom` value of 0, which is the default for most projects, the actual
 zoom level is automatically determined by the size of the map control,
 the map\'s native pixel size as explained above, and the value of the
-[letterbox](/ref/%7Bskin%7D/param/letterbox.md) parameter.
+[letterbox](/ref/skin/param/letterbox.md) parameter.
 
 > [!TIP] 
 > **See also:**
-> +   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
-> +   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-> +   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
+> +   [letterbox parameter](/ref/skin/param/letterbox.md) 
+> +   [zoom parameter](/ref/skin/param/zoom.md) 
+> +   [zoom-mode parameter](/ref/skin/param/zoom-mode.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
 > +   [view var (world)](/ref/world/var/view.md) 
 > +   [view var (client)](/ref/client/var/view.md) 
-> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> +   [HUD / screen objects](/ref/notes/HUD.md) 

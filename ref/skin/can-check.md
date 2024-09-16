@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
++   [Menu](/ref/skin/control/menu.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,5 +15,5 @@ button when clicked.
 
 > [!TIP] 
 > **See also:**
-> +   [group parameter](/ref/%7Bskin%7D/param/group.md) 
-> +   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
+> +   [group parameter](/ref/skin/param/group.md) 
+> +   [is-checked parameter](/ref/skin/param/is-checked.md) 

@@ -23,4 +23,4 @@ icon should have a bound_width value of 16.
 > +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

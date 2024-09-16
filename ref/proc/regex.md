@@ -16,12 +16,12 @@
 +   Regex: an existing /regex datum to copy
 
 
-Creates a [regular expression](/ref/%7Bnotes%7D/regex.md)  stored in
+Creates a [regular expression](/ref/notes/regex.md)  stored in
 a /regex datum, that can be used for searching and/or replacing text.
 
 > [!TIP] 
 > **See also:**
-> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [Regular expressions](/ref/notes/regex.md) 
 > +   [regex datum](/ref/regex.md) 
 > +   [regex procs](/ref/regex/proc.md) 
 > +   [findtext proc](/ref/proc/findtext.md) 

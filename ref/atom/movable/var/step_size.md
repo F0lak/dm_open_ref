@@ -25,5 +25,5 @@ before reaching the final position.
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
 > +   [fps var (world)](/ref/world/var/fps.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
-> +   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Gliding](/ref/notes/gliding.md) 
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

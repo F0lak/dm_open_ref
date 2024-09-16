@@ -4,10 +4,10 @@
 Several commands can be executed on the client that are not
 verbs, but instructions for Dream Seeker. Some of these commands have
 detailed syntax described in their own reference entries.
-[.winset](/ref/%7Bskin%7D/commands/.winset.md) 
+[.winset](/ref/skin/commands/.winset.md) 
 +   Sets skin parameters, and includes special syntax for conditional
     actions.
-[.output](/ref/%7Bskin%7D/commands/.output.md) 
+[.output](/ref/skin/commands/.output.md) 
 +   Sends output to a control.
 .options
 +   Shows the Options & Messages box.
@@ -35,7 +35,7 @@ detailed syntax described in their own reference entries.
 .command
 +   Prompts the user to enter a command, which can be one of these
     commands as well.
-[.sound](/ref/%7Bskin%7D/commands/sound.md) 
+[.sound](/ref/skin/commands/sound.md) 
 +   Play, stop, or update sound.
 .configure *option* *value*
 +   Toggle certain Dream Seeker config options, such as
@@ -67,7 +67,7 @@ Several commands already support some special cases like
 `[[*]]` or `[[width]]` or such, where the special-case values are
 relevant to the command. An example is that in `on-size` the value of
 `[[*]]` is a size value. The Any macro, gamepad macros, and mouse
-macros, also support this syntax; see [macros](/ref/%7Bskin%7D/macros.md)  for
+macros, also support this syntax; see [macros](/ref/skin/macros.md)  for
 more info. 
 
 You can choose how embedded wingets get formatted by

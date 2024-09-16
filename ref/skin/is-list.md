@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,5 +15,5 @@ number of columns and rows may change to fit them.
 
 > [!TIP] 
 > **See also:**
-> +   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
-> +   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell.md) 
+> +   [cells parameter](/ref/skin/param/cells.md) 
+> +   [current-cell parameter](/ref/skin/param/current-cell.md) 

@@ -3,7 +3,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) <!-- -->
 **Format:**
 +   *x*,*y*
 
@@ -15,5 +15,5 @@ of the nearest monitor\'s area.
 
 > [!TIP] 
 > **See also:**
-> +   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
-> +   [outer-pos parameter](/ref/%7Bskin%7D/param/outer-pos.md) 
+> +   [pos parameter](/ref/skin/param/pos.md) 
+> +   [outer-pos parameter](/ref/skin/param/outer-pos.md) 

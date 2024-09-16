@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Input](/ref/%7Bskin%7D/control/input.md) <!-- -->
++   [Input](/ref/skin/control/input.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,6 +15,6 @@ will not run a command.
 
 > [!TIP] 
 > **See also:**
-> +   [command parameter](/ref/%7Bskin%7D/param/command.md) 
-> +   [is-password parameter](/ref/%7Bskin%7D/param/is-password.md) 
-> +   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) 
+> +   [command parameter](/ref/skin/param/command.md) 
+> +   [is-password parameter](/ref/skin/param/is-password.md) 
+> +   [multi-line parameter](/ref/skin/param/multi-line.md) 

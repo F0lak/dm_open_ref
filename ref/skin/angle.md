@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Bar](/ref/%7Bskin%7D/control/bar.md) 
++   [Bar](/ref/skin/control/bar.md) 
 <!-- -->
 **Format:**
 +   number
@@ -13,12 +13,12 @@
 
 
 The angle of the bar control\'s arc when its
-[dir](/ref/%7Bskin%7D/param/dir.md) is `clockwise` or
+[dir](/ref/skin/param/dir.md) is `clockwise` or
 `counterclockwise`. Angles are measured clockwise from due north, so 0
 is north, 90 is east, and so on. `angle1` is the beginning of the arc,
 and `angle2` is the end.
 
 > [!TIP] 
 > **See also:**
-> +   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 
-> +   [width parameter](/ref/%7Bskin%7D/param/width.md) 
+> +   [dir parameter](/ref/skin/param/dir.md) 
+> +   [width parameter](/ref/skin/param/width.md) 

@@ -49,12 +49,12 @@ the regular expression.
 Note: In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `replacetext_char()` to work with character counts instead of bytes,
-at a performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section
+at a performance cost. See the [Unicode](/ref/notes/Unicode.md) section
 for more information.
 
 > [!TIP] 
 > **See also:**
 > +   [findtext proc](/ref/proc/findtext.md) 
 > +   [replacetextEx proc](/ref/proc/replacetextEx.md) 
-> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [Regular expressions](/ref/notes/regex.md) 
 > +   [Replace proc (regex)](/ref/regex/proc/Replace.md) 

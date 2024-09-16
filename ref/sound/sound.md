@@ -18,5 +18,5 @@ case the client will play the first compatible sound in the list.
 > **See also:**
 > +   [vars (sound)](/ref/sound/var.md) 
 > +   [sound proc](/ref/proc/sound.md) 
-> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) 
 > +   [load_resource proc](/ref/proc/load_resource.md) 

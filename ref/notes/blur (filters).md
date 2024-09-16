@@ -17,7 +17,7 @@ passes for much higher sizes.
 
 > [!TIP] 
 > **See also:**
-> +   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) 
-> +   [Radial blur (filters)](/ref/%7Bnotes%7D/filters/radial_blur.md) 
-> +   [Angular blur (filters)](/ref/%7Bnotes%7D/filters/angular_blur.md) 
-> +   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->
+> +   [Motion blur (filters)](/ref/notes/filters/motion_blur.md) 
+> +   [Radial blur (filters)](/ref/notes/filters/radial_blur.md) 
+> +   [Angular blur (filters)](/ref/notes/filters/angular_blur.md) 
+> +   [Drop shadow (filters)](/ref/notes/filters/drop_shadow.md) <!-- -->

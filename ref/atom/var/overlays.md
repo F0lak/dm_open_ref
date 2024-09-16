@@ -91,4 +91,4 @@ armor overlays = L
 > +   [list](/ref/list.md) 
 > +   [image objects](/ref/image.md) 
 > +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

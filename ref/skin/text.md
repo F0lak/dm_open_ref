@@ -2,9 +2,9 @@
 
 <!-- -->
 **Applies to:**
-+   [Button](/ref/%7Bskin%7D/control/button.md) 
-+   [Input](/ref/%7Bskin%7D/control/input.md) 
-+   [Label](/ref/%7Bskin%7D/control/label.md) <!-- -->
++   [Button](/ref/skin/control/button.md) 
++   [Input](/ref/skin/control/input.md) 
++   [Label](/ref/skin/control/label.md) <!-- -->
 **Format:**
 +   string
 
@@ -14,7 +14,7 @@ only available at runtime.
 
 > [!TIP] 
 > **See also:**
-> +   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
-> +   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
-> +   [font-style parameter](/ref/%7Bskin%7D/param/font-style.md) 
-> +   [text-wrap parameter](/ref/%7Bskin%7D/param/text-wrap.md) 
+> +   [font-family parameter](/ref/skin/param/font-family.md) 
+> +   [font-size parameter](/ref/skin/param/font-size.md) 
+> +   [font-style parameter](/ref/skin/param/font-style.md) 
+> +   [text-wrap parameter](/ref/skin/param/text-wrap.md) 

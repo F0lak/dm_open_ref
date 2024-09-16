@@ -40,5 +40,5 @@ legacy mode when both mobs were dense; now by default it checks
 > +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
 > +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
 > +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
-> +   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 
+> +   [Gliding](/ref/notes/gliding.md) 

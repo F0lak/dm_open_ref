@@ -18,5 +18,5 @@ set src in usr.client.screen
 
 > [!TIP] 
 > **See also:**
-> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> +   [HUD / screen objects](/ref/notes/HUD.md) 
 > +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 

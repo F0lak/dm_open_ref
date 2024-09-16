@@ -61,6 +61,6 @@ callback in a different browser control.
 
 > [!TIP] 
 > **See also:**
-> +   [browser control (skin)](/ref/%7Bskin%7D/control/browser.md) 
+> +   [browser control (skin)](/ref/skin/control/browser.md) 
 > +   [winset proc](/ref/proc/winset.md) 
 > +   [winget proc](/ref/proc/winget.md) 

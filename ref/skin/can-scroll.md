@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (pane only)
++   [Main](/ref/skin/control/main.md) (pane only)
 <!-- -->
 **Possible values:**
 +   none
@@ -20,5 +20,5 @@ container.
 
 > [!TIP] 
 > **See also:**
-> +   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
-> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> +   [on-size parameter](/ref/skin/param/on-size.md) 
+> +   [size parameter](/ref/skin/param/size.md) 

@@ -2,11 +2,11 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) 
-+   [Info](/ref/%7Bskin%7D/control/info.md) 
++   [Grid](/ref/skin/control/grid.md) 
++   [Info](/ref/skin/control/info.md) 
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) :   none
++   [#rrggbb](/ref/appendix/html-colors.md) :   none
 <!-- -->
 **Default value:**
 +   #00ff00
@@ -17,5 +17,5 @@ verbs. In grids, this color is used when hovering over objects or links.
 
 > [!TIP] 
 > **See also:**
-> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-> +   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
+> +   [text-color parameter](/ref/skin/param/text-color.md) 
+> +   [background-color parameter](/ref/skin/param/background-color.md) 

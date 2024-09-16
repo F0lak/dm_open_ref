@@ -28,4 +28,4 @@ OUTLINE_SQUARE
 
 > [!TIP] 
 > **See also:**
-> +   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->
+> +   [Drop shadow (filters)](/ref/notes/filters/drop_shadow.md) <!-- -->

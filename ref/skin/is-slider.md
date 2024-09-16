@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Bar](/ref/%7Bskin%7D/control/bar.md) <!-- -->
++   [Bar](/ref/skin/control/bar.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,4 +15,4 @@ user, instead of a progress bar.
 
 > [!TIP] 
 > **See also:**
-> +   [value parameter](/ref/%7Bskin%7D/param/value.md) 
+> +   [value parameter](/ref/skin/param/value.md) 

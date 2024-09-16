@@ -3,13 +3,13 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/skin/control.md) 
 <!-- -->
 **Format:**
 +   string
 
 
-[Command](/ref/%7Bskin%7D/commands.md)  executed when this control is
+[Command](/ref/skin/commands.md)  executed when this control is
 resized. If you are dragging a window edge or splitter, the command
 won\'t run until you finish. 
 
@@ -21,9 +21,9 @@ If you include `[[*]]` in the
 command, it will be replaced by the control\'s new size. Likewise,
 `[[width]]` will be replaced with the width and `[[height]]` with the
 height. (See \"Embedded Winget\" in [client
-commands](/ref/%7Bskin%7D/commands.md) for more details on the `[[...]]`
+commands](/ref/skin/commands.md) for more details on the `[[...]]`
 format.)
 
 > [!TIP] 
 > **See also:**
-> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> +   [size parameter](/ref/skin/param/size.md) 

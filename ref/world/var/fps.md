@@ -36,4 +36,4 @@ the client tick at a different (usually faster) rate.
 > **See also:**
 > +   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
 > +   [fps var (client)](/ref/client/var/fps.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

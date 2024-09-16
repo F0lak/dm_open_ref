@@ -15,7 +15,7 @@ A related map_format, used by older games, is
 In this form, the `layer` var behaves exactly as you would
 expect: Icons with a lower layer are drawn beneath icons with a higher
 layer. The only exception is when you use [big
-icons](/ref/%7Bnotes%7D/big-icons.md)  which will be drawn above any other
+icons](/ref/notes/big-icons.md)  which will be drawn above any other
 icons on the same layer. Also an atom\'s underlays will be drawn behind
 it unless their layer is changed, and its overlays will draw in front of
 it unless otherwise stated. 
@@ -37,8 +37,8 @@ lower plane or a special layer like `BACKGROUND_LAYER`.
 > +   [layer var (atom)](/ref/atom/var/layer.md) 
 > +   [plane var (atom)](/ref/atom/var/plane.md) 
 > +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-> +   [HUD](/ref/%7Bnotes%7D/HUD.md) 
-> +   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
-> +   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
-> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> +   [Big icons](/ref/notes/big-icons.md) 
+> +   [HUD](/ref/notes/HUD.md) 
+> +   [Isometric maps](/ref/notes/isometric.md) 
+> +   [Side-view maps](/ref/notes/side.md) 
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

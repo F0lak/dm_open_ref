@@ -2,14 +2,14 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/skin/control.md) 
 <!-- -->
 **Format:**
 +   true/false
 <!-- -->
 **Default value:**
-+   `true` for [Grid](/ref/%7Bskin%7D/control/grid.md) ,
-    [Info](/ref/%7Bskin%7D/control/info.md) , [Map](/ref/%7Bskin%7D/control/map.md) 
++   `true` for [Grid](/ref/skin/control/grid.md) ,
+    [Info](/ref/skin/control/info.md) , [Map](/ref/skin/control/map.md) 
 +   `false` for everything else
 
 
@@ -22,7 +22,7 @@ will be the value of the `over_control` argument in
 Grids can also add `drag-cell` and `drop-cell` to mouse proc
 parameters. The mouse procs\' `src_location` and `over_location`
 arguments are in the form `"[column],[row]"` (or `"[item"]` if
-[is-list](/ref/%7Bskin%7D/param/is-list.md) is true) when dragging
+[is-list](/ref/skin/param/is-list.md) is true) when dragging
 to/from a grid cell. 
 
 In Info controls, `src_location` and

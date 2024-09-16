@@ -2,13 +2,13 @@
 
 <!-- -->
 **Applies to:**
-+   [Tab](/ref/%7Bskin%7D/control/tab.md) 
++   [Tab](/ref/skin/control/tab.md) 
 <!-- -->
 **Format:**
 +   string
 
 
-A comma-separated list of [id](/ref/%7Bskin%7D/param/id.md) 
+A comma-separated list of [id](/ref/skin/param/id.md) 
 values for the panes included as tabs in this control. 
 
 When
@@ -23,6 +23,6 @@ escape `+` as `%2B` via [url_encode()](/ref/proc/url_encode.md)  or
 
 > [!TIP] 
 > **See also:**
-> +   [current-tab parameter](/ref/%7Bskin%7D/param/current-tab.md) 
-> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-> +   [multi-line parameter](/ref/%7Bskin%7D/param/multi-line.md) 
+> +   [current-tab parameter](/ref/skin/param/current-tab.md) 
+> +   [id parameter](/ref/skin/param/id.md) 
+> +   [multi-line parameter](/ref/skin/param/multi-line.md) 

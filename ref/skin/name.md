@@ -2,8 +2,8 @@
 
 <!-- -->
 **Applies to:**
-+   [Macro](/ref/%7Bskin%7D/control/macro.md) 
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
++   [Macro](/ref/skin/control/macro.md) 
++   [Menu](/ref/skin/control/menu.md) <!-- -->
 **Format:**
 +   string
 
@@ -19,5 +19,5 @@ a separator.
 
 > [!TIP] 
 > **See also:**
-> +   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
-> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
+> +   [macros (skin)](/ref/skin/macros.md) 
+> +   [id parameter](/ref/skin/param/id.md) 

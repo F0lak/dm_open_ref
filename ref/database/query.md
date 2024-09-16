@@ -10,4 +10,4 @@ run by calling Clear() and adding new text with Add().
 > **See also:**
 > +   [database datum](/ref/database.md) 
 > +   [procs (database query)](/ref/database/query/proc.md) 
-> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) 

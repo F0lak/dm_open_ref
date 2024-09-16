@@ -3,7 +3,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) <!-- -->
 **Format:**
 +   *x*,*y*
 
@@ -16,6 +16,6 @@ not minimized or maximized, this is identical to `pos`.
 
 > [!TIP] 
 > **See also:**
-> +   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
-> +   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
-> +   [inner-pos parameter](/ref/%7Bskin%7D/param/inner-pos.md) 
+> +   [pos parameter](/ref/skin/param/pos.md) 
+> +   [outer-size parameter](/ref/skin/param/outer-size.md) 
+> +   [inner-pos parameter](/ref/skin/param/inner-pos.md) 

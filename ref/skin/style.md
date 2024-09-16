@@ -1,8 +1,8 @@
 ## style parameter (skin)
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) 
-+   [Map](/ref/%7Bskin%7D/control/map.md) 
-+   [Output](/ref/%7Bskin%7D/control/output.md) 
++   [Grid](/ref/skin/control/grid.md) 
++   [Map](/ref/skin/control/map.md) 
++   [Output](/ref/skin/control/output.md) 
 <!-- -->
 **Format:**
 +   string

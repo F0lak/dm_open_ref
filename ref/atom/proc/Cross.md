@@ -18,7 +18,9 @@
 +   Allow overlap unless both atoms are dense. If both atoms are mobs,
     the behavior depends partly on whether they are in the same group.
 
+> [!
 > [!NOTE]
+> ]
 > The following behavior only applies to
 [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md). In other
 movement modes, src.Cross(O) returns 0 by default if src and O are both
@@ -49,4 +51,4 @@ overlap makes more sense.
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [group var (mob)](/ref/mob/var/group.md) 
 > +   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

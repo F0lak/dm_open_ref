@@ -53,7 +53,7 @@ layer is higher).
 
 Using icons wider than the regular tile size
 can have an impact on layering as well. See [Big
-icons](/ref/%7Bnotes%7D/big-icons.md) for more information. 
+icons](/ref/notes/big-icons.md) for more information. 
 
 Because
 of the order in which icons are drawn, you may want to limit the ability
@@ -123,10 +123,10 @@ the map will be limited to this same view.
 > +   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
 > +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
 > +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-> +   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
-> +   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
-> +   [HUD](/ref/%7Bnotes%7D/HUD.md) 
-> +   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
-> +   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
-> +   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) 
+> +   [Big icons](/ref/notes/big-icons.md) 
+> +   [Side-view maps](/ref/notes/side.md) 
+> +   [Topdown maps](/ref/notes/topdown.md) 
+> +   [HUD](/ref/notes/HUD.md) 
+> +   [BACKGROUND_LAYER](/ref/notes/BACKGROUND_LAYER.md) 
+> +   [EFFECTS_LAYER](/ref/notes/EFFECTS_LAYER.md) 
+> +   [TOPDOWN_LAYER](/ref/notes/topdown_layer.md) 

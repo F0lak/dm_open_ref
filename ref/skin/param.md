@@ -16,7 +16,7 @@ different formats:
     or true/false values as shortcuts
 
 
-The list of [all controls](/ref/%7Bskin%7D/control.md) which shows
+The list of [all controls](/ref/skin/control.md) which shows
 which parameters are universal, and each individual control type lists
 additional parameters that apply to that type specifically.
 

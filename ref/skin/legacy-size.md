@@ -3,7 +3,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Output](/ref/%7Bskin%7D/control/output.md) <!-- -->
++   [Output](/ref/skin/control/output.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -17,4 +17,4 @@ for exact font sizing.
 
 > [!TIP] 
 > **See also:**
-> +   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
+> +   [font-size parameter](/ref/skin/param/font-size.md) 

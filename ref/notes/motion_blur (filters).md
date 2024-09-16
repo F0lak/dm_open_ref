@@ -15,9 +15,9 @@ direction are both specified by `x` and `y`. The size of the blur is
 equal to `sqrt(x*x + y*y)`. 
 
 See [Gaussian
-blur](/ref/%7Bnotes%7D/filters/blur.md) for more information.
+blur](/ref/notes/filters/blur.md) for more information.
 
 > [!TIP] 
 > **See also:**
 > +   [filters var (atom)](/ref/atom/var/filters.md) 
-> +   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
+> +   [Gaussian blur (filters)](/ref/notes/filters/blur.md) 

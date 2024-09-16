@@ -2,16 +2,16 @@
 
 <!-- -->
 **Applies to:**
-+   [Input](/ref/%7Bskin%7D/control/input.md) 
++   [Input](/ref/skin/control/input.md) 
 <!-- -->
 **Format:**
 +   string
 
 
-[Command](/ref/%7Bskin%7D/commands.md) executed when the control
+[Command](/ref/skin/commands.md) executed when the control
 loses focus.
 
 > [!TIP] 
 > **See also:**
-> +   [focus parameter](/ref/%7Bskin%7D/param/focus.md) 
-> +   [on-focus parameter](/ref/%7Bskin%7D/param/on-focus.md) 
+> +   [focus parameter](/ref/skin/param/focus.md) 
+> +   [on-focus parameter](/ref/skin/param/on-focus.md) 

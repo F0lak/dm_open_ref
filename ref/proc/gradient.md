@@ -6,9 +6,9 @@
 +   gradient(Gradient, index)
 <!-- -->
 **Args:**
-+   Gradient: A [color gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
++   Gradient: A [color gradient](/ref/notes/color-gradient.md)  list
 +   Item1, Item2\...: Elements of a [color
-    gradient](/ref/%7Bnotes%7D/color-gradient.md)  list
+    gradient](/ref/notes/color-gradient.md)  list
 +   index: The index along the gradient where the interpolation is done.
 <!-- -->
 **Returns:**
@@ -16,7 +16,7 @@
 
 
 Interpolates between two or more colors along a [color
-gradient](/ref/%7Bnotes%7D/color-gradient.md) . By default, gradients extend
+gradient](/ref/notes/color-gradient.md) . By default, gradients extend
 from an index of 0 to 1, but they are allowed to go beyond that if you
 choose. 
 
@@ -65,7 +65,7 @@ gradient(candy_cane_gradient, world.time/100)
 
 > [!TIP] 
 > **See also:**
-> +   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
+> +   [Color gradient](/ref/notes/color-gradient.md) 
 > +   [rgb proc](/ref/proc/rgb.md) 
 > +   [rgb2num proc](/ref/proc/rgb2num.md) 
-> +   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
+> +   [Color space](/ref/appendix/color-space.md) 

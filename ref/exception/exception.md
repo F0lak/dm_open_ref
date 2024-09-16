@@ -36,4 +36,4 @@ other than world.log.
 > +   [throw statement](/ref/proc/throw.md) 
 > +   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
 > +   [caller var (proc)](/ref/proc/var/caller.md) 
-> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
+> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) <!-- -->

@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Button](/ref/%7Bskin%7D/control/button.md) <!-- -->
++   [Button](/ref/skin/control/button.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,4 +15,4 @@ highlights.
 
 > [!TIP] 
 > **See also:**
-> +   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) 
+> +   [button-type parameter](/ref/skin/param/button-type.md) 

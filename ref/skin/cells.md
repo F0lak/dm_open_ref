@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) 
++   [Grid](/ref/skin/control/grid.md) 
 <!-- -->
 **Format:**
 +   *columns*,*rows*
@@ -16,11 +16,11 @@ The number of columns and rows in the grid. Using -1 for either
 columns or rows will leave that value unchanged. 
 
 If
-[is-list](/ref/%7Bskin%7D/param/is-list.md) is true, this value can be
+[is-list](/ref/skin/param/is-list.md) is true, this value can be
 set to a single number.
 
 > [!TIP] 
 > **See also:**
-> +   [cell-span parameter](/ref/%7Bskin%7D/param/cell-span.md) 
-> +   [current-cell parameter](/ref/%7Bskin%7D/param/current-cell.md) 
-> +   [is-list parameter](/ref/%7Bskin%7D/param/is-list.md) 
+> +   [cell-span parameter](/ref/skin/param/cell-span.md) 
+> +   [current-cell parameter](/ref/skin/param/current-cell.md) 
+> +   [is-list parameter](/ref/skin/param/is-list.md) 

@@ -42,5 +42,5 @@ icon. mode=2 will show all of the states.
 > +   [icons](/ref/DM/icon.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
 > +   [map_format var (world)](/ref/world/var/map_format.md) 
-> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-> +   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) <!-- -->
+> +   [Big icons](/ref/notes/big-icons.md) 
+> +   [Tiled icons](/ref/notes/tiled-icons.md) <!-- -->

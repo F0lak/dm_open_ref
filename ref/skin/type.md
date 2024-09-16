@@ -2,9 +2,9 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) 
-+   [Macro](/ref/%7Bskin%7D/control/macro.md) 
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
++   [All](/ref/skin/control.md) 
++   [Macro](/ref/skin/control/macro.md) 
++   [Menu](/ref/skin/control/menu.md) <!-- -->
 **Format:**
 +   string
 
@@ -13,5 +13,5 @@ The type of this control. Read-only.
 
 > [!TIP] 
 > **See also:**
-> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-> +   [parent parameter](/ref/%7Bskin%7D/param/parent.md) 
+> +   [id parameter](/ref/skin/param/id.md) 
+> +   [parent parameter](/ref/skin/param/parent.md) 

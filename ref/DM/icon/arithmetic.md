@@ -46,7 +46,7 @@ You can also specify a color value as
 \"#RGB\". The single digit is automatically repeated, so \"#F00\" is the
 same as \"#FF0000\", which is bright red. For certain pre-defined color
 values, you can also specify a name, such as \"red\". See [HTML
-colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) for a list of color names.
+colors](/ref/appendix/html-colors.md) for a list of color names.
 
 
 If you prefer base 10, you can create color values with the

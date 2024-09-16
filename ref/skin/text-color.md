@@ -2,17 +2,17 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) 
++   [All](/ref/skin/control.md) 
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) :   none
++   [#rrggbb](/ref/appendix/html-colors.md) :   none
 
 
 The control\'s foreground text color.
 
 > [!TIP] 
 > **See also:**
-> +   [background-color parameter](/ref/%7Bskin%7D/param/background-color.md) 
-> +   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
-> +   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
-> +   [font-style parameter](/ref/%7Bskin%7D/param/font-style.md) 
+> +   [background-color parameter](/ref/skin/param/background-color.md) 
+> +   [font-family parameter](/ref/skin/param/font-family.md) 
+> +   [font-size parameter](/ref/skin/param/font-size.md) 
+> +   [font-style parameter](/ref/skin/param/font-style.md) 

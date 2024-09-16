@@ -3,7 +3,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   true/false
@@ -19,11 +19,11 @@ mode were turned off.
 
 > [!TIP] 
 > **See also:**
-> +   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
-> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
-> +   [is-maximized parameter](/ref/%7Bskin%7D/param/is-maximized.md) 
-> +   [is-minimized parameter](/ref/%7Bskin%7D/param/is-minimized.md) 
-> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
-> +   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
-> +   [screen-pos parameter](/ref/%7Bskin%7D/param/screen-pos.md) 
-> +   [screen-size parameter](/ref/%7Bskin%7D/param/screen-size.md) 
+> +   [can-resize parameter](/ref/skin/param/can-resize.md) 
+> +   [titlebar parameter](/ref/skin/param/titlebar.md) 
+> +   [is-maximized parameter](/ref/skin/param/is-maximized.md) 
+> +   [is-minimized parameter](/ref/skin/param/is-minimized.md) 
+> +   [size parameter](/ref/skin/param/size.md) 
+> +   [outer-size parameter](/ref/skin/param/outer-size.md) 
+> +   [screen-pos parameter](/ref/skin/param/screen-pos.md) 
+> +   [screen-size parameter](/ref/skin/param/screen-size.md) 

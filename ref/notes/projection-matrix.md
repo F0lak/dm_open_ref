@@ -105,7 +105,7 @@ wx,wy,wz,ww)
 
 > [!TIP] 
 > **See also:**
-> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> +   [Particle effects](/ref/notes/particles.md) 
 > +   [transform var (atom)](/ref/atom/var/transform.md) 
 > +   [matrix](/ref/matrix.md) 
-> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> +   [Color matrix](/ref/notes/color-matrix.md) 

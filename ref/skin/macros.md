@@ -8,15 +8,15 @@ control to another.
 
 A collection of macros is called a macro
 set, and the window currently in use defines which macro set will be
-used via its [macro](/ref/%7Bskin%7D/param/macro.md)  parameter.
+used via its [macro](/ref/skin/param/macro.md)  parameter.
 
 
 Macros can be changed at runtime. If a macro does not have an
-[id](/ref/%7Bskin%7D/param/id.md) , you can refer to it by its key
-combination ([name](/ref/%7Bskin%7D/param/name.md) ). If you have a
+[id](/ref/skin/param/id.md) , you can refer to it by its key
+combination ([name](/ref/skin/param/name.md) ). If you have a
 macro set named `macro1` and have a `Ctrl+E` macro for instance, you
 could use [winset()](/ref/proc/winset.md)  with `"macro1.Ctrl+E"`. See
-the [Macro control](/ref/%7Bskin%7D/control/macro.md)  for information on which
+the [Macro control](/ref/skin/control/macro.md)  for information on which
 parameters you can change with `winset()`. 
 
 The `name` of the
@@ -40,15 +40,15 @@ instant=1](/ref/verb/set/instant.md)  on the verbs that will be tied to
 the Any macro, so that keyboard input doesn\'t queue up and lag behind.
 
 
-In the [command](/ref/%7Bskin%7D/param/command.md)  that goes
+In the [command](/ref/skin/param/command.md)  that goes
 with this macro, `[[*]]` will be replaced with the name of the key or
 gamepad button that was pressed/released. (See \"Embedded Winget\" in
-[client commands](/ref/%7Bskin%7D/commands.md)  for more details on the
+[client commands](/ref/skin/commands.md)  for more details on the
 `[[...]]` format.)
 ### Mapping {#mapping byondver="511"}
 
 
-The [map-to](/ref/%7Bskin%7D/param/map-to.md)  parameter is
+The [map-to](/ref/skin/param/map-to.md)  parameter is
 used by **mappings**, which are like macros but are used to convert
 gamepad inputs easily and quickly to keyboard inputs. E.g.,
 `GamepadLeft` can map to `West` which is the left arrow key. A set of
@@ -73,7 +73,7 @@ to harness these inputs.
 
 To let a user configure their gamepad,
 you need to call the client-side `.gamepad-mapping`
-[command](/ref/%7Bskin%7D/commands.md) . Or, if they have access to the Options
+[command](/ref/skin/commands.md) . Or, if they have access to the Options
 & Messages window and Dream Seeker\'s default menus, they can reach it
 from there. However it\'s a good idea to make this easy for them to
 find. Several common gamepads are already known by BYOND. 
@@ -97,7 +97,7 @@ instead want to provide data directly to the verb. You will want
 
 Mouse macro commands use the
 `[[...]]` syntax to embed values, just like [embedded
-wingets](/ref/%7Bskin%7D/commands.md) . These are the values you can include in
+wingets](/ref/skin/commands.md) . These are the values you can include in
 a mouse macro:
   Embedded keyword                                                                                                               Meaning
   ------------------------------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------

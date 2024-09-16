@@ -23,7 +23,7 @@ text representation.
  
 
 BYOND
-now supports [Unicode](/ref/%7Bnotes%7D/Unicode.md) via UTF-8 encoding, so you
+now supports [Unicode](/ref/notes/Unicode.md) via UTF-8 encoding, so you
 can use the character code for any valid Unicode character, not just
 ASCII.
 

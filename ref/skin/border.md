@@ -1,6 +1,6 @@
 ## border parameter (skin)
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/skin/control.md) <!-- -->
 **Possible values:**
 +   none
 +   line

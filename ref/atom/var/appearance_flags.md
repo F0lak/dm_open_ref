@@ -178,6 +178,6 @@ movers and tile movers can coexist.
 > +   [color var (atom)](/ref/atom/var/color.md) 
 > +   [transform var (atom)](/ref/atom/var/transform.md) 
 > +   [color var (client)](/ref/client/var/color.md) 
-> +   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+> +   [Gliding](/ref/notes/gliding.md) 
 > +   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

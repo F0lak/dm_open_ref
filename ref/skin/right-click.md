@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/skin/control.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -18,4 +18,4 @@ behavior.
 > **See also:**
 > +   [mouse handling](/ref/DM/mose.md) 
 > +   [popup_menu setting (verb)](/ref/set/popup_menu.md) 
-> +   [drop-zone parameter](/ref/%7Bskin%7D/param/drop-zone.md) 
+> +   [drop-zone parameter](/ref/skin/param/drop-zone.md) 

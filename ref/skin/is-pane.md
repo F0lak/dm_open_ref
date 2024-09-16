@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,6 +15,6 @@ controls, instead of an independent window. Read-only.
 
 > [!TIP] 
 > **See also:**
-> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-> +   [Child control](/ref/%7Bskin%7D/control/child.md) 
-> +   [Tab control](/ref/%7Bskin%7D/control/tab.md) 
+> +   [id parameter](/ref/skin/param/id.md) 
+> +   [Child control](/ref/skin/control/child.md) 
+> +   [Tab control](/ref/skin/control/tab.md) 

@@ -2,10 +2,10 @@
 
 <!-- -->
 **Applies to:**
-+   [Button](/ref/%7Bskin%7D/control/button.md) 
-+   [Label](/ref/%7Bskin%7D/control/label.md) 
-+   [Main](/ref/%7Bskin%7D/control/main.md) 
-+   [Output](/ref/%7Bskin%7D/control/output.md) 
++   [Button](/ref/skin/control/button.md) 
++   [Label](/ref/skin/control/label.md) 
++   [Main](/ref/skin/control/main.md) 
++   [Output](/ref/skin/control/output.md) 
 <!-- -->
 **Format:**
 +   \'*file*\'
@@ -23,10 +23,10 @@ color.
 
 
 For Label and Main, use
-[image-mode](/ref/%7Bskin%7D/param/image-mode.md) to control how the
+[image-mode](/ref/skin/param/image-mode.md) to control how the
 image is displayed.
 
 > [!TIP] 
 > **See also:**
-> +   [image-mode parameter](/ref/%7Bskin%7D/param/image-mode.md) 
-> +   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 
+> +   [image-mode parameter](/ref/skin/param/image-mode.md) 
+> +   [keep-aspect parameter](/ref/skin/param/keep-aspect.md) 

@@ -39,4 +39,4 @@ one\'s own mob.
 > +   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
 > +   [Stat proc (client)](/ref/client/proc/Stat.md) 
 > +   [stat proc](/ref/proc/stat.md) 
-> +   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->

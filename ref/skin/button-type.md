@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Button](/ref/%7Bskin%7D/control/button.md) <!-- -->
++   [Button](/ref/skin/control/button.md) <!-- -->
 **Possible values:**
 +   pushbutton: press once
 +   pushbox: press to toggle
@@ -18,5 +18,5 @@ Changes the type of button.
 
 > [!TIP] 
 > **See also:**
-> +   [group parameter](/ref/%7Bskin%7D/param/group.md) 
-> +   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
+> +   [group parameter](/ref/skin/param/group.md) 
+> +   [is-checked parameter](/ref/skin/param/is-checked.md) 

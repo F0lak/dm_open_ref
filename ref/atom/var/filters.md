@@ -22,7 +22,7 @@ filters after the composite image has been drawn. Filters will also
 apply to any maptext the atom has. 
 
 See the
-[filters](/ref/%7Bnotes%7D/filters.md) section for more information on
+[filters](/ref/notes/filters.md) section for more information on
 individual filters.
 ### Named Filters {#named-filters byondver="516"}
 
@@ -46,4 +46,4 @@ simply by subtracting the name instead of the filter itself. That is,
 > +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 > +   [filter proc](/ref/proc/filter.md) 
 > +   [animate proc](/ref/proc/animate.md) 
-> +   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
+> +   [Filter effects](/ref/notes/filters.md) 

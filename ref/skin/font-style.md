@@ -1,9 +1,9 @@
 ## font-style parameter (skin)
 
-    parameters](/ref/%7Bskin%7D/param/tab-font.md) 
+    parameters](/ref/skin/param/tab-font.md) 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/skin/control.md) <!-- -->
 **Possible values:**
 +   bold
 +   italic
@@ -20,6 +20,6 @@ commas.
 
 > [!TIP] 
 > **See also:**
-> +   [font-family parameter](/ref/%7Bskin%7D/param/font-family.md) 
-> +   [font-size parameter](/ref/%7Bskin%7D/param/font-size.md) 
+> +   [font-family parameter](/ref/skin/param/font-family.md) 
+> +   [font-size parameter](/ref/skin/param/font-size.md) 
 > +   [tab-font-family, tab-font-size, tab-font-style

@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Bar](/ref/%7Bskin%7D/control/bar.md) <!-- -->
++   [Bar](/ref/skin/control/bar.md) <!-- -->
 **Format:**
 +   number
 <!-- -->
@@ -15,5 +15,5 @@ available width.
 
 > [!TIP] 
 > **See also:**
-> +   [dir parameter](/ref/%7Bskin%7D/param/dir.md) 
-> +   [is-slider parameter](/ref/%7Bskin%7D/param/is-slider.md) 
+> +   [dir parameter](/ref/skin/param/dir.md) 
+> +   [is-slider parameter](/ref/skin/param/is-slider.md) 

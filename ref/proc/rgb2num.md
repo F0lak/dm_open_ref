@@ -7,8 +7,8 @@
 <!-- -->
 **Args:**
 +   color: A color value (see [HTML
-    colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) )
-+   space: [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md)  default is
+    colors](/ref/appendix/html-colors.md) )
++   space: [Color space](/ref/appendix/color-space.md)  default is
     `COLORSPACE_RGB`
 <!-- -->
 **Returns:**
@@ -41,5 +41,5 @@ HSL\[3\] // luminance (66.6667)
 > **See also:**
 > +   [rgb proc](/ref/proc/rgb.md) 
 > +   [gradient proc](/ref/proc/gradient.md) 
-> +   [Color space](/ref/%7B%7Bappendix%7D%7D/color-space.md) 
-> +   [HTML colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
+> +   [Color space](/ref/appendix/color-space.md) 
+> +   [HTML colors](/ref/appendix/html-colors.md) 

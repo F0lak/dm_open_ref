@@ -33,4 +33,4 @@ preferably much smaller.
 > +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 > +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
 > +   [map_format var (world)](/ref/world/var/map_format.md) 
-> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

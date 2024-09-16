@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,4 +15,4 @@ control instead of larger ones.
 
 > [!TIP] 
 > **See also:**
-> +   [show-names parameter](/ref/%7Bskin%7D/param/show-names.md) 
+> +   [show-names parameter](/ref/skin/param/show-names.md) 

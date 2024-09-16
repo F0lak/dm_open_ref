@@ -48,7 +48,7 @@ image being drawn on. This is pretty much not at all useful directly on
 the map, but can be very useful for an overlay for an atom that uses
 `KEEP_TOGETHER` (see
 [appearance_flags](/ref/atom/var/appearance_flags.md) ), or for the
-[layering filter](/ref/%7Bnotes%7D/filters/layer.md) 
+[layering filter](/ref/notes/filters/layer.md) 
 
 > [!TIP] 
 > **See also:**

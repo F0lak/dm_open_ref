@@ -44,6 +44,6 @@ may be needed for movement.
 
 > [!TIP] 
 > **See also:**
-> +   [User interface skins](/ref/%7Bskin%7D.md) 
-> +   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+> +   [User interface skins](/ref/skin.md) 
+> +   [macros (skin)](/ref/skin/macros.md) 
 > +   [macros (client script)](/ref/client/var/script/macro.md) <!-- -->

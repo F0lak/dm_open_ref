@@ -3,7 +3,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) <!-- -->
 **Format:**
 +   *width*x*height*
 
@@ -15,5 +15,5 @@ nearest monitor\'s area.
 
 > [!TIP] 
 > **See also:**
-> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
-> +   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
+> +   [size parameter](/ref/skin/param/size.md) 
+> +   [outer-size parameter](/ref/skin/param/outer-size.md) 

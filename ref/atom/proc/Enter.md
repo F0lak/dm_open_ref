@@ -20,7 +20,9 @@
 
 Areas, objs, and mobs will always permit anything to enter by
 default. 
+> [!
 > [!NOTE]
+> ]
 > The following behavior only applies to
 [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md). In all other
 movement modes, the turf\'s contents are not taken into account. Only
@@ -53,4 +55,4 @@ proc is called if there is a danger of the object overlapping it.
 > +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

@@ -268,8 +268,8 @@ Any appearance can have a [layer](/ref/atom/var/layer.md)  or
 [plane](/ref/atom/var/layer.md) , and these influence how it gets
 sorted. (There\'s also a concept called a \"sub-plane\" that\'s
 influenced by whether an atom is a [HUD/screen
-object](/ref/%7Bnotes%7D/HUD.md)  or special layers like
-[BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) .) 
+object](/ref/notes/HUD.md)  or special layers like
+[BACKGROUND_LAYER](/ref/notes/BACKGROUND_LAYER.md) .) 
 
 If
 a sprite is created with `FLOAT_LAYER` (any negative value counts as a

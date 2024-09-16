@@ -35,4 +35,4 @@ Release()
 > +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [group var (mob)](/ref/mob/var/group.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

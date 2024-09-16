@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Label](/ref/%7Bskin%7D/control/label.md) <!-- -->
++   [Label](/ref/skin/control/label.md) <!-- -->
 **Possible values:**
 +   center
 +   left
@@ -26,4 +26,4 @@ parameter, or 0 for center alignment.
 
 > [!TIP] 
 > **See also:**
-> +   [allow-html parameter](/ref/%7Bskin%7D/param/allow-html.md) 
+> +   [allow-html parameter](/ref/skin/param/allow-html.md) 

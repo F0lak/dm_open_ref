@@ -34,7 +34,7 @@ This outputs:
 Note: An
 Inc statement like `i += 0.1` is perfectly valid, but you should keep in
 mind that numerical accuracy is not exact. See
-[Numbers](/ref/%7Bnotes%7D/numbers.md)  for more information.
+[Numbers](/ref/notes/numbers.md)  for more information.
 ### C-like syntax
 
 

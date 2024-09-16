@@ -17,5 +17,5 @@ shortcut, equivalent to setting `is-visible` via `winset()`.
 > +   [winclone proc](/ref/proc/winclone.md) 
 > +   [winget proc](/ref/proc/winget.md) 
 > +   [winset proc](/ref/proc/winset.md) 
-> +   [User interface skins](/ref/%7Bskin%7D.md) 
-> +   [is-visible parameter (skin)](/ref/%7Bskin%7D/param/is-visible.md) <!-- -->
+> +   [User interface skins](/ref/skin.md) 
+> +   [is-visible parameter (skin)](/ref/skin/param/is-visible.md) <!-- -->

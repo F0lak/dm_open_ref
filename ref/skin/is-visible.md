@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/skin/control.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,4 +15,4 @@ usually be made visible.
 
 > [!TIP] 
 > **See also:**
-> +   [is-disabled parameter](/ref/%7Bskin%7D/param/is-disabled.md) 
+> +   [is-disabled parameter](/ref/skin/param/is-disabled.md) 

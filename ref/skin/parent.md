@@ -2,20 +2,20 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) 
-+   [Macro](/ref/%7Bskin%7D/control/macro.md) 
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) 
++   [All](/ref/skin/control.md) 
++   [Macro](/ref/skin/control/macro.md) 
++   [Menu](/ref/skin/control/menu.md) 
 <!-- -->
 **Format:**
 +   string
 
 
-The [id](/ref/%7Bskin%7D/param/id.md) of this control\'s
+The [id](/ref/skin/param/id.md) of this control\'s
 parent. Write-only, used when creating a new control at runtime or
 deleting a control that was created this way.
 
 > [!TIP] 
 > **See also:**
-> +   [id parameter](/ref/%7Bskin%7D/param/id.md) 
-> +   [type parameter](/ref/%7Bskin%7D/param/type.md) 
-> +   [name parameter](/ref/%7Bskin%7D/param/name.md) 
+> +   [id parameter](/ref/skin/param/id.md) 
+> +   [type parameter](/ref/skin/param/type.md) 
+> +   [name parameter](/ref/skin/param/name.md) 

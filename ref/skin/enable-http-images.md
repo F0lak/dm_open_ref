@@ -2,8 +2,8 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) 
-+   [Output](/ref/%7Bskin%7D/control/output.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) 
++   [Output](/ref/skin/control/output.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -16,5 +16,5 @@ tag; otherwise only locally stored images can be shown.
 
 > [!TIP] 
 > **See also:**
-> +   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) 
-> +   [style parameter](/ref/%7Bskin%7D/param/style.md) 
+> +   [small-icons parameter](/ref/skin/param/small-icons.md) 
+> +   [style parameter](/ref/skin/param/style.md) 

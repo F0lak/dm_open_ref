@@ -65,4 +65,4 @@ being on the map or inside of a movable counts as a reference.
 > +   [vis_locs var (atom)](/ref/atom/var/vis_locs.md) 
 > +   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
 > +   [image objects](/ref/image.md) 
-> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> +   [HUD / screen objects](/ref/notes/HUD.md) 

@@ -13,7 +13,7 @@ overlay.
 Particles can exist in 3 dimensions instead of the
 usual 2, so a particle\'s position, velocity, and other values may have
 a z coordinate. To make use of this z coordinate, you can use a
-[projection matrix](/ref/%7Bnotes%7D/projection-matrix.md) . (The value of the
+[projection matrix](/ref/notes/projection-matrix.md) . (The value of the
 z coordinate must be between -100 and 100 after projection. Otherwise
 it\'s not guaranteed the particle will be displayed.) 
 
@@ -75,8 +75,8 @@ tick of 0.1s.
                                                                       in this set (pixels per
                                                                       squared tick)
   gradient                [color                                      Color gradient used, if
-                          gradient](/ref/%7Bnotes%7D/color-gradient.md)      any
-  transform               [matrix](/ref/%7Bnotes%7D/projection-matrix.md)   Transform done to all
+                          gradient](/ref/notes/color-gradient.md)      any
+  transform               [matrix](/ref/notes/projection-matrix.md)   Transform done to all
                                                                       particles, if any (can be
                                                                       higher than 2D)
   Vars that apply when a                                              
@@ -161,7 +161,7 @@ atom will be different.
 > [!TIP] 
 > **See also:**
 > +   [particles (movable atom var)](/ref/atom/movable/var/particles.md) 
-> +   [Generators](/ref/%7Bnotes%7D/generators.md) 
+> +   [Generators](/ref/notes/generators.md) 
 > +   [generator proc](/ref/proc/generator.md) 
-> +   [Projection matrix](/ref/%7Bnotes%7D/projection-matrix.md) 
-> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> +   [Projection matrix](/ref/notes/projection-matrix.md) 
+> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) 

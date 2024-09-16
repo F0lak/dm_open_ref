@@ -3,10 +3,10 @@
 
 A text label that appears on the skin.
 **Label-specific parameters:**
-+   [align](/ref/%7Bskin%7D/param/align.md) 
-+   [allow-html](/ref/%7Bskin%7D/param/allow-html.md) 
-+   [image](/ref/%7Bskin%7D/param/image.md) 
-+   [image-mode](/ref/%7Bskin%7D/param/image-mode.md) 
-+   [keep-aspect](/ref/%7Bskin%7D/param/keep-aspect.md) 
-+   [text](/ref/%7Bskin%7D/param/text.md) 
-+   [text-wrap](/ref/%7Bskin%7D/param/text-wrap.md) 
++   [align](/ref/skin/param/align.md) 
++   [allow-html](/ref/skin/param/allow-html.md) 
++   [image](/ref/skin/param/image.md) 
++   [image-mode](/ref/skin/param/image-mode.md) 
++   [keep-aspect](/ref/skin/param/keep-aspect.md) 
++   [text](/ref/skin/param/text.md) 
++   [text-wrap](/ref/skin/param/text-wrap.md) 

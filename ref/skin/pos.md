@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) <!-- -->
++   [All](/ref/skin/control.md) <!-- -->
 **Format:**
 +   *x*,*y*
 +   none
@@ -17,5 +17,5 @@ container. (Not applicable to panes.)
 
 > [!TIP] 
 > **See also:**
-> +   [anchor1, anchor2 parameters](/ref/%7Bskin%7D/param/anchor.md) 
-> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> +   [anchor1, anchor2 parameters](/ref/skin/param/anchor.md) 
+> +   [size parameter](/ref/skin/param/size.md) 

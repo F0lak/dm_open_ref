@@ -64,4 +64,4 @@ copied.
 > **See also:**
 > +   [vars (atom)](/ref/atom/var.md) 
 > +   [mutable appearance](/ref/mutable_appearance.md) 
-> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

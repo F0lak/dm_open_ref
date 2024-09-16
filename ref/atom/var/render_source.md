@@ -13,7 +13,7 @@ another icon with a matching `render_target` value on the visible map,
 and draw that in place of the `icon`/`icon_state`/`dir` that it normally
 would. The same render target might be used as a source multiple times,
 and for a complex image this can save some rendering time. This is also
-usable for special effects such as [filters](/ref/%7Bnotes%7D/filters.md)  that
+usable for special effects such as [filters](/ref/notes/filters.md)  that
 might require copies of an image. 
 
 Note: The corresponding

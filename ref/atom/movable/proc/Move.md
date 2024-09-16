@@ -76,5 +76,5 @@ change is also considered a jump.
 > +   [loc var (atom)](/ref/atom/var/loc.md) 
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
 > +   [walk proc](/ref/proc/walk.md) 
-> +   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Gliding](/ref/notes/gliding.md) 
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

@@ -58,4 +58,4 @@ the same `WAVE_BOUNDED` flags.
 
 > [!TIP] 
 > **See also:**
-> +   [Ripple (filters)](/ref/%7Bnotes%7D/filters/ripple.md) <!-- -->
+> +   [Ripple (filters)](/ref/notes/filters/ripple.md) <!-- -->

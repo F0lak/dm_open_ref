@@ -3,7 +3,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Map](/ref/%7Bskin%7D/control/map.md) 
++   [Map](/ref/skin/control/map.md) 
 <!-- -->
 **Format:**
 +   true/false
@@ -13,7 +13,7 @@
 
 
 If map auto-scales its icons
-([zoom](/ref/%7Bskin%7D/param/zoom.md) is 0), make sure the entire map
+([zoom](/ref/skin/param/zoom.md) is 0), make sure the entire map
 fits, and fill excess space with the background color. 
 
 If
@@ -22,6 +22,6 @@ any excess will be cut off.
 
 > [!TIP] 
 > **See also:**
-> +   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
-> +   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-> +   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
+> +   [view-size parameter](/ref/skin/param/view-size.md) 
+> +   [zoom parameter](/ref/skin/param/zoom.md) 
+> +   [zoom-mode parameter](/ref/skin/param/zoom-mode.md) 

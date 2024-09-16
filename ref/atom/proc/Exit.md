@@ -21,7 +21,9 @@
 
 By default, every atom returns 1 to allow exit, except for
 turfs which call Uncross() to handle it for them. 
+> [!
 > [!NOTE]
+> ]
 > The following
 behavior only applies to
 [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md). In all other

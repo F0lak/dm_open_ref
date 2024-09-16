@@ -26,4 +26,4 @@ on top of one another in the map editor, there is actually only one turf
 > +   [icon var (atom)](/ref/atom/var/icon.md) 
 > +   [list](/ref/list.md) 
 > +   [overlays var (atom)](/ref/atom/var/overlays.md) 
-> +   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

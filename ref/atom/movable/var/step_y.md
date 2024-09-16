@@ -33,4 +33,4 @@ the range -8 to 8 will have the atom straddling multiple turfs.
 > +   [bound_y var (movable atom)](/ref/atom/movable/var/bound_x.md) 
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

@@ -23,7 +23,7 @@ individual tile.
 
 In newer versions, breaking big icons into
 tiles is no longer done by default. Instead, icons are shown and
-manipulated in their [native size](/ref/%7Bnotes%7D/big-icons.md)  To use the
+manipulated in their [native size](/ref/notes/big-icons.md)  To use the
 old method of breaking icons into tiles, set `world.map_format` to
 `TILED_ICON_MAP`. This is the default for all projects compiled before
 version 455. 
@@ -71,4 +71,4 @@ tile_x \* 32 O.pixel_y = tile_y \* 32 O.icon_state =
 > +   [procs (icon)](/ref/icon/proc.md) 
 > +   [map_format var (world)](/ref/world/var/map_format.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
-> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
+> +   [Big icons](/ref/notes/big-icons.md) 

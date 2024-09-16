@@ -15,7 +15,7 @@
 Trims whitespace from both ends of a text string. 
 
 All
-[Unicode](/ref/%7Bnotes%7D/Unicode.md) whitespace characters are counted,
+[Unicode](/ref/notes/Unicode.md) whitespace characters are counted,
 whether they can cause a break or not.
 
 > [!TIP] 

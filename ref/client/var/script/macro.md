@@ -28,7 +28,7 @@ should be updated accordingly when recompiling in a newer version.
 
 > [!TIP] 
 > **See also:**
-> +   [macros (skin)](/ref/%7Bskin%7D/macros.md) 
+> +   [macros (skin)](/ref/skin/macros.md) 
 > +   [aliases (client script)](/ref/client/var/script/alias.md) 
 > +   [command_text (client)](/ref/client/var/command_text.md) 
 > +   [script var (client)](/ref/client/var/script.md) 

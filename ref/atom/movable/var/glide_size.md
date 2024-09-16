@@ -8,7 +8,7 @@
 +   [icon_size var (world)](/ref/world/var/icon_size.md) 
 +   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
 +   [fps var (client)](/ref/client/var/fps.md) 
-+   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
++   [Gliding](/ref/notes/gliding.md) 
 <!-- -->
 **Default value:**
 +   0
@@ -16,7 +16,7 @@
 
 Note: The way this setting is used depends on
 [world.movement_mode](/ref/world/var/movement_mode.md) . See
-[Gliding](/ref/%7Bnotes%7D/gliding.md) for more details. 
+[Gliding](/ref/notes/gliding.md) for more details. 
 
 This
 controls the number of pixels an object is moved in each footstep during

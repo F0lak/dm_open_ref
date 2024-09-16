@@ -2,8 +2,8 @@
 
 <!-- -->
 **Applies to:**
-+   [Button](/ref/%7Bskin%7D/control/button.md) 
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) 
++   [Button](/ref/skin/control/button.md) 
++   [Menu](/ref/skin/control/menu.md) 
 <!-- -->
 **Format:**
 +   true/false
@@ -13,10 +13,10 @@
 
 
 True if the button or menu item is checked. Menu items can set
-this even if [can-check](/ref/%7Bskin%7D/param/can-check.md) is false.
+this even if [can-check](/ref/skin/param/can-check.md) is false.
 
 > [!TIP] 
 > **See also:**
-> +   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) 
-> +   [can-check parameter](/ref/%7Bskin%7D/param/can-check.md) 
-> +   [group parameter](/ref/%7Bskin%7D/param/group.md) 
+> +   [button-type parameter](/ref/skin/param/button-type.md) 
+> +   [can-check parameter](/ref/skin/param/can-check.md) 
+> +   [group parameter](/ref/skin/param/group.md) 

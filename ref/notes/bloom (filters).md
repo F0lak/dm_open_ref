@@ -39,5 +39,5 @@ be very useful if you choose to animate the filter.
 
 > [!TIP] 
 > **See also:**
-> +   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-> +   [Drop shadow (filters)](/ref/%7Bnotes%7D/filters/drop_shadow.md) <!-- -->
+> +   [Gaussian blur (filters)](/ref/notes/filters/blur.md) 
+> +   [Drop shadow (filters)](/ref/notes/filters/drop_shadow.md) <!-- -->

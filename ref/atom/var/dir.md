@@ -23,4 +23,4 @@ one would naturally expect.
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [icon var (atom)](/ref/atom/var/icon.md) 
 > +   [turn proc](/ref/proc/turn.md) 
-> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) <!-- -->
+> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) <!-- -->

@@ -29,6 +29,6 @@ combining blur sizes A and B will give a total size of sqrt(A^2^+B^2^).
 
 > [!TIP] 
 > **See also:**
-> +   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-> +   [Angular blur (filters)](/ref/%7Bnotes%7D/filters/angular_blur.md) 
-> +   [Motion blur (filters)](/ref/%7Bnotes%7D/filters/motion_blur.md) <!-- -->
+> +   [Gaussian blur (filters)](/ref/notes/filters/blur.md) 
+> +   [Angular blur (filters)](/ref/notes/filters/angular_blur.md) 
+> +   [Motion blur (filters)](/ref/notes/filters/motion_blur.md) <!-- -->

@@ -13,4 +13,4 @@ loaded in the stat panels.
 > +   [stat proc](/ref/proc/stat.md) 
 > +   [statpanel proc](/ref/proc/statpanel.md) 
 > +   [statpanel var (client)](/ref/client/var/statpanel.md) 
-> +   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->

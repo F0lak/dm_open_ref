@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -19,4 +19,4 @@ the grid cell will be blank.
 > [!TIP] 
 > **See also:**
 > +   [name var (atom)](/ref/atom/var/name.md) 
-> +   [small-icons parameter](/ref/%7Bskin%7D/param/small-icons.md) 
+> +   [small-icons parameter](/ref/skin/param/small-icons.md) 

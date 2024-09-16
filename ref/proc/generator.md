@@ -55,9 +55,9 @@ Note: Worlds compiled in older BYOND versions before [vector](/ref/vector.md) wi
 
 > [!TIP] 
 > **See also:**
-> +   [Generators](/ref/%7Bnotes%7D/generators.md) 
-> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> +   [Generators](/ref/notes/generators.md) 
+> +   [Particle effects](/ref/notes/particles.md) 
 > +   [color var (atom)](/ref/atom/var/color.md) 
-> +   [Color matrix](/ref/%7Bnotes%7D/color-matrix.md) 
+> +   [Color matrix](/ref/notes/color-matrix.md) 
 > +   [vector](/ref/vector.md) 
-> +   [stddef.dm file](/ref/%7B%7Bappendix%7D%7D/stddef%2edm.md) 
+> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) 

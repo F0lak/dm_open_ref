@@ -103,7 +103,7 @@ zoom
 Ctrl with the + or - keys can zoom the browser, and Ctrl+0 can reset it.
 byondstorage
 ❌
-Enables [byondStorage](/ref/%7Bskin%7D/control/browser/byondStorage.md) 
+Enables [byondStorage](/ref/skin/control/browser/byondStorage.md) 
 access.
 ### Example:
 
@@ -127,5 +127,5 @@ controls.
 > +   [winexists proc](/ref/proc/winexists.md) 
 > +   [winget proc](/ref/proc/winget.md) 
 > +   [winshow proc](/ref/proc/winshow.md) 
-> +   [User interface skins](/ref/%7Bskin%7D.md) 
-> +   [parameters (skin)](/ref/%7Bskin%7D/param.md) 
+> +   [User interface skins](/ref/skin.md) 
+> +   [parameters (skin)](/ref/skin/param.md) 

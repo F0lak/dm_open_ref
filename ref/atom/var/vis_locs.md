@@ -24,4 +24,4 @@ garbage collected and therefore removed from this list.
 > +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
 > +   [vis_flags var (atom)](/ref/atom/var/vis_flags.md) 
 > +   [image objects](/ref/image.md) 
-> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> +   [HUD / screen objects](/ref/notes/HUD.md) 

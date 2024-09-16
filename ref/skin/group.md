@@ -2,8 +2,8 @@
 
 <!-- -->
 **Applies to:**
-+   [Button](/ref/%7Bskin%7D/control/button.md) 
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
++   [Button](/ref/skin/control/button.md) 
++   [Menu](/ref/skin/control/menu.md) <!-- -->
 **Format:**
 +   string
 
@@ -18,6 +18,6 @@ as a different group.
 
 > [!TIP] 
 > **See also:**
-> +   [button-type parameter](/ref/%7Bskin%7D/param/button-type.md) 
-> +   [can-check parameter](/ref/%7Bskin%7D/param/can-check.md) 
-> +   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
+> +   [button-type parameter](/ref/skin/param/button-type.md) 
+> +   [can-check parameter](/ref/skin/param/can-check.md) 
+> +   [is-checked parameter](/ref/skin/param/is-checked.md) 

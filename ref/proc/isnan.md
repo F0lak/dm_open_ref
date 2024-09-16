@@ -23,4 +23,4 @@ another number, even itself.
 > [!TIP] 
 > **See also:**
 > +   [isnum proc](/ref/proc/isnum.md) 
-> +   [isinf proc](/ref/proc/isinf.md) :   [Numbers](/%7Bnotes%7D/numbers)
+> +   [isinf proc](/ref/proc/isinf.md) :   [Numbers](/notes/numbers)

@@ -47,7 +47,7 @@ the normal tile-based structure of the HUD, they can\'t be used for a
 range of tiles with the `"to"` format. 
 
 Note:
-[Letterboxing](/ref/%7Bskin%7D/param/letterbox.md) , the blank space to either
+[Letterboxing](/ref/skin/param/letterbox.md) , the blank space to either
 side of the map if it doesn\'t take up the whole map control, is not
 considered usable space. HUD objects aligned to the control edge appear
 inside any letterboxing, not on top of it.
@@ -100,7 +100,7 @@ on the same plane regardless of layer, except that `BACKGROUND_LAYER` or
 
 
 You can use HUD objects in any additional [map
-controls](/ref/%7Bskin%7D/control/map.md)  that might appear in game\'s skin
+controls](/ref/skin/control/map.md)  that might appear in game\'s skin
 file. If you have a second map named `map2` for instance, then you can
 use `"map2:1,1"` or something similar as a `screen_loc`. If the map
 control is set to automatically scale to fit its contents, it will try
@@ -108,12 +108,12 @@ to show every object you put there.
 
 Note: For secondary-map HUD
 items, you should not use the full `window.control` ID, just the
-[id](/ref/%7Bskin%7D/param/id.md) of the control itself. Map controls
+[id](/ref/skin/param/id.md) of the control itself. Map controls
 should always have a unique `id`.
 
 > [!TIP] 
 > **See also:**
-> +   [HUD / screen objects](/ref/%7Bnotes%7D/HUD.md) 
+> +   [HUD / screen objects](/ref/notes/HUD.md) 
 > +   [layer var (atom)](/ref/atom/var/layer.md) 
 > +   [screen var (client)](/ref/client/var/screen.md) 
 > +   [view var (client)](/ref/client/var/view.md) 

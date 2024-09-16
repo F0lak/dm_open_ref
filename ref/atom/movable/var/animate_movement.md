@@ -35,10 +35,10 @@ longer of much use.
 
 Note: This setting has no impact when used
 with pixel movement, except in special cases. See
-[Gliding](/ref/%7Bnotes%7D/gliding.md) for more details.
+[Gliding](/ref/notes/gliding.md) for more details.
 
 > [!TIP] 
 > **See also:**
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [glide_size var (movable atoms)](/ref/atom/movable/var/glide_size.md) 
-> +   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+> +   [Gliding](/ref/notes/gliding.md) 

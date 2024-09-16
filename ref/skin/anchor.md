@@ -2,8 +2,8 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md)  (except
-    [Main](/ref/%7Bskin%7D/control/main.md) 
++   [All](/ref/skin/control.md)  (except
+    [Main](/ref/skin/control/main.md) 
 <!-- -->
 **Format:**
 +   none
@@ -29,5 +29,5 @@ the top left corner, and `anchor2` the bottom right corner.
 
 > [!TIP] 
 > **See also:**
-> +   [pos parameter](/ref/%7Bskin%7D/param/pos.md) 
-> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
+> +   [pos parameter](/ref/skin/param/pos.md) 
+> +   [size parameter](/ref/skin/param/size.md) 

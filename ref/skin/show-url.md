@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Browser](/ref/%7Bskin%7D/control/browser.md) <!-- -->
++   [Browser](/ref/skin/control/browser.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -14,5 +14,5 @@ Shows an address bar for this browser control.
 
 > [!TIP] 
 > **See also:**
-> +   [show-history parameter](/ref/%7Bskin%7D/param/show-history.md) 
-> +   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) 
+> +   [show-history parameter](/ref/skin/param/show-history.md) 
+> +   [use-title parameter](/ref/skin/param/use-title.md) 

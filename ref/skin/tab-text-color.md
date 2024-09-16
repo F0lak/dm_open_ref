@@ -1,14 +1,14 @@
 ## tab-text-color parameter (skin)
 
-    parameter](/ref/%7Bskin%7D/param/tab-background-color.md) 
+    parameter](/ref/skin/param/tab-background-color.md) 
 +   [tab-font-family, tab-font-size, tab-font-style
-    parameters](/ref/%7Bskin%7D/param/tab-font.md) 
+    parameters](/ref/skin/param/tab-font.md) 
 <!-- -->
 **Applies to:**
-+   [Info](/ref/%7Bskin%7D/control/info.md) 
++   [Info](/ref/skin/control/info.md) 
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
++   [#rrggbb](/ref/appendix/html-colors.md) 
 +   none
 <!-- -->
 **Default value:**
@@ -16,10 +16,10 @@
 
 
 Affects the text color for tabs. The regular
-[text-color](/ref/%7Bskin%7D/param/text-color.md) is used for the
+[text-color](/ref/skin/param/text-color.md) is used for the
 content area.
 
 > [!TIP] 
 > **See also:**
-> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
+> +   [text-color parameter](/ref/skin/param/text-color.md) 
 > +   [tab-background-color

@@ -2,9 +2,9 @@
 
 <!-- -->
 **Applies to:**
-+   [All](/ref/%7Bskin%7D/control.md) 
-+   [Macro](/ref/%7Bskin%7D/control/macro.md) 
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) <!-- -->
++   [All](/ref/skin/control.md) 
++   [Macro](/ref/skin/control/macro.md) 
++   [Menu](/ref/skin/control/menu.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -16,5 +16,5 @@ Disables the control, menu item, or macro.
 
 > [!TIP] 
 > **See also:**
-> +   [is-checked parameter](/ref/%7Bskin%7D/param/is-checked.md) 
-> +   [is-visible parameter](/ref/%7Bskin%7D/param/is-visible.md) 
+> +   [is-checked parameter](/ref/skin/param/is-checked.md) 
+> +   [is-visible parameter](/ref/skin/param/is-visible.md) 

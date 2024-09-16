@@ -167,4 +167,4 @@ atoms are in collision.
 > +   *Other topics*
 > +   [bounds proc](/ref/proc/bounds.md) 
 > +   [bounds_dist proc](/ref/proc/bounds_dist.md) 
-> +   [Gliding](/ref/%7Bnotes%7D/gliding.md) 
+> +   [Gliding](/ref/notes/gliding.md) 

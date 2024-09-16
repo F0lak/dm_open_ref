@@ -15,4 +15,4 @@
 > [!TIP] 
 > **See also:**
 > +   [isnum proc](/ref/proc/isnum.md) 
-> +   [isnan proc](/ref/proc/isnan.md) :   [Numbers](/%7Bnotes%7D/numbers)
+> +   [isnan proc](/ref/proc/isnan.md) :   [Numbers](/notes/numbers)

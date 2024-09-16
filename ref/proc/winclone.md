@@ -74,4 +74,4 @@ be deleted via a `winset()` call:
 > +   [winget proc](/ref/proc/winget.md) 
 > +   [winset proc](/ref/proc/winset.md) 
 > +   [winshow proc](/ref/proc/winshow.md) 
-> +   [User interface skins](/ref/%7Bskin%7D.md) <!-- -->
+> +   [User interface skins](/ref/skin.md) <!-- -->

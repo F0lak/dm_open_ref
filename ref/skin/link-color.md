@@ -2,11 +2,11 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) 
-+   [Output](/ref/%7Bskin%7D/control/output.md) 
++   [Grid](/ref/skin/control/grid.md) 
++   [Output](/ref/skin/control/output.md) 
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) 
++   [#rrggbb](/ref/appendix/html-colors.md) 
 +   none
 <!-- -->
 **Default value:**
@@ -14,9 +14,9 @@
 
 
 The color used for links. In some controls [visited
-links](/ref/%7Bskin%7D/param/visited-color.md) may have a different color.
+links](/ref/skin/param/visited-color.md) may have a different color.
 
 > [!TIP] 
 > **See also:**
-> +   [text-color parameter](/ref/%7Bskin%7D/param/text-color.md) 
-> +   [visited-color parameter](/ref/%7Bskin%7D/param/visited-color.md) 
+> +   [text-color parameter](/ref/skin/param/text-color.md) 
+> +   [visited-color parameter](/ref/skin/param/visited-color.md) 

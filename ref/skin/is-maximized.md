@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   true/false
@@ -19,8 +19,8 @@ is turned off again.
 
 > [!TIP] 
 > **See also:**
-> +   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
-> +   [is-minimized parameter](/ref/%7Bskin%7D/param/is-minimized.md) 
-> +   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) 
-> +   [size parameter](/ref/%7Bskin%7D/param/size.md) 
-> +   [outer-size parameter](/ref/%7Bskin%7D/param/outer-size.md) 
+> +   [can-resize parameter](/ref/skin/param/can-resize.md) 
+> +   [is-minimized parameter](/ref/skin/param/is-minimized.md) 
+> +   [is-fullscreen parameter](/ref/skin/param/is-fullscreen.md) 
+> +   [size parameter](/ref/skin/param/size.md) 
+> +   [outer-size parameter](/ref/skin/param/outer-size.md) 

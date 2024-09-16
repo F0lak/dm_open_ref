@@ -36,4 +36,4 @@ would have to move 2 pixels apart to separate.
 > +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
 > +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
 > +   [bounds proc](/ref/proc/bounds.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

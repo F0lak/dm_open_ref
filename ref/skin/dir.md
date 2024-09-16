@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Bar](/ref/%7Bskin%7D/control/bar.md) 
++   [Bar](/ref/skin/control/bar.md) 
 <!-- -->
 **Possible values:**
 +   north
@@ -17,7 +17,7 @@
 
 
 The direction/orientation of the bar. As the
-[value](/ref/%7Bskin%7D/param/value.md) increases the bar will move
+[value](/ref/skin/param/value.md) increases the bar will move
 further in this direction. 
 
 Shorthand values like `cw` and `ccw`
@@ -25,6 +25,6 @@ can be used, or also numerical BYOND directions.
 
 > [!TIP] 
 > **See also:**
-> +   [value parameter](/ref/%7Bskin%7D/param/angle.md) 
-> +   [angle1, angle2 parameters](/ref/%7Bskin%7D/param/angle.md) 
-> +   [width parameter](/ref/%7Bskin%7D/param/width.md) 
+> +   [value parameter](/ref/skin/param/angle.md) 
+> +   [angle1, angle2 parameters](/ref/skin/param/angle.md) 
+> +   [width parameter](/ref/skin/param/width.md) 

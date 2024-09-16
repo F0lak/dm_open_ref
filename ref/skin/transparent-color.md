@@ -3,10 +3,10 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md)  (window only)
++   [Main](/ref/skin/control/main.md)  (window only)
 <!-- -->
 **Format:**
-+   [#rrggbb](/ref/%7B%7Bappendix%7D%7D/html-colors.md) :   none
++   [#rrggbb](/ref/appendix/html-colors.md) :   none
 <!-- -->
 **Default value:**
 +   none
@@ -18,4 +18,4 @@ many limitations, so it is considered deprecated.
 
 > [!TIP] 
 > **See also:**
-> +   [alpha parameter](/ref/%7Bskin%7D/param/alpha.md) 
+> +   [alpha parameter](/ref/skin/param/alpha.md) 

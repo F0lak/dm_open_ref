@@ -27,5 +27,5 @@ glow.
 
 > [!TIP] 
 > **See also:**
-> +   [Gaussian blur (filters)](/ref/%7Bnotes%7D/filters/blur.md) 
-> +   [Outline (filters)](/ref/%7Bnotes%7D/filters/outline.md) <!-- -->
+> +   [Gaussian blur (filters)](/ref/notes/filters/blur.md) 
+> +   [Outline (filters)](/ref/notes/filters/outline.md) <!-- -->

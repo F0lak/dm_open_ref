@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   true/false
@@ -20,7 +20,7 @@ again.
 
 > [!TIP] 
 > **See also:**
-> +   [on-size parameter](/ref/%7Bskin%7D/param/on-size.md) 
-> +   [can-minimize parameter](/ref/%7Bskin%7D/param/can-minimize.md) 
-> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
-> +   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) 
+> +   [on-size parameter](/ref/skin/param/on-size.md) 
+> +   [can-minimize parameter](/ref/skin/param/can-minimize.md) 
+> +   [titlebar parameter](/ref/skin/param/titlebar.md) 
+> +   [is-fullscreen parameter](/ref/skin/param/is-fullscreen.md) 

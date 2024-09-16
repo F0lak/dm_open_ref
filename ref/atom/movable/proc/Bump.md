@@ -17,4 +17,4 @@
 > [!TIP] 
 > **See also:**
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   number
@@ -15,4 +15,4 @@ Opacity of the window, from 0 (invisible) to 255 (opaque).
 
 > [!TIP] 
 > **See also:**
-> +   [transparent-color parameter](/ref/%7Bskin%7D/param/transparent-color.md) 
+> +   [transparent-color parameter](/ref/skin/param/transparent-color.md) 

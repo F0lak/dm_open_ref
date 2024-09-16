@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   true/false
@@ -16,6 +16,6 @@ the window.
 
 > [!TIP] 
 > **See also:**
-> +   [on-close parameter](/ref/%7Bskin%7D/param/on-close.md) 
-> +   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
-> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
+> +   [on-close parameter](/ref/skin/param/on-close.md) 
+> +   [can-resize parameter](/ref/skin/param/can-resize.md) 
+> +   [titlebar parameter](/ref/skin/param/titlebar.md) 

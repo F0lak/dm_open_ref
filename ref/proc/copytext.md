@@ -39,7 +39,7 @@ the string.
 Note: In strings containing non-ASCII characters,
 byte position and character position are not the same thing. Use
 `copytext_char()` to work with character counts instead of bytes, at a
-performance cost. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for
+performance cost. See the [Unicode](/ref/notes/Unicode.md) section for
 more information.
 
 > [!TIP] 

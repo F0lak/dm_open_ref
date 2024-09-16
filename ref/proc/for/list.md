@@ -75,7 +75,7 @@ of that list.
 
 Note: Although you can use fractional values for `step` in this
 numeric format, there may be accuracy considerations to keep in mind.
-See [Numbers](/ref/%7Bnotes%7D/numbers.md) for more information.
+See [Numbers](/ref/notes/numbers.md) for more information.
 ### Key,value pair loop 
 ###### BYOND Version 516
 

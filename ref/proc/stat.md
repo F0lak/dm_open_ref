@@ -40,4 +40,4 @@ mob.
 > +   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
 > +   [Stat proc (client)](/ref/client/proc/Stat.md) 
 > +   [statpanel proc](/ref/proc/statpanel.md) 
-> +   [Info control (skin)](/ref/%7Bskin%7D/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->

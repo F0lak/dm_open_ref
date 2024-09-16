@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Child](/ref/%7Bskin%7D/control/child.md) 
++   [Child](/ref/skin/control/child.md) 
 <!-- -->
 **Format:**
 +   string
@@ -12,13 +12,13 @@
 +   none
 
 
-The [id](/ref/%7Bskin%7D/param/id.md) of the left/top pane in
+The [id](/ref/skin/param/id.md) of the left/top pane in
 this control. The parameter names `left` and `top` can be used
 interchangeably.
 
 > [!TIP] 
 > **See also:**
-> +   [right parameter](/ref/%7Bskin%7D/param/right.md) 
-> +   [is-vert parameter](/ref/%7Bskin%7D/param/is-vert.md) 
-> +   [show-splitter parameter](/ref/%7Bskin%7D/param/show-splitter.md) 
-> +   [splitter parameter](/ref/%7Bskin%7D/param/splitter.md) 
+> +   [right parameter](/ref/skin/param/right.md) 
+> +   [is-vert parameter](/ref/skin/param/is-vert.md) 
+> +   [show-splitter parameter](/ref/skin/param/show-splitter.md) 
+> +   [splitter parameter](/ref/skin/param/splitter.md) 

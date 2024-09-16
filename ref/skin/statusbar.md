@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   true/false
@@ -16,5 +16,5 @@ the name of an atom when you hover over it with the mouse.
 
 > [!TIP] 
 > **See also:**
-> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
-> +   [on-status parameter](/ref/%7Bskin%7D/param/on-status.md) 
+> +   [titlebar parameter](/ref/skin/param/titlebar.md) 
+> +   [on-status parameter](/ref/skin/param/on-status.md) 

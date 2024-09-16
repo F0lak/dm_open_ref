@@ -2,16 +2,16 @@
 
 <!-- -->
 **Applies to:**
-+   [Button](/ref/%7Bskin%7D/control/button.md) 
-+   [Input](/ref/%7Bskin%7D/control/input.md) 
-+   [Macro](/ref/%7Bskin%7D/control/macro.md) 
-+   [Menu](/ref/%7Bskin%7D/control/menu.md) 
++   [Button](/ref/skin/control/button.md) 
++   [Input](/ref/skin/control/input.md) 
++   [Macro](/ref/skin/control/macro.md) 
++   [Menu](/ref/skin/control/menu.md) 
 <!-- -->
 **Format:**
 +   string
 
 
-[Command](/ref/%7Bskin%7D/commands.md) executed when this control is
+[Command](/ref/skin/commands.md) executed when this control is
 activated. 
 
 For the Input control, whatever the user types in
@@ -21,4 +21,4 @@ cleared by the user.
 
 > [!TIP] 
 > **See also:**
-> +   [client commands](/ref/%7Bskin%7D/commands.md) 
+> +   [client commands](/ref/skin/commands.md) 

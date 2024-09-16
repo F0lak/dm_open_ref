@@ -7,7 +7,7 @@ output text. Another approach, however, is to use HTML tags to specify
 purely structural information and use a style sheet to define how
 various elements within that structure should be treated. DM uses a
 [subset of the Cascading Style Sheet (CSS)
-language](/ref/%7B%7Bappendix%7D%7D/css.md) , which was introduced for this
+language](/ref/appendix/css.md) , which was introduced for this
 purpose in HTML documents. 
 
 This section discusses the syntax of
@@ -45,7 +45,7 @@ text in the `combat` class should be colored red and text in the `chat`
 class should be colored green. These classes are not pre-defined; you
 can create whatever new style classes you need. (The color names are
 predefined however. You can find a list of them in [HTML
-colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md) . 
+colors](/ref/appendix/html-colors.md) . 
 
 The advantage of
 using style sheets instead of direct formatting tags is that you can
@@ -318,7 +318,7 @@ color can currently be changed.
 
 > [!TIP] 
 > **See also:**
-> +   [CSS attributes](/ref/%7B%7Bappendix%7D%7D/css.md) 
+> +   [CSS attributes](/ref/appendix/css.md) 
 > +   [entities (text)](/ref/DM/text/entities.md) 
 > +   [macros (text)](/ref/DM/text/macros.md) 
 > +   [script var (client)](/ref/client/var/script.md) 

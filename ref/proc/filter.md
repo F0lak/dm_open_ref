@@ -12,7 +12,7 @@ list of filters on an atom or image.
 This proc uses named
 arguments, and the \"type\" value must always be included. To see which
 types of filters are available and what parameters they accept, see
-[Filter effects](/ref/%7Bnotes%7D/filters.md) 
+[Filter effects](/ref/notes/filters.md) 
 ### Example:
 
 ``` dm
@@ -42,4 +42,4 @@ referred to in an atom\'s `filters` list via that name (e.g. as
 > [!TIP] 
 > **See also:**
 > +   [filters var (atom)](/ref/atom/var/filters.md) 
-> +   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
+> +   [Filter effects](/ref/notes/filters.md) 

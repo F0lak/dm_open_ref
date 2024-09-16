@@ -15,7 +15,7 @@ It is important to remember that this is an illusion of 3D, not
 real 3D. 
 
 The `layer` var behaves much the same way it does in
-`ISOMETRIC_MAP` mode.See [isometric maps](/ref/%7Bnotes%7D/isometric.md) for
+`ISOMETRIC_MAP` mode.See [isometric maps](/ref/notes/isometric.md) for
 more information. 
 
 When using this mode you may want to use a
@@ -38,10 +38,10 @@ screen objects, `pixel_w`, or `pixel_z`.
 > +   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
 > +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
 > +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-> +   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-> +   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
-> +   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
-> +   [HUD](/ref/%7Bnotes%7D/HUD.md) 
-> +   [BACKGROUND_LAYER](/ref/%7Bnotes%7D/BACKGROUND_LAYER.md) 
-> +   [EFFECTS_LAYER](/ref/%7Bnotes%7D/EFFECTS_LAYER.md) 
-> +   [TOPDOWN_LAYER](/ref/%7Bnotes%7D/topdown_layer.md) 
+> +   [Big icons](/ref/notes/big-icons.md) 
+> +   [Isometric maps](/ref/notes/isometric.md) 
+> +   [Topdown maps](/ref/notes/topdown.md) 
+> +   [HUD](/ref/notes/HUD.md) 
+> +   [BACKGROUND_LAYER](/ref/notes/BACKGROUND_LAYER.md) 
+> +   [EFFECTS_LAYER](/ref/notes/EFFECTS_LAYER.md) 
+> +   [TOPDOWN_LAYER](/ref/notes/topdown_layer.md) 

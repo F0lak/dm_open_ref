@@ -36,11 +36,11 @@ Note: In
 strings containing non-ASCII characters, byte position and character
 position are not the same thing. Use `Find_char()` to work with
 character counts instead of bytes, at a performance cost. See the
-[Unicode](@/%7Bnotes%7D/Unicode) section for more information.
+[Unicode](@/notes/Unicode) section for more information.
 
 > [!TIP] 
 > **See also:**
-> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [Regular expressions](/ref/notes/regex.md) 
 > +   [regex datum](/ref/regex.md) 
 > +   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
 > +   [regex vars](/ref/regex/var.md) 

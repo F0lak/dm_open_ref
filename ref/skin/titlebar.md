@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   true/false
@@ -20,12 +20,12 @@ the state of the window when `is-fullscreen` is turned off again.
 
 > [!TIP] 
 > **See also:**
-> +   [can-close parameter](/ref/%7Bskin%7D/param/can-close.md) 
-> +   [can-minimize parameter](/ref/%7Bskin%7D/param/can-minimize.md) 
-> +   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
-> +   [icon parameter](/ref/%7Bskin%7D/param/icon.md) 
-> +   [title parameter](/ref/%7Bskin%7D/param/title.md) 
-> +   [use-title parameter](/ref/%7Bskin%7D/param/use-title.md) 
-> +   [statusbar parameter](/ref/%7Bskin%7D/param/statusbar.md) 
-> +   [is-fullscreen parameter](/ref/%7Bskin%7D/param/is-fullscreen.md) 
+> +   [can-close parameter](/ref/skin/param/can-close.md) 
+> +   [can-minimize parameter](/ref/skin/param/can-minimize.md) 
+> +   [can-resize parameter](/ref/skin/param/can-resize.md) 
+> +   [icon parameter](/ref/skin/param/icon.md) 
+> +   [title parameter](/ref/skin/param/title.md) 
+> +   [use-title parameter](/ref/skin/param/use-title.md) 
+> +   [statusbar parameter](/ref/skin/param/statusbar.md) 
+> +   [is-fullscreen parameter](/ref/skin/param/is-fullscreen.md) 
 > +   [name var (world)](/ref/world/var/name.md) 

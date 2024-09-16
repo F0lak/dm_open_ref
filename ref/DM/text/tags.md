@@ -67,7 +67,7 @@ document](/ref/DM/text.md)  to avoid the need for escaping quotes.
 
 When applying color to text, you can use hexadecimal RGB or you
 can use one of the named [HTML
-colors](/ref/%7B%7Bappendix%7D%7D/html-colors.md)  
+colors](/ref/appendix/html-colors.md)  
 
 Text sizes range
 from 1 to 7, 1 being the smallest and 7 being the largest. In addition

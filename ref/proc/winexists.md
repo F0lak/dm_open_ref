@@ -25,5 +25,5 @@ information, winexists() will sleep the current proc.
 > +   [winget proc](/ref/proc/winget.md) 
 > +   [winset proc](/ref/proc/winset.md) 
 > +   [winshow proc](/ref/proc/winshow.md) 
-> +   [User interface skins](/ref/%7Bskin%7D.md) 
-> +   [type parameter (skin)](/ref/%7Bskin%7D/param/type.md) <!-- -->
+> +   [User interface skins](/ref/skin.md) 
+> +   [type parameter (skin)](/ref/skin/param/type.md) <!-- -->

@@ -49,4 +49,4 @@ Important notes regarding this proc:
 > [!TIP] 
 > **See also:**
 > +   [vis_contents var (atom)](/ref/atom/var/vis_contents.md) 
-> +   [Filter effects](/ref/%7Bnotes%7D/filters.md) 
+> +   [Filter effects](/ref/notes/filters.md) 

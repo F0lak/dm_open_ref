@@ -19,4 +19,4 @@ client and server tick at the same rate.
 > **See also:**
 > +   [fps var (world)](/ref/world/var/fps.md) 
 > +   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->

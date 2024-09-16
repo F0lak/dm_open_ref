@@ -30,7 +30,7 @@ Find(). See the Find() proc for more info.
 Note: In strings
 containing non-ASCII characters, byte position and character position
 are not the same thing. Use `Replace_char()` to work with character
-counts instead of bytes. See the [Unicode](/ref/%7Bnotes%7D/Unicode.md) section for more information.
+counts instead of bytes. See the [Unicode](/ref/notes/Unicode.md) section for more information.
 ### Replacing with text
 
 
@@ -70,7 +70,7 @@ piglatin.Replace(msg, /proc/word2piglatin)
 
 > [!TIP] 
 > **See also:**
-> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [Regular expressions](/ref/notes/regex.md) 
 > +   [regex datum](/ref/regex.md) 
 > +   [Find proc (regex)](/ref/regex/proc/Find.md) 
 > +   [regex vars](/ref/regex/var.md) 

@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Main](/ref/%7Bskin%7D/control/main.md) (window only)
++   [Main](/ref/skin/control/main.md) (window only)
 <!-- -->
 **Format:**
 +   true/false
@@ -15,5 +15,5 @@ Allow the window to be minimized.
 
 > [!TIP] 
 > **See also:**
-> +   [can-resize parameter](/ref/%7Bskin%7D/param/can-resize.md) 
-> +   [titlebar parameter](/ref/%7Bskin%7D/param/titlebar.md) 
+> +   [can-resize parameter](/ref/skin/param/can-resize.md) 
+> +   [titlebar parameter](/ref/skin/param/titlebar.md) 

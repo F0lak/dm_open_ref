@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Map](/ref/%7Bskin%7D/control/map.md) <!-- -->
++   [Map](/ref/skin/control/map.md) <!-- -->
 **Format:**
 +   true/false
 <!-- -->
@@ -15,5 +15,5 @@ used if no icons are present, regardless of this setting.
 
 > [!TIP] 
 > **See also:**
-> +   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
-> +   [zoom-mode parameter](/ref/%7Bskin%7D/param/zoom-mode.md) 
+> +   [zoom parameter](/ref/skin/param/zoom.md) 
+> +   [zoom-mode parameter](/ref/skin/param/zoom-mode.md) 

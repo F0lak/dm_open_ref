@@ -97,7 +97,7 @@ string when the function returns and does not need it after that.
 A newer and more flexible way of calling external libraries is
 now available, and it allows you to pass strings, numbers, and
 references, and also get other types of valus in return. This uses
-[Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) and requires your external
+[Byondapi](/ref/appendix/Byondapi.md) and requires your external
 library to be compiled with the `byondapi.h` header file (if using C or
 C++). Byondapi also includes helpful C++ wrapper classes in separate
 files. 
@@ -211,4 +211,4 @@ the prefixes go in).
 > +   [arglist proc](/ref/proc/arglist.md) 
 > +   [call proc](/ref/proc/call.md) 
 > +   [path operators](/ref/operator/path.md) 
-> +   [Byondapi](/ref/%7B%7Bappendix%7D%7D/Byondapi.md) 
+> +   [Byondapi](/ref/appendix/Byondapi.md) 

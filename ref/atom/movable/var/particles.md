@@ -8,7 +8,7 @@
 
 A datum (not derived from /atom) containing information about a
 particle set attached to this atom. See [Particle
-effects](/ref/%7Bnotes%7D/particles.md) for more information.
+effects](/ref/notes/particles.md) for more information.
 
 
 Resetting this var to null after it has contained a particle
@@ -17,4 +17,4 @@ disappear.
 
 > [!TIP] 
 > **See also:**
-> +   [Particle effects](/ref/%7Bnotes%7D/particles.md) 
+> +   [Particle effects](/ref/notes/particles.md) 

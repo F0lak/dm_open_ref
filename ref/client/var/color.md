@@ -4,7 +4,7 @@
 
 
 Casts a color multiplication or
-[matrix](/ref/%7Bnotes%7D/color-matrix.md)  effect over the entire main map.
+[matrix](/ref/notes/color-matrix.md)  effect over the entire main map.
 This behaves exactly the same as atom.color, and will be combined with
 atom.color (which comes first) where present. See
 [atom.color](/ref/atom/var/color.md) for more information. 

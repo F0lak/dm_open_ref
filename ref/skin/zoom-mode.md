@@ -3,7 +3,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Map](/ref/%7Bskin%7D/control/map.md) <!-- -->
++   [Map](/ref/skin/control/map.md) <!-- -->
 **Posisble values:**
 +   normal
 +   distort
@@ -28,6 +28,6 @@ if the zoom factor is high, but it may be desired in some cases.
 
 > [!TIP] 
 > **See also:**
-> +   [letterbox parameter](/ref/%7Bskin%7D/param/letterbox.md) 
-> +   [view-size parameter](/ref/%7Bskin%7D/param/view-size.md) 
-> +   [zoom parameter](/ref/%7Bskin%7D/param/zoom.md) 
+> +   [letterbox parameter](/ref/skin/param/letterbox.md) 
+> +   [view-size parameter](/ref/skin/param/view-size.md) 
+> +   [zoom parameter](/ref/skin/param/zoom.md) 

@@ -77,5 +77,5 @@ color leached out.
 > +   [rgb2num proc](/ref/proc/rgb2num.md) 
 > +   [gradient proc](/ref/proc/gradient.md) 
 > +   [animate proc](/ref/proc/animate.md) 
-> +   [Color gradient](/ref/%7Bnotes%7D/color-gradient.md) 
-> +   [Color matrix filter](/ref/%7Bnotes%7D/filters/color.md) 
+> +   [Color gradient](/ref/notes/color-gradient.md) 
+> +   [Color matrix filter](/ref/notes/filters/color.md) 

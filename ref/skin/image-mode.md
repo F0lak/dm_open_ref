@@ -2,8 +2,8 @@
 
 <!-- -->
 **Applies to:**
-+   [Label](/ref/%7Bskin%7D/control/label.md) 
-+   [Main](/ref/%7Bskin%7D/control/main.md) <!-- -->
++   [Label](/ref/skin/control/label.md) 
++   [Main](/ref/skin/control/main.md) <!-- -->
 **Possible values:**
 +   center
 +   stretch
@@ -17,5 +17,5 @@ Determines how the background image is displayed.
 
 > [!TIP] 
 > **See also:**
-> +   [image parameter](/ref/%7Bskin%7D/param/image.md) 
-> +   [keep-aspect parameter](/ref/%7Bskin%7D/param/keep-aspect.md) 
+> +   [image parameter](/ref/skin/param/image.md) 
+> +   [keep-aspect parameter](/ref/skin/param/keep-aspect.md) 

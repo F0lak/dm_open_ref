@@ -102,7 +102,7 @@ step rather than smoothly:
 
 Other vars may apply:
 -   space: A named var for the [color
-    space](/ref/%7B%7Bappendix%7D%7D/color-space.md) , if animating color; only
+    space](/ref/appendix/color-space.md) , if animating color; only
     applies to non-matrix color values.
 For convenience, you can use an [associative list](/ref/list/associations.md) ,
 appearance, or [mutable appearance](/ref/mutable_appearance.md)  in place of
@@ -261,7 +261,7 @@ Any combination of these flags may be used for animation (use
 ### Filters {#filters byondver="512"}
 
 
-[Filters](/ref/%7Bnotes%7D/filters.md) can be animated too. If you
+[Filters](/ref/notes/filters.md) can be animated too. If you
 want to animate a filter, you need to specify the filter to be animated.
 If the last call to `animate()` used the same object as this filter, or
 a different filter for that object, then this will be treated as a new

@@ -37,6 +37,6 @@ to loop through area contents at all.
 > +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
 > +   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-> +   [Pixel movement](/ref/%7Bnotes%7D/pixel-movement.md) 
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 
 > +   [list](/ref/list.md) 
 > +   [loc var (atom)](/ref/atom/var/loc.md) 

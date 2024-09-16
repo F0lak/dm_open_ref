@@ -2,7 +2,7 @@
 
 <!-- -->
 **Applies to:**
-+   [Grid](/ref/%7Bskin%7D/control/grid.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) <!-- -->
 **Format:**
 +   *columns*,*rows*
 <!-- -->
@@ -16,4 +16,4 @@ This setting is only available at runtime.
 
 > [!TIP] 
 > **See also:**
-> +   [cells parameter](/ref/%7Bskin%7D/param/cells.md) 
+> +   [cells parameter](/ref/skin/param/cells.md) 

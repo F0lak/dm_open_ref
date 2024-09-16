@@ -8,6 +8,6 @@ expression behaves.
 
 > [!TIP] 
 > **See also:**
-> +   [Regular expressions](/ref/%7Bnotes%7D/regex.md) 
+> +   [Regular expressions](/ref/notes/regex.md) 
 > +   [regex datum](/ref/regex.md) 
 > +   [name var (regex)](/ref/regex/var/name.md) 

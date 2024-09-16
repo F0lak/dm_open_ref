@@ -41,7 +41,7 @@ Note: In strings
 containing non-ASCII characters, this is the length in bytes, not
 characters; a character may span multiple bytes. Use `length_char()` to
 work with character counts instead of bytes. See the
-[Unicode](/ref/%7Bnotes%7D/Unicode.md)  section for more information.
+[Unicode](/ref/notes/Unicode.md)  section for more information.
 
 
 For vectors, the length is the magnitude of the vector. See

@@ -1,20 +1,16 @@
 ## animate proc 
 ###### BYOND Version 500
-### Useful terms in this article:
 
 > [!IMPORTANT]
-> **Step:**
->   A piece of an animation that transitions from the old
-appearance to a new appearance, in a given time. 
-> **Sequence:**
->   One or more steps in an animation. A sequence may loop a certain number
-of times, but requires more than one step for the loop to be meaningful.
-> **Parallel:**
->   Multiple sequences can run concurrently if they
+> ### Useful terms in this article:
+> + **Step:** A piece of an animation that transitions from the old
+appearance to a new appearance, in a given time. <br>
+> + **Sequence:** One or more steps in an animation. A sequence may loop a certain number
+of times, but requires more than one step for the loop to be meaningful.<br>
+> + **Parallel:** Multiple sequences can run concurrently if they
 are flagged as parallel. A parallel animation animates only the relative
-changes from the appearance that started the sequence.
-> **Supersede:**
->   If a new animation sequence is not flagged as
+changes from the appearance that started the sequence.<br>
+> + **Supersede:** If a new animation sequence is not flagged as
 parallel, it will freeze the previous animation at its current point and
 animate any changes from there. The previous sequences are superseded,
 and will eventually be discarded.
@@ -29,24 +25,24 @@ and will eventually be discarded.
 +   animate(Object)
 <!-- -->
 **Args:**
-+   Object: The atom, image, or client to animate; omit to add another
++   `Object`: The atom, image, or client to animate; omit to add another
     step to the same sequence as the last `animate()` call
-+   var1=new_value1, var2=new_value2, ...: Vars to change in the
++   `var1=new_value1`, `var2=new_value2`, ...: Vars to change in the
     animation step
-+   var_list: An associative list of vars to change
-+   appearance: New appearance to use instead of multiple var changes
++   `var_list`: An associative list of vars to change
++   `appearance`: New appearance to use instead of multiple var changes
     (must be a [named argument](/ref/proc/arguments/named.md) )
-+   time: Time of this step, in 1/10s (may be a [named
++   `time`: Time of this step, in 1/10s (may be a [named
     argument](/ref/proc/arguments/named.md) )
-+   loop: Number of times to run this sequence, or -1 to loop forever
++   `loop`: Number of times to run this sequence, or -1 to loop forever
     (may be a named argument)
-+   easing: The "curve" followed by this animation step (may be a
++   `easing`: The "curve" followed by this animation step (may be a
     [named argument](/ref/proc/arguments/named.md) )
-+   flags: Flags that impact how the animation acts (may be a [named
++   `flags`: Flags that impact how the animation acts (may be a [named
     argument](/ref/proc/arguments/named.md) )
-+   delay: Delay time for starting the first step in a sequence (may be
++   `delay`: Delay time for starting the first step in a sequence (may be
     negative; may be a [named argument](/ref/proc/arguments/named.md) )
-+   tag: Optional name for a new animation sequence (must be a [named
++   `tag`: Optional name for a new animation sequence (must be a [named
     argument](/ref/proc/arguments/named.md) )
 
 
@@ -89,7 +85,7 @@ The following vars will animate smoothly:
 -   transform
 
 > [!NOTE]
->  `pixel_x, pixel_y, pixel_w, pixel_z are considered integer values by the renderer and sub-pixel values are therefore rounded off during animation calls.  This means that the renderer won't trigger a redraw during these frames
+>  `pixel_x`, `pixel_y`, `pixel_w` and `pixel_z` are considered integer values by the renderer and sub-pixel values are therefore rounded off during animation calls.  This means that the renderer won't trigger a redraw during these frames
 
 These vars can be changed, but will change immediately on each
 step rather than smoothly:

@@ -33,7 +33,6 @@ SOURCE_FILE : str = "info.html"
 '''
 	Directory Stuff
 '''
-
 def make_files() -> None:
 	'''
 		Converts a Page object into a file on disk and index it if BUILD_HTML is enabled
@@ -108,16 +107,13 @@ def build_file_tree() -> None:
 	print("Building file tree")
 	for html_text in parts:
 		
-		html_title: str = set_title(html_text, "html")
 		md_text = pypandoc.convert_text(prep_html_file(html_text), "md", format="html")
-		md_title: str = set_title(md_text, "md")
-		if md_title != None and html_title != None:
-			
-			md_title = clean_filenames(md_title)
-			html_title = clean_filenames(html_title)
-	
+		md_title = clean_filenames(set_title(md_text, "md"))
+		html_title = clean_filenames(set_title(html_text, "html"))
+
+		if md_title and html_title:
+
 			dirty_file_path: str = copytext(md_text, "[]{#/", "}")
-	
 			clean_file_path: str = clean_filenames(dirty_file_path)
 
 			pruned_file_path: str = ""
@@ -129,7 +125,7 @@ def build_file_tree() -> None:
 			print(f"{clean_file_path}\\{md_title}")
 
 			link_dict[f"{dirty_file_path}/{md_title}"] = f"{pruned_file_path}\\{md_title}.md"
-			pages.append(Page(f"{markdown_directory}\\{pruned_file_path}", f"{md_title}", "md", "THIS IS NEW" + md_text))
+			pages.append(Page(f"{markdown_directory}\\{pruned_file_path}", f"{md_title}", "md", md_text))
 			
 			if BUILD_HTML == True:
 				pages.append(Page(f"{html_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
@@ -231,18 +227,21 @@ def clean_markdown_file(text) -> str:
 	'''
 		Cleans up and finalizes the formatting of markdown files
 	'''
-	text = clean_empty_lines(text)
-	text = fix_links(text)
-	text = clean_version(text)
-	text = clean_inline_code(text)
+	if BUILD_FILE_TREE:
+		text = clean_empty_lines(text)
+		text = move_see_also(text)
+		text = fix_links(text)
+		text = clean_version(text)
+		text = clean_inline_code(text)
 	text = text.replace("\n: ", "\n+ ")
 	text = text.replace("PARAGRAPH", "\n\n")
 	text = text.replace("CODE_TICKS_DM", "\n``` dm\n")
 	text = text.replace("CODE_TICKS", "\n```\n")
 	text = text.replace("NOTE", "\n> [!NOTE]\n> ")
+	text = text.replace("%7B", "")
+	text = text.replace("%7D", "")
 	text = text.replace(" .code}", "")
 	text = text.replace("{.code}", "")
-	text = move_see_also(text)
 	return text
   
 def clean_empty_lines(text) -> str:
@@ -250,7 +249,8 @@ def clean_empty_lines(text) -> str:
 		Removes empty lines
 	'''
 	lines = text.splitlines()
-	lines.remove(lines[0])
+	if BUILD_FILE_TREE:
+		lines.remove(lines[0])
 	non_empty_lines = [line for line in lines if line.strip()]
 	text = "\n".join(line + "" for line in non_empty_lines)
 
@@ -412,8 +412,7 @@ if __name__ == "__main__":
 
 		make_files()
   
-	else:
-		clean_markdown_files()
+	clean_markdown_files()
 
 	print("All done")
  

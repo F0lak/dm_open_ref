@@ -4,16 +4,16 @@
 +   html_decode(HtmlText)
 <!-- -->
 **Args:**
-+   HtmlText: text to be \"unescaped\"
++   HtmlText: text to be "unescaped"
 <!-- -->
 **Returns:**
 +   unescaped text
 
 
-Special characters such as \< and \> are not displayed
+Special characters such as < and > are not displayed
 literally in html and may produce garbled output. To display these
-characters literally, they must be \"escaped\". For example, \< is
-produced by the code `&lt;` and \> is produced by the code `&gt;`.
+characters literally, they must be "escaped". For example, < is
+produced by the code `&lt;` and > is produced by the code `&gt;`.
 
 
 The `html_decode()` instruction takes a text string containing

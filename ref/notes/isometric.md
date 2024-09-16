@@ -13,8 +13,8 @@ a square. The map is rotated 45° clockwise and then tilted at an angle
 the viewer\'s perspective. What was once north now points to the
 northeast end of the viewer\'s screen; what was once east now points
 southeast to the viewer. Tiles that are more to the south or east are
-\"nearer\" to the viewer, and tiles that are north or west are
-\"farther\". The actual direction the map faces can be changed by using
+"nearer" to the viewer, and tiles that are north or west are
+"farther". The actual direction the map faces can be changed by using
 `client.dir`. 
 
 It is important to remember that this is an
@@ -33,7 +33,7 @@ the base is still a 64x32 diamond and you have 48 pixels left over for
 vertical structures. 
 
 In this mode `pixel_x` and `pixel_y` will
-offset icons along the \"ground\". To adjust horizontal and vertical
+offset icons along the "ground". To adjust horizontal and vertical
 positions, use the `pixel_w` and `pixel_z` vars.
 ### Layers
 
@@ -44,7 +44,7 @@ farther back need to be drawn first so they are behind any tiles that
 should go in front of them. So in isometric mode, the back row of tiles
 (a diagonal line of them) is drawn first, followed by the next row
 forward, and so on. The `layer` var only matters when icons overlap each
-other in the \"physical\" space, like an obj sitting on a turf.
+other in the "physical" space, like an obj sitting on a turf.
 
 
 When pixel or step offsets, or gliding, place an object on
@@ -79,7 +79,7 @@ like screen objects do. The best way to use this is to apply
 players can\'t walk to. 
 
 If you want to use an overlay that
-should not be covered by other \"nearer\" icons on the map, such as a
+should not be covered by other "nearer" icons on the map, such as a
 name or health meter, you can add `EFFECTS_LAYER` to the overlay\'s
 layer. Icons with `EFFECTS_LAYER` will draw above regular icons. Then
 objects with `TOPDOWN_LAYER` will draw on top of everything else.
@@ -104,8 +104,8 @@ size, so the result is a 13x7-tile screen. This is the formula you need
 if you want to calculate the screen size: 
 ``` dm
  pixel_width =
-round(icon_width \* (view_width + view_height) / 2) pixel_height =
-round(icon_width \* (view_width + view_height - 2) / 4) + icon_height
+round(icon_width * (view_width + view_height) / 2) pixel_height =
+round(icon_width * (view_width + view_height - 2) / 4) + icon_height
 screen_width = round((pixel_width + icon_width - 1) / icon_width)
 screen_height = round((pixel_height + icon_height - 1) / icon_height)
 

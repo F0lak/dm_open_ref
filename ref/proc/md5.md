@@ -25,8 +25,8 @@ widely-used hash function.
 ``` dm
  mob/var/hash mob/Read(savefile/S) ..() // hash was saved
 in the file along with other values
-if(md5(\"\[level\]/\[exp\]/\[exp_needed\]\") != hash) src \<\<
-\"Cheater!\" del(src) 
+if(md5("[level]/[exp]/[exp_needed]") != hash) src <<
+"Cheater!" del(src) 
 ```
  
 
@@ -45,12 +45,12 @@ may be a cache file or an external file.
 ### Examples:
 
 ``` dm
- var/hash = \"(insert hash value here)\" // Compute this
+ var/hash = "(insert hash value here)" // Compute this
 ahead of time // Check that the cached default icon is still the same if
-(md5(\'default.dmi\') != hash) world \<\< \"The default icon has been
-modified!\" // Or check that the entire game resource file is pristine
-if (md5(file(\"mygame.rsc\")) != hash) world \<\< \"The game resources
-have been modified!\" 
+(md5(\'default.dmi\') != hash) world << "The default icon has been
+modified!" // Or check that the entire game resource file is pristine
+if (md5(file("mygame.rsc")) != hash) world << "The game resources
+have been modified!" 
 ```
  
 

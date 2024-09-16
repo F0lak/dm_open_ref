@@ -19,13 +19,13 @@ reference to an object.
 ### Example:
 
 ``` dm
- mob/verb/test() var/obj/O = new() O.tag = \"My Object\"
-var/obj/O2 = locate(\"My Object\") ASSERT(O == O2) //this should always
+ mob/verb/test() var/obj/O = new() O.tag = "My Object"
+var/obj/O2 = locate("My Object") ASSERT(O == O2) //this should always
 be true 
 ```
  
 
-Setting a tag to \"\" or null removes it.
+Setting a tag to "" or null removes it.
 Any object with a non-empty tag is immune to garbage collection, since
 the tag is treated as an implicit reference to that object.
 

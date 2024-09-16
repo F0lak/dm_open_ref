@@ -1,7 +1,7 @@
 ## isturf proc
 
 **Format:**
-+   isturf(Loc1, Loc2 \...)
++   isturf(Loc1, Loc2 ...)
 <!-- -->
 **Args:**
 +   Any number of locations to test.

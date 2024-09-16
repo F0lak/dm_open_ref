@@ -13,15 +13,15 @@ library.
 ### Example:
 
 ``` dm
- #ifdef \_\_MAIN\_\_ #include \"demo.dm\" #include
-\"demo.dmm\" #endif 
+ #ifdef \_\_MAIN\_\_ #include "demo.dm" #include
+"demo.dmm" #endif 
 ```
  
 
 If the demo requires a lot of
 extra resources, it is probably better to package the demo as a separate
 project. Small demos, however, are nice and convenient using this
-\"auto-demo\" technique---especially since Dream Seeker automatically
+"auto-demo" technique---especially since Dream Seeker automatically
 launches Dream Maker after installing a library containing a `.dme`
 file.
 

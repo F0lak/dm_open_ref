@@ -7,7 +7,7 @@ displayed.
 ### Example:
 
 ``` dm
- if(1+1 != 2) world.log \<\< \"Uh oh.\" 
+ if(1+1 != 2) world.log << "Uh oh." 
 ```
 
 
@@ -18,7 +18,7 @@ Dream Daemon that does this.)
 ### Example:
 
 ``` dm
- world.log = file(\"mylog.txt\") 
+ world.log = file("mylog.txt") 
 ```
 
 

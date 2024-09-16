@@ -16,7 +16,7 @@ whatever control generated the statusbar text (e.g., a map).
 
 If
 you include `[[*]]` in the command, it will be replaced by the new text.
-(See \"Embedded Winget\" in [client commands](/ref/skin/commands.md) for
+(See "Embedded Winget" in [client commands](/ref/skin/commands.md) for
 more details on the `[[...]]` format.) 
 
 `[[from]]` can be used

@@ -13,10 +13,10 @@ the call stack when handling errors.
 ### Example:
 
 ``` dm
- world/Error(err) world.log \<\< \"Error \[err\]:\"
-for(var/callee/p = caller, p, p = p.caller) world.log \<\< \" \[p.type\]
-(src=\[p.src\], usr=\[p.usr\])\" if(p.file) world.log \<\< \" at
-\[p.file\]:\[p.line\]\" 
+ world/Error(err) world.log << "Error [err]:"
+for(var/callee/p = caller, p, p = p.caller) world.log << " [p.type]
+(src=[p.src], usr=[p.usr])" if(p.file) world.log << " at
+[p.file]:[p.line]" 
 ```
 
 

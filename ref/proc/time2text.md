@@ -18,29 +18,29 @@ The world\'s local time is used, unless you specify a `timezone`
 argument which will add an offset to UTC. 
 
 The default format is
-\"DDD MMM DD hh:mm:ss YYYY\", which produces results such as \"Wed, May
-23 15:41:13 2001\". As you can see, the fields in the format text are
+"DDD MMM DD hh:mm:ss YYYY", which produces results such as "Wed, May
+23 15:41:13 2001". As you can see, the fields in the format text are
 replaced by components of the date and time. The following list contains
 all of the recognized fields. Anything else in the format string is
 inserted directly into the output.
 YYYY
-+   year (2001, 2002, \...)
++   year (2001, 2002, ...)
 YY
-+   year (01, 02, \...)
++   year (01, 02, ...)
 Month
-+   January, February, \...
++   January, February, ...
 MMM
-+   Jan, Feb, \...
++   Jan, Feb, ...
 MM
-+   number of the month (01, 02, \...)
++   number of the month (01, 02, ...)
 Day
-+   Monday, Tuesday, \...
++   Monday, Tuesday, ...
 DDD
-+   Mon, Tue, \...
++   Mon, Tue, ...
 DD
 +   day of the month
 hh
-+   hour (00, 01, \... 23)
++   hour (00, 01, ... 23)
 mm
 +   minute
 ss

@@ -17,8 +17,8 @@ by hitting backspace, escape, delete, or `/`.
 ### Example:
 
 ``` dm
- client command_text = \"say \" verb/say(T as text) world
-\<\< \"\[usr\] says, \'\[T\]\'\" 
+ client command_text = "say " verb/say(T as text) world
+<< "[usr] says, \'[T]\'" 
 ```
  
 
@@ -34,8 +34,8 @@ MUD command-line could be implemented like this:
 ### Example:
 
 ``` dm
- client command_text = \"\> \" verb/command(C as
-command_text) set name = \"\>\" usr \<\< \"Your command: \[C\]\"
+ client command_text = "> " verb/command(C as
+command_text) set name = ">" usr << "Your command: [C]"
 
 ```
  

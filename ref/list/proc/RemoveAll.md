@@ -2,7 +2,7 @@
 ###### BYOND Version 515
 
 **Format:**
-+   list.RemoveAll(Item1,Item2,\...)
++   list.RemoveAll(Item1,Item2,...)
 <!-- -->
 **Returns:**
 +   Number of items removed.

@@ -1,13 +1,13 @@
 ## path operators
 
 
-A \"path\" in DM is a constant value that identifies a
+A "path" in DM is a constant value that identifies a
 particular definition in the code tree (i.e. an object, procedure, or
 variable definition). An example of this is the default mob type for new
 players `/mob`. 
 
-Paths are used in two contexts. One is to \"get
-to\" a particular point in the code tree in order to modify the
+Paths are used in two contexts. One is to "get
+to" a particular point in the code tree in order to modify the
 definition. The other is to reference a particular definition made
 elsewhere in the code tree. The syntax of a path is similar in both
 cases. 
@@ -49,14 +49,14 @@ above definition of `gloves` and `sandals`, you could modify a property
 of one of them from somewhere else using any path syntax you like:
 
 ``` dm
- obj/clothing/sandals name = \"Winged Sandals\" 
+ obj/clothing/sandals name = "Winged Sandals" 
 ```
 
 
 
 While that was not a useful thing to do in this case, it can be
 a very powerful tool when organizing source code in large projects. Also
-note that the use of \"/\" can save your source code from getting too
+note that the use of "/" can save your source code from getting too
 deeply indented, which may sound mundane, but which is quite important!
 
 
@@ -118,16 +118,16 @@ same as the following, which is not what you want:
  
 
 On a related note, parameter
-definitions in procedures should not begin with a \"/\". 
+definitions in procedures should not begin with a "/". 
 ``` dm
 
-mob/Move(atom/Dest) //correct src \<\< \"Moving to
-\[Dest.x\],\[Dest.y\].\" return ..() mob/Move(var/atom/Dest) //ok
+mob/Move(atom/Dest) //correct src << "Moving to
+[Dest.x],[Dest.y]." return ..() mob/Move(var/atom/Dest) //ok
 mob/Move(/atom/Dest) //WRONG 
 ```
  
 
-Essentially, \"var/\"
+Essentially, "var/"
 is prepended to each entry in the parameter list.
 
 > [!TIP] 

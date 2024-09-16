@@ -26,19 +26,19 @@ up, so frame=4 is the 4th frame.
 
 (Movement states are special
 versions of an existing icon_state with the same name, but appear in the
-Dream Maker editor with an \"M\" indicator. These states are used for
+Dream Maker editor with an "M" indicator. These states are used for
 animation when the atom using the icon_state moves from one tile to the
 next; otherwise only the normal non-moving state is displayed.)
 
 
 The following contrived example, loads the EAST facing default
-icon state \"\" from the user\'s icon file, rotates that a bit, and then
+icon state "" from the user\'s icon file, rotates that a bit, and then
 creates a new icon file for the user.
 ### Example:
 
 ``` dm
  mob/verb/test() var/icon/I = new(usr.icon,icon_state =
-\"\",dir = EAST) I.Turn(90) //rotate clockwise 90 degrees usr.icon = I
+"",dir = EAST) I.Turn(90) //rotate clockwise 90 degrees usr.icon = I
 
 ```
  

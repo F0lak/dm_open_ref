@@ -32,13 +32,13 @@ the command is finished executing.
 ### Example:
 
 ``` dm
- mob/verb/dir(Path as text) shell(\"dir \[Path\] \>
-dir.out\") usr \<\< file2text(\"dir.out\") 
+ mob/verb/dir(Path as text) shell("dir [Path] >
+dir.out") usr << file2text("dir.out") 
 ```
  
 
 This
-example displays the output of the \"dir\" command to the user.
+example displays the output of the "dir" command to the user.
 
 > [!TIP] 
 > **See also:**

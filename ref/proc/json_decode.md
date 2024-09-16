@@ -19,7 +19,7 @@ Arrays like `[1,2,3]` will be converted to regular lists like
 Object literals like `{"a":1}` will be converted
 to associative lists such as `list("a"=1)`. Each item in the list is
 also decoded. Except in strict mode, non-string values are allowed as
-the \"keys\" in an associaitve list, even though that\'s not valid JSON,
+the "keys" in an associaitve list, even though that\'s not valid JSON,
 and strings used as keys can be left unquoted. BYOND doesn\'t care, as
 long as it can understand the formatted text it\'s given. The only
 exception is that a number isn\'t allowed to be an associative list key,

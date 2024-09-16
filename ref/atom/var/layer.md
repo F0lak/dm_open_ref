@@ -29,7 +29,7 @@ overlay. Otherwise, the overlay object\'s own drawing layer is used.
 
 The actual drawing order of icons may change depending on
 world.map_format. An isometric map for instance has to display tiles
-that are \"closer\" to the viewer in front of tiles that are in the
+that are "closer" to the viewer in front of tiles that are in the
 back, so the layer var takes a backseat to the needs of the map. If you
 use the `TOPDOWN_MAP` or `TILED_ICON_MAP` map formats, the layer is more
 important. 

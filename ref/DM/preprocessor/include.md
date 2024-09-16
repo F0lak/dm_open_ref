@@ -1,13 +1,13 @@
 ## #include directive
 
 **Format:**
-+   #include \"Filename\"
-+   #include \<Filename\>
++   #include "Filename"
++   #include <Filename>
 <!-- -->
 **Args:**
-+   \"Filename\": The path to the filename to include, from the current
++   "Filename": The path to the filename to include, from the current
     directory.
-+   \<Filename\>: The path inside the BYOND lib directory.
++   <Filename>: The path inside the BYOND lib directory.
 
 
 The `#include` statement causes the compiler to process another
@@ -26,7 +26,7 @@ file with that name in Dream Maker.
 ### Example:
 
 ``` dm
- #include \"test.dm\" // checks ./test.dm #include //
+ #include "test.dm" // checks ./test.dm #include //
 checks lib-path/test.dm 
 ```
  

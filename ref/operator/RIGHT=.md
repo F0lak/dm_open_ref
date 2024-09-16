@@ -1,7 +1,7 @@
-## \>= operator
+## >= operator
 
 **Format:**
-+   A \>= B
++   A >= B
 <!-- -->
 **Returns:**
 +   1 if A is greater or equal to B; 0 otherwise.
@@ -12,9 +12,9 @@ performed (like sorttextEx()).
 
 > [!TIP] 
 > **See also:**
-> +   [\> operator](/ref/operator/%3e.md) 
-> +   [\< operator](/ref/operator/%3c.md) 
-> +   [\<=\> operator](/ref/operator/%3c=%3e.md) 
+> +   [> operator](/ref/operator/%3e.md) 
+> +   [< operator](/ref/operator/%3c.md) 
+> +   [<=> operator](/ref/operator/%3c=%3e.md) 
 > +   [== operator](/ref/operator/==.md) 
 > +   [operators](/ref/operator.md) 
 > +   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->

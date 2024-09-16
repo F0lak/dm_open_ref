@@ -12,7 +12,7 @@
 
 In order to modify a savefile, exclusive access to the file
 must be guaranteed, so that other processes reading or writing to the
-file do not experience data corruption. This is known as \"locking\" the
+file do not experience data corruption. This is known as "locking" the
 file. While the file is locked, only the world that obtained the lock
 may access it. 
 

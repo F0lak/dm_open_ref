@@ -14,8 +14,8 @@
 **Args:**
 +   usr: The mob in the world with the same key as the player, if it
     exists.
-+   TopicData: If the player accessed the world with a \"connection
-    topic\", this is the topic text. Otherwise it is null.
++   TopicData: If the player accessed the world with a "connection
+    topic", this is the topic text. Otherwise it is null.
 <!-- -->
 **Default action:**
 +   Look for an existing mob with the same key as the player. If found,
@@ -37,11 +37,11 @@ to be created first.
 
 ``` dm
  client/New() if(usr) return ..() //reconnecting to
-existing mob else var/player_sav = \"players/\[ckey\].sav\"
+existing mob else var/player_sav = "players/[ckey].sav"
 if(length(file(player_sav))) //if player savefile exists var/savefile/F
-= new(player_sav) //open it F \>\> usr //create saved mob return ..()
+= new(player_sav) //open it F >> usr //create saved mob return ..()
 //creates a new mob if necessary mob/Logout() var/player_sav =
-\"players/\[ckey\].sav\" var/savefile/F = new(player_sav) F \<\< src del
+"players/[ckey].sav" var/savefile/F = new(player_sav) F << src del
 src 
 ```
  

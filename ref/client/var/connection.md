@@ -5,14 +5,14 @@
 This is a read-only var describing the type of client that is
 connected.
 **Possible values:**
-+   \"seeker\" - The player is connected through Dream Seeker
-+   \"telnet\" - The player is connected through telnet
-+   \"world\" - The client is actually a world.Export() connection from
++   "seeker" - The player is connected through Dream Seeker
++   "telnet" - The player is connected through telnet
++   "world" - The client is actually a world.Export() connection from
     another server
-+   \"cgi\" - The client is connected via CGI (irrelevant to most
++   "cgi" - The client is connected via CGI (irrelevant to most
     worlds)
-+   \"web\" - The client is connected via the Web client
-+   \"http\" - The client is an HTTP connection (used by the Web
++   "web" - The client is connected via the Web client
++   "http" - The client is an HTTP connection (used by the Web
     client\'s virtual server)
 
 

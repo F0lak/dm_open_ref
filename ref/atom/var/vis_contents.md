@@ -29,7 +29,7 @@ step offsets here. Also, considerations like visibility will not apply.
 If a turf is in an atom\'s visual contents, the turf and all of
 that turf\'s contents will be displayed. (In the case of big atoms, or
 movable atoms with step offsets, only atoms that actually have that turf
-as their loc will appear. \"Overhangers\" will not.) Gliding and step
+as their loc will appear. "Overhangers" will not.) Gliding and step
 offsets *will* be applied to that turf\'s contents normally; but again
 visibility, opacity, etc. will not be considered. (If you have one or
 more turfs in visual contents, an object gliding to a new turf outside

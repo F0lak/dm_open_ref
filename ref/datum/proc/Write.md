@@ -16,7 +16,7 @@
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+> +   [<< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
 > +   [Read proc (datum)](/ref/datum/proc/Read.md) 
 > +   [initial proc](/ref/proc/initial.md) 
 > +   [issaved proc](/ref/proc/issaved.md) 

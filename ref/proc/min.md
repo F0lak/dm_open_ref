@@ -1,14 +1,14 @@
 ## min proc
 
 **Format:**
-+   min(A,B,C,\...)
++   min(A,B,C,...)
 <!-- -->
 **Returns:**
 +   the minimum of the arguments.
 ### Example:
 
 ``` dm
- usr \<\< min(1,2,3) 
+ usr << min(1,2,3) 
 ```
  
 

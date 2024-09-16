@@ -17,17 +17,17 @@ routines.
 ### Example:
 
 ``` dm
- var/item var/list/L = list(\"orange\" = 3, \"green\" = 2,
-\"blue\" = 5) for(item in L) world \<\< \"\[item\] -\> \[L\[item\]\]\"
-world \<\< \"\" L.Swap(1, 3) for(item in L) world \<\< \"\[item\] -\>
-\[L\[item\]\]\" 
+ var/item var/list/L = list("orange" = 3, "green" = 2,
+"blue" = 5) for(item in L) world << "[item] -> [L[item]]"
+world << "" L.Swap(1, 3) for(item in L) world << "[item] ->
+[L[item]]" 
 ```
 
 ### Result:
 
 ``` dm
- orange -\> 3 green -\> 2 blue -\> 5 blue -\> 5 green -\> 2
-orange -\> 3 
+ orange -> 3 green -> 2 blue -> 5 blue -> 5 green -> 2
+orange -> 3 
 ```
  
 

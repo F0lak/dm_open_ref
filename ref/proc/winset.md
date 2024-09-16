@@ -26,17 +26,17 @@ unique. In some special cases it can also be null. Another valid form is
 
 If you want to use a text string
 that may include spaces, surround the string with double quotes and
-escape them using a backslash, e.g. `"text=\"This is some text.\""`.
+escape them using a backslash, e.g. `"text="This is some text.""`.
 Backslashes can also be used by preceding them with another backslash.
 For filenames, use single quotes around the file. Sometimes escapement
 may need to go several levels deep; for example to set up an input
 control with a default say command, you will need to escape it twice:
 > Desired command: `say "`\
-> Escaped form with quotes: `"`**`say \"`**`"`\
-> Final form: `\"say \\\"\"`
+> Escaped form with quotes: `"`**`say "`**`"`\
+> Final form: `"say \""`
 > 
 
-`winset(usr, "mainwindow.input", "command=`**`\"say \\\"\"`**`")`
+`winset(usr, "mainwindow.input", "command=`**`"say \""`**`")`
 
 
 You can set more than one control\'s parameters at once by
@@ -44,13 +44,13 @@ leaving the `control_id` argument null, and including the control as
 part of the parameter list: 
 ``` dm
 winset(usr, null,\\
-\"mainwindow.output.background-color=#ffffff;mainwindow.input.background-color=#ffffff\")
+"mainwindow.output.background-color=#ffffff;mainwindow.input.background-color=#ffffff")
 ```
 
 ### Special winsets
 
 
-Some \"global\" winset options will let you change things that
+Some "global" winset options will let you change things that
 affect the client as a whole, not just specific controls.
 #### reset 
 ###### BYOND Version 496
@@ -65,11 +65,11 @@ runtime-created controls and windows, by calling
 Another use for `winset()` is to send commands to the client
 that normally can only run from there, like `.profile` or `.quit`. To do
 this, leave the `control_id` argument null, and just use a parameter
-called \"command\": 
+called "command": 
 ``` dm
-obj/quitbutton name = \"Quit\" icon =
-\'buttons.dmi\' icon_state = \"quit\" Click() winset(usr, null,
-list(\"command\"=\".quit\"))
+obj/quitbutton name = "Quit" icon =
+\'buttons.dmi\' icon_state = "quit" Click() winset(usr, null,
+list("command"=".quit"))
 ```
  
 
@@ -82,7 +82,7 @@ your command.
 #### browser-options {#browser-options byondver="516"}
 
 
-The \"browser-options\" global parameter lets you enable or
+The "browser-options" global parameter lets you enable or
 disable certain browser functionality. This can be a comma-separated
 list, or you can precede an option with `+` or `-` to enable or disable
 it specifically.
@@ -109,7 +109,7 @@ access.
 
 ``` dm
 mob/Login() ..() winset(usr, null,
-\"browser-options=devtools,find\")
+"browser-options=devtools,find")
 ```
  
 

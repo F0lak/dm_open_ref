@@ -6,14 +6,14 @@
 <!-- -->
 **Returns:**
 +   The logarithm (base X) of Y. If X is not specified, a natural
-    logarithm is computed (base 2.718\...).
+    logarithm is computed (base 2.718...).
 
 
 The logarithm is the power to which you have to raise X in
 order to get Y. In other words, the following is true (ignoring
 round-off error): 
 ``` dm
- X \*\* log(X,Y) == Y 
+ X ** log(X,Y) == Y 
 ```
 
 
@@ -25,4 +25,4 @@ money, experience points, and so forth.
 
 > [!TIP] 
 > **See also:**
-> +   [\*\* operator](/ref/operator/**.md) <!-- -->
+> +   [** operator](/ref/operator/**.md) <!-- -->

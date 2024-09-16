@@ -6,7 +6,7 @@
 
 This value indicates which stat panel is currently visible to
 the player. You can assign it to force a different panel to become the
-top panel. The special value \"verbs\" activates the panel of commands.
+top panel. The special value "verbs" activates the panel of commands.
 
 > [!TIP] 
 > **See also:**

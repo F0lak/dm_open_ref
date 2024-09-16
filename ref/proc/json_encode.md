@@ -32,9 +32,9 @@ form like `{"__number__":"NaN"}`.
 ### Example:
 
 ``` dm
- var/list/info = list(\"name\"=\"fridge\", \"power\"=12) //
-send {\"name\":\"fridge\",\"power\":12} to a JavaScript function usr
-\<\< output(url_encode(json_encode(info)), \"mybrowser:myJSfunction\")
+ var/list/info = list("name"="fridge", "power"=12) //
+send {"name":"fridge","power":12} to a JavaScript function usr
+<< output(url_encode(json_encode(info)), "mybrowser:myJSfunction")
 
 ```
  

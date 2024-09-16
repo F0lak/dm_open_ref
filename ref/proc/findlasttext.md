@@ -23,8 +23,8 @@ Needle. The case-sensitive version is findlasttextEx().
 
 If the
 start or end position is negative, the position is counted backwards
-from the end of the string. E.g., findlasttext(\"Banana\", \"na\", -3)
-starts three characters from the end and will skip over the last \"na\".
+from the end of the string. E.g., findlasttext("Banana", "na", -3)
+starts three characters from the end and will skip over the last "na".
 
 
 Note: Unlike findtext(), a regular expression may NOT be used

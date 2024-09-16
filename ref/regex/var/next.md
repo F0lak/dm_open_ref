@@ -2,7 +2,7 @@
 ###### BYOND Version 510
 
 
-If this is a global pattern (using the \"g\" flag), then after
+If this is a global pattern (using the "g" flag), then after
 a call to Find() this var contains the index where next Find() should
 begin. 
 

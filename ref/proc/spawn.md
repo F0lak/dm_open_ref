@@ -19,7 +19,7 @@ after other existing events that are immediately pending.
 ### Example:
 
 ``` dm
- spawn(30) storm() usr \<\< \"Storm clouds are brewing!\"
+ spawn(30) storm() usr << "Storm clouds are brewing!"
 
 ```
  

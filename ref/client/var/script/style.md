@@ -12,8 +12,8 @@ as well as loading a style sheet.
 ### Example:
 
 ``` dm
- client/script = \"
-\" 
+ client/script = "
+" 
 ```
  
 

@@ -1,7 +1,7 @@
 ## ftp proc
 
 **Format:**
-+   target \<\< ftp(File, Name)
++   target << ftp(File, Name)
 
 
 Sends a file to the target with the (optional) suggested name
@@ -15,7 +15,7 @@ supplementary documentation, or anything.
 ### Example:
 
 ``` dm
- mob/verb/geticon(O in view()) usr \<\< ftp(O:icon)
+ mob/verb/geticon(O in view()) usr << ftp(O:icon)
 
 ```
  
@@ -25,7 +25,7 @@ from other objects in the game.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [browse proc](/ref/proc/browse.md) 
 > +   [file proc](/ref/proc/file.md) 
 > +   [link proc](/ref/proc/link.md) 

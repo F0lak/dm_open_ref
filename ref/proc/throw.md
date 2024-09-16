@@ -15,8 +15,8 @@ then the current proc will end and control will return to the caller.
 ### Example:
 
 ``` dm
- try if(!src.ready) throw EXCEPTION(\"Not ready\")
-DoSomething() catch(var/e) world.log \<\< \"Exception: \[e\]\"
+ try if(!src.ready) throw EXCEPTION("Not ready")
+DoSomething() catch(var/e) world.log << "Exception: [e]"
 
 ```
  

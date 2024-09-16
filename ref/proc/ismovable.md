@@ -2,7 +2,7 @@
 ###### BYOND Version 513
 
 **Format:**
-+   ismovable(Loc1, Loc2 \...)
++   ismovable(Loc1, Loc2 ...)
 <!-- -->
 **Args:**
 +   Any number of locations to test.

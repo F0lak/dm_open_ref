@@ -17,10 +17,10 @@ execute DreamSeeker with the `.dms` file as an argument.
 ### myworld.dms
 
 ``` dm
- /\*If your browser shows you this, you either need to
+ /*If your browser shows you this, you either need to
 install BYOND (it\'s free!) from www.byond.com, or you need to configure
-your browser to execute DreamSeeker with DM Script (.dms) files. \*/
-#define URL \"byond://myworld\" 
+your browser to execute DreamSeeker with DM Script (.dms) files. */
+#define URL "byond://myworld" 
 ```
 
 ### myworld.html

@@ -2,13 +2,13 @@
 ###### BYOND Version 514
 
 **Format:**
-+   list.Splice(Start=1,End=0,Item1,Item2\...)
++   list.Splice(Start=1,End=0,Item1,Item2...)
 <!-- -->
 **Args:**
 +   Start: The list index where the splice will begin.
 +   End: The index immediately following the last item to be cut from
     the list. 0 is the end of the list.
-+   Item1, Item2\...: Items to be inserted.
++   Item1, Item2...: Items to be inserted.
 
 
 Cuts out items from a list, and inserts new items in their
@@ -18,11 +18,11 @@ then calling `list.Insert(Start,Item1,Item2...)`, but faster.
 
 ``` dm
  var/list/L =
-list(\"apple\",\"banana\",\"orange\",\"pear\") // cuts \"banana\" and
-\"orange\" and inserts four new items
-L.Splice(2,4,\"firetruck\",\"camel\",\"joystick\",\"balloon\") // prints
+list("apple","banana","orange","pear") // cuts "banana" and
+"orange" and inserts four new items
+L.Splice(2,4,"firetruck","camel","joystick","balloon") // prints
 apple, firetruck, camel, joystick, balloon, pear for(var/item in L) usr
-\<\< item 
+<< item 
 ```
  
 

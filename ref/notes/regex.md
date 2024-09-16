@@ -11,10 +11,10 @@ operations, and therefore useful for parsing, filtering, etc.
 Some example regular expressions are:
   Pattern    Code                        Meaning
   ---------- --------------------------- -------------------------------------------------------------------------------------
-  B.\*D      regex(\"B.\*D\")            Find `B`, followed by any number of characters (including none), followed by a `D`.
-  \[0-3\]    regex(@\"\[0-3\]\")         Find any digit from 0 to 3
-  foo\|bar   regex(\"foo\|bar\",\"i\")   Find `foo` or `bar`, case-insensitive
-  \\d+       regex(@\"\\d+\",\"g\")      Find all sequences of digits
+  B.*D      regex("B.*D")            Find `B`, followed by any number of characters (including none), followed by a `D`.
+  [0-3]    regex(@"[0-3]")         Find any digit from 0 to 3
+  foo\|bar   regex("foo\|bar","i")   Find `foo` or `bar`, case-insensitive
+  \\d+       regex(@"\\d+","g")      Find all sequences of digits
 
 
 These are some of the patterns you can use. If you want to use
@@ -26,7 +26,7 @@ strings](/ref/DM/text.md)  like `@"..."` for your regular expression patterns,
 because with a regular DM string you have to escape all backslash `\`
 and open bracket `[` characters, which will make your regular expression
 much harder for you to read. It\'s easier to write `@"[\d]\n"` than
-`"\[\\d]\\n"`.
+`"[\\d]\\n"`.
   Pattern                                                                                                                                      Matches
   -------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------
   *a*\|*b*                                                                                                                                     *a* or *b*
@@ -35,16 +35,16 @@ much harder for you to read. It\'s easier to write `@"[\d]\n"` than
   \$                                                                                                                                           End of text; or line if `m` flag is used
   \\A                                                                                                                                          Beginning of text
   \\Z                                                                                                                                          End of text
-  \[*chars*\]                                                                                                                                  Any character between the brackets. Ranges can be specified with a hyphen, like 0-9. Character classes like `\d` and `\s` can also be used (see below).
-  \[\^*chars*\]                                                                                                                                Any character NOT matching the ones between the brackets.
+  [*chars*]                                                                                                                                  Any character between the brackets. Ranges can be specified with a hyphen, like 0-9. Character classes like `\d` and `\s` can also be used (see below).
+  [\^*chars*]                                                                                                                                Any character NOT matching the ones between the brackets.
   \\b                                                                                                                                          Word break
   \\B                                                                                                                                          Word non-break
   (*pattern*)                                                                                                                                  Capturing group: the pattern must match, and its contents will be captured in the group list.
   (?:*pattern*)                                                                                                                                Non-capturing group: Match the pattern, but do not capture its contents.
   \\1 *through* \\9                                                                                                                            Backreference; `\`*`N`* is whatever was captured in the *N*th capturing group.
   Modifiers                                                                                                                                    
-  Modifiers are \"greedy\" by default, looking for the longest match possible. When following a word, they only apply to the last character.   
-  *a*\*                                                                                                                                        Match *a* zero or more times
+  Modifiers are "greedy" by default, looking for the longest match possible. When following a word, they only apply to the last character.   
+  *a**                                                                                                                                        Match *a* zero or more times
   *a*+                                                                                                                                         Match *a* one or more times
   *a*?                                                                                                                                         Match *a* zero or one time
   *a*{*n*}                                                                                                                                     Match *a*, exactly *n* times
@@ -66,8 +66,8 @@ much harder for you to read. It\'s easier to write `@"[\d]\n"` than
   Assertions                                                                                                                                   
   (?=*pattern*)                                                                                                                                Look-ahead: Require this pattern to come next, but don\'t include it in the match
   (?!*pattern*)                                                                                                                                Look-ahead: Require this pattern NOT to come next
-  (?\<=*pattern*)                                                                                                                              Look-behind: Require this pattern to come before, but don\'t include it in the match (must be a fixed byte length)
-  (?\<!*pattern*)                                                                                                                              Look-behind: Require this pattern NOT to come before (must be a fixed byte length)
+  (?<=*pattern*)                                                                                                                              Look-behind: Require this pattern to come before, but don\'t include it in the match (must be a fixed byte length)
+  (?<!*pattern*)                                                                                                                              Look-behind: Require this pattern NOT to come before (must be a fixed byte length)
 
 
 The optional flags can be any combination of these:

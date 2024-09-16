@@ -2,7 +2,7 @@
 ###### BYOND Version 512
 
 Format:
-+   filter(type=\"outline\", \...)
++   filter(type="outline", ...)
 <!-- -->
 Args:
 +   size: Width in pixels (defaults to 1)

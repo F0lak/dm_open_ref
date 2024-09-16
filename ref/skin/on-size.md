@@ -20,7 +20,7 @@ response to size or splitter changes made by
 If you include `[[*]]` in the
 command, it will be replaced by the control\'s new size. Likewise,
 `[[width]]` will be replaced with the width and `[[height]]` with the
-height. (See \"Embedded Winget\" in [client
+height. (See "Embedded Winget" in [client
 commands](/ref/skin/commands.md) for more details on the `[[...]]`
 format.)
 

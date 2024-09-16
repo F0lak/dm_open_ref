@@ -16,6 +16,6 @@
 
 > [!TIP] 
 > **See also:**
-> +   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
+> +   [>> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
 > +   [Write proc (datum)](/ref/datum/proc/Write.md) 
 > +   [tmp vars](/ref/var/tmp.md) <!-- -->

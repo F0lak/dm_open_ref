@@ -10,7 +10,7 @@
 
 If any icon uses `render_target`, and another icon in the scene
 has a matching `render_source`, this icon will be drawn to a temporary
-image called a \"slate\", which can be reused mutiple times for faster
+image called a "slate", which can be reused mutiple times for faster
 drawing and for special effects. 
 
 If the `render_target` value

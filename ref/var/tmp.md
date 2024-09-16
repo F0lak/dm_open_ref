@@ -35,7 +35,7 @@ another player\'s mob will have the `key` var set already. When that mob
 is loaded, if they are already logged into the game they will be
 immediately reassigned to that just-loaded, older mob with a `Login()`
 call, while the mob they\'re supposed to be using will have `Logout()`
-called. Thus they\'ll appear to \"rollback\" to an earlier state.
+called. Thus they\'ll appear to "rollback" to an earlier state.
 
 
 If your game accidentally falls into this trap, don\'t panic!

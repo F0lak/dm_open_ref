@@ -1,7 +1,7 @@
 ## isobj proc
 
 **Format:**
-+   isobj(Loc1, Loc2 \...)
++   isobj(Loc1, Loc2 ...)
 <!-- -->
 **Args:**
 +   Any number of locations to test.

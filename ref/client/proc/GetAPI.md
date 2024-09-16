@@ -6,7 +6,7 @@
 +   GetAPI(Api, Name)
 <!-- -->
 **Args:**
-+   Api: the name of the API (e.g. \"steam\")
++   Api: the name of the API (e.g. "steam")
 +   Key: the name of the value to read
 
 

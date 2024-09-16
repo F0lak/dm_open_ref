@@ -17,7 +17,7 @@
     [client.connection](/ref/client/var/connection.md) )
 
 
-By default, this procedure checks the \"ban\" configuration
+By default, this procedure checks the "ban" configuration
 file. If an entry is found for the current world (based on the value of
 world.hub), the parameter text is converted into a list (using
 params2list()), and the result is returned. Otherwise, null is returned.
@@ -30,17 +30,17 @@ This
 procedure is called internally whenever a new user connects (before
 client/New() is called). If the result is true, access is denied. If you
 want to ban a user but still allow them to log in (perhaps with reduced
-functionality), you can put \"Login=1\" in the parameter text. If you
+functionality), you can put "Login=1" in the parameter text. If you
 want to display an explanation to the user about why they are banned,
-you can also put \"message=X\" in the parameter text, where X is the
+you can also put "message=X" in the parameter text, where X is the
 message to display to the user. A reason for the ban can be added with a
-\"reason=X\" field. Of course, you can also override IsBanned() and
+"reason=X" field. Of course, you can also override IsBanned() and
 insert these values directly into the list that is returned.
 ## Example
 
 ``` dm
  world/IsBanned(key,address) . = ..() //check the ban lists
-if(istype(., /list)) .\[\"Login\"\] = 1 //allow banned user to login
+if(istype(., /list)) .["Login"] = 1 //allow banned user to login
 
 ```
  
@@ -58,14 +58,14 @@ Login
 reason
 +   text string describing the reason or origin of the ban. For example,
     when people are banned from the pager, they are added to the
-    \"keyban\" list with reason = \"pager ban\". This text is internal
+    "keyban" list with reason = "pager ban". This text is internal
     information only and is not displayed to the banned user.
 message
 +   text string explaining to the user why they were banned and possibly
     what they should do to be forgiven.
 
 
-Since the data in the \"ban\" file is in
+Since the data in the "ban" file is in
 [application/x-www-form-urlencoded](/ref/proc/list2params.md)  format, it is
 probably not desirable to edit the file by hand. No built-in facilities
 for editing the file have been provided (aside from automatic addition

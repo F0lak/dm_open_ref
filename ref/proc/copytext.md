@@ -20,8 +20,8 @@ string is copied.
 ### Example:
 
 ``` dm
- pre = copytext(\"Hi there\",1,3))// = \"Hi\" post =
-copytext(\"Hi there\",4)) // = \"there\" 
+ pre = copytext("Hi there",1,3))// = "Hi" post =
+copytext("Hi there",4)) // = "there" 
 ```
  
 
@@ -31,7 +31,7 @@ the string.
 ### Example:
 
 ``` dm
- post = copytext(\"Hi there\",-5)) // = \"there\"
+ post = copytext("Hi there",-5)) // = "there"
 
 ```
  

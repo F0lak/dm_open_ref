@@ -2,7 +2,7 @@
 ###### BYOND Version 516
 
 **Format:**
-+   #pragma math [\<]{.faded}fast[\|]{.faded}accurate[\>]{.faded}
++   #pragma math [<]{.faded}fast[\|]{.faded}accurate[>]{.faded}
 
 
 Chooses old-style fast math procs, or newer more accurate ones
@@ -23,8 +23,8 @@ a more manageable range of 0 to 45° (π/4 radians).
 ### Example:
 
 ``` dm
- var/angle = 90 #pragma math fast usr \<\< cos(angle) //
-6.12323e-17 #pragma math accurate usr \<\< cos(angle) // 0 
+ var/angle = 90 #pragma math fast usr << cos(angle) //
+6.12323e-17 #pragma math accurate usr << cos(angle) // 0 
 ```
 
 

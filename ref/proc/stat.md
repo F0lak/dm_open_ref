@@ -24,7 +24,7 @@ similar.
 ### Example:
 
 ``` dm
- mob/Stat() stat(\"description\",src.desc) if(src == usr)
+ mob/Stat() stat("description",src.desc) if(src == usr)
 stat(src.contents) 
 ```
  

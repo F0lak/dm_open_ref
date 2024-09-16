@@ -11,12 +11,12 @@
     MapColors(r_rgba, g_rgba, b_rgba, a_rgba, rgba0)
 <!-- -->
 **Args:**
-+   rr: portion of old red component -\> new red component
-+   rg: portion of old red component -\> new green component
-+   rb: portion of old red component -\> new blue component
-+   ra: portion of old red component -\> new alpha component
++   rr: portion of old red component -> new red component
++   rg: portion of old red component -> new green component
++   rb: portion of old red component -> new blue component
++   ra: portion of old red component -> new alpha component
 +   r0: new base red component
-+   \...
++   ...
 *or*
 +   r_rgb: red component is converted to this color
 +   g_rgb: green component is converted to this color
@@ -42,7 +42,7 @@ Either of these calls
 change the icon to grayscale: 
 ``` dm
 icon.MapColors(0.3,0.3,0.3,
-0.59,0.59,0.59, 0.11,0.11,0.11, 0,0,0) // or\...
+0.59,0.59,0.59, 0.11,0.11,0.11, 0,0,0) // or...
 icon.MapColors(rgb(77,77,77), rgb(150,150,150), rgb(28,28,28),
 rgb(0,0,0))
 ```
@@ -59,7 +59,7 @@ Or this will make a nice moonlight effect:
 
 ``` dm
 icon.MapColors(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4,
-0,0,0) // or\... icon.MapColors(rgb(51,13,13), rgb(26,77,51),
+0,0,0) // or... icon.MapColors(rgb(51,13,13), rgb(26,77,51),
 rgb(26,26,102), rgb(0,0,0)) 
 ```
 

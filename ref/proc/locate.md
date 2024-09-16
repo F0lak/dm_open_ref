@@ -33,8 +33,8 @@ the specified type, the first one found will be chosen.
 ### Example:
 
 ``` dm
- var/mob/shopkeeper/M = locate() if(M) usr \<\< \"Found the
-shopkeeper.\" else usr \<\< \"Could not find the shopkeeper.\"
+ var/mob/shopkeeper/M = locate() if(M) usr << "Found the
+shopkeeper." else usr << "Could not find the shopkeeper."
 
 ```
  
@@ -49,7 +49,7 @@ the world (world.contents).
  
 
 This
-\"teleports\" the usr to a turf of the type /turf/Home.
+"teleports" the usr to a turf of the type /turf/Home.
 ### Example:
 
 ``` dm

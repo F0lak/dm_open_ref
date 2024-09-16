@@ -9,8 +9,8 @@ list are in no particular order.
 ### Example:
 
 ``` dm
- proc/ListAreas(mob/M) var/area/A M \<\< \"Areas:\" for (A
-in world.contents) M \<\< A 
+ proc/ListAreas(mob/M) var/area/A M << "Areas:" for (A
+in world.contents) M << A 
 ```
  
 

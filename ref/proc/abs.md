@@ -10,6 +10,6 @@
 ### Example:
 
 ``` dm
- usr \<\< abs(1) // outputs 1 usr \<\< abs(-1) // outputs 1
+ usr << abs(1) // outputs 1 usr << abs(-1) // outputs 1
 
 ```

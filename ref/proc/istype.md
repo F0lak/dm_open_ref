@@ -22,7 +22,7 @@ see if one prototype derives from another one, use
 
 ``` dm
  var/M M = new/mob/ugly/duckling() if(istype(M,/mob/ugly))
-//this will be true usr \<\< \"\[M\] is ugly!\" 
+//this will be true usr << "[M] is ugly!" 
 ```
 
 
@@ -31,7 +31,7 @@ Using implicit types, that same example can be rewritten as
 follows: 
 ``` dm
  var/mob/ugly/M M = new/mob/ugly/duckling()
-if(istype(M)) //this will be true usr \<\< \"\[M\] is ugly!\" 
+if(istype(M)) //this will be true usr << "[M] is ugly!" 
 ```
 
 

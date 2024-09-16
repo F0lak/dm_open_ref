@@ -16,7 +16,7 @@ the object\'s icon variable.
 
 ``` dm
  flick(\'blink.dmi\',usr) //show another icon
-flick(\"fight\",usr) //show usr\'s fight state 
+flick("fight",usr) //show usr\'s fight state 
 ```
  
 

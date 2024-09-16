@@ -7,7 +7,7 @@
 Returns a file object corresponding to the named file. This
 file object can then be used in a variety of ways. One would be to send
 it to a player to view using the browse() instruction. Output may also
-be appended to the file using the \<\< operator. 
+be appended to the file using the << operator. 
 
 Note that the
 file exists in the external filesystem (ie the hard disk) and not the
@@ -19,19 +19,19 @@ resource file (specified in single quotes).
 ### Example:
 
 ``` dm
- mob/verb/help() usr \<\< browse(file(\"help.html\"))
+ mob/verb/help() usr << browse(file("help.html"))
 
 ```
  
 
 Many DM instructions that deal with files treat
-file(\"name\") and \"name\" the same. There are cases such as browse()
+file("name") and "name" the same. There are cases such as browse()
 where a simple text string is not interpreted as a filename; it is in
 those situations where file() is really necessary.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [fcopy_rsc proc](/ref/proc/fcopy_rsc.md) 
 > +   [ftp proc](/ref/proc/ftp.md) 
 > +   [isfile proc](/ref/proc/isfile.md) 

@@ -8,8 +8,8 @@ the list, the value of that variable is accessed.
 ### Example:
 
 ``` dm
- mob/verb/dumpglobal() for(var/V in global.vars) usr \<\<
-\"\[V\] = \[global.vars\[V\]\]\" 
+ mob/verb/dumpglobal() for(var/V in global.vars) usr <<
+"[V] = [global.vars[V]]" 
 ```
  
 

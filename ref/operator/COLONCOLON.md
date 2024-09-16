@@ -55,11 +55,11 @@ for this usage.
 ### Example:
 
 ``` dm
- thing proc/DoSomething() world \<\< \"Did a thing\" better
-DoSomething() world \<\< \"Did a better thing\" proc/Downgrade()
-var/thing/better/T = new // will print \"Did a better thing\" because T
+ thing proc/DoSomething() world << "Did a thing" better
+DoSomething() world << "Did a better thing" proc/Downgrade()
+var/thing/better/T = new // will print "Did a better thing" because T
 is /thing/better T.DoSomething() // deliberately calls /thing\'s
-original version; will print \"Did a thing\" call(T,
+original version; will print "Did a thing" call(T,
 /thing::DoSomething())() 
 ```
 

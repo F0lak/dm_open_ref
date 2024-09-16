@@ -16,7 +16,7 @@ equal to A).
 ### Example:
 
 ``` dm
- usr \<\< ceil(1.45) // outputs 2 usr \<\< ceil(-1.45) //
+ usr << ceil(1.45) // outputs 2 usr << ceil(-1.45) //
 outputs -1 
 ```
 

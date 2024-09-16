@@ -7,7 +7,7 @@
 <!-- -->
 **Returns:**
 +   The original haystack string with the first match replaced. If using
-    the \"g\" flag, all matches are replaced.
+    the "g" flag, all matches are replaced.
 <!-- -->
 **Args:**
 +   haystack: The text to be searched
@@ -19,11 +19,11 @@
     end. The actual match is allowed to extend past End.
 
 
-Finds the regular expression pattern within the \"haystack\"
+Finds the regular expression pattern within the "haystack"
 text, and replaces the match with the given replacement value.
 
 
-In a non-global expression (not using the \"g\" flag), the
+In a non-global expression (not using the "g" flag), the
 values of src.index and src.next are set as they would be in a global
 Find(). See the Find() proc for more info. 
 
@@ -40,7 +40,7 @@ escaped with a second dollar sign. Otherwise, the \$ character is one of
 these special values:
   Replacement         Value
   ------------------- -----------------------------------------------------------------------------------------
-  \$1 *through* \$9   `$1`tt\> is whatever was in the first parentheses group, `$2` is the second, and so on.
+  \$1 *through* \$9   `$1`tt> is whatever was in the first parentheses group, `$2` is the second, and so on.
   \$\`                The text that came before the match
   \$\'                The text that came after the match
   \$0 *or* \$&        The whole match itself
@@ -54,16 +54,16 @@ replacement text in place of the match.
 ### Example
 
 ``` dm
- var/regex/vowels = new(\"\[aeiou\]\", \"i\") // match any
+ var/regex/vowels = new("[aeiou]", "i") // match any
 word of 2 letters or more var/regex/piglatin =
-new(\"\\\\b(\\\\l)(\\\\l+)\\\\b\", \"ig\") // group1 is the first
+new("\\\\b(\\\\l)(\\\\l+)\\\\b", "ig") // group1 is the first
 letter, and group2 is everything else proc/word2piglatin(match, group1,
-group2) // If the word starts with a vowel, just add \"ay\"
-if(vowels.Find(group1)) return \"\[match\]ay\" // If the word was
+group2) // If the word starts with a vowel, just add "ay"
+if(vowels.Find(group1)) return "[match]ay" // If the word was
 capitalized, capitalize the replacement if(group1 == uppertext(group1))
 group1 = lowertext(group1) group2 = uppertext(copytext(group2,1,2)) +
-lowertext(copytext(group2,2)) return \"\[group2\]\[group1\]ay\"
-mob/verb/PigSay(msg as text) msg = html_encode(msg) world \<\<
+lowertext(copytext(group2,2)) return "[group2][group1]ay"
+mob/verb/PigSay(msg as text) msg = html_encode(msg) world <<
 piglatin.Replace(msg, /proc/word2piglatin) 
 ```
 

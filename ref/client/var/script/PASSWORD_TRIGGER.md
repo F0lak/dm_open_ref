@@ -1,6 +1,6 @@
 # PASSWORD_TRIGGER (client script)
 **Format:**
-+   #define PASSWORD_TRIGGER \"assword:\"
++   #define PASSWORD_TRIGGER "assword:"
 
 
 This defines a special text *trigger* used to detect when the
@@ -11,4 +11,4 @@ defined as necessary.
 
 The example above is more robust than the
 more polite version because it works whether they capitalize the \'P\'
-or not\...
+or not...

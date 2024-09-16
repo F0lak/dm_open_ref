@@ -42,7 +42,7 @@ the Any macro, so that keyboard input doesn\'t queue up and lag behind.
 
 In the [command](/ref/skin/param/command.md)  that goes
 with this macro, `[[*]]` will be replaced with the name of the key or
-gamepad button that was pressed/released. (See \"Embedded Winget\" in
+gamepad button that was pressed/released. (See "Embedded Winget" in
 [client commands](/ref/skin/commands.md)  for more details on the
 `[[...]]` format.)
 ### Mapping {#mapping byondver="511"}
@@ -110,21 +110,21 @@ a mouse macro:
   `keys`                                                                                                                         Modifier keys currently held (`shift`, `ctrl`, `alt`), separated by commas.
   `over`                                                                                                                         Object the mouse is over in a drag/drop operation.
   `id`                                                                                                                           Control ID; in a drag-drop you should split this into `src.id` and `over.id`.
-  `icon`                                                                                                                         The icon offset (starting from 1,1 at the lower left) where the mouse action occurred.^\*^
-  `tile`                                                                                                                         The tile where the mouse action occurred, if relevant.^\*^
-  `vis`                                                                                                                          Pixel coordinates relative to the icon\'s position on screen (same as `icon` but without taking transform into account).^\*^
-  `screen_loc`                                                                                                                   The regular `screen_loc` cordinate string.^\*^
-  `screen`                                                                                                                       `screen_loc` coordinates but entirely in pixels starting at 0,0 from lower left.^\*^
-  `screen_tile`                                                                                                                  `screen_loc` coordinates but only the tile number starting at 1,1.^\*^
-  `screen_offset`                                                                                                                `screen_loc` coordinates but only the pixel offset from the tile, starting at 0,0.^\*^
-  `delta`                                                                                                                        Wheel changes in a mouse wheel command.^\*^
+  `icon`                                                                                                                         The icon offset (starting from 1,1 at the lower left) where the mouse action occurred.^*^
+  `tile`                                                                                                                         The tile where the mouse action occurred, if relevant.^*^
+  `vis`                                                                                                                          Pixel coordinates relative to the icon\'s position on screen (same as `icon` but without taking transform into account).^*^
+  `screen_loc`                                                                                                                   The regular `screen_loc` cordinate string.^*^
+  `screen`                                                                                                                       `screen_loc` coordinates but entirely in pixels starting at 0,0 from lower left.^*^
+  `screen_tile`                                                                                                                  `screen_loc` coordinates but only the tile number starting at 1,1.^*^
+  `screen_offset`                                                                                                                `screen_loc` coordinates but only the pixel offset from the tile, starting at 0,0.^*^
+  `delta`                                                                                                                        Wheel changes in a mouse wheel command.^*^
   `left`, `right`, `middle`                                                                                                      1 if this button is down or involved in this action, 0 otherwise
   `shift`, `ctrl`, `alt`                                                                                                         1 if this modifier key is held, 0 otherwise
   `link`                                                                                                                         1 if the mouse is over a maptext link, 0 otherwise
   `cell`                                                                                                                         Grid cell involved in a mouse action. In a drag/drop action, `src.cell` is the dragging cell and `over.cell` is the drop cell.
   `drag-cell`                                                                                                                    Alias for `src.cell`.
   `drop-cell`                                                                                                                    Alias for `over.cell`.
-  ^\*^ Coordinate values are comma-separated, but you can follow them with `.x` or `.y` to get the individual X and Y numbers.   
+  ^*^ Coordinate values are comma-separated, but you can follow them with `.x` or `.y` to get the individual X and Y numbers.   
 
 
 An example mouse macro command might look like this:
@@ -134,7 +134,7 @@ An example mouse macro command might look like this:
 And the verb to go with it looks like this: 
 ``` dm
 
-client // \"in src\" is the same as \"in usr.client\" here
+client // "in src" is the same as "in usr.client" here
 verb/my_mousedown_verb(object as anything in src, button as text, params
 as text) 
 ```
@@ -259,22 +259,22 @@ Previous track key
 **`Any`**
 A special macro that can run a command on press/release of any key or
 gamepad button. `UP` is the only modifier allowed. In the command,
-`[[*]]` is replaced with the key/button name.^\*^
-**`GamepadRaw`**^\*^
+`[[*]]` is replaced with the key/button name.^*^
+**`GamepadRaw`**^*^
 Captures raw input from a gamepad, without regard to the adjustments
 done by the Gamepad Setup dialog. In the command, `[[id]]` is replaced
-by the name of the button or axis changed (\"Button0\" through
-\"Button15\" and \"Axis0\" through \"Axis11\"), `[[value]]` is replaced
+by the name of the button or axis changed ("Button0" through
+"Button15" and "Axis0" through "Axis11"), `[[value]]` is replaced
 with the value of the button or axis, and `[[*]]` is equivalent to
 `[[id]] [[value]]`.
 
 
-^\*^ If no gamepad mappings are included in a game\'s
+^*^ If no gamepad mappings are included in a game\'s
 interface, the default mappings are used instead, which will map the
 Dpad buttons to the arrow keys. This will cause the Any macro to
 register both a gamepad directional button and the mapped key on the
 same press. If you plan on using macros to capture gamepad input, you
-may wish instead to map any one of the directional buttons to \"None\",
+may wish instead to map any one of the directional buttons to "None",
 which will override the default gamepad mappings completely.
 **Gamepad buttons**^†^ can use another gamepad button as a modifier (but
 not CTRL, SHIFT, ALT), and can be mapped to one or two keyboard keys or

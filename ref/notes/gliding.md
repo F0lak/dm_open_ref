@@ -14,7 +14,7 @@
 +   [fps var (client)](/ref/client/var/fps.md) 
 
 
-Gliding is a \"glitz\" effect applied by BYOND to cover up the
+Gliding is a "glitz" effect applied by BYOND to cover up the
 visual sins of tile-based movement, by making objects and the map appear
 to move smoothly from one tile to another instead of immediately
 jumping. It is also available to smooth over small jumps in pixel

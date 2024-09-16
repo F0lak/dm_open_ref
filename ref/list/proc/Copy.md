@@ -12,7 +12,7 @@
     copied.
 
 
-Copy list\[Start\] through list\[End-1\] into a new list. The
+Copy list[Start] through list[End-1] into a new list. The
 default end position of 0 stands for the position immediately after the
 end of the list, so by default the entire list is copied.
 

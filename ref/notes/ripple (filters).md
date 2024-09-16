@@ -2,7 +2,7 @@
 ###### BYOND Version 513
 
 Format:
-+   filter(type=\"ripple\", \...)
++   filter(type="ripple", ...)
 <!-- -->
 Args:
 +   x: Horiztonal position of ripple center, relative to image center

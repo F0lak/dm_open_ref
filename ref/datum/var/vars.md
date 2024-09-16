@@ -7,8 +7,8 @@ as an index into the list, the value of that variable is accessed.
 ### Example:
 
 ``` dm
- mob/verb/dump() var/V for(V in vars) usr \<\< \"\[V\] =
-\[vars\[V\]\]\" 
+ mob/verb/dump() var/V for(V in vars) usr << "[V] =
+[vars[V]]" 
 ```
  
 

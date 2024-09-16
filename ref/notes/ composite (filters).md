@@ -3,7 +3,7 @@
 
 <!-- -->
 Format:
-+   filter(type=\"layer\", \...)
++   filter(type="layer", ...)
 <!-- -->
 Args:
 +   x: Horizontal offset of second image (defaults to 0)

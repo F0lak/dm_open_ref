@@ -12,8 +12,8 @@ default for the second argument in [istype()](/ref/proc/istype.md) .
 ### Example:
 
 ``` dm
- proc/Factory(new_type) world.log \<\< \"Creating new
-\[new_type\]\" return new new_type() proc/CreateThing() // pass /thing
+ proc/Factory(new_type) world.log << "Creating new
+[new_type]" return new new_type() proc/CreateThing() // pass /thing
 to Factory var/thing/T = Factory(\_\_IMPLIED_TYPE\_\_) 
 ```
 

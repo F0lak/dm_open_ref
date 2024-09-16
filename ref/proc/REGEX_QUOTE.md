@@ -22,8 +22,8 @@ expression without fear of being treated as pattern instructions.
 ``` dm
  proc/FindWord(text, word) // The \\b pattern is a word
 break, to search for the word // on its own instead of as part of
-another word. var/regex/R = regex(\"\\\\b\[REGEX_QUOTE(word)\]\\b\",
-\"i\") // find the pattern in the text return R.Find(text) 
+another word. var/regex/R = regex("\\\\b[REGEX_QUOTE(word)]\\b",
+"i") // find the pattern in the text return R.Find(text) 
 ```
 
 

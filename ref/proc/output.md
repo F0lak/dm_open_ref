@@ -10,14 +10,14 @@
     default
 
 
-This is used in conjunction with the \<\< output operator to
+This is used in conjunction with the << output operator to
 send output to a particular control in the player\'s skin. If null is
 sent, the control will be cleared.
 ### Example:
 
 ``` dm
- usr \<\< output(\"Your score is \[score\].\",
-\"scorepane.output\") 
+ usr << output("Your score is [score].",
+"scorepane.output") 
 ```
  
 
@@ -32,7 +32,7 @@ can output directly to a specific grid cell, like so:
 ### Example:
 
 ``` dm
- usr \<\< output(\"Column 3, Row 2\", \"examplegrid:3,2\")
+ usr << output("Column 3, Row 2", "examplegrid:3,2")
 
 ```
  
@@ -40,13 +40,13 @@ can output directly to a specific grid cell, like so:
 For a browser control, the extra info is a
 JavaScript function. The format for sending a script to the browser
 control is `output("[params]","[control]:[scriptname]")` where
-\"\[params\]\" is a URL-encoded list of string arguments to the
+"[params]" is a URL-encoded list of string arguments to the
 javascript function, as formatted by
 [list2params()](/ref/proc/list2params.md).
 ### Example:
 
 ``` dm
- mob/Login() . = ..() usr \<\< output(\\ {\"
+ mob/Login() . = ..() usr << output(\\ {"
 ::: 
 ###### BYOND Version  proc
 
@@ -60,14 +60,14 @@ javascript function, as formatted by
     default
 
 
-This is used in conjunction with the \<\< output operator to
+This is used in conjunction with the << output operator to
 send output to a particular control in the player\'s skin. If null is
 sent, the control will be cleared.
 ### Example:
 
 ``` dm
- usr \<\< output(\"Your score is \[score\].\",
-\"scorepane.output\") 
+ usr << output("Your score is [score].",
+"scorepane.output") 
 ```
  
 
@@ -82,7 +82,7 @@ can output directly to a specific grid cell, like so:
 ### Example:
 
 ``` dm
- usr \<\< output(\"Column 3, Row 2\", \"examplegrid:3,2\")
+ usr << output("Column 3, Row 2", "examplegrid:3,2")
 
 ```
  
@@ -90,21 +90,21 @@ can output directly to a specific grid cell, like so:
 For a browser control, the extra info is a
 JavaScript function. The format for sending a script to the browser
 control is `output("[params]","[control]:[scriptname]")` where
-\"\[params\]\" is a URL-encoded list of string arguments to the
+"[params]" is a URL-encoded list of string arguments to the
 javascript function, as formatted by
 [list2params()](/ref/proc/list2params.md).
 ### Example:
 
 ``` dm
- mob/Login() . = ..() usr \<\< output(\\ {\"
+ mob/Login() . = ..() usr << output(\\ {"
 ::: {#foo}
 This text can change.
 :::
 
 
 And this can\'t.
-\, \":browser\"); #define LP(str) list2params(list(str))
-mob/verb/newtext(T as text) usr \<\< output(LP(T), \":browser:replace\")
+\, ":browser"); #define LP(str) list2params(list(str))
+mob/verb/newtext(T as text) usr << output(LP(T), ":browser:replace")
 
 ```
  
@@ -115,6 +115,6 @@ operations and flicker-free updates.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [winclone proc](/ref/proc/winclone.md) 
 > +   [winset proc](/ref/proc/winset.md) 

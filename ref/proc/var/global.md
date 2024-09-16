@@ -7,13 +7,13 @@ local or src-level variable has the same name.
 ### Example:
 
 ``` dm
- var/myvar = \"global\" mob verb/test() var/myvar =
-\"local\" usr \<\< myvar usr \<\< global.myvar 
+ var/myvar = "global" mob verb/test() var/myvar =
+"local" usr << myvar usr << global.myvar 
 ```
  
 
 This
-example outputs \"local\" and then \"global\".
+example outputs "local" and then "global".
 
 > [!TIP] 
 > **See also:**

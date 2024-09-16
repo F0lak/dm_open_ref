@@ -10,7 +10,7 @@
 +   0
 
 
-The \"fullness\" of this bar/slider, as a percentage.
+The "fullness" of this bar/slider, as a percentage.
 
 > [!TIP] 
 > **See also:**

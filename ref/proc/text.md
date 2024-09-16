@@ -15,17 +15,17 @@
 Complicated or lengthy embedded expressions in a text string
 can sometimes make the string difficult to read. In this case, one can
 use trailing arguments. The position in which the expression should be
-substituted should be marked with \[\] and the expression should then be
+substituted should be marked with [] and the expression should then be
 passed as an argument after the text string.
 ### Example:
 
 ``` dm
- usr \<\< text(\"You are \[\] leagues from
-home.\",sqrt(usr.x\*\*2 + usr.y\*\*2)) 
+ usr << text("You are [] leagues from
+home.",sqrt(usr.x**2 + usr.y**2)) 
 ```
 
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< operator](/ref/operator/%3c%3c.md) 
+> +   [<< operator](/ref/operator/%3c%3c.md) 
 > +   [macros (text)](/ref/DM/text/macros.md) <!-- -->

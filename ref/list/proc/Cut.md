@@ -9,7 +9,7 @@
     removed.
 
 
-Remove the elements between list\[Start\] and list\[End-1\],
+Remove the elements between list[Start] and list[End-1],
 decreasing the size of the list appropriately. The default end position
 of 0 stands for the position immediately after the end of the list, so
 by default the entire list is deleted.

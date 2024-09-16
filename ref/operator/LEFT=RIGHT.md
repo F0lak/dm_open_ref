@@ -1,8 +1,8 @@
-## \<=\> operator 
+## <=> operator 
 ###### BYOND Version 516
 
 **Format:**
-+   A \<=\> B
++   A <=> B
 <!-- -->
 **Returns:**
 +   -1 if A is less B; 1 if A is greater than B; 0 otherwise.
@@ -17,10 +17,10 @@ considered ambiguous.
 
 > [!TIP] 
 > **See also:**
-> +   [\< operator](/ref/operator/%3c.md) 
-> +   [\> operator](/ref/operator/%3e.md) 
-> +   [\<= operator](/ref/operator/%3c=.md) 
-> +   [\>= operator](/ref/operator/%3e=.md) 
+> +   [< operator](/ref/operator/%3c.md) 
+> +   [> operator](/ref/operator/%3e.md) 
+> +   [<= operator](/ref/operator/%3c=.md) 
+> +   [>= operator](/ref/operator/%3e=.md) 
 > +   [== operator](/ref/operator/==.md) 
 > +   [operators](/ref/operator.md) 
 > +   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->

@@ -9,7 +9,7 @@ path. The default value of null is for unregistered games. Registered
 games (don\'t worry, it\'s free!) have their own hub page showing a
 brief description of the game, the author, an optional installation
 package, and links to online games. The hub path is a string of the form
-\"YourName.GameName\" and can be found in your [hub
+"YourName.GameName" and can be found in your [hub
 console](https://secure.byond.com/members/?command=edit_hub).
 
 
@@ -31,8 +31,8 @@ you can simply set the visibility to 0.
 ### Example:
 
 ``` dm
- world hub = \"Dan.PipeStock\" //registered hub path
-mob/verb/start_game() world.visibility = 0 //\... 
+ world hub = "Dan.PipeStock" //registered hub path
+mob/verb/start_game() world.visibility = 0 //... 
 ```
  
 

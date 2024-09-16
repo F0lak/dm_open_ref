@@ -9,7 +9,7 @@
 
 
 Leave blank to use the default font. This can be used for
-CSS-style fallback fonts, e.g. \"Arial,Helvetica\". 
+CSS-style fallback fonts, e.g. "Arial,Helvetica". 
 
 You can
 include fonts in your resource file, making them available to the

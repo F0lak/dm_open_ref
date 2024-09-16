@@ -2,7 +2,7 @@
 ###### BYOND Version 514
 
 Format:
-+   filter(type=\"bloom\", \...)
++   filter(type="bloom", ...)
 <!-- -->
 Args:
 +   threshold: Color threshold for bloom

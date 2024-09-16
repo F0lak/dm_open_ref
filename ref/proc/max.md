@@ -1,14 +1,14 @@
 ## max proc
 
 **Format:**
-+   max(A,B,C,\...)
++   max(A,B,C,...)
 <!-- -->
 **Returns:**
 +   the maximum of the arguments.
 ### Example:
 
 ``` dm
- usr \<\< max(1,2,3) 
+ usr << max(1,2,3) 
 ```
  
 

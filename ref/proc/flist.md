@@ -9,13 +9,13 @@
 **Returns:**
 +   A list of files contained in the specified directory and whose names
     begin with the specified text. The names of sub-directories are
-    listed too, and are marked by a trailing \"/\".
+    listed too, and are marked by a trailing "/".
 
 
-The path is of the form \"dir1/dir2/\.../file\". Only files
-beginning with the \"file\" part are listed, so be sure to end a
-directory name with \"/\" if you wish to see its contents. Otherwise you
-will just get that directory name back with a \"/\" appended.
+The path is of the form "dir1/dir2/.../file". Only files
+beginning with the "file" part are listed, so be sure to end a
+directory name with "/" if you wish to see its contents. Otherwise you
+will just get that directory name back with a "/" appended.
 
 
 Only files and sub-directories directly contained in the

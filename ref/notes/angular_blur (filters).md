@@ -2,7 +2,7 @@
 ###### BYOND Version 513
 
 Format:
-+   filter(type=\"angular_blur\", \...)
++   filter(type="angular_blur", ...)
 <!-- -->
 Args:
 +   x: Horizontal center of effect, in pixels, relative to image center
@@ -12,7 +12,7 @@ Args:
 
 Blurs the image by a certain amount in a circular formation, as
 if the image is spinning. The size of the blur can roughly be thought of
-in \"degrees\" worth of blur. As the distance from the center increases,
+in "degrees" worth of blur. As the distance from the center increases,
 the blur becomes more noticeable since the same amount of angular motion
 has to travel farther along a circle. 
 

@@ -22,19 +22,19 @@ of Haystack and Needle. The case-insensitive version is findtext().
 ### Example:
 
 ``` dm
- if(findtextEx(\"Hi There\",\"there\")==0) world \<\< \"Not
-found!\" else world \<\< \"Found!\" 
+ if(findtextEx("Hi There","there")==0) world << "Not
+found!" else world << "Found!" 
 ```
  
 
 This outputs
-\"Not found!\", since \"there\" is not a part of the string \"Hi
-There\", taking into account case. 
+"Not found!", since "there" is not a part of the string "Hi
+There", taking into account case. 
 
 If the start or end position
 is negative, the position is counted backwards from the end of the
-string. E.g., findtextEx(\"Banana\", \"na\", -3) starts three characters
-from the end and only searches the final \"ana\". 
+string. E.g., findtextEx("Banana", "na", -3) starts three characters
+from the end and only searches the final "ana". 
 
 Note: In
 strings containing non-ASCII characters, byte position and character

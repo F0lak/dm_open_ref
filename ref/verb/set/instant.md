@@ -4,16 +4,16 @@
 +   set instant = Setting
 <!-- -->
 **Args:**
-+   Setting: 1 for \"instant\" verbs; 0 otherwise.
++   Setting: 1 for "instant" verbs; 0 otherwise.
 <!-- -->
 **Default value:**
 +   0
 
 
 Normally a player can only call one verb per tick, but they can
-call any number of \"instant\" verbs in the same tick. This setting is
+call any number of "instant" verbs in the same tick. This setting is
 useful for commands called by the game\'s interface, or for more
-responsive controls like for instance the use of \"combos\" in fighting
+responsive controls like for instance the use of "combos" in fighting
 games. 
 
 Verbs with the instant setting can be used on the same

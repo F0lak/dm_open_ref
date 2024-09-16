@@ -21,6 +21,6 @@ which parameters are universal, and each individual control type lists
 additional parameters that apply to that type specifically.
 
 
-Note: In any parameter\'s \"Applies to\" section, \"all\"
+Note: In any parameter\'s "Applies to" section, "all"
 refers to positionable controls only, not Macro or Menu controls. Macro
 and Menu will be listed separately if supported.

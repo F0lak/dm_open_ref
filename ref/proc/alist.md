@@ -3,7 +3,7 @@
 
 <!-- -->
 **Format:**
-+   alist(A=a,B=b,C=c,\...)
++   alist(A=a,B=b,C=c,...)
 <!-- -->
 **Returns:**
 +   A new associative list with contents (keys) A, B, C, and associated
@@ -16,7 +16,7 @@
 
 Creates a strictly associative list with key,value pairs. This
 is different from an [ordinary list](/ref/list.md)  in several respects.
--   \"Keys\" can be numbers. This means list items can\'t be accessed by
+-   "Keys" can be numbers. This means list items can\'t be accessed by
     a numerical index.
 -   Keys can\'t be repeated in the list, and always have an associated
     value (even if it\'s just null).
@@ -34,7 +34,7 @@ satisfy all the requirements for variable names, this may also be
 written in a convenient short-hand without the double quotes:
 
 ``` dm
- var/alist/lst = alist(player = \"James Byond\", score =
+ var/alist/lst = alist(player = "James Byond", score =
 2000) 
 ```
  

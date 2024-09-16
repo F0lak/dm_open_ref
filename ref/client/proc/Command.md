@@ -18,7 +18,7 @@ those commands will end up here only if there is no applicable verb.
 
 
 Note that text received by this proc is not interpreted
-beforehand, so quotes \" and backslashes \\ should come through
+beforehand, so quotes " and backslashes \\ should come through
 unaltered. 
 
 This proc is primarily useful if you want to handle

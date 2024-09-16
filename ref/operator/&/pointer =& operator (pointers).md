@@ -18,9 +18,9 @@ the pointer, or even to assign a value to it.
 ### Example:
 
 ``` dm
- var/a=3, b=4 var/p = &a world \<\< \*p // same as world
-\<\< a \*p = 5 // same as a = 5 var/list/L = list(1, 2, 3) var/list/pl =
-&L\[2\] \*pl \*= 10 // same as L\[2\] \*= 10 
+ var/a=3, b=4 var/p = &a world << *p // same as world
+<< a *p = 5 // same as a = 5 var/list/L = list(1, 2, 3) var/list/pl =
+&L[2] *pl *= 10 // same as L[2] *= 10 
 ```
  
 
@@ -59,6 +59,6 @@ pointers to proc vars were created, they belong to the original proc
 
 > [!TIP] 
 > **See also:**
-> +   [\* operator (pointers)](/ref/operator/*/prefix.md) 
+> +   [* operator (pointers)](/ref/operator/*/prefix.md) 
 > +   [operators](/ref/operator.md) 
 > +   [ispointer proc](/ref/proc/ispointer.md) 

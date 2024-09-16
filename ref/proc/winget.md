@@ -28,11 +28,11 @@ by separating them with semicolons, like `"button1;button2"`.
 ### Example:
 
 ``` dm
- usr \<\< \"mainwindow.is-visible = \[winget(usr,
-\"mainwindow\", \"is-visible\")\]\" usr \<\< \"\\nOther params:\" usr
-\<\< winget(usr, \"mainwindow\", \"pos;is-maximized\") usr \<\<
-\"\\nButtons:\" usr \<\< winget(usr, \"button1;button2\",
-\"is-checked\") 
+ usr << "mainwindow.is-visible = [winget(usr,
+"mainwindow", "is-visible")]" usr << "\\nOther params:" usr
+<< winget(usr, "mainwindow", "pos;is-maximized") usr <<
+"\\nButtons:" usr << winget(usr, "button1;button2",
+"is-checked") 
 ```
  
 

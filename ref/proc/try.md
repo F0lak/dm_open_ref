@@ -15,10 +15,10 @@ error.
 ### Example:
 
 ``` dm
- var/a = 2 try a += \"Hello\" // will throw a type mismatch
+ var/a = 2 try a += "Hello" // will throw a type mismatch
 error catch(var/exception/e) // file and line info is available if you
-enable debugging world.log \<\< \"\[e\] on \[e.file\]:\[e.line\]\" world
-\<\< \"a is \[a\]\" 
+enable debugging world.log << "[e] on [e.file]:[e.line]" world
+<< "a is [a]" 
 ```
  
 

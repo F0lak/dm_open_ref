@@ -29,8 +29,8 @@
 ### Example:
 
 ``` dm
- mob/verb/shout(Msg as text) world \<\< Msg
-world.Export(\"\[ShadowWorld\]?shout:\[Msg\]\") 
+ mob/verb/shout(Msg as text) world << Msg
+world.Export("[ShadowWorld]?shout:[Msg]") 
 ```
  
 
@@ -43,18 +43,18 @@ be manually set or could be the result of calling startup().
 It
 is also possible to access an HTTP server via world.Export(). Simply use
 an http address such as: `http://www.byond.com`. This returns a list of
-HTTP header parameters as well as the extra values \"STATUS\" and
-\"CONTENT\". The value associated with the \"STATUS\" entry is the HTTP
+HTTP header parameters as well as the extra values "STATUS" and
+"CONTENT". The value associated with the "STATUS" entry is the HTTP
 status code returned by the web server (as text). The value associated
-with the \"CONTENT\" entry is the requested resource.
+with the "CONTENT" entry is the requested resource.
 ### Example:
 
 ``` dm
- mob/verb/test() var/http\[\] =
-world.Export(\"http://www.byond.com\") if(!http) usr \<\< \"Failed to
-connect.\" return usr \<\< \"HTTP Header:\" for(var/V in http) usr \<\<
-\"\[V\] = \[http\[V\]\]\" usr \<\< \"\\n\" var/F = http\[\"CONTENT\"\]
-if(F) usr \<\< html_encode(file2text(F)) 
+ mob/verb/test() var/http[] =
+world.Export("http://www.byond.com") if(!http) usr << "Failed to
+connect." return usr << "HTTP Header:" for(var/V in http) usr <<
+"[V] = [http[V]]" usr << "\\n" var/F = http["CONTENT"]
+if(F) usr << html_encode(file2text(F)) 
 ```
  
 

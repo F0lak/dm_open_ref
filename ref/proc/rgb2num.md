@@ -20,8 +20,8 @@ Parses a color into a list with 3 or 4 component values; the
 ### Example:
 
 ``` dm
- var/list/RGB = rgb2num(\"#ff8000\") src \<\< RGB\[1\] //
-red (255) src \<\< RGB\[2\] // green (128) src \<\< RGB\[3\] // blue (0)
+ var/list/RGB = rgb2num("#ff8000") src << RGB[1] //
+red (255) src << RGB[2] // green (128) src << RGB[3] // blue (0)
 
 ```
  
@@ -31,9 +31,9 @@ convert a color into a different format.
 ### Example:
 
 ``` dm
- var/list/HSL = rgb2num(\"#5af\", COLORSPACE_HSL) src \<\<
-HSL\[1\] // hue (210) src \<\< HSL\[2\] // saturation (100) src \<\<
-HSL\[3\] // luminance (66.6667) 
+ var/list/HSL = rgb2num("#5af", COLORSPACE_HSL) src <<
+HSL[1] // hue (210) src << HSL[2] // saturation (100) src <<
+HSL[3] // luminance (66.6667) 
 ```
 
 

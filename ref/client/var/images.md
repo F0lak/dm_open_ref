@@ -16,7 +16,7 @@ display
  Displaying the image can also be achieved like this:
 
 ``` dm
- usr \<\< I 
+ usr << I 
 ```
 
 

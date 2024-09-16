@@ -16,7 +16,7 @@ toward 0 to an integer.
 ### Example:
 
 ``` dm
- usr \<\< trunc(1.45) // outputs 1 usr \<\< trunc(-1.45) //
+ usr << trunc(1.45) // outputs 1 usr << trunc(-1.45) //
 outputs -1 
 ```
 

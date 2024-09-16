@@ -20,5 +20,5 @@ now out of bounds.
 
 > [!TIP] 
 > **See also:**
-> +   [\* operator (pointers)](/ref/operator/*.md) 
+> +   [* operator (pointers)](/ref/operator/*.md) 
 > +   [& operator (pointers)](/ref/operator/&.md) <!-- -->

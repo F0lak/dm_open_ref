@@ -1,7 +1,7 @@
 ## link proc
 
 **Format:**
-+   O \<\< link(url)
++   O << link(url)
 
 
 This causes the recipient (O) to view the specified url. The
@@ -24,15 +24,15 @@ processes it.
 ### Example:
 
 ``` dm
- usr \<\< link(\"byond://byond.com:6000\") //BYOND address
-usr \<\< link(\"http://www.byond.com\") //web address usr \<\<
-link(\"?myTopic\") //topic 
+ usr << link("byond://byond.com:6000") //BYOND address
+usr << link("http://www.byond.com") //web address usr <<
+link("?myTopic") //topic 
 ```
 
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [Topic proc (client)](/ref/client/proc/Topic.md) 
 > +   [file proc](/ref/proc/file.md) 
 > +   [run proc](/ref/proc/run.md) <!-- -->

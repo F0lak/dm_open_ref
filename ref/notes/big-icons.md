@@ -9,11 +9,11 @@ icon of the normal tile size, use the TILED_ICON_MAP value for
 map_format instead. 
 
 When you use an icon of non-standard size
-on an atom, the icon is \"anchored\" to the southwest corner of the
+on an atom, the icon is "anchored" to the southwest corner of the
 atom. If you are using a top-down view (world.map_format=TOPDOWN_MAP),
 the icon will appear to spread out further to the east and north. In an
 isometric map (world.map_format=ISOMETRIC_MAP), the icon will cover
-additional tiles north and east as well. The \"footprint\" of an
+additional tiles north and east as well. The "footprint" of an
 isometric icon\--the actual map tiles it covers\--is always square, so
 if your tile size is 64x64 and you use a 128x64 icon, the 128-pixel
 width means the icon will cover a 2x2 section of map tiles. 
@@ -34,15 +34,15 @@ same layer. In isometric mode this is about the same, except that the
 layer isn\'t that important\--anything in the way will just be moved
 back behind the big icon. 
 
-Note: Big overlays will not \"pull
-forward\" on their own. If the main atom uses a single-tile icon, a big
+Note: Big overlays will not "pull
+forward" on their own. If the main atom uses a single-tile icon, a big
 overlay attached to it will not try to draw in front of other icons on
 the same layer. This is so that name labels, health bar overlays, etc.
 will not cause any odd behavior. To be safe, you should always specify a
 layer when adding an overlay. 
 
 In isometric mode, layering is
-affected by the \"distance\" between the atom and the viewer, so putting
+affected by the "distance" between the atom and the viewer, so putting
 a regular-sized icon and part of a big icon on the same tile could cause
 layering oddities. Tiles that are covered by a big icon will tend to be
 drawn behind the big icon as mentioned above. For this reason, any atoms

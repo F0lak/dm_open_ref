@@ -1,8 +1,8 @@
-## \<\< operator (savefile)
+## << operator (savefile)
 
 **Format:**
-+   F \<\< Val
-+   F\[\"Path\"\] \<\< Val
++   F << Val
++   F["Path"] << Val
 
 
 Writes Val to a buffer. If Path is not specified, the current
@@ -15,7 +15,7 @@ overwritten.
 If Val is an object, a separate directory will be
 created for the object and the object\'s Write proc will be called. In
 addition to data that may be written by the Write() proc, the type of
-the object is stored in a buffer called \"type\". In the case of turfs,
+the object is stored in a buffer called "type". In the case of turfs,
 the location of the turf is also recorded so that it can be recreated at
 the same position. All other objects must be repositioned after the
 object is recreated (like in the object\'s Read() proc). 
@@ -32,6 +32,6 @@ when objects contain references back to themselves.
 
 > [!TIP] 
 > **See also:**
-> +   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [>> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [Write proc (datum)](/ref/datum/proc/Write.md) <!-- -->

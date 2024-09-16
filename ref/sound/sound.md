@@ -6,7 +6,7 @@ A `/sound` datum is created by the `sound()` proc or by
 When you\'re ready to play the sound, just send it to a player like so:
 
 ``` dm
- var/sound/S = sound(\'bubbles.wav\') usr \<\< S 
+ var/sound/S = sound(\'bubbles.wav\') usr << S 
 ```
 
 

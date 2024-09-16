@@ -1,7 +1,7 @@
 # Rays filter 
 ###### BYOND Version 513
 Format:
-+   filter(type=\"rays\", \...)
++   filter(type="rays", ...)
 <!-- -->
 Args:
 +   x: Horiztonal position of ray center, relative to image center
@@ -10,7 +10,7 @@ Args:
     (defaults to 0)
 +   size: Maximum length of rays (defaults to 1/2 tile width)
 +   color: Ray color (defaults to white)
-+   offset: \"Time\" offset of rays (defaults to 0, repeats after 1000)
++   offset: "Time" offset of rays (defaults to 0, repeats after 1000)
 +   density: Higher values mean more, narrower rays (defaults to 10,
     must be whole number)
 +   threshold: Low-end cutoff for ray strength (defaults to 0.5, can be
@@ -23,7 +23,7 @@ Args:
 Draws random rays that radiate outward from a center point.
 (That point may be outside of the image.) As they move outward, their
 alpha value diminishes linearly. These are meant to be animated. The
-`offset` value determines the \"time\", where every jump of +1 can be a
+`offset` value determines the "time", where every jump of +1 can be a
 very different set of rays, and every 1000 units this filter will
 repeat. 
 

@@ -1,11 +1,11 @@
 ## gender var (atom)
 
 **Default value:**
-+   \"neuter\"
++   "neuter"
 
 
 This sets the object\'s gender. This influences text macros
-like `\he`, which may expand to \"it\", \"he\", \"she\", or \"they\".
+like `\he`, which may expand to "it", "he", "she", or "they".
 Valid values are: 
 ``` dm
  "neuter"

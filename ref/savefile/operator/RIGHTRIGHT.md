@@ -1,8 +1,8 @@
-## \>\> operator (savefile)
+## >> operator (savefile)
 
 **Format:**
-+   F \>\> Var
-+   F\[\"Path\"\] \>\> Var
++   F >> Var
++   F["Path"] >> Var
 
 
 Reads a value from a buffer into a variable. If Path is not
@@ -34,6 +34,6 @@ and create savefile object myfile = new/savefile(myfile)
 
 > [!TIP] 
 > **See also:**
-> +   [\>\> input operator](/ref/operator/%3e%3e/input.md) 
-> +   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+> +   [>> input operator](/ref/operator/%3e%3e/input.md) 
+> +   [<< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
 > +   [Read proc (datum)](/ref/datum/proc/Read.md) <!-- -->

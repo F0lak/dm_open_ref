@@ -3,7 +3,7 @@
 
 <!-- -->
 Format:
-+   filter(type=\"motion_blur\", \...)
++   filter(type="motion_blur", ...)
 <!-- -->
 Args:
 +   x: Blur vector on the X axis (defaults to 0)

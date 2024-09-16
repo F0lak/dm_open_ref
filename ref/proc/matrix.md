@@ -25,7 +25,7 @@
 If no arguments are provided, a new default (identity) matrix
 is created. 
 
-There are also several \"shortcut\" matrix calls
+There are also several "shortcut" matrix calls
 that can be made:
 matrix(x, y, MATRIX_SCALE)\
 matrix(n, MATRIX_SCALE)

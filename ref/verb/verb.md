@@ -5,17 +5,17 @@ Verbs may be attached to mobs, objs, turfs, and areas. Players
 can then use them as commands if they have access to the source.
 
 
-Verbs are fundamentally the same \"type\" as procs, so their
+Verbs are fundamentally the same "type" as procs, so their
 vars are the same.
 ### Example:
 
 ``` dm
- mob/verb/poof() world \<\< \"POOF!\" 
+ mob/verb/poof() world << "POOF!" 
 ```
 
 
 
-Whenever a player in the world types the command \"poof\", this
+Whenever a player in the world types the command "poof", this
 verb will be invoked. 
 
 In addition to the normal access control
@@ -61,8 +61,8 @@ in manipulating the verb by simply moving the object around.
 The use of an implicit verb
 source in this example gives the user access to the kill verb without
 having to specify the source scroll as long as the scroll exists in the
-user\'s inventory. In other words, the player types \"kill rat\" rather
-than \"kill kill rat\".
+user\'s inventory. In other words, the player types "kill rat" rather
+than "kill kill rat".
 
 > [!TIP] 
 > **See also:**

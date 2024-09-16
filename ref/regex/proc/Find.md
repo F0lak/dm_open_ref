@@ -15,7 +15,7 @@
     end. The actual match is allowed to extend past End.
 
 
-Finds the regular expression pattern within the \"haystack\"
+Finds the regular expression pattern within the "haystack"
 text. The following vars are set by the match:
 -   text: The text that was searched.
 -   index: The index where the match was found (same as the return
@@ -23,12 +23,12 @@ text. The following vars are set by the match:
 -   match: The actual matched text
 -   group: If the expression contains capturing groups with the ( )
     parentheses operator, this is a list that holds the text found in
-    those groups. group\[1\] is the first group, and so on.
--   next: If the \"g\" flag was used to create thie expression, this is
+    those groups. group[1] is the first group, and so on.
+-   next: If the "g" flag was used to create thie expression, this is
     the next index to begin searching.
 
 
-In a global expression (using the \"g\" flag), Find() can be
+In a global expression (using the "g" flag), Find() can be
 called repeatedly on the same piece of text and the Start position will
 be advanced automatically unless you specify it. 
 

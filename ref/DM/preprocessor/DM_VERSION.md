@@ -8,7 +8,7 @@ not compile in older compilers.
 ### Example:
 
 ``` dm
- #if DM_VERSION \< 230 #error This compiler is too far out
+ #if DM_VERSION < 230 #error This compiler is too far out
 of date! #endif 
 ```
  

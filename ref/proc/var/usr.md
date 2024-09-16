@@ -8,13 +8,13 @@ the current proc.
 ### Example:
 
 ``` dm
- obj/bread verb/eat() world \<\< \"\[usr\] eats \[src\]\"
+ obj/bread verb/eat() world << "[usr] eats [src]"
 
 ```
  
 
-If a player named \"Bob\" calls \"eat bread\", the
-output will be \"Bob eats the bread.\" 
+If a player named "Bob" calls "eat bread", the
+output will be "Bob eats the bread." 
 
 Essentially, `usr` is an
 implicit parameter that is passed to every proc or verb. Each procedure

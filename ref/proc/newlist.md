@@ -1,7 +1,7 @@
 ## newlist proc
 
 **Format:**
-+   newlist(A,B,C,\...)
++   newlist(A,B,C,...)
 <!-- -->
 **Returns:**
 +   A list of new objects, just as though you had done
@@ -27,12 +27,12 @@ particular type you are creating.
 
 ``` dm
  mob/contents = newlist( /obj/scroll/readme { name =
-\"Introduction\" desc = \"The fate of Bracolia depends on you \...\" } )
+"Introduction" desc = "The fate of Bracolia depends on you ..." } )
 
 ```
  
 
-This is the most common use of \"modified types\",
+This is the most common use of "modified types",
 but it is not specific to the newlist instruction. Anywhere a type value
 may be used in DM, it may be followed by a list of initializations. The
 general syntax for a modified types is: 

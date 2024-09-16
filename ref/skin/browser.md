@@ -25,7 +25,7 @@ the window name you specify for the popup is used for the name of a new
 there will be a new browser control simply called `browser`. 
 
 If
-you want to interact with the new browser, its full \"decorated\"
+you want to interact with the new browser, its full "decorated"
 [id](/ref/skin/param/id.md)  is *`windowname`*`.browser`.
 ### Running JavaScript from DM
 
@@ -37,9 +37,9 @@ function in the document displayed within that browser.
 ### Example:
 
 ``` dm
- var/list/info = list(\"name\"=\"fridge\", \"power\"=12) //
-send {\"name\":\"fridge\",\"power\":12} to a JavaScript function usr
-\<\< output(url_encode(json_encode(info)), \"mybrowser:myJSfunction\")
+ var/list/info = list("name"="fridge", "power"=12) //
+send {"name":"fridge","power":12} to a JavaScript function usr
+<< output(url_encode(json_encode(info)), "mybrowser:myJSfunction")
 
 ```
  

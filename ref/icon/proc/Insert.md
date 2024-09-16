@@ -29,31 +29,31 @@ direction for animation frame 3.
 
 ``` dm
  // start with a non-animated arrow icon var/icon/I =
-new(\'arrow.dmi\') // make a new state called \"blink\" var/icon/J =
-new(\'arrow.dmi\') I.Insert(J, \"blink\", delay=-1) // set rewind flag
+new(\'arrow.dmi\') // make a new state called "blink" var/icon/J =
+new(\'arrow.dmi\') I.Insert(J, "blink", delay=-1) // set rewind flag
 // create darker shades of the arrow var/n = 2 for(var/light=9,
-light\>=5, light\--) J = new(\'arrow.dmi\') J.SetIntensity(light/10)
-I.Insert(J, \"blink\", frame=n++) // congratulations, you have a
+light>=5, light\--) J = new(\'arrow.dmi\') J.SetIntensity(light/10)
+I.Insert(J, "blink", frame=n++) // congratulations, you have a
 pulsating arrow icon = I 
 ```
  
 
 The icon resulting from
 this example has two states: The original arrow, and a new state called
-\"blink\" that pulsates between full and ½ luminance. To use the
-blinking state after that, set the atom\'s icon_state to \"blink\".
+"blink" that pulsates between full and ½ luminance. To use the
+blinking state after that, set the atom\'s icon_state to "blink".
 
 
 (Note for animations: When building an animated icon_state from
 scratch, you can only add 16 new animation frames at a time; i.e.,
-frame\<=total_frames+16. Higher values for frame will be ignored. This
+frame<=total_frames+16. Higher values for frame will be ignored. This
 is a safety precaution.) 
 
 If you insert an icon of a different
 size, the src icon will be resized to match the size of new_icon. (The
 only exception is if you are using the TILED_ICON_MAP map_format, and
 new_icon is a single tile being inserted as a chunk into a larger icon.
-If icon_state, such as \"2,0\" or \"open 0,0\", already exists in src as
+If icon_state, such as "2,0" or "open 0,0", already exists in src as
 one of its smaller pieces, then new_icon will be inserted in its place.)
 
 

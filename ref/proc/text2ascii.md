@@ -19,8 +19,8 @@ ascii representation.
 ### Example:
 
 ``` dm
- world \<\< text2ascii(\"A\") // = 65 world \<\<
-text2ascii(\"HAPPY\",2) // = 65 
+ world << text2ascii("A") // = 65 world <<
+text2ascii("HAPPY",2) // = 65 
 ```
  
 

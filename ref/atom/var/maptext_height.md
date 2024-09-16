@@ -8,7 +8,7 @@
 This is the height of the text shown in the maptext var. The
 default value depends on world.icon_size and world.map_format. In a
 topdown (default) or tiled map_format, the icon height is used. In other
-map views, tile \"footprints\" are square and height is irrelevant, so
+map views, tile "footprints" are square and height is irrelevant, so
 the default will be the icon width instead.)
 
 > [!TIP] 

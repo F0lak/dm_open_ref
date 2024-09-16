@@ -17,11 +17,11 @@ because it transforms four different numbers instead of two, is 5x5.
 In easier-to-understand terms, this is how the result is
 calculated: 
 ``` dm
- new_red = red \* rr + green \* gr + blue \*
-br + alpha \* ar + 255 \* cr new_green = red \* rg + green \* gg + blue
-\* bg + alpha \* ag + 255 \* cg new_blue = red \* rb + green \* gb +
-blue \* bb + alpha \* ab + 255 \* cb new_alpha = red \* ra + green \*
-ga + blue \* ba + alpha \* aa + 255 \* ca 
+ new_red = red * rr + green * gr + blue *
+br + alpha * ar + 255 * cr new_green = red * rg + green * gg + blue
+* bg + alpha * ag + 255 * cg new_blue = red * rb + green * gb +
+blue * bb + alpha * ab + 255 * cb new_alpha = red * ra + green *
+ga + blue * ba + alpha * aa + 255 * ca 
 ```
  
 

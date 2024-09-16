@@ -6,8 +6,8 @@
 
 This is the tile size that will be used as a default for icons
 in the world. It can be set to a single number that represents both the
-width and height, or you can use a format like \"\[width\]x\[height\]\"
-(such as \"16x48\") to specify width and height separately.
+width and height, or you can use a format like "[width]x[height]"
+(such as "16x48") to specify width and height separately.
 
 
 This value affects several calculations, including icon

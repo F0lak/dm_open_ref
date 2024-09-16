@@ -40,8 +40,8 @@ and step_y, starting at a value of 1. The world x and y for any tile and
 step combo can be calculated like so (if for any reason you needed to):
 
 ``` dm
- world_x = (tile_x - 1) \* pixels_per_x_tile + step_x + 1
-world_y = (tile_y - 1) \* pixels_per_y_tile + step_y + 1 
+ world_x = (tile_x - 1) * pixels_per_x_tile + step_x + 1
+world_y = (tile_y - 1) * pixels_per_y_tile + step_y + 1 
 ```
 
 

@@ -6,12 +6,12 @@ can turn on background processing. This will cause it to periodically
 sleep for long enough to allow other events to be processed.
 
 
-The following example is a typical \"ticker\" procedure. It
+The following example is a typical "ticker" procedure. It
 spawns off an infinite loop which does some work and then sleeps before
 iterating again. By running this in the background, you ensure that the
 work being done does not create large delays. You could achieve a
 similar thing by sprinkling calls to sleep(0) or sleep(-1) in the
-\"working\" part of the loop.
+"working" part of the loop.
 ### Example
 
 ``` dm

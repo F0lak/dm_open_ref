@@ -7,16 +7,16 @@ with only a few exception called primitives. That means that the
 variables and procedures of /datum are inherited by almost all other
 types of objects. 
 
-When you define a new \"top level\" object,
+When you define a new "top level" object,
 if you do not specify a parent_type, it defaults to /datum.
 ### Example:
 
 ``` dm
  datum //definitions to be shared by all object types
-proc/DebugMe() world.log \<\< \"/datum properties:\" world.log \<\<
-\"type: \[type\]\" world.log \<\< \"parent_type: \[parent_type\]\"
-return ..() MyType var myvar = \"test\" DebugMe() world.log \<\<
-\"/MyType properties:\" world.log \<\< \"myvar: \[myvar\]\" return ..()
+proc/DebugMe() world.log << "/datum properties:" world.log <<
+"type: [type]" world.log << "parent_type: [parent_type]"
+return ..() MyType var myvar = "test" DebugMe() world.log <<
+"/MyType properties:" world.log << "myvar: [myvar]" return ..()
 //this calls /datum/proc/DebugMe() 
 ```
 

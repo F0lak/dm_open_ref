@@ -1,7 +1,7 @@
 ## Add proc (list)
 
 **Format:**
-+   list.Add(Item1,Item2,\...)
++   list.Add(Item1,Item2,...)
 <!-- -->
 **Args:**
 +   One or more items to add to the list.

@@ -1,7 +1,7 @@
 ## Insert proc (list)
 
 **Format:**
-+   list.Insert(Index,Item1,Item2\...)
++   list.Insert(Index,Item1,Item2...)
 <!-- -->
 **Returns:**
 +   The index following the inserted items.
@@ -10,7 +10,7 @@
 +   Index: The index where the new item will be inserted. Any value
     already at that index will be pushed forward.
 +   Item1: A value or list of values to insert.
-+   Item2\...: (optional) Additional items to insert, immediately after
++   Item2...: (optional) Additional items to insert, immediately after
     the previous item(s).
 
 

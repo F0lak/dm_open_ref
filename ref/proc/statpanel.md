@@ -23,8 +23,8 @@ a stat line is appended to Panel.
 ### Example:
 
 ``` dm
- mob/Stat() stat(\"description\",src.desc) if(src == usr)
-statpanel(\"inventory\",src.contents) 
+ mob/Stat() stat("description",src.desc) if(src == usr)
+statpanel("inventory",src.contents) 
 ```
  
 

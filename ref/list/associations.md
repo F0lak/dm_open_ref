@@ -8,13 +8,13 @@ list.
 ### Example:
 
 ``` dm
- var/params\[0\] params\[\"player\"\] = \"James Byond\"
-params\[\"score\"\] = 2000 //List now contains (\"player\",\"score\")
-//These are associated with (\"James Byond\",2000) usr \<\< \"Looping
-through list items:\" var/p for(p in params) usr \<\< \"\[p\] =
-\[params\[p\]\]\" usr \<\< \"Looping through array indices:\" var/i
-for(i=1,i\<=params.len,i++) p = params\[i\] usr \<\< \"\[p\] =
-\[params\[p\]\]\" 
+ var/params[0] params["player"] = "James Byond"
+params["score"] = 2000 //List now contains ("player","score")
+//These are associated with ("James Byond",2000) usr << "Looping
+through list items:" var/p for(p in params) usr << "[p] =
+[params[p]]" usr << "Looping through array indices:" var/i
+for(i=1,i<=params.len,i++) p = params[i] usr << "[p] =
+[params[p]]" 
 ```
  
 
@@ -49,8 +49,8 @@ associative lists.
 ### Example:
 
 ``` dm
- var/list/lst = list(\"player\" = \"James Byond\",
-\"score\" = 2000) 
+ var/list/lst = list("player" = "James Byond",
+"score" = 2000) 
 ```
  
 
@@ -59,7 +59,7 @@ text strings that satisfy all the requirements for variable names, this
 may also be written in a convenient short-hand: 
 ``` dm
 
-var/list/lst = list(player = \"James Byond\", score = 2000) 
+var/list/lst = list(player = "James Byond", score = 2000) 
 ```
 
 
@@ -69,8 +69,8 @@ arguments](/ref/proc/arguments/named.md) .
 
 The [`alist`
 proc](/ref/proc/alist.md) creates lists that are *strictly* associative. This
-means that list items are treated as \"keys\" in key,value pairs. Unlike
-a regular list, each \"key\" is unique.
+means that list items are treated as "keys" in key,value pairs. Unlike
+a regular list, each "key" is unique.
 
 > [!TIP] 
 > **See also:**

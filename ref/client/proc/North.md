@@ -7,7 +7,7 @@
 +   1 on success; 0 on failure.
 <!-- -->
 **When:**
-+   Called when the player presses the \"up\" key or cursor.
++   Called when the player presses the "up" key or cursor.
 <!-- -->
 **Default action:**
 +   Calls src.Move() towards the north.

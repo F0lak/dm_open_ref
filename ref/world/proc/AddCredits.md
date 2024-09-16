@@ -26,10 +26,10 @@ the rest of the game.
 ### Example:
 
 ``` dm
- mob/proc/QuestCompleted(name, credits) src \<\<
-\"Congratulations! You completed the \[name\] quest and earned
-\[credits\] credit\\s!\" world.AddCredits(name, credits, \"Quest:
-\[name\]\") 
+ mob/proc/QuestCompleted(name, credits) src <<
+"Congratulations! You completed the [name] quest and earned
+[credits] credit\\s!" world.AddCredits(name, credits, "Quest:
+[name]") 
 ```
 
 Note: You can specify a different hub path and hub_password by adding

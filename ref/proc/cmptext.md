@@ -1,7 +1,7 @@
 ## cmptext proc
 
 **Format:**
-+   cmptext(T1,T2,\...)
++   cmptext(T1,T2,...)
 <!-- -->
 **Returns:**
 +   1 if all arguments are equal; 0 otherwise.
@@ -16,13 +16,13 @@ cmptextEx().
 ### Example:
 
 ``` dm
- if(cmptext(\"Hi\",\"HI\")) world \<\< \"Equal!\" else
-world \<\< \"Not equal!\" 
+ if(cmptext("Hi","HI")) world << "Equal!" else
+world << "Not equal!" 
 ```
  
 
-This outputs \"Equal!\"
-since \"Hi\" and \"HI\" are the same, ignoring case.
+This outputs "Equal!"
+since "Hi" and "HI" are the same, ignoring case.
 
 > [!TIP] 
 > **See also:**

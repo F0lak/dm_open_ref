@@ -2,7 +2,7 @@
 ###### BYOND Version 506
 
 **Format:**
-+   Add(text, item1, item2, \...)
++   Add(text, item1, item2, ...)
 <!-- -->
 **Args:**
 +   text: Text to add to the query
@@ -23,8 +23,8 @@ call Execute() to run it.
 ### Example:
 
 ``` dm
- var/database/db = new(\"mydb.db\") var/database/query/q =
-new q.Add(\"INSERT INTO quests (name, quest, complete) VALUES (?,?,?)\",
+ var/database/db = new("mydb.db") var/database/query/q =
+new q.Add("INSERT INTO quests (name, quest, complete) VALUES (?,?,?)",
 usr.key, quest_name, 1) q.Execute(db) 
 ```
  

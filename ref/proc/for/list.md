@@ -2,9 +2,9 @@
 
 <!-- -->
 **Format:**
-+   for (Var \[as Type\] \[in List\]) Statement
-+   for (Var in Start to End \[step Step\]) Statement
-+   for (Key \[as Type\], Value in List) Statement
++   for (Var [as Type] [in List]) Statement
++   for (Var in Start to End [step Step]) Statement
++   for (Key [as Type], Value in List) Statement
 <!-- -->
 **Args:**
 +   Var: A variable to sequentially contain each member of the list.
@@ -15,14 +15,14 @@
 +   Start: A starting numeric value.
 +   End: An ending numeric value (inclusive).
 +   Step: An increment for the numeric value; default is 1.
-+   Key: A variable to sequentially contain each \"key\" in a key,value
++   Key: A variable to sequentially contain each "key" in a key,value
     pair from an [associative list](/list/assoc)
 +   Value: A variable to sequentially contain each associated value in a
     key,value pair list
 ### Example:
 
 ``` dm
- usr \<\< \"Mobs:\" var/mob/M for(M in view()) usr \<\<
+ usr << "Mobs:" var/mob/M for(M in view()) usr <<
 M.name 
 ```
  
@@ -44,7 +44,7 @@ declared elsewhere in the same procedure.
 ### Example:
 
 ``` dm
- client/verb/who() for(var/client/Player) usr \<\< Player
+ client/verb/who() for(var/client/Player) usr << Player
 
 ```
  
@@ -59,7 +59,7 @@ unrelated types will be skipped.
 The numeric loop form is a quick internal version of the [for
 loop proc](/ref/proc/for/loop.md) . It\'s equivalent to
 `for(Var = Start, Var <= End, Var += Step)` unless Step is negative, in
-which case a \>= comparison is used instead. The main difference is that
+which case a >= comparison is used instead. The main difference is that
 unlike in a for loop proc, the values of Step and End are calculated at
 the beginning and never change after that, so an expression like
 `list.len` that might be subject to change will not be read again---in
@@ -68,7 +68,7 @@ of that list.
 ### Example:
 
 ``` dm
- for(var/count in 1 to 100) src \<\< count 
+ for(var/count in 1 to 100) src << count 
 ```
 
 
@@ -89,9 +89,9 @@ react to changes in the original list.
 
 ``` dm
  var/alist/prices = alist(/obj/item/weapon/sword = 100,
-/obj/item/armor/helmet = 50) player \<\< \"**Welcome to my shop!**\"
-for(var/item,price in prices) player \<\< \"\[item::name\] -
-\$\[price\]\" 
+/obj/item/armor/helmet = 50) player << "**Welcome to my shop!**"
+for(var/item,price in prices) player << "[item::name] -
+\$[price]" 
 ```
  
 

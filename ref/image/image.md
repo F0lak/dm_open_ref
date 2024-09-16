@@ -15,7 +15,7 @@ to players:
 
 ``` dm
  var/image/I = image(\'icon.dmi\',usr) //make an image
-attached to usr usr \<\< I //allow usr to see it 
+attached to usr usr << I //allow usr to see it 
 ```
 
 
@@ -30,7 +30,7 @@ instruction is a convenient way to do it.
 ### Example:
 
 ``` dm
- usr.overlays += image(\'shirt.dmi\',icon_state = \"red\")
+ usr.overlays += image(\'shirt.dmi\',icon_state = "red")
 
 ```
  
@@ -40,7 +40,7 @@ was set by creating the overlay from an image with the desired icon
 state. Note that after the creation of an overlay, no link remains
 between the overlay and the object that was used to create it. If you
 change the image after that time, it will not change the overlay, which
-is simply a \"snapshot\" of the original image.
+is simply a "snapshot" of the original image.
 
 > [!TIP] 
 > **See also:**

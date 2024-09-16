@@ -56,12 +56,12 @@ mode, as overlays:
 ### Example:
 
 ``` dm
- // icon is 3 tiles wide by 2 high icon_state = \"0,0\" //
+ // icon is 3 tiles wide by 2 high icon_state = "0,0" //
 A temporary object used for the overlays var/obj/O = new O.icon = icon
-O.layer = FLOAT_LAYER for(var/tile_y=0, tile_y\<2, ++tile_y)
-for(var/tile_x=0, tile_x\<3, ++tile_x) if(tile_x && tile_y) O.pixel_x =
-tile_x \* 32 O.pixel_y = tile_y \* 32 O.icon_state =
-\"\[tile_x\],\[tile_y\]\" overlays += O 
+O.layer = FLOAT_LAYER for(var/tile_y=0, tile_y<2, ++tile_y)
+for(var/tile_x=0, tile_x<3, ++tile_x) if(tile_x && tile_y) O.pixel_x =
+tile_x * 32 O.pixel_y = tile_y * 32 O.icon_state =
+"[tile_x],[tile_y]" overlays += O 
 ```
 
 

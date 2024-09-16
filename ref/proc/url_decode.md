@@ -4,7 +4,7 @@
 +   url_decode(UrlText)
 <!-- -->
 **Args:**
-+   UrlText: text to be \"unescaped\"
++   UrlText: text to be "unescaped"
 <!-- -->
 **Returns:**
 +   unescaped text
@@ -12,7 +12,7 @@
 
 Most non-alphanumeric characters are converted to another
 format in a URL. To send these characters literally, they must be
-\"escaped\". 
+"escaped". 
 
 The `url_decode()` instruction takes a text string
 containing such escaped symbols and turns them into their literal

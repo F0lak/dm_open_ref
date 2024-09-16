@@ -12,7 +12,7 @@ Statement may be a block of code or a single statement.
 ### Example:
 
 ``` dm
- var/i = 3 while(i) world \<\< i\-- 
+ var/i = 3 while(i) world << i\-- 
 ```
 
 

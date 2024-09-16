@@ -1,7 +1,7 @@
 ## run proc
 
 **Format:**
-+   O \<\< run(File)
++   O << run(File)
 
 
 This is similar to link() but instead of a URL, you can pass a
@@ -11,7 +11,7 @@ file.
 
 ``` dm
  mob/var/picture = \'mob.jpg\' mob/verb/view_pic(mob/M as
-mob in view()) usr \<\< run(M.picture) mob/verb/set_pic(F as file)
+mob in view()) usr << run(M.picture) mob/verb/set_pic(F as file)
 usr.picture = F 
 ```
  
@@ -22,6 +22,6 @@ Players can also configure their own pictures.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [file proc](/ref/proc/file.md) 
 > +   [link proc](/ref/proc/link.md) <!-- -->

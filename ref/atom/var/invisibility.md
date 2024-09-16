@@ -14,7 +14,7 @@ invisibility that the mob may see.
 A value of 101 is absolutely
 invisible, no matter what, and it is filtered from all lists of possible
 values for verb arguments. This is intended for objects that exist
-purely for some internal purpose, such as \"verb containers\".
+purely for some internal purpose, such as "verb containers".
 
 > [!TIP] 
 > **See also:**

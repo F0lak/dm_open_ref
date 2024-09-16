@@ -54,7 +54,7 @@ if they are used:
 -   icon-x, icon-y: Pixel coordinates within the icon, in the icon\'s
     coordinate space
 -   screen-loc: Pixel coordinates in screen_loc format
-    (\"\[tile_x\]:\[pixel_x\],\[tile_y\]:\[pixel_y\]\")
+    ("[tile_x]:[pixel_x],[tile_y]:[pixel_y]")
 -   left, middle, right: Mouse buttons pressed, held, or released in
     this action (see compatibility note below)
 -   button: Mouse button pressed or released in this action (see
@@ -83,7 +83,7 @@ the parameters if they are the same as icon-x/y.
 If the mouse
 is over an overlay, icon-x/y and vis-x/y are relative to the parent
 object, not the overlay icon itself, so it\'s possible to have value
-outside of the normal range of 1,1 to \[width\],\[height\]. 
+outside of the normal range of 1,1 to [width],[height]. 
 
 The
 mouse pointer may be customized as well. The following variables all

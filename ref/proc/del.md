@@ -22,7 +22,7 @@ to always call the default handler after doing your own stuff.
 ### Example:
 
 ``` dm
- mob/Del() src \<\< \"Aaaaaaaah!\" ..()
+ mob/Del() src << "Aaaaaaaah!" ..()
 mob/verb/self_destruct() del usr 
 ```
  

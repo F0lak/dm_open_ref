@@ -34,8 +34,8 @@ Script should have the extension `.dms`.
 ### Example:
 
 ``` dm
- client/script = \"
-\" 
+ client/script = "
+" 
 ```
  
 

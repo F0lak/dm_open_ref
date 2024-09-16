@@ -9,9 +9,9 @@
 **Args:**
 +   ProcRef: path of proc (/proc/MyProc)
 +   Object: source of proc or verb
-+   ProcName: name of proc or verb (\"MyProc\")
-+   LibName: name of external library (\"test.DLL\")
-+   FuncName: name of function in external library (\"func\")
++   ProcName: name of proc or verb ("MyProc")
++   LibName: name of external library ("test.DLL")
++   FuncName: name of function in external library ("func")
 <!-- -->
 **Returns:**
 +   The return value of the proc being called.
@@ -19,8 +19,8 @@
 
 This instruction exists in order to call procs dynamically,
 since the proc reference or name may be an expression rather than a
-hard-coded value. This may serve the same purpose as a \"function
-pointer\" in C programs. 
+hard-coded value. This may serve the same purpose as a "function
+pointer" in C programs. 
 
 The following examples do not
 demonstrate why you would want to do this, but the syntax is
@@ -29,8 +29,8 @@ reference to that procedure.
 ### Example:
 
 ``` dm
- /proc/MyProc(Arg) usr \<\< \"MyProc(\[Arg\])\" mob var
-MyProc = /proc/MyProc verb call_myproc() call(MyProc)(\"Hello, world!\")
+ /proc/MyProc(Arg) usr << "MyProc([Arg])" mob var
+MyProc = /proc/MyProc verb call_myproc() call(MyProc)("Hello, world!")
 
 ```
  
@@ -40,9 +40,9 @@ by name, rather than by path.
 ### Example:
 
 ``` dm
- mob proc Proc1(Arg) usr \<\< \"Proc1(\[Arg\])\" Proc2(Arg)
-usr \<\< \"Proc2(\[Arg\])\" verb call_proc(Proc in
-list(\"Proc1\",\"Proc2\")) call(src,Proc)(\"Hello, world!\") 
+ mob proc Proc1(Arg) usr << "Proc1([Arg])" Proc2(Arg)
+usr << "Proc2([Arg])" verb call_proc(Proc in
+list("Proc1","Proc2")) call(src,Proc)("Hello, world!") 
 ```
 
 

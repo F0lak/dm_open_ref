@@ -2,12 +2,12 @@
 
 
 
-Procs may be derived from /proc. These procs are \"global\", in
+Procs may be derived from /proc. These procs are "global", in
 that they can be called anywhere in the code.
 ### Example:
 
 ``` dm
- proc/poof() world \<\< \"POOF!\" 
+ proc/poof() world << "POOF!" 
 ```
  
 
@@ -19,11 +19,11 @@ also be attached to objects by defining them under the appropriate
 `object/proc` subnode. Currently DM allows procs to be defined or
 overridden for `/mob`, `/obj`, `/turf`, `/area`, `world`, and `/client`,
 as well as for [datum objects](/ref/datum.md)  derived from `/`. Predefined
-procs are discussed under the \"procs\" entry for the object type.
+procs are discussed under the "procs" entry for the object type.
 ### Example:
 
 ``` dm
- mob/proc/poof() world \<\< \"POOF!\" 
+ mob/proc/poof() world << "POOF!" 
 ```
 
 

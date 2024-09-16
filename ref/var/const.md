@@ -11,7 +11,7 @@ with other variables declared elsewhere.
 
 ``` dm
  mob var/const/max_items = 100 Enter(O) if(src.contents.len
-\>= src.max_items) return 0 return ..() 
+>= src.max_items) return 0 return ..() 
 ```
  
 

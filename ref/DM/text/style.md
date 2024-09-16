@@ -23,8 +23,8 @@ beginning and ending of the text and to specify what kind of message it
 is. The result might be text such as the following: 
 ``` dm
 
-\"\[usr\] [spanks]{.combat} \[targ\]!\" \"\[usr\] says,
-\'[\[msg\]]{.chat}\'\" 
+"[usr] [spanks]{.combat} [targ]!" "[usr] says,
+\'[[msg]]{.chat}\'" 
 ```
  
 
@@ -104,7 +104,7 @@ normal or italic
 font-weight
 normal, bold, lighter, darker, or 100 to 900
 font-family
-monospace, sans-serif, serif, cursive, \...
+monospace, sans-serif, serif, cursive, ...
 font
 *style weight size family*
 text-decoration
@@ -263,7 +263,7 @@ precedence.
 
 In the rare event that a rule needs to break out of
 the normal order of precedence, it can be flagged as important. In this
-case it will take precedence over all other \"unimportant\" rules.
+case it will take precedence over all other "unimportant" rules.
 However, if more than one rule is important, the normal rules of
 precedence will be used to resolve the conflict. 
 
@@ -290,7 +290,7 @@ The
 following example uses the style attribute to color some text:
 
 ``` dm
- usr \<\< \"That [HURT]{style="color: red"}!\" 
+ usr << "That [HURT]{style="color: red"}!" 
 ```
 
 

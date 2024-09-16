@@ -1,7 +1,7 @@
 ## executor var (world)
 
 **Format:**
-+   executor = \"/usr/local/byond/bin/DreamDaemon \[params\]\"
++   executor = "/usr/local/byond/bin/DreamDaemon [params]"
 
 
 This option is for direct execution of `.dmb` files in UNIX.
@@ -17,8 +17,8 @@ most common are -CGI and -logself.
 ### Example:
 
 ``` dm
- world/executor = \"/usr/local/byond/bin/DreamDaemon -CGI
--logself\" 
+ world/executor = "/usr/local/byond/bin/DreamDaemon -CGI
+-logself" 
 ```
  
 

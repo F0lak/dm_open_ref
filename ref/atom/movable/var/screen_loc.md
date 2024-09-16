@@ -32,7 +32,7 @@ coordinates is arbitrary when using directions, so one may specify
 expressions such as the latter, you may also leave out the comma. Icon
 size is not taken into account, so a big icon with a screen_loc of
 `"SOUTHEAST"` will extend further to the right and may create a border
-(see \"Outside the map\" below).
+(see "Outside the map" below).
 The `CENTER` keyword can also be used. This can be used alone to
 completely center the object, or as either the x or y component. If the
 map covers an even number of tiles in either direction, pixel offsets

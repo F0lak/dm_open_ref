@@ -15,9 +15,9 @@ group.
 
 ``` dm
  mob/verb/join(mob/M) usr.group.Add(M) // add M to usr\'s
-group view() \<\< \"\[usr\] joins \[M\].\" mob/verb/disband(mob/M)
-usr.group.Remove(M) // remove M from group view() \<\< \"\[usr\]
-disbands \[M\].\" 
+group view() << "[usr] joins [M]." mob/verb/disband(mob/M)
+usr.group.Remove(M) // remove M from group view() << "[usr]
+disbands [M]." 
 ```
  
 
@@ -31,7 +31,7 @@ Here is an example of a verb accessible to a group:
 
 ``` dm
  mob/verb/summon() set src in usr.group loc = usr.loc
-view() \<\< \"\[usr\] summons \[src\].\" 
+view() << "[usr] summons [src]." 
 ```
 
 

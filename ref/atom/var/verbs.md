@@ -16,7 +16,7 @@ is loaded.
 ### Example:
 
 ``` dm
- mob/proc/kazaam() usr \<\< \"Kazaam!\"
+ mob/proc/kazaam() usr << "Kazaam!"
 mob/verb/add_kazaam() verbs += /mob/proc/kazaam mob/verb/remove_kazaam()
 verbs -= /mob/proc/kazaam 
 ```

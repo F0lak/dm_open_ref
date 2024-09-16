@@ -7,9 +7,9 @@
 +   call_ext(LoadedFunc)(Arguments)
 <!-- -->
 **Args:**
-+   LibName: name of external library (\"test.DLL\") (note: the .dll or
++   LibName: name of external library ("test.DLL") (note: the .dll or
     .so suffix is not required)
-+   FuncName: name of function in external library (\"func\"), which may
++   FuncName: name of function in external library ("func"), which may
     have prefixes to describe the type of function
 +   LoadedFunc: reference to a function that was loaded via `load_ext()`
 <!-- -->
@@ -23,7 +23,7 @@ or more of the following conditions is met:
 -   The library is located in the BYOND user `bin/` folder
     (`~/.byond/bin` on Unix, typically `%APPDATA%/Documents/BYOND/bin/`
     on Windows). This is intended to allow the user to install
-    permanently \"trusted\" libraries. ***OR***
+    permanently "trusted" libraries. ***OR***
 -   The server is run in `-trusted` mode. ***OR***
 -   The server grants permission to access the library at runtime,
     through a prompt query.
@@ -77,12 +77,12 @@ extern "C" __declspec(dllexport) char *merge(int n, char *v[])
 ```
 
 ``` dm
- // DM code to use test.dll mob/verb/test() usr \<\<
-call_ext(\"test.dll\",\"merge\")(\"fee\",\"fi\",\"fo\") // returns
-\"feefifo\" // As with the other call() versions, arglist() may be used
+ // DM code to use test.dll mob/verb/test() usr <<
+call_ext("test.dll","merge")("fee","fi","fo") // returns
+"feefifo" // As with the other call() versions, arglist() may be used
 to do runtime arguments: mob/verb/argtest() var/L =
-list(\"fee\",\"fi\",\"fo\") usr \<\<
-call_ext(\"test.dll\",\"func\")(arglist(L)) // returns \"feefifo\"
+list("fee","fi","fo") usr <<
+call_ext("test.dll","func")(arglist(L)) // returns "feefifo"
 
 ```
  
@@ -181,9 +181,9 @@ extern "C" BYOND_EXPORT CByondValue average(int n, CByondValue v[])
 
 ``` dm
  // DM code to use test_byondapi.dll mob/verb/test() usr
-\<\< call_ext(\"test_byondapi\",\"byond:merge\")(\"fee\",\"fi\",\"fo\")
-// returns \"feefifo\" mob/verb/average() usr \<\<
-call_ext(\"test_byondapi\",\"byond:average\")(1,6,8) // returns 5
+<< call_ext("test_byondapi","byond:merge")("fee","fi","fo")
+// returns "feefifo" mob/verb/average() usr <<
+call_ext("test_byondapi","byond:average")(1,6,8) // returns 5
 
 ```
  

@@ -29,7 +29,7 @@ new point x\',y\'. This is equivalent to:
 
 
 This is called an **affine transform** because all the
-operations are \"linear\" in math terms. (That is, every term in the
+operations are "linear" in math terms. (That is, every term in the
 formula above has a single variable, not raised to a higher power than
 1.)
 ### 3x4 matrix (x,y,z with translation)
@@ -46,7 +46,7 @@ transformations. There is no special object for this so a list is used
 
 The way to read the vars above is that the first letter says
 what input component is being transformed (x,y,z, or c for
-\"constant\"), and the second letter is the output component.
+"constant"), and the second letter is the output component.
     x' = xx*x + yx*y + zx*z + cx
     y' = xy*x + yy*y + zy*z + cy
     z' = xz*x + yz*y + zz*z + cz
@@ -66,7 +66,7 @@ Note the 4th row is also optional.
 
 
 This is the most interesting matrix, since if you use all 4
-columns you\'re actually altering an \"axis\" called w. This isn\'t a
+columns you\'re actually altering an "axis" called w. This isn\'t a
 real axis, but is just a number that the resulting vector will be
 divided by.
                 xx xy xz xw
@@ -80,14 +80,14 @@ divided by.
 
 
 In a regular affine transform, w always stays at 1. In
-projection you can think of w as a distance from the \"camera\". 1 is
-where objects are their \"normal\" size. If you make the z value affect
+projection you can think of w as a distance from the "camera". 1 is
+where objects are their "normal" size. If you make the z value affect
 w\' by setting zw, you basically make an object look smaller at higher z
 values. 
 
 This is a simple projection matrix where x,y,z are left
-untouched, but there\'s a projection effect. The \"D\" value is how far
-away the \"camera\" is from z=0, so a point at z=D looks like it\'s
+untouched, but there\'s a projection effect. The "D" value is how far
+away the "camera" is from z=0, so a point at z=D looks like it\'s
 twice as far away.
     1  0  0  0
     0  1  0  0

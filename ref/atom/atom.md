@@ -6,7 +6,7 @@ in the game. The types /area, /turf, /obj, and /mob are all derived from
 /atom. You should not create instances of /atom directly but should use
 /area, /turf, /obj, and /mob for actual objects. The /atom object type
 exists for the purpose of defining variables or procedures that are
-shared by all of the other \"physical\" objects. These are also the only
+shared by all of the other "physical" objects. These are also the only
 objects for which verbs may be accessible to the user. 
 
 /atom is

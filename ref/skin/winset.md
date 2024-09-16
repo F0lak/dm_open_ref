@@ -10,8 +10,8 @@ setting `window.location` to a special URL.
 
 This works like an ordinary [winset()](/ref/proc/winset.md) 
 call from the server. If `id` is omitted, it\'s the same as a winset
-with a null ID. You can also leave the `id` blank if you use \"fully
-decorated\" property names such as `mybutton.is-checked` instead of just
+with a null ID. You can also leave the `id` blank if you use "fully
+decorated" property names such as `mybutton.is-checked` instead of just
 `is-checked`. 
 
 Any text you use other than letters, numbers,
@@ -29,7 +29,7 @@ the properties you requested. For example, this URL:
     byond://winget?callback=wgcb&id=button1&property=is-checked,size,background-color
 
 
-\...might send this to the callback function `wgcb`:
+...might send this to the callback function `wgcb`:
     {
         "is-checked": true,
         "size": {

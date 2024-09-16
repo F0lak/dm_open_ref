@@ -9,18 +9,18 @@ and procedures from the object type that contains it. For example:
 
 ``` dm
  obj var weight color sword //parent type of \'sword\'
-defaults to /obj weight = 30 color = \"black\" 
+defaults to /obj weight = 30 color = "black" 
 ```
 
 
 
 Explicitly setting the parent type allows you to put the object
 definition any place you want. That often means putting it at the top
-\"root\" level. Example: 
+"root" level. Example: 
 ``` dm
  Armor parent_type = /obj var
 strength plate //parent type is /Armor, which in turn inherits from /obj
-weight = 100 color = \"rusty\" strength = 10 
+weight = 100 color = "rusty" strength = 10 
 ```
  
 

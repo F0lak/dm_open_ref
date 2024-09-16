@@ -4,7 +4,7 @@
 <!-- -->
 **Format:**
 +   #pragma
-    [\<]{.faded}warn[\|]{.faded}ignore[\|]{.faded}error[\>]{.faded}
+    [<]{.faded}warn[\|]{.faded}ignore[\|]{.faded}error[>]{.faded}
     WarningName
 
 

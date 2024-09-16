@@ -16,11 +16,11 @@ the object is null.
 ### Example:
 
 ``` dm
- var/mob/M // M is null by default M?.name = \"futz\" //
-assignment is skipped because M is null world \<\< M?.name // M?.name
+ var/mob/M // M is null by default M?.name = "futz" //
+assignment is skipped because M is null world << M?.name // M?.name
 reads as null because M is null M?.Move(loc) // call Move() mob proc;
-again nothing happens M = new M?.name = \"futz\" // assignment is made
-because M is valid now world \<\< M?.name // outputs \"futz\"
+again nothing happens M = new M?.name = "futz" // assignment is made
+because M is valid now world << M?.name // outputs "futz"
 M?.Move(loc) // call Move() mob proc for M 
 ```
  

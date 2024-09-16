@@ -11,7 +11,7 @@ where you set the atom\'s bounds to change its physical size so that it
 ends up covering more than one turf. 
 
 This is different from the
-loc var in that every atom still has only one \"true\" location. A
+loc var in that every atom still has only one "true" location. A
 movable atom may cover multiple turfs, but only one turf is its loc. The
 loc var can be thought of as an anchor point, while the actual physical
 footprint is in locs. 

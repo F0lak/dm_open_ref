@@ -8,8 +8,8 @@
 ### Example:
 
 ``` dm
- mob/verb/test() usr \<\< arcsin(0) // 0 usr \<\<
-arcsin(0.707107) // 45 usr \<\< arcsin(1) // 90 
+ mob/verb/test() usr << arcsin(0) // 0 usr <<
+arcsin(0.707107) // 45 usr << arcsin(1) // 90 
 ```
 
 

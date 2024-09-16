@@ -1,14 +1,14 @@
 ## typesof proc
 
 **Format:**
-+   typesof(Type1,Type2,\...)
++   typesof(Type1,Type2,...)
 <!-- -->
 **Returns:**
-+   A list of all types that are derived from the specified \"base\"
++   A list of all types that are derived from the specified "base"
     types, including the base types themselves.
 <!-- -->
 **Args:**
-+   The \"base\" types.
++   The "base" types.
 ### Example:
 
 ``` dm

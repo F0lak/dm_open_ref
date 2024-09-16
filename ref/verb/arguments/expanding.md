@@ -8,7 +8,7 @@ expanded, but this will always be a text string equal to what the user
 has typed so far. 
 
 In addition, there is a special variable
-called \"expanding\" which is only accessible in this context. It is 1
+called "expanding" which is only accessible in this context. It is 1
 if the user\'s input is being expanded and 0 if the user\'s final input
 is being validated. In certain rare cases, you may wish to tell the
 difference between these two cases. For example, you could use this to
@@ -17,9 +17,9 @@ which are accepted when typed in full.
 ### Example:
 
 ``` dm
- mob/verb/test(A in MyProc(A,expanding)) usr \<\< \"You
-typed: \[A\]\" proc/MyProc(A,expanding) var/values\[\] =
-list(\"one\",\"two\",\"three\") if(!expanding) values += \"secret\"
+ mob/verb/test(A in MyProc(A,expanding)) usr << "You
+typed: [A]" proc/MyProc(A,expanding) var/values[] =
+list("one","two","three") if(!expanding) values += "secret"
 return values 
 ```
 

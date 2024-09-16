@@ -4,7 +4,7 @@
 
 
 The `\ref` text macro inserts a unique identification number or
-text string for the following embedded object (inside \[\]\'s).
+text string for the following embedded object (inside []\'s).
 
 
 In older versions of BYOND, if an object had a tag, that was
@@ -22,17 +22,17 @@ deleted before the user executes the link. See [garbage
 collection](/ref/DM/garbage.md) .) 
 
 Topic links that contain a
-parameter \"src\" assigned to an object reference are treated somewhat
+parameter "src" assigned to an object reference are treated somewhat
 specially. Unless you override client.Topic() to do otherwise, the
 default behavior is to call the referenced object\'s own Topic()
 procedure.
 ### Example:
 
 ``` dm
- mob/verb/test() usr \<\< \"Click
-[here](?src=\ref%5Bsrc%5D;action=start)!\" mob/Topic(href,href_list\[\])
-switch(href_list\[\"action\"\]) if(\"start\") usr \<\< \"Starting the
-game\...\" else return ..() 
+ mob/verb/test() usr << "Click
+[here](?src=\ref%5Bsrc%5D;action=start)!" mob/Topic(href,href_list[])
+switch(href_list["action"]) if("start") usr << "Starting the
+game..." else return ..() 
 ```
  
 
@@ -50,7 +50,7 @@ locate() instruction.
 
 
 In output for browser controls, you can use `\ref[object]` as
-the src parameter for an \<img\> tag. The object can be an
+the src parameter for an <img> tag. The object can be an
 [appearance](/ref/atom/var/appearance.md) , an icon, or an atom or image.
 
 
@@ -59,9 +59,9 @@ string after the icon reference.
 ### Example:
 
 ``` dm
- player \<\< browse({\"
+ player << browse({"
 ![](\ref%5Bicon%5D?state=hungry&dir=%5BEAST%5D)
-\"}) 
+"}) 
 ```
  
 

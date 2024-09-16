@@ -3,22 +3,22 @@
 
 
 The \\icon macro is used to treat the following embedded
-expression (in \[\]\'s) as an icon rather than as text. An object, for
+expression (in []\'s) as an icon rather than as text. An object, for
 example, would be replaced by its icon rather than by its name.
 ### Example:
 
 ``` dm
- usr \<\< \"You look like this: \\icon\[usr\]!\" 
+ usr << "You look like this: \\icon[usr]!" 
 ```
 
 
 
-The `\icon` macro expands internally to the \<IMG\> tag. The
+The `\icon` macro expands internally to the <IMG> tag. The
 above example, could be rewritten like this: 
 ``` dm
- usr \<\<
-\"You look like this: \\ ![](\ref%5Busr.icon%5D){.icon
-iconstate="[usr.icon_state]"}!\" 
+ usr <<
+"You look like this: \\ ![](\ref%5Busr.icon%5D){.icon
+iconstate="[usr.icon_state]"}!" 
 ```
  
 
@@ -46,32 +46,32 @@ individual icons to be formatted differently from the rest.
  
 
 With those rules in
-place, you could output a full sized icon by using the \<BIG\> tag:
+place, you could output a full sized icon by using the <BIG> tag:
 
 ``` dm
- usr \<\< \"You look like this: \\icon\[usr\]!\" 
+ usr << "You look like this: \\icon[usr]!" 
 ```
 
 
 
-The one time that one might want to use the \<IMG\> tag
+The one time that one might want to use the <IMG> tag
 directly is to specify the ALT text to be displayed on clients which
 don\'t support graphical icons. 
 
 Specific states, directions,
 and frames of an icon can be displayed in lieu of the default through
 use of the following tags:
--   ICONSTATE=\'\[state\]\'
--   ICONDIR=\[dir\], where dir is one of NORTH, SOUTH, EAST, WEST,
+-   ICONSTATE=\'[state]\'
+-   ICONDIR=[dir], where dir is one of NORTH, SOUTH, EAST, WEST,
     NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
--   ICONFRAME=\[frame\], where frame is the animation frame, starting
+-   ICONFRAME=[frame], where frame is the animation frame, starting
     with 1
 ### Example:
 
 ``` dm
- usr \<\< \"You look like this: \\
+ usr << "You look like this: \\
 ![](\ref%5Busr.icon%5D){.icon iconstate="glowing" icondir="NORTH"
-iconframe="2"}!\" 
+iconframe="2"}!" 
 ```
  
 

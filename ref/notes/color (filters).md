@@ -3,7 +3,7 @@
 
 <!-- -->
 Format:
-+   filter(type=\"color\", \...)
++   filter(type="color", ...)
 <!-- -->
 Args:
 +   color: A color matrix

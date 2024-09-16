@@ -1,7 +1,7 @@
 ## addtext proc
 
 **Format:**
-+   addtext(Arg1,Arg2,\...)
++   addtext(Arg1,Arg2,...)
 <!-- -->
 **Returns:**
 +   A text string with the arguments concatenated.
@@ -16,8 +16,8 @@ constants or variables containing text.
 ### Example:
 
 ``` dm
- var/T T = \"1\" T = addtext(T,\"\*1 = \",T) // T = \"1\*1
-= 1\" world \<\< \"The answer is: \[T\]\" 
+ var/T T = "1" T = addtext(T,"*1 = ",T) // T = "1*1
+= 1" world << "The answer is: [T]" 
 ```
  
 

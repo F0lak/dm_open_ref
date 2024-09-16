@@ -9,7 +9,7 @@
 +   string
 
 
-The [macro name](/ref/skin/macros.md) (e.g., \"SOUTH\") of a
+The [macro name](/ref/skin/macros.md) (e.g., "SOUTH") of a
 key combo, Dpad, mouse button, etc. that this macro maps to.
 
 > [!TIP] 

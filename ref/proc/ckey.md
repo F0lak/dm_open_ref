@@ -24,11 +24,11 @@ used on any text string. It is not just limited to keys.
 ### Example:
 
 ``` dm
- var/savefile/SaveFile = new(\"world.sav\")
+ var/savefile/SaveFile = new("world.sav")
 proc/SavePlayer(mob/M) var/keydir = ckey(M.key) SaveFile.cd =
-\"/players\" SaveFile.cd = keydir M.Write(SaveFile)
+"/players" SaveFile.cd = keydir M.Write(SaveFile)
 proc/LoadPlayer(mob/M) var/keydir = ckey(M.key) SaveFile.cd =
-\"/players\" if(!SaveFile.Find(keydir)) return 0 SaveFile.cd = keydir
+"/players" if(!SaveFile.Find(keydir)) return 0 SaveFile.cd = keydir
 M.Read(SaveFile) return 1 
 ```
  

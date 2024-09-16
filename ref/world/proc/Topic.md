@@ -18,21 +18,21 @@
     remote server
 <!-- -->
 **Default action:**
-+   The topic \"ping\" returns a true value (number of players plus
++   The topic "ping" returns a true value (number of players plus
     one), which may be useful for telling if a server is alive. The
-    topics \"Reboot\" and \"Del\" will call world.Reboot() and
+    topics "Reboot" and "Del" will call world.Reboot() and
     world.Del() respectively if the message was sent by the master
     server.
 ### Example:
 
 ``` dm
- world/Topic(T) if(findtext(T,\"shout:\") == 1) world \<\<
+ world/Topic(T) if(findtext(T,"shout:") == 1) world <<
 copytext(T,7) 
 ```
  
 
 This example allows other servers to
-send this server topic text of the form \"shout:msg\" and will broadcast
+send this server topic text of the form "shout:msg" and will broadcast
 the message to all the players in this world. 
 
 The Keys argument

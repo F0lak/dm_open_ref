@@ -17,12 +17,12 @@ Center or its contents in the list.
 ### Example:
 
 ``` dm
- oview() \<\< \"to others in sight of \[usr\]\" 
+ oview() << "to others in sight of [usr]" 
 ```
 
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [orange proc](/ref/proc/orange.md) 
 > +   [view proc](/ref/proc/view.md) <!-- -->

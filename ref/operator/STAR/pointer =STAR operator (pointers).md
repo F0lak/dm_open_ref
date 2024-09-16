@@ -1,8 +1,8 @@
-## \* pointer operator 
+## * pointer operator 
 ###### BYOND Version 515
 
 **Format:**
-+   \*A
++   *A
 <!-- -->
 **Returns:**
 +   The value pointed at by a pointer stored in A
@@ -18,11 +18,11 @@ on the left-hand side of assignment operations, for instance `*A = B` or
 
 ``` dm
  atom/proc/PixelPos(px, py) // get an exact step position
-\*px = (x-1) \* 32 // this code assumes a 32x32 icon size \*py = (y-1)
-\* 32 atom/movable/PixelPos(px, py) // get an exact step position ..()
-\*px += step_x // this code assumes a 32x32 icon size \*py += step_y
-mob/verb/WhereAmI() var/X, Y PixelPos(&X, &Y) usr \<\< \"You are at
-\[X\],\[Y\] on level \[z\]\" 
+*px = (x-1) * 32 // this code assumes a 32x32 icon size *py = (y-1)
+* 32 atom/movable/PixelPos(px, py) // get an exact step position ..()
+*px += step_x // this code assumes a 32x32 icon size *py += step_y
+mob/verb/WhereAmI() var/X, Y PixelPos(&X, &Y) usr << "You are at
+[X],[Y] on level [z]" 
 ```
  
 

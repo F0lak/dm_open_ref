@@ -242,6 +242,13 @@ def clean_markdown_file(text) -> str:
 		text = text.replace("%7D", "")
 		text = text.replace(" .code}", "")
 		text = text.replace("{.code}", "")
+		text = text.replace("\>", ">")
+		text = text.replace("\<", "<")
+		text = text.replace("\\\"", "\"")
+		text = text.replace("\.", ".")
+		text = text.replace("\[", "[")
+		text = text.replace("\]", "]")
+		text = text.replace("\*", "*")
 	return text
   
 def clean_empty_lines(text) -> str:

@@ -1,7 +1,7 @@
 ## Topic proc (datum)
 
 **Format:**
-+   Topic(href,href_list\[\])
++   Topic(href,href_list[])
 <!-- -->
 **Args:**
 +   href: the hyperlink data (following ? in the URL).
@@ -9,15 +9,15 @@
 
 
 This procedure is called by the default `client.Topic()` proc
-when the href contains a parameter called \"src\" containing an object
+when the href contains a parameter called "src" containing an object
 reference.
 ### Example:
 
 ``` dm
- mob/verb/test() usr \<\< \"Click
-[here](?src=\ref%5Bsrc%5D;action=startgame)!\"
-mob/Topic(href,href_list\[\]) switch(href_list\[\"action\"\])
-if(\"startgame\") usr \<\< \"Starting game\...\" 
+ mob/verb/test() usr << "Click
+[here](?src=\ref%5Bsrc%5D;action=startgame)!"
+mob/Topic(href,href_list[]) switch(href_list["action"])
+if("startgame") usr << "Starting game..." 
 ```
  
 

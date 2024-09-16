@@ -1,7 +1,7 @@
 ## alert proc
 
 **Format:**
-+   alert(Usr=usr,Message,Title,Button1=\"Ok\",Button2,Button3)
++   alert(Usr=usr,Message,Title,Button1="Ok",Button2,Button3)
 <!-- -->
 **Returns:**
 +   Selected button
@@ -13,7 +13,7 @@ out.
 ### Example:
 
 ``` dm
- mob/verb/self_destruct() alert(\"Prepare to die.\") del
+ mob/verb/self_destruct() alert("Prepare to die.") del
 usr 
 ```
  
@@ -23,11 +23,11 @@ user with a choice in the matter:
 ### Example:
 
 ``` dm
- mob/verb/self_destruct() switch(alert(\"Would you like to
-die?\",,\"Yes\",\"No\",\"Maybe\")) if(\"Yes\") del usr if(\"No\") usr
-\<\< \"You have second thoughts.\" if(\"Maybe\") usr \<\< \"You flip a
-coin\...\" if(rand(0,1)) usr \<\< \"Heads \-- you lose.\" del usr else
-usr \<\< \"Tails \-- you win!\" 
+ mob/verb/self_destruct() switch(alert("Would you like to
+die?",,"Yes","No","Maybe")) if("Yes") del usr if("No") usr
+<< "You have second thoughts." if("Maybe") usr << "You flip a
+coin..." if(rand(0,1)) usr << "Heads \-- you lose." del usr else
+usr << "Tails \-- you win!" 
 ```
 
 

@@ -15,7 +15,7 @@ icon should have a bound_height value of 16.
 The default value
 depends on world.icon_size and world.map_format. In a topdown or tiled
 map_format, the icon height specified in world.icon_size is used. In
-other modes, height is irrelevant and tile \"footprints\" are square, so
+other modes, height is irrelevant and tile "footprints" are square, so
 the icon width is used.
 
 > [!TIP] 

@@ -8,8 +8,8 @@ join as spectators.
 ### Example:
 
 ``` dm
- world status = \"accepting players\" mob/verb/start_game()
-world.status = \"accepting spectators\" //\... 
+ world status = "accepting players" mob/verb/start_game()
+world.status = "accepting spectators" //... 
 ```
 
 

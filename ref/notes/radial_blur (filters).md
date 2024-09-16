@@ -2,7 +2,7 @@
 ###### BYOND Version 513
 
 Format:
-+   filter(type=\"radial_blur\", \...)
++   filter(type="radial_blur", ...)
 <!-- -->
 Args:
 +   x: Horizontal center of effect, in pixels, relative to image center

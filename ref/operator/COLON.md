@@ -8,7 +8,7 @@ error occurs.
 ### Example:
 
 ``` dm
- var/M M = usr M:name = \"futz\" // access a mob property
+ var/M M = usr M:name = "futz" // access a mob property
 from a non-mob var 
 ```
  

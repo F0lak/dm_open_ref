@@ -4,7 +4,7 @@
 +   1
 
 
-This variable may be used to turn off the popup \"context\"
+This variable may be used to turn off the popup "context"
 menus that are displayed by default when an object on the map or stat
 panels is right-clicked. If client.show_popup_menus==0, then
 right-clicks will instead be passed to the various mouse functions.

@@ -18,8 +18,8 @@ accepted by the hub.
 ### Example:
 
 ``` dm
- world hub = \"Dan.PipeStock\" //registered hub path
-hub_password = \"UPAggnJaeXmSBoKK\" //password for live game
+ world hub = "Dan.PipeStock" //registered hub path
+hub_password = "UPAggnJaeXmSBoKK" //password for live game
 authentication 
 ```
  

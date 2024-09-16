@@ -16,7 +16,7 @@ turf/wall
 
 You can
 also assign this to an external file at run-time with an expression such
-as file(\"wall.dmi\"), but you would only want to do that when the other
+as file("wall.dmi"), but you would only want to do that when the other
 method is not possible, because it requires addition of the file to the
 resource cache, which can take a little time. 
 

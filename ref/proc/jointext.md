@@ -23,8 +23,8 @@ becomes an empty string.
 ### Example:
 
 ``` dm
- var/list/items = list(\"apples\", \"oranges\",
-\"bananas\") usr \<\< jointext(items, \", \") 
+ var/list/items = list("apples", "oranges",
+"bananas") usr << jointext(items, ", ") 
 ```
  
 

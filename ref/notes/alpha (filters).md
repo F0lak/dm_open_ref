@@ -2,7 +2,7 @@
 ###### BYOND Version 513
 
 Format:
-+   filter(type=\"alpha\", \...)
++   filter(type="alpha", ...)
 <!-- -->
 Args:
 +   x: Horizontal offset of mask (defaults to 0)

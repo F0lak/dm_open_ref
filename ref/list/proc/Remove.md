@@ -1,7 +1,7 @@
 ## Remove proc (list)
 
 **Format:**
-+   list.Remove(Item1,Item2,\...)
++   list.Remove(Item1,Item2,...)
 <!-- -->
 **Returns:**
 +   1 if any items removed, 0 if not.

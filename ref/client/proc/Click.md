@@ -19,7 +19,7 @@
 ### Example:
 
 ``` dm
- client Click(O) usr \<\< \"You clicked \[O\]\" ..() // do
+ client Click(O) usr << "You clicked [O]" ..() // do
 default action 
 ```
  

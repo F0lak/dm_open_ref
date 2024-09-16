@@ -2,7 +2,7 @@
 ###### BYOND Version 512
 
 Format:
-+   filter(type=\"drop_shadow\", \...)
++   filter(type="drop_shadow", ...)
 <!-- -->
 Args:
 +   x: Shadow horizontal offset (defaults to 1)

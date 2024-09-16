@@ -26,10 +26,10 @@ and set `pitch` to the inverse (e.g., 1/1.2).
 
 ``` dm
  client var/sound/music // music currently playing
-proc/PlayMusic(music) music = new(music) music.channel = 100 src \<\<
+proc/PlayMusic(music) music = new(music) music.channel = 100 src <<
 music proc/UpTempo(amount = 0.1) // 10% faster if(!music) return
 music.frequency = (music.frequency \|\| 1) + amount music.pitch = 1 /
-music.frequency music.status \|= SOUND_UPDATE src \<\< music 
+music.frequency music.status \|= SOUND_UPDATE src << music 
 ```
 
 

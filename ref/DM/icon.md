@@ -7,7 +7,7 @@ the filename. The file extension determines the type of icon. Currently
 supported icon types are `.dmi`, `.bmp`, `.png`, `.jpg`, and `.gif`. To
 create dmi icons, use the Dream Maker icon editor. This allows you to
 make animations, 4 or 8 directional icons, and icons with different
-states (such as \"live\" and \"dead\").
+states (such as "live" and "dead").
 ### Example:
 
 ``` dm

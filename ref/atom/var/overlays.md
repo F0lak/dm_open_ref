@@ -34,7 +34,7 @@ The
 data types that may be used as overlays are icons, icon states (text
 strings), objects, and object types. When an icon state is used, the
 corresponding image in the object\'s icon is displayed. When another
-object is used as an overlay, a static \"snapshot\" of the object is
+object is used as an overlay, a static "snapshot" of the object is
 taken at the time when the overlay is created. Future changes to the
 object will not change the appearance of the overlay, except that in
 some cases the overlay may inherit things from the base object like its
@@ -51,7 +51,7 @@ overlays will move with it into the new layer.
 
 Any negative
 number may be used in place of FLOAT_LAYER (which happens to be -1).
-They all cause the same \"floating\" behavior. However, the overlays are
+They all cause the same "floating" behavior. However, the overlays are
 ordered amongst themselves according to their own relative layer values
 (-2 below -1 and so on). This may be useful if you have several classes
 of overlays that should always appear in a certain order, because you
@@ -71,14 +71,14 @@ remove_armor() overlays -= /obj/overlay/armor
 
 That
 example used object types, but you can use instances of objects as well.
-Rather than using different \"float\" layers, you can also just make
+Rather than using different "float" layers, you can also just make
 your own list of overlays with the order you want and assign that to the
 actual overlays list.
 ### Example:
 
 ``` dm
  mob/var boots clothes armor mob/proc ShowOverlays()
-var/L\[0\] if(boots) L += boots if(clothes) L += clothes if(armor) L +=
+var/L[0] if(boots) L += boots if(clothes) L += clothes if(armor) L +=
 armor overlays = L 
 ```
 

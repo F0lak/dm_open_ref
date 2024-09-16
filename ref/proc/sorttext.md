@@ -1,7 +1,7 @@
 ## sorttext proc
 
 **Format:**
-+   sorttext(T1,T2,\...)
++   sorttext(T1,T2,...)
 <!-- -->
 **Args:**
 +   Any number of text strings to sort.
@@ -17,17 +17,17 @@ version is sorttextEx().
 ### Example:
 
 ``` dm
- switch(sorttext(\"A\",\"B\")) if(1) world \<\<
-\"ascending\" if(-1)world \<\< \"descending\" if(0) world \<\<
-\"neither\" 
+ switch(sorttext("A","B")) if(1) world <<
+"ascending" if(-1)world << "descending" if(0) world <<
+"neither" 
 ```
  
 
-This outputs \"ascending\", since \"A\"
-comes before \"B\" in the alphabet.
+This outputs "ascending", since "A"
+comes before "B" in the alphabet.
 
 > [!TIP] 
 > **See also:**
-> +   [\> operator](/ref/operator/%3e.md) 
-> +   [\< operator](/ref/operator/%3c.md) 
+> +   [> operator](/ref/operator/%3e.md) 
+> +   [< operator](/ref/operator/%3c.md) 
 > +   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->

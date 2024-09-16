@@ -1,7 +1,7 @@
 ## ismob proc
 
 **Format:**
-+   ismob(Loc1, Loc2 \...)
++   ismob(Loc1, Loc2 ...)
 <!-- -->
 **Args:**
 +   Any number of locations to test.

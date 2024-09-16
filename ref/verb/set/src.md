@@ -31,13 +31,13 @@ turf: src = view(0) area: src = view(0)
 ### Example:
 
 ``` dm
- obj/verb/examine() set src in view() usr \<\< \"You
-examine \[src\].\" 
+ obj/verb/examine() set src in view() usr << "You
+examine [src]." 
 ```
 
 ### Example:
 
 ``` dm
  obj/MagicCloak/verb/disappear() set src = usr.contents
-usr.invisibility = 1 view() \<\< \"\[usr\] disappears!\" 
+usr.invisibility = 1 view() << "[usr] disappears!" 
 ```

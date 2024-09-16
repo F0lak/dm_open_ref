@@ -52,8 +52,8 @@ additional parameters, known as attributes. The most common ones are
 `<FONT>` and `<A>`. The syntax for these is illustrated by the following
 two examples: 
 ``` dm
- \"How about this!\" \"Click
-[here](byond.com "BYOND!")!\" 
+ "How about this!" "Click
+[here](byond.com "BYOND!")!" 
 ```
  
 

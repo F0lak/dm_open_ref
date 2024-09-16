@@ -205,7 +205,7 @@ Overlays
 ::::::::::
 
 
-When `color` and `transform` are inherited, they \"stack\". The
+When `color` and `transform` are inherited, they "stack". The
 inherited color and transform values are applied after those of the
 overlays.
 ### `KEEP_TOGETHER` and `KEEP_APART`
@@ -266,14 +266,14 @@ multiple nested groups.
 
 Any appearance can have a [layer](/ref/atom/var/layer.md)  or
 [plane](/ref/atom/var/layer.md) , and these influence how it gets
-sorted. (There\'s also a concept called a \"sub-plane\" that\'s
+sorted. (There\'s also a concept called a "sub-plane" that\'s
 influenced by whether an atom is a [HUD/screen
 object](/ref/notes/HUD.md)  or special layers like
 [BACKGROUND_LAYER](/ref/notes/BACKGROUND_LAYER.md) .) 
 
 If
 a sprite is created with `FLOAT_LAYER` (any negative value counts as a
-floating layer) its layer has to be resolved, or \"unfloated\". The main
+floating layer) its layer has to be resolved, or "unfloated". The main
 sprite for an atom can never float; it has to have a real layer. Its
 overlays and underlays with floating layers will reorder themselves in
 numerical order, then look for the next closest sprites in the rendering
@@ -308,7 +308,7 @@ only to topdown maps.
 Sometimes it\'s helpful to group multiple sprites on one plane
 as if the plane itself were a KT group. For this,
 [appearance_flags](/ref/var/appearance_flags.md)  has a value called
-`PLANE_MASTER`. An object with this flag will act as a \"parent\" for
+`PLANE_MASTER`. An object with this flag will act as a "parent" for
 everything else on the plane. All other sprites on the plane will be
 grouped together and rendered on a temporary drawing surface, and then
 the plane master\'s `color`, `transform`, and `filters` will be applied.

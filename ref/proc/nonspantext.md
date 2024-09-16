@@ -18,7 +18,7 @@
 
 
 This proc is case-sensitive. A common use for this proc is in
-parsing. For instance nonspantext(\"apples, oranges\",\", \") will
+parsing. For instance nonspantext("apples, oranges",", ") will
 return 6, because the first 6 characters don\'t match a comma or a
 space. 
 

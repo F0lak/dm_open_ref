@@ -12,7 +12,7 @@ specified message.
 ### Example:
 
 ``` dm
- #if DM_VERSION \< 4 #error This compiler is too far out of
+ #if DM_VERSION < 4 #error This compiler is too far out of
 date! #endif 
 ```
 

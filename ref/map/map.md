@@ -1,7 +1,7 @@
 ## map
 
 **Format:**
-+   #include \"mapname.dmm\"
++   #include "mapname.dmm"
 
 
 One or more map files may be loaded into the world\'s map.
@@ -16,8 +16,8 @@ determined by the world variables turf and area.
 ### Example:
 
 ``` dm
- #include \"level1.dmm\" #include \"level2.dmm\" #include
-\"level3.dmm\" 
+ #include "level1.dmm" #include "level2.dmm" #include
+"level3.dmm" 
 ```
 
 

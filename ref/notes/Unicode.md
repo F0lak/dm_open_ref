@@ -3,7 +3,7 @@
 
 
 
-BYOND was originally written to handle 8-bit (\"ANSI\")
+BYOND was originally written to handle 8-bit ("ANSI")
 characters only. However as time has marched on, Unicode has become
 ubiquitous for supporting multiple languages, special characters, and
 emojis. To adapt to this, BYOND now supports Unicode. 

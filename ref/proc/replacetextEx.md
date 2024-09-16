@@ -24,13 +24,13 @@ of Haystack and Needle. The case-insensitive version is replacetext().
 ### Example:
 
 ``` dm
- world \<\< replacetext(\"One on one\", \"one\", \"two\")
+ world << replacetext("One on one", "one", "two")
 
 ```
  
 
-This outputs \"Two on two\", where the first case\'s
-\"One\" is identified as uppercase. 
+This outputs "Two on two", where the first case\'s
+"One" is identified as uppercase. 
 
 You may use a proc as the
 Replacement value. In that case, the proc will be called with the found

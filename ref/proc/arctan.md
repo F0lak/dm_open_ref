@@ -31,9 +31,9 @@ of a number. Only the x and y components of a vector will be used.
 ### Example:
 
 ``` dm
- mob/verb/test() usr \<\< arctan(0) // 0 usr \<\< arctan(1)
-// 45 usr \<\< arctan(sqrt(3)) // 60 // polar coordinates usr \<\<
-arctan(3, 4) // 53.1301 usr \<\< arctan(-1, 1) // 135 usr \<\< arctan(0,
+ mob/verb/test() usr << arctan(0) // 0 usr << arctan(1)
+// 45 usr << arctan(sqrt(3)) // 60 // polar coordinates usr <<
+arctan(3, 4) // 53.1301 usr << arctan(-1, 1) // 135 usr << arctan(0,
 -5) // -90 
 ```
  

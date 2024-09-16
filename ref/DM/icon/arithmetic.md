@@ -1,6 +1,6 @@
 ## icon arithmetic
 
-Note: The following \"arithmetical\" methods of icon manipulation are
+Note: The following "arithmetical" methods of icon manipulation are
 being phased out in favor of the [/icon](/ref/icon.md)  object, which
 can be directly manipulated and which provides a wider variety of
 operations. Many of those in turn have been obviated by the
@@ -38,14 +38,14 @@ icon -= I
 
 If you need to add the same color to every
 pixel, you can do so using a color value. Color values have the same
-format as in HTML: \"#RRGGBB\" with two hexadecimal digits for each
+format as in HTML: "#RRGGBB" with two hexadecimal digits for each
 color component. That gives you a range in color from 0 to FF (which is
 255 in decimal). 
 
 You can also specify a color value as
-\"#RGB\". The single digit is automatically repeated, so \"#F00\" is the
-same as \"#FF0000\", which is bright red. For certain pre-defined color
-values, you can also specify a name, such as \"red\". See [HTML
+"#RGB". The single digit is automatically repeated, so "#F00" is the
+same as "#FF0000", which is bright red. For certain pre-defined color
+values, you can also specify a name, such as "red". See [HTML
 colors](/ref/appendix/html-colors.md) for a list of color names.
 
 
@@ -59,7 +59,7 @@ multiplicatively, you can use the \'`*`\' operator.
 ### Example:
 
 ``` dm
- mob/verb/multicon(factor as num) icon \*= factor
+ mob/verb/multicon(factor as num) icon *= factor
 
 ```
 

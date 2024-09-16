@@ -8,7 +8,7 @@
 +   The remainder of A / B.
 
 
-`A %% B` is read \"A modulo B\", which stands for the remainder
+`A %% B` is read "A modulo B", which stands for the remainder
 of A divided by B. 
 
 This is a newer version of the `%` operator

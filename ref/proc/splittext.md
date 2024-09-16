@@ -26,23 +26,23 @@ and can be more than one character long.
 ### Example:
 
 ``` dm
- var/list/items = splittext(\"apples,oranges,bananas\",
-\",\") // prints \"apples\", \"oranges\", and \"bananas\" separately
-for(var/item in items) usr \<\< item 
+ var/list/items = splittext("apples,oranges,bananas",
+",") // prints "apples", "oranges", and "bananas" separately
+for(var/item in items) usr << item 
 ```
  
 
 Where multiple
 delimiters are next to each other, they\'re considered to be separating
-an empty string. Therefore splittext(\"a,,b,c\", \",\") would return a
+an empty string. Therefore splittext("a,,b,c", ",") would return a
 list with four elements instead of three. Splitting empty text returns
 an empty list. 
 
 If a regular expression is used as the
 delimiter, any capturing groups in the expression will be included in
 the list, in order. (The whole match itself will come first, if
-include_delimiters is true.) So for instance splitting by regex(\",\")
-will not include the comma, but splitting by regex(\"(,)\") will. Groups
+include_delimiters is true.) So for instance splitting by regex(",")
+will not include the comma, but splitting by regex("(,)") will. Groups
 that were not part of the match will be null. 
 
 If the start or

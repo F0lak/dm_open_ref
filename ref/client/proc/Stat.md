@@ -34,9 +34,9 @@ received the updates.
 client/var/updateinventory = 1 // set to 1 if inventory changes
 client/Stat() // if not ready to update, Stat() won\'t be called again
 till sleep is done while(!updategold && !updateinventory) sleep(5)
-if(statpanel(\"Gold\")) // switch to Gold panel and ask if player is
-looking at it stat(\"Gold\", mob.gold) updategold = 0 // we updated, so
-turn this flag back off if(statpanel(\"Inventory\")) stat(mob.contents)
+if(statpanel("Gold")) // switch to Gold panel and ask if player is
+looking at it stat("Gold", mob.gold) updategold = 0 // we updated, so
+turn this flag back off if(statpanel("Inventory")) stat(mob.contents)
 updateinventory = 0 
 ```
  

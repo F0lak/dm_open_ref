@@ -68,7 +68,7 @@ also appear in the contents of those turfs.
 
 Note: This means if
 an atom is in a turf\'s contents, its loc is *not necessarily* that
-turf. The contents list is made to include \"overhangers\" from another
+turf. The contents list is made to include "overhangers" from another
 tile for ease of use.
 ### Movement
 
@@ -86,7 +86,7 @@ values for the target location.
 Pixel movement changes the
 behavior of the Move() proc, because a lot of things are possible that
 were not possible when BYOND only supported moving one tile at a time.
-For starters, a Move() is either a \"slide\" or a \"jump\" depending on
+For starters, a Move() is either a "slide" or a "jump" depending on
 the distance. A slide is when the move can be stopped partway; a jump is
 strictly pass/fail. Anything greater than one tile *and* the mover\'s
 regular step_size is considered a jump. Changing z levels is also a

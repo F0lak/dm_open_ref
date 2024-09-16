@@ -27,22 +27,22 @@ game.
 ### Example:
 
 ``` dm
- mob/proc/ItemShop() var/items = list(\"Get credits!\",
-\"Magic sword\"=10, \"Skeleton key\"=50) var/choices\[0\] var/item,price
-for(item in items) price = items\[item\] choices\[\"\[item\]: \[price\]
-credit\\s\"\] = item var/credits = world.GetCredits(key)
-if(isnull(credits)) src \<\< \"Sorry, the item shop isn\'t available
-right now.\" return var/choice = input(src,\\ \"You have \[credits\]
-credit\\s. What would you like to purchase?\",\\ \"Item Shop\")\\ as
+ mob/proc/ItemShop() var/items = list("Get credits!",
+"Magic sword"=10, "Skeleton key"=50) var/choices[0] var/item,price
+for(item in items) price = items[item] choices["[item]: [price]
+credit\\s"] = item var/credits = world.GetCredits(key)
+if(isnull(credits)) src << "Sorry, the item shop isn\'t available
+right now." return var/choice = input(src,\\ "You have [credits]
+credit\\s. What would you like to purchase?",\\ "Item Shop")\\ as
 null\|anything in choices if(!choice) return // cancel if(choice ==
-\"Get credits\") src \<\<
-link(\"http://www.byond.com/games/Author/MyGame/credits\") return item =
-choices\[choice\] price = items\[item\] if(!price) return src \<\<
-\"Contacting item shop\...\" var/result = world.PayCredits(name, price,
-\"Item shop: \[item\]\") if(isnull(result)) src \<\< \"Sorry, the item
-shop isn\'t available right now.\" else if(!result) src \<\< \"You need
-\[price-credits\] more credit\\s to buy \[item\].\" else src \<\< \"You
-bought \\a \[item\]!\" // Now give the user the item and save their
+"Get credits") src <<
+link("http://www.byond.com/games/Author/MyGame/credits") return item =
+choices[choice] price = items[item] if(!price) return src <<
+"Contacting item shop..." var/result = world.PayCredits(name, price,
+"Item shop: [item]") if(isnull(result)) src << "Sorry, the item
+shop isn\'t available right now." else if(!result) src << "You need
+[price-credits] more credit\\s to buy [item]." else src << "You
+bought \\a [item]!" // Now give the user the item and save their
 character // These procs are for you to define src.AddEquipment(item)
 src.SaveCharacter() 
 ```

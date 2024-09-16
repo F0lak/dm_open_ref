@@ -4,16 +4,16 @@
 +   html_encode(PlainText)
 <!-- -->
 **Args:**
-+   PlainText: text to be html \"escaped\"
++   PlainText: text to be html "escaped"
 <!-- -->
 **Returns:**
 +   escaped text
 
 
-Special characters such as \< and \> are not displayed
+Special characters such as < and > are not displayed
 literally in html and may produce garbled output. If you want to ensure
-that an entire text string is displayed literally, you can \"escape\"
-those characters. For example, \< is produced by the code `&lt;` and \>
+that an entire text string is displayed literally, you can "escape"
+those characters. For example, < is produced by the code `&lt;` and >
 is produced by the code `&gt;`. 
 
 The `html_encode()` instruction
@@ -23,8 +23,8 @@ literally:
 ### Example:
 
 ``` dm
- mob/verb/say(T as text) view() \<\< \"\[usr\] says,
-\'\[html_encode(T)\]\'\" 
+ mob/verb/say(T as text) view() << "[usr] says,
+\'[html_encode(T)]\'" 
 ```
  
 
@@ -34,7 +34,7 @@ skipped. This keeps automatically created links in the output from being
 broken. 
 
 Note for BYOND oldies: the old-style formatting codes
-such as \"\\red\" which are still parsed but not encouraged are
+such as "\\red" which are still parsed but not encouraged are
 completely stripped out by html_encode().
 
 > [!TIP] 

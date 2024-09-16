@@ -1,6 +1,6 @@
 # preload_rsc var (client)
 **Default value:**
-+   1\.
++   1.
 
 
 This variable controls whether resource files (icons and
@@ -32,7 +32,7 @@ and put the URL here.
 
 ``` dm
  client/preload_rsc =
-\"http://dan.byond.com/mygame_rsc.zip\" 
+"http://dan.byond.com/mygame_rsc.zip" 
 ```
  
 

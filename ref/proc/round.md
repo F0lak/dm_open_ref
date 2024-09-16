@@ -18,8 +18,8 @@ less than or equal to A), and has been deprecated in favor of
 ### Example:
 
 ``` dm
- usr \<\< round(1.45) // outputs 1 usr \<\< round(-1.45) //
-outputs -2 usr \<\< round(1.45,1.5) // outputs 1.5 
+ usr << round(1.45) // outputs 1 usr << round(-1.45) //
+outputs -2 usr << round(1.45,1.5) // outputs 1.5 
 ```
 
 

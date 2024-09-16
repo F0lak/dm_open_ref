@@ -18,7 +18,7 @@ identity. In that case, it would be more efficient to turn off the extra
 level of authentication. In other situations, the hub may not be
 available, such as from behind a firewall or on a LAN without internet
 access. In those cases, all hub access (including authentication) can be
-disabled by entering the command \".configuration hub-address none\" in
+disabled by entering the command ".configuration hub-address none" in
 Dream Seeker. 
 
 Connections to worlds on the same machine are not

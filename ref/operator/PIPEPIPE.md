@@ -16,8 +16,8 @@ evaluated.
 ### Example:
 
 ``` dm
-mob/verb/Fly() if(swimming \|\| IsStuck()) src \<\< \"You
-can\'t fly right now!\" return 
+mob/verb/Fly() if(swimming \|\| IsStuck()) src << "You
+can\'t fly right now!" return 
 ```
  
 

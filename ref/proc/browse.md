@@ -2,7 +2,7 @@
 
 <!-- -->
 **Format:**
-+   usr \<\< browse(Body,Options)
++   usr << browse(Body,Options)
 <!-- -->
 **Args:**
 +   Body: html text, file, or null to close the browser.
@@ -37,7 +37,7 @@ window
     is not specified, the embedded browser panel will be used.
 file
 +   When this is unspecified, the client will store the generated html
-    file in the user\'s byond \"cache\" directory with an appropriate
+    file in the user\'s byond "cache" directory with an appropriate
     name. If Body is a text string, the client will generate a unique
     name. If it is a file, it will use the name of the file. You can
     override this by setting this parameter. This is only useful when
@@ -50,9 +50,9 @@ display
     might be useful, for instance, to first send an image to a user and
     then display a web page that uses that image: 
 ``` dm
- usr \<\<
-    browse(\'monster.png\',\"display=0\") usr \<\<
-    browse(\"![](monster.png)A scary monster appears from the mist!\")
+ usr <<
+    browse(\'monster.png\',"display=0") usr <<
+    browse("![](monster.png)A scary monster appears from the mist!")
     
 ```
  Note that this performs the same function as the
@@ -79,7 +79,7 @@ size
     `WIDTHxHEIGHT`.
 can_close
 +   This specifies whether the window should be closable. The default
-    value is 1, which enables the standard \"X\" button for closing.
+    value is 1, which enables the standard "X" button for closing.
 can_resize
 +   This controls whether the window is resizable. The default value is
     1, enabling resizing and maximizing.
@@ -101,26 +101,26 @@ following example displays a help page in a popup window.
 ### Example:
 
 ``` dm
- var/const/help = {\"
+ var/const/help = {"
 You are beyond help!
-\"} client/verb/help() usr \<\< browse(help,\"window=help\") 
+"} client/verb/help() usr << browse(help,"window=help") 
 ```
 
 You can use commands like [output()](/ref/proc/output.md)  and
 [winset()](/ref/proc/winset.md) to interact with popups. The name of the
 window is the same name you gave the popup, and the browser is
-\"\[windowname\].browser\".
+"[windowname].browser".
 ### Example:
 
 ``` dm
- client/verb/more_help() usr \<\< output(\"You are still
-beyond help!\", \"help.browser\") 
+ client/verb/more_help() usr << output("You are still
+beyond help!", "help.browser") 
 ```
 
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [browse_rsc proc](/ref/proc/browse_rsc.md) 
 > +   [file proc](/ref/proc/file.md) 
 > +   [link proc](/ref/proc/link.md) 

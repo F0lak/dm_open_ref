@@ -6,9 +6,9 @@
 +   load_ext(LibName,FuncName)
 <!-- -->
 **Args:**
-+   LibName: name of external library (\"test.DLL\") (note: the .dll or
++   LibName: name of external library ("test.DLL") (note: the .dll or
     .so suffix is not required)
-+   FuncName: name of function in external library (\"func\"), which may
++   FuncName: name of function in external library ("func"), which may
     have prefixes to describe the type of function
 <!-- -->
 **Returns:**
@@ -31,7 +31,7 @@ will be thrown.
 
 ``` dm
  var/logfunc proc/LogLine(msg) logfunc \|\|=
-load_ext(\"my_lib\", \"byond:OutputToLog\") call_ext(logfunc)(msg)
+load_ext("my_lib", "byond:OutputToLog") call_ext(logfunc)(msg)
 
 ```
 

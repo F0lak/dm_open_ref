@@ -12,7 +12,7 @@
     limit
 <!-- -->
 **Returns:**
-+   A size value in `"[width]x[height]"` format, e.g. \"60x16\"
++   A size value in `"[width]x[height]"` format, e.g. "60x16"
 
 
 Because maptext rendering may vary by client, `MeasureText`

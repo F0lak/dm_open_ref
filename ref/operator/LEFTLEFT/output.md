@@ -1,7 +1,7 @@
-## \<\< output operator
+## << output operator
 
 **Format:**
-+   A \<\< B
++   A << B
 
 
 Cause the value B to be output to any players connected to mobs
@@ -12,15 +12,15 @@ mob, the whole world, or any list containing mobs.
 ### Example:
 
 ``` dm
- usr \<\< \"Hi, \[usr.name\]\" view() \<\< \"To all in
-view\" world \<\< \"Hi everybody!\" usr \<\< \'giggle.wav\' view() \<\<
+ usr << "Hi, [usr.name]" view() << "To all in
+view" world << "Hi everybody!" usr << \'giggle.wav\' view() <<
 image(/obj/Fireball,usr) 
 ```
 
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+> +   [<< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
 > +   [output proc](/ref/proc/output.md) 
 > +   [browse proc](/ref/proc/browse.md) 
 > +   [browse_rsc proc](/ref/proc/browse_rsc.md) 

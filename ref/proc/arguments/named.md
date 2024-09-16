@@ -13,8 +13,8 @@ example shows several ways of producing the same call to a procedure.
 ### Example:
 
 ``` dm
- mob/proc/MyProc(a,b,c) src \<\<
-\"MyProc(\[a\],\[b\],\[c\])\" mob/verb/test() MyProc(1,2,3) //positional
+ mob/proc/MyProc(a,b,c) src <<
+"MyProc([a],[b],[c])" mob/verb/test() MyProc(1,2,3) //positional
 parameters MyProc(a=1,b=2,c=3) //named arguments MyProc(1,b=2,c=3)
 //positional and named arguments MyProc(c=3,a=1,b=2) //named arguments
 can come in any order 
@@ -50,8 +50,8 @@ want.
 ### Example:
 
 ``` dm
- mob proc/MyProc(a,b,c) usr \<\<
-\"mob.MyProc(\[a\],\[b\],\[c\])\" mob/verb/test() MyProc(a=1,b=2,c=3)
+ mob proc/MyProc(a,b,c) usr <<
+"mob.MyProc([a],[b],[c])" mob/verb/test() MyProc(a=1,b=2,c=3)
 special_mob MyProc(a,b,c,d) if(d) ..() //pass in same order else
 ..(c,b,a) //pass in reverse order test() MyProc(a=1,b=2,c=3,d=0)
 //normal order MyProc(a=1,b=2,c=3,d=1) //reverse the order 

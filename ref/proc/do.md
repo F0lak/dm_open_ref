@@ -12,7 +12,7 @@ code or a single statement.
 ### Example:
 
 ``` dm
- var/i = 3 do world \<\< i\-- while(i) 
+ var/i = 3 do world << i\-- while(i) 
 ```
 
 

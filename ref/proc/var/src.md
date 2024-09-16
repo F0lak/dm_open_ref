@@ -7,13 +7,13 @@ verb. It is defined to have the same type as that object.
 ### Example:
 
 ``` dm
- obj/bread verb/eat() world \<\< \"\[usr\] eats \[src\]\"
+ obj/bread verb/eat() world << "[usr] eats [src]"
 
 ```
  
 
-If a player named \"Bob\" calls \"eat bread\", the
-output will be \"Bob eats the bread.\" 
+If a player named "Bob" calls "eat bread", the
+output will be "Bob eats the bread." 
 
 Note that `src` has no
 meaning for global procs, derived from `/proc`, unless they are invoked

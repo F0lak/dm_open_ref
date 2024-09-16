@@ -23,7 +23,7 @@ Usually you\'ll want to rebuild any overlay/underlay lists during
 :::
 
 
-A database file in DM is called a \"savefile\". All of the
+A database file in DM is called a "savefile". All of the
 contents of a savefile reside in a single file. The contents of the file
 are stored in database directories. These should not be confused with
 real directories in the external file system. The database directories
@@ -32,11 +32,11 @@ are all contained inside the one file.
 Each database directory
 contains a list of sub-directories and a buffer in which data may be
 written. The absolute path to a directory has the following format:
-\"/Dir1/Dir2/\...\". The current directory may be set by assigning its
+"/Dir1/Dir2/...". The current directory may be set by assigning its
 absolute path name to `savefile.cd`. A relative path (one that doesn\'t
-begin with \"/\") may also be used, in which case the new path starts at
-the current directory. The path \".\" stands for the current directory,
-\"..\" for its parent, \"../..\" for its parent\'s parent, etc.
+begin with "/") may also be used, in which case the new path starts at
+the current directory. The path "." stands for the current directory,
+".." for its parent, "../.." for its parent\'s parent, etc.
 
 
 A savefile may be created with `new/savefile(name)`. The
@@ -51,8 +51,8 @@ therefore only be temporary.
 
 > [!TIP] 
 > **See also:**
-> +   [\>\> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
-> +   [\<\< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+> +   [>> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
+> +   [<< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
 > +   [Export proc (client)](/ref/client/proc/Export.md) 
 > +   [New proc (client)](/ref/client/proc/New.md) 
 > +   [procs (savefile)](/ref/savefile/proc.md) 

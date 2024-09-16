@@ -22,7 +22,7 @@
 A way of representing a color to be used in conjunction with
 icon arithmetic, atom.color, or other effects. The colors `rgb(0,0,0)`
 and `rgb(255,255,255)` represent black and white, two corners of the
-\"color cube\".
+"color cube".
 ### Example:
 
 ``` dm
@@ -33,25 +33,25 @@ to its icon src.icon += rgb(20,0,0)
 
 This proc
 returns a text string in the form used by HTML (#RRGGBB). rgb(255,0,128)
-for example becomes \"#ff0080\". If you use an alpha component, the
+for example becomes "#ff0080". If you use an alpha component, the
 format is #RRGGBBAA. You can use strings like this in most procs that
 use colors such as icon blending operations, and you can also use the
 short form #RGB or #RGBA. So if you know in advance that you want to use
-the color white, you can simply use\"#fff\" instead of rgb(255,255,255).
+the color white, you can simply use"#fff" instead of rgb(255,255,255).
 
 
 You can create colors other ways by specifying a different
 [color space](/ref/appendix/color-space.md) . A color space can be
-specified by using a [named](/ref/proc/arguments/named.md) \"space\" argument,
+specified by using a [named](/ref/proc/arguments/named.md) "space" argument,
 or by using a 5-argument format (you can leave the alpha value blank or
 null to skip it), or by using named arguments for the other components.
 ### Example:
 
 ``` dm
  // All of these lines are equivalent. // They create
-(0,100,50) in HSL which is red (#ff0000). src \<\< rgb(0, 100, 50,
-space=COLORSPACE_HSL) src \<\< rgb(0, 100, 50, , COLORSPACE_HSL) src
-\<\< rgb(h=0, s=100, l=50) 
+(0,100,50) in HSL which is red (#ff0000). src << rgb(0, 100, 50,
+space=COLORSPACE_HSL) src << rgb(0, 100, 50, , COLORSPACE_HSL) src
+<< rgb(h=0, s=100, l=50) 
 ```
  
 

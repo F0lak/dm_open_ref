@@ -3,21 +3,21 @@
 
 <!-- -->
 **Format:**
-+   filter(type = Type, parameter = Value, \...)
++   filter(type = Type, parameter = Value, ...)
 
 
 Creates a graphical filter that can be assigned or added to a
 list of filters on an atom or image. 
 
 This proc uses named
-arguments, and the \"type\" value must always be included. To see which
+arguments, and the "type" value must always be included. To see which
 types of filters are available and what parameters they accept, see
 [Filter effects](/ref/notes/filters.md) 
 ### Example:
 
 ``` dm
  atom/proc/Highlight(apply) if(apply) filters =
-filter(type=\"outline\", size=1, color=rgb(255,0,0)) else filters = null
+filter(type="outline", size=1, color=rgb(255,0,0)) else filters = null
 
 ```
  
@@ -29,7 +29,7 @@ filter\'s values afterward will not change the atom\'s filters. For the
 same reason, an abstract filter can\'t be animated. 
 
 A filter
-that is part of an atom\'s filters list, like obj.filters\[1\], is an
+that is part of an atom\'s filters list, like obj.filters[1], is an
 *attached* filter. Changing the values for an attached filter will
 change how that atom is displayed, and attached filters can be animated.
 ### Named Filters {#named-filters byondver="516"}

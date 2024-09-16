@@ -3,7 +3,7 @@
 
 <!-- -->
 **Format:**
-+   New(text, item1, item2, \...)
++   New(text, item1, item2, ...)
 <!-- -->
 **Args:**
 +   text: Text to add to the query

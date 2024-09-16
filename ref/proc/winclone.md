@@ -18,7 +18,7 @@ clone. The clone will exist only for the player you choose.
 ### Example:
 
 ``` dm
- winset(usr, \"templatewindow\", \"clonedwindow\")
+ winset(usr, "templatewindow", "clonedwindow")
 
 ```
  
@@ -29,15 +29,15 @@ it in a Child or Tab control. Menus or macros must be assigned to a
 window with `winset()` before they will work. 
 
 If window_name is
-\"window\", \"pane\", \"menu\", or \"macro\", and the skin file does not
+"window", "pane", "menu", or "macro", and the skin file does not
 have a control of that name already, the proc will create a new control
 of that type from scratch.
 ### Example:
 
 ``` dm
- winclone(usr, \"menu\", \"newmenu\") winset(usr,
-\"newmenu_file\", \"parent=newmenu;name=File\") winset(usr,
-\"newmenu_quit\", \"parent=newmenu_file;name=Quit;command=.quit\")
+ winclone(usr, "menu", "newmenu") winset(usr,
+"newmenu_file", "parent=newmenu;name=File") winset(usr,
+"newmenu_quit", "parent=newmenu_file;name=Quit;command=.quit")
 
 ```
  
@@ -48,14 +48,14 @@ controls so you can set their anchors properly.
 ### Example:
 
 ``` dm
- // Create the pane winclone(usr, \"pane\", \"newpane\") //
+ // Create the pane winclone(usr, "pane", "newpane") //
 Give it a size so we can figure out where to put controls winset(usr,
-\"newpane\", \"size=100x100\") // Add controls winset(usr,
-\"newpane_label\", \\
-\"parent=newpane;pos=0,0;size=100x100;anchor1=0,0;anchor2=100,100\") //
+"newpane", "size=100x100") // Add controls winset(usr,
+"newpane_label", \\
+"parent=newpane;pos=0,0;size=100x100;anchor1=0,0;anchor2=100,100") //
 Put the pane in a child control where it can be seen winset(usr,
-\"a_child\", \"left=newpane\") usr \<\< output(\"New label\",
-\"newpane_label\") 
+"a_child", "left=newpane") usr << output("New label",
+"newpane_label") 
 ```
  
 
@@ -64,7 +64,7 @@ be deleted via a `winset()` call:
 ### Example:
 
 ``` dm
- winset(usr, \"clonedwindow\", \"parent=none\") 
+ winset(usr, "clonedwindow", "parent=none") 
 ```
 
 

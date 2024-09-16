@@ -2,9 +2,9 @@
 
 <!-- -->
 **Format:**
-+   list(A,B,C,\...)
++   list(A,B,C,...)
 +   or
-+   list(A=a,B=b,C=c,\...)
++   list(A=a,B=b,C=c,...)
 <!-- -->
 **Returns:**
 +   A new list with contents A, B, C, and (optional) associated values
@@ -18,7 +18,7 @@ Assign elements to a list.
 ### Example:
 
 ``` dm
- var/L\[\] L = list(1,2,3) 
+ var/L[] L = list(1,2,3) 
 ```
  
 
@@ -31,13 +31,13 @@ create associative lists.
 ### Example:
 
 ``` dm
- var/list/lst = list(\"player\" = \"James Byond\",
-\"score\" = 2000) 
+ var/list/lst = list("player" = "James Byond",
+"score" = 2000) 
 ```
  
 
 That creates a list with contents
-(\"player, \"score\") and associated values (\"James Byond\", 2000)
+("player, "score") and associated values ("James Byond", 2000)
 respectively. 
 
 The index values should be constants, and that
@@ -46,7 +46,7 @@ strings that satisfy all the requirements for variable names, this may
 also be written in a convenient short-hand without the double quotes:
 
 ``` dm
- var/list/lst = list(player = \"James Byond\", score =
+ var/list/lst = list(player = "James Byond", score =
 2000) 
 ```
  

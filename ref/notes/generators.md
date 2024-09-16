@@ -22,7 +22,7 @@ generator, so for instance you can multiply a vector by 2, or by a
 matrix to transform it.
   Operators                  Action
   -------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  \+ - \* /                  Arithmetic operators. You can multiply a 3D vector by a color matrix (where red,green,blue in the matrix correspond to x,y,z) to do a 3D transform, or by a 2D matrix for a 2D transform.
+  \+ - * /                  Arithmetic operators. You can multiply a 3D vector by a color matrix (where red,green,blue in the matrix correspond to x,y,z) to do a 3D transform, or by a 2D matrix for a 2D transform.
   \- (unary)                 Negate the value, same as multiplying by -1.
   turn(), generator.Turn()   Rotate a vector clockwise in the XY plane.
 

@@ -14,14 +14,14 @@ default to null.
 ### Example:
 
 ``` dm
- proc/set_mob_desc(mob/M,desc=\"big and bad\") M.desc =
-desc world \<\< \"The new desc for \[M\] is \[desc\].\" 
+ proc/set_mob_desc(mob/M,desc="big and bad") M.desc =
+desc world << "The new desc for [M] is [desc]." 
 ```
 
 
 
 Note how the variable type may be specified. It is just like
-any other variable definition, except \"`var/`\" is implicit and does
+any other variable definition, except "`var/`" is implicit and does
 not need to be typed.
 
 > [!TIP] 

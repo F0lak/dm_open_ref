@@ -13,7 +13,7 @@ assumed.
 
 ``` dm
  obj/zapper verb/use() var/mob/M for(M in view())
-if(!M.key) break if(!M) M = usr M \<\< \"ZAP!\" del(M) 
+if(!M.key) break if(!M) M = usr M << "ZAP!" del(M) 
 ```
 
 

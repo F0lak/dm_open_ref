@@ -18,7 +18,7 @@ initializations than are possible in the object definition where you
 assign the initial value of variables to constants. 
 
 The
-following example makes use of the \"Location\" parameter that is passed
+following example makes use of the "Location" parameter that is passed
 to objects of type [/atom](/ref/atom.md)  You can pass any number of
 additional arguments to New() by passing them to the `new` instruction
 which creates the object.

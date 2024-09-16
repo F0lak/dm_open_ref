@@ -1,10 +1,10 @@
 ## load_resource proc
 
 **Format:**
-+   Player \<\< load_resource(File)
-+   Player \<\< load_resource(File, KeepTime)
-+   Player \<\< load_resource(File1, File2\..., KeepTime1, File3,
-    File4\..., KeepTime2\...)
++   Player << load_resource(File)
++   Player << load_resource(File, KeepTime)
++   Player << load_resource(File1, File2..., KeepTime1, File3,
+    File4..., KeepTime2...)
 <!-- -->
 **Args:**
 +   Player: A mob or client, a list of them, or world
@@ -32,7 +32,7 @@ keep time of -1.
 
 ``` dm
  mob/Login() ..() // load up these songs now and keep them
-loaded indefinitely src \<\< load_resource(\'music1.ogg\',
+loaded indefinitely src << load_resource(\'music1.ogg\',
 \'music2.ogg\', \'music3.ogg\', -1) 
 ```
  
@@ -43,4 +43,4 @@ aggressive and can still override your choices if need be.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) <!-- -->
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) <!-- -->

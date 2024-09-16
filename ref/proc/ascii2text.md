@@ -18,7 +18,7 @@ text representation.
 ### Example:
 
 ``` dm
- T = ascii2text(65) // = \"A\" 
+ T = ascii2text(65) // = "A" 
 ```
  
 

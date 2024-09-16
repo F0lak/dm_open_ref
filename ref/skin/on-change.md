@@ -14,7 +14,7 @@ If you drag the slider around, the command will not run until you let
 go. 
 
 If you include `[[*]]` in the command, it will be replaced
-by the control\'s new `value`. (See \"Embedded Winget\" in [client
+by the control\'s new `value`. (See "Embedded Winget" in [client
 commands](/ref/skin/commands.md) for more details on the `[[...]]`
 format.)
 

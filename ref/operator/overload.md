@@ -8,7 +8,7 @@ proc defined under A instead, with B as an argument, and the return
 value of that proc would be the result. 
 
 The proc name for an
-overloaded operator is \"operator\" followed immediately by the operator
+overloaded operator is "operator" followed immediately by the operator
 itself, such as `operator*` to override the multiplication operator.
 `A * B` will call `A.operator*(B)` if the proc is available.
 ### Example:
@@ -35,16 +35,16 @@ A.operator-(B)
 -A
 A.operator-()
 Same proc as subtraction, but has no arguments
-A \* B
-A.operator\*(B)
+A * B
+A.operator*(B)
 A / B
 A.operator/(B)
 A % B
 A.operator%(B)
 A %% B
 A.operator%%(B)
-A \*\* B
-A.operator\*\*(B)
+A ** B
+A.operator**(B)
 A \| B
 A.operator\|(B)
 A & B
@@ -53,18 +53,18 @@ A \^ B
 A.operator\^(B)
 \~A
 A.operator\~()
-A \<\< B (shift)
-A.operator\<\<(B)
-A \>\> B (shift)
-A.operator\>\>(B)
-A \<\< B (output)
-A.operator\<\<(B,A,window)\
-world.operator\<\<(B,target,window)
+A << B (shift)
+A.operator<<(B)
+A >> B (shift)
+A.operator>>(B)
+A << B (output)
+A.operator<<(B,A,window)\
+world.operator<<(B,target,window)
 Ignores return value\
 ..() falls back on world proc, then default behavior
-A \>\> B (input)
-A.operator\>\>(null,A)\
-world.operator\>\>(null,source)
+A >> B (input)
+A.operator>>(null,A)\
+world.operator>>(null,source)
 Return value is assigned to B\
 ..() falls back on world proc, then default behavior
 Comparisons (return true or false)
@@ -72,23 +72,23 @@ A \~= B
 A.operator\~=(B)
 A \~! B
 A.operator\~!(B)
-A \< B
-A.operator\<(B)
-A \>= B
-A.operator\>=(B)
-A \> B
-A.operator\>(B)
-A \<= B
-A.operator\<=(B)
-A \<=\> B
-A.operator\<=\>(B)
+A < B
+A.operator<(B)
+A >= B
+A.operator>=(B)
+A > B
+A.operator>(B)
+A <= B
+A.operator<=(B)
+A <=> B
+A.operator<=>(B)
 Assignments with side effects (return value defaults to src)
 A += B
 A.operator+=(B)
 A -= B
 A.operator\--(B)
-A \*= B
-A.operator\*=(B)
+A *= B
+A.operator*=(B)
 A /= B
 A.operator/=(B)
 A %= B
@@ -101,10 +101,10 @@ A &= B
 A.operator&=(B)
 A \^= B
 A.operator\^=(B)
-A \<\<= B
-A.operator\<\<=(B)
-A \>\>= B
-A.operator\>\>=(B)
+A <<= B
+A.operator<<=(B)
+A >>= B
+A.operator>>=(B)
 A := B
 A.operator:=(B)
 ++A
@@ -116,17 +116,17 @@ A.operator++(1)
 A\--
 A.operator\--(1)
 List access
-A\[idx\]
-A.operator\[\](idx)
+A[idx]
+A.operator[](idx)
 Used for reading a list value
-A\[idx\] = B
-A.operator\[\]=(idx, B)
+A[idx] = B
+A.operator[]=(idx, B)
 Used for writing a list value; ignores return value
 Other
 turn(A, B)
 A.operator_turn(B)
-\"\[A\]\"
-A.operator\"\"()
+"[A]"
+A.operator""()
 Specifies a custom way for converting A to text (see notes below)
 
 
@@ -171,8 +171,8 @@ proc/DoEffect(target, effect/E) if(istype(target, /list)) for(var/i in
 target) DoEffect(i, E) return if(target == world \|\| target ==
 world.contents) for(var/client/C) DoEffect(C, E) if(istype(target,
 /client)) DoEffect(target:mob) if(istype(target, /mob))
-if(target:client) \... // do something here to show the effect
-world/proc/operator\<\<(out, target) if(istype(target,/savefile)) return
+if(target:client) ... // do something here to show the effect
+world/proc/operator<<(out, target) if(istype(target,/savefile)) return
 ..() // always save normally if(istype(out, /effect)) DoEffect(target,
 out) else ..() 
 ```

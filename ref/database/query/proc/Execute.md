@@ -28,11 +28,11 @@ query text automatically.
 ### Example:
 
 ``` dm
- var/database/db = new(\"mydb.db\") var/database/query/q =
-new(\"SELECT quest,complete FROM quests WHERE name=?\", usr.key)
+ var/database/db = new("mydb.db") var/database/query/q =
+new("SELECT quest,complete FROM quests WHERE name=?", usr.key)
 if(!q.Execute(db)) return null var/list/completed_quests = new
-while(q.NextRow()) var/row = q.GetRowData() if(row\[\"complete\"\])
-completed_quests\[row\[\"quest\"\]\] = 1 return completed_quests
+while(q.NextRow()) var/row = q.GetRowData() if(row["complete"])
+completed_quests[row["quest"]] = 1 return completed_quests
 
 ```
 

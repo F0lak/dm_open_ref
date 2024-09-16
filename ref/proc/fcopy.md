@@ -17,7 +17,7 @@ files are in double quotes. If the path to the destination file does not
 already exist, it will be created. 
 
 If the source and target are
-paths ending in \"/\", the contents of the source directory (including
+paths ending in "/", the contents of the source directory (including
 sub-directories) will be copied to the target path. 
 
 This
@@ -26,8 +26,8 @@ you might want to dump to an external file.
 ### Example:
 
 ``` dm
- mob/verb/change_world(F as file) fcopy(F,\"world.dm\")
-shell(\"DreamMaker world\") world.Reboot() 
+ mob/verb/change_world(F as file) fcopy(F,"world.dm")
+shell("DreamMaker world") world.Reboot() 
 ```
  
 

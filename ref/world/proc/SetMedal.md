@@ -25,7 +25,7 @@ the rest of the game.
 ``` dm
  mob/monster/dragon Die(mob/killer) // assume Die() is a
 proc all mobs have spawn() if(ismob(killer) && killer.key)
-world.SetMedal(\"Dragon slayer\", killer) 
+world.SetMedal("Dragon slayer", killer) 
 ```
 
 Note: You can specify a different hub path and hub_password by adding

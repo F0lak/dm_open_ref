@@ -2,7 +2,7 @@
 
 <!-- -->
 **Format:**
-+   startup(File,Port=0,Options,\...)
++   startup(File,Port=0,Options,...)
 <!-- -->
 **Args:**
 +   File: The dmb file to run in a new server or null to load the
@@ -19,20 +19,20 @@
 -close
 +   Closes the child copy of DreamDaemon after the world it is running
     shuts down.
--log \<logfile\>
+-log <logfile>
 +   sends all server output to the specified file. The path to the file
     is relative to the world directory (the path containing the world
     `.dmb` file).
 -logself
-+   is identical to \"-log \[YourWorldFile\].log\".
++   is identical to "-log [YourWorldFile].log".
 -safe
 +   runs the server in a special protective mode. The server may only
     access files in the same directory (or below) as the dmb file and
     access to the shell() command is disabled. This is the default mode
     if no security setting is specified and the world is run from a
     directory by the same name as the dmb file.
--home \<path\>
-+   runs with the specified \"safe home\" directory. Normally, in safe
+-home <path>
++   runs with the specified "safe home" directory. Normally, in safe
     mode the directory containing the world dmb file is the safe home.
 -ultrasafe
 +   like -safe, this prohibits all file access. This is the default if
@@ -44,12 +44,12 @@
     operating system. For example, in the UNIX operating system, all of
     the usual access restrictions apply. This mode merely removes
     BYOND\'s built-in safety checks.
--params \<paramtext\>
+-params <paramtext>
 +   this is for passing user-defined parameters to the world. Multiple
     parameters may be packed into a single argument or -params may be
     used several times. In either case, the parameters are all loaded
     into world.params when the world starts up. The parameter format is
-    \"name1=value1&name2=value2&\...\".
+    "name1=value1&name2=value2&...".
 -quiet
 +   disables the server\'s normal output indicating the BYOND version
     number and network port.
@@ -63,7 +63,7 @@
     [world.executor](/ref/world/var/executor.md)  which is automatically
     initialized for you if you include `html/CGI.dm` from the html
     library.
--suid \<path\>
+-suid <path>
 +   runs the world as the owner of the specified directory or path. This
     only works if DreamDaemon is running as root on operating systems
     where there even is such a thing.
@@ -71,17 +71,17 @@
 +   runs the world as the owner of the world dmb file. This only works
     if DreamDaemon is running as root on operating systems where there
     even is such a thing.
--cd \<path\>
+-cd <path>
 +   runs with the specified working directory. Normally, the directory
     containing the world dmb file is used.
 -port P
 +   sets the network port to P. The port may also be specified as a
     positional argument (following the .dmb name).
--ports \<list\>
+-ports <list>
 +   restricts the range of ports that DreamDaemon and any child worlds
     may use. The syntax of *list* is a comma separated list of ports or
     ranges of ports. Example: `-ports 1234,1236,1240-1250`.
--ip \<address\>
+-ip <address>
 +   sets the IP address of the server. This will only work for an IP
     address the system recognizes as one it can use for hosting. Accepts
     numerical addresses only.

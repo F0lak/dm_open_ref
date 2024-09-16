@@ -33,7 +33,7 @@ corners to tile an icon repeatedly from one end to the other. See
 A value of `"0,0"` will cause the atom to appear to the southwest of the
 southwest-most tile on the visible map, outside of the regular map
 bounds. Using HUDs in this way, you can provide a nice decorative
-\"frame\" for your map. 
+"frame" for your map. 
 
 More complex 
 

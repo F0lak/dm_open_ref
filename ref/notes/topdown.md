@@ -4,7 +4,7 @@
 
 By default, BYOND displays all maps in top-down format, so
 `world.map_format` is set to `TOPDOWN_MAP` unless you say otherwise.
-This view means players are looking down on the map, and \"north\"
+This view means players are looking down on the map, and "north"
 corresponds to the top of their screen. (This can be changed by setting
 `client.dir`.) 
 

@@ -25,7 +25,7 @@ and will eventually be discarded.
 
 <!-- -->
 **Format:**
-+   animate(Object, var1=new_value1, var2=new_value2, \..., time, loop,
++   animate(Object, var1=new_value1, var2=new_value2, ..., time, loop,
     easing, flags, delay, tag)
 +   animate(Object, appearance=new_appearance, time, loop, easing,
     flags, delay, tag)
@@ -34,7 +34,7 @@ and will eventually be discarded.
 **Args:**
 +   Object: The atom, image, or client to animate; omit to add another
     step to the same sequence as the last `animate()` call
-+   var1=new_value1, var2=new_value2, \...: Vars to change in the
++   var1=new_value1, var2=new_value2, ...: Vars to change in the
     animation step
 +   var_list: An associative list of vars to change
 +   appearance: New appearance to use instead of multiple var changes
@@ -43,7 +43,7 @@ and will eventually be discarded.
     argument](/ref/proc/arguments/named.md) )
 +   loop: Number of times to run this sequence, or -1 to loop forever
     (may be a named argument)
-+   easing: The \"curve\" followed by this animation step (may be a
++   easing: The "curve" followed by this animation step (may be a
     [named argument](/ref/proc/arguments/named.md) )
 +   flags: Flags that impact how the animation acts (may be a [named
     argument](/ref/proc/arguments/named.md) )
@@ -69,9 +69,9 @@ completely.
 
 ``` dm
  mob/proc/GrowAndFade() // expand (scale by 2x2) and fade
-out over 1/2s animate(src, transform = matrix()\*2, alpha = 0, time = 5)
+out over 1/2s animate(src, transform = matrix()*2, alpha = 0, time = 5)
 obj/spell/proc/Spin() // cast a spell on a monster: make the icon spin
-// this animation takes 3s total (6 ticks \* 5) animate(src, transform =
+// this animation takes 3s total (6 ticks * 5) animate(src, transform =
 turn(matrix(), 120), time = 2, loop = 5) animate(transform =
 turn(matrix(), 240), time = 2) animate(transform = null, time = 2)
 
@@ -271,8 +271,8 @@ belonged to, again it will be treated as a continuation of the sequence.
 ### Example:
 
 ``` dm
-atom/proc/BlurFade() filters += filter(type = \"blur\",
-size = 0) // Animating a filter of src animate(filters\[filters.len\],
+atom/proc/BlurFade() filters += filter(type = "blur",
+size = 0) // Animating a filter of src animate(filters[filters.len],
 size = 5, time = 10) // Switching back to src to animate the next step
 animate(src, alpha = 0, time = 2.5) 
 ```

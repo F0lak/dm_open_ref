@@ -16,8 +16,8 @@ external program that mimics conversation:
 ### Example:
 
 ``` dm
- mob/oracle/verb/tell(T as text) text2file(T,\"talk.in\")
-shell(\"talk \< talk.in \> talk.out\") usr \<\< file2text(\"talk.out\")
+ mob/oracle/verb/tell(T as text) text2file(T,"talk.in")
+shell("talk < talk.in > talk.out") usr << file2text("talk.out")
 
 ```
 

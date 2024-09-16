@@ -69,7 +69,7 @@ to the entire group.
 
 
 This flag is used to force the overlays and underlays of this
-icon (its \"children\") to be drawn with it all at once, not each icon
+icon (its "children") to be drawn with it all at once, not each icon
 individually. One reason you might want to do this is if your player\'s
 icon uses overlays for hair and equipment, and you want to change the
 alpha value to make them fade out. With regular drawing, changing the
@@ -108,10 +108,10 @@ account when drawing.
 ### Example
 
 ``` dm
- obj/lighting_plane screen_loc = \"1,1\" plane = 2
+ obj/lighting_plane screen_loc = "1,1" plane = 2
 blend_mode = BLEND_MULTIPLY appearance_flags = PLANE_MASTER \|
 NO_CLIENT_COLOR // use 20% ambient lighting; be sure to add full alpha
-color = list(null,null,null,null,\"#333f\") mouse_opacity = 0 // nothing
+color = list(null,null,null,null,"#333f") mouse_opacity = 0 // nothing
 on this plane is mouse-visible image/spotlight plane = 2 blend_mode =
 BLEND_ADD icon = \'spotlight.dmi\' // a 96x96 white circle pixel_x = -32
 pixel_y = -32 mob/Login() ..() client.screen += new/obj/lighting_plane

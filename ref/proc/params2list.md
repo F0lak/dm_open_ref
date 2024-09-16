@@ -15,7 +15,7 @@ This instruction converts a parameter text string to a list of
 individual parameters and associated values. The format of the parameter
 text is: 
 ``` dm
- \"name1=value1&name2=value2&\...\" 
+ "name1=value1&name2=value2&..." 
 ```
 
 
@@ -29,7 +29,7 @@ parameter names or values should be written in the form `%xx`, where
 character. (For [Unicode](/ref/notes/Unicode.md) characters, this may be
 several `%xx` sequences using UTF-8 encoding.) For example, `=` would be
 written `%3d`, `;` would be `%3b`, `&` would be `%26`, and `%` would be
-`%25`. These \"escaped\" codes are automatically translated into the
+`%25`. These "escaped" codes are automatically translated into the
 corresponding character when read by `params2list()`. 
 
 This
@@ -47,9 +47,9 @@ parameter name as the list index.
 ### Example:
 
 ``` dm
- var/ptext = \"offense=jwalk&time=10:00\" var/plist\[\] =
-params2list(ptext) var/p for(p in plist) usr \<\< \"\[p\] =
-\[plist\[p\]\]\" 
+ var/ptext = "offense=jwalk&time=10:00" var/plist[] =
+params2list(ptext) var/p for(p in plist) usr << "[p] =
+[plist[p]]" 
 ```
  
 

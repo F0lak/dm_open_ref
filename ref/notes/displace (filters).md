@@ -2,7 +2,7 @@
 ###### BYOND Version 513
 
 Format:
-+   filter(type=\"displace\", \...)
++   filter(type="displace", ...)
 <!-- -->
 Args:
 +   x: Horizontal offset of map (defaults to 0)

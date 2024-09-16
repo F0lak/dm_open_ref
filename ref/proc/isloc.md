@@ -1,6 +1,6 @@
 # isloc proc
 **Format:**
-+   isloc(Loc1, Loc2 \...)
++   isloc(Loc1, Loc2 ...)
 <!-- -->
 **Args:**
 +   Any number of locations to test.

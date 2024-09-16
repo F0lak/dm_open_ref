@@ -16,7 +16,7 @@
 Creates a generator that can be used to produce a random value.
 This generator can be used in client-side particle effects, or it can be
 used in proc code. The types of values it can produce are numbers, 2D or
-3D vectors, or colors (a text string like \"#rrggbb\" or a color
+3D vectors, or colors (a text string like "#rrggbb" or a color
 matrix).
   Generator type   Result type                      Description
   ---------------- -------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------
@@ -26,8 +26,8 @@ matrix).
   color            color (string) or color matrix   Result type depends on whether A or B are matrices or not. The result is interpolated between A and B; components are not randomized separately.
   circle           vector                           A random XY-only vector in a ring between radius A and B, centered at 0,0.
   sphere           vector                           A random vector in a spherical shell between radius A and B, centered at 0,0,0.
-  square           vector                           A random XY-only vector between squares of sizes A and B. (The length of the square is between A\*2 and B\*2, centered at 0,0.)
-  cube             vector                           A random vector between cubes of sizes A and B. (The length of the cube is between A\*2 and B\*2, centered at 0,0,0.)
+  square           vector                           A random XY-only vector between squares of sizes A and B. (The length of the square is between A*2 and B*2, centered at 0,0.)
+  cube             vector                           A random vector between cubes of sizes A and B. (The length of the cube is between A*2 and B*2, centered at 0,0,0.)
 
 
 The optional `rand` argument determines the type of random
@@ -46,8 +46,8 @@ The result of calling `generator()` is a datum of type
 ### Example:
 
 ``` dm
- var/generator/G = generator(\"num\", -1, 1) // generates a
-random number between -1 and 1 world \<\< G.Rand() // generate a number
+ var/generator/G = generator("num", -1, 1) // generates a
+random number between -1 and 1 world << G.Rand() // generate a number
 and output it to world 
 ```
 

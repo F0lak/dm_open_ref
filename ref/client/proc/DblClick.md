@@ -20,7 +20,7 @@
 ### Example:
 
 ``` dm
- client DblClick(O) usr \<\< \"You double-clicked \[O\]\"
+ client DblClick(O) usr << "You double-clicked [O]"
 ..() // do default action 
 ```
  

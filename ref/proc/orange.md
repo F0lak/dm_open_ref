@@ -17,7 +17,7 @@ or not. The center object and its contents are excluded.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [block](/ref/proc/block.md) 
 > +   [oview proc](/ref/proc/oview.md) 
 > +   [range proc](/ref/proc/range.md) <!-- -->

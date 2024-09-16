@@ -15,14 +15,14 @@ Floating point numbers do
 not handle most decimal values precisely. For instance, 0.1 is not
 exactly 0.1, because floating point numbers are stored in a binary
 format and in binary, 1/10 is a fraction that repeats forever---the same
-way 1/3 repeats as 0.33333\... in decimal numbers. It ends up being
+way 1/3 repeats as 0.33333... in decimal numbers. It ends up being
 rounded off, either a little higher or a littler lower than its true
 value. This means that the following loop won\'t work like you might
 expect:
 ### Example:
 
 ``` dm
- for(i = 0, i \< 100, i += 0.1) world \<\< i 
+ for(i = 0, i < 100, i += 0.1) world << i 
 ```
 
 
@@ -46,8 +46,8 @@ using the [`round` proc](/ref/proc/round.md) to adjust the loop var each time,
 although for performance reasons it might be preferable to find another
 alternative. 
 ``` dm
- for(i = 0, i \< 100, i = round(i + 0.1, 0.1))
-world \<\< i 
+ for(i = 0, i < 100, i = round(i + 0.1, 0.1))
+world << i 
 ```
  
 

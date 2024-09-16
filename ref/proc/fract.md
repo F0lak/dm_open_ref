@@ -16,7 +16,7 @@ sign. This is everything after the decimal point.
 ### Example:
 
 ``` dm
- usr \<\< fract(1.45) // outputs 0.45 usr \<\< fract(-1.45)
+ usr << fract(1.45) // outputs 0.45 usr << fract(-1.45)
 // outputs -0.45 
 ```
  

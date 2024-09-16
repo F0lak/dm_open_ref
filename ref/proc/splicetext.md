@@ -3,7 +3,7 @@
 
 <!-- -->
 **Format:**
-+   splicetext(Text,Start=1,End=0,Insert=\"\")
++   splicetext(Text,Start=1,End=0,Insert="")
 <!-- -->
 **Returns:**
 +   Spliced text
@@ -22,9 +22,9 @@ piece of text in its place. This is basically equivalent to
 ### Example:
 
 ``` dm
- // cuts \"nan\" from \"banana\" and replaces it with
-\"laclav\" // prints \"balaclava\" usr \<\< splicetext(\"banana\", 3, 6,
-\"laclav\") 
+ // cuts "nan" from "banana" and replaces it with
+"laclav" // prints "balaclava" usr << splicetext("banana", 3, 6,
+"laclav") 
 ```
  
 

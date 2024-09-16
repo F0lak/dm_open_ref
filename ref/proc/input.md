@@ -13,7 +13,7 @@
 +   Title: The title of the prompt window.
 +   Default: Default value if the user cancels the input.
 +   Type: A verb input type, such as `text`, `message`, `num`,
-    `anything`. If you omit \"as Type\", the type defaults to `text`.
+    `anything`. If you omit "as Type", the type defaults to `text`.
 +   List: An optional list of items to choose from.
 
 
@@ -28,10 +28,10 @@ The `null` type will allow the user to cancel, e.g.
 ### Example:
 
 ``` dm
- mob/verb/create_character() usr.name = input(\"Choose a
-name for your character.\", \"Your Name\", usr.name) usr.gender =
-input(\"Select a gender for your character.\", \"Your Gender\",
-usr.gender) in list(\"male\",\"female\",\"neuter\") 
+ mob/verb/create_character() usr.name = input("Choose a
+name for your character.", "Your Name", usr.name) usr.gender =
+input("Select a gender for your character.", "Your Gender",
+usr.gender) in list("male","female","neuter") 
 ```
 
 
@@ -50,12 +50,12 @@ shopkeeper\'s inventory is its contents.
 ``` dm
  mob/shopkeeper/verb/Buy() var/list/options = list()
 var/obj/item for(item in src) // show a pretty list of options with
-prices included options\[\"\[item\]: \$\[item.price\]\"\] = item
-var/choice = input(\"Buy something!\", \"Shop\") as null\|anything in
-options item = options\[choice\] if(!item) return // user canceled
-if(item.price \> usr.gold) usr \<\< \"You can\'t afford that.\" else //
+prices included options["[item]: \$[item.price]"] = item
+var/choice = input("Buy something!", "Shop") as null\|anything in
+options item = options[choice] if(!item) return // user canceled
+if(item.price > usr.gold) usr << "You can\'t afford that." else //
 give the buyer a copy of the item var/t = item.type new t(usr) usr.gold
--= item.price usr \<\< \"You bought \\a \[item\] for \$\[item.price\].\"
+-= item.price usr << "You bought \\a [item] for \$[item.price]."
 
 ```
  
@@ -75,12 +75,12 @@ they have.
 
 ``` dm
  mob/player/verb/Give_Gold() set src in oview(1) var/amount
-= input(\"How much?\", \"Give gold\") as null\|num if(isnull(amount))
+= input("How much?", "Give gold") as null\|num if(isnull(amount))
 return amount = floor(amount) // round down to a whole number amount =
-min(amount, usr.gold) // don\'t give more than you have if(amount \<= 0)
+min(amount, usr.gold) // don\'t give more than you have if(amount <= 0)
 return // ignore negatives and 0 gold += amount usr.gold -= amount usr
-\<\< \"You gave \[src\] \$\[amount\].\" src \<\< \"\[src\] gave you
-\$\[amount\].\" 
+<< "You gave [src] \$[amount]." src << "[src] gave you
+\$[amount]." 
 ```
  
 

@@ -11,19 +11,19 @@ state of the art!). In that case, each character is displayed for a 10th
 of a second. 
 
 HTML tags in the text can be used to modify the
-colors of the text characters. As a convenience, the \<font\> tag may
+colors of the text characters. As a convenience, the <font> tag may
 include a `bgcolor` attribute, so you don\'t have to do a CSS style
 setting to accomplish the same thing.
 ### Example:
 
 ``` dm
- world maxx = 10 maxy = 10 area text = \" \" turf text =
-\"\...\...\" 
+ world maxx = 10 maxy = 10 area text = " " turf text =
+"......" 
 ```
  
 
 The example above produces a map with a
-blue background (from the area) and turfs (depicted by \".\") that flash
+blue background (from the area) and turfs (depicted by ".") that flash
 from bright red to a shorter span of light red. 
 
 Note that in

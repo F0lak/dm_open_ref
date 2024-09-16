@@ -16,13 +16,13 @@ statement or a code block with optional braces: {}.
 ### Example:
 
 ``` dm
- if(T==1) world \<\< \"TRUE\" else world \<\< \"FALSE\"
+ if(T==1) world << "TRUE" else world << "FALSE"
 
 ```
  
 
-This will display \"TRUE\" if T has value 1, and
-\"FALSE\" otherwise.
+This will display "TRUE" if T has value 1, and
+"FALSE" otherwise.
 
 > [!TIP] 
 > **See also:**

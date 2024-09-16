@@ -13,7 +13,7 @@
 
 ``` dm
  mob/verb/drink() //this effect is very confusing! usr.icon
-= turn(usr.icon,90) usr \<\< \"Woah! That stuff is powerful!\"
+= turn(usr.icon,90) usr << "Woah! That stuff is powerful!"
 sleep(200) usr.icon = turn(usr.icon,-90) 
 ```
  

@@ -7,7 +7,7 @@
 Set A equal to `A % B`. It is shorthand for `A = A % B`.
 
 
-`A % B` is read \"A modulo B\", which stands for the remainder
+`A % B` is read "A modulo B", which stands for the remainder
 of A divided by B. A and B are truncated to integers before the modulo;
 use `%%=` instead to work with fractional values. 
 

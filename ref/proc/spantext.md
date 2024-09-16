@@ -17,7 +17,7 @@
 
 
 This proc is case-sensitive. A common use for this proc is in
-parsing. spantext(\"apples, oranges\",\", \",7) will tell you that,
+parsing. spantext("apples, oranges",", ",7) will tell you that,
 starting at position 7, you need to skip 2 characters to get past any
 commas or spaces. 
 

@@ -16,7 +16,7 @@ days left (rounded up) on their Membership, or -1 for lifetime Members.
 
 ``` dm
  mob/var special_features mob/Login()
-if(client.IsByondMember()) special_features = 1 else src \<\< \"For
+if(client.IsByondMember()) special_features = 1 else src << "For
 special features, [become a BYOND Member](\){'http:=""
-members.byond.com="" '=""}!\" return ..() 
+members.byond.com="" '=""}!" return ..() 
 ```

@@ -20,7 +20,7 @@ instruction is used to get out of the loop).
 ### Example:
 
 ``` dm
- var/i for(i=0, i\<3, i++) world \<\< i 
+ var/i for(i=0, i<3, i++) world << i 
 ```
 
 
@@ -47,8 +47,8 @@ as a way of stringing multiple statements together.
 
 ``` dm
  // make this syntax change temporary #pragma push #pragma
-syntax C for var/i,j for(i=j=0; i\<=10; ++i,j+=i) world \<\< \"A
-triangle \[i\] block\\s high has \[j\] block\\s total.\" #pragma pop
+syntax C for var/i,j for(i=j=0; i<=10; ++i,j+=i) world << "A
+triangle [i] block\\s high has [j] block\\s total." #pragma pop
 
 ```
 

@@ -17,7 +17,7 @@
 +   dir: The direction to orient the image.
 
 
-Images are \"virtual\" objects, which have a purely visual
+Images are "virtual" objects, which have a purely visual
 effect. Once created, they can be made to appear to selected players.
 The image() instruction is simply a short-hand for new/image().
 
@@ -45,8 +45,8 @@ to OBJ_LAYER to make it appear under mobs on the map.
 ### Example:
 
 ``` dm
- var/Box Box = image (\'highlight.dmi\', usr) usr \<\< Box
-\... del(Box) //when done, remove image 
+ var/Box Box = image (\'highlight.dmi\', usr) usr << Box
+... del(Box) //when done, remove image 
 ```
  
 
@@ -54,7 +54,7 @@ Another
 common use of images is in making an overlay: 
 ``` dm
  overlays +=
-image(\'pants.dmi\',icon_state = \"red\") 
+image(\'pants.dmi\',icon_state = "red") 
 ```
  
 
@@ -63,7 +63,7 @@ Since the
 further shortened: 
 ``` dm
  overlays +=
-image(\'pants.dmi\',\"red\") 
+image(\'pants.dmi\',"red") 
 ```
  
 
@@ -83,7 +83,7 @@ for images.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< operator](/ref/operator/%3c%3c.md) 
+> +   [<< operator](/ref/operator/%3c%3c.md) 
 > +   [del proc](/ref/proc/del.md) 
 > +   [icon](/ref/icon.md) 
 > +   [image objects](/ref/image.md) 

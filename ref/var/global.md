@@ -8,8 +8,8 @@ proc, mob, obj, etc.)
 ### Example:
 
 ``` dm
- mob/proc/Counter() var/global/count src \<\< \"Count =
-\[++count\]\" 
+ mob/proc/Counter() var/global/count src << "Count =
+[++count]" 
 ```
  
 

@@ -17,7 +17,7 @@
 +   The original List, whose contents have all been clamped.
 
 
-\"Clamps\" a value, usually a number, to a given allowable
+"Clamps" a value, usually a number, to a given allowable
 range from `Low` to `High`. If the value is already in that range, it is
 unchanged. Otherwise, the closer of `Low` or `High` is returned.
 
@@ -30,8 +30,8 @@ This is effectively equivalent to
 ### Example:
 
 ``` dm
- usr \<\< clamp(5, 0, 10) // 5; it falls between 0 and 10
-usr \<\< clamp(-1, 0, 10) // 0; it is less than 0 usr \<\< clamp(20, 0,
+ usr << clamp(5, 0, 10) // 5; it falls between 0 and 10
+usr << clamp(-1, 0, 10) // 0; it is less than 0 usr << clamp(20, 0,
 10) // 10; it is more than 10 
 ```
  

@@ -5,7 +5,7 @@
 +   A := B
 
 
-This is the \"assign into\" operator. The value of B is
+This is the "assign into" operator. The value of B is
 evaluated, then A. If A is a datum that has an `operator:=` proc
 overloading this operator, then that proc will be called with A as its
 src and B as its only argument. The return value of the proc (which
@@ -17,7 +17,7 @@ as if this were an ordinary A = B assignment.
 
 A common use of
 this operator might be to copy another datum. This is basically just
-\"syntactic sugar\" to make certain datums easier to work with, and is
+"syntactic sugar" to make certain datums easier to work with, and is
 intended mainly for situations where you\'ve overloaded the operator.
 
 > [!TIP] 

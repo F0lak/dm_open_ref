@@ -14,8 +14,8 @@ is /mob. Setting world.mob to 0 prevents the creation of default mobs.
 ### Example:
 
 ``` dm
- world mob = /mob/newbie mob/newbie Login() src \<\<
-\"Welcome, \[name\].\" ..() 
+ world mob = /mob/newbie mob/newbie Login() src <<
+"Welcome, [name]." ..() 
 ```
  
 

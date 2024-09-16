@@ -2,7 +2,7 @@
 ###### BYOND Version 516
 
 **Format:**
-+   #pragma compatibility [\<]{.faded}version[\>]{.faded}
++   #pragma compatibility [<]{.faded}version[>]{.faded}
 
 
 Hints that the compiler should avoid using features past a

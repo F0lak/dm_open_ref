@@ -40,7 +40,7 @@ something else.
 
 Note: Using any of the the flags
 `VIS_INHERIT_ICON`, `VIS_INHERIT_ICON_STATE`, `VIS_INHERIT_DIR`, or
-`VIS_INHERIT_ID` will cause movable atoms to inherit the \"moving\" flag
+`VIS_INHERIT_ID` will cause movable atoms to inherit the "moving" flag
 of their container that appears during gliding. E.g., if your mob is
 walking, anything in its visual contents that uses these flags will use
 a moving icon state instead of a non-moving icon state, when available.

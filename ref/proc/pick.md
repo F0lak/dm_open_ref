@@ -1,7 +1,7 @@
 ## pick proc
 
 **Format:**
-+   pick(Val1,Val2,\...)
++   pick(Val1,Val2,...)
 +   pick(List)
 <!-- -->
 **Returns:**
@@ -26,9 +26,9 @@ likely as the norm, 50 half as likely, and so on.
 ### Example:
 
 ``` dm
- obj/food verb/eat() usr \<\< pick ( \"\[usr\] eats \\a
-\[src\].\", prob(50) \"\[usr\] devours \\a \[src\].\", prob(25)
-\"\[usr\] wolfs down \\a \[src\].\" ) del(src) 
+ obj/food verb/eat() usr << pick ( "[usr] eats \\a
+[src].", prob(50) "[usr] devours \\a [src].", prob(25)
+"[usr] wolfs down \\a [src]." ) del(src) 
 ```
  
 

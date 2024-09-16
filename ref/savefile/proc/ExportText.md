@@ -22,13 +22,13 @@ file.
 
 ``` dm
  mob/verb/write() var/savefile/F = new() var/txtfile =
-file(\"players/\[ckey\].txt\") F\[ckey\] \<\< usr fdel(txtfile)
-F.ExportText(\"/\",txtfile) usr \<\< \"Your savefile looks like this:\"
-usr \<\< \"
+file("players/[ckey].txt") F[ckey] << usr fdel(txtfile)
+F.ExportText("/",txtfile) usr << "Your savefile looks like this:"
+usr << "
     [html_encode(file2text(txtfile))]
-\" mob/verb/read() var/savefile/F = new() var/txtfile =
-file(\"players/\[ckey\].txt\") F.ImportText(\"/\",txtfile) F\[ckey\]
-\>\> usr 
+" mob/verb/read() var/savefile/F = new() var/txtfile =
+file("players/[ckey].txt") F.ImportText("/",txtfile) F[ckey]
+>> usr 
 ```
 
 

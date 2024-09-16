@@ -11,7 +11,7 @@ unless its buffer (or one of its children) is modified, however.
 
 ``` dm
  var/savefile/F = new() // temporary file F.cd =
-\"/MyDir/Icon\" F.cd = \"..\" // change to /MyDir F.cd = \"Icon\" //
+"/MyDir/Icon" F.cd = ".." // change to /MyDir F.cd = "Icon" //
 change to /MyDir/Icon 
 ```
 

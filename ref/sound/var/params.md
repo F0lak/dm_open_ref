@@ -22,9 +22,9 @@ on-preempt
 
 ``` dm
  mob/proc/PlayIntro() var/sound/S = sound(\'intro.ogg\')
-S.params = list(\"on-end\" = \".intro-ended\") src \<\< S
-mob/verb/\_Intro_Ended() set name = \".intro-ended\" src \<\< \"The
-intro has concluded.\" 
+S.params = list("on-end" = ".intro-ended") src << S
+mob/verb/\_Intro_Ended() set name = ".intro-ended" src << "The
+intro has concluded." 
 ```
 
 

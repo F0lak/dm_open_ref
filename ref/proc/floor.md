@@ -16,7 +16,7 @@ to A).
 ### Example:
 
 ``` dm
- usr \<\< floor(1.45) // outputs 1 usr \<\< floor(-1.45) //
+ usr << floor(1.45) // outputs 1 usr << floor(-1.45) //
 outputs -2 
 ```
 

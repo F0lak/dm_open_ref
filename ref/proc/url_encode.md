@@ -4,7 +4,7 @@
 +   url_encode(PlainText, format=0)
 <!-- -->
 **Args:**
-+   PlainText: text to be URL \"escaped\"
++   PlainText: text to be URL "escaped"
 +   format: 0 to treat PlainText as a query string, 1 to treat it as a
     full URL
 <!-- -->
@@ -14,7 +14,7 @@
 
 Special characters such as spaces are not used literally in
 URLs. If you want to ensure that an entire text string is sent
-literally, you can \"escape\" those characters. For example, a double
+literally, you can "escape" those characters. For example, a double
 quote (ASCII 34) is produced by the code `%22`, where 22 is hexadecimal
 for 34. 
 
@@ -28,9 +28,9 @@ escaped.
 
 ``` dm
  mob/verb/Private(M as mob in players, T as text)
-if(!client \|\| !M \|\| !M.client \|\| !T) return usr \<\< \"\\\[To
-[\[M.name\]](?msg=%5Burl_encode(M.key)%5D)\\\] \[T\]\" M \<\< \"\\\[From
-[\[name\]](?msg=%5Burl_encode(key)%5D)\\\] \[T\]\" 
+if(!client \|\| !M \|\| !M.client \|\| !T) return usr << "\[To
+[[M.name]](?msg=%5Burl_encode(M.key)%5D)\] [T]" M << "\[From
+[[name]](?msg=%5Burl_encode(key)%5D)\] [T]" 
 ```
 
 

@@ -43,9 +43,9 @@ operation.
 
 ``` dm
  proc/Weather() spawn while(1) //infinite ticker loop world
-\<\< \"The sun rises in the east.\" sleep(500) world \<\< \"The noon day
-sun rises high in the sky.\" sleep(500) world \<\< \"The sun sinks low
-in the west.\" sleep(1000) 
+<< "The sun rises in the east." sleep(500) world << "The noon day
+sun rises high in the sky." sleep(500) world << "The sun sinks low
+in the west." sleep(1000) 
 ```
  
 
@@ -56,7 +56,7 @@ start it rolling.
 
 Note: sleep time is in 1/10s units, not
 server ticks. If your `world.tick_lag` or `world.fps` value is different
-from the default, `sleep(1)` still means \"sleep for 1/10s\". To sleep
+from the default, `sleep(1)` still means "sleep for 1/10s". To sleep
 for exactly `N` ticks, call `sleep(N * world.tick_lag)`. 
 
 If the

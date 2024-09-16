@@ -7,7 +7,7 @@
 +   The remainder of A / B, where both A and B are integers.
 
 
-`A % B` is read \"A modulo B\", which stands for the remainder
+`A % B` is read "A modulo B", which stands for the remainder
 of A divided by B. 
 
 This operator only works with integer

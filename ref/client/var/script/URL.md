@@ -1,6 +1,6 @@
 # URL (client script)
 **Format:**
-+   #define URL \"byond://byond.com:6000\"
++   #define URL "byond://byond.com:6000"
 
 
 Defining a URL in a script, specifies the world to connect to

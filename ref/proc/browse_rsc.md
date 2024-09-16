@@ -1,7 +1,7 @@
 ## browse_rsc proc
 
 **Format:**
-+   usr \<\< browse_rsc(File,FileName)
++   usr << browse_rsc(File,FileName)
 <!-- -->
 **Args:**
 +   File: a resource file (such as an image)
@@ -26,12 +26,12 @@ you are about to use `browse()`.
 
 ``` dm
  area var room_graphic = \'cozy_room.jpg\' Enter(O) . =
-..() //do default checks if(.) //if we got clearance to enter O \<\<
-browse_rsc(room_graphic,\"room.jpg\") O \<\<
-browse(\"
+..() //do default checks if(.) //if we got clearance to enter O <<
+browse_rsc(room_graphic,"room.jpg") O <<
+browse("
 
 ![](room.jpg)
-\[desc\]\") 
+[desc]") 
 ```
 
 

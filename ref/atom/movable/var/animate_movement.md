@@ -25,8 +25,8 @@ a different direction than it is moving, so make sure this is what you
 want. 
 
 `SYNC_STEPS` is intended for objects that move in unison
-as part of a larger \"conglomerate\" object. You should set the movement
-animation to `SYNC_STEPS` on all but a single \"head\" object, which
+as part of a larger "conglomerate" object. You should set the movement
+animation to `SYNC_STEPS` on all but a single "head" object, which
 will serve as the leader when choosing pixel step sizes. If you do not
 use `SYNC_STEPS`, there are cases where the pixel offsets of objects may
 get out of sync during motion, causing the object to visually break up.

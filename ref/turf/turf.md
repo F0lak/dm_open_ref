@@ -9,8 +9,8 @@ turf prototype `/turf/floor` and `/turf/wall`.
 ### Example:
 
 ``` dm
- turf floor desc = \"A wood plank floor.\" wall desc = \"A
-stone wall.\" density = 1 
+ turf floor desc = "A wood plank floor." wall desc = "A
+stone wall." density = 1 
 ```
  
 

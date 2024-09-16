@@ -1,6 +1,6 @@
 # desc setting (verb)
 **Format:**
-+   set desc = \"Description\"
++   set desc = "Description"
 <!-- -->
 **Args:**
 +   Description: A text string containing the help text.
@@ -16,8 +16,8 @@ beginning of the desc text.
 
 ``` dm
  mob/verb/tell(mob/M,T as text) set desc =
-\"(target,message) Talk privately to someone.\" M \<\< \"\[usr\] tells
-you, \'\[T\]\" 
+"(target,message) Talk privately to someone." M << "[usr] tells
+you, \'[T]" 
 ```
  
 
@@ -32,6 +32,6 @@ This will produce the help text:
 If the syntax description had not been supplied, it
 would have produced: 
 ``` dm
- usage: tell mob \"text\" (Talk
+ usage: tell mob "text" (Talk
 privately to someone.) 
 ```

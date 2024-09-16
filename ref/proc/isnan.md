@@ -9,7 +9,7 @@
 +   n: A number
 <!-- -->
 **Returns:**
-+   1 if this is a numeric value but is an invalid \"not a number\"
++   1 if this is a numeric value but is an invalid "not a number"
     (NaN); 0 otherwise
 
 

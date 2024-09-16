@@ -9,8 +9,8 @@
 ### Example:
 
 ``` dm
- mob/verb/test() usr \<\< tan(0) // 0 usr \<\< tan(45) // 1
-usr \<\< tan(90) // infinity (or close enough) 
+ mob/verb/test() usr << tan(0) // 0 usr << tan(45) // 1
+usr << tan(90) // infinity (or close enough) 
 ```
 
 

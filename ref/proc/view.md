@@ -21,13 +21,13 @@ The default range is
 actually controlled by the size of the map viewport size, which is
 configured with `world.view`. Since the default value of that variable
 is 5, the default range is also 5. You may use any valid view size, so
-an explicit view size such as \"11x17\" is also valid.
+an explicit view size such as "11x17" is also valid.
 ### Example:
 
 ``` dm
- view() \<\< \"to all in sight of \[usr\]\" view(src) \<\<
-\"to all in sight of \[src\]\" view(1,src.loc) \<\< \"to all within
-reach of \[src\]\" 
+ view() << "to all in sight of [usr]" view(src) <<
+"to all in sight of [src]" view(1,src.loc) << "to all within
+reach of [src]" 
 ```
  
 
@@ -58,7 +58,7 @@ things if `client.eye` and `client.mob` are different.
 
 > [!TIP] 
 > **See also:**
-> +   [\<\< output operator](/ref/operator/%3c%3c/output.md) 
+> +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [hearers](/ref/proc/hearers.md) 
 > +   [oview proc](/ref/proc/oview.md) 
 > +   [range proc](/ref/proc/range.md) 

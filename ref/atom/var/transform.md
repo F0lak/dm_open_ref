@@ -27,7 +27,7 @@ not apply to maptext.
 ``` dm
  // Rotate the atom by 45° clockwise src.transform =
 turn(src.transform, 45) // OR var/matrix/M = matrix() M.Turn(45)
-src.transform = M // Scale the atom by 2x2 src.transform \*= 2 // OR
+src.transform = M // Scale the atom by 2x2 src.transform *= 2 // OR
 var/matrix/M = matrix() M.Scale(2,2) src.transform = M 
 ```
 

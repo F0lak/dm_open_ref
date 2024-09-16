@@ -21,7 +21,7 @@ like, as long as it is unique. The key is case-insensitive.
 
 
 Scores and stats use data fields, which might be things like
-\"Score\", \"Level\", \"Class\", etc. Use list2params() to set the
+"Score", "Level", "Class", etc. Use list2params() to set the
 fields that you want to change. Fields that you do not include in the
 list will not be changed. A field with a blank value will be deleted.
 
@@ -37,10 +37,10 @@ avoid holding up the rest of the game.
 
 ``` dm
  var/params // Change the Score and Pet fields params =
-list(\"Score\"=123, \"Pet\"=\"Dog\") world.SetScores(\"Tom\",
-list2params(params)) // Delete the Pet field params = list(\"Pet\"=\"\")
-world.SetScores(\"Tom\", list2params(params)) // Delete Tom\'s scores
-entirely world.SetScores(\"Tom\", \"\") 
+list("Score"=123, "Pet"="Dog") world.SetScores("Tom",
+list2params(params)) // Delete the Pet field params = list("Pet"="")
+world.SetScores("Tom", list2params(params)) // Delete Tom\'s scores
+entirely world.SetScores("Tom", "") 
 ```
 
 Note: You can specify a different hub path and hub_password by adding

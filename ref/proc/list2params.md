@@ -13,7 +13,7 @@ associated values into a single text string suitable for use in a URL or
 similar situation. The format of the resulting text string is:
 
 ``` dm
- \"name1=value1&name2=value2&\...\" 
+ "name1=value1&name2=value2&..." 
 ```
 
 
@@ -36,20 +36,20 @@ corresponding values `"value1"`, `"value2"`, and so on.
 ### Example:
 
 ``` dm
- var/plist\[0\] plist\[\"offense\"\] = \"jwalk\"
-plist\[\"time\"\] = \"10:00\" usr \<\< list2params(plist) 
+ var/plist[0] plist["offense"] = "jwalk"
+plist["time"] = "10:00" usr << list2params(plist) 
 ```
 
 
 
 The above example creates a simple parameter list which
-associates the item \"offense\" with the value \"jwalk\" and the item
-\"time\" with the value \"10:00\". This will produce the text string
-\"offense=jwalk&time=10:00\". 
+associates the item "offense" with the value "jwalk" and the item
+"time" with the value "10:00". This will produce the text string
+"offense=jwalk&time=10:00". 
 
 Object values in the list (like
 say a mob) get turned into references in the parameter text, just as
-though you had embedded them with \"\\ref\[Object\]\". When read back in
+though you had embedded them with "\\ref[Object]". When read back in
 with params2list(), you could convert these values back into real
 references by using locate().
 

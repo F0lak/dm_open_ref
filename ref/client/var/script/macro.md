@@ -13,9 +13,9 @@ typical set of macros.
 ### Example;
 
 ``` dm
- macro ALT+I return \"inventory\" ALT+SHIFT+I return
-\"inventory\\nequipment\" //multiple commands ALT+s return \"say
-\\\...\" //command to be edited 
+ macro ALT+I return "inventory" ALT+SHIFT+I return
+"inventory\\nequipment" //multiple commands ALT+s return "say
+\..." //command to be edited 
 ```
 
 Note: In old versions of BYOND, character keys required the Alt key to

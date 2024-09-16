@@ -13,35 +13,35 @@ space or other punctuation.
 \'his/hers/theirs/its\' \\proper // used in an object name to force
 proper-noun behavior \\improper // used in an object name to force
 improper-noun behavior \\th // insert 1st, 2nd, 5th etc. \\s // insert
-\'s\' if \[\] was plural \\icon // insert icon of following \[\] \\ref
-// insert a unique id for following \[\] \\roman // insert following
-\[\] as a lower-case roman numeral \\Roman // insert following \[\] as
-an upper-case roman numeral \\\... // suppress final new line \\t //
-insert tab \\n // insert new line \\\" // insert double quote \\\\ //
-insert backslash \\\< // insert &lt; (less than) \\\> // insert &gt;
+\'s\' if [] was plural \\icon // insert icon of following [] \\ref
+// insert a unique id for following [] \\roman // insert following
+[] as a lower-case roman numeral \\Roman // insert following [] as
+an upper-case roman numeral \... // suppress final new line \\t //
+insert tab \\n // insert new line \" // insert double quote \\\\ //
+insert backslash \< // insert &lt; (less than) \> // insert &gt;
 (greater than) \\(space) // skip a space \\(newline) // skip a newline
 (and following space) \\xNN // insert a character by its ASCII/Unicode
-value \\uNNNN // \" \\UNNNNNN // \" 
+value \\uNNNN // " \\UNNNNNN // " 
 ```
 
 ### Example:
 
 ``` dm
  mob/verb/steal(M as mob,obj/O as obj in M) O.loc = usr
-view() \<\< \"\[usr\] finds \\himself \\an \[O\].\" 
+view() << "[usr] finds \\himself \\an [O]." 
 ```
 
 ### Example:
 
 ``` dm
- var/DayCount proc/NewDay() DayCount++ world \<\< \"The
-\[DayCount\]\\th day dawns.\" 
+ var/DayCount proc/NewDay() DayCount++ world << "The
+[DayCount]\\th day dawns." 
 ```
 
 ### Example:
 
 ``` dm
- obj/CPU name = \"\\improper CPU\" //prevent capitalization
+ obj/CPU name = "\\improper CPU" //prevent capitalization
 from causing proper-noun behavior 
 ```
 

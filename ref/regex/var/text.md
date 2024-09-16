@@ -2,7 +2,7 @@
 ###### BYOND Version 510
 
 
-If this is a global pattern (using the \"g\" flag), then after
+If this is a global pattern (using the "g" flag), then after
 a call to Find() this var contains the text that was searched. If that
 same text is searched again, the next var is the default starting
 position. 

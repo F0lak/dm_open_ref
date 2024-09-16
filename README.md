@@ -9,7 +9,7 @@ You can join the BYONDiscord server to discuss this project [here](https://disco
 > Due to limitations with the way that github displays markdown, some formatting may not work on the github document, but formatted markdown is still included for integration with Discord bots, etc.
 
 ## BYOND Version
-The reference is currently built with the documentation for BYOND version 516.1644 alpha
+The reference is currently built with the documentation for BYOND version 516.1644 alpha. 
 BYOND release notes can be found [here](https://www.byond.com/docs/notes/515.html).
 
 ## Contributing

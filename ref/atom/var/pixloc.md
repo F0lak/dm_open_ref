@@ -3,7 +3,7 @@
 
 
 
-Returns a pixloc representing this atom\'s `loc`, `step_x`, and
+Returns a [pixloc](/ref/pixloc.md) representing this atom\'s `loc`, `step_x`, and
 `step_y` positions. This var is read-only for areas and turfs, but
 writable for movable atoms. When changed, it will alter the related
 vars. A movable\'s pixloc is null if it isn\'t located on a turf.
@@ -23,10 +23,12 @@ not tied to this atom, so changing its vars will not alter the atom\'s
 pixloc. The only exception is when using operators such as `+=`, since
 `a += b` is just a shortcut for `a = a + b`. 
 ``` dm
- // does not
-alter obj\'s position var/pixloc/p = obj.pixloc p.step_x += 12 // does
-alter obj\'s position, since a += b is just a = a + b obj.pixloc +=
-vector(12,0) 
+// does not alter obj's position
+var/pixloc/p = obj.pixloc
+p.step_x += 12 
+
+// does alter obj's position, since a += b is just a = a + b
+obj.pixloc += vector(12,0) 
 ```
 
 

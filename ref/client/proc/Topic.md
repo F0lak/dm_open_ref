@@ -37,7 +37,7 @@ client/Topic(href)
 Be sure to call the default handler unless you want
 to prevent rerouting of topics to other objects.
 
-> [!DANGER]  
+> [!CAUTION]  
 > Always validate the input in `Topic()` calls to make sure it\'s correct
 and the query you\'re recieving is legitimate. For security reasons, you
 will probably want to control which objects a player has access to,

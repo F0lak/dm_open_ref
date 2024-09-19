@@ -21,7 +21,8 @@ MouseDown() is called, even if over empty space. That means
 `object`{.variable} and `location`{.variable} may be null.
 
 
-Don\'t define this unless you need it, because it generates
+> [!IMPORTANT]
+> Don't define this unless you need it, because it generates
 extra communication that is otherwise avoided. Most operations can be
 done through `Click()`, `DblClick()`, and `MouseDrop()`. The other
 procedures are simply available for completeness. 
@@ -29,12 +30,13 @@ procedures are simply available for completeness.
 The argument
 format for this verb is: 
 ``` dm
- MouseDown(object as null\|atom in
-usr.client,\\ location as null\|turf\|text in usr.client,\\ control as
-text, params as text) 
+MouseDown(object as null|atom in usr.client,\
+          location as null|turf|text in usr.client,\
+          control as text, params as text)
 ```
 
-Note: In BYOND 3.5 this procedure took three different arguments:
+> [!NOTE]
+> In BYOND 3.5 this procedure took three different arguments:
 `location`, `icon_x`, and `icon_y`. Since `icon_x` and `icon_y` have
 been replaced, old code will need to be modified. Games compiled before
 this change will still work normally.

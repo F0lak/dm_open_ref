@@ -2,7 +2,7 @@
 
 <!-- -->
 **Format:**
-+   MouseDrag(src_object,over_object,src_location,over_location,src_control,over_control,params)
++   MouseDrag(src_object, over_object, src_location, over_location, src_control, over_control, params)
 <!-- -->
 **Args:**
 +   src_object: the object being dragged
@@ -14,10 +14,10 @@
 +   src_control: The id of the skin control the object was dragged from
 +   over_control: The id of the skin control the object was dragged over
 +   params: other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
+    <!-- -->
 **Default action:**
-+   Call
-    object.MouseDrag(over_object,src_location,over_location,src_control,over_control,params).
++   Call `object.MouseDrag(over_object, src_location, over_location, src_control, over_control, params)`.
 
 
 This is called while dragging an object by pressing and holding
@@ -25,19 +25,19 @@ the left mouse button over the object and moving the mouse. The
 over_object may be null if dragging over a stat panel or over other
 empty space. 
 
-Don\'t define this unless you need it, because it
-generates extra communication that is otherwise avoided. Most operations
-can be done through Click(), DblClick(), and MouseDrop(). The other
+> [!IMPORTANT]
+> Don't define this unless you need it, because it
+generates extra communication that is otherwise avoided. Most operations can be done through Click(), DblClick(), and MouseDrop(). The other
 procedures are simply available for completeness. 
 
 The argument
 format for this verb is: 
 ``` dm
- MouseDrag(src_object as
-null\|atom in usr.client,\\ over_object as null\|atom in usr.client,\\
-src_location as null\|turf\|text in usr.client,\\ over_location as
-null\|turf\|text in usr.client,\\ src_control as text, over_control as
-text, params as text) 
+MouseDrag(src_object as null|atom in usr.client,\
+          over_object as null|atom in usr.client,\
+          src_location as null|turf|text in usr.client,\
+          over_location as null|turf|text in usr.client,\
+          src_control as text, over_control as text, params as text)
 ```
 
 

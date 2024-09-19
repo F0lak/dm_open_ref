@@ -10,7 +10,8 @@
     object where it was clicked
 +   control: the name of the skin control involved
 +   params: other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
+    <!-- -->
 **Default action:**
 +   Call object.MouseUp(location,control,params).
 
@@ -18,7 +19,8 @@
 This is called when a mouse button is released while pointing
 to an object. 
 
-Don\'t define this unless you need it, because it
+> [!IMPORTANT]
+> Don\'t define this unless you need it, because it
 generates extra communication that is otherwise avoided. Most operations
 can be done through `Click()`, `DblClick()`, and `MouseDrop()`. The
 other procedures are simply available for completeness. 
@@ -26,12 +28,13 @@ other procedures are simply available for completeness.
 The
 argument format for this verb is: 
 ``` dm
- MouseUp(object as
-null\|atom in usr.client,\\ location as null\|turf\|text in
-usr.client,\\ control as text, params as text) 
+MouseUp(object as null|atom in usr.client,\
+        location as null|turf|text in usr.client,\
+        control as text, params as text)
 ```
 
-Note: In BYOND 3.5 this procedure took three different arguments:
+> [!NOTE]
+> In BYOND 3.5 this procedure took three different arguments:
 `location`, `icon_x`, and `icon_y`. Since `icon_x` and `icon_y` have
 been replaced, old code will need to be modified. Games compiled before
 this change will still work normally.

@@ -1,7 +1,7 @@
 ## Topic proc (client)
 
 **Format:**
-+   Topic(href,href_list[],hsrc)
++   Topic(href, href_list[], hsrc)
 <!-- -->
 **When:**
 +   Called when a player connects to a world with a "connection topic"
@@ -23,16 +23,22 @@ The following example uses a very simple href value.
 ### Example:
 
 ``` dm
- mob/Login() src << "Click [here](?source) to download
-the source code." return ..() client/Topic(href) if(href == "source")
-usr << file("world.dm") usr << file("world.rsc") else ..()
+mob/Login()
+  src << "Click <a href=?source>here</a> to download the source code."
+  return ..()
 
+client/Topic(href)
+  if(href == "source")
+    usr << file("world.dm")
+    usr << file("world.rsc")
+  else ..()
 ```
- 
 
 Be sure to call the default handler unless you want
 to prevent rerouting of topics to other objects.
-Always validate the input in `Topic()` calls to make sure it\'s correct
+
+> [!DANGER]  
+> Always validate the input in `Topic()` calls to make sure it\'s correct
 and the query you\'re recieving is legitimate. For security reasons, you
 will probably want to control which objects a player has access to,
 since a player could spoof a topic link containing any arbitrary object
@@ -44,17 +50,22 @@ you would normally want to do things. It is best not to override
 client/Topic() (as in the example above) unless you need to intervene in
 the low-level details of routing the request to the right object.
 
-
 You specify the object that will handle the request by using a
 parameter called "src".
+
 ### Example:
 
 ``` dm
- mob/Login() src << "Click
-[here](?src=\ref%5Bsrc%5D;action=startgame) to start." return ..()
-mob/Topic(href,href_list[]) switch(href_list["action"])
-if("startgame") usr << "Starting game..." else return ..()
+mob/Login()
+   src << "Click <a href='?src=\ref[src];action=startgame'>here</a> to start."
+   return ..()
 
+mob/Topic(href,href_list[])
+   switch(href_list["action"])
+      if("startgame")
+         usr << "Starting game..."
+      else
+         return ..()
 ```
  
 

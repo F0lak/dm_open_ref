@@ -2,7 +2,7 @@
 
 <!-- -->
 **Format:**
-+   MouseDrop(src_object,over_object,src_location,over_location,src_control,over_control,params)
++   MouseDrop(src_object, over_object, src_location, over_location, src_control, over_control,params)
 <!-- -->
 **Args:**
 +   src_object: the object being dropped
@@ -14,10 +14,10 @@
 +   src_control: The id of the skin control the object was dragged from
 +   over_control: The id of the skin control the object was dropped onto
 +   params: other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
+    <!-- -->
 **Default action:**
-+   Call
-    object.MouseDrop(over_object,src_location,over_location,src_control,over_control,params).
++   Call `object.MouseDrop(over_object, src_location, over_location, src_control, over_control, params)`.
 
 
 This is called when a mouse button is released after dragging
@@ -27,11 +27,11 @@ over other empty space.
 The argument format for this verb is:
 
 ``` dm
- MouseDrag(src_object as null\|atom in usr.client,\\
-over_object as null\|atom in usr.client,\\ src_location as
-null\|turf\|text in usr.client,\\ over_location as null\|turf\|text in
-usr.client,\\ src_control as text, over_control as text, params as text)
-
+MouseDrag(src_object as null|atom in usr.client,\
+          over_object as null|atom in usr.client,\
+          src_location as null|turf|text in usr.client,\
+          over_location as null|turf|text in usr.client,\
+          src_control as text, over_control as text, params as text)
 ```
 
 

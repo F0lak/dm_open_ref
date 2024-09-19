@@ -20,24 +20,31 @@ To increase the
 frequency of stat updates, you can lower `world.tick_lag`.
 
 
-Note: Typically only the currently viewed statpanel is updated,
+> [!NOTE]  
+> Typically only the currently viewed statpanel is updated,
 which saves on some network activity and a little time. If however the
 proc sleeps, you need to be sure that any pending updates are displayed
 once the right panel is available. Therefore if you\'re resetting a var
 that indicates the proc should sleep next time, it should not be reset
 unless you know the player is looking at the right statpanel and has
 received the updates.
+
 ### Example
 
 ``` dm
- client/var/updategold = 1 // set to 1 if gold changes
-client/var/updateinventory = 1 // set to 1 if inventory changes
-client/Stat() // if not ready to update, Stat() won\'t be called again
-till sleep is done while(!updategold && !updateinventory) sleep(5)
-if(statpanel("Gold")) // switch to Gold panel and ask if player is
-looking at it stat("Gold", mob.gold) updategold = 0 // we updated, so
-turn this flag back off if(statpanel("Inventory")) stat(mob.contents)
-updateinventory = 0 
+client/var/updategold = 1       // set to 1 if gold changes
+client/var/updateinventory = 1  // set to 1 if inventory changes
+
+client/Stat()
+    // if not ready to update, Stat() won't be called again till sleep is done
+    while(!updategold && !updateinventory)
+        sleep(5)
+    if(statpanel("Gold")) // switch to Gold panel and ask if player is looking at it
+        stat("Gold", mob.gold)
+        updategold = 0  // we updated, so turn this flag back off
+    if(statpanel("Inventory"))
+        stat(mob.contents)
+        updateinventory = 0
 ```
  
 

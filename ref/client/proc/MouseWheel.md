@@ -12,10 +12,10 @@
     object
 +   control: the name of the skin control involved
 +   params: other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
+    <!-- -->
 **Default action:**
 +   Call object.MouseWheel(delta_x,delta_y,location,control,params).
-
 
 This is called when the mouse wheel is moved while over an
 object or control. It is NOT called if over a browser control, or any
@@ -25,7 +25,8 @@ Positive values of
 delta_x and delta_y refer to scrolling right or up, respectively.
 Negative values are left and down, respectively. 
 
-Don\'t define
+> [!IMPORTANT]
+> Don\'t define
 this unless you need it, because it generates extra communication that
 is otherwise avoided. If you only need wheel support on specific
 objects, use atom.MouseWheel() instead which is more selective.

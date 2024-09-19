@@ -10,7 +10,8 @@
     object where it was clicked
 +   control: the name of the skin control involved
 +   params: other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
+    <!-- -->
 **Default action:**
 +   Call object.MouseExited(location,control,params).
 
@@ -18,16 +19,17 @@
 This is called when the mouse moves off of an object.
 
 
-Don\'t define this unless you need it, because it generates
+> [!IMPORTANT]
+> Don't define this unless you need it, because it generates
 extra communication that is otherwise avoided. Defining it on only the
 objects that require it reduces overhead. 
 
 The argument format
 for this verb is: 
 ``` dm
- MouseExited(object as null\|atom in
-usr.client,\\ location as null\|turf\|text in usr.client,\\ control as
-text, params as text) 
+MouseExited(object as null|atom in usr.client,\
+            location as null|turf|text in usr.client,\
+            control as text, params as text)
 ```
 
 

@@ -15,29 +15,30 @@ follow callers up the call chain.
 ### Example:
 
 ``` dm
- world/Error(err) world.log << "Error [err]:"
-for(var/callee/p = caller, p, p = p.caller) world.log << "
-[p.proc.type] (src=[p.src], usr=[p.usr])" if(p.file) world.log
-<< " at [p.file]:[p.line]" 
+world/Error(err)
+	world.log << "Error [err]:"
+	for(var/callee/p = caller, p, p = p.caller)
+		world.log << "[p.proc.type] (src=[p.src], usr=[p.usr])"
+		if(p.file)
+			world.log << " at [p.file]:[p.line]" 
 ```
  
 
-Built-in callee
-vars (read-only):
-[args](/ref/proc/var/args.md) 
-[caller](/ref/proc/var/caller.md) 
-[category](/ref/verb/set/category.md) [^*^]{.small}
-[desc](/ref/verb/set/desc.md) [^*^]{.small}
-file
-[name](/ref/verb/set/name.md) [^*^]{.small}
-line
-proc
-[src](/ref/proc/var/src.md) 
-type
-[usr](/ref/proc/var/usr.md) 
+Built-in callee vars (read-only):
++ [args](/ref/proc/var/args.md) 
++ [caller](/ref/proc/var/caller.md) 
++ [category](/ref/verb/set/category.md) *
++ [desc](/ref/verb/set/desc.md) *
++ file
++ [name](/ref/verb/set/name.md) *
++ line
++ proc
++ [src](/ref/proc/var/src.md) 
++ type
++ [usr](/ref/proc/var/usr.md) 
 
-[^*^ These vars are quick aliases for `proc.`*`varname`*.
-`proc.type` is excluded since `/callee` has its own type var.]{.small}
+<sub>\* These vars are quick aliases for `proc.`*`varname`*.
+`proc.type` is excluded since `/callee` has its own type var.</sub>
 
 
 The `file` and `line` vars are available if debugging

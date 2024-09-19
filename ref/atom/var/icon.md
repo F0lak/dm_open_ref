@@ -10,7 +10,7 @@ on graphical clients.
 
 ``` dm
 turf/wall
- 	icon = \'wall.dmi\' 
+ 	icon = 'wall.dmi' 
 ```
  
 

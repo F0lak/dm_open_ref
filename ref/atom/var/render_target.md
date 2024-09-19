@@ -1,12 +1,10 @@
 ## render_target var (atom)
 
-<!-- -->
 **Default value:**
 +   null
-<!-- -->
+
 **Possible values:**
 +   Any non-empty text string
-
 
 If any icon uses `render_target`, and another icon in the scene
 has a matching `render_source`, this icon will be drawn to a temporary
@@ -29,20 +27,17 @@ If
 the render target is a [`PLANE_MASTER`](/ref/atom/var/appearance_flags.md) 
 vars like `pixel_x/y/w/z` will not apply when it is re-drawn as a
 `render_source`.
-::: note
-
-
-To use a `render_target`, the object it belongs to must be
-within the visible part of the map, or in the HUD, etc., so that it
-would be visible to the user under normal circumstances. If not, it will
-not be included in the render process and therefore it can\'t be reused
-as a `render_source`. 
-
-Additionally, if you use multiple map
-controls, a given render target can only be used as a source on the same
-map control where it appears. This is because each map is rendered
-separately.
-:::
+> [!NOTE]
+> To use a `render_target`, the object it belongs to must be
+> within the visible part of the map, or in the HUD, etc., so that it
+> would be visible to the user under normal circumstances. If not, it will
+> not be included in the render process and therefore it can\'t be reused
+> as a `render_source`. 
+> 
+> Additionally, if you use multiple map
+> controls, a given render target can only be used as a source on the same
+> map control where it appears. This is because each map is rendered
+> separately.
 
 > [!TIP] 
 > **See also:**

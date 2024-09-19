@@ -1,12 +1,10 @@
 ## render_source var (atom)
 
-<!-- -->
 **Default value:**
 +   null
-<!-- -->
+
 **Possible values:**
 +   Any non-empty text string
-
 
 If any icon uses `render_source`, the renderer will look for
 another icon with a matching `render_target` value on the visible map,

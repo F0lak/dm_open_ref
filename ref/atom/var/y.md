@@ -3,6 +3,8 @@
 **Default value:**
 +   The y coordinate of the object on the map.
 
+> [!IMPORTANT]
+> If an object exists on the map (not inside the contents of an `atom/movable`) and any of `atom.x`, `atom.y` or `atom.z` are 0, then the objects `loc` will be set to `null`
 
 You may assign the coordinates of movable objects (mobs and
 objs), but this is not advisable. It is better to compute the new

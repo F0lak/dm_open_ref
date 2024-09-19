@@ -3,6 +3,8 @@
 **Default value:**
 +   The z coordinate of the object on the map.
 
+> [!IMPORTANT]
+> If an object exists on the map (not inside the contents of an `atom/movable`) and any of `atom.x`, `atom.y` or `atom.z` are 0, then the objects `loc` will be set to `null`
 
 The z coordinate is how objects move between maps. When you
 include several maps in a project, they are placed on different z levels

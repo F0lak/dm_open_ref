@@ -27,10 +27,17 @@ To delete the client-side file completely, call
 ### Example:
 
 ``` dm
- mob/verb/save() var/savefile/F = new() F << usr //write
-the player\'s mob usr.client.Export(F) client/New() var/client_file =
-Import() if(client_file) var/savefile/F = new(client_file) //open it as
-a savefile F >> usr //read the player\'s mob return ..() 
+mob/verb/save()
+   var/savefile/F = new()
+   F << usr     //write the player's mob
+   usr.client.Export(F)
+
+client/New()
+   var/client_file = Import()
+   if(client_file)
+      var/savefile/F = new(client_file) //open it as a savefile
+      F >> usr  //read the player's mob
+   return ..()
 ```
 
 

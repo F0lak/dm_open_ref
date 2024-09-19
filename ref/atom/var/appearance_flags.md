@@ -6,7 +6,8 @@
 +   0
 <!-- -->
 **Possible values:**
-+   Any combination of:
+
+Any combination of:
 +   **LONG_GLIDE**: Diagonal glides take as long as cardinal ones
 +   **RESET_COLOR**: If this is an overlay/image/etc., ignore the
     parent\'s color
@@ -108,14 +109,24 @@ account when drawing.
 ### Example
 
 ``` dm
- obj/lighting_plane screen_loc = "1,1" plane = 2
-blend_mode = BLEND_MULTIPLY appearance_flags = PLANE_MASTER \|
-NO_CLIENT_COLOR // use 20% ambient lighting; be sure to add full alpha
-color = list(null,null,null,null,"#333f") mouse_opacity = 0 // nothing
-on this plane is mouse-visible image/spotlight plane = 2 blend_mode =
-BLEND_ADD icon = \'spotlight.dmi\' // a 96x96 white circle pixel_x = -32
-pixel_y = -32 mob/Login() ..() client.screen += new/obj/lighting_plane
-overlays += /image/spotlight 
+obj/lighting_plane
+    screen_loc = "1,1"
+    plane = 2
+    blend_mode = BLEND_MULTIPLY
+    appearance_flags = PLANE_MASTER | NO_CLIENT_COLOR // use 20% ambient lighting; be sure to add full alpha
+    color = list(null,null,null,null,"#333f")
+    mouse_opacity = 0 // nothing on this plane is mouse-visible
+
+image/spotlight plane = 2
+    blend_mode = BLEND_ADD
+    icon = 'spotlight.dmi' // a 96x96 white circle
+    pixel_x = -32
+    pixel_y = -32
+    
+mob/Login()
+    ..()
+    client.screen += new/obj/lighting_plane
+    overlays += /image/spotlight 
 ```
  
 
@@ -138,8 +149,8 @@ plane. A value of 0 will mean everything in the plane is invisible to
 the mouse; 1 means the plane is mouse-invisible but the objects in it
 use their own `mouse_opacity`. 2 is the same except the plane itself is
 mouse-visible.
-### TILE_BOUND {#tile_bound byondver="510"}
 
+### TILE_BOUND <sub>510</sub>
 
 There are many ways an object may be shifted out of the normal
 bounds of the tile it\'s on: a large icon, pixel offsets, step offsets,
@@ -148,23 +159,23 @@ if it touches any visible turf. However, in some cases it\'s more
 desirable to only show the object if its actual loc is in view. The
 `TILE_BOUND` flag will accomplish that. This flag is inherited by images
 and overlays.
-### PIXEL_SCALE {#pixel_scale byondver="511"}
 
+### PIXEL_SCALE <sub>511</sub>
 
 Normally if an icon is transformed via atom.transform, it uses
 bilinear texture sampling which produces a nice smooth effect. If you
 want a granular pixel-art effect instead, `PIXEL_SCALE` will do that for
 you by using nearest-neighbor sampling.
-### PASS_MOUSE {#pass_mouse byondver="513"}
 
+### PASS_MOUSE <sub>513</sub>
 
 If this object has a `render_source` it will take on the
 rendered appearance of another object (source). This is just a visual
 copy, so the mouse still interacts with this object, not the source. The
 `PASS_MOUSE` flag causes any mouse interaction to happen with the source
 instead of this object.
-### TILE_MOVER {#tile_mover byondver="514"}
 
+### TILE_MOVER <sub>514</sub>
 
 This flag indicates this atom is locked to the tile grid as it
 would be in [TILE_MOVEMENT_MODE](/ref/world/var/movement_mode.md),

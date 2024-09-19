@@ -16,11 +16,13 @@
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
 **Default action:**
 +   Call object.Click(location,control,params).
+
 ### Example:
 
 ``` dm
- client Click(O) usr << "You clicked [O]" ..() // do
-default action 
+client
+    Click(O) usr << "You clicked [O]"
+    ..() // do default action 
 ```
  
 
@@ -33,9 +35,9 @@ originally took place.
 The argument format for this verb is:
 
 ``` dm
- Click(object as null\|atom in usr.client,\\ location as
-null\|turf\|text in usr.client,\\ control as text, params as text)
-
+Click(object as null|atom in usr.client,\
+      location as null|turf|text in usr.client,\
+      control as text, params as text)
 ```
 
 

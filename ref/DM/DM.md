@@ -31,5 +31,5 @@ articles you may see notes or sidebar content:
   💡️   Did you know?\
   🔧️   Under the hood\
   🦕️   Deprecated feature\
-  🎳️   Play area\
+  🎳️   Play area
   ---- --------------------

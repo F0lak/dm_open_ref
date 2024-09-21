@@ -4,7 +4,6 @@
 **Format:**
 +   Error()
 
-
 Returns the error code last received by the database.
 
 > [!TIP] 

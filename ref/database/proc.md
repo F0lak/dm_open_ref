@@ -1,8 +1,6 @@
 ## procs (database) 
 ###### BYOND Version 506
 
-
-
 Built-in database procs:
 database/proc
 +   [Close](/ref/database/proc/Close.md) 

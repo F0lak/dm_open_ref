@@ -4,7 +4,6 @@
 **Format:**
 +   Reset()
 
-
 If a query returns any rows of results, Reset() will go back to
 the beginning just after Execute() was called. This is useful if you
 have called NextRow() repeatedly to retrieve a number of rows, but need

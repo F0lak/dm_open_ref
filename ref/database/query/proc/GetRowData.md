@@ -4,7 +4,6 @@
 **Format:**
 +   GetRowData()
 
-
 Returns a list with the current result row for this query. If
 you haven\'t already called Execute() and NextRow(), you should do that
 first. 
@@ -12,9 +11,7 @@ first.
 The list returned is an associative list with name=value
 pairs. A typical result might look like this:
 
-
 `list("name" = "Tom", "quest" = "Save a Dog", complete = 1)`
-
 
 The values returned depend on what type the database table
 thinks they are. For instance if you defined a column as INTEGER or

@@ -5,11 +5,10 @@
 +   GetColumn(column)
 <!-- -->
 **Args:**
-+   column: The column number whose value should be retrieved
-
++   *column*: The column number whose value should be retrieved
 
 Gets the value from the Nth column in this row of results. If
-you haven\'t already called Execute() and NextRow(), you should do that
+you haven't already called Execute() and NextRow(), you should do that
 first. 
 
 To get the name of the column, not the value for this

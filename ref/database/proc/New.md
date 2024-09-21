@@ -7,7 +7,6 @@
 **Args:**
 +   filename: The database filename to open (optional)
 
-
 Creates a new database datum, and opens the file if a filename
 is provided.
 

@@ -4,7 +4,6 @@
 **Format:**
 +   NextRow()
 
-
 If there are result rows in this query (Execute() must be
 called to run the query first), NextRow() will retrieve the next row and
 return 1 if it found a row, or 0 if the results are all finished.

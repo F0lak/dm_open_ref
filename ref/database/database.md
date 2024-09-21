@@ -1,7 +1,6 @@
 ## database datum 
 ###### BYOND Version 506
 
-
 A /database datum gives you the ability to create or access a
 database using SQLite, which allows you to run complex database queries
 on any platform. 
@@ -16,12 +15,15 @@ icons (BLOB). Null values are also allowed.
 ### Example:
 
 ``` dm
- var/database/db = new("mydb.db") var/database/query/q =
-new("SELECT * FROM my_table WHERE name=?", usr.key) if(q.Execute(db)
-&& q.NextRow()) // returns a list such as list(name="MyName",
-score=123) return q.GetRowData() // no data found return null 
-```
+var/database/db = new("mydb.db")
+var/database/query/q = new("SELECT * FROM my_table WHERE name=?", usr.key)
 
+if(q.Execute(db) && q.NextRow())
+    // returns a list such as list(name="MyName", score=123)
+    return q.GetRowData()
+// no data found
+return null
+```
 
 > [!TIP] 
 > **See also:**

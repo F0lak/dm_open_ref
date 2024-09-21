@@ -1,8 +1,6 @@
 ## procs (database query) 
 ###### BYOND Version 506
 
-
-
 Built-in database query procs:
 database/query/proc
 +   [Add](/ref/database/query/proc/Add.md) 

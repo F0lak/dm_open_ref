@@ -1,9 +1,8 @@
 ## IconStates proc (icon)
 
-<!-- -->
 **Format:**
 +   IconStates(mode=0)
-<!-- -->
+
 **Args:**
 +   mode: see [icon_states proc](/ref/proc/icon_states.md) 
 

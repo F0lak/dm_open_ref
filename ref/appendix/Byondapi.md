@@ -1,7 +1,5 @@
-## Byondapi 
+# Byondapi 
 ###### BYOND Version 515
-
-
 
 Byondapi is a set of exported functions from BYOND\'s core
 library that can be used by external libraries that you call via the
@@ -17,7 +15,6 @@ BYOND\'s distribution. When compiling in Windows, you\'ll also need to
 link with `byondapi.lib`; in Linux, your makefile should link with
 `byondcore.so` from BYOND\'s own `bin` directory.
 ### Simple BYOND types
-
 
 For simplicity, BYOND defines some basic types and macros in
 `byondapi.h`. The one most relevant to you is `u4c`, which is an

@@ -1,6 +1,5 @@
 # stddef.dm file
 
-
 This is a special file that\'s included in all projects when
 you compile. It contains various constants, definitions of some built-in
 datums, and so on. 

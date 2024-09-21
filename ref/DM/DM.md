@@ -23,13 +23,13 @@ narrow down anything you might be looking for.
 In various
 articles you may see notes or sidebar content:
   ---- --------------------
-  ⚠️   Important note
-  🔒️   Security concerns
-  🏃️   Performance tip
-  👍️   Rule of thumb
-  🏛️   Compatibility
-  💡️   Did you know?
-  🔧️   Under the hood
-  🦕️   Deprecated feature
+  ⚠️   Important note\
+  🔒️   Security concerns\
+  🏃️   Performance tip\
+  👍️   Rule of thumb\
+  🏛️   Compatibility\
+  💡️   Did you know?\
+  🔧️   Under the hood\
+  🦕️   Deprecated feature\
   🎳️   Play area
   ---- --------------------

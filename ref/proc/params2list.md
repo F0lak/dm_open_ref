@@ -18,13 +18,14 @@ client
 		var/alist/params_list = params2list(params)
 		if(params_list["right"])
 			RightClick(object, location, control, params)
+		else
+			..()
 
 	proc
 		RightClick(object, location, control, params)
 			usr << "You Right clicked on [object]"
 ```
-
-### Parameter Text
+### Parameter Text Format
 The format of the parameter
 text is: 
 ``` dm

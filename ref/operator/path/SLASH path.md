@@ -1,6 +1,5 @@
 ## / path operator
 
-
 This is used to delimit paths in the DM code tree. A path
 beginning with \'/\' is an absolute path (which is independent of where
 in the code it is used). Otherwise, a path is relative, meaning it

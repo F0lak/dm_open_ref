@@ -1,6 +1,4 @@
 ## list operators 
-###### BYOND Version perators {#list-operators short="operators
-
 
 These operators are used for accessing list items.
 [[] operator](/ref/operator/%5B%5D.md) 

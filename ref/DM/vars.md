@@ -12,8 +12,7 @@ mob/verb/dumpglobal()
       usr << "[V] = [global.vars[V]]"
 ```
 
-This example
-displays all global variables. The `global` keyword is used here to
+This example displays all global variables. The `global` keyword is used here to
 distinguish it from `src.vars`, which in this example would be the
 mob\'s vars.
 

@@ -11,7 +11,6 @@ these components range from 0 to 255.
 The color yellow for
 instance is `rgb(255,255,0)` which is red and green mixed together at
 their maximum brightness, but no blue component.
-
 ### COLORSPACE_HSV
 
 HSV stands for hue, saturation, and value.
@@ -30,7 +29,6 @@ In HSV,
 saturation is less meaningful as value gets closer to 0. Black of course
 always has a value of 0. With 10 as the value, saturation=100 gives you
 a very dark color whereas saturation=0 is a 10% shade of gray.
-
 ### COLORSPACE_HSL
 
 HSL is a little more intuitive than HSV. Here, the value is
@@ -47,7 +45,6 @@ Saturation is less meaningful the closer luminance
 is to 0 or 100. At a luminance of 100, the saturation is totally
 irrelevant. At 90, high saturation will get you a very light shade of
 the hue but that isn\'t very far off from a 90% shade of gray.
-
 ### COLORSPACE_HCY
 
 HCY stands for **hue**, **chroma**, and the Y is for grayscale

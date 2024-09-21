@@ -1,6 +1,5 @@
 # DM language details
 
-
 The DM (Dream Maker) language uses a syntax similar to C/C++ to
 build networked multi-user worlds. This reference and the accompanying
 guide discuss the structure and function of DM. 
@@ -15,7 +14,6 @@ is arranged in sections:
     for your world.
 -   **Appendix:** Additional reference informtation that might apply to
     multiple topics, e.g. regarding colors or HTML.
-
 
 You can filter the reference content by subject, which helps
 narrow down anything you might be looking for. 

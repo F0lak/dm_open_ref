@@ -1,7 +1,6 @@
 ## #pragma push/pop directive 
 ###### BYOND Version 515
 
-
 `#pragma push` saves the current state any pragma flags, so for
 instance a warning\'s level can be temporarily changed to ignore, warn,
 or error. 
@@ -11,11 +10,15 @@ state.
 ### Example:
 
 ``` dm
- // temporarily ignore the unused_var warning #pragma push
-#pragma ignore unused_var proc/GNDN() var/nothing // var defined but not
-used #pragma pop 
-```
+// temporarily ignore the unused_var warning
+#pragma push
+#pragma ignore unused_var
 
+proc/GNDN()
+    var/nothing // var defined but not used
+
+#pragma pop
+```
 
 > [!TIP] 
 > **See also:**

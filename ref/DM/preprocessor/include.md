@@ -7,7 +7,7 @@
 **Args:**
 +   "Filename": The path to the filename to include, from the current
     directory.
-+   <Filename>: The path inside the BYOND lib directory.
++   \<Filename>: The path inside the BYOND lib directory.
 
 
 The `#include` statement causes the compiler to process another
@@ -26,8 +26,8 @@ file with that name in Dream Maker.
 ### Example:
 
 ``` dm
- #include "test.dm" // checks ./test.dm #include //
-checks lib-path/test.dm 
+#include "test.dm" // checks ./test.dm
+#include <test.dm> // checks lib-path/test.dm
 ```
  
 
@@ -48,8 +48,7 @@ definitions of an object defined in `"LibCode.dm"`, you should include
 independent of order, but overriding procedure definitions is not. The
 compiler will warn you in such cases if you forget. 
 
-Another
-case in which you should manually include files is if you are writing a
+Another case in which you should manually include files is if you are writing a
 library to be used by other programmers. Since the `.dme` file is not
 distributed with a library, all necessary inclusions must be made in the
 `.dm` files.

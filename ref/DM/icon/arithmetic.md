@@ -1,6 +1,7 @@
 ## icon arithmetic
 
-Note: The following "arithmetical" methods of icon manipulation are
+> [!TIP]
+>  The following "arithmetical" methods of icon manipulation are
 being phased out in favor of the [/icon](/ref/icon.md)  object, which
 can be directly manipulated and which provides a wider variety of
 operations. Many of those in turn have been obviated by the
@@ -16,7 +17,6 @@ One purpose for such operations is to make players look
 different. Other interesting uses (and abuses) will undoubtedly follow.
 ### Addition and Subtraction
 
-
 The result of adding two icons is an arithmetic combination of
 the color components of each individual pixel. At positions where either
 icon is transparent, the result is also transparent. Subtraction,
@@ -31,11 +31,13 @@ clipped.
 ### Example:
 
 ``` dm
- mob/verb addicon(I as icon) icon += I subicon(I as icon)
-icon -= I 
+mob/verb
+   addicon(I as icon)
+      icon += I
+   subicon(I as icon)
+      icon -= I
 ```
  
-
 If you need to add the same color to every
 pixel, you can do so using a color value. Color values have the same
 format as in HTML: "#RRGGBB" with two hexadecimal digits for each
@@ -48,21 +50,18 @@ same as "#FF0000", which is bright red. For certain pre-defined color
 values, you can also specify a name, such as "red". See [HTML
 colors](/ref/appendix/html-colors.md) for a list of color names.
 
-
 If you prefer base 10, you can create color values with the
 rgb(R,G,B) instruction. Each parameter is in the range 0 to 255.
 ### Multiplication
-
 
 To increase (or decrease) the intensity of an icon
 multiplicatively, you can use the \'`*`\' operator.
 ### Example:
 
 ``` dm
- mob/verb/multicon(factor as num) icon *= factor
-
+mob/verb/multicon(factor as num)
+   icon *= factor
 ```
-
 
 > [!TIP] 
 > **See also:**

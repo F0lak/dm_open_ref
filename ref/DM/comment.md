@@ -15,6 +15,9 @@ Multi-line comments may be nested.
 ### Example:
 
 ``` dm
- // single line comment /* multi-line comment */
+  // single line comment
+  /*
+     multi-line comment
+  */
 
 ```

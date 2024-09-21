@@ -1,6 +1,5 @@
 ## DM_BUILD macro
 
-
 This macro indicates the minor version of the compiler, which
 is useful during BYOND beta testing. More often, you will want to use
 the `DM_VERSION` macro instead, which is the major version.

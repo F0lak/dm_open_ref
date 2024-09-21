@@ -12,19 +12,20 @@ default for the second argument in [istype()](/ref/proc/istype.md) .
 ### Example:
 
 ``` dm
- proc/Factory(new_type) world.log << "Creating new
-[new_type]" return new new_type() proc/CreateThing() // pass /thing
-to Factory var/thing/T = Factory(\_\_IMPLIED_TYPE\_\_) 
+proc/Factory(new_type)
+    world.log << "Creating new [new_type]"
+    return new new_type()
+
+proc/CreateThing()
+    // pass /thing to Factory
+    var/thing/T = Factory(__IMPLIED_TYPE__)
 ```
-
-
 
 `__IMPLIED_TYPE__` is valid in the following situations:
 -   In an expression on the right-hand side of an assignment operator
     (this includes operators like `+=`), where the left-hand side is a
     var that has a defined type path.
 -   Within the second argument of [istype()](/ref/proc/istype.md).
-
 
 This is actually a pseudo-macro; the preprocessor doesn\'t
 handle it directly.

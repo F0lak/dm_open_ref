@@ -1,7 +1,5 @@
 ## icons
 
-
-
 An icon file may be referenced by putting single quotes around
 the filename. The file extension determines the type of icon. Currently
 supported icon types are `.dmi`, `.bmp`, `.png`, `.jpg`, and `.gif`. To
@@ -11,12 +9,11 @@ states (such as "live" and "dead").
 ### Example:
 
 ``` dm
- mob icon = \'monster.dmi\' 
+  mob
+    icon = 'monster.dmi'
 ```
  
-
-You can
-also load icons into memory at run-time and manipulate the graphical
+You can also load icons into memory at run-time and manipulate the graphical
 data to produce new icons dynamically. This is done by creating an
 [/icon](/ref/icon.md) object.
 

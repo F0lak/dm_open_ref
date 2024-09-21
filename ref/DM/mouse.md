@@ -68,7 +68,6 @@ if they are used:
 -   vis-x, vis-y: Pixel coordinates relative to the icon\'s position on
     screen
 
-
 The icon-x/y coordinates are integers, and try to point to the
 actual pixel in the icon before any atom transforms are done; i.e. if
 the icon were scaled up to 3 times its size using the transform var,
@@ -77,7 +76,8 @@ lower left pixel of the icon is 1,1. The vis-x/y parameters are
 screen-based, and their origin (1,1) is wherever the lower left corner
 of the icon is rendered. 
 
-Note: vis-x/y will not be included in
+> [!NOTE]
+> vis-x/y will not be included in
 the parameters if they are the same as icon-x/y. 
 
 If the mouse
@@ -85,8 +85,7 @@ is over an overlay, icon-x/y and vis-x/y are relative to the parent
 object, not the overlay icon itself, so it\'s possible to have value
 outside of the normal range of 1,1 to [width],[height]. 
 
-The
-mouse pointer may be customized as well. The following variables all
+The mouse pointer may be customized as well. The following variables all
 deal with the appearance of the pointer. They do not control what
 actions may be taken by the user, but they provide hints to the user
 about what actions may work.

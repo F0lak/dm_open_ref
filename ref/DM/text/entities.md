@@ -1,6 +1,5 @@
 ## entities (text)
 
-
 Special characters may be inserted into text using HTML syntax.
 Such characters are known as entities. They start with an ampersand and
 end with a semicolon. The main reason for doing this is to insert
@@ -10,13 +9,14 @@ character number (e.g. `&#38;` is the same as `&amp;`). The common ones
 are listed in the following table. Note that the same effect may be
 achieved by simply escaping the special character (like `<`). The full
 entity syntax is included for generality.
-  Entity   Character
-  -------- -----------
-  &amp;    &
-  &lt;     <
-  &gt;     >
-  &quot;   "
-  &copy;   ©
+
+|  Entity  | Character |
+|  -------- | ----------- |
+  \&amp;  |  &
+  \&lt;   |  <
+  \&gt;   |  >
+  \&quot; |  "
+  \&copy; |  ©
 
 
 When using numbered entities, you can put an `x` in front of

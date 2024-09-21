@@ -11,14 +11,14 @@ Preprocessor commands
 are called directives. They are placed on a line by themselves and
 always begin with a hash symbol `#`. The preprocessor directives
 recognized by DM are the same as standard C compilers:
-    #define
-    #if
-    #elif
-    #ifdef
-    #ifndef
-    #else
-    #endif
-    #include
-    #pragma
-    #error
-    #warn
+ +   #define
+ +   #if
+ +   #elif
+ +   #ifdef
+ +   #ifndef
+ +   #else
+ +   #endif
+ +   #include
+ +   #pragma
+ +   #error
+ +   #warn

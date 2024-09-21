@@ -6,6 +6,7 @@ Text tags (also known as *elements* by snooty HTML purists)
 control how the text is formatted. HTML syntax is used, so all tags
 start with `<` and end with `>`. The tags which are currently supported
 by Dream Seeker, are listed below:
+```
     <A></A>              // anchor (hyperlink)
     <ACRONYM></ACRONYM>  // acronym or abbreviation
     <B></B>              // bold text
@@ -42,7 +43,7 @@ by Dream Seeker, are listed below:
     <U></U>              // underline
     <VAR></VAR>          // variable name
     <XMP></XMP>          // preformatted (tags ignored)
-
+```
 
 In addition to these, the `<BEEP>` tag, which is not standard
 HTML, may be used to beep the terminal. 
@@ -52,18 +53,16 @@ additional parameters, known as attributes. The most common ones are
 `<FONT>` and `<A>`. The syntax for these is illustrated by the following
 two examples: 
 ``` dm
- "How about this!" "Click
-[here](byond.com "BYOND!")!" 
+"How about <FONT FACE=Arial COLOR=red SIZE=+1>this</FONT>!"
+"Click <A HREF=byond.com TITLE=BYOND!>here</A>!"
 ```
  
-
 As many attributes may
 be specified as desired. The attribute value may have quotes around it,
 but this is only necessary if the value contains spaces. It is usually
 more convenient to use single quotes so you don\'t have to escape the
 double quotes, but you can also embed the HTML in a [text
 document](/ref/DM/text.md)  to avoid the need for escaping quotes.
-
 
 When applying color to text, you can use hexadecimal RGB or you
 can use one of the named [HTML

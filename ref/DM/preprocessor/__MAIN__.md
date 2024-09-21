@@ -1,6 +1,5 @@
 ## \_\_MAIN\_\_ macro
 
-
 The \_\_MAIN\_\_ macro is defined in the main `.dme` file being
 compiled. In all other files included by this file, \_\_MAIN\_\_ is not
 defined. 
@@ -13,10 +12,11 @@ library.
 ### Example:
 
 ``` dm
- #ifdef \_\_MAIN\_\_ #include "demo.dm" #include
-"demo.dmm" #endif 
+#ifdef __MAIN__
+#include "demo.dm"
+#include "demo.dmm"
+#endif
 ```
- 
 
 If the demo requires a lot of
 extra resources, it is probably better to package the demo as a separate

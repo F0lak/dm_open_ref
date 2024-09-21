@@ -1,6 +1,5 @@
 ## sounds
 
-
 A sound stored in a file may be referenced by putting single
 quotes around the filename. The file extension determines the type of
 sound. Currently supported music types include MIDI (.mid or .midi), and
@@ -9,12 +8,10 @@ formats include .wav, .ogg, .mp3, .raw, .wma, and .aiff.
 ### Example:
 
 ``` dm
- world << sound(\'fugue.midi\') 
+world << sound('fugue.midi')
 ```
- 
 
-This
-example plays the specified midi file to all players.
+This example plays the specified midi file to all players.
 
 > [!TIP] 
 > **See also:**

@@ -1,6 +1,5 @@
 ## \_\_LINE\_\_ macro
 
-
 The \_\_LINE\_\_ macro is replaced by the line number in the
 current source file. This may be useful when generating debugging error
 messages.

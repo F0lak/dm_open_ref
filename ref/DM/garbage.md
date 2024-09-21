@@ -22,32 +22,28 @@ itself. In rare cases, you may even depend on this behavior. When you
 are done with such objects, you should either null out the circular
 reference, or you should forcibly destroy each object with the `del`
 instruction.
-::: {.sidebar .underhood}
 
-
-This is a quick list of things that count as references to an
-object:
--   Stored in a var
--   An item in a [list](/ref/list.md) , or [associated](/ref/list/associations.md) 
-    with a list item
--   Has a [tag](/ref/datum/var/tag.md) 
--   Is on the map (always true for [turfs](/ref/turf.md) )
--   Inside another atom\'s [contents](/ref/atom/var/contents.md) 
--   Inside an atom\'s [vis_contents](/ref/atom/var/vis_contents.md) 
--   A temporary value in a still-running proc
--   Is a [mob](/ref/mob.md)  with a [key](/ref/mob/var/key.md) 
--   Is an [image object](/ref/image.md) attached to an atom
-
-
-`del()` will try to clear out the most obvious possible
-references first, and bail out when it\'s done, but if there are still
-references it will search everywhere for any references that remain.
-:::
-
+> [!IMPORTANT] 
+> This is a quick list of things that count as references to an
+> object:
+> -   Stored in a var
+> -   An item in a [list](/ref/list.md) , or [associated](/ref/list/associations.md) 
+>     with a list item
+> -   Has a [tag](/ref/datum/var/tag.md) 
+> -   Is on the map (always true for [turfs](/ref/turf.md) )
+> -   Inside another atom\'s [contents](/ref/atom/var/contents.md) 
+> -   Inside an atom\'s [vis_contents](/ref/atom/var/vis_contents.md) 
+> -   A temporary value in a still-running proc
+> -   Is a [mob](/ref/mob.md)  with a [key](/ref/mob/var/key.md) 
+> -   Is an [image object](/ref/image.md) attached to an atom
+> 
+> 
+> `del()` will try to clear out the most obvious possible
+> references first, and bail out when it\'s done, but if there are still
+> references it will search everywhere for any references that remain.
 
 An object with running or sleeping procs is referenced by the
 `src` variable of those procs and will therefore not be thrown out.
-
 
 Another note is that the `world.contents` list does not count
 as a reference. Otherwise, `/mob` and `/obj` objects would never be
@@ -60,16 +56,13 @@ deleted by the garbage collector.
 Mobs with a non-empty `key`
 and all objects with non-empty `tag` are also immortal. 
 
-Turfs
-and areas do not currently get garbage collected. 
+Turfs and areas do not currently get garbage collected. 
 
-When the
-world shuts down, all objects are destroyed, whether they are referenced
+When the world shuts down, all objects are destroyed, whether they are referenced
 or not. You don\'t have to worry about system memory getting consumed by
 persistent objects. That doesn\'t happen. 
 
-In general, people
-who do not like reference counting garbage collection should be happy
+In general, people who do not like reference counting garbage collection should be happy
 that DM provides a `del` instruction, allowing you to take charge and
 delete things whether they are referenced or not. Another nicety is that
 this automatically nulls out any existing references to the object, so

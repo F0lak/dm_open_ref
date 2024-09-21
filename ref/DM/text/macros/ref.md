@@ -1,11 +1,8 @@
 ## ref text macro 
 ###### BYOND Version 513
 
-
-
 The `\ref` text macro inserts a unique identification number or
 text string for the following embedded object (inside []\'s).
-
 
 In older versions of BYOND, if an object had a tag, that was
 used instead. However this has often proved to be problematic, so
@@ -13,7 +10,6 @@ anything compiled from version 512 onward should expect to output a
 reference number. If you want to use the tag, which stands a better
 chance of still being valid if the object is deleted and recreated (like
 in a world reboot), you can output the object\'s tag explicitly.
-
 
 The primary use for object references embedded in text is in
 topic links. This allows you to encode a reference to an object in the
@@ -29,13 +25,16 @@ procedure.
 ### Example:
 
 ``` dm
- mob/verb/test() usr << "Click
-[here](?src=\ref%5Bsrc%5D;action=start)!" mob/Topic(href,href_list[])
-switch(href_list["action"]) if("start") usr << "Starting the
-game..." else return ..() 
+mob/verb/test()
+   usr << "Click <a href=?src=\ref[src];action=start>here</a>!"
+mob/Topic(href,href_list[])
+   switch(href_list["action"])
+      if("start")
+         usr << "Starting the game..."
+      else
+         return ..()
 ```
  
-
 The above example uses
 an embedded reference to the player\'s own mob to create a link to a
 topic handled by that mob\'s Topic() proc. The `href_list` parameter is
@@ -48,22 +47,20 @@ the href data, you would have to dereference those yourself using the
 locate() instruction.
 ### Browser images
 
-
 In output for browser controls, you can use `\ref[object]` as
 the src parameter for an <img> tag. The object can be an
 [appearance](/ref/atom/var/appearance.md) , an icon, or an atom or image.
-
 
 If the ref string is for an icon, you can add an HTML query
 string after the icon reference.
 ### Example:
 
 ``` dm
- player << browse({"
-![](\ref%5Bicon%5D?state=hungry&dir=%5BEAST%5D)
-"}) 
+player << browse({"
+    <html><body>
+    <img src="\ref[icon]?state=hungry&dir=[EAST]">
+    </body></html>"})
 ```
- 
 
 The query string can include any of the
 following (separated by & characters):

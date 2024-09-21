@@ -1,11 +1,9 @@
 ## \_\_PROC\_\_ macro 
 ###### BYOND Version 515
 
-
 The `__PROC__` macro is replaced by a reference to the current
 proc being compiled. This may be useful when generating debugging error
 messages, especially when wrapped in `nameof`, e.g. `nameof(__PROC__)`.
-
 
 This is actually a pseudo-macro; the preprocessor doesn\'t
 handle it directly.

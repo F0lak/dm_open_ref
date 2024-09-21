@@ -1,6 +1,5 @@
 ## mouse pointers
 
-
 The following mouse pointers are built-in and may be assigned
 to any of the mouse pointer variables. Of course, you can also define
 your own custom mouse pointers using an icon file.

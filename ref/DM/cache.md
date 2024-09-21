@@ -1,12 +1,10 @@
 ## cache
 
-
 Files specified in single quotes are loaded (at compile time)
 into the world cache file (ending in `.rsc`). These are referred to as
 resource files. At runtime these files are downloaded by players into
 their `byond.rsc` file for future use. With the appropriate verbs or
 through savefiles, players may also upload files into the world cache.
-
 
 If a resource file is not used for a long time, it will be
 automatically removed from the cache file to save space. If a cache file

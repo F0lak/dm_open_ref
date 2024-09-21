@@ -1,7 +1,6 @@
 ## \_\_TYPE\_\_ macro 
 ###### BYOND Version 515
 
-
 The `__TYPE__` macro is replaced by a reference to the type
 path currently being compiled. This may be useful when generating
 debugging error messages. If used in a global proc, the value will be

@@ -19,19 +19,20 @@ which does get processed for macro substitution.
 ### Example:
 
 ``` dm
- #define DAY 0 #define NIGHT 1 var/daytime = NIGHT
-//daytime = 1 
+#define DAY   0
+#define NIGHT 1
+var/daytime = NIGHT  //daytime = 1
 ```
 
 ### Example:
 
 ``` dm
- #define SQR(X) ((X)*(X)) var/x = SQR(2) //x = ((2)*(2))
-= 4 
+#define SQR(X) ((X)*(X))
+var/x = SQR(2)       //x = ((2)*(2)) = 4
 ```
  
-
-Note that it\'s usually important to use
+> [!NOTE] 
+> it\'s usually important to use
 parentheses around any arguments you use in a macro. Otherwise strange
 results may occur if you use an expression such as 2+3. In the SQR(X)
 example, if there were no parentheses around each X then the expansion
@@ -41,7 +42,6 @@ important to put parentheses around the entire macro for the same
 reason.
 ### Variadic macros
 
-
 The last parameter of a macro can end in `...` which means that
 it and all other arguments following it count as a single argument. This
 is called a variadic macro because it lets you use a variable number of
@@ -50,11 +50,9 @@ arguments. The last parameter will also become optional.
 
 ``` dm
  #define DEFAULT_LIST(n, items...) if(!n) n = list(items)
-
 ```
 
 ### `#var` to string
-
 
 In a macro\'s body, if you precede a parameter by `#`, the
 replacement value will be turned into a string. For instance, 2 would
@@ -62,12 +60,10 @@ become "2".
 ### Example:
 
 ``` dm
- #define DEBUG_VAR(v) world.log << "[#v] = [v]"
-DEBUG_VAR(usr.x) // world.log << "usr.x = [usr.x]" 
+#define DEBUG_VAR(v) world.log << "[#v] = [v]"
+DEBUG_VAR(usr.x)    // world.log << "usr.x = [usr.x]"
 ```
-
 ### `##var` concatenation
-
 
 A parameter preceded by `##` in the macro body is substituted
 directly, without any spaces. If you use this with the last argument in
@@ -76,12 +72,13 @@ removed if the replacement is empty.
 ### Example:
 
 ``` dm
- #define MACROVAR(k) var/macro_state\_##k //
-MACROVAR(right) becomes var/macro_state_right #define PREFIX_LIST(x,
-y...) list(x, src, ##y) // PREFIX_LIST(1, 2, 3) becomes list(1, src, 2,
-3) // PREFIX_LIST(4) becomes list(4, src) 
-```
+#define MACROVAR(k) var/macro_state_##k
+// MACROVAR(right) becomes var/macro_state_right
 
+#define PREFIX_LIST(x, y...) list(x, src, ##y)
+// PREFIX_LIST(1, 2, 3) becomes list(1, src, 2, 3)
+// PREFIX_LIST(4) becomes list(4, src)
+```
 ### `n###var` repeat
 
 
@@ -90,10 +87,10 @@ repeat the replacement a certain number of times.
 ### Example:
 
 ``` dm
- #define SAYTWICE(t) 2###t #define TOTEXT(t) #t world <<
-"[TOTEXT(SAYTWICE(hi))]" // world << "hihi" 
+#define SAYTWICE(t) 2###t
+#define TOTEXT(t) #t
+world << "[TOTEXT(SAYTWICE(hi))]"   // world << "hihi"
 ```
-
 
 > [!TIP] 
 > **See also:**

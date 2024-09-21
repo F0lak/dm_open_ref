@@ -1,10 +1,10 @@
 ## Insert proc (icon)
 
-<!-- -->
+
 **Format:**
-+   Insert(new_icon,icon_state,dir,frame,moving,delay)
-+   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
-<!-- -->
++   Insert(new_icon icon_state, dir, frame, moving,delay)
++   supports [named arguments](/ref/proc/arguments/named.md)
+
 **Args:**
 +   new_icon: an icon file or /icon object to insert
 +   icon_state: an optional text string, specifying a single icon state
@@ -18,7 +18,6 @@
 +   delay: 0 or null to leave unchanged; positive to set delay for a
     frame and turn rewind off; negative to set delay and rewind
 
-
 This adds additional states or images to an existing icon,
 allowing you to build directional, animated, and multi-state icons on
 the fly. If the state you wish to insert already exists in the file, it
@@ -28,21 +27,25 @@ direction for animation frame 3.
 ### Example:
 
 ``` dm
- // start with a non-animated arrow icon var/icon/I =
-new(\'arrow.dmi\') // make a new state called "blink" var/icon/J =
-new(\'arrow.dmi\') I.Insert(J, "blink", delay=-1) // set rewind flag
-// create darker shades of the arrow var/n = 2 for(var/light=9,
-light>=5, light\--) J = new(\'arrow.dmi\') J.SetIntensity(light/10)
-I.Insert(J, "blink", frame=n++) // congratulations, you have a
-pulsating arrow icon = I 
+// start with a non-animated arrow icon
+var/icon/I = new('arrow.dmi')
+// make a new state called "blink"
+var/icon/J = new('arrow.dmi')
+I.Insert(J, "blink", delay=-1)  // set rewind flag
+// create darker shades of the arrow
+var/n = 2
+for(var/light=9, light>=5, light--)
+   J = new('arrow.dmi')
+   J.SetIntensity(light/10)
+   I.Insert(J, "blink", frame=n++)
+// congratulations, you have a pulsating arrow
+icon = I
 ```
  
-
 The icon resulting from
 this example has two states: The original arrow, and a new state called
 "blink" that pulsates between full and ½ luminance. To use the
 blinking state after that, set the atom\'s icon_state to "blink".
-
 
 (Note for animations: When building an animated icon_state from
 scratch, you can only add 16 new animation frames at a time; i.e.,
@@ -55,7 +58,6 @@ only exception is if you are using the TILED_ICON_MAP map_format, and
 new_icon is a single tile being inserted as a chunk into a larger icon.
 If icon_state, such as "2,0" or "open 0,0", already exists in src as
 one of its smaller pieces, then new_icon will be inserted in its place.)
-
 
 When inserting an individual animation frame, you can change
 the delay for just that frame only. If you don\'t specify a delay, the

@@ -2,12 +2,11 @@
 
 **Format:**
 +   SetIntensity(r,g=r,b=r)
-<!-- -->
+
 **Args:**
 +   r: red component
 +   g: green component
 +   b: blue component
-
 
 This multiplies the pixel intensities by the specified amounts.
 A value greater than 1.0 increases the intensity and a value less than
@@ -17,4 +16,4 @@ A value greater than 1.0 increases the intensity and a value less than
 > **See also:**
 > +   [icon](/ref/icon.md) 
 > +   [procs (icon)](/ref/icon/proc.md) 
-> +   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) <!-- -->
+> +   [MapColors() proc (icon)](/ref/icon/proc/MapColors.md) 

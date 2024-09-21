@@ -1,19 +1,17 @@
 ## New proc (icon)
 
-<!-- -->
 **Format:**
 +   New(icon,icon_state,dir,frame,moving)
-+   [(supports [named arguments](/ref/proc/arguments/named.md) ]{.small}
-<!-- -->
-**Args:**
-+   icon: an icon file or /icon object
-+   icon_state: an optional text string, specifying a single icon state
-    to load
-+   dir: an optional direction to extract
-+   frame: an optional animation frame to extract
-+   moving: Non-zero to extract only movement states, 0 for non-movement
-    states, or null (default) for both
++   supports [named arguments](/ref/proc/arguments/named.md)
 
+**Args:**
++   *icon*: an icon file or /icon object
++   *icon_state*: an optional text string, specifying a single icon state
+    to load
++   *dir*: an optional direction to extract
++   *frame*: an optional animation frame to extract
++   *moving*: Non-zero to extract only movement states, 0 for non-movement
+    states, or null (default) for both
 
 You generally don\'t call this directly but via new(). The
 specified icon file is loaded into memory for direct access and
@@ -30,18 +28,17 @@ Dream Maker editor with an "M" indicator. These states are used for
 animation when the atom using the icon_state moves from one tile to the
 next; otherwise only the normal non-moving state is displayed.)
 
-
 The following contrived example, loads the EAST facing default
 icon state "" from the user\'s icon file, rotates that a bit, and then
 creates a new icon file for the user.
 ### Example:
 
 ``` dm
- mob/verb/test() var/icon/I = new(usr.icon,icon_state =
-"",dir = EAST) I.Turn(90) //rotate clockwise 90 degrees usr.icon = I
-
+mob/verb/test()
+   var/icon/I = new(usr.icon,icon_state = "",dir = EAST)
+   I.Turn(90)   //rotate clockwise 90 degrees
+   usr.icon = I
 ```
- 
 
 Note that merely displaying different icon states or
 directions can generally be achieved without any icon manipulation,

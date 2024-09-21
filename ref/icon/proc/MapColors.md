@@ -17,12 +17,12 @@
 +   ra: portion of old red component -> new alpha component
 +   r0: new base red component
 +   ...
+
 *or*
 +   r_rgb: red component is converted to this color
 +   g_rgb: green component is converted to this color
 +   b_rgb: blue component is converted to this color
 +   rgb0: this color is added to the result
-
 
 This is used for complex color mapping that can be used for
 many special effects. For the number form, values usually range from 0
@@ -41,26 +41,22 @@ and all of them are added together.
 Either of these calls
 change the icon to grayscale: 
 ``` dm
-icon.MapColors(0.3,0.3,0.3,
-0.59,0.59,0.59, 0.11,0.11,0.11, 0,0,0) // or...
-icon.MapColors(rgb(77,77,77), rgb(150,150,150), rgb(28,28,28),
-rgb(0,0,0))
+icon.MapColors(0.3,0.3,0.3, 0.59,0.59,0.59, 0.11,0.11,0.11, 0,0,0)
+// or...
+icon.MapColors(rgb(77,77,77), rgb(150,150,150), rgb(28,28,28), rgb(0,0,0))
 ```
- 
-
 The calculations are as follows:
 -   For any red in the original icon, add 30% gray to the output.
 -   For any green in the original icon, add 59% gray to the output.
 -   For any blue in the original icon, add 11% gray to the output.
 -   Add an additional 0% (nothing).
 
-
 Or this will make a nice moonlight effect:
 
 ``` dm
-icon.MapColors(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4,
-0,0,0) // or... icon.MapColors(rgb(51,13,13), rgb(26,77,51),
-rgb(26,26,102), rgb(0,0,0)) 
+icon.MapColors(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4, 0,0,0)
+// or...
+icon.MapColors(rgb(51,13,13), rgb(26,77,51), rgb(26,26,102), rgb(0,0,0))
 ```
 
 -   For any red in the original icon, add rgb(51,12.75,12.75) (dark
@@ -77,8 +73,6 @@ Or a negative icon (invert all colors):
 ``` dm
 MapColors(-1,0,0, 0,-1,0, 0,0,-1, 1,1,1)
 ```
-
-
 
 The longer formats of MapColors() will allow you to also change
 alpha colors.

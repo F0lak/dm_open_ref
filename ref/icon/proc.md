@@ -1,6 +1,5 @@
 ## procs (icon)
 
-<!-- -->
 icon/proc
 +   [New](/ref/icon/proc/New.md) 
 +   [IconStates](/ref/icon/proc/IconStates.md) 

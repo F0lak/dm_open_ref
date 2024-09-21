@@ -1,7 +1,5 @@
 ## icon object
 
-
-
 An `/icon` object is created by loading an icon file into
 memory for direct access and manipulation. In order to be displayed, an
 `/icon` object always gets converted back into an icon file; this
@@ -16,41 +14,35 @@ player\'s icon, which implicitly creates a new icon file.
 ### Example:
 
 ``` dm
- mob/verb/test() var/icon/I = new(\'player.dmi\')
-I.Blend(rgb(40,0,0)) usr.icon = I 
+mob/verb/test()
+   var/icon/I = new('player.dmi')
+   I.Blend(rgb(40,0,0))
+   usr.icon = I
 ```
  
-
-Note that merely
-displaying different icon states or directions can generally be achieved
+Note that merely displaying different icon states or directions can generally be achieved
 without any icon manipulation, which saves quite a bit of overhead. For
 example, the variables `atom.icon_state` and `atom.dir` can be used to
 control how `atom.icon` is displayed, without any need for generating a
 new icon file. 
 
-Many things that used to require icon
-manipulation may not need you to do so anymore, as DM has evolved new
-capabilities.
-  ---------------------------------------------------------------------------------------------------------------------------------
-  Operation                `/icon` proc                                      New method
-  ------------------------ ------------------------------------------------- ------------------------------------------------------
-  Multiplying by color     [`Blend`](/ref/icon/proc/Blend.md)  or            [color](/ref/atom/var/color.md)  var
-                           [SetIntensity](/ref/icon/proc/SetIntensity.md)    
-                           procs                                             
-  Adding color             [Blend](/ref/icon/proc/Blend.md)  proc            [color](/ref/atom/var/color.md)  var (using [color
-                                                                             matrix](/ref/notes/color-matrix.md) )
-  Applying color matrix    [MapColors](/ref/icon/proc/MapColors.md)  proc    
-  Rotation                 [Turn](/ref/icon/proc/Turn.md)  proc              [transform](/ref/atom/var/transform.md)  var
-  Flipping                 [Flip](/ref/icon/proc/Flip.md)  proc              
-  horizontal/vertical                                                        
-  Scaling                  [Scale](/ref/icon/proc/Scale.md)  proc            
-  Overlaying/underlaying   [Blend](/ref/icon/proc/Blend.md)  proc +          Overlay/underlay +
-  another icon             `ICON_OVERLAY`                                    [KEEP_TOGETHER](/ref/atom/var/appearance_flags.md) \
-                                                                             [Layering filter](/ref/notes/filters/layer.md)   ---------------------------------------------------------------------------------------------------------------------------------
-Note: Anything you can do with an atom var instead of using icon
+> [!NOTE]
+> Anything you can do with an atom var instead of using icon
 manipulation procs will usually perform much better. Games that use the
 new methods use fewer resources, use less memory, and also usually look
 better too.
+
+Many things that used to require icon
+manipulation may not need you to do so anymore, as DM has evolved new
+capabilities.
+| Operation | /icon proc | New method |
+| --- | --- | --- |
+|  Multiplying by color | [`Blend`](/ref/icon/proc/Blend.md) or [SetIntensity](/ref/icon/proc/SetIntensity.md) procs | [color](/ref/atom/var/color.md)  var |
+|  Adding color | [Blend](/ref/icon/proc/Blend.md) proc | [color](/ref/atom/var/color.md) var (using [color matrix](/ref/notes/color-matrix.md) ) |
+|  Applying color matrix | [MapColors](/ref/icon/proc/MapColors.md) proc | [color](/ref/atom/var/color.md) var (using [color matrix](/ref/notes/color-matrix.md) ) |
+|  Rotation | [Turn](/ref/icon/proc/Turn.md) proc | [transform](/ref/atom/var/transform.md) var | Flipping horizontal/vertical | [Flip](/ref/icon/proc/Flip.md) proc | [transform](/ref/atom/var/transform.md) var |
+|  Scaling | [Scale](/ref/icon/proc/Scale.md) proc | [transform](/ref/atom/var/transform.md) var |
+|  Overlaying/underlaying another icon | [Blend](/ref/icon/proc/Blend.md) proc + `ICON_OVERLAY`| Overlay/underlay + [KEEP_TOGETHER](/ref/atom/var/appearance_flags.md), or [Layering filter](/ref/notes/filters/layer.md) |
 
 > [!TIP] 
 > **See also:**

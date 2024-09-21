@@ -2,13 +2,12 @@
 
 **Format:**
 +   Shift(dir,offset,wrap=0)
-<!-- -->
+
 **Args:**
 +   dir: direction in which to shift the icon
 +   offset: distance to shift the pixels
 +   wrap: if true, causes shifted pixels to wrap around to the other
     side
-
 
 This moves all of the pixels by the specified amount in a
 direction. For example, Shift(NORTH,1) would move everything one pixel
@@ -23,4 +22,4 @@ side.
 > **See also:**
 > +   [dir var (atom)](/ref/atom/var/dir.md) 
 > +   [icon](/ref/icon.md) 
-> +   [procs (icon)](/ref/icon/proc.md) <!-- -->
+> +   [procs (icon)](/ref/icon/proc.md) 

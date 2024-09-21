@@ -1,6 +1,5 @@
 ## vars (datum)
 
-
 Built-in datum vars:
 datum/var
 +   [type](/ref/datum/var/type.md) 

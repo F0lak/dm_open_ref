@@ -1,6 +1,5 @@
 ## procs (datum)
 
-
 Built-in datum procs:
 datum/proc
 +   [New](/ref/datum/proc/New.md) 

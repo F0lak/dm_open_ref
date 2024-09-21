@@ -11,7 +11,6 @@
 **Default action:**
 +   None.
 
-
 One may wish to distinguish between a player who has
 disconnected from the game and one who is simply switching from one mob
 to another. In the case of a player switching to another mob, by the

@@ -7,22 +7,26 @@ To display rotation, scaling, and other transformations on
 atoms, DM uses 2D matrices. The /matrix datum is a convenient way of
 handling the numbers involved, as it can be easily manipulated. There
 are six vars, a through f, laid out like so:
+```
               a d 0
     x y 1  *  b e 0  =  x' y' 1
               c f 1
-
+```
 
 When an x,y point is multiplied by the matrix, it becomes the
 new point x\',y\'. This is equivalent to:
+```
     x' = a*x + b*y + c
     y' = d*x + e*y + f
+```
 
 
 The default matrix is:
+```
     1 0 0
     0 1 0
     0 0 1
-
+```
 
 Matrices are created with the matrix() proc, or by calling
 new/matrix(). (See the matrix() proc for examples.) They are also
@@ -48,8 +52,7 @@ or with procs. You can do the following with them:
 When you\'ve built your matrix, you can assign it to
 atom.transform to change the way that atom is displayed. 
 
-The
-matrices supported by this datum are **not** the same kind used to
+The matrices supported by this datum are **not** the same kind used to
 transform colors, as in the atom.color var and icon.MapColors() proc.
 For color matrices, see [color matrix](/ref/notes/color-matrix.md) 
 

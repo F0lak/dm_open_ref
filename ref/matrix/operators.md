@@ -1,5 +1,5 @@
 ## matrix operators 
-###### BYOND Version 500" short="operators
+###### BYOND Version 500
 
 <!-- -->
 **See also:**

@@ -16,8 +16,9 @@ determined by the world variables turf and area.
 ### Example:
 
 ``` dm
- #include "level1.dmm" #include "level2.dmm" #include
-"level3.dmm" 
+#include "level1.dmm"
+#include "level2.dmm"
+#include "level3.dmm"
 ```
 
 

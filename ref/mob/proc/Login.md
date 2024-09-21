@@ -12,7 +12,6 @@
 +   If the mob has no location, place it near (1,1,1) if possible.
     Change the player\'s stat object (client.statobj) to the mob.
 
-
 One can typically tell if a player is connecting to a fresh mob
 versus reconnecting to an existing one by testing if the mob\'s location
 is null.

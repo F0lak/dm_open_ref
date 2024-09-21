@@ -3,7 +3,6 @@
 **Default value:**
 +   0
 
-
 This is the maximum level of invisibility that the mob can see.
 
 > [!TIP] 

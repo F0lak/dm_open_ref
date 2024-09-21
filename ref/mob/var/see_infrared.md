@@ -3,7 +3,6 @@
 **Default value:**
 +   0
 
-
 Setting this to 1 enables infravision, allowing the mob to see
 infrared objects in the dark.
 

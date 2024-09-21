@@ -12,10 +12,10 @@ This example defines the mob type
 ### Example:
 
 ``` dm
- mob guzzler desc = "Mean, mad, and wicked bad."
-
+mob
+  guzzler
+    desc = "Mean, mad, and wicked bad."
 ```
-
 
 > [!TIP] 
 > **See also:**

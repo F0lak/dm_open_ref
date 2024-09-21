@@ -3,7 +3,6 @@
 **Default value:**
 +   null
 
-
 This is the value of mob.key converted to canonical form (ie
 the form returned by the ckey() proc). Among other things, this could be
 used as a unique directory name in a server-side save file for storing

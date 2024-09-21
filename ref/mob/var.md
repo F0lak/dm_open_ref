@@ -1,6 +1,5 @@
 ## vars (mob)
 
-
 Built-in mob vars:
 mob/var
 +   [alpha](/ref/atom/var/alpha.md) 

@@ -31,11 +31,11 @@ and will eventually be discarded.
     animation step
 +   `var_list`: An associative list of vars to change
 +   `appearance`: New appearance to use instead of multiple var changes
-    (must be a [named argument](/ref/proc/arguments/named.md) )
+    (**must** be a [named argument](/ref/proc/arguments/named.md) )
 +   `time`: Time of this step, in 1/10s (may be a [named
     argument](/ref/proc/arguments/named.md) )
 +   `loop`: Number of times to run this sequence, or -1 to loop forever
-    (may be a named argument)
+    (may be a [named argument](/ref/proc/arguments/named.md))
 +   `easing`: The "curve" followed by this animation step (may be a
     [named argument](/ref/proc/arguments/named.md) )
 +   `flags`: Flags that impact how the animation acts (may be a [named

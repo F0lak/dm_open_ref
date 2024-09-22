@@ -42,7 +42,7 @@ and will eventually be discarded.
     argument](/ref/proc/arguments/named.md) )
 +   `delay`: Delay time for starting the first step in a sequence (may be
     negative; may be a [named argument](/ref/proc/arguments/named.md) )
-+   `tag`: Optional name for a new animation sequence (must be a [named
++   `tag` <sup><sub>(516)</sub></sup>: Optional name for a new animation sequence (**must** be a [named
     argument](/ref/proc/arguments/named.md) )
 
 
@@ -53,10 +53,10 @@ affect its apprearance. This change will take place immediately, but
 will be displayed to users as a gradual change over a period of time.
 The actual interpolation between frames is all done on the client.
 
-
-If the `Object` argument is left out, a new animation step will
-be created for the previously used animation seqeunce. If all other
-arguments besides the object are left out, the animation is stopped
+> [!TIP]
+> If the `Object` argument is left out, a new animation step will
+be created for the previously used animation seqeunce.\
+> If all other arguments besides the object are left out, the animation is stopped
 completely.
 ### Example:
 

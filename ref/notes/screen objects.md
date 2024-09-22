@@ -1,6 +1,4 @@
-## HUD / screen objects
-
-
+# HUD / screen objects
 
 HUD stands for Heads-Up Display, and refers to any atoms that
 appear on the screen but don\'t move when the player moves. These are
@@ -28,14 +26,13 @@ so on. You can also include pixel offsets, percentages, and specify two
 corners to tile an icon repeatedly from one end to the other. See
 [screen_loc](/ref/atom/movable/var/screen_loc.md) for more details.
 
-
 `screen_loc` can also be used to stretch the bounds of the HUD.
 A value of `"0,0"` will cause the atom to appear to the southwest of the
 southwest-most tile on the visible map, outside of the regular map
 bounds. Using HUDs in this way, you can provide a nice decorative
 "frame" for your map. 
 
-More complex 
+## More complex 
 
 You can use HUDs
 in other map controls as well, by preceding screen_loc with the name of

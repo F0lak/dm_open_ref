@@ -1,10 +1,9 @@
 ## Layering (composite) filter 
 ###### BYOND Version 513
 
-<!-- -->
 Format:
 +   filter(type="layer", ...)
-<!-- -->
+
 Args:
 +   x: Horizontal offset of second image (defaults to 0)
 +   y: Vertical offset of second image (defaults to 0)
@@ -18,11 +17,9 @@ Args:
 +   blend_mode: [Blend mode](/ref/atom/var/blend_mode.md)  to apply to the top
     image
 
-
 Composites another image over or under this image. Using the
 `FILTER_OVERLAY` flag, which is the default, puts the second image on
 top of what\'s already here. `FILTER_UNDERLAY` puts it underneath.
-
 
 The `x` and `y` values can move the mask from its normal
 position. By default, the second image is centered over the center of
@@ -36,7 +33,6 @@ of the other vars apply to the second image being drawn.
 Note:
 Transforms use default bilinear scaling, since
 [PIXEL_SCALE](/ref/atom/var/appearance_flags.md) is not available here.
-
 
 Note: Like most other filters, this filter is **not** taken
 into account for mouse-hit purposes. Any layered icons will be strictly

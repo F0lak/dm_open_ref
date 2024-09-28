@@ -43,8 +43,7 @@ You can set more than one control\'s parameters at once by
 leaving the `control_id` argument null, and including the control as
 part of the parameter list: 
 ``` dm
-winset(usr, null,\\
-"mainwindow.output.background-color=#ffffff;mainwindow.input.background-color=#ffffff")
+winset(usr, null, "mainwindow.output.background-color=#ffffff; mainwindow.input.background-color=#ffffff")
 ```
 
 ### Special winsets
@@ -67,9 +66,12 @@ that normally can only run from there, like `.profile` or `.quit`. To do
 this, leave the `control_id` argument null, and just use a parameter
 called "command": 
 ``` dm
-obj/quitbutton name = "Quit" icon =
-\'buttons.dmi\' icon_state = "quit" Click() winset(usr, null,
-list("command"=".quit"))
+obj/quitbutton
+    name = "Quit"
+    icon = \'buttons.dmi\'
+    icon_state = "quit"
+    Click()
+        winset(usr, null, list("command"=".quit"))
 ```
  
 
@@ -108,8 +110,9 @@ access.
 ### Example:
 
 ``` dm
-mob/Login() ..() winset(usr, null,
-"browser-options=devtools,find")
+mob/Login()
+    ..()
+    winset(usr, null, "browser-options=devtools,find")
 ```
  
 

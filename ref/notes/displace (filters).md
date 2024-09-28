@@ -3,7 +3,7 @@
 
 Format:
 +   filter(type="displace", ...)
-<!-- -->
+
 Args:
 +   x: Horizontal offset of map (defaults to 0)
 +   y: Vertical offset of map (defaults to 0)
@@ -11,6 +11,9 @@ Args:
 +   icon: Icon to use as a displacement map
 +   render_source: `render_target` to use as a displacement map
 
+> [!TIP]
+> Amylizzle made a tool to create and test displacement maps.
+> You can check it out and download it [Here](https://github.com/amylizzle/displacemaptester)
 
 Uses an icon or render target as a template for various warping
 effects on the main image. 
@@ -22,8 +25,8 @@ horizontal warping. The green component affects the vertical: higher to
 warp upward, lower to warp downward. Transparent pixels in the
 displacement map will have no effect. 
 
-This can be used for very
-complex distortion, unlike other distortion filters such as wave and
+This can be used for very complex distortion,
+unlike other distortion filters such as wave and
 ripple that are confined to specific equations.
 
 > [!TIP] 

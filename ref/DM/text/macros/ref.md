@@ -46,6 +46,7 @@ embedded reference was automatically converted back into an object
 the href data, you would have to dereference those yourself using the
 locate() instruction.
 ### Browser images
+###### BYOND Version 516
 
 In output for browser controls, you can use `\ref[object]` as
 the src parameter for an <img> tag. The object can be an
@@ -64,20 +65,16 @@ player << browse({"
 
 The query string can include any of the
 following (separated by & characters):
-sheet
-+   Display all matching frames as a sprite sheet; otherwise the first
+
++ `sheet:` Display all matching frames as a sprite sheet; otherwise the first
     matching frame is used
-state=*ICON_STATE*
-+   Use a specific icon state; be sure to
++ `state = ICON_STATE`: Use a specific icon state; be sure to
     [url_encode](/ref/proc/url_encode.md) it)
-moving=*M*
-+   Specify whether to choose only moving (M=1) or non-moving (M=0)
++ `moving = M`: Specify whether to choose only moving (M=1) or non-moving (M=0)
     states
-dir=*DIR*
-+   Choose only frames with a specific direction (this should be a
++ `dir = DIR`: Choose only frames with a specific direction (this should be a
     number, not text, so for instance `dir=[NORTH]`)
-frame=*N*
-+   Choose the Nth animation frame in an animated icon
++ `frame = N`: Choose the Nth animation frame in an animated icon
 
 > [!TIP] 
 > **See also:**

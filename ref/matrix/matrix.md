@@ -1,8 +1,6 @@
 ## matrix 
 ###### BYOND Version 500
 
-
-
 To display rotation, scaling, and other transformations on
 atoms, DM uses 2D matrices. The /matrix datum is a convenient way of
 handling the numbers involved, as it can be easily manipulated. There
@@ -19,7 +17,6 @@ new point x\',y\'. This is equivalent to:
     x' = a*x + b*y + c
     y' = d*x + e*y + f
 ```
-
 
 The default matrix is:
 ```
@@ -47,7 +44,6 @@ or with procs. You can do the following with them:
     atom\'s position.
 -   **Interpolate:** You can calculate a matrix that lies somewhere
     between two other matrices, which can be helpful for animation.
-
 
 When you\'ve built your matrix, you can assign it to
 atom.transform to change the way that atom is displayed. 

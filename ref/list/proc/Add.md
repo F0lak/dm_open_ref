@@ -2,7 +2,7 @@
 
 **Format:**
 +   list.Add(Item1,Item2,...)
-<!-- -->
+
 **Args:**
 +   One or more items to add to the list.
 
@@ -13,4 +13,4 @@ itself a list, each item in the list will be added.
 > **See also:**
 > +   [+ operator](/ref/operator/+.md) 
 > +   [Remove proc (list)](/ref/list/proc/Remove.md) 
-> +   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md) <!-- -->
+> +   [RemoveAll proc (list)](/ref/list/proc/RemoveAll.md)

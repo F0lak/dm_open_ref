@@ -1,7 +1,5 @@
 ## procs (list)
 
-
-
 Built-in list procs:
 list/proc
 +   [Add](/ref/list/proc/Add.md) 

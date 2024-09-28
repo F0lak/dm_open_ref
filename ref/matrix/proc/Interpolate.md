@@ -2,16 +2,14 @@
 
 **Format:**
 +   Interpolate(Matrix2, t)
-<!-- -->
+
 **Args:**
 +   Matrix2: Another matrix
 +   t: The interpolation factor: from 0 (src) to 1 (Matrix2). Usually
     this is a value between 0 and 1.
 
-
 Calculates and returns a new matrix between src and Matrix2. If
 t is 0.5, then the result will be exactly halfway between both matrices.
-
 
 There are many ways to interpolate matrices. Whenever possible,
 DM will interpolate by doing scaling and/or shearing first, then
@@ -27,4 +25,4 @@ matrix, continuing the change as far as t.
 > **See also:**
 > +   [matrix](/ref/matrix.md) 
 > +   [matrix operators](/ref/matrix/operators.md) 
-> +   [matrix procs](/ref/matrix/proc.md) <!-- -->
+> +   [matrix procs](/ref/matrix/proc.md) 

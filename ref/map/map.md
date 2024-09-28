@@ -3,7 +3,6 @@
 **Format:**
 +   #include "mapname.dmm"
 
-
 One or more map files may be loaded into the world\'s map.
 These are loaded into successive z-levels. If no map files are
 specified, the default project map file will be used. This file has the
@@ -21,6 +20,9 @@ determined by the world variables turf and area.
 #include "level3.dmm"
 ```
 
+Map files, like code files, do not need to be explicitly included in code.
+They can be included by clicking the tick box beside the file in the 
+file tree in Dream Maker.
 
 > [!TIP] 
 > **See also:**

@@ -2,10 +2,9 @@
 
 **Format:**
 +   Invert()
-<!-- -->
+
 **Returns:**
 +   src
-
 
 This inverts the current matrix, if possible. 
 
@@ -19,4 +18,4 @@ matrix are zero. A degenerate matrix will not be changed by this proc.
 > +   [matrix](/ref/matrix.md) 
 > +   [matrix operators](/ref/matrix/operators.md) 
 > +   [matrix procs](/ref/matrix/proc.md) 
-> +   [\~ operator](/ref/operator/~.md) <!-- -->
+> +   [\~ operator](/ref/operator/~.md) 

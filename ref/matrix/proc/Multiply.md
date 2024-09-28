@@ -4,14 +4,13 @@
 +   Multiply(Matrix2)\
     *or*
 +   Multiply(n)
-<!-- -->
+
 **Args:**
 +   Matrix2: another matrix
 +   n: a number
-<!-- -->
+
 **Returns:**
 +   src
-
 
 This multiplies the current matrix by Matrix2 or n. If the n
 format is used, this is just like scaling the whole matrix. If another
@@ -27,4 +26,4 @@ A * B vs. B * A.
 > +   [matrix](/ref/matrix.md) 
 > +   [matrix operators](/ref/matrix/operators.md) 
 > +   [matrix procs](/ref/matrix/proc.md) 
-> +   [*= operator](/ref/operator/*.md) <!-- -->
+> +   [*= operator](/ref/operator/*.md) 

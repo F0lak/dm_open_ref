@@ -3,10 +3,9 @@
 
 Format:
 +   filter(type="blur", ...)
-<!-- -->
+
 Args:
 +   size: Amount of blur (defaults to 1)
-
 
 Blurs the image by a certain amount. The size of the blur can
 roughly be thought of in "pixels" worth of blur.
@@ -20,4 +19,4 @@ passes for much higher sizes.
 > +   [Motion blur (filters)](/ref/notes/filters/motion_blur.md) 
 > +   [Radial blur (filters)](/ref/notes/filters/radial_blur.md) 
 > +   [Angular blur (filters)](/ref/notes/filters/angular_blur.md) 
-> +   [Drop shadow (filters)](/ref/notes/filters/drop_shadow.md) <!-- -->
+> +   [Drop shadow (filters)](/ref/notes/filters/drop_shadow.md) 

@@ -1,8 +1,7 @@
 ## vars (mutable appearance) 
 ###### BYOND Version 511
 
-
-Built-in mutable appearance vars:
+Built-in mutable appearance vars:\
 mob/var
 +   [alpha](/ref/atom/var/alpha.md) 
 +   [appearance](/ref/atom/var/appearance.md) 

@@ -19,4 +19,4 @@ equivalent as far as controlling player linkage.
 > **See also:**
 > +   [ckey var (mob)](/ref/mob/var/ckey.md) 
 > +   [client](/ref/client.md) 
-> +   [key var (client)](/ref/client/var/key.md) <!-- -->
+> +   [key var (client)](/ref/client/var/key.md) 

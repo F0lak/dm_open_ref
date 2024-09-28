@@ -3,7 +3,7 @@
 
 Format:
 +   filter(type="alpha", ...)
-<!-- -->
+
 Args:
 +   x: Horizontal offset of mask (defaults to 0)
 +   y: Vertical offset of mask (defaults to 0)
@@ -26,10 +26,11 @@ vice-versa. There is also a `MASK_SWAP` flag which treats the source
 image as the mask and vice-versa, which might be useful for some
 effects. 
 
-Note: Unlike many other filters, this filter **is**
+> [!NOTE]
+> Unlike many other filters, this filter **is**
 taken into account for mouse-hit purposes.
 
 > [!TIP] 
 > **See also:**
 > +   [icon var (atom)](/ref/atom/var/icon.md) 
-> +   [render_target var (atom)](/ref/atom/var/render_target.md) <!-- -->
+> +   [render_target var (atom)](/ref/atom/var/render_target.md) 

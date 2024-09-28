@@ -1,7 +1,5 @@
 ## Tiled icons
 
-
-
 In BYOND 3.0, any file like a large .bmp would be treated like
 a regular icon that had been broken up into several tile-sized icon
 states. All tiles then were 32x32 pixels. An image that was 100x100
@@ -50,20 +48,27 @@ things to note:
 -   Using the `icon()` proc, you can extract a single tile from a
     multi-tiled big icon.
 
-
 This example shows a big icon being applied to an atom in tiled
 mode, as overlays:
 ### Example:
 
 ``` dm
- // icon is 3 tiles wide by 2 high icon_state = "0,0" //
-A temporary object used for the overlays var/obj/O = new O.icon = icon
-O.layer = FLOAT_LAYER for(var/tile_y=0, tile_y<2, ++tile_y)
-for(var/tile_x=0, tile_x<3, ++tile_x) if(tile_x && tile_y) O.pixel_x =
-tile_x * 32 O.pixel_y = tile_y * 32 O.icon_state =
-"[tile_x],[tile_y]" overlays += O 
-```
+// icon is 3 tiles wide by 2 high
+icon_state = "0,0"
 
+// A temporary object used for the overlays
+var/obj/O = new
+O.icon = icon
+O.layer = FLOAT_LAYER
+
+for(var/tile_y=0, tile_y<2, ++tile_y)
+   for(var/tile_x=0, tile_x<3, ++tile_x)
+      if(tile_x && tile_y)
+         O.pixel_x = tile_x * 32
+         O.pixel_y = tile_y * 32
+         O.icon_state = "[tile_x],[tile_y]"
+         overlays += O
+```
 
 > [!TIP] 
 > **See also:**

@@ -32,116 +32,78 @@ appears.
 ### Example:
 
 ``` dm
- particles/snow width = 500 // 500 x 500 image to cover a
-moderately sized map height = 500 count = 2500 // 2500 particles
-spawning = 12 // 12 new particles per 0.1s bound1 = vector(-1000, -300,
--1000) // end particles at Y=-300 lifespan = 600 // live for 60s max
-fade = 50 // fade out over the last 5s if still on screen // spawn
-within a certain x,y,z space position = generator("box",
-vector(-300,250,0), vector(300,300,50)) // control how the snow falls
-gravity = vector(0, -1) friction = 0.3 // shed 30% of velocity and drift
-every 0.1s drift = generator("sphere", 0, 2) obj/snow screen_loc =
-"CENTER" particles = new/particles/snow mob proc/CreateSnow()
-client?.screen += new/obj/snow 
+particles/snow
+    width = 500     // 500 x 500 image to cover a moderately sized map
+    height = 500
+    count = 2500    // 2500 particles
+    spawning = 12    // 12 new particles per 0.1s
+    bound1 = vector(-1000, -300, -1000)   // end particles at Y=-300
+    lifespan = 600  // live for 60s max
+    fade = 50       // fade out over the last 5s if still on screen
+    // spawn within a certain x,y,z space
+    position = generator("box", vector(-300,250,0), vector(300,300,50))
+    // control how the snow falls
+    gravity = vector(0, -1)
+    friction = 0.3  // shed 30% of velocity and drift every 0.1s
+    drift = generator("sphere", 0, 2)
+obj/snow
+    screen_loc = "CENTER"
+    particles = new/particles/snow
+
+mob
+    proc/CreateSnow()
+        client?.screen += new/obj/snow
 ```
  
 
-These are the vars
+> [!IMPORTANT]
+> These are the vars
 that can be used in a particle set. "Tick" refers to a BYOND standard
 tick of 0.1s.
-  ---------------------------------------------------------------------------------------------
-  Particle vars that                                                  
-  affect the entire set                                               
-  (generators are not                                                 
-  allowed for these)                                                  
-  ----------------------- ------------------------------------------- -------------------------
-  Var                     Type                                        Description
-  width                   num                                         Size of particle image in
-                                                                      pixels
-  height                                                              
-  count                   num                                         Maximum particle count
-  spawning                num                                         Number of particles to
-                                                                      spawn per tick (can be
-                                                                      fractional)
-  bound1                  vector                                      Minimum particle position
-                                                                      in x,y,z space; defaults
-                                                                      to
-                                                                      list(-1000,-1000,-1000)
-  bound2                  vector                                      Maximum particle position
-                                                                      in x,y,z space; defaults
-                                                                      to list(1000,1000,1000)
-  gravity                 vector                                      Constant acceleration
-                                                                      applied to all particles
-                                                                      in this set (pixels per
-                                                                      squared tick)
-  gradient                [color                                      Color gradient used, if
-                          gradient](/ref/notes/color-gradient.md)      any
-  transform               [matrix](/ref/notes/projection-matrix.md)   Transform done to all
-                                                                      particles, if any (can be
-                                                                      higher than 2D)
-  Vars that apply when a                                              
-  particle spawns                                                     
-  lifespan                num                                         Maximum life of the
-                                                                      particle, in ticks
-  fade                    num                                         Fade-out time at end of
-                                                                      lifespan, in ticks
-  fadein                  num                                         Fade-in time, in ticks
-  icon                    icon                                        Icon to use, if any; no
-                                                                      icon means this particle
-                                                                      will be a dot\
-                                                                      Can be assigned a
-                                                                      weighted list of icon
-                                                                      files, to choose an icon
-                                                                      at random
-  icon_state              text                                        Icon state to use, if
-                                                                      any\
-                                                                      Can be assigned a
-                                                                      weighted list of strings,
-                                                                      to choose an icon at
-                                                                      random
-  color                   num or color                                Particle color (not a
-                                                                      color matrix); can be a
-                                                                      number if a gradient is
-                                                                      used
-  color_change            num                                         Color change per tick;
-                                                                      only applies if gradient
-                                                                      is used
-  position                num                                         x,y,z position, from
-                                                                      center in pixels
-  velocity                num                                         x,y,z velocity, in pixels
-  scale                   vector (2D)                                 Scale applied to icon, if
-                                                                      used; defaults to
-                                                                      list(1,1)
-  grow                    num                                         Change in scale per tick;
-                                                                      defaults to list(0,0)
-  rotation                num                                         Angle of rotation
-                                                                      (clockwise); applies only
-                                                                      if using an icon
-  spin                    num                                         Change in rotation per
-                                                                      tick
-  friction                num                                         Amount of velocity to
-                                                                      shed (0 to 1) per tick,
-                                                                      also applied to
-                                                                      acceleration from drift
-  Vars that are                                                       
-  evalulated every tick                                               
-  drift                   vector                                      Added acceleration every
-                                                                      tick; e.g. a circle or
-                                                                      sphere generator can be
-                                                                      applied to produce snow
-                                                                      or ember effects
-  ---------------------------------------------------------------------------------------------
 
+  ### Particle vars that affect the entire set (generators are not allowed for these)                                                  
+  | Var | Type | Description |
+  | --- | --- | --- |
+  | width | num | Size of particle image in pixels |
+  | height | num | Size of particle image in pixels |
+  | count | num | Maximum particle count |
+  | spawning | num |  Number of particles to spawn per tick (can be fractional) |
+  | bound1 | vector | Minimum particle position in x,y,z space; defaults to list(-1000,-1000,-1000) |
+  | bound2 | vector | Maximum particle position in x,y,z space; defaults to list(1000,1000,1000) |
+  | gravity | vector | Constant acceleration applied to all particles in this set (pixels per squared tick) |
+  | gradient | [color gradient](/ref/notes/color-gradient.md) | Color gradient used, if any |
+  | transform  | [matrix](/ref/notes/projection-matrix.md) | Transform done to all particles, if any (can be higher than 2D) |
+
+  ### Vars that apply when a particle spawns
+  | Var | Type | Description |
+  | --- | --- | --- |                                                     
+  | lifespan | num | Maximum life of the particle, in ticks |
+  | fade | num | Fade-out time at end of lifespan, in ticks |
+  | fadein | num | Fade-in time, in ticks |
+  | icon | icon | Icon to use, if any; no icon means this particle will be a dot<br> Can be assigned a weighted list of icon files, to choose an icon at random |
+  | icon_state | text | Icon state to use, if any <br>Can be assigned a weighted list of strings, to choose an icon at random |
+  | color | num or color | Particle color (not a color matrix); can be a number if a gradient is |
+  | color_change | num | Color change per tick; only applies if gradient is used |
+  | position | num | x,y,z position, from center in pixels |
+  | velocity | num | x,y,z velocity, in pixels |
+  | scale | vector (2D) | Scale applied to icon, if used; defaults to list(1,1) |
+  | grow | num | Change in scale per tick; defaults to list(0,0) |
+  | rotation | num | Angle of rotation (clockwise); applies only if using an icon |
+  | spin | num | Change in rotation per tick |
+  | friction | num | Amount of velocity to shed (0 to 1) per tick, also applied to acceleration from drift |
+
+  ### Vars that are evalulated every tick   
+  | Var | Type | Description |
+  | --- | --- | --- |                                                     
+  | drift | vector | Added acceleration every tick; e.g. a circle or sphere generator can be applied to produce snow or ember effects |
 
 The `icon` and `icon_state` values are special in that they
 can\'t be assigned a generator, but they can be assigned a constant icon
 or string, respectively, or a list of possible values to choose from
 like so: 
 ``` dm
-icon = list(\'confetti.dmi\'=5,
-\'coin.dmi\'=1)
+icon = list('confetti.dmi'=5, 'coin.dmi'=1)
 ```
- 
 
 The list used can either be a simple
 list, or it can contain weights as shown above. 

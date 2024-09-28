@@ -22,10 +22,9 @@ expect:
 ### Example:
 
 ``` dm
- for(i = 0, i < 100, i += 0.1) world << i 
+for(i = 0, i < 100, i += 0.1)
+    world << i
 ```
-
-
 
 You might expect that code to loop exactly 1000 times, with `i`
 going from 0 up to 99.9 before stopping. The truth is more complicated,
@@ -46,10 +45,9 @@ using the [`round` proc](/ref/proc/round.md) to adjust the loop var each time,
 although for performance reasons it might be preferable to find another
 alternative. 
 ``` dm
- for(i = 0, i < 100, i = round(i + 0.1, 0.1))
-world << i 
+for(i = 0, i < 100, i = round(i + 0.1, 0.1))
+    world << i
 ```
- 
 
 Only fractions whose denominators are
 powers of 2 are immune to this rounding error, so 0.5 is in fact stored

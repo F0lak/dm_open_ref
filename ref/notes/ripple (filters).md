@@ -3,7 +3,7 @@
 
 Format:
 +   filter(type="ripple", ...)
-<!-- -->
+
 Args:
 +   x: Horiztonal position of ripple center, relative to image center
     (defaults to 0)
@@ -17,11 +17,9 @@ Args:
 +   flags: Defaults to 0; use `WAVE_BOUNDED` to keep distortion within
     the image
 
-
 Applies a ripple distortion effect to this image. 
 
-This
-filter is meant to be animated. A good animation will typically start at
+This filter is meant to be animated. A good animation will typically start at
 a `radius` of 0 and animate to a larger value, with `size` decreasing to
 0. 
 
@@ -41,4 +39,4 @@ a single pass of the filter, as long as they have the same `repeat`,
 
 > [!TIP] 
 > **See also:**
-> +   [Wave (filters)](/ref/notes/filters/wave.md) <!-- -->
+> +   [Wave (filters)](/ref/notes/filters/wave.md) 

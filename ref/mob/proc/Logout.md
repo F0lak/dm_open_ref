@@ -2,12 +2,12 @@
 
 **Format:**
 +   Logout()
-<!-- -->
+
 **When:**
 +   Called when a player\'s client has disconnected from a mob. This
     happens in client.Del() when the player logs out of the world. It
     may also happen when the player switches from one mob to another.
-<!-- -->
+
 **Default action:**
 +   None.
 
@@ -22,4 +22,4 @@ from the game.
 > **See also:**
 > +   [Login proc (mob)](/ref/mob/proc/Login.md) 
 > +   [client var (mob)](/ref/mob/var/client.md) 
-> +   [key var (mob)](/ref/mob/var/key.md) <!-- -->
+> +   [key var (mob)](/ref/mob/var/key.md) 

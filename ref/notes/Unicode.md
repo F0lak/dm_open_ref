@@ -2,7 +2,6 @@
 ###### BYOND Version 513
 
 
-
 BYOND was originally written to handle 8-bit ("ANSI")
 characters only. However as time has marched on, Unicode has become
 ubiquitous for supporting multiple languages, special characters, and
@@ -16,14 +15,14 @@ to store characters that can\'t fit in one byte.
 
 UTF-8 breaks
 up characters with codes of 128 or higher into multiple bytes, like so:
-  Character code       Size in bytes
-  -------------------- ---------------
-  0 - 0x7F             1
-  0x80 - 0x7FF         2
-  0x800 - 0xFFFF       3
-  0x10000 - 0x10FFFF   4
-### Text handling
+| Character code | Size in bytes |
+| --- | --- |
+| 0 - 0x7F | 1 |
+| 0x80 - 0x7FF | 2 |
+| 0x800 - 0xFFFF | 3 |
+| 0x10000 - 0x10FFFF | 4 |
 
+### Text handling
 
 Importantly, BYOND\'s text procs are based on the byte
 position, not the character position which may be lower. In other words,
@@ -42,21 +41,18 @@ this distinction should be fairly invisible to you. Most code isn\'t
 going to encounter problems, but if you do a lot of text processing you
 should be aware of it. 
 
-In particular,
-[text2ascii()](/ref/proc/text2ascii.md) returns the Unicode value at a
+In particular, [text2ascii()](/ref/proc/text2ascii.md) returns the Unicode value at a
 specific position, which may cover several bytes. If you loop through a
 string calling this proc for each character, you\'ll have to make
 adjustments for cases when multiple bytes have been read. 
 
-The
-read-only `[]` index operator also uses byte positions. 
+The read-only `[]` index operator also uses byte positions. 
 
-If you
-read a byte or cut text at an inappropriate point, any broken characters
+If you read a byte or cut text at an inappropriate point, any broken characters
 resulting from the cut will be turned into the Unicode replacement
 character � which is 0xFFFD.
-### `_char` procs
 
+### `_char` procs
 
 Most of the text handling procs have slower `_char` versions
 (e.g., `copytext_char`) that use character positions instead of byte
@@ -69,8 +65,8 @@ it\'s possible to use byte positions, you should. When you do use a
 Most text procs allow negative position values that count backwards from
 the end, and counting a small number of characters backward is faster
 than counting a lot of characters going forward.
-### Old code
 
+### Old code
 
 Code written in ANSI will be up-converted to UTF-8 by Dream
 Maker, based on your current locale when the code is loaded.

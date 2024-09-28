@@ -1,7 +1,5 @@
 ## BACKGROUND_LAYER
 
-
-
 This is mostly no longer needed. A negative value for plane is
 the preferred way to do show objects in the background. It can still be
 used however when you want to rearrange objects in the same plane when

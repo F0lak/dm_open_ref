@@ -1,15 +1,12 @@
 ## Side-view maps 
 ###### BYOND Version 482
 
-
-
 The side-view map format is used for 3/4 perspective, where the
 map is basically similar to a top-down view but is usually
 foreshortened. Just like with isometric projection, tiles that are
 closer to the bottom of the screen are considered to be closer to the
 viewer. This is a form of pseudo-3D in which the 2D icons used by BYOND
 can be arranged in a way to give the appearance of three dimensions.
-
 
 It is important to remember that this is an illusion of 3D, not
 real 3D. 

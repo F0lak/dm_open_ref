@@ -1,9 +1,6 @@
 ## Isometric maps
 
-::: {.sidebar .embed-image .image-only}
 ![](data:image/png;charset=utf-8;base64,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)
-:::
-
 
 Isometric projection is a form of pseudo-3D in which the 2D
 icons used by BYOND can be arranged in a way to give the appearance of
@@ -35,8 +32,8 @@ vertical structures.
 In this mode `pixel_x` and `pixel_y` will
 offset icons along the "ground". To adjust horizontal and vertical
 positions, use the `pixel_w` and `pixel_z` vars.
-### Layers
 
+### Layers
 
 The `layer` var behaves differently in isometric mode. Because
 some tiles are nearer to the viewer than others, the tiles that are
@@ -55,8 +52,7 @@ Using icons wider than the regular tile size
 can have an impact on layering as well. See [Big
 icons](/ref/notes/big-icons.md) for more information. 
 
-Because
-of the order in which icons are drawn, you may want to limit the ability
+Because of the order in which icons are drawn, you may want to limit the ability
 of an atom to cut diagonally around corners. While moving northeast
 behind a dense wall, for instance, a mob might temporarily appear in
 front of the wall because its pixel offsets (from gliding) temporarily
@@ -85,8 +81,8 @@ layer. Icons with `EFFECTS_LAYER` will draw above regular icons. Then
 objects with `TOPDOWN_LAYER` will draw on top of everything else.
 However, be aware that `EFFECTS_LAYER` has largely been superseded by
 the `plane` var.
-### Screen size
 
+### Screen size
 
 In this mode, `world.view` or `client.view` is used to define
 the minimum number of map tiles you will see, *not* the screen/HUD size
@@ -103,14 +99,12 @@ the icons in that area. Then everything is rounded up to a full tile
 size, so the result is a 13x7-tile screen. This is the formula you need
 if you want to calculate the screen size: 
 ``` dm
- pixel_width =
-round(icon_width * (view_width + view_height) / 2) pixel_height =
-round(icon_width * (view_width + view_height - 2) / 4) + icon_height
+pixel_width = round(icon_width * (view_width + view_height) / 2)
+pixel_height = round(icon_width * (view_width + view_height - 2) / 4) + icon_height
+
 screen_width = round((pixel_width + icon_width - 1) / icon_width)
 screen_height = round((pixel_height + icon_height - 1) / icon_height)
-
 ```
- 
 
 If you use `TOPDOWN_LAYER`, any topdown sections of
 the map will be limited to this same view.

@@ -3,12 +3,11 @@
 
 Format:
 +   filter(type="radial_blur", ...)
-<!-- -->
+
 Args:
 +   x: Horizontal center of effect, in pixels, relative to image center
 +   y: Vertical center of effect, in pixels, relative to image center
 +   size: Amount of blur per pixel of distance (defaults to 0.01)
-
 
 Blurs the image by a certain amount outward from the center, as
 if the image is zooming in or out. As the distance from the center
@@ -31,4 +30,4 @@ combining blur sizes A and B will give a total size of sqrt(A^2^+B^2^).
 > **See also:**
 > +   [Gaussian blur (filters)](/ref/notes/filters/blur.md) 
 > +   [Angular blur (filters)](/ref/notes/filters/angular_blur.md) 
-> +   [Motion blur (filters)](/ref/notes/filters/motion_blur.md) <!-- -->
+> +   [Motion blur (filters)](/ref/notes/filters/motion_blur.md) 

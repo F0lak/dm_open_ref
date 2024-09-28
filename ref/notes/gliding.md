@@ -1,6 +1,5 @@
 ## Gliding
 
-    atom)](/ref/atom/movable/var/animate_movement.md) 
 +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 +   [glide_size var (movable atom)](/ref/atom/movable/var/glide_size.md) 
 +   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
@@ -12,7 +11,6 @@
 +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
 +   [movement_mode var (world)](/ref/world/var/movement_mode.md) 
 +   [fps var (client)](/ref/client/var/fps.md) 
-
 
 Gliding is a "glitz" effect applied by BYOND to cover up the
 visual sins of tile-based movement, by making objects and the map appear
@@ -43,11 +41,9 @@ cardinal-direction glide by moving a fullt `glide_size` pixels in the
 dominant X or Y direction. Otherwise, gliding tries to move by that many
 pixels in strict Euclidean distance (a straight line) and diagonal
 glides take longer. 
-> [!
+
 > [!NOTE]
-> ]
-> In
-[LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md), gliding is
+> In [LEGACY_MOVEMENT_MODE](/ref/world/var/movement_mode.md), gliding is
 turned off if you set any of the bound or step vars for an atom to a
 non-default value. The only gliding that occurs in this case is when
 client.fps is higher than world.fps. All other movement modes base
@@ -56,4 +52,3 @@ gliding on an atom\'s `glide_size` value.
 > [!TIP] 
 > **See also:**
 > +   [Pixel movement](/ref/notes/pixel-movement.md) 
-> +   [animate_movement var (movable

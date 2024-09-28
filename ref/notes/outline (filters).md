@@ -3,19 +3,17 @@
 
 Format:
 +   filter(type="outline", ...)
-<!-- -->
+
 Args:
 +   size: Width in pixels (defaults to 1)
 +   color: Outline color (defaults to black)
 +   flags: Defaults to 0 (see below)
-
 
 Applies an outline to this image. 
 
 At larger sizes, the
 outline is less accurate and will take more passes to produce.
 Performance and appearance are best at sizes close to 1 or less.
-
 
 `flags` can be a combination of the following values:
 0
@@ -28,4 +26,4 @@ OUTLINE_SQUARE
 
 > [!TIP] 
 > **See also:**
-> +   [Drop shadow (filters)](/ref/notes/filters/drop_shadow.md) <!-- -->
+> +   [Drop shadow (filters)](/ref/notes/filters/drop_shadow.md) 

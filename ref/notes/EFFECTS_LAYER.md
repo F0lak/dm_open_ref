@@ -1,7 +1,5 @@
 ## EFFECTS_LAYER
 
-
-
 This is mostly no longer needed. A negative value for plane is
 the preferred way to do show objects in the background. It can still be
 used however when you want to rearrange objects in the same plane when
@@ -24,13 +22,11 @@ When using this special layer,
 it should be added to the layer an atom normally uses. For instance an
 obj should have a layer of `EFFECTS_LAYER + OBJ_LAYER`. 
 
-This
-can be mixed with `TOPDOWN_LAYER`, in non-topdown map formats. Anything
+This can be mixed with `TOPDOWN_LAYER`, in non-topdown map formats. Anything
 in `TOPDOWN_LAYER` will display on top of `EFFECTS_LAYER`, and
 `TOPDOWN_LAYER + EFFECTS_LAYER` will be above both. 
 
-This can
-also be mixed with `BACKGROUND_LAYER`, which takes priority over
+This can also be mixed with `BACKGROUND_LAYER`, which takes priority over
 everything else. 
 
 Images or overlays with `FLOAT_LAYER` can be

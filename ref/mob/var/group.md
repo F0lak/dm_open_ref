@@ -9,6 +9,7 @@ possible to make verbs that are accessible only to members of the group.
 
 The following example handles addition of somebody else to your
 group.
+
 ### Example:
 
 ``` dm
@@ -39,4 +40,4 @@ mob/verb/summon()
 > [!TIP] 
 > **See also:**
 > +   [Bump proc (movable atom)](/ref/atom/movable/proc/Bump.md) 
-> +   [list](/ref/list.md) <!-- -->
+> +   [list](/ref/list.md) 

@@ -1,6 +1,5 @@
 ## Big icons
 
-
 BYOND allows you to use icons that are not the same size as the
 tile size defined in world.icon_size. These icons can be manipulated
 with the /icon datum using their raw, native size, and shown on the map
@@ -18,8 +17,7 @@ isometric icon\--the actual map tiles it covers\--is always square, so
 if your tile size is 64x64 and you use a 128x64 icon, the 128-pixel
 width means the icon will cover a 2x2 section of map tiles. 
 
-It
-is important to remember that using a big icon is a visual effect
+It is important to remember that using a big icon is a visual effect
 *only*. It will not affect how the atom bumps into other atoms or
 vice-versa. 
 

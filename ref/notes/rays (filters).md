@@ -2,7 +2,7 @@
 ###### BYOND Version 513
 Format:
 +   filter(type="rays", ...)
-<!-- -->
+
 Args:
 +   x: Horiztonal position of ray center, relative to image center
     (defaults to 0)
@@ -18,7 +18,6 @@ Args:
 +   factor: How much ray strength is related to ray length (defaults to
     0, can be 0 to 1)
 +   flags: Defaults to `FILTER_OVERLAY | FILTER_UNDERLAY` (see below)
-
 
 Draws random rays that radiate outward from a center point.
 (That point may be outside of the image.) As they move outward, their
@@ -43,16 +42,8 @@ Ray `color` can be provided as a matrix. Only the
 diagonal values of the color matrix will be used, but using a matrix
 will allow you to set values outside of the normal color range.
 
-
 `flags` can have the following values:
-0
-+   The rays are drawn alone, erasing the existing image (useful for
-    some effects).
-FILTER_OVERLAY
-+   The rays are overlaid on top of the existing image.
-FILTER_UNDERLAY
-+   The rays are drawn underneath the existing image.
-FILTER_OVERLAY \| FILTER_UNDERLAY
-+   Default. For plane masters, this will use the `FILTER_OVERLAY`
-    behavior and draw the rays over the plane, and for all other images
-    it will default to `FILTER_UNDERLAY` to draw the rays beneath them.
++ `0`: The rays are drawn alone, erasing the existing image (useful for some effects).
++ `FILTER_OVERLAY`: The rays are overlaid on top of the existing image.
++ `FILTER_UNDERLAY`: The rays are drawn underneath the existing image.
++ `FILTER_OVERLAY \| FILTER_UNDERLAY`: Default. For plane masters, this will use the `FILTER_OVERLAY` behavior and draw the rays over the plane, and for all other images it will default to `FILTER_UNDERLAY` to draw the rays beneath them.

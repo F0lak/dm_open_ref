@@ -708,6 +708,7 @@ source file.  This may be useful when generating debugging error messages.
 <dd><a href=#/proc/new>new proc</a>
 <dd><a href=#/proc/locate>locate proc</a>
 <dd><a href=#/proc/istype>istype proc</a>
+<dd><a href=#/proc/astype>astype proc</a>
 </dl>
 
 <p>The <tt>__IMPLIED_TYPE__</tt> macro is replaced by a reference to the type
@@ -716,7 +717,8 @@ path implied at the current point in compilation. For instance, when using the
 for <tt>new()</tt> is implied by the var's type. Implied types are also
 automatically used in <a class=code href=#/proc/locate>locate()</a>, and are
 used by default for the second argument in
-<a class=code href=#/proc/istype>istype()</a>.
+<a class=code href=#/proc/istype>istype()</a> and
+<a class=code href=#/proc/astype>astype()</a>.
 
 <h3>Example:</h3>
 <xmp>
@@ -733,7 +735,8 @@ proc/CreateThing()
 
 <ul>
 <li>In an expression on the right-hand side of an assignment operator (this includes operators like <tt>+=</tt>), where the left-hand side is a var that has a defined type path.
-<li>Within the second argument of <a class=code href=#/proc/istype>istype()</a>.</li>
+<li>Within the second argument of <a class=code href=#/proc/istype>istype()</a>. The implied type is the first argument's var type.</li>
+<li>Within the second argument of <a class=code href=#/proc/astype>astype()</a>. If the <a class=code href=#/proc/astype>astype()</a> call is on the right-hand side of an assignment, this is the type of the var being assigned to; otherwise it's the type of the first argument.</li>
 </ul>
 
 <p>This is actually a pseudo-macro; the preprocessor doesn't handle it
@@ -13920,6 +13923,7 @@ at runtime.
 <dd><a href=#/proc/initial>initial proc</a>
 <dd><a href=#/proc/nameof>nameof proc</a>
 <dd><a href=#/proc/istype>istype proc</a>
+<dd><a href=#/proc/istype>astype proc</a>
 </dl>
 
 <dl><dt><b>Format:</b>
@@ -16288,6 +16292,56 @@ T = ascii2text(65)  // = "A"
 <p>BYOND now supports <a href=#/{notes}/Unicode>Unicode</a> via UTF-8
 encoding, so you can use the character code for any valid Unicode
 character, not just ASCII.
+
+<hr>
+
+<a name=/proc/astype>
+<h2 byondver=516>astype proc</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/proc/istype>istype proc</a>
+<dd><a href=#/DM/preprocessor/__IMPLIED_TYPE__>__IMPLIED_TYPE__ macro</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>astype(Val,Type)
+<dd>astype(Val)
+</dl>
+
+<dl><dt><b>Returns:</b>
+<dd>Val if Val is derived from Type; null otherwise.
+</dl>
+
+<dl><dt><b>Args:</b>
+<dd>Val:  An object instance.
+<dd>Type: An object prototype or instance. If no type is specified, it will be implied (see below).
+</dl>
+
+<p>Forcibly casts an object to a type, returning null if it isn't valid.
+
+<h3>Example:</h3>
+<xmp>
+astype(gift, /obj/potion)?.Drink()
+</xmp>
+
+<p>Similarly to <tt>istype()</tt>, the type can be implied. The implied type is determined as
+follows:
+
+<ol>
+<li>If <tt>astype()</tt> is on the right-hand side of an assignment operation, the left-hand side's var type is the implied type, just like with the <tt>new()</tt> operator.</li>
+<li>Otherwise, the var type of the first argument is the implied type, just as it is in <tt>istype()</tt>.</li>
+</ol>
+
+<h3>Example:</h3>
+<xmp>
+// if obstacle is of type /obj/box, it will be assigned to B; otherwise B is null
+var/obj/box/B = astype(obstacle)
+if(B?.closed) B.Open()
+
+// B is assigned no matter what, but astype() will return null if it isn't an /obj/box
+B = obstacle
+if(astype(B)?.closed) B.Open()
+</xmp>
 
 <hr>
 
@@ -19630,6 +19684,7 @@ global, const, or tmp will return 1.
 <dd><a href=#/proc/ispath>ispath proc</a>
 <dd><a href=#/proc/locate>locate proc</a>
 <dd><a href=#/proc/typesof>typesof proc</a>
+<dd><a href=#/proc/astype>astype proc</a>
 <dd><a href=#/DM/preprocessor/__IMPLIED_TYPE__>__IMPLIED_TYPE__ macro</a>
 </dl>
 
@@ -30399,10 +30454,12 @@ space</a> for more information.
 <dd>size: Maximum distortion, in pixels</dd>
 <dd>icon: Icon to use as a displacement map</dd>
 <dd>render_source: <tt>render_target</tt> to use as a displacement map</dd>
+<dd>flags: Defaults to 0; use see below for other flags</dd>
 </dl>
 
 <p>Uses an icon or render target as a template for various warping effects on
-the main image.
+the main image. Think of displacement as "pulling" a pixel from an offset
+location.
 
 <p>In the displacement map, pixels that have a higher red component will make
 the image appear to warp to the left, lower reds warp it to the right, and
@@ -30412,6 +30469,10 @@ the displacement map will have no effect.
 
 <p>This can be used for very complex distortion, unlike other distortion
 filters such as wave and ripple that are confined to specific equations.
+
+<p>The optional <tt>FILTER_OVERLAY</tt> flag is supported for the
+<tt>flags</tt> argument, which will overlay the displaced image onto the
+original.
 
 <hr>
 
@@ -32611,6 +32672,8 @@ is technically a 3-column grid with a variable number of rows.
 
 <dl class=codedd><dt><b>Info-specific parameters:</b>
 <dd><a href=#/{skin}/param/allow-html>allow-html</a>
+<dd><a href=#/{skin}/param/has-stats>has-stats</a>
+<dd><a href=#/{skin}/param/has-verbs>has-verbs</a>
 <dd><a href=#/{skin}/param/highlight-color>highlight-color</a>
 <dd><a href=#/{skin}/param/multi-line>multi-line</a>
 <dd><a href=#/{skin}/param/on-hide>on-hide</a>
@@ -32629,6 +32692,9 @@ and <a class=code href=#/proc/statpanel>statpanel()</a> procs, during
 
 <p>The same limitations that apply to <a href=#/{skin}/control/grid>grid</a>
 output apply here.
+
+<p>Info controls can now be split so that one displays stats and another
+handles verbs.
 
 <hr>
 
@@ -33847,6 +33913,56 @@ var/list/extra_resources = list(\
 <p>Used for "radio" buttons and menu items, where only one of them in the same group may be checked at a time. This value is a text string, or may be left empty.
 
 <p>Buttons in different windows/panes, or menu items in another menu/submenu, are always treated as a different group.
+
+<hr>
+
+<a name=/{skin}/param/has-stats>
+<h2 byondver=516>has-stats parameter (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/has-verbs>has-verbs parameter</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control/info>Info</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>true/false
+</dl>
+
+<dl class=codedd><dt><b>Default value:</b>
+<dd>true
+</dl>
+
+<p>True if this info control contains the statpanels created via <a class=code href=#/proc/stat>stat()</a> and <a class=code href=#/proc/statpanel>statpanel()</a>.
+
+<p>Only one info control can have statpanels.
+
+<hr>
+
+<a name=/{skin}/param/has-verbs>
+<h2 byondver=516>has-verbs parameter (skin)</h2>
+
+<dl><dt><b>See also:</b>
+<dd><a href=#/{skin}/param/has-stats>has-stats parameter</a>
+</dl>
+
+<dl><dt><b>Applies to:</b>
+<dd><a href=#/{skin}/control/info>Info</a>
+</dl>
+
+<dl><dt><b>Format:</b>
+<dd>true/false
+</dl>
+
+<dl class=codedd><dt><b>Default value:</b>
+<dd>true
+</dl>
+
+<p>True if this info control contains the verbs used in the game.
+
+<p>Currently only one info control can have verbs.
 
 <hr>
 

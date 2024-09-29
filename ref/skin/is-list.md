@@ -17,3 +17,4 @@ number of columns and rows may change to fit them.
 > **See also:**
 > +   [cells parameter](/ref/skin/param/cells.md) 
 > +   [current-cell parameter](/ref/skin/param/current-cell.md) 
+

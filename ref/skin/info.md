@@ -6,6 +6,8 @@ tabs. This is technically a 3-column grid with a variable number of
 rows.
 **Info-specific parameters:**
 +   [allow-html](/ref/skin/param/allow-html.md) 
++   [has-stats](/ref/skin/param/has-stats.md) 
++   [has-verbs](/ref/skin/param/has-verbs.md) 
 +   [highlight-color](/ref/skin/param/highlight-color.md) 
 +   [multi-line](/ref/skin/param/multi-line.md) 
 +   [on-hide](/ref/skin/param/on-hide.md) 

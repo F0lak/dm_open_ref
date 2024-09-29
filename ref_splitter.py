@@ -28,7 +28,7 @@ import cProfile
 
 BUILD_HTML : bool = False
 BUILD_FILE_TREE : bool = False
-SOURCE_FILE : str = "info.html"
+SOURCE_FILE : str = "astype.html"
 
 '''
 	Directory Stuff

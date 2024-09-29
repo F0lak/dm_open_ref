@@ -40,4 +40,5 @@ if(istype(M)) //this will be true usr << "[M] is ugly!"
 > +   [ispath proc](/ref/proc/ispath.md) 
 > +   [locate proc](/ref/proc/locate.md) 
 > +   [typesof proc](/ref/proc/typesof.md) 
+> +   [astype proc](/ref/proc/astype.md)
 > +   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 

@@ -73,4 +73,5 @@ original version; will print "Did a thing" call(T,
 > +   [call proc](/ref/proc/call.md) 
 > +   [initial proc](/ref/proc/initial.md) 
 > +   [nameof proc](/ref/proc/nameof.md) 
-> +   [istype proc](/ref/proc/istype.md) <!-- -->
+> +   [istype proc](/ref/proc/istype.md)
+> +   [astype proc](/ref/proc/astype.md)

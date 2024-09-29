@@ -25,7 +25,7 @@ proc/CreateThing()
 -   In an expression on the right-hand side of an assignment operator
     (this includes operators like `+=`), where the left-hand side is a
     var that has a defined type path.
--   Within the second argument of [istype()](/ref/proc/istype.md).
+-   Within the second argument of [istype()](/ref/proc/istype.md) and [astype proc](/ref/proc/astype.md).
 
 This is actually a pseudo-macro; the preprocessor doesn\'t
 handle it directly.
@@ -39,3 +39,4 @@ handle it directly.
 > +   [new proc](/ref/proc/new.md) 
 > +   [locate proc](/ref/proc/locate.md) 
 > +   [istype proc](/ref/proc/istype.md) 
+> +   [astype proc](/ref/proc/astype.md) 

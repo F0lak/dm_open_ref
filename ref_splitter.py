@@ -27,7 +27,7 @@ import cProfile
 """
 
 BUILD_HTML : bool = False
-BUILD_FILE_TREE : bool = False
+BUILD_FILE_TREE : bool = True
 SOURCE_FILE : str = "astype.html"
 
 '''
@@ -192,6 +192,7 @@ def clean_filenames(text) -> str:
 		Strips illegal characters from file names
 		Also performs minor cleanup of the file name
 	'''
+	return text
 	text = text.replace("%2e", ".")
 	text = text.replace("%3e", ">")
 	text = text.replace("%3c", "<")
@@ -240,6 +241,7 @@ def clean_markdown_file(text) -> str:
 		text = text.replace("PARAGRAPH", "\n\n")
 		text = text.replace("CODE_TICKS_DM", "\n``` dm\n")
 		text = text.replace("CODE_TICKS", "\n```\n")
+		return text
 		text = text.replace("%7B", "")
 		text = text.replace("%7D", "")
 		text = text.replace(" .code}", "")

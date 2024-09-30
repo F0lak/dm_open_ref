@@ -58,10 +58,11 @@ mob
 
 > [!IMPORTANT]
 > These are the vars
-that can be used in a particle set.
+that can be used in a particle set.\
 > "Tick" refers to a BYOND standard
-tick of 0.1s.
-> Some vars are ignored if no `icon` is specified:
+tick of 0.1s.\
+> 
+> The following vars are ignored if no `icon` is specified:
 > - grow
 > - spin
 

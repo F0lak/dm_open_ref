@@ -234,7 +234,7 @@ def clean_markdown_file(text) -> str:
 		text = clean_empty_lines(text)
 		text = move_see_also(text)
 		text = fix_links(text)
-		text = clean_version(text)
+	#	text = clean_version(text)
 		text = clean_inline_code(text)
 		text = text.replace("NOTE", "\n> [!NOTE]\n> ")
 		text = text.replace("\n: ", "\n+ ")
@@ -300,7 +300,7 @@ def clean_version(text) -> str:
 		Checks for BYOND version tags and converts them to a markdown-friendly format
 	'''
 	version_index = text.find("byondver=")
-	if version_index:
+	if version_index > 0:
 		start_index = text[0:version_index].rfind("{#")
 		end_index = text.find("\"}")
 

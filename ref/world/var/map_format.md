@@ -4,10 +4,10 @@
 +   TOPDOWN_MAP
 
 **Possible values:**
-   -   TOPDOWN_MAP
-   -   ISOMETRIC_MAP
-   -   SIDE_MAP
-   -   TILED_ICON_MAP
+-   TOPDOWN_MAP
+-   ISOMETRIC_MAP
+-   SIDE_MAP
+-   TILED_ICON_MAP
 
 This value says how the world will display maps. In a normal
 overhead tiled map the value is `TOPDOWN_MAP` for the top-down format.

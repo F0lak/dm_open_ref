@@ -1,4 +1,4 @@
-## #warn directive
+## \#warn directive
 
 **Format:**
 +   #warn Text

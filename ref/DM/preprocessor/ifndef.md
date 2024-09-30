@@ -1,4 +1,4 @@
-## #ifndef directive
+## \#ifndef directive
 
 **Format:**
 +   #ifndef Name

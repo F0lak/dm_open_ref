@@ -1,4 +1,4 @@
-## #define directive
+## \#define directive
 
 **Format:**
 +   #define Name Value

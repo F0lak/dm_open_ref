@@ -1,4 +1,4 @@
-## #error directive
+## \#error directive
 
 **Format:**
 +   #error Text

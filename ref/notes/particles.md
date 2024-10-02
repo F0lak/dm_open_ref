@@ -69,8 +69,8 @@ tick of 0.1s.\
   ### Particle vars that affect the entire set (generators are not allowed for these)                                                  
   | Var | Type | Description |
   | --- | --- | --- |
-  | width | num | Size of particle image in pixels |
-  | height | num | Size of particle image in pixels |
+  | width | num | Size of particle canvas in pixels.  Particles will not render outside this canvas |
+  | height | num | Size of particle canvas in pixels.  Particles will not render outside this canvas |
   | count | num | Maximum particle count |
   | spawning | num |  Number of particles to spawn per tick (can be fractional) |
   | bound1 | vector | Minimum particle position in x,y,z space; defaults to list(-1000,-1000,-1000) |

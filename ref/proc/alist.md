@@ -1,18 +1,22 @@
 ## alist proc 
 ###### BYOND Version 516
 
-<!-- -->
 **Format:**
 +   alist(A=a,B=b,C=c,...)
-<!-- -->
+
 **Returns:**
 +   A new associative list with contents (keys) A, B, C, and associated
     values a, b, c.
-<!-- -->
+
 **Args:**
 +   Arbitrary number of elements to be inserted into the associative
     list.
 
+Similar to Dictionaries in other languages.  Lovingly known as `asslist`.
+The best way to utilize this feature is with the following code:
+``` dm
+#define asslist( alist( // creates a macro that allows us to call alist's by their true name: asslist
+```
 
 Creates a strictly associative list with key,value pairs. This
 is different from an [ordinary list](/ref/list.md)  in several respects.
@@ -27,20 +31,16 @@ The point of using this type over a regular list is to eke out
 performance gains in tight code. Operators such as `+` and `-` have
 improved performance because of the rules above. 
 
-In this proc
-the index values should be constants, and that usually means text
+In this proc the index values should be constants, and that usually means text
 constants. When these index values happen to be text strings that
 satisfy all the requirements for variable names, this may also be
 written in a convenient short-hand without the double quotes:
 
 ``` dm
- var/alist/lst = alist(player = "James Byond", score =
-2000) 
+var/alist/lst = alist(player = "James Byond", score = 2000)
 ```
- 
 
-In other words, this is exactly the same
-syntax as for [named arguments](/ref/proc/arguments/named.md) 
+In other words, this is exactly the same syntax as for [named arguments](/ref/proc/arguments/named.md) 
 
 > [!TIP] 
 > **See also:**

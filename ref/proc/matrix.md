@@ -9,10 +9,10 @@
 +   matrix(n, MATRIX_SCALE)
 +   matrix(angle, MATRIX_ROTATE)
 +   matrix(x, y, MATRIX_TRANSLATE)
-<!-- -->
+
 **Returns:**
 +   A new matrix.
-<!-- -->
+
 **Args:**
 +   Matrix: a matrix to copy
 +   a - f: The individual matrix components (in column-major order)
@@ -39,4 +39,4 @@ matrix(x, y, MATRIX_TRANSLATE)
 > [!TIP] 
 > **See also:**
 > +   [matrix](/ref/matrix.md) 
-> +   [transform var (atom)](/ref/atom/var/transform.md) <!-- -->
+> +   [transform var (atom)](/ref/atom/var/transform.md) 

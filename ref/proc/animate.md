@@ -1,6 +1,31 @@
 ## animate proc 
 ###### BYOND Version 500
 
+**Format:**
++   animate(Object, var1=new_value1, var2=new_value2, ..., time, loop,
+    easing, flags, delay, tag)
++   animate(Object, appearance=new_appearance, time, loop, easing,
+    flags, delay, tag)
++   animate(Object)
+
+**Args:**
++   `Object`: The atom, image, or client to animate; omit to add another
+    step to the same sequence as the last `animate()` call
++   `var1=new_value1`, `var2=new_value2`, ...: Vars to change in the
+    animation step
++   `var_list`: An associative list of vars to change
++   `appearance`: New appearance to use instead of multiple var changes
+    (**must** be a [named argument](/ref/proc/arguments/named.md) )
++   `time`: Time of this step, in 1/10s (may be a [named argument](/ref/proc/arguments/named.md) )
++   `loop`: Number of times to run this sequence, or -1 to loop forever
+    (may be a [named argument](/ref/proc/arguments/named.md))
++   `easing`: The "curve" followed by this animation step (may be a
+    [named argument](/ref/proc/arguments/named.md) )
++   `flags`: Flags that impact how the animation acts (may be a [named argument](/ref/proc/arguments/named.md) )
++   `delay`: Delay time for starting the first step in a sequence (may be
+    negative; may be a [named argument](/ref/proc/arguments/named.md) )
++   `tag` <sup><sub>(516)</sub></sup>: Optional name for a new animation sequence (**must** be a [named argument](/ref/proc/arguments/named.md) )
+
 > [!IMPORTANT]
 > ### Useful terms in this article:
 > + **Step:** A piece of an animation that transitions from the old
@@ -15,38 +40,7 @@ parallel, it will freeze the previous animation at its current point and
 animate any changes from there. The previous sequences are superseded,
 and will eventually be discarded.
 
-
-<!-- -->
-**Format:**
-+   animate(Object, var1=new_value1, var2=new_value2, ..., time, loop,
-    easing, flags, delay, tag)
-+   animate(Object, appearance=new_appearance, time, loop, easing,
-    flags, delay, tag)
-+   animate(Object)
-<!-- -->
-**Args:**
-+   `Object`: The atom, image, or client to animate; omit to add another
-    step to the same sequence as the last `animate()` call
-+   `var1=new_value1`, `var2=new_value2`, ...: Vars to change in the
-    animation step
-+   `var_list`: An associative list of vars to change
-+   `appearance`: New appearance to use instead of multiple var changes
-    (**must** be a [named argument](/ref/proc/arguments/named.md) )
-+   `time`: Time of this step, in 1/10s (may be a [named
-    argument](/ref/proc/arguments/named.md) )
-+   `loop`: Number of times to run this sequence, or -1 to loop forever
-    (may be a [named argument](/ref/proc/arguments/named.md))
-+   `easing`: The "curve" followed by this animation step (may be a
-    [named argument](/ref/proc/arguments/named.md) )
-+   `flags`: Flags that impact how the animation acts (may be a [named
-    argument](/ref/proc/arguments/named.md) )
-+   `delay`: Delay time for starting the first step in a sequence (may be
-    negative; may be a [named argument](/ref/proc/arguments/named.md) )
-+   `tag` <sup><sub>(516)</sub></sup>: Optional name for a new animation sequence (**must** be a [named
-    argument](/ref/proc/arguments/named.md) )
-
-
-This proc creates an **animation step**, which may be the start
+This proc creates an **animation step** (aka keyframe), which may be the start
 of a **sequence** of multiple steps, that will be displayed to players.
 Starting with an atom or image, you can change one or more vars that
 affect its apprearance. This change will take place immediately, but
@@ -98,15 +92,13 @@ step rather than smoothly:
 
 
 Other vars may apply:
--   space: A named var for the [color
-    space](/ref/appendix/color-space.md) , if animating color; only
+-   space: A named var for the [color space](/ref/appendix/color-space.md) , if animating color; only
     applies to non-matrix color values.
 For convenience, you can use an [associative list](/ref/list/associations.md) ,
 appearance, or [mutable appearance](/ref/mutable_appearance.md)  in place of
 the appearance vars. You can use `appearance` itself as a name for this
 argument, or leave the argument unnamed.
 ### Easing
-
 
 An animation step doesn\'t have to be strictly linear. Some
 changes look much better if they follow a curve. A cubic curve, for
@@ -153,30 +145,25 @@ obj/speech_bubble/New(newloc, msg)
     pixel_z = -100
     alpha = 0 animate(src, pixel_z = 0, alpha = 255, time = 10, easing = ELASTIC_EASING) 
 ```
- 
 
 Some easing functions may overshoot one line or the other, so it\'s fully
 possible to have a `pixel_w` value, for instance, animate from 0 to 100
 but actually end up briefly outside of that range during the animation.
 ### Flags <sub><sub>509</sub></sub>
 
-
 Any combination of these flags may be used for animation (use
 `+` or `|` to combine them):
-`ANIMATION_END_NOW`
-+   Normally if you interrupt another animation, it transitions from its
++ `ANIMATION_END_NOW`: Normally if you interrupt another animation, it transitions from its
     current state. This flag will start the new animation fresh by
     bringing the old one to its conclusion immediately. It is only
     meaningful on the first step of a new animation. If using the `tag`
     argument, only a previous sequence with the same matching tag is
     stopped.
-`ANIMATION_LINEAR_TRANSFORM`
-+   The transform var is interpolated in a way that preserves size
++ `ANIMATION_LINEAR_TRANSFORM`: The transform var is interpolated in a way that preserves size
     during rotation, by pulling the rotation step out. This flag forces
     linear interpolation, which may be more desirable for things like
     beam effects, mechanical arms, etc.
-`ANIMATION_PARALLEL`
-+   Start a parallel animation sequence that runs alongside the current
++ `ANIMATION_PARALLEL`: Start a parallel animation sequence that runs alongside the current
     animation sequence. The difference between where the parallel
     sequence started, and its current appearance, is added to the result
     of any previous animations. For instance, you could use this to
@@ -185,41 +172,35 @@ Any combination of these flags may be used for animation (use
     after a previous animation sequence did a translate. (When using
     this flag, the src var may be included, but it is optional.) This
     flag is implied if using the `tag` argument for a named sequence.
-`ANIMATION_RELATIVE`
-+   The vars specified are relative to the current state. This works for
++ `ANIMATION_RELATIVE`: The vars specified are relative to the current state. This works for
     maptext_x/y/width/height, pixel_x/y/w/z, luminosity, layer, alpha,
     transform, and color. For transform and color, the current value is
     multiplied by the new one. Vars not in this list are simply changed
     as if this flag is not present. (If you supply an appearance instead
     of individual vars, this flag is meaningless.)
-`ANIMATION_CONTINUE`
-+   This flag is equivalent to leaving out the `Object` argument. It
-    exists to make it easier to define an animation using a [for
-    loop](/ref/proc/for.md) . If `Object` differs from the previous sequence,
++ `ANIMATION_CONTINUE`: This flag is equivalent to leaving out the `Object` argument. It
+    exists to make it easier to define an animation using a [for loop](/ref/proc/for.md).
+    If `Object` differs from the previous sequence,
     this flag will be ignored and a new sequence will start.
-`ANIMATION_SLICE`
-+   Following a series of `animate()` calls, you can view just a portion
++ `ANIMATION_SLICE`: Following a series of `animate()` calls, you can view just a portion
     of the animation by using
     `animate(object, delay=start, time=duration, flags=ANIMATION_SLICE)`.
-    The `loop` parameter may optionally be included. The `delay` is the
-    start time of the slice, relative to the beginning of all the active
+    The `loop` parameter may optionally be included. The `delay` is the start time of the slice, relative to the beginning of all the active
     animations on the object. (That is, earlier animations that have
     concluded will not be included.) You can call the proc again with a
     different slice if you want to see a different portion of the
     animation. A negative value for `time` will remove the slice and
     finish any existing animations.
-`ANIMATION_END_LOOP`
-+   Tells previous animation sequences to stop looping and end
++ `ANIMATION_END_LOOP`: Tells previous animation sequences to stop looping and end
     naturally. The delay for starting this new sequence is adjusted
     based on that. If using the `tag` argument, only a previous sequence
     with the same matching tag is told to stop looping.
 
-### Filters <sub><sub>512</sub></sub>
+### Filters <sub><sup>512</sub></sup>
 
 [Filters](/ref/notes/filters.md) can be animated too. If you
 want to animate a filter, you need to specify the filter to be animated.
-If the last call to `animate()` used the same object as this filter, or
-a different filter for that object, then this will be treated as a new
+If the last call to `animate()` used the same object as this filter, or a different filter for that object, then this will be treated as a new
 step in the same animation sequece. Likewise, if the last `animate()`
 call was to a filter, and this call is for the object that filter
 belonged to, again it will be treated as a continuation of the sequence.
@@ -235,7 +216,7 @@ atom/proc/BlurFade()
     animate(src, alpha = 0, time = 2.5)
 ```
 
-### Named sequences <sub><sub>516</sub></sub>
+### Named sequences <sub><sup>516</sub></sub>
 
 The `tag` argument allows you to refer to an animation sequence
 by name. This is useful for being able to replace or stop a previous

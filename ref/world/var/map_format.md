@@ -4,10 +4,10 @@
 +   TOPDOWN_MAP
 
 **Possible values:**
-   -   TOPDOWN_MAP
-   -   ISOMETRIC_MAP
-   -   SIDE_MAP
-   -   TILED_ICON_MAP
+-   TOPDOWN_MAP
+-   ISOMETRIC_MAP
+-   SIDE_MAP
+-   TILED_ICON_MAP
 
 This value says how the world will display maps. In a normal
 overhead tiled map the value is `TOPDOWN_MAP` for the top-down format.
@@ -20,6 +20,10 @@ are not affected by changing client.dir. The size of the HUD is rounded
 up to the nearest number of full screen tiles; the size of each tile is
 defined by world.icon_size.
 
+> [!TIP]
+> Some people find it easier to differentiate SIDE_MAP and TOPDOWN_MAP by
+> thinking of them as STANDING_MAP and FLAT_MAP respectively.
+
 ### Top-down format
 (See more at [Topdown maps](/ref/notes/topdown.md) .) 
 This is the default map format. Icons are drawn in a tile form and viewed from
@@ -30,7 +34,7 @@ Because this format is familiar and easy to
 understand, it is the default setting. Most of the vars related to maps
 and atoms are designed and documented with this format in mind.
 
-### Tiled icon format {#tiled-icon-format deprecated="1"}
+### Tiled icon format (deprecated)
 (See more at [Tiled icons](/ref/notes/tiled-icons.md) .) In BYOND 4.0 a
 new feature was introduced for using \"big\" icons, bigger than the
 standard tile size, by splitting them up into states like \"0,0\",
@@ -104,12 +108,25 @@ similar irregularities.
 
 ### Side-view format <sub><sup>482</sup></sub>
 (See more at [Side-view maps](/ref/notes/side.md) ) 
-The
-`SIDE_MAP` format is like a cross between `TOPDOWN_MAP` and
+The `SIDE_MAP` format is like a cross between `TOPDOWN_MAP` and
 `ISOMETRIC_MAP`. It looks very similar to a top-down view but it is
 intended for more of a 3/4 perspective, where tiles lower on the screen
 are considered closer to the viewer. Because this impacts the way layers
 work, most of the layering behavior is the same as with isometric.
+> [!NOTE]
+> When using SIDE_MAP, it's almost always desirable to change your
+> default layer variables to the following:
+> ```dm
+> #define AREA_LAYER 1 + BACKGROUND_LAYER
+> #define TURF_LAYER 2 + BACKGROUND_LAYER
+> #define OBJ_LAYER 3
+> #define MOB_LAYER 3
+> 
+> area/layer = AREA_LAYER
+> turf/layer = TURF_LAYER
+> obj/layer = OBJ_LAYER
+> mob/layer = MOB_LAYER
+> ```
 In a 3/4 perspective the tiles are often foreshortened, so
 pixel offsets are adjusted to account for this. For example, you may set
 `world.icon_size` to `"32x24"`, but the tile is considered to be a

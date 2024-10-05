@@ -15,7 +15,12 @@
 Similar to Dictionaries in other languages.  Lovingly known as `asslist`.
 The best way to utilize this feature is with the following code:
 ``` dm
-#define asslist( alist( // creates a macro that allows us to call alist's by their true name: asslist
+// creates a version dependent macro that allows us to call alist's by their true name: asslist
+#if DM_VERSION >= 516
+#define asslist alist
+#else
+#define asslist list
+#endif
 ```
 
 Creates a strictly associative list with key,value pairs. This

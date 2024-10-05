@@ -68,17 +68,15 @@ def get_latest_commit():
 
 async def send_commit_message(commit):
 	commit_message = commit['commit']['message']
-	commit_url = commit['html_url']
 	author = commit['commit']['author']['name']
  
 	embed = discord.Embed(
 		title="New Commit",
-		description=commit_message,
-		url=commit_url,
 		color=discord.Color.blue()
 	)
 	embed.add_field(name="Author", value=author, inline=True)
-	embed.add_field(name="Commit URL", value=commit_url, inline=False)
+	embed.add_field(name="Message", value=commit_message, inline=True)
+	embed.set_footer(text="Thank you for contributing!")
 
 	channel	= bot.get_channel(CHANNEL_ID)
 	await channel.send(embed=embed)

@@ -27,7 +27,6 @@ repo = user.get_repo("dm_open_ref")
 intents=discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!o", intents = intents)
-CHANNEL	= bot.get_channel(CHANNEL_ID)
 
 '''
 Commit updates to discord
@@ -81,16 +80,8 @@ async def send_commit_message(commit):
 	embed.add_field(name="Author", value=author, inline=True)
 	embed.add_field(name="Commit URL", value=commit_url, inline=False)
 
-	await CHANNEL.send(embed=embed)
- 
-	message = {
-		"content": f"New commit by {author}: `{commit_message}`\n{commit_url}"
-	}
-	response = requests.post(DIS_WEBHOOK, json=message)
-	if response.status_code == 204:
-		print("Commits sent to discord")
-	else:
-		print("Could not send commits to discord:", response.status_code)
+	channel	= bot.get_channel(CHANNEL_ID)
+	await channel.send(embed=embed)
 
 def save_last_commit_sha(sha):
 	with open(LAST_COMMIT, 'w') as f:

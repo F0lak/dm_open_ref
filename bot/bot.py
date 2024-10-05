@@ -13,6 +13,7 @@ load_dotenv()
 DIS_TOKEN	= str(os.getenv("DISCORD_TOKEN"))
 GIT_TOKEN	= str(os.getenv("GITHUB_TOKEN"))
 CHANNEL_ID	= int(os.getenv("CHANNEL_ID"))
+BCORD_CHAN	= int(os.getenv("BYOND_DISCORD_CHANNEL"))
 REPO		= str(os.getenv("REPO"))
 RAW			= str(os.getenv("RAW"))
 DIS_WEBHOOK	= str(os.getenv("DISCORD_WEBHOOK"))
@@ -81,7 +82,9 @@ async def send_commit_message(commit):
 	embed.set_footer(text="Thank you for contributing!")
 
 	channel	= bot.get_channel(CHANNEL_ID)
+	byondcord_channel = bot.get_channel(BCORD_CHAN)
 	await channel.send(embed=embed)
+	await byondcord_channel.send(embed=embed)
 
 def save_last_commit_sha(sha):
 	with open(LAST_COMMIT, 'w') as f:

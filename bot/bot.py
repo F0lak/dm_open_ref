@@ -73,12 +73,12 @@ async def send_commit_message(commit):
 	commit_url = commit['html_url']
  
 	embed = discord.Embed(
-		title="New Commit",
+		title="Update to Open Ref!",
 		url=commit_url,
 		color=discord.Color.blue()
 	)
-	embed.add_field(name="Author", value=author)
-	embed.add_field(name="Message", value=commit_message)
+	embed.add_field(name="Author", value=author, inline = False)
+	embed.add_field(name="Message", value=commit_message, inline = False)
 	embed.set_footer(text="Thank you for contributing!")
 
 	channel	= bot.get_channel(CHANNEL_ID)

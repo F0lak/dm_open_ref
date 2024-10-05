@@ -61,8 +61,8 @@ usr << "You look like this: \
   <IMG CLASS=icon SRC=\ref[usr.icon] ICONSTATE='glowing' ICONDIR=NORTH ICONFRAME=2>!"
 ```
  
-Note that the \\icon macro does
-not work in the mini-browser; it is only for text output. To make icons
+> [!NOTE] 
+> The \\icon macro does not work in the mini-browser; it is only for text output. To make icons
 appear in an HTML document, use [browse_rsc()](/ref/proc/browse_rsc.md)  to
 send an icon to the client before using [browse()](/ref/proc/browse.md) to
 display it.

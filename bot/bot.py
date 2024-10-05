@@ -69,9 +69,11 @@ def get_latest_commit():
 async def send_commit_message(commit):
 	commit_message = commit['commit']['message']
 	author = commit['commit']['author']['name']
+	commit_url = commit['html_url']
  
 	embed = discord.Embed(
 		title="New Commit",
+		url=commit_url,
 		color=discord.Color.blue()
 	)
 	embed.add_field(name="Author", value=author, inline=True)

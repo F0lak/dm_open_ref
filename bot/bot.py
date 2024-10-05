@@ -7,6 +7,7 @@ from discord.ext import commands
 from dotenv import load_dotenv 
 import difflib
 import asyncio
+import time
 
 load_dotenv()
 DIS_TOKEN	= str(os.getenv("DISCORD_TOKEN"))
@@ -14,15 +15,116 @@ GIT_TOKEN	= str(os.getenv("GITHUB_TOKEN"))
 CHANNEL_ID	= int(os.getenv("CHANNEL_ID"))
 REPO		= str(os.getenv("REPO"))
 RAW			= str(os.getenv("RAW"))
+DIS_WEBHOOK	= str(os.getenv("DISCORD_WEBHOOK"))
+COMMITS		= str(os.getenv("COMMITS"))
+LAST_COMMIT	= "last_commit.txt"
 
 github = Github(auth = Auth.Token(GIT_TOKEN))
 
 user = github.get_user()
 repo = user.get_repo("dm_open_ref")
-    
+	
 intents=discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!o", intents = intents)
+CHANNEL	= bot.get_channel(CHANNEL_ID)
+
+'''
+Commit updates to discord
+This checks the repo every 10 minutes for new commits and sends an update to
+the "commits" channel on the o-ref discord server
+'''
+
+def check_rate_limit():
+	headers = {
+		'Authorization': f'token {GIT_TOKEN}',
+		'Accept': 'application/vnd.github.v3+json'
+	}
+	response = requests.get('https://api.github.com/rate_limit', headers=headers)
+	
+	if response.status_code == 200:
+		rate_limit_info = response.json()
+		remaining = rate_limit_info['rate']['remaining']
+		reset_time = rate_limit_info['rate']['reset']  # Reset time in UNIX timestamp
+		reset_time_remaining = reset_time - int(time.time())  # Calculate remaining wait time
+
+		print(f"Remaining requests: {remaining}")
+		print(f"Time until reset: {reset_time} seconds")
+		return remaining, reset_time_remaining
+	else:
+		print("Failed to fetch rate limit:", response.status_code)
+		return None, None
+
+def get_latest_commit():
+	headers = {
+		'Authorization': f'token {GIT_TOKEN}',
+		'Accept': 'application/vnd.github.v3+json'
+	}
+	response = requests.get(COMMITS, headers=headers)
+	if response.status_code == 200:
+		return response.json()[0]
+	else:
+		print("Failed to fetch commits:", response.status_code)
+		return None
+
+async def send_commit_message(commit):
+	commit_message = commit['commit']['message']
+	commit_url = commit['html_url']
+	author = commit['commit']['author']['name']
+ 
+	embed = discord.Embed(
+		title="New Commit",
+		description=commit_message,
+		url=commit_url,
+		color=discord.Color.blue()
+	)
+	embed.add_field(name="Author", value=author, inline=True)
+	embed.add_field(name="Commit URL", value=commit_url, inline=False)
+
+	await CHANNEL.send(embed=embed)
+ 
+	message = {
+		"content": f"New commit by {author}: `{commit_message}`\n{commit_url}"
+	}
+	response = requests.post(DIS_WEBHOOK, json=message)
+	if response.status_code == 204:
+		print("Commits sent to discord")
+	else:
+		print("Could not send commits to discord:", response.status_code)
+
+def save_last_commit_sha(sha):
+	with open(LAST_COMMIT, 'w') as f:
+		f.write(sha)
+
+def get_last_commit_sha():
+	if os.path.exists(LAST_COMMIT):
+		with open(LAST_COMMIT, 'r') as f:
+			return f.read().strip()
+	return None
+
+async def check_for_new_commits():
+	check_rate_limit()
+	latest_commit = get_latest_commit()
+	if latest_commit:
+		latest_commit_sha = latest_commit['sha']
+		last_commit_sha = get_last_commit_sha()
+
+		if latest_commit_sha != last_commit_sha:
+			await send_commit_message(latest_commit)
+			save_last_commit_sha(latest_commit_sha)
+		else:
+			print("No new commits.")
+
+async def periodic_commit_check():
+	await bot.wait_until_ready()
+	while not bot.is_closed():
+		await check_for_new_commits()
+		await asyncio.sleep(600)
+  
+  
+'''
+Bot queries stuff
+'''
 
 OVERRIDE_QUERIES = {
 	'.' : 'ref/proc/..md',
@@ -53,48 +155,33 @@ web_connection_status : str = ping_via_http(REPO)
 
 @bot.event
 async def on_ready():
-    
-    custom_activity = discord.Activity(
-        type=discord.ActivityType.custom, 
-        state="Lummox has me locked up!"
-    )
-    
-    await bot.change_presence(status=discord.Status.online, activity=custom_activity)
-    print(f"\n{bot.user} is online")
-    await bot.sync_commands()
-    channel = bot.get_channel(CHANNEL_ID)
-    if channel:
-        #await channel.send(f"open-ref Bot is now online and {web_connection_status}.\nI accept the following commands:{commands}")
-        print(f"Active in main channel! ({CHANNEL_ID})")
-    else:
-        print(f"Could not find main channel ({CHANNEL_ID})")
-        
+	
+	custom_activity = discord.Activity(
+		type=discord.ActivityType.custom, 
+		state="Lummox has me locked up!"
+	)
+	
+	await bot.change_presence(status=discord.Status.online, activity=custom_activity)
+	print(f"\n{bot.user} is online")
+	await bot.sync_commands()
+		
 class MyView(discord.ui.View):
-    def __init__(self, ref_text = "", timeout_time=120):
-        super().__init__(timeout = timeout_time)
-        self.ref_text = ref_text
-        
-    @discord.ui.button(label="Click to View", style=discord.ButtonStyle.primary)
-    async def button_callback(self, button: discord.ui.Button, interaction: discord.Interaction):
-        await interaction.response.send_message(self.ref_text, ephemeral=True, embed=None)
-        
-        
-def write_file(text, file_name) -> None:
-	'''
-		Writes a file to the disk
-	'''
-	output_file = os.path.join(f'{file_name}')
-	with open(output_file, 'w', encoding='utf-8') as file:
-		file.write(text)  
+	def __init__(self, ref_text = "", timeout_time=120):
+		super().__init__(timeout = timeout_time)
+		self.ref_text = ref_text
+		
+	@discord.ui.button(label="Click to View", style=discord.ButtonStyle.primary)
+	async def button_callback(self, button: discord.ui.Button, interaction: discord.Interaction):
+		await interaction.response.send_message(self.ref_text, ephemeral=True, embed=None)
   
 def clean_query(filename, replace_with=""):
-    # Define illegal characters based on the operating system
-    illegal_chars = '\\/*?:"<>|'
-    
-    # Build the cleaned filename by replacing illegal characters
-    cleaned = ''.join(char if char not in illegal_chars else replace_with for char in filename)
-    
-    return cleaned
+	# Define illegal characters based on the operating system
+	illegal_chars = '\\/*?:"<>|'
+	
+	# Build the cleaned filename by replacing illegal characters
+	cleaned = ''.join(char if char not in illegal_chars else replace_with for char in filename)
+	
+	return cleaned
 
 def special_characters(text) -> str: 
 	'''
@@ -123,12 +210,12 @@ def special_characters(text) -> str:
 	return text
 
 @bot.command(
-    aliases=['penref'],
-    brief="Displays a reference file",
-    help="""Searches reference files on open-ref using your input.
-    		It will first search file names and paths, and if no matches are found, it will search file contents.
-       		It displays the best match to your search."""
-    )
+	aliases=['penref'],
+	brief="Displays a reference file",
+	help="""Searches reference files on open-ref using your input.
+			It will first search file names and paths, and if no matches are found, it will search file contents.
+	   		It displays the best match to your search."""
+	)
 
 async def ref(ctx, *, query="DM"):
 	print(query)
@@ -171,20 +258,19 @@ async def search(ctx, query, url, header, params):
 
 	if response.status_code == 200:
 		search_results = response.json()
-	#	write_file(str(search_results), "search_results.json")
 		print(f"Query = {query}")
 		if 'items' in search_results and len(search_results['items']) > 0:
 			unsorted_items = []
 			for item in search_results['items']:
 				unsorted_items.append(item['path'])
-    
+	
 			print(f"Pre-Sort:\n{[unsorted_items]}")
 
 			if len(unsorted_items) > 0:
 				match = unsorted_items[0]
 
 				sorted_items = difflib.get_close_matches(query, [item for item in unsorted_items], n = len(unsorted_items), cutoff = 0.5)
-    
+	
 				if len(sorted_items) > 0:
 					match = sorted_items[0]
 		
@@ -214,22 +300,22 @@ async def ref_info(ctx, content):
 		await bot_message.edit(view=None)
   
 def prettify(content, page_title, link):
-    
-    content = content[0:4000] + ("..." if len(content) > 4000 else "")
-    page_title = page_title.replace("#","")
-    page_title = page_title.replace("\\","")
-    embed = discord.Embed(
-        title= "🔗 " + page_title,
-        url=link,
-        #description=cleanup_output(content),
-        color=discord.Color.orange()  # Set color of the embed
-    )
-    #embed.add_field(name="", value = link, inline = False)
-    embed.set_footer(text="BYOND Version 516.1644")
-    
-    return embed
+	
+	content = content[0:4000] + ("..." if len(content) > 4000 else "")
+	page_title = page_title.replace("#","")
+	page_title = page_title.replace("\\","")
+	embed = discord.Embed(
+		title= "🔗 " + page_title,
+		url=link,
+		#description=cleanup_output(content),
+		color=discord.Color.orange()  # Set color of the embed
+	)
+	#embed.add_field(name="", value = link, inline = False)
+	embed.set_footer(text="BYOND Version 516.1644")
+	
+	return embed
 	# use: send(embed = prettify(content))
-    
+	
 def get_page(item):
 	markdown_response = requests.get(f"{RAW}/{item}")
 	markdown_content = markdown_response.text
@@ -263,14 +349,15 @@ def fix_links(text) -> str:
 	return ''.join(result)
 
 def cleanup_output(text):
-    text = text.replace("######","")
-    text = text.replace("<!-- -->","")
-    text = text.replace("> [!TIP]", "")
-    text = text.replace("+  ", "-  ")
-    text = fix_links(text)
-    
-    text = text[0:text.find("> **See also:**")]
-    
-    return text
+	text = text.replace("######","")
+	text = text.replace("<!-- -->","")
+	text = text.replace("> [!TIP]", "")
+	text = text.replace("+  ", "-  ")
+	text = fix_links(text)
+	
+	text = text[0:text.find("> **See also:**")]
+	
+	return text
 
-bot.run(DIS_TOKEN) # run the bot with the token
+bot.loop.create_task(periodic_commit_check())
+bot.run(DIS_TOKEN)

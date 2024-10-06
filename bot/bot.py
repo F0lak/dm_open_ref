@@ -78,8 +78,8 @@ async def send_commit_message(commit):
 		color=discord.Color.blue()
 	)
 	embed.add_field(name="Author", value=author, inline = False)
-	embed.add_field(name="Message", value=commit_message, inline = False)
-	embed.set_footer(text="Thank you for contributing!")
+	embed.add_field(name="Details", value=commit_message, inline = False)
+	embed.set_footer(text=f"Thank you for contributing to open-ref, {author}!")
 
 	channel	= bot.get_channel(CHANNEL_ID)
 	byondcord_channel = bot.get_channel(BCORD_CHAN)
@@ -126,7 +126,8 @@ OVERRIDE_QUERIES = {
 	'!' : 'ref/operator/!.md',
 	'?' : 'ref/operator/?.md',
 	'/' : 'ref/operator/SLASH.md',
-	'^' : 'ref/operator/^.md'
+	'^' : 'ref/operator/^.md',
+	'<:asslist:1202180157339877406>' : 'ref/proc/alist.md'
 }
 
 def ping_via_http(url) -> str:
@@ -213,7 +214,6 @@ def special_characters(text) -> str:
 
 async def ref(ctx, *, query="DM"):
 	print(query)
-	query = special_characters(query)
 
 	SEARCH_URL = "https://api.github.com/search/code"
 
@@ -222,9 +222,14 @@ async def ref(ctx, *, query="DM"):
 	if query in OVERRIDE_QUERIES:
 		match = OVERRIDE_QUERIES[query]
 	#	await ctx.send(f"Override Query: {query} : {match}")
-		await ref_info(ctx, (get_page(match), f"{REPO}/{match}"))
+
+		page = get_page(match)
+		lines = page.splitlines()
+		title = lines[0]
+		await ref_info(ctx, (page, title, f"{REPO}/{match}"))
 		return
 
+	query = special_characters(query)
 	filename_params = {'q': f'filename:{query} repo:F0lak/dm_open_ref path:ref', 'order': 'desc'}
 	path_params = {'q': f'{query} in:path repo:F0lak/dm_open_ref path:ref', 'order': 'desc'}
 	code_params = {'q': f'{query} in:file repo:F0lak/dm_open_ref path:ref', 'order': 'desc'}
@@ -263,7 +268,7 @@ async def search(ctx, query, url, header, params):
 			if len(unsorted_items) > 0:
 				match = unsorted_items[0]
 
-				sorted_items = difflib.get_close_matches(query, [item for item in unsorted_items], n = len(unsorted_items), cutoff = 0.5)
+				sorted_items = difflib.get_close_matches(query, [item for item in unsorted_items], n = len(unsorted_items), cutoff=0.33)
 	
 				if len(sorted_items) > 0:
 					match = sorted_items[0]

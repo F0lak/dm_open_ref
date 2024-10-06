@@ -20,7 +20,7 @@ on-preempt
     present, `on-end` still applies if the sound is preempted.
 ### Example:
 
-``` dm
+```dm
  mob/proc/PlayIntro() var/sound/S = sound(\'intro.ogg\')
 S.params = list("on-end" = ".intro-ended") src << S
 mob/verb/\_Intro_Ended() set name = ".intro-ended" src << "The

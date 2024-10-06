@@ -16,7 +16,7 @@ is shared by applications installed on the same system. The
 configuration data is accessed by specifying the configuration "set"
 and the parameter within that set. The "sets" defined so far are:
 
-``` dm
+```dm
  env system environment variables (changes are not
 persistent) admin list of site administrators ban list of banned users
 or IP addresses keyban list of banned users (deprecated) ipban list of
@@ -35,7 +35,7 @@ ckey or ckeyEx as the parameter, and might have data such as
 "reason=jerkish;message=You+jerk!".
 ### Example:
 
-``` dm
+```dm
  mob/verb ban(key as text)
 world.SetConfig("ban",ckey(key),"reason=fiendish;admin=[ckey]")
 lookban(key as null\|text) if(key) usr << "[key]:
@@ -68,7 +68,7 @@ but even then, the default behavior is almost always what you want.
 
 The configuration space is specified inside the configuration
 set parameter like this: 
-``` dm
+```dm
 
 world.SetConfig("APP/keyban",...) 
 ```

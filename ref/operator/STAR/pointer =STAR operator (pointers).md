@@ -16,7 +16,7 @@ on the left-hand side of assignment operations, for instance `*A = B` or
 `*X += Y`, to store the result in the place the pointer indicates.
 ### Example:
 
-``` dm
+```dm
  atom/proc/PixelPos(px, py) // get an exact step position
 *px = (x-1) * 32 // this code assumes a 32x32 icon size *py = (y-1)
 * 32 atom/movable/PixelPos(px, py) // get an exact step position ..()

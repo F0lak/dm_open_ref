@@ -22,7 +22,7 @@ list is the same as converting that one item to text, and an empty list
 becomes an empty string.
 ### Example:
 
-``` dm
+```dm
  var/list/items = list("apples", "oranges",
 "bananas") usr << jointext(items, ", ") 
 ```

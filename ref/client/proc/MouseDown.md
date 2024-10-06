@@ -29,7 +29,7 @@ procedures are simply available for completeness.
 
 The argument
 format for this verb is: 
-``` dm
+```dm
 MouseDown(object as null|atom in usr.client,\
           location as null|turf|text in usr.client,\
           control as text, params as text)

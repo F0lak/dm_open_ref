@@ -17,7 +17,7 @@
 Assign elements to a list.
 ### Example:
 
-``` dm
+```dm
  var/L[] L = list(1,2,3) 
 ```
  
@@ -30,7 +30,7 @@ The `list()` instruction may also be used to
 create associative lists.
 ### Example:
 
-``` dm
+```dm
  var/list/lst = list("player" = "James Byond",
 "score" = 2000) 
 ```
@@ -45,7 +45,7 @@ usually means text constants. When these index values happen to be text
 strings that satisfy all the requirements for variable names, this may
 also be written in a convenient short-hand without the double quotes:
 
-``` dm
+```dm
  var/list/lst = list(player = "James Byond", score =
 2000) 
 ```

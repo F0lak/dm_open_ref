@@ -14,7 +14,7 @@ variables maxx, maxy, and maxz. The default content of this map is
 determined by the world variables turf and area.
 ### Example:
 
-``` dm
+```dm
 #include "level1.dmm"
 #include "level2.dmm"
 #include "level3.dmm"

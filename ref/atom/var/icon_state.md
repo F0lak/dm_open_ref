@@ -10,7 +10,7 @@ state is specified that does not exist in the icon file, the default
 null state will be displayed if it exists.
 ### Example:
 
-``` dm
+```dm
 turf/door
 	icon_state = "closed"
 	density = 1

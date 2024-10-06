@@ -25,7 +25,7 @@ to filter effects.
 
 ### Example:
 
-``` dm
+```dm
  mob/proc/GetFlatIcon() return client?.RenderIcon(src)
 ```
 > [!IMPORTANT]   

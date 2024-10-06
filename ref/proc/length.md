@@ -11,7 +11,7 @@
 +   E: text, list, file, or vector
 ### Example:
 
-``` dm
+```dm
  world << length("Hi") 
 ```
  
@@ -20,7 +20,7 @@ This
 outputs, "2", the length of the string "Hi".
 ### Example:
 
-``` dm
+```dm
  world << length(list(1,2,3)) 
 ```
  
@@ -29,7 +29,7 @@ This
 outputs, "3", the length of the list.
 ### Example:
 
-``` dm
+```dm
  world << length(file("test.txt")) 
 ```
 

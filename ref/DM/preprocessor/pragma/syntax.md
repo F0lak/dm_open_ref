@@ -20,7 +20,7 @@ the end of the switch unless you want to fall through to the next case.
 Fall-through behavior isn\'t possible in the default DM syntax.
 ### Example:
 
-``` dm
+```dm
 #pragma push
 #pragma syntax C switch
 

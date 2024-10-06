@@ -40,7 +40,7 @@ and all of them are added together.
 
 Either of these calls
 change the icon to grayscale: 
-``` dm
+```dm
 icon.MapColors(0.3,0.3,0.3, 0.59,0.59,0.59, 0.11,0.11,0.11, 0,0,0)
 // or...
 icon.MapColors(rgb(77,77,77), rgb(150,150,150), rgb(28,28,28), rgb(0,0,0))
@@ -53,7 +53,7 @@ The calculations are as follows:
 
 Or this will make a nice moonlight effect:
 
-``` dm
+```dm
 icon.MapColors(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4, 0,0,0)
 // or...
 icon.MapColors(rgb(51,13,13), rgb(26,77,51), rgb(26,26,102), rgb(0,0,0))
@@ -70,7 +70,7 @@ icon.MapColors(rgb(51,13,13), rgb(26,77,51), rgb(26,26,102), rgb(0,0,0))
 
 Or a negative icon (invert all colors):
 
-``` dm
+```dm
 MapColors(-1,0,0, 0,-1,0, 0,0,-1, 1,1,1)
 ```
 

@@ -17,7 +17,7 @@ as it moves about the map, making one big jump to catch up whenever the
 mob gets out of range.
 ### Example:
 
-``` dm
+```dm
  client lazy_eye = 5 
 ```
  

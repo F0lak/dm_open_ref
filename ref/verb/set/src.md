@@ -23,21 +23,21 @@ respectively.
 
 The default setting depends on the type of src:
 
-``` dm
+```dm
  mob: src = usr obj: src in usr // short for usr.contents
 turf: src = view(0) area: src = view(0) 
 ```
 
 ### Example:
 
-``` dm
+```dm
  obj/verb/examine() set src in view() usr << "You
 examine [src]." 
 ```
 
 ### Example:
 
-``` dm
+```dm
  obj/MagicCloak/verb/disappear() set src = usr.contents
 usr.invisibility = 1 view() << "[usr] disappears!" 
 ```

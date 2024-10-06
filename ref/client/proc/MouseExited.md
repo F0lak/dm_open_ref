@@ -26,7 +26,7 @@ objects that require it reduces overhead.
 
 The argument format
 for this verb is: 
-``` dm
+```dm
 MouseExited(object as null|atom in usr.client,\
             location as null|turf|text in usr.client,\
             control as text, params as text)

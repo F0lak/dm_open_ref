@@ -1,3 +1,4 @@
+## astype proc
 ##### BYOND Version 516
 **Format:**
 +   astype(Val,Type)
@@ -14,7 +15,7 @@ Forcibly casts an object to a type, returning null if it isn\'t
 valid.
 
 ### Example:
-``` dm
+```dm
 astype(gift, /obj/potion)?.Drink()
 ```
 
@@ -27,7 +28,7 @@ type is determined as follows:
     just as it is in `istype()`.
 
 ### Example:
-``` dm
+```dm
 // if obstacle is of type /obj/box, it will be assigned to B; otherwise B is null
 var/obj/box/B = astype(obstacle)
 if(B?.closed) B.Open()

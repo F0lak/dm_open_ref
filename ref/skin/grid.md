@@ -22,7 +22,7 @@ of output data.
 Sending output to a grid looks like this:
 ### Example:
 
-``` dm
+```dm
  // output to column 3, row 2 winset(usr, "thegrid",
 "current-cell=3,2") usr << output("Text", "thegrid") // or even
 easier: usr << output("Text", "thegrid:3,2") // when is-list is

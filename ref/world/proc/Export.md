@@ -28,7 +28,7 @@
     transfered.
 ### Example:
 
-``` dm
+```dm
  mob/verb/shout(Msg as text) world << Msg
 world.Export("[ShadowWorld]?shout:[Msg]") 
 ```
@@ -49,7 +49,7 @@ status code returned by the web server (as text). The value associated
 with the "CONTENT" entry is the requested resource.
 ### Example:
 
-``` dm
+```dm
  mob/verb/test() var/http[] =
 world.Export("http://www.byond.com") if(!http) usr << "Failed to
 connect." return usr << "HTTP Header:" for(var/V in http) usr <<

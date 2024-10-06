@@ -27,7 +27,7 @@ created, for instance if the Atom argument is not directly on the map,
 the result is null.
 ### Example:
 
-``` dm
+```dm
  mob/proc/GoToStrangeForest() // in a world with 32x32 icon
 size, this is x=18, y=29, step_x=5, step_y=11 mob.pixloc = pixloc(550,
 907, 1) 
@@ -39,7 +39,7 @@ coordinates, x and y are a combination of tile x and step_x, and tile y
 and step_y, starting at a value of 1. The world x and y for any tile and
 step combo can be calculated like so (if for any reason you needed to):
 
-``` dm
+```dm
  world_x = (tile_x - 1) * pixels_per_x_tile + step_x + 1
 world_y = (tile_y - 1) * pixels_per_y_tile + step_y + 1 
 ```

@@ -17,7 +17,7 @@ reference.
 > and the query you\'re recieving is legitimate.
 
 ### Example:
-``` dm
+```dm
 mob/verb/test()
    usr << "Click <a href='?src=\ref[src];action=startgame'>here</a>!"
 mob/Topic(href,href_list[])

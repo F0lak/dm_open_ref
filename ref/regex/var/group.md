@@ -7,7 +7,7 @@ parentheses groups, whatever text was matched in those groups is stored
 here in a list.
 ### Example
 
-``` dm
+```dm
  var/regex/R = new("B(.)(.)(.)D") R.Find("BYOND") //
 find this pattern in "BYOND" 
 ```

@@ -7,7 +7,7 @@
 Jump to the specified node in the current proc.
 ### Example:
 
-``` dm
+```dm
  goto End world << "ERR" End world << "The end"
 
 ```

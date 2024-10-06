@@ -11,7 +11,7 @@ This example defines the mob type
 `/mob/guzzler`.
 ### Example:
 
-``` dm
+```dm
 mob
   guzzler
     desc = "Mean, mad, and wicked bad."

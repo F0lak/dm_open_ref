@@ -34,7 +34,7 @@ created from a savefile. In that case, you don\'t need a temporary mob
 to be created first.
 
 ### Example:
-``` dm
+```dm
 client/New()
    if(usr) return ..() //reconnecting to existing mob
    else

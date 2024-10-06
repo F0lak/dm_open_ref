@@ -26,7 +26,7 @@ over other empty space.
 
 The argument format for this verb is:
 
-``` dm
+```dm
 MouseDrag(src_object as null|atom in usr.client,\
           over_object as null|atom in usr.client,\
           src_location as null|turf|text in usr.client,\

@@ -27,7 +27,7 @@ If a player connects to a new mob M,
 client.eye automatically changes to M.
 ### Example:
 
-``` dm
+```dm
  client eye = locate(5,5,1) 
 ```
  

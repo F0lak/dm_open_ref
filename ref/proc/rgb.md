@@ -25,7 +25,7 @@ and `rgb(255,255,255)` represent black and white, two corners of the
 "color cube".
 ### Example:
 
-``` dm
+```dm
  mob/proc/hurtme() // make a mob look damaged by adding red
 to its icon src.icon += rgb(20,0,0) 
 ```
@@ -47,7 +47,7 @@ or by using a 5-argument format (you can leave the alpha value blank or
 null to skip it), or by using named arguments for the other components.
 ### Example:
 
-``` dm
+```dm
  // All of these lines are equivalent. // They create
 (0,100,50) in HSL which is red (#ff0000). src << rgb(0, 100, 50,
 space=COLORSPACE_HSL) src << rgb(0, 100, 50, , COLORSPACE_HSL) src

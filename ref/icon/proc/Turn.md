@@ -10,7 +10,7 @@
 This rotates the icon clockwise by the specified amount.
 ### Example:
 
-``` dm
+```dm
 mob/verb/drink()
    //this effect is very confusing!
    var/icon/I = new(usr.icon)

@@ -33,7 +33,7 @@ Script should have the extension `.dms`.
 
 ### Example:
 
-``` dm
+```dm
  client/script = "
 " 
 ```

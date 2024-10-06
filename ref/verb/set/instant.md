@@ -27,7 +27,7 @@ already use it.) You can, however, create replacement verbs of your own
 for most of them.
 ### Example:
 
-``` dm
+```dm
  mob/verb/FastNorth() set instant = 1
 usr.Move(get_step(usr,NORTH), NORTH) 
 ```

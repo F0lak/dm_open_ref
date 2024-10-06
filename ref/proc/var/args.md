@@ -4,7 +4,7 @@
 This is a list of the arguments passed to the proc or verb.
 ### Example:
 
-``` dm
+```dm
  proc/add() var {cur; tot} for(cur in args) tot += cur
 return tot 
 ```

@@ -26,7 +26,7 @@ piece at a time, for example by inserting an icon into the NORTH
 direction for animation frame 3.
 ### Example:
 
-``` dm
+```dm
 // start with a non-animated arrow icon
 var/icon/I = new('arrow.dmi')
 // make a new state called "blink"

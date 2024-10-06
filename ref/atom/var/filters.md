@@ -11,7 +11,7 @@ post-processing effects, applied in order. You can assign this value a
 list, an individual filter, or null to empty it.
 ### Example:
 
-``` dm
+```dm
  obj/blurry
  	filters = filter(type="blur", size=1)
 

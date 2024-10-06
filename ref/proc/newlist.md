@@ -11,7 +11,7 @@
 +   Arbitrary number of types to be created in the list.
 ### Example:
 
-``` dm
+```dm
  mob/contents = newlist(/obj/scroll/readme) 
 ```
 
@@ -25,7 +25,7 @@ when you want variables to have values other than the default for the
 particular type you are creating.
 ### Example:
 
-``` dm
+```dm
  mob/contents = newlist( /obj/scroll/readme { name =
 "Introduction" desc = "The fate of Bracolia depends on you ..." } )
 

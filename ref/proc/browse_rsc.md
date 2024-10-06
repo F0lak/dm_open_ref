@@ -21,7 +21,7 @@ user\'s cache, so there is little overhead in calling this every time
 you are about to use `browse()`.
 ### Example:
 
-``` dm
+```dm
 area
    var
       room_graphic = 'cozy_room.jpg'
@@ -34,4 +34,4 @@ area
 
 > [!TIP] 
 > **See also:**
-> +   [browse proc](/ref/proc/browse.md) <!-- -->
+> +   [browse proc](/ref/proc/browse.md)

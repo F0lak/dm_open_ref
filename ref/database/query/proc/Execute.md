@@ -23,7 +23,7 @@ After a query is executed, calling Add() to create new query text will clear out
 query text automatically.
 ### Example:
 
-``` dm
+```dm
 var/database/db = new("mydb.db")
 var/database/query/q = new("SELECT quest,complete FROM quests WHERE name=?", usr.key)
 

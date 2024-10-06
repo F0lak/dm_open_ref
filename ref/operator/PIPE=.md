@@ -10,7 +10,7 @@ Set A equal to A \| B. It is shorthand for A = A \| B.
 This is commonly used to turn on certain bitfields in a word.
 ### Example:
 
-``` dm
+```dm
  usr.sight \|= BLIND // turn on the blind bit 
 ```
 

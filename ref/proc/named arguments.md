@@ -12,7 +12,7 @@ The following
 example shows several ways of producing the same call to a procedure.
 ### Example:
 
-``` dm
+```dm
  mob/proc/MyProc(a,b,c) src <<
 "MyProc([a],[b],[c])" mob/verb/test() MyProc(1,2,3) //positional
 parameters MyProc(a=1,b=2,c=3) //named arguments MyProc(1,b=2,c=3)
@@ -49,7 +49,7 @@ to preserve either the names or positions, but that is usually what you
 want.
 ### Example:
 
-``` dm
+```dm
  mob proc/MyProc(a,b,c) usr <<
 "mob.MyProc([a],[b],[c])" mob/verb/test() MyProc(a=1,b=2,c=3)
 special_mob MyProc(a,b,c,d) if(d) ..() //pass in same order else

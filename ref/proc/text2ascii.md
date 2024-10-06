@@ -18,7 +18,7 @@ symbols in HTML. This proc converts a text string to its corresponding
 ascii representation.
 ### Example:
 
-``` dm
+```dm
  world << text2ascii("A") // = 65 world <<
 text2ascii("HAPPY",2) // = 65 
 ```

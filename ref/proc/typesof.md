@@ -11,7 +11,7 @@
 +   The "base" types.
 ### Example:
 
-``` dm
+```dm
  obj/fruit apple peach mango var/list/fruit_types =
 typesof(/obj/fruit) 
 ```
@@ -25,7 +25,7 @@ This procedure can also be used to list
 procs and verbs.
 ### Example:
 
-``` dm
+```dm
  mob/admin_commands/verb shutdown_world() world.Del()
 reboot_world() world.Reboot() //for testing mob/verb/add_admin() verbs
 += typesof(/mob/admin_commands/verb) mob/verb/remove_admin() verbs -=

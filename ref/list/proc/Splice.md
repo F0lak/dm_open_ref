@@ -20,7 +20,7 @@ then calling `list.Insert(Start,Item1,Item2...)`, but faster.
 
 ### Example:
 
-``` dm
+```dm
 var/list/L = list("apple","banana","orange","pear")
 
 // cuts "banana" and "orange" and inserts four new items

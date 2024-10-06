@@ -239,7 +239,7 @@ def clean_markdown_file(text) -> str:
 		text = text.replace("NOTE", "\n> [!NOTE]\n> ")
 		text = text.replace("\n: ", "\n+ ")
 		text = text.replace("PARAGRAPH", "\n\n")
-		text = text.replace("CODE_TICKS_DM", "\n``` dm\n")
+		text = text.replace("CODE_TICKS_DM", "\n```dm\n")
 		text = text.replace("CODE_TICKS", "\n```\n")
 		return text
 		text = text.replace("%7B", "")

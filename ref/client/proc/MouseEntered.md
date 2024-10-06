@@ -25,7 +25,7 @@ it generates extra communication that is otherwise avoided. Defining it on only 
 
 The
 argument format for this verb is: 
-``` dm
+```dm
 MouseEntered(object as null|atom in usr.client,\
              location as null|turf|text in usr.client,\
              control as text, params as text)

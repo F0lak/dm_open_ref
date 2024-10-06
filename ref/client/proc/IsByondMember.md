@@ -14,7 +14,7 @@ If the user is a Member, the result is the number of
 days left (rounded up) on their Membership, or -1 for lifetime Members.
 ### Example:
 
-``` dm
+```dm
 mob/var
    special_features
 

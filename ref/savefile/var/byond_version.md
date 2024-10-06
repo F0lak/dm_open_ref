@@ -21,7 +21,7 @@ The default
 savefile compatibility version can be set at compile-time:
 ### Example:
 
-``` dm
+```dm
  savefile/byond_version = 514 // do not use savefile
 features from BYOND 515 onward 
 ```

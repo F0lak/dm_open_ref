@@ -15,7 +15,7 @@ Returns the integer part of the number A. That is, this rounds
 toward 0 to an integer.
 ### Example:
 
-``` dm
+```dm
  usr << trunc(1.45) // outputs 1 usr << trunc(-1.45) //
 outputs -1 
 ```

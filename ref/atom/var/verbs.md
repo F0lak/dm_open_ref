@@ -15,7 +15,7 @@ is loaded.
 
 ### Example:
 
-``` dm
+```dm
 mob/proc/kazaam()
 	usr << "Kazaam!"
 

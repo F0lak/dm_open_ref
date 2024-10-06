@@ -21,7 +21,7 @@ additional arguments to New() by passing them to the `new` instruction
 which creates the object.
 ### Example:
 
-``` dm
+```dm
 mob/night
    var/mob/squire/my_squire
    New(Location)

@@ -45,7 +45,7 @@ The result of calling `generator()` is a datum of type
 `Rand()` proc.
 ### Example:
 
-``` dm
+```dm
  var/generator/G = generator("num", -1, 1) // generates a
 random number between -1 and 1 world << G.Rand() // generate a number
 and output it to world 

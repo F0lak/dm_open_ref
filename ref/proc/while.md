@@ -11,14 +11,14 @@ and doing the while block until E becomes false (zero).
 Statement may be a block of code or a single statement.
 ### Example:
 
-``` dm
+```dm
  var/i = 3 while(i) world << i\-- 
 ```
 
 
 
 This outputs: 
-``` dm
+```dm
  3 2 1 
 ```
 

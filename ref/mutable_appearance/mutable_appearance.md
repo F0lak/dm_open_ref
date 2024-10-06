@@ -16,7 +16,7 @@ it an atom, image, or appearance as a source object. Assigning it to an
 object\'s appearance var will create a new immutable appearance.
 ### Example:
 
-``` dm
+```dm
 mob/proc/GetAngry()
     var/mutable_appearance/ma = new(src)
     ma.color = rgb(51,255,51)   // green

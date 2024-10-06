@@ -21,7 +21,7 @@ repeating. With multiple waves, you can produce a very convincing water
 effect.
 ### Example
 
-``` dm
+```dm
 #define WAVE_COUNT 7
 atom/proc/WaterEffect()
     var/start = filters.len

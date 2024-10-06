@@ -6,7 +6,7 @@ initialized when creating a new file. If none is specified, a temporary
 file with a random name will be created.
 ### Example:
 
-``` dm
+```dm
  var/savefile/F1 var/savefile/F2 F1 = new() // create a
 temp file F2 = new("myfile") // open "myfile" world << "F1.name =
 [F1]" world << "F2.name = [F2]" 

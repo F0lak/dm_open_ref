@@ -19,7 +19,7 @@ Quotes a piece of text so that it can be used inside a regular
 expression without fear of being treated as pattern instructions.
 ### Example:
 
-``` dm
+```dm
  proc/FindWord(text, word) // The \\b pattern is a word
 break, to search for the word // on its own instead of as part of
 another word. var/regex/R = regex("\\\\b[REGEX_QUOTE(word)]\\b",

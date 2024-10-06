@@ -8,7 +8,7 @@ This example defines the
 turf prototype `/turf/floor` and `/turf/wall`.
 ### Example:
 
-``` dm
+```dm
  turf floor desc = "A wood plank floor." wall desc = "A
 stone wall." density = 1 
 ```
@@ -20,7 +20,7 @@ They can only be created or destroyed by changing `world.maxx`,
 it always replaces the old one.
 ### Example:
 
-``` dm
+```dm
  // replace old_turf with a wall var/turf/wall/T =
 new(old_turf) 
 ```

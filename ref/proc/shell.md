@@ -31,7 +31,7 @@ The calling proc will sleep until
 the command is finished executing.
 ### Example:
 
-``` dm
+```dm
  mob/verb/dir(Path as text) shell("dir [Path] >
 dir.out") usr << file2text("dir.out") 
 ```

@@ -58,7 +58,7 @@ what input component is being transformed (x,y,z, or c for
 To use this kind of matrix, you can cut off the 4th column and
 provide the values in a list form, in row-major order:
 
-``` dm
+```dm
 list(xx,xy,xz, yx,yy,yz, zx,zy,zz, cx,cy,cz)
 ```
 
@@ -101,7 +101,7 @@ twice as far away.
 
 This 4x4 matrix is handled as a list just like the 3x4 affine
 matrix: 
-``` dm
+```dm
 list(xx,xy,xz,xw, yx,yy,yz,yw, zx,zy,zz,zw, wx,wy,wz,ww)
 ```
 

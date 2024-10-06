@@ -31,7 +31,7 @@ received the updates.
 
 ### Example
 
-``` dm
+```dm
 client/var/updategold = 1       // set to 1 if gold changes
 client/var/updateinventory = 1  // set to 1 if inventory changes
 

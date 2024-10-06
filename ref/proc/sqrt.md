@@ -9,6 +9,6 @@
 +   A: A number.
 ### Example:
 
-``` dm
+```dm
  usr << sqrt(2) // outputs 1.41421 
 ```

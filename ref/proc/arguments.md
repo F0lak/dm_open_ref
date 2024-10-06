@@ -6,14 +6,14 @@ definition. A default value may be specified. Otherwise, arguments
 default to null.
 ### Example:
 
-``` dm
+```dm
 proc/Sum(a,b)
   return a + b
 ```
 
 ### Example:
 
-``` dm
+```dm
 proc/set_mob_desc(mob/M,desc="big and bad")
   M.desc = desc
   world << "The new desc for [M] is [desc]."

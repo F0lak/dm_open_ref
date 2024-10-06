@@ -47,7 +47,7 @@ you will get a complete list of keys that have scores and stats
 associated with them.
 ### Example 1:
 
-``` dm
+```dm
  mob/var/scores_found mob/var/score = 0 mob/Login() ..()
 spawn() var/scores = world.GetScores(key) scores_found = !isnull(scores)
 if(scores) var/list/params = params2list(scores) if(params["Score"])
@@ -85,7 +85,7 @@ displays "Score", then "Level", then the "Score" field is the
 default.
 ### Example 2:
 
-``` dm
+```dm
  mob/var/scores_found mob/Login() ..() spawn()
 var/top_scores = world.GetScores(10, "Booty") scores_found =
 !isnull(scores) if(scores) var/list/params = params2list(scores) src

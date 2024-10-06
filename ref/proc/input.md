@@ -27,7 +27,7 @@ The `null` type will allow the user to cancel, e.g.
 `as null | anything in contents`.
 ### Example:
 
-``` dm
+```dm
  mob/verb/create_character() usr.name = input("Choose a
 name for your character.", "Your Name", usr.name) usr.gender =
 input("Select a gender for your character.", "Your Gender",
@@ -47,7 +47,7 @@ from. For example, this is a simple shopkeeper NPC, where the
 shopkeeper\'s inventory is its contents.
 ### Example:
 
-``` dm
+```dm
  mob/shopkeeper/verb/Buy() var/list/options = list()
 var/obj/item for(item in src) // show a pretty list of options with
 prices included options["[item]: \$[item.price]"] = item
@@ -73,7 +73,7 @@ isn\'t negative and doesn\'t contain any fractions, and isn\'t more than
 they have.
 ### Example:
 
-``` dm
+```dm
  mob/player/verb/Give_Gold() set src in oview(1) var/amount
 = input("How much?", "Give gold") as null\|num if(isnull(amount))
 return amount = floor(amount) // round down to a whole number amount =

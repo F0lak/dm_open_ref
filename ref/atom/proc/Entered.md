@@ -17,7 +17,7 @@
 +   None for most atoms, but turfs will call Crossed().
 ### Example:
 
-``` dm
+```dm
  turf/pit
     Entered(O)
         O << "OUCH. You fell in a pit!"
@@ -32,7 +32,7 @@ drop() verbs, but the following code separates user interface from
 lower-level functions.
 ### Example:
 
-``` dm
+```dm
 obj
     var
         weight = 10
@@ -73,7 +73,7 @@ inventory without the mob picking it up. You can still run it through
 your normal movement rules without calling get().
 ### Example:
 
-``` dm
+```dm
 mob/verb/wish()
     var/obj/O = new() //create it with loc=null
     if(O.Move(usr))

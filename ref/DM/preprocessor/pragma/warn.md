@@ -15,7 +15,7 @@ Multiple warning names can be used in the same pragma,
 separated by commas.
 ### Example:
 
-``` dm
+```dm
 // temporarily ignore the unused_var warning
 #pragma push
 #pragma ignore unused_var

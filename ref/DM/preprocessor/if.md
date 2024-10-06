@@ -22,7 +22,7 @@ conditional expression. It is true if its argument is a defined macro
 (with `#define`) and false otherwise.
 ### Example:
 
-``` dm
+```dm
 #if defined(DEBUG)
 // This code will be compiled if DEBUG is
 // defined

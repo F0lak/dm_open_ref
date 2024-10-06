@@ -31,7 +31,7 @@ special numbers NaN and infinity will be encoded as object literals in a
 form like `{"__number__":"NaN"}`.
 ### Example:
 
-``` dm
+```dm
  var/list/info = list("name"="fridge", "power"=12) //
 send {"name":"fridge","power":12} to a JavaScript function usr
 << output(url_encode(json_encode(info)), "mybrowser:myJSfunction")

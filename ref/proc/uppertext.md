@@ -13,7 +13,7 @@
 Capitalize all of the characters of T.
 ### Example:
 
-``` dm
+```dm
  U = uppertext("hi there") // = "HI THERE" 
 ```
 

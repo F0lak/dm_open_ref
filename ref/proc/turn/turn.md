@@ -14,7 +14,7 @@
 This proc can also be applied to an [icon](/ref/proc/turn/icon.md) , a [matrix](/ref/proc/turn/matrix.md) , or a [vector](/ref/proc/turn/vector.md) 
 ### Example:
 
-``` dm
+```dm
 var/dir
 dir = turn(NORTH, 90)  // dir = west
 dir = turn(dir, -90)   // dir = north

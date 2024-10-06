@@ -16,7 +16,7 @@ such as `"say "`. The user can clear this and enter a different command
 by hitting backspace, escape, delete, or `/`.
 ### Example:
 
-``` dm
+```dm
  client command_text = "say " verb/say(T as text) world
 << "[usr] says, \'[T]\'" 
 ```
@@ -33,7 +33,7 @@ create a specialized command prompt. For example, a traditional style
 MUD command-line could be implemented like this:
 ### Example:
 
-``` dm
+```dm
  client command_text = "> " verb/command(C as
 command_text) set name = ">" usr << "Your command: [C]"
 

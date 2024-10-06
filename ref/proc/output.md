@@ -15,7 +15,7 @@ send output to a particular control in the player\'s skin. If null is
 sent, the control will be cleared.
 ### Example:
 
-``` dm
+```dm
  usr << output("Your score is [score].",
 "scorepane.output") 
 ```
@@ -31,7 +31,7 @@ can send the output to the control in a different way. In a grid, this
 can output directly to a specific grid cell, like so:
 ### Example:
 
-``` dm
+```dm
  usr << output("Column 3, Row 2", "examplegrid:3,2")
 
 ```
@@ -45,7 +45,7 @@ javascript function, as formatted by
 [list2params()](/ref/proc/list2params.md).
 ### Example:
 
-``` dm
+```dm
  mob/Login() . = ..() usr << output(\\ {"
 ::: 
 ###### BYOND Version  proc
@@ -65,7 +65,7 @@ send output to a particular control in the player\'s skin. If null is
 sent, the control will be cleared.
 ### Example:
 
-``` dm
+```dm
  usr << output("Your score is [score].",
 "scorepane.output") 
 ```
@@ -81,7 +81,7 @@ can send the output to the control in a different way. In a grid, this
 can output directly to a specific grid cell, like so:
 ### Example:
 
-``` dm
+```dm
  usr << output("Column 3, Row 2", "examplegrid:3,2")
 
 ```
@@ -95,7 +95,7 @@ javascript function, as formatted by
 [list2params()](/ref/proc/list2params.md).
 ### Example:
 
-``` dm
+```dm
  mob/Login() . = ..() usr << output(\\ {"
 ::: {#foo}
 This text can change.

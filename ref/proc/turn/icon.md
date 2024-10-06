@@ -15,7 +15,7 @@
 
 ### Example:
 
-``` dm
+```dm
 mob/verb/drink()
    //this effect is very confusing!
    usr.icon = turn(usr.icon,90)

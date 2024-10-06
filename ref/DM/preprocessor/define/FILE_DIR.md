@@ -11,7 +11,7 @@ resource files (icons and sounds). First the current directory is
 searched, then the first `FILE_DIR` path, then the next, etc.
 ### Example:
 
-``` dm
+```dm
 #define FILE_DIR icons
 #define FILE_DIR icons/mobs
 

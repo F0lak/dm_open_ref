@@ -19,14 +19,14 @@
 +   Call object.DblClick(location,control,params).
 ### Example:
 
-``` dm
+```dm
 client
   DblClick(O)
     usr << "You double-clicked [O]"
     ..() // do default action 
 ```
  
-``` dm
+```dm
 DblClick(object as null|atom in usr.client,\
          location as null|turf|text in usr.client,\
          control as text, params as text)

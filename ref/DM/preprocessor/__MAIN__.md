@@ -11,7 +11,7 @@ main file and can include extra files that are not normally part of the
 library.
 ### Example:
 
-``` dm
+```dm
 #ifdef __MAIN__
 #include "demo.dm"
 #include "demo.dmm"

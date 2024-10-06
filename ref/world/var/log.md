@@ -6,7 +6,7 @@ purposes. The output goes to the same place run-time proc errors are
 displayed.
 ### Example:
 
-``` dm
+```dm
  if(1+1 != 2) world.log << "Uh oh." 
 ```
 
@@ -17,7 +17,7 @@ redirect output to that file. (There is also a command-line option to
 Dream Daemon that does this.)
 ### Example:
 
-``` dm
+```dm
  world.log = file("mylog.txt") 
 ```
 

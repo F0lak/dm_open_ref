@@ -41,7 +41,7 @@ One common use of `sleep` is to create what is known as a
 operation.
 ### Example:
 
-``` dm
+```dm
  proc/Weather() spawn while(1) //infinite ticker loop world
 << "The sun rises in the east." sleep(500) world << "The noon day
 sun rises high in the sky." sleep(500) world << "The sun sinks low
@@ -62,7 +62,7 @@ for exactly `N` ticks, call `sleep(N * world.tick_lag)`.
 If the
 ticker does intensive processing during each iteration, you probably
 want to run it in the background like this: 
-``` dm
+```dm
  proc/Ticker()
 set background = 1 
 ```

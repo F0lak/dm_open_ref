@@ -30,7 +30,7 @@ contributes nothing but prevents pixels in the other icon from getting
 clipped.
 ### Example:
 
-``` dm
+```dm
 mob/verb
    addicon(I as icon)
       icon += I
@@ -58,7 +58,7 @@ To increase (or decrease) the intensity of an icon
 multiplicatively, you can use the \'`*`\' operator.
 ### Example:
 
-``` dm
+```dm
 mob/verb/multicon(factor as num)
    icon *= factor
 ```

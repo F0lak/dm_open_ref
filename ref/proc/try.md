@@ -14,7 +14,7 @@ nothing. The catch block takes an optional value that can receive the
 error.
 ### Example:
 
-``` dm
+```dm
  var/a = 2 try a += "Hello" // will throw a type mismatch
 error catch(var/exception/e) // file and line info is available if you
 enable debugging world.log << "[e] on [e.file]:[e.line]" world

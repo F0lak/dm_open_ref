@@ -1,21 +1,19 @@
 ## call_ext proc 
 ###### BYOND Version 515
 
-<!-- -->
 **Format:**
 +   call_ext(LibName,FuncName)(Arguments)
 +   call_ext(LoadedFunc)(Arguments)
-<!-- -->
+
 **Args:**
 +   LibName: name of external library ("test.DLL") (note: the .dll or
     .so suffix is not required)
 +   FuncName: name of function in external library ("func"), which may
     have prefixes to describe the type of function
 +   LoadedFunc: reference to a function that was loaded via `load_ext()`
-<!-- -->
+
 **Returns:**
 +   The return value of the external library function.
-
 
 This instruction exists in order to access third-party
 libraries (.DLL files on Windows, .SO files on Unix), as long as the one
@@ -76,22 +74,22 @@ extern "C" __declspec(dllexport) char *merge(int n, char *v[])
 }
 ```
 
-``` dm
- // DM code to use test.dll mob/verb/test() usr <<
-call_ext("test.dll","merge")("fee","fi","fo") // returns
-"feefifo" // As with the other call() versions, arglist() may be used
-to do runtime arguments: mob/verb/argtest() var/L =
-list("fee","fi","fo") usr <<
-call_ext("test.dll","func")(arglist(L)) // returns "feefifo"
+```dm
+// DM code to use test.dll
+mob/verb/test()
+    usr << call_ext("test.dll","merge")("fee","fi","fo") // returns "feefifo"
 
+// As with the other call() versions, arglist() may be used to do runtime arguments:
+mob/verb/argtest()
+    var/L = list("fee","fi","fo")
+    usr << call_ext("test.dll","func")(arglist(L)) // returns "feefifo"
 ```
- 
 
 The `char *` pointer returned by the library is
 expected to be cleaned up by the library when it\'s unloaded, or it can
 be cleaned up on a subsequent function call. BYOND makes a copy of the
 string when the function returns and does not need it after that.
-### Byondapi version {#byondapi-version byondver="515"}
+### Byondapi version <sub><sup>515</sup></sub>
 
 
 A newer and more flexible way of calling external libraries is
@@ -115,7 +113,7 @@ The `u4c` type is an unsigned 32-bit integer, defined in
 `byondapi.h`. `CByondValue` is also defined there. Interacting with a
 CByondValue structure requires the functions exported as part of
 Byondapi.
-### Example: {#example-1 .cpp}
+### Example:
 ``` cpp
 // test_byondapi.dll, a win32 C++ library compiled in VC++:
 #include <byondapi.h>
@@ -179,21 +177,20 @@ extern "C" BYOND_EXPORT CByondValue average(int n, CByondValue v[])
 }
 ```
 
-``` dm
- // DM code to use test_byondapi.dll mob/verb/test() usr
-<< call_ext("test_byondapi","byond:merge")("fee","fi","fo")
-// returns "feefifo" mob/verb/average() usr <<
-call_ext("test_byondapi","byond:average")(1,6,8) // returns 5
+```dm
+// DM code to use test_byondapi.dll
+mob/verb/test()
+    usr << call_ext("test_byondapi","byond:merge")("fee","fi","fo") // returns "feefifo"
 
+mob/verb/average()
+    usr << call_ext("test_byondapi","byond:average")(1,6,8)  // returns 5
 ```
- 
 
 You are of course allowed to mix different argument
 types, so they don\'t all have to be numbers or all strings. Your
 library code can use the Byondapi functions to interact with these
 values.
 ### Other prefixes
-
 
 For advanced users: on Windows, `call_ext()` uses the `__cdecl`
 convention by default. If you are designing or linking to a DLL that

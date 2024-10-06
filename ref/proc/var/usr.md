@@ -7,7 +7,7 @@ player who executed the current verb, or whose action ultimately called
 the current proc.
 ### Example:
 
-``` dm
+```dm
  obj/bread verb/eat() world << "[usr] eats [src]"
 
 ```

@@ -2,10 +2,10 @@
 
 **Format:**
 +   cmptext(T1,T2,...)
-<!-- -->
+
 **Returns:**
 +   1 if all arguments are equal; 0 otherwise.
-<!-- -->
+
 **Args:**
 +   Any number of text strings to compare.
 
@@ -15,15 +15,16 @@ This instruction is NOT sensitive to case. It also ignores the
 cmptextEx().
 ### Example:
 
-``` dm
- if(cmptext("Hi","HI")) world << "Equal!" else
-world << "Not equal!" 
+```dm
+if(cmptext("Hi","HI"))
+   world << "Equal!"
+else
+  world << "Not equal!"
 ```
  
-
 This outputs "Equal!"
 since "Hi" and "HI" are the same, ignoring case.
 
 > [!TIP] 
 > **See also:**
-> +   [cmptextEx proc](/ref/proc/cmptextEx.md) <!-- -->
+> +   [cmptextEx proc](/ref/proc/cmptextEx.md) 

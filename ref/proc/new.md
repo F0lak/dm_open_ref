@@ -25,7 +25,7 @@ created areas or turfs replace any existing area or turf at the
 specified location.
 ### Example:
 
-``` dm
+```dm
  obj/stick mob/verb/magic_stick() var/obj/stick/S =
 new(src) //create a stick in my inventory S.desc = "This is no ordinary
 stick!" view() << "[src] creates \\an [S] from thin air!"

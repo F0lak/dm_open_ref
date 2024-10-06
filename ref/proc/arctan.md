@@ -26,7 +26,7 @@ Finally, you can use a vector instead
 of a number. Only the x and y components of a vector will be used.
 ### Example:
 
-``` dm
+```dm
 mob/verb/test()
    usr << arctan(0)        // 0
    usr << arctan(1)        // 45
@@ -39,7 +39,7 @@ mob/verb/test()
 ```
 Here\'s another example, in which a
 rotating turret points to a target on another tile. 
-``` dm
+```dm
 mob/turret
    proc/PointAt(atom/target)
       if(!target) return

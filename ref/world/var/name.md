@@ -6,6 +6,6 @@
 This is the name of the world.
 ### Example:
 
-``` dm
+```dm
  world name = "The Void" 
 ```

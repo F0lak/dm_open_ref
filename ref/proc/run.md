@@ -9,7 +9,7 @@ file to be viewed directly. The file may be a cache file or an external
 file.
 ### Example:
 
-``` dm
+```dm
  mob/var/picture = \'mob.jpg\' mob/verb/view_pic(mob/M as
 mob in view()) usr << run(M.picture) mob/verb/set_pic(F as file)
 usr.picture = F 

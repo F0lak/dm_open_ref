@@ -7,7 +7,7 @@
 This sets the object\'s gender. This influences text macros
 like `\he`, which may expand to "it", "he", "she", or "they".
 Valid values are: 
-``` dm
+```dm
  "neuter"
  "male"
  "female"
@@ -16,7 +16,7 @@ Valid values are:
  These are also defined as constants, which may
 help prevent typos, since the compiler will complain if it doesn\'t
 recognize what you type: 
-``` dm
+```dm
  NEUTER
  MALE
  FEMALE

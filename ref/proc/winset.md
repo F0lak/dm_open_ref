@@ -42,7 +42,7 @@ control with a default say command, you will need to escape it twice:
 You can set more than one control\'s parameters at once by
 leaving the `control_id` argument null, and including the control as
 part of the parameter list: 
-``` dm
+```dm
 winset(usr, null, "mainwindow.output.background-color=#ffffff; mainwindow.input.background-color=#ffffff")
 ```
 
@@ -65,7 +65,7 @@ Another use for `winset()` is to send commands to the client
 that normally can only run from there, like `.profile` or `.quit`. To do
 this, leave the `control_id` argument null, and just use a parameter
 called "command": 
-``` dm
+```dm
 obj/quitbutton
     name = "Quit"
     icon = \'buttons.dmi\'
@@ -109,7 +109,7 @@ Enables [byondStorage](/ref/skin/control/browser/byondStorage.md)
 access.
 ### Example:
 
-``` dm
+```dm
 mob/Login()
     ..()
     winset(usr, null, "browser-options=devtools,find")

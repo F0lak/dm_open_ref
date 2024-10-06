@@ -36,7 +36,7 @@ name with a colon and a function name, you can call a JavaScript
 function in the document displayed within that browser.
 ### Example:
 
-``` dm
+```dm
  var/list/info = list("name"="fridge", "power"=12) //
 send {"name":"fridge","power":12} to a JavaScript function usr
 << output(url_encode(json_encode(info)), "mybrowser:myJSfunction")

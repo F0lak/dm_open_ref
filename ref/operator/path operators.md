@@ -14,7 +14,7 @@ cases.
 
 When you are making a definition, you simply put the
 path at the beginning of a line like this: 
-``` dm
+```dm
 
 obj/clothes/gloves 
 ```
@@ -29,7 +29,7 @@ When making
 definitions, DM equates the path separator \'/\' with indentation, so
 the above example is really just a more compact way of writing:
 
-``` dm
+```dm
  obj clothing gloves 
 ```
  
@@ -37,7 +37,7 @@ the above example is really just a more compact way of writing:
 One generally uses
 indentation when you have several things to define with a common parent
 path: 
-``` dm
+```dm
  obj clothing gloves sandals 
 ```
  
@@ -48,7 +48,7 @@ tree from multiple places in the source code. For example, given the
 above definition of `gloves` and `sandals`, you could modify a property
 of one of them from somewhere else using any path syntax you like:
 
-``` dm
+```dm
  obj/clothing/sandals name = "Winged Sandals" 
 ```
 
@@ -63,7 +63,7 @@ deeply indented, which may sound mundane, but which is quite important!
 The above examples used paths to make definitions. The other
 time when you use paths is when you need to refer to a particular
 definition. Creation of an object is one example: 
-``` dm
+```dm
 
 mob/Login() if(length(contents) == 0) //poor fellow has nothing //create
 sandals in his contents list new /obj/clothing/sandals (src) return ..()
@@ -80,7 +80,7 @@ the data you can attempt to access.
 The following example
 defines variables for clothing that is occupying various positions on
 the body. 
-``` dm
+```dm
  mob var/clothing feet hands torso 
 ```
 
@@ -91,7 +91,7 @@ grouped under `var/clothing`. It can be done any number of ways,
 depending on the situation. The same path syntax applies to variable
 definitions as it does to anything else. This example produces the same
 effect: 
-``` dm
+```dm
  mob/var/clothing/feet mob/var clothing hands torso
 
 ```
@@ -100,7 +100,7 @@ effect:
 
 
 Just do not make a mistake like the following: 
-``` dm
+```dm
 
 mob/var /clothing/feet 
 ```
@@ -110,7 +110,7 @@ Beginning a path with \'/\'
 effectively ignores whatever indentation may precede it. That is why it
 is called an *absolute* path. The above example would therefore be the
 same as the following, which is not what you want: 
-``` dm
+```dm
  mob/var
 //empty variable definition clothing/feet //definition of object type
 /clothing/feet 
@@ -119,7 +119,7 @@ same as the following, which is not what you want:
 
 On a related note, parameter
 definitions in procedures should not begin with a "/". 
-``` dm
+```dm
 
 mob/Move(atom/Dest) //correct src << "Moving to
 [Dest.x],[Dest.y]." return ..() mob/Move(var/atom/Dest) //ok

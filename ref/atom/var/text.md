@@ -17,7 +17,7 @@ setting to accomplish the same thing.
 
 ### Example:
 
-``` dm
+```dm
  world
  	maxx = 10
  	maxy = 10

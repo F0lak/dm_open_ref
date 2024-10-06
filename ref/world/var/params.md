@@ -9,7 +9,7 @@ command-line -params option when the server was started. The parameter
 text is passed through params2list() to generate the world.params list.
 ### Example:
 
-``` dm
+```dm
  world/New() var/p if(params.len) world.log <<
 "Command-line parameters:" for(p in params) world.log << "[p] =
 [params[p]]" 

@@ -52,7 +52,7 @@ Some tags take
 additional parameters, known as attributes. The most common ones are
 `<FONT>` and `<A>`. The syntax for these is illustrated by the following
 two examples: 
-``` dm
+```dm
 "How about <FONT FACE=Arial COLOR=red SIZE=+1>this</FONT>!"
 "Click <A HREF=byond.com TITLE=BYOND!>here</A>!"
 ```

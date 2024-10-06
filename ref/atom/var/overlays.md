@@ -23,7 +23,7 @@ and the procedures `Add`, `Remove`, and `Cut` work normally.
 
 ### Example:
 
-``` dm
+```dm
 turf/verb/AddOverlay(I as icon)
 	overlays += I
 
@@ -60,7 +60,7 @@ would not have to worry about the order in which you add them to the
 list.
 ### Example:
 
-``` dm
+```dm
 var/const
 	ARMOR_LAYER = FLOAT_LAYER-1
 	CLOTHES_LAYER = FLOAT_LAYER-2
@@ -93,7 +93,7 @@ actual overlays list.
 
 ### Example:
 
-``` dm
+```dm
 mob/var
 	boots
 	clothes

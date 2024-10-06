@@ -8,14 +8,14 @@ want to retain an image (so other people can still see it), it can be
 removed by directly modifying this list.
 ### Example:
 
-``` dm
+```dm
  var/image/I = new(\'image.dmi\',usr) usr.client.images +=
 I //display it sleep(50) usr.client.images -= I //remove it from the
 display 
 ```
  Displaying the image can also be achieved like this:
 
-``` dm
+```dm
  usr << I 
 ```
 

@@ -21,7 +21,7 @@ This example allows the player to teleport to a position by
 double clicking it.
 ### Example:
 
-``` dm
+```dm
  turf/DblClick()
     usr.Move(src) 
 ```

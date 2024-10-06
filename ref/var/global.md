@@ -7,7 +7,7 @@ of the var are maintained for each instance containing the var (be it a
 proc, mob, obj, etc.)
 ### Example:
 
-``` dm
+```dm
  mob/proc/Counter() var/global/count src << "Count =
 [++count]" 
 ```

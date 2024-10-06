@@ -11,7 +11,7 @@ B may be an image, sound, or text. A may be a
 mob, the whole world, or any list containing mobs.
 ### Example:
 
-``` dm
+```dm
  usr << "Hi, [usr.name]" view() << "To all in
 view" world << "Hi everybody!" usr << \'giggle.wav\' view() <<
 image(/obj/Fireball,usr) 

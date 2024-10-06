@@ -16,7 +16,7 @@ value of the `view()` depth in such a way as to always return an empty
 list.
 ### Example:
 
-``` dm
+```dm
  client show_map = 0 //Text is best! world view = 0 //You
 can interact only with objects in same turf. mob density = 0 //Allow
 multiple mobs in a room. 

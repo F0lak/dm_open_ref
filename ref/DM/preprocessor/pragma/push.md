@@ -9,7 +9,7 @@ or error.
 state.
 ### Example:
 
-``` dm
+```dm
 // temporarily ignore the unused_var warning
 #pragma push
 #pragma ignore unused_var

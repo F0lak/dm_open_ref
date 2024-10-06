@@ -12,7 +12,7 @@ named buttons. As with input(), the first argument may be entirely left
 out.
 ### Example:
 
-``` dm
+```dm
 mob/verb/self_destruct()
    alert("Prepare to die.")
    del usr
@@ -22,7 +22,7 @@ A slightly more complicated example provides the
 user with a choice in the matter:
 ### Example:
 
-``` dm
+```dm
 mob/verb/self_destruct()
    switch(alert("Would you like to die?",,"Yes","No","Maybe"))
       if("Yes")

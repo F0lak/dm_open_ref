@@ -201,7 +201,7 @@ def special_characters(text) -> str:
 	text = text.replace("\"", "")
 	text = text.replace("/ ", "SLASH ")
 	text = text.replace("%", "PERCENT")
-	text = text.replace("``` dm", "``` cs")
+	text = text.replace("```dm", "``` cs")
 	return text
 
 @bot.command(

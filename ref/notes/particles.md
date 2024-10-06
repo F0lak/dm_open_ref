@@ -31,7 +31,7 @@ var. The particles will appear on the map wherever that obj or mob
 appears.
 ### Example:
 
-``` dm
+```dm
 particles/snow
     width = 500     // 500 x 500 image to cover a moderately sized map
     height = 500
@@ -106,7 +106,7 @@ The `icon` and `icon_state` values are special in that they
 can\'t be assigned a generator, but they can be assigned a constant icon
 or string, respectively, or a list of possible values to choose from
 like so: 
-``` dm
+```dm
 icon = list('confetti.dmi'=5, 'coin.dmi'=1)
 ```
 

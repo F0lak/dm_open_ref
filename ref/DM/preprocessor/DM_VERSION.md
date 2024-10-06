@@ -5,7 +5,7 @@ useful when distributing code that uses new language features that would
 not compile in older compilers.
 ### Example:
 
-``` dm
+```dm
 #if DM_VERSION < 230
 #error This compiler is too far out of date!
 #endif

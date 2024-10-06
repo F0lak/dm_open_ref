@@ -25,7 +25,7 @@
     server.
 ### Example:
 
-``` dm
+```dm
  world/Topic(T) if(findtext(T,"shout:") == 1) world <<
 copytext(T,7) 
 ```

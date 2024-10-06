@@ -14,7 +14,7 @@ similar thing by sprinkling calls to sleep(0) or sleep(-1) in the
 
 ### Example
 
-``` dm
+```dm
 proc/Ticker()
    set background = 1
    spawn while(1)

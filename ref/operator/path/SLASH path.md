@@ -10,7 +10,7 @@ example uses a path in the code tree to define the type of object to
 create when leaving a corpse behind.
 ### Example:
 
-``` dm
+```dm
  obj var poison nutrition corpse frog nutrition = 10 spider
 nutrition = 6 poison = 5 mob var corpse = /obj/corpse Die() new
 corpse(src.loc) //create the corpse here del src spider corpse =

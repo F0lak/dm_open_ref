@@ -14,7 +14,7 @@ The following code could be used to display a player\'s current
 status.
 ### Example:
 
-``` dm
+```dm
 mob/var health = 100
 mob/Stat()
 	stat("health",health)

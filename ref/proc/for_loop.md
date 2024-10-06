@@ -18,14 +18,14 @@ instruction is used to get out of the loop).
 
 ### Example:
 
-``` dm
+```dm
 var/i
 for(i=0, i<3, i++)
     world << i
 ```
 
 This outputs: 
-``` dm
+```dm
 0
 1
 2
@@ -44,7 +44,7 @@ as a way of stringing multiple statements together.
 
 ### Example:
 
-``` dm
+```dm
 // make this syntax change temporary
 #pragma push
 #pragma syntax C for

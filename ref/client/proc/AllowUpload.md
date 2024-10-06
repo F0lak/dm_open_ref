@@ -16,7 +16,7 @@ Otherwise, it will be rejected.
 
 ### Example:
 
-``` dm
+```dm
 client
     AllowUpload(filename, filelength)
         if(filelength >= 524288) // 512K (0.5M)

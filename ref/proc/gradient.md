@@ -24,7 +24,7 @@ The simplest way to use this proc is to interpolate
 between two colors:
 ### Example:
 
-``` dm
+```dm
  // 20% of the way from red to black // prints #cc0000
 which is rgb(204,0,0) src << gradient("red", "black", 0.2)
 
@@ -42,7 +42,7 @@ gradient\'s color space). If you don\'t specify an argument called
 "index", the last argument is assumed to be the index.
 ### Example:
 
-``` dm
+```dm
  // This gradient loops through all the hues and goes from
 0 to 6. // Because this is a looping gradient, index=10 becomes index=4.
 // In HSL, this will give you blue (#0000ff). src << gradient(0,
@@ -55,7 +55,7 @@ The `gradient(Gradient, index)` format is
 used for cases where you want to pass an existing gradient to the proc.
 ### Example:
 
-``` dm
+```dm
  var/candy_cane_gradient =
 list(0.5,"red",0.5,"white","loop") // the color output alternates
 between red and white depending on the current time src <<

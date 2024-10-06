@@ -10,7 +10,7 @@ areas, and stat monitors.
 Screen objects (visible or otherwise)
 may also be used to make verbs available to users. To make them
 accessible, define verbs on the screen object like this: 
-``` dm
+```dm
 
 set src in usr.client.screen 
 ```

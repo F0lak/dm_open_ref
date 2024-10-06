@@ -12,7 +12,7 @@ is drawn on the map. By default, the order is area, turf, obj, mob,
 followed by missiles and images (in FLY_LAYER, which is 5).
 ### Example:
 
-``` dm
+```dm
 turf
  	archway
 	layer = MOB_LAYER+1 //overhead 

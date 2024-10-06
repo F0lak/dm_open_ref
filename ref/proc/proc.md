@@ -6,7 +6,7 @@ Procs may be derived from /proc. These procs are "global", in
 that they can be called anywhere in the code.
 ### Example:
 
-``` dm
+```dm
  proc/poof() world << "POOF!" 
 ```
  
@@ -22,7 +22,7 @@ as well as for [datum objects](/ref/datum.md)  derived from `/`. Predefined
 procs are discussed under the "procs" entry for the object type.
 ### Example:
 
-``` dm
+```dm
  mob/proc/poof() world << "POOF!" 
 ```
 
@@ -38,7 +38,7 @@ a type path, such as `as /mob/player`, or a more intrinsic type like
 `as num` or `as list`.
 ### Example:
 
-``` dm
+```dm
  mob/monster var/mob/player/target proc/GetTarget() as
 /mob/player if(!target) // find a /mob/player in view target = locate()
 in view(src) return target 

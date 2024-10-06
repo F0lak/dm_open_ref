@@ -17,7 +17,7 @@ icons must be even multiples of world.tile_size, so the icon will be
 padded with transparent pixels to the top and right as needed.
 ### Example:
 
-``` dm
+```dm
 // start with a simple icon
 var/icon/I = new('circle.dmi')
 // take the upper right 16x16 chunk

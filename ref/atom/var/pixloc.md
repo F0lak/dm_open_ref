@@ -22,7 +22,7 @@ The returned pixloc is
 not tied to this atom, so changing its vars will not alter the atom\'s
 pixloc. The only exception is when using operators such as `+=`, since
 `a += b` is just a shortcut for `a = a + b`. 
-``` dm
+```dm
 // does not alter obj's position
 var/pixloc/p = obj.pixloc
 p.step_x += 12 

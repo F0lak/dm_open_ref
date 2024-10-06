@@ -6,7 +6,7 @@ the following variable or proc as global. This may be necessary if a
 local or src-level variable has the same name.
 ### Example:
 
-``` dm
+```dm
  var/myvar = "global" mob verb/test() var/myvar =
 "local" usr << myvar usr << global.myvar 
 ```

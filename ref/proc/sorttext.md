@@ -16,7 +16,7 @@ This instruction is NOT sensitive to case. The case sensitive
 version is sorttextEx().
 ### Example:
 
-``` dm
+```dm
  switch(sorttext("A","B")) if(1) world <<
 "ascending" if(-1)world << "descending" if(0) world <<
 "neither" 

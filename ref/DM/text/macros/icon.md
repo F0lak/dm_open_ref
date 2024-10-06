@@ -5,13 +5,13 @@ expression (in []\'s) as an icon rather than as text. An object, for
 example, would be replaced by its icon rather than by its name.
 ### Example:
 
-``` dm
+```dm
 usr << "You look like this: \icon[usr]!"
 ```
 
 The `\icon` macro expands internally to the <IMG> tag. The
 above example, could be rewritten like this: 
-``` dm
+```dm
 usr << "You look like this: \
   <IMG CLASS=icon SRC=\ref[usr.icon] ICONSTATE='[usr.icon_state]'>!"
 ```
@@ -22,7 +22,7 @@ the image belongs to a class called `icon`. That allows you to configure
 the way icons are displayed by using a style sheet. The following
 default style rule causes icons to be shrunk to 16 by 16 pixels so they
 fit in better with surrounding text: 
-``` dm
+```dm
 IMG.icon {width: 16px; height: 16px}
 ```
 
@@ -30,7 +30,7 @@ You could override this setting
 globally in your own style sheet. You could even define rules to allow
 individual icons to be formatted differently from the rest.
 ### Example:
-``` dm
+```dm
 BIG IMG.icon {width: 32px; height: 32px}
 SMALL IMG.icon {width: 16px; height: 16px}
 ```
@@ -38,7 +38,7 @@ SMALL IMG.icon {width: 16px; height: 16px}
 With those rules in
 place, you could output a full sized icon by using the \<BIG> tag:
 
-``` dm
+```dm
 usr << "You look like this: <BIG>\icon[usr]</BIG>!"
 ```
 
@@ -56,7 +56,7 @@ use of the following tags:
     with 1
 ### Example:
 
-``` dm
+```dm
 usr << "You look like this: \
   <IMG CLASS=icon SRC=\ref[usr.icon] ICONSTATE='glowing' ICONDIR=NORTH ICONFRAME=2>!"
 ```

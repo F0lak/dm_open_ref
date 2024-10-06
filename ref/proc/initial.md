@@ -12,7 +12,7 @@ could be used to reset a variable to its default value or to check if a
 variable has changed.
 ### Example:
 
-``` dm
+```dm
  obj/verb/set_icon(I as null\|icon) if(!I) I =
 initial(icon) icon = I 
 ```

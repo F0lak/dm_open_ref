@@ -14,7 +14,7 @@ The following example
 puts players in a room when they log in and provides a single exit.
 ### Example:
 
-``` dm
+```dm
 mob/Login()
 	if(!loc)
 		Move(locate(/area/birthing_hut))

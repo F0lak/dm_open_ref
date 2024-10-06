@@ -132,7 +132,7 @@ An example mouse macro command might look like this:
 
 
 And the verb to go with it looks like this: 
-``` dm
+```dm
 
 client // "in src" is the same as "in usr.client" here
 verb/my_mousedown_verb(object as anything in src, button as text, params

@@ -21,7 +21,7 @@ obj
 > [!IMPORTANT]
 > This variable is read-only. 
 >
-> ``` dm
+> ```dm
 > mob/verb/test()
 > 	usr << type //displays "/mob" 
 > ```

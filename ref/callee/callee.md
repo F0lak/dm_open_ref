@@ -14,7 +14,7 @@ its caller with the [caller](/ref/proc/var/caller.md)  var. You can
 follow callers up the call chain.
 ### Example:
 
-``` dm
+```dm
 world/Error(err)
 	world.log << "Error [err]:"
 	for(var/callee/p = caller, p, p = p.caller)

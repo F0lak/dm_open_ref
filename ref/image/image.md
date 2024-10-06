@@ -11,7 +11,7 @@ visibility. Images only become visible when they are explicitly output
 to players:
 ### Example:
 
-``` dm
+```dm
 var/image/I = image('icon.dmi',usr)  //make an image attached to usr
 usr << I    //allow usr to see it
 ```
@@ -25,7 +25,7 @@ when one wishes to override some additional parameter, the image()
 instruction is a convenient way to do it.
 ### Example:
 
-``` dm
+```dm
 usr.overlays += image('shirt.dmi',icon_state = "red")
 ```
 

@@ -18,7 +18,7 @@ main code. If it is zero, the spawned code is scheduled to happen right
 after other existing events that are immediately pending.
 ### Example:
 
-``` dm
+```dm
  spawn(30) storm() usr << "Storm clouds are brewing!"
 
 ```

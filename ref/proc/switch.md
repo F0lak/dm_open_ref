@@ -24,7 +24,7 @@ conditional values may be any constant expression, such as a number or
 text string.
 ### Example:
 
-``` dm
+```dm
  switch (2) if(1) world << "ONE" if(4) world <<
 "FOUR" if(2,3) world << "TWO or THREE" if(5 to 10) world <<
 "FIVE to TEN" else world << "not ONE to TEN" 
@@ -33,7 +33,7 @@ text string.
 
 
 This outputs: 
-``` dm
+```dm
  TWO or THREE 
 ```
 
@@ -55,7 +55,7 @@ If you don\'t use the [`break` statement](/ref/proc/break.md) at the end of a
 block, it will fall through to the next block.
 ### Example:
 
-``` dm
+```dm
  // make this syntax change temporary #pragma push #pragma
 syntax C switch mob/proc/Greeting(friend) switch(roll(6)) case 4: friend
 << "I\'m [name]. \..." // fall through to cases 1 and 2 case

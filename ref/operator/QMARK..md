@@ -15,7 +15,7 @@ not happen, and the expression being assigned will not be evaluated, if
 the object is null.
 ### Example:
 
-``` dm
+```dm
  var/mob/M // M is null by default M?.name = "futz" //
 assignment is skipped because M is null world << M?.name // M?.name
 reads as null because M is null M?.Move(loc) // call Move() mob proc;

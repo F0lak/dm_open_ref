@@ -11,7 +11,7 @@ automatically used in [locate()](/ref/proc/locate.md) , and are used by
 default for the second argument in [istype()](/ref/proc/istype.md) .
 ### Example:
 
-``` dm
+```dm
 proc/Factory(new_type)
     world.log << "Creating new [new_type]"
     return new new_type()

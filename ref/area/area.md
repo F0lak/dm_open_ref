@@ -21,7 +21,7 @@ defines an action to be taken when somebody enters an area, namely to
 display its description.
 ### Example:
 
-``` dm
+```dm
 area
 	Entered(O)
 		if(desc)

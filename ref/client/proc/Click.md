@@ -19,7 +19,7 @@
 
 ### Example:
 
-``` dm
+```dm
 client
     Click(O) usr << "You clicked [O]"
     ..() // do default action 
@@ -34,7 +34,7 @@ originally took place.
 
 The argument format for this verb is:
 
-``` dm
+```dm
 Click(object as null|atom in usr.client,\
       location as null|turf|text in usr.client,\
       control as text, params as text)

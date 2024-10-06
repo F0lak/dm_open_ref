@@ -10,7 +10,7 @@ explicitly or implicitly use a newer feature than requested, it will
 generate a warning.
 ### Example:
 
-``` dm
+```dm
  #pragma compatibility 515 
 ```
  A value of 0 or

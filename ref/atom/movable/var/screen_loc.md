@@ -5,7 +5,7 @@
 This is a text string that controls where an object that is
 listed in `client.screen` will appear on the user\'s screen.
 The format is: 
-``` dm
+```dm
  "x,y"
  "x:px,y:py"
  "x1,y1 to x2,y2"

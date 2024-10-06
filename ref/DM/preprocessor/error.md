@@ -10,7 +10,7 @@ The #error directive halts compilation and displays the
 specified message.
 ### Example:
 
-``` dm
+```dm
 #if DM_VERSION < 4
 #error This compiler is too far out of date!
 #endif

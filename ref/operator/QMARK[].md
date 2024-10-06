@@ -10,7 +10,7 @@ assignment operator, such as `list?[index] = rhs`, then `rhs` is also
 not evaluated when the list is null.
 ### Example:
 
-``` dm
+```dm
  var/list/good = list(5,6,7) var/list/bad var/idx = 1 //
 prints null because bad is null; idx is not changed world <<
 json_encode(bad?[idx++]) // prints 5 because good is not null, and

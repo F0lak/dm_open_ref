@@ -9,7 +9,7 @@ example, that a const variable declared inside a proc will not conflict
 with other variables declared elsewhere.
 ### Example:
 
-``` dm
+```dm
  mob var/const/max_items = 100 Enter(O) if(src.contents.len
 >= src.max_items) return 0 return ..() 
 ```

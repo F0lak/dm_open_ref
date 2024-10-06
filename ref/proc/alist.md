@@ -14,7 +14,7 @@
 
 Similar to Dictionaries in other languages.  Lovingly known as `asslist`.
 The best way to utilize this feature is with the following code:
-``` dm
+```dm
 // creates a version dependent macro that allows us to call alist's by their true name: asslist
 #if DM_VERSION >= 516
 #define asslist alist
@@ -41,7 +41,7 @@ constants. When these index values happen to be text strings that
 satisfy all the requirements for variable names, this may also be
 written in a convenient short-hand without the double quotes:
 
-``` dm
+```dm
 var/alist/lst = alist(player = "James Byond", score = 2000)
 ```
 

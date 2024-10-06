@@ -21,7 +21,7 @@ value. This means that the following loop won\'t work like you might
 expect:
 ### Example:
 
-``` dm
+```dm
 for(i = 0, i < 100, i += 0.1)
     world << i
 ```
@@ -44,7 +44,7 @@ You can correct for rounding error somewhat by
 using the [`round` proc](/ref/proc/round.md) to adjust the loop var each time,
 although for performance reasons it might be preferable to find another
 alternative. 
-``` dm
+```dm
 for(i = 0, i < 100, i = round(i + 0.1, 0.1))
     world << i
 ```

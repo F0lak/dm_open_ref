@@ -19,7 +19,7 @@ up any user interface input that might have arrived and deal with it all
 at once.
 ### Example:
 
-``` dm
+```dm
  world/Tick() for(var/client/C) if(C.mob?.move_dir) try
 step(C.mob, move_dir) catch // empty catch, just so a failed step won\'t
 break the loop 

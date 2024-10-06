@@ -23,7 +23,7 @@ take a few moments, so it is a good idea to use
 [spawn()](/ref/proc/spawn.md) to avoid holding up the rest of the game.
 ### Example:
 
-``` dm
+```dm
  mob/verb/JoinClub() if(!world.IsSubscribed(src)) src <<
 "Sorry, the club is only for subscribers." else // go to the turf with
 the tag "clubhouse" loc = locate("clubhouse") src << "Welcome to

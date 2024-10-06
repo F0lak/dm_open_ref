@@ -14,7 +14,7 @@ The multi-line comment begins with
 Multi-line comments may be nested.
 ### Example:
 
-``` dm
+```dm
   // single line comment
   /*
      multi-line comment

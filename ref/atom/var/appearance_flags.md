@@ -108,7 +108,7 @@ drawn, but its color, transform, and blend_mode are all taken into
 account when drawing.
 ### Example
 
-``` dm
+```dm
 obj/lighting_plane
     screen_loc = "1,1"
     plane = 2

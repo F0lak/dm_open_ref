@@ -21,7 +21,7 @@
 
 ### Example:
 
-``` dm
+```dm
 usr << "Mobs:"
 var/mob/M
 for(M in view())
@@ -43,7 +43,7 @@ declared elsewhere in the same procedure.
 
 ### Example:
 
-``` dm
+```dm
 client/verb/who()
    for(var/client/Player)
       usr << Player
@@ -67,7 +67,7 @@ of that list.
 
 ### Example:
 
-``` dm
+```dm
 for(var/count in 1 to 100)
    src << count
 ```
@@ -87,7 +87,7 @@ react to changes in the original list.
 
 ### Example:
 
-``` dm
+```dm
 var/alist/prices = alist(/obj/item/weapon/sword = 100, /obj/item/armor/helmet = 50)
 player << "<b>Welcome to my shop!</b>"
 for(var/item,price in prices)

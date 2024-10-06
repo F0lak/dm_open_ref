@@ -9,7 +9,7 @@ Verbs are fundamentally the same "type" as procs, so their
 vars are the same.
 ### Example:
 
-``` dm
+```dm
  mob/verb/poof() world << "POOF!" 
 ```
 
@@ -22,7 +22,7 @@ In addition to the normal access control
 (see the verb src setting) verbs can be dynamically added and removed
 from objects. One way to do this is to use new() with the following
 syntax: 
-``` dm
+```dm
  new verb_path(Destination,Name,Desc) 
 ```
 
@@ -32,7 +32,7 @@ The Destination specifies the object to receive the verb. Name
 and Desc optionally specify a new name and description for the verb.
 ### Example:
 
-``` dm
+```dm
  mob/DM/verb/kill(mob/M) del(M)
 mob/DM/verb/give_kill_verb(mob/M) new/mob/DM/verb/kill(M) 
 ```
@@ -52,7 +52,7 @@ with the kill verb attached it it. Then players have greater versatility
 in manipulating the verb by simply moving the object around.
 ### Example:
 
-``` dm
+```dm
  obj/scroll/kill/verb/kill(mob/M) set src = usr.contents
 //implicit src del(M) 
 ```

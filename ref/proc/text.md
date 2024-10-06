@@ -19,7 +19,7 @@ substituted should be marked with [] and the expression should then be
 passed as an argument after the text string.
 ### Example:
 
-``` dm
+```dm
  usr << text("You are [] leagues from
 home.",sqrt(usr.x**2 + usr.y**2)) 
 ```

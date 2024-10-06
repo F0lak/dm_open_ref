@@ -27,7 +27,7 @@ mentioned above, you can retrieve info on more than one control at once
 by separating them with semicolons, like `"button1;button2"`.
 ### Example:
 
-``` dm
+```dm
  usr << "mainwindow.is-visible = [winget(usr,
 "mainwindow", "is-visible")]" usr << "\\nOther params:" usr
 << winget(usr, "mainwindow", "pos;is-maximized") usr <<
@@ -37,7 +37,7 @@ by separating them with semicolons, like `"button1;button2"`.
  
 
 This outputs: 
-``` dm
+```dm
 
 mainwindow.is-visible = true Other params: pos=0x0;is-maximized=true
 Buttons: button1.is-checked=true;button2.is-checked=false 

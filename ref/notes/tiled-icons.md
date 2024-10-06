@@ -52,7 +52,7 @@ This example shows a big icon being applied to an atom in tiled
 mode, as overlays:
 ### Example:
 
-``` dm
+```dm
 // icon is 3 tiles wide by 2 high
 icon_state = "0,0"
 

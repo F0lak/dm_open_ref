@@ -26,7 +26,7 @@ To delete the client-side file completely, call
 `client.Export()` with no argument at all.
 ### Example:
 
-``` dm
+```dm
 mob/verb/save()
    var/savefile/F = new()
    F << usr     //write the player's mob

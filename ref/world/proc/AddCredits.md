@@ -25,7 +25,7 @@ a few moments, so it is a good idea to use spawn() to avoid holding up
 the rest of the game.
 ### Example:
 
-``` dm
+```dm
  mob/proc/QuestCompleted(name, credits) src <<
 "Congratulations! You completed the [name] quest and earned
 [credits] credit\\s!" world.AddCredits(name, credits, "Quest:

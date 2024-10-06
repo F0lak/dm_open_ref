@@ -24,7 +24,7 @@ default behavior is to call the referenced object\'s own Topic()
 procedure.
 ### Example:
 
-``` dm
+```dm
 mob/verb/test()
    usr << "Click <a href=?src=\ref[src];action=start>here</a>!"
 mob/Topic(href,href_list[])
@@ -56,7 +56,7 @@ If the ref string is for an icon, you can add an HTML query
 string after the icon reference.
 ### Example:
 
-``` dm
+```dm
 player << browse({"
     <html><body>
     <img src="\ref[icon]?state=hungry&dir=[EAST]">

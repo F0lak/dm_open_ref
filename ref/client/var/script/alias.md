@@ -10,7 +10,7 @@ can have primitive command expansion and help.
 The syntax of an
 alias definition is best illustrated by the following example:
 
-``` dm
+```dm
  alias/say(msg as text) set desc = "speak your mind"
 return "say [msg]" 
 ```

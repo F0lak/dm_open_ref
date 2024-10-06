@@ -27,7 +27,7 @@ following example plays some sound files. Note that `sound()` is not
 even necessary when you don\'t need to set any additional parameters.
 ### Example:
 
-``` dm
+```dm
  usr << \'giggle.wav\' // play a giggle once usr <<
 sound(\'gigue.midi\',1) // repeat gigue usr << sound(\'boom.wav\',
 volume=50) // play an explosion at half volume 

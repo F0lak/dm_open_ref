@@ -1,12 +1,10 @@
 ## del proc
 
-<!-- -->
 **Format:**
 +   del Object
-<!-- -->
+
 **Args:**
 +   Object: Any data object (datum, savefile, world, you name it)
-
 
 Destroy an object and null out all references to it. Procs that
 are executing with `src` equal to that object are silently killed,
@@ -21,14 +19,15 @@ You should not depend on this, as it may change. In other words, be sure
 to always call the default handler after doing your own stuff.
 ### Example:
 
-``` dm
- mob/Del() src << "Aaaaaaaah!" ..()
-mob/verb/self_destruct() del usr 
+```dm
+mob/Del()
+   src << "Aaaaaaaah!"
+   ..()
+mob/verb/self_destruct()
+   del usr
 ```
- 
 
-While manual object
-deletion is useful in many cases, the search for live references to an
+While manual object deletion is useful in many cases, the search for live references to an
 object does take some time. The more active objects in the world, and
 the more variables in those objects, the longer the search will take.
 For larger projects, this search time can become significant. In these

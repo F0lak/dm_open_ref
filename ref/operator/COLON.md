@@ -7,7 +7,7 @@ the variable doesn\'t have the specified variable or proc, a runtime
 error occurs.
 ### Example:
 
-``` dm
+```dm
  var/M M = usr M:name = "futz" // access a mob property
 from a non-mob var 
 ```

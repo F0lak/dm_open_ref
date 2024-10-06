@@ -23,7 +23,7 @@ conjunction with statpanel) to create an inventory panel or something
 similar.
 ### Example:
 
-``` dm
+```dm
  mob/Stat() stat("description",src.desc) if(src == usr)
 stat(src.contents) 
 ```

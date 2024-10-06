@@ -17,7 +17,7 @@
 +   none
 ### Example:
 
-``` dm
+```dm
 obj/pressure_plate
     Uncrossed(O)
     // if no other mobs are standing on it...

@@ -20,7 +20,7 @@ special lists such as `contents` or `overlays`.
 
 ### Example:
 
-``` dm
+```dm
 var/item
 var/list/L = list("orange" = 3, "green" = 2, "blue" = 5)
 for(item in L) world << "[item] -> [L[item]]"
@@ -31,7 +31,7 @@ for(item in L) world << "[item] -> [L[item]]"
 
 ### Result:
 
-``` dm
+```dm
 orange -> 3
 green -> 2
 blue -> 5

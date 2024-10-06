@@ -32,7 +32,7 @@ If there is more than one instance of
 the specified type, the first one found will be chosen.
 ### Example:
 
-``` dm
+```dm
  var/mob/shopkeeper/M = locate() if(M) usr << "Found the
 shopkeeper." else usr << "Could not find the shopkeeper."
 
@@ -43,7 +43,7 @@ This looks for a mob of a type /mob/shopkeeper in
 the world (world.contents).
 ### Example:
 
-``` dm
+```dm
  usr.Move(locate(/turf/Home)) 
 ```
  
@@ -52,7 +52,7 @@ This
 "teleports" the usr to a turf of the type /turf/Home.
 ### Example:
 
-``` dm
+```dm
  usr.Move(locate(1,2,3)) 
 ```
  

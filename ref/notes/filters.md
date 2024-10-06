@@ -10,7 +10,7 @@ be added or removed at will, and can even be animated.
 
 A filter is created by using the [filter proc](/ref/proc/filter.md)  like so:
 
-``` dm
+```dm
 // halo effect
 mob.filters += filter(type="drop_shadow", x=0, y=0,\
                       size=5, offset=2, color=rgb(255,255,170))

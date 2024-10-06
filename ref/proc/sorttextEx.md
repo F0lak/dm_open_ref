@@ -19,7 +19,7 @@ Note: Uppercase letters are lower in the
 alphabetical order than lowercase letters.
 ### Example:
 
-``` dm
+```dm
  switch(sorttextEx("a","B")) if(1) world <<
 "ascending" if(-1)world << "descending" if(0) world <<
 "neither" 

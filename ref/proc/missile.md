@@ -13,6 +13,6 @@ effect is purely visual. When Type is an object, its icon is used for
 the missile.
 ### Example:
 
-``` dm
+```dm
  missile(/obj/fireball, usr, loc) 
 ```

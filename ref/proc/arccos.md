@@ -7,7 +7,7 @@
 +   The inverse cosine of X in degrees.
 ### Example:
 
-``` dm
+```dm
 mob/verb/test()
    usr << arccos(0)        // 90
    usr << arccos(0.707107) // 45

@@ -22,7 +22,7 @@
 The following example uses a very simple href value.
 ### Example:
 
-``` dm
+```dm
 mob/Login()
   src << "Click <a href=?source>here</a> to download the source code."
   return ..()
@@ -55,7 +55,7 @@ parameter called "src".
 
 ### Example:
 
-``` dm
+```dm
 mob/Login()
    src << "Click <a href='?src=\ref[src];action=startgame'>here</a> to start."
    return ..()

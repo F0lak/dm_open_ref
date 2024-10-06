@@ -26,7 +26,7 @@ be changed to uppercase or all caps if the found text is uppercase or
 all caps.
 ### Example:
 
-``` dm
+```dm
  world << replacetext("One on one", "one", "two")
 
 ```

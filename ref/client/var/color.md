@@ -20,7 +20,7 @@ will not be subject to client.color. This can be useful for HUD objects.
 This value can be animated.
 ### Example:
 
-``` dm
+```dm
  mob/proc/DayNight(is_day) if(client) client.color = is_day
 ? \\ null : \\ list(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4) 
 ```

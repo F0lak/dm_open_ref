@@ -25,7 +25,7 @@ case-sensitive (unless you use a case-insensitive regular expression),
 and can be more than one character long.
 ### Example:
 
-``` dm
+```dm
  var/list/items = splittext("apples,oranges,bananas",
 ",") // prints "apples", "oranges", and "bananas" separately
 for(var/item in items) usr << item 

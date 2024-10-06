@@ -23,7 +23,7 @@ still be verified by confirming that `sha1(password)==hash`. SHA1 is a
 widely-used hash function.
 ### Example:
 
-``` dm
+```dm
  mob/var/hash mob/Read(savefile/S) ..() // hash was saved
 in the file along with other values
 if(sha1("[level]/[exp]/[exp_needed]") != hash) src <<
@@ -45,7 +45,7 @@ file\'s entire contents. If the file doesn\'t exist, it returns null.
 The file may be a cache file or an external file.
 ### Examples:
 
-``` dm
+```dm
  var/hash = "(insert hash value here)" // Compute this
 ahead of time // Check that the cached default icon is still the same if
 (sha1(\'default.dmi\') != hash) world << "The default icon has been

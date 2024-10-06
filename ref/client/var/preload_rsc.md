@@ -30,7 +30,7 @@ hosting the game. Simply zip up the .rsc file, upload it to a web site,
 and put the URL here.
 ### Example:
 
-``` dm
+```dm
  client/preload_rsc =
 "http://dan.byond.com/mygame_rsc.zip" 
 ```

@@ -20,7 +20,7 @@ purpose of this proc is to turn a proc reference into a name, which is
 useful in some esoteric situations.
 ### Example:
 
-``` dm
+```dm
  var/list/event_queue proc/CallLater(object, procref, a, b,
 c) var/list/forlater = list(object, nameof(procref), a, b, c)
 event_queue \|\|= list() event_queue[++event_queue.len] = forlater

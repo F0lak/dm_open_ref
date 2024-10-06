@@ -17,7 +17,7 @@ the skin file (not its current state) is used as a template to build the
 clone. The clone will exist only for the player you choose.
 ### Example:
 
-``` dm
+```dm
  winset(usr, "templatewindow", "clonedwindow")
 
 ```
@@ -34,7 +34,7 @@ have a control of that name already, the proc will create a new control
 of that type from scratch.
 ### Example:
 
-``` dm
+```dm
  winclone(usr, "menu", "newmenu") winset(usr,
 "newmenu_file", "parent=newmenu;name=File") winset(usr,
 "newmenu_quit", "parent=newmenu_file;name=Quit;command=.quit")
@@ -47,7 +47,7 @@ and panes, you should give them a size with `winset()` before adding any
 controls so you can set their anchors properly.
 ### Example:
 
-``` dm
+```dm
  // Create the pane winclone(usr, "pane", "newpane") //
 Give it a size so we can figure out where to put controls winset(usr,
 "newpane", "size=100x100") // Add controls winset(usr,
@@ -63,7 +63,7 @@ Once a clone is created, it can
 be deleted via a `winset()` call:
 ### Example:
 
-``` dm
+```dm
  winset(usr, "clonedwindow", "parent=none") 
 ```
 

@@ -98,7 +98,7 @@ height is only half that, plus whatever vertical space is needed to show
 the icons in that area. Then everything is rounded up to a full tile
 size, so the result is a 13x7-tile screen. This is the formula you need
 if you want to calculate the screen size: 
-``` dm
+```dm
 pixel_width = round(icon_width * (view_width + view_height) / 2)
 pixel_height = round(icon_width * (view_width + view_height - 2) / 4) + icon_height
 

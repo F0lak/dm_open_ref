@@ -54,7 +54,7 @@ be created for the previously used animation seqeunce.\
 completely.
 ### Example:
 
-``` dm
+```dm
 mob/proc/GrowAndFade()
     // expand (scale by 2x2) and fade out over 1/2s
     animate(src, transform = matrix()*2, alpha = 0, time = 5)
@@ -126,7 +126,7 @@ These can be combined with `EASE_IN` or `EASE_OUT` using the
 `|` operator, to use just the first or last part of the curve.
 ### Example:
 
-``` dm
+```dm
 obj/coin/proc/Spin()
     var/matrix/M = matrix()
     M.Scale(-1, 1) // flip horizontally
@@ -207,7 +207,7 @@ belonged to, again it will be treated as a continuation of the sequence.
 
 ### Example:
 
-``` dm
+```dm
 atom/proc/BlurFade()
     filters += filter(type = "blur", size = 0)
     // Animating a filter of src

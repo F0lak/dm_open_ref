@@ -8,7 +8,7 @@ This is the icon file that will be used to represent the object
 on graphical clients.
 ### Example:
 
-``` dm
+```dm
 turf/wall
  	icon = 'wall.dmi' 
 ```

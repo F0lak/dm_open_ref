@@ -7,7 +7,7 @@
 +   the maximum of the arguments.
 ### Example:
 
-``` dm
+```dm
  usr << max(1,2,3) 
 ```
  

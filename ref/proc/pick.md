@@ -15,7 +15,7 @@ When not using the list form,
 you can make a particular value more or less likely to be chosen by
 providing a relative probability like this: 
 
-``` dm
+```dm
 prob(P); Val
   Or
 P; Val 
@@ -25,7 +25,7 @@ A value for P of 200 makes it twice as
 likely as the norm, 50 half as likely, and so on.
 
 ### Example:
-``` dm
+```dm
 obj/food
   verb/eat()
     usr << pick (

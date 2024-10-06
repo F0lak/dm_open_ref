@@ -7,7 +7,7 @@
 +   The inverse sine of X in degrees.
 ### Example:
 
-``` dm
+```dm
 mob/verb/test()
    usr << arcsin(0)        // 0
    usr << arcsin(0.707107) // 45

@@ -16,7 +16,7 @@ The following example demonstrates how to set a tag and use it to obtain a
 reference to an object.
 ### Example:
 
-``` dm
+```dm
 mob/verb/test()
     var/obj/O = new()
     O.tag = "My Object"

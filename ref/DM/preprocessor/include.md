@@ -25,7 +25,7 @@ other source code. You can view the contents of that file by creating a
 file with that name in Dream Maker.
 ### Example:
 
-``` dm
+```dm
 #include "test.dm" // checks ./test.dm
 #include <test.dm> // checks lib-path/test.dm
 ```

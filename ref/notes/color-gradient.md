@@ -6,7 +6,7 @@ colors that you can smoothly interpolate between. A simple example is a
 gradient from red to white:
 ### Example:
 
-``` dm
+```dm
 list("red", "white")
 // OR
 list(0, "red", 1, "white")
@@ -38,7 +38,7 @@ loop.
 Here are some more examples:
 ### Example:
 
-``` dm
+```dm
 // color wheel; ranges 0 to 6 and loops
 list(0, "#f00", 1, "#ff0", 2, "#0f0", 3, "#0ff", 4, "#00f", 5, "#f0f", 6, "#f00", "loop")
 
@@ -59,7 +59,7 @@ space](/ref/appendix/color-space.md)  for more information.
 
 ### Example:
 
-``` dm
+```dm
 // color wheel with a different color space
 list(0, "#f00", 3, "#0ff", 6, "#f00", "loop", "space"=COLORSPACE_HSLA)
 ```

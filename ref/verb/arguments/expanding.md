@@ -16,7 +16,7 @@ have possible values which do not show up in the expansion lists, but
 which are accepted when typed in full.
 ### Example:
 
-``` dm
+```dm
  mob/verb/test(A in MyProc(A,expanding)) usr << "You
 typed: [A]" proc/MyProc(A,expanding) var/values[] =
 list("one","two","three") if(!expanding) values += "secret"

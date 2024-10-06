@@ -23,7 +23,7 @@ The following example shows how to use `arglist()` with both positional
 parameters and named arguments. Both of these examples could be replaced by a much simpler direct call without need for a list to hold the arguments; this is just to illustrate the syntax.
 ### Example:
 
-``` dm
+```dm
 proc/MyProc(a,b)
    usr << "MyProc([a],[b])"
 

@@ -13,7 +13,7 @@
 Make all of the characters of T lowercase.
 ### Example:
 
-``` dm
+```dm
  L = lowertext("HI THERE") // = "hi there" 
 ```
 

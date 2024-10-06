@@ -27,7 +27,7 @@ not apply to maptext.
 
 ### Examples:
 
-``` dm
+```dm
 // Rotate the atom by 45° clockwise
 src.transform = turn(src.transform, 45)
 

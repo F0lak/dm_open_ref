@@ -23,7 +23,7 @@ You can even specify an offset, such as "3d4+5". That adds 5 to the
 sum of 3 dice having 4 sides each.
 ### Example:
 
-``` dm
+```dm
  obj/potion/healing var/dice = "3d6" verb/drink() var/h =
 roll(dice) if(h>15) usr << "Very refreshing!" else usr << "You
 feel better." 

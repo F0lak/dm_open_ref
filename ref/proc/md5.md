@@ -21,7 +21,7 @@ still be verified by confirming that `md5(password)==hash`. MD5 is a
 widely-used hash function.
 ### Example:
 
-``` dm
+```dm
 mob/var/hash
 
 mob/Read(savefile/S)
@@ -46,7 +46,7 @@ entire contents. If the file doesn\'t exist, it returns null. The file
 may be a cache file or an external file.
 ### Examples:
 
-``` dm
+```dm
 var/hash = "(insert hash value here)"   // Compute this ahead of time
 
 // Check that the cached default icon is still the same

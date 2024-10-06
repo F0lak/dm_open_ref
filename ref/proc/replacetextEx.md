@@ -23,7 +23,7 @@ When Needle is text, this instruction is sensitive to the case
 of Haystack and Needle. The case-insensitive version is replacetext().
 ### Example:
 
-``` dm
+```dm
  world << replacetext("One on one", "one", "two")
 
 ```

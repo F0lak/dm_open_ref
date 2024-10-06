@@ -22,7 +22,7 @@ from players, you could use this to force their text to be displayed
 literally:
 ### Example:
 
-``` dm
+```dm
  mob/verb/say(T as text) view() << "[usr] says,
 \'[html_encode(T)]\'" 
 ```

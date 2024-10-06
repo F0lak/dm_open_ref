@@ -22,7 +22,7 @@ a few moments, so it is a good idea to use spawn() to avoid holding up
 the rest of the game.
 ### Example:
 
-``` dm
+```dm
  mob/NPC Die(mob/killer) // assume Die() is a proc all mobs
 have spawn() if(ismob(killer) && killer.key)
 world.ClearMedal("Pacifist", killer) 

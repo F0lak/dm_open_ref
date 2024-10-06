@@ -21,7 +21,7 @@ differently---perhaps using different colors. Instead of using the
 `<font>` tag to color the text, you could use `<span>` to mark the
 beginning and ending of the text and to specify what kind of message it
 is. The result might be text such as the following: 
-``` dm
+```dm
 "[usr] <span class=combat>spanks</span> [targ]!"
 "[usr] says, '<span class=chat>[msg]</span>'"
 ```
@@ -32,7 +32,7 @@ they have no other side-effect but defining the style class. `span` is
 for text within a single paragraph and `div` is for whole paragraphs.
 The way text belonging to a particular class is formatted may be
 controlled in a style sheet such as the following: 
-``` dm
+```dm
 .combat {color: red}
 .chat {color: green}
 ```
@@ -68,7 +68,7 @@ To specify a *nested*
 context, several simple selectors may be listed one after the other. For
 example, emphasized text within a combat message could be enlarged with
 the following rule: 
-``` dm
+```dm
 .combat em {font-size: larger}
 ```
 
@@ -76,7 +76,7 @@ It is also possible to list several selectors
 separated by commas in order to make them all apply to the same body.
 For example, this next rule is equivalent to the two following ones:
 
-``` dm
+```dm
 .combat em, .chat em {font-size: larger}
 .combat em {font-size: larger}
 .chat em {font-size: larger}
@@ -124,7 +124,7 @@ all. Any font names containing a space should have quotes around them.
 The following example sets the font for the `<body>` tag. Even
 if you don\'t explicitly use `<body>` in output text, it is applied
 implicitly. 
-``` dm
+```dm
 body {font: 12pt 'Times New Roman', sans-serif}
 ```
  
@@ -161,7 +161,7 @@ is interpreted so that 100% is 1em, not the width of the window.) Using
 the `text-indent` attribute will indent the first line of a paragraph
 from the left margin. It is possible to create a hanging indent by using
 a negative value for `text-indent`, like so: 
-``` dm
+```dm
 body {text-indent: -0.5in; margin-left: 0.5in}
 ```
 ### background colors
@@ -187,7 +187,7 @@ these colors in one shot if you are too lazy to change them each
 individually. For example, if you define a style sheet that changes the
 background color, you might need to redefine the various foreground
 colors like this: 
-``` dm
+```dm
 body {background: aqua; color: black}
 .system {color: red; font-weight: bold}
 .command {color: green}
@@ -236,7 +236,7 @@ precedence will be used to resolve the conflict.
 
 The important
 flag is applied after the attribute assignment like this: 
-``` dm
+```dm
 body {background: white ! important; font: serif}
 ```
 
@@ -251,7 +251,7 @@ to use the style sheet syntax when formatting text.
 
 The following example uses the style attribute to color some text:
 
-``` dm
+```dm
 usr << "That <span style='color: red'>HURT</span>!"
 ```
 

@@ -5,7 +5,7 @@ with another value. This is done by using the item as an index into the
 list.
 ### Example:
 
-``` dm
+```dm
 var/params[0]
 
 params["player"] = "James Byond"
@@ -53,14 +53,14 @@ The [list()](/ref/proc/list.md)  or [alist()](/ref/proc/alist.md)  instructions 
 associative lists.
 ### Example:
 
-``` dm
+```dm
  var/list/lst = list("player" = "James Byond", "score" = 2000) 
 ```
  
 When the index values happen to be
 text strings that satisfy all the requirements for variable names, this
 may also be written in a convenient short-hand: 
-``` dm
+```dm
 var/list/lst = list(player = "James Byond", score = 2000) 
 ```
 

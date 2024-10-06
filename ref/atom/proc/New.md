@@ -37,7 +37,7 @@ because it requires a runtime evaluation. This is a common reason to use
 New().
 ### Example:
 
-``` dm
+```dm
 mob
 	var birthdate //time stamp
 	
@@ -55,10 +55,10 @@ Below are a few various ways of initializing objects:
 ```dm
 var/obj/O = new
 ```
-``` dm
+```dm
 new/atom()
 ```
-``` dm
+```dm
 var/wackysubtype = /obj/test
 var/obj/O = new wackysubtype
 ```

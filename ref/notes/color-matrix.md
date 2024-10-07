@@ -1,7 +1,6 @@
 ## Color matrix 
 ###### BYOND Version 509
 
-
 A color matrix is used to transform colors, in the same way
 that a matrix represented by the `/matrix` datum is used to transform 2D
 coordinates. A transformation matrix is 3x3, of which only 6 values are
@@ -14,7 +13,6 @@ because it transforms four different numbers instead of two, is 5x5.
                     |ar ag ab aa 0|
                     |cr cg cb ca 1|
 ```
-
 
 In easier-to-understand terms, this is how the result is
 calculated: 
@@ -39,11 +37,44 @@ ways:
     cr,cg,cb,ca)`
 + **Row-by-row (3 to 5 `rgb()` values, or null to use the default row)**: `list(red_row, green_row, blue_row, alpha_row, constant_row)`
 
+It can be easier to visualize colour matrices by spacing them outs:
+```dm
+var/list/c_matrix = list(
+  rr,rg,rb,
+  gr,gg,gb,
+  br,bg,bb)
+```
+
+## Example
+Here are simple colour matrices that can be used to set the colour of an atom.
+```dm
+var/list/red_color_matrix    = list( 255, 0, 0,
+                                     255, 0, 0,
+                                     255, 0, 0 )
+
+var/list/green_color_matrix  = list( 0, 255, 0,
+                                     0, 255, 0,
+                                     0, 255, 0 )
+
+var/list/blue_color_matrix   = list( 0, 0, 255,
+                                     0, 0, 255,
+                                     0, 0, 255 )
+```
+We can use the colours above to change the colour of any atom as follows:
+```dm
+mob/proc/SetColor(new_color)
+  switch(new_color)
+    if("red")
+      color = red_color_matrix
+    if("green")
+      color = green_color_matrix
+    if("blue")
+      color = blue_color_matrix
+```
+
 Reading a color var that has been set to a matrix will return
 the full 20-item list, where every 4 items represent a row in the matrix
 (without the fifth column). 
-
-In the `MapColors()` icon proc, the values are sent as arguments, not as a list.
 
 > [!TIP] 
 > **See also:**

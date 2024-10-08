@@ -80,4 +80,5 @@ the full 20-item list, where every 4 items represent a row in the matrix
 > **See also:**
 > +   [color var (atom)](/ref/atom/var/color.md) 
 > +   [color var (client)](/ref/client/var/color.md) 
-> +   [MapColors proc (icon)](/ref/icon/proc/MapColors.md) 
+> +   [MapColors proc (icon)](/ref/icon/proc/MapColors.md)
+> +   [Rainmeter ColorMatrix Guide (external link)](https://docs.rainmeter.net/tips/colormatrix-guide)

@@ -3,10 +3,10 @@
 
 **Format:**
 +   trunc(A)
-<!-- -->
+
 **Returns:**
 +   truncated A
-<!-- -->
+
 **Args:**
 +   A: A number, pixloc, or vector.
 
@@ -26,4 +26,4 @@ outputs -1
 > +   [fract proc](/ref/proc/fract.md) 
 > +   [floor proc](/ref/proc/floor.md) 
 > +   [ceil proc](/ref/proc/ceil.md) 
-> +   [round proc](/ref/proc/round.md) <!-- -->
+> +   [round proc](/ref/proc/round.md) 

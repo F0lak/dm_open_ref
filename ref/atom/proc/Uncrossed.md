@@ -3,16 +3,16 @@
 
 **Format:**
 +   Uncrossed(atom/movable/O)
-<!-- -->
+
 **When:**
 +   Called when an object has stopped overlapping this one through a
     call to Move(). Directly setting the object\'s loc or step_x/y vars
     does not result in a call to Uncrossed() or any other movement
     side-effects. The same goes for deletion of an object.
-<!-- -->
+
 **Args:**
 +   O: the object that moved and is no longer overlapping.
-<!-- -->
+
 **Default action:**
 +   none
 ### Example:
@@ -38,4 +38,4 @@ obj/pressure_plate
 > +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [group var (mob)](/ref/mob/var/group.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

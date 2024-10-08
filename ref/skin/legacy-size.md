@@ -1,12 +1,12 @@
 ## legacy-size parameter (skin) 
 ###### BYOND Version 512
 
-<!-- -->
+
 **Applies to:**
-+   [Output](/ref/skin/control/output.md) <!-- -->
++   [Output](/ref/skin/control/output.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   true
 

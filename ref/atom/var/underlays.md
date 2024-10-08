@@ -1,6 +1,6 @@
 ## underlays var (atom)
 
-<!-- -->
+
 **Default value:**
 +   empty list
 

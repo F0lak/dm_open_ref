@@ -1,13 +1,13 @@
 ## visited-color parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Grid](/ref/skin/control/grid.md) 
 +   [Output](/ref/skin/control/output.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) :   none
-<!-- -->
+
 **Default value:**
 +   #0000ff
 

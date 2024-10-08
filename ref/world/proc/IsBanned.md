@@ -1,14 +1,14 @@
 ## IsBanned proc (world)
 
-<!-- -->
+
 **Format:**
 +   IsBanned(key,address,computer_id,type)
-<!-- -->
+
 **Returns:**
 +   True value if user is banned from this world. This may be a list, in
     which case special meaning is attributed to certain list elements as
     described below.
-<!-- -->
+
 **Args:**
 +   key: BYOND key of the user.
 +   address: current IP address of the user.

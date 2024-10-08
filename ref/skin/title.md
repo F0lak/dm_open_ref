@@ -1,9 +1,9 @@
 ## title parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Main](/ref/skin/control/main.md) 
-<!-- -->
+
 **Format:**
 +   string
 

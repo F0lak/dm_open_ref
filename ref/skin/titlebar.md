@@ -1,12 +1,12 @@
 ## titlebar parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Main](/ref/skin/control/main.md) (window only)
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   true
 

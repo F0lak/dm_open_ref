@@ -1,9 +1,9 @@
 ## startup proc
 
-<!-- -->
+
 **Format:**
 +   startup(File,Port=0,Options,...)
-<!-- -->
+
 **Args:**
 +   File: The dmb file to run in a new server or null to load the
     current world.
@@ -95,7 +95,7 @@
     of errors that provide detailed info (such as call stack) is
     limited. Use this option with caution as it could fill up a log file
     quickly if a problem occurs.
-<!-- -->
+
 **Returns:**
 +   The address of the new server in the form ip:port.
 

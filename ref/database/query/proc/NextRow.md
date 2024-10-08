@@ -23,4 +23,4 @@ rewind the query to the beginning.
 > +   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
 > +   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
 > +   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
+> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 

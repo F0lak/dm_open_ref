@@ -1,22 +1,22 @@
 ## New proc (client)
 
-<!-- -->
+
 **Format:**
 +   New(TopicData)
-<!-- -->
+
 **Returns:**
 +   The newly connected mob, client.mob; or null to disallow the
     connection.
-<!-- -->
+
 **When:**
 +   Called when the player first tries to connect to the world.
-<!-- -->
+
 **Args:**
 +   usr: The mob in the world with the same key as the player, if it
     exists.
 +   TopicData: If the player accessed the world with a "connection
     topic", this is the topic text. Otherwise it is null.
-<!-- -->
+
 **Default action:**
 +   Look for an existing mob with the same key as the player.
     + If found, connect the player to that mob (mob.Login()).

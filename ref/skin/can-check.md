@@ -1,11 +1,11 @@
 ## can-check parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Menu](/ref/skin/control/menu.md) <!-- -->
++   [Menu](/ref/skin/control/menu.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

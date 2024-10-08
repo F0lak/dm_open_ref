@@ -1,10 +1,10 @@
 ## MouseWheel proc (client) 
 ###### BYOND Version 508
 
-<!-- -->
+
 **Format:**
 +   MouseWheel(object,delta_x,delta_y,location,control,params)
-<!-- -->
+
 **Args:**
 +   object: the object under the mouse pointer
 +   delta_x,delta_y: amount of wheel movement
@@ -13,7 +13,7 @@
 +   control: the name of the skin control involved
 +   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
-    <!-- -->
+    
 **Default action:**
 +   Call object.MouseWheel(delta_x,delta_y,location,control,params).
 

@@ -1,6 +1,6 @@
 ## mouse_over_pointer var (atom)
 
-<!-- -->
+
 **Default value:**
 +   MOUSE_INACTIVE_POINTER (0)
 

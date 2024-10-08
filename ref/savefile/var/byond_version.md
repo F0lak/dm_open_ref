@@ -35,4 +35,4 @@ worlds compiled before BYOND 515 will set this value to 514.
 > +   [savefile](/ref/savefile.md) 
 > +   [byond_build var (savefile)](/ref/savefile/var/byond_build.md) 
 > +   [byond_version var (world)](/ref/world/var/byond_version.md) 
-> +   [byond_build var (world)](/ref/world/var/byond_build.md) <!-- -->
+> +   [byond_build var (world)](/ref/world/var/byond_build.md) 

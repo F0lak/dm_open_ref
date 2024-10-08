@@ -2,10 +2,10 @@
 **Applies to:**
 +   [Label](/ref/skin/control/label.md) 
 +   [Info](/ref/skin/control/info.md) 
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

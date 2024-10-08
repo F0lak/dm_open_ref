@@ -1,9 +1,9 @@
 ## font-family parameter (skin)
 
     parameters](/ref/skin/param/tab-font.md) 
-<!-- -->
+
 **Applies to:**
-+   [All](/ref/skin/control.md) <!-- -->
++   [All](/ref/skin/control.md) 
 **Format:**
 +   string
 

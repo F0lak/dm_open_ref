@@ -1,13 +1,13 @@
 ## stretch parameter (skin) 
 ###### BYOND Version h parameter (skin) {#stretch-parameter-skin deprecated="1
 
-<!-- -->
+
 **Applies to:**
 +   [Label](/ref/skin/control/label.md) 
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

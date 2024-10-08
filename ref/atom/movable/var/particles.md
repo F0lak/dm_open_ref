@@ -1,7 +1,7 @@
 ## particles var (movable atom) 
 ###### BYOND Version 514
 
-<!-- -->
+
 **Default value:**
 +   null
 

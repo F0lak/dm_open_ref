@@ -22,4 +22,4 @@ the map boundaries is filled in with the default turf and area
 > +   [area var (world)](/ref/world/var/area.md) 
 > +   [maxx var (world)](/ref/world/var/maxx.md) 
 > +   [maxy var (world)](/ref/world/var/maxy.md) 
-> +   [turf var (world)](/ref/world/var/turf.md) <!-- -->
+> +   [turf var (world)](/ref/world/var/turf.md) 

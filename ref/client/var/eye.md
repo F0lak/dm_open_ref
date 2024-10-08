@@ -48,4 +48,4 @@ moves out of the visible range.
 > +   [virtual_eye var (client)](/ref/client/var/virtual_eye.md) 
 > +   [view var (world)](/ref/world/var/view.md) 
 > +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) <!-- -->
+> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 

@@ -4,10 +4,10 @@
 **Format:**
 +   json_decode(JSON)
 +   json_decode(JSON, flags)
-<!-- -->
+
 **Returns:**
 +   A value interpreted from a JSON-formatted text string.
-<!-- -->
+
 **Args:**
 +   JSON: The JSON-formatted text to decode.
 +   flags: A set of flags that tell the decoder how to act.
@@ -52,4 +52,4 @@ used by default.
 
 > [!TIP] 
 > **See also:**
-> +   [json_encode proc](/ref/proc/json_encode.md) <!-- -->
+> +   [json_encode proc](/ref/proc/json_encode.md) 

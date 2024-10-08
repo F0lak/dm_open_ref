@@ -1,9 +1,9 @@
 ## index parameter (skin)
 **Applies to:**
-+   [Menu](/ref/skin/control/menu.md) <!-- -->
++   [Menu](/ref/skin/control/menu.md) 
 **Format:**
 +   number
-<!-- -->
+
 **Default value:**
 +   1000
 

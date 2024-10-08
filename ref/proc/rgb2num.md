@@ -1,16 +1,16 @@
 ## rgb2num proc
 
-<!-- -->
+
 **Format:**
 +   rgb2num(color)
 +   rgb2num(color, space)
-<!-- -->
+
 **Args:**
 +   color: A color value (see [HTML
     colors](/ref/appendix/html-colors.md) )
 +   space: [Color space](/ref/appendix/color-space.md)  default is
     `COLORSPACE_RGB`
-<!-- -->
+
 **Returns:**
 +   A list with the components of this color
 

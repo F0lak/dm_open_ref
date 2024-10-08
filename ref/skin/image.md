@@ -1,12 +1,12 @@
 ## image parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Button](/ref/skin/control/button.md) 
 +   [Label](/ref/skin/control/label.md) 
 +   [Main](/ref/skin/control/main.md) 
 +   [Output](/ref/skin/control/output.md) 
-<!-- -->
+
 **Format:**
 +   \'*file*\'
 

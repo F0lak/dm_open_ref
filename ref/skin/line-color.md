@@ -1,12 +1,12 @@
 ## line-color parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Grid](/ref/skin/control/grid.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) :   none
-<!-- -->
+
 **Default value:**
 +   #c0c0c0
 

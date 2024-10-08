@@ -2,11 +2,11 @@
 
 **Format:**
 +   newlist(A,B,C,...)
-<!-- -->
+
 **Returns:**
 +   A list of new objects, just as though you had done
     `list(new A,new B,new C,...)`.
-<!-- -->
+
 **Args:**
 +   Arbitrary number of types to be created in the list.
 ### Example:
@@ -51,4 +51,4 @@ indentation inside of an argument list is always ignored anyway.
 > [!TIP] 
 > **See also:**
 > +   [list proc](/ref/proc/list.md) 
-> +   [new proc](/ref/proc/new.md) <!-- -->
+> +   [new proc](/ref/proc/new.md) 

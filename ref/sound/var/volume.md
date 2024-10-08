@@ -10,4 +10,4 @@ It will play at that volume when it is sent to a player.
 > [!TIP] 
 > **See also:**
 > +   [sound proc](/ref/proc/sound.md) 
-> +   [vars (sound)](/ref/sound/var.md) <!-- -->
+> +   [vars (sound)](/ref/sound/var.md) 

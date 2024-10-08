@@ -1,11 +1,11 @@
 ## icon parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Main](/ref/skin/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) 
 **Format:**
 +   \'*file*\'
-<!-- -->
+
 **Default value:**
 +   *empty*
 

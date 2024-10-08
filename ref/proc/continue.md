@@ -57,4 +57,4 @@ contents are indented inside it.
 > +   [break statement](/ref/proc/break.md) 
 > +   [do proc](/ref/proc/do.md) 
 > +   [for loop proc](/ref/proc/for/loop.md) 
-> +   [while proc](/ref/proc/while.md) <!-- -->
+> +   [while proc](/ref/proc/while.md) 

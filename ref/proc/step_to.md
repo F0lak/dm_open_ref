@@ -2,10 +2,10 @@
 
 **Format:**
 +   step_to(Ref,Trg,Min=0,Speed=0)
-<!-- -->
+
 **Returns:**
 +   1 on success; 0 otherwise.
-<!-- -->
+
 **Args:**
 +   Ref: A mob or obj.
 +   Trg: An object on the map.
@@ -23,4 +23,4 @@ world.view steps).
 > +   [get_step_to proc](/ref/proc/get_step_to.md) 
 > +   [get_steps_to proc](/ref/proc/get_steps_to.md) 
 > +   [walk_to proc](/ref/proc/walk_to.md) 
-> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 

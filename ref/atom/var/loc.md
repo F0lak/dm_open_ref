@@ -13,4 +13,4 @@ object.
 > +   [contents list var (atom)](/ref/atom/var/contents.md) 
 > +   [x var (atom)](/ref/atom/var/x.md) 
 > +   [y var (atom)](/ref/atom/var/y.md) 
-> +   [z var (atom)](/ref/atom/var/z.md) <!-- -->
+> +   [z var (atom)](/ref/atom/var/z.md) 

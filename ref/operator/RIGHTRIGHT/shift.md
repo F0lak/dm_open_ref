@@ -2,7 +2,7 @@
 
 **Format:**
 +   A >> B
-<!-- -->
+
 **Returns:**
 +   The bits of A shifted right B times.
 
@@ -16,4 +16,4 @@ Bits shifted below the 24 low bits are lost.
 > **See also:**
 > +   [>>= operator](/ref/operator/%3e%3e=.md) 
 > +   [<< shift operator](/ref/operator/%3c%3c/shift.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

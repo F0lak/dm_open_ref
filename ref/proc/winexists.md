@@ -2,7 +2,7 @@
 
 **Format:**
 +   winexists(player, control_id)
-<!-- -->
+
 **Args:**
 +   player: A mob or client.
 +   control_id: The unique ID of a control in the player\'s skin.
@@ -26,4 +26,4 @@ information, winexists() will sleep the current proc.
 > +   [winset proc](/ref/proc/winset.md) 
 > +   [winshow proc](/ref/proc/winshow.md) 
 > +   [User interface skins](/ref/skin.md) 
-> +   [type parameter (skin)](/ref/skin/param/type.md) <!-- -->
+> +   [type parameter (skin)](/ref/skin/param/type.md) 

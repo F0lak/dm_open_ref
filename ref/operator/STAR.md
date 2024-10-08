@@ -2,7 +2,7 @@
 
 **Format:**
 +   A * B
-<!-- -->
+
 **Returns:**
 +   The product of A and B.
 
@@ -25,4 +25,4 @@ types of values being multiplied, mostly on A.
 > +   [+ operator](/ref/operator/+.md) 
 > +   [- operator](/ref/operator/-.md) 
 > +   [/ operator](/ref/operator//.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

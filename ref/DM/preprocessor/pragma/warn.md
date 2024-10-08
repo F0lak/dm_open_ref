@@ -1,7 +1,7 @@
 ## #pragma warn/ignore/error directive 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Format:**
 +   #pragma \<warn|ignore|error> WarningName
 

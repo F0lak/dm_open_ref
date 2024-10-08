@@ -1,10 +1,10 @@
 ## plane var (atom) 
 ###### BYOND Version 509
 
-<!-- -->
+
 **Default value:**
 +   `FLOAT_PLANE`
-<!-- -->
+
 **Possible values:**
 +   -10000 to 10000 (integers only), `FLOAT_PLANE+p`
 

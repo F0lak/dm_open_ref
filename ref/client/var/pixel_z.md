@@ -15,4 +15,4 @@ with the animate() proc.
 > +   [pixel_x var (client)](/ref/client/var/pixel_x.md) 
 > +   [pixel_y var (client)](/ref/client/var/pixel_y.md) 
 > +   [pixel_w var (client)](/ref/client/var/pixel_w.md) 
-> +   [map_format var (world)](/ref/world/var/map_format.md) <!-- -->
+> +   [map_format var (world)](/ref/world/var/map_format.md) 

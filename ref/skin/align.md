@@ -1,8 +1,8 @@
 ## align parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Label](/ref/skin/control/label.md) <!-- -->
++   [Label](/ref/skin/control/label.md) 
 **Possible values:**
 +   center
 +   left
@@ -13,7 +13,7 @@
 +   top-right
 +   bottom-left
 +   bottom-right
-<!-- -->
+
 **Default value:**
 +   center
 

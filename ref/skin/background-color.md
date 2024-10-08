@@ -1,10 +1,10 @@
 ## background-color parameter (skin)
 
     parameter](/ref/skin/param/tab-background-color.md) 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) :   none
 

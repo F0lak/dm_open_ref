@@ -73,4 +73,4 @@ and effects.
 > +   [BACKGROUND_LAYER](/ref/notes/BACKGROUND_LAYER.md) 
 > +   [EFFECTS_LAYER](/ref/notes/EFFECTS_LAYER.md) 
 > +   [TOPDOWN_LAYER](/ref/notes/TOPDOWN_LAYER.md) 
-> +   [Understanding the renderer](/ref/notes/renderer.md) <!-- -->
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

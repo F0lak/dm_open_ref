@@ -3,7 +3,7 @@
 **Format:**
 +   #define Name Value
 +   #define Name(Parameters) Value
-<!-- -->
+
 **Args:**
 +   Name: A macro definition.
 +   Value: The value to substitute for Name.
@@ -94,4 +94,4 @@ world << "[TOTEXT(SAYTWICE(hi))]"   // world << "hihi"
 
 > [!TIP] 
 > **See also:**
-> +   [preprocessor](/ref/DM/preprocessor.md) <!-- -->
+> +   [preprocessor](/ref/DM/preprocessor.md) 

@@ -1,13 +1,13 @@
 ## is-disabled parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
 +   [Macro](/ref/skin/control/macro.md) 
-+   [Menu](/ref/skin/control/menu.md) <!-- -->
++   [Menu](/ref/skin/control/menu.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

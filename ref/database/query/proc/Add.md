@@ -33,4 +33,4 @@ In the example above, the query text might look like this:
 > [!TIP] 
 > **See also:**
 > +   [database query datum](/ref/database/query.md) 
-> +   [Clear proc (database query)](/ref/database/query/proc/Clear.md) <!-- -->
+> +   [Clear proc (database query)](/ref/database/query/proc/Clear.md) 

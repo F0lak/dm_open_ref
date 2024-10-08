@@ -2,10 +2,10 @@
 
 **Format:**
 +   Stat()
-<!-- -->
+
 **When:**
 +   Called periodically by the client to update the stat window.
-<!-- -->
+
 **Default action:**
 +   none.
 
@@ -26,4 +26,4 @@ mob/Stat()
 > **See also:**
 > +   [Stat proc (client)](/ref/client/proc/Stat.md) 
 > +   [stat proc](/ref/proc/stat.md) 
-> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) 

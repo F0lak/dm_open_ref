@@ -1,12 +1,12 @@
 ## is-password parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Input](/ref/skin/control/input.md) 
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

@@ -1,11 +1,11 @@
 ## is-list parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Grid](/ref/skin/control/grid.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

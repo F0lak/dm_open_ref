@@ -1,16 +1,16 @@
 ## New proc (atom)
 
-<!-- -->
+
 **Format:**
 +   New(loc)
 +   supports [named arguments](/ref/proc/arguments/named.md)
-<!-- -->
+
 **When:**
 +   Called when the object is created.
-<!-- -->
+
 **Args:**
 +   loc: The initial location.
-<!-- -->
+
 **Default action:**
 +   None.
 
@@ -22,13 +22,13 @@ this procedure.
 
 Since the initial location parameter passed to
 `new()` is applied before New() is even called, there is some special
-handling of the `loc`{.variable} variable when using named arguments in
+handling of the `loc` variable when using named arguments in
 a call. Normally, if a procedure is overridden, named arguments in a
 call are matched against those in the the overridden definition. In this
-case, however, the `loc`{.variable} parameter name is hard-coded.
+case, however, the `loc` parameter name is hard-coded.
 Regardless of what you call the first argument in your definition of
 New(), the initial location will be taken from the first positional
-argument, or from the argument named `loc`{.variable} if there are no
+argument, or from the argument named `loc` if there are no
 positional arguments. 
 
 The following example does some extra

@@ -1,13 +1,13 @@
 ## replacetext proc 
 ###### BYOND Version 510
 
-<!-- -->
+
 **Format:**
 +   replacetext(Haystack,Needle,Replacement,Start=1,End=0)
-<!-- -->
+
 **Returns:**
 +   The Haystack text with all cases of Needle replaced by Replacement
-<!-- -->
+
 **Args:**
 +   Haystack: The text string to search.
 +   Needle: The sub-text to search for. May be a regular expression

@@ -1,9 +1,9 @@
 ## output proc
 
-<!-- -->
+
 **Format:**
 +   output(msg, control)
-<!-- -->
+
 **Args:**
 +   msg: Text, an atom, a file, or null
 +   control: The ID of a control in the player\'s skin, or null for the
@@ -50,10 +50,10 @@ javascript function, as formatted by
 ::: 
 ###### BYOND Version  proc
 
-<!-- -->
+
 **Format:**
 +   output(msg, control)
-<!-- -->
+
 **Args:**
 +   msg: Text, an atom, a file, or null
 +   control: The ID of a control in the player\'s skin, or null for the

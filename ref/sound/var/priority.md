@@ -9,4 +9,4 @@ lower priority. The maximum value is 255. 0 is the lowest.
 
 > [!TIP] 
 > **See also:**
-> +   [vars (sound)](/ref/sound/var.md) <!-- -->
+> +   [vars (sound)](/ref/sound/var.md) 

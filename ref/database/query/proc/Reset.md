@@ -16,4 +16,4 @@ best performance that isn\'t recommended.
 > +   [database datum](/ref/database.md) 
 > +   [database query datum](/ref/database/query.md) 
 > +   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-> +   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) <!-- -->
+> +   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 

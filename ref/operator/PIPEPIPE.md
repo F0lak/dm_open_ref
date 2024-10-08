@@ -2,7 +2,7 @@
 
 **Format:**
 +   A \|\| B
-<!-- -->
+
 **Returns:**
 +   First true value of either A or B; last false value otherwise
 The only false values in DM are the number 0, an empty text string, or
@@ -40,4 +40,4 @@ current_target \|\| PickTarget()
 > +   [! operator](/ref/operator/!.md) 
 > +   [&& operator](/ref/operator/&&.md) 
 > +   [\|\|= operator](/ref/operator/%7C%7C=.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

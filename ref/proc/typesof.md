@@ -2,11 +2,11 @@
 
 **Format:**
 +   typesof(Type1,Type2,...)
-<!-- -->
+
 **Returns:**
 +   A list of all types that are derived from the specified "base"
     types, including the base types themselves.
-<!-- -->
+
 **Args:**
 +   The "base" types.
 ### Example:
@@ -36,4 +36,4 @@ typesof(/mob/admin_commands/verb)
 > [!TIP] 
 > **See also:**
 > +   [istype proc](/ref/proc/istype.md) 
-> +   [locate proc](/ref/proc/locate.md) <!-- -->
+> +   [locate proc](/ref/proc/locate.md) 

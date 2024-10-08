@@ -2,10 +2,10 @@
 
 **Format:**
 +   Del()
-<!-- -->
+
 **When:**
 +   Called when the world is shutdown.
-<!-- -->
+
 **Default action:**
 +   Shutdown the world.
 
@@ -26,4 +26,4 @@ seconds.
 > [!TIP] 
 > **See also:**
 > +   [Del proc (datum)](/ref/datum/proc/Del.md) 
-> +   [shutdown proc](/ref/proc/shutdown.md) <!-- -->
+> +   [shutdown proc](/ref/proc/shutdown.md) 

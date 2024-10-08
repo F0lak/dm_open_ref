@@ -2,10 +2,10 @@
 
 **Format:**
 +   step_away(Ref,Trg,Max=5,Speed=0)
-<!-- -->
+
 **Returns:**
 +   1 on success; 0 otherwise.
-<!-- -->
+
 **Args:**
 +   Ref: A mob or obj.
 +   Trg: An object on the map.
@@ -22,4 +22,4 @@ be taken.
 > **See also:**
 > +   [get_step_away proc](/ref/proc/get_step_away.md) 
 > +   [walk_away proc](/ref/proc/walk_away.md) 
-> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 

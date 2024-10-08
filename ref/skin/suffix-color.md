@@ -1,13 +1,13 @@
 ## suffix-color parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Info](/ref/skin/control/info.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) 
 +   none
-<!-- -->
+
 **Default value:**
 +   none
 

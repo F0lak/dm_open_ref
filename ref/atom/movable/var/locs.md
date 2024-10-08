@@ -32,4 +32,4 @@ empty.
 > +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
 > +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
 > +   [loc var (atom)](/ref/atom/var/loc.md) 
-> +   [contents list var (atom)](/ref/atom/var/contents.md) <!-- -->
+> +   [contents list var (atom)](/ref/atom/var/contents.md) 

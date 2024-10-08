@@ -3,7 +3,7 @@
 
 **Format:**
 +   A <=> B
-<!-- -->
+
 **Returns:**
 +   -1 if A is less B; 1 if A is greater than B; 0 otherwise.
 
@@ -23,4 +23,4 @@ considered ambiguous.
 > +   [>= operator](/ref/operator/%3e=.md) 
 > +   [== operator](/ref/operator/==.md) 
 > +   [operators](/ref/operator.md) 
-> +   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->
+> +   [sorttextEx proc](/ref/proc/sorttextEx.md) 

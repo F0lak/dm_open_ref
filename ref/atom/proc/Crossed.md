@@ -3,16 +3,16 @@
 
 **Format:**
 +   Crossed(atom/movable/O)
-<!-- -->
+
 **When:**
 +   Called when an object has overlapped this one through Move().
     Directly setting the object\'s loc or step_x/y vars does not result
     in a call to Crossed() or any other movement side-effects. The same
     goes for creation or deletion of an object at a location.
-<!-- -->
+
 **Args:**
 +   O: the object that moved and is now overlapping.
-<!-- -->
+
 **Default action:**
 +   none
 ### Example:
@@ -36,4 +36,4 @@ obj/landmine
 > +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [group var (mob)](/ref/mob/var/group.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

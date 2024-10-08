@@ -18,4 +18,4 @@ The value of `virtual_eye` is read-only.
 > +   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
 > +   [mob var (client)](/ref/client/var/mob.md) 
 > +   [perspective var (client)](/ref/client/var/perspective.md) 
-> +   [view var (client)](/ref/client/var/view.md) <!-- -->
+> +   [view var (client)](/ref/client/var/view.md) 

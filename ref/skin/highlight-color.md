@@ -1,13 +1,13 @@
 ## highlight-color parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Grid](/ref/skin/control/grid.md) 
 +   [Info](/ref/skin/control/info.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) :   none
-<!-- -->
+
 **Default value:**
 +   #00ff00
 

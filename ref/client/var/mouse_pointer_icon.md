@@ -33,4 +33,4 @@ are distinguished by special icon state names:
 > +   [mouse_drag_pointer var (atom)](/ref/atom/var/mouse_drag_pointer.md) 
 > +   [mouse_drag_pointer var (atom)](/ref/atom/var/mouse_drag_pointer.md) 
 > +   [mouse_drop_zone var (atom)](/ref/atom/var/mouse_drop_zone.md) 
-> +   [mouse_over_pointer var (atom)](/ref/atom/var/mouse_over_pointer.md) <!-- -->
+> +   [mouse_over_pointer var (atom)](/ref/atom/var/mouse_over_pointer.md) 

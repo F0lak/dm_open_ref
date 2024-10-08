@@ -1,13 +1,13 @@
 ## splittext proc 
 ###### BYOND Version 510
 
-<!-- -->
+
 **Format:**
 +   splittext(Text,Delimiter,Start=1,End=0,include_delimiters=0)
-<!-- -->
+
 **Returns:**
 +   A list of text strings split by the delimiter given.
-<!-- -->
+
 **Args:**
 +   Text: The text string to search.
 +   Delimiter: A text string that will be used as the separator between

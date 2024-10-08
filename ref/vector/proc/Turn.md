@@ -4,11 +4,11 @@
 **Format:**
 +   A.Turn(angle)
 +   A.Turn(B)
-<!-- -->
+
 **Args:**
 +   angle: An angle to turn a vector clockwise in 2D.
 +   B: A vector to rotate around (right-hand rule).
-<!-- -->
+
 **Returns:**
 +   The vector A, after rotating it.
 
@@ -33,4 +33,4 @@ rotation is the length of B, in degrees.
 > +   [turn proc (applied to a vector)](/ref/proc/turn/vector.md) 
 > +   [vector](/ref/vector.md) 
 > +   [vector proc](/ref/proc/vector.md) 
-> +   [vars (vector)](/ref/vector/var.md) <!-- -->
+> +   [vars (vector)](/ref/vector/var.md) 

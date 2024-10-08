@@ -47,4 +47,4 @@ specify `world.hub_password`.
 > +   [status var (world)](/ref/world/var/status.md) 
 > +   [game_state var (world)](/ref/world/var/game_state.md) 
 > +   [version var (world)](/ref/world/var/version.md) 
-> +   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
+> +   [visibility var (world)](/ref/world/var/visibility.md) 

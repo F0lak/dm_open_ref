@@ -3,10 +3,10 @@
 **Format:**
 +   round(A)
 +   round(A,B)
-<!-- -->
+
 **Returns:**
 +   rounded A
-<!-- -->
+
 **Args:**
 +   A: A number, pixloc, or vector.
 +   B: The nearest multiple to round A.
@@ -35,4 +35,4 @@ portions will be considered. B may be a vector.
 > +   [floor proc](/ref/proc/floor.md) 
 > +   [ceil proc](/ref/proc/ceil.md) 
 > +   [trunc proc](/ref/proc/trunc.md) 
-> +   [fract proc](/ref/proc/fract.md) <!-- -->
+> +   [fract proc](/ref/proc/fract.md) 

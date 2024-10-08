@@ -24,4 +24,4 @@ Players can also configure their own pictures.
 > **See also:**
 > +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [file proc](/ref/proc/file.md) 
-> +   [link proc](/ref/proc/link.md) <!-- -->
+> +   [link proc](/ref/proc/link.md) 

@@ -1,6 +1,6 @@
 ## in operator
 
-<!-- -->
+
 **Format:**
 +   A in List
 **Returns:**

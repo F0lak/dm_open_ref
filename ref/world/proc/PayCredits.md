@@ -3,10 +3,10 @@
 
 **Format:**
 +   PayCredits(player, credits, note)
-<!-- -->
+
 **Returns:**
 +   1 if the credits were spent successfully, 0 or null otherwise.
-<!-- -->
+
 **Args:**
 +   player: a mob, client, key, or ckey
 +   credits: A number of credits to deduct from the player\'s account
@@ -55,4 +55,4 @@ be downloaded by the public.
 > [!TIP] 
 > **See also:**
 > +   [AddCredits proc (world)](/ref/world/proc/AddCredits.md) 
-> +   [GetCredits proc (world)](/ref/world/proc/GetCredits.md) <!-- -->
+> +   [GetCredits proc (world)](/ref/world/proc/GetCredits.md) 

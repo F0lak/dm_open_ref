@@ -1,7 +1,7 @@
 ## command_text (client) 
 ###### BYOND Version d_text (client) {#command_text-client deprecated="1
 
-<!-- -->
+
 **Default value:**
 +   null
 Note: In BYOND 4.0 this var is deprecated. The

@@ -2,10 +2,10 @@
 
 **Format:**
 +   shell(Command)
-<!-- -->
+
 **Args:**
 +   Command: system command to run
-<!-- -->
+
 **Returns:**
 +   null on failure to execute command
 +   exit code of command otherwise
@@ -47,4 +47,4 @@ example displays the output of the "dir" command to the user.
 > +   [file2text proc](/ref/proc/file2text.md) 
 > +   [process var (world)](/ref/world/var/process.md) 
 > +   [system_type var (world)](/ref/world/var/system_type.md) 
-> +   [text2file proc](/ref/proc/text2file.md) <!-- -->
+> +   [text2file proc](/ref/proc/text2file.md) 

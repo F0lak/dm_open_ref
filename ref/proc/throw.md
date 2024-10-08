@@ -2,7 +2,7 @@
 
 **Format:**
 +   throw Value
-<!-- -->
+
 **Args:**
 +   Value: Any value, which will be sent to catch() if present.
 
@@ -32,4 +32,4 @@ null.
 > +   [try statement](/ref/proc/try.md) 
 > +   [Error proc (world)](/ref/world/proc/Error.md) 
 > +   [EXCEPTION proc](/ref/proc/EXCEPTION.md) 
-> +   [exception](/ref/exception.md) <!-- -->
+> +   [exception](/ref/exception.md) 

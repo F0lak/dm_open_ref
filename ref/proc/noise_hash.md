@@ -6,10 +6,10 @@
 +   noise_hash(list_of_nums)
 +   noise_hash(hash_name, num1, num2, num3...)
 +   noise_hash(hash_name, list_of_nums)
-<!-- -->
+
 **Returns:**
 +   A number between 0 and 1 (excluding 1 itself)
-<!-- -->
+
 **Args:**
 +   num1, num2, num3...: Numbers to be hashed (at least one)
 +   list_of_nums: A list containing the numbers to hash
@@ -35,4 +35,4 @@ arbitrarily. Don\'t do that.
 > [!TIP] 
 > **See also:**
 > +   [rand proc](/ref/proc/rand.md) 
-> +   [rand_seed proc](/ref/proc/rand_seed.md) <!-- -->
+> +   [rand_seed proc](/ref/proc/rand_seed.md) 

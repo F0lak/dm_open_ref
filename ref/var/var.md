@@ -21,7 +21,7 @@ The hard-coded types are:
 +   [client](/ref/client.md) 
 +   [list](/ref/list.md) 
 +   [world](/ref/world.md) 
-<!-- -->
+
 Type modifiers:
 +   [global](/ref/var/global.md) 
 +   [const](/ref/var/const.md) 

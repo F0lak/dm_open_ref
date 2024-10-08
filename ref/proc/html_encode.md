@@ -2,13 +2,12 @@
 
 **Format:**
 +   html_encode(PlainText)
-<!-- -->
+
 **Args:**
 +   PlainText: text to be html "escaped"
-<!-- -->
+
 **Returns:**
 +   escaped text
-
 
 Special characters such as < and > are not displayed
 literally in html and may produce garbled output. If you want to ensure
@@ -23,10 +22,9 @@ literally:
 ### Example:
 
 ```dm
- mob/verb/say(T as text) view() << "[usr] says,
-\'[html_encode(T)]\'" 
+mob/verb/say(T as text)
+   view() << "[usr] says, '[html_encode(T)]'"
 ```
- 
 
 If a URL is included in the
 text, special characters like & that are part of the URL will be
@@ -39,4 +37,4 @@ completely stripped out by html_encode().
 
 > [!TIP] 
 > **See also:**
-> +   [html_decode proc](/ref/proc/html_decode.md) <!-- -->
+> +   [html_decode proc](/ref/proc/html_decode.md) 

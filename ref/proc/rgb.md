@@ -1,12 +1,12 @@
 ## rgb proc
 
-<!-- -->
+
 **Format:**
 +   rgb(R,G,B)
 +   rgb(R,G,B,A)
 +   rgb(x,y,z,space=*color space*)
 +   rgb(x,y,z,a,space)
-<!-- -->
+
 **Args:**
 +   R,G,B: Numbers from 0-255 corresponding to the red, green, and blue
     components of a color.
@@ -14,7 +14,7 @@
 +   x,y,z: Color components for a different color space
 +   space: [Color space](/ref/appendix/color-space.md) ; defaults
     to `COLORSPACE_RGB`
-<!-- -->
+
 **Returns:**
 +   A color, represented by a text string in #RRGGBB or #RRGGBBAA format
 

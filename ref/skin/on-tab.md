@@ -1,10 +1,10 @@
 ## on-tab parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Info](/ref/skin/control/info.md) 
 +   [Tab](/ref/skin/control/tab.md) 
-<!-- -->
+
 **Format:**
 +   string
 

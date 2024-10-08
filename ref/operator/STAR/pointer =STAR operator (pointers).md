@@ -3,7 +3,7 @@
 
 **Format:**
 +   *A
-<!-- -->
+
 **Returns:**
 +   The value pointed at by a pointer stored in A
 This operator is also called the dereference operator, since it takes a
@@ -37,4 +37,4 @@ error.)
 > **See also:**
 > +   [& pointer operator](/ref/operator/&/pointer.md) 
 > +   [operators](/ref/operator.md) 
-> +   [ispointer proc](/ref/proc/ispointer.md) <!-- -->
+> +   [ispointer proc](/ref/proc/ispointer.md) 

@@ -1,14 +1,14 @@
 ## Replace proc (regex) 
 ###### BYOND Version 510
 
-<!-- -->
+
 **Format:**
 +   Replace(haystack, replacement, Start=1, End=0)
-<!-- -->
+
 **Returns:**
 +   The original haystack string with the first match replaced. If using
     the "g" flag, all matches are replaced.
-<!-- -->
+
 **Args:**
 +   haystack: The text to be searched
 +   replacement: A piece of text, OR a proc, that will be used to

@@ -113,7 +113,7 @@ async def periodic_commit_check():
 	await bot.wait_until_ready()
 	while not bot.is_closed():
 		await check_for_new_commits()
-		await asyncio.sleep(600)
+		await asyncio.sleep(3600)
   
   
 '''
@@ -349,7 +349,7 @@ def fix_links(text) -> str:
 
 def cleanup_output(text):
 	text = text.replace("######","")
-	text = text.replace("<!-- -->","")
+	text = text.replace("","")
 	text = text.replace("> [!TIP]", "")
 	text = text.replace("+  ", "-  ")
 	text = fix_links(text)

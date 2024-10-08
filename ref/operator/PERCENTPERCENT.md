@@ -3,7 +3,7 @@
 
 **Format:**
 +   A %% B
-<!-- -->
+
 **Returns:**
 +   The remainder of A / B.
 
@@ -27,4 +27,4 @@ that instead.
 > **See also:**
 > +   [% operator](/ref/operator/%.md) 
 > +   [%%= operator](/ref/operator/%25%25=.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

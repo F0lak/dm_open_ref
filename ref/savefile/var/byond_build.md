@@ -33,4 +33,4 @@ features from BYOND build 1601 onward
 > +   [savefile](/ref/savefile.md) 
 > +   [byond_version var (savefile)](/ref/savefile/var/byond_version.md) 
 > +   [byond_version var (world)](/ref/world/var/byond_version.md) 
-> +   [byond_build var (world)](/ref/world/var/byond_build.md) <!-- -->
+> +   [byond_build var (world)](/ref/world/var/byond_build.md) 

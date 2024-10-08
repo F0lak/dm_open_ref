@@ -2,7 +2,7 @@
 
 **Format:**
 +   rand_seed(Seed)
-<!-- -->
+
 **Args:**
 +   Seed: An integer used to initialize the random number generator.
 
@@ -31,4 +31,4 @@ identical on two different machines or operating systems.
 > +   [pick proc](/ref/proc/pick.md) 
 > +   [prob proc](/ref/proc/prob.md) 
 > +   [rand proc](/ref/proc/rand.md) 
-> +   [roll proc](/ref/proc/roll.md) <!-- -->
+> +   [roll proc](/ref/proc/roll.md) 

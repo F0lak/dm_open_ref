@@ -2,10 +2,10 @@
 
 **Format:**
 +   SetMedal(medal, player)
-<!-- -->
+
 **Returns:**
 +   1 if the medal was awarded successfully, 0 or null otherwise.
-<!-- -->
+
 **Args:**
 +   medal: name of the medal being awarded
 +   player: a mob, client, key, or ckey
@@ -38,4 +38,4 @@ be downloaded by the public.
 > +   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
 > +   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) 
 > +   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
-> +   [SetScores proc (world)](/ref/world/proc/SetScores.md) <!-- -->
+> +   [SetScores proc (world)](/ref/world/proc/SetScores.md) 

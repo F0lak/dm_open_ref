@@ -3,16 +3,16 @@
 
 **Format:**
 +   Uncross(atom/movable/O)
-<!-- -->
+
 **Returns:**
 +   1 to permit; 0 to deny.
-<!-- -->
+
 **When:**
 +   Called when another object attempts to stop overlapping this one.
-<!-- -->
+
 **Args:**
 +   O: the object attempting to get away.
-<!-- -->
+
 **Default action:**
 +   Allow the object to get away (returning 1)
 
@@ -27,4 +27,4 @@
 > +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [group var (mob)](/ref/mob/var/group.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

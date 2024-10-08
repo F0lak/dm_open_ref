@@ -2,7 +2,7 @@
 
 **Format:**
 +   max(A,B,C,...)
-<!-- -->
+
 **Returns:**
 +   the maximum of the arguments.
 ### Example:
@@ -30,4 +30,4 @@ a new object, not one of the objects that was compared.
 > [!TIP] 
 > **See also:**
 > +   [min proc](/ref/proc/min.md) 
-> +   [clamp proc](/ref/proc/clamp.md) <!-- -->
+> +   [clamp proc](/ref/proc/clamp.md) 

@@ -38,4 +38,4 @@ don\'t worry about it if none of that made any sense to you!
 > +   [underlays var (atom)](/ref/atom/var/underlays.md) 
 > +   [load_resource proc](/ref/proc/load_resource.md) 
 > +   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
-> +   [icon_z var (atom)](/ref/atom/var/icon_z.md) <!-- -->
+> +   [icon_z var (atom)](/ref/atom/var/icon_z.md) 

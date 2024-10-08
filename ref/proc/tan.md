@@ -3,7 +3,7 @@
 
 **Format:**
 +   tan(X)
-<!-- -->
+
 **Returns:**
 +   The tangent of X, where X is in degrees.
 ### Example:
@@ -19,4 +19,4 @@ usr << tan(90) // infinity (or close enough)
 > +   [arctan proc](/ref/proc/arctan.md) 
 > +   [cos proc](/ref/proc/cos.md) 
 > +   [sin proc](/ref/proc/sin.md) 
-> +   [turn proc](/ref/proc/turn.md) <!-- -->
+> +   [turn proc](/ref/proc/turn.md) 

@@ -1,9 +1,9 @@
 ## SetConfig proc (world)
 
-<!-- -->
+
 **Format:**
 +   SetConfig(config_set,param,value)
-<!-- -->
+
 **Args:**
 +   config_set: name of the configuration set (see below)
 +   param: name of the configuration parameter

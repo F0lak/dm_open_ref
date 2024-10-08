@@ -1,10 +1,10 @@
 ## inner-size parameter (skin) 
 ###### BYOND Version 513
 
-<!-- -->
+
 **Applies to:**
 +   [Main](/ref/skin/control/main.md) 
-<!-- -->
+
 **Format:**
 +   *width*x*height*
 

@@ -2,7 +2,7 @@
 
 **Format:**
 +   DrawBox(rgb,x1,y1,x2=x1,y2=y1)
-<!-- -->**Args:**
+**Args:**
 +   rgb: `rgb(red,green,blue)` or `null`
 +   x1,y1: Coordinates of one corner of the rectangle (1,1 is the lower
     left)

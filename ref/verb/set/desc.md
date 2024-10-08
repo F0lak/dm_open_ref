@@ -1,7 +1,7 @@
 # desc setting (verb)
 **Format:**
 +   set desc = "Description"
-<!-- -->
+
 **Args:**
 +   Description: A text string containing the help text.
 

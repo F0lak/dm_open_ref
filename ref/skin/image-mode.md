@@ -1,14 +1,14 @@
 ## image-mode parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Label](/ref/skin/control/label.md) 
-+   [Main](/ref/skin/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) 
 **Possible values:**
 +   center
 +   stretch
 +   tile
-<!-- -->
+
 **Default value:**
 +   center
 

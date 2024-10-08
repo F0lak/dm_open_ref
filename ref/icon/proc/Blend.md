@@ -2,7 +2,7 @@
 
 **Format:**
 +   Blend(icon, function=ICON_ADD, x=1, y=1)
-<!-- -->
+
 **Args:**
 +   icon: an icon file, /icon object, or color
 +   function: the blending operation to use

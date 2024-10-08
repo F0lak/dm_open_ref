@@ -27,4 +27,4 @@ channel 1, you don\'t have to worry about channel 1 being taken.
 > +   [sound proc](/ref/proc/sound.md) 
 > +   [status var (sound)](/ref/sound/var/status.md) 
 > +   [vars (sound)](/ref/sound/var.md) 
-> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
+> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 

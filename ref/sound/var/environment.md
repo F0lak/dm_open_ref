@@ -110,4 +110,4 @@ for any setting will select its default.
 > **See also:**
 > +   [vars (sound)](/ref/sound/var.md) 
 > +   [x, y, z vars (sound)](/ref/sound/var/xyz.md) 
-> +   [echo var (sound)](/ref/sound/var/echo.md) <!-- -->
+> +   [echo var (sound)](/ref/sound/var/echo.md) 

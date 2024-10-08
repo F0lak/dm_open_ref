@@ -2,7 +2,7 @@
 
 **Format:**
 +   New(filename,timeout)
-<!-- -->
+
 **Args:**
 +   filename: name of file or empty for temporary file
 +   timeout: seconds to wait; -1 for no timeout
@@ -23,4 +23,4 @@ are not saved. When you close the file, it simply gets deleted.
 > [!TIP] 
 > **See also:**
 > +   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
-> +   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
+> +   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) 

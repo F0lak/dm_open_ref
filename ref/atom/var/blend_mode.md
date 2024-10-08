@@ -1,10 +1,10 @@
 ## blend_mode var (atom) 
 ###### BYOND Version 501
 
-<!-- -->
+
 **Default value:**
 +   0 (none/overlay)
-<!-- -->
+
 **Possible values:**
 +   BLEND_DEFAULT (0)
 +   BLEND_OVERLAY

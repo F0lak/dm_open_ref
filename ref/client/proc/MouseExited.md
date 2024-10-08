@@ -1,9 +1,9 @@
 ## MouseExited proc (client)
 
-<!-- -->
+
 **Format:**
 +   MouseExited(object,location,control,params)
-<!-- -->
+
 **Args:**
 +   object: the object under the mouse pointer
 +   location: the turf, stat panel, grid cell, etc. containing the
@@ -11,7 +11,7 @@
 +   control: the name of the skin control involved
 +   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
-    <!-- -->
+    
 **Default action:**
 +   Call object.MouseExited(location,control,params).
 

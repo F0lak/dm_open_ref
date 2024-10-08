@@ -1,10 +1,10 @@
 ## vis_flags var (atom) 
 ###### BYOND Version 513
 
-<!-- -->
+
 **Default value:**
 +   0
-<!-- -->
+
 **Possible values:**
 +   Any combination of:
 +   **VIS_INHERIT_ICON**: Use the parent object\'s icon.

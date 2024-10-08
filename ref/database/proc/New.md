@@ -3,7 +3,7 @@
 
 **Format:**
 +   New(filename)
-<!-- -->
+
 **Args:**
 +   filename: The database filename to open (optional)
 
@@ -13,4 +13,4 @@ is provided.
 > [!TIP] 
 > **See also:**
 > +   [database datum](/ref/database.md) 
-> +   [Open proc (database)](/ref/database/proc/Open.md) <!-- -->
+> +   [Open proc (database)](/ref/database/proc/Open.md) 

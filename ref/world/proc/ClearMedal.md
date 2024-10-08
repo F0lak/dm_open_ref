@@ -2,10 +2,10 @@
 
 **Format:**
 +   ClearMedal(medal, player)
-<!-- -->
+
 **Returns:**
 +   1 if the medal was rescinded successfully, 0 or null otherwise.
-<!-- -->
+
 **Args:**
 +   medal: name of the medal being rescinded
 +   player: a mob, client, key, or ckey
@@ -38,4 +38,4 @@ be downloaded by the public.
 > +   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
 > +   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
 > +   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
-> +   [SetScores proc (world)](/ref/world/proc/SetScores.md) <!-- -->
+> +   [SetScores proc (world)](/ref/world/proc/SetScores.md) 

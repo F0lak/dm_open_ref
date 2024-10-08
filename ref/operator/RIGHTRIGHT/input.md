@@ -10,4 +10,4 @@ may be a savefile or a file object corresponding to a text file.
 > [!TIP] 
 > **See also:**
 > +   [>> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
-> +   [file proc](/ref/proc/file.md) <!-- -->
+> +   [file proc](/ref/proc/file.md) 

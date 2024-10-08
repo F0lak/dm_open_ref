@@ -14,4 +14,4 @@ top panel. The special value "verbs" activates the panel of commands.
 > +   [stat proc](/ref/proc/stat.md) 
 > +   [statobj var (client)](/ref/client/var/statobj.md) 
 > +   [statpanel proc](/ref/proc/statpanel.md) 
-> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) 

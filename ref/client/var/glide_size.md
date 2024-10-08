@@ -1,7 +1,7 @@
 ## glide_size var (client) 
 ###### BYOND Version 490
 
-<!-- -->
+
 **Default value:**
 +   0
 

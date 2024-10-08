@@ -4,11 +4,11 @@
 +   GetScores(key, fields)
 +   GetScores(count, field)
 +   GetScores(count, skip, field)
-<!-- -->
+
 **Returns:**
 +   A parameter list of scores for a given entry. Use params2list() to
     interpret the results.
-<!-- -->
+
 **Args:**
 +   key: the name of the player, character, etc. for which scores have
     been set
@@ -100,4 +100,4 @@ public.
 > +   [SetScores proc (world)](/ref/world/proc/SetScores.md) 
 > +   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
 > +   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
-> +   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) <!-- -->
+> +   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) 

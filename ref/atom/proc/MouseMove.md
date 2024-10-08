@@ -1,10 +1,10 @@
 ## MouseMove proc (atom) 
 ###### BYOND Version 500
 
-<!-- -->
+
 **Format:**
 +   MouseMove(location, control, params)
-<!-- -->
+
 **Args:**
 +   location: the turf, stat panel, grid cell, etc. containing the
     object

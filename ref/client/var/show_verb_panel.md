@@ -1,7 +1,7 @@
 ## show_verb_panel var (client)
 
     (client)](/ref/client/var/default_verb_category.md) 
-+   [show_map var (client)](/ref/client/var/show_map.md) <!-- -->
++   [show_map var (client)](/ref/client/var/show_map.md) 
 **Default value:**
 +   1
 

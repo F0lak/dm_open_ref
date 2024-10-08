@@ -3,7 +3,7 @@
 
 **Format:**
 +   V.Normalize()
-<!-- -->
+
 **Returns:**
 +   The same vector, after normalizing it to a unit vector.
 
@@ -18,4 +18,4 @@ A degenerate vector such as
 > **See also:**
 > +   [vector](/ref/vector.md) 
 > +   [vector proc](/ref/proc/vector.md) 
-> +   [size var (vector)](/ref/vector/var/size.md) <!-- -->
+> +   [size var (vector)](/ref/vector/var/size.md) 

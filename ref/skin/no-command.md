@@ -1,11 +1,11 @@
 ## no-command parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Input](/ref/skin/control/input.md) <!-- -->
++   [Input](/ref/skin/control/input.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

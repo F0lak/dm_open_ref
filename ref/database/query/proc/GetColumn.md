@@ -3,7 +3,7 @@
 
 **Format:**
 +   GetColumn(column)
-<!-- -->
+
 **Args:**
 +   *column*: The column number whose value should be retrieved
 
@@ -28,4 +28,4 @@ saved into a BLOB field, the result is an icon file.
 > +   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
 > +   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
 > +   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
-> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
+> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 

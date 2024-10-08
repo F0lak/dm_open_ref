@@ -1,9 +1,9 @@
 ## on-change parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Bar](/ref/skin/control/bar.md) 
-<!-- -->
+
 **Format:**
 +   string
 

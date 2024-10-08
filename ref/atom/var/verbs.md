@@ -27,4 +27,4 @@ mob/verb/add_kazaam()
 > [!TIP] 
 > **See also:**
 > +   [list](/ref/list.md) 
-> +   [typesof proc](/ref/proc/typesof.md) <!-- -->
+> +   [typesof proc](/ref/proc/typesof.md) 

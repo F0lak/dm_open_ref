@@ -3,10 +3,10 @@
 **Format:**
 +   num2text(N, SigFig=6)
 +   num2text(N, Digits, Radix)
-<!-- -->
+
 **Returns:**
 +   A text string.
-<!-- -->
+
 **Args:**
 +   N: A number.
 +   SigFig: Number of significant digits.
@@ -44,4 +44,4 @@ num2text(343, 0, 7) // "1000"
 > [!TIP] 
 > **See also:**
 > +   [isnum proc](/ref/proc/isnum.md) 
-> +   [text2num proc](/ref/proc/text2num.md) <!-- -->
+> +   [text2num proc](/ref/proc/text2num.md) 

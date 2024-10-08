@@ -1,15 +1,15 @@
 ## mouse_drop_pointer var (atom)
 
-<!-- -->
+
 **Default value:**
 +   MOUSE_ACTIVE_POINTER (1)
 
 
 This defines how the mouse looks when dragging this object over
-another object that has `mouse_drop_zone`{.variable} set. The default
+another object that has `mouse_drop_zone` set. The default
 value enables the addition of a standard "droppable" indicator to
-whatever `mouse_drag_pointer`{.variable} is (unless
-`mouse_drag_pointer`{.variable} is turned off). 
+whatever `mouse_drag_pointer` is (unless
+`mouse_drag_pointer` is turned off). 
 
 This variable
 may also be set to any of the other [built-in mouse

@@ -1,12 +1,12 @@
 ## splitter parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Child](/ref/skin/control/child.md) 
-<!-- -->
+
 **Format:**
 +   number (0 to 100)
-<!-- -->
+
 **Default value:**
 +   50
 

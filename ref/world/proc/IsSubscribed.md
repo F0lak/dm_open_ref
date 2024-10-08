@@ -3,11 +3,11 @@
 **Format:**
 +   IsSubscribed(player)
 +   IsSubscribed(player, "BYOND") (to check BYOND Membership)
-<!-- -->
+
 **Returns:**
 +   Number of days left in subscription, -1 for a lifetime subscriber,
     *or* null if hub contact failed
-<!-- -->
+
 **Args:**
 +   player: a mob, client, key, or ckey
 

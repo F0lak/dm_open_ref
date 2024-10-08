@@ -1,9 +1,9 @@
 ## sleep proc
 
-<!-- -->
+
 **Format:**
 +   sleep(Delay)
-<!-- -->
+
 **Args:**
 +   Delay: The amount of time to sleep, in 1/10 seconds.
 ::: {.sidebar .underhood}
@@ -29,11 +29,11 @@ setting changed to 0, it will return the value of the `.` var to its
 caller immediately if it or one of its callees sleeps. 
 
 Also be
-aware that a sleeping procedure whose `src`{.variable} object gets
+aware that a sleeping procedure whose `src` object gets
 deleted will automatically terminate when execution returns to it. This
 is to protect you against trying to access properties or procedures of a
 deleted (and therefore `null`) object. If you do not want the procedure
-to be terminated, you should set `src`{.variable} to `null`.
+to be terminated, you should set `src` to `null`.
 
 
 One common use of `sleep` is to create what is known as a

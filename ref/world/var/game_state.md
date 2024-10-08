@@ -25,4 +25,4 @@ website.
 > **See also:**
 > +   [name var (world)](/ref/world/var/name.md) 
 > +   [status var (world)](/ref/world/var/status.md) 
-> +   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
+> +   [visibility var (world)](/ref/world/var/visibility.md) 

@@ -2,18 +2,18 @@
 
 **Format:**
 +   Move(NewLoc, Dir = 0, step_x = 0, step_y = 0)
-<!-- -->
+
 **Returns:**
 +   Success (jump): 1
 +   Success (slide): Number of pixels moved
 +   Failure: 0
-<!-- -->
+
 **When:**
 +   Called to move the object. By default, client.Move() calls this proc
     when players use direction keys. The automated movement functions
     (like walk()) also call this proc. Directly setting the loc variable
     does **not** call this procedure.
-<!-- -->
+
 **Args:**
 +   NewLoc: The new location.
 +   Dir: The direction of movement (or 0).
@@ -77,4 +77,4 @@ change is also considered a jump.
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
 > +   [walk proc](/ref/proc/walk.md) 
 > +   [Gliding](/ref/notes/gliding.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

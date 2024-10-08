@@ -1,7 +1,7 @@
 ## filters var (atom) 
 ###### BYOND Version 512
 
-<!-- -->
+
 **Default value:**
 +   empty list
 

@@ -3,10 +3,10 @@
 
 **Format:**
 +   A.Dot(B)
-<!-- -->
+
 **Args:**
 +   B: The other vector.
-<!-- -->
+
 **Returns:**
 +   The dot product of the two vectors.
 
@@ -33,4 +33,4 @@ dot = A.size * B.size * cos(angle)
 > **See also:**
 > +   [vector](/ref/vector.md) 
 > +   [vector proc](/ref/proc/vector.md) 
-> +   [vars (vector)](/ref/vector/var.md) <!-- -->
+> +   [vars (vector)](/ref/vector/var.md) 

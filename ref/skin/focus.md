@@ -1,12 +1,12 @@
 ## focus parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

@@ -1,14 +1,14 @@
 ## nonspantext proc 
 ###### BYOND Version 510
 
-<!-- -->
+
 **Format:**
 +   nonspantext(Haystack,Needles,Start=1)
-<!-- -->
+
 **Returns:**
 +   The number of consecutive characters, from the start position, that
     do NOT match the characters in Needles.
-<!-- -->
+
 **Args:**
 +   Haystack: The text string to search.
 +   Needles: A text string with all the characters that should not

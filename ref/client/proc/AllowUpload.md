@@ -2,11 +2,11 @@
 
 **Format:**
 +   AllowUpload(filename, filelength)
-<!-- -->
+
 **When:**
 +   Called when the player attempts to upload a file to the server,
     through input() or a command.
-<!-- -->
+
 **Default action:**
 +   Allows the upload by returning 1.
 
@@ -27,4 +27,4 @@ client
 
 > [!TIP] 
 > **See also:**
-> +   [input proc](/ref/proc/input.md) <!-- -->
+> +   [input proc](/ref/proc/input.md) 

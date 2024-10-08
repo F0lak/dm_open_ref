@@ -1,12 +1,12 @@
 ## OpenPort proc (world)
 
-<!-- -->
+
 **See also:**
 +   OpenPort(port=0)
-<!-- -->
+
 **Args:**
 +   port: the network port to open
-<!-- -->
+
 **Returns:**
 +   1 on success; 0 on failure
 

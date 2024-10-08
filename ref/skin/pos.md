@@ -1,12 +1,12 @@
 ## pos parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [All](/ref/skin/control.md) <!-- -->
++   [All](/ref/skin/control.md) 
 **Format:**
 +   *x*,*y*
 +   none
-<!-- -->
+
 **Default value:**
 +   *x*,*y*
 +   none

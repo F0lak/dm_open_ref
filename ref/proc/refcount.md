@@ -3,10 +3,10 @@
 
 **Format:**
 +   refcount(Object)
-<!-- -->
+
 **Args:**
 +   Object: The object to get a reference count for
-<!-- -->
+
 **Returns:**
 +   A count of references for the object.
 
@@ -30,4 +30,4 @@ that copy of the proc lives.
 
 > [!TIP] 
 > **See also:**
-> +   [garbage collection](/ref/DM/garbage.md) <!-- -->
+> +   [garbage collection](/ref/DM/garbage.md) 

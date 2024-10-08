@@ -1,7 +1,7 @@
 ## params var (sound) 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Default value:**
 +   null
 

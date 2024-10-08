@@ -1,9 +1,9 @@
 ## id parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   string
 

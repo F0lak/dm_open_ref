@@ -27,4 +27,4 @@ multiple mobs in a room.
 > **See also:**
 > +   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
 > +   [view var (client)](/ref/client/var/view.md) 
-> +   [view var (world)](/ref/world/var/view.md) <!-- -->
+> +   [view var (world)](/ref/world/var/view.md) 

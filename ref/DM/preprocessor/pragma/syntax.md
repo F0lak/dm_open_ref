@@ -1,7 +1,7 @@
 ## #pragma syntax directive 
 ###### BYOND Version 516
 
-<!-- -->
+
 **Format:**
 +   #pragma syntax <C|DM> [for|switch]
 

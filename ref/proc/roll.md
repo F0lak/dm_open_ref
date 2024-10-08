@@ -3,10 +3,10 @@
 **Format:**
 +   roll(ndice=1,sides)
 +   roll(dice)
-<!-- -->
+
 **Returns:**
 +   The sum of the rolled dice.
-<!-- -->
+
 **Args:**
 +   ndice: number of dice to role.
 +   sides: number of sides to the dice.
@@ -32,4 +32,4 @@ feel better."
 
 > [!TIP] 
 > **See also:**
-> +   [rand proc](/ref/proc/rand.md) <!-- -->
+> +   [rand proc](/ref/proc/rand.md) 

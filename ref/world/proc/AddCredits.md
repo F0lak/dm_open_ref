@@ -3,10 +3,10 @@
 
 **Format:**
 +   AddCredits(player, credits, note)
-<!-- -->
+
 **Returns:**
 +   1 if the credits were added successfully, 0 or null otherwise.
-<!-- -->
+
 **Args:**
 +   player: a mob, client, key, or ckey
 +   credits: A number of credits to add to the player\'s account
@@ -40,4 +40,4 @@ be downloaded by the public.
 > [!TIP] 
 > **See also:**
 > +   [GetCredits proc (world)](/ref/world/proc/GetCredits.md) 
-> +   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) <!-- -->
+> +   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) 

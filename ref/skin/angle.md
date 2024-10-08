@@ -1,12 +1,12 @@
 ## angle1, angle2 parameters (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Bar](/ref/skin/control/bar.md) 
-<!-- -->
+
 **Format:**
 +   number
-<!-- -->
+
 **Default value:**
 +   `angle1`: 0
 +   `angle2`: 180

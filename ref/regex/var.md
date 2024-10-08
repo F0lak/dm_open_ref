@@ -1,7 +1,7 @@
 ## regex vars 
 ###### BYOND Version 510
 
-<!-- -->
+
 regex/var
 +   [flags](/ref/regex/var/flags.md) 
 +   [group](/ref/regex/var/group.md) 

@@ -3,14 +3,14 @@
     parameter](/ref/skin/param/tab-background-color.md) 
 +   [tab-font-family, tab-font-size, tab-font-style
     parameters](/ref/skin/param/tab-font.md) 
-<!-- -->
+
 **Applies to:**
 +   [Info](/ref/skin/control/info.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) 
 +   none
-<!-- -->
+
 **Default value:**
 +   none
 

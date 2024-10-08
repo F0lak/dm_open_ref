@@ -15,4 +15,4 @@ this channel.
 > **See also:**
 > +   [sound proc](/ref/proc/sound.md) 
 > +   [vars (sound)](/ref/sound/var.md) 
-> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
+> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 

@@ -1,11 +1,11 @@
 ## text-mode parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Map](/ref/skin/control/map.md) <!-- -->
++   [Map](/ref/skin/control/map.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

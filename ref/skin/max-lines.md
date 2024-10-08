@@ -1,9 +1,9 @@
 ## max-lines parameter (skin)
 **Applies to:**
-+   [Output](/ref/skin/control/output.md) <!-- -->
++   [Output](/ref/skin/control/output.md) 
 **Format:**
 +   number
-<!-- -->
+
 **Default value:**
 +   1000
 

@@ -2,10 +2,10 @@
 
 **Format:**
 +   Stat()
-<!-- -->
+
 **When:**
 +   Called periodically by the client to update the stat window.
-<!-- -->
+
 **Default action:**
 +   Call statobj.Stat().
 
@@ -59,4 +59,4 @@ Stat() has to do a lot of intensive calculations.
 > +   [statobj var (client)](/ref/client/var/statobj.md) 
 > +   [statpanel proc](/ref/proc/statpanel.md) 
 > +   [statpanel var (client)](/ref/client/var/statpanel.md) 
-> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) 

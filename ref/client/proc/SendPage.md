@@ -1,10 +1,10 @@
 # SendPage proc (client)
 **Format:**
 +   SendPage(msg,recipient,options)
-<!-- -->
+
 **Returns:**
 +   Returns number of recipients successfully contacted.
-<!-- -->
+
 **Args:**
 +   msg: text to send
 +   recipient: key or list of keys to page

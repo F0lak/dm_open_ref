@@ -1,11 +1,11 @@
 ## is-pane parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Main](/ref/skin/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

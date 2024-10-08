@@ -27,4 +27,4 @@ is an icon file.
 > +   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
 > +   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
 > +   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md) 
-> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) <!-- -->
+> +   [Reset proc (database query)](/ref/database/query/proc/Reset.md) 

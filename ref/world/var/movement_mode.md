@@ -1,6 +1,6 @@
 ## movement_mode var (world)
 
-<!-- -->
+
 **Possible values:**
 +   `LEGACY_MOVEMENT_MODE`: Old BYOND behavior regarding pixel movement
     and turf contents (see below)
@@ -8,7 +8,7 @@
 +   `PIXEL_MOVEMENT_MODE`: All movable atoms can use pixel movement
     unless otherwise specified (see below), but legacy behavior for turf
     contents is ignored
-<!-- -->
+
 **Default value:**
 +   LEGACY_MOVEMENT_MODE
 

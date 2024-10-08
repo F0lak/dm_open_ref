@@ -2,7 +2,7 @@
 
 **Format:**
 +   stat(Name,Value)
-<!-- -->
+
 **Args:**
 +   Name: the name of the stat line
 +   Value: the data to be displayed
@@ -40,4 +40,4 @@ mob.
 > +   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
 > +   [Stat proc (client)](/ref/client/proc/Stat.md) 
 > +   [statpanel proc](/ref/proc/statpanel.md) 
-> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) 

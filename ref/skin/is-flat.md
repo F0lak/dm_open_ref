@@ -1,11 +1,11 @@
 ## is-flat parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Button](/ref/skin/control/button.md) <!-- -->
++   [Button](/ref/skin/control/button.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

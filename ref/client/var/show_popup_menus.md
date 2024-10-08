@@ -20,4 +20,4 @@ right-clicks will instead be passed to the various mouse functions.
 > +   [MouseEntered proc (client)](/ref/client/proc/MouseEntered.md) 
 > +   [MouseExited proc (client)](/ref/client/proc/MouseExited.md) 
 > +   [MouseMove proc (client)](/ref/client/proc/MouseMove.md) 
-> +   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) <!-- -->
+> +   [MouseUp proc (client)](/ref/client/proc/MouseUp.md) 

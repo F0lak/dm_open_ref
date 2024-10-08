@@ -1,11 +1,11 @@
 ## text-wrap parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Label](/ref/skin/control/label.md) <!-- -->
++   [Label](/ref/skin/control/label.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

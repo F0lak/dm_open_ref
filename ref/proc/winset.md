@@ -1,9 +1,9 @@
 ## winset proc
 
-<!-- -->
+
 **Format:**
 +   winset(player, control_id, params)
-<!-- -->
+
 **Args:**
 +   player: A mob or client.
 +   control_id: The unique ID of a control in the player\'s skin.

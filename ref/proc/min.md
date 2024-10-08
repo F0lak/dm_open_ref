@@ -2,7 +2,7 @@
 
 **Format:**
 +   min(A,B,C,...)
-<!-- -->
+
 **Returns:**
 +   the minimum of the arguments.
 ### Example:
@@ -30,4 +30,4 @@ a new object, not one of the objects that was compared.
 > [!TIP] 
 > **See also:**
 > +   [max proc](/ref/proc/max.md) 
-> +   [clamp proc](/ref/proc/clamp.md) <!-- -->
+> +   [clamp proc](/ref/proc/clamp.md) 

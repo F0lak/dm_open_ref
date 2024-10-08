@@ -12,4 +12,4 @@ that can hear the center object.
 > **See also:**
 > +   [hearers](/ref/proc/hearers.md) 
 > +   [oview proc](/ref/proc/oview.md) 
-> +   [oviewers](/ref/proc/oviewers.md) <!-- -->
+> +   [oviewers](/ref/proc/oviewers.md) 

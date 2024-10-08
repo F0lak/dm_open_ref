@@ -1,13 +1,13 @@
 ## RenderIcon proc (client) 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Format:**
 +   RenderIcon(object)
-<!-- -->
+
 **Args:**
 +   object: An atom or appearance to render.
-<!-- -->
+
 **Returns:**
 +   A single-image icon file in which the object is rendered with all
     its overlays, visual contents, etc.

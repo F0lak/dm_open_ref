@@ -3,11 +3,11 @@
 **Format:**
 +   text2num(T)
 +   text2num(T, radix)
-<!-- -->
+
 **Args:**
 +   T: A text string.
 +   radix: The radix/base of the number, e.g. 16 for hexadecimal
-<!-- -->
+
 **Returns:**
 +   A number.
 
@@ -29,4 +29,4 @@ from 2 to 36.
 > [!TIP] 
 > **See also:**
 > +   [istext proc](/ref/proc/istext.md) 
-> +   [num2text proc](/ref/proc/num2text.md) <!-- -->
+> +   [num2text proc](/ref/proc/num2text.md) 

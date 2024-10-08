@@ -2,10 +2,10 @@
 
 **Format:**
 +   text2path(T)
-<!-- -->
+
 **Args:**
 +   T: A text string.
-<!-- -->
+
 **Returns:**
 +   a type path or null.
 ### Example:
@@ -21,4 +21,4 @@ string to the equivalent type path, or null if there is no such type.
 
 > [!TIP] 
 > **See also:**
-> +   [ispath proc](/ref/proc/ispath.md) <!-- -->
+> +   [ispath proc](/ref/proc/ispath.md) 

@@ -2,10 +2,10 @@
 
 **Format:**
 +   url_decode(UrlText)
-<!-- -->
+
 **Args:**
 +   UrlText: text to be "unescaped"
-<!-- -->
+
 **Returns:**
 +   unescaped text
 
@@ -22,4 +22,4 @@ The more useful function is `url_encode()` which does the reverse.
 > [!TIP] 
 > **See also:**
 > +   [Topic proc (client)](/ref/client/proc/Topic.md) 
-> +   [url_encode proc](/ref/proc/url_encode.md) <!-- -->
+> +   [url_encode proc](/ref/proc/url_encode.md) 

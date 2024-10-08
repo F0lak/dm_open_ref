@@ -18,4 +18,4 @@ this operation.
 > [!TIP] 
 > **See also:**
 > +   [%% operator](/ref/operator/%25%25.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

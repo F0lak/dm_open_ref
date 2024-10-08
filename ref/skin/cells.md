@@ -1,13 +1,13 @@
 ## cells parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Grid](/ref/skin/control/grid.md) 
-<!-- -->
+
 **Format:**
 +   *columns*,*rows*
 +   *items*
-<!-- -->
+
 **Default value:**
 +   0x0
 

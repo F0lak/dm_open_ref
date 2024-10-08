@@ -1,6 +1,6 @@
 ## version var (world)
 
-<!-- -->
+
 **Default value:**
 +   0
 

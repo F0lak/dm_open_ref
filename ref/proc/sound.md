@@ -1,10 +1,10 @@
 ## sound proc
 
-<!-- -->
+
 **Format:**
 +   sound(file,repeat=0,wait,channel,volume)
 +   [(supports named arguments)]{.small}
-<!-- -->
+
 **Args:**
 +   file: A sound file to play
 +   repeat: 1 to play sound repeatedly

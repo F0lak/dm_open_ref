@@ -8,7 +8,7 @@ This option is for direct execution of `.dmb` files in UNIX.
 The most common use is for writing CGI programs that are executed by the
 web server. 
 
-The first parameter in the `executor`{.variable}
+The first parameter in the `executor`
 text string is the path to DreamDaemon. The one listed above is the
 standard UNIX location. 
 
@@ -24,11 +24,11 @@ most common are -CGI and -logself.
 
 This example creates a CGI program to be
 executed by a web server. It puts its error output in the file
-`projname`{.variable}`.log`. 
+`projname``.log`. 
 
 All of this is configured for you
 when you include `html/CGI.dm` from the html library.
 
 > [!TIP] 
 > **See also:**
-> +   [startup proc](/ref/proc/startup.md) <!-- -->
+> +   [startup proc](/ref/proc/startup.md) 

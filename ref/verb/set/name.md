@@ -1,7 +1,7 @@
 # name setting (verb)
 **Format:**
 +   set name = "Name"
-<!-- -->
+
 **Args:**
 +   Name: A text string for the name.
 

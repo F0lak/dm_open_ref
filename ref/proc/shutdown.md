@@ -2,7 +2,7 @@
 
 **Format:**
 +   shutdown(Addr,Natural=0)
-<!-- -->
+
 **Args:**
 +   Addr: This is the address of the child world returned by startup().
 +   Natural: Specifies whether to wait for the child world to die
@@ -16,4 +16,4 @@ If no address is specified, the current world is shut down.
 > [!TIP] 
 > **See also:**
 > +   [Export proc (world)](/ref/world/proc/Export.md) 
-> +   [startup proc](/ref/proc/startup.md) <!-- -->
+> +   [startup proc](/ref/proc/startup.md) 

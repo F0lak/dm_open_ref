@@ -2,10 +2,10 @@
 
 **Format:**
 +   SetScores(key, fields)
-<!-- -->
+
 **Returns:**
 +   The key, if the scores were successfully updated; null otherwise.
-<!-- -->
+
 **Args:**
 +   key: the name of the player, character, etc. for which scores should
     be set
@@ -53,4 +53,4 @@ be downloaded by the public.
 > +   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
 > +   [GetMedal proc (world)](/ref/world/proc/GetMedal.md) 
 > +   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
-> +   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) <!-- -->
+> +   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) 

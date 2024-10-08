@@ -2,7 +2,7 @@
 
 **Format:**
 +   winshow(player, window, show=1)
-<!-- -->
+
 **Args:**
 +   player: A mob or client.
 +   window: The name of a window in the player\'s skin.
@@ -18,4 +18,4 @@ shortcut, equivalent to setting `is-visible` via `winset()`.
 > +   [winget proc](/ref/proc/winget.md) 
 > +   [winset proc](/ref/proc/winset.md) 
 > +   [User interface skins](/ref/skin.md) 
-> +   [is-visible parameter (skin)](/ref/skin/param/is-visible.md) <!-- -->
+> +   [is-visible parameter (skin)](/ref/skin/param/is-visible.md) 

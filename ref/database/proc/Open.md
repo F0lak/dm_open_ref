@@ -15,4 +15,4 @@ in New().
 > **See also:**
 > +   [database datum](/ref/database.md) 
 > +   [Close proc (database)](/ref/database/proc/Close.md) 
-> +   [New proc (database)](/ref/database/proc/New.md) <!-- -->
+> +   [New proc (database)](/ref/database/proc/New.md) 

@@ -1,19 +1,19 @@
 ## Click proc (client)
 
-<!-- -->
+
 **Format:**
 +   Click(object,location,control,params)
-<!-- -->
+
 **When:**
 +   Called when the player clicks on the map or in the stat panels.
-<!-- -->
+
 **Args:**
 +   object: the object clicked
 +   location: the client stat panel, location (turf) of object on map,
     grid cell, or other control-specific info
 +   control: the name of the skin control involved
 +   params: other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) 
 **Default action:**
 +   Call object.Click(location,control,params).
 

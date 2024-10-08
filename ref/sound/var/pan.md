@@ -13,4 +13,4 @@ For music, `pan` can range from -100
 
 > [!TIP] 
 > **See also:**
-> +   [vars (sound)](/ref/sound/var.md) <!-- -->
+> +   [vars (sound)](/ref/sound/var.md) 

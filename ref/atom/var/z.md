@@ -30,4 +30,4 @@ order) that is contained by the area.
 > [!TIP] 
 > **See also:**
 > +   [layer var (atom)](/ref/atom/var/layer.md) 
-> +   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->
+> +   [loc var (atom)](/ref/atom/var/loc.md) 

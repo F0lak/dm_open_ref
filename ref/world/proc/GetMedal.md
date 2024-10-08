@@ -2,13 +2,13 @@
 
 **Format:**
 +   GetMedal(medal, player)
-<!-- -->
+
 **Returns:**
 +   1 if the medal has been earned by the player
 +   0 if the medal has not been earned
 +   A list of medals in list2params() format if checking all medals
 +   null if the hub cannot be contacted
-<!-- -->
+
 **Args:**
 +   medal: name of the medal being checked
 +   player: a mob, client, key, or ckey
@@ -55,4 +55,4 @@ at a medal for a different hub entry.
 > +   [SetMedal proc (world)](/ref/world/proc/SetMedal.md) 
 > +   [ClearMedal proc (world)](/ref/world/proc/ClearMedal.md) 
 > +   [GetScores proc (world)](/ref/world/proc/GetScores.md) 
-> +   [SetScores proc (world)](/ref/world/proc/SetScores.md) <!-- -->
+> +   [SetScores proc (world)](/ref/world/proc/SetScores.md) 

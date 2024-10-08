@@ -1,13 +1,13 @@
 ## splicetext proc 
 ###### BYOND Version 514
 
-<!-- -->
+
 **Format:**
 +   splicetext(Text,Start=1,End=0,Insert="")
-<!-- -->
+
 **Returns:**
 +   Spliced text
-<!-- -->
+
 **Args:**
 +   Text: The text string to splice.
 +   Start: The text byte position in Text where the splice will begin.

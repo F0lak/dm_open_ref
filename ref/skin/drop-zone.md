@@ -1,12 +1,12 @@
 ## drop-zone parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   `true` for [Grid](/ref/skin/control/grid.md) ,
     [Info](/ref/skin/control/info.md) , [Map](/ref/skin/control/map.md) 

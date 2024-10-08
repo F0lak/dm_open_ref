@@ -2,10 +2,10 @@
 
 **Format:**
 +   sorttextEx(T1,T2,...)
-<!-- -->
+
 **Args:**
 +   Any number of text strings to sort.
-<!-- -->
+
 **Returns:**
 +   1 if text is ascending
 +   -1 if text is descending
@@ -36,4 +36,4 @@ still compile.
 > **See also:**
 > +   [> operator](/ref/operator/%3e.md) 
 > +   [< operator](/ref/operator/%3c.md) 
-> +   [sorttext proc](/ref/proc/sorttext.md) <!-- -->
+> +   [sorttext proc](/ref/proc/sorttext.md) 

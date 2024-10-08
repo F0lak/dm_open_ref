@@ -1,10 +1,10 @@
 ## appearance_flags var (atom) 
 ###### BYOND Version 509
 
-<!-- -->
+
 **Default value:**
 +   0
-<!-- -->
+
 **Possible values:**
 
 Any combination of:

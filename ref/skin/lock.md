@@ -1,13 +1,13 @@
 ## lock parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Child](/ref/skin/control/child.md) <!-- -->
++   [Child](/ref/skin/control/child.md) 
 **Possible values:**
 +   left
 +   right
 +   none
-<!-- -->
+
 **Default value:**
 +   none
 

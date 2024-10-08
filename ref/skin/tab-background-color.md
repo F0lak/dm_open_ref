@@ -1,14 +1,14 @@
 ## tab-background-color parameter (skin)
 
     parameters](/ref/skin/param/tab-font.md) 
-<!-- -->
+
 **Applies to:**
 +   [Info](/ref/skin/control/info.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) 
 +   none
-<!-- -->
+
 **Default value:**
 +   none
 

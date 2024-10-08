@@ -9,10 +9,10 @@
 +   pixloc(Pixloc)
 +   pixloc(Pixloc, x, y)
 +   pixloc(Pixloc, Vector)
-<!-- -->
+
 **Returns:**
 +   A new `pixloc` object or null.
-<!-- -->
+
 **Args:**
 +   x, y, z: Pixel coordinates in world space (starting at 1,1,1). When
     the first argument is an atom or pixloc, x and y are offsets.
@@ -49,4 +49,4 @@ world_y = (tile_y - 1) * pixels_per_y_tile + step_y + 1
 > **See also:**
 > +   [pixloc](/ref/pixloc.md) 
 > +   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-> +   [bound_pixloc proc](/ref/proc/bound_pixloc.md) <!-- -->
+> +   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 

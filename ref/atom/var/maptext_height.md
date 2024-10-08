@@ -18,4 +18,4 @@ the default will be the icon width instead.)
 > +   [maptext_x var (atom)](/ref/atom/var/maptext_x.md) 
 > +   [maptext_y var (atom)](/ref/atom/var/maptext_y.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
-> +   [map_format var (world)](/ref/world/var/map_format.md) <!-- -->
+> +   [map_format var (world)](/ref/world/var/map_format.md) 

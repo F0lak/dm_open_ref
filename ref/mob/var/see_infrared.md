@@ -12,4 +12,4 @@ infrared objects in the dark.
 > +   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
 > +   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
 > +   [sight var (mob)](/ref/mob/var/sight.md) 
-> +   [view proc](/ref/proc/view.md) <!-- -->
+> +   [view proc](/ref/proc/view.md) 

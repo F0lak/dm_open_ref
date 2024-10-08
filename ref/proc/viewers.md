@@ -12,4 +12,4 @@ center object.
 > **See also:**
 > +   [hearers](/ref/proc/hearers.md) 
 > +   [oviewers](/ref/proc/oviewers.md) 
-> +   [view proc](/ref/proc/view.md) <!-- -->
+> +   [view proc](/ref/proc/view.md) 

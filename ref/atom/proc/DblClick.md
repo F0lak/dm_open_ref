@@ -1,12 +1,12 @@
 ## DblClick proc (atom)
 
-<!-- -->
+
 **Format:**
 +   DblClick(location,control,params)
-<!-- -->
+
 **When:**
 +   Called when the object is double-clicked.
-<!-- -->
+
 **Args:**
 +   location: the turf, stat panel, grid cell, etc. in which the object
     was double-clicked

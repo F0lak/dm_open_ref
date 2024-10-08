@@ -31,4 +31,4 @@ value that was set.
 > [!TIP] 
 > **See also:**
 > +   [hub var (world)](/ref/world/var/hub.md) 
-> +   [visibility var (world)](/ref/world/var/visibility.md) <!-- -->
+> +   [visibility var (world)](/ref/world/var/visibility.md) 

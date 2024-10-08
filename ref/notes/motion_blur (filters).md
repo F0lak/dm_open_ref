@@ -1,10 +1,10 @@
 ## Motion blur filter 
 ###### BYOND Version 512
 
-<!-- -->
+
 Format:
 +   filter(type="motion_blur", ...)
-<!-- -->
+
 Args:
 +   x: Blur vector on the X axis (defaults to 0)
 +   y: Blur vector on the Y axis (defaults to 0)

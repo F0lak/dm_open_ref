@@ -1,7 +1,7 @@
 ## matrix operators 
 ###### BYOND Version 500
 
-<!-- -->
+
 **See also:**
 +   [+ operator](/ref/operator/+.md) 
 +   [+= operator](/ref/operator/+=.md) 

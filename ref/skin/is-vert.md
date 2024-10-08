@@ -1,11 +1,11 @@
 ## is-vert parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Child](/ref/skin/control/child.md) <!-- -->
++   [Child](/ref/skin/control/child.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

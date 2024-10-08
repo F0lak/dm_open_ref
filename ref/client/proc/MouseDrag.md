@@ -1,9 +1,9 @@
 ## MouseDrag proc (client)
 
-<!-- -->
+
 **Format:**
 +   MouseDrag(src_object, over_object, src_location, over_location, src_control, over_control, params)
-<!-- -->
+
 **Args:**
 +   src_object: the object being dragged
 +   over_object: the object under the mouse pointer
@@ -15,7 +15,7 @@
 +   over_control: The id of the skin control the object was dragged over
 +   params: other parameters including mouse/keyboard flags, icon
     offsets, etc.; see [mouse handling](/ref/DM/mouse.md)
-    <!-- -->
+    
 **Default action:**
 +   Call `object.MouseDrag(over_object, src_location, over_location, src_control, over_control, params)`.
 

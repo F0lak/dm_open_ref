@@ -15,4 +15,4 @@ neighboring position; and so on.
 > +   [luminosity var (atom)](/ref/atom/var/luminosity.md) 
 > +   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
 > +   [sight var (mob)](/ref/mob/var/sight.md) 
-> +   [view proc](/ref/proc/view.md) <!-- -->
+> +   [view proc](/ref/proc/view.md) 

@@ -1,7 +1,7 @@
 ## icon proc
 
 **Format:**
-+   icon(icon,state,dir,frame,moving) (supports [named arguments](/ref/proc/arguments/named.md))
++   icon(icon, state, dir, frame, moving) (supports [named arguments](/ref/proc/arguments/named.md))
 
 **Args:**
 +   icon: an icon file or /icon object

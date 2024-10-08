@@ -1,13 +1,13 @@
 ## letterbox parameter (skin) 
 ###### BYOND Version 500
 
-<!-- -->
+
 **Applies to:**
 +   [Map](/ref/skin/control/map.md) 
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   true
 

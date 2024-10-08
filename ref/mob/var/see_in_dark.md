@@ -13,4 +13,4 @@ location; 2 illuminates the immediate surrounds; and so on.
 > +   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
 > +   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
 > +   [sight var (mob)](/ref/mob/var/sight.md) 
-> +   [view proc](/ref/proc/view.md) <!-- -->
+> +   [view proc](/ref/proc/view.md) 

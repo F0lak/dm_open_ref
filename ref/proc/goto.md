@@ -30,4 +30,4 @@ This displays "The end".
 > +   [do proc](/ref/proc/do.md) 
 > +   [for loop proc](/ref/proc/for/loop.md) 
 > +   [for list proc](/ref/proc/for/list.md) 
-> +   [while proc](/ref/proc/while.md) <!-- -->
+> +   [while proc](/ref/proc/while.md) 

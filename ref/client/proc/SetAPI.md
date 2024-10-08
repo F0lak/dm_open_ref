@@ -3,7 +3,7 @@
 
 **Format:**
 +   SetAPI(Api, Key, Value)
-<!-- -->
+
 **Args:**
 +   Api: the name of the API (e.g. "steam")
 +   Key: the name of the value to change
@@ -30,4 +30,4 @@ call or its results are invalid.
 > [!TIP] 
 > **See also:**
 > +   [GetAPI proc (client)](/ref/client/proc/GetAPI.md) 
-> +   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) <!-- -->
+> +   [CheckPassport proc (client)](/ref/client/proc/CheckPassport.md) 

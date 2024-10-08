@@ -26,4 +26,4 @@ recognize what you type:
 > [!TIP] 
 > **See also:**
 > +   [macros (text)](/ref/DM/text/macros.md) 
-> +   [name var (atom)](/ref/atom/var/name.md) <!-- -->
+> +   [name var (atom)](/ref/atom/var/name.md) 

@@ -3,10 +3,10 @@
 **Format:**
 +   Profile(command, format)
 +   Profile(command, type, format)
-<!-- -->
+
 **Returns:**
 +   Profilng data or null
-<!-- -->
+
 **Args:**
 +   command: A numerical value that says whether to start, stop,
     refresh, etc.

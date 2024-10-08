@@ -2,7 +2,7 @@
 
 **Format:**
 +   A \| B
-<!-- -->
+
 **Returns:**
 +   The binary "or" of A and B.
 
@@ -24,4 +24,4 @@ where both icons were transparent.
 > **See also:**
 > +   [& operator](/ref/operator/&.md) 
 > +   [operators](/ref/operator.md) 
-> +   [\|= operator](/ref/operator/%7C=.md) <!-- -->
+> +   [\|= operator](/ref/operator/%7C=.md) 

@@ -39,4 +39,4 @@ events such as `MouseDown` or `Click`.
 > +   [pixel_x var (atom)](/ref/atom/var/pixel_x.md) 
 > +   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
 > +   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
-> +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) <!-- -->
+> +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 

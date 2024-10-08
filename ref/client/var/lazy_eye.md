@@ -36,4 +36,4 @@ make one dimension lazy and the other one strictly centered: "0x5".
 > [!TIP] 
 > **See also:**
 > +   [view var (client)](/ref/client/var/view.md) 
-> +   [view var (world)](/ref/world/var/view.md) <!-- -->
+> +   [view var (world)](/ref/world/var/view.md) 

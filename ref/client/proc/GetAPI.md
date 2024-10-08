@@ -1,10 +1,10 @@
 ## GetAPI proc (client) 
 ###### BYOND Version 514
 
-<!-- -->
+
 **Format:**
 +   GetAPI(Api, Name)
-<!-- -->
+
 **Args:**
 +   Api: the name of the API (e.g. "steam")
 +   Key: the name of the value to read

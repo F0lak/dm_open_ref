@@ -1,11 +1,11 @@
 ## right-click parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [All](/ref/skin/control.md) <!-- -->
++   [All](/ref/skin/control.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

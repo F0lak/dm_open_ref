@@ -18,4 +18,4 @@ is contained by the area.
 
 > [!TIP] 
 > **See also:**
-> +   [loc var (atom)](/ref/atom/var/loc.md) <!-- -->
+> +   [loc var (atom)](/ref/atom/var/loc.md) 

@@ -1,13 +1,13 @@
 ## is-fullscreen parameter (skin) 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Applies to:**
 +   [Main](/ref/skin/control/main.md) (window only)
-<!-- -->
+
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

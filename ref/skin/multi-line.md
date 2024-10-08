@@ -2,10 +2,10 @@
 **Applies to:**
 +   [Info](/ref/skin/control/info.md) 
 +   [Input](/ref/skin/control/input.md) 
-+   [Tab](/ref/skin/control/tab.md) <!-- -->
++   [Tab](/ref/skin/control/tab.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   `false`: Input control
 +   `true`: Info and Tab controls

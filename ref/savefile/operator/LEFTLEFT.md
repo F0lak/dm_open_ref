@@ -34,4 +34,4 @@ when objects contain references back to themselves.
 > **See also:**
 > +   [>> operator (savefile)](/ref/savefile/operator/%3e%3e.md) 
 > +   [<< output operator](/ref/operator/%3c%3c/output.md) 
-> +   [Write proc (datum)](/ref/datum/proc/Write.md) <!-- -->
+> +   [Write proc (datum)](/ref/datum/proc/Write.md) 

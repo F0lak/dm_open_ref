@@ -29,4 +29,4 @@ view() range calculations.
 > +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
 > +   [map_format var (world)](/ref/world/var/map_format.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

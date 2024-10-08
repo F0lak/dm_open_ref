@@ -1,9 +1,9 @@
 ## Import proc (client)
 
-<!-- -->
+
 **Format:**
 +   client.Import(Query)
-<!-- -->
+
 **Args:**
 +   Query: optional query parameters
 

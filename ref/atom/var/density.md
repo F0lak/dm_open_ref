@@ -12,4 +12,4 @@ objects may not occupy the same space in the standard movement system.
 > +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
 > +   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
 > +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-> +   [Exited proc (atom)](/ref/atom/proc/Exited.md) <!-- -->
+> +   [Exited proc (atom)](/ref/atom/proc/Exited.md) 

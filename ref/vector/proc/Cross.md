@@ -3,7 +3,7 @@
 
 **Format:**
 +   A.Cross(vector/B)
-<!-- -->
+
 **Returns:**
 +   The cross product of the two vectors, which is another vector.
 
@@ -22,4 +22,4 @@ the two vectors. If you switch their order, you get the negative result.
 > **See also:**
 > +   [vector](/ref/vector.md) 
 > +   [vector proc](/ref/proc/vector.md) 
-> +   [vars (vector)](/ref/vector/var.md) <!-- -->
+> +   [vars (vector)](/ref/vector/var.md) 

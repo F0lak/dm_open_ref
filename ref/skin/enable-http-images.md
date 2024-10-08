@@ -1,12 +1,12 @@
 ## enable-http-images parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Grid](/ref/skin/control/grid.md) 
-+   [Output](/ref/skin/control/output.md) <!-- -->
++   [Output](/ref/skin/control/output.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

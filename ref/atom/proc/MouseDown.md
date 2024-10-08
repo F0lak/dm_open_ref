@@ -1,9 +1,9 @@
 ## MouseDown proc (atom)
 
-<!-- -->
+
 **Format:**
 +   MouseDown(location,control,params)
-<!-- -->
+
 **Args:**
 +   location: the turf, stat panel, grid cell, etc. in which the object
     was clicked

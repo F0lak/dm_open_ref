@@ -1,9 +1,9 @@
 ## dir parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Bar](/ref/skin/control/bar.md) 
-<!-- -->
+
 **Possible values:**
 +   north
 +   south
@@ -11,7 +11,7 @@
 +   west
 +   clockwise
 +   counterclockwise
-<!-- -->
+
 **Default value:**
 +   east
 

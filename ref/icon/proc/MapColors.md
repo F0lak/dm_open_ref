@@ -9,7 +9,7 @@
     ab, aa, r0=0, g0=0, b0=0, a0=0)\
     *or*\
     MapColors(r_rgba, g_rgba, b_rgba, a_rgba, rgba0)
-<!-- -->
+
 **Args:**
 +   rr: portion of old red component -> new red component
 +   rg: portion of old red component -> new green component
@@ -81,4 +81,4 @@ alpha colors.
 > **See also:**
 > +   [icon](/ref/icon.md) 
 > +   [procs (icon)](/ref/icon/proc.md) 
-> +   [rgb proc](/ref/proc/rgb.md) <!-- -->
+> +   [rgb proc](/ref/proc/rgb.md) 

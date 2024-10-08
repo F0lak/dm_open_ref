@@ -26,4 +26,4 @@ before reaching the final position.
 > +   [fps var (world)](/ref/world/var/fps.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
 > +   [Gliding](/ref/notes/gliding.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

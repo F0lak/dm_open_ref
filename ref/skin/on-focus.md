@@ -1,9 +1,9 @@
 ## on-focus parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Input](/ref/skin/control/input.md) 
-<!-- -->
+
 **Format:**
 +   string
 

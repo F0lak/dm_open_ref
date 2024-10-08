@@ -1,12 +1,12 @@
 ## command parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Button](/ref/skin/control/button.md) 
 +   [Input](/ref/skin/control/input.md) 
 +   [Macro](/ref/skin/control/macro.md) 
 +   [Menu](/ref/skin/control/menu.md) 
-<!-- -->
+
 **Format:**
 +   string
 

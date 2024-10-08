@@ -1,11 +1,11 @@
 ## is-slider parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Bar](/ref/skin/control/bar.md) <!-- -->
++   [Bar](/ref/skin/control/bar.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

@@ -1,13 +1,13 @@
 ## trimtext proc 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Format:**
 +   trimtext(Text)
-<!-- -->
+
 **Returns:**
 +   Text with whitespace trimmed from both ends
-<!-- -->
+
 **Args:**
 +   Text: The text string to trim.
 

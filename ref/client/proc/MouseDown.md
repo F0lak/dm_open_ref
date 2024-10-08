@@ -1,16 +1,16 @@
 ## MouseDown proc (client)
 
-<!-- -->
+
 **Format:**
 +   MouseDown(object,location,control,params)
-<!-- -->
+
 **Args:**
 +   object: the object under the mouse pointer
 +   location: the turf, stat panel, grid cell, etc. containing the
     object where it was clicked
 +   control: the name of the skin control involved
 +   params: other parameters including mouse/keyboard flags, icon
-    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) <!-- -->
+    offsets, etc.; see [mouse handling](/ref/DM/mouse.md) 
 **Default action:**
 +   Call object.MouseDown(location,control,params).
 
@@ -18,7 +18,7 @@
 This is called when the a mouse button is pressed while
 pointing to the object. Note that MouseUp() will always be called after
 MouseDown() is called, even if over empty space. That means
-`object`{.variable} and `location`{.variable} may be null.
+`object` and `location` may be null.
 
 
 > [!IMPORTANT]

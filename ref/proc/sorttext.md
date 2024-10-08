@@ -2,10 +2,10 @@
 
 **Format:**
 +   sorttext(T1,T2,...)
-<!-- -->
+
 **Args:**
 +   Any number of text strings to sort.
-<!-- -->
+
 **Returns:**
 +   1 if text is ascending
 +   -1 if text is descending
@@ -30,4 +30,4 @@ comes before "B" in the alphabet.
 > **See also:**
 > +   [> operator](/ref/operator/%3e.md) 
 > +   [< operator](/ref/operator/%3c.md) 
-> +   [sorttextEx proc](/ref/proc/sorttextEx.md) <!-- -->
+> +   [sorttextEx proc](/ref/proc/sorttextEx.md) 

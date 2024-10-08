@@ -1,11 +1,11 @@
 ## cell-span parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Grid](/ref/skin/control/grid.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) 
 **Format:**
 +   *columns*,*rows*
-<!-- -->
+
 **Default value:**
 +   1x1
 

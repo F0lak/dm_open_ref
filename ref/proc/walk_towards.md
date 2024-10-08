@@ -2,7 +2,7 @@
 
 **Format:**
 +   walk_towards(Ref,Trg,Lag=0,Speed=0)
-<!-- -->
+
 **Args:**
 +   Ref: A mob or obj.
 +   Trg: An object on the map.
@@ -24,4 +24,4 @@ but continues to process in the background.
 > **See also:**
 > +   [get_step_towards proc](/ref/proc/get_step_towards.md) 
 > +   [step_towards proc](/ref/proc/step_towards.md) 
-> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 

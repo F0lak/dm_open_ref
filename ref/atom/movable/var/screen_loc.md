@@ -28,7 +28,7 @@ screen_loc value.
 The edges of the map may also be referenced by using
 directions, such as `"3,NORTH"`. For convenience, the order of
 coordinates is arbitrary when using directions, so one may specify
-`y`{.variable} before `x`{.variable} as in `"NORTH,WEST"`. In
+`y` before `x` as in `"NORTH,WEST"`. In
 expressions such as the latter, you may also leave out the comma. Icon
 size is not taken into account, so a big icon with a screen_loc of
 `"SOUTHEAST"` will extend further to the right and may create a border

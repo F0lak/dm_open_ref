@@ -1,11 +1,11 @@
 ## spawn proc
 
-<!-- -->
+
 **Format:**
 +   spawn(Delay=0) Statement
 +   spawn(Delay=0)\
     Statement
-<!-- -->
+
 **Args:**
 +   Delay: The amount of time (in 1/10 seconds) before Statement is
     executed.

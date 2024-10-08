@@ -1,13 +1,13 @@
 ## icon-size parameter (skin) 
 ###### BYOND Version ize parameter (skin) {#icon-size-parameter-skin deprecated="1
 
-<!-- -->
+
 **Applies to:**
 +   [Map](/ref/skin/control/map.md) 
-<!-- -->
+
 **Format:**
 +   number
-<!-- -->
+
 **Default value:**
 +   0
 

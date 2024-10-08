@@ -2,10 +2,10 @@
 
 **Format:**
 +   Lock(timeout)
-<!-- -->
+
 **Args:**
 +   timeout: seconds to wait; -1 for no timeout
-<!-- -->
+
 **Returns:**
 +   1 on success; 0 on failure
 
@@ -40,4 +40,4 @@ due to the file being locked by another process.
 > [!TIP] 
 > **See also:**
 > +   [New proc (savefile)](/ref/savefile/proc/New.md) 
-> +   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) <!-- -->
+> +   [Unlock proc (savefile)](/ref/savefile/proc/Unlock.md) 

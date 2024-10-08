@@ -1,14 +1,14 @@
 ## anchor1, anchor2 parameters (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md)  (except
     [Main](/ref/skin/control/main.md) 
-<!-- -->
+
 **Format:**
 +   none
 +   *x*,*y*
-<!-- -->
+
 **Default value:**
 +   none
 

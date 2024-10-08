@@ -2,7 +2,7 @@
 
 **Format:**
 +   A / B
-<!-- -->
+
 **Returns:**
 +   A divided by B.
 
@@ -29,4 +29,4 @@ types of values being multiplied, mostly on A.
 > +   [- operator](/ref/operator/-.md) 
 > +   [/ path operator](/ref/operator/path//.md) 
 > +   [/= operator](/ref/operator//=.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

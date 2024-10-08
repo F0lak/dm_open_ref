@@ -1,9 +1,9 @@
 ## current-tab parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Tab](/ref/skin/control/tab.md) 
-<!-- -->
+
 **Format:**
 +   string
 

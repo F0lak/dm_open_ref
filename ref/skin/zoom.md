@@ -1,11 +1,11 @@
 ## zoom parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Map](/ref/skin/control/map.md) <!-- -->
++   [Map](/ref/skin/control/map.md) 
 **Format:**
 +   number
-<!-- -->
+
 **Default value:**
 +   0
 

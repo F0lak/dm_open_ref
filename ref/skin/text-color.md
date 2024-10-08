@@ -1,9 +1,9 @@
 ## text-color parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   [#rrggbb](/ref/appendix/html-colors.md) :   none
 

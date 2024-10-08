@@ -25,4 +25,4 @@ topdown-view map format.
 > +   [map_format var (world)](/ref/world/var/map_format.md) 
 > +   [step_size var (movable atoms)](/ref/atom/movable/var/step_size.md) 
 > +   [Gliding](/ref/notes/gliding.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

@@ -2,13 +2,13 @@
 
 **Format:**
 +   time2text(timestamp,format,timezone)
-<!-- -->
+
 **Args:**
 +   timestamp: a time value as obtained from world.realtime or
     world.timeofday
 +   format: a text string describing the output format.
 +   timezone: optional offset, in hours, from UTC
-<!-- -->
+
 **Returns:**
 +   a text string containing the date and time in the specified format.
 
@@ -58,4 +58,4 @@ right time and date.
 > +   [realtime var (world)](/ref/world/var/realtime.md) 
 > +   [timeofday var (world)](/ref/world/var/timeofday.md) 
 > +   [timezone var (world)](/ref/world/var/timezone.md) 
-> +   [timezone var (client)](/ref/client/var/timezone.md) <!-- -->
+> +   [timezone var (client)](/ref/client/var/timezone.md) 

@@ -32,4 +32,4 @@ make the client tick at a different (usually faster) rate.
 > +   [fps var (world)](/ref/world/var/fps.md) 
 > +   [tick_lag var (client)](/ref/client/var/tick_lag.md) 
 > +   [tick_usage var (world)](/ref/world/var/tick_usage.md) 
-> +   [sleep proc](/ref/proc/sleep.md) <!-- -->
+> +   [sleep proc](/ref/proc/sleep.md) 

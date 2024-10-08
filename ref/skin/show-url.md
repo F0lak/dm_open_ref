@@ -1,11 +1,11 @@
 ## show-url parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Browser](/ref/skin/control/browser.md) <!-- -->
++   [Browser](/ref/skin/control/browser.md) 
 **Format:**
 +   true/false
-<!-- -->
+
 **Default value:**
 +   false
 

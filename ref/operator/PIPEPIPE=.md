@@ -3,7 +3,7 @@
 
 **Format:**
 +   A \|\|= B
-<!-- -->
+
 **Returns:**
 +   Value of `(A || B)` after it has been assigned to A. This expression
     can stand by itself; its result does not need to be assigned to
@@ -26,4 +26,4 @@ This operator cannot be overloaded.
 > +   [\|\| operator](/ref/operator/%7C%7C.md) 
 > +   [&& operator](/ref/operator/&&.md) 
 > +   [&&= operator](/ref/operator/&&=.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

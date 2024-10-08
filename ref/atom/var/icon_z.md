@@ -1,7 +1,7 @@
 ## icon_z var (atom) 
 ###### BYOND Version 516
 
-<!-- -->
+
 **Default value:**
 +   0
 

@@ -5,4 +5,4 @@
 
 > [!TIP] 
 > **See also:**
-> +   [gender var (atom)](/ref/atom/var/gender.md) <!-- -->
+> +   [gender var (atom)](/ref/atom/var/gender.md) 

@@ -1,6 +1,6 @@
 ## contents list var (atom)
 
-<!-- -->
+
 **Default value:**
 +   List of contained objects.
 

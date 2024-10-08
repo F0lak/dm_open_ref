@@ -1,9 +1,9 @@
 ## ImportText proc (savefile)
 
-<!-- -->
+
 **Format:**
 +   savefile.ImportText(path=cd,source)
-<!-- -->
+
 **Args:**
 +   path: the path at which to write the imported data
 +   source: a file or text string to import

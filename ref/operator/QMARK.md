@@ -9,4 +9,4 @@ Otherwise, it evaluates and returns FalseExpr.
 
 > [!TIP] 
 > **See also:**
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

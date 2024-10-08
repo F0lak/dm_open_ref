@@ -2,10 +2,10 @@
 
 **Format:**
 +   set instant = Setting
-<!-- -->
+
 **Args:**
 +   Setting: 1 for "instant" verbs; 0 otherwise.
-<!-- -->
+
 **Default value:**
 +   0
 
@@ -35,4 +35,4 @@ usr.Move(get_step(usr,NORTH), NORTH)
 
 > [!TIP] 
 > **See also:**
-> +   [settings (verb)](/ref/verb/set.md) <!-- -->
+> +   [settings (verb)](/ref/verb/set.md) 

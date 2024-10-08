@@ -23,4 +23,4 @@ each parameter.
 > **See also:**
 > +   [list associations](/ref/list/associations.md) 
 > +   [params2list proc](/ref/proc/params2list.md) 
-> +   [startup proc](/ref/proc/startup.md) <!-- -->
+> +   [startup proc](/ref/proc/startup.md) 

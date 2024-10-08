@@ -1,15 +1,15 @@
 ## can-scroll parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Main](/ref/skin/control/main.md) (pane only)
-<!-- -->
+
 **Possible values:**
 +   none
 +   horizontal
 +   vertical
 +   both
-<!-- -->
+
 **Default value:**
 +   none
 

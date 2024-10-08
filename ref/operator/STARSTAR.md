@@ -2,7 +2,7 @@
 
 **Format:**
 +   A ** B
-<!-- -->
+
 **Returns:**
 +   A to the power of B.
 ### Example:
@@ -15,4 +15,4 @@
 > [!TIP] 
 > **See also:**
 > +   [log proc](/ref/proc/log.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

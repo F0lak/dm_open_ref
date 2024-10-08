@@ -1,9 +1,9 @@
 ## hidden setting (verb)
 
-<!-- -->
+
 **Format:**
 +   set hidden = Setting
-<!-- -->
+
 **Args:**
 +   Setting: 1 for hidden verbs; 0 otherwise.
 

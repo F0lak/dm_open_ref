@@ -1,7 +1,7 @@
 ## vis_contents var (atom) 
 ###### BYOND Version 512
 
-<!-- -->
+
 **Default value:**
 +   Empty list.
 

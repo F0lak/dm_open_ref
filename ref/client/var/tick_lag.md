@@ -20,4 +20,4 @@ rate.
 > **See also:**
 > +   [tick_lag var (world)](/ref/world/var/tick_lag.md) 
 > +   [fps var (client)](/ref/client/var/fps.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

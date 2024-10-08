@@ -1,19 +1,19 @@
 ## Cross proc (atom) 
 ###### BYOND Version 490
 
-<!-- -->
+
 **Format:**
 +   Cross(atom/movable/O)
-<!-- -->
+
 **Returns:**
 +   1 to permit; 0 to deny.
-<!-- -->
+
 **When:**
 +   Called when another object attempts to overlap this one.
-<!-- -->
+
 **Args:**
 +   O: the object attempting to overlap.
-<!-- -->
+
 **Default action:**
 +   Allow overlap unless both atoms are dense. If both atoms are mobs,
     the behavior depends partly on whether they are in the same group.

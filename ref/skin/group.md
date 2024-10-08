@@ -1,9 +1,9 @@
 ## group parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Button](/ref/skin/control/button.md) 
-+   [Menu](/ref/skin/control/menu.md) <!-- -->
++   [Menu](/ref/skin/control/menu.md) 
 **Format:**
 +   string
 

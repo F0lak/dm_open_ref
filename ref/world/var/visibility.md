@@ -13,4 +13,4 @@ that in turn relies on the pager being turned on.
 > [!TIP] 
 > **See also:**
 > +   [OpenPort proc (world)](/ref/world/proc/OpenPort.md) 
-> +   [hub var (world)](/ref/world/var/hub.md) <!-- -->
+> +   [hub var (world)](/ref/world/var/hub.md) 

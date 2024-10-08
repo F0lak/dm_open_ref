@@ -8,7 +8,7 @@
 +   [macros (client script)](/ref/client/var/script/macro.md) 
 +   [macros (skin)](/ref/skin/macros.md) 
 +   [style sheets](/ref/DM/text/style.md) 
-+   [style sheets (in scripts)](/ref/client/var/script/style.md) <!-- -->
++   [style sheets (in scripts)](/ref/client/var/script/style.md) 
 **Default value:**
 +   none
 

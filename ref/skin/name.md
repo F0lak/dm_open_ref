@@ -1,9 +1,9 @@
 ## name parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Macro](/ref/skin/control/macro.md) 
-+   [Menu](/ref/skin/control/menu.md) <!-- -->
++   [Menu](/ref/skin/control/menu.md) 
 **Format:**
 +   string
 

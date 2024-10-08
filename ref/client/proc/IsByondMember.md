@@ -1,7 +1,7 @@
 # IsByondMember proc (client)
 **Format:**
 +   IsByondMember()
-<!-- -->
+
 **Args:**
 +   None.
 

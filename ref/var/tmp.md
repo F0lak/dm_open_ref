@@ -11,7 +11,7 @@ routine.
 
 It is especially important to use tmp when you have
 references to external objects that should not be saved along with the
-object. For example, suppose players have a `leader`{.variable} variable
+object. For example, suppose players have a `leader` variable
 which indicates who or what they are following. You would not
 necessarily want the leader to be saved in the player\'s savefile.
 Therefore, you would need to use `tmp` when defining the variable.

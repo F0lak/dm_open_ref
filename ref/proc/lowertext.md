@@ -2,13 +2,12 @@
 
 **Format:**
 +   lowertext(T)
-<!-- -->
+
 **Returns:**
 +   A lowercase text string.
-<!-- -->
+
 **Args:**
 +   T: A text string.
-
 
 Make all of the characters of T lowercase.
 ### Example:
@@ -17,7 +16,6 @@ Make all of the characters of T lowercase.
  L = lowertext("HI THERE") // = "hi there" 
 ```
 
-
 > [!TIP] 
 > **See also:**
-> +   [uppertext proc](/ref/proc/uppertext.md) <!-- -->
+> +   [uppertext proc](/ref/proc/uppertext.md) 

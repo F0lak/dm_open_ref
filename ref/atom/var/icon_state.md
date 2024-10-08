@@ -30,4 +30,4 @@ turf/door
 > **See also:**
 > +   [flick proc](/ref/proc/flick.md) 
 > +   [icon var (atom)](/ref/atom/var/icon.md) 
-> +   [icon_states proc](/ref/proc/icon_states.md) <!-- -->
+> +   [icon_states proc](/ref/proc/icon_states.md) 

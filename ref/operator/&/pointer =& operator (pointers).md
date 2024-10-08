@@ -1,10 +1,10 @@
 ## & pointer operator 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Format:**
 +   &A
-<!-- -->
+
 **Returns:**
 +   A pointer to the var or list item A.
 This operator is also called the reference operator, since it creates a

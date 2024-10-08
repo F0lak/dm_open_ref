@@ -30,4 +30,4 @@ image(/obj/Fireball,usr)
 > +   [link proc](/ref/proc/link.md) 
 > +   [load_resource proc](/ref/proc/load_resource.md) 
 > +   [run proc](/ref/proc/run.md) 
-> +   [sound proc](/ref/proc/sound.md) <!-- -->
+> +   [sound proc](/ref/proc/sound.md) 

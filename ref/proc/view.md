@@ -2,10 +2,10 @@
 
 **Format:**
 +   view(Dist=5,Center=usr)
-<!-- -->
+
 **Returns:**
 +   A list of visible objects within Dist tiles of Center.
-<!-- -->
+
 **Args:**
 +   Dist: A number.
 +   Center: An object on the map.
@@ -68,4 +68,4 @@ things if `client.eye` and `client.mob` are different.
 > +   [sight var (mob)](/ref/mob/var/sight.md) 
 > +   [view var (client)](/ref/client/var/view.md) 
 > +   [view var (world)](/ref/world/var/view.md) 
-> +   [viewers](/ref/proc/viewers.md) <!-- -->
+> +   [viewers](/ref/proc/viewers.md) 

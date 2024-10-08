@@ -2,17 +2,17 @@
 
 **Format:**
 +   Entered(atom/movable/Obj,atom/OldLoc)
-<!-- -->
+
 **When:**
 +   Called when an object has entered the contents list through Move().
     Directly setting the object\'s loc or step_x/y vars does not result
     in a call to Entered() or any other movement side-effects. The same
     goes for creation or deletion of an object at a location.
-<!-- -->
+
 **Args:**
 +   Obj: the object that entered (a mob or obj).
 +   OldLoc: the previous location of the object.
-<!-- -->
+
 **Default action:**
 +   None for most atoms, but turfs will call Crossed().
 ### Example:
@@ -96,4 +96,4 @@ mob/verb/wish()
 > +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) <!-- -->
+> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 

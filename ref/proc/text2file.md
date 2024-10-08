@@ -2,11 +2,11 @@
 
 **Format:**
 +   text2file(Text,File)
-<!-- -->
+
 **Args:**
 +   Text: text to be added to file
 +   File: file to be appended to
-<!-- -->
+
 **Returns:**
 +   1 on success; 0 otherwise.
 
@@ -29,4 +29,4 @@ file2text("oracle.out")
 > [!TIP] 
 > **See also:**
 > +   [file2text proc](/ref/proc/file2text.md) 
-> +   [shell proc](/ref/proc/shell.md) <!-- -->
+> +   [shell proc](/ref/proc/shell.md) 

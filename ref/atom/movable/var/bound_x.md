@@ -32,4 +32,4 @@ since there are 8 pixels of empty space to the left.
 > +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
 > +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

@@ -2,7 +2,7 @@
 
 **Format:**
 +   walk_away(Ref,Trg,Max=5,Lag=0,Speed=0)
-<!-- -->
+
 **Args:**
 +   Ref: A mob or obj.
 +   Trg: An object on the map.
@@ -28,4 +28,4 @@ background.
 > **See also:**
 > +   [get_step_away proc](/ref/proc/get_step_away.md) 
 > +   [step_away proc](/ref/proc/step_away.md) 
-> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) <!-- -->
+> +   [step_size var (movable atom)](/ref/atom/movable/var/step_size.md) 

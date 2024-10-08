@@ -1,9 +1,9 @@
 ## mouse_opacity var (atom)
 
-<!-- -->
+
 **Default value:**
 +   1
-<!-- -->
+
 **Possible values:**
 +   0 // transparent to mouse
 +   1 // mouse-opaque where icon is also opaque

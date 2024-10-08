@@ -1,14 +1,14 @@
 ## zoom-mode parameter (skin) 
 ###### BYOND Version 511
 
-<!-- -->
+
 **Applies to:**
-+   [Map](/ref/skin/control/map.md) <!-- -->
++   [Map](/ref/skin/control/map.md) 
 **Posisble values:**
 +   normal
 +   distort
 +   blur
-<!-- -->
+
 **Default value:**
 +   normal
 

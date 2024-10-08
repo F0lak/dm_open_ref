@@ -1,10 +1,10 @@
 ## MouseWheel proc (atom) 
 ###### BYOND Version 508
 
-<!-- -->
+
 **Format:**
 +   MouseWheel(delta_x, delta_y, location, control, params)
-<!-- -->
+
 **Args:**
 +   delta_x,delta_y: amount of wheel movement
 +   location: the turf, stat panel, grid cell, etc. containing the

@@ -16,4 +16,4 @@ than one process, no lock may be obtained.
 > [!TIP] 
 > **See also:**
 > +   [Lock proc (savefile)](/ref/savefile/proc/Lock.md) 
-> +   [New proc (savefile)](/ref/savefile/proc/New.md) <!-- -->
+> +   [New proc (savefile)](/ref/savefile/proc/New.md) 

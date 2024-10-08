@@ -1,12 +1,10 @@
 ## list2params proc
 
-<!-- -->
 **Format:**
 +   list2params(List)
-<!-- -->
+
 **Args:**
 +   List: List to encode as a text string.
-
 
 This instruction converts a list of parameter names and
 associated values into a single text string suitable for use in a URL or
@@ -15,8 +13,6 @@ similar situation. The format of the resulting text string is:
 ```dm
  "name1=value1&name2=value2&..." 
 ```
-
-
 
 Special characters such as \'=\' and \'&\' inside the parameter
 names or values are written in the form: `%xx` where `xx` are two
@@ -36,11 +32,13 @@ corresponding values `"value1"`, `"value2"`, and so on.
 ### Example:
 
 ```dm
- var/plist[0] plist["offense"] = "jwalk"
-plist["time"] = "10:00" usr << list2params(plist) 
+var/plist[0]
+
+plist["offense"] = "jwalk"
+plist["time"] = "10:00"
+
+usr << list2params(plist)
 ```
-
-
 
 The above example creates a simple parameter list which
 associates the item "offense" with the value "jwalk" and the item

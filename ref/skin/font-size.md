@@ -1,13 +1,13 @@
 ## font-size parameter (skin)
 
     parameters](/ref/skin/param/tab-font.md) 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   number
-<!-- -->
+
 **Default value:**
 +   0
 

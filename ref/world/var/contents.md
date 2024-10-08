@@ -21,4 +21,4 @@ world.contents).
 
 > [!TIP] 
 > **See also:**
-> +   [list](/ref/list.md) <!-- -->
+> +   [list](/ref/list.md) 

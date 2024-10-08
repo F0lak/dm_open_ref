@@ -1,9 +1,9 @@
 ## outer-pos parameter (skin) 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Applies to:**
-+   [Main](/ref/skin/control/main.md) <!-- -->
++   [Main](/ref/skin/control/main.md) 
 **Format:**
 +   *x*,*y*
 

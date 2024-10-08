@@ -2,10 +2,10 @@
 
 **Format:**
 +   GetConfig(config_set,param)
-<!-- -->
+
 **Returns:**
 +   Value of requested parameter.
-<!-- -->
+
 **Args:**
 +   config_set: name of the configuration set (see below)
 +   param: name of the configuration parameter
@@ -111,4 +111,4 @@ aliases for "ban".
 > [!TIP] 
 > **See also:**
 > +   [IsBanned proc (world)](/ref/world/proc/IsBanned.md) 
-> +   [SetConfig proc (world)](/ref/world/proc/SetConfig.md) <!-- -->
+> +   [SetConfig proc (world)](/ref/world/proc/SetConfig.md) 

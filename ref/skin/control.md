@@ -20,7 +20,7 @@
 +   [Output](/ref/skin/control/output.md) : Text output
 +   [Tab](/ref/skin/control/tab.md) : A tab control holding multiple
     panes, showing one at a time
-<!-- -->
+
 **Parameters common to all controls:**
 +   [id](/ref/skin/param/id.md) 
 +   [is-disabled](/ref/skin/param/is-disabled.md) 

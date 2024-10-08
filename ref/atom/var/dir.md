@@ -2,7 +2,7 @@
 
 **Default value:**
 +   SOUTH
-<!-- -->
+
 **Possible values:**
 +   NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
 
@@ -23,4 +23,4 @@ one would naturally expect.
 > +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
 > +   [icon var (atom)](/ref/atom/var/icon.md) 
 > +   [turn proc](/ref/proc/turn.md) 
-> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) <!-- -->
+> +   [stddef.dm file](/ref/appendix/stddef%2edm.md) 

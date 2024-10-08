@@ -30,4 +30,4 @@ the icon width is used.
 > +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
 > +   [icon_size var (world)](/ref/world/var/icon_size.md) 
 > +   [map_format var (world)](/ref/world/var/map_format.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) <!-- -->
+> +   [Pixel movement](/ref/notes/pixel-movement.md) 

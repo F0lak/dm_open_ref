@@ -1,13 +1,13 @@
 ## right, bottom parameters (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Child](/ref/skin/control/child.md) 
-<!-- -->
+
 **Format:**
 +   string
 +   none
-<!-- -->
+
 **Default value:**
 +   none
 

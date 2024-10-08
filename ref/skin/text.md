@@ -1,10 +1,10 @@
 ## text parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Button](/ref/skin/control/button.md) 
 +   [Input](/ref/skin/control/input.md) 
-+   [Label](/ref/skin/control/label.md) <!-- -->
++   [Label](/ref/skin/control/label.md) 
 **Format:**
 +   string
 

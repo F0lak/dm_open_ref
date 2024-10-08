@@ -1,19 +1,19 @@
 ## Enter proc (atom)
 
-<!-- -->
+
 **Format:**
 +   Enter(atom/movable/O, atom/oldloc)
-<!-- -->
+
 **Returns:**
 +   1 to permit; 0 to deny.
-<!-- -->
+
 **When:**
 +   Called when an object attempts to enter the contents list.
-<!-- -->
+
 **Args:**
 +   O: the object attempting to enter.
 +   oldloc: the old (current) loc of the object attempting to enter.
-<!-- -->
+
 **Default action:**
 +   Explained below.
 

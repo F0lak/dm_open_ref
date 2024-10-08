@@ -1,7 +1,7 @@
 ## vis_locs var (atom) 
 ###### BYOND Version 512
 
-<!-- -->
+
 **Default value:**
 +   Empty list.
 

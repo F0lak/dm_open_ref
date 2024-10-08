@@ -1,14 +1,14 @@
 ## Tick proc (world) 
 ###### BYOND Version 515
 
-<!-- -->
+
 **Format:**
 +   Tick()
-<!-- -->
+
 **When:**
 +   Called during the server tick, after sleeping procs and queued
     commands, just before map information is sent to the clients.
-<!-- -->
+
 **Default action:**
 +   None.
 

@@ -17,4 +17,4 @@ vector, it will be modified by this operation.
 > [!TIP] 
 > **See also:**
 > +   [% operator](/ref/operator/%.md) 
-> +   [operators](/ref/operator.md) <!-- -->
+> +   [operators](/ref/operator.md) 

@@ -1,15 +1,15 @@
 ## font-style parameter (skin)
 
     parameters](/ref/skin/param/tab-font.md) 
-<!-- -->
+
 **Applies to:**
-+   [All](/ref/skin/control.md) <!-- -->
++   [All](/ref/skin/control.md) 
 **Possible values:**
 +   bold
 +   italic
 +   underline
 +   strike
-<!-- -->
+
 **Default value:**
 +   *empty*
 

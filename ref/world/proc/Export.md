@@ -2,13 +2,13 @@
 
 **Format:**
 +   Export(Addr,File,Persist,Clients)
-<!-- -->
+
 **When:**
 +   Call this to send a message to another server. The message may be
     composed of an optional topic text string (in the address) and an
     optional file. This will call world.Topic() on the remote server,
     which may in turn call world.Import() to access the file.
-<!-- -->
+
 **Args:**
 +   Addr: The address of the recipient server. It should be in the form
     byond://server?topic. The topic portion is optional.
@@ -20,7 +20,7 @@
     Persist field.
 +   Clients: An optional client, or list of clients, to tell the
     receiver about.
-<!-- -->
+
 **Default action:**
 +   Send the topic text string and file to the remote server and return
     the result of calling world.Topic() there. Note that this will cause
@@ -73,4 +73,4 @@ The remote server will receive a list of their keys in world.Topic().
 > +   [Import proc (world)](/ref/world/proc/Import.md) 
 > +   [Topic proc (world)](/ref/world/proc/Topic.md) 
 > +   [link proc](/ref/proc/link.md) 
-> +   [shutdown proc](/ref/proc/shutdown.md) <!-- -->
+> +   [shutdown proc](/ref/proc/shutdown.md) 

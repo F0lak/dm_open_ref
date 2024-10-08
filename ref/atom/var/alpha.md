@@ -3,7 +3,7 @@
 
 **Default value:**
 +   255 (opaque)
-<!-- -->
+
 **Possible values:**
 +   0 (transparent) through 255 (opaque)
 
@@ -22,4 +22,4 @@ unless they use the RESET_ALPHA value in appearance_flags.
 > +   [vars (atom)](/ref/atom/var.md) 
 > +   [appearance_flags var (atom)](/ref/atom/var/appearance_flags.md) 
 > +   [blend_mode var (atom)](/ref/atom/var/blend_mode.md) 
-> +   [color var (atom)](/ref/atom/var/color.md) <!-- -->
+> +   [color var (atom)](/ref/atom/var/color.md) 

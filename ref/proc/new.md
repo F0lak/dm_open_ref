@@ -2,10 +2,10 @@
 
 **Format:**
 +   new Type(Args)
-<!-- -->
+
 **Returns:**
 +   A reference to a new instance of Type.
-<!-- -->
+
 **Args:**
 +   Type: The type of object to create.
 +   Args: Arguments for the Type.New() proc.
@@ -40,4 +40,4 @@ stick!" view() << "[src] creates \\an [S] from thin air!"
 > +   [New proc (icon)](/ref/icon/proc/New.md) 
 > +   [newlist proc](/ref/proc/newlist.md) 
 > +   [path operators](/ref/operator/path.md) 
-> +   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) <!-- -->
+> +   [\_\_IMPLIED_TYPE\_\_ macro](/ref/DM/preprocessor/__IMPLIED_TYPE__.md) 

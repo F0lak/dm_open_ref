@@ -5,7 +5,7 @@
 +   nameof(Var)
 +   nameof(ProcRef)
 +   nameof(Path)
-<!-- -->
+
 **Args:**
 +   Var: A variable, e.g. src.density or foo::bar.
 +   ProcRef: A proc reference, e.g. /mob::Enter().
@@ -33,4 +33,4 @@ var/c = forlater[5] call(object, procname)(a, b, c)
 
 > [!TIP] 
 > **See also:**
-> +   [:: operator](/ref/operator/::.md) <!-- -->
+> +   [:: operator](/ref/operator/::.md) 

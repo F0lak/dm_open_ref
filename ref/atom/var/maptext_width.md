@@ -14,4 +14,4 @@ default, it uses the icon width provided in world.icon_size.
 > +   [maptext_x var (atom)](/ref/atom/var/maptext_x.md) 
 > +   [maptext_y var (atom)](/ref/atom/var/maptext_y.md) 
 > +   [maptext_height var (atom)](/ref/atom/var/maptext_height.md) 
-> +   [icon_size var (world)](/ref/world/var/icon_size.md) <!-- -->
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 

@@ -1,14 +1,14 @@
 ## regex proc 
 ###### BYOND Version 510
 
-<!-- -->
+
 **Format:**
 +   regex(pattern, flags)
 +   regex(Regex)
-<!-- -->
+
 **Returns:**
 +   A new /regex datum.
-<!-- -->
+
 **Args:**
 +   pattern: The pattern string to search for
 +   flags: (optional) A text string containing any combination of

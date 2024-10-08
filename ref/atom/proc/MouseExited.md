@@ -1,9 +1,9 @@
 ## MouseExited proc (atom)
 
-<!-- -->
+
 **Format:**
 +   MouseExited(location, control, params)
-<!-- -->
+
 **Args:**
 +   location: the turf, stat panel, grid cell, etc. containing the
     object

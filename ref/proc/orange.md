@@ -2,10 +2,10 @@
 
 **Format:**
 +   orange(Dist,Center=usr)
-<!-- -->
+
 **Returns:**
 +   A list of objects within Dist tiles of Center, excluding Center.
-<!-- -->
+
 **Args:**
 +   Dist: A number.
 +   Center: An object on the map.
@@ -20,4 +20,4 @@ or not. The center object and its contents are excluded.
 > +   [<< output operator](/ref/operator/%3c%3c/output.md) 
 > +   [block](/ref/proc/block.md) 
 > +   [oview proc](/ref/proc/oview.md) 
-> +   [range proc](/ref/proc/range.md) <!-- -->
+> +   [range proc](/ref/proc/range.md) 

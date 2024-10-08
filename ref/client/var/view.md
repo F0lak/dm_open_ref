@@ -2,7 +2,7 @@
 
 **Default value:**
 +   world.view (which is 5 by default)
-<!-- -->
+
 **Possible values:**
 +   -1 to 34 or "WIDTHxHEIGHT"
 
@@ -31,4 +31,4 @@ The maximum view size is about 5000 tiles, or roughly 70x70.
 > +   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
 > +   [show_map var (client)](/ref/client/var/show_map.md) 
 > +   [view proc](/ref/proc/view.md) 
-> +   [view var (world)](/ref/world/var/view.md) <!-- -->
+> +   [view var (world)](/ref/world/var/view.md) 

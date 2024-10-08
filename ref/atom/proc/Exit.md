@@ -1,19 +1,19 @@
 ## Exit proc (atom)
 
-<!-- -->
+
 **Format:**
 +   Exit(atom/movable/O, atom/newloc)
-<!-- -->
+
 **Returns:**
 +   1 to permit; 0 to deny.
-<!-- -->
+
 **When:**
 +   Called when an object attempts to exit the contents list.
-<!-- -->
+
 **Args:**
 +   O: the object attempting to exit.
 +   newloc <sub>507</sub> : the object\'s new location.
-<!-- -->
+
 **Default action:**
 +   Turfs will call Uncross() and return that value (1 by default). All
     others allow the object to exit (returning 1).

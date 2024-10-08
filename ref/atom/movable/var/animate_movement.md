@@ -1,9 +1,9 @@
 ## animate_movement var (movable atoms)
 
-<!-- -->
+
 **Default value:**
 +   FORWARD_STEPS (1)
-<!-- -->
+
 **Possible values:**
 +   NO_STEPS (0)
 +   FORWARD_STEPS (1)

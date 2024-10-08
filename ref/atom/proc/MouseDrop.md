@@ -1,9 +1,9 @@
 ## MouseDrop proc (atom)
 
-<!-- -->
+
 **Format:**
 +   MouseDrop(over_object, src_location, over_location, src_control, over_control, params)
-<!-- -->
+
 **Args:**
 +   over_object: the object under the mouse pointer
 +   src_location: the turf, stat panel, grid cell, etc. from where the

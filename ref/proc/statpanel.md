@@ -2,12 +2,12 @@
 
 **Format:**
 +   statpanel(Panel,Name,Value)
-<!-- -->
+
 **Args:**
 +   Panel: the name of the stat panel
 +   Name: the name of the stat line
 +   Value: the data to be displayed
-<!-- -->
+
 **Returns:**
 +   If called with just a Panel argument, 1 is returned if the player is
     looking at the panel and 0 is returned if not. This may be useful to
@@ -39,4 +39,4 @@ one\'s own mob.
 > +   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
 > +   [Stat proc (client)](/ref/client/proc/Stat.md) 
 > +   [stat proc](/ref/proc/stat.md) 
-> +   [Info control (skin)](/ref/skin/control/info.md) <!-- -->
+> +   [Info control (skin)](/ref/skin/control/info.md) 

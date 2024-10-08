@@ -1,14 +1,14 @@
 ## show-lines parameter (skin)
 
-<!-- -->
+
 **Applies to:**
-+   [Grid](/ref/skin/control/grid.md) <!-- -->
++   [Grid](/ref/skin/control/grid.md) 
 **Possible values:**
 +   none
 +   horizontal
 +   vertical
 +   both
-<!-- -->
+
 **Default value:**
 +   both
 

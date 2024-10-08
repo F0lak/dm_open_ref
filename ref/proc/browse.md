@@ -16,9 +16,9 @@ window to be closed.
 
 The option parameters should either be
 omitted or they should be in a text string of the following format:
-` "``window`{.variable}`=name;``file`{.variable}`=name;``display`{.variable}`=1;`\
-`size`{.variable}`=300x300;``border`{.variable}`=0;``can_close`{.variable}`=1;`\
-`can_resize`{.variable}`=1;``can_minimize`{.variable}`=1;``titlebar`{.variable}`=1" `
+` "``window``=name;``file``=name;``display``=1;`\
+`size``=300x300;``border``=0;``can_close``=1;`\
+`can_resize``=1;``can_minimize``=1;``titlebar``=1" `
 
 
 You may use commas (,), ampersands (&), or semicolons (;) as

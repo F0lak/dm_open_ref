@@ -15,4 +15,4 @@ is set by `x`, `y`, and `z`.
 > [!TIP] 
 > **See also:**
 > +   [vars (sound)](/ref/sound/var.md) 
-> +   [x, y, z vars (sound)](/ref/sound/var/xyz.md) <!-- -->
+> +   [x, y, z vars (sound)](/ref/sound/var/xyz.md) 

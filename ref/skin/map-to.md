@@ -1,10 +1,10 @@
 ## map-to parameter (skin) 
 ###### BYOND Version 511
 
-<!-- -->
+
 **Applies to:**
 +   [Macro](/ref/skin/control/macro.md) 
-<!-- -->
+
 **Format:**
 +   string
 

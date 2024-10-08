@@ -1,14 +1,14 @@
 ## sha1 proc 
 ###### BYOND Version 513
 
-<!-- -->
+
 **Format:**
 +   sha1(T)
 +   sha1(F)
-<!-- -->
+
 **Returns:**
 +   text or null.
-<!-- -->
+
 **Args:**
 +   T: A text string.
 +   F: A file.

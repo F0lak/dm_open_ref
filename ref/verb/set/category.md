@@ -2,10 +2,10 @@
 
     (client)](/ref/client/var/default_verb_category.md) 
 +   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
-<!-- -->
+
 **Format:**
 +   set category = "Category"
-<!-- -->
+
 **Args:**
 +   Category: A text string for the category.
 

@@ -2,10 +2,10 @@
 
 **Format:**
 +   text(FormatText,Args)
-<!-- -->
+
 **Returns:**
 +   The text with macros arguments substituted.
-<!-- -->
+
 **Args:**
 +   FormatText: a text string possibly containing text macros.
 +   Args: a set of arguments that corresponds to the number of empty
@@ -28,4 +28,4 @@ home.",sqrt(usr.x**2 + usr.y**2))
 > [!TIP] 
 > **See also:**
 > +   [<< operator](/ref/operator/%3c%3c.md) 
-> +   [macros (text)](/ref/DM/text/macros.md) <!-- -->
+> +   [macros (text)](/ref/DM/text/macros.md) 

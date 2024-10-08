@@ -2,7 +2,7 @@ toc="tab-font-family, tab-font-size, tab-font-style"}
 ## tab-font-family, tab-font-size, tab-font-style parameters (skin)
 
     parameter](/ref/skin/param/tab-background-color.md) 
-<!-- -->
+
 **Applies to:**
 +   [Info](/ref/skin/control/info.md) 
 

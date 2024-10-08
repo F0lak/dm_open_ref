@@ -1,10 +1,10 @@
 ## on-size parameter (skin) 
 ###### BYOND Version 482
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   string
 

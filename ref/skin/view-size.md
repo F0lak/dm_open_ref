@@ -1,9 +1,9 @@
 ## view-size parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Map](/ref/skin/control/map.md)  (window only)
-<!-- -->
+
 **Format:**
 +   *width*x*height*
 

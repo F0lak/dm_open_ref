@@ -2,7 +2,7 @@
 **Format:**
 +   set src in List
 +   set src = List
-<!-- -->
+
 **Args:**
 +   List: One of view(), oview(), world, world.contents, usr,
     usr.contents, usr.loc, or usr.group

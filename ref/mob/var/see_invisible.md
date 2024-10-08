@@ -11,4 +11,4 @@ This is the maximum level of invisibility that the mob can see.
 > +   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
 > +   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
 > +   [sight var (mob)](/ref/mob/var/sight.md) 
-> +   [view proc](/ref/proc/view.md) <!-- -->
+> +   [view proc](/ref/proc/view.md) 

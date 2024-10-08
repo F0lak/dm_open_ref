@@ -3,10 +3,10 @@
 
 **Format:**
 +   GetCredits(player)
-<!-- -->
+
 **Returns:**
 +   Number of credits if hub contact was successful, null otherwise.
-<!-- -->
+
 **Args:**
 +   player: a mob, client, key, or ckey
 
@@ -32,4 +32,4 @@ be downloaded by the public.
 > [!TIP] 
 > **See also:**
 > +   [AddCredits proc (world)](/ref/world/proc/AddCredits.md) 
-> +   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) <!-- -->
+> +   [PayCredits proc (world)](/ref/world/proc/PayCredits.md) 

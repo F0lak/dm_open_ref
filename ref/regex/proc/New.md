@@ -4,7 +4,7 @@
 **Format:**
 +   regex(pattern, flags)
 +   regex(Regex)
-<!-- -->
+
 **Args:**
 +   pattern: The pattern string to search for
 +   flags: (optional) A text string containing any combination of
@@ -19,4 +19,4 @@ create a new /regex datum.
 > **See also:**
 > +   [Regular expressions](/ref/notes/regex.md) 
 > +   [regex datum](/ref/regex.md) 
-> +   [regex proc](/ref/proc/regex.md) <!-- -->
+> +   [regex proc](/ref/proc/regex.md) 

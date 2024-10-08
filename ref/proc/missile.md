@@ -1,7 +1,7 @@
 # missile proc
 **Format:**
 +   missile(Type, Start, End)
-<!-- -->
+
 **Args:**
 +   Type: An object prototype or icon file.
 +   Start: The starting location.

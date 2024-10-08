@@ -3,10 +3,10 @@
 
 **Format:**
 +   Find(haystack, Start=1, End=0)
-<!-- -->
+
 **Returns:**
 +   The position of the matched text, or 0 if no match was found.
-<!-- -->
+
 **Args:**
 +   haystack: The text to be searched
 +   Start: The start position (in bytes) to search; defaults to 1, or to
@@ -45,4 +45,4 @@ character counts instead of bytes, at a performance cost. See the
 > +   [Replace proc (regex)](/ref/regex/proc/Replace.md) 
 > +   [regex vars](/ref/regex/var.md) 
 > +   [regex proc](/ref/proc/regex.md) 
-> +   [findtext proc](/ref/proc/findtext.md) <!-- -->
+> +   [findtext proc](/ref/proc/findtext.md) 

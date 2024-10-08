@@ -1,9 +1,9 @@
 ## size parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [All](/ref/skin/control.md) 
-<!-- -->
+
 **Format:**
 +   *width*x*height*
 

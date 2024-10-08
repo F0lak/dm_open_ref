@@ -1,7 +1,7 @@
 ## RowsAffected proc (database query) 
 ###### BYOND Version 506
 
-    query)](/ref/database/query/proc/RowsAffected.md) <!-- -->
+    query)](/ref/database/query/proc/RowsAffected.md) 
 **Format:**
 +   RowsAffected()
 

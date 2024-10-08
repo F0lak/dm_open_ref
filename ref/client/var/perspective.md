@@ -2,7 +2,7 @@
 
 **Default value:**
 +   MOB_PERSPECTIVE
-<!-- -->
+
 **Possible values:**
 +   -   MOB_PERSPECTIVE
     -   EYE_PERSPECTIVE
@@ -29,4 +29,4 @@ the \| operator.
 > [!TIP] 
 > **See also:**
 > +   [eye var (client)](/ref/client/var/eye.md) 
-> +   [mob var (client)](/ref/client/var/mob.md) <!-- -->
+> +   [mob var (client)](/ref/client/var/mob.md) 

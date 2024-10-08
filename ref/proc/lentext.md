@@ -1,16 +1,16 @@
 ## lentext proc 
-###### BYOND Version t proc {#lentext-proc deprecated="1
 
-<!-- -->
+> [!IMPORTANT]
+> `lentext()` is deprecated.  Use [`length()`](/ref/proc/length.md) instead
+
 **Format:**
 +   lentext(T)
-<!-- -->
+
 **Returns:**
 +   The length of text T.
-<!-- -->
+
 **Args:**
 +   T: A text string.
-Use [length()](/ref/proc/length.md) instead.
 
 > [!TIP] 
 > **See also:**

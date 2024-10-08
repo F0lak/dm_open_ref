@@ -3,10 +3,10 @@
 
 **Format:**
 +   SoundQuery()
-<!-- -->
+
 **Args:**
 +   none
-<!-- -->
+
 **Returns:**
 +   A list of `/sound` datums with information about currently playing
     sounds.
@@ -36,4 +36,4 @@ to ascertain the current status of playing sounds.
 > [!TIP] 
 > **See also:**
 > +   [/sound datum](/ref/sound.md) 
-> +   [sound proc](/ref/proc/sound.md) <!-- -->
+> +   [sound proc](/ref/proc/sound.md) 

@@ -3,7 +3,7 @@
 +   [Grid](/ref/skin/control/grid.md) 
 +   [Map](/ref/skin/control/map.md) 
 +   [Output](/ref/skin/control/output.md) 
-<!-- -->
+
 **Format:**
 +   string
 

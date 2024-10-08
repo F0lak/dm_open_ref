@@ -1,12 +1,12 @@
 ## Click proc (atom)
 
-<!-- -->
+
 **Format:**
 +   Click(location,control,params)
-<!-- -->
+
 **When:**
 +   Called when the object is clicked.
-<!-- -->
+
 **Args:**
 +   location: the turf, stat panel, grid cell, etc. in which the object
     was clicked

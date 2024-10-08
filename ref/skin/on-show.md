@@ -1,11 +1,11 @@
 ## on-show parameter (skin)
 
-<!-- -->
+
 **Applies to:**
 +   [Browser](/ref/skin/control/browser.md) 
 +   [Info](/ref/skin/control/info.md) 
 +   [Map](/ref/skin/control/map.md) 
-<!-- -->
+
 **Format:**
 +   string
 

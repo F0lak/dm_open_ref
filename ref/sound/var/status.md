@@ -44,4 +44,4 @@ be filled in by the `SoundQuery` proc.
 > [!TIP] 
 > **See also:**
 > +   [vars (sound)](/ref/sound/var.md) 
-> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) <!-- -->
+> +   [SoundQuery proc (client)](/ref/client/proc/SoundQuery.md) 

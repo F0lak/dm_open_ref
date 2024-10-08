@@ -2,7 +2,7 @@
 
 **Format:**
 +   winclone(player, window_name, clone_name)
-<!-- -->
+
 **Args:**
 +   player: A mob or client.
 +   window_name: The name of a window, pane, menu, or macro set in the
@@ -74,4 +74,4 @@ be deleted via a `winset()` call:
 > +   [winget proc](/ref/proc/winget.md) 
 > +   [winset proc](/ref/proc/winset.md) 
 > +   [winshow proc](/ref/proc/winshow.md) 
-> +   [User interface skins](/ref/skin.md) <!-- -->
+> +   [User interface skins](/ref/skin.md) 

@@ -2,7 +2,7 @@
 
 **Default value:**
 +   0
-<!-- -->
+
 **Possible values:**
 +   0 to 101
 
@@ -22,4 +22,4 @@ purely for some internal purpose, such as "verb containers".
 > +   [opacity var (atom)](/ref/atom/var/opacity.md) 
 > +   [see_invisible var (mob)](/ref/mob/var/see_invisible.md) 
 > +   [sight var (mob)](/ref/mob/var/sight.md) 
-> +   [view proc](/ref/proc/view.md) <!-- -->
+> +   [view proc](/ref/proc/view.md) 

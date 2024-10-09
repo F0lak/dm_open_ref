@@ -20,7 +20,7 @@ image(/obj/Fireball,usr)
 
 > [!TIP] 
 > **See also:**
-> +   [<< operator (savefile)](/ref/savefile/operator/%3c%3c.md) 
+> +   [<< operator (savefile)](/ref/savefile/operator/LEFTLEFT.md) 
 > +   [output proc](/ref/proc/output.md) 
 > +   [browse proc](/ref/proc/browse.md) 
 > +   [browse_rsc proc](/ref/proc/browse_rsc.md) 

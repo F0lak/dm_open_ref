@@ -1,6 +1,5 @@
 ## named arguments (proc)
 
-
 The parameters passed to a procedure are called arguments.
 These may either be passed in positional order, or they can be passed as
 *named arguments*. Not all procedures are defined with the intention of
@@ -8,20 +7,36 @@ supporting named arguments, so consult the documentation for the
 procedure in question first. (This is mainly an issue of whether the
 argument names might change in the future.) 
 
-The following
-example shows several ways of producing the same call to a procedure.
+> [!TIP]
+> The best time to use named arguments is when calling a
+procedure that takes a lot of optional parameters. You can just name the
+ones that you want to assign and leave the rest unspecified. Trying to
+do the same thing with positional parameters can be much more
+awkward--especially when the arguments you do want to assign are
+preceded by a number of ones that you don\'t care to assign. It\'s easy
+to lose your place in the list or to forget what it does. 
+
+> [!CAUTION]
+> Since named arguments involve a slight amount of extra overhead, one should
+avoid them in code that is highly cpu intensive due to being called many
+many times. Otherwise, code clarity may be a bigger priority.
+
+The following example shows several ways of producing the same call to a procedure.
 ### Example:
 
 ```dm
- mob/proc/MyProc(a,b,c) src <<
-"MyProc([a],[b],[c])" mob/verb/test() MyProc(1,2,3) //positional
-parameters MyProc(a=1,b=2,c=3) //named arguments MyProc(1,b=2,c=3)
-//positional and named arguments MyProc(c=3,a=1,b=2) //named arguments
-can come in any order 
+mob/proc/MyProc(a,b,c)
+    src << "MyProc([a],[b],[c])"
+
+mob/verb/test()
+    MyProc(1,2,3)       //positional parameters
+    MyProc(a=1,b=2,c=3) //named arguments
+    MyProc(1,b=2,c=3)   //positional and named arguments
+    MyProc(c=3,a=1,b=2) //named arguments can come in any order
 ```
  
-
-To prevent silent errors,
+> [!IMPORTANT]
+> To prevent silent errors,
 named arguments that do not match any of the arguments of the procedure
 being called will generate a runtime error. This is somewhat different
 from the behavior of positional arguments in DM where it is perfectly
@@ -41,7 +56,6 @@ of the procedure. That doesn\'t stop you from changing that interface
 when overriding a procedure, but the normal case would be to preserve
 the argument names of the base procedure when overriding it.
 
-
 The following example is not useful, but it illustrates a
 situation where a procedure is overridden so as to preserve the same
 argument names and positions. As mentioned above, you are not *required*
@@ -50,31 +64,25 @@ want.
 ### Example:
 
 ```dm
- mob proc/MyProc(a,b,c) usr <<
-"mob.MyProc([a],[b],[c])" mob/verb/test() MyProc(a=1,b=2,c=3)
-special_mob MyProc(a,b,c,d) if(d) ..() //pass in same order else
-..(c,b,a) //pass in reverse order test() MyProc(a=1,b=2,c=3,d=0)
-//normal order MyProc(a=1,b=2,c=3,d=1) //reverse the order 
+mob
+   proc/MyProc(a,b,c)
+      usr << "mob.MyProc([a],[b],[c])"
+
+   mob/verb/test()
+      MyProc(a=1,b=2,c=3)
+
+   special_mob
+      MyProc(a,b,c,d)
+         if(d) ..()      //pass in same order
+         else ..(c,b,a)  //pass in reverse order
+
+      test()
+         MyProc(a=1,b=2,c=3,d=0) //normal order
+         MyProc(a=1,b=2,c=3,d=1) //reverse the order
 ```
-
-
 
 This example merely used positional parameters in the call to
 `..()`, but one can use named arguments there too if it is desirable.
-
-
-The best time to use named arguments is when calling a
-procedure that takes a lot of optional parameters. You can just name the
-ones that you want to assign and leave the rest unspecified. Trying to
-do the same thing with positional parameters can be much more
-awkward--especially when the arguments you do want to assign are
-preceded by a number of ones that you don\'t care to assign. It\'s easy
-to lose your place in the list or to forget what it does. 
-
-Since
-named arguments involve a slight amount of extra overhead, one should
-avoid them in code that is highly cpu intensive due to being called many
-many times. Otherwise, code clarity may be a bigger priority.
 
 > [!TIP] 
 > **See also:**

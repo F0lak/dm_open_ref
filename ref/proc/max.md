@@ -11,13 +11,10 @@
  usr << max(1,2,3) 
 ```
  
-
-This example
-displays 3. 
+This example displays `3`. 
 
 If a single argument is specified, this is expected
 to be a list and the maximum item from the list is returned.
-
 
 Items to be compared may be numbers, text strings, pixlocs, or
 vectors, or null, but different types may not be mixed. (Null values can

@@ -1,7 +1,6 @@
 ## nonspantext proc 
 ###### BYOND Version 510
 
-
 **Format:**
 +   nonspantext(Haystack,Needles,Start=1)
 
@@ -15,7 +14,6 @@
     match.
 +   Start: The text byte position in Haystack in which to begin the
     search.
-
 
 This proc is case-sensitive. A common use for this proc is in
 parsing. For instance nonspantext("apples, oranges",", ") will

@@ -13,17 +13,15 @@
 +   Digits: Minimum number of digits
 +   Radix: The base of the number, e.g. 16 is hexadecimal.
 
-
 Get the text string for a number. The number of significant
 digits determines when scientific notation is used. The default is 6, so
 scientific notation will only be used when there are more than 6 digits.
 ### Example:
 
 ```dm
- T = num2text(12) // = "12" T = num2text(12,1) // =
-"1.2e1" 
+T = num2text(12)  // = "12"
+T = num2text(12,1)  // = "1.2e1"
 ```
- 
 
 The Radix format is intended for
 converting numbers to bases other than 10, although you can still use
@@ -36,10 +34,9 @@ format was mainly intended for simple conversions.
 ### Example:
 
 ```dm
- world << num2text(11, 2, 16) // "0b" world <<
-num2text(343, 0, 7) // "1000" 
+world << num2text(11, 2, 16)  // "0b"
+world << num2text(343, 0, 7)  // "1000"
 ```
-
 
 > [!TIP] 
 > **See also:**

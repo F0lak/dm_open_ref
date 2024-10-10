@@ -15,8 +15,6 @@
  mob/contents = newlist(/obj/scroll/readme) 
 ```
 
-
-
 This causes new mobs to be created with a readme scroll in
 their inventory. 
 
@@ -26,11 +24,13 @@ particular type you are creating.
 ### Example:
 
 ```dm
- mob/contents = newlist( /obj/scroll/readme { name =
-"Introduction" desc = "The fate of Bracolia depends on you ..." } )
-
+mob/contents = newlist(
+   /obj/scroll/readme {
+      name = "Introduction"
+      desc = "The fate of Bracolia depends on you ..."
+   }
+)
 ```
- 
 
 This is the most common use of "modified types",
 but it is not specific to the newlist instruction. Anywhere a type value

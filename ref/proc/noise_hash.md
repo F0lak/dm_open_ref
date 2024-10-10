@@ -24,12 +24,11 @@ and hashes them together to get a value from 0 to 1. That output value
 will be the same for any given set of input numbers. This can be used on
 its own or as part of a more in-depth noise algorithm. 
 
-If the
-first argument is a string, that may be used in future versions to
+If the first argument is a string, that may be used in future versions to
 specify the type of hash to use. For now it is not used.
 
-
-Non-numbers provided to the proc will be interpreted
+> [!DANGER]
+> Non-numbers provided to the proc will be interpreted
 arbitrarily. Don\'t do that.
 
 > [!TIP] 

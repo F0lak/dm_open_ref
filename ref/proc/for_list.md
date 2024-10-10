@@ -7,7 +7,7 @@
 
 **Args:**
 +   **Var**: A variable to sequentially contain each member of the list.
-+   **List**: The list to loop through. This defaults to the whole world.
++   **List**: The list to loop through. This defaults to the whole world, unless `Var` is a /datum which are handled differently 
 +   **Type**: One or more of area, turf, mob, or obj, ORed together. If no
     type is specified, the declared type of Var will be used to skip
     over inappropriate elements in the list.
@@ -34,7 +34,7 @@ outputting the name at each iteration.
 When you loop through a list, with the exception of looping through world, you\'re actually
 looping through a copy of that list. If the list changes, those changes
 won\'t have any bearing on this loop. If you want to be able to handle a
-list that might change, you\'ll need to use the [for loop proc](/ref/proc/for_loop.md)  instead. 
+list that might change, you\'ll need to use the [for loop proc](/ref/proc/for_loop.md) instead.
 
 You can declare the variable
 right inside the for statement. Its scope is entirely contained within
@@ -42,12 +42,22 @@ the for statement, so it will not conflict with a similar variable
 declared elsewhere in the same procedure.
 
 ### Example:
-
 ```dm
 client/verb/who()
    for(var/client/Player)
       usr << Player
 ```
+
+If the variable type is one of /client, /atom, /turf, /obj or /mob and you're looping through `world`,
+only the type and its children are looped over.  This can be faster in some cases than maintaining your
+own lists.
+### Example:
+```dm
+var/list/players = list()
+for(var/mob/player/p in world)
+    players.Add(p)
+```
+In the above example, only /mob and children of /mob are looped over.
  
 If the loop var has a type, a hidden `istype()` call
 is included in the code. Only items of that type, or its descendants,

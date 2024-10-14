@@ -66,7 +66,7 @@ by overlays and images automatically unless they have the `RESET_COLOR`
 flag. It is also basically meaningless when used on an overlay that\'s
 inside of a `KEEP_TOGETHER` group, since the client\'s color is applied
 to the entire group.
-### KEEP_TOGETHER {#keep_together byondver="510"}
+### KEEP_TOGETHER <sub><sup>510</sup></sub>
 
 
 This flag is used to force the overlays and underlays of this
@@ -87,7 +87,7 @@ Any child appearances underneath
 Icons
 that are in a different plane from the parent icon will automatically
 have `KEEP_APART` set and therefore won\'t be included.
-### KEEP_APART {#keep_apart byondver="510"}
+### KEEP_APART <sub><sup>510</sup></sub>
 
 
 If this appearance is a child of something that uses
@@ -97,7 +97,7 @@ instance.
 
 This flag is automatically applied to icons that are
 on a different plane from their parents.
-### PLANE_MASTER {#plane_master byondver="510"}
+### PLANE_MASTER <sub><sup>510</sup></sub>
 
 
 Use this flag to group all icons in the same plane and draw

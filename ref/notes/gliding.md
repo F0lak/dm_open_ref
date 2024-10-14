@@ -25,8 +25,7 @@ client will attempt to adjust the speed manually. `glide_size` is
 measured in server ticks, so if `client.fps` is set to a value greater
 than `world.fps`, it will be scaled appropriately. 
 
-Whether an
-object glides or jumps is based on how far it moves relative to its
+Whether an object glides or jumps is based on how far it moves relative to its
 `step_size` value, which by default is a full tile width. If the
 movement goes too far past `step_size` in the X or Y directions, it\'s
 no longer a glide. 

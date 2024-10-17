@@ -311,7 +311,7 @@ def prettify(content, page_title, link):
 		color=discord.Color.orange()  # Set color of the embed
 	)
 	#embed.add_field(name="", value = link, inline = False)
-	embed.set_footer(text="BYOND Version 516.1644")
+	embed.set_footer(text="BYOND Version 516.1645")
 	
 	return embed
 	# use: send(embed = prettify(content))

@@ -26,3 +26,4 @@ usr << ceil(-1.45) // outputs -1
 > +   [round proc](/ref/proc/round.md) 
 > +   [trunc proc](/ref/proc/trunc.md) 
 > +   [fract proc](/ref/proc/fract.md) 
+> +   [sign proc](/ref/proc/sign.md) 

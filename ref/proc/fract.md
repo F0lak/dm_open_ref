@@ -30,3 +30,4 @@ a vector.
 > +   [floor proc](/ref/proc/floor.md) 
 > +   [ceil proc](/ref/proc/ceil.md) 
 > +   [round proc](/ref/proc/round.md) 
+> +   [sign proc](/ref/proc/sign.md) 

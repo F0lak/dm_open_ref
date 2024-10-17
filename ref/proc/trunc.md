@@ -10,16 +10,14 @@
 **Args:**
 +   A: A number, pixloc, or vector.
 
-
 Returns the integer part of the number A. That is, this rounds
 toward 0 to an integer.
 ### Example:
 
 ```dm
- usr << trunc(1.45) // outputs 1 usr << trunc(-1.45) //
-outputs -1 
+usr << trunc(1.45) // outputs 1
+usr << trunc(-1.45) // outputs -1 
 ```
-
 
 > [!TIP] 
 > **See also:**
@@ -27,3 +25,4 @@ outputs -1
 > +   [floor proc](/ref/proc/floor.md) 
 > +   [ceil proc](/ref/proc/ceil.md) 
 > +   [round proc](/ref/proc/round.md) 
+> +   [sign proc](/ref/proc/sign.md) 

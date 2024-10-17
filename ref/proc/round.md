@@ -18,17 +18,13 @@ less than or equal to A), and has been deprecated in favor of
 ### Example:
 
 ```dm
- usr << round(1.45) // outputs 1 usr << round(-1.45) //
-outputs -2 usr << round(1.45,1.5) // outputs 1.5 
+usr << round(1.45) // outputs 1
+usr << round(-1.45) // outputs -2
+usr << round(1.45,1.5) // outputs 1.5 
 ```
+If A is a vector, B can also be a vector to round each component separately. 
 
-
-
-If A is a vector, B can also be a vector to round each
-component separately. 
-
-If A is a pixloc, only the x and y
-portions will be considered. B may be a vector.
+If A is a pixloc, only the x and y portions will be considered. B may be a vector.
 
 > [!TIP] 
 > **See also:**
@@ -36,3 +32,4 @@ portions will be considered. B may be a vector.
 > +   [ceil proc](/ref/proc/ceil.md) 
 > +   [trunc proc](/ref/proc/trunc.md) 
 > +   [fract proc](/ref/proc/fract.md) 
+> +   [sign proc](/ref/proc/sign.md) 

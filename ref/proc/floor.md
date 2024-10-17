@@ -26,3 +26,4 @@ usr << floor(-1.45) // outputs -2
 > +   [round proc](/ref/proc/round.md) 
 > +   [trunc proc](/ref/proc/trunc.md) 
 > +   [fract proc](/ref/proc/fract.md) 
+> +   [sign proc](/ref/proc/sign.md) 

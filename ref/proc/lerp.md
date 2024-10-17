@@ -12,7 +12,7 @@
 +   B: A number, matrix, vector or turf/pixloc
 +   factor: Interpolation Factor, usually between 0 and 1
 
-Returns an interpolation or extrapolation from A to B. If factor is 0, A is returned; if factor is 1, B is returned. Otherwise an interpolated value between A and B is returned, based on the value of factor. The types of A and B must match, with few exceptions.
+Returns an interpolation or extrapolation from A to B. If factor is 0, A is returned; if factor is 1, B is returned. Otherwise an interpolated value between A and B is returned, based on the value of factor.
 
 This is basically equivalent to returning A + (B-A) * factor for most things. When interpolating objects such as vectors, the returned value is always a new value, never a direct copy of A or B.
 

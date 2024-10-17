@@ -291,6 +291,7 @@ async def ref_info(ctx, content):
 		ref_content = content[0]
 		ref_title = content[1]
 		ref_link = content[2]
+		ref_link = ref_link.replace(" ", "%20")
 		timeout = 300
 		ref_view = MyView(ref_content, timeout)
 		bot_message = await ctx.send(embed=prettify(ref_content, ref_title, ref_link), view=ref_view)

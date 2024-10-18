@@ -41,6 +41,7 @@ precedence than + the result is 11, not 25 as expected. It\'s equally
 important to put parentheses around the entire macro for the same
 reason.
 ### Variadic macros
+###### BYOND Version 511
 
 The last parameter of a macro can end in `...` which means that
 it and all other arguments following it count as a single argument. This

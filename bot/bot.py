@@ -212,6 +212,14 @@ def special_characters(text) -> str:
 	   		It displays the best match to your search."""
 	)
 
+async def brr(ctx, *, wat_brr):
+	print(wat_brr)
+	await ctx.send(f"{wat_brr} go brr")
+
+async def bad(ctx):
+	print("bad bot")
+	await ctx.send(f"I'm sorry.  I'll do better.")
+
 async def ref(ctx, *, query="DM"):
 	print(query)
 

@@ -1,5 +1,5 @@
 ## transparent-color parameter (skin) 
-###### BYOND Version arent-color parameter (skin) {#transparent-color-parameter-skin deprecated="1
+###### deprecated
 
 
 **Applies to:**

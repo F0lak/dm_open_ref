@@ -204,6 +204,17 @@ def special_characters(text) -> str:
 	text = text.replace("```dm", "``` cs")
 	return text
 
+
+@bot.command()
+async def brr(ctx, *, wat_brr):
+	print(wat_brr)
+	await ctx.send(f"{wat_brr} go brr")
+
+@bot.command()
+async def bad(ctx):
+	print("bad bot")
+	await ctx.send(f"I've been a naughty bot.")
+
 @bot.command(
 	aliases=['penref'],
 	brief="Displays a reference file",
@@ -211,15 +222,6 @@ def special_characters(text) -> str:
 			It will first search file names and paths, and if no matches are found, it will search file contents.
 	   		It displays the best match to your search."""
 	)
-
-async def brr(ctx, *, wat_brr):
-	print(wat_brr)
-	await ctx.send(f"{wat_brr} go brr")
-
-async def bad(ctx):
-	print("bad bot")
-	await ctx.send(f"I'm sorry.  I'll do better.")
-
 async def ref(ctx, *, query="DM"):
 	print(query)
 

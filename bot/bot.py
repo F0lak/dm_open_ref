@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 import difflib
 import asyncio
 import time
+import random
 
 load_dotenv()
 DIS_TOKEN	= str(os.getenv("DISCORD_TOKEN"))
@@ -204,6 +205,12 @@ def special_characters(text) -> str:
 	text = text.replace("```dm", "``` cs")
 	return text
 
+@bot.command()
+async def ncourage(ctx, *, user_input = None, user: discord.User = None):
+	if user == None:
+		username = user_input or ctx.author.name
+	messages = [f"You can do it, {username}", f"Go gettem, {username}", f"I believe in you, {username}"]
+	await ctx.send(random.choice(messages))
 
 @bot.command()
 async def brr(ctx, *, wat_brr):
@@ -213,7 +220,8 @@ async def brr(ctx, *, wat_brr):
 @bot.command()
 async def bad(ctx):
 	print("bad bot")
-	await ctx.send(f"I've been a naughty bot.")
+	messages = ["I've been a naughty bot", f"Please don't spank me again!", "So sorry.  I'll do better.", "I'm just glad that you noticed me", "If you don't like it, fix it!"]
+	await ctx.send(random.choices(messages)[0])
 
 @bot.command(
 	aliases=['penref'],

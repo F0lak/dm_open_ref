@@ -1,6 +1,9 @@
 ## pixloc proc 
 ###### BYOND Version 516
 
+> ### Community Resources
+> + [Ter's Pixloc Primer](https://www.byond.com/forum/post/2949303)
+
 **Format:**
 +   pixloc(x, y, z)
 +   pixloc(Atom)
@@ -20,7 +23,6 @@
 +   Pixloc: An existing pixloc to copy.
 +   Vector: A 2D vector to offset the new pixloc by.
 
-
 Creates a new `pixloc` object based on an existing object\'s
 location or using raw world coordinates. If the pixloc can\'t be
 created, for instance if the Atom argument is not directly on the map,
@@ -33,7 +35,6 @@ size, this is x=18, y=29, step_x=5, step_y=11 mob.pixloc = pixloc(550,
 907, 1) 
 ```
  
-
 When the pixloc is created with world
 coordinates, x and y are a combination of tile x and step_x, and tile y
 and step_y, starting at a value of 1. The world x and y for any tile and
@@ -44,9 +45,8 @@ step combo can be calculated like so (if for any reason you needed to):
 world_y = (tile_y - 1) * pixels_per_y_tile + step_y + 1 
 ```
 
-
 > [!TIP] 
 > **See also:**
 > +   [pixloc](/ref/pixloc.md) 
 > +   [pixloc var (atom)](/ref/atom/var/pixloc.md) 
-> +   [bound_pixloc proc](/ref/proc/bound_pixloc.md) 
+> +   [bound_pixloc proc](/ref/proc/bound_pixloc.md)

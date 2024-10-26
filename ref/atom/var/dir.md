@@ -7,7 +7,7 @@
 +   NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
 <!------------------------->
 |    Dir    | Val | Binary |
-|-----------|:---:|-------:|
+|:----------|:---:|:------:|
 | NORTH     |  1  |  0001  |
 | SOUTH     |  2  |  0010  |
 | EAST      |  3  |  0100  |

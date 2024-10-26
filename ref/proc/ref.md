@@ -9,7 +9,6 @@
 **Returns:**
 +   A string containing a reference ID.
 
-
 This is a shortcut for `"\ref[Object]"`.
 
 > [!TIP] 

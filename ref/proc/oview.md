@@ -11,7 +11,6 @@
 +   Dist: A number.
 +   Center: An object on the map.
 
-
 This instruction is just like view() except it doesn\'t include
 Center or its contents in the list.
 ### Example:
@@ -19,7 +18,6 @@ Center or its contents in the list.
 ```dm
  oview() << "to others in sight of [usr]" 
 ```
-
 
 > [!TIP] 
 > **See also:**

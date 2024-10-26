@@ -3,18 +3,19 @@
 **Format:**
 +   O << run(File)
 
-
 This is similar to link() but instead of a URL, you can pass a
 file to be viewed directly. The file may be a cache file or an external
 file.
 ### Example:
 
 ```dm
- mob/var/picture = \'mob.jpg\' mob/verb/view_pic(mob/M as
-mob in view()) usr << run(M.picture) mob/verb/set_pic(F as file)
-usr.picture = F 
+mob/var/picture = 'mob.jpg'
+mob/verb/view_pic(mob/M as mob in view())
+  usr << run(M.picture)
+
+mob/verb/set_pic(F as file)
+  usr.picture = F
 ```
- 
 
 This example defines a picture to be
 associated with each mob and a verb for viewing another mob\'s picture.

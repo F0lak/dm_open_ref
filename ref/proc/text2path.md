@@ -11,11 +11,11 @@
 ### Example:
 
 ```dm
- var/myturf = text2path("/turf/[src.color]") if(myturf)
-src.loc = locate(myturf) 
+var/myturf = text2path("/turf/[src.color]")
+if(myturf)
+  src.loc = locate(myturf)
 ```
  
-
 T is changed from a text
 string to the equivalent type path, or null if there is no such type.
 

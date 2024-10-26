@@ -1,5 +1,7 @@
 ## sorttextEx proc
 
+###### <sub>This proc used to be named `sortText`, like `sorttext` but with a capital T. To avoid confusion it  as been renamed, but old code will still compile.</sub>
+
 **Format:**
 +   sorttextEx(T1,T2,...)
 
@@ -15,22 +17,20 @@
 This instruction is sensitive to case. The case-insensitive
 version is sorttext(). 
 
-Note: Uppercase letters are lower in the
-alphabetical order than lowercase letters.
+> [!NOTE]
+>Uppercase letters are lower in the alphabetical order than lowercase letters.
+
 ### Example:
 
 ```dm
- switch(sorttextEx("a","B")) if(1) world <<
-"ascending" if(-1)world << "descending" if(0) world <<
-"neither" 
+switch(sorttextEx("a","B"))
+  if(1) world << "ascending"
+  if(-1)world << "descending"
+  if(0) world << "neither"
 ```
  
-
 This outputs, "descending", since
 "B" comes before "a" in the alphabet.
-Note: This proc used to be named `sortText`, like `sorttext` but with a
-capital T. To avoid confusion it has been renamed, but old code will
-still compile.
 
 > [!TIP] 
 > **See also:**

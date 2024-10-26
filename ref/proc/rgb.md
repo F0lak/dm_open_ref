@@ -1,6 +1,5 @@
 ## rgb proc
 
-
 **Format:**
 +   rgb(R,G,B)
 +   rgb(R,G,B,A)
@@ -18,7 +17,6 @@
 **Returns:**
 +   A color, represented by a text string in #RRGGBB or #RRGGBBAA format
 
-
 A way of representing a color to be used in conjunction with
 icon arithmetic, atom.color, or other effects. The colors `rgb(0,0,0)`
 and `rgb(255,255,255)` represent black and white, two corners of the
@@ -26,10 +24,9 @@ and `rgb(255,255,255)` represent black and white, two corners of the
 ### Example:
 
 ```dm
- mob/proc/hurtme() // make a mob look damaged by adding red
-to its icon src.icon += rgb(20,0,0) 
+mob/proc/hurtme() // make a mob look damaged by adding red to its icon
+  src.icon += rgb(20,0,0) 
 ```
- 
 
 This proc
 returns a text string in the form used by HTML (#RRGGBB). rgb(255,0,128)
@@ -39,7 +36,6 @@ use colors such as icon blending operations, and you can also use the
 short form #RGB or #RGBA. So if you know in advance that you want to use
 the color white, you can simply use"#fff" instead of rgb(255,255,255).
 
-
 You can create colors other ways by specifying a different
 [color space](/ref/appendix/color-space.md) . A color space can be
 specified by using a [named](/ref/proc/arguments/named.md) "space" argument,
@@ -48,12 +44,12 @@ null to skip it), or by using named arguments for the other components.
 ### Example:
 
 ```dm
- // All of these lines are equivalent. // They create
-(0,100,50) in HSL which is red (#ff0000). src << rgb(0, 100, 50,
-space=COLORSPACE_HSL) src << rgb(0, 100, 50, , COLORSPACE_HSL) src
-<< rgb(h=0, s=100, l=50) 
+// All of these lines are equivalent.
+// They create (0,100,50) in HSL which is red (#ff0000).
+src << rgb(0, 100, 50, space=COLORSPACE_HSL)
+src << rgb(0, 100, 50, , COLORSPACE_HSL)
+src << rgb(h=0, s=100, l=50)
 ```
- 
 
 Named arguments that are
 valid in `rgb()` are:
@@ -68,7 +64,6 @@ valid in `rgb()` are:
 -   `value`
 -   `luminance`
 -   `y` (HCY luminance)
-
 
 With the exception of `space`, only the first letter of the
 argument name matters, so `r` and `red` are the same thing.

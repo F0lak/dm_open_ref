@@ -11,7 +11,6 @@
 **Returns:**
 +   A number.
 
-
 If T is a text string for a number, return the number. Any
 non-numeric text following the initial portion will be ignored. If there
 is no initial numeric portion, the result is null.
@@ -20,8 +19,6 @@ is no initial numeric portion, the result is null.
 ```dm
  var/number = text2num("123") // = 123 
 ```
-
-
 
 The optional radix, which defaults to 10, can be any integer
 from 2 to 36.

@@ -1,7 +1,6 @@
 ## spantext proc 
 ###### BYOND Version 510
 
-
 **Format:**
 +   spantext(Haystack,Needles,Start=1)
 
@@ -14,7 +13,6 @@
 +   Needles: A text string with all the characters that match.
 +   Start: The text byte position in Haystack in which to begin the
     search.
-
 
 This proc is case-sensitive. A common use for this proc is in
 parsing. spantext("apples, oranges",", ",7) will tell you that,

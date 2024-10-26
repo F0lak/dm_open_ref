@@ -12,7 +12,6 @@
     SOUTHEAST, SOUTHWEST.
 +   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
-
 Move Ref in the direction Dir.
 
 > [!TIP] 

@@ -10,7 +10,6 @@
 +   null on failure to execute command
 +   exit code of command otherwise
 
-
 This function is used to run an external program. The syntax of
 Command depends on the server machine\'s operating system. Be sure to
 redirect input and output to files if there is any. Also realize that
@@ -32,13 +31,12 @@ the command is finished executing.
 ### Example:
 
 ```dm
- mob/verb/dir(Path as text) shell("dir [Path] >
-dir.out") usr << file2text("dir.out") 
+mob/verb/dir(Path as text)
+  shell("dir [Path] > dir.out")
+  usr << file2text("dir.out")
 ```
- 
 
-This
-example displays the output of the "dir" command to the user.
+This example displays the output of the "dir" command to the user.
 
 > [!TIP] 
 > **See also:**

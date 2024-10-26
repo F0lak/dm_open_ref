@@ -4,7 +4,6 @@ To avoid lag from procedures that hog the CPU for too long, you
 can turn on background processing. This will cause it to periodically
 sleep for long enough to allow other events to be processed.
 
-
 The following example is a typical "ticker" procedure. It
 spawns off an infinite loop which does some work and then sleeps before
 iterating again. By running this in the background, you ensure that the

@@ -222,6 +222,14 @@ async def bad(ctx):
 	print("bad bot")
 	messages = ["I've been a naughty bot", f"Please don't spank me again!", "So sorry.  I'll do better.", "I'm just glad that you noticed me", "If you don't like it, fix it!"]
 	await ctx.send(random.choices(messages)[0])
+ 
+@bot.command()
+async def praise(ctx, *, user_input = None, user: discord.User = None):
+	print("praise")
+	if user == None:
+		username = user_input or ctx.author.name
+	messages = [f"Great Job, {username}!", f"{username}... You're awesome!", f"{username}, you're doing great!", f"Choo Choo!  Here comes the Hype Train!  Destination {username}", "no"]
+	await ctx.send(random.choices(messages)[0])
 
 @bot.command(
 	aliases=['penref'],

@@ -12,7 +12,6 @@
 +   sides: number of sides to the dice.
 +   dice: a text string encoding both ndice and sides (see below).
 
-
 The sides of the dice are numbered 1 through the total number
 of sides and each is equally likely. 
 
@@ -24,11 +23,13 @@ sum of 3 dice having 4 sides each.
 ### Example:
 
 ```dm
- obj/potion/healing var/dice = "3d6" verb/drink() var/h =
-roll(dice) if(h>15) usr << "Very refreshing!" else usr << "You
-feel better." 
+obj/potion/healing
+  var/dice = "3d6"
+  verb/drink()
+    var/h = roll(dice)
+    if(h>15) usr << "Very refreshing!"
+    else usr << "You feel better."
 ```
-
 
 > [!TIP] 
 > **See also:**

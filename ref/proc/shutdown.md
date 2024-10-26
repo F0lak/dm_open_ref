@@ -10,7 +10,6 @@
     topic. The default value of 0 kills the child, and a value of 1
     waits for the child to exit of its own accord.
 
-
 If no address is specified, the current world is shut down.
 
 > [!TIP] 

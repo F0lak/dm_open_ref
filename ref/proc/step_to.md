@@ -12,7 +12,6 @@
 +   Min: The minimum distance between Ref and Trg before movement halts.
 +   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
-
 Move Ref on a path to the location Trg, taking obstacles into
 account. If Ref is within Min steps of Trg, no action will be taken.
 This is also the case if the target is too far away (more than twice

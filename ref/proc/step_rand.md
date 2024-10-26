@@ -10,7 +10,6 @@
 +   Ref: A mob or obj.
 +   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
-
 Move Ref randomly.
 
 > [!TIP] 

@@ -1,7 +1,6 @@
 ## replacetext proc 
 ###### BYOND Version 510
 
-
 **Format:**
 +   replacetext(Haystack,Needle,Replacement,Start=1,End=0)
 
@@ -18,7 +17,6 @@
 +   End: The text byte position in Haystack immediately following the
     last character to search.
 
-
 When Needle is text, this instruction is NOT sensitive to the
 case of Haystack or Needle. The case-sensitive version is
 replacetextEx(). If the Needle is a lowercase word, the replacement will
@@ -28,9 +26,8 @@ all caps.
 
 ```dm
  world << replacetext("One on one", "one", "two")
-
 ```
- 
+
 
 This outputs "Two on two", where the first case\'s
 "One" is identified as uppercase. 

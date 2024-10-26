@@ -14,18 +14,18 @@
 **Args:**
 +   text: The text to escape
 
-
 Quotes a piece of text so that it can be used inside a regular
 expression without fear of being treated as pattern instructions.
 ### Example:
 
 ```dm
- proc/FindWord(text, word) // The \\b pattern is a word
-break, to search for the word // on its own instead of as part of
-another word. var/regex/R = regex("\\\\b[REGEX_QUOTE(word)]\\b",
-"i") // find the pattern in the text return R.Find(text) 
+proc/FindWord(text, word)
+    // The \b pattern is a word break, to search for the word
+    // on its own instead of as part of another word.
+    var/regex/R = regex("\\b[REGEX_QUOTE(word)]\b", "i")
+    // find the pattern in the text
+    return R.Find(text)
 ```
-
 
 > [!TIP] 
 > **See also:**

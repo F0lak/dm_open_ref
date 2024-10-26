@@ -1,7 +1,6 @@
 ## splittext proc 
 ###### BYOND Version 510
 
-
 **Format:**
 +   splittext(Text,Delimiter,Start=1,End=0,include_delimiters=0)
 
@@ -19,19 +18,18 @@
 +   include_delimiters: True if any delimiters found should be included
     in the result.
 
-
 Splits up a text string and returns a list. The delimiter is
 case-sensitive (unless you use a case-insensitive regular expression),
 and can be more than one character long.
 ### Example:
 
 ```dm
- var/list/items = splittext("apples,oranges,bananas",
-",") // prints "apples", "oranges", and "bananas" separately
-for(var/item in items) usr << item 
+var/list/items = splittext("apples,oranges,bananas", ",")
+// prints "apples", "oranges", and "bananas" separately
+for(var/item in items)
+    usr << item
 ```
  
-
 Where multiple
 delimiters are next to each other, they\'re considered to be separating
 an empty string. Therefore splittext("a,,b,c", ",") would return a
@@ -52,7 +50,8 @@ the string; if you want to split a trimmed string, trim it with
 [copytext()](/ref/proc/copytext.md)  and send the result to
 `splittext()` instead. 
 
-Note: In strings containing non-ASCII
+> [!NOTE]
+> In strings containing non-ASCII
 characters, byte position and character position are not the same thing.
 Use `splittext_char()` to work with character counts instead of bytes,
 at a performance cost. See the [Unicode](/ref/notes/Unicode.md) section

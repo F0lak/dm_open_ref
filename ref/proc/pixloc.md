@@ -30,9 +30,9 @@ the result is null.
 ### Example:
 
 ```dm
- mob/proc/GoToStrangeForest() // in a world with 32x32 icon
-size, this is x=18, y=29, step_x=5, step_y=11 mob.pixloc = pixloc(550,
-907, 1) 
+mob/proc/GoToStrangeForest()
+    // in a world with 32x32 icon size, this is x=18, y=29, step_x=5, step_y=11
+    mob.pixloc = pixloc(550, 907, 1)
 ```
  
 When the pixloc is created with world
@@ -41,8 +41,8 @@ and step_y, starting at a value of 1. The world x and y for any tile and
 step combo can be calculated like so (if for any reason you needed to):
 
 ```dm
- world_x = (tile_x - 1) * pixels_per_x_tile + step_x + 1
-world_y = (tile_y - 1) * pixels_per_y_tile + step_y + 1 
+world_x = (tile_x - 1) * pixels_per_x_tile  + step_x + 1
+world_y = (tile_y - 1) * pixels_per_y_tile + step_y + 1
 ```
 
 > [!TIP] 

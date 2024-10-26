@@ -1,7 +1,6 @@
 ## sha1 proc 
 ###### BYOND Version 513
 
-
 **Format:**
 +   sha1(T)
 +   sha1(F)
@@ -13,7 +12,6 @@
 +   T: A text string.
 +   F: A file.
 
-
 This proc implements SHA1 hashing. A hash function is a one-way
 process that compacts information to a short value: a hash. The same
 value will always have the same hash. Among other uses, most computers
@@ -24,12 +22,15 @@ widely-used hash function.
 ### Example:
 
 ```dm
- mob/var/hash mob/Read(savefile/S) ..() // hash was saved
-in the file along with other values
-if(sha1("[level]/[exp]/[exp_needed]") != hash) src <<
-"Cheater!" del(src) 
+mob/var/hash
+
+mob/Read(savefile/S)
+  ..()
+  // hash was saved in the file along with other values
+  if(sha1("[level]/[exp]/[exp_needed]") != hash)
+    src << "Cheater!"
+    del(src)
 ```
- 
 
 In the example, a few vars
 belonging to a mob were saved along with a hash of those values. When
@@ -46,22 +47,23 @@ The file may be a cache file or an external file.
 ### Examples:
 
 ```dm
- var/hash = "(insert hash value here)" // Compute this
-ahead of time // Check that the cached default icon is still the same if
-(sha1(\'default.dmi\') != hash) world << "The default icon has been
-modified!" // Or check that the entire game resource file is pristine
-if (sha1(file("mygame.rsc")) != hash) world << "The game resources
-have been modified!" 
+var/hash = "(insert hash value here)" // Compute this ahead of time
+
+// Check that the cached default icon is still the same
+if (sha1('default.dmi') != hash)
+  world << "The default icon has been modified!"
+
+// Or check that the entire game resource file is pristine
+if (sha1(file("mygame.rsc")) != hash)
+  world << "The game resources have been modified!"
 ```
- 
 
 Note that you must pass the
 result of [file()](/ref/proc/file.md) in order to compute the hash of
 an external file\'s contents at runtime. Otherwise `sha1()` will treat
 the filename as text and return the hash of the name only. 
 
-If
-`T` is anything but a text string or file, the proc returns null.
+If `T` is anything but a text string or file, the proc returns null.
 
 > [!TIP] 
 > **See also:**

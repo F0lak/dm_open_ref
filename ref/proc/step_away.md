@@ -13,7 +13,6 @@
     halts.
 +   Speed: Speed to move, in pixels. 0 uses Ref.step_size.
 
-
 Move Ref on a path away from location Trg, taking obstacles
 into account. If Ref is farther than Max steps from Trg, no action will
 be taken.

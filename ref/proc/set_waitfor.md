@@ -1,7 +1,5 @@
 ## waitfor setting (proc)
 
-
-
 By default, procs that sleep usually expect their callers to
 wait for them to finish, so the callers must sleep as well. Using
 `set waitfor=0` will disable that behavior, causing any sleep to return

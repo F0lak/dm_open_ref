@@ -12,7 +12,6 @@
 **Returns:**
 +   a text string containing the date and time in the specified format.
 
-
 A time value (UTC) is converted to text representing the time.
 The world\'s local time is used, unless you specify a `timezone`
 argument which will add an offset to UTC. 
@@ -45,7 +44,6 @@ mm
 +   minute
 ss
 +   second
-
 
 Because world.timeofday is in a range of 0 to 864000, values in
 this range are treated as a time for the current date. This way

@@ -11,7 +11,6 @@
 +   Args: a set of arguments that corresponds to the number of empty
     embedded expressions in FormatText.
 
-
 Complicated or lengthy embedded expressions in a text string
 can sometimes make the string difficult to read. In this case, one can
 use trailing arguments. The position in which the expression should be
@@ -20,10 +19,8 @@ passed as an argument after the text string.
 ### Example:
 
 ```dm
- usr << text("You are [] leagues from
-home.",sqrt(usr.x**2 + usr.y**2)) 
+usr << text("You are [] leagues from home.",sqrt(usr.x**2 + usr.y**2))
 ```
-
 
 > [!TIP] 
 > **See also:**

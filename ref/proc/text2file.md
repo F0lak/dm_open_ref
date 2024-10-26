@@ -10,7 +10,6 @@
 **Returns:**
 +   1 on success; 0 otherwise.
 
-
 Appends text to a file. If the file does not exist, one will be
 created. 
 
@@ -20,11 +19,11 @@ have an external program that mimics conversation:
 ### Example:
 
 ```dm
- mob/oracle/verb/tell(T as text) text2file(T,"oracle.in")
-shell("oracle < oracle.in > oracle.out") usr <<
-file2text("oracle.out") 
+mob/oracle/verb/tell(T as text)
+  text2file(T,"oracle.in")
+  shell("oracle < oracle.in > oracle.out")
+  usr << file2text("oracle.out")
 ```
-
 
 > [!TIP] 
 > **See also:**

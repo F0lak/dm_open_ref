@@ -12,11 +12,13 @@
 ### Example:
 
 ```dm
- obj/fruit apple peach mango var/list/fruit_types =
-typesof(/obj/fruit) 
+obj/fruit
+  apple
+  peach
+  mango
+var/list/fruit_types = typesof(/obj/fruit)
 ```
  
-
 In this example, fruit_types is
 initialized to contain /obj/fruit, /obj/fruit/apple, /obj/fruit/peach,
 and /obj/fruit/mango. 
@@ -26,12 +28,18 @@ procs and verbs.
 ### Example:
 
 ```dm
- mob/admin_commands/verb shutdown_world() world.Del()
-reboot_world() world.Reboot() //for testing mob/verb/add_admin() verbs
-+= typesof(/mob/admin_commands/verb) mob/verb/remove_admin() verbs -=
-typesof(/mob/admin_commands/verb) 
-```
+mob/admin_commands/verb
+   shutdown_world()
+      world.Del()
+   reboot_world()
+      world.Reboot()
 
+//for testing
+mob/verb/add_admin()
+   verbs += typesof(/mob/admin_commands/verb)
+mob/verb/remove_admin()
+   verbs -= typesof(/mob/admin_commands/verb)
+```
 
 > [!TIP] 
 > **See also:**

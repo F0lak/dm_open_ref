@@ -1,7 +1,7 @@
 ## round proc
 
 **Format:**
-+   round(A)
++   round(A) <sup><sub>Deprecated</sub></sup>
 +   round(A,B)
 
 **Returns:**
@@ -10,7 +10,6 @@
 **Args:**
 +   A: A number, pixloc, or vector.
 +   B: The nearest multiple to round A.
-
 
 The first format returns the floor of A (the largest integer
 less than or equal to A), and has been deprecated in favor of

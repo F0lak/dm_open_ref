@@ -28,18 +28,14 @@ even necessary when you don\'t need to set any additional parameters.
 ### Example:
 
 ```dm
- usr << \'giggle.wav\' // play a giggle once usr <<
-sound(\'gigue.midi\',1) // repeat gigue usr << sound(\'boom.wav\',
-volume=50) // play an explosion at half volume 
+usr << 'giggle.wav' // play a giggle once
+usr << sound('gigue.midi',1) // repeat gigue
+usr << sound('boom.wav', volume=50) // play an explosion at half volume
 ```
-
-
-
-[*See **Notes** under [sound support](/ref/DM/sound.md) for more
-information.]{.small}
 
 > [!TIP] 
 > **See also:**
+> +   [sound support](/ref/DM/sound.md)
 > +   [sound datum](/ref/sound.md) 
 > +   [vars (sound)](/ref/sound/var.md) 
 > +   [<< output operator](/ref/operator/%3c%3c/output.md) 

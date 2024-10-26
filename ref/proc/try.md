@@ -1,7 +1,6 @@
 ## try and catch statements 
 ###### BYOND Version 508
 
-
 The try and catch keywords are used for error handling. Any
 code that runs inside of a try block will, if an error happens or the
 throw keyword is used, stop executing and jump to the matching catch
@@ -15,12 +14,14 @@ error.
 ### Example:
 
 ```dm
- var/a = 2 try a += "Hello" // will throw a type mismatch
-error catch(var/exception/e) // file and line info is available if you
-enable debugging world.log << "[e] on [e.file]:[e.line]" world
-<< "a is [a]" 
+var/a = 2
+try
+  a += "Hello"  // will throw a type mismatch error
+catch(var/exception/e)
+  // file and line info is available if you enable debugging
+  world.log << "[e] on [e.file]:[e.line]"
+world << "a is [a]"
 ```
- 
 
 Because the value in the catch
 keyword is optional, you can simply use the catch keyword alone. It is

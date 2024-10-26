@@ -8,14 +8,14 @@
 <!------------------------->
 |    Dir    | Val | Binary |
 |-----------|:---:|-------:|
-| NORTH     |  1  | 0001   |
-| SOUTH     |  2  | 0010   |
-| EAST      |  3  | 0100   |
-| WEST      |  4  | 1000   |
-| NORTHEAST |  5  | 0101   |
-| NORTHWEST |  9  | 1001   |
-| SOUTHEAST |  6  | 0110   |
-| SOUTHWEST |  10 | 1010   |
+| NORTH     |  1  |  0001  |
+| SOUTH     |  2  |  0010  |
+| EAST      |  3  |  0100  |
+| WEST      |  4  |  1000  |
+| NORTHEAST |  5  |  0101  |
+| NORTHWEST |  9  |  1001  |
+| SOUTHEAST |  6  |  0110  |
+| SOUTHWEST |  10 |  1010  |
 <!------------------------->
 This is the direction that the object is facing. This has
 little effect unless the object\'s icon is directional. In the case of a

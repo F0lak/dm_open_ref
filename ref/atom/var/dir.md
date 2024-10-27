@@ -5,7 +5,7 @@
 
 **Possible values:**
 +   NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
-<!--table------------------>
+<!--```-------------------->
 |    Dir    | Val | Binary |
 |:----------|:---:|:------:|
 | NORTH     |  1  |  0001  |
@@ -16,7 +16,7 @@
 | NORTHWEST |  9  |  1001  |
 | SOUTHEAST |  6  |  0110  |
 | SOUTHWEST |  10 |  1010  |
-<!------------------------->
+<!--------------------```-->
 This is the direction that the object is facing. This has
 little effect unless the object\'s icon is directional. In the case of a
 directional icon, this selects the corresponding orientation from the

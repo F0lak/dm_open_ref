@@ -5,7 +5,7 @@
 
 **Possible values:**
 +   NORTH, SOUTH, EAST, WEST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
-<!------------------------->
+<!--table------------------>
 |    Dir    | Val | Binary |
 |:----------|:---:|:------:|
 | NORTH     |  1  |  0001  |

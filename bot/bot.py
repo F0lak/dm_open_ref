@@ -28,7 +28,7 @@ repo = user.get_repo("dm_open_ref")
 	
 intents=discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix="!o", intents = intents)
+bot = commands.Bot(command_prefix="?o", intents = intents)
 
 '''
 Commit updates to discord

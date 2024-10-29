@@ -876,7 +876,7 @@ operator has a higher precedence than + the result is 11, not 25 as expected.
 It's equally important to put parentheses around the entire macro for the
 same reason.
 
-<h3>Variadic macros</h3>
+<h3 byondver=511>Variadic macros</h3>
 
 <p>The last parameter of a macro can end in <tt>...</tt> which means that it
 and all other arguments following it count as a single argument. This is
@@ -3163,6 +3163,12 @@ may change the range for screen_loc.)
 be filled with the object at each position.  The southwest and northeast
 corners of the box are indicated in the screen_loc value.
 
+<p>If you use a <tt>screen_loc</tt> outside of the normal map view, extra
+tiles will be added to that side and the map will be clipped. For example, a
+value of <tt>"0,1"</tt> adds an extra column of tiles to the left, but that
+column will be blank except for any screen objects you show there. This is
+used if you want screen objects to provide a border around the map.
+
 <h3>Special keywords</h3>
 
 <p>The edges of the map may also be referenced by using directions, such as
@@ -3193,6 +3199,18 @@ format.
 either side of the map if it doesn't take up the whole map control, is not
 considered usable space. HUD objects aligned to the control edge appear inside
 any letterboxing, not on top of it.
+
+<p byondver=516><tt>SCREEN_SOUTHWEST</tt>, <tt>SCREEN_EAST</tt>, and other
+directions with <tt>SCREEN_</tt> in front will anchor a screen object relative
+to the extent of all other screen objects. That is, if you extend the screen
+beyond the map with another object that uses <tt>0,0</tt>, then
+<tt>SCREEN_SOUTHWEST</tt> will refer to <tt>0,0</tt> instead of the normal
+<tt>1,1</tt> that <tt>SOUTHWEST</tt> would do.
+
+<p>This is especially useful if you're using a
+<a class=code href=#/atom/var/render_source>render_source</a> to copy a plane
+master. The object using <tt>render_source</tt> should be anchored at
+<tt>SCREEN_SOUTHWEST</tt>, which is the corner of the plane.
 
 <h3>Outside the map</h3>
 
@@ -19977,7 +19995,7 @@ bytes, not characters; a character may span multiple bytes. Use
 </dl>
 
 <dl><dt><b>Returns:</b>
-<dd>1 if A &gt; 0, -1 if A &lt; 0, 0 if A == 0
+<dd>An interpolated value between A and B
 </dl>
 
 <dl><dt><b>Args:</b>
@@ -19995,18 +20013,17 @@ B must match, with few exceptions.
 most things. When interpolating objects such as vectors, the returned value
 is always a new value, never a direct copy of A or B.
 
-<p>The types of A and B must match, with few exceptions.
-
 <h3>Example:</h3>
 <xmp>
-usr << lerp(1, 5, 2) // outputs 2
+usr << lerp(1, 5, 0.25)   // outputs 2
 </xmp>
 
 <p>Turfs can be treated like pixlocs in <tt>lerp()</tt>, so you can
 interpolate between turfs. Note that they must have the same Z coordinate.
 
 <p>Matrix interpolation behaves according to the rules in the matrix
-<a class=code href=#/matrix/proc/Interpolate>Interpolate()</a> proc.
+<a class=code href=#/matrix/proc/Interpolate>Interpolate()</a> proc. For
+linear interpolation you need to use <tt>A + (B-A) * factor</tt> instead.
 
 <hr>
 

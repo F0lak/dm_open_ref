@@ -13,6 +13,16 @@
 +   type: A type of profile to use, other than proc profiling.
 +   format: Optional format for output data
 
+### Cheat Sheet:
+The Profile gives information for the following data:
+```json
+"name": proc path
+"self": how long the proc takes to run, not including subordinate calls
+"total": total time the proc takes to run, including subordinate calls
+"real": real time the proc takes (start time - end time)
+"over": how far over a tick the total usage runs
+"calls": how many times the proc was called during profile
+```
 
 Interacts with the built-in server profiler without requiring
 the host to do so via Dream Daemon, or an authorized player via Dream

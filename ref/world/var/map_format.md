@@ -1,22 +1,14 @@
-   [icon_size var (world)](/ref/world/var/icon_size.md) 
-+   [view var (world)](/ref/world/var/view.md) 
-+   [view var (client)](/ref/client/var/view.md) 
-+   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
-+   [Topdown maps](/ref/%7Bnotes%7D/topdown.md) 
-+   [Isometric maps](/ref/%7Bnotes%7D/isometric.md) 
-+   [Side-view maps](/ref/%7Bnotes%7D/side.md) 
-+   [Big icons](/ref/%7Bnotes%7D/big-icons.md) 
-+   [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) 
-+   [Understanding the renderer](/ref/%7Bnotes%7D/renderer.md) 
-<!-- -->
+# map_format var (world)
+
 **Default value:**
 +   TOPDOWN_MAP
-<!-- -->
+
 **Possible values:**
-+   -   TOPDOWN_MAP
-    -   ISOMETRIC_MAP
-    -   SIDE_MAP
-    -   TILED_ICON_MAP
+-   TOPDOWN_MAP
+-   ISOMETRIC_MAP
+-   SIDE_MAP
+-   TILED_ICON_MAP
+
 This value says how the world will display maps. In a normal
 overhead tiled map the value is `TOPDOWN_MAP` for the top-down format.
 For older games that predate this feature, the value is
@@ -27,18 +19,23 @@ HUD objects are not projected into whatever map_format you use and they
 are not affected by changing client.dir. The size of the HUD is rounded
 up to the nearest number of full screen tiles; the size of each tile is
 defined by world.icon_size.
+
+> [!TIP]
+> Some people find it easier to differentiate SIDE_MAP and TOPDOWN_MAP by
+> thinking of them as STANDING_MAP and FLAT_MAP respectively.
+
 ### Top-down format
-(See more at [Topdown maps](/ref/%7Bnotes%7D/topdown.md) .) 
-This is
-the default map format. Icons are drawn in a tile form and viewed from
+(See more at [Topdown maps](/ref/notes/topdown.md) .) 
+This is the default map format. Icons are drawn in a tile form and viewed from
 overhead. In this layout, the layer assigned to each atom is very
 important. The number of tiles shown is set by client.view or
 world.view. 
 Because this format is familiar and easy to
 understand, it is the default setting. Most of the vars related to maps
 and atoms are designed and documented with this format in mind.
-### Tiled icon format {#tiled-icon-format deprecated="1"}
-(See more at [Tiled icons](/ref/%7Bnotes%7D/tiled-icons.md) .) In BYOND 4.0 a
+
+### Tiled icon format (deprecated)
+(See more at [Tiled icons](/ref/notes/tiled-icons.md) .) In BYOND 4.0 a
 new feature was introduced for using \"big\" icons, bigger than the
 standard tile size, by splitting them up into states like \"0,0\",
 \"1,0\", and so on. This functionality is no longer needed since BYOND
@@ -56,10 +53,10 @@ chunks, those chunks are just named \"0,0\" and so on without a space.
 This format is deprecated. It exists to support older games and allow
 them to be compiled without causing them to break, until they can be
 redesigned for one of the newer formats.
+
 ### Isometric format
-(See more at [Isometric maps](/ref/%7Bnotes%7D/isometric.md) .) 
-If
-map_format is set to `ISOMETRIC_MAP`, the map is displayed in isometric
+(See more at [Isometric maps](/ref/notes/isometric.md) .) 
+If map_format is set to `ISOMETRIC_MAP`, the map is displayed in isometric
 form. Isometric tiles are displayed in a foreshortened diagonal
 perspective, where the \"north\" direction actually displays as
 northeast on the player\'s screen, and \"east\" shows up as southeast.
@@ -108,14 +105,28 @@ as a tall building for instance, the tall building is moved back and it
 could be partially covered by other turfs that are actually behind it. A
 mob walking onto a very large non-dense turf icon would experience
 similar irregularities.
-### Side-view format {#side-view-format byondver="482"}
-(See more at [Side-view maps](/ref/%7Bnotes%7D/side.md) ) 
-The
-`SIDE_MAP` format is like a cross between `TOPDOWN_MAP` and
+
+### Side-view format <sub><sup>482</sup></sub>
+(See more at [Side-view maps](/ref/notes/side.md) ) 
+The `SIDE_MAP` format is like a cross between `TOPDOWN_MAP` and
 `ISOMETRIC_MAP`. It looks very similar to a top-down view but it is
 intended for more of a 3/4 perspective, where tiles lower on the screen
 are considered closer to the viewer. Because this impacts the way layers
 work, most of the layering behavior is the same as with isometric.
+> [!NOTE]
+> When using SIDE_MAP, it's almost always desirable to change your
+> default layer variables to the following:
+> ```dm
+> #define AREA_LAYER 1 + BACKGROUND_LAYER
+> #define TURF_LAYER 2 + BACKGROUND_LAYER
+> #define OBJ_LAYER 3
+> #define MOB_LAYER 3
+> 
+> area/layer = AREA_LAYER
+> turf/layer = TURF_LAYER
+> obj/layer = OBJ_LAYER
+> mob/layer = MOB_LAYER
+> ```
 In a 3/4 perspective the tiles are often foreshortened, so
 pixel offsets are adjusted to account for this. For example, you may set
 `world.icon_size` to `"32x24"`, but the tile is considered to be a
@@ -125,5 +136,16 @@ atom will appear one tile further back than it normally is. (This
 adjustment doesn\'t affect screen objects or `pixel_w`/`pixel_z`.)
 Changing `client.dir` preserves the same tile size regardless
 of orientation.
+
 > [!TIP] 
 > **See also:**
+> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
+> +   [view var (world)](/ref/world/var/view.md) 
+> +   [view var (client)](/ref/client/var/view.md) 
+> +   [screen_loc var (movable atoms)](/ref/atom/movable/var/screen_loc.md) 
+> +   [Topdown maps](/ref/notes/topdown.md) 
+> +   [Isometric maps](/ref/notes/isometric.md) 
+> +   [Side-view maps](/ref/notes/side.md) 
+> +   [Big icons](/ref/notes/big-icons.md) 
+> +   [Tiled icons](/ref/notes/tiled-icons.md) 
+> +   [Understanding the renderer](/ref/notes/renderer.md) 

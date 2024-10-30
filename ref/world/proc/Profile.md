@@ -15,7 +15,7 @@
 
 ### Cheat Sheet:
 The Profile gives information for the following data:
-```json
+```cs
 "name": proc path
 "self": how long the proc takes to run, not including subordinate calls
 "total": total time the proc takes to run, including subordinate calls

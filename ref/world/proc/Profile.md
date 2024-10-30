@@ -23,6 +23,7 @@ The Profile gives information for the following data:
 "over": how far over a tick the total usage runs
 "calls": how many times the proc was called during profile
 ```
+The numbers given in the profile are in deciseconds.
 
 Interacts with the built-in server profiler without requiring
 the host to do so via Dream Daemon, or an authorized player via Dream

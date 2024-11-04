@@ -22,7 +22,7 @@ Any combination of:
 +   **PLANE_MASTER**: Groups all other icons in the same plane
 +   **TILE_BOUND**: Avoids more accurate visibility calculations
 +   **PIXEL_SCALE**: Use point sampling when transforming this icon
-+   **PASS_MOUSE**: If this icon has a `render_source`, pass mouse any
++   **PASS_MOUSE**: If this icon has a `render_source`, pass any mouse 
     hits to the render source
 +   **TILE_MOVER**: This atom is always locked to the grid
 

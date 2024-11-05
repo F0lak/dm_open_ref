@@ -216,11 +216,27 @@ async def ncourage(ctx, *, user_input = None, user: discord.User = None):
 async def brr(ctx, *, wat_brr):
 	print(wat_brr)
 	await ctx.send(f"{wat_brr} go brr")
-
+ 
+@bot.command()
+async def bless(ctx, *, wat_brr):
+	print("bless")
+	await ctx.send(f"https://media1.tenor.com/m/8Xlj8cg9L5EAAAAd/god-bless.gif")
+ 
 @bot.command()
 async def bad(ctx):
 	print("bad bot")
 	messages = ["I've been a naughty bot", f"Please don't spank me again!", "So sorry.  I'll do better.", "I'm just glad that you noticed me", "If you don't like it, fix it!"]
+	await ctx.send(random.choices(messages)[0])
+ 
+@bot.command()
+async def hai(ctx):
+	print("hi")
+	await ctx.send("ohai")
+
+@bot.command()
+async def good(ctx):
+	print("good bot")
+	messages = ["Thank you!", f"I exist to please", "You're welcome", "I'm just glad that you noticed me", "I'm glad you like me", "Why are you talking to me?"]
 	await ctx.send(random.choices(messages)[0])
  
 @bot.command()
@@ -239,7 +255,7 @@ async def praise(ctx, *, user_input = None, user: discord.User = None):
 	   		It displays the best match to your search."""
 	)
 async def ref(ctx, *, query="DM"):
-	print(query)
+	print(f"{ctx.guild}: {query}")
 
 	SEARCH_URL = "https://api.github.com/search/code"
 

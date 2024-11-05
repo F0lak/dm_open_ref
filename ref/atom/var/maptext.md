@@ -40,3 +40,4 @@ events such as `MouseDown` or `Click`.
 > +   [pixel_y var (atom)](/ref/atom/var/pixel_y.md) 
 > +   [pixel_w var (atom)](/ref/atom/var/pixel_w.md) 
 > +   [pixel_z var (atom)](/ref/atom/var/pixel_z.md) 
+> +   [MeasureText (client)](ref/client/proc/MeasureText.md) 

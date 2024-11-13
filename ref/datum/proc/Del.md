@@ -5,7 +5,7 @@
 
 **When:**
 +   Called when the object is destroyed, for example by using the `del`
-    instruction.
+    instruction, or during garbage collection.
 
 **Default action:**
 +   Delete the object. The contents of atomic objects are also destroyed
@@ -19,7 +19,7 @@ to be called at that time, you should explicitly call it from
 
 > [!NOTE]
 > **Always** call `..()` at the end of this
-> proc if you override it.
+> proc if you override it. Not doing so will prevent the object from being destroyed.
 
 > [!TIP] 
 > **See also:**

@@ -28,7 +28,22 @@ than `world.fps`, it will be scaled appropriately.
 Whether an object glides or jumps is based on how far it moves relative to its
 `step_size` value, which by default is a full tile width. If the
 movement goes too far past `step_size` in the X or Y directions, it\'s
-no longer a glide. 
+no longer a glide.
+
+To achieve smooth gliding, glide_size should be set to `step_size / ticks`,
+where ticks is the number of world ticks that the movement should be gliding for.
+This can be calculated `max(ceil(step_time / world.tick_lag),1)`. To achieve smooth
+gliding in both pixel movement or tile movement modes, you can create a simple wrapper
+around step() to set up your glide_size:
+
+```dm
+atom/movable
+    proc
+        Step(Dir=src.dir,Dist=src.step_size,Delay=world.tick_lag)
+            step_size = Dist
+            glide_size = step_size / max(ceil(Delay / world.tick_lag),1)
+            return step(src,Dir)
+```
 
 The `animate_movement` var can be used to
 control the way in which an object glides, or suppress gliding

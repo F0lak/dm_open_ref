@@ -29,7 +29,7 @@ Left-clicking on a link will follow the link, but also generate other
 events such as `MouseDown` or `Click`.
 
 ### Example:
-``` 
+```dm
 obj/mapTextHolder
 		maptext = "Hello World" // Displays 'Hello World'
 ```  

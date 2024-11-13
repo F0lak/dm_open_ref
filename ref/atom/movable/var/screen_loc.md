@@ -113,8 +113,8 @@ should always have a unique `id`.
 Attempting to add an object to the client's screen with an invalid
 screen loc string will produce a runtime error. However, an empty,
 or null screen loc will produce no such error. A screen object can be
-prevented from drawing itself by temporarily emptying its screen_loc,
-but will retain its position in the screen list.
+prevented from drawing on the screen by temporarily emptying its screen_loc,
+but will retain its precedence in the screen list.
 
 > [!TIP] 
 > **See also:**

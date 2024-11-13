@@ -39,9 +39,9 @@ around step() to set up your glide_size:
 ```dm
 atom/movable
     proc
-        Step(Dir=src.dir,Dist=src.step_size,Delay=world.tick_lag)
+        Step(Dir=src.dir, Dist=src.step_size, Delay=world.tick_lag)
             step_size = Dist
-            glide_size = step_size / max(ceil(Delay / world.tick_lag),1)
+            glide_size = step_size / max( ceil( Delay / world.tick_lag ) , 1 )
             return step(src,Dir)
 ```
 

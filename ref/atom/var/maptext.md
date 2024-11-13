@@ -28,6 +28,11 @@ Maptext supports links with the `<a>` tag.
 Left-clicking on a link will follow the link, but also generate other
 events such as `MouseDown` or `Click`.
 
+``` 
+obj/mapTextHolder
+		maptext = "Hello World"
+```  
+
 > [!TIP] 
 > **See also:**
 > +   [maptext_width var (atom)](/ref/atom/var/maptext_width.md) 

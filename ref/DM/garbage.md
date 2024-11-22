@@ -73,7 +73,8 @@ can otherwise be a great source of instability and mysterious bugs.
 > When the `del` instruction is used on an object, the engine will instantly delete the object
 > should its reference count only include the reference passed to the del instruction. If the object's
 > reference count does not satisfy this requirement, the garbage collector will scan through the
-> following in this order, eliminating any references that are found until the refcount reaches 0:
+> following in this order, eliminating any references that are found until the passed reference is
+> the last one remaining:
 > +   Currently running procs
 > +   Several internal global structures
 > +   Every client and their vars

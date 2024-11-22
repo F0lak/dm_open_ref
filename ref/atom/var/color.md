@@ -11,6 +11,9 @@
     (e.g., `"#00ff00"` for green)
 +   a [color matrix](/ref/notes/color-matrix.md)  (in list form)
 
+> [!NOTE]
+> values `"white"` and `"#ffffff"` will evaluate to `null`
+
 
 Controls the color of the icon displayed on players\' screens.
 This color is multiplied by the icon, so that a white icon will become

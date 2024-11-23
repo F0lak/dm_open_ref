@@ -205,11 +205,22 @@ def special_characters(text) -> str:
 	text = text.replace("```dm", "``` cs")
 	return text
 
-@bot.command()
+@bot.command(
+	brief="Oncouragement when you need it most!",
+	help="Encourages the person you tagged, or yourself if you don't specify"
+	)
 async def ncourage(ctx, *, user_input = None, user: discord.User = None):
 	if user == None:
 		username = user_input or ctx.author.name
 	messages = [f"You can do it, {username}", f"Go gettem, {username}", f"I believe in you, {username}"]
+	await ctx.send(random.choice(messages))
+ 
+@bot.command(
+	brief="Spread the word of the best of the pokemon",
+	help="Sends a random Magikarp gif"
+	)
+async def karp(ctx):
+	messages = ["https://tenor.com/bRAZh.gif", "https://tenor.com/sHCP.gif", "https://tenor.com/bnwlh.gif", "https://tenor.com/o13zC8E8YeO.gif", "https://tenor.com/byqC1.gif", "https://www.youtube.com/watch?v=H3x3-22Gi3g"]
 	await ctx.send(random.choice(messages))
 
 @bot.command()
@@ -217,29 +228,52 @@ async def brr(ctx, *, wat_brr):
 	print(wat_brr)
 	await ctx.send(f"{wat_brr} go brr")
  
-@bot.command()
-async def bless(ctx, *, wat_brr):
+@bot.command(
+	brief="Blessings!",
+	help="Blessings bestowed upon thee!"
+	)
+async def bless(ctx):
 	print("bless")
 	await ctx.send(f"https://media1.tenor.com/m/8Xlj8cg9L5EAAAAd/god-bless.gif")
  
-@bot.command()
+@bot.command(
+	brief="hugs!",
+	help="send a hug gif"
+	)
+async def hug(ctx):
+	print("hug")
+	await ctx.send(f"https://tenor.com/bf6qM.gif")
+ 
+@bot.command(
+	brief="Punish Oref!",
+	help="o-ref has been naughty!  Let the bot know by punishing it!"
+	)
 async def bad(ctx):
 	print("bad bot")
 	messages = ["I've been a naughty bot", f"Please don't spank me again!", "So sorry.  I'll do better.", "I'm just glad that you noticed me", "If you don't like it, fix it!"]
 	await ctx.send(random.choices(messages)[0])
  
-@bot.command()
+@bot.command(
+	brief="greetings!",
+	help="salutations!"
+	)
 async def hai(ctx):
 	print("hi")
 	await ctx.send("ohai")
 
-@bot.command()
+@bot.command(
+	brief="Good bot!",
+	help="Give the bot positive reinforcement for doing what it's supposed to... for once!"
+	)
 async def good(ctx):
 	print("good bot")
 	messages = ["Thank you!", f"I exist to please", "You're welcome", "I'm just glad that you noticed me", "I'm glad you like me", "Why are you talking to me?"]
 	await ctx.send(random.choices(messages)[0])
  
-@bot.command()
+@bot.command(
+	brief="Sends Praise!",
+	help="(Usually) sends praise towards whomever you tag, or yourself if you don't specify."
+	)
 async def praise(ctx, *, user_input = None, user: discord.User = None):
 	print("praise")
 	if user == None:

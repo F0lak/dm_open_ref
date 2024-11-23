@@ -69,7 +69,7 @@ this automatically nulls out any existing references to the object, so
 you don\'t end up with dangling references to a deleted object, which
 can otherwise be a great source of instability and mysterious bugs.
 
-> [!TIP]
+> [!IMPORTANT]
 > When the `del` instruction is used on an object, the engine will instantly delete the object
 > should its reference count only include the reference passed to the del instruction. If the object's
 > reference count does not satisfy this requirement, the garbage collector will scan through the

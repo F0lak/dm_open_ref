@@ -69,6 +69,31 @@ this automatically nulls out any existing references to the object, so
 you don\'t end up with dangling references to a deleted object, which
 can otherwise be a great source of instability and mysterious bugs.
 
+> [!IMPORTANT]
+> When the `del` instruction is used on an object, the engine will instantly delete the object
+> should its reference count only include the reference passed to the del instruction. If the object's
+> reference count does not satisfy this requirement, the garbage collector will scan through the
+> following in this order, eliminating any references that are found until the passed reference is
+> the last one remaining:
+> +   Currently running procs
+> +   Several internal global structures
+> +   Every client and their vars
+> +   DM pointers
+> +   Temporary objects awaiting SendMaps
+> +   The internal last animate() placeholder (this is cleared every tick)
+> +   BYONDapi (clears the refcount based on how many references BYONDapi says it holds)
+> +   Queued procs (spawned / slept calls)
+> +   Background procs (procs waiting on blocking calls)
+> +   Global vars
+> +   Tags
+> +   datum vars (including atoms and other types derived from datum, except for turfs)
+> +   user-defined lists
+> +   Mouse pointers in appearances
+> +   If the object is an appearance, scan global appearances
+> +   Internal Move() caches
+> +   Filter references
+> +   turf vars
+
 > [!TIP] 
 > **See also:**
 > +   [del proc](/ref/proc/del.md) 

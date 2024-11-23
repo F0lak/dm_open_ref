@@ -61,6 +61,7 @@ The cycle repeats when TimeLib_TickServer() is called again.
 > - [animate proc](/ref/proc/animate.md)
 > - [background setting (proc)](/ref/proc/set_background.md)
 > - [Understanding the Renderer](ref/notes/rendering/overview.md)
+> - [SendMaps](ref/notes/sendmaps.md)
 > - [Garbage Collection](/ref/DM/garbage.md)
 > - [BYONDapi](/ref/appendix/Byondapi.md)
 > - [GetAPI proc (client)](/ref/client/proc/GetAPI.md)

@@ -6,6 +6,7 @@ world/proc
 +   [AddCredits](/ref/world/proc/AddCredits.md) 
 +   [ClearMedal](/ref/world/proc/ClearMedal.md) 
 +   [Del](/ref/world/proc/Del.md) 
++   [Error](/ref/world/proc/Error.md) 
 +   [Export](/ref/world/proc/Export.md) 
 +   [GetConfig](/ref/world/proc/GetConfig.md) 
 +   [GetCredits](/ref/world/proc/GetCredits.md) 

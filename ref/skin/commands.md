@@ -4,10 +4,10 @@
 Several commands can be executed on the client that are not
 verbs, but instructions for Dream Seeker. Some of these commands have
 detailed syntax described in their own reference entries.
-[.winset](/ref/skin/commands/.winset.md) 
+[.winset](/ref/skin/.winset.md) 
 +   Sets skin parameters, and includes special syntax for conditional
     actions.
-[.output](/ref/skin/commands/.output.md) 
+[.output](/ref/skin/.output.md) 
 +   Sends output to a control.
 .options
 +   Shows the Options & Messages box.
@@ -35,7 +35,7 @@ detailed syntax described in their own reference entries.
 .command
 +   Prompts the user to enter a command, which can be one of these
     commands as well.
-[.sound](/ref/skin/commands/sound.md) 
+[.sound](/ref/skin/.sound.md) 
 +   Play, stop, or update sound.
 .configure *option* *value*
 +   Toggle certain Dream Seeker config options, such as

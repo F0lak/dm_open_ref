@@ -4,26 +4,26 @@ import pypandoc
 import cProfile
 
 """
- DM Reference Defucker 2000, by F0lak.
- 
- Here's my little script for splitting the DM Reference into markdown files
- 
- HOW TO USE:
-  All that you need to do is run the script
-  
- HOW IT WORKS:
-  The script finds info.dm in the same folder as this script
-  First it splits the html file into a list of strings using horizontal rules (<hr>) as the delimiter
-  It loops through all of the strings and does the following:
-  - parses the file names and relative paths from the string
-  - cleans up the file path and file names to prep for writing to disk
-  - reformats the strings from html to markdown
-  - cleans up the markdown for display on github.com
-  - writes the files to disk, mimicking the tree that the original reference uses
-  
-  After that, you're left with a big ol' tree of files that you can do what you want with.
-	
- (I'm a humble cook, not a programmer, so my apologies if the code isn't up to snuff!)
+DM Reference Defucker 2000, by F0lak.
+
+Here's my little script for splitting the DM Reference into markdown files
+
+HOW TO USE:
+	All that you need to do is run the script
+
+HOW IT WORKS:
+	The script finds info.dm in the same folder as this script
+	First it splits the html file into a list of strings using horizontal rules (<hr>) as the delimiter
+	It loops through all of the strings and does the following:
+	- parses the file names and relative paths from the string
+	- cleans up the file path and file names to prep for writing to disk
+	- reformats the strings from html to markdown
+	- cleans up the markdown for display on github.com
+	- writes the files to disk, mimicking the tree that the original reference uses
+
+	After that, you're left with a big ol' tree of files that you can do what you want with.
+
+(I'm a humble cook, not a programmer, so my apologies if the code isn't up to snuff!)
 """
 
 BUILD_HTML : bool = False
@@ -49,8 +49,8 @@ def write_file(text, file_name) -> None:
 	'''
 	output_file = os.path.join(f'{file_name}')
 	with open(output_file, 'w', encoding='utf-8') as file:
-		file.write(text)  
-  
+		file.write(text)
+
 def clean_file(file_name) -> None:
 	'''
 		Checks if a file exists and runs a markdown cleanup on it
@@ -62,7 +62,7 @@ def clean_file(file_name) -> None:
 			file.seek(0)
 			file.write(file_text)
 			file.truncate()
-   
+
 def clean_subdirectories(root_dir) -> None:
 	'''
 		Organizes the file and folder tree to mimic the BYOND reference
@@ -77,15 +77,15 @@ def clean_directory(directory) -> None:
 	'''
 	items = os.listdir(directory)
 	files = [file for file in items if os.path.exists(os.path.join(directory, file))]
-	
+
 	if len(files) == 1:
 		file_to_move = os.path.join(directory, files[0])
 		parent_dir = os.path.dirname(directory)
 		shutil.move(file_to_move, parent_dir)
-		
+
 		if not os.listdir(directory):
 			os.rmdir(directory)
-	
+
 	elif len(files) == 0:
 		os.rmdir(directory)
 
@@ -106,7 +106,7 @@ def build_file_tree() -> None:
 	'''
 	print("Building file tree")
 	for html_text in parts:
-		
+
 		md_text = pypandoc.convert_text(prep_html_file(html_text), "md", format="html")
 		md_title = clean_filenames(set_title(md_text, "md"))
 		html_title = clean_filenames(set_title(html_text, "html"))
@@ -126,13 +126,13 @@ def build_file_tree() -> None:
 
 			link_dict[f"{dirty_file_path}/{md_title}"] = f"{pruned_file_path}\\{md_title}.md"
 			pages.append(Page(f"{markdown_directory}\\{pruned_file_path}", f"{md_title}", "md", md_text))
-			
+
 			if BUILD_HTML == True:
 				pages.append(Page(f"{html_directory}\\html\\{pruned_file_path}", f"{md_title}", "html", html_text))
 
 				global index
 				index += f"<a href = \"html\\{pruned_file_path}\\{md_title}.html\">{md_title}</a></ br>\n"
- 
+
 def clean_markdown_files() -> list:
 	'''
 		Cleans up the formatting on every markdown file.
@@ -165,7 +165,7 @@ def copytext(text, start_delimiter, end_delimiter, start_closer="") -> str:
 		return text
 	else:
 		return ""
- 
+
 def set_title(text, extension) -> str | None:
 	'''
 		Sets the title of the file, based on the extension, using some data in the file to generate the filename
@@ -187,7 +187,7 @@ def set_title(text, extension) -> str | None:
 	else:
 		return None
 
-def clean_filenames(text) -> str: 
+def clean_filenames(text) -> str:
 	'''
 		Strips illegal characters from file names
 		Also performs minor cleanup of the file name
@@ -223,13 +223,13 @@ def clean_filenames(text) -> str:
 			text = text.replace(text[start_index:end_index], "")
 
 	return text
-   
+
 def clean_markdown_file(text) -> str:
 	'''
 		Cleans up and finalizes the formatting of markdown files
 	'''
 	# Most of these are leftovers from pypandoc's parsing
- 
+
 	if BUILD_FILE_TREE:
 		text = clean_empty_lines(text)
 		text = move_see_also(text)
@@ -254,7 +254,7 @@ def clean_markdown_file(text) -> str:
 		text = text.replace("\]", "]")
 		text = text.replace("\*", "*")
 	return text
-  
+
 def clean_empty_lines(text) -> str:
 	'''
 		Removes empty lines
@@ -290,9 +290,9 @@ def fix_links(text) -> str:
 		else:
 			new_link = f"](/ref/{path}.md) "
 		result.append(new_link)
-		
+
 		i = end_index + 1
-	
+
 	return ''.join(result)
 
 def clean_version(text) -> str:
@@ -326,7 +326,7 @@ def clean_inline_code(text) -> str:
 				if text[close_bracket_index+1:close_bracket_index+2] == '(':
 					close_paren_index = text.find(')', close_bracket_index)
 					code_index = close_paren_index + 1
-					
+
 					if text[code_index:code_index+7] == '{.code}':
 						link_name = text[close_bracket_index+2:close_paren_index]
 						fixed_text += f'[`{path}`]({link_name})'
@@ -356,25 +356,25 @@ def move_see_also(text) -> str:
 		tiptext = replacement_text.replace("\n", "\n> ")
 		if replacement_text:
 			text = text.replace(replacement_text, "") + f"\n\n> [!TIP] \n> {tiptext}"
-  
+
 	return text
-        
+
 def prep_html_file(text) -> str:
 	'''
 		Preps an html file for conversion to markdown by converting tags that would otherwise be
-  		stripped into tokens that will not be removed during conversion
+		stripped into tokens that will not be removed during conversion
 	'''
 	text = text.replace("<p>", "PARAGRAPH")
 	text = text.replace("<xmp>", "CODE_TICKS_DM")
 	text = text.replace("</xmp>", "CODE_TICKS")
 	text = text.replace("<p class=note>", "NOTE")
 	return text
-  
+
 class Page:
 	'''
 		Page object that represents a new file to be written to disk
 	'''
-	def __init__ (self, path, title, extension, text): 
+	def __init__ (self, path, title, extension, text):
 		self.title: str = title
 		self.path: str = path
 		self.text: str = text
@@ -389,11 +389,11 @@ class Page:
 	def add_to_index(self) -> None:
 		global index
 		index += f"<a href = \"f\"{self.path}\\{self.title}.{self.extension}\"{self.title}</a></ br>\n"
-        
+
 if __name__ == "__main__":
 	profiler = cProfile.Profile()
 	profiler.enable()
-    
+
 	script_directory = os.path.dirname(os.path.abspath(__file__))
 	input_file = os.path.join(script_directory, SOURCE_FILE)
 	markdown_directory = os.path.join(script_directory) + "\\ref"
@@ -408,7 +408,7 @@ if __name__ == "__main__":
 		link_dict	: dict = {}
 		pages	: list = []
 		index	: str = ""
-	
+
 		if os.path.exists("index.html"):
 			os.remove("index.html")
 
@@ -421,11 +421,10 @@ if __name__ == "__main__":
 		build_file_tree()
 
 		make_files()
-  
+
 	clean_markdown_files()
 
 	print("All done")
- 
+
 	profiler.disable()
 	profiler.dump_stats("profile.prof")
-		

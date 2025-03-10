@@ -14,6 +14,10 @@ This is most useful for writing a client-side savefile, but any type of
 file may be stored. The purpose of this is to exchange information
 between different worlds running under the same hub path. 
 
+> [!TIP]
+> This file can be found in the BYOND Documents folder on the users machine under the following path:
+> `..\Documents\BYOND\KeyInfo\ckey\<worldid>.sav`
+
 When
 a file is exported to the player\'s computer, it replaces any previous
 file stored by a game with the same `world.hub` value. This should not

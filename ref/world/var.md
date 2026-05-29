@@ -1,5 +1,6 @@
 ## vars (world)
 
+New procs and vars cannot be defined under /world.  Define them globally instead.
 
 Built-in world vars:
 world/var

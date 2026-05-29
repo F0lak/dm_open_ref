@@ -25,4 +25,4 @@ data to produce new icons dynamically. This is done by creating an
 > +   [icon](/ref/icon/icon.md) 
 > +   [icon var (atom)](/ref/atom/var/icon.md) 
 > +   [icon_state var (atom)](/ref/atom/var/icon_state.md) 
-> +   [image objects](/ref/image.md) 
+> +   [image objects](/ref/image/image.md) 

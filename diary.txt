@@ -1,0 +1,50 @@
+
+PROJECT GOALS:
+    Learn Github Actions CI pipeline
+    Update refsplitter.py from dom_open_ref to be more maintainable
+    Expand python knowledge beyond the basics that I learned before,
+        leaning into OOP design and project organization
+
+The problems:
+    BYOND's built-in documentation is often lacking in its descriptions and the organization can be difficult for newcomers to navigate.
+    My last attempt 2 years ago to rectify this was haphazard and not very maintainable, as well as very static in its implementation. It also no longer works.
+    The output of the last solution only formatted a mirrored reference for use with dm_open_ref, making its utility very limited.
+
+The Solution:
+    Rewrite the parser from the ground up with the goals of maintainability, clean design, and wider utility.
+    The final product should be extendible, and natively support outputs for BYOND's native format, and oref.
+
+
+#-----------------------------------------------------------------------------------------------------------------------------#
+This will be an updated version of the dmo_open_ref (oref) reference splitter.
+
+The splitter will take the DM Reference html file and split it into RefEntry classes.
+The RefEntry class will take that content and split it into more modularly digestible content.
+RefEntry should have methods to serve its content in different formats.
+This way, its content can be served in formats across different use cases such as:
+    - rebuilding as the BYOND native prettyref document
+    - markdown output for the oref repository
+    - custom (or customizable) formatting for external use (ie dmoide)
+
+The RefEntry's will all be assigned to a RefNode which will live in the RefTree.
+
+The RefTree should mirror BYOND's object tree.
+
+I'm going to give myself one week to complete this module.
+The goals are:
+    Phase 0: Set up pytests and CI pipeline
+    Phase 1: PrettyRef extraction (2 days)
+        digest and extract raw content from prettyref.html\(use old_refsplitter.py for reference)
+        build the RefEntrys using the raw content in a logical format that can be formatted easily.
+    Phase 2: Building the tree (0.5 days)
+        build the RefTree using refnodes for the hierarchy.
+    Phase 3: Packaging (3 days)
+        Serve the RefTree in different formats, such as
+            md file format for oref repository*
+            rebuilding prettyref.html from custom content
+            A custom reference format that makes more sense for BYOND itself
+        *md formatting is a must-have, the rest are stretch goals
+
+    Phase 4: Release (CC0)
+        Release the project under CC0 on its own repository
+

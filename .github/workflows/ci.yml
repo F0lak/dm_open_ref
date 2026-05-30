@@ -18,13 +18,11 @@ jobs:
       uses: actions/setup-python@v5
       with:
         python-version: '3.14'
-        cache: 'pip'
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-        # Include pytest if you are using it for regression testing
         pip install pytest 
 
     - name: Run Tests

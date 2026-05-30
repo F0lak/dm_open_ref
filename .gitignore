@@ -1,2 +1,10 @@
-__pycache__
-*pyc
+# Python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pytest cache
+.pytest_cache/
+
+*/__pycache__/

@@ -9,3 +9,14 @@ def func(x: int) -> int:
 def test_answer() -> None:
     '''Runs test for the answer'''
     assert func(3) == 4
+
+def failing_test() -> None:
+    '''A deliberately failing test'''
+    assert 1 == 1
+    assert 1 == 2
+    assert 2 == 2
+
+def passing_test() -> None:
+    '''A deliberately passing test'''
+    assert 1 == 1
+    assert "tits" == "tits"

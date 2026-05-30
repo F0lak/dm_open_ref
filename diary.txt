@@ -32,7 +32,7 @@ The RefTree should mirror BYOND's object tree.
 
 I'm going to give myself one week to complete this module.
 The goals are:
-    Phase 0: Set up pytests and CI pipeline
+    Phase 0: Set up pytests and CI pipeline [completed 05-29]
     Phase 1: PrettyRef extraction (2 days)
         digest and extract raw content from prettyref.html\(use old_refsplitter.py for reference)
         build the RefEntrys using the raw content in a logical format that can be formatted easily.
@@ -48,3 +48,16 @@ The goals are:
     Phase 4: Release (CC0)
         Release the project under CC0 on its own repository
 
+[05-29-2026]
+    Tonight I started work on the project in earnest.
+    With the goal in mind of getting to know the Github Actions and CI workflow, I started by getting pytest installed and set up some basic unit tests for myself to play with
+    From there, I set up the Actions workflow on github and published the repo.
+    After that, I dug into working on fetching the reference.
+    At first I was going to check the users computer, but I decided against that since the user may be using an outdated version.
+    This way, the onus is on BYOND to be publishing to the ref more regularly, and honestly, it's just easier and cleaner this way.
+    A future feature may be to add a program argument on startup to fetch remote or local, but for now, remote is fine.
+    Once I had the ref being pulled properly, I implemented three unit tests to check the following:
+        the url is correct
+        the timeout isn't above 10 seconds
+        ensure the ref is available and fetched.
+    that last test is flagged as a network test, and omitted from the github action, but will run locally when pytest is ran.  Pretty nifty.

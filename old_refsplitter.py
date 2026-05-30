@@ -1,6 +1,6 @@
 import os
 import shutil
-import pypandoc
+import pypandoc # type: ignore
 import cProfile
 
 """

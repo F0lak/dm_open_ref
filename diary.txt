@@ -93,3 +93,37 @@ The goals are:
 
         end goal for Phase 1:
             explore mock testing and look into implementing mock tests to ensure proper data flow
+
+[01-06-2026] (9:30 am)
+    Started today by removing the old ref splitter files from the repo, and reorganizing the file tree
+    Then I set forth on intalling beautifulsoup to begin parsing the dm reference file.
+
+    So the first thing I'll have to do is identify how the reference files are organized.
+    I'll start my search in the old splitter script, as I imagine most of what I'm looking to do I already did back then.
+
+    (1pm)
+    So, working on the ref splitter for the last few hours, I tried to start by just naievely parsing the info.html file
+    This was a total mess, because it was written using extremely legacy rules, so none of the tags are properly closed, for example.
+    I've realized that my best course of action will be to let bs4's parser apply standard rules to the source file before extracting the useful info.
+    Once I've got the document parsed into a standard format, I can then use that with bs4 to extract the proper information and begin to populate RefEntry's.
+    So, my plan of attack is to, instead of try to "fix" the source html file, I'm going to extract the relevant information and use that to build o_refs markdown files.
+
+    Once I've got the RefEntry class standardized, I can then use that to rebuild a "clean ref" html files,
+    using some of the rules I've uncovered with info.html to make sure that it conforms to the expected format, but is just a bit cleaner.
+    I also found that I can test this myself by just swapping out the local html file, so assuming that the web ref displays it following the same ruleset,
+    then if I can get this working locally, it should work with the webref as well.
+
+    This will all, of course, be second to the main goal, of populating the md files that oref will end up using.
+    Alternatively, I may also look into using Github to host orefs open reference.
+    This could be either html that can be used by both the bot and byond for a simpler source of truth, or it could host the md, and then have a script
+    to consolidate the oref into the dmref format.  Either or.
+
+    But for now, we move on to the RefEntry extraction.
+
+    I've got the entries extracting information correctly.  Now to set out for parsing the "See also" lists.
+    Once I get this done I'll take a break, I've been at this for almost 6 hours already.
+    It looks like what I need to do is find the <dl> tags and their grandchild <b> tag that says "See Also:".
+    Probably not a perfect solution, but c'est la vie.  We only need to get it with the first pass, and then we can fix it up later, once the source ref is cleaner.
+
+    (3pm)
+    Alright, got the relative paths populating correctly.

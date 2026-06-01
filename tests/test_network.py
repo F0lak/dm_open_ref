@@ -4,7 +4,7 @@ currently only checks if the BYOND reference can be accessed
 """
 
 import pytest
-from dm_ref import DMRef
+from src.dm_ref import DMRef
 
 @pytest.mark.network
 def test_fetch_ref_from_byond_server() -> None:

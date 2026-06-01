@@ -16,3 +16,13 @@ def test_timeout_safeguard() -> None:
     with pytest.raises(ValueError, match=safe_regex):
         DMRef(timeout_seconds=15)
     print("Timeout safeguard in place")
+
+@pytest.mark.network
+def test_fetch_ref_from_byond_server() -> None:
+    """creates a DMRef object and attempts to download the reference from BYOND remote"""
+    ref: DMRef = DMRef()
+
+    if ref.ref_str == "" :
+        pytest.fail(f"Could not fetch remote reference: {ref.error_code}")
+
+    print(f"reference file is {len(ref.ref_str)} characters long")

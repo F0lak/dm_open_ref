@@ -8,3 +8,7 @@ __pycache__/
 .pytest_cache/
 
 */__pycache__/
+
+
+old_bot.py
+old_refsplitter.py 

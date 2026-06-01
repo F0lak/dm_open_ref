@@ -32,23 +32,38 @@ The RefTree should mirror BYOND's object tree.
 
 I'm going to give myself one week to complete this module.
 The goals are:
-    Phase 0: Set up pytests and CI pipeline [completed 05-29]
-    Phase 1: PrettyRef extraction (2 days)
-        digest and extract raw content from prettyref.html\(use old_refsplitter.py for reference)
-        build the RefEntrys using the raw content in a logical format that can be formatted easily.
-    Phase 2: Building the tree (0.5 days)
-        build the RefTree using refnodes for the hierarchy.
-    Phase 3: Packaging (3 days)
+    Phase 0: Set up pytests and CI pipeline (1/2 hours) 
+        [completed 05-29] (1 hrs total)
+
+    Phase 1: PrettyRef extraction (3/16 hours)
+        Digest and extract raw content from prettyref.html\(use old_refsplitter.py for reference)
+        Build the RefEntrys using the raw content in a logical format that can be formatted easily.
+
+    Phase 2: Building the tree (0/4 hours)
+        Create RefNode class from RefEntry, to handle tree placement
+        Build the RefTree using RefNodes for the hierarchy.
+
+    Phase 3: Packaging (0/21 hours)
         Serve the RefTree in different formats, such as
             md file format for oref repository*
             rebuilding prettyref.html from custom content
             A custom reference format that makes more sense for BYOND itself
         *md formatting is a must-have, the rest are stretch goals
 
-    Phase 4: Release (CC0)
-        Release the project under CC0 on its own repository
+    Phase 4: Release (0/6 hours)
+        Tidy up remaining files
+        Review .gitignore
+        Add missing documentation
+        Update and proof-read Readme file.
+        Add images and possibly video to the readme
+        (stretch goal: clean up commit history to make it portfolio ready)
+        Release the project under CC0
 
-[05-29-2026]
+#-----------#
+#   DIARY   #
+#-----------#
+
+[05-29-2026] (3 hour session)
     Tonight I started work on the project in earnest.
     With the goal in mind of getting to know the Github Actions and CI workflow, I started by getting pytest installed and set up some basic unit tests for myself to play with
     From there, I set up the Actions workflow on github and published the repo.
@@ -61,3 +76,20 @@ The goals are:
         the timeout isn't above 10 seconds
         ensure the ref is available and fetched.
     that last test is flagged as a network test, and omitted from the github action, but will run locally when pytest is ran.  Pretty nifty.
+
+    Did some minor reorganizing.  Ended up splitting the unit tests and network test into separate files, and updated the CI flow to only run the unit test file for now.
+    I'm pretty happy with the work today.  I'm about 25% of the way through Phase 1 now that the reference fetching and tests are in place.
+    I'll have to really grind out the next session.
+
+    Next Session Todo:
+        Reorganize project file structure: move main files into src/ folder and ensure it still runs.  This'll save me later.
+        Begin development on the ref_splitter class to isolate reference entries, extract information, and strip formatting
+        pass the data into RefEntry class
+
+        unit tests for this section should be:
+            ensure all formatting has been stripped away
+            ensure no ref entries are empty
+            ensure the number of ref entrys is correct (this one will be tricky)
+
+        end goal for Phase 1:
+            explore mock testing and look into implementing mock tests to ensure proper data flow

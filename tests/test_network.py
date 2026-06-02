@@ -12,5 +12,5 @@ def test_fetch_ref_from_byond_server() -> None:
     ref: DMRef = DMRef()
     ref.fetch_web_ref()
 
-    assert len(ref.ref_str) > 0
-    print(f"reference file is {len(ref.ref_str)} characters long")
+    assert len(ref.ref_info) > 0
+    print(f"reference file is {len(ref.ref_info)} characters long")

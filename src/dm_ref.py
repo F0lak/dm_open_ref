@@ -15,7 +15,7 @@ class DMRef:
     timeout_seconds: int = 10
     timeout_error_message = "Timeout exceeds maximum value (10 seconds)"
 
-    ref_str: str = ""
+    ref_info: str = ""
 
     def __post_init__(self) -> None:
         if self.timeout_seconds > 10:
@@ -30,5 +30,5 @@ class DMRef:
         '''
         response = requests.get(self.dm_ref_url, timeout=self.timeout_seconds)
         response.raise_for_status()
-        self.ref_str = response.text
-        return self.ref_str
+        self.ref_info = response.text
+        return self.ref_info

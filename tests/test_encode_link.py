@@ -4,7 +4,7 @@ Series of tests ran on the ref_splitter's encode_link() function
 
 import pytest
 from src.ref_splitter import RefSplitter
-from bs4 import BeautifulSoup, Tag
+from bs4 import Tag
 
 @pytest.mark.unit
 def test_encode_link() -> None:

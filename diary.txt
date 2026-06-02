@@ -35,8 +35,8 @@ The goals are:
     Phase 0: Set up pytests and CI pipeline (1/2 hours) 
         [completed 05-29] (1 hrs total)
 
-    Phase 1: PrettyRef extraction (8.5/16 hours)
-        Digest and extract raw content from prettyref.html\(use old_refsplitter.py for reference)
+    Phase 1: PrettyRef extraction (13.5/16 hours)
+        Digest and extract raw content from info.html\(use old_refsplitter.py for reference)
         Build the RefEntrys using the raw content in a logical format that can be formatted easily.
 
     Phase 2: Building the tree (0/4 hours)
@@ -169,3 +169,18 @@ The goals are:
     That /might/ be fine for now, but I will probably end up passing that off on to the RefTree at some point, so that the source of truth
     isn't kept on an ephemeral object.
     Like, it's not a huge deal, since the whole thing is meant to just run and finish, but. meh.  Thoughts to be had at least.
+
+    Alright.  Finished the night off by getting the test framework cleaned up, and learned about paramterization and fixturing with pytest.
+    nifty little features that let me test multiple inputs, and scope data for related tests within a single module, respectively.
+
+    I'm pretty happy with how today went.
+
+    Tomorrow, I'm going to take a break from the parsing itself, since I know from last time that there are a dozen dozen edge cases with byonds bs
+    So I'll work on getting the RefTree and RefNodes setup properly, and then look at exporting it into the two different formats.
+    That's all for now, signing off at 3:30 AM.
+
+[06-2-2026]
+    Ok.  starting up at noon today.
+    The goal today is to get the RefNode and RefTree populating, and then if I have time, look into getting the markdown files set up as a github site.
+    I spent a bit of time today looking at options for hosting the github pages for oref.
+    I'll do some more work with it later, but for now, we're going to get into the thick of things with the nodes.

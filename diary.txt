@@ -149,3 +149,23 @@ The goals are:
     I do find myself wondering why I'm doing this with python instead of cpp, since that's what I've been working in more.
     I guess it's not bad to get my fingers wet with another language, even if it's a hellspawn of unsafe practices.
     Who cares if "we're all consenting adults".
+
+    While going through and cleaning up, it was tempting to merge the related entries dict with the desc_lists list.
+    But, they're fundamentally different, where the related entries needs to encode both the link to the entry, and the name of the link
+    Whereas the desc_lists is essentially just a list of strings to be formatted.
+
+    Going down this line a little bit more, I think I can get away with creating a dict of links for the pages.
+    I'd love to be able to do this for the whole document, but I think that's outside the realm of possibility.
+    I just don't trust the source ref to not reuse the same name with different link paths.
+    I could I guess use the paths as the keys, but then I don't have a reliable way of determining which text value to use.
+    I do think, however, that using the path for the key would work.  This way, I can have just ONE text string to link to a specific page.
+    I can go through and clean this up a little bit later if some of the text doesn't make sense in a given context.
+
+    A good example is that of the /client object, and the mob.client var.  both are probably referenced as 'client' as the text for the links.
+    So using 'client' as a key is a no go.
+    But {'/client' : "client", '/mob/var/client' : 'client'} does seem like it would make sense.
+
+    I'm feeling pretty good about this now, but I do have a small concern with the refsplitter holding the links.
+    That /might/ be fine for now, but I will probably end up passing that off on to the RefTree at some point, so that the source of truth
+    isn't kept on an ephemeral object.
+    Like, it's not a huge deal, since the whole thing is meant to just run and finish, but. meh.  Thoughts to be had at least.

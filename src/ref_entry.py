@@ -14,8 +14,6 @@ class RefEntry:
     content: str # the content of the entry, not including the See Also links
     title: str # The page title of the entry
     ref_path: list[str] # The path to the path of this page in the original DM referene
-    related_links: dict[str, str] # A dictionary of links to related reference pages. Format is: link_text : link_path
-    page_links: dict[str, str] # A dictionary of links found in the content.  Format is: link_text : link_path
     desc_lists: dict[str, list[str]] # A dictionary of formatted lists found in the page
 
     def __init__(self, entry_id:str, content:str):

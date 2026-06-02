@@ -69,8 +69,8 @@ class RefTree:
             for row in TOKEN_TABLE:
                 token = row["TOKEN"]
                 tag = row["md"]
-                md_content.replace(f"[{token}]", f"{tag}")
-                md_content.replace(f"[/{token}]", f"{tag}")
+                md_content = md_content.replace(f"[{token}]", f"{tag}")
+                md_content = md_content.replace(f"[/{token}]", f"{tag}")
             
             #print("Markdown File Created:")
             #print(md_content)

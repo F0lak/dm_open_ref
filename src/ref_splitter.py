@@ -152,10 +152,10 @@ class RefSplitter:
             match tag.name:
                 case 'p':
                     raw_text = str(tag)
-                    tokenized_text = self.tokenize(raw_text)
-                    clean_text = self.clean_paragraph(tokenized_text)
-                    if clean_text:
-                        content_list.append(clean_text)
+                    clean_text = self.clean_paragraph(raw_text)
+                    tokenized_text = self.tokenize(clean_text)
+                    if tokenized_text:
+                        content_list.append(tokenized_text)
                 case 'xmp':
                     content_list.append(f'[CODEBLOCK]{tag.get_text()}[/CODEBLOCK]')
             

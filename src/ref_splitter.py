@@ -60,6 +60,7 @@ class RefSplitter:
     entries: list[RefEntry]
     pages: list[str]
     links: dict[str, str]
+    elems_to_remove: list[Tag]
 
     def __init__(self, doc_str: str):
         print("new ref splitter")
@@ -67,6 +68,7 @@ class RefSplitter:
         self.entries = []
         self.pages = []
         self.links = {}
+        self.elems_to_remove = []
 
     def save_pretty_soup(self):
         '''
@@ -99,6 +101,10 @@ class RefSplitter:
         '''
         with open(f"entries/{entry.title}.txt", "w", encoding="utf-8") as file:
             file.write(entry.content)
+            
+    def purge_elements(self) -> None:
+        for tag in self.elems_to_remove:
+            tag.decompose()
 
     def build_ref_entries(self, length: int | None = None):
         '''
@@ -106,14 +112,13 @@ class RefSplitter:
         'length' is an optional parameter to limit the number of pages built
         '''
         for page in self.soup.find_all('a', attrs={"name":True}, limit = length or None):
-            #see_also_links = self.extract_related_entries(page)
+            desc_lists = self.extract_description_lists(page)
+            self.purge_elements()
 
             content_text: str = page.get_text(separator = '\n', strip = True)
             entry = RefEntry(str(page.attrs["name"]), content_text)
 
-            #entry.related_links = see_also_links
-
-            entry.desc_lists = self.extract_description_lists(page)
+            entry.desc_lists = desc_lists
 
             self.entries.append(entry)
             self.pages.append(content_text)
@@ -163,7 +168,7 @@ class RefSplitter:
                     raise ValueError("Malformed Declaration List in Reference")
 
                 # strip it here, since we don't want it in our content
-                dl_tag.decompose()
+                self.elems_to_remove.append(dl_tag)
 
             print("Lists found!\n\n")
 

@@ -10,14 +10,13 @@ from bs4 import BeautifulSoup, Tag
 def test_encode_link() -> None:
     '''confirms that refsplitter can create correct links'''
     mock_html = '<a href="#/DM/mouse">mouse handling</a>'
-    soup = BeautifulSoup(mock_html, "lxml")
-    mock_a_tag: Tag | None = soup.find('a')
+    splitter = RefSplitter(mock_html)
+    mock_a_tag: Tag | None = splitter.soup.find('a')
 
     # couple quick tests to make sure bs4 is working
     assert mock_a_tag is not None
     assert mock_a_tag.name == "a"
 
-    splitter = RefSplitter(mock_html)
     splitter.encode_link(mock_a_tag)
 
     assert len(splitter.links) == 1
@@ -52,31 +51,16 @@ def test_encode_link_missing_href():
         splitter.encode_link(missing_href_tag)
 
 @pytest.mark.unit
-def test_encode_link_single_char_path():
+@pytest.mark.parametrize("html_input", [
+    '<a href="#">Empty Path</a>',
+    '<a href="">Empty Path</a>',
+    '<a href=>Empty Path</a>'
+])
+def test_encode_link_empty_paths(html_input: str):
     '''confirms that we get a value error when the path is only a 1 character long'''
-    splitter = RefSplitter('<a href="#">Empty Path</a>')
-    empty_path_tag = splitter.soup.a
+    splitter = RefSplitter(html_input)
+    target_tag = splitter.soup.a
 
     # Verifies it raises ValueError when path is just "#" (becomes empty string)
     with pytest.raises(ValueError, match="Empty link path"):
-        splitter.encode_link(empty_path_tag)
-
-@pytest.mark.unit
-def test_encode_link_empty_path_string():
-    '''confirms that we get a value error when the path is an empty string'''
-    splitter = RefSplitter('<a href="">Empty Path</a>')
-    empty_path_tag = splitter.soup.a
-
-    # Verifies it raises ValueError when path is just "#" (becomes empty string)
-    with pytest.raises(ValueError, match="Empty link path"):
-        splitter.encode_link(empty_path_tag)
-
-@pytest.mark.unit
-def test_encode_link_empty_path():
-    '''confirms that we get a value error when the path is empty'''
-    splitter = RefSplitter('<a href=>Empty Path</a>')
-    empty_path_tag = splitter.soup.a
-
-    # Verifies it raises ValueError when path is just "#" (becomes empty string)
-    with pytest.raises(ValueError, match="Empty link path"):
-        splitter.encode_link(empty_path_tag)
+        splitter.encode_link(target_tag)

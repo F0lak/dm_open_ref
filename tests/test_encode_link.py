@@ -28,7 +28,7 @@ def test_encode_link_none_input():
     '''confirms that we get an error when the tag is passed as None'''
     splitter = RefSplitter("")
 
-    with pytest.raises(ValueError, match="a Tag is 'None'"):
+    with pytest.raises(TypeError, match="a Tag is 'None'"):
         splitter.encode_link(None)
 
 @pytest.mark.unit
@@ -37,7 +37,7 @@ def test_encode_link_invalid_tag():
     splitter = RefSplitter('<div>Not an A tag</div>')
     invalid_tag = splitter.soup.div
 
-    with pytest.raises(ValueError, match="Trying to encode an invalid tag"):
+    with pytest.raises(RuntimeError, match="Trying to encode an invalid tag"):
         splitter.encode_link(invalid_tag)
 
 @pytest.mark.unit

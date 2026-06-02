@@ -35,7 +35,7 @@ The goals are:
     Phase 0: Set up pytests and CI pipeline (1/2 hours) 
         [completed 05-29] (1 hrs total)
 
-    Phase 1: PrettyRef extraction (3/16 hours)
+    Phase 1: PrettyRef extraction (8.5/16 hours)
         Digest and extract raw content from prettyref.html\(use old_refsplitter.py for reference)
         Build the RefEntrys using the raw content in a logical format that can be formatted easily.
 
@@ -127,3 +127,21 @@ The goals are:
 
     (3pm)
     Alright, got the relative paths populating correctly.
+    Time for a break.  Next sprint will be to formalize the RefEntry objects, and then populating the RefNodes and RefTree
+
+    (6pm)
+    alright, I'm back at it after a bit of a break.
+    So far, I've gotten the "See Also" section pulled out of the reference entries.
+
+    Next, I'll set my sights on other important information found in these entries:
+        - format
+        - arguments
+        - code blocks
+
+    (8pm)
+    The parsing of the file content is giving me a bunch of little tiny problems here and there, so I'm going to take another break.
+    Currently, I've got the formatted lists appearing, so next I need to find a way to insert them into the content manually by dict lookup.
+    But we'll take care of that later.
+
+    (12:30 AM, technically next day, but not)
+    I'm going to pull the lists out of the text now, and devise a token system for the RefEntry content.

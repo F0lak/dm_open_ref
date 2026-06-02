@@ -3,7 +3,8 @@ Ref Splitter class.
 The Ref Splitter takes in a string given by the file i/o module and processes it into a RefTree
 '''
 from bs4 import BeautifulSoup, Tag
-from ref_entry import RefEntry
+from .ref_entry import RefEntry
+from pprint import pprint
 
 class RefSplitter:
     '''
@@ -17,12 +18,10 @@ class RefSplitter:
     '''
 
     soup: BeautifulSoup
-    pretty_soup: str
-
+    
     def __init__(self, doc_str: str):
         print("new ref splitter")
         self.soup = BeautifulSoup(doc_str, "lxml")
-        self.pretty_soup = self.soup.prettify()
 
     def save_pretty_soup(self):
         '''
@@ -30,7 +29,7 @@ class RefSplitter:
         useful for reading through and seeing what we're working with
         '''
         with open("pretty_soup.txt", "w", encoding="utf-8") as file:
-            file.write(self.pretty_soup)
+            file.write(self.soup.prettify())
 
     def print_pages(self, length: int):
         '''
@@ -42,9 +41,10 @@ class RefSplitter:
             content_text: str = page.get_text(separator = '\n', strip = True)
             print(f"{i}:\n\t{content_text}")
 
-    def save_pages(self, length: int):
+    def save_pages(self, length: int | None):
         '''
         Saves each page that is found
+        length is optional number of pages
         '''
 
         pages = self.soup.find_all('a', attrs={"name":True}, limit = length)
@@ -61,24 +61,33 @@ class RefSplitter:
         with open(f"entries/{entry.title}.txt", "w", encoding="utf-8") as file:
             file.write(entry.content)
 
-    def build_ref_entries(self, length: int):
+    def build_ref_entries(self, length: int | None = None):
         '''
         Builds Ref Entries for each page found in the soup
+        'length' is an optional parameter to limit the number of pages built
         '''
-        pages = self.soup.find_all('a', attrs={"name":True}, limit = length)
+        pages = self.soup.find_all('a', attrs={"name":True}, limit = length or None)
 
         for i, page in enumerate(pages):
+            see_also_links = self.extract_related_entries(page)
+            
             content_text: str = page.get_text(separator = '\n', strip = True)
             entry = RefEntry(str(page.attrs["name"]), content_text)
-            print(f"Built entry for page {i}: {entry.id}: {entry.title}, {entry.ref_path}")
-            entry.relative_paths = self.extract_related_entries(page)
+            
+            entry.related_links = see_also_links
+            
+            print(f"Built entry for page {i}: {entry.ref_id}: {entry.title}, {entry.ref_path}\n\n\n")
             self.save_entry(entry)
+            
+            entry.desc_lists = self.extract_description_lists(page)
+            pprint(entry.desc_lists)
 
-    def extract_related_entries(self, page: Tag) -> list[str]:
+    def extract_related_entries(self, page: Tag) -> dict[str, str]:
         '''
-        extracts the list of related entries
+        Converts the links in the "See Also" section into a dictionary
+        and removes them from the Soup Page
         '''
-        relatives: list[str] = []
+        relatives: dict[str, str] = {}
         rel_list = page.find('dl')
 
         if rel_list:
@@ -87,7 +96,55 @@ class RefSplitter:
                 if rel_a is not None:
                     rel_path = str(rel_a.attrs["href"])
                     if rel_path:
-                        relatives.append(rel_path[1:])
+                        relatives[rel_a.get_text(strip=True)] = rel_path[1:]
+
+            rel_list.decompose()
 
         print(relatives)
         return relatives
+    
+    def extract_description_lists(self, page: Tag) -> dict[str, list[str]]:
+        '''
+        ok, so we'll have a few different desc lists showing up in the documents.
+        The common ones are the See Also links, Format, and Arguments and return value.
+        
+        I need to write a function that finds all of the desclists in the document, and pops them into a dictionary of lists,
+        where the key of each entry is the name of the list
+        and the value is a dictionary of the values of the list.
+        
+        Some values can be links, like in See Also.  Sometimes it's something like an argument, and an argument description.
+        '''
+        
+        final_desc_lists: dict[str, list[str]] = {}
+        
+        lists = page.find_all('dl')
+        
+        if(lists):
+            for desc_list in lists:
+                # the dm reference entries, thankfully have a standard format for these lists.
+                # dt is consistently used for the name of the list, and dd for the entries in it.
+                term: Tag | None  = desc_list.find('dt')
+                if(term):
+                    term_string: str = term.get_text(strip=True)
+                    if(term_string in final_desc_lists):
+                        raise ValueError("Term '{term_string}' is being declared more than once for this page")
+                    
+                    details: list[str] = []
+                    # Unfortunately, the composition of the tags in these desc lists is a thing that one would not wish to behold
+                    # We need to scan through the rest of the list manually extracting each opening tag, and escaping when
+                    # we run into our first closing tag
+                    for detail_tag in desc_list.find_all('dd'):
+                        direct_text = "".join(detail_tag.find_all(string=True, recursive=False)).strip()
+                        details.append(direct_text)
+                    
+                    if(len(details) == 0):
+                        raise ValueError("List has no details")
+                    
+                    final_desc_lists[term_string] = details
+                    
+                else:
+                    raise ValueError("Malformed Declaration List in Reference")
+            print("Lists found!\n\n")
+        
+        return final_desc_lists
+        

@@ -1,22 +1,8 @@
-'''
-Main File to extract and parse the DM reference from remote
-'''
-
-#from dm_ref import DMRef
-from ref_splitter import RefSplitter
-
-#ref = DMRef()
-#ref.fetch_web_ref()
-
-sample_string = '''   <a name="/client/proc/MouseDrop">
+   <a name="/client/proc/MouseDrop">
     <h2>MouseDrop proc (client)</h2>
 
     <dl>
-     <dt>
-      <b>
-       See also:
-      </b>
-     </dt>
+     <dt><b>See also:</b></dt>
      <dd><a href="#/client/proc/Click">Click proc (client)</a>
       <dd><a href="#/client/proc/DblClick">DblClick proc (client)</a>
        <dd><a href="#/client/proc/MouseDown">MouseDown proc (client)</a>
@@ -72,12 +58,6 @@ sample_string = '''   <a name="/client/proc/MouseDrop">
      <dd>Call object.MouseDrop(over_object,src_location,over_location,src_control,over_control,params).
      </dd>
     </dl>
-
-    <dl>
-     <dt><b>Default action:</b></dt>
-     <dd>Call object.MouseDrop(over_object,src_location,over_location,src_control,over_control,params).
-     </dd>
-    </dl>
     
     <p>
         This is called when a mouse button is released after dragging an
@@ -96,11 +76,3 @@ sample_string = '''   <a name="/client/proc/MouseDrop">
     </xmp>
     <hr/>
    </a>
-'''
-
-splitter = RefSplitter(sample_string)
-
-#limit: int = 5
-splitter.build_ref_entries()
-#splitter.save_pretty_soup()
-print("Finished")

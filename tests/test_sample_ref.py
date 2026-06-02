@@ -1,6 +1,6 @@
 '''Integration test to ensure that RefSplitter can properly parse a test file'''
 import pytest
-from src.ref_splitter import RefSplitter
+from src.ref_splitter import RefSplitter, TOKEN_TABLE
 from bs4 import BeautifulSoup
 
 @pytest.fixture(scope="module")
@@ -87,8 +87,26 @@ def test_page_parsing(splitter) -> None:
     'p>malformed</p'
 ])    
 def test_ptag_failure(bad_input, splitter) -> None:
-    '''ensures page parsing will throw an exception when
-    it encounters a non-existant or malformed tag'''
+    '''
+    ensures page parsing will throw an exception when
+    it encounters a non-existant or malformed tag
+    '''
     
     with pytest.raises(ValueError):
         splitter.clean_paragraph(bad_input)
+
+@pytest.mark.unit
+def test_token_table_values() -> None:
+    '''
+    Ensures structural values inside the token table are
+    clean, not empty, and don't have formatting artifacts
+    '''
+    for row in TOKEN_TABLE:
+        html = row["html"]
+        token = row["TOKEN"]
+        
+        assert html.strip(), "Found an empty 'html' tag configuration"
+        assert token.strip(), f"Found an empty token configuration for tag '{html}'"
+        
+        assert "<" not in html and ">" not in html, f"Remove bracket symbols from html configuration key: '{html}'"
+        assert "[" not in token and "]" not in token, f"Remove bracket symbols from TOKEN configuration value: '{token}'"

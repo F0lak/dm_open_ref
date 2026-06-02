@@ -193,3 +193,5 @@ The goals are:
     I've gotten the parsing more or less wrapped up for now.  Setting up the unit test to test the failure state for 
     the page parsing is proving to be a bit difficult because of bs4, but I just need to figure out how to either Create
     custom tags, or possibly reformat the data flow to accept something other than a bs4 tag.
+
+    Took another hour break.  Getting back into this now, I need to replace the tokens with their markdown equivalents.

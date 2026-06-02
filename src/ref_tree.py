@@ -2,7 +2,7 @@
 RefNode and RefTree classes for organizing the parsed information into a digestible tree.
 '''
 
-from src.ref_splitter import RefEntry
+from src.ref_splitter import RefEntry, TOKEN_TABLE
 import pathlib
 
 
@@ -54,8 +54,7 @@ class RefTree:
             print(f"Writing {export_file}")
             export_file.parent.mkdir(parents=True, exist_ok=True)
             
-            md_content: str = ""
-            md_content += f'##{node.entry.title}\n\n'
+            md_content: str = f'##{node.entry.title}\n\n'
             
             for desc in node.entry.desc_lists:
                 md_content += f'**{desc}**\n'
@@ -67,7 +66,13 @@ class RefTree:
             for p in node.entry.content:
                 md_content += p+'\n\n'
             
-            print("Markdown File Created:")
-            print(md_content)
+            for row in TOKEN_TABLE:
+                token = row["TOKEN"]
+                tag = row["md"]
+                md_content.replace(f"[{token}]", f"{tag}")
+                md_content.replace(f"[/{token}]", f"{tag}")
+            
+            #print("Markdown File Created:")
+            #print(md_content)
             with open(export_file, "w", encoding="utf-8") as file:
                 file.write(md_content)

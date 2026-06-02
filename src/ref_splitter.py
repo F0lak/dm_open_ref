@@ -4,6 +4,16 @@ The Ref Splitter takes in a string given by the file i/o module and processes it
 '''
 from bs4 import BeautifulSoup, Tag
 from pprint import pprint
+import warnings
+
+    
+TOKEN_TABLE = [
+    {"TOKEN" : "BOLD",        "html" : "b",     "md" : "*"  },
+    {"TOKEN" : "ITALIC",      "html" : "i",     "md" : "**" },
+    {"TOKEN" : "UNDERLINE",   "html" : "u",     "md" : "__" },
+    {"TOKEN" : "CODE",        "html" : "tt",    "md" : "`"  },
+    {"TOKEN" : "CODE",        "html" : "var",   "md" : "`"  }
+]
 
 class RefEntry:
     '''
@@ -61,14 +71,6 @@ class RefSplitter:
     pages: list[str]
     links: dict[str, str]
     elems_to_remove: list[Tag]
-    
-    INLINE_TAGS: dict[str, str] = {
-        "b" : "BOLD",
-        "i" : "ITALIC",
-        "u" : "UNDERLINE",
-        "tt" : "CODE",
-        "var" : "CODE"
-    }
 
     def __init__(self, doc_str: str):
         print("new ref splitter")
@@ -133,7 +135,7 @@ class RefSplitter:
             self.entries.append(entry)
             self.pages.append('\n\n'.join(content))
 
-            pprint(entry.desc_lists)
+            #pprint(entry.desc_lists)
             
     def extract_content(self, page: Tag) -> list[str]:
         '''
@@ -164,9 +166,11 @@ class RefSplitter:
         converts inline html tags as declared in INLINE_TAGS
         to their tokenized counterpart
         '''
-        for tag, token in self.INLINE_TAGS.items():
-            text = text.replace(f'<{tag}>', f'[{token}]')
-            text = text.replace(f'</{tag}>', f'[/{token}]')
+        for row in TOKEN_TABLE:
+            html_tag = row["html"]
+            token = row["TOKEN"]
+            text = text.replace(f'<{html_tag}>', f'[{token}]')
+            text = text.replace(f'</{html_tag}>', f'[/{token}]')
         return text
 
     def clean_paragraph(self, text: str) -> str:
@@ -174,12 +178,21 @@ class RefSplitter:
         checks for malformed tags and breaks the paragraph into a
         single string with no newlines or additional formatting
         '''
+        if not text.startswith("<p"):
+            raise ValueError(f"Expected tag to open with <p>. Source Text:\n{text}")
         if not text.startswith("<p>"):
-            raise ValueError("Expected tag to open with <p>")
+            clean_text = text[:30].replace('\n', ' ').strip()
+            warnings.warn(f"Expected tag to open with <p>, but the opening tag is not closed immediately. Source Text:\n{clean_text}...",
+                         UserWarning)
         if not text.endswith("</p>"):
-            raise ValueError("Expected tag to close with </p>")
+            raise ValueError(f"Expected tag to close with </p>. Source Text:\n{text}")
         
-        text = text[3:-4]
+        open_tag_terminator_index = text.find('>')
+        
+        if open_tag_terminator_index == 0:
+            raise ValueError("open tag is never terminated.")
+        
+        text = text[open_tag_terminator_index+1:-4]
         words = text.split()
         return " ".join(words)
 

@@ -145,3 +145,7 @@ The goals are:
 
     (12:30 AM, technically next day, but not)
     I'm going to pull the lists out of the text now, and devise a token system for the RefEntry content.
+
+    I do find myself wondering why I'm doing this with python instead of cpp, since that's what I've been working in more.
+    I guess it's not bad to get my fingers wet with another language, even if it's a hellspawn of unsafe practices.
+    Who cares if "we're all consenting adults".

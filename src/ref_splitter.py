@@ -3,7 +3,7 @@ Ref Splitter class.
 The Ref Splitter takes in a string given by the file i/o module and processes it into a RefTree
 '''
 from bs4 import BeautifulSoup, Tag
-from .ref_entry import RefEntry
+from src.ref_entry import RefEntry
 from pprint import pprint
 
 class RefSplitter:
@@ -119,23 +119,23 @@ class RefSplitter:
         
         lists = page.find_all('dl')
         
+        # Normally I don't like using tiny var names, but these ones corespond to the html tags
         if(lists):
-            for desc_list in lists:
+            for dl_tag in lists:
                 # the dm reference entries, thankfully have a standard format for these lists.
                 # dt is consistently used for the name of the list, and dd for the entries in it.
-                term: Tag | None  = desc_list.find('dt')
-                if(term):
-                    term_string: str = term.get_text(strip=True)
+                dt_tag: Tag | None  = dl_tag.find('dt')
+                if(dt_tag):
+                    term_string: str = dt_tag.get_text(strip=True)
                     if(term_string in final_desc_lists):
                         raise ValueError("Term '{term_string}' is being declared more than once for this page")
                     
                     details: list[str] = []
                     # Unfortunately, the composition of the tags in these desc lists is a thing that one would not wish to behold
-                    # We need to scan through the rest of the list manually extracting each opening tag, and escaping when
-                    # we run into our first closing tag
-                    for detail_tag in desc_list.find_all('dd'):
-                        direct_text = "".join(detail_tag.find_all(string=True, recursive=False)).strip()
-                        details.append(direct_text)
+                    # So we have to 
+                    for dd_tag in dl_tag.find_all('dd'):
+                        dd_text = "".join(dd_tag.find_all(string=True, recursive=False)).strip()
+                        details.append(dd_text)
                     
                     if(len(details) == 0):
                         raise ValueError("List has no details")

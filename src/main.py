@@ -3,100 +3,14 @@ Main File to extract and parse the DM reference from remote
 '''
 
 #from dm_ref import DMRef
-from ref_splitter import RefSplitter
+from src.ref_splitter import RefSplitter
 
 #ref = DMRef()
 #ref.fetch_web_ref()
 
-sample_string = '''   <a name="/client/proc/MouseDrop">
-    <h2>MouseDrop proc (client)</h2>
-
-    <dl>
-     <dt>
-      <b>
-       See also:
-      </b>
-     </dt>
-     <dd><a href="#/client/proc/Click">Click proc (client)</a>
-      <dd><a href="#/client/proc/DblClick">DblClick proc (client)</a>
-       <dd><a href="#/client/proc/MouseDown">MouseDown proc (client)</a>
-        <dd><a href="#/client/proc/MouseDrag">MouseDrag proc (client)</a>
-         <dd><a href="#/atom/proc/MouseDrop">MouseDrop proc (atom)</a>
-          <dd><a href="#/client/proc/MouseEntered">MouseEntered proc (client)</a>
-           <dd><a href="#/client/proc/MouseExited">MouseExited proc (client)</a>
-            <dd><a href="#/client/proc/MouseMove">MouseMove proc (client)</a>
-             <dd><a href="#/client/proc/MouseUp">MouseUp proc (client)</a>
-              <dd><a href="#/client/proc/MouseWheel">MouseWheel proc (client)</a>
-               <dd><a href="#/client/var/mouse_pointer_icon">mouse_pointer_icon var (client)</a>
-                <dd><a href="#/client/var/show_popup_menus">show_popup_menus var (client)</a>
-                </dd>
-               </dd>
-              </dd>
-             </dd>
-            </dd>
-           </dd>
-          </dd>
-         </dd>
-        </dd>
-       </dd>
-      </dd>
-     </dd>
-    </dl>
-
-    <dl>
-     <dt><b>Format:</b></dt>
-     <dd>MouseDrop(src_object,over_object,src_location,over_location,src_control,over_control,params)
-     </dd>
-    </dl>
-
-    <dl>
-     <dt><b>Args:</b></dt>
-     <dd>src_object: the object being dropped
-      <dd>over_object: the object under the mouse pointer
-       <dd>src_location: the turf, stat panel, grid cell, etc. from where the src object was dragged
-        <dd>over_location: the turf, stat panel, grid cell, etc. containing the object under the mouse pointer
-         <dd>src_control: The id of the skin control the object was dragged from
-          <dd>over_control: The id of the skin control the object was dropped onto
-           <dd>params: other parameters including mouse/keyboard flags, icon offsets, etc.; see <a href="#/DM/mouse">mouse handling</a>
-           </dd>
-          </dd>
-         </dd>
-        </dd>
-       </dd>
-      </dd>
-     </dd>
-    </dl>
-
-    <dl>
-     <dt><b>Default action:</b></dt>
-     <dd>Call object.MouseDrop(over_object,src_location,over_location,src_control,over_control,params).
-     </dd>
-    </dl>
-
-    <dl>
-     <dt><b>Default action:</b></dt>
-     <dd>Call object.MouseDrop(over_object,src_location,over_location,src_control,over_control,params).
-     </dd>
-    </dl>
-    
-    <p>
-        This is called when a mouse button is released after dragging an
-        object.  The over_object may be null if dropping over a stat panel or over
-        other empty space.
-    </p>
-    <p>
-        The argument format for this verb is:
-    </p>
-    <xmp>
-        MouseDrag(src_object as null|atom in usr.client,\
-            over_object as null|atom in usr.client,\
-            src_location as null|turf|text in usr.client,\
-            over_location as null|turf|text in usr.client,\
-            src_control as text, over_control as text, params as text)
-    </xmp>
-    <hr/>
-   </a>
-'''
+sample_path = "./mouse_drop_sample.txt"
+with open(sample_path, 'r', encoding='utf-8') as f:
+    sample_string = f.read()
 
 splitter = RefSplitter(sample_string)
 

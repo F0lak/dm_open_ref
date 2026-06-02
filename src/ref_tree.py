@@ -54,5 +54,20 @@ class RefTree:
             print(f"Writing {export_file}")
             export_file.parent.mkdir(parents=True, exist_ok=True)
             
+            md_content: str = ""
+            md_content += f'##{node.entry.title}\n\n'
+            
+            for desc in node.entry.desc_lists:
+                md_content += f'**{desc}**\n'
+                for n in node.entry.desc_lists[desc]:
+                    md_content += f'+   {n}\n'
+                md_content += '\n'
+            md_content += '\n'
+            
+            for p in node.entry.content:
+                md_content += p+'\n\n'
+            
+            print("Markdown File Created:")
+            print(md_content)
             with open(export_file, "w", encoding="utf-8") as file:
-                file.write(node.entry.content)
+                file.write(md_content)

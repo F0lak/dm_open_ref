@@ -9,7 +9,7 @@ from src.ref_tree import RefTree
 #ref = DMRef()
 #ref.fetch_web_ref()
 
-sample_path = "./mouse_drop_sample.txt"
+sample_path = "./mouse_down_sample.txt"
 with open(sample_path, 'r', encoding='utf-8') as f:
     sample_string = f.read()
 

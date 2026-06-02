@@ -16,14 +16,14 @@ class RefEntry:
         - Links within the page contents
     '''
     ref_id: str # the name of the RefEntry as found in the DM reference <a> tag
-    content: str # the content of the entry, not including the See Also links
+    content: list[str] # A list of content delimited by <p> tags
     title: str # The page title of the entry
     ref_path: list[str] # The path to the path of this page in the original DM referene
     desc_lists: dict[str, list[str]] # A dictionary of formatted lists found in the page
 
-    def __init__(self, entry_id:str, content:str):
+    def __init__(self, entry_id:str):
         self.ref_id = entry_id
-        self.content = content
+        self.content = []
         
         self.related_links = {}
         self.page_links = {}
@@ -61,6 +61,14 @@ class RefSplitter:
     pages: list[str]
     links: dict[str, str]
     elems_to_remove: list[Tag]
+    
+    INLINE_TAGS: dict[str, str] = {
+        "b" : "BOLD",
+        "i" : "ITALIC",
+        "u" : "UNDERLINE",
+        "tt" : "CODE",
+        "var" : "CODE"
+    }
 
     def __init__(self, doc_str: str):
         print("new ref splitter")
@@ -99,8 +107,9 @@ class RefSplitter:
         '''
         Saves a Ref Entry to a text file
         '''
+        content: str = "\n\n".join(entry.content)
         with open(f"entries/{entry.title}.txt", "w", encoding="utf-8") as file:
-            file.write(entry.content)
+            file.write(content)
             
     def purge_elements(self) -> None:
         for tag in self.elems_to_remove:
@@ -115,15 +124,64 @@ class RefSplitter:
             desc_lists = self.extract_description_lists(page)
             self.purge_elements()
 
-            content_text: str = page.get_text(separator = '\n', strip = True)
-            entry = RefEntry(str(page.attrs["name"]), content_text)
+            entry = RefEntry(str(page.attrs["name"]))
 
+            content = self.extract_content(page)
+            entry.content = content
             entry.desc_lists = desc_lists
 
             self.entries.append(entry)
-            self.pages.append(content_text)
+            self.pages.append('\n\n'.join(content))
 
             pprint(entry.desc_lists)
+            
+    def extract_content(self, page: Tag) -> list[str]:
+        '''
+        Extracts all of the content contained within <p> tags,
+        converts common tags (<tt>, <b>, <i>) to tokens
+        and formats it into a single string.
+        
+        Returns a list of paragraphs coresponding to <p> tags and
+        code blocks coresponding to xmp tags
+        '''
+        content_list: list[str] = []
+        content = page.find_all(['p', 'xmp'])
+        for tag in content:
+            match tag.name:
+                case 'p':
+                    raw_text = str(tag)
+                    tokenized_text = self.tokenize(raw_text)
+                    clean_text = self.clean_paragraph(tokenized_text)
+                    if clean_text:
+                        content_list.append(clean_text)
+                case 'xmp':
+                    content_list.append(f'[CODEBLOCK]{tag.get_text()}[/CODEBLOCK]')
+            
+        return content_list
+    
+    def tokenize(self, text: str) -> str:
+        '''
+        converts inline html tags as declared in INLINE_TAGS
+        to their tokenized counterpart
+        '''
+        for tag, token in self.INLINE_TAGS.items():
+            text = text.replace(f'<{tag}>', f'[{token}]')
+            text = text.replace(f'</{tag}>', f'[/{token}]')
+        return text
+
+    def clean_paragraph(self, text: str) -> str:
+        '''
+        checks for malformed tags and breaks the paragraph into a
+        single string with no newlines or additional formatting
+        '''
+        if not text.startswith("<p>"):
+            raise ValueError("Expected tag to open with <p>")
+        if not text.endswith("</p>"):
+            raise ValueError("Expected tag to close with </p>")
+        
+        text = text[3:-4]
+        words = text.split()
+        return " ".join(words)
 
     def extract_description_lists(self, page: Tag) -> dict[str, list[str]]:
         '''

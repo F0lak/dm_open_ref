@@ -21,6 +21,7 @@ class RefTree:
     _instance = None
 
     nodes: list[RefNode] = []
+    links: dict[str, str]
     
     def __new__(cls, *args, **kwargs):
         if cls._instance is None:
@@ -71,8 +72,33 @@ class RefTree:
                 tag = row["md"]
                 md_content = md_content.replace(f"[{token}] ", f"{tag}")
                 md_content = md_content.replace(f" [/{token}]", f"{tag}")
+                
+            md_content = self.format_md_links(md_content)
             
             #print("Markdown File Created:")
             #print(md_content)
             with open(export_file, "w", encoding="utf-8") as file:
                 file.write(md_content)
+                
+    def format_md_links(self, text: str) -> str:
+        start_token = "[LINK]"
+        end_token = "[/LINK]"
+        
+        while True:
+            start_idx = text.find(start_token)
+            if start_idx == -1:
+                break
+                
+            end_idx = text.find(end_token, start_idx)
+            if end_idx == -1:
+                raise ValueError("Malformed link")
+                
+            path_start = start_idx + len(start_token)
+            link_path = text[path_start:end_idx]
+            
+            link_text = self.links.get(link_path, link_path)
+            
+            markdown_link = f"[{link_text}]({link_path})"
+            text = text[:start_idx] + markdown_link + text[end_idx + len(end_token):]
+            
+        return text

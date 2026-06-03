@@ -20,6 +20,7 @@ splitter.build_ref_entries()
 #splitter.save_pretty_soup()
 
 ref_tree: RefTree = RefTree()
+ref_tree.links = splitter.links
 ref_tree.build_tree_from_entries(splitter.entries)
 ref_tree.export_markdown()
 

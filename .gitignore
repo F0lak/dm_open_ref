@@ -1,3 +1,5 @@
 *.prof
 *.html
 .env
+
+bot/

@@ -35,15 +35,15 @@ The goals are:
     Phase 0: Set up pytests and CI pipeline (1/2 hours) 
         [completed 05-29] (1 hrs total)
 
-    Phase 1: PrettyRef extraction (13.5/16 hours)
+    Phase 1: DMRef extraction (17.5/16 hours)
         Digest and extract raw content from info.html\(use old_refsplitter.py for reference)
         Build the RefEntrys using the raw content in a logical format that can be formatted easily.
 
-    Phase 2: Building the tree (0/4 hours)
+    Phase 2: Building the tree (2/4 hours)
         Create RefNode class from RefEntry, to handle tree placement
         Build the RefTree using RefNodes for the hierarchy.
 
-    Phase 3: Packaging (0/21 hours)
+    Phase 3: Packaging (3/21 hours)
         Serve the RefTree in different formats, such as
             md file format for oref repository*
             rebuilding prettyref.html from custom content
@@ -58,6 +58,36 @@ The goals are:
         Add images and possibly video to the readme
         (stretch goal: clean up commit history to make it portfolio ready)
         Release the project under CC0
+
+                    ┌────────────────────────┐
+                    |   Data Flow Overview   |
+                    └────────────────────────┘
+                        [Raw Web/Local HTML] 
+                                │
+                                ▼ (BeautifulSoup)
+                        ┌─────────────────┐
+                        │   RefSplitter   │ ───► Standardizes and tokenizes legacy HTML blocks
+                        └─────────────────┘
+                                │
+                                ▼ Extracts into
+                        ┌─────────────────┐
+                        │    RefEntry     │ ───► Pure Data Object (Raw text, lists, see_also dicts, tokens)
+                        └─────────────────┘
+                                │
+                                ▼ Encapsulated by
+                        ┌─────────────────┐
+                        │     RefNode     │ ───► Tree wrapper (References a RefEntry, tracks parent/children)
+                        └─────────────────┘
+                                │
+                                ▼ Composes into
+                        ┌─────────────────┐
+                        │     RefTree     │ ───► Resolves BYOND hierarchy (/client vs /mob/var/client)
+                        └─────────────────┘
+                                │
+                                ▼ Passed to
+                        ┌─────────────────┐
+                        │    Exporters    │ ───► (MarkdownExporter, PrettyRefExporter, HTMLExporter)
+                        └─────────────────┘
 
 #-----------#
 #   DIARY   #
@@ -195,3 +225,30 @@ The goals are:
     custom tags, or possibly reformat the data flow to accept something other than a bs4 tag.
 
     Took another hour break.  Getting back into this now, I need to replace the tokens with their markdown equivalents.
+
+    alright.  So I spent the last half hour cleaning up the old oref repo to remove both the bot and the old parser.
+    I'll need to make sure to backup the bot somewhere, but I can do that another time.
+
+    for now, we'll commit the new ref markdown and examine the diffs.
+
+    first, we'll wire this up to export into the oref folder, then we'll wire up the commit
+
+    Success.  I managed to get the ref parsed out into the reference tree.  There are a few issues that I need to address, but all in all looking pretty good.
+    Issues:
+        file paths are not being respected when they are a folder, they're being added to the parent folder as siblings of their own folder
+        I haven't properly plugged in the nodes yet, which means that the file tree is being built entirely off of the page path.
+        That's not terrible, but it's also not at all flexible.  This will be my next project.
+
+    I've also learned that github pages serves front-end web formats, so I'll need to be reformatting these to html anyways.
+    After thnking on this a bit further, this is what I've come up with.
+
+    First off, take the reference, and parse it into pages of raw information.
+    Second, format those pages into markdown and export them into the openref repo. This is read by a discord bot to serve information on the byond discord channel.
+    Third, we think in terms of the pages deployment pipeline.
+        - The markdown files are pulled from the open ref repo (so that community changes are combined with the byond docs)
+        - those markdown files formatting is converted into standard html, that conforms with byonds javascript
+        - the html formatted pages are combined and served on the github pages site, using the byond reference javascript to navigate them.
+        - stretch goal, have some custom css 
+
+    I can feel myself getting pretty tired. It's been a busy last couple of days, with some fantastic progress.
+    I do need to update and confirm my testing framework.

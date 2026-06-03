@@ -19,6 +19,8 @@ class RefTree:
     '''manages the tree of reference nodes
     and supports exporting files in various formats'''
     _instance = None
+    
+    export_path: str
 
     nodes: list[RefNode] = []
     links: dict[str, str]
@@ -33,6 +35,9 @@ class RefTree:
     def __init__(self) -> None:
         print("RefTree created")
         
+    def set_export_path(self, exp_path: str) -> None:
+        export_path = exp_path
+        
     def build_tree_from_entries(self, entries: list[RefEntry]) -> None:
         for entry in entries:
             new_node = self.create_node(entry)
@@ -46,17 +51,59 @@ class RefTree:
     def create_node(self, entry: RefEntry) -> RefNode:
         new_node = RefNode(entry, len(self.nodes))
         return new_node
+    
+    def clean_filepath(self, text: str) -> str:
+        text = text.replace("%2e", ".")
+        text = text.replace("%3e", ">")
+        text = text.replace("%3c", "<")
+        text = text.replace("%3f", "?")
+        text = text.replace("%25", "%")
+        text = text.replace(">", "RIGHT")
+        text = text.replace("<", "LEFT")
+        text = text.replace("*", "STAR")
+        text = text.replace(":", "COLON")
+        text = text.replace("|", "PIPE")
+        text = text.replace("?", "QMARK")
+        text = text.replace("{", "")
+        text = text.replace("}", "")
+        text = text.replace("toc", "")
+        text = text.replace("\"", "")
+        text = text.replace("/", "\\")
+        text = text.replace("%", "PERCENT")
+        return text
 
     def export_markdown(self) -> None:
         for node in self.nodes:
             clean_ref_id = node.entry.ref_id.lstrip("\\/")
+            clean_filepath = self.clean_filepath(clean_ref_id)
             
-            export_file = pathlib.Path("_md_export") / f"{clean_ref_id}.md"
+            export_file = pathlib.Path("_md_export") / "ref" / f"{clean_filepath}.md"
             print(f"Writing {export_file}")
             export_file.parent.mkdir(parents=True, exist_ok=True)
             
             md_content: str = f'##{node.entry.title}\n\n'
             
+            # We'll end up swapping this out for a properly referenced group of variables
+            top_desc_keys = ["Format:", "Args:", "Default action:"]
+            top_desc_lists: dict[str, list[str]] = {
+                k: node.entry.desc_lists.pop(k) 
+                for k in top_desc_keys 
+                if k in node.entry.desc_lists
+            }
+
+            see_also_list = node.entry.desc_lists.pop("See also:", None)
+            
+            for desc in top_desc_lists:
+                md_content += f'**{desc}**\n'
+                for n in top_desc_lists[desc]:
+                    md_content += f'+   {n}\n'
+                md_content += '\n'
+            md_content += '\n'
+            
+            for p in node.entry.content:
+                md_content += p+'\n\n'
+            
+            # reformat this into a parsed inline list.  no need to extract it I think
             for desc in node.entry.desc_lists:
                 md_content += f'**{desc}**\n'
                 for n in node.entry.desc_lists[desc]:
@@ -64,8 +111,11 @@ class RefTree:
                 md_content += '\n'
             md_content += '\n'
             
-            for p in node.entry.content:
-                md_content += p+'\n\n'
+            if see_also_list:
+                md_content += "**See also:**\n"
+                for n in see_also_list:
+                    md_content += f'+   {n}\n'
+                md_content += '\n\n'
             
             for row in TOKEN_TABLE:
                 token = row["TOKEN"]

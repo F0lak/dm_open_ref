@@ -123,6 +123,8 @@ class RefSplitter:
         'length' is an optional parameter to limit the number of pages built
         '''
         for page in self.soup.find_all('a', attrs={"name":True}, limit = length or None):
+            print(f'Parsing Page: {str(page.attrs["name"])}')
+            
             desc_lists = self.extract_description_lists(page)
             self.purge_elements()
 
@@ -208,40 +210,44 @@ class RefSplitter:
 
         lists = page.find_all('dl')
 
-        # Normally I don't like using tiny var names, but these ones corespond to the html tags
         if(lists):
             for dl_tag in lists:
                 # the dm reference entries, thankfully have a standard format for these lists.
                 # dt is consistently used for the name of the list, and dd for the entries in it.
                 dt_tag: Tag | None  = dl_tag.find('dt')
-                if dt_tag:
+                
+                if not dt_tag:
+                    term_string: str = f'This bullshit has no term: {str(page.attrs["name"])}'
+                    warnings.warn("Expected a description term, but none was provided.  Adding Placeholder",
+                         UserWarning)
+                else:    
                     term_string: str = dt_tag.get_text(strip=True)
-                    if term_string in final_desc_lists:
-                        raise ValueError(f"Term '{term_string}' is being declared more than once for this page")
+                
+                details: list[str] = []
+                # Unfortunately, the composition of the tags in these desc lists is a thing that one would not wish to behold
+                # So we have to 
+                for dd_tag in dl_tag.find_all('dd'):
+                    dd_text = "".join(dd_tag.find_all(string=True, recursive=False)).strip()
+                    a_tag = dd_tag.find('a', attrs={"href":True}, recursive=False)
+                    if a_tag is not None:
+                        link_path = self.encode_link(a_tag)
+                        dd_text += f"[LINK]{link_path}[/LINK]"
+                    details.append(dd_text)
 
-                    details: list[str] = []
-                    # Unfortunately, the composition of the tags in these desc lists is a thing that one would not wish to behold
-                    # So we have to 
-                    for dd_tag in dl_tag.find_all('dd'):
-                        dd_text = "".join(dd_tag.find_all(string=True, recursive=False)).strip()
-                        a_tag = dd_tag.find('a', attrs={"href":True}, recursive=False)
-                        if a_tag is not None:
-                            link_path = self.encode_link(a_tag)
-                            dd_text += f"[LINK]{link_path}[/LINK]"
-                        details.append(dd_text)
+                if len(details) == 0:
+                    warnings.warn(f"Term '{term_string}' is being declared more than once for this page.  They will be combined",
+                        UserWarning)
+                    details.append("EMPTY")
 
-                    if len(details) == 0:
-                        raise ValueError("List has no details")
-
-                    final_desc_lists[term_string] = details
-
+                if term_string in final_desc_lists:
+                    warnings.warn(f"Term '{term_string}' is being declared more than once for this page.  They will be combined",
+                        UserWarning)
+                    final_desc_lists[term_string].extend(details)
                 else:
-                    raise ValueError("Malformed Declaration List in Reference")
+                    final_desc_lists[term_string] = details
 
                 # strip it here, since we don't want it in our content
                 self.elems_to_remove.append(dl_tag)
-
-            print("Lists found!\n\n")
 
         return final_desc_lists
 

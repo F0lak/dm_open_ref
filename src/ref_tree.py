@@ -51,7 +51,7 @@ class RefTree:
         for node in self.nodes:
             clean_ref_id = node.entry.ref_id.lstrip("\\/")
             
-            export_file = pathlib.Path("_md_export") / clean_ref_id / f"{node.entry.title}.md"
+            export_file = pathlib.Path("_md_export") / f"{clean_ref_id}.md"
             print(f"Writing {export_file}")
             export_file.parent.mkdir(parents=True, exist_ok=True)
             

@@ -252,3 +252,38 @@ The goals are:
 
     I can feel myself getting pretty tired. It's been a busy last couple of days, with some fantastic progress.
     I do need to update and confirm my testing framework.
+
+[06-03-2026]
+    It's a late night session for me.  I'm going to work myself into a sprint to get the markdown export pipeline done tonight.
+    I'd like to wrap this project up today and get it back out into the wild so that I can begin to focus back on dmoide.
+
+    Tonights todo is:
+        Finalize the RefEntry structure
+        Build the RefTree class
+        Build the filetree export
+        Complete the markdown formatting
+        Complete file export
+
+    I might not even need the tree, but it's good to have for ease of use down the line.
+    Actually, having the tree is good, since it's main purpose is to manage the refnodes themselves, and provide things like
+    searching and reorganizing.  Although those concepts aren't a part of the design spec.  So I guess I should scrap it?
+    But no, I need a container for the refnodes themselves.  without the reftree they end up contained in a list, referencing each other.
+    So yes, the reftree is necessary.
+    I'll keep the tree, but I'll implement it currently as a simple container class.  This way it's easy to extend down the line
+    and provides explicit context for the refnodes
+
+    I got the common fields implemented, and then ended up really arguing with python to get the tests forit configured correctly.
+
+    I did learn about pytest dependency, so that I can branch my tests and only execute some if others have passed, which solvs a problem I have with
+    a boatload of fails if certain things don't end up passing.
+
+    I definitely need to work on my discipline with organizing these tests, but this is my first time working with these, and I can already notice that
+    there's been a change in how I write code, where my implementations are cleaner just as a result of having tests at all,
+    so while the testing implementations might be a bit lackluster and disorganized, the actual code itself is much better off just as a result.
+    I've sort of pushed the hot mess back a layer.
+
+    So, one of the issues I've got is that BYOND's ref only ever has one term in their description lists.
+    While this isn't a big problem, I have a bit ofa crossroads.  I should technically allow the dl parser to extract all dt tags and their dd counterparts
+    however, that's beyond the scope of what the program needs to expect.
+    But if I only accept one dt tag now, I'll have to rewrite it later.
+    In the interest of time, I will simply leave a note on both the test and the parsing function, and move on.

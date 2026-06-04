@@ -3,7 +3,6 @@ Ref Splitter class.
 The Ref Splitter takes in a string given by the file i/o module and processes it into a RefTree
 '''
 from bs4 import BeautifulSoup, Tag
-from pprint import pprint
 import warnings
 
     
@@ -12,7 +11,9 @@ TOKEN_TABLE = [
     {"TOKEN" : "ITALIC",      "html" : "i",     "md" : "**" },
     {"TOKEN" : "UNDERLINE",   "html" : "u",     "md" : "__" },
     {"TOKEN" : "CODE",        "html" : "tt",    "md" : "`"  },
-    {"TOKEN" : "CODE",        "html" : "var",   "md" : "`"  }
+    {"TOKEN" : "CODE",        "html" : "var",   "md" : "`"  },
+    {"TOKEN" : "DESC_TERM",   "html" : "dt",    "md" : "**" },
+    {"TOKEN" : "DESC_DETAIL", "html" : "dd",    "md" : "DD" },
 ]
 
 class RefEntry:
@@ -29,27 +30,32 @@ class RefEntry:
     content: list[str] # A list of content delimited by <p> tags
     title: str # The page title of the entry
     ref_path: list[str] # The path to the path of this page in the original DM referene
-    desc_lists: dict[str, list[str]] # A dictionary of formatted lists found in the page
 
-    def __init__(self, entry_id:str):
-        self.ref_id = entry_id
+    def __init__(self):
+        self.ref_id = "NO_ID"
         self.content = []
         
         self.related_links = {}
         self.page_links = {}
+        
+        # Standard DM Reference fields
+        self.see_also: list[str] = [] # links to related pages
+        # proc-only fields
+        self.format: list[str] = []     # the format that the proc takes
+        self.returns: list[str] = []    # return value of the proc
+        self.args: list[str] = []       # arguments of the proc
+        self.when: list[str] = []       # when the proc is normally invoked
+        self.default_action: list[str] = [] # default behaviour
+        # var-only fields
+        self.default_value: list[str] = [] # variable default value
 
         self.set_ref_path()
-        self.set_title()
 
     def set_ref_path(self) -> None:
         '''Uses the ref_id to populate the ref_path list where each
         consecutive element is the next branch on the DM Reference's node tree'''
         self.ref_path = self.ref_id.split('/')
         self.ref_path.pop(0)
-
-    def set_title(self) -> None:
-        '''Sets the entry title to the final entry in the ref_path list'''
-        self.title = self.ref_path[-1]
 
     def get_path(self) -> str:
         '''Returns ref_path rebuilt into a string in the format "/a/b/c"'''
@@ -65,12 +71,17 @@ class RefSplitter:
     Creates a Ref Node using the Ref Entry
     Finally, adds the RefNode to the RefTree and assigns its parent
     '''
-
-    soup: BeautifulSoup
-    entries: list[RefEntry]
-    pages: list[str]
-    links: dict[str, str]
-    elems_to_remove: list[Tag]
+        
+    # For mapping dt tags to field attributes
+    field_mapping = {
+        "Format:": "format",
+        "Returns:": "returns",
+        "See also:": "see_also",
+        "Args:": "args",
+        "When:": "when",
+        "Default action:": "default_action",
+        "Default value:": "default_value",
+        }
 
     def __init__(self, doc_str: str):
         print("new ref splitter")
@@ -125,31 +136,48 @@ class RefSplitter:
         for page in self.soup.find_all('a', attrs={"name":True}, limit = length or None):
             print(f'Parsing Page: {str(page.attrs["name"])}')
             
-            desc_lists = self.extract_description_lists(page)
+            desc_lists = self.format_description_lists(page)
             self.purge_elements()
 
-            entry = RefEntry(str(page.attrs["name"]))
+            entry = RefEntry()
+            
+            entry.ref_id = str(page.attrs["name"])
 
             content = self.extract_content(page)
             entry.content = content
-            entry.desc_lists = desc_lists
+            self.set_common_fields(entry, desc_lists)
 
             self.entries.append(entry)
             self.pages.append('\n\n'.join(content))
 
             #pprint(entry.desc_lists)
             
+    def set_common_fields(self, entry: RefEntry, desc_lists: dict[str, list[str]]) -> None:
+        for field, content in desc_lists.items():
+            if attr_name := self.field_mapping.get(field):
+                if not hasattr(entry, attr_name):
+                    raise AttributeError(f'{attr_name} is not declared on RefEntry')
+                setattr(entry, attr_name, content)
+            
     def extract_content(self, page: Tag) -> list[str]:
         '''
         Extracts all of the content contained within <p> tags,
         converts common tags (<tt>, <b>, <i>) to tokens
-        and formats it into a single string.
+        and formats the content into a single string.
         
-        Returns a list of paragraphs coresponding to <p> tags and
-        code blocks coresponding to xmp tags
+        Returns the content as a list containing:
+            paragraphs coresponding to <p> tags
+            code blocks coresponding to xmp tags
+            description lists (that are not common fields)
         '''
-        content_list: list[str] = []
+        if page is None:
+            raise ValueError("Cannot extract content from non-existant page")
+        
         content = page.find_all(['p', 'xmp'])
+        if len(content) == 0:
+            raise ValueError("Page has no Content")
+        
+        content_list: list[str] = []
         for tag in content:
             match tag.name:
                 case 'p':
@@ -160,6 +188,8 @@ class RefSplitter:
                         content_list.append(tokenized_text)
                 case 'xmp':
                     content_list.append(f'[CODEBLOCK]{tag.get_text()}[/CODEBLOCK]')
+                case 'dl':
+                    content_list.append(self.tokenize(str(tag)))
             
         return content_list
     
@@ -198,15 +228,11 @@ class RefSplitter:
         words = text.split()
         return " ".join(words)
 
-    def extract_description_lists(self, page: Tag) -> dict[str, list[str]]:
+    def format_description_lists(self, page: Tag) -> dict[str, list[str]]:
         '''
-        Finds all of the description lists in the entry and returns them in a dictionary
-        where key = list title, value = list entries
-
-        Not 100% sure this will be enough for the lists that the DM reference populates, but here we are...    
+        parses description lists and extracts common fields  
         '''
-
-        final_desc_lists: dict[str, list[str]] = {}
+        common_fields: dict[str, list[str]] = {}
 
         lists = page.find_all('dl')
 
@@ -214,18 +240,14 @@ class RefSplitter:
             for dl_tag in lists:
                 # the dm reference entries, thankfully have a standard format for these lists.
                 # dt is consistently used for the name of the list, and dd for the entries in it.
-                dt_tag: Tag | None  = dl_tag.find('dt')
                 
-                if not dt_tag:
-                    term_string: str = f'This bullshit has no term: {str(page.attrs["name"])}'
-                    warnings.warn("Expected a description term, but none was provided.  Adding Placeholder",
-                         UserWarning)
-                else:    
-                    term_string: str = dt_tag.get_text(strip=True)
+                # DM Ref only ever has one term per list, so there's no need to parse more than one.
+                # this would need to be changed when the standard for the html ref is modernized
+                term_string = self.get_term_string(dl_tag)
                 
                 details: list[str] = []
                 # Unfortunately, the composition of the tags in these desc lists is a thing that one would not wish to behold
-                # So we have to 
+                # So we have to be very careful here.
                 for dd_tag in dl_tag.find_all('dd'):
                     dd_text = "".join(dd_tag.find_all(string=True, recursive=False)).strip()
                     a_tag = dd_tag.find('a', attrs={"href":True}, recursive=False)
@@ -239,17 +261,24 @@ class RefSplitter:
                         UserWarning)
                     details.append("EMPTY")
 
-                if term_string in final_desc_lists:
+                if term_string in common_fields:
                     warnings.warn(f"Term '{term_string}' is being declared more than once for this page.  They will be combined",
                         UserWarning)
-                    final_desc_lists[term_string].extend(details)
-                else:
-                    final_desc_lists[term_string] = details
-
-                # strip it here, since we don't want it in our content
+                    common_fields[term_string].extend(details)
+                
+                common_fields[term_string] = details
                 self.elems_to_remove.append(dl_tag)
 
-        return final_desc_lists
+        return common_fields
+        
+    def get_term_string(self, dl_tag: Tag) -> str:
+        if dt_tag := dl_tag.find('dt'):
+            term_string: str = dt_tag.get_text(strip=True)
+        else:
+            term_string: str = "UNKNOWN_TERM"
+            warnings.warn("Expected a description term, but none was provided.  Adding Placeholder",
+                UserWarning)
+        return term_string
 
     def encode_link(self, a_tag: Tag | None) -> str:
         '''

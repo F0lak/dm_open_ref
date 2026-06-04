@@ -289,4 +289,11 @@ The goals are:
     In the interest of time, I will simply leave a note on both the test and the parsing function, and move on.
 
     I'm going to add commit messages to the diary now, as part of the CI setup.
+
         [COMMIT [2026-06-04 02:24:36]: testing automated commit messages in diary entry
+
+    Success!
+
+    Previously, I ended up in an infinite loop, so the file got bloated. I nearly lost all of my work from the night, but using 
+    git reflog I was able to save it, even though I had to sift through about a thousand commit ammendments to find it.
+  [COMMIT [2026-06-04 02:26:27]: confirmed commit messages are added to diary

@@ -315,7 +315,7 @@ The goals are:
     I could technically pull a properly formatted file from the live oref, since it's in the correct md format already.
     I might actually do that when I get back from my break.
 
-[06-07-2026]
+[06-07-2026] (4 hours)
     I spent tonight working on getting the new export method wired up.  I'm pretty satisfied with how this turned out and came together.
 
     I separated the export functionality to its own ExportMD class in its own little file.  This will help to keep things organized
@@ -332,5 +332,19 @@ The goals are:
 
     Cheers.
     [COMMIT [2026-06-07 00:08:38]: implements export as its own class.  minor code reorganization
-adds in client_mouse_snapshot.md file for future e2e tests
+        adds in client_mouse_snapshot.md file for future e2e tests
+    
+    It's almost there.  I do have some little things I want to do within the realm of CI, but tomorrows task is to button up this version to make sure it's
+    on par with the last version of oref.
+
+    Once that's done, before I ship, I'll do another pass for documentation and making it folio ready.
+    I won't be adding tests for the sake of tests though, so there won't be complete coverage, but I'll still do proper unit test passes to make sure that
+    future changes don't break the program down the line.
+    But the v2 project is getting github pages setup for the project, and then implementing the HTML export, so that I can live view orefs changes in
+    the native byond reference format on a legacy branch of the pages site.  It'll be a fun way to spend the weekend, but I need the infra in place before
+    I can go down that route.
+
+    This version is about 95% to finished I think
+
+    [COMMIT [2026-06-07 17:52:47]: implements p class tokens and adds markdown checks to token unit tests
     

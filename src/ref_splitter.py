@@ -4,7 +4,7 @@ The Ref Splitter takes in a string given by the file i/o module and processes it
 '''
 from bs4 import BeautifulSoup, Tag
 import warnings
-from src.token_table import TOKEN_TABLE
+from src.token_table import INLINE_TOKEN_TABLE
 
 
 class RefEntry:
@@ -192,11 +192,15 @@ class RefSplitter:
         for tag in content:
             match tag.name:
                 case 'p':
+                    #TODO handle p classes to tokenize them, allowing markdown and html to rebuild them properly
                     raw_text = str(tag)
                     clean_text = self.clean_paragraph(raw_text)
                     tokenized_text = self.tokenize(clean_text)
                     if tokenized_text:
+                        tokenized_text = self.tokenize_paragraph(tokenized_text, tag)
                         content_list.append(tokenized_text)
+                # xmp is handled here to properly tokenize the codeblocks.
+                # using the standard tokenizer will destroy the text inside the code block
                 case 'xmp':
                     content_list.append(f'[CODEBLOCK]{tag.get_text()}[/CODEBLOCK]')
                 case 'dl':
@@ -209,12 +213,33 @@ class RefSplitter:
         converts inline html tags as declared in INLINE_TAGS
         to their tokenized counterpart
         '''
-        for row in TOKEN_TABLE:
+        for row in INLINE_TOKEN_TABLE:
             html_tag = row["html"]
             token = row["TOKEN"]
             text = text.replace(f'<{html_tag}>', f'[{token}]')
             text = text.replace(f'</{html_tag}>', f'[/{token}]')
         return text
+    
+    def tokenize_paragraph(self, paragraph: str, tag: Tag) -> str:
+        '''Tokenizes a paragraph block based on its class attribute'''
+        if p_classes := tag.get('class'):
+            print(f'paragraph classes = {p_classes}')
+            if 'compatibility' in p_classes:
+                paragraph = f'[P_COMPATABILITY]{paragraph}[/P_COMPATABILITY]'
+            elif 'performance' in p_classes:
+                paragraph = f'[P_PERFORMANCE]{paragraph}[/P_PERFORMANCE]'
+            elif 'note' in p_classes:
+                paragraph = f'[P_NOTE]{paragraph}[/P_NOTE]'
+            elif 'tip' in p_classes:
+                paragraph = f'[P_TIP]{paragraph}[/P_TIP]'
+            elif 'deprecated' in p_classes:
+                paragraph = f'[P_DEPRECTATED]{paragraph}[/P_DEPRECATED]'
+            elif 'didyouknow' in p_classes:
+                paragraph = f'[P_DIDYOUKNOW]{paragraph}[/P_DIDYOUKNOW]'
+            elif 'security' in p_classes:
+                paragraph = f'[P_SECURITY]{paragraph}[/P_SECURITY]'
+                
+        return paragraph
 
     def clean_paragraph(self, text: str) -> str:
         '''
@@ -223,10 +248,6 @@ class RefSplitter:
         '''
         if not text.startswith("<p"):
             raise ValueError(f"Expected tag to open with <p>. Source Text:\n{text}")
-        if not text.startswith("<p>"):
-            clean_text = text[:30].replace('\n', ' ').strip()
-            warnings.warn(f"Expected tag to open with <p>, but the opening tag is not closed immediately. Source Text:\n{clean_text}...",
-                         UserWarning)
         if not text.endswith("</p>"):
             raise ValueError(f"Expected tag to close with </p>. Source Text:\n{text}")
         

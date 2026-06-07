@@ -1,7 +1,7 @@
 
 import pathlib
 from src.ref_tree import RefTree
-from src.token_table import TOKEN_TABLE
+from src.token_table import INLINE_TOKEN_TABLE
 import pathlib
 from enum import Enum
 
@@ -111,7 +111,7 @@ class ExportMD:
         
     def format_tokens(self, content: str) -> str:
         '''replaces tokens with their markdown counterparts from the TOKEN_TABLE'''
-        for row in TOKEN_TABLE:
+        for row in INLINE_TOKEN_TABLE:
             token = row["TOKEN"]
             tag = row["md"]
             content = content.replace(f"[{token}] ", f"{tag}")

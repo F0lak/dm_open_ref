@@ -1,7 +1,8 @@
 '''Integration test to ensure that RefSplitter can properly parse a test file'''
 import pytest
-from src.ref_splitter import RefSplitter, RefEntry, TOKEN_TABLE
+from src.ref_splitter import RefSplitter, RefEntry
 from bs4 import BeautifulSoup
+from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 
 @pytest.fixture(scope="module")
 def splitter():
@@ -136,17 +137,39 @@ def test_ptag_failure(bad_input, splitter) -> None:
         splitter.clean_paragraph(bad_input)
 
 @pytest.mark.unit
-def test_token_table_values() -> None:
+def test_inline_token_table_values() -> None:
     '''
     Ensures structural values inside the token table are
     clean, not empty, and don't have formatting artifacts
     '''
-    for row in TOKEN_TABLE:
+    for row in INLINE_TOKEN_TABLE:
         html = row["html"]
         token = row["TOKEN"]
+        markdown = row["md"]
         
         assert html.strip(), "Found an empty 'html' tag configuration"
         assert token.strip(), f"Found an empty token configuration for tag '{html}'"
+        assert markdown.strip(), f"Found an empty token configuration for tag '{html}'"
         
         assert "<" not in html and ">" not in html, f"Remove bracket symbols from html configuration key: '{html}'"
         assert "[" not in token and "]" not in token, f"Remove bracket symbols from TOKEN configuration value: '{token}'"
+        assert "[" not in markdown and "]" not in markdown, f"Remove bracket symbols from TOKEN configuration value: '{markdown}'"
+
+@pytest.mark.unit
+def test_pclass_token_table_values() -> None:
+    '''
+    Ensures structural values inside the token table are
+    clean, not empty, and don't have formatting artifacts
+    '''
+    for row in P_CLASS_TOKEN_TABLE:
+        token = row["TOKEN"]
+        html = row["html"]
+        markdown = row["md"]
+        
+        assert html.strip(), "Found an empty 'html' tag configuration"
+        assert token.strip(), f"Found an empty token configuration for tag '{html}'"
+        assert markdown.strip(), f"Found an empty token configuration for tag '{html}'"
+        
+        assert "<" not in html and ">" not in html, f"Remove bracket symbols from html configuration key: '{html}'"
+        assert "[" not in token and "]" not in token, f"Remove bracket symbols from TOKEN configuration value: '{token}'"
+        assert "[" not in markdown and "]" not in markdown, f"Remove bracket symbols from TOKEN configuration value: '{markdown}'"

@@ -64,7 +64,7 @@ def test_common_field_parsing(splitter, input_field) -> None:
     tag = soup.find('div')
     
     desc_lists = splitter.format_description_lists(tag)
-    entry: RefEntry = RefEntry()
+    entry: RefEntry = RefEntry("/test")
     splitter.set_common_fields(entry, desc_lists)
     
     attr_name = splitter.field_mapping[input_field]

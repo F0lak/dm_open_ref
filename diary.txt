@@ -290,15 +290,47 @@ The goals are:
 
     I'm going to add commit messages to the diary now, as part of the CI setup.
 
-        [COMMIT [2026-06-04 02:24:36]: testing automated commit messages in diary entry
+    [COMMIT [2026-06-04 02:24:36]: testing automated commit messages in diary entry
 
     Success!
 
     Previously, I ended up in an infinite loop, so the file got bloated. I nearly lost all of my work from the night, but using 
     git reflog I was able to save it, even though I had to sift through about a thousand commit ammendments to find it.
 
-  [COMMIT [2026-06-04 02:26:27]: confirmed commit messages are added to diary
-
-test
+    [COMMIT [2026-06-04 02:26:27]: confirmed commit messages are added to diary
     [COMMIT [2026-06-04 02:27:39]: test commit message format
+    
+    Excellent.  This will help me keep track of exactly where I am in my workflow.
+
+    Time for a break.  I might not make the sprint tonight happen, but I'm happy with where the work took me so far.
+
+    Next thing to do is confirm the full parse on a single test file (main.py has been updated to swap build states easily)
+    After that, I can set up the tree, which should only take a couple of hours.
+
+    Then just build the new file, iterate the formatting, and bobs your uncle.
+    Should be able to ship before work, if I have the energy to contnue my all nighter.
+
+    Once I have correct output, I need to create an E2E test for the sample, so that future tests can be confirmed working.
+    But rather than write the test first and build to conform to it, given the size and complexity, it'll be faster for me to create the test file dynamically, from the parser.
+    I could technically pull a properly formatted file from the live oref, since it's in the correct md format already.
+    I might actually do that when I get back from my break.
+
+[06-07-2026]
+    I spent tonight working on getting the new export method wired up.  I'm pretty satisfied with how this turned out and came together.
+
+    I separated the export functionality to its own ExportMD class in its own little file.  This will help to keep things organized
+    as more export types are added in, at the very least just the markdown and the updated html.
+
+    I still have to get tests setup for the new export functionality, but I also now have a snapshot of the markdown file, so I can 
+    at least confirm that any changes I make from here on don't muck up the output of the file.  I'm not sure there's much utility in that
+    outside of if I go through and refactor, which I don't see being a thing at this point, but that's not the test driven mindset.
+
+    I've also definitely learned that writing the unit and integration tests definitely helps me keep the code nice and clean, so regardless of how I feel
+    about the tests at this particular moment, it's important that I get them setup.  Besides, testing is half the reason for this project to begin with.
+
+    So, the tests will be the todo for tomorrows work.
+
+    Cheers.
+    [COMMIT [2026-06-07 00:08:38]: implements export as its own class.  minor code reorganization
+adds in client_mouse_snapshot.md file for future e2e tests
     

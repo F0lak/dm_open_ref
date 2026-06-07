@@ -4,17 +4,8 @@ The Ref Splitter takes in a string given by the file i/o module and processes it
 '''
 from bs4 import BeautifulSoup, Tag
 import warnings
+from src.token_table import TOKEN_TABLE
 
-    
-TOKEN_TABLE = [
-    {"TOKEN" : "BOLD",        "html" : "b",     "md" : "*"  },
-    {"TOKEN" : "ITALIC",      "html" : "i",     "md" : "**" },
-    {"TOKEN" : "UNDERLINE",   "html" : "u",     "md" : "__" },
-    {"TOKEN" : "CODE",        "html" : "tt",    "md" : "`"  },
-    {"TOKEN" : "CODE",        "html" : "var",   "md" : "`"  },
-    {"TOKEN" : "DESC_TERM",   "html" : "dt",    "md" : "**" },
-    {"TOKEN" : "DESC_DETAIL", "html" : "dd",    "md" : "DD" },
-]
 
 class RefEntry:
     '''
@@ -26,14 +17,13 @@ class RefEntry:
         - Related Pages (extracted from "See Also")
         - Links within the page contents
     '''
-    ref_id: str # the name of the RefEntry as found in the DM reference <a> tag
-    content: list[str] # A list of content delimited by <p> tags
-    title: str # The page title of the entry
-    ref_path: list[str] # The path to the path of this page in the original DM referene
 
-    def __init__(self):
-        self.ref_id = "NO_ID"
-        self.content = []
+    def __init__(self, eid: str):
+        self.ref_id = "NO_ID" # the name of the RefEntry as found in the DM reference <a> tag (ie: /client/proc/New())
+        self.content = [] # A list of content delimited by <p> tags
+        self.title: str = "" # The title for the reference entry, derived from ref_id
+        self.ref_path: list[str] = [] # The path to this page in the original DM referene
+        self.entry_type: str # the type of entry this is: "Info", "Proc", "Var", "Object"
         
         self.related_links = {}
         self.page_links = {}
@@ -49,13 +39,35 @@ class RefEntry:
         # var-only fields
         self.default_value: list[str] = [] # variable default value
 
+        self.ref_id = eid
         self.set_ref_path()
+        self.set_title()
+        self.entry_type = self.set_ref_entry_type()
+        
+    def set_title(self) -> None:
+        '''Sets the title based on the path'''
+        print(self.ref_path)
+        title_index = len(self.ref_path) - 1
+        if title_index >= 0:
+            self.title = self.ref_path[title_index]
+        else:
+            self.title = "[NO_TITLE]"
 
     def set_ref_path(self) -> None:
         '''Uses the ref_id to populate the ref_path list where each
         consecutive element is the next branch on the DM Reference's node tree'''
         self.ref_path = self.ref_id.split('/')
         self.ref_path.pop(0)
+        
+    def set_ref_entry_type(self) -> str:
+        '''sets the entry type based on the ref_path'''
+        # TODO add in "Object" for byond built-in object types (datum, atom, client, etc.)
+        
+        if "var" in self.ref_path:
+            return "var"
+        if "proc" in self.ref_path:
+            return "proc"
+        return "info"
 
     def get_path(self) -> str:
         '''Returns ref_path rebuilt into a string in the format "/a/b/c"'''
@@ -134,14 +146,13 @@ class RefSplitter:
         'length' is an optional parameter to limit the number of pages built
         '''
         for page in self.soup.find_all('a', attrs={"name":True}, limit = length or None):
-            print(f'Parsing Page: {str(page.attrs["name"])}')
+            entry_id: str = str(page.attrs["name"])
+            print(f'Parsing Page: {entry_id}')
             
             desc_lists = self.format_description_lists(page)
             self.purge_elements()
 
-            entry = RefEntry()
-            
-            entry.ref_id = str(page.attrs["name"])
+            entry = RefEntry(entry_id)
 
             content = self.extract_content(page)
             entry.content = content

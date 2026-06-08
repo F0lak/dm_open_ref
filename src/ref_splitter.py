@@ -104,47 +104,38 @@ class RefSplitter:
         self.elems_to_remove = []
 
     def save_pretty_soup(self):
-        '''
-        saves the pretty soup to a text file
-        useful for reading through and seeing what we're working with
-        '''
+        '''saves the pretty soup to a text file
+        useful for reading through and seeing what we're working with'''
         with open("pretty_soup.txt", "w", encoding="utf-8") as file:
             file.write(self.soup.prettify())
 
     def print_pages(self, length: int):
-        '''
-        prints up to 'length' pages from the soup
-        '''
+        '''prints up to 'length' pages from the soup'''
         pages = self.soup.find_all('a', attrs={"name":True}, limit = length)
         for i, page in enumerate(pages):
             content_text: str = page.get_text(separator = '\n', strip = True)
             print(f"{i}:\n\t{content_text}")
 
     def save_pages(self):
-        '''
-        Saves all of the pages that have been parsed
-        '''
+        '''Saves all of the pages that have been parsed'''
         for i, page in enumerate(self.pages):
             with open(f"pages/{i}.txt", "w", encoding="utf-8") as file:
                 file.write(page)
 
     def save_entry(self, entry: RefEntry):
-        '''
-        Saves a Ref Entry to a text file
-        '''
+        '''Saves a Ref Entry to a text file'''
         content: str = "\n\n".join(entry.content)
         with open(f"entries/{entry.title}.txt", "w", encoding="utf-8") as file:
             file.write(content)
             
     def purge_elements(self) -> None:
+        '''removes the tags found in `elems_to_remove` from the soup'''
         for tag in self.elems_to_remove:
             tag.decompose()
 
     def build_ref_entries(self, length: int | None = None):
-        '''
-        Builds Ref Entries for each page found in the soup
-        'length' is an optional parameter to limit the number of pages built
-        '''
+        '''Builds Ref Entries for each page found in the soup
+        `length` is an optional parameter to limit the number of pages built'''
         for page in self.soup.find_all('a', attrs={"name":True}, limit = length or None):
             entry_id: str = str(page.attrs["name"])
             print(f'Parsing Page: {entry_id}')
@@ -164,6 +155,7 @@ class RefSplitter:
             #pprint(entry.desc_lists)
             
     def set_common_fields(self, entry: RefEntry, desc_lists: dict[str, list[str]]) -> None:
+        '''initializes field_mappings on the RefEntry'''
         for field, content in desc_lists.items():
             if attr_name := self.field_mapping.get(field):
                 if not hasattr(entry, attr_name):
@@ -171,16 +163,14 @@ class RefSplitter:
                 setattr(entry, attr_name, content)
             
     def extract_content(self, page: Tag) -> list[str]:
-        '''
-        Extracts all of the content contained within <p> tags,
+        '''Extracts all of the content contained within <p> tags,
         converts common tags (<tt>, <b>, <i>) to tokens
         and formats the content into a single string.
         
         Returns the content as a list containing:
             paragraphs coresponding to <p> tags
             code blocks coresponding to xmp tags
-            description lists (that are not common fields)
-        '''
+            description lists (that are not common fields)'''
         if page is None:
             raise ValueError("Cannot extract content from non-existant page")
         
@@ -192,7 +182,6 @@ class RefSplitter:
         for tag in content:
             match tag.name:
                 case 'p':
-                    #TODO handle p classes to tokenize them, allowing markdown and html to rebuild them properly
                     raw_text = str(tag)
                     clean_text = self.clean_paragraph(raw_text)
                     tokenized_text = self.tokenize(clean_text)
@@ -209,10 +198,8 @@ class RefSplitter:
         return content_list
     
     def tokenize(self, text: str) -> str:
-        '''
-        converts inline html tags as declared in INLINE_TAGS
-        to their tokenized counterpart
-        '''
+        '''converts inline html tags as declared in INLINE_TAGS
+        to their tokenized counterpart'''
         for row in INLINE_TOKEN_TABLE:
             html_tag = row["html"]
             token = row["TOKEN"]
@@ -231,10 +218,8 @@ class RefSplitter:
         return paragraph
 
     def clean_paragraph(self, text: str) -> str:
-        '''
-        checks for malformed tags and breaks the paragraph into a
-        single string with no newlines or additional formatting
-        '''
+        '''checks for malformed tags and breaks the paragraph into a
+        single string with no newlines or additional formatting'''
         if not text.startswith("<p"):
             raise ValueError(f"Expected tag to open with <p>. Source Text:\n{text}")
         if not text.endswith("</p>"):
@@ -250,9 +235,7 @@ class RefSplitter:
         return " ".join(words)
 
     def format_description_lists(self, page: Tag) -> dict[str, list[str]]:
-        '''
-        parses description lists and extracts common fields  
-        '''
+        '''parses description lists and extracts common fields'''
         common_fields: dict[str, list[str]] = {}
 
         lists = page.find_all('dl')
@@ -293,6 +276,7 @@ class RefSplitter:
         return common_fields
         
     def get_term_string(self, dl_tag: Tag) -> str:
+        '''returns the text found within a dt tag'''
         if dt_tag := dl_tag.find('dt'):
             term_string: str = dt_tag.get_text(strip=True)
         else:
@@ -302,9 +286,7 @@ class RefSplitter:
         return term_string
 
     def encode_link(self, a_tag: Tag | None) -> str:
-        '''
-        Encodes a hyperlink from an <a> tag into the links dictionary.
-        '''
+        '''Encodes a hyperlink from an <a> tag into the links dictionary.'''
         if a_tag is None:
             raise TypeError("a Tag is 'None'")
         if a_tag.name != 'a':

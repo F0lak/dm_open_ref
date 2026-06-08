@@ -120,8 +120,7 @@ class ExportMD:
             
         for row in P_CLASS_TOKEN_TABLE:
             token = row["TOKEN"]
-            tag = row["md"]
-            p_tokens: list[str] = []            
+            tag = row["md"]    
             
             start_token = f'[{token}]'
             end_token = f'[/{token}]'
@@ -133,19 +132,14 @@ class ExportMD:
                     
                 end_idx = content.find(end_token, start_idx)
                 if end_idx == -1:
-                    raise ValueError("Malformed Token")
+                    raise ValueError(f'p class token ({token}) at index {start_idx} does not close')
                     
-                text_start = start_idx + len(start_token)
-                format_content = '\n' + content[text_start:end_idx]
+                paragraph_start = start_idx + len(start_token)
+                format_content = '\n' + content[paragraph_start:end_idx]
+                seasoned_paragraph = self.season_string(format_content, MDFlavour(tag))
                 
-                seasoned_text = self.season_string(format_content, MDFlavour(tag))
+                content = content[:start_idx] + seasoned_paragraph + content[end_idx + len(end_token):]
                 
-                content = content[:start_idx] + seasoned_text + content[end_idx + len(end_token):]
-                
-            return content
-            
-            # step 1, build a list of all instances of the token opening and closing
-            # step 2, replace the elements of the list with their seasoned counterparts and strip the tokens
         return content
     
     def format_codeblocks(self, content: str) -> str:
@@ -166,7 +160,7 @@ class ExportMD:
                 
             end_idx = text.find(end_token, start_idx)
             if end_idx == -1:
-                raise ValueError("Malformed link")
+                    raise ValueError(f'Link token ({start_token}) at index {start_idx} does not close')
                 
             path_start = start_idx + len(start_token)
             link_path = text[path_start:end_idx]

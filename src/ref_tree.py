@@ -17,10 +17,8 @@ class RefNode:
         self.parent_id = parent_id
 
 class RefTree:
-    '''
-    Manages the tree of reference nodes
-    The structure of this tree will denote the organization and pathing of pages when exported
-    '''
+    '''Manages the tree of reference nodes
+    The structure of this tree will denote the organization and pathing of pages when exported'''
     _instance = None
 
     nodes: list[RefNode] = []

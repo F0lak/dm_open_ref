@@ -364,3 +364,6 @@ The goals are:
 
     [COMMIT [2026-06-08 06:14:37]: implements p_class token parsing
     
+
+    [COMMIT [2026-06-08 06:28:20]: formatting cleanup pass
+    

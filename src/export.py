@@ -15,13 +15,14 @@ class MDFlavour(Enum):
 class ExportMD:
     '''Exports the RefTree into a collection of md files'''
     
-    export_path: str
+    export_root: pathlib.Path
     export_format: str = "md"
     
-    def set_export_path(self, exp_path: str) -> None:
-        self.export_path = exp_path
+    def __init__(self, exp_path: pathlib.Path | str = "_md_export") -> None:
+        self.export_root = pathlib.Path(exp_path)
     
     def clean_filepath(self, text: str) -> str:
+        '''removes invalid characters from filepaths'''
         text = text.replace("%2e", ".")
         text = text.replace("%3e", ">")
         text = text.replace("%3c", "<")
@@ -74,10 +75,9 @@ class ExportMD:
             content += related_pages
             content = self.format_tokens(content)
             content = self.format_codeblocks(content)
-            content = self.format_links(tree, content)
+            content = self.format_links(tree.links, content)
             
             self.export_page(node.entry.ref_id, content)
-            
     
     def format_string_list(self, str_list: list[str], header: str) -> str:
         '''parses a list of strings from the RefEntry
@@ -85,8 +85,9 @@ class ExportMD:
         returns an empty string is str_list is empty'''
         parsed: str = ""
         if len(str_list) > 0:
-            if header != "":
-                parsed += f'\n**{header}:**'
+            if header == "":
+                raise ValueError("Header cannot be an empty string")
+            parsed += f'\n**{header}:**'
             for l in str_list:
                 parsed += f'\n+   {l}'
             parsed += '\n'
@@ -115,12 +116,16 @@ class ExportMD:
         for row in INLINE_TOKEN_TABLE:
             token = row["TOKEN"]
             tag = row["md"]
+            # removes whitespace added during parsing.  This can be removed when that is fixed
             content = content.replace(f"[{token}] ", f"{tag}")
             content = content.replace(f" [/{token}]", f"{tag}")
+            # once we've cleared the spaced out tokens, we can clear out non-spaced tokens
+            content = content.replace(f"[{token}]", f"{tag}")
+            content = content.replace(f"[/{token}]", f"{tag}")
             
         for row in P_CLASS_TOKEN_TABLE:
             token = row["TOKEN"]
-            tag = row["md"]    
+            tag = row["md"]
             
             start_token = f'[{token}]'
             end_token = f'[/{token}]'
@@ -144,11 +149,11 @@ class ExportMD:
     
     def format_codeblocks(self, content: str) -> str:
         '''converts codeblock tokens into markdown codeblocks with the dm annotation'''
-        content = content.replace("[CODEBLOCK]", "```dm")
-        content = content.replace(" [/CODEBLOCK]", "```")
+        content = content.replace("[CODEBLOCK]", "\n```dm\n")
+        content = content.replace("[/CODEBLOCK]", "\n```\n")
         return content
                 
-    def format_links(self, tree: RefTree, text: str) -> str:
+    def format_links(self, tree_links: dict[str, str], text: str) -> str:
         '''replaces link tokens with their proper markdown links provided by the RefTree's link LUT'''
         start_token = "[LINK]"
         end_token = "[/LINK]"
@@ -165,8 +170,10 @@ class ExportMD:
             path_start = start_idx + len(start_token)
             link_path = text[path_start:end_idx]
             
-            link_text = tree.links.get(link_path, link_path)
+            link_text = tree_links.get(link_path, link_path)
             
+            ## adding a space because links don't respect whitespace for some reason.
+            ##TODO: look into whyyyyy
             markdown_link = f" [{link_text}]({link_path})"
             text = text[:start_idx] + markdown_link + text[end_idx + len(end_token):]
             
@@ -177,7 +184,7 @@ class ExportMD:
         clean_ref_id = ref_id.lstrip("\\/")
         clean_filepath = self.clean_filepath(clean_ref_id)
         
-        export_file = pathlib.Path("_md_export") / "ref" / f"{clean_filepath}.md"
+        export_file = self.export_root / "ref" / f"{clean_filepath}.md"
         print(f"Writing {export_file}")
         export_file.parent.mkdir(parents=True, exist_ok=True)
         with open(export_file, "w", encoding="utf-8") as file:

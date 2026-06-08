@@ -22,7 +22,7 @@ class RefTree:
     _instance = None
 
     nodes: list[RefNode] = []
-    links: dict[str, str]
+    links: dict[str, str] # format is: link_text : link_path
     
     def __init__(self) -> None:
         print("RefTree created")

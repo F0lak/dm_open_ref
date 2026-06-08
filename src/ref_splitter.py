@@ -227,9 +227,14 @@ class RefSplitter:
         
         open_tag_terminator_index = text.find('>')
         
-        if open_tag_terminator_index == 0:
+        if open_tag_terminator_index == -1:
             raise ValueError("open tag is never terminated.")
         
+        # This naive approach leaves undesired whitespace between each 'word'
+        # ie: "this is <b>bold</b>." becomes "this is [BOLD] bold [/BOLD] ."
+        # note how it introduces a space between the word and tag, as well as before the period.
+        # For now, this is acceptable, but there is downstream special handling for it, so when
+        # possible, this should be fixed.
         text = text[open_tag_terminator_index+1:-4]
         words = text.split()
         return " ".join(words)
@@ -286,7 +291,8 @@ class RefSplitter:
         return term_string
 
     def encode_link(self, a_tag: Tag | None) -> str:
-        '''Encodes a hyperlink from an <a> tag into the links dictionary.'''
+        '''Encodes a hyperlink from an <a> tag into the links dictionary.
+        Dictionary Format is: "link text" : "link path" '''
         if a_tag is None:
             raise TypeError("a Tag is 'None'")
         if a_tag.name != 'a':

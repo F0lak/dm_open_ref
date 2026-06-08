@@ -1,7 +1,7 @@
 
 import pathlib
 from src.ref_tree import RefTree
-from src.token_table import INLINE_TOKEN_TABLE
+from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 import pathlib
 from enum import Enum
 
@@ -42,6 +42,7 @@ class ExportMD:
         return text
     
     def export(self, tree: RefTree) -> None:
+        '''exports all of the pages that the reftree contains'''
         for node in tree.nodes:
             
             meta_header: str = "" # the content of the header metadata.  This will be assigned based on the GithubPages framework
@@ -116,9 +117,39 @@ class ExportMD:
             tag = row["md"]
             content = content.replace(f"[{token}] ", f"{tag}")
             content = content.replace(f" [/{token}]", f"{tag}")
+            
+        for row in P_CLASS_TOKEN_TABLE:
+            token = row["TOKEN"]
+            tag = row["md"]
+            p_tokens: list[str] = []            
+            
+            start_token = f'[{token}]'
+            end_token = f'[/{token}]'
+            
+            while True:
+                start_idx = content.find(start_token)
+                if start_idx == -1:
+                    break
+                    
+                end_idx = content.find(end_token, start_idx)
+                if end_idx == -1:
+                    raise ValueError("Malformed Token")
+                    
+                text_start = start_idx + len(start_token)
+                format_content = '\n' + content[text_start:end_idx]
+                
+                seasoned_text = self.season_string(format_content, MDFlavour(tag))
+                
+                content = content[:start_idx] + seasoned_text + content[end_idx + len(end_token):]
+                
+            return content
+            
+            # step 1, build a list of all instances of the token opening and closing
+            # step 2, replace the elements of the list with their seasoned counterparts and strip the tokens
         return content
     
     def format_codeblocks(self, content: str) -> str:
+        '''converts codeblock tokens into markdown codeblocks with the dm annotation'''
         content = content.replace("[CODEBLOCK]", "```dm")
         content = content.replace(" [/CODEBLOCK]", "```")
         return content
@@ -148,6 +179,7 @@ class ExportMD:
         return text
     
     def export_page(self, ref_id: str, content):
+        '''exports the page content to a markdown file'''
         clean_ref_id = ref_id.lstrip("\\/")
         clean_filepath = self.clean_filepath(clean_ref_id)
         

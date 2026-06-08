@@ -315,7 +315,7 @@ The goals are:
     I could technically pull a properly formatted file from the live oref, since it's in the correct md format already.
     I might actually do that when I get back from my break.
 
-[06-07-2026] (4 hours)
+[06-06-2026] (4 hours)
     I spent tonight working on getting the new export method wired up.  I'm pretty satisfied with how this turned out and came together.
 
     I separated the export functionality to its own ExportMD class in its own little file.  This will help to keep things organized
@@ -346,9 +346,21 @@ The goals are:
 
     This version is about 95% to finished I think
 
+[06-07-2026] (1 hour)
+    Today I'm working on handling the edge cases for the html parsing and markdown formatting to ensure relatively seamless parsing
+    in preparation for setting up the new oref repo and github pages repo.
+
     [COMMIT [2026-06-07 17:52:47]: implements p class tokens and adds markdown checks to token unit tests
+    [COMMIT [2026-06-07 18:00:35]: implements data-driven approach to p class tokenization
+        fixes typo in token_table for 'compatibility' tag
+
+[06-08-2026]
+    Took a good solid break last night to get some much needed rest and I'm back at it today.
+    Just finishing up the last of the markdown formatting for paragraph tags.
+
+    I still need to handle the last few cases for paragraph parsing, and then set up the test suite for the exporter.
+    Once that's done, I'm ready to run a full export, but need to make sure that the export aborts in the event of a failed parse and a failed file write.
     
 
-    [COMMIT [2026-06-07 18:00:35]: implements data-driven approach to p class tokenization
-fixes typo in token_table for 'compatibility' tag
+    [COMMIT [2026-06-08 06:14:37]: implements p_class token parsing
     

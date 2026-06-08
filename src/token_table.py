@@ -13,7 +13,7 @@ INLINE_TOKEN_TABLE = [
 ]
 
 P_CLASS_TOKEN_TABLE = [
-    {"TOKEN" : "P_COMPATABILITY", "html" : "compatbility",    "md" : "TIP"},
+    {"TOKEN" : "P_COMPATIBILITY", "html" : "compatibility",   "md" : "TIP"},
     {"TOKEN" : "P_PERFORMANCE",   "html" : "performance",     "md" : "TIP"},
     {"TOKEN" : "P_TIP",           "html" : "tip",             "md" : "TIP"},
     {"TOKEN" : "P_NOTE",          "html" : "note",            "md" : "NOTE"},

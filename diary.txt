@@ -348,3 +348,7 @@ The goals are:
 
     [COMMIT [2026-06-07 17:52:47]: implements p class tokens and adds markdown checks to token unit tests
     
+
+    [COMMIT [2026-06-07 18:00:35]: implements data-driven approach to p class tokenization
+fixes typo in token_table for 'compatibility' tag
+    

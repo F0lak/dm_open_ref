@@ -4,7 +4,7 @@ The Ref Splitter takes in a string given by the file i/o module and processes it
 '''
 from bs4 import BeautifulSoup, Tag
 import warnings
-from src.token_table import INLINE_TOKEN_TABLE
+from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 
 
 class RefEntry:
@@ -223,22 +223,11 @@ class RefSplitter:
     def tokenize_paragraph(self, paragraph: str, tag: Tag) -> str:
         '''Tokenizes a paragraph block based on its class attribute'''
         if p_classes := tag.get('class'):
-            print(f'paragraph classes = {p_classes}')
-            if 'compatibility' in p_classes:
-                paragraph = f'[P_COMPATABILITY]{paragraph}[/P_COMPATABILITY]'
-            elif 'performance' in p_classes:
-                paragraph = f'[P_PERFORMANCE]{paragraph}[/P_PERFORMANCE]'
-            elif 'note' in p_classes:
-                paragraph = f'[P_NOTE]{paragraph}[/P_NOTE]'
-            elif 'tip' in p_classes:
-                paragraph = f'[P_TIP]{paragraph}[/P_TIP]'
-            elif 'deprecated' in p_classes:
-                paragraph = f'[P_DEPRECTATED]{paragraph}[/P_DEPRECATED]'
-            elif 'didyouknow' in p_classes:
-                paragraph = f'[P_DIDYOUKNOW]{paragraph}[/P_DIDYOUKNOW]'
-            elif 'security' in p_classes:
-                paragraph = f'[P_SECURITY]{paragraph}[/P_SECURITY]'
-                
+            for row in P_CLASS_TOKEN_TABLE:
+                p_class = row["html"]
+                if p_class in p_classes:
+                    token = row["TOKEN"]
+                    paragraph = f'[{token}]{paragraph}[/{token}]'
         return paragraph
 
     def clean_paragraph(self, text: str) -> str:

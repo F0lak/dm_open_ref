@@ -4,6 +4,7 @@ from .ref_tree import RefTree
 from .token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 import pathlib
 from enum import Enum
+from tqdm import tqdm
 
 class MDFlavour(Enum):
     NOTE = "NOTE"
@@ -44,7 +45,7 @@ class ExportMD:
     
     def export(self, tree: RefTree) -> None:
         '''exports all of the pages that the reftree contains'''
-        for node in tree.nodes:
+        for node in tqdm(tree.nodes, desc="Processing Pages", bar_format="{l_bar}{r_bar}"):
             
             meta_header: str = "" # the content of the header metadata.  This will be assigned based on the GithubPages framework
             content: str = "" # the content of the markdown file

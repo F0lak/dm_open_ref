@@ -5,7 +5,10 @@ The Ref Splitter takes in a string given by the file i/o module and processes it
 from bs4 import BeautifulSoup, Tag
 import warnings
 from .token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
+import logging
 from tqdm import tqdm
+
+logger = logging.getLogger(__name__)
 
 class RefEntry:
     '''
@@ -147,10 +150,10 @@ class RefSplitter:
             raise ValueError("You must call prep_pages() before building ref entries")
         
         current_page_num = 0
-        for page in tqdm(self.pages_to_parse, desc="Processing Pages"):
+        for page in tqdm(self.pages_to_parse, desc="Processing Pages", bar_format="{l_bar}{r_bar}"):
             current_page_num += 1
             entry_refpath: str = str(page.attrs["name"])
-            #print(f'Parsing Page ({current_page_num}/{len(self.pages_to_parse)}): {entry_refpath}')
+            #logger.info(f'Parsing Page ({current_page_num}/{len(self.pages_to_parse)}): {entry_refpath}')
             
             desc_lists = self.format_description_lists(page)
             self.purge_elements()

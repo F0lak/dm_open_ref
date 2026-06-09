@@ -4,25 +4,6 @@ from bs4 import BeautifulSoup
 from ref_splitter.ref_splitter import RefSplitter, RefEntry
 from ref_splitter.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 
-@pytest.fixture(scope="module")
-def splitter():
-    '''creates a shared splitter instance for all the tests in this module'''
-    sample_path = './mouse_drop_sample.txt'
-    with open(sample_path, 'r', encoding='utf-8') as f:
-        content = f.read()
-
-    splitter_instance = RefSplitter(content)
-    splitter_instance.build_ref_entries()
-
-    return splitter_instance
-
-@pytest.mark.integration
-def test_data_population(splitter) -> None:
-    '''tests that the splitter populated its data fields'''
-    assert len(splitter.entries) > 0
-    assert len(splitter.pages) > 0
-    assert len(splitter.links) > 0
-
 @pytest.mark.unit
 @pytest.mark.dependency(name="desc_list")
 def test_desc_list_parsing(splitter) -> None:

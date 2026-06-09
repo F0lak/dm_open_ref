@@ -468,3 +468,15 @@ The goals are:
     assuming these pass, we can push to remote
     [COMMIT [2026-06-09 16:02:50]: fixes test suite
     
+    Alright.  Had to fix up the broken test suite.  That was an adventure through stale caches, relative pathing and an admittedly bad config file.
+    I ended up moving the test suite out from ref_splitter into the root folder, so I had to point the ini to the correct dir and lock it in properly.
+    The directory is now looking much cleaner.  I only have an old local test file that's now gone that I either need to add back in, or learn the pytesty way to populate test data like this.
+
+    Alright.  So I put the test file into a new test_data folder and point to it now from the conftest.py file.  I also moved over the splitter fixture.  At some point soon I'll do a pass of all of my tests
+    to make sure they're consistent and conform to proper standards.
+
+    For now, I'm just glad that I've got them all working properly again.  I did also remove a stale test that was testing for fields in the splitter that are no longer relevant.
+
+    Time for some dinner and a few episodes of a show before I continue on by writing the test suite for the new export flow.
+    [COMMIT [2026-06-09 16:24:16]: configures test file for ref_splitter tests and moves refsplitter fixture to conftest and removes module scope
+    

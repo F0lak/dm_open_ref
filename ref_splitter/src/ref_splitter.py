@@ -6,7 +6,6 @@ from bs4 import BeautifulSoup, Tag
 import warnings
 from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 
-
 class RefEntry:
     '''
     An intermediate representation of a single page entry from the DM reference

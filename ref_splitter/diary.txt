@@ -35,7 +35,7 @@ The goals are:
     Phase 0: Set up pytests and CI pipeline (1/2 hours) 
         [completed 05-29] (1 hrs total)
 
-    Phase 1: DMRef extraction (17.5/16 hours)
+    Phase 1: DMRef extraction (19/16 hours)
         Digest and extract raw content from info.html\(use old_refsplitter.py for reference)
         Build the RefEntrys using the raw content in a logical format that can be formatted easily.
 
@@ -43,7 +43,7 @@ The goals are:
         Create RefNode class from RefEntry, to handle tree placement
         Build the RefTree using RefNodes for the hierarchy.
 
-    Phase 3: Packaging (3/21 hours)
+    Phase 3: Packaging (7/21 hours)
         Serve the RefTree in different formats, such as
             md file format for oref repository*
             rebuilding prettyref.html from custom content
@@ -363,10 +363,83 @@ The goals are:
     
 
     [COMMIT [2026-06-08 06:14:37]: implements p_class token parsing
-    
-
     [COMMIT [2026-06-08 06:28:20]: formatting cleanup pass
-    
-
     [COMMIT [2026-06-08 15:35:18]: implements test suite for export.py implementation
+
+    I've been pretty quiet on the diary, as it's been mostly grunt work, setting up things like
+    the test suite for the export script and refactoring a few things.  Details for that are in the commit logs.
+
+    However, the last task on the todo is to set up the Ref Tree, and I'm at a bit of an impasse so I'm going to rubber ducky it here.
+
+    DM's reference organizes itself into a tree, where each node on the tree is an entry in the reference.
+    This works great with the js implementation, because the custom tree on the left lets users click on the elements.
+    However, for an md repository on github, this doesn't work, as in the case of something like the canonical atoms
+    they are all organized into a folder structure that places the files for example for "mob" and "obj" are placed into the "atom/movable" dir 
+    where they should logically be found in their respective folders.
+
+    So what I need to do is to make the RefTree build the file tree first, then as I parse the pages, I can lookup the directories and if the page name
+    matches a directory name (ie: /atom/movable/mob dir would match the /atom/movable/mob page, by nature of the way I'm populating entry paths)
+
+    HOWEVER!  I need to look into the options for deploying github pages, because the frontend might handle the display system the same as the byond ref does.
+    If that's the case, then I don't need to do any extra work, as the backend md directories would be displayed correctly.
+
+    I'll just run this as-is for now and worry about the filesystem foo awhile later.  I'm more interested in
+    A: getting the open ref repo up and running on a fresh repository.
+    B: pushing the exported markdown to said repository, using github actions
+    C: setup the github pages site to render.  im not settled on the actual front-end framework at the moment.  I need to handle B and C first.
+    * The above was scrapped in favour of the workflow below
+
+    The flow I need to implement for the completed project is as follows:
+
+       ┌────────────────────────────────────────────────────────────┐
+       |                     [ Local Machine ]                      |
+       | ┌────────────────┐     1. Triggers       ┌───────────────┐ |
+       | │   Bot Script   │ ────────────────────> │ Parser Script │ |
+       | └────────────────┘                       └───────────────┘ |
+       |         │                                        │         |
+       |         │ 3. Pushes Updates                      │ 2. Outputs Fresh
+       |         ▼                                        ▼    Markdown Files
+       | ┌────────────────┐                       ┌───────────────┐ |
+       | │ Local Git Repo │ <──────────────────── │ Output Folder │ |
+       | └────────────────┘   Copies files into   └───────────────┘ |
+       |        │                                                   |
+       └────────────────────────────────────────────────────────────┘      
+                │ 4. git push
+                ▼
+        ┌─────────────────────────────────────────────────────────┐
+        │                     GitHub.com                          │
+        │  ┌───────────────────────────┐   5. Auto-renders        │
+        │  │ dm_open_ref  (new branch) │ ─────────────────> Pages │
+        │  └───────────────────────────┘                          │
+        └─────────────────────────────────────────────────────────┘
     
+    This is entirely new to me, with this many moving parts from different infrastructures, so it might actually take me a few days to get it up and running.
+    I think the first move is to get the repo updated to the freshly parsed files.  that's going to be a diff and a half, so I'll start by branching the live ref
+    and then work on my changes separately.  Once I'm happy with it, then I can merge into main.
+
+    So to simplify this into actionable steps:
+    [✓]    0) Branch open-ref for the new version of the parser
+    [✓]    1) Create a new repo for the bot to live on (laptop)
+    [ ]    2) Have the bot ping BYOND to check for new versions (will have to figure this part out)
+    [ ]    3) if a change is detected, have the bot spin up the parser
+    [ ]    4) parser should write to the local open_ref repo
+    [ ]    5) commit and push the local open_ref repo (halt if merge conflicts or errors)
+    [ ]    6) calculate some flashy metrics for the process on the bot side
+    [ ]    7) send telemetry to GitHub from the bot to display runtimes and other fancy metrics 
+    [ ]    9) let this system run in the background for a week or two, implementing more tests as issues arise and updating discord features on bot
+    [ ]    10) merge to main open_ref repo
+    [ ]    11) implement github pages for the new repo content
+
+    Alright.  Step 1 is done.  Time to take a break.
+
+    I'm back from my break, and I've had a good think.  I feel a little flustered because I feel like this is a lot of back and forth right now.
+    I'm leaning towards a simpler single-repo approach, like I had before.  I guess I liked the idea of a multi-repo solution so that someone pulling
+    or contributing didn't have to grab the bot and everything else if they wanted to contribute or test things, but I'm learning that one of the benefits
+    of python is that the "programs" it makes are all super modular.  You just run the script you want to run, and those dependencies run 
+    when they're told to, or they don't.  so for this setup, there's no need to completely lock everything behind its own repository.
+    It just adds unecessary complexity to the whole project.  KISS baby.
+
+    I will say, I'm learning an awful lot of CLI commands.
+    
+    Ok.  We've got the old repo merged into the main oref repo now, git history preserved!  hallelujiah, or whatever it is.
+    Time to dig in with reconfiguring the output stream, and then I can take a look at setting up this front-end FINALLY

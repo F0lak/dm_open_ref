@@ -102,8 +102,8 @@ class RefSplitter:
     def __init__(self, doc_str: str):
         print("new ref splitter")
         self.soup = BeautifulSoup(doc_str, "lxml")
-        self.entries = []
-        self.pages = []
+        self.entries: list[RefEntry] = []
+        self.pages: list[str] = []
         self.links = {}
         self.elems_to_remove = []
         
@@ -153,7 +153,7 @@ class RefSplitter:
         for page in tqdm(self.pages_to_parse, desc="Processing Pages", bar_format="{l_bar}{r_bar}"):
             current_page_num += 1
             entry_refpath: str = str(page.attrs["name"])
-            #logger.info(f'Parsing Page ({current_page_num}/{len(self.pages_to_parse)}): {entry_refpath}')
+            logger.info(f'Parsing Page ({current_page_num}/{len(self.pages_to_parse)}): {entry_refpath}')
             
             desc_lists = self.format_description_lists(page)
             self.purge_elements()
@@ -165,7 +165,7 @@ class RefSplitter:
             self.set_common_fields(entry, desc_lists)
 
             self.entries.append(entry)
-            self.pages.append('\n\n'.join(content))
+            #self.pages.append('\n\n'.join(content))
 
             #pprint(entry.desc_lists)
             

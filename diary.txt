@@ -443,5 +443,28 @@ The goals are:
     
     Ok.  We've got the old repo merged into the main oref repo now, git history preserved!  hallelujiah, or whatever it is.
     Time to dig in with reconfiguring the output stream, and then I can take a look at setting up this front-end
+
     [COMMIT [2026-06-09 02:06:47]: moves diary to open_ref root folder and adds commit message back into it
+    
+    That's better!  Now it's time for bed.
+
+[06-09-2026]
+    Alright, back at it for another day off.  The goal today is to get the program wrapped.
+
+    The first order of business is to finish sorting the tree structure for the refnodes.  We'll add a recursive function to build the path from the parents up to root, and then check if the current directory has 
+    a folder with the same name as a node when we go to write the file, and if so, place it into that folder.  I guess if I use MkDocs I also need to rename this file as well, depending on the rendering setup.
+    But let's get this working first, and then we can direct our attention to the front-end
+
+    Alright.  We've got the file mapping done now.  The 'RefTree' is now more a collection of nodes, since there's no parenting or association going on there, so it's technically not a tree any more.
+    The next item will be implementing some tests for the pages to confirm:
+        - file structure: not sure how to confirm this.
+        - index file population: make sure that the index files were properly moved to their directories, renamed and don't exist as siblings to their dir
+        - link validity: since the tmp folder contains the /ref folder that will be moved, then links should yield a 1:1 match in tests
+    Once those tests are implemented, then write a CD script to move the temp folder over to the main ref folder and push it to git.
+    post-move tests will need to include:
+        - temp folder has been removed: check that it doesn't exist
+        - links still hold up: scan all of the files and make sure they aren't broken (adding this pass allows more formatting tests down the line as well)
+        - file structure is identical (will need to cache it and compare)
+    assuming these pass, we can push to remote
+    [COMMIT [2026-06-09 16:02:50]: fixes test suite
     

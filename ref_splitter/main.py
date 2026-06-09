@@ -33,7 +33,6 @@ splitter.prep_pages()
 splitter.build_ref_entries()
 
 ref_tree: RefTree = RefTree()
-ref_tree.links = splitter.links
 ref_tree.build_tree_from_entries(splitter.entries, splitter.links)
 
 export = ExportMD()

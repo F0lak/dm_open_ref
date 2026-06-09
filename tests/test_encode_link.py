@@ -3,7 +3,7 @@ Series of tests ran on the ref_splitter's encode_link() function
 '''
 
 import pytest
-from src.ref_splitter import RefSplitter
+from ref_splitter.ref_splitter import RefSplitter
 from bs4 import Tag
 
 @pytest.mark.unit

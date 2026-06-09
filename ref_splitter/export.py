@@ -1,10 +1,14 @@
 
 import pathlib
-from .ref_tree import RefTree
+from .ref_tree import RefTree, RefNode
 from .token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 import pathlib
 from enum import Enum
+import logging
 from tqdm import tqdm
+import shutil
+
+logger = logging.getLogger(__name__)
 
 class MDFlavour(Enum):
     NOTE = "NOTE"
@@ -19,7 +23,7 @@ class ExportMD:
     export_root: pathlib.Path
     export_format: str = "md"
     
-    def __init__(self, exp_path: pathlib.Path | str = "_md_export") -> None:
+    def __init__(self, exp_path: pathlib.Path | str = "_tmp_md_export") -> None:
         self.export_root = pathlib.Path(exp_path)
     
     def clean_filepath(self, text: str) -> str:
@@ -45,6 +49,8 @@ class ExportMD:
     
     def export(self, tree: RefTree) -> None:
         '''exports all of the pages that the reftree contains'''
+        self.clear_export_dir()
+        
         for node in tqdm(tree.nodes, desc="Processing Pages", bar_format="{l_bar}{r_bar}"):
             
             meta_header: str = "" # the content of the header metadata.  This will be assigned based on the GithubPages framework
@@ -78,7 +84,7 @@ class ExportMD:
             content = self.format_codeblocks(content)
             content = self.format_links(tree.links, content)
             
-            self.export_page(node.entry.ref_id, content)
+            self.export_page(node.entry.ref_id, content, node.is_index)
     
     def format_string_list(self, str_list: list[str], header: str) -> str:
         '''parses a list of strings from the RefEntry
@@ -174,19 +180,34 @@ class ExportMD:
             link_text = tree_links.get(link_path, link_path)
             
             ## adding a space because links don't respect whitespace for some reason.
-            ##TODO: look into whyyyyy
+            ##TODO: look into why
             markdown_link = f" [{link_text}]({link_path})"
             text = text[:start_idx] + markdown_link + text[end_idx + len(end_token):]
             
         return text
     
-    def export_page(self, ref_id: str, content):
+    def clear_export_dir(self) -> None:
+        '''Wipes the export root folder before writing fresh'''
+        target_dir = self.export_root
+        
+        if target_dir.exists():
+            logger.info(f"Clearing export directory: {target_dir}")
+            shutil.rmtree(target_dir)
+            
+        # Recreate the base directory so it's ready for fresh writes
+        target_dir.mkdir(parents=True, exist_ok=True)
+    
+    def export_page(self, ref_id: str, content: str, is_index: bool):
         '''exports the page content to a markdown file'''
         clean_ref_id = ref_id.lstrip("\\/")
         clean_filepath = self.clean_filepath(clean_ref_id)
         
-        export_file = self.export_root / "ref" / f"{clean_filepath}.md"
-        print(f"Writing {export_file}")
+        if is_index:
+            export_file = self.export_root / "ref" / clean_filepath / "index.md"
+        else:
+            export_file = self.export_root / "ref" / f"{clean_filepath}.md"
+            
+        #logger.info(f"Writing {export_file}")
         export_file.parent.mkdir(parents=True, exist_ok=True)
         with open(export_file, "w", encoding="utf-8") as file:
             file.write(content)

@@ -2,7 +2,7 @@
 
 import re
 import pytest
-from src.dm_ref import DMRef
+from ref_splitter.dm_ref import DMRef
 
 @pytest.mark.unit
 def test_byond_remote_url() -> None:

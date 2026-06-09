@@ -6,14 +6,9 @@ from .ref_splitter import RefEntry
 
 class RefNode:
     '''A reference tree node for organizing the reference tree content'''
-    id: int
-    parent_id: int
-    entry: RefEntry
-    
-    def __init__(self, entry, this_id: int, parent_id: int) -> None:
-        self.entry = entry
-        self.id = this_id
-        self.parent_id = parent_id
+    def __init__(self, entry: RefEntry) -> None:
+        self.entry: RefEntry = entry
+        self.is_index: bool = False
 
 class RefTree:
     '''Manages the tree of reference nodes
@@ -27,18 +22,19 @@ class RefTree:
         print("RefTree created")
         
     def build_tree_from_entries(self, entries: list[RefEntry], links: dict[str, str]) -> None:
-        for entry in entries:
-            new_node = self.create_node(entry)
-            self.append(new_node)
-            
+        
         self.links = links
+        tree_map: dict[str, int] = {}
+        
+        # populate the tree with entries
+        for entry in entries:
+            tree_map[entry.ref_id] = entry.pid
+            self.nodes.append(RefNode(entry))
+        
+        # check for index entries (pages that share a path with a directory)
+        for idx, entry in enumerate(entries):
+            has_children = any(path.startswith(entry.ref_id + '/') for path in tree_map)
+            if has_children:
+                self.nodes[idx].is_index = True
             
         print(f"RefTree built with {len(self.nodes)} nodes")
-            
-    def append(self, node: RefNode) -> None:
-        self.nodes.append(node)
-    
-    def create_node(self, entry: RefEntry) -> RefNode:
-        #TODO: Properly organize the tree nodes into the correct hierarchy
-        new_node = RefNode(entry, len(self.nodes), 0)
-        return new_node

@@ -1,8 +1,8 @@
 '''Integration test to ensure that RefSplitter can properly parse a test file'''
 import pytest
-from src.ref_splitter import RefSplitter, RefEntry
 from bs4 import BeautifulSoup
-from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
+from ref_splitter.ref_splitter import RefSplitter, RefEntry
+from ref_splitter.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 
 @pytest.fixture(scope="module")
 def splitter():
@@ -65,7 +65,7 @@ def test_common_field_parsing(splitter, input_field) -> None:
     tag = soup.find('div')
     
     desc_lists = splitter.format_description_lists(tag)
-    entry: RefEntry = RefEntry("/test")
+    entry: RefEntry = RefEntry("/test", 0)
     splitter.set_common_fields(entry, desc_lists)
     
     attr_name = splitter.field_mapping[input_field]

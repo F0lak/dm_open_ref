@@ -2,8 +2,8 @@
 Tests the markdown export script
 '''
 import pytest
-from src.export import ExportMD, MDFlavour
-from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
+from ref_splitter.export import ExportMD, MDFlavour
+from ref_splitter.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 
 '''
 this should be deleted after tests are written
@@ -108,7 +108,7 @@ def test_export_page_configurable(tmp_path) -> None:
     '''ensures exporting a page properly writes a file to disk'''
     injector = ExportMD(exp_path=tmp_path)
     
-    injector.export_page("test/page", "test content")
+    injector.export_page("test/page", "test content", False)
     
     expected_file = tmp_path / "ref" / "test" / "page.md"
     assert expected_file.exists()

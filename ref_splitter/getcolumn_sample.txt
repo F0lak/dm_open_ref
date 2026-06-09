@@ -1,0 +1,51 @@
+   <a name="/database/query/proc/GetColumn">
+    <h2 byondver="506">
+     GetColumn proc (database query)
+    </h2>
+    <dl>
+     <dt><b>
+       See also:
+      </b></dt>
+     <dd><a href="#/database">database datum</a>
+      <dd><a href="#/database/query">database query datum</a>
+       <dd><a href="#/database/query/proc/Columns">Columns proc (database query)</a>
+        <dd><a href="#/database/query/proc/Execute">Execute proc (database query)</a>
+         <dd><a href="#/database/query/proc/GetRowData">GetRowData proc (database query)</a>
+          <dd><a href="#/database/query/proc/NextRow">NextRow proc (database query)</a>
+           <dd><a href="#/database/query/proc/Reset">Reset proc (database query)</a>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+
+    <dl>
+     <dt><b>Format:</b></dt>
+     <dd>GetColumn(column)</dd>
+    </dl>
+
+    <dl>
+    <dt><b>Args:</b></dt>
+     <dd>column: The column number whose value should be retrieved
+     </dd>
+    </dl>
+    
+    <p>
+        Gets the value from the Nth column in this row of results. If you haven't
+        already called Execute() and NextRow(), you should do that first.
+    </p>
+    <p>
+        To get the name of the column, not the value for this row, call
+        Columns(column) instead.
+    </p>
+    <p>
+        The value returned depends on what type the database table thinks it is.
+        For instance if you defined a column as INTEGER or FLOAT, the value should
+        be a number. TEXT is still text, and null values are returned as null. If an
+        icon was saved into a BLOB field, the result is an icon file.
+    </p>
+    <hr/>
+   </a>

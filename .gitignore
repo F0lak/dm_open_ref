@@ -1,3 +1,4 @@
 *.prof
 *.html
 .env
+_md_export/

@@ -1,7 +1,7 @@
 
 import pathlib
-from src.ref_tree import RefTree
-from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
+from .ref_tree import RefTree
+from .token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 import pathlib
 from enum import Enum
 

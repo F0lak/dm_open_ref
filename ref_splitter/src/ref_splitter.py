@@ -4,7 +4,8 @@ The Ref Splitter takes in a string given by the file i/o module and processes it
 '''
 from bs4 import BeautifulSoup, Tag
 import warnings
-from src.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
+from .token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
+from tqdm import tqdm
 
 class RefEntry:
     '''
@@ -17,8 +18,9 @@ class RefEntry:
         - Links within the page contents
     '''
 
-    def __init__(self, eid: str):
+    def __init__(self, eid: str, pid: int):
         self.ref_id = "NO_ID" # the name of the RefEntry as found in the DM reference <a> tag (ie: /client/proc/New())
+        self.pid = pid # the page ID.  Each page has a unique pid coresponding to the order in which it was processed
         self.content = [] # A list of content delimited by <p> tags
         self.title: str = "" # The title for the reference entry, derived from ref_id
         self.ref_path: list[str] = [] # The path to this page in the original DM referene
@@ -45,7 +47,7 @@ class RefEntry:
         
     def set_title(self) -> None:
         '''Sets the title based on the path'''
-        print(self.ref_path)
+        #print(self.ref_path)
         title_index = len(self.ref_path) - 1
         if title_index >= 0:
             self.title = self.ref_path[title_index]
@@ -101,7 +103,13 @@ class RefSplitter:
         self.pages = []
         self.links = {}
         self.elems_to_remove = []
-
+        
+        self.pages_to_parse: list[Tag] = []
+        
+    def prep_pages(self, length: int | None = None) -> None:
+        for page in self.soup.find_all('a', attrs={"name":True}, limit = length or None):
+            self.pages_to_parse.append(page)
+            
     def save_pretty_soup(self):
         '''saves the pretty soup to a text file
         useful for reading through and seeing what we're working with'''
@@ -132,17 +140,22 @@ class RefSplitter:
         for tag in self.elems_to_remove:
             tag.decompose()
 
-    def build_ref_entries(self, length: int | None = None):
+    def build_ref_entries(self):
         '''Builds Ref Entries for each page found in the soup
         `length` is an optional parameter to limit the number of pages built'''
-        for page in self.soup.find_all('a', attrs={"name":True}, limit = length or None):
-            entry_id: str = str(page.attrs["name"])
-            print(f'Parsing Page: {entry_id}')
+        if len(self.pages_to_parse) == 0:
+            raise ValueError("You must call prep_pages() before building ref entries")
+        
+        current_page_num = 0
+        for page in tqdm(self.pages_to_parse, desc="Processing Pages"):
+            current_page_num += 1
+            entry_refpath: str = str(page.attrs["name"])
+            #print(f'Parsing Page ({current_page_num}/{len(self.pages_to_parse)}): {entry_refpath}')
             
             desc_lists = self.format_description_lists(page)
             self.purge_elements()
 
-            entry = RefEntry(entry_id)
+            entry = RefEntry(entry_refpath, current_page_num)
 
             content = self.extract_content(page)
             entry.content = content
@@ -174,7 +187,7 @@ class RefSplitter:
             raise ValueError("Cannot extract content from non-existant page")
         
         content = page.find_all(['p', 'xmp'])
-        if len(content) == 0:
+        if len(content) == -1:
             raise ValueError("Page has no Content")
         
         content_list: list[str] = []

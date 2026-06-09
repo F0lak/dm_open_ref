@@ -2,8 +2,7 @@
 RefNode and RefTree classes for organizing the parsed information into a digestible tree.
 '''
 
-from src.ref_splitter import RefEntry
-
+from .ref_splitter import RefEntry
 
 class RefNode:
     '''A reference tree node for organizing the reference tree content'''

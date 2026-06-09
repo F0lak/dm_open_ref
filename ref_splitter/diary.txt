@@ -442,4 +442,4 @@ The goals are:
     I will say, I'm learning an awful lot of CLI commands.
     
     Ok.  We've got the old repo merged into the main oref repo now, git history preserved!  hallelujiah, or whatever it is.
-    Time to dig in with reconfiguring the output stream, and then I can take a look at setting up this front-end FINALLY
+    Time to dig in with reconfiguring the output stream, and then I can take a look at setting up this front-end

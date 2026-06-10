@@ -2,7 +2,8 @@
 Tests the markdown export script
 '''
 import pytest
-from pathlib import Path
+from pathlib import Path, PurePosixPath
+from unittest.mock import patch
 from ref_splitter.export import ExportMD, MDFlavour, MDPage
 from ref_splitter.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 
@@ -109,3 +110,18 @@ def test_export_page_configurable(tmp_path) -> None:
     expected_file = tmp_path / "ref" / "test" / "page.md"
     assert expected_file.exists()
     assert expected_file.read_text(encoding="utf-8") == "test content"
+    
+@pytest.mark.unit
+def test_export_page_linux_behavior(tmp_path):
+    '''Simulates Linux path behavior on Windows to catch OS issues locally'''
+    injector = ExportMD(exp_path=tmp_path)
+    page = MDPage("test/page", "test content", False)
+    
+    with patch('pathlib.Path', PurePosixPath):
+        clean_ref_id = page.id.lstrip("\\/")
+        clean_filepath = injector.clean_filepath(clean_ref_id)
+        
+        export_file = Path(f"{clean_filepath}.md") 
+        print(f"\nLinux Path Parts: {export_file.parts}") 
+        
+        assert len(export_file.parts) == 2, "Linux failed to split the directory!"

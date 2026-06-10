@@ -5,8 +5,13 @@ currently only checks if the BYOND reference can be accessed
 
 import pytest
 from ref_splitter.dm_ref import DMRef
+import os
 
 @pytest.mark.network
+@pytest.mark.skipif(
+    os.getenv("GITHUB_ACTIONS") == "true", 
+    reason="Skipping network test on GitHub runner to avoid 403 blocks"
+)
 def test_fetch_ref_from_byond_server() -> None:
     """creates a DMRef object and attempts to download the reference from BYOND remote"""
     ref: DMRef = DMRef()

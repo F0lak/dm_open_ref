@@ -16,7 +16,7 @@ A community-maintained version of the DM Reference derived from BYOND's publishe
 
 ## Contributing
 Contributions are welcome, including:
-* Documentation corrections
+* Documentation ammendments
 * Additional explanations and examples
 * Tooling improvements
 * Bug fixes

@@ -1,18 +1,16 @@
-## isinf proc 
-###### BYOND Version 515
+
+## isinf (proc)
 
 **Format:**
 +   isinf(n)
 
-**Args:**
+**Arguments:**
 +   n: A number
 
 **Returns:**
-+   1 if this is an infinite numeric value, either positive or negative;
-    0 otherwise
-
-> [!TIP] 
-> **See also:**
-> +   [isnum proc](/ref/proc/isnum.md) 
-> +   [isnan proc](/ref/proc/isnan.md)
-> +   [Numbers](ref/notes/numbers)
++   1 if this is an infinite numeric value, either positive or negative; 0 otherwise
+******
+**Related Pages:**
++    [isnum proc](/ref/proc/isnum)
++    [isnan proc](/ref/proc/isnan)
++    [Numbers](/ref/{notes}/numbers)

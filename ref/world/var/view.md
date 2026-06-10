@@ -1,31 +1,11 @@
-## view var (world)
 
-**Default value:**
-+   5
+## view (var)
+***
+This is the default map viewport range. The default value of 5 produces an 11x11 viewport. A value of -1 turns off the map display altogether. The client may automatically scale down icons in order to conveniently fit the map on the player's screen.
 
-**Possible values:**
-+   -1 to 34 or "WIDTHxHEIGHT"
+For non-square views, you can assign this to a text string of the form "WIDTHxHEIGHT". For example, "11x11" is equivalent to a view depth of 5, but you could make it wider like this: "13x11".
 
-This is the default map viewport range. The default value of 5
-produces an 11x11 viewport. A value of -1 turns off the map display
-altogether. The client may automatically scale down icons in order to
-conveniently fit the map on the player\'s screen. 
+This setting also affects the default range of the <code>view()</code>, <code>oview()</code>, <code>range()</code>, and <code>orange()</code> procedures.
 
-For non-square views, you can assign this to a text string of the form
-"WIDTHxHEIGHT". For example, "11x11" is equivalent to a view depth
-of 5, but you could make it wider like this: "13x11". 
-
-This setting also affects the default range of the `view()`, `oview()`,
-`range()`, and `orange()` procedures. 
-
-If the entire map is small enough to fit on one screen (arbitrarily defined
-to be 21x21 orless), the default `view` is automatically adjusted to fit
-the map. In this case, `client.lazy_eye` is also automatically turned on
-by default, since you probably don\'t want the map to scroll around.
-
-> [!TIP] 
-> **See also:**
-> +   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
-> +   [show_map var (client)](/ref/client/var/show_map.md) 
-> +   [view proc](/ref/proc/view.md) 
-> +   [view var (client)](/ref/client/var/view.md) 
+If the entire map is small enough to fit on one screen (arbitrarily defined to be 21x21 or less), the default <code>view</code> is automatically adjusted to fit the map. In this case, <code>client.lazy_eye</code> is also automatically turned on by default, since you probably don't want the map to scroll around.
+***

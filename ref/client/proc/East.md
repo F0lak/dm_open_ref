@@ -1,4 +1,5 @@
-## East proc (client)
+
+## East (proc)
 
 **Format:**
 +   East()
@@ -6,12 +7,11 @@
 **Returns:**
 +   1 on success; 0 on failure.
 
-**When:**
+**Called When:**
 +   Called when the player presses the "right" key or cursor.
 
-**Default action:**
+**Default Action:**
 +   Calls src.Move() towards the east.
-
-> [!TIP] 
-> **See also:**
-> +   [Move proc (client)](/ref/client/proc/Move.md) 
+******
+**Related Pages:**
++    [Move proc (client)](/ref/client/proc/Move)

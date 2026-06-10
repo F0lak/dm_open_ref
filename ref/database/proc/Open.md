@@ -1,18 +1,15 @@
-## Open proc (database) 
-###### BYOND Version 506
+
+## Open (proc)
 
 **Format:**
 +   Open(filename)
 
-**Args:**
+**Arguments:**
 +   filename: The database filename to open
-
-Opens a database file. If another database was already open, it
-is closed automatically. It is more common to simply open the database
-in New().
-
-> [!TIP] 
-> **See also:**
-> +   [database datum](/ref/database.md) 
-> +   [Close proc (database)](/ref/database/proc/Close.md) 
-> +   [New proc (database)](/ref/database/proc/New.md) 
+***
+Opens a database file. If another database was already open, it is closed automatically. It is more common to simply open the database in New().
+***
+**Related Pages:**
++    [database datum](/ref/database)
++    [Close proc (database)](/ref/database/proc/Close)
++    [New proc (database)](/ref/database/proc/New)

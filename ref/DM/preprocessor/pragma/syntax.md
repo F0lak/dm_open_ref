@@ -1,26 +1,18 @@
-## #pragma syntax directive 
-###### BYOND Version 516
 
+## syntax (info)
 
 **Format:**
-+   #pragma syntax <C|DM> [for|switch]
++   #pragma syntax CDM forswitch
+***
+Changes the syntax used to parse certain statements. This can be more natural for users who prefer non-DM style, and can sometimes do things that regular DM syntax can't do.
 
-Changes the syntax used to parse certain statements. This can
-be more natural for users who prefer non-DM style, and can sometimes do
-things that regular DM syntax can\'t do. 
+Changing the <a href="#/proc/for/loop">`for()` loop</a> syntax to C will use semicolons to separate the Init, Test, Inc sections instead of commas. That means commas can be used to chain multiple statements together instead.
 
-Changing the [`for()` loop](/ref/proc/for/loop.md)  syntax to C will use semicolons to separate the
-Init, Test, Inc sections instead of commas. That means commas can be
-used to chain multiple statements together instead. 
+In <a class="code" href="#/proc/switch">switch()</a>, C syntax changes the if/else statements to use C's `case` and/or `default` keywords, followed by a colon, and the <a href="#/proc/break">`break` statement</a> is required to skip to the end of the switch unless you want to fall through to the next case. Fall-through behavior isn't possible in the default DM syntax.
 
-In [switch()](/ref/proc/switch.md) , C syntax changes the if/else
-statements to use C\'s `case` and/or `default` keywords, followed by a
-colon, and the [`break` statement](/ref/proc/break.md) is required to skip to
-the end of the switch unless you want to fall through to the next case.
-Fall-through behavior isn\'t possible in the default DM syntax.
-### Example:
 
 ```dm
+
 #pragma push
 #pragma syntax C switch
 
@@ -38,11 +30,11 @@ switch(thing)
         usr << "This is a different case.
 
 #pragma pop
+
 ```
 
-
-> [!TIP] 
-> **See also:**
-> +   [#pragma directive](/ref/DM/preprocessor/pragma.md) 
-> +   [for loop proc](/ref/proc/for/loop.md) 
-> +   [switch proc](/ref/proc/switch.md) 
+***
+**Related Pages:**
++    [#pragma directive](/ref/DM/preprocessor/pragma)
++    [for loop proc](/ref/proc/for/loop)
++    [switch proc](/ref/proc/switch)

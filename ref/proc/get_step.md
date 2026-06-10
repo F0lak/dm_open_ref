@@ -1,19 +1,20 @@
-## get_step proc
+
+## get_step (proc)
 
 **Format:**
 +   get_step(Ref, Dir)
 
+**Arguments:**
++   Ref: Starting point or object.
++   Dir: One of , , , ,
+     , , ,
+     .
+
 **Returns:**
 +   The location of the new position.
-
-**Args:**
-+   Ref: Starting point or object.
-+   Dir: One of `NORTH`, `SOUTH`, `EAST`, `WEST`, `NORTHEAST`,
-    `NORTHWEST`, `SOUTHEAST`, `SOUTHWEST`.
-
+***
 Calculate the position of a step from `Ref` in the direction `Dir`.
-
-> [!TIP] 
-> **See also:**
-> +   [step proc](/ref/proc/step.md) 
-> +   [walk proc](/ref/proc/walk.md) 
+***
+**Related Pages:**
++    [step proc](/ref/proc/step)
++    [walk proc](/ref/proc/walk)

@@ -1,28 +1,28 @@
-## Exited proc (atom)
+
+## Exited (proc)
 
 **Format:**
 +   Exited(atom/movable/Obj, atom/newloc)
 
-**When:**
-+   Called when an object has exited from the contents list through a
-    call to Move(). Directly setting the object\'s loc or step_x/y vars
-    does not result in a call to Exited() or any other movement
-    side-effects. The same goes for deletion of an object.
-
-**Args:**
+**Arguments:**
 +   Obj: the object that exited (a mob or obj).
-+   newloc <sub>507</sub> : the object\'s new location.
++   : the object's new location.
 
-**Default action:**
+**Called When:**
++   Called when an object has exited from the contents list through a call to
+Move().  Directly setting the object's loc or step_x/y vars does not result
+in a call to Exited() or any other movement side-effects.  The same goes for
+deletion of an object.
+
+**Default Action:**
 +   None for most atoms, but turfs will call Uncrossed().
-
-> [!TIP] 
-> **See also:**
-> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-> +   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-> +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-> +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-> +   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-> +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-> +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
+******
+**Related Pages:**
++    [Enter proc (atom)](/ref/atom/proc/Enter)
++    [Entered](/ref/atom/proc/Entered)
++    [Exit proc (atom)](/ref/atom/proc/Exit)
++    [Cross proc (atom)](/ref/atom/proc/Cross)
++    [Crossed proc (atom)](/ref/atom/proc/Crossed)
++    [Uncross proc (atom)](/ref/atom/proc/Uncross)
++    [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)
++    [Move proc (movable atom)](/ref/atom/movable/proc/Move)

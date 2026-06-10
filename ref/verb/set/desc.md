@@ -1,37 +1,41 @@
-# desc setting (verb)
+
+## desc (info)
+
 **Format:**
 +   set desc = "Description"
 
-**Args:**
+**Arguments:**
 +   Description: A text string containing the help text.
+***
+The desc attribute sets the descriptive help string for the verb. The player may access this by hitting the 'F1' key after entering the command. This will normally produce a list of each argument by type followed by the desc text. If you wish to override the syntax description, put your modified version inside parentheses at the beginning of the desc text.
 
-
-The desc attribute sets the descriptive help string for the
-verb. The player may access this by hitting the \'F1\' key after
-entering the command. This will normally produce a list of each argument
-by type followed by the desc text. If you wish to override the syntax
-description, put your modified version inside parentheses at the
-beginning of the desc text.
-### Example:
 
 ```dm
- mob/verb/tell(mob/M,T as text) set desc =
-"(target,message) Talk privately to someone." M << "[usr] tells
-you, \'[T]" 
+
+mob/verb/tell(mob/M,T as text)
+   set desc = "(target,message) Talk privately to someone."
+   M << "[usr] tells you, '[T]"
+
 ```
- 
+
 
 This will produce the help text:
 
+
 ```dm
- usage: tell target message (Talk privately to someone.)
+
+usage: tell target message (Talk privately to someone.)
 
 ```
- 
 
-If the syntax description had not been supplied, it
-would have produced: 
+
+If the syntax description had not been supplied, it would have produced:
+
+
 ```dm
- usage: tell mob "text" (Talk
-privately to someone.) 
+
+usage: tell mob "text" (Talk privately to someone.)
+
 ```
+
+***

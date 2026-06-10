@@ -1,18 +1,42 @@
-# About open-ref
-This is an open source project meant to allow the [DM Reference](https://www.byond.com/docs/ref/) to be edited by the community to allow us to make fixes, corrections and ammendments and expand upon it.
+# OpenRef
+OpenRef is an open-source project that makes the BYOND DM Reference easier to maintain, improve, and expand through community contributions.
 
-This repo also contains the tool used for splitting the reference provided by BYOND.com: `ref_splitter.py`.  At this time the documentation for the tool is contained in the script itself.
+Originally started as a way to edit and version-control the reference, the project evolved into a document-processing pipeline featuring HTML parsing, structured document models, automated transformations, testing, CI/CD, and community tooling.
 
-The discord bot is also available here as well, under the bot folder.
+## Features
+* HTML → structured document parsing
+* Markdown generation and transformation
+* Automated reference processing tools
+* Test suite and CI/CD pipeline
+* Discord bot integration
 
-You can join the BYONDiscord server to discuss this project [here](https://discord.gg/pTFccGgnAr)
+## Repository Contents
+### Reference Data
+A community-maintained version of the DM Reference derived from BYOND's published documentation.
 
 ## Contributing
-Anyone is welcome to submit contributions to open-ref.
-Contributions can be made either on Github.com or by cloning the repo and working locally.
-All contributions require a PR and are subject to approval.
-If you have any thoughts for changes or edits, feel free to open a discussion on the repo or discuss them on the discord server
+Contributions are welcome, including:
+* Documentation corrections
+* Additional explanations and examples
+* Tooling improvements
+* Bug fixes
+* Test coverage improvements
 
-## BYOND Version
-The reference is currently built with the documentation for BYOND version 516.1644 alpha. 
-BYOND release notes can be found [here](https://www.byond.com/docs/notes/515.html).
+All changes should be submitted through a Pull Request and are subject to review before being merged.
+Discussion is available through GitHub or the BYONDiscord community:
+https://discord.gg/pTFccGgnAr
+
+## Supported BYOND Version
+The current reference data is based on BYOND 516.1644 Alpha.
+
+Release notes:
+https://www.byond.com/docs/notes/516.html
+
+## Technical Focus
+This project demonstrates:
+* Parser development
+* Document transformation pipelines
+* Python application architecture
+* Automated testing
+* CI/CD workflows
+* Open-source collaboration

@@ -1,32 +1,27 @@
-## input proc
+
+## input (proc)
 
 **Format:**
-+   input(Recipient=usr, Message, Title, Default) as Type in List
++   input(Recipient=usr,Message,Title,Default) as Type in List
 
-**Returns:**
-+   User\'s response.
-
-**Args:**
+**Arguments:**
 +   Recipient: The user who will see this input prompt.
-+   Message: A message in the prompt, to tell the user what it\'s asking
-    for.
++   Message: A message in the prompt, to tell the user what it's asking for.
 +   Title: The title of the prompt window.
-+   Default: Default value that is pre-populated or pre-selected,  if the user cancels the input.
-+   Type: A verb input type, such as `text`, `message`, `num`,
-    `anything`. If you omit "as Type", the type defaults to `text`.
++   Default: Default value if the user cancels the input.
++   Type: A verb input type, such as , , , . If you omit "as Type", the type defaults to .
 +   List: An optional list of items to choose from.
 
-Creates a prompt dialog that asks the user for a response. The
-current proc sleeps until they respond. 
+**Returns:**
++   User's response.
+***
+Creates a prompt dialog that asks the user for a response. The current proc sleeps until they respond.
 
-The only required
-argument is the message. The type may be any combination of input types
-allowed for verb arguments, which can be combined with the `|` operator.
-The `null` type will allow the user to cancel, e.g.
-`as null | anything in contents`.
-### Example:
+The only required argument is the message. The type may be any combination of input types allowed for verb arguments, which can be combined with the `|` operator. The `null` type will allow the user to cancel, e.g. `as null | anything in contents`.
+
 
 ```dm
+
 mob/verb/create_character()
    usr.name = input("Choose a name for your character.",
                     "Your Name",
@@ -35,19 +30,17 @@ mob/verb/create_character()
    usr.gender = input("Select a gender for your character.",
                       "Your Gender",
                       usr.gender) in list("male","female","neuter")
+
 ```
 
-If the target of the input prompt is not a player, the result
-will be the default value. If no default value is specified and null is
-allowed by the input type, null will be returned. Otherwise, an error
-will result, crashing the proc that called `input()`. 
 
-A more common use for `input()` is to give a player a list of things to choose
-from. For example, this is a simple shopkeeper NPC, where the
-shopkeeper\'s inventory is its contents.
-### Example:
+If the target of the input prompt is not a player, the result will be the default value. If no default value is specified and null is allowed by the input type, null will be returned. Otherwise, an error will result, crashing the proc that called `input()`.
+
+A more common use for `input()` is to give a player a list of things to choose from. For example, this is a simple shopkeeper NPC, where the shopkeeper's inventory is its contents.
+
 
 ```dm
+
 mob/shopkeeper/verb/Buy()
    var/list/options = list()
    var/obj/item
@@ -65,25 +58,23 @@ mob/shopkeeper/verb/Buy()
       new t(usr)
       usr.gold -= item.price
       usr << "You bought \a [item] for $[item.price]."
+
 ```
 
 
-Using `as num` is another popular input choice,
-which you might use for haggling, deciding how many of an item to pick
-up or drop, etc.
+Using `as num` is another popular input choice, which you might use for haggling, deciding how many of an item to pick up or drop, etc.
+
 
 > [!CAUTION]
-> This next part is important! Always validate input from a user to make
-sure it\'s correct. 
+> 
+> > [!NOTE]
+> > This next part is important! Always validate input from a user to make sure it's correct.
 
-You should be sure to sanitize any user
-input to make sure the value is valid. For instance, if you have a verb
-that gives gold to another player, you should check that the amount
-isn\'t negative and doesn\'t contain any fractions, and isn\'t more than
-they have.
-### Example:
+You should be sure to sanitize any user input to make sure the value is valid. For instance, if you have a verb that gives gold to another player, you should check that the amount isn't negative and doesn't contain any fractions, and isn't more than they have.
+
 
 ```dm
+
 mob/player/verb/Give_Gold()
    set src in oview(1)
    var/amount = input("How much?", "Give gold") as null|num
@@ -95,16 +86,12 @@ mob/player/verb/Give_Gold()
    usr.gold -= amount
    usr << "You gave [src] $[amount]."
    src << "[src] gave you $[amount]."
+
 ```
 
-Likewise if you\'re allowing a user
-to input text, it too should be sanitized. If they shouldn\'t enter
-multi-line text, you should strip out `"\n"` characters. If they\'re
-putting in something like a character name, strip out any HTML via
-`html_encode()`, or you can simply reject anything that contains invalid
-characters and make them do it again.
 
-> [!TIP] 
-> **See also:**
-> +   [alert proc](/ref/proc/alert.md) 
-> +   [arguments (verb)](/ref/verb/arguments.md) 
+Likewise if you're allowing a user to input text, it too should be sanitized. If they shouldn't enter multi-line text, you should strip out `"\n"` characters. If they're putting in something like a character name, strip out any HTML via `html_encode()`, or you can simply reject anything that contains invalid characters and make them do it again.
+***
+**Related Pages:**
++    [alert proc](/ref/proc/alert)
++    [arguments (verb)](/ref/verb/arguments)

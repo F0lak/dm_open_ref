@@ -1,4 +1,5 @@
-## Northwest proc (client)
+
+## Northwest (proc)
 
 **Format:**
 +   Northwest()
@@ -6,12 +7,11 @@
 **Returns:**
 +   Returns 1 on success; 0 on failure.
 
-**When:**
+**Called When:**
 +   Called when the player presses the "up-left" key or cursor.
 
-**Default action:**
+**Default Action:**
 +   Calls src.Move() towards the northwest.
-
-> [!TIP] 
-> **See also:**
-> +   [Move proc (client)](/ref/client/proc/Move.md) 
+******
+**Related Pages:**
++    [Move proc (client)](/ref/client/proc/Move)

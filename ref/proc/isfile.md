@@ -1,16 +1,15 @@
-## isfile proc
+
+## isfile (proc)
 
 **Format:**
 +   isfile(File)
 
-**Args:**
+**Arguments:**
 +   File: the value to test
-
-This returns a true value when given a file. Both objects
-returned by file() and files stored in the resource cache qualify.
-
-> [!TIP] 
-> **See also:**
-> +   [cache](/ref/DM/cache.md) 
-> +   [file proc](/ref/proc/file.md) 
-> +   [isicon proc](/ref/proc/isicon.md) 
+***
+This returns a true value when given a file. Both objects returned by file() and files stored in the resource cache qualify.
+***
+**Related Pages:**
++    [cache](/ref/DM/cache)
++    [file proc](/ref/proc/file)
++    [isicon proc](/ref/proc/isicon)

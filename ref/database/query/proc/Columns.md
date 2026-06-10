@@ -1,24 +1,21 @@
-## Columns proc (database query) 
-###### BYOND Version 506
+
+## Columns (proc)
 
 **Format:**
-+   Columns()\
-    *or*\
-    Columns(column)
++   Columns()
 
-**Args:**
-+   *column*: The Nth column whose name should be read
+Columns(column)
 
-
-Returns a list of column names for the current query, or the
-name of the Nth column. 
+**Arguments:**
++   column: The Nth column whose name should be read
+***
+Returns a list of column names for the current query, or the name of the Nth column.
 
 You must call Execute() before calling Columns().
-
-> [!TIP] 
-> **See also:**
-> +   [database query datum](/ref/database/query.md) 
-> +   [Execute proc (database query)](/ref/database/query/proc/Execute.md) 
-> +   [GetColumn proc (database query)](/ref/database/query/proc/GetColumn.md) 
-> +   [GetRowData proc (database query)](/ref/database/query/proc/GetRowData.md) 
-> +   [NextRow proc (database query)](/ref/database/query/proc/NextRow.md)
+***
+**Related Pages:**
++    [database query datum](/ref/database/query)
++    [Execute proc (database query)](/ref/database/query/proc/Execute)
++    [GetColumn proc (database query)](/ref/database/query/proc/GetColumn)
++    [GetRowData proc (database query)](/ref/database/query/proc/GetRowData)
++    [NextRow proc (database query)](/ref/database/query/proc/NextRow)

@@ -1,0 +1,514 @@
+
+PROJECT GOALS:
+    Learn Github Actions CI pipeline
+    Update refsplitter.py from dom_open_ref to be more maintainable
+    Expand python knowledge beyond the basics that I learned before,
+        leaning into OOP design and project organization
+
+The problems:
+    BYOND's built-in documentation is often lacking in its descriptions and the organization can be difficult for newcomers to navigate.
+    My last attempt 2 years ago to rectify this was haphazard and not very maintainable, as well as very static in its implementation. It also no longer works.
+    The output of the last solution only formatted a mirrored reference for use with dm_open_ref, making its utility very limited.
+
+The Solution:
+    Rewrite the parser from the ground up with the goals of maintainability, clean design, and wider utility.
+    The final product should be extendible, and natively support outputs for BYOND's native format, and oref.
+
+
+#-----------------------------------------------------------------------------------------------------------------------------#
+This will be an updated version of the dmo_open_ref (oref) reference splitter.
+
+The splitter will take the DM Reference html file and split it into RefEntry classes.
+The RefEntry class will take that content and split it into more modularly digestible content.
+RefEntry should have methods to serve its content in different formats.
+This way, its content can be served in formats across different use cases such as:
+    - rebuilding as the BYOND native prettyref document
+    - markdown output for the oref repository
+    - custom (or customizable) formatting for external use (ie dmoide)
+
+The RefEntry's will all be assigned to a RefNode which will live in the RefTree.
+
+The RefTree should mirror BYOND's object tree.
+
+I'm going to give myself one week to complete this module.
+The goals are:
+    Phase 0: Set up pytests and CI pipeline (1/2 hours) 
+        [completed 05-29] (1 hrs total)
+
+    Phase 1: DMRef extraction (19/16 hours)
+        Digest and extract raw content from info.html\(use old_refsplitter.py for reference)
+        Build the RefEntrys using the raw content in a logical format that can be formatted easily.
+
+    Phase 2: Building the tree (2/4 hours)
+        Create RefNode class from RefEntry, to handle tree placement
+        Build the RefTree using RefNodes for the hierarchy.
+
+    Phase 3: Packaging (7/21 hours)
+        Serve the RefTree in different formats, such as
+            md file format for oref repository*
+            rebuilding prettyref.html from custom content
+            A custom reference format that makes more sense for BYOND itself
+        *md formatting is a must-have, the rest are stretch goals
+
+    Phase 4: Release (0/6 hours)
+        Tidy up remaining files
+        Review .gitignore
+        Add missing documentation
+        Update and proof-read Readme file.
+        Add images and possibly video to the readme
+        (stretch goal: clean up commit history to make it portfolio ready)
+        Release the project under CC0
+
+                    ┌────────────────────────┐
+                    |   Data Flow Overview   |
+                    └────────────────────────┘
+                        [Raw Web/Local HTML] 
+                                │
+                                ▼ (BeautifulSoup)
+                        ┌─────────────────┐
+                        │   RefSplitter   │ ───► Standardizes and tokenizes legacy HTML blocks
+                        └─────────────────┘
+                                │
+                                ▼ Extracts into
+                        ┌─────────────────┐
+                        │    RefEntry     │ ───► Pure Data Object (Raw text, lists, see_also dicts, tokens)
+                        └─────────────────┘
+                                │
+                                ▼ Encapsulated by
+                        ┌─────────────────┐
+                        │     RefNode     │ ───► Tree wrapper (References a RefEntry, tracks parent/children)
+                        └─────────────────┘
+                                │
+                                ▼ Composes into
+                        ┌─────────────────┐
+                        │     RefTree     │ ───► Resolves BYOND hierarchy (/client vs /mob/var/client)
+                        └─────────────────┘
+                                │
+                                ▼ Passed to
+                        ┌─────────────────┐
+                        │    Exporters    │ ───► (MarkdownExporter, PrettyRefExporter, HTMLExporter)
+                        └─────────────────┘
+
+#-----------#
+#   DIARY   #
+#-----------#
+
+[05-29-2026] (3 hour session)
+    Tonight I started work on the project in earnest.
+    With the goal in mind of getting to know the Github Actions and CI workflow, I started by getting pytest installed and set up some basic unit tests for myself to play with
+    From there, I set up the Actions workflow on github and published the repo.
+    After that, I dug into working on fetching the reference.
+    At first I was going to check the users computer, but I decided against that since the user may be using an outdated version.
+    This way, the onus is on BYOND to be publishing to the ref more regularly, and honestly, it's just easier and cleaner this way.
+    A future feature may be to add a program argument on startup to fetch remote or local, but for now, remote is fine.
+    Once I had the ref being pulled properly, I implemented three unit tests to check the following:
+        the url is correct
+        the timeout isn't above 10 seconds
+        ensure the ref is available and fetched.
+    that last test is flagged as a network test, and omitted from the github action, but will run locally when pytest is ran.  Pretty nifty.
+
+    Did some minor reorganizing.  Ended up splitting the unit tests and network test into separate files, and updated the CI flow to only run the unit test file for now.
+    I'm pretty happy with the work today.  I'm about 25% of the way through Phase 1 now that the reference fetching and tests are in place.
+    I'll have to really grind out the next session.
+
+    Next Session Todo:
+        Reorganize project file structure: move main files into src/ folder and ensure it still runs.  This'll save me later.
+        Begin development on the ref_splitter class to isolate reference entries, extract information, and strip formatting
+        pass the data into RefEntry class
+
+        unit tests for this section should be:
+            ensure all formatting has been stripped away
+            ensure no ref entries are empty
+            ensure the number of ref entrys is correct (this one will be tricky)
+
+        end goal for Phase 1:
+            explore mock testing and look into implementing mock tests to ensure proper data flow
+
+[01-06-2026] (9:30 am)
+    Started today by removing the old ref splitter files from the repo, and reorganizing the file tree
+    Then I set forth on intalling beautifulsoup to begin parsing the dm reference file.
+
+    So the first thing I'll have to do is identify how the reference files are organized.
+    I'll start my search in the old splitter script, as I imagine most of what I'm looking to do I already did back then.
+
+    (1pm)
+    So, working on the ref splitter for the last few hours, I tried to start by just naievely parsing the info.html file
+    This was a total mess, because it was written using extremely legacy rules, so none of the tags are properly closed, for example.
+    I've realized that my best course of action will be to let bs4's parser apply standard rules to the source file before extracting the useful info.
+    Once I've got the document parsed into a standard format, I can then use that with bs4 to extract the proper information and begin to populate RefEntry's.
+    So, my plan of attack is to, instead of try to "fix" the source html file, I'm going to extract the relevant information and use that to build o_refs markdown files.
+
+    Once I've got the RefEntry class standardized, I can then use that to rebuild a "clean ref" html files,
+    using some of the rules I've uncovered with info.html to make sure that it conforms to the expected format, but is just a bit cleaner.
+    I also found that I can test this myself by just swapping out the local html file, so assuming that the web ref displays it following the same ruleset,
+    then if I can get this working locally, it should work with the webref as well.
+
+    This will all, of course, be second to the main goal, of populating the md files that oref will end up using.
+    Alternatively, I may also look into using Github to host orefs open reference.
+    This could be either html that can be used by both the bot and byond for a simpler source of truth, or it could host the md, and then have a script
+    to consolidate the oref into the dmref format.  Either or.
+
+    But for now, we move on to the RefEntry extraction.
+
+    I've got the entries extracting information correctly.  Now to set out for parsing the "See also" lists.
+    Once I get this done I'll take a break, I've been at this for almost 6 hours already.
+    It looks like what I need to do is find the <dl> tags and their grandchild <b> tag that says "See Also:".
+    Probably not a perfect solution, but c'est la vie.  We only need to get it with the first pass, and then we can fix it up later, once the source ref is cleaner.
+
+    (3pm)
+    Alright, got the relative paths populating correctly.
+    Time for a break.  Next sprint will be to formalize the RefEntry objects, and then populating the RefNodes and RefTree
+
+    (6pm)
+    alright, I'm back at it after a bit of a break.
+    So far, I've gotten the "See Also" section pulled out of the reference entries.
+
+    Next, I'll set my sights on other important information found in these entries:
+        - format
+        - arguments
+        - code blocks
+
+    (8pm)
+    The parsing of the file content is giving me a bunch of little tiny problems here and there, so I'm going to take another break.
+    Currently, I've got the formatted lists appearing, so next I need to find a way to insert them into the content manually by dict lookup.
+    But we'll take care of that later.
+
+    (12:30 AM, technically next day, but not)
+    I'm going to pull the lists out of the text now, and devise a token system for the RefEntry content.
+
+    I do find myself wondering why I'm doing this with python instead of cpp, since that's what I've been working in more.
+    I guess it's not bad to get my fingers wet with another language, even if it's a hellspawn of unsafe practices.
+    Who cares if "we're all consenting adults".
+
+    While going through and cleaning up, it was tempting to merge the related entries dict with the desc_lists list.
+    But, they're fundamentally different, where the related entries needs to encode both the link to the entry, and the name of the link
+    Whereas the desc_lists is essentially just a list of strings to be formatted.
+
+    Going down this line a little bit more, I think I can get away with creating a dict of links for the pages.
+    I'd love to be able to do this for the whole document, but I think that's outside the realm of possibility.
+    I just don't trust the source ref to not reuse the same name with different link paths.
+    I could I guess use the paths as the keys, but then I don't have a reliable way of determining which text value to use.
+    I do think, however, that using the path for the key would work.  This way, I can have just ONE text string to link to a specific page.
+    I can go through and clean this up a little bit later if some of the text doesn't make sense in a given context.
+
+    A good example is that of the /client object, and the mob.client var.  both are probably referenced as 'client' as the text for the links.
+    So using 'client' as a key is a no go.
+    But {'/client' : "client", '/mob/var/client' : 'client'} does seem like it would make sense.
+
+    I'm feeling pretty good about this now, but I do have a small concern with the refsplitter holding the links.
+    That /might/ be fine for now, but I will probably end up passing that off on to the RefTree at some point, so that the source of truth
+    isn't kept on an ephemeral object.
+    Like, it's not a huge deal, since the whole thing is meant to just run and finish, but. meh.  Thoughts to be had at least.
+
+    Alright.  Finished the night off by getting the test framework cleaned up, and learned about paramterization and fixturing with pytest.
+    nifty little features that let me test multiple inputs, and scope data for related tests within a single module, respectively.
+
+    I'm pretty happy with how today went.
+
+    Tomorrow, I'm going to take a break from the parsing itself, since I know from last time that there are a dozen dozen edge cases with byonds bs
+    So I'll work on getting the RefTree and RefNodes setup properly, and then look at exporting it into the two different formats.
+    That's all for now, signing off at 3:30 AM.
+
+[06-2-2026]
+    Ok.  starting up at noon today.
+    The goal today is to get the RefNode and RefTree populating, and then if I have time, look into getting the markdown files set up as a github site.
+    I spent a bit of time today looking at options for hosting the github pages for oref.
+    I'll do some more work with it later, but for now, we're going to get into the thick of things with the nodes.
+
+    Progress is carrying on quite well.  took a 30 min break to grab coffee and a vape.
+    I'm making a note here that I need to handle p class attributes like "compatability"
+    This will give hints for the xmp parsing back into the byond documentation, as well as 
+    hinting for markdown formats.  Shouldn't be too rough.
+
+    I've gotten the parsing more or less wrapped up for now.  Setting up the unit test to test the failure state for 
+    the page parsing is proving to be a bit difficult because of bs4, but I just need to figure out how to either Create
+    custom tags, or possibly reformat the data flow to accept something other than a bs4 tag.
+
+    Took another hour break.  Getting back into this now, I need to replace the tokens with their markdown equivalents.
+
+    alright.  So I spent the last half hour cleaning up the old oref repo to remove both the bot and the old parser.
+    I'll need to make sure to backup the bot somewhere, but I can do that another time.
+
+    for now, we'll commit the new ref markdown and examine the diffs.
+
+    first, we'll wire this up to export into the oref folder, then we'll wire up the commit
+
+    Success.  I managed to get the ref parsed out into the reference tree.  There are a few issues that I need to address, but all in all looking pretty good.
+    Issues:
+        file paths are not being respected when they are a folder, they're being added to the parent folder as siblings of their own folder
+        I haven't properly plugged in the nodes yet, which means that the file tree is being built entirely off of the page path.
+        That's not terrible, but it's also not at all flexible.  This will be my next project.
+
+    I've also learned that github pages serves front-end web formats, so I'll need to be reformatting these to html anyways.
+    After thnking on this a bit further, this is what I've come up with.
+
+    First off, take the reference, and parse it into pages of raw information.
+    Second, format those pages into markdown and export them into the openref repo. This is read by a discord bot to serve information on the byond discord channel.
+    Third, we think in terms of the pages deployment pipeline.
+        - The markdown files are pulled from the open ref repo (so that community changes are combined with the byond docs)
+        - those markdown files formatting is converted into standard html, that conforms with byonds javascript
+        - the html formatted pages are combined and served on the github pages site, using the byond reference javascript to navigate them.
+        - stretch goal, have some custom css 
+
+    I can feel myself getting pretty tired. It's been a busy last couple of days, with some fantastic progress.
+    I do need to update and confirm my testing framework.
+
+[06-03-2026]
+    It's a late night session for me.  I'm going to work myself into a sprint to get the markdown export pipeline done tonight.
+    I'd like to wrap this project up today and get it back out into the wild so that I can begin to focus back on dmoide.
+
+    Tonights todo is:
+        Finalize the RefEntry structure
+        Build the RefTree class
+        Build the filetree export
+        Complete the markdown formatting
+        Complete file export
+
+    I might not even need the tree, but it's good to have for ease of use down the line.
+    Actually, having the tree is good, since it's main purpose is to manage the refnodes themselves, and provide things like
+    searching and reorganizing.  Although those concepts aren't a part of the design spec.  So I guess I should scrap it?
+    But no, I need a container for the refnodes themselves.  without the reftree they end up contained in a list, referencing each other.
+    So yes, the reftree is necessary.
+    I'll keep the tree, but I'll implement it currently as a simple container class.  This way it's easy to extend down the line
+    and provides explicit context for the refnodes
+
+    I got the common fields implemented, and then ended up really arguing with python to get the tests forit configured correctly.
+
+    I did learn about pytest dependency, so that I can branch my tests and only execute some if others have passed, which solvs a problem I have with
+    a boatload of fails if certain things don't end up passing.
+
+    I definitely need to work on my discipline with organizing these tests, but this is my first time working with these, and I can already notice that
+    there's been a change in how I write code, where my implementations are cleaner just as a result of having tests at all,
+    so while the testing implementations might be a bit lackluster and disorganized, the actual code itself is much better off just as a result.
+    I've sort of pushed the hot mess back a layer.
+
+    So, one of the issues I've got is that BYOND's ref only ever has one term in their description lists.
+    While this isn't a big problem, I have a bit ofa crossroads.  I should technically allow the dl parser to extract all dt tags and their dd counterparts
+    however, that's beyond the scope of what the program needs to expect.
+    But if I only accept one dt tag now, I'll have to rewrite it later.
+    In the interest of time, I will simply leave a note on both the test and the parsing function, and move on.
+
+    I'm going to add commit messages to the diary now, as part of the CI setup.
+
+    [COMMIT [2026-06-04 02:24:36]: testing automated commit messages in diary entry
+
+    Success!
+
+    Previously, I ended up in an infinite loop, so the file got bloated. I nearly lost all of my work from the night, but using 
+    git reflog I was able to save it, even though I had to sift through about a thousand commit ammendments to find it.
+
+    [COMMIT [2026-06-04 02:26:27]: confirmed commit messages are added to diary
+    [COMMIT [2026-06-04 02:27:39]: test commit message format
+    
+    Excellent.  This will help me keep track of exactly where I am in my workflow.
+
+    Time for a break.  I might not make the sprint tonight happen, but I'm happy with where the work took me so far.
+
+    Next thing to do is confirm the full parse on a single test file (main.py has been updated to swap build states easily)
+    After that, I can set up the tree, which should only take a couple of hours.
+
+    Then just build the new file, iterate the formatting, and bobs your uncle.
+    Should be able to ship before work, if I have the energy to contnue my all nighter.
+
+    Once I have correct output, I need to create an E2E test for the sample, so that future tests can be confirmed working.
+    But rather than write the test first and build to conform to it, given the size and complexity, it'll be faster for me to create the test file dynamically, from the parser.
+    I could technically pull a properly formatted file from the live oref, since it's in the correct md format already.
+    I might actually do that when I get back from my break.
+
+[06-06-2026] (4 hours)
+    I spent tonight working on getting the new export method wired up.  I'm pretty satisfied with how this turned out and came together.
+
+    I separated the export functionality to its own ExportMD class in its own little file.  This will help to keep things organized
+    as more export types are added in, at the very least just the markdown and the updated html.
+
+    I still have to get tests setup for the new export functionality, but I also now have a snapshot of the markdown file, so I can 
+    at least confirm that any changes I make from here on don't muck up the output of the file.  I'm not sure there's much utility in that
+    outside of if I go through and refactor, which I don't see being a thing at this point, but that's not the test driven mindset.
+
+    I've also definitely learned that writing the unit and integration tests definitely helps me keep the code nice and clean, so regardless of how I feel
+    about the tests at this particular moment, it's important that I get them setup.  Besides, testing is half the reason for this project to begin with.
+
+    So, the tests will be the todo for tomorrows work.
+
+    Cheers.
+    [COMMIT [2026-06-07 00:08:38]: implements export as its own class.  minor code reorganization
+        adds in client_mouse_snapshot.md file for future e2e tests
+    
+    It's almost there.  I do have some little things I want to do within the realm of CI, but tomorrows task is to button up this version to make sure it's
+    on par with the last version of oref.
+
+    Once that's done, before I ship, I'll do another pass for documentation and making it folio ready.
+    I won't be adding tests for the sake of tests though, so there won't be complete coverage, but I'll still do proper unit test passes to make sure that
+    future changes don't break the program down the line.
+    But the v2 project is getting github pages setup for the project, and then implementing the HTML export, so that I can live view orefs changes in
+    the native byond reference format on a legacy branch of the pages site.  It'll be a fun way to spend the weekend, but I need the infra in place before
+    I can go down that route.
+
+    This version is about 95% to finished I think
+
+[06-07-2026] (1 hour)
+    Today I'm working on handling the edge cases for the html parsing and markdown formatting to ensure relatively seamless parsing
+    in preparation for setting up the new oref repo and github pages repo.
+
+    [COMMIT [2026-06-07 17:52:47]: implements p class tokens and adds markdown checks to token unit tests
+    [COMMIT [2026-06-07 18:00:35]: implements data-driven approach to p class tokenization
+        fixes typo in token_table for 'compatibility' tag
+
+[06-08-2026]
+    Took a good solid break last night to get some much needed rest and I'm back at it today.
+    Just finishing up the last of the markdown formatting for paragraph tags.
+
+    I still need to handle the last few cases for paragraph parsing, and then set up the test suite for the exporter.
+    Once that's done, I'm ready to run a full export, but need to make sure that the export aborts in the event of a failed parse and a failed file write.
+    
+
+    [COMMIT [2026-06-08 06:14:37]: implements p_class token parsing
+    [COMMIT [2026-06-08 06:28:20]: formatting cleanup pass
+    [COMMIT [2026-06-08 15:35:18]: implements test suite for export.py implementation
+
+    I've been pretty quiet on the diary, as it's been mostly grunt work, setting up things like
+    the test suite for the export script and refactoring a few things.  Details for that are in the commit logs.
+
+    However, the last task on the todo is to set up the Ref Tree, and I'm at a bit of an impasse so I'm going to rubber ducky it here.
+
+    DM's reference organizes itself into a tree, where each node on the tree is an entry in the reference.
+    This works great with the js implementation, because the custom tree on the left lets users click on the elements.
+    However, for an md repository on github, this doesn't work, as in the case of something like the canonical atoms
+    they are all organized into a folder structure that places the files for example for "mob" and "obj" are placed into the "atom/movable" dir 
+    where they should logically be found in their respective folders.
+
+    So what I need to do is to make the RefTree build the file tree first, then as I parse the pages, I can lookup the directories and if the page name
+    matches a directory name (ie: /atom/movable/mob dir would match the /atom/movable/mob page, by nature of the way I'm populating entry paths)
+
+    HOWEVER!  I need to look into the options for deploying github pages, because the frontend might handle the display system the same as the byond ref does.
+    If that's the case, then I don't need to do any extra work, as the backend md directories would be displayed correctly.
+
+    I'll just run this as-is for now and worry about the filesystem foo awhile later.  I'm more interested in
+    A: getting the open ref repo up and running on a fresh repository.
+    B: pushing the exported markdown to said repository, using github actions
+    C: setup the github pages site to render.  im not settled on the actual front-end framework at the moment.  I need to handle B and C first.
+    * The above was scrapped in favour of the workflow below
+
+    The flow I need to implement for the completed project is as follows:
+
+       ┌────────────────────────────────────────────────────────────┐
+       |                     [ Local Machine ]                      |
+       | ┌────────────────┐     1. Triggers       ┌───────────────┐ |
+       | │   Bot Script   │ ────────────────────> │ Parser Script │ |
+       | └────────────────┘                       └───────────────┘ |
+       |         │                                        │         |
+       |         │ 3. Pushes Updates                      │ 2. Outputs Fresh
+       |         ▼                                        ▼    Markdown Files
+       | ┌────────────────┐                       ┌───────────────┐ |
+       | │ Local Git Repo │ <──────────────────── │ Output Folder │ |
+       | └────────────────┘   Copies files into   └───────────────┘ |
+       |        │                                                   |
+       └────────────────────────────────────────────────────────────┘      
+                │ 4. git push
+                ▼
+        ┌─────────────────────────────────────────────────────────┐
+        │                     GitHub.com                          │
+        │  ┌───────────────────────────┐   5. Auto-renders        │
+        │  │ dm_open_ref  (new branch) │ ─────────────────> Pages │
+        │  └───────────────────────────┘                          │
+        └─────────────────────────────────────────────────────────┘
+    
+    This is entirely new to me, with this many moving parts from different infrastructures, so it might actually take me a few days to get it up and running.
+    I think the first move is to get the repo updated to the freshly parsed files.  that's going to be a diff and a half, so I'll start by branching the live ref
+    and then work on my changes separately.  Once I'm happy with it, then I can merge into main.
+
+    So to simplify this into actionable steps:
+    [✓]    0) Branch open-ref for the new version of the parser
+    [✓]    1) Create a new repo for the bot to live on (laptop)
+    [ ]    2) Have the bot ping BYOND to check for new versions (will have to figure this part out)
+    [ ]    3) if a change is detected, have the bot spin up the parser
+    [ ]    4) parser should write to the local open_ref repo
+    [ ]    5) commit and push the local open_ref repo (halt if merge conflicts or errors)
+    [ ]    6) calculate some flashy metrics for the process on the bot side
+    [ ]    7) send telemetry to GitHub from the bot to display runtimes and other fancy metrics 
+    [ ]    9) let this system run in the background for a week or two, implementing more tests as issues arise and updating discord features on bot
+    [ ]    10) merge to main open_ref repo
+    [ ]    11) implement github pages for the new repo content
+
+    Alright.  Step 1 is done.  Time to take a break.
+
+    I'm back from my break, and I've had a good think.  I feel a little flustered because I feel like this is a lot of back and forth right now.
+    I'm leaning towards a simpler single-repo approach, like I had before.  I guess I liked the idea of a multi-repo solution so that someone pulling
+    or contributing didn't have to grab the bot and everything else if they wanted to contribute or test things, but I'm learning that one of the benefits
+    of python is that the "programs" it makes are all super modular.  You just run the script you want to run, and those dependencies run 
+    when they're told to, or they don't.  so for this setup, there's no need to completely lock everything behind its own repository.
+    It just adds unecessary complexity to the whole project.  KISS baby.
+
+    I will say, I'm learning an awful lot of CLI commands.
+    
+    Ok.  We've got the old repo merged into the main oref repo now, git history preserved!  hallelujiah, or whatever it is.
+    Time to dig in with reconfiguring the output stream, and then I can take a look at setting up this front-end
+
+    [COMMIT [2026-06-09 02:06:47]: moves diary to open_ref root folder and adds commit message back into it
+    
+    That's better!  Now it's time for bed.
+
+[06-09-2026]
+    Alright, back at it for another day off.  The goal today is to get the program wrapped.
+
+    The first order of business is to finish sorting the tree structure for the refnodes.  We'll add a recursive function to build the path from the parents up to root, and then check if the current directory has 
+    a folder with the same name as a node when we go to write the file, and if so, place it into that folder.  I guess if I use MkDocs I also need to rename this file as well, depending on the rendering setup.
+    But let's get this working first, and then we can direct our attention to the front-end
+
+    Alright.  We've got the file mapping done now.  The 'RefTree' is now more a collection of nodes, since there's no parenting or association going on there, so it's technically not a tree any more.
+    The next item will be implementing some tests for the pages to confirm:
+        - file structure: not sure how to confirm this.
+        - index file population: make sure that the index files were properly moved to their directories, renamed and don't exist as siblings to their dir
+        - link validity: since the tmp folder contains the /ref folder that will be moved, then links should yield a 1:1 match in tests
+    Once those tests are implemented, then write a CD script to move the temp folder over to the main ref folder and push it to git.
+    post-move tests will need to include:
+        - temp folder has been removed: check that it doesn't exist
+        - links still hold up: scan all of the files and make sure they aren't broken (adding this pass allows more formatting tests down the line as well)
+        - file structure is identical (will need to cache it and compare)
+    assuming these pass, we can push to remote
+    [COMMIT [2026-06-09 16:02:50]: fixes test suite
+    
+    Alright.  Had to fix up the broken test suite.  That was an adventure through stale caches, relative pathing and an admittedly bad config file.
+    I ended up moving the test suite out from ref_splitter into the root folder, so I had to point the ini to the correct dir and lock it in properly.
+    The directory is now looking much cleaner.  I only have an old local test file that's now gone that I either need to add back in, or learn the pytesty way to populate test data like this.
+
+    Alright.  So I put the test file into a new test_data folder and point to it now from the conftest.py file.  I also moved over the splitter fixture.  At some point soon I'll do a pass of all of my tests
+    to make sure they're consistent and conform to proper standards.
+
+    For now, I'm just glad that I've got them all working properly again.  I did also remove a stale test that was testing for fields in the splitter that are no longer relevant.
+
+    Time for some dinner and a few episodes of a show before I continue on by writing the test suite for the new export flow.
+    [COMMIT [2026-06-09 16:24:16]: configures test file for ref_splitter tests and moves refsplitter fixture to conftest and removes module scope
+    [COMMIT [2026-06-09 22:02:57]: implements e2e test happypath using test file
+    Ended up writing out a new end to end test to follow through the happy path.
+    The only thing left to do now is to automate the move over to the /ref folder, and then write some e2e tests on 
+    
+    Fantastic!  The program works!  What a happy day!
+
+    There are undoubtedly going to be some issues that have cropped up, and I will plan to automate deployment in the future, but for now, this works swimmingly!
+
+    Excellent day!  I'm satisfied with this, and am comfortable pushing this to the repo.  After all, it's for a small community of devs.  If there are any small issues
+    with any of the pages, then they'll understand and let me know.
+    [COMMIT [2026-06-09 22:45:20]: replaces remote ref with ref parsed with v2 parser program
+    
+
+    [COMMIT [2026-06-09 22:53:39]: updates ci.yml to run all unit tests
+    
+
+    [COMMIT [2026-06-09 23:09:06]: updates readme and addresses tests failing on runner
+    
+
+    [COMMIT [2026-06-09 23:12:31]: testing fix on the runner
+    
+
+    [COMMIT [2026-06-09 23:19:40]: attempts to correct runner errors _again_
+    
+
+    [COMMIT [2026-06-09 23:20:58]: fixes oopsie typo on ci.yml
+    
+
+    [COMMIT [2026-06-09 23:24:21]: testing runner again
+    
+
+    [COMMIT [2026-06-09 23:27:18]: Removing linux simulation and info test from suite (it has served its purpose!)
+    

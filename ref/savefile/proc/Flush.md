@@ -1,7 +1,8 @@
-# Flush proc (savefile) 
-###### BYOND Version 510
+
+## Flush (proc)
+
 **Format:**
 +   savefile.Flush()
-
-
+***
 Flushes any pending write operations for this savefile.
+***

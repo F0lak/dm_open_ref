@@ -1,10 +1,8 @@
-## z var (vector) 
-###### BYOND Version 516
 
-
+## z (var)
+***
 The z component of this vector.
-
-> [!TIP] 
-> **See also:**
-> +   [vector](/ref/vector.md) 
-> +   [vars (vector)](/ref/vector/var.md) 
+***
+**Related Pages:**
++    [vector](/ref/vector)
++    [vars (vector)](/ref/vector/var)

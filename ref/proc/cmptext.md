@@ -1,30 +1,29 @@
-## cmptext proc
+
+## cmptext (proc)
 
 **Format:**
 +   cmptext(T1,T2,...)
 
-**Returns:**
-+   1 if all arguments are equal; 0 otherwise.
-
-**Args:**
+**Arguments:**
 +   Any number of text strings to compare.
 
+**Returns:**
++   1 if all arguments are equal; 0 otherwise.
+***
+This instruction is NOT sensitive to case. It also ignores the <code>\proper</code> and <code>\improper</code> text macros. The case-sensitive version is cmptextEx().
 
-This instruction is NOT sensitive to case. It also ignores the
-`\proper` and `\improper` text macros. The case-sensitive version is
-cmptextEx().
-### Example:
 
 ```dm
+
 if(cmptext("Hi","HI"))
    world << "Equal!"
 else
   world << "Not equal!"
-```
- 
-This outputs "Equal!"
-since "Hi" and "HI" are the same, ignoring case.
 
-> [!TIP] 
-> **See also:**
-> +   [cmptextEx proc](/ref/proc/cmptextEx.md) 
+```
+
+
+This outputs "Equal!" since "Hi" and "HI" are the same, ignoring case.
+***
+**Related Pages:**
++    [cmptextEx proc](/ref/proc/cmptextEx)

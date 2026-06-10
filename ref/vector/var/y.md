@@ -1,10 +1,8 @@
-## y var (vector) 
-###### BYOND Version 516
 
-
+## y (var)
+***
 The y component of this vector.
-
-> [!TIP] 
-> **See also:**
-> +   [vector](/ref/vector.md) 
-> +   [vars (vector)](/ref/vector/var.md) 
+***
+**Related Pages:**
++    [vector](/ref/vector)
++    [vars (vector)](/ref/vector/var)

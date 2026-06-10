@@ -1,21 +1,24 @@
-## lowertext proc
+
+## lowertext (proc)
 
 **Format:**
 +   lowertext(T)
 
-**Returns:**
-+   A lowercase text string.
-
-**Args:**
+**Arguments:**
 +   T: A text string.
 
+**Returns:**
++   A lowercase text string.
+***
 Make all of the characters of T lowercase.
-### Example:
+
 
 ```dm
- L = lowertext("HI THERE") // = "hi there" 
+
+L = lowertext("HI THERE") // = "hi there"
+
 ```
 
-> [!TIP] 
-> **See also:**
-> +   [uppertext proc](/ref/proc/uppertext.md) 
+***
+**Related Pages:**
++    [uppertext proc](/ref/proc/uppertext)

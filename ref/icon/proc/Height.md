@@ -1,12 +1,12 @@
-## Height proc (icon)
+
+## Height (proc)
 
 **Format:**
 +   Height()
-
+***
 This finds the height, in pixels, of the icon.
-
-> [!TIP] 
-> **See also:**
-> +   [icon](/ref/icon.md) 
-> +   [procs (icon)](/ref/icon/proc.md) 
-> +   [Width proc](/ref/icon/proc/Width.md)
+***
+**Related Pages:**
++    [icon](/ref/icon)
++    [procs (icon)](/ref/icon/proc)
++    [Width proc](/ref/icon/proc/Width)

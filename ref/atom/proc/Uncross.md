@@ -1,30 +1,29 @@
-## Uncross proc (atom) 
-###### BYOND Version 490
+
+## Uncross (proc)
 
 **Format:**
 +   Uncross(atom/movable/O)
 
+**Arguments:**
++   O: the object attempting to get away.
+
 **Returns:**
 +   1 to permit; 0 to deny.
 
-**When:**
+**Called When:**
 +   Called when another object attempts to stop overlapping this one.
 
-**Args:**
-+   O: the object attempting to get away.
-
-**Default action:**
+**Default Action:**
 +   Allow the object to get away (returning 1)
-
-> [!TIP] 
-> **See also:**
-> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-> +   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-> +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-> +   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-> +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-> +   [Crossed proc (atom)](/ref/atom/proc/Crossed.md) 
-> +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-> +   [group var (mob)](/ref/mob/var/group.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) 
+******
+**Related Pages:**
++    [Enter proc (atom)](/ref/atom/proc/Enter)
++    [Entered](/ref/atom/proc/Entered)
++    [Exit proc (atom)](/ref/atom/proc/Exit)
++    [Exited](/ref/atom/proc/Exited)
++    [Cross proc (atom)](/ref/atom/proc/Cross)
++    [Crossed proc (atom)](/ref/atom/proc/Crossed)
++    [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)
++    [Move proc (movable atom)](/ref/atom/movable/proc/Move)
++    [group](/ref/mob/var/group)
++    [Pixel movement](/ref/{notes}/pixel-movement)

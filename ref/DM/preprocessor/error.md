@@ -1,22 +1,24 @@
-## \#error directive
+
+## error (info)
 
 **Format:**
 +   #error Text
 
-**Args:**
+**Arguments:**
 +   Text: an error message to display
+***
+The #error directive halts compilation and displays the specified message.
 
-The #error directive halts compilation and displays the
-specified message.
-### Example:
 
 ```dm
+
 #if DM_VERSION < 4
 #error This compiler is too far out of date!
 #endif
+
 ```
 
-> [!TIP] 
-> **See also:**
-> +   [preprocessor](/ref/DM/preprocessor.md) 
-> +   [#warn directive](/ref/DM/preprocessor/warn.md) 
+***
+**Related Pages:**
++    [preprocessor](/ref/DM/preprocessor)
++    [#warn directive](/ref/DM/preprocessor/warn)

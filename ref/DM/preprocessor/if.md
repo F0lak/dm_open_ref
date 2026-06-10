@@ -1,4 +1,5 @@
-## \#if directive
+
+## if (info)
 
 **Format:**
 +   #if Val
@@ -9,20 +10,16 @@
 +   ...
 +   #endif
 
-**Args:**
+**Arguments:**
 +   Val: A logical expression.
+***
+The <code>#if</code> statement is used to conditionally compile code. If Val is true (non-zero), the code following the <code>#if</code> statement will be compiled. Otherwise, compilation skips to the next <code>#elif</code>, <code>#else</code>, or <code>#endif</code> statement.
 
-The `#if` statement is used to conditionally compile code. If
-Val is true (non-zero), the code following the `#if` statement will be
-compiled. Otherwise, compilation skips to the next `#elif`, `#else`, or
-`#endif` statement. 
+The function <code>defined()</code> can be used in the conditional expression. It is true if its argument is a defined macro (with <code>#define</code>) and false otherwise.
 
-The function `defined()` can be used in the
-conditional expression. It is true if its argument is a defined macro
-(with `#define`) and false otherwise.
-### Example:
 
 ```dm
+
 #if defined(DEBUG)
 // This code will be compiled if DEBUG is
 // defined
@@ -30,12 +27,12 @@ conditional expression. It is true if its argument is a defined macro
 // This code will be compiled if DEBUG is
 // not defined
 #endif
-```
- 
-You can also use `fexists()` in a
-conditional to check if a file exists.
 
-> [!TIP] 
-> **See also:**
-> +   [#define directive](/ref/DM/preprocessor/define.md) 
-> +   [#ifdef directive](/ref/DM/preprocessor/ifdef.md) 
+```
+
+
+You can also use `fexists()` in a conditional to check if a file exists.
+***
+**Related Pages:**
++    [#define directive](/ref/DM/preprocessor/define)
++    [#ifdef directive](/ref/DM/preprocessor/ifdef)

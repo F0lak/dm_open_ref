@@ -1,16 +1,14 @@
-## New proc (database) 
-###### BYOND Version 506
+
+## New (proc)
 
 **Format:**
 +   New(filename)
 
-**Args:**
+**Arguments:**
 +   filename: The database filename to open (optional)
-
-Creates a new database datum, and opens the file if a filename
-is provided.
-
-> [!TIP] 
-> **See also:**
-> +   [database datum](/ref/database.md) 
-> +   [Open proc (database)](/ref/database/proc/Open.md) 
+***
+Creates a new database datum, and opens the file if a filename is provided.
+***
+**Related Pages:**
++    [database datum](/ref/database)
++    [Open proc (database)](/ref/database/proc/Open)

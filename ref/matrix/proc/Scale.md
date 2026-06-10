@@ -1,22 +1,21 @@
-## Scale proc (matrix)
+
+## Scale (proc)
 
 **Format:**
-+   Scale(x, y)
++   Scale(x,y)
 
-**Args:**
+**Arguments:**
 +   x: The amount of scaling to do in the x direction
 +   y: The amount of scaling to do in the y direction
 
 **Returns:**
 +   src
+***
+The matrix is scaled by the appropriate amounts.
 
-The matrix is scaled by the appropriate amounts. 
-
-If y is omitted, x is used for both. E.g., Scale(2) is equivalent to
-Scale(2,2).
-
-> [!TIP] 
-> **See also:**
-> +   [matrix](/ref/matrix.md) 
-> +   [matrix operators](/ref/matrix/operators.md) 
-> +   [matrix procs](/ref/matrix/proc.md) 
+If y is omitted, x is used for both. E.g., Scale(2) is equivalent to Scale(2,2).
+***
+**Related Pages:**
++    [matrix](/ref/matrix)
++    [matrix operators](/ref/matrix/operators)
++    [matrix procs](/ref/matrix/proc)

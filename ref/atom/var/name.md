@@ -1,8 +1,8 @@
-## name var (atom)
 
-**Default value:**
+## name (var)
+
+**Default Value:**
 +   The name of the object type with underscores converted to spaces.
-
-> [!TIP] 
-> **See also:**
-> +   [gender var (atom)](/ref/atom/var/gender.md) 
+******
+**Related Pages:**
++    [gender](/ref/atom/var/gender)

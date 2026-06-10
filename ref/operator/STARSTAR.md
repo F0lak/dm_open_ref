@@ -1,18 +1,20 @@
-## ** operator
+
+## ** (info)
 
 **Format:**
 +   A ** B
 
 **Returns:**
 +   A to the power of B.
-### Example:
+***
 
 ```dm
- usr << 2 ** 3 // outputs 8 
+
+usr << 2 ** 3 // outputs 8
+
 ```
 
-
-> [!TIP] 
-> **See also:**
-> +   [log proc](/ref/proc/log.md) 
-> +   [operators](/ref/operator.md) 
+***
+**Related Pages:**
++    [log proc](/ref/proc/log)
++    [operators](/ref/operator)

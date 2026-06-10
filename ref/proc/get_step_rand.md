@@ -1,17 +1,17 @@
-## get_step_rand proc
+
+## get_step_rand (proc)
 
 **Format:**
 +   get_step_rand(Ref)
 
-**Returns:**
-+   The location of the new position, or 0 if no change.
-
-**Args:**
+**Arguments:**
 +   Ref: Starting point or object.
 
+**Returns:**
++   The location of the new position, or 0 if no change.
+***
 Calculate position of a step from `Ref` in random motion.
-
-> [!TIP] 
-> **See also:**
-> +   [step_rand proc](/ref/proc/step_rand.md) 
-> +   [walk_rand proc](/ref/proc/walk_rand.md) 
+***
+**Related Pages:**
++    [step_rand proc](/ref/proc/step_rand)
++    [walk_rand proc](/ref/proc/walk_rand)

@@ -1,24 +1,23 @@
-## nameof proc 
-###### BYOND Version 515
+
+## nameof (proc)
 
 **Format:**
 +   nameof(Var)
 +   nameof(ProcRef)
 +   nameof(Path)
 
-**Args:**
+**Arguments:**
 +   Var: A variable, e.g. src.density or foo::bar.
 +   ProcRef: A proc reference, e.g. /mob::Enter().
 +   Path: A type path, e.g. /obj/item/barrel.
+***
+This returns the name of a var or proc, or the last part of a type path. This proc only exists at compile-time.
 
-This returns the name of a var or proc, or the last part of a
-type path. This proc only exists at compile-time. 
+The main purpose of this proc is to turn a proc reference into a name, which is useful in some esoteric situations.
 
-The main purpose of this proc is to turn a proc reference into a name, which is
-useful in some esoteric situations.
-### Example:
 
 ```dm
+
 var/list/event_queue
 
 proc/CallLater(object, procref, a, b, c)
@@ -36,8 +35,9 @@ world/Tick()
         var/b = forlater[4]
         var/c = forlater[5]
         call(object, procname)(a, b, c)
+
 ```
 
-> [!TIP] 
-> **See also:**
-> +   [:: operator](/ref/operator/::.md) 
+***
+**Related Pages:**
++    [:: operator](/ref/operator/::)

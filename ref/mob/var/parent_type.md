@@ -1,8 +1,7 @@
-## parent_type var (mob)
 
-The default parent_type of [/mob](/ref/mob.md)  is
-[/atom/movable](/ref/atom/movable.md) 
-
-> [!TIP] 
-> **See also:**
-> +   [parent_type var](/ref/datum/var/parent_type.md) 
+## parent_type (var)
+***
+The default parent_type of <a href="#/mob">/mob</a> is <a href="#/atom/movable">/atom/movable</a>.
+***
+**Related Pages:**
++    [parent_type](/ref/datum/var/parent_type)

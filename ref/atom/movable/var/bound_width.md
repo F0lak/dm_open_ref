@@ -1,26 +1,21 @@
-## bound_width var (movable atom) 
-###### BYOND Version 490
 
-**Default value:**
+## bound_width (var)
+
+**Default Value:**
 +   32 (width of default icon; depends on world.icon_size)
+***
+This var defines the width of the physical atom's bounding box, in pixels. By default all atoms are assumed to be one tile in physical size.
 
-
-This var defines the width of the physical atom\'s bounding
-box, in pixels. By default all atoms are assumed to be one tile in
-physical size. 
-
-Example: A 16×16 smiley face centered in a 32×32
-icon should have a bound_width value of 16.
-
-> [!TIP] 
-> **See also:**
-> +   [bound_x var (movable atom)](/ref/atom/movable/var/bound_x.md) 
-> +   [bound_y var (movable atom)](/ref/atom/movable/var/bound_y.md) 
-> +   [bound_height var (movable atom)](/ref/atom/movable/var/bound_height.md) 
-> +   [icon_w var (atom)](/ref/atom/var/icon_w.md) 
-> +   [icon_z var (atom)](/ref/atom/var/icon_z.md) 
-> +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
-> +   [locs list var (movable atom)](/ref/atom/movable/var/locs.md) 
-> +   [icon_size var (world)](/ref/world/var/icon_size.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) 
+Example: A 16×16 smiley face centered in a 32×32 icon should have a bound_width value of 16.
+***
+**Related Pages:**
++    [bound_x var (movable atom)](/ref/atom/movable/var/bound_x)
++    [bound_y var (movable atom)](/ref/atom/movable/var/bound_y)
++    [bound_height var (movable atom)](/ref/atom/movable/var/bound_height)
++    [icon_w var (atom)](/ref/atom/var/icon_w)
++    [icon_z var (atom)](/ref/atom/var/icon_z)
++    [step_x var (movable atom)](/ref/atom/movable/var/step_x)
++    [step_y var (movable atom)](/ref/atom/movable/var/step_y)
++    [locs list var (movable atom)](/ref/atom/movable/var/locs)
++    [icon_size var (world)](/ref/world/var/icon_size)
++    [Pixel movement](/ref/{notes}/pixel-movement)

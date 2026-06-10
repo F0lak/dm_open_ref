@@ -1,16 +1,15 @@
-## \#ifdef directive
+
+## ifdef (info)
 
 **Format:**
 +   #ifdef Name
 
-**Args:**
+**Arguments:**
 +   Name: A macro definition.
-
-The `#ifdef` statement is used to conditionally compile code.
-It is equivalent to `#if defined(Name)`.
-
-> [!TIP] 
-> **See also:**
-> +   [#define directive](/ref/DM/preprocessor/define.md) 
-> +   [#if directive](/ref/DM/preprocessor/if.md) 
-> +   [#ifndef directive](/ref/DM/preprocessor/ifndef.md) 
+***
+The <code>#ifdef</code> statement is used to conditionally compile code. It is equivalent to <code>#if defined(Name)</code>.
+***
+**Related Pages:**
++    [#define directive](/ref/DM/preprocessor/define)
++    [#if directive](/ref/DM/preprocessor/if)
++    [#ifndef directive](/ref/DM/preprocessor/ifndef)

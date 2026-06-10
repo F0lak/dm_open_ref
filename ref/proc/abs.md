@@ -1,16 +1,21 @@
-# abs proc
+
+## abs (proc)
+
 **Format:**
 +   abs(A)
 
-**Returns:**
-+   The absolute value of A.
-
-**Args:**
+**Arguments:**
 +   A: A number.
 
-This returns the unsigned, or absolute value of A.
-### Example:
+**Returns:**
++   The absolute value of A.
+***
 
 ```dm
- usr << abs(1) // outputs 1 usr << abs(-1) // outputs 1
+
+usr << abs(1)  // outputs 1
+usr << abs(-1) // outputs 1
+
 ```
+
+***

@@ -1,24 +1,19 @@
-## contents list var (world)
 
-**Default value:**
-+   List of all areas, turfs, mobs, and objs initially in the world.
+## contents (var)
+***
+This is a list of every object in the world. Objects in this list are in no particular order.
 
-
-This is a list of every object in the world. Objects in this
-list are in no particular order.
-### Example:
 
 ```dm
- proc/ListAreas(mob/M) var/area/A M << "Areas:" for (A
-in world.contents) M << A 
+
+proc/ListAreas(mob/M)
+  var/area/A
+  M << "Areas:"
+  for (A in world.contents)
+    M << A
+
 ```
- 
 
-This example displays a
-list of every area in existence. As a convenient short-hand, one may
-simply write for(A) or for(A in world) instead of the full for(A in
-world.contents).
 
-> [!TIP] 
-> **See also:**
-> +   [list](/ref/list.md) 
+This example displays a list of every area in existence. As a convenient short-hand, one may simply write for(A) or for(A in world) instead of the full for(A in world.contents).
+***

@@ -219,12 +219,12 @@ class ExportMD:
     def export_page(self, page: MDPage):
         '''exports the page content to a markdown file'''
         clean_ref_id = page.id.lstrip("\\/")
-        clean_filepath = pathlib.Path(self.clean_filepath(clean_ref_id))
+        clean_filepath = self.clean_filepath(clean_ref_id)
         
         if page.is_index:
             export_file = self.export_root / "ref" / clean_filepath / "index.md"
         else:
-            export_file = self.export_root / "ref" / clean_filepath.with_suffix(".md")
+            export_file = self.export_root / "ref" / pathlib.Path(f"{clean_filepath}.md")
             
         #logger.info(f"Writing {export_file}")
         export_file.parent.mkdir(parents=True, exist_ok=True)

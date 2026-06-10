@@ -28,4 +28,4 @@ jobs:
 
     - name: Run Test Suite
       run: |
-        pytest -m
+        pytest

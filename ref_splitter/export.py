@@ -16,6 +16,12 @@ class MDFlavour(Enum):
     IMPORTANT = "IMPORTANT"
     WARNING = "WARNING"
     CAUTION = "CAUTION"
+    
+class MDPage:
+    def __init__(self, ref_id: str, content: str, is_index: bool):
+        self.id = ref_id
+        self.content = content
+        self.is_index = is_index
 
 class ExportMD:
     '''Exports the RefTree into a collection of md files'''
@@ -25,6 +31,7 @@ class ExportMD:
     
     def __init__(self, exp_path: pathlib.Path | str = "_tmp_md_export") -> None:
         self.export_root = pathlib.Path(exp_path)
+        self.prepared_pages: list[MDPage] = []
     
     def clean_filepath(self, text: str) -> str:
         '''removes invalid characters from filepaths'''
@@ -47,9 +54,8 @@ class ExportMD:
         text = text.replace("%", "PERCENT")
         return text
     
-    def export(self, tree: RefTree) -> None:
+    def format_tree(self, tree: RefTree) -> None:
         '''exports all of the pages that the reftree contains'''
-        self.clear_export_dir()
         
         for node in tqdm(tree.nodes, desc="Processing Pages", bar_format="{l_bar}{r_bar}"):
             
@@ -84,7 +90,7 @@ class ExportMD:
             content = self.format_codeblocks(content)
             content = self.format_links(tree.links, content)
             
-            self.export_page(node.entry.ref_id, content, node.is_index)
+            self.prepared_pages.append(MDPage(node.entry.ref_id, content, node.is_index))
     
     def format_string_list(self, str_list: list[str], header: str) -> str:
         '''parses a list of strings from the RefEntry
@@ -181,7 +187,7 @@ class ExportMD:
             
             ## adding a space because links don't respect whitespace for some reason.
             ##TODO: look into why
-            markdown_link = f" [{link_text}]({link_path})"
+            markdown_link = f" [{link_text}](/ref{link_path})"
             text = text[:start_idx] + markdown_link + text[end_idx + len(end_token):]
             
         return text
@@ -193,16 +199,20 @@ class ExportMD:
         if target_dir.exists():
             logger.info(f"Clearing export directory: {target_dir}")
             shutil.rmtree(target_dir)
-            
-        # Recreate the base directory so it's ready for fresh writes
-        target_dir.mkdir(parents=True, exist_ok=True)
+        
+    def export_pages(self):
+        '''exports all of the prepared pages to disk'''
+        self.export_root.mkdir(parents=True, exist_ok=True)
+        
+        for page in tqdm(self.prepared_pages, desc="Writing Pages", bar_format="{l_bar}{r_bar}"):
+            self.export_page(page)
     
-    def export_page(self, ref_id: str, content: str, is_index: bool):
+    def export_page(self, page: MDPage):
         '''exports the page content to a markdown file'''
-        clean_ref_id = ref_id.lstrip("\\/")
+        clean_ref_id = page.id.lstrip("\\/")
         clean_filepath = self.clean_filepath(clean_ref_id)
         
-        if is_index:
+        if page.is_index:
             export_file = self.export_root / "ref" / clean_filepath / "index.md"
         else:
             export_file = self.export_root / "ref" / f"{clean_filepath}.md"
@@ -210,4 +220,4 @@ class ExportMD:
         #logger.info(f"Writing {export_file}")
         export_file.parent.mkdir(parents=True, exist_ok=True)
         with open(export_file, "w", encoding="utf-8") as file:
-            file.write(content)
+            file.write(page.content)

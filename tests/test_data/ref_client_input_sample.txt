@@ -1,0 +1,7140 @@
+<div>
+   <a name="/client">
+    <h2>
+     client
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/mob/var/client">
+       client var (mob)
+      </a>
+      <dd>
+       <a href="#/mob/var/key">
+        key var (mob)
+       </a>
+       <dd>
+        <a href="#/client/proc">
+         procs (client)
+        </a>
+        <dd>
+         <a href="#/client/var">
+          vars (client)
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     Each connected player has a corresponding client object.  It has
+variables and procedures which control aspects of player input/output.  This
+object is also responsible for linking the player up to a mob.
+    </p>
+    <p>
+     The client can be reassigned from its original mob M to a new mob N by
+setting N.client = M.client.  This process disconnects the player from M
+(calling M.Logout()) and connects the player to N (calling N.Login()).
+Setting the mob's key has the same effect.
+    </p>
+    <p>
+     Additional vars, procs, and verbs may be added to the client in order to
+give the player properties that are independent of the mob.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc">
+    <h2>
+     procs (client)
+    </h2>
+    <p>
+     Built-in client procs:
+    </p>
+    <dl>
+     <dt>
+      client/proc
+     </dt>
+     <dd>
+      <a href="#/client/proc/AllowUpload">
+       AllowUpload
+      </a>
+      <dd>
+       <a href="#/client/proc/Center">
+        Center
+       </a>
+       <dd>
+        <a href="#/client/proc/CheckPassport">
+         CheckPassport
+        </a>
+        <dd>
+         <a href="#/client/proc/Click">
+          Click
+         </a>
+         <dd>
+          <a href="#/client/proc/Command">
+           Command
+          </a>
+          <dd>
+           <a href="#/client/proc/DblClick">
+            DblClick
+           </a>
+           <dd>
+            <a href="#/client/proc/Del">
+             Del
+            </a>
+            <dd>
+             <a href="#/client/proc/East">
+              East
+             </a>
+             <dd>
+              <a href="#/client/proc/Export">
+               Export
+              </a>
+              <dd>
+               <a href="#/client/proc/GetAPI">
+                GetAPI proc
+               </a>
+               <dd>
+                <a href="#/client/proc/Import">
+                 Import
+                </a>
+                <dd>
+                 <a href="#/client/proc/IsByondMember">
+                  IsByondMember
+                 </a>
+                 <dd>
+                  <a href="#/client/proc/MeasureText">
+                   MeasureText
+                  </a>
+                  <dd>
+                   <a href="#/client/proc/MouseDown">
+                    MouseDown
+                   </a>
+                   <dd>
+                    <a href="#/client/proc/MouseDrag">
+                     MouseDrag
+                    </a>
+                    <dd>
+                     <a href="#/client/proc/MouseDrop">
+                      MouseDrop
+                     </a>
+                     <dd>
+                      <a href="#/client/proc/MouseEntered">
+                       MouseEntered
+                      </a>
+                      <dd>
+                       <a href="#/client/proc/MouseExited">
+                        MouseExited
+                       </a>
+                       <dd>
+                        <a href="#/client/proc/MouseMove">
+                         MouseMove
+                        </a>
+                        <dd>
+                         <a href="#/client/proc/MouseUp">
+                          MouseUp
+                         </a>
+                         <dd>
+                          <a href="#/client/proc/MouseWheel">
+                           MouseWheel
+                          </a>
+                          <dd>
+                           <a href="#/client/proc/Move">
+                            Move
+                           </a>
+                           <dd>
+                            <a href="#/client/proc/New">
+                             New
+                            </a>
+                            <dd>
+                             <a href="#/client/proc/North">
+                              North
+                             </a>
+                             <dd>
+                              <a href="#/client/proc/Northeast">
+                               Northeast
+                              </a>
+                              <dd>
+                               <a href="#/client/proc/Northwest">
+                                Northwest
+                               </a>
+                               <dd>
+                                <a href="#/client/proc/RenderIcon">
+                                 RenderIcon
+                                </a>
+                                <dd>
+                                 <a href="#/client/proc/SendPage">
+                                  SendPage
+                                 </a>
+                                 <dd>
+                                  <a href="#/client/proc/SetAPI">
+                                   SetAPI proc
+                                  </a>
+                                  <dd>
+                                   <a href="#/client/proc/SoundQuery">
+                                    SoundQuery
+                                   </a>
+                                   <dd>
+                                    <a href="#/client/proc/South">
+                                     South
+                                    </a>
+                                    <dd>
+                                     <a href="#/client/proc/Southeast">
+                                      Southeast
+                                     </a>
+                                     <dd>
+                                      <a href="#/client/proc/Southwest">
+                                       Southwest
+                                      </a>
+                                      <dd>
+                                       <a href="#/client/proc/Stat">
+                                        Stat
+                                       </a>
+                                       <dd>
+                                        <a href="#/client/proc/Topic">
+                                         Topic
+                                        </a>
+                                        <dd>
+                                         <a href="#/client/proc/West">
+                                          West
+                                         </a>
+                                        </dd>
+                                       </dd>
+                                      </dd>
+                                     </dd>
+                                    </dd>
+                                   </dd>
+                                  </dd>
+                                 </dd>
+                                </dd>
+                               </dd>
+                              </dd>
+                             </dd>
+                            </dd>
+                           </dd>
+                          </dd>
+                         </dd>
+                        </dd>
+                       </dd>
+                      </dd>
+                     </dd>
+                    </dd>
+                   </dd>
+                  </dd>
+                 </dd>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/AllowUpload">
+    <h2>
+     AllowUpload proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/proc/input">
+       input proc
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      AllowUpload(filename, filelength)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player attempts to upload a file to the server, through input() or a command.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Allows the upload by returning 1.
+     </dd>
+    </dl>
+    <p>
+     The client who owns this proc (src) is the one trying to upload the file.
+If this proc returns a true value, the upload will be allowed. Otherwise, it
+will be rejected.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+   AllowUpload(filename, filelength)
+      if(filelength &gt;= 524288)  // 512K (0.5M)
+         src &lt;&lt; "[filename] is too big to upload!"
+         return 0
+      return 1
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/Center">
+    <h2>
+     Center proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/proc/walk">
+       walk proc
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Center()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "center" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Cancels any automated movement by calling walk(usr,0).
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/CheckPassport">
+    <h2>
+     CheckPassport proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/world/proc/IsSubscribed">
+       IsSubscribed proc (world)
+      </a>
+      <dd>
+       <a href="#/client/proc/IsByondMember">
+        IsByondMember proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/GetAPI">
+         GetAPI proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/SetAPI">
+          SetAPI proc (client)
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      CheckPassport(passport_identifier)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      passport_identifier: a text string assigned to you by the BYOND hub (or an ID/token for a different API; see below).
+     </dd>
+    </dl>
+    <p>
+     This built-in procedure checks to see if the user is subscribed to a
+particular BYOND hub entry. If the user is subscribed, the result is the
+number of days left (rounded up) on their subscription, or -1 for lifetime
+subscribers.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     world
+   hub = "My.Hub"  //change this to your own hub entry
+
+mob/var
+   full_access
+
+mob/Login()
+   if(client.CheckPassport("0123456789abcdef"))
+      full_access = 1
+   else
+      src &lt;&lt; "For full access,
+     <a href="\">
+      subscribe
+     </a>
+     !"
+   return ..()
+    </xmp>
+    <p>
+     Note that in general the value of world.hub has nothing to do with the
+passport you happen to check.  This example assumes the passport number
+belongs to world.hub just for the purpose of forwarding the user to the
+appropriate subscription page.
+    </p>
+    <h3 byondver="514">
+     Other APIs
+    </h3>
+    <p>
+     You can use this with other APIs that are supported by BYOND, which
+currently only applies to Steam and only if the game is specially built for
+Steam support.
+    </p>
+    <p>
+     To check ownership of a Steam game or DLC (must be the current game's ID
+or one of its DLCs), use
+     <tt>
+      "steam:
+      <i>
+       NNNNNN
+      </i>
+      "
+     </tt>
+     for the passport
+string, where
+     <i>
+      NNNNNN
+     </i>
+     is a Steam app ID. Note that the user must be
+logged into Steam for this to work.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/Click">
+    <h2>
+     Click proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/atom/proc/Click">
+       Click proc (atom)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDown">
+         MouseDown proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrag">
+          MouseDrag proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseDrop">
+           MouseDrop proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseEntered">
+            MouseEntered proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseExited">
+             MouseExited proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseMove">
+              MouseMove proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseUp">
+               MouseUp proc (client)
+              </a>
+              <dd>
+               <a href="#/client/proc/MouseWheel">
+                MouseWheel proc (client)
+               </a>
+               <dd>
+                <a href="#/atom/var/mouse_opacity">
+                 mouse_opacity var (atom)
+                </a>
+                <dd>
+                 <a href="#/atom/var/mouse_over_pointer">
+                  mouse_over_pointer var (atom)
+                 </a>
+                 <dd>
+                  <a href="#/client/var/show_popup_menus">
+                   show_popup_menus var (client)
+                  </a>
+                 </dd>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Click(object,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player clicks on the map or in the stat panels.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object clicked
+      <dd>
+       location: the client stat panel, location (turf) of object on map, grid cell, or other control-specific info
+       <dd>
+        control: the name of the skin control involved
+        <dd>
+         params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+         <a href="#/DM/mouse">
+          mouse handling
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.Click(location,control,params).
+     </dd>
+    </dl>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+  Click(O)
+    usr &lt;&lt; "You clicked [O]"
+    ..() // do default action
+    </xmp>
+    <p>
+     Note that due to network lag, it is possible when clicking on moving
+objects for the location of those objects to have changed by the time the
+Click() proc is executed.  That is the reason for the location argument.  It
+tells you where the click originally took place.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     Click(object as null|atom in usr.client,\
+      location as null|turf|text in usr.client,\
+      control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/Command">
+    <h2>
+     Command proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Command(command as command_text)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player types in something that is not understood as a
+valid command, or if the player is connected via telnet.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      None.
+     </dd>
+    </dl>
+    <p>
+     If this proc is used, players will be able to connect to your world via
+telnet. All telnet users' commands are routed through this proc instead of
+being parsed into verbs. Players who join the world through Dream Seeker
+will have their commands parsed as verbs first, and those commands will end
+up here only if there is no applicable verb.
+    </p>
+    <p>
+     Note that text received by this proc is not interpreted beforehand, so
+quotes " and backslashes \ should come through unaltered.
+    </p>
+    <p>
+     This proc is primarily useful if you want to handle parsing yourself (like
+for a MUD), or if your world is a chat server and verbs are not used much.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/DblClick">
+    <h2>
+     DblClick proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/atom/proc/DblClick">
+        DblClick proc (atom)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDown">
+         MouseDown proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrag">
+          MouseDrag proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseDrop">
+           MouseDrop proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseEntered">
+            MouseEntered proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseExited">
+             MouseExited proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseMove">
+              MouseMove proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseUp">
+               MouseUp proc (client)
+              </a>
+              <dd>
+               <a href="#/client/proc/MouseWheel">
+                MouseWheel proc (client)
+               </a>
+               <dd>
+                <a href="#/atom/var/mouse_opacity">
+                 mouse_opacity var (atom)
+                </a>
+                <dd>
+                 <a href="#/atom/var/mouse_over_pointer">
+                  mouse_over_pointer var (atom)
+                 </a>
+                 <dd>
+                  <a href="#/client/var/show_popup_menus">
+                   show_popup_menus var (client)
+                  </a>
+                 </dd>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      DblClick(object,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player double-clicks on the map or in the stat panels.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object double-clicked
+      <dd>
+       location: the client stat panel, location (turf) of object on map, grid cell, or other control-specific info
+       <dd>
+        control: the name of the skin control involved
+        <dd>
+         params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+         <a href="#/DM/mouse">
+          mouse handling
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.DblClick(location,control,params).
+     </dd>
+    </dl>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+  DblClick(O)
+    usr &lt;&lt; "You double-clicked [O]"
+    ..() // do default action
+    </xmp>
+    <p>
+     Note that due to network lag, it is possible when clicking on moving
+objects for the location of those objects to have changed by the time the
+DblClick() proc is executed.  That is the reason for the location argument.
+It tells you where the click originally took place.
+    </p>
+    <xmp>
+     DblClick(object as null|atom in usr.client,\
+         location as null|turf|text in usr.client,\
+         control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/Del">
+    <h2>
+     Del proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/mob/proc/Logout">
+       Logout proc (mob)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Del()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player disconnects from the world.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      If the player is connected to a mob, call mob.Logout() to disconnect.
+If the player's connection to the world is still not dead, kill it.
+     </dd>
+    </dl>
+    <p>
+     Note that this does not automatically delete the player's mob.  If you want
+to do that, you could do so in mob.Logout().
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/East">
+    <h2>
+     East proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      East()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "right" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the east.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/Export">
+    <h2>
+     Export proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Import">
+       Import proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/New">
+        New proc (client)
+       </a>
+       <dd>
+        <a href="#/world/var/hub">
+         hub var (world)
+        </a>
+        <dd>
+         <a href="#/savefile">
+          savefile
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      client.Export(file)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      file: file to send to client
+     </dd>
+    </dl>
+    <p>
+     This stores the file on the user's computer in a special location unique to 
+each registered
+     <a href="#/world/var/hub">
+      world.hub
+     </a>
+     setting.  This is most 
+useful for writing a client-side savefile, but any type of file may be stored.  
+The purpose of this is to exchange information between different worlds running 
+under the same hub path.
+    </p>
+    <p>
+     When a file is exported to the player's computer, it replaces any
+previous file stored by a game with the same
+     <code>
+      world.hub
+     </code>
+     value.
+This should not be used for anything requiring high security, because any
+other world could make use of the same hub path and access the file.  It
+is also possible for the user to tinker with the file, since it resides on
+their computer.
+    </p>
+    <p>
+     To delete the client-side file completely, call
+     <code>
+      client.Export()
+     </code>
+     with no argument at all.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     mob/verb/save()
+   var/savefile/F = new()
+   F &lt;&lt; usr     //write the player's mob
+   usr.client.Export(F)
+
+client/New()
+   var/client_file = Import()
+   if(client_file)
+      var/savefile/F = new(client_file) //open it as a savefile
+      F &gt;&gt; usr  //read the player's mob
+   return ..()
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/GetAPI">
+    <h2 byondver="514">
+     GetAPI proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/SetAPI">
+       SetAPI proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/CheckPassport">
+        CheckPassport proc (client)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      GetAPI(Api, Name)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      Api: the name of the API (e.g. "steam")
+      <dd>
+       Key: the name of the value to read
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     Interfaces with supported external APIs to read information. Currently this
+only has meaning for Steam, for specially built games that have a Steam app ID.
+    </p>
+    <p>
+     This proc returns null any time the call or its results are invalid: for
+instance, trying to query a Steam stat from a user who isn't logged into
+Steam.
+    </p>
+   </a>
+   <table class="api">
+    <thead>
+     <tr>
+      <th>
+       Key
+      </th>
+      <th class="nobr">
+       Return type
+      </th>
+      <th>
+       Description
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <th colspan="4">
+       <tt>
+        "steam"
+       </tt>
+       API
+       <br/>
+       Requires that the server and client are using a valid Steam app ID, such as when a game is built for standalone distribution.
+      </th>
+     </tr>
+     <tr>
+      <td>
+       id
+      </td>
+      <td>
+       text
+      </td>
+      <td>
+       Returns the user's numeric Steam ID, if any. Because this number is too big to fit in BYOND's numbering system, it is returned as text.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       name
+      </td>
+      <td>
+       text
+      </td>
+      <td>
+       Returns the user's persona name on Steam.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       stat:
+       <i>
+        Name
+       </i>
+      </td>
+      <td>
+       num
+      </td>
+      <td>
+       Returns the value of the stat called
+       <tt>
+        Name
+       </tt>
+       .
+      </td>
+     </tr>
+     <tr>
+      <td>
+       achievement:
+       <i>
+        Name
+       </i>
+      </td>
+      <td>
+       num
+      </td>
+      <td>
+       Returns the date (for use with
+       <a class="code" href="#/proc/time2text">
+        time2text
+       </a>
+       ) the achievement called
+       <tt>
+        Name
+       </tt>
+       , or 0 if it hasn't been earned.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       achievement-data:
+       <i>
+        Name
+       </i>
+      </td>
+      <td>
+       list
+      </td>
+      <td>
+       Returns information about the achievement called
+       <tt>
+        Name
+       </tt>
+       . The result is an associative list with named values
+       <tt>
+        name
+       </tt>
+       (display name),
+       <tt>
+        desc
+       </tt>
+       (description), and optionally
+       <tt>
+        hidden
+       </tt>
+       and
+       <tt>
+        icon
+       </tt>
+       . (This call is the same no matter which client you call it for.)
+      </td>
+     </tr>
+     <tr>
+      <td>
+       achievements
+      </td>
+      <td>
+       list
+      </td>
+      <td>
+       Returns a list of all possible achievements. Each item in the list is the internal name of the achievement, and it is associated with a list in the form described for
+       <tt>
+        achievement-data:
+        <i>
+         Name
+        </i>
+       </tt>
+       . (This call is the same no matter which client you call it for.)
+      </td>
+     </tr>
+    </tbody>
+   </table>
+   <hr/>
+   <a name="/client/proc/Import">
+    <h2>
+     Import proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Export">
+       Export proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/New">
+        New proc (client)
+       </a>
+       <dd>
+        <a href="#/savefile">
+         savefile
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      client.Import(Query)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      Query: optional query parameters
+     </dd>
+    </dl>
+    <p>
+     When no query parameters are given, this returns the client-side file last
+exported with
+     <code>
+      client.Export()
+     </code>
+     .  This comes as an entry in the
+resource cache, which can be opened as a savefile among other things.  If
+there is no file, null is returned.  For an example, see
+     <a href="#/client/proc/Export">
+      client.Export
+     </a>
+     .
+    </p>
+    <p>
+     When there are query parameters, these may be used to import a file from
+some alternate source.  Currently this is not supported.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/IsByondMember">
+    <h2>
+     IsByondMember proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      IsByondMember()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      None.
+     </dd>
+    </dl>
+    <p>
+     This built-in procedure checks to see if the user is a BYOND Member.
+Use it to give special in-game rewards to those who support BYOND.
+    </p>
+    <p>
+     If the user is a Member, the result is the number of days left (rounded
+up) on their Membership, or -1 for lifetime Members.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     mob/var
+   special_features
+
+mob/Login()
+   if(client.IsByondMember())
+      special_features = 1
+   else
+      src &lt;&lt; "For special features,
+     <a href="\">
+      become a BYOND Member
+     </a>
+     !"
+   return ..()
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/MeasureText">
+    <h2 byondver="513">
+     MeasureText proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/atom/var/maptext">
+       maptext var (atom)
+      </a>
+      <dd>
+       <a href="#/atom/var/maptext_width">
+        maptext_width var (atom)
+       </a>
+       <dd>
+        <a href="#/atom/var/maptext_height">
+         maptext_height var (atom)
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MeasureText(text, style, width=0)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      text: The text to be measured
+      <dd>
+       style: Stylesheet to be used (leave blank to use the default map control's styles, if any)
+       <dd>
+        width: Width limit, if you only want to measure height; 0 means no limit
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      A size value in
+      <tt>
+       "[width]x[height]"
+      </tt>
+      format, e.g. "60x16"
+     </dd>
+    </dl>
+    <p>
+     Because maptext rendering may vary by client,
+     <tt>
+      MeasureText
+     </tt>
+     lets
+you get a measurement of how text will be laid out, so you can adjust
+     <tt>
+      maptext_width
+     </tt>
+     and
+     <tt>
+      maptext_height
+     </tt>
+     accordingly.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseDown">
+    <h2>
+     MouseDown proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/atom/proc/MouseDown">
+         MouseDown proc (atom)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrag">
+          MouseDrag proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseDrop">
+           MouseDrop proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseEntered">
+            MouseEntered proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseExited">
+             MouseExited proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseMove">
+              MouseMove proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseUp">
+               MouseUp proc (client)
+              </a>
+              <dd>
+               <a href="#/client/proc/MouseWheel">
+                MouseWheel proc (client)
+               </a>
+               <dd>
+                <a href="#/atom/var/mouse_opacity">
+                 mouse_opacity var (atom)
+                </a>
+                <dd>
+                 <a href="#/client/var/mouse_pointer_icon">
+                  mouse_pointer_icon var (client)
+                 </a>
+                 <dd>
+                  <a href="#/client/var/show_popup_menus">
+                   show_popup_menus var (client)
+                  </a>
+                 </dd>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseDown(object,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object under the mouse pointer
+      <dd>
+       location: the turf, stat panel, grid cell, etc. containing the object where it was clicked
+       <dd>
+        control: the name of the skin control involved
+        <dd>
+         params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+         <a href="#/DM/mouse">
+          mouse handling
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseDown(location,control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called when the a mouse button is pressed while pointing to the
+object.  Note that MouseUp() will always be called after MouseDown() is
+called, even if over empty space.  That means
+     <var>
+      object
+     </var>
+     and
+     <var>
+      location
+     </var>
+     may be null.
+    </p>
+    <p>
+     Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  Most operations can be done through
+     <tt>
+      Click()
+     </tt>
+     ,
+     <tt>
+      DblClick()
+     </tt>
+     , and
+     <tt>
+      MouseDrop()
+     </tt>
+     . The other
+procedures are simply available for completeness.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseDown(object as null|atom in usr.client,\
+          location as null|turf|text in usr.client,\
+          control as text, params as text)
+    </xmp>
+    <p class="compatibility">
+     Note: In BYOND 3.5 this procedure took three different
+arguments:
+     <tt>
+      location
+     </tt>
+     ,
+     <tt>
+      icon_x
+     </tt>
+     , and
+     <tt>
+      icon_y
+     </tt>
+     . Since
+     <tt>
+      icon_x
+     </tt>
+     and
+     <tt>
+      icon_y
+     </tt>
+     have been replaced, old code will need to
+be modified. Games compiled before this change will still work normally.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseDrag">
+    <h2>
+     MouseDrag proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDown">
+         MouseDown proc (client)
+        </a>
+        <dd>
+         <a href="#/atom/proc/MouseDrag">
+          MouseDrag proc (atom)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseDrop">
+           MouseDrop proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseEntered">
+            MouseEntered proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseExited">
+             MouseExited proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseMove">
+              MouseMove proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseUp">
+               MouseUp proc (client)
+              </a>
+              <dd>
+               <a href="#/client/proc/MouseWheel">
+                MouseWheel proc (client)
+               </a>
+               <dd>
+                <a href="#/client/var/mouse_pointer_icon">
+                 mouse_pointer_icon var (client)
+                </a>
+                <dd>
+                 <a href="#/client/var/show_popup_menus">
+                  show_popup_menus var (client)
+                 </a>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseDrag(src_object,over_object,src_location,over_location,src_control,over_control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      src_object: the object being dragged
+      <dd>
+       over_object: the object under the mouse pointer
+       <dd>
+        src_location: the turf, stat panel, grid cell, etc. from where the src object was dragged
+        <dd>
+         over_location: the turf, stat panel, grid cell, etc. containing the object under the mouse pointer
+         <dd>
+          src_control: The id of the skin control the object was dragged from
+          <dd>
+           over_control: The id of the skin control the object was dragged over
+           <dd>
+            params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+            <a href="#/DM/mouse">
+             mouse handling
+            </a>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseDrag(over_object,src_location,over_location,src_control,over_control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called while dragging an object by pressing and holding the left
+mouse button over the object and moving the mouse.  The over_object may be
+null if dragging over a stat panel or over other empty space.
+    </p>
+    <p>
+     Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  Most operations can be done through
+Click(), DblClick(), and MouseDrop().  The other procedures are simply
+available for completeness.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseDrag(src_object as null|atom in usr.client,\
+          over_object as null|atom in usr.client,\
+          src_location as null|turf|text in usr.client,\
+          over_location as null|turf|text in usr.client,\
+          src_control as text, over_control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseDrop">
+    <h2>
+     MouseDrop proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDown">
+         MouseDown proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrag">
+          MouseDrag proc (client)
+         </a>
+         <dd>
+          <a href="#/atom/proc/MouseDrop">
+           MouseDrop proc (atom)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseEntered">
+            MouseEntered proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseExited">
+             MouseExited proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseMove">
+              MouseMove proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseUp">
+               MouseUp proc (client)
+              </a>
+              <dd>
+               <a href="#/client/proc/MouseWheel">
+                MouseWheel proc (client)
+               </a>
+               <dd>
+                <a href="#/client/var/mouse_pointer_icon">
+                 mouse_pointer_icon var (client)
+                </a>
+                <dd>
+                 <a href="#/client/var/show_popup_menus">
+                  show_popup_menus var (client)
+                 </a>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseDrop(src_object,over_object,src_location,over_location,src_control,over_control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      src_object: the object being dropped
+      <dd>
+       over_object: the object under the mouse pointer
+       <dd>
+        src_location: the turf, stat panel, grid cell, etc. from where the src object was dragged
+        <dd>
+         over_location: the turf, stat panel, grid cell, etc. containing the object under the mouse pointer
+         <dd>
+          src_control: The id of the skin control the object was dragged from
+          <dd>
+           over_control: The id of the skin control the object was dropped onto
+           <dd>
+            params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+            <a href="#/DM/mouse">
+             mouse handling
+            </a>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseDrop(over_object,src_location,over_location,src_control,over_control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called when a mouse button is released after dragging an
+object.  The over_object may be null if dropping over a stat panel or over
+other empty space.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseDrag(src_object as null|atom in usr.client,\
+          over_object as null|atom in usr.client,\
+          src_location as null|turf|text in usr.client,\
+          over_location as null|turf|text in usr.client,\
+          src_control as text, over_control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseEntered">
+    <h2>
+     MouseEntered proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDrag">
+         MouseDrag proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrop">
+          MouseDrop proc (client)
+         </a>
+         <dd>
+          <a href="#/atom/proc/MouseEntered">
+           MouseEntered proc (atom)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseExited">
+            MouseExited proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseMove">
+             MouseMove proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseUp">
+              MouseUp proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseWheel">
+               MouseWheel proc (client)
+              </a>
+              <dd>
+               <a href="#/atom/var/mouse_opacity">
+                mouse_opacity var (atom)
+               </a>
+               <dd>
+                <a href="#/client/var/mouse_pointer_icon">
+                 mouse_pointer_icon var (client)
+                </a>
+                <dd>
+                 <a href="#/client/var/show_popup_menus">
+                  show_popup_menus var (client)
+                 </a>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseEntered(object,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object under the mouse pointer
+      <dd>
+       location: the turf, stat panel, grid cell, etc. containing the object where it was clicked
+       <dd>
+        control: the name of the skin control involved
+        <dd>
+         params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+         <a href="#/DM/mouse">
+          mouse handling
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseEntered(location,control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called when no mouse buttons are pressed while pointing to the
+object.
+    </p>
+    <p>
+     Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  Defining it on only the objects that
+require it reduces overhead.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseEntered(object as null|atom in usr.client,\
+             location as null|turf|text in usr.client,\
+             control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseExited">
+    <h2>
+     MouseExited proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDrag">
+         MouseDrag proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrop">
+          MouseDrop proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseEntered">
+           MouseEntered proc (client)
+          </a>
+          <dd>
+           <a href="#/atom/proc/MouseExited">
+            MouseExited proc (atom)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseMove">
+             MouseMove proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseUp">
+              MouseUp proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseWheel">
+               MouseWheel proc (client)
+              </a>
+              <dd>
+               <a href="#/atom/var/mouse_opacity">
+                mouse_opacity var (atom)
+               </a>
+               <dd>
+                <a href="#/client/var/mouse_pointer_icon">
+                 mouse_pointer_icon var (client)
+                </a>
+                <dd>
+                 <a href="#/client/var/show_popup_menus">
+                  show_popup_menus var (client)
+                 </a>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseExited(object,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object under the mouse pointer
+      <dd>
+       location: the turf, stat panel, grid cell, etc. containing the object where it was clicked
+       <dd>
+        control: the name of the skin control involved
+        <dd>
+         params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+         <a href="#/DM/mouse">
+          mouse handling
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseExited(location,control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called when the mouse moves off of an object.
+    </p>
+    <p>
+     Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  Defining it on only the objects that
+require it reduces overhead.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseExited(object as null|atom in usr.client,\
+            location as null|turf|text in usr.client,\
+            control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseMove">
+    <h2 byondver="500">
+     MouseMove proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDrag">
+         MouseDrag proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrop">
+          MouseDrop proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseEntered">
+           MouseEntered proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseExited">
+            MouseExited proc (client)
+           </a>
+           <dd>
+            <a href="#/atom/proc/MouseMove">
+             MouseMove proc (atom)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseUp">
+              MouseUp proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseWheel">
+               MouseWheel proc (client)
+              </a>
+              <dd>
+               <a href="#/atom/var/mouse_opacity">
+                mouse_opacity var (atom)
+               </a>
+               <dd>
+                <a href="#/client/var/mouse_pointer_icon">
+                 mouse_pointer_icon var (client)
+                </a>
+                <dd>
+                 <a href="#/client/var/show_popup_menus">
+                  show_popup_menus var (client)
+                 </a>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseMove(object,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object under the mouse pointer
+      <dd>
+       location: the turf, stat panel, grid cell, etc. containing the object where it was clicked
+       <dd>
+        control: the name of the skin control involved
+        <dd>
+         params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+         <a href="#/DM/mouse">
+          mouse handling
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseMove(location,control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called when no mouse buttons are pressed while pointing to the
+object, and the mouse has moved. The first time the mouse moves over the
+object, MouseEntered() is called instead.
+    </p>
+    <p>
+     Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  Defining it on only the objects that
+require it reduces overhead.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseMove(object as null|atom in usr.client,\
+          location as null|turf|text in usr.client,\
+          control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseUp">
+    <h2>
+     MouseUp proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDown">
+         MouseDown proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrag">
+          MouseDrag proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseDrop">
+           MouseDrop proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseEntered">
+            MouseEntered proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseExited">
+             MouseExited proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseMove">
+              MouseMove proc (client)
+             </a>
+             <dd>
+              <a href="#/atom/proc/MouseUp">
+               MouseUp proc (atom)
+              </a>
+              <dd>
+               <a href="#/client/proc/MouseWheel">
+                MouseWheel proc (client)
+               </a>
+               <dd>
+                <a href="#/atom/var/mouse_opacity">
+                 mouse_opacity var (atom)
+                </a>
+                <dd>
+                 <a href="#/client/var/mouse_pointer_icon">
+                  mouse_pointer_icon var (client)
+                 </a>
+                 <dd>
+                  <a href="#/client/var/show_popup_menus">
+                   show_popup_menus var (client)
+                  </a>
+                 </dd>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseUp(object,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object under the mouse pointer
+      <dd>
+       location: the turf, stat panel, grid cell, etc. containing the object where it was clicked
+       <dd>
+        control: the name of the skin control involved
+        <dd>
+         params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+         <a href="#/DM/mouse">
+          mouse handling
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseUp(location,control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called when a mouse button is released while pointing to
+an object.
+    </p>
+    <p>
+     Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  Most operations can be done through
+     <tt>
+      Click()
+     </tt>
+     ,
+     <tt>
+      DblClick()
+     </tt>
+     , and
+     <tt>
+      MouseDrop()
+     </tt>
+     . The other
+procedures are simply available for completeness.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseUp(object as null|atom in usr.client,\
+        location as null|turf|text in usr.client,\
+        control as text, params as text)
+    </xmp>
+    <p class="compatibility">
+     Note: In BYOND 3.5 this procedure took three different
+arguments:
+     <tt>
+      location
+     </tt>
+     ,
+     <tt>
+      icon_x
+     </tt>
+     , and
+     <tt>
+      icon_y
+     </tt>
+     . Since
+     <tt>
+      icon_x
+     </tt>
+     and
+     <tt>
+      icon_y
+     </tt>
+     have been replaced, old code will need to
+be modified. Games compiled before this change will still work normally.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/MouseWheel">
+    <h2 byondver="508">
+     MouseWheel proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/DblClick">
+        DblClick proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDown">
+         MouseDown proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrag">
+          MouseDrag proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseDrop">
+           MouseDrop proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseEntered">
+            MouseEntered proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseExited">
+             MouseExited proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseMove">
+              MouseMove proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseUp">
+               MouseUp proc (client)
+              </a>
+              <dd>
+               <a href="#/atom/proc/MouseWheel">
+                MouseWheel proc (atom)
+               </a>
+               <dd>
+                <a href="#/atom/var/mouse_opacity">
+                 mouse_opacity var (atom)
+                </a>
+                <dd>
+                 <a href="#/client/var/mouse_pointer_icon">
+                  mouse_pointer_icon var (client)
+                 </a>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      MouseWheel(object,delta_x,delta_y,location,control,params)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: the object under the mouse pointer
+      <dd>
+       delta_x,delta_y: amount of wheel movement
+       <dd>
+        location: the turf, stat panel, grid cell, etc. containing the object
+        <dd>
+         control: the name of the skin control involved
+         <dd>
+          params: other parameters including mouse/keyboard flags, icon offsets, etc.; see
+          <a href="#/DM/mouse">
+           mouse handling
+          </a>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call object.MouseWheel(delta_x,delta_y,location,control,params).
+     </dd>
+    </dl>
+    <p>
+     This is called when the mouse wheel is moved while over an object or
+control. It is NOT called if over a browser control, or any control that is
+currently scrollable.
+    </p>
+    <p>
+     Positive values of delta_x and delta_y refer to scrolling right or up,
+respectively. Negative values are left and down, respectively.
+    </p>
+    <p>
+     Don't define this unless you need it, because it generates extra
+communication that is otherwise avoided.  If you only need wheel support on
+specific objects, use atom.MouseWheel() instead which is more selective.
+    </p>
+    <p>
+     The argument format for this verb is:
+    </p>
+    <xmp>
+     MouseWheel(object as null|atom in usr.client,\
+           delta_x as num, delta_y as num,\
+           location as null|turf|text in usr.client,\
+           control as text, params as text)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/proc/Move">
+    <h2>
+     Move proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/East">
+       East proc (client)
+      </a>
+      <dd>
+       <a href="#/atom/movable/proc/Move">
+        Move proc (movable atom)
+       </a>
+       <dd>
+        <a href="#/client/proc/North">
+         North proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/Northeast">
+          Northeast proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/Northwest">
+           Northwest proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/South">
+            South proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/Southeast">
+             Southeast proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/Southwest">
+              Southwest proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/West">
+               West proc (client)
+              </a>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Move(loc,dir)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      1 on success; 0 on failure
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called by the direction procs.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.mob.Move().  Also cancels any automated movement by
+    calling walk(usr,0).
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/New">
+    <h2>
+     New proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Export">
+       Export proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/Import">
+        Import proc (client)
+       </a>
+       <dd>
+        <a href="#/mob/proc/Login">
+         Login proc (mob)
+        </a>
+        <dd>
+         <a href="#/datum/proc/New">
+          New proc (datum)
+         </a>
+         <dd>
+          <a href="#/client/proc/Topic">
+           Topic proc (client)
+          </a>
+          <dd>
+           <a href="#/world/var/mob">
+            mob var (world)
+           </a>
+           <dd>
+            <a href="#/savefile">
+             savefile
+            </a>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      New(TopicData)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      The newly connected mob, client.mob, or null to disallow the connection.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player first tries to connect to the world.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      usr: The mob in the world with the same key as the player, if it exists.
+      <dd>
+       TopicData: If the player accessed the world with a "connection topic",
+    this is the topic text.  Otherwise it is null.
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Look for an existing mob with the same key as the player.  If found,
+  connect the player to that mob (mob.Login()).  Otherwise, look for a
+  prototype mob with the same key as the player.  If found, create a mob of
+  that type and connect the player to it.  Otherwise, create a mob of type
+  world.mob, give it the same name and gender as the player's key, and
+  connect the player to it.  If TopicData is not null, call
+  client.Topic(TopicData).  Finally, the player's mob is returned.
+     </dd>
+    </dl>
+    <p>
+     This is a fairly low-level procedure that you would only want to override
+if you cannot accomplish the same thing in
+     <code>
+      mob/Login()
+     </code>
+     or
+     <code>
+      mob/New()
+     </code>
+     .  One reason to override
+     <code>
+      client/New()
+     </code>
+     is
+if player mobs are created from a savefile.  In that case, you don't need a
+temporary mob to be created first.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client/New()
+   if(usr) return ..() //reconnecting to existing mob
+   else
+      var/player_sav = "players/[ckey].sav"
+      if(length(file(player_sav)))        //if player savefile exists
+         var/savefile/F = new(player_sav) //open it
+         F &gt;&gt; usr    //create saved mob
+      return ..()    //creates a new mob if necessary
+mob/Logout()
+   var/player_sav = "players/[ckey].sav"
+   var/savefile/F = new(player_sav)
+   F &lt;&lt; src
+   del src
+    </xmp>
+    <p>
+     If you want to do any user-interaction before loading the saved mob, you
+will have to create a temporary mob first in order to interact with the
+player.  In that case, you are better off doing things in
+     <code>
+      mob/Login()
+     </code>
+     , rather than
+     <code>
+      client/New()
+     </code>
+     .
+    </p>
+    <p>
+     Note that for the above example to work, you
+     <strong>
+      must
+     </strong>
+     make
+proper use of the
+     <a href="#/var/tmp">
+      tmp
+     </a>
+     flag when defining new object
+variables.  Otherwise, this can end up sucking large portions of your world
+into each player savefile, which can have all sorts of unexpected
+consequences!
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/North">
+    <h2>
+     North proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      North()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "up" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the north.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/Northeast">
+    <h2>
+     Northeast proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Northeast()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "up-right" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the northeast.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/Northwest">
+    <h2>
+     Northwest proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Northwest()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      Returns 1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "up-left" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the northwest.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/RenderIcon">
+    <h2 byondver="515">
+     RenderIcon proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/atom/var/vis_contents">
+       vis_contents var (atom)
+      </a>
+      <dd>
+       <a href="#/{notes}/filters">
+        Filter effects
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      RenderIcon(object)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      object: An atom or appearance to render.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      A single-image icon file in which the object is rendered with all its
+overlays, visual contents, etc.
+     </dd>
+    </dl>
+    <p>
+     Use this proc to render an atom or an appearance as a single icon. This is
+a client proc because the server is not capable of rendering anything on its
+own.
+    </p>
+    <p>
+     Any overlays, image objects known to this client that are attached to the
+object, visual contents, maptext, and so on will be included in the render.
+The returned icon is sized to fit all of the above, and to include room for
+any expansion due to filter effects.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     mob/proc/GetFlatIcon()
+    return client?.RenderIcon(src)
+    </xmp>
+    <p>
+     Important notes regarding this proc:
+    </p>
+    <ul>
+     <li>
+      The returned icon is a cache file,
+      <i>
+       not
+      </i>
+      an
+      <tt>
+       /icon
+      </tt>
+      datum.
+     </li>
+     <li>
+      If
+      <tt>
+       object
+      </tt>
+      is an
+      <a href="#/image">
+       <tt>
+        /image
+       </tt>
+       object
+      </a>
+      , the
+  image must be known to the client. Otherwise the return value is null.
+     </li>
+     <li>
+      If this object doesn't appear on the client's map, it will be sent to them
+  on the next map tick, along with any visual contents. The server will hold a
+  reference to the object until the map tick ends, so an object you create
+  temporarily should remain valid long enough to be rendered.
+     </li>
+     <li>
+      <a class="code" href="#/atom/var/render_source">
+       render_source
+      </a>
+      will not
+  work unless the corresponding
+      <a class="code" href="#/atom/var/render_target">
+       render_target
+      </a>
+      appears in the
+  same render stack. That is, this object or appearance will be rendered in an
+  isolated "scene" rather than as part of the map, so it won't be able to use
+  other objects on the map as render sources.
+     </li>
+    </ul>
+    <hr/>
+   </a>
+   <a name="/client/proc/SendPage">
+    <h2>
+     SendPage proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      SendPage(msg,recipient,options)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      Returns number of recipients successfully contacted.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      msg: text to send
+      <dd>
+       recipient: key or list of keys to page
+       <dd>
+        options: text string containing key=value options
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     The user is prompted to authorize sending of the pager message.  The
+recipient may easily respond or jump to the sender's location by clicking on
+the link in the pager message.  The effect is identical to that of the
+sending a page through the Dream Seeker pager.
+    </p>
+    <p>
+     The options are encoded in the same format read by text2params().  The
+valid options are:
+    </p>
+    <dl>
+     <dt>
+      summon (0/1)
+     </dt>
+     <dd>
+      If not included in the options, this is 0.  If included in the options
+without assigning it to anything, it is 1.  A value of 1 sends the recipient
+the sender's location so they can join by clicking on the message.
+     </dd>
+     <dt>
+      email (0/1)
+     </dt>
+     <dd>
+      If not included in the options, this is 0.  If included in the options
+without assigning it to anything, it is 1.  A value of 1 sends causes the
+message to be delivered as email.  If this is not possible, it is delivered as
+a long-lived pager message.  Normally, pager messages expire within a short
+time after being sent (half an hour).
+     </dd>
+     <dt>
+      subject
+     </dt>
+     <dd>
+      For email messages, this specifies the subject to use.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/SetAPI">
+    <h2 byondver="514">
+     SetAPI proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/GetAPI">
+       GetAPI proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/CheckPassport">
+        CheckPassport proc (client)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      SetAPI(Api, Key, Value)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      Api: the name of the API (e.g. "steam")
+      <dd>
+       Key: the name of the value to change
+       <dd>
+        Value: the new value to set
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     Interfaces with supported external APIs to write information. Currently this
+only has meaning for Steam, for specially built games that have a Steam app ID.
+    </p>
+    <p>
+     This proc returns null any time the call or its results are invalid.
+    </p>
+   </a>
+   <table class="api">
+    <thead>
+     <tr>
+      <th>
+       Key
+      </th>
+      <th class="nobr">
+       Return type
+      </th>
+      <th>
+       Description
+      </th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <th colspan="4">
+       <tt>
+        "steam"
+       </tt>
+       API
+       <br/>
+       Requires that the server and client are using a valid Steam app ID, such as when a game is built for standalone distribution.
+      </th>
+     </tr>
+     <tr>
+      <td>
+       stat:
+       <i>
+        Name
+       </i>
+      </td>
+      <td>
+       num
+      </td>
+      <td>
+       Changes the value of the stat called
+       <tt>
+        Name
+       </tt>
+       . Returns 1 on success. This may fail if the stat change is too much or is out of range.
+      </td>
+     </tr>
+     <tr>
+      <td>
+       achievement:
+       <i>
+        Name
+       </i>
+      </td>
+      <td>
+       num
+      </td>
+      <td>
+       Earns the achievement called
+       <tt>
+        Name
+       </tt>
+       , or clears it. Value is expected to be a number, or number in text form, where 0 will clear the achievement and 1 will earn it.
+      </td>
+     </tr>
+    </tbody>
+   </table>
+   <hr/>
+   <a name="/client/proc/SoundQuery">
+    <h2 byondver="513">
+     SoundQuery proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/sound">
+       /sound datum
+      </a>
+      <dd>
+       <a href="#/proc/sound">
+        sound proc
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      SoundQuery()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      none
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      A list of
+      <tt>
+       /sound
+      </tt>
+      datums with information about currently playing sounds.
+     </dd>
+    </dl>
+    <p>
+     This proc is used to ask a client about sounds that are playing. The
+     <tt>
+      /sound
+     </tt>
+     datums in the returned list have the following vars set:
+    </p>
+    <ul>
+     <li>
+      file: Sound/music file, or null if none
+     </li>
+     <li>
+      channel: Channel of sound, if one was set when the sound was played
+     </li>
+     <li>
+      repeat: The
+      <tt>
+       repeat
+      </tt>
+      value of the sound
+     </li>
+     <li>
+      status: Status flags active for this channel; currently only
+      <tt>
+       SOUND_PAUSED
+      </tt>
+      is supported
+     </li>
+     <li>
+      offset: Current time index, in seconds, of the sound at the current frequency
+     </li>
+     <li>
+      len: Total duration, in seconds, of the sound at the current frequency
+     </li>
+     <li>
+      wait: Total duration of sounds queued to play later on this channel (does not apply to channel 0)
+     </li>
+    </ul>
+    <p>
+     Not all info about the sounds is retrieved, such as
+     <tt>
+      volume
+     </tt>
+     ,
+     <tt>
+      frequency
+     </tt>
+     , etc. If those are needed, it should be a simple matter to
+keep track of them in your code. The main purpose of
+     <tt>
+      SoundQuery()
+     </tt>
+     is
+to ascertain the current status of playing sounds.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/South">
+    <h2>
+     South proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      South()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      Returns 1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "down" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the south.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/Southeast">
+    <h2>
+     Southeast proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Southeast()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "down-right" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the southeast.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/Southwest">
+    <h2>
+     Southwest proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Southwest()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      Returns 1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "down-left" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the southwest.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/proc/Stat">
+    <h2>
+     Stat proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/atom/proc/Stat">
+       Stat proc (atom)
+      </a>
+      <dd>
+       <a href="#/proc/stat">
+        stat proc
+       </a>
+       <dd>
+        <a href="#/client/var/statobj">
+         statobj var (client)
+        </a>
+        <dd>
+         <a href="#/proc/statpanel">
+          statpanel proc
+         </a>
+         <dd>
+          <a href="#/client/var/statpanel">
+           statpanel var (client)
+          </a>
+          <dd>
+           <a href="#/{skin}/control/info">
+            Info control (skin)
+           </a>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Stat()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called periodically by the client to update the stat window.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call statobj.Stat().
+     </dd>
+    </dl>
+    <p>
+     If this procedure sleeps (or engages in some other waiting operation), it
+will not be called again until it finally returns.  This allows you to
+effectively decrease the frequency of calls to the proc.  You might want to
+do that if it is a fairly lengthy procedure, and frequent calls are slowing
+things down.
+    </p>
+    <p>
+     To increase the frequency of stat updates, you can lower
+     <code>
+      world.tick_lag
+     </code>
+     .
+    </p>
+    <p>
+     Note: Typically only the currently viewed statpanel is updated, which
+saves on some network activity and a little time.  If however the proc
+sleeps, you need to be sure that any pending updates are displayed once
+the right panel is available.  Therefore if you're resetting a var that
+indicates the proc should sleep next time, it should not be reset unless
+you know the player is looking at the right statpanel and has received
+the updates.
+    </p>
+    <h3>
+     Example
+    </h3>
+    <xmp>
+     client/var/updategold = 1       // set to 1 if gold changes
+client/var/updateinventory = 1  // set to 1 if inventory changes
+
+client/Stat()
+    // if not ready to update, Stat() won't be called again till sleep is done
+    while(!updategold &amp;&amp; !updateinventory)
+        sleep(5)
+    if(statpanel("Gold")) // switch to Gold panel and ask if player is looking at it
+        stat("Gold", mob.gold)
+        updategold = 0  // we updated, so turn this flag back off
+    if(statpanel("Inventory"))
+        stat(mob.contents)
+        updateinventory = 0
+    </xmp>
+    <p>
+     Because sleeping in Stat() requires more thinking through, it's best to do
+so only in cases where Stat() has to do a lot of intensive calculations.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/Topic">
+    <h2>
+     Topic proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/New">
+       New proc (client)
+      </a>
+      <dd>
+       <a href="#/datum/proc/Topic">
+        Topic proc (datum)
+       </a>
+       <dd>
+        <a href="#/proc/link">
+         link proc
+        </a>
+        <dd>
+         <a href="#/DM/text/macros/ref">
+          ref text macro
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      Topic(href,href_list[],hsrc)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when a player connects to a world with a "connection topic" or
+    when the player runs a hyperlink in the current world by clicking one
+    embedded in text or generated by the link() instruction.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Args:
+      </b>
+     </dt>
+     <dd>
+      href: The topic text (everything after the '?' in the full href).
+      <dd>
+       href_list: List of key/value pairs in href (produced from params2list(href)).
+       <dd>
+        hsrc: The object referenced by the "src" parameter in href or null if none.
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Call the hsrc object's own Topic() proc.
+     </dd>
+    </dl>
+    <p>
+     The following example uses a very simple href value.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     mob/Login()
+  src &lt;&lt; "Click
+     <a href="?source">
+      here
+     </a>
+     to download the source code."
+  return ..()
+
+client/Topic(href)
+  if(href == "source")
+    usr &lt;&lt; file("world.dm")
+    usr &lt;&lt; file("world.rsc")
+  else ..()
+    </xmp>
+    <p>
+     Be sure to call the default handler unless you want to prevent rerouting
+of topics to other objects.
+    </p>
+    <p class="note security">
+     Always validate the input in
+     <tt>
+      Topic()
+     </tt>
+     calls
+to make sure it's correct and the query you're recieving is legitimate. For
+security reasons, you will probably want to control which objects a player has
+access to, since a player could spoof a topic link containing any arbitrary
+object reference. (Never trust those sneaky players!)
+    </p>
+    <p>
+     The next example demonstrates an href that gets handled by another object.
+This is how you would normally want to do things.  It is best not to override
+client/Topic() (as in the example above) unless you need to intervene in the
+low-level details of routing the request to the right object.
+    </p>
+    <p>
+     You specify the object that will handle the request by using a parameter
+called "src".
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     mob/Login()
+   src &lt;&lt; "Click
+     <a href="?src=\ref[src];action=startgame">
+      here
+     </a>
+     to start."
+   return ..()
+
+mob/Topic(href,href_list[])
+   switch(href_list["action"])
+      if("startgame")
+         usr &lt;&lt; "Starting game..."
+      else
+         return ..()
+    </xmp>
+    <p>
+     Although it is slightly more complex, the use of the parameter list allows
+you to easily include extra data and new functionality.  Just remember that
+the data in the list is always stored as text, so if you are expecting a
+number or an object, you must convert it yourself (with text2num(), locate(),
+or whatever).
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/proc/West">
+    <h2>
+     West proc (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Move">
+       Move proc (client)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      West()
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Returns:
+      </b>
+     </dt>
+     <dd>
+      Returns 1 on success; 0 on failure.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       When:
+      </b>
+     </dt>
+     <dd>
+      Called when the player presses the "left" key or cursor.
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default action:
+      </b>
+     </dt>
+     <dd>
+      Calls src.Move() towards the west.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/var">
+    <h2>
+     vars (client)
+    </h2>
+    <p>
+     Built-in client vars:
+    </p>
+    <dl>
+     <dt>
+      client/var
+     </dt>
+     <dd>
+      <a href="#/client/var/address">
+       address
+      </a>
+      <dd>
+       <a href="#/client/var/authenticate">
+        authenticate
+       </a>
+       <dd>
+        <a href="#/client/var/bounds">
+         bounds
+        </a>
+        <dd>
+         <a href="#/client/var/byond_build">
+          byond_build
+         </a>
+         <dd>
+          <a href="#/client/var/byond_version">
+           byond_version
+          </a>
+          <dd>
+           <a href="#/client/var/CGI">
+            CGI
+           </a>
+           <dd>
+            <a href="#/client/var/ckey">
+             ckey
+            </a>
+            <dd>
+             <a href="#/client/var/color">
+              color
+             </a>
+             <dd>
+              <a href="#/client/var/command_text">
+               command_text
+              </a>
+              <dd>
+               <a href="#/client/var/connection">
+                connection
+               </a>
+               <dd>
+                <a href="#/client/var/control_freak">
+                 control_freak
+                </a>
+                <dd>
+                 <a href="#/client/var/computer_id">
+                  computer_id
+                 </a>
+                 <dd>
+                  <a href="#/client/var/default_verb_category">
+                   default_verb_category
+                  </a>
+                  <dd>
+                   <a href="#/client/var/dir">
+                    dir
+                   </a>
+                   <dd>
+                    <a href="#/client/var/edge_limit">
+                     edge_limit
+                    </a>
+                    <dd>
+                     <a href="#/client/var/eye">
+                      eye
+                     </a>
+                     <dd>
+                      <a href="#/client/var/fps">
+                       fps
+                      </a>
+                      <dd>
+                       <a href="#/client/var/gender">
+                        gender
+                       </a>
+                       <dd>
+                        <a href="#/client/var/glide_size">
+                         glide_size
+                        </a>
+                        <dd>
+                         <a href="#/client/var/images">
+                          images
+                         </a>
+                         <dd>
+                          <a href="#/client/var/inactivity">
+                           inactivity
+                          </a>
+                          <dd>
+                           <a href="#/client/var/key">
+                            key
+                           </a>
+                           <dd>
+                            <a href="#/client/var/lazy_eye">
+                             lazy_eye
+                            </a>
+                            <dd>
+                             <a href="#/client/var/mob">
+                              mob
+                             </a>
+                             <dd>
+                              <a href="#/client/var/mouse_pointer_icon">
+                               mouse_pointer_icon
+                              </a>
+                              <dd>
+                               <a href="#/client/var/perspective">
+                                perspective
+                               </a>
+                               <dd>
+                                <a href="#/client/var/pixel_x">
+                                 pixel_x
+                                </a>
+                                <dd>
+                                 <a href="#/client/var/pixel_y">
+                                  pixel_y
+                                 </a>
+                                 <dd>
+                                  <a href="#/client/var/pixel_w">
+                                   pixel_w
+                                  </a>
+                                  <dd>
+                                   <a href="#/client/var/pixel_z">
+                                    pixel_z
+                                   </a>
+                                   <dd>
+                                    <a href="#/client/var/preload_rsc">
+                                     preload_rsc
+                                    </a>
+                                    <dd>
+                                     <a href="#/client/var/screen">
+                                      screen
+                                     </a>
+                                     <dd>
+                                      <a href="#/client/var/script">
+                                       script
+                                      </a>
+                                      <dd>
+                                       <a href="#/client/var/show_map">
+                                        show_map
+                                       </a>
+                                       <dd>
+                                        <a href="#/client/var/show_popup_menus">
+                                         show_popup_menus var
+                                        </a>
+                                        <dd>
+                                         <a href="#/client/var/show_verb_panel">
+                                          show_verb_panel
+                                         </a>
+                                         <dd>
+                                          <a href="#/client/var/statobj">
+                                           statobj
+                                          </a>
+                                          <dd>
+                                           <a href="#/client/var/statpanel">
+                                            statpanel
+                                           </a>
+                                           <dd>
+                                            <a href="#/client/var/tick_lag">
+                                             tick_lag
+                                            </a>
+                                            <dd>
+                                             <a href="#/client/var/timezone">
+                                              timezone
+                                             </a>
+                                             <dd>
+                                              <a href="#/client/var/verbs">
+                                               verbs
+                                              </a>
+                                              <dd>
+                                               <a href="#/client/var/view">
+                                                view
+                                               </a>
+                                               <dd>
+                                                <a href="#/client/var/virtual_eye">
+                                                 virtual_eye
+                                                </a>
+                                               </dd>
+                                              </dd>
+                                             </dd>
+                                            </dd>
+                                           </dd>
+                                          </dd>
+                                         </dd>
+                                        </dd>
+                                       </dd>
+                                      </dd>
+                                     </dd>
+                                    </dd>
+                                   </dd>
+                                  </dd>
+                                 </dd>
+                                </dd>
+                               </dd>
+                              </dd>
+                             </dd>
+                            </dd>
+                           </dd>
+                          </dd>
+                         </dd>
+                        </dd>
+                       </dd>
+                      </dd>
+                     </dd>
+                    </dd>
+                   </dd>
+                  </dd>
+                 </dd>
+                </dd>
+               </dd>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/var/CGI">
+    <h2>
+     CGI var (client)
+    </h2>
+    <p>
+     In CGI mode, DreamDaemon is normally being executed by a web server and
+accessed by a web browser.  The CGI object is an add-on to the basic client
+object for handling this case.
+    </p>
+    <p>
+     The CGI object is defined and documented in a separate code library
+     <code>
+      html/CGI.dm
+     </code>
+     .  You can find the current version at
+     <a href="http://www.byond.com/developer/Dantom/CGI">
+      www.byond.com
+     </a>
+     .
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/address">
+    <h2>
+     address var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      The network address of the player's client.
+     </dd>
+    </dl>
+    <p>
+     This is a read-only value which contains the player's network address.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/authenticate">
+    <h2>
+     authenticate var (client)
+    </h2>
+    <p>
+     This value may be set to 0 at compile-time to disable BYOND hub-based
+authentication of users.  The default value is 1, which enables
+authentication.  Hub authentication provides an additional level of
+assurance that the user is really the owner of the BYOND key in question.
+    </p>
+    <p>
+     When a world requests certification, Dream Seeker generates a random
+password and passes it through the hub (for certification) to the world.
+The certificate is saved for faster access in the future and for protection
+against possible hub outages.
+    </p>
+    <p>
+     Some applications do not depend on the validity of the user's identity.
+In that case, it would be more efficient to turn off the extra level of
+authentication.  In other situations, the hub may not be available, such as
+from behind a firewall or on a LAN without internet access.  In those cases,
+all hub access (including authentication) can be disabled by entering the
+command ".configuration hub-address none" in Dream Seeker.
+    </p>
+    <p>
+     Connections to worlds on the same machine are not hub-authenticated to
+allow for convenient offline testing.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/bounds">
+    <h2 byondver="509">
+     bounds var (client)
+    </h2>
+    (Also
+    <tt>
+     bound_x
+    </tt>
+    ,
+    <tt>
+     bound_y
+    </tt>
+    ,
+    <tt>
+     bound_width
+    </tt>
+    , and
+    <tt>
+     bound_height
+    </tt>
+    .)
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/proc/bounds">
+       bounds proc
+      </a>
+     </dd>
+    </dl>
+    <p>
+     The read-only bounds var returns the map coordinates, in pixels, covered
+by the client's viewport when accounting for pixel offsets, eye, step, etc.
+(The coordinates are only relevant to the default
+     <tt>
+      client.dir
+     </tt>
+     value of
+     <tt>
+      NORTH
+     </tt>
+     , and the
+     <tt>
+      TOPDOWN_MAP
+     </tt>
+     or
+     <tt>
+      SIDE_MAP
+     </tt>
+     map
+formats.)
+    </p>
+    <p>
+     If the viewport is not currently on the map (for instance, when the eye is
+at a null location), the var reads as null.  Otherwise, it is a list with
+five values (x, y, width, height, z) in the same form used by the bounds proc.
+    </p>
+    <p>
+     The alias vars bound_x, bound_y, bound_width, and bound_height can also
+be used to retrieve the individual values from the list.  They too will be
+null if the viewport is not on the map.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/byond_build">
+    <h2 byondver="512">
+     byond_build var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/DM/preprocessor/DM_VERSION">
+       DM_VERSION macro
+      </a>
+      <dd>
+       <a href="#/client/var/byond_version">
+        byond_version var (client)
+       </a>
+       <dd>
+        <a href="#/world/var/byond_version">
+         byond_version var (world)
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     This is the build number (minor version) of BYOND being run by this client.
+Typically this is not useful information, but it can come in handy when
+diagnosing issues reported by players using a beta build.
+    </p>
+    <p>
+     Clients running versions of BYOND prior to 512 (major version) will not
+have this information. It is also not guaranteed to exist for non-Dream Seeker
+connections. When not available, byond_build is 0.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/byond_version">
+    <h2>
+     byond_version var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/DM/preprocessor/DM_VERSION">
+       DM_VERSION macro
+      </a>
+      <dd>
+       <a href="#/client/var/byond_build">
+        byond_build var (client)
+       </a>
+       <dd>
+        <a href="#/world/var/byond_version">
+         byond_version var (world)
+        </a>
+        <dd>
+         <a href="#/world/var/system_type">
+          system_type var (world)
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     This is the version of BYOND being run by this client.  A game designed to
+work around known bugs in older versions could use this to adapt its behavior
+accordingly.  It is also possible to prevent players with much older versions
+from joining the game.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/ckey">
+    <h2>
+     ckey var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/proc/ckey">
+       ckey proc
+      </a>
+      <dd>
+       <a href="#/client/var/key">
+        key var (client)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     This is a read-only value that is the canonical form of the player's key
+(ie the value returned by ckey()).  Among other things, this could be used
+as a unique directory name in a server-side save file for storing player
+information.  See the ckey() proc for an example.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/color">
+    <h2 byondver="509">
+     color var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/atom/var/color">
+       color var (atom)
+      </a>
+      <dd>
+       <a href="#/atom/var/appearance_flags">
+        appearance_flags var (atom)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     Casts a color multiplication or
+     <a href="#/{notes}/color-matrix">
+      matrix
+     </a>
+     effect over the entire main map.  This behaves exactly the same as
+atom.color, and will be combined with atom.color (which comes first) where
+present.  See
+     <a href="#/atom/var/color">
+      atom.color
+     </a>
+     for more information.
+    </p>
+    <p>
+     If a matrix is used, the alpha column and row will have no effect.
+    </p>
+    <p>
+     Icons that have the NO_CLIENT_COLOR value in appearance_flags will not be
+subject to client.color.  This can be useful for HUD objects.
+    </p>
+    <p>
+     This value can be animated.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     mob/proc/DayNight(is_day)
+    if(client)
+        client.color = is_day ? \
+            null : \
+            list(0.2,0.05,0.05, 0.1,0.3,0.2, 0.1,0.1,0.4)
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/command_text">
+    <h2 deprecated="1">
+     command_text (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/verb/arguments">
+       arguments (verb)
+      </a>
+      <dd>
+       <a href="#/{skin}/param/command">
+        command parameter
+       </a>
+       <dd>
+        <a href="#/client/var/script/macro">
+         macros (client script)
+        </a>
+        <dd>
+         <a href="#/{skin}/control/input">
+          Input control (skin)
+         </a>
+         <dd>
+          <a href="#/{skin}/param/command">
+           command parameter (skin)
+          </a>
+          <dd>
+           <a href="#/{skin}/macros">
+            macros (skin)
+           </a>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      null
+     </dd>
+    </dl>
+    <p class="compatibility">
+     Note: In BYOND 4.0 this var is deprecated. The
+     <a class="code" href="#/{skin}/param/command">
+      command
+     </a>
+     parameter for an
+     <a href="#/{skin}/control/input">
+      Input control
+     </a>
+     can be set to
+     <tt>
+      !command
+     </tt>
+     (
+     <tt>
+      !
+     </tt>
+     in front of your default command) which does the
+same thing.
+    </p>
+    <p>
+     This text is placed onto the command line, to be followed by whatever the
+user may type.  It is usually the name of a verb followed by a space, such
+as
+     <tt>
+      "say "
+     </tt>
+     .  The user can clear this and enter a different command by
+hitting backspace, escape, delete, or
+     <tt>
+      /
+     </tt>
+     .
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+   command_text = "say "
+
+   verb/say(T as text)
+      world &lt;&lt; "[usr] says, '[T]'"
+    </xmp>
+    <p>
+     It is also possible to turn on macro mode, in which each keypress
+executes a
+     <a href="#/client/var/script/macro">
+      keyboard macro
+     </a>
+     , by setting
+     <code>
+      command_text
+     </code>
+     to
+     <tt>
+      ".alt "
+     </tt>
+     .  That stands for the
+     <i>
+      Alt
+     </i>
+     key, which can be used to execute macros in normal mode.
+    </p>
+    <p>
+     This variable could also be used to create a specialized command prompt.
+For example, a traditional style MUD command-line could be implemented like
+this:
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+   command_text = "&gt; "
+   verb/command(C as command_text)
+      set name = "&gt;"
+      usr &lt;&lt; "Your command: [C]"
+    </xmp>
+    <p>
+     This example uses the
+     <tt>
+      command_text
+     </tt>
+     input type, which accepts raw
+text, with no quoting, escaping, or translating, so that you can invent
+whatever syntax you want.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/computer_id">
+    <h2>
+     computer_id var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      A unique numerical identifier for the player's computer. The value is in text form.
+     </dd>
+    </dl>
+    <p>
+     This is a read-only text value which contains a unique numerical identifier for the player's computer. 
+Its primary purpose is to detect if players are connecting to a server with multiple
+accounts on the same machine, while still allowing for multiple accounts on the same network (eg, 
+through a router).
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/connection">
+    <h2 byondver="487">
+     connection var (client)
+    </h2>
+    <p>
+     This is a read-only var describing the type of client that is connected.
+    </p>
+    <dl>
+     <dt>
+      <b>
+       Possible values:
+      </b>
+     </dt>
+     <dd>
+      "seeker" - The player is connected through Dream Seeker
+     </dd>
+     <dd>
+      "telnet" - The player is connected through telnet
+     </dd>
+     <dd>
+      "world" - The client is actually a world.Export() connection from another server
+     </dd>
+     <dd>
+      "cgi" - The client is connected via CGI (irrelevant to most worlds)
+     </dd>
+     <dd>
+      "web" - The client is connected via the Web client
+     </dd>
+     <dd>
+      "http" - The client is an HTTP connection (used by the Web client's virtual server)
+     </dd>
+    </dl>
+    <p>
+     Other values may be supported in the future.
+    </p>
+    <p>
+     An empty value means the connection type is unknown because a full handshake hasn't been completed yet.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/control_freak">
+    <h2>
+     control_freak (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/{skin}">
+       User interface skins
+      </a>
+      <dd>
+       <a href="#/{skin}/macros">
+        macros (skin)
+       </a>
+       <dd>
+        <a href="#/client/var/script/macro">
+         macros (client script)
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0
+     </dd>
+    </dl>
+    <p>
+     This var lets you set flags to turn off options that are normally present
+for the end user. You can combine these flags with the
+     <tt>
+      |
+     </tt>
+     operator.
+The value 1 is equivalent to
+     <tt>
+      CONTROL_FREAK_ALL
+     </tt>
+     and will disable
+everything.
+    </p>
+    <dl class="codedt">
+     <dt byondver="481">
+      CONTROL_FREAK_ALL
+     </dt>
+     <dd>
+      If this value is used, it affects all the options below.
+      <ul>
+       <li>
+        User-defined macros may not be used.
+       </li>
+       <li>
+        Only the world's skin or the default BYOND skin will be loaded, not a user-customized version.
+       </li>
+       <li>
+        The Options &amp; Messages window in Dream Seeker is inaccessible. It will only come up while first connecting to a remotely hosted world, or if a world takes a long time to load. The .options command will not make it appear.
+       </li>
+       <li>
+        The menu items from Options &amp; Messages are unavailable in Dream Seeker's system menu.
+       </li>
+       <li>
+        The default F2 macro for the .screenshot command is turned off. The command is then only accessible through the skin you create.
+       </li>
+      </ul>
+     </dd>
+     <dt byondver="481">
+      CONTROL_FREAK_SKIN
+     </dt>
+     <dd>
+      Toggles the ability to create a custom version of the skin.
+     </dd>
+     <dt byondver="481">
+      CONTROL_FREAK_MACROS
+     </dt>
+     <dd>
+      Toggles the ability to use and define custom macros.
+     </dd>
+    </dl>
+    <p>
+     Using
+     <tt>
+      CONTROL_FREAK_ALL
+     </tt>
+     will default to disabling everything, and
+the other flags will reenable only the features you want. For example,
+     <tt>
+      CONTROL_FREAK_MACROS
+     </tt>
+     alone will disable the ability to use your own
+macros but nothing else.
+     <tt>
+      CONTROL_FREAK_ALL | CONTROL_FREAK_MACROS
+     </tt>
+     will disable everything
+     <i>
+      except
+     </i>
+     macros.
+    </p>
+    <p>
+     This value can be changed at runtime.
+    </p>
+    <p>
+     Note: If you define your own skin for the world, and disable the ability to
+use a custom skin or user-defined macros, you must be sure to define any
+macros your world may need. For instance, arrow keys may be needed for
+movement.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/default_verb_category">
+    <h2>
+     default_verb_category var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/verb/set/category">
+       category setting (verb)
+      </a>
+      <dd>
+       <a href="#/client/var/show_verb_panel">
+        show_verb_panel var (client)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      "Commands"
+     </dd>
+    </dl>
+    <p>
+     All verbs with category "" (the default value) are treated as though they
+had this category setting instead.  In other words, this is the name of the
+panel that contains them.  You could even turn that panel off by setting this
+value to null.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/dir">
+    <h2>
+     dir var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      NORTH
+     </dd>
+    </dl>
+    <p>
+     This defines the relationship between the world's coordinate system and the
+player's screen.  The default means that the player sees the map exactly as it
+was created (in the map-editor or at runtime).  Changing it to one of the
+other directions causes the player to see the map as if it were rotated to
+that direction.  This means that a player with client.dir = SOUTH would see
+the map inverted relative to a person with client.dir = NORTH.  That's handy
+in two-player board games where you want both players to see their side in the
+same place.
+    </p>
+    <p>
+     Note that this does not turn icons upside down!  The map is rotated, but
+the icons on the map remain in their normal orientation.
+    </p>
+    <p>
+     Movement keys are remapped so that a player with client.dir = SOUTH hitting
+the up arrow will generate a call to client.South() rather than the usual
+client.North().
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/edge_limit">
+    <h2>
+     edge_limit var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/eye">
+       eye var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/lazy_eye">
+        lazy_eye var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/perspective">
+         perspective var (client)
+        </a>
+        <dd>
+         <a href="#/client/var/view">
+          view var (client)
+         </a>
+         <dd>
+          <a href="#/atom/movable/var/screen_loc">
+           screen_loc var (movable atoms)
+          </a>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      null
+     </dd>
+    </dl>
+    <p>
+     This value determines the limits that a client's eye will display.
+If
+     <code>
+      client.perspective
+     </code>
+     uses the
+     <code>
+      EDGE_PERSPECTIVE
+     </code>
+     flag,
+the view shouldn't scroll beyond the bounds set by
+     <code>
+      edge_limit
+     </code>
+     . If
+the bounds of
+     <code>
+      edge_limit
+     </code>
+     are as big as or smaller than the
+client's view, no scrolling will occur even if
+     <code>
+      EDGE_PERSPECTIVE
+     </code>
+     is not used. Normally this value is null, which provides freedom for the eye
+to move anywhere on the map. It may be changed to a text value describing the
+limits in more detail.
+    </p>
+    <p>
+     The format is similar to
+     <code>
+      atom.screen_loc
+     </code>
+     which uses
+     <code>
+      "[x1],[y1] to [x2],[y2]"
+     </code>
+     . It can also use directions
+such as
+     <code>
+      "SOUTHWEST to NORTHEAST"
+     </code>
+     , which refer to the
+limits of the map.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     area/house
+  var/x1,x2,y1,y2
+
+  Entered(mob/M)
+    if(ismob(M) &amp;&amp; M.client)
+      M.client.edge_limit = "[x1],[y1] to [x2],[y2]"
+
+  Exited(mob/M)
+    if(ismob(M) &amp;&amp; M.client)
+      M.client.edge_limit = null
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/eye">
+    <h2>
+     eye var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/edge_limit">
+       edge_limit var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/lazy_eye">
+        lazy_eye var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/mob">
+         mob var (client)
+        </a>
+        <dd>
+         <a href="#/client/var/perspective">
+          perspective var (client)
+         </a>
+         <dd>
+          <a href="#/client/var/glide_size">
+           glide_size var (client)
+          </a>
+          <dd>
+           <a href="#/client/var/view">
+            view var (client)
+           </a>
+           <dd>
+            <a href="#/client/var/virtual_eye">
+             virtual_eye var (client)
+            </a>
+            <dd>
+             <a href="#/world/var/view">
+              view var (world)
+             </a>
+             <dd>
+              <a href="#/atom/movable/var/step_x">
+               step_x var (movable atom)
+              </a>
+              <dd>
+               <a href="#/atom/movable/var/step_y">
+                step_y var (movable atom)
+               </a>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      The connected mob, client.mob.
+     </dd>
+    </dl>
+    <p>
+     This value determines the center of the player's map.  The default value
+simply means that the visible region is normally centered on the player's mob.
+Effects such as setting
+     <code>
+      perspective
+     </code>
+     to
+     <code>
+      EDGE_PERSPECTIVE
+     </code>
+     or using
+     <code>
+      lazy_eye
+     </code>
+     can move the map
+off-center temporarily. The eye is the
+     <i>
+      ideal
+     </i>
+     center, not
+necessarily the actual center; to find the actual center, use
+     <code>
+      virtual_eye
+     </code>
+     .
+    </p>
+    <p>
+     The eye's step_x/y vars, if present, are also used to allow smooth
+scrolling of the map. These also obey lazy_eye and edge_limit.
+    </p>
+    <p>
+     Note that the visibility of objects is still computed from the point of
+view of the mob rather than the eye.  This allows the use of
+     <code>
+      lazy_eye
+     </code>
+     or similar effects that control the panning of the map
+while still having the player see only what the mob can see.  To determine
+visibility from the eye, you can change the value of
+     <code>
+      client.perspective
+     </code>
+     .
+    </p>
+    <p>
+     If a player connects to a new mob M, client.eye automatically changes to M.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+  eye = locate(5,5,1)
+    </xmp>
+    <p>
+     This fixes the center of the player's map at the turf coordinate (5,5,1).
+Since the eye is fixed, the map will not scroll even as the player's mob
+moves out of the visible range.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/fps">
+    <h2 byondver="511">
+     fps var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/world/var/fps">
+       fps var (world)
+      </a>
+      <dd>
+       <a href="#/client/var/tick_lag">
+        tick_lag var (client)
+       </a>
+       <dd>
+        <a href="#/{notes}/pixel-movement">
+         Pixel movement
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0 (uses world.fps value)
+     </dd>
+    </dl>
+    <p>
+     This is a client version of world.fps, so that the client can run at a
+faster speed for animations.  For example, setting client.fps to 40 while
+world.fps is the default 10 will mean that all animations and glides are
+smoothed out and displayed at 40 FPS, even though the server still runs at
+10 FPS.  The result is a nicer-looking game with no additional impact on the
+server.
+    </p>
+    <p>
+     When this value is 0, the client and server tick at the same rate.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/gender">
+    <h2>
+     gender var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/New">
+       New proc (client)
+      </a>
+      <dd>
+       <a href="#/atom/var/gender">
+        gender var (atom)
+       </a>
+       <dd>
+        <a href="#/client/var/key">
+         key var (client)
+        </a>
+        <dd>
+         <a href="#/DM/text/macros">
+          macros (text)
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     This is the client's gender, which is an attribute of the player's key.
+By default, when a new mob is made for a player (in client.New()), the new
+mob gets the same name and gender as the player's key.  This influences text
+macros like
+     <code>
+      \he
+     </code>
+     , which may expand to "it", "he", "she", or
+"they".  Valid values are:
+    </p>
+    <xmp>
+     "neuter"
+"male"
+"female"
+"plural"
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/glide_size">
+    <h2 byondver="490">
+     glide_size var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/eye">
+       eye var (client)
+      </a>
+      <dd>
+       <a href="#/atom/movable/var/glide_size">
+        glide_size var (movable atoms)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0
+     </dd>
+    </dl>
+    <p>
+     Note: The way this setting is used depends on
+     <a href="#/world/var/movement_mode">
+      world.movement_mode
+     </a>
+     . See
+     <a href="#/{notes}/gliding">
+      Gliding
+     </a>
+     for more details.
+    </p>
+    <p>
+     This controls the number of pixels the map is moved in each step during
+scrolling of the map.  The default value of 0 chooses automated control over
+this value, which generally results in a minimum step of 4 pixels that is
+increased when necessary to keep up with motion of the map.
+    </p>
+    <p>
+     Be careful about using small step sizes.  Icons with high contrast
+pixel-level detail can look pretty ugly when displaced by short distances.
+    </p>
+    <p>
+     This was renamed from
+     <tt>
+      pixel_step_size
+     </tt>
+     .
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/images">
+    <h2>
+     images var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/image">
+       image objects
+      </a>
+      <dd>
+       <a href="#/proc/image">
+        image proc
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     This is a list of images that are displayed to the user.  The output
+operator is one way to add entries to this list.  Deleting an image object
+will automatically remove it from the display, but if you want to retain an
+image (so other people can still see it), it can be removed by directly
+modifying this list.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     var/image/I = new('image.dmi',usr)
+usr.client.images += I  //display it
+sleep(50)
+usr.client.images -= I  //remove it from the display
+    </xmp>
+    Displaying the image can also be achieved like this:
+    <xmp>
+     usr &lt;&lt; I
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/inactivity">
+    <h2>
+     inactivity var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/world/var/tick_lag">
+       tick_lag var (world)
+      </a>
+     </dd>
+    </dl>
+    <p>
+     This is equal to the amount of time (in server ticks, which default to
+1/10s) since the player's last action (such as executing a verb, moving,
+clicking an object, or selecting a topic link).  This value is reset to 0
+after each new action so you can use it to determine the time that has passed
+since the last one.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     mob/verb/inactivity()
+  usr &lt;&lt; "You have been inactive for [client.inactivity/10] seconds."
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/key">
+    <h2>
+     key var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/mob/var/key">
+       key var (mob)
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      The player's key identity.
+     </dd>
+    </dl>
+    <p>
+     This is a read-only value that contains the player's key.  Once the
+player is attached to a mob M, M.key == M.client.key.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/lazy_eye">
+    <h2>
+     lazy_eye var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/view">
+       view var (client)
+      </a>
+      <dd>
+       <a href="#/world/var/view">
+        view var (world)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0
+     </dd>
+    </dl>
+    <p>
+     This is the maximum "lag" between client.eye and client.mob.  The mob can
+stray up to this many tiles before the eye will move to keep it in view.  The
+default value of 0 means that the eye always moves as the mob moves, keeping
+the mob at the center of the player's map.
+    </p>
+    <p>
+     Setting this value to a non-zero value automatically initializes client.eye
+to client.mob.loc (or to the center of the full map if that is possible).
+Thereafter, client.eye will stray from the mob as it moves about the map,
+making one big jump to catch up whenever the mob gets out of range.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+  lazy_eye = 5
+    </xmp>
+    <p>
+     This setting allows client.mob to move onto the entire 11x11 visible
+region without changing the value of client.eye.  The moment it steps out of
+this region, the entire region will shift 5 tiles in the direction of motion.
+    </p>
+    <p>
+     You can assign lazy_eye to any value valid as a view size, so, for example,
+if you have a non-square setting for client.view, say, "17x11", you could
+apply a similar setting to lazy_eye.  You can even make one dimension lazy and
+the other one strictly centered: "0x5".
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/mob">
+    <h2>
+     mob var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      Determined in client.New(), by default world.mob.
+     </dd>
+    </dl>
+    <p>
+     This is the mob to which the client is connected.  The client and its
+connected mob have the following symmetry:
+    </p>
+    <xmp>
+     client == mob.client
+client.mob == mob
+client.key == mob.key
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/mouse_pointer_icon">
+    <h2>
+     mouse_pointer_icon var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Click">
+       Click proc (client)
+      </a>
+      <dd>
+       <a href="#/client/proc/MouseDown">
+        MouseDown proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/MouseDrag">
+         MouseDrag proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDrag">
+          MouseDrag proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseUp">
+           MouseUp proc (client)
+          </a>
+          <dd>
+           <a href="#/atom/var/mouse_drag_pointer">
+            mouse_drag_pointer var (atom)
+           </a>
+           <dd>
+            <a href="#/atom/var/mouse_drag_pointer">
+             mouse_drag_pointer var (atom)
+            </a>
+            <dd>
+             <a href="#/atom/var/mouse_drop_zone">
+              mouse_drop_zone var (atom)
+             </a>
+             <dd>
+              <a href="#/atom/var/mouse_over_pointer">
+               mouse_over_pointer var (atom)
+              </a>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      null
+     </dd>
+    </dl>
+    <p>
+     This is an icon file (.dmi) containing custom mouse cursors to use in place
+of the standard ones.  The different possible mouse states are distinguished
+by special icon state names:
+    </p>
+    <dl>
+     <dt>
+      ""
+     </dt>
+     <dd>
+      Activated when over empty space or an object with mouse_over_pointer = MOUSE_INACTIVE_POINTER.
+     </dd>
+     <dt>
+      "over"
+     </dt>
+     <dd>
+      Activated when over an object with mouse_over_pointer = MOUSE_ACTIVE_POINTER.
+     </dd>
+     <dt>
+      "drag"
+     </dt>
+     <dd>
+      Activated when dragging an object with mouse_drag_pointer = MOUSE_ACTIVE_POINTER.
+     </dd>
+     <dt>
+      "drop"
+     </dt>
+     <dd>
+      Activated when dragging an object over with mouse_drop_pointer = MOUSE_ACTIVE_POINTER and the object underneath has mouse_drop_zone set.
+     </dd>
+     <dt>
+      "all"
+     </dt>
+     <dd>
+      Always activated, no matter what the state of the mouse.
+     </dd>
+    </dl>
+    <hr/>
+   </a>
+   <a name="/client/var/perspective">
+    <h2>
+     perspective var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/eye">
+       eye var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/mob">
+        mob var (client)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      MOB_PERSPECTIVE
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Possible values:
+      </b>
+     </dt>
+     <dd>
+      <ul>
+       <li>
+        MOB_PERSPECTIVE
+       </li>
+       <li>
+        EYE_PERSPECTIVE
+       </li>
+       <li>
+        EDGE_PERSPECTIVE
+       </li>
+      </ul>
+     </dd>
+    </dl>
+    <p>
+     This controls the eye's apparent center and what can be seen by the client.
+    </p>
+    <p>
+     EYE_PERSPECTIVE determines how visibility calculations are performed when
+     <code>
+      client.eye
+     </code>
+     and
+     <code>
+      client.mob
+     </code>
+     are different.  Normally,
+visibility is done from the position of the mob, rather than from the eye
+(which is actually just the center of the map view). The alternative flag is
+MOB_PERSPECTIVE, the default.
+    </p>
+    <p>
+     EDGE_PERSPECTIVE limits scrolling to the bounds of the map (1,1 to
+world.maxx,world.maxy), and does not keep the mob centered if it strays near
+the edge.
+    </p>
+    <p>
+     The above values can be used together via the | operator.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/pixel_x">
+    <h2>
+     pixel_x var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/glide_size">
+       glide_size var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/pixel_y">
+        pixel_y var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/pixel_w">
+         pixel_w var (client)
+        </a>
+        <dd>
+         <a href="#/client/var/pixel_z">
+          pixel_z var (client)
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0
+     </dd>
+    </dl>
+    <p>
+     This displaces the player's viewpoint on the x-axis by the specified number of
+pixels.  Can be animated with the animate() proc.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/pixel_y">
+    <h2>
+     pixel_y var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/glide_size">
+       glide_size var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/pixel_x">
+        pixel_x var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/pixel_w">
+         pixel_w var (client)
+        </a>
+        <dd>
+         <a href="#/client/var/pixel_z">
+          pixel_z var (client)
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0
+     </dd>
+    </dl>
+    <p>
+     This displaces the player's viewpoint on the y-axis by the specified number of
+pixels.  Can be animated with the animate() proc.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/pixel_w">
+    <h2>
+     pixel_w var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/glide_size">
+       glide_size var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/pixel_x">
+        pixel_x var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/pixel_y">
+         pixel_y var (client)
+        </a>
+        <dd>
+         <a href="#/client/var/pixel_z">
+          pixel_z var (client)
+         </a>
+         <dd>
+          <a href="#/world/var/map_format">
+           map_format var (world)
+          </a>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0
+     </dd>
+    </dl>
+    <p>
+     This displaces the player's viewpoint horizontally by the specified number
+of pixels. This value is meant to be used when world.map_format is not set to
+a default top-down view.  Can be animated with the animate() proc.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/pixel_z">
+    <h2>
+     pixel_z var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/glide_size">
+       glide_size var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/pixel_x">
+        pixel_x var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/pixel_y">
+         pixel_y var (client)
+        </a>
+        <dd>
+         <a href="#/client/var/pixel_w">
+          pixel_w var (client)
+         </a>
+         <dd>
+          <a href="#/world/var/map_format">
+           map_format var (world)
+          </a>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0
+     </dd>
+    </dl>
+    <p>
+     This displaces the player's viewpoint vertically by the specified number of
+pixels. This value is meant to be used when world.map_format is not set to a
+default top-down view.  Can be animated with the animate() proc.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/pixel_step_size">
+    <h2>
+     pixel_step_size var (client)
+    </h2>
+    <p>
+     Renamed to
+     <a href="#/atom/movable/var/glide_size">
+      glide_size
+     </a>
+     .
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/preload_rsc">
+    <h2>
+     preload_rsc var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      1.
+     </dd>
+    </dl>
+    <p>
+     This variable controls whether resource files (icons and sounds) are
+automatically downloaded by Dream Seeker when first connecting, or whether
+they should be downloaded as needed.  Resource files are cached (in
+byond.rsc) for future use, so this should only affect people who have not
+played the game before or who have not played it for some time.
+    </p>
+    <p>
+     The three possible settings are:
+    </p>
+    <dl compact="">
+     <dt>
+      0
+     </dt>
+     <dd>
+      do not preload any resources
+     </dd>
+     <dt>
+      1
+     </dt>
+     <dd>
+      preload compiled-in resources only
+     </dd>
+     <dt>
+      2
+     </dt>
+     <dd>
+      preload all resources including those uploaded by players
+     </dd>
+     <dt>
+      URL
+     </dt>
+     <dd>
+      preload resources from specified file
+     </dd>
+    </dl>
+    <p>
+     Preloading resource files will eliminate delays later on, but may cause
+a very long initial delay when logging in.
+    </p>
+    <p>
+     Resources may also be distributed from a website to save bandwidth on the
+machine hosting the game.  Simply zip up the .rsc file, upload it to a web
+site, and put the URL here.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client/preload_rsc = "http://dan.byond.com/mygame_rsc.zip"
+    </xmp>
+    <p>
+     Instead of putting the .rsc file in the .zip, you can also put the
+individual resource files there.  This would allow you to select specific
+files that you would like to be preloaded.  For example, you could create a
+different resource package for different parts of the game world and assign
+client.preload_rsc dynamically as the player moves into each different area.
+    </p>
+    <p>
+     Once Dream Seeker has downloaded a resource package, it caches it and will
+not download it again, even if you upload a new version of the file.  This
+allows you to make small changes without forcing a complete refresh.  Any
+files which are not found in the preload package are simply downloaded from
+the game server directly.
+    </p>
+    <p>
+     If you want to force a complete refresh, simply change the name of the
+resource package.  For example, you could put a version number in the name of
+the file:
+     <tt>
+      mygame_rsc_01.zip
+     </tt>
+     ,
+     <tt>
+      mygame_rsc_02.zip
+     </tt>
+     , and so on.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/screen">
+    <h2>
+     screen var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/{notes}/HUD">
+       HUD / screen objects
+      </a>
+      <dd>
+       <a href="#/atom/movable/var/screen_loc">
+        screen_loc var (movable atoms)
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     This is a list of objects that are displayed on the user's screen.  The
+object's screen_loc variable controls where it appears (if it appears at all).
+This allows one to create the elements of a graphical user interface, with
+such features as buttons, drag/drop areas, and stat monitors.
+    </p>
+    <p>
+     Screen objects (visible or otherwise) may also be used to make verbs
+available to users.  To make them accessible, define verbs on the screen
+object like this:
+    </p>
+    <xmp>
+     set src in usr.client.screen
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/script">
+    <h2>
+     script var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/DM/preprocessor/include">
+       #include directive
+      </a>
+      <dd>
+       <a href="#/client/var/script/PASSWORD_TRIGGER">
+        PASSWORD_TRIGGER (client script)
+       </a>
+       <dd>
+        <a href="#/client/var/script/URL">
+         URL (client script)
+        </a>
+        <dd>
+         <a href="#/client/var/script/alias">
+          aliases (client script)
+         </a>
+         <dd>
+          <a href="#/client/var/script/URL/browser">
+           browser configuration
+          </a>
+          <dd>
+           <a href="#/client/var/command_text">
+            command_text (client)
+           </a>
+           <dd>
+            <a href="#/client/var/script/macro">
+             macros (client script)
+            </a>
+            <dd>
+             <a href="#/{skin}/macros">
+              macros (skin)
+             </a>
+             <dd>
+              <a href="#/DM/text/style">
+               style sheets
+              </a>
+              <dd>
+               <a href="#/client/var/script/style">
+                style sheets (in scripts)
+               </a>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      none
+     </dd>
+    </dl>
+    <p>
+     Client scripts are mini-programs used to configure the client.  The
+language they use is called DM Script, and will undoubtedly expand in the
+future.  Currently, client scripts can be used to define style sheets,
+command aliases, and macros.  When executed directly by a player, they can
+also be used to specify an initial URL to open and a password trigger (for
+some ancient telnet worlds that don't suppress password echo).
+    </p>
+    <p>
+     For the specific syntax of DM Script, see the relevant reference sections
+listed above.
+    </p>
+    <p>
+     The
+     <code>
+      client.script
+     </code>
+     variable may be assigned to script code in
+a text string (double quotes) or in a file (single quotes).  You can also
+simply include the file in your project or explicitly use the
+     <code>
+      #include
+     </code>
+     statement.  Files containing DM Script should have the
+extension
+     <code>
+      .dms
+     </code>
+     .
+    </p>
+    <p>
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client/script = "
+     <style>
+      BODY {font: monospace}
+     </style>
+     "
+    </xmp>
+    <p>
+     This example selects a default monospace font for all output to the
+terminal.
+    </p>
+    <p>
+     In addition to scripts loaded via
+     <code>
+      client.script
+     </code>
+     , the player
+may have
+     <em>
+      client-side
+     </em>
+     scripts.  These are either called
+     <em>
+      connection
+     </em>
+     scripts or
+     <em>
+      post-connection
+     </em>
+     scripts depending on
+whether they are used to automatically connect to a world or whether they
+are executed automatically after connecting to a world.  In either case, the
+player's scripts are always executed before the designer's
+     <code>
+      client.script
+     </code>
+     script, so style sheets from the designer have
+higher precedence by default.
+    </p>
+    <p>
+     There are three post-connection client-side scripts for the three types
+of worlds the client can connect to:
+     <code>
+      byond.dms
+     </code>
+     ,
+     <code>
+      telnet.dms
+     </code>
+     , and
+     <code>
+      irc.dms
+     </code>
+     .  These are automatically
+executed if the player connects directly to a world without using a
+connection script to do so.  The intention is to load any standard
+configurations such as style sheets and command aliases.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/script/PASSWORD_TRIGGER">
+    <h2>
+     PASSWORD_TRIGGER (client script)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      #define PASSWORD_TRIGGER "assword:"
+     </dd>
+    </dl>
+    <p>
+     This defines a special text
+     <em>
+      trigger
+     </em>
+     used to detect when the user
+is being prompted for a password in telnet mode.  Most MUDs automatically
+suppress password echo, but if they do not, it is necessary to use this
+setting to hide it.  Multiple triggers may be defined as necessary.
+    </p>
+    <p>
+     The example above is more robust than the more polite version because it
+works whether they capitalize the 'P' or not...
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/script/URL">
+    <h2>
+     URL (client script)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       Format:
+      </b>
+     </dt>
+     <dd>
+      #define URL "byond://byond.com:6000"
+     </dd>
+    </dl>
+    <p>
+     Defining a URL in a script, specifies the world to connect to when the
+script is executed by the player.  This is referred to as a connection
+script, because the player uses it to connect to a world.  Other
+post-connection scripts such as
+     <code>
+      byond.dms
+     </code>
+     or a script loaded
+through
+     <code>
+      client.script
+     </code>
+     are only used to configure the client
+after it has connected to a world.  In those cases, the URL setting has no
+effect.
+    </p>
+    <p>
+     It is important to enclose the URL in double quotes.  Otherwise, the
+     <code>
+      //
+     </code>
+     symbol would be mistaken for a comment.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/script/URL/browser">
+    <h2>
+     browser configuration
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/script/URL">
+       URL (client script)
+      </a>
+     </dd>
+    </dl>
+    <p>
+     DM Script can be used to effectively make a hyperlink in a web document
+to a BYOND world.  This is done by making a DM Script file that defines the
+desired URL.  It need do nothing more than that.  When a user clicks on the
+link in a web browser, DreamSeeker will pop up, execute the script, and
+connect to the specified URL.
+    </p>
+    <p>
+     Some browsers may need to be configured to know what to do with a DM
+Script file.  For example, in Netscape, you can add an entry to the list of
+helper applications.  You should add a MIME type called
+'
+     <code>
+      application/x-dms
+     </code>
+     ' with the description 'DM Script' and the
+extension
+     <code>
+      dms
+     </code>
+     .  Have this execute DreamSeeker with the
+     <code>
+      .dms
+     </code>
+     file as an argument.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <h3>
+     myworld.dms
+    </h3>
+    <xmp>
+     /*If your browser shows you this, you either need
+  to install BYOND (it's free!) from www.byond.com,
+  or you need to configure your browser to execute
+  DreamSeeker with DM Script (.dms) files.
+*/
+#define URL "byond://myworld"
+    </xmp>
+    <h3>
+     myworld.html
+    </h3>
+    <xmp>
+     <title>
+      Welcome to My World
+     </title>
+     <p>
+      You can connect to my world
+      <a href="myworld.dms">
+       here
+      </a>
+      .
+     </p>
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/script/alias">
+    <h2>
+     aliases (client script)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/script/macro">
+       macros (client script)
+      </a>
+      <dd>
+       <a href="#/client/var/script">
+        script var (client)
+       </a>
+       <dd>
+        <a href="#/verb">
+         verbs
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     Command aliases have a syntax similar to verbs.  They define a command
+and a series of arguments which can then be used to execute a new command.
+The most common use for this is in a telnet world like a MUD.  By defining
+aliases corresponding to the MUD commands, the player can have primitive
+command expansion and help.
+    </p>
+    <p>
+     The syntax of an alias definition is best illustrated by the following
+example:
+    </p>
+    <xmp>
+     alias/say(msg as text)
+   set desc = "speak your mind"
+   return "say [msg]"
+    </xmp>
+    <p>
+     As you can see, it is just like a verb.  Alias have all the same
+properties as verbs, except the
+     <code>
+      src
+     </code>
+     setting is always equal to
+the player.
+    </p>
+    <p>
+     The value returned by an alias is executed as a command.  In telnet mode,
+the command to execute is often simply the same as the command that was
+entered (since the alias was only defined to provide command expansion and
+help).  Since that is such a common case, the return value defaults to the
+alias name followed by each of the arguments.  The example above, for
+instance, would have the same effect without an explicit return statement.
+    </p>
+    <p>
+     Note that commands executed via an alias are never interpreted as
+aliases.  Otherwise, examples such as the one above would result in an
+infinite loop.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/script/macro">
+    <h2>
+     macros (client script)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/{skin}/macros">
+       macros (skin)
+      </a>
+      <dd>
+       <a href="#/client/var/script/alias">
+        aliases (client script)
+       </a>
+       <dd>
+        <a href="#/client/var/command_text">
+         command_text (client)
+        </a>
+        <dd>
+         <a href="#/client/var/script">
+          script var (client)
+         </a>
+         <dd>
+          <a href="#/verb">
+           verbs
+          </a>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     Macros are just like aliases, except that they are triggered by a single
+key (or combination of keys) instead of a full command.  When a macro is
+executed, it returns a text string which is then executed as a command.  So
+a macro is just a short-cut for entering a command.
+    </p>
+    <p>
+     The following example illustrates the syntax for entering a typical set
+of macros.
+    </p>
+    <h3>
+     Example;
+    </h3>
+    <xmp>
+     macro
+   ALT+I return "inventory"
+   ALT+SHIFT+I return "inventory\nequipment" //multiple commands
+   ALT+s return "say \..."             //command to be edited
+    </xmp>
+    <p class="compatibility">
+     Note: In old versions of BYOND, character keys required
+the Alt key to be pressed to trigger the macro, and did not include
+     <tt>
+      "ALT+"
+     </tt>
+     to do so. This behavior has changed, and the name of the macro
+is just like the format used in skin files. You can now use a key name, and
+modifiers like
+     <tt>
+      SHIFT+
+     </tt>
+     ,
+     <tt>
+      CTRL+
+     </tt>
+     ,
+     <tt>
+      ALT+
+     </tt>
+     ,
+     <tt>
+      +REP
+     </tt>
+     ,
+and
+     <tt>
+      +UP
+     </tt>
+     . Old .dms and
+     <a class="code" href="#/client/var/script">
+      client.script
+     </a>
+     files (prior to
+version 507) should be updated accordingly when recompiling in a newer
+version.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/script/style">
+    <h2>
+     style sheets (in scripts)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/script">
+       script var (client)
+      </a>
+      <dd>
+       <a href="#/DM/text/style">
+        style sheets
+       </a>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     Style sheets may be included in DM Script by putting the style sheet
+inside the HTML tags
+     <code>
+      &lt;STYLE&gt;
+     </code>
+     and
+     <code>
+      &lt;/STYLE&gt;
+     </code>
+     .  In general, any text enclosed in start
+and end tags will be sent to the player's terminal, so you could use
+     <code>
+      client.script
+     </code>
+     to output a welcome message as well as loading a
+style sheet.
+    </p>
+    <p>
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client/script = "
+     <style>
+      BODY {background: black; color: aqua}
+     </style>
+     "
+    </xmp>
+    <p>
+     This example style sheet makes the player's terminal have a black
+background and aqua colored text.  When changing the background color, it is
+important to change the color of system and link text as well.  See the
+section on
+     <a href="#/DM/text/style">
+      style sheets
+     </a>
+     for an example.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/show_map">
+    <h2>
+     show_map var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/show_verb_panel">
+       show_verb_panel var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/view">
+        view var (client)
+       </a>
+       <dd>
+        <a href="#/world/var/view">
+         view var (world)
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      1
+     </dd>
+    </dl>
+    <p>
+     This variable may be used to turn off the view of the map in Dream Seeker.
+This could be useful for making text MUDs where the rooms are turfs (ie most
+rooms can be laid out on a grid but you don't want the user interface to show
+the map in any way).
+    </p>
+    <p>
+     The following example shows one useful combination of settings.  Note that
+setting
+     <code>
+      world.view=-1
+     </code>
+     also disables the map, but it also sets
+the default value of the
+     <code>
+      view()
+     </code>
+     depth in such a way as to always
+return an empty list.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+   show_map = 0 //Text is best!
+world
+   view = 0     //You can interact only with objects in same turf.
+mob
+   density = 0  //Allow multiple mobs in a room.
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/show_popup_menus">
+    <h2>
+     show_popup_menus var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/{skin}/param/right-click">
+       right-click parameter (skin)
+      </a>
+      <dd>
+       <a href="#/client/proc/Click">
+        Click proc (client)
+       </a>
+       <dd>
+        <a href="#/client/proc/DblClick">
+         DblClick proc (client)
+        </a>
+        <dd>
+         <a href="#/client/proc/MouseDown">
+          MouseDown proc (client)
+         </a>
+         <dd>
+          <a href="#/client/proc/MouseDrag">
+           MouseDrag proc (client)
+          </a>
+          <dd>
+           <a href="#/client/proc/MouseDrop">
+            MouseDrop proc (client)
+           </a>
+           <dd>
+            <a href="#/client/proc/MouseEntered">
+             MouseEntered proc (client)
+            </a>
+            <dd>
+             <a href="#/client/proc/MouseExited">
+              MouseExited proc (client)
+             </a>
+             <dd>
+              <a href="#/client/proc/MouseMove">
+               MouseMove proc (client)
+              </a>
+              <dd>
+               <a href="#/client/proc/MouseUp">
+                MouseUp proc (client)
+               </a>
+              </dd>
+             </dd>
+            </dd>
+           </dd>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      1
+     </dd>
+    </dl>
+    <p>
+     This variable may be used to turn off the popup "context" menus that are displayed by default when
+an object on the map or stat panels is right-clicked.  If client.show_popup_menus==0, then right-clicks
+will instead be passed to the various mouse functions.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/show_verb_panel">
+    <h2>
+     show_verb_panel var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/verb/set/category">
+       category setting (verb)
+      </a>
+      <dd>
+       <a href="#/client/var/default_verb_category">
+        default_verb_category var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/show_map">
+         show_map var (client)
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      1
+     </dd>
+    </dl>
+    <p>
+     Setting this to 0 turns off the verb panel in Dream Seeker.  You might
+want to do that, for instance, if you've only got one verb (like "say") and
+the panel looks stupid with just one verb in it.
+    </p>
+    <h3>
+     Example:
+    </h3>
+    <xmp>
+     client
+   show_verb_panel = 0
+    </xmp>
+    <hr/>
+   </a>
+   <a name="/client/var/statobj">
+    <h2>
+     statobj var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Stat">
+       Stat proc (client)
+      </a>
+      <dd>
+       <a href="#/proc/stat">
+        stat proc
+       </a>
+       <dd>
+        <a href="#/proc/statpanel">
+         statpanel proc
+        </a>
+        <dd>
+         <a href="#/client/var/statpanel">
+          statpanel var (client)
+         </a>
+         <dd>
+          <a href="#/{skin}/control/info">
+           Info control (skin)
+          </a>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      client.mob (the player's mob).
+     </dd>
+    </dl>
+    <p>
+     This value indicates which object the player currently has loaded in the
+stat panels.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/statpanel">
+    <h2>
+     statpanel var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/proc/Stat">
+       Stat proc (client)
+      </a>
+      <dd>
+       <a href="#/proc/stat">
+        stat proc
+       </a>
+       <dd>
+        <a href="#/client/var/statobj">
+         statobj var (client)
+        </a>
+        <dd>
+         <a href="#/proc/statpanel">
+          statpanel proc
+         </a>
+         <dd>
+          <a href="#/{skin}/control/info">
+           Info control (skin)
+          </a>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      null
+     </dd>
+    </dl>
+    <p>
+     This value indicates which stat panel is currently visible to the player.
+You can assign it to force a different panel to become the top panel.  The
+special value "verbs" activates the panel of commands.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/tick_lag">
+    <h2 byondver="511">
+     tick_lag var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/world/var/tick_lag">
+       tick_lag var (world)
+      </a>
+      <dd>
+       <a href="#/client/var/fps">
+        fps var (client)
+       </a>
+       <dd>
+        <a href="#/{notes}/pixel-movement">
+         Pixel movement
+        </a>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      0 (uses world.tick_lag value)
+     </dd>
+    </dl>
+    <p>
+     This is a client version of world.tick_lag, so that the client can run at
+a faster speed for animations.  For example, setting client.tick_lag to 0.25
+while world.tick_lag is the default 1 will mean that all animations and
+glides are smoothed out and displayed at 40 FPS, even though the server still
+runs at 10 FPS.  The result is a nicer-looking game with no additional impact
+on the server.
+    </p>
+    <p>
+     When this value is 0, the client and server tick at the same rate.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/timezone">
+    <h2 byondver="514">
+     timezone var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/world/var/realtime">
+       realtime var (world)
+      </a>
+      <dd>
+       <a href="#/world/var/timeofday">
+        timeofday var (world)
+       </a>
+       <dd>
+        <a href="#/world/var/timezone">
+         timezone var (world)
+        </a>
+        <dd>
+         <a href="#/proc/time2text">
+          time2text proc
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <p>
+     This is the time offset from UTC, in hours, for the client's time zone. It
+can be used in the
+     <tt>
+      time2text()
+     </tt>
+     proc.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/verbs">
+    <h2>
+     verbs list var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/list">
+       list
+      </a>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      The list of verbs defined for the client.
+     </dd>
+    </dl>
+    <p>
+     This is a list of the client's verbs.  Initially, it contains all of the
+verbs defined for the client.  It may be used to add and remove verbs at
+runtime.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/view">
+    <h2>
+     view var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/lazy_eye">
+       lazy_eye var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/show_map">
+        show_map var (client)
+       </a>
+       <dd>
+        <a href="#/proc/view">
+         view proc
+        </a>
+        <dd>
+         <a href="#/world/var/view">
+          view var (world)
+         </a>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      world.view (which is 5 by default)
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Possible values:
+      </b>
+     </dt>
+     <dd>
+      -1 to 34 or "WIDTHxHEIGHT"
+     </dd>
+    </dl>
+    <p>
+     This controls the size of the map window in Dream Seeker.  Normally, you
+would simply compile with world/view assigned to whatever you want, but in
+some cases, you might want to customize the map size for different players,
+such as admins or subscribed users.
+    </p>
+    <p>
+     Like all other view sizes in DM, this may either be a
+     <em>
+      view depth
+     </em>
+     or an absolute size.  A view depth is a single number that determines how far
+from a center point the edges of a square viewable region extend.  A value of
+5 creates edges which are 2*5+1 = 11 tiles long.
+    </p>
+    <p>
+     The newer, more flexible syntax is a text string of the form
+"WIDTHxHEIGHT".  For example, a view depth of 5 corresponds to "11x11".  Using
+this syntax, you can create non-square views as well.
+    </p>
+    <p>
+     The maximum view size is about 5000 tiles, or roughly 70x70.
+    </p>
+    <hr/>
+   </a>
+   <a name="/client/var/virtual_eye">
+    <h2>
+     virtual_eye var (client)
+    </h2>
+    <dl>
+     <dt>
+      <b>
+       See also:
+      </b>
+     </dt>
+     <dd>
+      <a href="#/client/var/edge_limit">
+       edge_limit var (client)
+      </a>
+      <dd>
+       <a href="#/client/var/eye">
+        eye var (client)
+       </a>
+       <dd>
+        <a href="#/client/var/lazy_eye">
+         lazy_eye var (client)
+        </a>
+        <dd>
+         <a href="#/client/var/mob">
+          mob var (client)
+         </a>
+         <dd>
+          <a href="#/client/var/perspective">
+           perspective var (client)
+          </a>
+          <dd>
+           <a href="#/client/var/view">
+            view var (client)
+           </a>
+          </dd>
+         </dd>
+        </dd>
+       </dd>
+      </dd>
+     </dd>
+    </dl>
+    <dl>
+     <dt>
+      <b>
+       Default value:
+      </b>
+     </dt>
+     <dd>
+      client.eye
+     </dd>
+    </dl>
+    <p>
+     This value determines the actual center of the player's map display. It is
+based on
+     <code>
+      client.eye
+     </code>
+     and whenever possible matches it; however it
+may instead be a turf, or null, when the eye is off-center.
+    </p>
+    <p>
+     The value of
+     <code>
+      virtual_eye
+     </code>
+     is read-only.
+    </p>
+    <hr/>
+   </a>
+</div>

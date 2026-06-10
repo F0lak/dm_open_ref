@@ -13,7 +13,7 @@ __pycache__/
 .pytest_cache/
 
 */__pycache__/
-_md_export/
+_tmp_md_export/
 
 old_bot.py
 old_refsplitter.py

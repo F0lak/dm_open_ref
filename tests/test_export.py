@@ -2,14 +2,9 @@
 Tests the markdown export script
 '''
 import pytest
-from ref_splitter.export import ExportMD, MDFlavour
+from pathlib import Path
+from ref_splitter.export import ExportMD, MDFlavour, MDPage
 from ref_splitter.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
-
-'''
-this should be deleted after tests are written
-unit tests for each function independently
-integration tests using a test file
-'''
 
 @pytest.fixture(scope="module")
 def export_instance():
@@ -108,8 +103,14 @@ def test_export_page_configurable(tmp_path) -> None:
     '''ensures exporting a page properly writes a file to disk'''
     injector = ExportMD(exp_path=tmp_path)
     
-    injector.export_page("test/page", "test content", False)
+    page = MDPage("test/page", "test content", False)
+    injector.export_page(page)
     
     expected_file = tmp_path / "ref" / "test" / "page.md"
     assert expected_file.exists()
     assert expected_file.read_text(encoding="utf-8") == "test content"
+
+@pytest.mark.unit
+def test_temp_folder_removed():
+    temp_staging_dir = Path("./tmp_md_export")
+    assert not temp_staging_dir.exists(), "Staging folder was not cleaned up!"

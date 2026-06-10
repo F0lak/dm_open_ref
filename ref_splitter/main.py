@@ -36,4 +36,5 @@ ref_tree: RefTree = RefTree()
 ref_tree.build_tree_from_entries(splitter.entries, splitter.links)
 
 export = ExportMD()
-export.export(ref_tree)
+export.format_tree(ref_tree)
+export.export_pages()

@@ -491,3 +491,6 @@ The goals are:
     with any of the pages, then they'll understand and let me know.
     [COMMIT [2026-06-09 22:45:20]: replaces remote ref with ref parsed with v2 parser program
     
+
+    [COMMIT [2026-06-09 22:53:39]: updates ci.yml to run all unit tests
+    

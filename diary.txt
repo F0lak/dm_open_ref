@@ -494,3 +494,6 @@ The goals are:
 
     [COMMIT [2026-06-09 22:53:39]: updates ci.yml to run all unit tests
     
+
+    [COMMIT [2026-06-09 23:09:06]: updates readme and addresses tests failing on runner
+    

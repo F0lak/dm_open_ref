@@ -27,7 +27,7 @@ Discussion is available through GitHub or the BYONDiscord community:
 https://discord.gg/pTFccGgnAr
 
 ## Supported BYOND Version
-The current reference data is based on BYOND 516.1644 Alpha.
+The reference is based on the web reference for BYOND version 516.1681.
 
 Release notes:
 https://www.byond.com/docs/notes/516.html

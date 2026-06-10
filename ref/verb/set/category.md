@@ -1,25 +1,16 @@
-## category setting (verb)
 
-    (client)](/ref/client/var/default_verb_category.md) 
-+   [show_verb_panel var (client)](/ref/client/var/show_verb_panel.md) 
+## category (info)
 
 **Format:**
 +   set category = "Category"
 
-**Args:**
+**Arguments:**
 +   Category: A text string for the category.
+***
+Verbs in the same category are visually grouped together in the verb panels. The default is "", which is displayed in the default panel titled "Commands". You can change that default by setting <code>client/default_verb_category</code>.
 
-
-Verbs in the same category are visually grouped together in the
-verb panels. The default is "", which is displayed in the default
-panel titled "Commands". You can change that default by setting
-`client/default_verb_category`. 
-
-To hide a verb from all panels,
-set the category to null. The verb may still show up in right-click
-popup menus, so you may want to use the [hidden](/ref/verb/set/hidden.md)  or
-[popup_menu](/ref/verb/set/popup_menu.md) verb properties instead.
-
-> [!TIP] 
-> **See also:**
-> +   [default_verb_category var
+To hide a verb from all panels, set the category to null. The verb may still show up in right-click popup menus, so you may want to use the <a href="#/verb/set/hidden">hidden</a> or <a href="#/verb/set/popup_menu">popup_menu</a> verb properties instead.
+***
+**Related Pages:**
++    [default_verb_category var (client)](/ref/client/var/default_verb_category)
++    [show_verb_panel var (client)](/ref/client/var/show_verb_panel)

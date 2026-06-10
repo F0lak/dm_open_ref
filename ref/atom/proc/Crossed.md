@@ -1,39 +1,40 @@
-## Crossed proc (atom) 
-###### BYOND Version 490
+
+## Crossed (proc)
 
 **Format:**
 +   Crossed(atom/movable/O)
 
-**When:**
-+   Called when an object has overlapped this one through Move().
-    Directly setting the object\'s loc or step_x/y vars does not result
-    in a call to Crossed() or any other movement side-effects. The same
-    goes for creation or deletion of an object at a location.
-
-**Args:**
+**Arguments:**
 +   O: the object that moved and is now overlapping.
 
-**Default action:**
+**Called When:**
++   Called when an object has overlapped this one through Move(). Directly
+setting the object's loc or step_x/y vars does not result in a call to
+Crossed() or any other movement side-effects.  The same goes for creation
+or deletion of an object at a location.
+
+**Default Action:**
 +   none
-### Example:
+***
 
 ```dm
+
 obj/landmine
-    Crossed(O)
-        O << "You stepped on a land mine!"
-        Explode() 
+   Crossed(O)
+      O << "You stepped on a land mine!"
+      Explode()
+
 ```
 
-
-> [!TIP] 
-> **See also:**
-> +   [Enter proc (atom)](/ref/atom/proc/Enter.md) 
-> +   [Entered proc (atom)](/ref/atom/proc/Entered.md) 
-> +   [Exit proc (atom)](/ref/atom/proc/Exit.md) 
-> +   [Exited proc (atom)](/ref/atom/proc/Exited.md) 
-> +   [Cross proc (atom)](/ref/atom/proc/Cross.md) 
-> +   [Uncross proc (atom)](/ref/atom/proc/Uncross.md) 
-> +   [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed.md) 
-> +   [Move proc (movable atom)](/ref/atom/movable/proc/Move.md) 
-> +   [group var (mob)](/ref/mob/var/group.md) 
-> +   [Pixel movement](/ref/notes/pixel-movement.md) 
+***
+**Related Pages:**
++    [Enter proc (atom)](/ref/atom/proc/Enter)
++    [Entered](/ref/atom/proc/Entered)
++    [Exit proc (atom)](/ref/atom/proc/Exit)
++    [Exited](/ref/atom/proc/Exited)
++    [Cross proc (atom)](/ref/atom/proc/Cross)
++    [Uncross proc (atom)](/ref/atom/proc/Uncross)
++    [Uncrossed proc (atom)](/ref/atom/proc/Uncrossed)
++    [Move proc (movable atom)](/ref/atom/movable/proc/Move)
++    [group](/ref/mob/var/group)
++    [Pixel movement](/ref/{notes}/pixel-movement)

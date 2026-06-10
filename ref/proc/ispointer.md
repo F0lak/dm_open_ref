@@ -1,23 +1,19 @@
-## ispointer proc 
-###### BYOND Version 515
+
+## ispointer (proc)
 
 **Format:**
 +   ispointer(Value)
 
-**Args:**
+**Arguments:**
 +   Value: The value to test
 
 **Returns:**
 +   1 if the value is a pointer; 0 otherwise.
+***
+Tests whether an value is a pointer.
 
-Tests whether an value is a pointer. 
-
-> [!NOTE]
-> This does not check if the pointer is still valid, like for instance if the object
-it belongs to has been deleted, or if it points to a list index that is
-now out of bounds.
-
-> [!TIP] 
-> **See also:**
-> +   [* operator (pointers)](/ref/operator/*.md) 
-> +   [& operator (pointers)](/ref/operator/&.md) 
+Note: This does not check if the pointer is still valid, like for instance if the object it belongs to has been deleted, or if it points to a list index that is now out of bounds.
+***
+**Related Pages:**
++    [* operator (pointers)](/ref/operator/*)
++    [& operator (pointers)](/ref/operator/&)

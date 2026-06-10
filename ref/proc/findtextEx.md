@@ -1,51 +1,43 @@
-## findtextEx proc
+
+## findtextEx (proc)
 
 **Format:**
 +   findtextEx(Haystack,Needle,Start=1,End=0)
 
+**Arguments:**
++   Haystack: The text string to search.
++   Needle: The sub-text to search for. May be a regular expression (regex).
++   Start: The text byte position in Haystack in which to begin the search.
++   End: The text byte position in Haystack immediately following the last
+     character to search.
+
 **Returns:**
 +   The position of Needle in Haystack; 0 if not found.
+***
+When Needle is text, this instruction is sensitive to the case of Haystack and Needle. The case-insensitive version is findtext().
 
-**Args:**
-+   Haystack: The text string to search.
-+   Needle: The sub-text to search for. May be a regular expression
-    (regex).
-+   Start: The text byte position in Haystack in which to begin the
-    search.
-+   End: The text byte position in Haystack immediately following the
-    last character to search.
-
-When Needle is text, this instruction is sensitive to the case
-of Haystack and Needle. The case-insensitive version is findtext().
-### Example:
 
 ```dm
- if(findtextEx("Hi There","there")==0) world << "Not
-found!" else world << "Found!" 
+
+if(findtextEx("Hi There","there")==0)
+  world << "Not found!"
+else
+  world << "Found!"
+
 ```
 
-This outputs
-"Not found!", since "there" is not a part of the string "Hi
-There", taking into account case. 
 
-If the start or end position
-is negative, the position is counted backwards from the end of the
-string. E.g., findtextEx("Banana", "na", -3) starts three characters
-from the end and only searches the final "ana". 
+This outputs "Not found!", since "there" is not a part of the string "Hi There", taking into account case.
 
-> [!NOTE]
-> In strings containing non-ASCII characters, byte position and character
-position are not the same thing. Use `findtextEx_char()` to work with
-character counts instead of bytes, at a performance cost. See the
-[Unicode](/ref/notes/Unicode.md) section for more information.
+If the start or end position is negative, the position is counted backwards from the end of the string. E.g., findtextEx("Banana", "na", -3) starts three characters from the end and only searches the final "ana".
 
-> [!NOTE]
-> This proc used to be named `findText`, like `findtext` but with a
-capital T. To avoid confusion it has been renamed, but old code will
-still compile.
+Note: In strings containing non-ASCII characters, byte position and character position are not the same thing. Use `findtextEx_char()` to work with character counts instead of bytes, at a performance cost. See the <a href="#/{notes}/Unicode">Unicode</a> section for more information.
 
-> [!TIP] 
-> **See also:**
-> +   [findtext proc](/ref/proc/findtext.md) 
-> +   [replacetextEx proc](/ref/proc/replacetextEx.md) 
-> +   [Regular expressions](/ref/notes/regex.md) 
+
+> [!TIP]
+> Note: This proc used to be named `findText`, like `findtext` but with a capital T. To avoid confusion it has been renamed, but old code will still compile.
+***
+**Related Pages:**
++    [findtext proc](/ref/proc/findtext)
++    [replacetextEx proc](/ref/proc/replacetextEx)
++    [Regular expressions](/ref/{notes}/regex)

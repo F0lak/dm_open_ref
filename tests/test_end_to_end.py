@@ -6,7 +6,7 @@ from ref_splitter.export import ExportMD
 
 @pytest.mark.e2e
 def test_export_file_structure(tmp_path, client_sample_path):
-    # Run your export logic pointing to the temp directory
+    # runs happypath test
     with open(client_sample_path, 'r', encoding='utf-8') as f:
         content = f.read()
     

@@ -1,29 +1,26 @@
-## Insert proc (list)
+
+## Insert (proc)
 
 **Format:**
 +   list.Insert(Index,Item1,Item2...)
 
+**Arguments:**
++   Index: The index where the new item will be inserted. Any value
+  already at that index will be pushed forward.
++   Item1: A value or list of values to insert.
++   Item2...: (optional) Additional items to insert, immediately after the
+  previous item(s).
+
 **Returns:**
 +   The index following the inserted items.
+***
+Insert values into a list at a specific point. Using Index=0 or Index=list.len+1 is the same as adding to the list.
 
-**Args:**
-+   Index: The index where the new item will be inserted. Any value
-    already at that index will be pushed forward.
-+   Item1: A value or list of values to insert.
-+   Item2...: (optional) Additional items to insert, immediately after
-    the previous item(s).
+If any of the items you insert is itself a list, its elements will be inserted instead of the list itself.
 
-Insert values into a list at a specific point. Using Index=0 or
-Index=list.len+1 is the same as adding to the list. 
-
-If any of the items you insert is itself a list, its elements will be inserted
-instead of the list itself. 
-
-Note: This proc doesn\'t work with
-many special lists such as `contents` or `overlays`.
-
-> [!TIP] 
-> **See also:**
-> +   [Cut proc (list)](/ref/list/proc/Cut.md) 
-> +   [Copy proc (list)](/ref/list/proc/Copy.md) 
-> +   [Swap proc (list)](/ref/list/proc/Swap.md) 
+Note: This proc doesn't work with many special lists such as <code>contents</code> or <code>overlays</code>.
+***
+**Related Pages:**
++    [Cut proc (list)](/ref/list/proc/Cut)
++    [Copy proc (list)](/ref/list/proc/Copy)
++    [Swap proc (list)](/ref/list/proc/Swap)

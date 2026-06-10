@@ -1,10 +1,7 @@
-## parent_type var (obj)
 
-
-
-The default parent_type of [/obj](/ref/obj.md)  is
-[/atom/movable](/ref/atom/movable.md) 
-
-> [!TIP] 
-> **See also:**
-> +   [parent_type var](/ref/datum/var/parent_type.md) 
+## parent_type (var)
+***
+The default parent_type of <a href="#/obj">/obj</a> is <a href="#/atom/movable">/atom/movable</a>.
+***
+**Related Pages:**
++    [parent_type](/ref/datum/var/parent_type)

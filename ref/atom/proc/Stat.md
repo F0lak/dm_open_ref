@@ -1,29 +1,30 @@
-## Stat proc (atom)
+
+## Stat (proc)
 
 **Format:**
 +   Stat()
 
-**When:**
+**Called When:**
 +   Called periodically by the client to update the stat window.
 
-**Default action:**
+**Default Action:**
 +   none.
+***
+The following code could be used to display a player's current status.
 
-
-The following code could be used to display a player\'s current
-status.
-### Example:
 
 ```dm
-mob/var health = 100
+
+mob/var
+   health = 100
 mob/Stat()
-	stat("health",health)
-	statpanel("Inventory",contents) 
+   stat("health",health)
+   statpanel("Inventory",contents)
+
 ```
 
-
-> [!TIP] 
-> **See also:**
-> +   [Stat proc (client)](/ref/client/proc/Stat.md) 
-> +   [stat proc](/ref/proc/stat.md) 
-> +   [Info control (skin)](/ref/skin/control/info.md) 
+***
+**Related Pages:**
++    [Stat proc (client)](/ref/client/proc/Stat)
++    [stat proc](/ref/proc/stat)
++    [Info](/ref/{skin}/control/info)

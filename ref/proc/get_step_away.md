@@ -1,22 +1,19 @@
-## get_step_away proc
+
+## get_step_away (proc)
 
 **Format:**
 +   get_step_away(Ref, Trg, Max=5)
 
-**Returns:**
-+   The location of the new position, or 0 if no change.
-
-**Args:**
+**Arguments:**
 +   Ref: Starting point or object.
 +   Trg: An object on the map.
-+   Max: The maximum distance between Ref and Targ before movement
-    halts.
++   Max: The maximum distance between Ref and Targ before movement halts.
 
-Calculate position of a step from `Ref` on a path away from
-`Trg`, taking obstacles into account. If `Ref` is farther than `Max`
-steps from `Trg`, 0 will be returned.
-
-> [!TIP] 
-> **See also:**
-> +   [step_away proc](/ref/proc/step_away.md) 
-> +   [walk_away proc](/ref/proc/walk_away.md) 
+**Returns:**
++   The location of the new position, or 0 if no change.
+***
+Calculate position of a step from `Ref` on a path away from `Trg`, taking obstacles into account. If `Ref` is farther than `Max` steps from `Trg`, 0 will be returned.
+***
+**Related Pages:**
++    [step_away proc](/ref/proc/step_away)
++    [walk_away proc](/ref/proc/walk_away)

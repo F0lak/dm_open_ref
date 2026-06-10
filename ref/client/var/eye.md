@@ -1,51 +1,36 @@
-## eye var (client)
 
-**Default value:**
+## eye (var)
+
+**Default Value:**
 +   The connected mob, client.mob.
+***
+This value determines the center of the player's map. The default value simply means that the visible region is normally centered on the player's mob. Effects such as setting <code>perspective</code> to <code>EDGE_PERSPECTIVE</code> or using <code>lazy_eye</code> can move the map off-center temporarily. The eye is the *ideal* center, not necessarily the actual center; to find the actual center, use <code>virtual_eye</code>.
 
+The eye's step_x/y vars, if present, are also used to allow smooth scrolling of the map. These also obey lazy_eye and edge_limit.
 
-This value determines the center of the player\'s map. The
-default value simply means that the visible region is normally centered
-on the player\'s mob. Effects such as setting `perspective` to
-`EDGE_PERSPECTIVE` or using `lazy_eye` can move the map off-center
-temporarily. The eye is the *ideal* center, not necessarily the actual
-center; to find the actual center, use `virtual_eye`. 
+Note that the visibility of objects is still computed from the point of view of the mob rather than the eye. This allows the use of <code>lazy_eye</code> or similar effects that control the panning of the map while still having the player see only what the mob can see. To determine visibility from the eye, you can change the value of <code>client.perspective</code>.
 
-The
-eye\'s step_x/y vars, if present, are also used to allow smooth
-scrolling of the map. These also obey lazy_eye and edge_limit.
+If a player connects to a new mob M, client.eye automatically changes to M.
 
-
-Note that the visibility of objects is still computed from the
-point of view of the mob rather than the eye. This allows the use of
-`lazy_eye` or similar effects that control the panning of the map while
-still having the player see only what the mob can see. To determine
-visibility from the eye, you can change the value of
-`client.perspective`. 
-
-If a player connects to a new mob M,
-client.eye automatically changes to M.
-### Example:
 
 ```dm
- client eye = locate(5,5,1) 
+
+client
+  eye = locate(5,5,1)
+
 ```
- 
 
-This fixes
-the center of the player\'s map at the turf coordinate (5,5,1). Since
-the eye is fixed, the map will not scroll even as the player\'s mob
-moves out of the visible range.
 
-> [!TIP] 
-> **See also:**
-> +   [edge_limit var (client)](/ref/client/var/edge_limit.md) 
-> +   [lazy_eye var (client)](/ref/client/var/lazy_eye.md) 
-> +   [mob var (client)](/ref/client/var/mob.md) 
-> +   [perspective var (client)](/ref/client/var/perspective.md) 
-> +   [glide_size var (client)](/ref/client/var/glide_size.md) 
-> +   [view var (client)](/ref/client/var/view.md) 
-> +   [virtual_eye var (client)](/ref/client/var/virtual_eye.md) 
-> +   [view var (world)](/ref/world/var/view.md) 
-> +   [step_x var (movable atom)](/ref/atom/movable/var/step_x.md) 
-> +   [step_y var (movable atom)](/ref/atom/movable/var/step_y.md) 
+This fixes the center of the player's map at the turf coordinate (5,5,1). Since the eye is fixed, the map will not scroll even as the player's mob moves out of the visible range.
+***
+**Related Pages:**
++    [edge_limit var (client)](/ref/client/var/edge_limit)
++    [lazy_eye var (client)](/ref/client/var/lazy_eye)
++    [mob var (client)](/ref/client/var/mob)
++    [perspective var (client)](/ref/client/var/perspective)
++    [glide_size var (client)](/ref/client/var/glide_size)
++    [view var (client)](/ref/client/var/view)
++    [virtual_eye var (client)](/ref/client/var/virtual_eye)
++    [view var (world)](/ref/world/var/view)
++    [step_x var (movable atom)](/ref/atom/movable/var/step_x)
++    [step_y var (movable atom)](/ref/atom/movable/var/step_y)

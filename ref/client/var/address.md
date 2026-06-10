@@ -1,7 +1,8 @@
-# address var (client)
-**Default value:**
-+   The network address of the player\'s client.
 
+## address (var)
 
-This is a read-only value which contains the player\'s network
-address.
+**Default Value:**
++   The network address of the player's client.
+***
+This is a read-only value which contains the player's network address.
+***

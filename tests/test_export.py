@@ -9,7 +9,7 @@ from ref_splitter.token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
 @pytest.fixture(scope="module")
 def export_instance():
     '''module scoped export md instance'''
-    return ExportMD()
+    return ExportMD("_tmp_test")
 
 MOCK_TOKEN_TABLE: list[dict] = [
         {"TOKEN" : "BOLD", "md" : "**"},
@@ -94,8 +94,8 @@ def test_format_links(export_instance) -> None:
     '''ensures links are paarsed to the correct markdown format'''
     test_dict = {"/path" : "text"}
     data: str = "[LINK]/path[/LINK]"
-    expected: str = " [text](/path)"
-    
+    expected: str = " [text](/ref/path)"
+
     assert export_instance.format_links(test_dict, data) == expected
     
 @pytest.mark.unit
@@ -109,8 +109,3 @@ def test_export_page_configurable(tmp_path) -> None:
     expected_file = tmp_path / "ref" / "test" / "page.md"
     assert expected_file.exists()
     assert expected_file.read_text(encoding="utf-8") == "test content"
-
-@pytest.mark.unit
-def test_temp_folder_removed():
-    temp_staging_dir = Path("./tmp_md_export")
-    assert not temp_staging_dir.exists(), "Staging folder was not cleaned up!"

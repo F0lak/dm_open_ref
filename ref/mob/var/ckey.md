@@ -1,14 +1,11 @@
-## ckey var (mob)
 
-**Default value:**
+## ckey (var)
+
+**Default Value:**
 +   null
-
-This is the value of `mob.key` converted to canonical form (ie
-the form returned by the ckey() proc). Among other things, this could be
-used as a unique directory name in a server-side save file for storing
-player information. See the [`ckey` proc](/ref/proc/ckey.md)  for an example.
-
-> [!TIP] 
-> **See also:**
-> +   [ckey proc](/ref/proc/ckey.md) 
-> +   [key var (mob)](/ref/mob/var/key.md) 
+***
+This is the value of mob.key converted to canonical form (ie the form returned by the ckey() proc). Among other things, this could be used as a unique directory name in a server-side save file for storing player information. See the ckey() proc for an example.
+***
+**Related Pages:**
++    [ckey proc](/ref/proc/ckey)
++    [key var (mob)](/ref/mob/var/key)

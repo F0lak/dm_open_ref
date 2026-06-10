@@ -1,17 +1,17 @@
-## prob proc
+
+## prob (proc)
 
 **Format:**
 +   prob(P)
 
-**Returns:**
-+   1 with probability P percent; otherwise 0
-
-**Args:**
+**Arguments:**
 +   P: A number.
 
-> [!TIP] 
-> **See also:**
-> +   [pick proc](/ref/proc/pick.md) 
-> +   [rand proc](/ref/proc/rand.md) 
-> +   [rand_seed proc](/ref/proc/rand_seed.md) 
-> +   [roll proc](/ref/proc/roll.md) 
+**Returns:**
++   1 with probability P percent; otherwise 0
+******
+**Related Pages:**
++    [pick proc](/ref/proc/pick)
++    [rand proc](/ref/proc/rand)
++    [rand_seed proc](/ref/proc/rand_seed)
++    [roll proc](/ref/proc/roll)

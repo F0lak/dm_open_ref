@@ -1,20 +1,18 @@
-## trimtext proc 
-###### BYOND Version 515
+
+## trimtext (proc)
 
 **Format:**
 +   trimtext(Text)
 
-**Returns:**
-+   Text with whitespace trimmed from both ends
-
-**Args:**
+**Arguments:**
 +   Text: The text string to trim.
 
-Trims whitespace from both ends of a text string. 
+**Returns:**
++   Text with whitespace trimmed from both ends
+***
+Trims whitespace from both ends of a text string.
 
-All [Unicode](/ref/notes/Unicode.md) whitespace characters are counted,
-whether they can cause a break or not.
-
-> [!TIP] 
-> **See also:**
-> +   [copytext proc](/ref/proc/copytext.md) 
+All <a href="#/{notes}/Unicode">Unicode</a> whitespace characters are counted, whether they can cause a break or not.
+***
+**Related Pages:**
++    [copytext proc](/ref/proc/copytext)

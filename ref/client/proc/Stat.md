@@ -1,37 +1,24 @@
-## Stat proc (client)
+
+## Stat (proc)
 
 **Format:**
 +   Stat()
 
-**When:**
+**Called When:**
 +   Called periodically by the client to update the stat window.
 
-**Default action:**
+**Default Action:**
 +   Call statobj.Stat().
+***
+If this procedure sleeps (or engages in some other waiting operation), it will not be called again until it finally returns. This allows you to effectively decrease the frequency of calls to the proc. You might want to do that if it is a fairly lengthy procedure, and frequent calls are slowing things down.
 
+To increase the frequency of stat updates, you can lower <code>world.tick_lag</code>.
 
-If this procedure sleeps (or engages in some other waiting
-operation), it will not be called again until it finally returns. This
-allows you to effectively decrease the frequency of calls to the proc.
-You might want to do that if it is a fairly lengthy procedure, and
-frequent calls are slowing things down. 
+Note: Typically only the currently viewed statpanel is updated, which saves on some network activity and a little time. If however the proc sleeps, you need to be sure that any pending updates are displayed once the right panel is available. Therefore if you're resetting a var that indicates the proc should sleep next time, it should not be reset unless you know the player is looking at the right statpanel and has received the updates.
 
-To increase the
-frequency of stat updates, you can lower `world.tick_lag`.
-
-
-> [!NOTE]  
-> Typically only the currently viewed statpanel is updated,
-which saves on some network activity and a little time. If however the
-proc sleeps, you need to be sure that any pending updates are displayed
-once the right panel is available. Therefore if you\'re resetting a var
-that indicates the proc should sleep next time, it should not be reset
-unless you know the player is looking at the right statpanel and has
-received the updates.
-
-### Example
 
 ```dm
+
 client/var/updategold = 1       // set to 1 if gold changes
 client/var/updateinventory = 1  // set to 1 if inventory changes
 
@@ -45,18 +32,16 @@ client/Stat()
     if(statpanel("Inventory"))
         stat(mob.contents)
         updateinventory = 0
+
 ```
- 
 
-Because sleeping in Stat()
-requires more thinking through, it\'s best to do so only in cases where
-Stat() has to do a lot of intensive calculations.
 
-> [!TIP] 
-> **See also:**
-> +   [Stat proc (atom)](/ref/atom/proc/Stat.md) 
-> +   [stat proc](/ref/proc/stat.md) 
-> +   [statobj var (client)](/ref/client/var/statobj.md) 
-> +   [statpanel proc](/ref/proc/statpanel.md) 
-> +   [statpanel var (client)](/ref/client/var/statpanel.md) 
-> +   [Info control (skin)](/ref/skin/control/info.md) 
+Because sleeping in Stat() requires more thinking through, it's best to do so only in cases where Stat() has to do a lot of intensive calculations.
+***
+**Related Pages:**
++    [Stat](/ref/atom/proc/Stat)
++    [stat proc](/ref/proc/stat)
++    [statobj var (client)](/ref/client/var/statobj)
++    [statpanel proc](/ref/proc/statpanel)
++    [statpanel var (client)](/ref/client/var/statpanel)
++    [Info](/ref/{skin}/control/info)

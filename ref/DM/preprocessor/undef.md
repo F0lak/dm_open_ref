@@ -1,14 +1,14 @@
-## \#undef directive
+
+## undef (info)
 
 **Format:**
 +   #undef Name
 
-**Args:**
+**Arguments:**
 +   Name: A macro definition.
-
-The `#undef` statement removes a macro definition.
-
-> [!TIP] 
-> **See also:**
-> +   [#define directive](/ref/DM/preprocessor/define.md) 
-> +   [preprocessor](/ref/DM/preprocessor.md)
+***
+The <code>#undef</code> statement removes a macro definition.
+***
+**Related Pages:**
++    [#define directive](/ref/DM/preprocessor/define)
++    [preprocessor](/ref/DM/preprocessor)

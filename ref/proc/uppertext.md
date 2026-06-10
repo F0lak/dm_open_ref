@@ -1,23 +1,24 @@
-## uppertext proc
+
+## uppertext (proc)
 
 **Format:**
 +   uppertext(T)
 
-**Returns:**
-+   A capitalized text string.
-
-**Args:**
+**Arguments:**
 +   T: A text string.
 
-
+**Returns:**
++   A capitalized text string.
+***
 Capitalize all of the characters of T.
-### Example:
+
 
 ```dm
- U = uppertext("hi there") // = "HI THERE" 
+
+U = uppertext("hi there") // = "HI THERE"
+
 ```
 
-
-> [!TIP] 
-> **See also:**
-> +   [lowertext proc](/ref/proc/lowertext.md) 
+***
+**Related Pages:**
++    [lowertext proc](/ref/proc/lowertext)

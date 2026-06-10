@@ -1,21 +1,18 @@
-## Invert proc (matrix)
+
+## Invert (proc)
 
 **Format:**
 +   Invert()
 
 **Returns:**
 +   src
+***
+This inverts the current matrix, if possible.
 
-This inverts the current matrix, if possible. 
-
-Not all
-matrices can be inverted. If it\'s not possible, the matrix is said to
-be degenerate. This happens if, for example, all of the values in the
-matrix are zero. A degenerate matrix will not be changed by this proc.
-
-> [!TIP] 
-> **See also:**
-> +   [matrix](/ref/matrix.md) 
-> +   [matrix operators](/ref/matrix/operators.md) 
-> +   [matrix procs](/ref/matrix/proc.md) 
-> +   [\~ operator](/ref/operator/~.md) 
+Not all matrices can be inverted. If it's not possible, the matrix is said to be degenerate. This happens if, for example, all of the values in the matrix are zero. A degenerate matrix will not be changed by this proc.
+***
+**Related Pages:**
++    [matrix](/ref/matrix)
++    [matrix operators](/ref/matrix/operators)
++    [matrix procs](/ref/matrix/proc)
++    [~ operator](/ref/operator/~)

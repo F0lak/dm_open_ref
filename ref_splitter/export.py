@@ -1,8 +1,7 @@
 
 import pathlib
-from .ref_tree import RefTree, RefNode
+from .ref_tree import RefTree
 from .token_table import INLINE_TOKEN_TABLE, P_CLASS_TOKEN_TABLE
-import pathlib
 from enum import Enum
 import logging
 from tqdm import tqdm
@@ -29,7 +28,7 @@ class ExportMD:
     export_root: pathlib.Path
     export_format: str = "md"
     
-    def __init__(self, exp_path: pathlib.Path | str = "_tmp_md_export") -> None:
+    def __init__(self, exp_path: pathlib.Path | str) -> None:
         self.export_root = pathlib.Path(exp_path)
         self.prepared_pages: list[MDPage] = []
     
@@ -202,10 +201,20 @@ class ExportMD:
         
     def export_pages(self):
         '''exports all of the prepared pages to disk'''
+        if len(self.prepared_pages) == 0:
+            raise ValueError("Cannot export pages: No pages prepared.")
+        
         self.export_root.mkdir(parents=True, exist_ok=True)
         
-        for page in tqdm(self.prepared_pages, desc="Writing Pages", bar_format="{l_bar}{r_bar}"):
-            self.export_page(page)
+        current_page = None
+        try:
+            for page in tqdm(self.prepared_pages, desc="Writing Pages", bar_format="{l_bar}{r_bar}"):
+                current_page = page
+                self.export_page(page)
+        except Exception as e:
+            self.clear_export_dir()
+            page_info = f" (Page ID: {current_page.id})" if current_page else ""
+            raise RuntimeError(f'Export Aborted{page_info}, temp folder has been cleared.\nError: {e}') from e
     
     def export_page(self, page: MDPage):
         '''exports the page content to a markdown file'''
@@ -221,3 +230,28 @@ class ExportMD:
         export_file.parent.mkdir(parents=True, exist_ok=True)
         with open(export_file, "w", encoding="utf-8") as file:
             file.write(page.content)
+            
+    def move_to_main_folder(self):
+        '''Safely replaces the repo's main ref folder.
+        If this fails, the old ref is reinstated'''
+        repo_ref_dir = pathlib.Path("./ref").resolve()
+        temp_ref_dir = (self.export_root / "ref").resolve()
+        backup_ref_dir = pathlib.Path("./ref_backup_twp").resolve()
+
+        if not temp_ref_dir.exists():
+            raise FileNotFoundError(f"Source temp directory not found at {temp_ref_dir}")
+        if repo_ref_dir.exists():
+            shutil.move(str(repo_ref_dir), str(backup_ref_dir))
+
+        try:
+            shutil.move(str(temp_ref_dir), str(repo_ref_dir))
+            if backup_ref_dir.exists():
+                shutil.rmtree(backup_ref_dir)
+                
+        except Exception as e:
+            if backup_ref_dir.exists():
+                if repo_ref_dir.exists():
+                    shutil.rmtree(repo_ref_dir)
+                shutil.move(str(backup_ref_dir), str(repo_ref_dir))
+            
+            raise RuntimeError(f"Something went terribly wrong moving the folders.  Rollin' back.\nError: {e}") from e

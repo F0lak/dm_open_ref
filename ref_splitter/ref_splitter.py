@@ -153,7 +153,7 @@ class RefSplitter:
         for page in tqdm(self.pages_to_parse, desc="Processing Pages", bar_format="{l_bar}{r_bar}"):
             current_page_num += 1
             entry_refpath: str = str(page.attrs["name"])
-            logger.info(f'Parsing Page ({current_page_num}/{len(self.pages_to_parse)}): {entry_refpath}')
+            #logger.info(f'Parsing Page ({current_page_num}/{len(self.pages_to_parse)}): {entry_refpath}')
             
             desc_lists = self.format_description_lists(page)
             self.purge_elements()

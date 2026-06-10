@@ -1,17 +1,17 @@
-## ref proc
+
+## ref (proc)
 
 **Format:**
 +   ref(Object)
 
-**Args:**
+**Arguments:**
 +   Object: The object to get a reference for
 
 **Returns:**
 +   A string containing a reference ID.
-
+***
 This is a shortcut for `"\ref[Object]"`.
-
-> [!TIP] 
-> **See also:**
-> +   [\\ref text macro](/ref/DM/text/macros/ref.md) 
-> +   [locate proc](/ref/proc/locate.md) 
+***
+**Related Pages:**
++    [\ref text macro](/ref/DM/text/macros/ref)
++    [locate proc](/ref/proc/locate)

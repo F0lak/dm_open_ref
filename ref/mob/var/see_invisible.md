@@ -1,14 +1,14 @@
-## see_invisible var (mob)
 
-**Default value:**
+## see_invisible (var)
+
+**Default Value:**
 +   0
-
+***
 This is the maximum level of invisibility that the mob can see.
-
-> [!TIP] 
-> **See also:**
-> +   [invisibility var (atom)](/ref/atom/var/invisibility.md) 
-> +   [see_in_dark var (mob)](/ref/mob/var/see_in_dark.md) 
-> +   [see_infrared var (mob)](/ref/mob/var/see_infrared.md) 
-> +   [sight var (mob)](/ref/mob/var/sight.md) 
-> +   [view proc](/ref/proc/view.md) 
+***
+**Related Pages:**
++    [invisibility var (atom)](/ref/atom/var/invisibility)
++    [see_in_dark var (mob)](/ref/mob/var/see_in_dark)
++    [see_infrared var (mob)](/ref/mob/var/see_infrared)
++    [sight var (mob)](/ref/mob/var/sight)
++    [view proc](/ref/proc/view)

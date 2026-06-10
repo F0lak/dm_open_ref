@@ -479,7 +479,15 @@ The goals are:
 
     Time for some dinner and a few episodes of a show before I continue on by writing the test suite for the new export flow.
     [COMMIT [2026-06-09 16:24:16]: configures test file for ref_splitter tests and moves refsplitter fixture to conftest and removes module scope
-    
- 
     [COMMIT [2026-06-09 22:02:57]: implements e2e test happypath using test file
+    Ended up writing out a new end to end test to follow through the happy path.
+    The only thing left to do now is to automate the move over to the /ref folder, and then write some e2e tests on 
+    
+    Fantastic!  The program works!  What a happy day!
+
+    There are undoubtedly going to be some issues that have cropped up, and I will plan to automate deployment in the future, but for now, this works swimmingly!
+
+    Excellent day!  I'm satisfied with this, and am comfortable pushing this to the repo.  After all, it's for a small community of devs.  If there are any small issues
+    with any of the pages, then they'll understand and let me know.
+    [COMMIT [2026-06-09 22:45:20]: replaces remote ref with ref parsed with v2 parser program
     

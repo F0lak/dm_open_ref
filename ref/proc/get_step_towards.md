@@ -1,19 +1,18 @@
-## get_step_towards proc
+
+## get_step_towards (proc)
 
 **Format:**
 +   get_step_towards(Ref, Trg)
 
-**Returns:**
-+   The location of the new position.
-
-**Args:**
+**Arguments:**
 +   Ref: Starting point or object.
 +   Trg: An object on the map.
 
-Calculate the position of a step from `Ref` in the direction of
-`Trg`.
-
-> [!TIP] 
-> **See also:**
-> +   [step_towards proc](/ref/proc/step_towards.md) 
-> +   [walk_towards proc](/ref/proc/walk_towards.md) 
+**Returns:**
++   The location of the new position.
+***
+Calculate the position of a step from `Ref` in the direction of `Trg`.
+***
+**Related Pages:**
++    [step_towards proc](/ref/proc/step_towards)
++    [walk_towards proc](/ref/proc/walk_towards)

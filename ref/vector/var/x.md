@@ -1,10 +1,8 @@
-## x var (vector) 
-###### BYOND Version 516
 
-
+## x (var)
+***
 The x component of this vector.
-
-> [!TIP] 
-> **See also:**
-> +   [vector](/ref/vector.md) 
-> +   [vars (vector)](/ref/vector/var.md) 
+***
+**Related Pages:**
++    [vector](/ref/vector)
++    [vars (vector)](/ref/vector/var)

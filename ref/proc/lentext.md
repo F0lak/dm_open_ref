@@ -1,17 +1,20 @@
-## lentext proc 
 
-> [!IMPORTANT]
-> `lentext()` is deprecated.  Use [`length()`](/ref/proc/length.md) instead
+## lentext (proc)
 
 **Format:**
 +   lentext(T)
 
-**Returns:**
-+   The length of text T.
-
-**Args:**
+**Arguments:**
 +   T: A text string.
 
-> [!TIP] 
-> **See also:**
-> +   [length proc](/ref/proc/length.md) 
+**Returns:**
++   The length of text T.
+***
+
+> [!WARNING]
+> 
+> > [!NOTE]
+> > Use <a class="code" href="#/proc/length">length()</a> instead.
+***
+**Related Pages:**
++    [length proc](/ref/proc/length)

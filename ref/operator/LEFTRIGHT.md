@@ -1,19 +1,18 @@
-## <> operator
+
+## %3c%3e (info)
 
 **Format:**
 +   A <> B
 
 **Returns:**
 +   1 if A is not equal to B; 0 otherwise
-
-
+***
 This is identical to the != operator.
-
-> [!TIP] 
-> **See also:**
-> +   [!= operator](/ref/operator/!=.md) 
-> +   [> operator](/ref/operator/%3e.md) 
-> +   [< operator](/ref/operator/%3c.md) 
-> +   [== operator](/ref/operator/==.md) 
-> +   [operators](/ref/operator.md) 
-> +   [sorttextEx proc](/ref/proc/sorttextEx.md) 
+***
+**Related Pages:**
++    [!= operator](/ref/operator/!=)
++    [> operator](/ref/operator/%3e)
++    [< operator](/ref/operator/%3c)
++    [== operator](/ref/operator/==)
++    [operators](/ref/operator)
++    [sorttextEx proc](/ref/proc/sorttextEx)

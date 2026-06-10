@@ -1,11 +1,11 @@
-## list associations
 
-Each unique text string or object in a list may be associated
-with another value. This is done by using the item as an index into the
-list.
-### Example:
+## associations (info)
+***
+Each unique text string or object in a list may be associated with another value. This is done by using the item as an index into the list.
+
 
 ```dm
+
 var/params[0]
 
 params["player"] = "James Byond"
@@ -24,60 +24,52 @@ var/i
 for(i=1,i<=params.len,i++)
    p = params[i]
    usr << "[p] = [params[p]]"
+
 ```
- 
-The above example illustrates the
-typical way in which list associations are managed. Note that an item in
-the list may be added by assigning its associated value. The example
-could have started by doing `params.Add("player","score")`, but that
-would have been redundant. 
 
-Both `for` loops in the example have
-the same effect. The first one loops through each item in the list, and
-displays it along with its associated value. The second loop achieves
-the same thing by looping through the numerical indices (referred to as
-*array* indices as opposed to *associative* indices). 
 
-Since numeric indices are treated differently, accessing the Nth item in the
-list, you may not assign an associated value to a numeric list item.
-Associations must have a text string or object reference as the index
-item. (`alist()` is an exception to this, and can use numeric
-associations. See [alist()](/ref/list/alist.md)  for more information.)
+The above example illustrates the typical way in which list associations are managed. Note that an item in the list may be added by assigning its associated value. The example could have started by doing <code>params.Add("player","score")</code>, but that would have been redundant.
 
-Associated values default to null if none is assigned. This is
-also the value returned when the supplied index item does not exist in
-the list. The list defined above, for example, would return null for
-`params["time"]`. 
+Both <code>for</code> loops in the example have the same effect. The first one loops through each item in the list, and displays it along with its associated value. The second loop achieves the same thing by looping through the numerical indices (referred to as <em>array</em> indices as opposed to <em>associative</em> indices).
 
-The [list()](/ref/proc/list.md)  or [alist()](/ref/proc/alist.md)  instructions may also be used to create
-associative lists.
-### Example:
+Since numeric indices are treated differently, accessing the Nth item in the list, you may not assign an associated value to a numeric list item. Associations must have a text string or object reference as the index item. (`alist()` is an exception to this, and can use numeric associations. See <a class="code" href="#/list/alist">alist()</a> for more information.)
+
+Associated values default to null if none is assigned. This is also the value returned when the supplied index item does not exist in the list. The list defined above, for example, would return null for <code>params["time"]</code>.
+
+The <a class="code" href="#/proc/list">list()</a> or <a class="code" href="#/proc/alist">alist()</a> instructions may also be used to create associative lists.
+
 
 ```dm
- var/list/lst = list("player" = "James Byond", "score" = 2000) 
+
+var/list/lst = list("player" = "James Byond", "score" = 2000)
+
 ```
- 
-When the index values happen to be
-text strings that satisfy all the requirements for variable names, this
-may also be written in a convenient short-hand: 
+
+
+When the index values happen to be text strings that satisfy all the requirements for variable names, this may also be written in a convenient short-hand:
+
+
 ```dm
-var/list/lst = list(player = "James Byond", score = 2000) 
+
+var/list/lst = list(player = "James Byond", score = 2000)
+
 ```
 
-In other words, this is exactly the same syntax as for [named
-arguments](/ref/proc/arguments/named.md) . 
 
-The [`alist`
-proc](/ref/proc/alist.md) creates lists that are *strictly* associative. This
-means that list items are treated as "keys" in key,value pairs. Unlike
-a regular list, each "key" is unique.
+In other words, this is exactly the same syntax as for <a href="#/proc/arguments/named">named arguments</a>.
 
-> [!TIP] 
-> **See also:**
-> +   [list](/ref/list.md) 
-> +   [list proc](/ref/proc/list.md) 
-> +   [list proc](/ref/proc/alist.md) 
-> +   [list2params proc](/ref/proc/list2params.md) 
-> +   [params var (world)](/ref/world/var/params.md) 
-> +   [params2list proc](/ref/proc/params2list.md) 
-> +   [vars list var (datum)](/ref/datum/var/vars.md) 
+The <a href="#/proc/alist">`alist` proc</a> creates lists that are *strictly* associative. This means that list items are treated as "keys" in key,value pairs. Unlike a regular list, each "key" is unique.
+***
+**Related Pages:**
++    [list](/ref/list)
++    [list proc](/ref/proc/list)
++    [alist proc](/ref/proc/alist)
++    [list2params](/ref/proc/list2params)
++    [params](/ref/world/var/params)
++    [params2list proc](/ref/proc/params2list)
++    [vars](/ref/datum/var/vars)
++    [values_sum proc](/ref/proc/values_sum)
++    [values_product proc](/ref/proc/values_product)
++    [values_dot proc](/ref/proc/values_dot)
++    [values_cut_over proc](/ref/proc/values_cut_over)
++    [values_cut_under proc](/ref/proc/values_cut_under)

@@ -1,27 +1,28 @@
-## file2text proc
+
+## file2text (proc)
 
 **Format:**
 +   file2text(File)
 
-**Args:**
+**Arguments:**
 +   File: file to read
 
 **Returns:**
 +   the contents of the file.
+***
+This can be useful when interacting with external applications that generate output in a text file. For example, you might have an external program that mimics conversation:
 
-This can be useful when interacting with external applications
-that generate output in a text file. For example, you might have an
-external program that mimics conversation:
-### Example:
 
 ```dm
+
 mob/oracle/verb/tell(T as text)
   text2file(T,"talk.in")
   shell("talk < talk.in > talk.out")
   usr << file2text("talk.out")
+
 ```
 
-> [!TIP] 
-> **See also:**
-> +   [shell proc](/ref/proc/shell.md) 
-> +   [text2file proc](/ref/proc/text2file.md) 
+***
+**Related Pages:**
++    [shell proc](/ref/proc/shell)
++    [text2file proc](/ref/proc/text2file)

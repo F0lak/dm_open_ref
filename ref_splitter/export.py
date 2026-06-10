@@ -224,7 +224,8 @@ class ExportMD:
         if page.is_index:
             export_file = self.export_root / "ref" / clean_filepath / "index.md"
         else:
-            export_file = self.export_root / "ref" / pathlib.Path(f"{clean_filepath}.md")
+            parts = clean_filepath.replace("\\", "/").split("/")
+            export_file = self.export_root / "ref" / pathlib.Path(*parts).with_suffix(".md")
             
         #logger.info(f"Writing {export_file}")
         export_file.parent.mkdir(parents=True, exist_ok=True)
